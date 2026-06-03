@@ -1,0 +1,129 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0022
+Commenter: Alex Vega - CTO, EasyPA.ai
+Source: Inline Comment
+Analysis Date: June 3, 2026 10:24:44
+==================================================
+
+**1. COMMENTER INFORMATION**
+- Author: Alex Vega
+- Stakeholder type: Technology Vendor (AI-powered prior authorization platform)
+- Credentials: CTO and Co-founder of EasyPA.ai, practical field experience with EMR integration, clearinghouse systems, and payer automation workflows
+
+**2. EXECUTIVE SUMMARY**
+Alex Vega, CTO of an AI-powered PA automation platform, strongly supports the rule's direction while providing detailed technical implementation guidance. He emphasizes the need for hybrid HL7v2/FHIR infrastructure, structured coded denial reasons (not free text), end-to-end API testing requirements, machine-readable payer requirements, and nuanced AI transparency distinguishing between model types. His comments reflect frontline experience automating PA workflows across diverse healthcare IT environments.
+
+**3. REGULATORY CONTEXT**
+- Specific sections/provisions addressed: Electronic prior authorization for drugs, FHIR adoption for HIPAA-covered PA transactions, decision timeframes, specific denial reasons, payer API implementation
+- Regulatory citations mentioned: CMS-0062-P, October 1, 2027 compliance date
+- Standards referenced: FHIR, HL7v2, Da Vinci CDex IG (Clinical Data Exchange), CRD, DTR, PAS implementation guides, HIPAA
+
+**4. DETAILED POSITIONS**
+
+**Topic: Overall Rule Direction**
+- Position: Strong Support
+- Rationale: Reduces provider burden, improves patient access, creates structured data foundation for trustworthy automation
+- Specific request: Finalize rule with technical refinements
+
+**Topic: HL7v2 to FHIR Transition**
+- Position: Modify - Acknowledge hybrid reality
+- Rationale: HL7v2 still dominates clinical messaging; smaller payers, rural providers, regional plans, and state Medicaid systems cannot rebuild in 17 months
+- Specific request: Explicitly recognize bidirectional HL7v2-to-FHIR conversion as compliant pathway if FHIR endpoint conforms to required implementation guides
+
+**Topic: Structured Denial Reasons**
+- Position: Strengthen - Require coded values
+- Rationale: Free text cannot be reliably parsed for appeals, automated resubmission, or population analysis; structured codes unlock all three
+- Specific request: Require denial reasons expressed using structured FHIR coded values, not free-text strings
+
+**Topic: CDex Attachments**
+- Position: Support with enhancement
+- Rationale: Real-world PA still uses PDFs and scanned documents; CDex preserves flexibility while creating clean envelope
+- Specific request: Push payers to publish machine-readable data element requirements for each PA scenario to prevent chart-dumping
+
+**Topic: Payer API Testing and Compliance**
+- Position: Strengthen enforcement
+- Rationale: Many published FHIR endpoints fail in production; self-attestation has not produced reliable interoperability
+- Specific request: Require end-to-end testing against published test scripts with annual results filing alongside API usage metrics
+
+**Topic: AI Transparency**
+- Position: Support with nuance
+- Rationale: Different AI systems (classification models vs. generative models) have distinct capabilities and risk profiles
+- Specific request: Distinguish model types in future rulemaking; require transparency on which models are used at each decision point, especially for denials
+
+**Topic: Implementation Timeline**
+- Position: Support - Achievable with caveats
+- Rationale: October 1, 2027 is achievable for payers beginning work now with access to interoperability infrastructure
+- Specific request: Support hybrid HL7v2/FHIR pathways to make timeline realistic for all stakeholders
+
+**5. RECOMMENDATIONS**
+1. Explicitly recognize bidirectional HL7v2-to-FHIR conversion as compliant pathway if FHIR endpoints conform to required IGs
+2. Require structured FHIR coded values for denial reasons instead of free-text strings
+3. Push payers to publish machine-readable data element requirements for each PA scenario
+4. Require end-to-end API testing against published test scripts with annual results reporting
+5. Distinguish between AI model types (classification vs. generative) in future AI rulemaking
+6. Require transparency on which AI model types are used at each PA decision point
+7. Support hybrid infrastructure approaches to make October 1, 2027 timeline achievable for smaller payers and rural providers
+
+**6. CONCERNS & OBJECTIONS**
+- Primary concerns: Smaller payers and rural providers cannot rebuild systems by compliance date; free-text denial reasons prevent automation; uneven API compliance; lack of published payer requirements forces chart-dumping; self-attestation insufficient for reliable interoperability
+- Potential negative impacts cited: Binary outcomes for smaller entities (full rip-and-replace or non-compliance); neither serves patients
+- Implementation barriers mentioned: 17-month timeline insufficient for core system rebuilds; HL7v2 still dominates clinical messaging; many published FHIR endpoints fail basic conformance testing
+
+**7. SUPPORTING EVIDENCE**
+- Data or statistics cited: HL7v2 moves majority of clinical messages in US today; 17 months until compliance date
+- Studies or research referenced: Practical field experience with EMRs, clearinghouses, and payers
+- Examples provided: Smaller payers, rural providers, regional plans, state Medicaid systems; real-world PA using PDFs and scanned documents; published FHIR endpoints failing in production
+
+**8. IMPACT ASSESSMENT**
+- Affected stakeholders: Medical practices, payers, smaller regional plans, rural providers, state Medicaid systems, EMR vendors, clearinghouses, patients, AI vendors
+- Economic implications: Infrastructure investment required; avoiding binary rip-and-replace scenarios; enabling automation downstream
+- Technical feasibility: Achievable with hybrid approaches; challenging without HL7v2 bridge infrastructure; requires end-to-end testing
+- Patient care impact: Improved provider burden reduction, better patient access, more reliable automation, reduced chart-dumping
+
+**9. SENTIMENT ANALYSIS**
+- Overall position: Strongly Supportive with practical implementation guidance
+- Tone: Technical, pragmatic, field-informed, solution-oriented
+- Priority level: High
+
+**10. KEY QUOTES**
+1. "HL7v2 still moves the majority of clinical messages between EMRs, hospitals, labs, and pharmacies in the United States today. FHIR adoption is real and accelerating, but smaller payers, rural providers, regional plans, and many state Medicaid systems will not have rebuilt their cores in the next 17 months."
+
+2. "Free text cannot be reliably parsed for appeals, automated resubmission, or population-level analysis. Structured denial reasons unlock all three and create the data exhaust CMS itself will need to evaluate whether this rule is working."
+
+3. "API compliance is uneven today. Many published FHIR endpoints fail in production on issues that basic conformance testing would catch. CMS should require end-to-end testing against published test scripts, with results filed annually alongside the API usage metrics already proposed in this rule."
+
+4. "The technical reality is that different AI systems do very different things in this workflow. Classification models triage and route. Generative models draft appeals and summarize clinical documentation. These are distinct capabilities with distinct risk profiles."
+
+**11. THEMES**
+- Interoperability
+- Implementation Timeline
+- AI/ML
+- Provider Burden
+- Cost/Resources
+- Certification (API testing)
+
+==================================================
+ORIGINAL COMMENT (COMPLETE)
+------------------------
+Re: CMS-0062-P, 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+I am the CTO and co-founder of EasyPA.ai, an AI-powered prior authorization platform serving medical practices. We work daily across EMRs, clearinghouses, and payers to automate prior authorization workflows. The proposals in CMS-0062-P will materially change the infrastructure our customers and partners operate on, so I want to share field perspective on what will work, what will struggle, and what CMS can do to make this rule succeed.
+Overall support
+EasyPA.ai strongly supports the direction of this rule. Extending electronic prior authorization to drugs, adopting FHIR for HIPAA-covered PA transactions, aligning decision timeframes, and requiring specific reasons for denial are the right calls. They reduce burden on providers, improve patient access, and create the structured data foundation needed for trustworthy automation downstream.
+HL7v2 is not going away by October 1, 2027
+CMS should plan for a hybrid reality. HL7v2 still moves the majority of clinical messages between EMRs, hospitals, labs, and pharmacies in the United States today. FHIR adoption is real and accelerating, but smaller payers, rural providers, regional plans, and many state Medicaid systems will not have rebuilt their cores in the next 17 months. They will depend on bridge infrastructure that translates between HL7v2 and FHIR in both directions.
+We recommend CMS explicitly acknowledge bidirectional HL7v2 to FHIR conversion as a compliant pathway, provided the FHIR endpoint exposed to trading partners conforms to the required implementation guides. Without this, smaller plans and rural providers will face binary outcomes: full rip-and-replace, or fall out of compliance. Neither serves patients.
+Specific reason for denial: require structured codes, not free text
+The requirement to provide a specific reason for denying drug PA requests is one of the most important provisions in this rule. To make it actually useful for providers and patients, CMS should require denial reasons to be expressed using structured FHIR coded values, not free-text strings. Free text cannot be reliably parsed for appeals, automated resubmission, or population-level analysis. Structured denial reasons unlock all three and create the data exhaust CMS itself will need to evaluate whether this rule is working.
+CDex attachments: preserve flexibility, push for structured exchange where possible
+Real-world PA submissions still lean heavily on PDFs, scanned documents, and faxed clinical notes. Adopting the Da Vinci CDex IG is the right move because it preserves that flexibility while creating a clean envelope. We support this. We also encourage CMS to push payers to publish, in machine-readable form, exactly which data elements they require for each PA scenario, so providers stop sending entire charts to cover unknown payer requirements.
+Response to RFI on payer API implementation
+API compliance is uneven today. Many published FHIR endpoints fail in production on issues that basic conformance testing would catch. CMS should require end-to-end testing against published test scripts, with results filed annually alongside the API usage metrics already proposed in this rule. Self-attestation alone has not produced reliable interoperability and will not produce it for drug PA either.
+On AI in the prior authorization pipeline
+CMS will receive many comments invoking artificial intelligence. The technical reality is that different AI systems do very different things in this workflow. Classification models triage and route. Generative models draft appeals and summarize clinical documentation. These are distinct capabilities with distinct risk profiles. Any future rulemaking on AI in prior authorization should make this distinction explicit and require transparency on which model types are used at each decision point, particularly when AI contributes to a denial.
+Closing
+The October 1, 2027 compliance date is achievable for payers that begin work now and that can access interoperability infrastructure built on open standards. EasyPA.ai is committed to supporting that transition through purpose-built tooling, including our HL7v2 to FHIR converter available on AWS Marketplace.
+Thank you for the opportunity to comment.
+Respectfully,
+Alex Vega
+CTO, EasyPA.ai

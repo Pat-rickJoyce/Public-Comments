@@ -1,0 +1,164 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0020
+Commenter: Dr. Thomas Rayner, MD - Chief Medical Officer, Whole Mind
+Source: Inline Comment
+Analysis Date: June 3, 2026 10:24:44
+==================================================
+
+**1. COMMENTER INFORMATION**
+- Author: Dr. Thomas Rayner, MD
+- Stakeholder type: Healthcare Provider (Psychiatrist and Medical Leader)
+- Credentials: Practicing psychiatrist, Chief Medical Officer at Whole Mind, specializes in treating severe and treatment-resistant psychiatric illness
+
+**2. EXECUTIVE SUMMARY**
+Dr. Rayner, a psychiatrist and CMO specializing in treatment-resistant psychiatric illness, strongly supports the proposed rule's improvements to PA transparency, interoperability, and timeliness. He emphasizes critical need for reforms specifically for advanced psychiatric treatments like Spravato and TMS, where PA delays can have life-threatening consequences for vulnerable patients with treatment-resistant depression and suicidality. He provides detailed recommendations for expedited psychiatric review standards, reduced redundant documentation, improved denial transparency, and recognition of behavioral health conditions as time-sensitive medical emergencies.
+
+**3. REGULATORY CONTEXT**
+- Specific sections/provisions addressed: Electronic prior authorization capabilities, standardized response timelines, specific reasons for denials, public reporting requirements
+- Regulatory citations mentioned: CMS-0062-P
+- Standards referenced: Electronic prior authorization, interoperability standards
+
+**4. DETAILED POSITIONS**
+
+**Topic: Electronic Prior Authorization Requirements**
+- Position: Strong Support
+- Rationale: Current PA processes for psychiatric treatments are burdensome, inconsistent, duplicative, and excessively delayed
+- Specific request: Require electronic PA capabilities for drugs and medical services
+
+**Topic: Standardized Response Timelines**
+- Position: Strong Support
+- Rationale: Delays in psychiatric treatment access can result in clinical deterioration, hospitalization, ED utilization, and self-harm
+- Specific request: Establish standardized timelines with expedited standards for serious psychiatric conditions
+
+**Topic: Specific Reasons for Denials**
+- Position: Strong Support
+- Rationale: Generic denial language creates unnecessary appeals and delays
+- Specific request: Require clinically meaningful explanations including exact missing criteria and rationale
+
+**Topic: Public Reporting and Transparency**
+- Position: Strong Support
+- Rationale: Increases accountability and identifies systemic barriers
+- Specific request: Increase public reporting of PA metrics
+
+**Topic: Expedited Review for Psychiatric Emergencies**
+- Position: Strengthen beyond proposal
+- Rationale: Psychiatric illnesses can rapidly worsen; delays measured in weeks can be life-threatening
+- Specific request: Explicitly include treatment-resistant depression, suicidality, and serious psychiatric conditions in expedited review standards
+
+**Topic: Step Therapy Requirements**
+- Position: Modify - Reduce redundancy
+- Rationale: Patients seeking Spravato/TMS have already failed multiple treatments; excessive step therapy unnecessarily delays care
+- Specific request: Limit step therapy to established clinical guidelines; eliminate redundant documentation
+
+**Topic: Continuity of Care**
+- Position: Strengthen
+- Rationale: Stabilized patients should not face repeated interruptions from recurring administrative barriers
+- Specific request: Protect continuity for patients responding to Spravato or TMS
+
+**Topic: Standardization Across Payers**
+- Position: Support
+- Rationale: Significant variability in psychiatric PA criteria (especially TMS) creates burden and inequitable access
+- Specific request: Encourage greater standardization of criteria across payers
+
+**Topic: Recognition of Behavioral Health Severity**
+- Position: Strengthen
+- Rationale: Behavioral health conditions carry significant morbidity, mortality, disability, and healthcare utilization
+- Specific request: Treat psychiatric PA with same urgency as other high-risk medical conditions
+
+**5. RECOMMENDATIONS**
+1. Require electronic prior authorization capabilities for drugs and medical services
+2. Establish standardized response timelines for prior authorizations
+3. Require specific, clinically meaningful reasons for denials with exact missing criteria
+4. Increase public reporting and transparency regarding prior authorization metrics
+5. Explicitly include severe treatment-resistant depression, suicidality, and serious psychiatric conditions in expedited review standards
+6. Reduce redundant step therapy beyond established clinical guidelines for psychiatric treatments
+7. Improve transparency around denials with exact missing criteria and rationale
+8. Promote continuity of care for patients stabilized on Spravato or TMS
+9. Encourage greater standardization of psychiatric PA criteria across payers
+10. Recognize behavioral health conditions as time-sensitive, high-risk medical conditions requiring urgent review
+
+**6. CONCERNS & OBJECTIONS**
+- Primary concerns: Life-threatening delays for vulnerable psychiatric patients; inconsistent and duplicative PA processes; excessive step therapy requirements; generic denial language; lack of recognition of psychiatric emergency severity; repeated treatment interruptions for stabilized patients
+- Potential negative impacts cited: Clinical deterioration, psychiatric hospitalization, emergency department utilization, self-harm risk, increased healthcare costs, prolonged patient suffering
+- Implementation barriers mentioned: Inconsistent payer criteria (especially for TMS); repetitive authorization requirements; lack of standardization across payers
+
+**7. SUPPORTING EVIDENCE**
+- Data or statistics cited: None explicitly, but references clinical patterns
+- Studies or research referenced: Strong evidence base for Spravato and TMS as safe and effective treatments for treatment-resistant depression
+- Examples provided: Treatment-resistant depression, severe suicidal ideation, OCD; patients with substantial functional decline, hospitalization risk, inability to work, profound daily living impairment
+
+**8. IMPACT ASSESSMENT**
+- Affected stakeholders: Patients with severe psychiatric illness, psychiatrists, psychiatric treatment facilities, payers, emergency departments, hospitals
+- Economic implications: Reduced downstream healthcare costs from preventing psychiatric hospitalizations and ED utilization
+- Technical feasibility: Electronic PA systems can support standardized psychiatric workflows
+- Patient care impact: Reduced clinical deterioration, lower hospitalization risk, decreased self-harm risk, improved access to evidence-based treatments, reduced suffering
+
+**9. SENTIMENT ANALYSIS**
+- Overall position: Strongly Supportive with recommendations for psychiatric-specific enhancements
+- Tone: Professional, clinical, urgent, evidence-based, patient-safety focused
+- Priority level: High
+
+**10. KEY QUOTES**
+1. "Patients who qualify for Spravato or TMS often suffer from treatment-resistant depression, severe suicidal ideation, obsessive-compulsive disorder, or other highly impairing psychiatric conditions...Delays in treatment access can therefore result in serious clinical deterioration, psychiatric hospitalization, emergency department utilization, self-harm risk, and increased healthcare costs."
+
+2. "Psychiatric illnesses can rapidly worsen when treatment is delayed. Expedited review standards should explicitly include severe treatment-resistant depression, suicidality, and other serious psychiatric conditions. Delays measured in weeks can have life-threatening consequences."
+
+3. "Providers should receive clinically meaningful explanations for denials, including the exact missing criteria, records, or rationale. Generic denial language creates unnecessary appeals, delays, and administrative waste."
+
+4. "Behavioral health conditions often carry significant morbidity, mortality, disability, and healthcare utilization. Prior authorization systems should account for the time-sensitive and medically serious nature of psychiatric care similarly to other high-risk medical conditions."
+
+**11. THEMES**
+- Interoperability
+- Patient Access
+- Provider Burden
+- Implementation Timeline
+- Health Equity
+- Patient Safety (behavioral health emergencies)
+
+==================================================
+ORIGINAL COMMENT (COMPLETE)
+------------------------
+CMS-0062-P — 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+
+To Whom It May Concern:
+
+I am writing in strong support of CMS's proposed efforts to improve prior authorization transparency, interoperability, and timeliness under CMS-0062-P. As a practicing psychiatrist and medical leader involved in treating patients with severe and treatment-resistant psychiatric illness, I believe these reforms are critically needed—particularly for advanced psychiatric treatments such as Spravato (esketamine) and Transcranial Magnetic Stimulation (TMS).
+
+Patients who qualify for Spravato or TMS often suffer from treatment-resistant depression, severe suicidal ideation, obsessive-compulsive disorder, or other highly impairing psychiatric conditions. These individuals have frequently failed multiple traditional medication trials and may be experiencing substantial functional decline, hospitalization risk, suicidality, inability to work, or profound impairment in daily living. Delays in treatment access can therefore result in serious clinical deterioration, psychiatric hospitalization, emergency department utilization, self-harm risk, and increased healthcare costs.
+
+Current prior authorization processes for advanced psychiatric treatments are frequently burdensome, inconsistent, duplicative, and excessively delayed. Providers are often required to repeatedly submit documentation that already clearly demonstrates medical necessity. These delays create significant administrative burden while placing vulnerable patients at substantial clinical risk.
+
+The patients needing these treatments have already undergone extensive medication trials and psychotherapy before being considered for treatment. Yet providers commonly encounter repetitive authorization requirements, inconsistent payer criteria, and repeated requests for documentation that delay access to care. These barriers are especially concerning given the strong evidence base supporting these treatments as safe and effective treatment for treatment-resistant depression and other psychiatric disorders.
+
+I strongly support CMS proposals that would:
+
+• Require electronic prior authorization capabilities for drugs and medical services
+• Establish standardized response timelines for prior authorizations
+• Require specific reasons for denials
+• Increase public reporting and transparency regarding prior authorization metrics
+
+I also encourage CMS to consider the following additional protections and clarifications for psychiatric treatments such as Spravato and TMS:
+
+Enforce Rapid Review Standards for Serious Psychiatric Conditions
+Psychiatric illnesses can rapidly worsen when treatment is delayed. Expedited review standards should explicitly include severe treatment-resistant depression, suicidality, and other serious psychiatric conditions. Delays measured in weeks can have life-threatening consequences.
+Reduce Redundant Step Therapy and Documentation Requirements
+Many patients seeking Spravato or TMS have already failed multiple evidence-based treatments. Excessive or repetitive step therapy beyond established clinical guidelines unnecessarily delays medically necessary care and prolongs suffering.
+Improve Transparency Around Denials
+Providers should receive clinically meaningful explanations for denials, including the exact missing criteria, records, or rationale. Generic denial language creates unnecessary appeals, delays, and administrative waste.
+Promote Continuity of Care
+Patients who are stabilized and responding to Spravato or TMS should not face repeated interruptions due to recurring administrative barriers. Continuity of treatment is especially important in severe psychiatric illness.
+Encourage Greater Standardization Across Payers
+Significant variability exists among payers regarding psychiatric prior authorization criteria, particularly for TMS. Greater standardization would reduce administrative burden and improve equitable patient access to evidence-based care.
+Recognize the Severity of Behavioral Health Conditions
+Behavioral health conditions often carry significant morbidity, mortality, disability, and healthcare utilization. Prior authorization systems should account for the time-sensitive and medically serious nature of psychiatric care similarly to other high-risk medical conditions.
+
+CMS's proposed interoperability and prior authorization reforms represent an important step toward improving patient access, reducing administrative waste, and supporting timely evidence-based care. These reforms can meaningfully improve outcomes for patients suffering from severe mental illness while reducing downstream healthcare costs associated with untreated or undertreated psychiatric disease.
+
+Thank you for the opportunity to comment on this important proposed rule.
+
+Sincerely,
+
+Thomas Rayner, MD
+Chief Medical Officer
+Whole Mind

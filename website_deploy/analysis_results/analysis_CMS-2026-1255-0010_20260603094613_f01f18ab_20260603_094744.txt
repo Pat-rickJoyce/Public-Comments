@@ -1,0 +1,249 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0010
+Commenter: Akken Yakupitiyage, Founder, Zkeleton
+Source: PDF Attachment
+Analysis Date: June 3, 2026 09:47:44
+==================================================
+
+**1. COMMENTER INFORMATION**
+- Author/Organization name: Akken Yakupitiyage, Founder, Zkeleton
+- Stakeholder type: Technology Vendor (pre-seed company building clinical data normalization infrastructure)
+- Credentials or expertise mentioned: Founder of Zkeleton; technical expertise informed by direct engagement with FHIR standards documents, Da Vinci implementation guides, and conversations with Medicaid and Medicare Advantage leaders. Explicitly states no regulatory obligation or direct commercial position in rulemaking outcome.
+
+**2. EXECUTIVE SUMMARY**
+This comment addresses the critical gap between technical conformance to FHIR implementation guides and the practical usability of health data. While supporting CMS's advancement of interoperability through API requirements, the commenter identifies that fully conformant implementations can still transmit data that receiving payers cannot operationalize without manual review. The comment proposes five specific recommendations including semantic fidelity benchmarks, requirements for structured data transmission, round-trip scenario testing, public fidelity scoring, and clarification on segregated processing environments.
+
+**3. REGULATORY CONTEXT**
+- Specific sections/provisions addressed: Section III.C (Improving Implementation of Payer Application Programming Interface Technology); Section II.E (API endpoint registry); CMS-0057-F (2024 final rule); October 1, 2027 compliance date
+- Regulatory citations mentioned: CMS-0062-P; CMS-0057-F; CMS-2026-1255-0001 (docket); Initial Regulatory Flexibility Analysis (Section V.F)
+- Standards referenced: FHIR; HL7 FHIR Da Vinci Prior Authorization Support; Clinical Data Exchange (CDex); Payer Data Exchange (PDex); LOINC; RxNorm; RXCUI; NDC; DocumentReference resources; Observation resources; ONC Inferno reference implementation; HIPAA
+
+**4. DETAILED POSITIONS**
+
+**Topic: The Conformance Gap**
+- Position: Concerned - Requires Additional Requirements
+- Rationale: Conformance and usability are not the same property. Implementations can be fully conformant while emitting payloads that require substantial human review or manual re-keying. The rule does not require upstream payers to send data in a form that preserves operational meaning.
+- Specific request: Address the gap between technical conformance and practical usability through additional requirements and testing.
+
+**Topic: Unstructured Attachments Under CDex**
+- Position: Oppose Current Permissiveness
+- Rationale: CDex permits clinical attachments as unstructured DocumentReference resources (base64-encoded PDFs). Two payers can both pass conformance testing while one transmits structured LOINC-coded lab Observation resources and the other transmits scanned PDFs. Both are conformant, but only one is usable downstream without OCR and manual extraction.
+- Specific request: Distinguish between structured and unstructured transmission in conformance requirements.
+
+**Topic: Code System Fragmentation**
+- Position: Concerned - Requires Standardization
+- Rationale: Step therapy criteria, prior treatment failures, and contraindications are expressed in different code systems by different payers (RxNorm RXCUI, NDC, payer-internal identifiers, free text). Only standardized encodings enable automated processing; others require manual review.
+- Specific request: Mandate encoding that preserves semantic specificity required for automated processing.
+
+**Topic: Semantic Loss Across Payer-to-Payer Handoff**
+- Position: Concerned - Requires Preservation Standards
+- Rationale: PDex transfers are mapped multiple times (source system to FHIR to receiving system). No specification-level requirement exists to preserve or reconstruct structured decision logic. Members who cleared step therapy at one payer may be forced to repeat it at the next.
+- Specific request: Require preservation of structured decision logic across payer transitions.
+
+**Topic: Round-Trip Scenario Testing**
+- Position: Support with New Testing Framework
+- Rationale: Current testing tools (ONC Inferno) focus on endpoint conformance (API response, resource validation, bundle structure). No widely adopted test asks whether clinically meaningful scenarios can be transmitted and rendered into coverage decisions without semantic loss. Endpoint conformance tells nothing about whether system works for patients.
+- Specific request: Develop and require round-trip scenario testing for high-stakes clinical scenarios.
+
+**Topic: Patient Matching Quality**
+- Position: Concerned - Requires Standards
+- Rationale: Patient matching across payers is governed by internal algorithms. Conformant exchanges may transmit data for wrong patient or fail to resolve the same patient depending on demographic data quality and matching thresholds.
+- Specific request: Set expectations for matching quality or transparency.
+
+**Topic: Semantic Fidelity Benchmarks**
+- Position: Strongly Support - Recommend Implementation
+- Rationale: Benchmarks would measure percentage of data conveyed in structured, operationalizable formats versus unstructured formats. Publishing benchmarks creates market signal for quality even without being pass-fail gates.
+- Specific request: CMS work with ONC, HL7, and Da Vinci Project to define measurable benchmarks for common clinical data categories (lab results with LOINC codes, medication histories with RxNorm RXCUIs, prior authorization decisions with structured rationale).
+
+**Topic: Structured Data Transmission Requirements**
+- Position: Strongly Support - Recommend Mandate
+- Rationale: CDex permits but does not require structured attachments. When source data exists in structured form, payers should transmit it in structured form. PDF wrapping of natively structured data should be discouraged.
+- Specific request: Establish that when source data exists in structured form within originating payer's systems, payer must transmit it in structured form across Provider Access, Payer-to-Payer, and Prior Authorization APIs.
+
+**Topic: Reference Test Corpus for Round-Trip Scenarios**
+- Position: Strongly Support - Recommend Development
+- Rationale: Corpus would enable testing whether scenarios can be transmitted, received, and operationalized without semantic loss. Should cover high-volume and high-stakes patterns where fidelity loss falls most heavily on patients.
+- Specific request: CMS, ONC, and Da Vinci Project publish reference set covering specialty drugs with prior step therapy, oncology with biomarker-based eligibility, transplant immunosuppressants, autoimmune biologics.
+
+**Topic: Data Fidelity Score Publication**
+- Position: Strongly Support - Recommend Implementation
+- Rationale: Publishing fidelity indicators alongside API endpoint registry gives receiving payers, providers, and patients basis for understanding upstream quality. Creates market incentive for payers to invest in fidelity beyond conformance.
+- Specific request: Include small set of fidelity indicators per impacted payer in API endpoint registry publication, derived from semantic fidelity benchmarks.
+
+**Topic: Segregated Processing Environments**
+- Position: Support - Recommend Clarification
+- Rationale: Some payers may wish to operate dedicated, isolated environments for ingestion and normalization of clinical data for security and liability segregation. Consistent with HIPAA and minimum necessary access principles, but rule does not address.
+- Specific request: Clarify that conformance and testing framework does not prohibit payers from staging, normalizing, or quality-checking ingested data in separate environment before promoting to operational systems.
+
+**Topic: Implementation Timeline Considerations**
+- Position: Concerned about Timing Tradeoffs
+- Rationale: Adding fidelity benchmarks and reference test corpus on top of October 1, 2027 compliance date risks slowing implementation, particularly for state Medicaid Fee-for-Service and small Medicaid managed care plans with limited resources.
+- Specific request: Consider phasing fidelity reporting separately from conformance, with fidelity benchmarks twelve to eighteen months after conformance compliance date.
+
+**Topic: Risk of Premature Standardization**
+- Position: Cautious
+- Rationale: Tooling for semantic preservation across payer boundaries is still maturing. Locking in specific approaches before industry convergence could entrench suboptimal patterns.
+- Specific request: Frame recommendations as benchmarks and test corpora rather than fixed technical mandates to allow approaches to evolve while creating accountability.
+
+**Topic: Burden on Small Entities**
+- Position: Concerned - Recommend Accommodation
+- Rationale: Initial Regulatory Flexibility Analysis (Section V.F) identifies cost concerns for small payers. Fidelity testing adds incremental burden.
+- Specific request: Consider whether fidelity benchmarks should initially apply only to larger payers, with smaller payers reporting on delayed timeline or under modified expectations.
+
+**5. RECOMMENDATIONS**
+1. Establish semantic fidelity benchmarks alongside conformance testing, working with ONC, HL7, and Da Vinci Project
+2. Define measurable benchmarks for common clinical data categories: percentage of lab results as structured Observation resources with LOINC codes, percentage of medication histories with RxNorm RXCUIs, percentage of prior authorization decisions with structured rationale
+3. Require structured representation when source representation is structured - establish that when source data exists in structured form, payer must transmit it in structured form
+4. Discourage PDF wrapping of natively structured data through testing and certification framework
+5. Develop reference test corpus for round-trip scenarios covering specialty drugs with prior step therapy, oncology with biomarker-based eligibility, transplant immunosuppressants, autoimmune biologics
+6. Require payers to demonstrate scenarios can be transmitted, received, and operationalized without semantic loss
+7. Publish data fidelity score alongside API endpoint registry, including fidelity indicators per impacted payer
+8. Clarify compatibility of segregated processing environments for data ingestion, normalization, and quality-checking
+9. Phase fidelity reporting separately from conformance, with fidelity benchmarks twelve to eighteen months after conformance compliance date
+10. Frame recommendations as benchmarks and test corpora rather than fixed technical mandates
+11. Consider applying fidelity benchmarks initially only to larger payers, with smaller payers on delayed timeline or modified expectations
+12. Set expectations for patient matching quality or transparency across payers
+
+**6. CONCERNS & OBJECTIONS**
+
+**Primary Concerns:**
+- Gap between technical conformance to FHIR implementation guides and practical usability of data
+- Fully conformant implementations can emit payloads requiring substantial human review or manual re-keying
+- Rule does not require upstream payers to send data in form that preserves operational meaning
+- CDex permits unstructured attachments (base64-encoded PDFs) that pass conformance but are not operationalizable
+- Code system fragmentation forces manual review instead of enabling automated processing
+- Semantic loss across payer-to-payer handoffs - no requirement to preserve structured decision logic
+- Members forced to repeat step therapy at new payer because prior failure history cannot be operationalized
+- Current testing tools focus on endpoint conformance, not whether system works for patients
+- Patient matching algorithms vary across payers with no quality or transparency standards
+- These patterns surface consistently in technical analysis and payer conversations
+
+**Potential Negative Impacts Cited:**
+- Patients asked to fail step therapy alternatives again at new plan despite having already failed them at previous plan
+- Delay translates directly into harm for specialty drugs, oncology regimens, autoimmune biologics
+- Cost of fidelity loss falls most heavily on patients in high-stakes clinical scenarios
+- Data moves but arrives in form receiving payer cannot act on
+- Member care depends on data, but receiving payers must conduct substantial human review
+- Conformant but unusable data provides almost nothing useful about whether system works for patients
+- Pattern reported by patient advocacy organizations and treating clinicians
+- Structural gap not addressed by current conformance testing
+
+**Implementation Barriers Mentioned:**
+- Adding fidelity benchmarks and test corpus risks slowing implementation given October 1, 2027 compliance date
+- Particular concern for state Medicaid Fee-for-Service programs and small Medicaid managed care plans with limited engineering resources
+- Tooling for semantic preservation across payer boundaries still maturing
+- Risk of locking in suboptimal patterns before industry convergence
+- Incremental burden on small entities already facing cost concerns
+- Ambiguity for payer privacy, security, and compliance teams considering modern data architectures
+
+**7. SUPPORTING EVIDENCE**
+
+**Data or Statistics Cited:**
+- January 2027 compliance date for existing rule (referenced as context for payer preparation)
+- October 1, 2027 compliance date mentioned in phasing recommendations
+
+**Studies or Research Referenced:**
+- Direct engagement with FHIR standards documents
+- Da Vinci implementation guides analysis
+- Conversations with leaders at Medicaid and Medicare Advantage organizations preparing for requirements
+- Technical analysis of implementation guides
+- Patient advocacy organization reports (referenced regarding step therapy repetition pattern)
+- Treating clinician reports (referenced regarding step therapy repetition pattern)
+
+**Examples Provided:**
+- Lab report: Structured Observation resource with LOINC codes, numeric values, units vs. base64-encoded PDF requiring OCR
+- Medication history: "tried and failed metformin" appearing as RxNorm RXCUI (operationalizable) vs. NDC, payer-internal identifier, or free text (requiring manual review)
+- Payer-to-payer handoff: Member cleared step therapy at one payer, forced to repeat at next because structured decision logic not preserved despite technical transmission
+- Specialty drug prior authorization scenario: Prior step therapy failures + biomarker results transmitted from one payer to another - can it render into coverage decision without semantic loss?
+- Clinical scenarios for test corpus: Specialty drugs with prior step therapy, oncology with biomarker-based eligibility, transplant immunosuppressants, autoimmune biologics
+- ONC Inferno reference implementation: Tests endpoint conformance (API response, resource validation, bundle structure) but not end-to-end clinical scenarios
+
+**8. IMPACT ASSESSMENT**
+
+**Affected Stakeholders:**
+- Patients (especially those on specialty drugs, oncology regimens, autoimmune biologics, transplant immunosuppressants)
+- Patients switching between health plans
+- Receiving payers (must operationalize incoming data)
+- Upstream/originating payers (must transmit usable data)
+- Providers (benefit from reduced manual review and re-keying)
+- State Medicaid Fee-for-Service programs
+- Small Medicaid managed care plans
+- Medicare Advantage organizations
+- Large payers
+- Payer privacy, security, and compliance teams
+- Technology vendors (like Zkeleton building normalization infrastructure)
+- ONC (Office of the National Coordinator)
+- HL7 and Da Vinci Project
+
+**Economic Implications:**
+- Current gap requires substantial human review or manual re-keying by receiving payers
+- Semantic fidelity benchmarks create market incentive for payers to invest in fidelity beyond conformance
+- Fidelity testing adds incremental burden, particularly for small entities
+- Cost concerns for small payers already identified in Initial Regulatory Flexibility Analysis
+- Recommendation to phase fidelity reporting separately to manage costs
+- Potential for smaller payers to have delayed timeline or modified expectations
+- Market signal created by publishing benchmarks even without pass-fail gates
+- Investment in fidelity could reduce downstream manual review costs
+
+**Technical Feasibility:**
+- Fully conformant implementations to FHIR IGs are technically feasible but may not be operationally usable
+- Structured data transmission is technically feasible when source data exists in structured form
+- Round-trip scenario testing is technically feasible
+- Data fidelity scoring is technically feasible alongside API endpoint registry
+- Segregated processing environments are technically feasible and consistent with HIPAA/minimum necessary access
+- Tooling for semantic preservation across payer boundaries is still maturing - premature standardization risk
+- ONC Inferno reference implementation exists but focuses on endpoint conformance, not end-to-end scenarios
+- Patient matching algorithms vary across payers - standardization or transparency requirements are feasible but complex
+
+**Patient Care Impact:**
+- Gap between conformance and usability forces patients to repeat step therapy at new plans
+- Delay in high-stakes clinical scenarios (specialty drugs, oncology, autoimmune biologics) translates directly into patient harm
+- Cost of fidelity loss falls most heavily on patients
+- Semantic fidelity improvements would reduce treatment delays and repetitive therapy requirements
+- Better operationalization of data would improve continuity of care during payer transitions
+- Reduced manual review would expedite coverage decisions
+- Patient matching quality improvements would prevent data transmission errors
+- Transparency in matching quality would improve patient confidence
+
+**9. SENTIMENT ANALYSIS**
+- Overall position: Supportive with Significant Technical Concerns
+- Tone: Technical, Analytical, Constructive, Detail-Oriented, Measured
+- Priority level: High (addresses fundamental gap in proposed framework)
+
+**10. KEY QUOTES**
+
+1. "This distinction matters because conformance and usability are not the same property. An implementation can be fully conformant to the HL7 FHIR Da Vinci Prior Authorization Support, Clinical Data Exchange, and Payer Data Exchange implementation guides while emitting payloads that the receiving payer cannot operationalize without substantial human review or manual re-keying."
+
+2. "Two payers can both pass CDex conformance testing while one transmits structured Observation resources with LOINC-coded labs, numeric values, and units, and the other transmits a scanned PDF of the same lab report. Both are conformant. Only one is usable downstream without optical character recognition and manual extraction."
+
+3. "In the worst case, a member who has already cleared step therapy at one payer is forced to repeat it at the next, because the receiving payer cannot operationalize the prior failure history even though it was technically transmitted."
+
+4. "Endpoint conformance is necessary but tells the public almost nothing about whether the system as a whole works for patients... A patient who has already failed three step therapy alternatives at their previous plan, and whose new plan cannot operationalize that history, will be asked to fail them again."
+
+**11. THEMES**
+- Interoperability (FHIR, Da Vinci IGs, API requirements, payer-to-payer exchange, semantic preservation)
+- Patient Access (continuity of care during payer transitions, avoiding repeated step therapy)
+- Implementation Timeline (October 2027 compliance, phased approach for fidelity requirements)
+- Certification (conformance testing vs. usability testing, semantic fidelity benchmarks)
+- Cost/Resources (burden on small entities, market incentives for fidelity investment)
+- Privacy/Security (segregated processing environments, HIPAA compliance)
+- Transparency (public fidelity scoring, patient matching quality disclosure)
+- Technical Standards (LOINC, RxNorm, structured vs. unstructured data, code system fragmentation)
+- Health Equity (impact on high-stakes patient populations, specialty drug access)
+- Other (technical architecture, data normalization, semantic loss, round-trip testing)
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Public Comment on CMS-0062-P
+Docket: CMS-2026-1255-0001
+RFI Addressed: III.C. Improving Implementation of Payer Application Programming Interface
+Technology
+Submitted by: Akken Yakupitiyage, Founder, Zkeleton
+Introduction
+I am writing as the founder of Zkeleton, a pre-seed company building clinical data normalization infrastructure for health plans. The recommendations below respond to Section III.C of the proposed rule, which requests comment on how CMS can strengthen testing, oversight, and certification of payer Application Programming Interface technology. Zkeleton is not a regulated entity under this rule, does not currently sell into any of the impacted payer categories, and has no direct commercial position in the outcome of this rulemaking. The perspective below reflects technical analysis informed by direct engagement with the standards documents, the relevant Da Vinci implementation guides, and conversations with leaders at Medicaid and Medicare Advantage organizations preparing for these requirements.
+The proposed rule meaningfully advances interoperability by extending API requirements to drugs, expanding the scope of impacted payers, and establishing a centralized API endpoint registry. The recommendations below are intended to address what I believe is the most significant unaddressed risk in the proposed framework: the gap between technical conformance to FHIR implementation guides and the practical usability of the data those guides convey.
+The Conformance Gap
+CMS-0057-F and the proposed CMS-0062-P establish that data must move between patients, providers, and payers through specified API surfaces and implementation guides. The rules carefully specify the transport, the resource shapes, and the IG conformance requirements. They are largely silent on whether the data, once moved, retains the semantic specificity required for the receiving party to act on it.
+This distinction matters because conformance and usability are not the same property...

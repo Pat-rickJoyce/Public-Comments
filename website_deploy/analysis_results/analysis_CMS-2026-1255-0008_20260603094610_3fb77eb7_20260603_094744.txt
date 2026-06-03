@@ -1,0 +1,68 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0008
+Commenter: Helsesoft LLC / GreenLight PA
+Source: PDF Attachment
+Analysis Date: June 3, 2026 09:47:44
+==================================================
+
+**1. COMMENTER INFORMATION**
+- Author/Organization name: Helsesoft LLC / GreenLight PA
+- Stakeholder type: Technology Vendor
+- Credentials or expertise mentioned: Washington State health technology company; developer of GreenLight PA prior authorization intelligence platform for dermatology; maintains structured library of PA criteria for dermatology biologics across 200+ drug-insurer-state combinations; founded by physician
+
+**2. EXECUTIVE SUMMARY**
+Helsesoft LLC strongly supports CMS-0062-P's extension of electronic prior authorization requirements to drugs. The company urges CMS to make Da Vinci CRD and DTR implementation guides mandatory, require specialty-level granularity in public PA metrics, and address the systemic divergence between payers' published PA criteria and their actual approval behavior.
+
+**3. REGULATORY CONTEXT**
+- Specific sections/provisions addressed: CMS-0062-P; builds on CMS-0057-F; Sections II.B, II.C, II.C.7, II.E; RFI III.D (Step Therapy); RFI III.C (Payer API Implementation)
+- Regulatory citations mentioned: 91 FR 19890; MA, Medicaid, CHIP, QHP programs
+- Standards referenced: FHIR, NCPDP Formulary and Benefit Standard, Da Vinci CRD, DTR, PAS
+
+**KEY RECOMMENDATIONS**
+1. Make Da Vinci CRD and DTR mandatory (not optional) for Prior Authorization API for drugs
+2. Require specialty-level granularity in public PA metrics
+3. Require payers to publish step therapy requirements in structured, machine-readable form
+4. Include step therapy criterion citation in denial communications
+5. Require annual attestation that published step therapy requirements match applied criteria
+
+**PRIMARY CONCERN**
+Systemic divergence between payers' published prior authorization criteria and criteria actually applied in approval/denial decisions. Across 200+ drug-insurer-state combinations monitored, published payer criteria do not reliably predict actual approval behavior.
+
+**KEY QUOTE**
+"Providers build PA submissions around published criteria that may not reflect what the insurer actually requires, leading to avoidable denials, resubmission cycles, and delays in patient access to therapy."
+
+**THEMES**
+- Interoperability (FHIR, NCPDP, Da Vinci standards)
+- Transparency/Accountability (published vs. applied criteria divergence)
+- Specialty Care (dermatology biologics focus)
+- Provider Burden (manual PDF interpretation, administrative complexity)
+- Step Therapy (inconsistent enforcement, payer variation)
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+TO: Centers for Medicare & Medicaid Services, Department of Health and Human Services
+FILE CODE: CMS-0062-P
+FEDERAL REGISTER CITATION: 91 FR 19890 (April 14, 2026)
+DATE: April 22, 2026
+FROM: Helsesoft LLC / GreenLight PA, Bellevue, Washington
+RE: Comment on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs
+Proposed Rule (CMS-0062-P)
+I. Introduction and Commenter Identity
+Helsesoft LLC is a Washington State health technology company and the developer of
+GreenLight PA, a prior authorization intelligence platform built specifically for dermatology.
+GreenLight PA maintains a structured, machine-readable library of prior authorization (PA)
+criteria for dermatology biologics — including agents such as dupilumab, tralokinumab,
+risankizumab, and secukinumab — mapped at the drug, insurer, and state level across major
+commercial payers including Medicare Advantage organizations, Medicaid managed care plans,
+and commercial QHP issuers. The platform is EHR-independent and contains no protected
+health information (PHI) by architectural design, enabling deployment across practice settings of
+all sizes.
+Helsesoft LLC was founded by a physician with direct experience in healthcare workflow design
+and clinical operations, and has built GreenLight PA in close collaboration with practicing
+dermatologists. The company's development work has required sustained, direct engagement
+with payer coverage policy documents across multiple drug-indication combinations, insurers,
+and states — giving us ground-level technical understanding of how prior authorization criteria
+are published, structured, updated, and applied in practice. This comment reflects that
+operational experience...

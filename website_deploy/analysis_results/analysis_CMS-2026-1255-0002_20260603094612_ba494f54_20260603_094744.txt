@@ -1,0 +1,285 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0002
+Commenter: Calvient (Jonathan Minson, CEO)
+Source: PDF Attachment
+Analysis Date: June 3, 2026 09:47:44
+==================================================
+
+**1. COMMENTER INFORMATION**
+- Author/Organization name: Calvient (Jonathan Minson, CEO)
+- Stakeholder type: Technology Vendor
+- Credentials or expertise mentioned: Healthcare technology company developing AI-powered solutions for prior authorizations, referrals, intelligent document processing, and healthcare operations automation. Platform serves federally qualified health centers (FQHCs), community health centers, and health systems across the United States.
+
+**2. EXECUTIVE SUMMARY**
+Calvient strongly supports CMS-0062-P's extension of electronic prior authorization requirements to prescription drugs but urges CMS to address the root cause of administrative burden: the complexity and variability of documentation requirements, not just the transmission medium. The company advocates for mandatory adoption of the Da Vinci DTR standard, real-time PA necessity determination APIs, and designing the EPA framework to support AI-augmented workflows that can dramatically reduce provider burden while maintaining human clinical judgment.
+
+**3. REGULATORY CONTEXT**
+- Specific sections/provisions addressed: CMS-0062-P (2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule), building on CMS-0057-F final rule
+- Regulatory citations mentioned: Medicaid managed care plans, CHIP programs, 24-hour urgent and 72-hour standard decision windows
+- Standards referenced: HL7 FHIR, NCPDP SCRIPT, Formulary & Benefit, Real-Time Prescription Benefit (RTPB), Da Vinci Prior Authorization Support (PAS), Documentation Templates and Rules (DTR), Clinical Data Exchange (CDex), C-CDA
+
+**4. DETAILED POSITIONS**
+
+Topic: Compressed Decision Timeframes
+- Position: Support
+- Rationale: 24-hour urgent and 72-hour standard windows reflect clinical reality that drug PA delays directly harm patients, especially at FQHCs
+- Specific request: Finalize proposed timeframes
+
+Topic: Mandatory Electronic PA via FHIR and NCPDP Standards
+- Position: Support
+- Rationale: Creates foundation for automated, interoperable PA workflows; particularly welcome Da Vinci PAS, DTR, and CDex implementation guides
+- Specific request: Finalize standards adoption
+
+Topic: Specific Denial Reasons
+- Position: Support
+- Rationale: Essential for providers to understand what additional documentation is needed and to mount effective appeals; vague denials waste time
+- Specific request: Require payers to provide specific denial reasons
+
+Topic: Public Reporting of PA Metrics
+- Position: Support with Enhancement
+- Rationale: Transparency creates accountability and enables informed decisions about payer performance
+- Specific request: Ensure metrics are reported in standardized, machine-readable format
+
+Topic: Da Vinci DTR Standard Adoption
+- Position: Strongly Support with Enhancement
+- Rationale: DTR is the most consequential element of the rule; enables structured, machine-readable documentation requirements that can be pre-populated from clinical records
+- Specific request: Mandate DTR adoption with same urgency as PAS; place equal emphasis on requiring payers to publish drug coverage requirements in DTR format
+
+Topic: PA Necessity Determination via API
+- Position: Modify/Add
+- Rationale: Significant wasted effort occurs determining if PA is required; RTPB is a step but insufficient
+- Specific request: Require payers to expose real-time API endpoint for PA necessity queries
+
+Topic: Questionnaire Consistency and Complexity Limits
+- Position: Add New Requirement
+- Rationale: Variability and complexity of payer questionnaires remains major burden driver even with DTR
+- Specific request: Develop guidelines promoting consistency across payers, limiting questionnaire length/complexity to clinical necessity
+
+Topic: AI-Augmented Workflows Support
+- Position: Add Framework Consideration
+- Rationale: AI agents already assisting providers with chart scrubbing, pre-population, status monitoring; standards should facilitate not impede
+- Specific request: Design EPA to accommodate AI-augmented workflows; ensure DTR is machine-processable, PAS supports programmatic queries, CDex supports automated compilation, API rate limits accommodate high-volume processing
+
+Topic: FQHC and Safety-Net Provider Support
+- Position: Add Support Provisions
+- Rationale: FQHCs serve 30+ million patients with significantly fewer resources than large health systems
+- Specific request: Provide technical assistance/funding for FHIR adoption; accelerate DTR questionnaire availability timeline; monitor whether benefits reach safety-net providers
+
+Topic: Step Therapy Processes
+- Position: Add Structured Format Requirement
+- Rationale: Step therapy compounds PA burden; structured formats would reduce back-and-forth
+- Specific request: Require payers to publish step therapy protocols in machine-readable formats alongside DTR questionnaires
+
+Topic: PA for Laboratory Tests and DME
+- Position: Support Future Extension
+- Rationale: Represent substantial and growing PA burden
+- Specific request: Extend interoperability framework to lab tests and DME in future rulemaking
+
+**5. RECOMMENDATIONS**
+1. Mandate DTR adoption with the same urgency as PAS, requiring payers to publish drug coverage requirements and documentation questionnaires in structured, machine-readable DTR format
+2. Require payers to expose PA necessity determination via real-time API endpoint
+3. Establish standards for questionnaire consistency and complexity limits, working with payers, providers, and standards bodies
+4. Design the EPA framework to support AI-augmented workflows, ensuring DTR is machine-processable, PAS supports programmatic queries, CDex supports automated compilation, and API rate limits accommodate high-volume processing
+5. Address unique needs of FQHCs and safety-net providers through technical assistance/funding, accelerated DTR timelines, and monitoring of benefit distribution
+6. Require payers to publish step therapy protocols in structured, machine-readable formats
+7. Extend interoperability framework to laboratory tests and durable medical equipment in future rulemaking
+
+**6. CONCERNS & OBJECTIONS**
+
+Primary Concerns:
+- Electronic submission alone does not reduce administrative burden; the work of preparing submissions remains the bottleneck
+- Complexity and variability of payer-specific documentation requirements consume majority of PA processing time (30-60 minutes per complex request)
+- Providers cannot easily determine if PA is required for specific drug/patient/plan combinations
+- Questionnaires vary significantly payer-to-payer even for same drug and clinical indication
+- One payer may require 2-page form while another requires 12-page clinical questionnaire
+- Chart scrubbing requires extracting data from different EHR locations, scanned documents, external records
+
+Potential Negative Impacts:
+- FQHCs and safety-net providers may lack technical capacity to benefit from electronic PA if support not provided
+- Benefits may accrue primarily to large health systems with greater technical resources
+- Without DTR, electronic submission still requires manual determination of documentation needs
+- API rate limits and access policies may not accommodate high-volume PA processing needs
+
+Implementation Barriers:
+- Many FQHCs employ full-time staff solely for managing prior authorizations
+- Physicians complete average 39-43 PA requests per week requiring 13-16 hours of staff time (AMA data)
+- 93% of physicians report PA delays patient care; 89% say it contributes to burnout
+- Safety-net providers have constrained staffing and patients face greatest barriers to medication access
+- Small health plans have 36-month compliance timeline which may delay benefits
+
+**7. SUPPORTING EVIDENCE**
+
+Data/Statistics Cited:
+- American Medical Association: Physicians complete average of 39-43 prior authorization requests per week
+- AMA: PA requires 13-16 hours of physician and staff time per week
+- AMA: 93% of physicians report PA delays patient care
+- AMA: 89% of physicians say PA contributes to clinician burnout
+- FQHCs serve over 30 million patients annually
+- FQHC patients disproportionately from Medicaid, uninsured, and underserved populations
+- Complex medication PA requests routinely require 30-60 minutes per request
+- Many providers process dozens of PA requests daily
+
+Studies/Research Referenced:
+- American Medical Association research on PA burden
+
+Examples Provided:
+- Five-step workflow providers face when PA is triggered: (1) determine if PA required, (2) locate correct questionnaire, (3) scrub patient chart for data, (4) complete questionnaire and submit, (5) monitor status and manage appeals
+- AI agent capabilities: chart scrubbing, questionnaire completion, necessity verification, status monitoring, documentation assembly
+- Variability example: one payer requires 2-page form, another requires 12-page questionnaire with lab values, treatment history, specialist notes, clinical narratives
+
+**8. IMPACT ASSESSMENT**
+
+Affected Stakeholders:
+- Federally Qualified Health Centers (FQHCs) and community health centers
+- Health systems
+- Healthcare providers (physicians and clinical staff)
+- Safety-net providers
+- Patients in underserved populations
+- Medicaid and CHIP beneficiaries
+- Payers (health plans)
+- Technology vendors
+
+Economic Implications:
+- Reduced administrative costs through automation of chart scrubbing, questionnaire completion, status monitoring
+- Decreased physician/staff time burden (currently 13-16 hours/week)
+- Potential need for technical assistance/funding for FQHCs
+- Cost savings from reducing 30-60 minute processing time per complex request
+- Full-time staff dedicated to PA management could be redeployed
+
+Technical Feasibility:
+- AI-augmented workflows already deployed at health systems and FQHCs
+- Capabilities exist today for chart scrubbing, pre-population, status monitoring, documentation assembly
+- FHIR, NCPDP, Da Vinci PAS, DTR, and CDex standards provide technical foundation
+- Concerns about API rate limits, access policies, and technical capacity at small providers
+- Small health plans have 36-month compliance timeline
+
+Patient Care Impact:
+- Reduced medication access delays
+- Every day of PA delay means patients go without treatment
+- Particularly acute for FQHC patients facing greatest barriers to medication access
+- 93% of physicians report current PA delays patient care
+- Improved care quality through faster access to necessary medications
+- Reduced clinician burnout (89% cite PA as contributor) improves care quality
+
+**9. SENTIMENT ANALYSIS**
+- Overall position: Supportive with Significant Enhancement Recommendations
+- Tone: Professional, Technical, Collaborative, Evidence-Based
+- Priority level: High
+
+**10. KEY QUOTES**
+
+"The fax is not the problem. The problem is the intensity, variability, and volume of the documentation requirements themselves." (Page 2) - Emphasizes that electronic transmission alone doesn't solve administrative burden
+
+"Moving from fax to API does not solve this problem. It makes the submission faster, but the work of preparing the submission remains the bottleneck." (Page 3) - Core argument that documentation preparation is the real burden
+
+"This is why the proposed adoption of the Da Vinci Documentation Templates and Rules (DTR) implementation guide is, in our view, the most consequential element of this rule." (Page 4) - Identifies DTR as critical component
+
+"We are entering an era where AI-augmented workflows can dramatically reduce administrative burden without replacing human clinical judgment. The electronic prior authorization framework CMS establishes through this rule will shape whether that potential is realized." (Page 6-7) - Vision for AI-assisted future of PA processing
+
+**11. THEMES**
+- Interoperability (primary focus: FHIR, NCPDP, Da Vinci standards)
+- Provider Burden (primary focus: administrative time, workflow efficiency)
+- AI/ML (primary focus: AI-augmented workflows, automation)
+- Implementation Timeline (concern for small plans, FQHCs)
+- Health Equity (focus on FQHCs, safety-net providers, underserved populations)
+- Patient Access (medication access delays)
+- Cost/Resources (staff time, technical capacity, funding needs)
+- Certification (standards adoption, API requirements)
+- Technology Standards (DTR, PAS, CDex, RTPB)
+- Transparency/Accountability (public reporting of PA metrics)
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Calvient
+Public Comment on CMS-0062-P
+Page 1
+April 14, 2026
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+Re: 2026 CMS Interoperability Standards and Prior Authorization for Drugs
+Proposed Rule (CMS-0062-P)
+Dear Administrator Becerra and CMS Staff:
+I. Introduction and Interest of Calvient
+Calvient appreciates the opportunity to submit comments on the proposed rule CMS-
+0062-P, the 2026 CMS Interoperability Standards and Prior Authorization for Drugs
+Proposed Rule. We commend CMS for taking this critical step to extend electronic prior
+authorization requirements to prescription drugs, building on the foundation established
+by the CMS-0057-F final rule.
+Calvient is a healthcare technology company that develops AI-powered solutions for
+prior authorizations, inbound and outbound referrals, intelligent document processing,
+fax management, and healthcare operations automation. Our platform serves federally
+qualified health centers (FQHCs), community health centers, and health systems across
+the United States. These organizations operate on the front lines of patient care delivery
+for some of the most underserved populations in the country, and they experience the
+burden of prior authorization more acutely than almost any other segment of the
+healthcare system.
+We write from the perspective of a technology company that works daily with providers
+who are, in their own words, drowning in prior authorization requests. Our comments
+are informed by direct experience automating PA workflows, processing unstructured
+clinical documentation, and interfacing with the payer systems that administer these
+requirements. We strongly support the direction of this proposed rule while urging CMS
+to go further in addressing the root causes of administrative burden.
+II. General Support for the Proposed Rule
+Calvient supports the core objectives of CMS-0062-P. Extending the interoperability and
+prior authorization framework to prescription drugs is overdue and essential. Drug prior
+authorization represents a significant and growing share of the administrative burden
+borne by providers, and the absence of electronic standards for drug PA has left
+providers reliant on fragmented, manual processes that delay patient access to
+necessary medications.
+We specifically support the following provisions:
+Calvient
+Public Comment on CMS-0062-P
+Page 2
+Compressed decision timeframes. The proposed 24-hour urgent and 72-hour
+standard decision windows are appropriate and reflect the clinical reality that drug prior
+authorization delays can directly harm patients. When a patient at an FQHC is
+prescribed a medication that requires prior authorization, every day of delay is a day
+that patient goes without treatment. The current timeframes are inadequate, and we
+commend CMS for proposing meaningful compression.
+Mandatory electronic PA via FHIR and NCPDP standards. The adoption of HL7
+FHIR-based standards for drugs covered under medical benefits and NCPDP SCRIPT,
+Formulary & Benefit, and Real-Time Prescription Benefit standards for pharmacy
+benefits is a critical infrastructure investment. These standards create the foundation for
+automated, interoperable PA workflows. We particularly welcome the adoption of the Da
+Vinci Prior Authorization Support (PAS), Documentation Templates and Rules (DTR),
+and Clinical Data Exchange (CDex) implementation guides, which we discuss in detail
+below.
+Specific denial reasons. Requiring payers to provide specific reasons when denying a
+drug PA request is essential for providers to understand what additional documentation
+or clinical justification is needed, and to mount effective appeals. Vague denials waste
+provider time and delay patient care.
+Public reporting of PA metrics. Transparency in approval rates, denial rates, and
+turnaround times will create accountability and enable providers to make informed
+decisions about payer performance. We encourage CMS to ensure these metrics are
+reported in a standardized, machine-readable format to enable meaningful comparison.
+III. The Fax Is Not the Problem: Addressing the True Source of
+Administrative Burden
+While we strongly support the move to electronic standards, we urge CMS to recognize
+that the transmission medium is only one dimension of the prior authorization burden.
+The fax is not the problem. The problem is the intensity, variability, and volume of
+the documentation requirements themselves.
+Our clients at FQHCs and health systems consistently report that the most time-
+consuming aspect of prior authorization is not the act of submitting a request, whether
+by fax, phone, portal, or API. It is the work required to complete the payer-specific
+questionnaires and gather the clinical documentation necessary to satisfy each payer's
+unique requirements. These questionnaires are often lengthy, clinically intensive, and
+vary significantly from payer to payer, even for the same drug and the same clinical
+indication.
+Consider the workflow a provider faces today when a prior authorization is triggered:
+First, the provider must determine whether a prior authorization is even required for the
+specific drug, for the specific patient, under the specific plan. This determination is often
+not straightforward and may require calling the payer or checking a portal.
+Calvient
+Public Comment on CMS-0062-P
+Page 3
+Second, the provider must locate the correct questionnaire or documentation
+requirements for that payer and that drug. These requirements are not standardized.
+One payer may require a two-page form; another may require a twelve-page clinical
+questionnaire with detailed lab values, prior treatment history, specialist notes, and
+clinical justification narratives.
+Third, the provider's staff must scrub the patient's chart to extract the relevant clinical ...

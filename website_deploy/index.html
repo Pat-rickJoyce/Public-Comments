@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Public Comments Dashboard - CMS-2026-1255-0001</title>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/marked/marked.min.js'></script>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark-mode .card {
+    background-color: #2a2a2a;
+    border-color: #3a3a3a;
+}
+
+.dark-mode .tab-button {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #3a3a3a;
+}
+
+.dark-mode .tab-button.active {
+    background-color: #4a4a4a;
+}
+
+.dark-mode input, .dark-mode select {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #3a3a3a;
+}
+
+.dark-mode .comment-item {
+    border-color: #3a3a3a;
+}
+
+.dark-mode #analysisContent {
+    background: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark-mode .controls {
+    background: #2a2a2a;
+}
+
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    opacity: 0.9;
+    font-size: 1rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#analysisContent {
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    min-height: 300px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.theme-toggle {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.theme-toggle:hover {
+    background: #5568d3;
+}
+
+.export-btn {
+    background: #48bb78;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.export-btn:hover {
+    background: #38a169;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.dark-mode .stat-card {
+    background: #2a2a2a;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.stat-card h3 {
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.dark-mode .stat-card h3 {
+    color: #aaa;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #667eea;
+}
+
+.tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #e0e0e0;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s;
+    color: #666;
+}
+
+.tab-button:hover {
+    color: #667eea;
+    background: rgba(102, 126, 234, 0.05);
+}
+
+.tab-button.active {
+    color: #667eea;
+    border-bottom-color: #667eea;
+    font-weight: 600;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.dark-mode .card h2 {
+    color: #e0e0e0;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filter-group label {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.filter-group input, .filter-group select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.comments-list {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.comment-item {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.2s;
+}
+
+.comment-item:hover {
+    background: rgba(102, 126, 234, 0.05);
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.comment-org {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.comment-date {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.comment-text {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.dark-mode .comment-text {
+    color: #bbb;
+}
+
+.comment-full {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.dark-mode .comment-full {
+    color: #bbb;
+}
+
+.comment-link {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.comment-link:hover {
+    text-decoration: underline;
+}
+
+.grid-2col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    .header {
+        padding: 1.5rem 1rem;
+    }
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+    .chart-container {
+        height: 300px;
+    }
+    .grid-2col {
+        grid-template-columns: 1fr;
+    }
+}
+
+.no-data {
+    text-align: center;
+    padding: 2rem;
+    color: #999;
+    font-style: italic;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>📊 Public Comments Dashboard</h1>
+    <p>Document: CMS-2026-1255-0001 | Comprehensive analysis of regulatory comments</p>
+</div>
+
+<div class="controls">
+    <div style="display: flex; gap: 1rem;">
+        <button class="theme-toggle" onclick="toggleTheme()">🌓 Toggle Dark Mode</button>
+        <button class="export-btn" onclick="exportData()">📥 Export Data</button>
+    </div>
+    <div style="font-size: 0.9rem; color: #666;">
+        Last updated: June 03, 2026 at 10:49 AM
+    </div>
+</div>
+
+<div class="container">
+    <!-- Statistics Cards -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Total Comments</h3>
+            <div class="value">21</div>
+        </div>
+        <div class="stat-card">
+            <h3>Date Range</h3>
+            <div class="value" style="font-size: 1rem;">2026-05-13<br>to<br>2026-05-14</div>
+        </div>
+        <div class="stat-card">
+            <h3>Avg/Day</h3>
+            <div class="value">10.5</div>
+        </div>
+        <div class="stat-card">
+            <h3>With Attachments</h3>
+            <div class="value">7</div>
+        </div>
+        <div class="stat-card">
+            <h3>Organizations</h3>
+            <div class="value">6</div>
+        </div>
+        <div class="stat-card">
+            <h3>Analyzed</h3>
+            <div class="value">19</div>
+        </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab-button active" onclick="switchTab('overview', event)">📈 Overview</button>
+        <button class="tab-button" onclick="switchTab('organizations', event)">🏢 Organizations</button>
+        <button class="tab-button" onclick="switchTab('sentiment', event)">😊 Sentiment</button>
+        <button class="tab-button" onclick="switchTab('themes', event)">💡 Themes</button>
+        <button class="tab-button" onclick="switchTab('comments', event)">💬 Comments List</button>
+        <button class="tab-button" onclick="switchTab('analysis', event)">🔍 Analysis</button>
+        <button class="tab-button" onclick="switchTab('geographic', event)">🗺️ Geographic</button>
+    </div>
+
+    <!-- Overview Tab -->
+    <div id="overview-tab" class="tab-content active">
+        <div class="card">
+            <h2>Comments Activity Over Time</h2>
+            <div class="chart-container">
+                <canvas id="timelineChart"></canvas>
+            </div>
+        </div>
+
+        <div class="grid-2col">
+            <div class="card">
+                <h2>Cumulative Comments</h2>
+                <div class="chart-container">
+                    <canvas id="cumulativeChart"></canvas>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Attachments Distribution</h2>
+                <div class="chart-container">
+                    <canvas id="attachmentsChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Organizations Tab -->
+    <div id="organizations-tab" class="tab-content">
+        <div class="card">
+            <h2>Top 10 Commenting Organizations</h2>
+            <div class="chart-container">
+                <canvas id="organizationsChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sentiment Tab -->
+    <div id="sentiment-tab" class="tab-content">
+        <div class="card">
+            <h2>Sentiment Analysis</h2>
+            <p class="no-data">Sentiment analysis data available for 19 comments</p>
+            <div class="chart-container">
+                <canvas id="sentimentChart"></canvas>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Stakeholder Types</h2>
+            <div class="chart-container">
+                <canvas id="stakeholderChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Themes Tab -->
+    <div id="themes-tab" class="tab-content">
+        <div class="card">
+            <h2>Key Themes</h2>
+            <p class="no-data">Theme analysis available for 19 comments</p>
+            <div class="chart-container">
+                <canvas id="themesChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comments List Tab -->
+    <div id="comments-tab" class="tab-content">
+        <div class="card">
+            <h2>Comments List</h2>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Search:</label>
+                    <input type="text" id="searchInput" placeholder="Search comments..." onkeyup="filterComments()">
+                </div>
+                <div class="filter-group">
+                    <label>Organization:</label>
+                    <select id="orgFilter" onchange="filterComments()">
+                        <option value="">All Organizations</option>
+                        <option value="Individual Commenters">Individual Commenters</option>
+<option value="EasyPA Inc">EasyPA Inc</option>
+<option value="The ALS Association">The ALS Association</option>
+<option value="Helsesoft">Helsesoft</option>
+<option value="Calvient">Calvient</option>
+<option value="Boulder Community Health">Boulder Community Health</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Has Attachments:</label>
+                    <select id="attachmentFilter" onchange="filterComments()">
+                        <option value="">All</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="comments-list" id="commentsList">
+                
+                <div class="comment-item" data-org="EasyPA Inc" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">EasyPA Inc</div>
+                        <div class="comment-date">2026-05-14 | ID: CMS-2026-1255-0022</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0022">Re: CMS-0062-P, 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule I am the CTO and co-founder of EasyPA.ai, an AI-powered prior authorization platform serving medical practices. We work daily across EMRs, clearinghouses, and payers to automate prior authorization workflows. The proposals in CMS-0062-P will materially change the infrastructure our customers and partners operate on, so I want to share field perspective on what will work, what will struggle, and what CMS can do to make this rule succeed. Overall support EasyPA.ai strongly supports the direction of this rule. Extending electronic prior authorization to drugs, adopting FHIR for HIPAA-covered PA transactions, aligning decision timeframes, and requiring specific reasons for denial are the right calls. They reduce burden on providers, improve patient access, and create the structured data foundation needed for trustworthy automation downstream. HL7v2 is not going away by October 1, 2027 CMS should plan for a hybrid reality. HL7v2 still moves the majority of clinical messages between EMRs, hospitals, labs, and pharmacies in the United States today. FHIR adoption is real and accelerating, but smaller payers, rural providers, regional plans, and many state Medicaid systems will not have rebuilt their cores in the next 17 months. They will depend on bridge infrastructure that translates between HL7v2 and FHIR in both directions. We recommend CMS explicitly acknowledge bidirectional HL7v2...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0022" style="display:none;">Re: CMS-0062-P, 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule I am the CTO and co-founder of EasyPA.ai, an AI-powered prior authorization platform serving medical practices. We work daily across EMRs, clearinghouses, and payers to automate prior authorization workflows. The proposals in CMS-0062-P will materially change the infrastructure our customers and partners operate on, so I want to share field perspective on what will work, what will struggle, and what CMS can do to make this rule succeed. Overall support EasyPA.ai strongly supports the direction of this rule. Extending electronic prior authorization to drugs, adopting FHIR for HIPAA-covered PA transactions, aligning decision timeframes, and requiring specific reasons for denial are the right calls. They reduce burden on providers, improve patient access, and create the structured data foundation needed for trustworthy automation downstream. HL7v2 is not going away by October 1, 2027 CMS should plan for a hybrid reality. HL7v2 still moves the majority of clinical messages between EMRs, hospitals, labs, and pharmacies in the United States today. FHIR adoption is real and accelerating, but smaller payers, rural providers, regional plans, and many state Medicaid systems will not have rebuilt their cores in the next 17 months. They will depend on bridge infrastructure that translates between HL7v2 and FHIR in both directions. We recommend CMS explicitly acknowledge bidirectional HL7v2 to FHIR conversion as a compliant pathway, provided the FHIR endpoint exposed to trading partners conforms to the required implementation guides. Without this, smaller plans and rural providers will face binary outcomes: full rip-and-replace, or fall out of compliance. Neither serves patients. Specific reason for denial: require structured codes, not free text The requirement to provide a specific reason for denying drug PA requests is one of the most important provisions in this rule. To make it actually useful for providers and patients, CMS should require denial reasons to be expressed using structured FHIR coded values, not free-text strings. Free text cannot be reliably parsed for appeals, automated resubmission, or population-level analysis. Structured denial reasons unlock all three and create the data exhaust CMS itself will need to evaluate whether this rule is working. CDex attachments: preserve flexibility, push for structured exchange where possible Real-world PA submissions still lean heavily on PDFs, scanned documents, and faxed clinical notes. Adopting the Da Vinci CDex IG is the right move because it preserves that flexibility while creating a clean envelope. We support this. We also encourage CMS to push payers to publish, in machine-readable form, exactly which data elements they require for each PA scenario, so providers stop sending entire charts to cover unknown payer requirements. Response to RFI on payer API implementation API compliance is uneven today. Many published FHIR endpoints fail in production on issues that basic conformance testing would catch. CMS should require end-to-end testing against published test scripts, with results filed annually alongside the API usage metrics already proposed in this rule. Self-attestation alone has not produced reliable interoperability and will not produce it for drug PA either. On AI in the prior authorization pipeline CMS will receive many comments invoking artificial intelligence. The technical reality is that different AI systems do very different things in this workflow. Classification models triage and route. Generative models draft appeals and summarize clinical documentation. These are distinct capabilities with distinct risk profiles. Any future rulemaking on AI in prior authorization should make this distinction explicit and require transparency on which model types are used at each decision point, particularly when AI contributes to a denial. Closing The October 1, 2027 compliance date is achievable for payers that begin work now and that can access interoperability infrastructure built on open standards. EasyPA.ai is committed to supporting that transition through purpose-built tooling, including our HL7v2 to FHIR converter available on AWS Marketplace. Thank you for the opportunity to comment. Respectfully, Alex Vega CTO, EasyPA.ai</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0022&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Brendan Keeler" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Brendan Keeler</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0005</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0005">On the SBE gap, you wrote: &quot;We believe that it is appropriate at this time to continue to exclude issuers on the State-based Exchanges (SBEs), including SBE-FPs, as impacted payers...As we assess the effectiveness of interoperability policies, we will consider whether future rulemaking to include those types of issuers as impacted payers is appropriate.&quot; CMS needs to pick a lane here. If you have the authority to extend these requirements to state-based exchanges, extend them. If you don&#39;t, say so explicitly and tell Congress what statutory change is needed to close the gap. What we&#39;ve gotten instead is three consecutive rulemakings where CMS acknowledges the coverage gap, &quot;encourages&quot; SBEs to consider adopting similar requirements voluntarily, solicits comment on whether to maybe do something about it next time, and moves on to the next section of the preamble. Here are the levers CMS could pull: For SBE-FPs (3 states) - These exchanges use HealthCare.gov for enrollment but handle their own QHP certification. CMS could condition continued access to the Federal platform (the Data Services Hub, eligibility services) on meeting interoperability requirements. The QHP Issuer Agreement that SBE-FP issuers sign with CMS already memorializes duties and obligations. Adding interoperability attestation to that agreement would be straightforward. For fully independent SBEs (21 states): Undoubtedly harder, as CMS doesn&#39;t certify those QHPs. But you have a...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0005" style="display:none;">On the SBE gap, you wrote: &quot;We believe that it is appropriate at this time to continue to exclude issuers on the State-based Exchanges (SBEs), including SBE-FPs, as impacted payers...As we assess the effectiveness of interoperability policies, we will consider whether future rulemaking to include those types of issuers as impacted payers is appropriate.&quot; CMS needs to pick a lane here. If you have the authority to extend these requirements to state-based exchanges, extend them. If you don&#39;t, say so explicitly and tell Congress what statutory change is needed to close the gap. What we&#39;ve gotten instead is three consecutive rulemakings where CMS acknowledges the coverage gap, &quot;encourages&quot; SBEs to consider adopting similar requirements voluntarily, solicits comment on whether to maybe do something about it next time, and moves on to the next section of the preamble. Here are the levers CMS could pull: For SBE-FPs (3 states) - These exchanges use HealthCare.gov for enrollment but handle their own QHP certification. CMS could condition continued access to the Federal platform (the Data Services Hub, eligibility services) on meeting interoperability requirements. The QHP Issuer Agreement that SBE-FP issuers sign with CMS already memorializes duties and obligations. Adding interoperability attestation to that agreement would be straightforward. For fully independent SBEs (21 states): Undoubtedly harder, as CMS doesn&#39;t certify those QHPs. But you have a few options: - ACA Section 1311 essential health benefits and certification standards give the Secretary authority to set minimum QHP certification criteria. CMS could argue interoperability requirements are a condition of QHP status, period, regardless of which exchange certifies the plan. - Condition federal financial assistance (premium tax credits, CSR payments) on issuer compliance with interoperability requirements. If your plan doesn&#39;t support Patient Access API, your enrollees don&#39;t get subsidies. The ~7 million Americans enrolled through SBEs deserve the same interoperability protections as everyone else. Stop teasing us. Carpe that diem and just do it already.</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0005&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Vivienne Elizabeth Smith MD FACC" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Vivienne Elizabeth Smith MD FACC</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0003</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0003">Vivienne Elizabeth Smith MD FACC 1306831771 NPI PROBLEM: Hypertension is a increasing focus of CMS Medications in Part D Formularies are limited, disallowing or inhibiting individualized regimens in complex and high risk patients 1. Endorse proposed changes. 2. Future upgrades should provide clear executable mechanism for appeals, with a required response time. Thank you</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0003" style="display:none;">Vivienne Elizabeth Smith MD FACC 1306831771 NPI PROBLEM: Hypertension is a increasing focus of CMS Medications in Part D Formularies are limited, disallowing or inhibiting individualized regimens in complex and high risk patients 1. Endorse proposed changes. 2. Future upgrades should provide clear executable mechanism for appeals, with a required response time. Thank you</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="The ALS Association" data-attachment="yes">
+                    <div class="comment-header">
+                        <div class="comment-org">The ALS Association</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0009</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0009">The ALS Association appreciates the opportunity to comment on CMS&rsquo;s proposed rule to modernize prior authorization (PA) and interoperability requirements, including the extension of these requirements to prescription drugs. Our mission is to make ALS livable until it is cured by advancing research, supporting people living with ALS with innovative equipment and services, and advocating for policies that ensure timely access to high quality care. The ALS Association commends CMS for prioritizing prior authorization reform and recognizing the significant impact that streamlined and modernized processes can have on patient outcomes and provider efficiency. By addressing longstanding administrative burdens and avoidable delays, CMS demonstrates a meaningful commitment to strengthening the health care system for individuals with complex medical needs, including people living with ALS. These reforms better equip providers to deliver timely, coordinated care and reduce barriers that undermine access to treatment and quality of life. Timely access to care is essential for people living with ALS, a rapidly progressive disease that requires prompt and uninterrupted medical intervention. Delays in authorizing medically necessary services, equipment, or medications can result in irreversible loss of function, increased caregiver burden, and avoidable health complications. Prior authorization policies must therefore be designed to facilitate&mdash;rather than impede&mdash;access to ...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0009" style="display:none;">The ALS Association appreciates the opportunity to comment on CMS&rsquo;s proposed rule to modernize prior authorization (PA) and interoperability requirements, including the extension of these requirements to prescription drugs. Our mission is to make ALS livable until it is cured by advancing research, supporting people living with ALS with innovative equipment and services, and advocating for policies that ensure timely access to high quality care. The ALS Association commends CMS for prioritizing prior authorization reform and recognizing the significant impact that streamlined and modernized processes can have on patient outcomes and provider efficiency. By addressing longstanding administrative burdens and avoidable delays, CMS demonstrates a meaningful commitment to strengthening the health care system for individuals with complex medical needs, including people living with ALS. These reforms better equip providers to deliver timely, coordinated care and reduce barriers that undermine access to treatment and quality of life. Timely access to care is essential for people living with ALS, a rapidly progressive disease that requires prompt and uninterrupted medical intervention. Delays in authorizing medically necessary services, equipment, or medications can result in irreversible loss of function, increased caregiver burden, and avoidable health complications. Prior authorization policies must therefore be designed to facilitate&mdash;rather than impede&mdash;access to the care and supports that enable individuals with ALS to maintain independence and manage symptoms effectively. CMS has an important opportunity to ensure that prior authorization functions as a tool for appropriate care management rather than an obstacle to medically necessary treatment. Continued investment in electronic prior authorization and interoperability can reduce duplicative paperwork, expedite decision‑making, and improve communication between providers and plans. These improvements are particularly critical for ALS care, where clinical needs are urgent, ongoing, and best addressed through coordinated specialty care. The ALS Association urges CMS to finalize this rule with strong, enforceable protections to safeguard timely and nondiscriminatory access to care. This includes adopting default expedited pathways for ALS‑related services, shortening decision timelines for urgent requests, and supporting utilization management approaches&mdash;such as appropriately structured gold‑carding programs&mdash;that recognize established provider expertise. Together, these reforms will reduce treatment disruptions, promote effective care coordination, and align utilization management with the realities of progressive and life‑limiting conditions. In closing, the ALS Association strongly supports CMS&rsquo;s efforts to modernize prior authorization and urges continued improvements that prioritize access, efficiency, and equity for medically complex patients. By implementing these reforms, CMS can strengthen the health care system&rsquo;s ability to serve individuals with critical medical needs, improve the delivery of ALS care, and ensure that coverage policies support timely, patient centered treatment. We sincerely appreciate CMS&rsquo;s dedication to addressing the unique challenges faced by people living with ALS and recognizing their urgent healthcare needs.</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0009&#39;, event)">📄 Show Full Comment</button>
+                        <a class="comment-link" href="https://downloads.regulations.gov/CMS-2026-1255-0009/attachment_1.pdf" target="_blank" style="margin-left: 0.5rem;">📎 View Attachment</a>
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Helsesoft" data-attachment="yes">
+                    <div class="comment-header">
+                        <div class="comment-org">Helsesoft</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0008</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0008">Helsesoft LLC and GreenLight PA strongly support CMS-0062-P&#39;s extension of electronic prior authorization and transparency requirements to drugs. The proposed rule addresses a genuine gap in the regulatory framework and has the potential to meaningfully reduce PA burden for patients awaiting access to dermatology biologics and other specialty medications. We urge CMS to strengthen the rule&#39;s transparency provisions by requiring structured publication of drug PA criteria, mandating specialty-level disaggregation in public metrics reporting, and exploring regulatory mechanisms to surface divergence between published criteria and actual approval behavior. These additions would substantially enhance the rule&#39;s impact and create lasting accountability in the drug PA ecosystem. Helsesoft LLC welcomes the opportunity to provide technical input to CMS on these issues. We are available for follow-up discussion - use the contact information on our site or from this form.</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0008" style="display:none;">Helsesoft LLC and GreenLight PA strongly support CMS-0062-P&#39;s extension of electronic prior authorization and transparency requirements to drugs. The proposed rule addresses a genuine gap in the regulatory framework and has the potential to meaningfully reduce PA burden for patients awaiting access to dermatology biologics and other specialty medications. We urge CMS to strengthen the rule&#39;s transparency provisions by requiring structured publication of drug PA criteria, mandating specialty-level disaggregation in public metrics reporting, and exploring regulatory mechanisms to surface divergence between published criteria and actual approval behavior. These additions would substantially enhance the rule&#39;s impact and create lasting accountability in the drug PA ecosystem. Helsesoft LLC welcomes the opportunity to provide technical input to CMS on these issues. We are available for follow-up discussion - use the contact information on our site or from this form.</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        <a class="comment-link" href="https://downloads.regulations.gov/CMS-2026-1255-0008/attachment_1.pdf" target="_blank" style="margin-left: 0.5rem;">📎 View Attachment</a>
+                        <button class="comment-link" onclick="viewAnalysisInline(&#39;CMS-2026-1255-0008&#39;)" style="margin-left: 0.5rem;">🔍 View Analysis</button>
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Anonymous Anonymous" data-attachment="yes">
+                    <div class="comment-header">
+                        <div class="comment-org">Anonymous Anonymous</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0016</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0016">See attached file(s)</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0016" style="display:none;">See attached file(s)</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        <a class="comment-link" href="https://downloads.regulations.gov/CMS-2026-1255-0016/attachment_1.pdf" target="_blank" style="margin-left: 0.5rem;">📎 View Attachment</a>
+                        <button class="comment-link" onclick="viewAnalysisInline(&#39;CMS-2026-1255-0016&#39;)" style="margin-left: 0.5rem;">🔍 View Analysis</button>
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Pete Moses" data-attachment="yes">
+                    <div class="comment-header">
+                        <div class="comment-org">Pete Moses</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0011</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0011">I am submitting this comment as a prior authorization and FHIR interoperability consultant with direct experience supporting payers, providers, and health-tech teams navigating CMS interoperability requirements and Da Vinci implementation work. I support the core objective of CMS-0062-P &mdash; extending electronic prior authorization requirements to drugs and shortening decision timeframes. The operational case for this direction is well-established. Manual drug prior authorization workflows create avoidable delays in medication access, drive unnecessary administrative burden, and produce inconsistent denial rationale that makes appeals difficult for providers and patients alike. Extending the electronic prior authorization framework to drugs is the right direction. However I want to offer operationally grounded comments on three specific aspects of the proposed rule that I believe require further consideration before finalization. DECISION TIMEFRAME FEASIBILITY The proposed compression of standard drug prior authorization decisions to 72 hours and urgent decisions to 24 hours is significantly more aggressive than the current non-drug PA requirements. I support shorter timeframes as a goal. My concern is sequencing. Organizations that have not yet completed workflow redesign for non-drug PA &mdash; which represents a substantial portion of affected payers &mdash; will face compounded implementation pressure. I recommend CMS consider a phased approach that allows payers to de...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0011" style="display:none;">I am submitting this comment as a prior authorization and FHIR interoperability consultant with direct experience supporting payers, providers, and health-tech teams navigating CMS interoperability requirements and Da Vinci implementation work. I support the core objective of CMS-0062-P &mdash; extending electronic prior authorization requirements to drugs and shortening decision timeframes. The operational case for this direction is well-established. Manual drug prior authorization workflows create avoidable delays in medication access, drive unnecessary administrative burden, and produce inconsistent denial rationale that makes appeals difficult for providers and patients alike. Extending the electronic prior authorization framework to drugs is the right direction. However I want to offer operationally grounded comments on three specific aspects of the proposed rule that I believe require further consideration before finalization. DECISION TIMEFRAME FEASIBILITY The proposed compression of standard drug prior authorization decisions to 72 hours and urgent decisions to 24 hours is significantly more aggressive than the current non-drug PA requirements. I support shorter timeframes as a goal. My concern is sequencing. Organizations that have not yet completed workflow redesign for non-drug PA &mdash; which represents a substantial portion of affected payers &mdash; will face compounded implementation pressure. I recommend CMS consider a phased approach that allows payers to demonstrate operational readiness at the non-drug PA standard before the drug PA timeframes take effect. Compliance with a timeline that outpaces operational capacity produces paper compliance, not genuine improvement in patient access. WORKFLOW DESIGN BEFORE API REQUIREMENT The most significant implementation failure pattern I observe across prior authorization modernization efforts is the assumption that API compliance produces operational results. It does not. A FHIR Prior Authorization API built on top of broken intake, documentation, routing, and status workflows produces a compliant system that still delivers poor operational performance. I urge CMS to strengthen guidance around workflow readiness requirements alongside the technical API specifications &mdash; specifically around intake completeness, documentation alignment, and denial rationale generation. Technical conformance testing through Inferno validates API endpoints. It does not validate that those endpoints are connected to workflows capable of meeting the proposed decision timeframes. HUMAN ACCOUNTABILITY IN AI-ASSISTED DRUG PA As AI-assisted prior authorization tools are increasingly deployed to support the shorter decision timeframes this rule proposes, I urge CMS to strengthen its guidance on human accountability requirements for drug PA decisions. Drug prior authorization decisions directly affect patient access to medication &mdash; with immediate health consequences when delays occur. ONC&#39;s HTI-1 Final Rule is establishing algorithm transparency requirements for AI in certified health IT. CMS-0062-P should explicitly align with that direction by requiring that AI-assisted drug PA workflows maintain documented human accountability at the decision point. Automated denial of a drug prior authorization request without human review creates both patient safety risk and compliance exposure that the proposed rule should address directly. I appreciate CMS&#39;s continued leadership on prior authorization modernization and support the overall direction of this proposed rule. The comments above are offered in the interest of ensuring that the final rule produces genuine operational improvement in patient access &mdash; not just technical compliance. Respectfully submitted, Pete Moses MosesAI Consulting Prior Authorization and FHIR Interoperability Consultant</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0011&#39;, event)">📄 Show Full Comment</button>
+                        <a class="comment-link" href="https://downloads.regulations.gov/CMS-2026-1255-0011/attachment_1.pdf" target="_blank" style="margin-left: 0.5rem;">📎 View Attachment</a>
+                        <button class="comment-link" onclick="viewAnalysisInline(&#39;CMS-2026-1255-0011&#39;)" style="margin-left: 0.5rem;">🔍 View Analysis</button>
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Calvient" data-attachment="yes">
+                    <div class="comment-header">
+                        <div class="comment-org">Calvient</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0002</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0002">Calvient is a healthcare technology company that develops AI-powered solutions for prior authorizations, referrals, intelligent document processing, fax management, and healthcare operations automation. We serve federally qualified health centers (FQHCs), community health centers, and health systems across the United States. We strongly support CMS-0062-P and the extension of electronic prior authorization requirements to prescription drugs. The compressed decision timeframes (24-hour urgent, 72-hour standard), adoption of FHIR and NCPDP standards, specific denial reason requirements, and public reporting of PA metrics are all essential reforms. Our detailed comments are provided in the attached document. We wish to highlight one central point: the fax is not the problem. While electronic transmission standards are necessary, the true burden lies in the intensity, variability, and volume of payer-specific documentation requirements. Providers at FQHCs and health systems dedicate full-time staff solely to completing PA questionnaires, scrubbing patient charts for relevant clinical data, and monitoring submission status. Moving from fax to API makes submission faster but does not reduce this preparatory work. This is why the Da Vinci Documentation Templates and Rules (DTR) implementation guide is the most consequential element of this rule. DTR enables payers to deliver documentation requirements in structured, machine-readable formats that can be pre-populated with clinical da...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0002" style="display:none;">Calvient is a healthcare technology company that develops AI-powered solutions for prior authorizations, referrals, intelligent document processing, fax management, and healthcare operations automation. We serve federally qualified health centers (FQHCs), community health centers, and health systems across the United States. We strongly support CMS-0062-P and the extension of electronic prior authorization requirements to prescription drugs. The compressed decision timeframes (24-hour urgent, 72-hour standard), adoption of FHIR and NCPDP standards, specific denial reason requirements, and public reporting of PA metrics are all essential reforms. Our detailed comments are provided in the attached document. We wish to highlight one central point: the fax is not the problem. While electronic transmission standards are necessary, the true burden lies in the intensity, variability, and volume of payer-specific documentation requirements. Providers at FQHCs and health systems dedicate full-time staff solely to completing PA questionnaires, scrubbing patient charts for relevant clinical data, and monitoring submission status. Moving from fax to API makes submission faster but does not reduce this preparatory work. This is why the Da Vinci Documentation Templates and Rules (DTR) implementation guide is the most consequential element of this rule. DTR enables payers to deliver documentation requirements in structured, machine-readable formats that can be pre-populated with clinical data from the patient record. We urge CMS to mandate DTR adoption with the same urgency as PAS. We also urge CMS to recognize the emerging role of AI-augmented workflows in prior authorization. AI agents are already assisting providers by scrubbing charts, pre-populating questionnaire responses, verifying PA necessity, and monitoring submission status. These tools do not replace human clinical judgment, but rather augment human capabilities and efficiency. The EPA framework established by this rule should be designed to facilitate AI-assisted workflows by ensuring DTR questionnaires are machine-processable, PAS APIs support programmatic status queries, and payer API access policies accommodate technology-assisted throughput. Our attached comment provides detailed recommendations including: mandating DTR with equal urgency to PAS, requiring PA necessity determination via API, establishing questionnaire consistency standards, designing EPA for AI-augmented workflows, and addressing the unique needs of FQHCs. We also respond to the RFIs on step therapy, laboratory/DME PA burden, and cybersecurity. Calvient welcomes the opportunity to serve as a resource to CMS on this rulemaking.</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0002&#39;, event)">📄 Show Full Comment</button>
+                        <a class="comment-link" href="https://downloads.regulations.gov/CMS-2026-1255-0002/attachment_1.pdf" target="_blank" style="margin-left: 0.5rem;">📎 View Attachment</a>
+                        <button class="comment-link" onclick="viewAnalysisInline(&#39;CMS-2026-1255-0002&#39;)" style="margin-left: 0.5rem;">🔍 View Analysis</button>
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Akken Yakupitiyage" data-attachment="yes">
+                    <div class="comment-header">
+                        <div class="comment-org">Akken Yakupitiyage</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0010</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0010">PUBLIC COMMENT ON CMS-0062-P Docket: CMS-2026-1255-0001 RFI Addressed: III.C. Improving Implementation of Payer API Technology Submitted by: Akken Yakupitiyage, Founder, Zkeleton This is a summary. The full comment is in the attached PDF. I am the founder of Zkeleton, a pre-seed company building clinical data normalization infrastructure for health plans. Zkeleton is not a regulated entity under this rule, does not currently sell into the impacted payer categories, and has no direct commercial position in the outcome. The proposed rule meaningfully advances interoperability by extending API requirements to drugs and establishing an endpoint registry. The most important unaddressed risk is the gap between technical conformance to FHIR implementation guides and the practical usability of the data those guides convey. THE CONFORMANCE GAP Conformance ensures that data moves. Fidelity ensures that data arrives in a form the receiving payer can act on. The current testing framework, including ONC Inferno, validates the first but not the second. Five patterns illustrate the gap: 1. Unstructured attachments under CDex. Two payers can pass conformance while one transmits structured Observations with LOINC codes and the other transmits a scanned PDF of the same lab. 2. Code system fragmentation. Prior treatment history may appear as RxNorm RXCUIs, NDCs, internal payer codes, or free text. All conformant; only the first supports automated decisioning. 3. Semantic loss across Payer-to-Pa...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0010" style="display:none;">PUBLIC COMMENT ON CMS-0062-P Docket: CMS-2026-1255-0001 RFI Addressed: III.C. Improving Implementation of Payer API Technology Submitted by: Akken Yakupitiyage, Founder, Zkeleton This is a summary. The full comment is in the attached PDF. I am the founder of Zkeleton, a pre-seed company building clinical data normalization infrastructure for health plans. Zkeleton is not a regulated entity under this rule, does not currently sell into the impacted payer categories, and has no direct commercial position in the outcome. The proposed rule meaningfully advances interoperability by extending API requirements to drugs and establishing an endpoint registry. The most important unaddressed risk is the gap between technical conformance to FHIR implementation guides and the practical usability of the data those guides convey. THE CONFORMANCE GAP Conformance ensures that data moves. Fidelity ensures that data arrives in a form the receiving payer can act on. The current testing framework, including ONC Inferno, validates the first but not the second. Five patterns illustrate the gap: 1. Unstructured attachments under CDex. Two payers can pass conformance while one transmits structured Observations with LOINC codes and the other transmits a scanned PDF of the same lab. 2. Code system fragmentation. Prior treatment history may appear as RxNorm RXCUIs, NDCs, internal payer codes, or free text. All conformant; only the first supports automated decisioning. 3. Semantic loss across Payer-to-Payer. A member who cleared step therapy at one payer may be forced to repeat it at the next, because the receiving payer cannot operationalize the prior failure history even though it was technically transmitted. 4. Absence of round-trip scenario testing. No widely adopted test verifies that a clinically meaningful PA scenario can be transmitted, received, and rendered into a coverage decision without semantic loss. 5. Identity and demographic resolution. Patient matching across payers is governed by each payer&#39;s internal algorithms, with no rule-level expectations for matching quality or transparency. RECOMMENDATIONS 1. Establish semantic fidelity benchmarks alongside conformance testing, covering structured-Observation rates, RxNorm-encoding rates, and structured-rationale rates for PA decisions. Publishing them is itself a market signal. 2. Require structured representation when the source representation is structured. PDF wrapping of natively structured data should be discouraged through the testing and certification framework. 3. Develop a reference test corpus for round-trip scenarios covering specialty drugs with prior step therapy, oncology with biomarker-based eligibility, transplant immunosuppressants, and autoimmune biologics. 4. Publish a data fidelity score alongside the API endpoint registry described in Section II.E, so receiving payers, providers, and patients can assess upstream quality and payers have a market incentive to invest in fidelity. 5. Clarify that nothing in the conformance and testing framework prohibits payers from staging, normalizing, or quality-checking ingested clinical data in segregated or single-tenant processing environments before promoting it to operational systems. This clarification removes ambiguity for payer privacy, security, and compliance teams considering modern data architectures. TRADEOFFS Three tradeoffs are worth naming. First, fidelity benchmarks add cost and could slow small payer adoption; CMS should consider phasing them twelve to eighteen months after conformance compliance. Second, premature standardization is a real risk; the recommendations above are framed as benchmarks rather than fixed mandates to allow evolution. Third, burden on small entities is real and should be mitigated through delayed timelines or modified expectations for smaller payers. WHY THIS MATTERS FOR PATIENTS The drug prior authorization extension addresses care categories where delay translates directly into harm: specialty drugs, oncology regimens, autoimmune biologics. A patient who has cleared step therapy at one plan should not be forced to repeat it at the next because the receiving payer cannot operationalize the prior failure history. Conformance moves the data. Fidelity ensures it can be used. The attached PDF contains the full analysis of each gap and recommendation. I appreciate the opportunity to comment and would welcome follow-up from CMS staff on the technical specifics. Respectfully submitted, Akken Yakupitiyage Founder, Zkeleton akkenyaku@zkeleton.com</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0010&#39;, event)">📄 Show Full Comment</button>
+                        <a class="comment-link" href="https://downloads.regulations.gov/CMS-2026-1255-0010/attachment_1.pdf" target="_blank" style="margin-left: 0.5rem;">📎 View Attachment</a>
+                        <button class="comment-link" onclick="viewAnalysisInline(&#39;CMS-2026-1255-0010&#39;)" style="margin-left: 0.5rem;">🔍 View Analysis</button>
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="traci susong" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">traci susong</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0004</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0004">Pharmacy Benefit Prior Auths - all PBMS (Medicare, Medicaid) require ePA submission (no faxes) with outcomes and access to clinical policies or identify what reference the determination was used for the denial. Additional information, denials and approvals all should be via ePA response. Too much paper</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0004" style="display:none;">Pharmacy Benefit Prior Auths - all PBMS (Medicare, Medicaid) require ePA submission (no faxes) with outcomes and access to clinical policies or identify what reference the determination was used for the denial. Additional information, denials and approvals all should be via ePA response. Too much paper</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Grace Franz" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Grace Franz</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0014</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0014">As a healthcare leader responsible for clinical informatics and operational workflows, I strongly support the intent of this proposed rule to modernize prior authorization through improved interoperability and electronic processes. Prior authorization delays are not simply administrative inefficiencies&mdash;they directly impact patient care. When approvals are delayed, patients experience postponed treatments, interruptions in medication access, and, in some cases, worsening clinical outcomes. For this reason, the proposed decision timeframes are not just operational benchmarks; they are critical patient safety safeguards. However, the effectiveness of this rule will depend on meaningful enforcement. If payers are not held accountable to consistently meet these timelines, the burden of delay will continue to fall on patients despite the transition to electronic systems. Additionally, it is essential that payers bear the primary responsibility for the costs and operational lift associated with integration and implementation. Prior authorization requirements originate from payer policies, and the administrative complexity that this rule seeks to address has largely been driven by payer processes. While providers will need to interact with enhanced digital workflows, shifting the cost burden onto health systems would further strain organizations already managing significant clinical and financial pressures. True reform requires clear accountability&mdash;both in terms of adhere...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0014" style="display:none;">As a healthcare leader responsible for clinical informatics and operational workflows, I strongly support the intent of this proposed rule to modernize prior authorization through improved interoperability and electronic processes. Prior authorization delays are not simply administrative inefficiencies&mdash;they directly impact patient care. When approvals are delayed, patients experience postponed treatments, interruptions in medication access, and, in some cases, worsening clinical outcomes. For this reason, the proposed decision timeframes are not just operational benchmarks; they are critical patient safety safeguards. However, the effectiveness of this rule will depend on meaningful enforcement. If payers are not held accountable to consistently meet these timelines, the burden of delay will continue to fall on patients despite the transition to electronic systems. Additionally, it is essential that payers bear the primary responsibility for the costs and operational lift associated with integration and implementation. Prior authorization requirements originate from payer policies, and the administrative complexity that this rule seeks to address has largely been driven by payer processes. While providers will need to interact with enhanced digital workflows, shifting the cost burden onto health systems would further strain organizations already managing significant clinical and financial pressures. True reform requires clear accountability&mdash;both in terms of adherence to required timelines and investment in the infrastructure needed to support interoperability. Without enforceable standards and appropriate allocation of responsibility, there is a risk that these changes will not achieve their intended impact. Ensuring payer accountability will be key to delivering meaningful improvements in efficiency, transparency, and, most importantly, patient care.</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0014&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Thomas Rayner" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Thomas Rayner</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0020</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0020">CMS-0062-P &mdash; 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule To Whom It May Concern: I am writing in strong support of CMS&rsquo;s proposed efforts to improve prior authorization transparency, interoperability, and timeliness under CMS-0062-P. As a practicing psychiatrist and medical leader involved in treating patients with severe and treatment-resistant psychiatric illness, I believe these reforms are critically needed&mdash;particularly for advanced psychiatric treatments such as Spravato (esketamine) and Transcranial Magnetic Stimulation (TMS). Patients who qualify for Spravato or TMS often suffer from treatment-resistant depression, severe suicidal ideation, obsessive-compulsive disorder, or other highly impairing psychiatric conditions. These individuals have frequently failed multiple traditional medication trials and may be experiencing substantial functional decline, hospitalization risk, suicidality, inability to work, or profound impairment in daily living. Delays in treatment access can therefore result in serious clinical deterioration, psychiatric hospitalization, emergency department utilization, self-harm risk, and increased healthcare costs. Current prior authorization processes for advanced psychiatric treatments are frequently burdensome, inconsistent, duplicative, and excessively delayed. Providers are often required to repeatedly submit documentation that already clearly demonstrates medical necessity. These delay...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0020" style="display:none;">CMS-0062-P &mdash; 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule To Whom It May Concern: I am writing in strong support of CMS&rsquo;s proposed efforts to improve prior authorization transparency, interoperability, and timeliness under CMS-0062-P. As a practicing psychiatrist and medical leader involved in treating patients with severe and treatment-resistant psychiatric illness, I believe these reforms are critically needed&mdash;particularly for advanced psychiatric treatments such as Spravato (esketamine) and Transcranial Magnetic Stimulation (TMS). Patients who qualify for Spravato or TMS often suffer from treatment-resistant depression, severe suicidal ideation, obsessive-compulsive disorder, or other highly impairing psychiatric conditions. These individuals have frequently failed multiple traditional medication trials and may be experiencing substantial functional decline, hospitalization risk, suicidality, inability to work, or profound impairment in daily living. Delays in treatment access can therefore result in serious clinical deterioration, psychiatric hospitalization, emergency department utilization, self-harm risk, and increased healthcare costs. Current prior authorization processes for advanced psychiatric treatments are frequently burdensome, inconsistent, duplicative, and excessively delayed. Providers are often required to repeatedly submit documentation that already clearly demonstrates medical necessity. These delays create significant administrative burden while placing vulnerable patients at substantial clinical risk. The patients needing these treatments have already undergone extensive medication trials and psychotherapy before being considered for treatment. Yet providers commonly encounter repetitive authorization requirements, inconsistent payer criteria, and repeated requests for documentation that delay access to care. These barriers are especially concerning given the strong evidence base supporting these treatments as safe and effective treatment for treatment-resistant depression and other psychiatric disorders. I strongly support CMS proposals that would: &bull; Require electronic prior authorization capabilities for drugs and medical services &bull; Establish standardized response timelines for prior authorizations &bull; Require specific reasons for denials &bull; Increase public reporting and transparency regarding prior authorization metrics I also encourage CMS to consider the following additional protections and clarifications for psychiatric treatments such as Spravato and TMS: Enforce Rapid Review Standards for Serious Psychiatric Conditions Psychiatric illnesses can rapidly worsen when treatment is delayed. Expedited review standards should explicitly include severe treatment-resistant depression, suicidality, and other serious psychiatric conditions. Delays measured in weeks can have life-threatening consequences. Reduce Redundant Step Therapy and Documentation Requirements Many patients seeking Spravato or TMS have already failed multiple evidence-based treatments. Excessive or repetitive step therapy beyond established clinical guidelines unnecessarily delays medically necessary care and prolongs suffering. Improve Transparency Around Denials Providers should receive clinically meaningful explanations for denials, including the exact missing criteria, records, or rationale. Generic denial language creates unnecessary appeals, delays, and administrative waste. Promote Continuity of Care Patients who are stabilized and responding to Spravato or TMS should not face repeated interruptions due to recurring administrative barriers. Continuity of treatment is especially important in severe psychiatric illness. Encourage Greater Standardization Across Payers Significant variability exists among payers regarding psychiatric prior authorization criteria, particularly for TMS. Greater standardization would reduce administrative burden and improve equitable patient access to evidence-based care. Recognize the Severity of Behavioral Health Conditions Behavioral health conditions often carry significant morbidity, mortality, disability, and healthcare utilization. Prior authorization systems should account for the time-sensitive and medically serious nature of psychiatric care similarly to other high-risk medical conditions. CMS&rsquo;s proposed interoperability and prior authorization reforms represent an important step toward improving patient access, reducing administrative waste, and supporting timely evidence-based care. These reforms can meaningfully improve outcomes for patients suffering from severe mental illness while reducing downstream healthcare costs associated with untreated or undertreated psychiatric disease. Thank you for the opportunity to comment on this important proposed rule. Sincerely, Thomas Rayner, MD Chief Medical Officer Whole Mind</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0020&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Anonymous" data-attachment="yes">
+                    <div class="comment-header">
+                        <div class="comment-org">Anonymous</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0006</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0006">See Attached</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0006" style="display:none;">See Attached</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        <a class="comment-link" href="https://downloads.regulations.gov/CMS-2026-1255-0006/attachment_1.pdf" target="_blank" style="margin-left: 0.5rem;">📎 View Attachment</a>
+                        <button class="comment-link" onclick="viewAnalysisInline(&#39;CMS-2026-1255-0006&#39;)" style="margin-left: 0.5rem;">🔍 View Analysis</button>
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Thea E" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Thea E</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0012</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0012">Hello, I am submitting this comment as an undergraduate student pursuing dual degrees in Public Health and Mathematical Data Science at San Diego State University, where I am also involved in public health research focused on infectious disease modeling, community health impact assessment, and health equity in underserved border communities. I strongly support the proposed rule&#39;s expansion of interoperability standards and electronic prior authorization (ePA) requirements to Medicare Advantage organizations, Medicaid managed care plans, and CHIP agencies. This rule addresses a critical bottleneck in the healthcare system, one that disproportionately harms the most vulnerable patients. Prior authorization delays are not &quot;administrative inconveniences&quot;. Research has consistently shown that PA burdens fall hardest on Medicaid beneficiaries, who are more likely to be patients of color, low-income, and reliant on community health centers with limited administrative capacity to manage PA workflows. In border communities like those along the San Diego&ndash;Tijuana corridor, where I have conducted community health research, these barriers compound existing access inequities. A patient waiting days or weeks for PA approval on a necessary medication may forgo care entirely with downstream consequences for chronic disease management, emergency utilization, and population health outcomes. The proposed FHIR-based standards for drug PA are a meaningful step toward reducing t...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0012" style="display:none;">Hello, I am submitting this comment as an undergraduate student pursuing dual degrees in Public Health and Mathematical Data Science at San Diego State University, where I am also involved in public health research focused on infectious disease modeling, community health impact assessment, and health equity in underserved border communities. I strongly support the proposed rule&#39;s expansion of interoperability standards and electronic prior authorization (ePA) requirements to Medicare Advantage organizations, Medicaid managed care plans, and CHIP agencies. This rule addresses a critical bottleneck in the healthcare system, one that disproportionately harms the most vulnerable patients. Prior authorization delays are not &quot;administrative inconveniences&quot;. Research has consistently shown that PA burdens fall hardest on Medicaid beneficiaries, who are more likely to be patients of color, low-income, and reliant on community health centers with limited administrative capacity to manage PA workflows. In border communities like those along the San Diego&ndash;Tijuana corridor, where I have conducted community health research, these barriers compound existing access inequities. A patient waiting days or weeks for PA approval on a necessary medication may forgo care entirely with downstream consequences for chronic disease management, emergency utilization, and population health outcomes. The proposed FHIR-based standards for drug PA are a meaningful step toward reducing this burden. Standardized electronic PA workflows would reduce the time providers spend on administrative tasks, accelerate decisions for patients, and generate structured data that public health researchers and policymakers can use to monitor disparities in PA approval rates across demographic groups and plan types. However, I urge CMS to go further in two areas: First, the proposed rule should require plans to publicly report PA approval and denial rates, stratified by race, ethnicity, language, and condition type. Without this data transparency, it is impossible to identify and correct discriminatory patterns in PA decision-making. The rule&#39;s interoperability infrastructure makes this reporting technically feasible &mdash; CMS should require it. Second, I urge CMS to set meaningful timelines for drug PA decisions that reflect clinical urgency. The proposed rule is an opportunity to establish enforceable standards that protect patients when delays can cause measurable harm. I commend CMS for advancing this rulemaking and urge the agency to finalize it with strong equity provisions. Health data infrastructure is only as valuable as the health outcomes it produces, and this rule has the potential to meaningfully reduce disparities if implemented with that goal in mind. Thank you for the opportunity to comment.</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0012&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Robert Channing Wheeler" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Robert Channing Wheeler</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0013</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0013">It is vital for transparency that Medicare and Medicaid programs be required to report on denials of prescription fills. These denials are often overturned on appeal. Many consumers are receiving denials and do not realize they can appeal. This affects the health status of thousands of Americans. As a former executive of national insurance organizations (CIGNA Healthcare and UnitedHealth Group), the fact that there is no transparency across the 50 states of the metrics around pharmacy management and the resultant denials of prescription now, this must be changed to allow consumers and policy leaders to address the real problems we have in pharmacy administration.</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0013" style="display:none;">It is vital for transparency that Medicare and Medicaid programs be required to report on denials of prescription fills. These denials are often overturned on appeal. Many consumers are receiving denials and do not realize they can appeal. This affects the health status of thousands of Americans. As a former executive of national insurance organizations (CIGNA Healthcare and UnitedHealth Group), the fact that there is no transparency across the 50 states of the metrics around pharmacy management and the resultant denials of prescription now, this must be changed to allow consumers and policy leaders to address the real problems we have in pharmacy administration.</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="James Welsh" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">James Welsh</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0017</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0017">I am in favor of significantly increasing the public&#39;s visibility to prior authorization metrics (rates of approvals, denials, overturn rates, etc.).</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0017" style="display:none;">I am in favor of significantly increasing the public&#39;s visibility to prior authorization metrics (rates of approvals, denials, overturn rates, etc.).</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Anonymous Anonymous" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Anonymous Anonymous</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0018</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0018">To the Centers for Medicare and Medicaid Services, I am writing to support the proposed rule regarding Interoperability Standards and Prior Authorization for Drugs. I believe this proposal is a vital step toward modernizing the administrative framework for Medicare and Medicaid, specifically by reducing the inefficiencies associated with the current prior authorizations process with prescription drugs. One part of the proposal I especially agree with is the focus of making health information easier to share between providers, insurers, and patients. Many patients experience delays, repeated paperwork, or duplicate testing because different healthcare systems are not connected. Better interoperability could improve coordination between providers and help patients receive faster and more informed care. I also believe this proposal could help reduce information gaps that currently exist between patients, providers, and insurance companies. Patients often do not have full access to or understanding of their own medical records when making treatment decisions. Improving access to accurate and updated information can help reduce these asymmetries and lead to better healthcare decisions overall. In addition, improving data sharing may help reduce unnecessary costs caused by duplicate tests, billing mistakes, and administrative inefficiencies. These improvements could benefit both patients and healthcare programs over time. At the same time, I believe strong privacy and cybersecurity...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0018" style="display:none;">To the Centers for Medicare and Medicaid Services, I am writing to support the proposed rule regarding Interoperability Standards and Prior Authorization for Drugs. I believe this proposal is a vital step toward modernizing the administrative framework for Medicare and Medicaid, specifically by reducing the inefficiencies associated with the current prior authorizations process with prescription drugs. One part of the proposal I especially agree with is the focus of making health information easier to share between providers, insurers, and patients. Many patients experience delays, repeated paperwork, or duplicate testing because different healthcare systems are not connected. Better interoperability could improve coordination between providers and help patients receive faster and more informed care. I also believe this proposal could help reduce information gaps that currently exist between patients, providers, and insurance companies. Patients often do not have full access to or understanding of their own medical records when making treatment decisions. Improving access to accurate and updated information can help reduce these asymmetries and lead to better healthcare decisions overall. In addition, improving data sharing may help reduce unnecessary costs caused by duplicate tests, billing mistakes, and administrative inefficiencies. These improvements could benefit both patients and healthcare programs over time. At the same time, I believe strong privacy and cybersecurity protections should remain a priority as more health information becomes digitally connected. Expanding access to healthcare data should also include clear accountability standards to protect sensitive patient information. Overall, I believe this proposal is a positive step toward improving transparency, coordination, and efficiency within the healthcare system. Thank you</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0018&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="a i" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">a i</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0019</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0019">pharmacy PA transparency should be required</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0019" style="display:none;">pharmacy PA transparency should be required</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Pooja Walia" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Pooja Walia</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0021</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0021">Dear CMS, I am a technology leader and IEEE Senior Member with experience supporting AI adoption across 180 or more organizations in healthcare, enterprise, and public sector environments. My peer reviewed research on secure AI architectures for healthcare critical infrastructure was published at IEEE SoutheastCon 2026, and I have written for Healthcare IT Today on post deployment AI governance. I am submitting this comment based on practical experience with AI driven automation in regulated healthcare environments. My comments focus on sections II.B (Electronic Prior Authorization for Drugs) and II.C (Improving Communications and Decision Timeframes for Prior Authorizations). 1. Prior authorization decisions that involve AI need transparency at the decision layer Prior authorization for drugs is increasingly automated on the payer side. AI is used to triage, recommend, or deny requests before a human ever looks at the file. When AI contributes to a denial or an adverse determination, the specific reason for denial requirements in this rule should extend to the AI layer itself. That means disclosing the model version in use at the time of the decision, the inputs it considered, and whether a human actually reviewed the determination before it was sent out. The proposed public reporting of denial and appeal metrics is a strong step. Without transparency at the decision layer, though, those metrics will describe the outcome but not how the outcome was produced. Patients, prescr...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0021" style="display:none;">Dear CMS, I am a technology leader and IEEE Senior Member with experience supporting AI adoption across 180 or more organizations in healthcare, enterprise, and public sector environments. My peer reviewed research on secure AI architectures for healthcare critical infrastructure was published at IEEE SoutheastCon 2026, and I have written for Healthcare IT Today on post deployment AI governance. I am submitting this comment based on practical experience with AI driven automation in regulated healthcare environments. My comments focus on sections II.B (Electronic Prior Authorization for Drugs) and II.C (Improving Communications and Decision Timeframes for Prior Authorizations). 1. Prior authorization decisions that involve AI need transparency at the decision layer Prior authorization for drugs is increasingly automated on the payer side. AI is used to triage, recommend, or deny requests before a human ever looks at the file. When AI contributes to a denial or an adverse determination, the specific reason for denial requirements in this rule should extend to the AI layer itself. That means disclosing the model version in use at the time of the decision, the inputs it considered, and whether a human actually reviewed the determination before it was sent out. The proposed public reporting of denial and appeal metrics is a strong step. Without transparency at the decision layer, though, those metrics will describe the outcome but not how the outcome was produced. Patients, prescribers, and pharmacists receive the answer without the decision process behind it, which limits what any of them can do with the information. 2. FHIR based Prior Authorization API requirements should be paired with AI metadata The FHIR first direction of this rule, including the proposed adoption of the CRD, DTR, and PAS implementation guides for the Prior Authorization API, is strong. As payers and providers exchange data to support electronic prior authorization for drugs covered under a medical benefit, the data envelope should carry enough metadata to identify when AI was used in a decision path. Existing FHIR resources can be extended to carry this metadata without a redesign of the implementation guides CMS is proposing to require. This is consistent with where HTI-5 was heading on automated actor recognition and with broader federal AI governance work under the NIST AI RMF. Carrying AI metadata in the same transactions that already carry prior authorization decisions avoids standing up a parallel disclosure channel later. 3. Vendor accountability applies to AI enabled prior authorization Many impacted payers deploy AI for prior authorization through third party vendors, including pharmacy benefit managers and utilization management vendors. The contracts with those vendors were usually written for traditional rules engines, not adaptive AI. Model updates, training data provenance, and ongoing performance monitoring typically are not covered. As CMS establishes the October 1, 2027 compliance dates, the electronic prior authorization requirements, and the decision timeframes in this rule, it is worth addressing vendor accountability for the AI components of the decision pipeline. Otherwise the impacted payer carries the regulatory burden for behavior it does not fully control, and the provider has no clear entity to engage with when something goes wrong. 4. Continuous monitoring of denial and appeal patterns The proposed public reporting requirements for prior authorization for drugs would be stronger with a continuous monitoring expectation built in. Impacted payers could track and report on denial rates, appeal reversal rates, and decision timing by drug category and patient population. That kind of monitoring creates an operational feedback loop that helps surface when AI driven systems are producing unintended patterns, rather than waiting for those patterns to show up in complaints, state enforcement, or litigation. It also aligns with the direction the proposed numeric count metrics are already moving in. Thank you for the opportunity to contribute. Sincerely, Pooja Walia IEEE Senior Member Author, ICLR/ICML Reviewer Published research: &quot;Building Secure and Trustworthy AI for Healthcare Critical Infrastructure,&quot; IEEE SoutheastCon 2026</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0021&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="GORDON Nichols" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">GORDON Nichols</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0007</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0007">In my opinion Cytodyn/Leronlimab is going to be the next MIRACLE DRUG IN THE WORLD!!!</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0007" style="display:none;">In my opinion Cytodyn/Leronlimab is going to be the next MIRACLE DRUG IN THE WORLD!!!</div>
+                    <div style="margin-top: 0.5rem;">
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+
+                <div class="comment-item" data-org="Boulder Community Health" data-attachment="no">
+                    <div class="comment-header">
+                        <div class="comment-org">Boulder Community Health</div>
+                        <div class="comment-date">2026-05-13 | ID: CMS-2026-1255-0015</div>
+                    </div>
+                    <div class="comment-text" id="text-CMS-2026-1255-0015">As a healthcare leader responsible for clinical informatics and operational workflows, I strongly support the intent of this proposed rule to modernize prior authorization through improved interoperability and electronic processes. Prior authorization delays are not simply administrative inefficiencies&mdash;they directly impact patient care. When approvals are delayed, patients experience postponed treatments, interruptions in medication access, and, in some cases, worsening clinical outcomes. For this reason, the proposed decision timeframes are not just operational benchmarks; they are critical patient safety safeguards. However, the effectiveness of this rule will depend on meaningful enforcement. If payers are not held accountable to consistently meet these timelines, the burden of delay will continue to fall on patients despite the transition to electronic systems. Additionally, it is essential that payers bear the primary responsibility for the costs and operational lift associated with integration and implementation. Prior authorization requirements originate from payer policies, and the administrative complexity that this rule seeks to address has largely been driven by payer processes. While providers will need to interact with enhanced digital workflows, shifting the cost burden onto health systems would further strain organizations already managing significant clinical and financial pressures. True reform requires clear accountability&mdash;both in terms of adhere...</div>
+                    <div class="comment-full" id="full-CMS-2026-1255-0015" style="display:none;">As a healthcare leader responsible for clinical informatics and operational workflows, I strongly support the intent of this proposed rule to modernize prior authorization through improved interoperability and electronic processes. Prior authorization delays are not simply administrative inefficiencies&mdash;they directly impact patient care. When approvals are delayed, patients experience postponed treatments, interruptions in medication access, and, in some cases, worsening clinical outcomes. For this reason, the proposed decision timeframes are not just operational benchmarks; they are critical patient safety safeguards. However, the effectiveness of this rule will depend on meaningful enforcement. If payers are not held accountable to consistently meet these timelines, the burden of delay will continue to fall on patients despite the transition to electronic systems. Additionally, it is essential that payers bear the primary responsibility for the costs and operational lift associated with integration and implementation. Prior authorization requirements originate from payer policies, and the administrative complexity that this rule seeks to address has largely been driven by payer processes. While providers will need to interact with enhanced digital workflows, shifting the cost burden onto health systems would further strain organizations already managing significant clinical and financial pressures. True reform requires clear accountability&mdash;both in terms of adherence to required timelines and investment in the infrastructure needed to support interoperability. Without enforceable standards and appropriate allocation of responsibility, there is a risk that these changes will not achieve their intended impact. Ensuring payer accountability will be key to delivering meaningful improvements in efficiency, transparency, and, most importantly, patient care.</div>
+                    <div style="margin-top: 0.5rem;">
+                        <button class="comment-link" onclick="toggleComment(&#39;CMS-2026-1255-0015&#39;, event)">📄 Show Full Comment</button>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Analysis Tab -->
+    <div id="analysis-tab" class="tab-content">
+        <div class="card">
+            <h2>Comment Analysis</h2>
+            <div style="margin-bottom: 1.5rem;">
+                <label for="analysisSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Select Comment:</label>
+                <select id="analysisSelect" onchange="loadAnalysis()" style="width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ddd; border-radius: 8px; background: white;">
+                    <option value="">-- Select a comment to view analysis --</option>
+                </select>
+            </div>
+            <div id="analysisContent">
+                <p style="color: #999; text-align: center; margin-top: 2rem;">Select a comment from the dropdown above to view its analysis.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Geographic Tab -->
+    <div id="geographic-tab" class="tab-content">
+        <div class="card">
+            <h2>Comments by State/Region</h2>
+            <div class="chart-container" style="height: 500px;">
+                <canvas id="geographicChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Global data
+const allData = {"dates": ["2026-05-13", "2026-05-14"], "dateValues": [20, 1], "organizations": ["Individual Commenters", "EasyPA Inc", "The ALS Association", "Helsesoft", "Calvient", "Boulder Community Health"], "orgValues": [15, 1, 1, 1, 1, 1], "attachments": {"with": 7, "without": 14}, "sentiments": {"Supportive": 15, "Opposed": 1, "Concerned": 1, "Mixed": 2}, "stakeholders": {"Healthcare Provider": 10, "Technology Vendor": 6, "Government Agency": 4, "Advocacy/Policy Group": 1, "Individual": 1}, "themes": {"Interoperability": 17, "AI/ML": 19, "Certification": 10, "Patient Access": 16, "Privacy/Security": 6, "Accessibility": 1}, "states": {"OR": 2, "NY": 1, "MN": 1, "CA": 1, "CO": 1, "UT": 1, "CT": 1}, "comment_analyses": {}, "comments_info": [{"id": "CMS-2026-1255-0022", "organization": "EasyPA Inc", "date": "2026-05-14"}, {"id": "CMS-2026-1255-0005", "organization": "Brendan Keeler", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0003", "organization": "Vivienne Elizabeth Smith MD FACC", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0009", "organization": "The ALS Association", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0008", "organization": "Helsesoft", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0016", "organization": "Anonymous Anonymous", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0011", "organization": "Pete Moses", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0002", "organization": "Calvient", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0010", "organization": "Akken Yakupitiyage", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0004", "organization": "traci susong", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0014", "organization": "Grace Franz", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0020", "organization": "Thomas Rayner", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0006", "organization": "Anonymous", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0012", "organization": "Thea E", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0013", "organization": "Robert Channing Wheeler", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0017", "organization": "James Welsh", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0018", "organization": "Anonymous Anonymous", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0019", "organization": "a i", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0021", "organization": "Pooja Walia", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0007", "organization": "GORDON Nichols", "date": "2026-05-13"}, {"id": "CMS-2026-1255-0015", "organization": "Boulder Community Health", "date": "2026-05-13"}], "summary_analyses": {}, "summary_info": {"master": null, "batches": []}};
+
+// Theme toggle
+function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+}
+
+// Load theme preference
+if (localStorage.getItem('darkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+}
+
+// Tab switching
+function switchTab(tabName, event) {
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    document.getElementById(tabName + '-tab').classList.add('active');
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
+}
+
+// Export data
+function exportData() {
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(allData, null, 2));
+    const downloadAnchor = document.createElement('a');
+    downloadAnchor.setAttribute("href", dataStr);
+    downloadAnchor.setAttribute("download", "dashboard_data.json");
+    document.body.appendChild(downloadAnchor);
+    downloadAnchor.click();
+    downloadAnchor.remove();
+}
+
+// Load analysis for selected comment or summary
+function loadAnalysis() {
+    const select = document.getElementById('analysisSelect');
+    const content = document.getElementById('analysisContent');
+    const selectedValue = select.value;
+
+    if (!selectedValue) {
+        content.innerHTML = '<p style="color: #999; text-align: center; margin-top: 2rem;">Select a comment from the dropdown above to view its analysis.</p>';
+        return;
+    }
+
+    // Check if it's a summary (master or batch)
+    let analysisText = allData.summary_analyses[selectedValue];
+
+    // If not a summary, check comment analyses
+    if (!analysisText) {
+        analysisText = allData.comment_analyses[selectedValue];
+    }
+
+    if (analysisText) {
+        content.innerHTML = '<div style="font-size: 1rem; white-space: pre-wrap;">' + analysisText + '</div>';
+    } else {
+        content.innerHTML = '<p style="color: #999; text-align: center; margin-top: 2rem;">No analysis available.</p>';
+    }
+}
+
+// View analysis inline in the Analysis tab
+function viewAnalysisInline(commentId) {
+    // Switch to Analysis tab
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    document.getElementById('analysis-tab').classList.add('active');
+
+    // Find and activate the Analysis tab button
+    const tabButtons = document.querySelectorAll('.tab-button');
+    tabButtons.forEach(btn => {
+        if (btn.textContent.includes('Analysis')) {
+            btn.classList.add('active');
+        }
+    });
+
+    // Set the dropdown value to the selected comment
+    const select = document.getElementById('analysisSelect');
+    select.value = commentId;
+
+    // Load the analysis
+    loadAnalysis();
+
+    // Scroll to top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Toggle full comment display
+function toggleComment(commentId, event) {
+    const preview = document.getElementById('text-' + commentId);
+    const full = document.getElementById('full-' + commentId);
+    const button = event.target;
+
+    if (full.style.display === 'none') {
+        preview.style.display = 'none';
+        full.style.display = 'block';
+        button.textContent = '📄 Show Less';
+    } else {
+        preview.style.display = 'block';
+        full.style.display = 'none';
+        button.textContent = '📄 Show Full Comment';
+    }
+}
+
+// Filter comments
+function filterComments() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const orgFilter = document.getElementById('orgFilter').value;
+    const attachmentFilter = document.getElementById('attachmentFilter').value;
+
+    document.querySelectorAll('.comment-item').forEach(item => {
+        const text = item.textContent.toLowerCase();
+        const org = item.getAttribute('data-org');
+        const hasAttachment = item.getAttribute('data-attachment');
+
+        const matchesSearch = text.includes(searchTerm);
+        const matchesOrg = !orgFilter || org === orgFilter;
+        const matchesAttachment = !attachmentFilter || hasAttachment === attachmentFilter;
+
+        if (matchesSearch && matchesOrg && matchesAttachment) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+// Helper function to check if data is empty
+function hasData(obj) {
+    if (Array.isArray(obj)) return obj.length > 0;
+    if (typeof obj === 'object') {
+        const values = Object.values(obj);
+        return values.length > 0 && values.some(v => v > 0);
+    }
+    return false;
+}
+
+// Chart configurations
+const chartColors = {
+    primary: 'rgba(102, 126, 234, 0.8)',
+    secondary: 'rgba(118, 75, 162, 0.8)',
+    success: 'rgba(72, 187, 120, 0.8)',
+    warning: 'rgba(237, 137, 54, 0.8)',
+    danger: 'rgba(245, 101, 101, 0.8)',
+    info: 'rgba(66, 153, 225, 0.8)',
+};
+
+// Timeline Chart
+new Chart(document.getElementById('timelineChart'), {
+    type: 'bar',
+    data: {
+        labels: allData.dates,
+        datasets: [{
+            label: 'Comments per day',
+            data: allData.dateValues,
+            backgroundColor: chartColors.primary,
+            borderColor: chartColors.primary.replace('0.8', '1'),
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { display: true }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: { stepSize: 1 }
+            }
+        }
+    }
+});
+
+// Cumulative Chart
+const cumulativeData = allData.dateValues.reduce((acc, val, i) => {
+    acc.push((acc[i-1] || 0) + val);
+    return acc;
+}, []);
+
+new Chart(document.getElementById('cumulativeChart'), {
+    type: 'line',
+    data: {
+        labels: allData.dates,
+        datasets: [{
+            label: 'Cumulative Comments',
+            data: cumulativeData,
+            backgroundColor: 'rgba(102, 126, 234, 0.1)',
+            borderColor: chartColors.primary,
+            borderWidth: 2,
+            fill: true,
+            tension: 0.4
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: true } }
+    }
+});
+
+// Attachments Chart
+new Chart(document.getElementById('attachmentsChart'), {
+    type: 'doughnut',
+    data: {
+        labels: ['With Attachments', 'Without Attachments'],
+        datasets: [{
+            data: [allData.attachments.with, allData.attachments.without],
+            backgroundColor: [chartColors.success, chartColors.warning]
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom' } }
+    }
+});
+
+// Organizations Chart
+new Chart(document.getElementById('organizationsChart'), {
+    type: 'bar',
+    data: {
+        labels: allData.organizations,
+        datasets: [{
+            label: 'Comments',
+            data: allData.orgValues,
+            backgroundColor: chartColors.secondary,
+            borderColor: chartColors.secondary.replace('0.8', '1'),
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        indexAxis: 'y',
+        plugins: { legend: { display: false } },
+        scales: {
+            x: {
+                beginAtZero: true,
+                ticks: { stepSize: 1 }
+            }
+        }
+    }
+});
+
+// Sentiment Chart
+if (hasData(allData.sentiments)) {
+    new Chart(document.getElementById('sentimentChart'), {
+        type: 'pie',
+        data: {
+            labels: Object.keys(allData.sentiments),
+            datasets: [{
+                data: Object.values(allData.sentiments),
+                backgroundColor: [
+                    chartColors.success,
+                    chartColors.primary,
+                    chartColors.warning,
+                    chartColors.danger,
+                    chartColors.info,
+                    'rgba(150, 150, 150, 0.8)'
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom' } }
+        }
+    });
+} else {
+    document.getElementById('sentimentChart').parentElement.innerHTML = '<p class="no-data">No sentiment data available yet. Analyze comments first.</p>';
+}
+
+// Stakeholder Chart
+if (hasData(allData.stakeholders)) {
+    new Chart(document.getElementById('stakeholderChart'), {
+        type: 'doughnut',
+        data: {
+            labels: Object.keys(allData.stakeholders),
+            datasets: [{
+                data: Object.values(allData.stakeholders),
+                backgroundColor: [
+                    chartColors.primary,
+                    chartColors.secondary,
+                    chartColors.success,
+                    chartColors.warning,
+                    chartColors.danger,
+                    chartColors.info
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom' } }
+        }
+    });
+} else {
+    document.getElementById('stakeholderChart').parentElement.innerHTML = '<p class="no-data">No stakeholder data available yet. Analyze comments first.</p>';
+}
+
+// Themes Chart
+if (hasData(allData.themes)) {
+    new Chart(document.getElementById('themesChart'), {
+        type: 'bar',
+        data: {
+            labels: Object.keys(allData.themes),
+            datasets: [{
+                label: 'Mentions',
+                data: Object.values(allData.themes),
+                backgroundColor: chartColors.info,
+                borderColor: chartColors.info.replace('0.8', '1'),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: { stepSize: 1 }
+                }
+            }
+        }
+    });
+} else {
+    document.getElementById('themesChart').parentElement.innerHTML = '<p class="no-data">No theme data available yet. Analyze comments first.</p>';
+}
+
+// Geographic Chart
+if (hasData(allData.states)) {
+    const stateLabels = Object.keys(allData.states).slice(0, 15);
+    const stateValues = Object.values(allData.states).slice(0, 15);
+
+    new Chart(document.getElementById('geographicChart'), {
+        type: 'bar',
+        data: {
+            labels: stateLabels,
+            datasets: [{
+                label: 'Comments by State',
+                data: stateValues,
+                backgroundColor: chartColors.success,
+                borderColor: chartColors.success.replace('0.8', '1'),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: { stepSize: 1 }
+                }
+            }
+        }
+    });
+} else {
+    document.getElementById('geographicChart').parentElement.innerHTML = '<p class="no-data">No geographic data available. State information not provided in comments.</p>';
+}
+
+// Populate analysis dropdown on page load
+window.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('analysisSelect');
+
+    // Add master summary at the top
+    if (allData.summary_info.master) {
+        const option = document.createElement('option');
+        option.value = allData.summary_info.master.id;
+        option.textContent = '📊 ' + allData.summary_info.master.title;
+        option.style.fontWeight = 'bold';
+        option.style.backgroundColor = '#f0f0f0';
+        select.appendChild(option);
+    }
+
+    // Add batch summaries
+    if (allData.summary_info.batches && allData.summary_info.batches.length > 0) {
+        allData.summary_info.batches.forEach(batch => {
+            const option = document.createElement('option');
+            option.value = batch.id;
+            option.textContent = '📊 ' + batch.title;
+            option.style.fontWeight = 'bold';
+            option.style.backgroundColor = '#f0f0f0';
+            select.appendChild(option);
+        });
+
+        // Add separator
+        const separator = document.createElement('option');
+        separator.disabled = true;
+        separator.textContent = '─────────────────────────';
+        select.appendChild(separator);
+    }
+
+    // Add individual comment analyses
+    allData.comments_info.forEach(comment => {
+        if (allData.comment_analyses[comment.id]) {
+            const option = document.createElement('option');
+            option.value = comment.id;
+            option.textContent = comment.organization + ' - ' + comment.date + ' (ID: ' + comment.id + ')';
+            select.appendChild(option);
+        }
+    });
+});
+</script>
+
+</body>
+</html>

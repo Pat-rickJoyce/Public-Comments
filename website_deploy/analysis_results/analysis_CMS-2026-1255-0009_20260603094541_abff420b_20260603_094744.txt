@@ -1,0 +1,271 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0009
+Commenter: The ALS Association
+Source: PDF Attachment
+Analysis Date: June 3, 2026 09:47:44
+==================================================
+
+**1. COMMENTER INFORMATION**
+- Author/Organization name: The ALS Association
+- Stakeholder type: Advocacy Group
+- Credentials or expertise mentioned: National organization representing individuals living with ALS, their families, caregivers, and treating clinicians. Mission is to make ALS livable through research, support services, and policy advocacy. Signed by Richard D. Brennan Jr., M.A., Vice President, Federal Affairs.
+
+**2. EXECUTIVE SUMMARY**
+The ALS Association strongly supports CMS's proposed rule to modernize prior authorization and interoperability requirements, with specific focus on protecting medically complex and medically frail patients. The organization advocates for expedited prior authorization processes by default for progressive, irreversible conditions like ALS, elimination of repetitive reauthorizations for stable treatments, mandatory clinical expertise in decision-making, prohibition of fully automated denials for life-sustaining equipment, and comprehensive transparency requirements including FHIR-based API integration for prescription drugs.
+
+**3. REGULATORY CONTEXT**
+- Specific sections/provisions addressed: CMS-0061-P (referenced in document, though docket is CMS-0062-P); Medicare Advantage prior authorization requirements; Medicaid Managed Care; CHIP; Qualified Health Plans
+- Regulatory citations mentioned: Office of Inspector General findings on Medicare Advantage denials; Medicare coverage requirements
+- Standards referenced: FHIR-based APIs; Patient Access APIs; Payer-to-Payer Data Exchange; Electronic Prior Authorization (ePA); FHIR Implementation Guides
+
+**4. DETAILED POSITIONS**
+
+**Topic: Expedited Prior Authorization for Medically Complex Patients**
+- Position: Strongly Support with Modifications
+- Rationale: ALS is rapidly progressive; delays result in preventable hospitalizations, loss of function, increased emergency care utilization, and higher overall costs. The $1 billion annual cost of ALS care in the US could be reduced through streamlined processes.
+- Specific request: Require plans to treat prior authorization requests for serious, progressive conditions that are not expected to improve as expedited by default.
+
+**Topic: Reauthorization and Duration of Approval**
+- Position: Modify
+- Rationale: Repeated prior authorizations for the same equipment/services for progressive, irreversible conditions create unnecessary burden and delays that can cause serious harm.
+- Specific requests: (1) Expedited renewal processes for previously approved items that remain clinically appropriate; (2) Prior authorizations valid for duration of treatment when clinically appropriate; (3) Prohibition on reducing approval duration or increasing reauthorization frequency due to automation.
+
+**Topic: Coordinated Requests for Complex Patients**
+- Position: Support with Enhancement
+- Rationale: ALS patients require multiple coordinated services; neurologists at specialized clinics are uniquely qualified to determine appropriate treatment strategies.
+- Specific request: Require plans to process entire coordinated prior authorization requests on expedited basis when any component qualifies for expedited review; permit bundled submissions.
+
+**Topic: Transparency in Denials**
+- Position: Strongly Support with Specific Requirements
+- Rationale: Most denials are reversed on appeal, but medically frail patients struggle with complex processes; vague denials create barriers to care.
+- Specific requests: (1) Clear definition of "specific reason"; (2) Prohibition on vague language; (3) Reasonable efforts to obtain missing information before denial; (4) Direct patient notifications in plain, culturally appropriate language; (5) Streamlined, expedited appeals procedures.
+
+**Topic: Clinical Expertise in Decision-Making**
+- Position: Strongly Support
+- Rationale: Generalist reviewers may not understand complexity and urgency of neurodegenerative diseases; ALS care often involves proactive measures that may not fit general criteria but are essential to prevent emergencies.
+- Specific request: Require prior authorization determinations be made by clinicians with relevant specialty expertise.
+
+**Topic: Patient-Centered Access APIs**
+- Position: Strongly Support
+- Rationale: Utilization management processes are opaque and difficult to navigate, especially for vulnerable populations; transparency is essential for equitable access.
+- Specific request: Require plans to share prior authorization details through FHIR-based APIs and provide clear patient instructions for next steps.
+
+**Topic: Inclusion of Prescription Drugs**
+- Position: Strongly Support
+- Rationale: Integration would empower patients and providers to make informed decisions, reduce delays, enhance coordination, and simplify payer transitions; particularly important for those managing multiple medications or complex treatments.
+- Specific request: Require prescription drug prior authorization information be integrated into Patient Access APIs at point of care; real-time system integrated from pharmacy counters to home delivery; full integration of specialty pharmacies.
+
+**Topic: Payer-to-Payer Data Exchange**
+- Position: Strongly Support
+- Rationale: Patients changing insurance must often resubmit prior authorizations, creating unnecessary burden and care delays; particularly impacts medically complex patients.
+- Specific request: Require plans to review and consider active prior authorization decisions made by patient's previous payer for benefit-equivalent items and services; clear standards for payer-to-payer data exchange.
+
+**Topic: Artificial Intelligence and Automated Decision-Making**
+- Position: Concerned - Require Strong Safeguards
+- Rationale: Proposed rule lacks clear safeguards for AI use; concerns about inconsistent, opaque, or erroneous decisions without oversight; rare disease patients may be underrepresented in training datasets; algorithms may undervalue anticipatory care; automated denials may occur without meaningful clinical review.
+- Specific requests: (1) Prohibit fully automated denials for life-sustaining equipment; (2) Require human clinical review of all AI-assisted determinations; (3) Basic standards for transparency in AI-based prior authorization; (4) Clear documentation and explanation of decision-making processes; (5) Straightforward appeals options.
+
+**Topic: Public Reporting of Prior Authorization Metrics**
+- Position: Support with Enhancement
+- Rationale: Stratified reporting essential to identify disparities in access; transparency helps hold plans accountable and identify patterns of concern.
+- Specific requests: Stratify reporting by service type, diagnosis, provider type, race and ethnicity, and age; include average time to decision, overturn rates on appeal, and denial rationale; publish in timely, accessible, user-friendly format.
+
+**Topic: Electronic Prior Authorization (ePA)**
+- Position: Strongly Support
+- Rationale: Shift from manual processes to interoperable electronic workflows provides substantial efficiency gains; alleviates administrative burden; expedites clinical decision-making; enhances timely access to services.
+- Specific request: Advance interoperable ePA to reduce administrative costs, minimize treatment delays, and improve care coordination for medically complex patients.
+
+**Topic: Streamlining Utilization Management**
+- Position: Support with Expansion
+- Rationale: Prior authorization may be unnecessary or duplicative for established providers; ALS is progressive and not expected to improve.
+- Specific requests: (1) Comprehensive review of utilization management practices; (2) Expand "gold-carding" programs that don't disadvantage clinicians treating complex patients; (3) Treat ALS-related claims as expedited by default; (4) Reduce 72-hour window for expedited requests in critical cases; (5) Require real-time or near real-time decisions when clinically possible.
+
+**5. RECOMMENDATIONS**
+1. Require plans to treat prior authorization requests for serious, progressive conditions like ALS as expedited by default
+2. Establish expedited prior authorization renewal processes for previously approved items that remain clinically appropriate
+3. Ensure prior authorizations remain valid for duration of treatment when clinically appropriate
+4. Prohibit reducing approval duration or increasing reauthorization frequency due to automation
+5. Require processing entire coordinated prior authorization requests on expedited basis when any component qualifies
+6. Develop clear, enforceable definition of "specific reason" for denials
+7. Prohibit vague or non-actionable denial language
+8. Require reasonable efforts to obtain missing information before denial
+9. Require direct patient notification in plain, culturally appropriate language
+10. Require streamlined and expedited appeals procedures
+11. Require prior authorization determinations be made by clinicians with relevant specialty expertise
+12. Require plans to share prior authorization details through FHIR-based APIs with clear patient instructions
+13. Require prescription drug prior authorization information be integrated into Patient Access APIs at point of care
+14. Require plans to review and consider active prior authorization decisions from previous payer
+15. Adopt clear standards for payer-to-payer data exchange
+16. Prohibit fully automated denials for life-sustaining equipment and require human clinical review
+17. Establish standards for transparency in AI-based prior authorization
+18. Require comprehensive, stratified public reporting of prior authorization outcomes by service type, diagnosis, provider type, race/ethnicity, and age
+19. Strengthen prior authorization oversight as cost-containment strategy
+20. Advance interoperable electronic prior authorization
+21. Conduct comprehensive review of utilization management practices
+22. Expand equitable gold-carding programs for established providers
+23. Treat ALS-related claims as expedited by default
+24. Reduce 72-hour window for expedited requests in critical cases like ALS
+25. Require real-time or near real-time decisions when clinically possible
+
+**6. CONCERNS & OBJECTIONS**
+
+**Primary Concerns:**
+- Medicare Advantage plans deny prior authorization requests even when services comply with Medicare coverage requirements (OIG findings)
+- Arbitrary barriers and coverage restrictions delay or deny access to essential equipment, medications, and services
+- Delays in prior authorization result in preventable hospitalizations, loss of function, delayed access to vital equipment, and increased emergency care utilization
+- Repeated prior authorizations for same items/services for progressive conditions create unnecessary burden
+- Vague denial language creates barriers to care
+- Utilization management processes are opaque and difficult to navigate
+- Proposed rule lacks clear safeguards for AI/automated decision-making
+- Reviewers without specialty expertise may not understand complexity/urgency of conditions like ALS
+- Patients changing insurance face unnecessary resubmission of prior authorizations
+
+**Potential Negative Impacts Cited:**
+- Rapid health decline when access to medically necessary equipment is blocked
+- More intensive interventions required, increasing overall care costs
+- Preventable hospitalizations
+- Loss of vital respiratory or mobility functions
+- Increased reliance on emergency care
+- Stress and complexity added to already challenging health journey
+- Disproportionate impact on those least able to advocate for themselves
+- Inequitable outcomes for rare and progressive diseases
+- AI algorithms may underrepresent rare disease patients in training datasets
+- Automated systems may undervalue anticipatory care critical for progressive conditions
+- Fully automated denials may occur without meaningful clinical review
+- Treatment gaps, confusion, and increased anxiety from duplicative processes
+- Inconsistent, opaque, or erroneous decisions from AI without adequate oversight
+
+**Implementation Barriers Mentioned:**
+- Complex appeals processes difficult for medically frail patients
+- Limited resources for patients with severe conditions to pursue lengthy appeals
+- Administrative burden on providers managing complex patients
+- Time diverted from direct patient care
+- Fragmented pharmaceutical benefits system
+- Mobility or transportation challenges for home medication delivery
+- Specialty pharmacies must be fully integrated into real-time systems
+
+**7. SUPPORTING EVIDENCE**
+
+**Data or Statistics Cited:**
+- Nearly all Medicare Advantage enrollees are in plans requiring prior authorization
+- Office of Inspector General findings: MA plans denied prior authorization requests even though services complied with Medicare coverage requirements
+- Most prior authorization denials are reversed on appeal
+- Yearly cost of ALS care in United States: approximately $1 billion
+- ALS-related costs including direct medical expenses and indirect costs estimated to exceed $1 billion annually
+
+**Studies or Research Referenced:**
+- Office of Inspector General determination on Medicare Advantage denials
+- KFF (Kaiser Family Foundation) research on prior authorization and appeals (implicitly referenced through statistical claims)
+
+**Examples Provided:**
+- Non-invasive ventilators prescribed in advance of emergencies as proactive measure
+- Advanced power wheelchairs, non-invasive ventilators, speech-generating devices as essential equipment
+- Respiratory muscle weakness as hallmark of ALS leading to respiratory failure
+- Specialty pharmacies relied upon by patients with complex medical needs
+- Home delivery of medications supporting individuals with mobility/transportation challenges
+
+**8. IMPACT ASSESSMENT**
+
+**Affected Stakeholders:**
+- People living with ALS and their families
+- Individuals with serious, progressive conditions across Medicare, Medicare Advantage, Medicaid Managed Care, CHIP, and Qualified Health Plans
+- Medically complex and medically frail patients
+- Patients with disabilities
+- Patients with rare diseases
+- Patients with chronic conditions
+- Caregivers
+- Neurologists and clinicians at specialized clinics
+- Healthcare providers managing complex patients
+- Pharmacists
+- Specialty pharmacies
+- Medicare Advantage plans
+- Medicaid Managed Care plans
+- Health insurance payers
+
+**Economic Implications:**
+- Removal of unnecessary administrative hurdles could lower avoidable costs
+- Prevention of delays would reduce downstream system costs through fewer hospitalizations and emergency care visits
+- $1 billion annual ALS care costs could be reduced through streamlined processes
+- Direct medical expenses and indirect costs (caregiving, assistive devices, home modifications, lost productivity) could be better managed
+- Job loss or reduced income for patients and caregivers could be mitigated through timely access to care
+- Administrative inefficiencies currently strain public and private payers
+- Resources could be better directed toward effective care
+- Improved oversight and transparency can help reduce unnecessary expenditures
+- Prevention of treatment disruptions reduces overall system costs
+
+**Technical Feasibility:**
+- FHIR-based APIs are established technology
+- Patient Access APIs are feasible
+- Electronic prior authorization (ePA) systems are implementable and promise substantial efficiency gains
+- Integration into existing electronic health record systems is achievable
+- Real-time connectivity from pharmacy counters to home delivery is technically feasible
+- Payer-to-payer data exchange is technically achievable with clear standards
+- Interoperable electronic workflows are feasible
+
+**Patient Care Impact:**
+- Timely access to care, equipment, and medications maintains physical wellbeing, dignity, and quality of life
+- Streamlined processes help ensure continuity of care
+- Reduced administrative burden improves patient outcomes
+- Expedited processes prevent preventable hospitalizations
+- Prevention of loss of vital functions
+- Reduced reliance on emergency care
+- Timely therapy initiation
+- Uninterrupted treatment regimens
+- Greater transparency, dependability, and equity in drug access
+- Better health outcomes for complex or chronic conditions
+- Reduced treatment gaps, confusion, and anxiety
+- More efficient, fair, and patient-centered healthcare system
+- Improved care coordination
+- Enhanced patient and family confidence in managing care and appeals
+
+**9. SENTIMENT ANALYSIS**
+- Overall position: Supportive with Significant Concerns about Implementation Details
+- Tone: Professional, Collaborative, Evidence-Based, Advocacy-Focused
+- Priority level: High (life-threatening condition requiring urgent policy action)
+
+**10. KEY QUOTES**
+
+1. "For individuals affected by ALS, the imposition of prior authorization and utilization management isn't just a minor administrative checkpoint, it can be the determining factor in whether they receive timely access to care, equipment, and medications that help maintain their physical wellbeing, dignity, and quality of life."
+
+2. "The Office of Inspector General determined that Medicare Advantage plans have denied prior authorization requests even though the requested services complied with Medicare coverage requirements... These findings are consistent with the experience of people living with ALS."
+
+3. "Most prior authorization denials are reversed on appeal, but medically frail patients often struggle with the complex process. This creates a significant barrier to care, particularly for those with severe conditions like ALS who may lack the resources to pursue lengthy appeals. Even when errors are corrected, the system disproportionately impacts those least able to advocate for themselves."
+
+4. "For rare diseases such as ALS: Patients may be underrepresented in training datasets, which can result in algorithms that fail to recognize the complexities or urgency associated with their care needs... Algorithms may undervalue anticipatory care, which is critical for patients with progressive heterogeneous conditions like ALS... Automated denials may occur without meaningful clinical review, potentially leading to inappropriate restrictions on access to life-sustaining treatments or equipment."
+
+**11. THEMES**
+- Interoperability (FHIR APIs, Patient Access APIs, ePA, payer-to-payer exchange)
+- Patient Access (expedited processes, elimination of barriers, continuity of care)
+- Provider Burden (administrative burden reduction, streamlined workflows)
+- Implementation Timeline (urgency for medically complex patients, real-time decisions)
+- Privacy/Security (HIPAA compliance, patient data access)
+- AI/ML (concerns about automated decision-making, need for human oversight, training data representation)
+- Health Equity (stratified reporting, disparities in access, vulnerable populations, rare diseases)
+- Cost/Resources (economic impact, cost containment through prevention, administrative efficiency)
+- Transparency (clear denial reasons, public reporting, patient communication)
+- Clinical Quality (specialty expertise requirements, proactive care, patient-centered approach)
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+SUBMITTED ELECTRONICALLY VIA www.regulations.gov
+April 24, 2026
+The Honorable Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+Re: CMS-0061-P: 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+Dear Administrator Oz:
+On behalf of The ALS Association, we appreciate the opportunity to comment on CMS's proposed rule to modernize prior authorization (PA) and interoperability requirements, including the extension of these requirements to prescription drugs.
+Our mission is to make ALS livable until it is cured by advancing research, supporting people living with ALS with innovative equipment and services, and advocating for policies that ensure timely access to high-quality care. We represent individuals living with ALS, their families, caregivers, and the clinicians who treat them.
+Amyotrophic lateral sclerosis (ALS) is a rapidly progressive and ultimately fatal neurodegenerative disorder. Individuals affected by ALS present with significant medical complexity and frailty, requiring prompt access to multidisciplinary healthcare services, essential medications, and durable medical equipment, including advanced power wheelchairs, non-invasive ventilators, and speech-generating devices—to maintain functional abilities, independence, and their quality of life. Accordingly, ensuring timely access to these resources is critical for effective management as the disease advances.
+While these comments focus on ALS, the concerns raised apply broadly to individuals with serious, progressive conditions across Medicare, Medicare Advantage (MA), Medicaid Managed Care, CHIP, Qualified Health Plans and other health payers. For individuals affected by ALS, the imposition of prior authorization and utilization management isn't just a minor administrative checkpoint, it can be the determining factor in whether they receive timely access to care, equipment, and medications that help maintain their physical wellbeing, dignity, and quality of life.
+Prior Authorization as Utilization Management in Medicare Advantage
+Nearly all Medicare Advantage enrollees are currently in plans that require prior authorization. While prior authorization can be an appropriate utilization management tool when applied judiciously for certain patient populations, its increasing use in MA has contributed to administrative burden and delays in medically necessary care for people living with ALS.
+The Office of Inspector General determined that Medicare Advantage plans have denied prior authorization requests even though the requested services complied with Medicare coverage requirements. Some denials also occurred due to procedural mistakes or correctable issues, such as missing documentation. Instances of unwarranted denials may result in delays or impede beneficiaries' access to essential medical services.
+These findings are consistent with the experience of people living with ALS. Arbitrary barriers and coverage restrictions imposed by some MA plans frequently delay or deny access to complex medical equipment, medications, and supportive services that are essential to making ALS a livable disease.
+Expedited Prior Authorization for Medically Complex and Medically Frail Patients
+Timely access to the health care services, medical equipment, and prescription drugs ordered by clinicians is essential for people with ALS...

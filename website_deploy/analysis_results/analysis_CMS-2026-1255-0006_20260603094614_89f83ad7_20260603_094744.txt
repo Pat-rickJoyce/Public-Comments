@@ -1,0 +1,196 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0006
+Commenter: Charles Dunn, Master's Student in Health Systems Administration, Georgetown University
+Source: PDF Attachment
+Analysis Date: June 3, 2026 09:47:44
+==================================================
+
+**1. COMMENTER INFORMATION**
+- Author/Organization name: Charles Dunn
+- Stakeholder type: Academic (Master's Student in Health Systems Administration, Georgetown University)
+- Credentials or expertise mentioned: Graduate student studying health systems administration
+
+**2. EXECUTIVE SUMMARY**
+Commenter recommends CMS expand electronic event notification requirements to include non-transport emergency medical services (EMS) encounters where patients are evaluated by 9-1-1 responders but not transported to a hospital. Nearly 10 million such encounters occur annually (17.3% of all EMS encounters) and are completely invisible to primary care providers and care teams, creating a critical care gap for a high-risk population that experiences significant adverse outcomes without follow-up intervention.
+
+**3. REGULATORY CONTEXT**
+- Specific sections/provisions addressed: CMS-0062-P Request for Information on Electronic Event Notifications for Value-Based Care and Care Coordination (Section III.A)
+- Regulatory citations mentioned: 42 CFR 482.24(d) (current electronic event notification framework for hospital-based events)
+- Standards referenced: FHIR-based event notification frameworks, health information exchange (HIE) infrastructure, EMS electronic patient care record (ePCR) to EHR interfaces, National EMS Information System (NEMSIS)
+
+**4. DETAILED POSITIONS**
+
+Topic: Electronic Event Notifications for Non-Transport EMS Encounters
+- Position: Add New Requirement
+- Rationale: Current 42 CFR 482.24(d) framework only captures hospital-based events (ED registration, inpatient admission, discharge), missing nearly 10 million annual non-transport EMS encounters; these patients are clinically vulnerable with high risk of deterioration, repeat utilization, and death; encounters are not billable so don't appear in claims data; primary care providers and care teams have zero awareness of these acute events
+- Specific request: Establish requirement for EMS organizations to send electronic event notifications when 9-1-1 encounter does not result in transport to emergency department
+
+Topic: Implementation Approach
+- Position: Support Multiple Pathways
+- Rationale: EMS agency is only party with knowledge of event; without requirement on EMS agency, care team has no way of knowing event occurred
+- Specific request: Implement through existing HIE infrastructure, direct EMS ePCR-to-EHR interfaces, or FHIR-based event notification frameworks
+
+**5. RECOMMENDATIONS**
+1. Establish requirement for EMS organizations to send electronic event notifications when a 9-1-1 encounter does not result in transport to an emergency department
+2. Follow same logic as 42 CFR 482.24(d), placing notification obligation on the entity that holds the encounter data (EMS agency)
+3. Implement through existing HIE infrastructure, direct EMS ePCR-to-EHR interfaces, or FHIR-based event notification frameworks
+4. Close critical care gap for nearly 10 million patients annually through low-cost, high-impact intervention
+
+**6. CONCERNS & OBJECTIONS**
+
+Primary Concerns:
+- Non-transport EMS encounters are completely invisible to providers managing chronic and longitudinal care
+- 9,974,179 annual non-transport encounters (17.3% of all EMS encounters) represent patients with acute needs serious enough to prompt 9-1-1 call
+- These encounters are not billable and do not appear in claims data
+- Primary care providers, care coordinators, geriatricians, and care team members have zero awareness of these acute events
+- Encounter data remains siloed in EMS ePCR and never reaches patient's longitudinal medical record
+- Patients evaluated only by EMT/paramedic who cannot provide diagnosis or definitive treatment
+- More serious than ED discharge without PCP notification because patient hasn't been evaluated by physician capable of diagnosing, ruling out life threats, or providing definitive treatment
+- Patient left in community with undiagnosed, untreated condition without PCP knowledge
+
+Potential Negative Impacts (if not addressed):
+- One third of geriatric patients declining transport after fall-related EMS call require repeat 9-1-1 response within 30 days
+- 71% of repeat calls result in ED transport
+- 66% of transported patients require hospitalization
+- Nearly half of all non-transported fall patients require healthcare within two weeks
+- Patients often have serious underlying conditions (infection, cancer, neurological disease) manifesting as falls
+- Without notification, patients remain at high risk of deterioration, repeat utilization, and death
+
+Implementation Barriers:
+- Current framework limited to hospital-based events
+- EMS ePCR systems may need integration with HIE or EHR systems
+- No existing requirement for EMS agencies to transmit event data
+
+**7. SUPPORTING EVIDENCE**
+
+Data/Statistics Cited:
+- NEMSIS 2024 national report: 9,974,179 responses to 9-1-1 calls with patient contact where EMS returned to service without transporting patient (17.3% of all EMS encounters)
+- Moore et al., 2025: Approximately 1/3 of geriatric patients declining transport after fall-related EMS call require repeat 9-1-1 response within 30 days
+- Moore et al., 2025: 71% of repeat calls result in ED transport
+- Moore et al., 2025: 66% of transported patients require hospitalization
+- Faul et al., 2016: Nearly half of all non-transported fall patients required healthcare within two weeks of initial event
+- Mikolaizak et al., 2022: Multidisciplinary intervention program after non-transport fall encounter reduced mortality by 36% over three years compared to standard care
+- Ordoobadi et al., 2025: Each fall prevented saves estimated $22,174 in direct medical costs
+
+Studies/Research Referenced:
+- Faul, M., Stevens, J. A., Sasser, S. M., Alee, L., Deokar, A. J., Kuhls, D. A., & Burke, P. A. (2016). Older adult falls seen by emergency medical service providers: A prevention opportunity. American Journal of Preventive Medicine, 50(6), 719-726.
+- Leggatt, L., Van Aarsen, K., Columbus, M., Dukelow, A., Lewell, M., Davis, M., & McLeod, S. (2017). Morbidity and mortality associated with prehospital "lift-assist" calls. Prehospital Emergency Care, 21(5), 556-562.
+- Moore, E. A., Schoenfeld, D. W., Fritz, C. L., Bivens, M. J., Liu, S. W., & Thomas, S. H. (2025). Geriatric "lift-assist" EMS calls with transport refusal: Characteristics of short-term repeat calls and hospitalizations. American Journal of Emergency Medicine, 95, 77-82.
+- Ordoobadi, A. J., Friend, T. H., Berry, S. D., Welch, H. G., Cooper, Z., & Jarman, M. P. (2025). Economic modelling of fall prevention interventions delivered by community emergency medical services: A decision-tree analysis. Injury Prevention.
+- Mikolaizak, A. S., Harvey, L., Toson, B., Lord, S. R., Tiedemann, A., Howard, K., & Close, J. C. T. (2022). Linking health service utilisation and mortality data—unravelling what happens after fall-related paramedic care. Age and Ageing, 51(1).
+
+Examples Provided:
+- Multidisciplinary intervention program after fall-related non-transport EMS encounter: in-home assessment of fall risk, medications, mobility, cognition; individualized care plan with referrals to physical therapy, geriatrics, home safety modifications
+- Comparison of non-transport EMS encounter (patient evaluated only by EMT/paramedic without diagnosis/treatment capability) vs ED discharge (patient evaluated by emergency physician capable of diagnosis and definitive treatment)
+- Patients hospitalized after recent non-transport fall encounter frequently diagnosed with infection, cancer, or neurological disease
+
+**8. IMPACT ASSESSMENT**
+
+Affected Stakeholders:
+- Nearly 10 million patients annually experiencing non-transport EMS encounters
+- Geriatric patients and older adults (particularly those with fall-related encounters)
+- Primary care providers and care coordinators
+- Geriatricians
+- Emergency medical services (EMS) agencies
+- Care teams managing chronic and longitudinal care
+- Health information exchanges (HIEs)
+- EHR vendors
+
+Economic Implications:
+- Low-cost, high-impact intervention
+- Each fall prevented saves estimated $22,174 in direct medical costs
+- Reduced repeat 9-1-1 calls, ED transports, and hospitalizations
+- Potential savings from preventing 36% mortality reduction through structured interventions
+- Avoidable healthcare expenditure reduction
+- Cost of implementing ePCR-to-EHR interfaces or HIE connections
+
+Technical Feasibility:
+- Can be implemented through existing HIE infrastructure
+- Direct EMS ePCR-to-EHR interfaces are feasible
+- FHIR-based event notification frameworks already being advanced by CMS through interoperability rulemaking
+- EMS electronic patient care records (ePCRs) already capture encounter data
+- National EMS Information System (NEMSIS) provides standardized data structure
+
+Patient Care Impact:
+- Enables timely notification to care team for interventions that reduce morbidity and mortality
+- 36% mortality reduction over three years with structured interventions
+- Prevents deterioration, repeat utilization, and death in high-risk population
+- Addresses urgent, unmet medical needs requiring follow-up with primary care or specialist
+- Closes critical care gap for clinically vulnerable population
+- Patients currently left in community with undiagnosed, untreated conditions
+- Nearly half of non-transported fall patients require healthcare within two weeks
+- Enables early intervention before repeat 9-1-1 calls, ED visits, or hospitalizations
+
+**9. SENTIMENT ANALYSIS**
+- Overall position: Supportive of RFI with Strong New Recommendation
+- Tone: Professional, Evidence-Based, Advocacy-Oriented, Clinical
+- Priority level: High
+
+**10. KEY QUOTES**
+
+"These are patients with acute needs serious enough to prompt a 9-1-1 call, yet the event is completely invisible to the providers managing their chronic and longitudinal care." - Highlights the severity of the care gap
+
+"The patients are identifiable, the risk is quantifiable, and the interventions are effective, but only if care teams are made aware that the encounter occurred." - Summarizes evidence-based rationale for intervention
+
+"This is more serious than a patient presenting to an ED and being discharged without their PCP being notified. In that scenario, the patient has at least been evaluated by an emergency medicine physician who is capable of diagnosing their condition, ruling out life threats, and potentially providing definitive treatment." - Emphasizes unique severity of non-transport encounters
+
+"This is a low-cost, high-impact intervention that closes a critical care gap for nearly 10 million patients annually." - Summarizes policy value proposition
+
+**11. THEMES**
+- Interoperability (FHIR-based event notifications, HIE, ePCR-to-EHR interfaces)
+- Patient Access (care coordination, closing care gaps)
+- Care Coordination (electronic event notifications, care team awareness)
+- Health Equity (geriatric populations, older adults, vulnerable populations)
+- Cost/Resources (low-cost intervention, $22,174 savings per fall prevented)
+- Patient Safety (preventing deterioration, repeat utilization, death)
+- Data Visibility (addressing invisibility of non-billable encounters)
+- Value-Based Care (mortality reduction, outcome improvement)
+- Emergency Medical Services (EMS encounters, ePCR systems)
+- Geriatric Care (fall prevention, older adult health)
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+April 10,2026
+Centers for Medicare & Medicaid Services,
+Department of Health and Human Services,
+Attention: CMS-0062-P,
+P.O. Box 8013,
+Baltimore, MD 21244-8013
+Dear Administrator Oz and CMS Staff:
+The Care Gap: Non-Transport EMS Encounters Are Invisible to the Health System
+I am writing in response to the Request for Information on Electronic Event Notifications for
+Value-Based Care and Care Coordination published in CMS-0062-P. I appreciate the opportunity
+to comment and respectfully recommend that CMS expand the scope of electronic event
+notification requirements to include non-transport emergency medical services (EMS)
+encounters, specifically 9-1-1 responses where a patient is evaluated by EMS but not transported
+to an emergency department.
+The current electronic event notification framework under 42 CFR 482.24(d) is limited to
+hospital-based events such as ED registration, inpatient admission, and discharge. This
+framework does not capture EMS 9-1-1 encounters that end without transport to a hospital.
+According to the National EMS Information System (NEMSIS) 2024 national report, there were
+9,974,179 responses to 9-1-1 calls with patient contact where EMS returned to service without
+transporting the patient, representing 17.3% of all EMS encounters. These are patients with acute
+needs serious enough to prompt a 9-1-1 call, yet the event is completely invisible to the providers
+managing their chronic and longitudinal care. Because these encounters are not billable, they
+also do not appear in claims data. The result is that primary care providers, care coordinators,
+geriatricians, and other care team members have zero awareness that their patient experienced an
+acute event in the community.
+Re: CMS-0062-P: Request for Information on Electronic Event Notifications for Value-Based
+Care and Care Coordination (Section III.A)
+Clinical Evidence: Non-Transport Patients Face Significant Risk of Adverse Outcomes
+Why Notification to the Primary Care Team Is Essential
+The published literature demonstrates that non-transported EMS patients, particularly older
+adults evaluated after a fall, are a clinically vulnerable population at high risk of deterioration,
+repeat utilization, and death. The following evidence supports the urgency of closing this
+notification gap:
+Approximately one third of geriatric patients who decline transport after a fall-related EMS call
+require a repeat 9-1-1 response within 30 days. Of those repeat calls, 71% result in transport to
+the ED, and 66% of those transported require hospitalization (Moore et al., 2025). Nearly half of
+all non-transported fall patients required healthcare within two weeks of the initial event (Paul et
+al., 2016). Patients who are hospitalized after a recent non-transport fall encounter are frequently
+diagnosed with serious underlying conditions such as infection, cancer, or neurological disease,
+indicating that falls in this population are often a symptom of broader clinical deterioration
+(Leggatt et al., 2017).
+Critically, when structured interventions are deployed following a non-transport fall encounter...
