@@ -1,0 +1,106 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0048_inline_20260610115442
+Commenter: Peggy Cottrell / Sharsheret
+Source: Inline Comment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Peggy Cottrell, MS, CGC, Genetics Program Manager, Sharsheret, The Jewish Breast & Ovarian Cancer Community.
+- **Stakeholder type:** Healthcare Provider
+- **Credentials or expertise mentioned:** Genetic counselor and genetics program manager working with an organization representing oncology patients.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter urges CMS to protect oncology patients from delays and denials caused by rigid prior authorization requirements for laboratory and biomarker testing. She recommends retroactive authorization after specimen collection, prohibiting denials based only on authorization timing, avoiding repeat blood draws, expedited review for oncology diagnostic and biomarker testing, and patient protection from surprise administrative costs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI; PATIENT-ACCESS; PA-TIMEFRAMES-DRUGS by analogy.
+- **Regulatory citations mentioned:** CMS-0062-P; Section III.E.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Oncology laboratory and biomarker testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Biomarker and specialty laboratory results guide cancer treatment selection, treatment changes, monitoring, and clinical trial eligibility.
+- **Specific request:** Protect oncology patients from PA delays and denials for medically necessary lab and biomarker testing.
+
+**Topic 2: Retroactive authorization and specimen timing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Authorization-before-collection rules can cause valid specimens to be delayed, rejected, or discarded even when parties acted in good faith.
+- **Specific request:** Allow retroactive authorization after specimen collection and prohibit denials solely based on authorization timing.
+
+**Topic 3: Repeat blood draws and expedited review**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Repeat blood draws and delayed biomarker review can delay urgent cancer care.
+- **Specific request:** Prevent unnecessary repeat blood draws and require expedited review for oncology-related diagnostic and biomarker testing.
+
+**Topic 4: Surprise costs**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patients should not bear costs caused by administrative timing issues.
+- **Specific request:** Protect patients from surprise costs when delays are administrative.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment directly responds to CMS's laboratory testing RFI by describing timing barriers for oncology biomarker testing and proposing specific protections.
+
+## 6. RECOMMENDATIONS
+
+1. Allow retroactive authorization when specimens have already been collected.
+2. Prohibit denials based solely on authorization timing.
+3. Prevent unnecessary repeat blood draws when valid specimens are available.
+4. Require expedited review for oncology-related diagnostic and biomarker testing.
+5. Protect patients from surprise costs caused by administrative delays.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Rigid PA timing, specimen rejection/discard, repeat blood draws, oncology testing delays, and surprise costs.
+- **Potential negative impacts cited:** Delayed cancer treatment selection or changes, delayed monitoring, delayed clinical trial eligibility, and delayed urgent cancer care.
+- **Implementation barriers mentioned:** Requirements for authorization before or on the exact specimen collection date.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** Oncology patients seeking coverage; biomarker and specialty lab testing; cancer patients needing potentially life-saving treatment decisions.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Oncology patients, breast and ovarian cancer community members, genetic counselors, physicians, laboratories, health plans, and care teams.
+- **Economic implications:** Surprise costs and repeat blood draws may increase patient and system costs.
+- **Technical feasibility:** The comment requests policy/process changes rather than technical standards.
+- **Patient care impact:** High; timely biomarker testing can guide potentially life-saving oncology decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of modernization; urgent request for patient protections
+- **Tone:** Urgent, professional, patient advocacy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "In cancer care, timing is critical." - Context: Explaining expedited testing need.
+2. "Valid specimens may be delayed, rejected, or discarded." - Context: Criticizing rigid timing rules.
+3. "Cancer patients need timely access to laboratory testing." - Context: Patient-access rationale.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests expedited oncology review.
+- [x] **PATIENT-ACCESS** - Central theme is timely access to biomarker and lab testing.
+- [x] **HEALTH-EQUITY** - Focuses on oncology patients, including breast/ovarian cancer communities.
+- [x] **PROVIDER-BURDEN** - Repeat blood draws and timing disputes burden providers and labs.
+- [x] **EXISTING-WORKFLOWS** - Addresses specimen collection and authorization timing workflows.
+- [x] **COST-RESOURCES** - Highlights surprise costs caused by administrative delays.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+To Whom It May Concern:<br/>My name is Peggy Cottrell, and I am writing as a healthcare provider to urgently request that CMS protect patients from critical care delays and denials caused by rigid prior authorization requirements for laboratory testing.<br/>As a genetic counselor working for Sharsheret, an organization representing oncology patients, we see firsthand how our callers struggle to obtain coverage for the lifesaving treatments they need.<br/>We commend CMS for its ongoing efforts to modernize and streamline prior authorization processes. We also deeply appreciate the opportunity to provide specific feedback via the &ldquo;Request for Information regarding the impact of prior authorization on timely patient access to medically necessary laboratory testing, as referenced in Section III.E of CMS-0062-P&rdquo;.<br/>I urge CMS to protect oncology patients from delays and denials caused by prior authorization requirements for medically necessary laboratory and biomarker testing.<br/>In cancer care, timing is critical. Biomarker and specialty lab results often guide treatment selection, treatment changes, disease monitoring, and clinical trial eligibility. When prior authorization rules require approval before or on the exact specimen collection date, valid specimens may be delayed, rejected, or discarded&mdash;even when the patient, physician, and laboratory acted in good faith. This can force repeat blood draws and delay urgent cancer care.<br/>CMS should require health plans to:<br/>1. Allow retroactive authorization when specimens have already been collected.<br/>2. Prohibit denials based solely on authorization timing.<br/>3. Prevent unnecessary repeat blood draws when a valid specimen is available.<br/>4. Require expedited review for oncology-related diagnostic and biomarker testing.<br/>5. Protect patients from surprise costs when delays are administrative.<br/>Cancer patients need timely access to laboratory testing so they and their care teams can mak...

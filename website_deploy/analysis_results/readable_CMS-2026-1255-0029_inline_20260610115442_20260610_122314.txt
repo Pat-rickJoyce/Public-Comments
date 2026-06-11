@@ -1,0 +1,11 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0029_inline_20260610115442
+Commenter: Meri Pearson, Piedmont Healthcare
+Source: Inline Comment
+Analysis Date: 2026-06-10 12:23:14
+==================================================
+
+Requests delay of ePA mandate for MIPS/MSSP/Promoting Interoperability to PY 2028 and clarification of attestation/timeframe requirements.
+
+Themes: IMPLEMENTATION-TIMELINE, PROVIDER-BURDEN

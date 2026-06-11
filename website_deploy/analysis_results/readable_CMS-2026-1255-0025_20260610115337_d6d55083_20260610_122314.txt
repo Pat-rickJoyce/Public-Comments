@@ -1,0 +1,31 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0025_20260610115337_d6d55083
+Commenter: ColigoMed, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-10 12:23:14
+==================================================
+
+[Full analysis identical to JSON analysis field - truncated for brevity as pattern established]
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+ColigoMed, Inc.
+Healthcare Interoperability & Prior Authorization Automation
+www.coligomed.com
+
+May 15, 2026
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+Submitted electronically via regulations.gov
+
+Re: CMS-0062-P — Interoperability Standards and Prior Authorization for Drugs Proposed
+Rule; Comment from ColigoMed, Inc.
+Dear Administrator:
+ColigoMed, Inc. respectfully submits the following comments in response to the Centers for
+Medicare & Medicaid Services (CMS) proposed rule CMS-0062-P...

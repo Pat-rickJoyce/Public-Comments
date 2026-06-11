@@ -1,0 +1,222 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0023_20260610115342_0633a4f0
+Commenter: The Society of Thoracic Surgeons (STS)
+Source: PDF Attachment
+Analysis Date: 2026-06-10 12:23:14
+==================================================
+
+# Comment Analysis: CMS-2026-1255-0001
+
+---
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** The Society of Thoracic Surgeons (STS) - Vinay Badhwar, MD, President
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Not-for-profit organization representing more than 8,000 surgeons, researchers, and allied health care professionals worldwide dedicated to heart, lung, and esophagus surgery outcomes
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+STS supports CMS's proposal to expand Prior Authorization APIs to include drugs covered under medical benefit, require specific denial reasons, and publicly report PA metrics for drugs. The organization emphasizes that PA delays significantly impede patient care and advocates for user-friendly implementation, standardized metrics, and granular stratification by drug class or clinical indication.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DENIAL-REASONS, API-USAGE-METRICS
+- **Regulatory citations mentioned:** 2024 Advancing Interoperability and Improving Prior Authorization Final Rule
+- **Standards referenced:** Prior Authorization APIs, public website reporting
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior Authorization APIs for Medical Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Improving accessibility and transparency of PA requirements reduces administrative burden and mitigates delays in patient access. National survey data show nearly 90% of physicians report PA delays access to necessary treatment, with many linking delays to worsening clinical outcomes and increased emergency/hospital service use. Analysis found only small share of requests approved immediately, with 44% approved after median 6 days and 45% ultimately denied.
+- **Specific request:** Ensure API enhancements are user-friendly and do not inadvertently add complexity for providers.
+
+**Topic 2: Specific Denial Reasons for Drug PA**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Clear, specific denial rationales improve transparency and address barriers to accessing medically necessary drugs. PA creates administrative burden and delays therapy initiation, contributing to treatment disruption and nonadherence. Standardized, actionable denial explanations are essential for efficiency and fairness.
+- **Specific request:** Finalize requirement for specific denial reasons for all drugs.
+
+**Topic 3: Public Reporting of PA Metrics for Drugs**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with enhancement
+- **Rationale:** Public reporting of approval rates, denial rates, and timeliness provides insight into how utilization management affects access to medically necessary therapies and helps identify variation across payers.
+- **Specific request:** (1) Ensure metrics are standardized across payers to allow meaningful comparison; (2) Require more granular stratification where feasible, such as by drug class or clinical indication, to better capture access issues relevant to complex specialty care.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+The comment does not explicitly reference numbered solicitations but addresses topics covered by:
+
+**Implicit responses:**
+- **S12 (technical challenges for medical benefit drug PA APIs):** Emphasizes need for user-friendly implementation that does not add provider complexity
+- **S16 (what is "specific reason" for denials):** Supports standardized, actionable denial explanations
+- **S29 (which API usage metrics to collect):** Recommends standardized metrics including approval rates, denial rates, timeliness, with granular stratification by drug class/clinical indication
+- **S35 (publish aggregate metrics):** Supports public reporting to identify variation across payers
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Ensure PA API enhancements are user-friendly and do not add provider complexity
+2. Finalize requirement for specific denial reasons for all drug PA requests
+3. Standardize PA metrics across all payers to enable meaningful comparison
+4. Require granular stratification of metrics by drug class or clinical indication where feasible
+5. Use public transparency to inform future policy efforts aimed at reducing unnecessary delays
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:**
+  - PA delays impede timely patient care
+  - Risk that API enhancements could inadvertently add complexity for providers
+  - Need for standardization to enable meaningful cross-payer comparison
+  - Current lack of granular data on access issues for complex specialty care
+
+- **Potential negative impacts cited:**
+  - Treatment delays and barriers to appropriate therapy
+  - Worsening clinical outcomes
+  - Increased emergency and hospital service use
+  - Treatment disruption and nonadherence
+  - Administrative burden on clinicians
+
+- **Implementation barriers mentioned:**
+  - Risk of adding provider complexity if not implemented carefully
+  - Need for standardization across payers
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:**
+  - Nearly 90% of physicians report PA delays access to necessary treatment (AMA survey data)
+  - 44% of PA requests approved only after median of 6 days
+  - 45% of PA requests ultimately denied
+  - Only small share of requests approved immediately
+
+- **Studies or research referenced:**
+  - AMA national survey data on PA delays
+  - Wang Y, Levy JF, Mattingly TJ, Anderson G. "Prior Authorization and Associated Delays and Denials of Branded Medication Dispensation." JAMA Health Forum. 2026;7(4):e260760. doi:10.1001/jamahealthforum.2026.0760
+
+- **Examples provided:**
+  - Link between PA delays and worsening clinical outcomes
+  - Link between PA delays and increased emergency/hospital service use
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:**
+  - Thoracic surgeons and surgical teams
+  - Patients requiring drugs for heart, lung, esophagus conditions
+  - Healthcare providers managing complex surgical care
+  - Payers (MA, Medicaid, CHIP, QHPs)
+
+- **Economic implications:**
+  - PA delays increase emergency and hospital service costs
+  - Administrative burden on clinicians
+  - Potential cost savings from reducing unnecessary delays
+
+- **Technical feasibility:**
+  - Supports PA API approach as technically sound
+  - Emphasizes importance of user-friendly implementation
+  - Notes need for standardization across payers
+
+- **Patient care impact:**
+  - HIGH: PA delays impede timely access to medically necessary drugs
+  - Treatment disruption and nonadherence risks
+  - Worsening clinical outcomes from delays
+  - Increased emergency care utilization
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, evidence-based, collaborative
+- **Priority level:** Medium-High
+
+---
+
+## 11. KEY QUOTES
+
+1. "National survey data indicate that nearly 90% of physicians report PA delays access to necessary treatment, with many linking these delays to worsening clinical outcomes and increased use of emergency and hospital services." - Context: Establishing evidence base for PA reform urgency
+
+2. "One recent analysis found that only a small share of requests are approved immediately, while 44% were approved only after a median of 6 days of PA review and 45% were ultimately denied, underscoring the frequency of treatment delays and barriers to appropriate therapy." - Context: Citing JAMA Health Forum study on PA delays and denials
+
+3. "STS strongly encourages CMS to ensure that these metrics are standardized across payers to allow meaningful comparison. In addition, CMS should consider requiring more granular stratification where feasible, such as by drug class or clinical indication, to better capture access issues relevant to complex specialty care." - Context: Recommendation for enhanced metrics reporting
+
+---
+
+## 12. THEMES
+
+- [X] **IMPLEMENTATION-TIMELINE** - Supports October 1, 2027 compliance date; emphasizes need for timely implementation
+
+- [X] **COST-RESOURCES** - Notes administrative burden on clinicians; cites increased emergency/hospital service costs from PA delays
+
+- [X] **PROVIDER-BURDEN** - Emphasizes need for user-friendly implementation that does not add complexity; notes current administrative burden
+
+- [X] **PATIENT-ACCESS** - Central theme: PA delays impede timely access to medically necessary drugs; cites treatment disruption and nonadherence
+
+- [X] **TECHNICAL-FEASIBILITY** - Supports PA API approach; emphasizes need for user-friendly, non-complex implementation
+
+- [X] **TRANSPARENCY** - Strongly supports specific denial reasons and public metrics reporting; advocates for standardization and granular stratification
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Washington Office
+20 F St NW, Suite 310 C
+Washington, DC 20001-6702
+advocacy@sts.org
+STS Headquarters
+633 N Saint Clair St, Suite 2100
+Chicago, IL 60611-3658
+(312) 202-5800
+sts@sts.org
+
+
+
+
+
+June 9, 2027
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services (CMS)
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, Maryland 21244-1850
+
+Thomas Keane, MD, MBA
+National Coordinator for Health Information Technology (IT)
+Office of the Assistant Secretary for Technology Policy
+Office of the National Coordinator for Health Information Technology (ASTP/ONC)
+Department of Health and Human Services
+330 C St SW
+Washington, DC 20201
+
+
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care
+Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed
+Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P]
+
+Dear Administrator Oz and National Coordinator Keane,
+
+On behalf of The Society of Thoracic Surgeons (STS), I write to provide comments on the Interoperability
+Standards and Prior Authorization for Drugs Proposed Rule. Founded in 1964, STS is a not-for-profit
+organization representing more than 8,000 surgeons, researchers, and allied health care professionals
+worldwide who are dedicated to ensuring the best possible outcomes for surgeries of the heart, lungs, and
+esophagus, as well as other surgical procedures within the chest...

@@ -1,0 +1,90 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0051_inline_20260610115442
+Commenter: Elliot Cazes, MD
+Source: Inline Comment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Elliot Cazes, MD, Tampa, FL
+- **Stakeholder type:** Healthcare Provider
+- **Credentials or expertise mentioned:** Physician who regularly orders genetic testing.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter opposes any prior authorization policy that requires authorization before blood can be drawn for genetic testing. He states that blood should be drawn during the same visit as counseling because requiring a separate return visit significantly delays testing and patients often do not return.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization before blood draw**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** Requiring PA before blood is drawn delays genetic testing and disrupts efficient clinical workflow.
+- **Specific request:** Do not require prior authorization before blood can be drawn for genetic testing.
+
+**Topic 2: Same-visit specimen collection**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Drawing blood at the same visit as counseling avoids separate return visits, which patients may not complete.
+- **Specific request:** Permit blood draw during the counseling visit even if authorization is not yet complete.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment responds to the laboratory testing RFI by describing how PA before specimen collection affects genetic testing, patient follow-up, and provider workflow.
+
+## 6. RECOMMENDATIONS
+
+1. Do not require prior authorization before blood can be drawn for genetic testing.
+2. Allow same-visit blood draw when genetic counseling and test ordering occur.
+3. Avoid PA workflows that require patients to return for a separate lab draw.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed genetic testing and loss to follow-up from separate blood draw visits.
+- **Potential negative impacts cited:** Significant testing delays and patients not returning for specimen collection.
+- **Implementation barriers mentioned:** Prior authorization before blood draw and separate visit requirements.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** Genetic testing ordered after counseling; patients unwilling to return for a separate lab draw.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing genetic testing, physicians ordering genetic tests, genetic counseling workflows, laboratories.
+- **Economic implications:** Not addressed.
+- **Technical feasibility:** Not addressed; the comment is process-focused.
+- **Patient care impact:** Delays and missed specimen collection may prevent timely genetic testing.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Opposed to pre-draw PA requirements
+- **Tone:** Direct, concise, practical
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "I am against any regulation that requires prior authorization before blood can be drawn." - Context: Core position.
+2. "It is best to draw blood at the same visit where counseling takes place." - Context: Recommended workflow.
+3. "Patients are often not willing to come back for a separate visit for a lab draw." - Context: Loss-to-follow-up concern.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Separate PA and blood draw workflows burden clinical practice.
+- [x] **PATIENT-ACCESS** - Testing delays and missed follow-up can restrict access.
+- [x] **EXISTING-WORKFLOWS** - Focuses on same-visit counseling and blood draw workflow.
+- [x] **TECHNICAL-FEASIBILITY** - Not technology-specific, but identifies operational feasibility of PA timing.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+As a physician who orders genetic testing regularly,i am against any regulation that requires prior authorization before blood can be drawn- this delays testing significantly- it is best to draw blood at the same visit where counseling takes place- patiemts are<br/>Often not willing to come back for a separate visit for a lab draw!<br/>Elliot Cazes MD<br/>Tampa, FL...

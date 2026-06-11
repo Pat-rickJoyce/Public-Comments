@@ -1,0 +1,13 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0028_inline_20260610115442
+Commenter: Dr. Bays (Rheumatologist, Seattle, WA)
+Source: Inline Comment
+Analysis Date: 2026-06-10 12:23:14
+==================================================
+
+Rheumatologist/researcher with published studies on PA barriers. Key recommendations: (1) 24-48 hour expedited pathway for vision-threatening conditions; (2) Specific denial content requirements; (3) Step therapy transparency; (4) Drug-specific public reporting. Cites 44-fold variation in biologic approval rates (2.3%-100%) across carriers from Washington State data.
+
+Provisions: PA-TIMEFRAMES-DRUGS, PA-DENIAL-REASONS, API-USAGE-METRICS, GENERAL
+
+Themes: PATIENT-ACCESS, TRANSPARENCY, CLINICAL-URGENCY

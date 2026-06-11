@@ -1,0 +1,172 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0032_20260610115431_c0b22152
+Commenter: American Association of Orthopaedic Surgeons (AAOS)
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Association of Orthopaedic Surgeons (AAOS); signed by Joel Mayerson, MD, FAAOS, Council on Advocacy Chair.
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents more than 39,000 orthopaedic surgeons and residents; signatory is an MD and FAAOS.
+
+## 2. EXECUTIVE SUMMARY
+
+AAOS supports CMS efforts to modernize electronic prior authorization and reduce fragmented manual workflows, but urges CMS to make PA and step therapy more standardized, transparent, clinically grounded, and patient-centered. Its recommendations focus on step therapy exception processes, technology-enabled sharing of utilization-management information, public reporting, PA policy transparency, peer physician review, urgent PA handling, and responsible AI use.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; TRANSPARENCY/GENERAL; HIPAA-PA-STANDARDS indirectly.
+- **Regulatory citations mentioned:** CMS-0062-P; no specific CFR sections cited.
+- **Standards referenced:** Electronic prior authorization generally; secure online portals; interoperable systems. The comment does not name FHIR IGs or NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA modernization**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support/Modify
+- **Rationale:** Manual and fragmented workflows burden physicians and delay care, but electronic PA must be patient-centered and clinically appropriate.
+- **Specific request:** Continue modernization while ensuring stakeholder collaboration and safeguards against excessive utilization-management burden.
+
+**Topic 2: Step therapy exceptions**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can force patients to fail ineffective or harmful treatments and may create irreversible consequences or treatment instability.
+- **Specific request:** Require all CMS-regulated plans and PBMs to offer clear, medically reasonable, expedient exceptions, including 24-hour emergency and 72-hour normal response timeframes.
+
+**Topic 3: Standardized step therapy process and technology platform**
+- **Provision ID:** GENERAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Payers use inconsistent forms, criteria, documentation requirements, and outdated submission channels.
+- **Specific request:** CMS should create or require a standardized technology platform, standard form, common instructions, consistent criteria, and plain-language patient-specific UM and cost-sharing information.
+
+**Topic 4: Denial transparency**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Denials should be understandable and clinically accountable.
+- **Specific request:** Denials should include clinical rationale, supporting guidelines or literature, covered alternatives, appeal rights, and reasons for denial.
+
+**Topic 5: Public reporting and policy transparency**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Public reporting can reveal step therapy use, denials, appeals, and payer policies affecting access.
+- **Specific request:** Require annual public reporting of step therapy exception requests, affected drugs/tests/procedures, indications, request outcomes, denial reasons, and overturned denials; require public-facing PA medical and drug policies without sign-in or paid subscription.
+
+**Topic 6: Clinical review and AI in PA**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA decisions require specialty-specific clinical judgment, and AI denial workflows create risk if not reviewed by humans.
+- **Specific request:** Require initial denials, appeal denials, peer-to-peer reviews, and AI-supported denials to be reviewed and attributed to a licensed board-certified peer physician in the same specialty.
+
+**Topic 7: Urgent PA availability and code-level determinations**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; GENERAL
+- **Position:** Modify
+- **Rationale:** Orthopaedic urgent care and surgical planning require timely decisions and granular determinations.
+- **Specific request:** Require 24/7 acceptance and real-time urgent PA determinations through secure online portal or telephone; require insurers to approve or deny each submitted code individually.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** AAOS recommends denials include clinical rationale, alternative treatments, appeal rights, and evidence such as national specialty guidelines or peer-reviewed literature.
+- **S17:** The comment supports standardized denial information and consistent criteria, though it does not specifically discuss structured denial codes.
+- **S20/S43:** AAOS recommends urgent PA capability 24 hours per day, seven days per week, and step therapy exception decisions within 24 hours for emergencies and 72 hours otherwise.
+- **S29/S35:** AAOS recommends annual public reporting on exception requests, drugs/tests/procedures subject to step therapy, outcomes, denial reasons, and denials overturned on appeal.
+- **S66-S82:** The comment responds to the step therapy RFI by recommending standardized exception processes, technology-enabled patient history and UM information sharing, and public reporting.
+
+## 6. RECOMMENDATIONS
+
+1. Require a standardized step therapy exception process across CMS-regulated plans and PBMs.
+2. Require exceptions when prior treatment failed, delay would cause irreversible harm, required drugs would harm the patient, required drugs would impair work or daily living, or the patient is stable on current therapy.
+3. Standardize forms, instructions, required information, and criteria for step therapy exceptions.
+4. Require plain-language patient-specific UM, formulary, cost-sharing, and step therapy protocol information.
+5. Make step therapy exception data publicly reported annually.
+6. Require public access to medical and drug policies used in PA decisions.
+7. Require same-specialty peer physician review for denials, appeals, peer-to-peer reviews, and AI-supported denials.
+8. Allow peer-to-peer review before denial and require code-level PA determinations.
+9. Require 24/7 real-time urgent PA determinations through secure online portal or phone.
+10. Require transparency regarding AI algorithms used in PA.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Excessive PA burden, step therapy harm, inconsistent payer processes, lack of clinical rationale, lack of transparency, and unsafe AI denial workflows.
+- **Potential negative impacts cited:** Delayed care, treatment abandonment, disease progression, hospitalization, anti-drug antibody formation, emergency room use, and increased costs.
+- **Implementation barriers mentioned:** Proprietary payer forms, variable documentation requirements, phone-based workflows, lack of standardized criteria, insufficient access to payer policies, and specialty mismatch in review.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA survey: 95% of physicians report PA causes delays at least sometimes; 79% report PA can lead to treatment abandonment; 33% report PA requests are often or always denied; physician practices spend an average of twelve hours per week on step therapy and PA administrative burden.
+- **Studies or research referenced:** AMA prior authorization survey and article; Sachs and Kyle; Mark et al.; Moran Company; Florenzo et al.; ACP position paper; multiple anti-drug antibody/immunogenicity studies.
+- **Examples provided:** Orthopaedic urgent care, pain medications, walking boots, surgical procedure codes, implants requiring intraoperative measurements, biologic therapies, patients stable on current medication.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Orthopaedic surgeons, physician practices, patients, plans, PBMs, insurers, specialty peer reviewers, and AI/PA system users.
+- **Economic implications:** Standardization may reduce administrative costs and avoid ER utilization, while step therapy can increase downstream costs through complications and hospitalizations.
+- **Technical feasibility:** AAOS views technology as essential to standardized step therapy information sharing, but expects payer-wide consistency and plain-language outputs.
+- **Patient care impact:** The comment emphasizes reduced delays, fewer harmful treatment switches, protection for stable patients, and more clinically appropriate decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed/supportive with significant modifications
+- **Tone:** Professional, clinically focused, critical of current PA practices
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "There is a place for prior authorization when used in a highly targeted manner in a well-functioning healthcare system." - Context: Framing AAOS's conditional acceptance of PA.
+2. "Insurance-mandated step-therapy, or 'fail first' policies, prioritize short-term cost savings over the life-saving clinical judgment of medical professionals." - Context: Supporting step therapy reform.
+3. "Technology is essential to creating a streamlined and standardized approach to step therapy exceptions." - Context: Requesting standardized technology-supported processes.
+4. "AI can be used to approve PA requests and flag requests for further examination, but all denials should be reviewed and certified by a peer physician." - Context: Responsible AI recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Recommends specific 24-hour, 72-hour, and 24/7 urgent response requirements.
+- [x] **COST-RESOURCES** - Cites physician practice administrative time and downstream cost from delayed or inappropriate therapy.
+- [x] **PROVIDER-BURDEN** - Administrative burden on physicians is a central concern.
+- [x] **TECHNICAL-FEASIBILITY** - Calls for a technology platform and secure online processes to standardize information sharing.
+- [x] **PATIENT-ACCESS** - Focuses on delays, abandonment, urgent care access, and stable therapy protection.
+- [x] **STAKEHOLDER-COORDINATION** - Requests collaboration among policymakers, plans, PBMs, physicians, and specialty reviewers.
+- [x] **TRANSPARENCY** - Requests public PA policies, denial reasons, plain-language requirements, and public reporting.
+- [x] **EXISTING-WORKFLOWS** - Critiques phone calls, proprietary forms, variable documentation, and burdensome payer-specific processes.
+- [x] **PROVIDER-BURDEN** - Reiterated because physician workflow impact is the primary lens of the comment.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+` 
+1 
+ 
+May 22, 2026 
+ 
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services 
+ATTN: CMSâ€“0062â€“P 
+P.O. Box 8013 
+Baltimore, MD 21244â€“8013 
+ 
+Submitted via regulations.gov 
+ 
+Dear Administrator Oz: 
+ 
+On behalf of the more than 39,000 orthopaedic surgeons and residents represented by the American  
+Association of Orthopaedic Surgeons (AAOS), I am writing to share our comments on the Fiscal Year (FY) 2027 
+Interoperability Standards and Prior Authorization for Drugs proposed rule (CMSâ€“0062â€“P). 
+ 
+Prior Authorization (PA) and other Utilization Management (UM) requirements are intended to help ensure 
+the delivery of high-quality, cost-effective care while preventing waste, fraud, abuse, and unnecessary 
+utilization. There is a place for prior authorization when used in a highly targeted manner in a well-functioning 
+healthcare system. However, the current prior authorization system imposes excessive administrative burdens 
+on medical practices, reduces physicians' time with patients, and regularly delays or prevents medically 
+necessary care. 
+ 
+According to a 2024 survey conducted by the American Medical Association:  95% of physicians reported PA 
+causes delays in patient care at least sometimes or more, 79% of physicians report that PA can sometimes 
+lead to treatment abandonment, and 33% of physicians report that PA requests are often or always denied.  
+ 
+Electronic Prior Authorization for Drugs 
+AAOS appreciates CMSâ€™s efforts to modernize the prior authorization process and support electronic exchange 
+of health care information through interoperable systems and standardized electronic prior authorization 
+requirements. We support efforts to reduce reliance on fragmented, manual workflows that create 
+unnecessary burdens for physicians and delay patient care. As PA continues to evolve, it is critical that 
+stakeholders and policymakers collaborate to ensure that the next generation of util...

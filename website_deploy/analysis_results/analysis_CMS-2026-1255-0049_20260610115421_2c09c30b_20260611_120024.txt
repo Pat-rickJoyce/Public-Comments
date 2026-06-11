@@ -1,0 +1,150 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0049_20260610115421_2c09c30b
+Commenter: VGM & Associates, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** VGM & Associates, Inc.; signed by Michael Isaacson, Senior Vice President, Government & Regulatory Relations.
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Nationwide member services organization representing DMEPOS suppliers, distributors, manufacturers, and industry stakeholders.
+
+## 2. EXECUTIVE SUMMARY
+
+VGM responds to CMS's RFI on DMEPOS prior authorization, arguing that PA creates significant delays and burden, especially for wheelchair repairs and replacements. It recommends limiting PA for repairs to cases where repair is impossible and replacement is needed, creating automatic authorization for specified diagnoses, automating PA with safeguards and EMR integration, and reducing workforce burden caused by repetitive documentation, appeals, and staffing needs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI; API-USAGE-METRICS by analogy to automation transparency.
+- **Regulatory citations mentioned:** CMS-0062-P.
+- **Standards referenced:** Automation; EMR integration; no specific FHIR or NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: DMEPOS PA burden and wheelchair repairs**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA for wheelchair components and power mobility repairs/replacements can leave beneficiaries without mobility for six to eight weeks or longer.
+- **Specific request:** Require PA only where repairs are not possible and new equipment is necessary.
+
+**Topic 2: Cost-effective repair/replacement review**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Documentation and PA should focus on whether repair is feasible and least costly, without delaying necessary mobility restoration.
+- **Specific request:** Require a repair quote showing replacement is the more cost-effective solution when replacement is sought.
+
+**Topic 3: Automatic authorization for clear diagnoses**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Some conditions clearly establish medical necessity, making back-and-forth PA unnecessary.
+- **Specific request:** Create a list of diagnoses eligible for automatic authorization, such as quadriplegia for specified DMEPOS items.
+
+**Topic 4: Automation of DMEPOS PA**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Automation can reduce waiting times, cancellations, administrative mistakes, fax/phone/repetitive entry, denials, appeals, burnout, and turnover.
+- **Specific request:** Implement automated PA with safeguards to quickly process supported medically necessary requests and integrate with EMRs for one-click submissions.
+
+**Topic 5: Workforce impact**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA creates non-clinical workload, requires added FTEs, extends work after hours, and worsens burnout and retention.
+- **Specific request:** Reduce PA burden and automate processes to improve workforce satisfaction and retention.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** VGM directly responds to the DMEPOS RFI on patient care, provider burden, process improvement, automation, and workforce retention.
+- **S29/S35:** By analogy, VGM notes automation can provide transparency into utilization patterns and approval trends, though it does not address proposed drug API metrics directly.
+
+## 6. RECOMMENDATIONS
+
+1. Limit DMEPOS PA for repairs to cases where repair is not possible and replacement is necessary.
+2. Require repair quotes demonstrating replacement is more cost-effective when applicable.
+3. Identify diagnoses that should receive automatic authorization for specific DMEPOS items.
+4. Implement automated DMEPOS PA with safeguards for medically necessary requests.
+5. Integrate automation with EMR systems to support one-click submissions.
+6. Use automation data to understand utilization patterns and approval trends.
+7. Reduce repetitive documentation and appeals burden to support workforce retention.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** DMEPOS PA delays, mobility loss, excessive documentation, workforce burnout, repetitive appeals, and operational costs.
+- **Potential negative impacts cited:** Six-to-eight-week wheelchair delays, inability to attend school/work/medical appointments, pressure sores, depression, anxiety, loss of independence, burnout, turnover, and reduced workforce appeal.
+- **Implementation barriers mentioned:** Manual fax/phone/data entry, documentation requirements within six months, parts ordering after PA, repetitive appeals, and need for dedicated FTEs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Wheelchair repair/replacement PA can leave beneficiaries without a wheelchair for six to eight weeks or longer; without PA for repairs, waiting periods could be cut to three to four weeks.
+- **Studies or research referenced:** None.
+- **Examples provided:** Power mobility device repairs/replacements, wheelchair components, quadriplegia, college/working beneficiaries, pressure sores from being bed confined.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare beneficiaries using DMEPOS, DMEPOS suppliers, distributors, manufacturers, providers, staff, payers, and CMS.
+- **Economic implications:** Automatic approvals and repair-focused policies may reduce waste and administrative costs; PA staffing adds operational expense.
+- **Technical feasibility:** VGM supports automation with EMR integration and safeguards.
+- **Patient care impact:** High for mobility-dependent beneficiaries; delays can cause health, mental health, employment, education, and independence harms.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned and reform-oriented
+- **Tone:** Professional, operational, patient-impact focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The beneficiary may find themselves without their wheelchair for six to eight weeks or longer." - Context: DMEPOS PA impact.
+2. "VGM recommends CMS only require prior authorization in instances where repairs to DMEPOS equipment are not possible." - Context: Core recommendation.
+3. "Automation will facilitate quicker access to care for patients." - Context: Automation support.
+4. "Prior authorization requirements greatly increase the non-clinical workload on the health care workforce." - Context: Workforce impact.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - Discusses operational expense, FTEs, waste reduction, and repair/replacement cost-effectiveness.
+- [x] **PROVIDER-BURDEN** - PA documentation and appeals burden providers and suppliers.
+- [x] **HEALTH-EQUITY** - Mobility-dependent beneficiaries face serious access and independence harms.
+- [x] **TECHNICAL-FEASIBILITY** - Supports automation and EMR integration.
+- [x] **PATIENT-ACCESS** - Focuses on timely access to mobility equipment.
+- [x] **TRANSPARENCY** - Automation may provide utilization and approval trend insight.
+- [x] **EXISTING-WORKFLOWS** - Critiques current manual PA, repair assessment, documentation, ordering, and appeals workflows.
+- [x] **VENDOR-ECOSYSTEM** - DMEPOS suppliers, distributors, and manufacturers are directly affected.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Submitted electronically to www.regulations.gov 
+ 
+June 2, 2026 
+ 
+Robert F. Kennedy, Jr. 
+Secretary, Department of Health and Human Services 
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services  
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+Re: Comments on CMS-0062-P Medicare and Medicaid Programs; Patient Protection and Affordable 
+Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health Insurance 
+Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on 
+the Federally-Facilitated Exchanges. 
+ 
+Dear Secretary Kennedy, 
+VGM & Associates, Inc. (VGM) appreciates the opportunity to submit comments on the Centers for 
+Medicare and Medicaid Servicesâ€™ (CMSâ€™) Request for Information cited above. VGM is a nationwide 
+member services organization representing DMEPOS suppliers, distributors, manufacturers and other 
+industry stakeholders, all of whom play a crucial role in the health care continuum ensuring Medicare 
+beneficiaries receive the products and services they need to remain in their homes. 
+ 
+How do prior authorization requirements for laboratory tests and DMEPOS items currently impact patient 
+care and health care provider burden?  
+Prior authorization requirements increase the administrative burden for providers resulting in delays in 
+access to care for patients. The following is just one example that clearly illustrates the impact of prior 
+authorization requirements for DMEPOS items to the detriment of patient outcomes. 
+Numerous wheelchair components and replacement power mobility devices require prior authorization 
+before the beneficiaryâ€™s wheelchair can be repaired or replaced. When the wheelchair serves as the sole 
+means of mobility for the beneficiary and the prior authorization process can take up to...

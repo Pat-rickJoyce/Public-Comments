@@ -1,0 +1,159 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0031_20260610115340_a2c33f6d
+Commenter: Christopher Izzo
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Christopher Izzo, Individual Commenter
+- **Stakeholder type:** Individual
+- **Credentials or expertise mentioned:** More than two decades leading enterprise health system operations and federal modernization efforts involving interoperability, HIPAA-compliant exchange, medication-access operations, reimbursement integrity, user adoption, and sustainment governance.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports modernizing electronic prior authorization for drugs through FHIR and NCPDP standards, but argues that technical conformance alone will not reduce burden or protect patients. He recommends adding an operational performance layer covering denial specificity, status visibility, specialty-level access monitoring, adoption metrics, implementation accountability, funding clarity, training, sustainment governance, technical assistance, and human clinical review for high-risk medication denials.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; HIPAA-PA-STANDARDS; GENERAL.
+- **Regulatory citations mentioned:** 91 FR 19890; CMS-0062-P; RIN 0938-AV44. No specific CFR sections are cited.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, and PAS; NCPDP SCRIPT; NCPDP Formulary & Benefit; NCPDP Real-Time Prescription Benefit; HIPAA Administrative Simplification.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Operational performance monitoring**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** API availability and transaction volume do not show whether workflows reduce burden, duplicate requests, resubmissions, appeals, delays, or manual workarounds.
+- **Specific request:** CMS should monitor workflow performance, documentation effort, submission-to-decision time, duplicate requests, resubmissions, appeals, claims disruption, medication abandonment, and provider/pharmacy workload.
+
+**Topic 2: Specific denial rationales**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Vague electronic denials can preserve or worsen burden even if transactions are faster.
+- **Specific request:** Denials should identify the missing documentation, coverage criterion, medical-necessity basis, step therapy requirement, formulary restriction, quantity limit, or clinical pathway requirement.
+
+**Topic 3: Real-time status visibility**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Prescribers, pharmacies, patients, and care teams need practical visibility to avoid duplicate work and medication-access delays.
+- **Specific request:** Require usable status visibility across relevant participants.
+
+**Topic 4: Specialty-level medication access monitoring**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Aggregate metrics can hide harm in oncology, behavioral health, specialty pharmacy, and chronic disease treatment.
+- **Specific request:** Track access delays, denial rates, appeals, repeated documentation requests, resubmissions, treatment substitutions, medication abandonment, dispensing delays, and downstream effects by specialty or high-risk medication area.
+
+**Topic 5: Implementation accountability and funding clarity**
+- **Provision ID:** HIPAA-PA-STANDARDS; GENERAL
+- **Position:** Clarify
+- **Rationale:** Payer compliance may shift unfunded upgrade, testing, training, dashboard, and sustainment work to providers, pharmacies, and health systems.
+- **Specific request:** Clarify responsibilities, funding/reimbursement pathways, incentives, Medicaid/CHIP matching mechanisms, vendor duties, and technical assistance.
+
+**Topic 6: Human clinical review**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Automated or technology-supported review raises accountability, bias, trust, and patient safety concerns for high-risk medication decisions.
+- **Specific request:** Require human clinical review before denials that interrupt time-sensitive therapy, trigger substitution, prevent dispensing, or override the treating clinician's plan.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** The commenter responds directly by urging exact denial rationales that specify missing documentation, coverage criteria, medical-necessity bases, step therapy, formulary restrictions, quantity limits, or clinical pathway requirements.
+- **S17:** The comment implies support for structured denial information by requesting specific denial fields and usable denial rationale content.
+- **S29:** The commenter recommends metrics beyond API calls, including burden, workflow, resubmissions, appeals, claims disruption, dispensing delays, medication abandonment, and provider/pharmacy workload.
+- **S30:** The commenter addresses governance of technology-supported review and privacy risks, but does not propose detailed privacy protections for metrics.
+- **S34:** The comment supports ongoing post-go-live performance monitoring, though it does not specify a reporting frequency.
+- **S35:** The commenter supports specialty-level and operational outcome reporting; publication details are not addressed.
+- **S44-S51:** The comment recognizes that proposed HIPAA Administrative Simplification standards could affect all HIPAA-covered entities and highlights downstream implementation burden, workflow redesign, training, upgrades, and sustainment challenges.
+- **S54-S55:** The commenter supports testing, governance, escalation, dashboards, and accountability mechanisms, including human clinical review for high-risk denials.
+- **S66-S82:** The comment raises broader RFIs related to resiliency, adoption, workflow burden, specialty monitoring, and clinical oversight.
+
+## 6. RECOMMENDATIONS
+
+1. Add operational performance measures to determine whether interoperability reduces real-world burden.
+2. Require exact, actionable denial rationales.
+3. Provide real-time authorization status visibility to prescribers, pharmacies, patients, and care teams.
+4. Monitor specialty-level medication access and outcomes in high-risk areas.
+5. Track provider and pharmacy adoption separately from continued use of portals, fax, phone, and manual workarounds.
+6. Clarify implementation responsibilities, funding, training, technical assistance, and sustainment governance.
+7. Require human clinical review before high-risk medication denials disrupt time-sensitive therapy or override the treating clinician's plan.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Technical compliance without operational improvement; vague denials; lack of status visibility; hidden specialty-level access harms; unfunded downstream burden; inadequate governance of automated review.
+- **Potential negative impacts cited:** Medication delays, treatment substitution, medication abandonment, claims disruption, reduced trust, provider and pharmacy workload, and shifted costs to delivery systems.
+- **Implementation barriers mentioned:** Partial adoption, limited real-time exchange, poor workflow integration, EHR and pharmacy system upgrades, interface testing, staff training, dashboards, escalation, and sustainment.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Prior authorization estimated at approximately $35 billion in administrative spending; provider time exceeds 100,000 full-time registered nurses annually; oncology survey results including 69% delay experience, 73% waiting at least two weeks, and 22% not receiving recommended care due to delays or denials.
+- **Studies or research referenced:** Salzbrenner et al. 2022 and 2023; Sahni et al. 2024; Chino et al. 2023; Hou et al. 2026; Greene et al. 2025.
+- **Examples provided:** Oncology, behavioral health, specialty pharmacy, chronic disease treatment, payer portals, fax, phone calls, duplicate documentation, resubmissions, appeals, and claims disruption.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, prescribers, pharmacies, care teams, health systems, impacted payers, vendors, Medicaid/CHIP agencies, and HIPAA-covered entities.
+- **Economic implications:** Potential administrative savings if burden falls, but risk of unfunded implementation costs for providers and pharmacies.
+- **Technical feasibility:** The commenter sees FHIR/NCPDP modernization as feasible but incomplete without adoption, workflow, testing, and sustainment measures.
+- **Patient care impact:** Improved electronic PA could support timely therapy, but without safeguards high-risk patients may still experience delays, substitutions, abandonment, and loss of trust.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modifications
+- **Tone:** Professional, evidence-based, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Technical conformance alone will not protect patients or reduce burden unless CMS also measures operational readiness, adoption, accountability, and post-go-live performance." - Context: Explaining implementation risk.
+2. "A faster, vague, or repeatedly documented denial does not reduce burden." - Context: Warning that electronic transactions may not equal operational improvement.
+3. "Successful implementation should not be defined solely by API availability, endpoint reporting, interoperability conformance, or transaction volume." - Context: Recommending outcome-based success measures.
+4. "Human clinical review should occur before a denial involving high-risk medication access interrupts time-sensitive therapy." - Context: Requesting clinical safeguards.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment emphasizes post-go-live monitoring and sustainment, though it does not request a new compliance date.
+- [x] **COST-RESOURCES** - It raises unfunded implementation costs for providers, pharmacies, and health systems.
+- [x] **PROVIDER-BURDEN** - Reducing manual workarounds, duplicate documentation, appeals, and workload is central to the comment.
+- [x] **PRIVACY-SECURITY** - It references privacy risks in automated or technology-supported review.
+- [x] **HEALTH-EQUITY** - Specialty-level monitoring is framed as necessary to detect access risks in high-burden patient populations.
+- [x] **TECHNICAL-FEASIBILITY** - The comment distinguishes standards conformance from operational readiness and workflow performance.
+- [x] **STANDARDS-MATURITY** - It relies on FHIR and NCPDP standards but seeks safeguards around implementation and usability.
+- [x] **PATIENT-ACCESS** - Medication delays, abandonment, and high-risk therapy disruption are major concerns.
+- [x] **STAKEHOLDER-COORDINATION** - It calls for clarified responsibilities among payers, vendors, pharmacies, providers, and agencies.
+- [x] **TRANSPARENCY** - It requests exact denial rationales, status visibility, and specialty-level reporting.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on portals, fax, phone, duplicate documentation, and workflow integration.
+- [x] **VENDOR-ECOSYSTEM** - EHR, pharmacy system, interface, and vendor responsibilities are explicitly raised.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Izzo - CMS-0062-P Public Comment - Page 1 
+Public Comment on CMS-0062-P 
+Interoperability Standards and Prior Authorization for Drugs 
+Re: CMS-0062-P; 91 FR 19890; RIN 0938-AV44 
+Subject: Operational Performance, Interoperability Standards, Electronic Prior Authorization for Drugs, 
+Adoption, Training, Sustainment, and Human Clinical Review 
+Commenter: Christopher Izzo, Individual Commenter 
+Position and Core Recommendation 
+CMS's proposed HL7 FHIR-based prior authorization requirements and the National Council for 
+Prescription Drug Programs (NCPDP) pharmacy standards present a meaningful opportunity to improve 
+electronic prior authorization for drugs covered under medical and pharmacy benefits. A useful addition 
+to the final rule would be an operational performance layer to help CMS assess whether interoperability 
+conformance translates into usable workflows for prescribers, pharmacies, care teams, and patients after 
+go-live. Key technical measures include API availability, usage reporting, denial-reason fields, Coverage 
+Requirements Discovery (CRD), Documentation Templates and Rules (DTR), Prior Authorization Support 
+(PAS), NCPDP SCRIPT, Formulary & Benefit, and Real-Time Prescription Benefit standards. Adoption 
+and burden-reduction metrics would give CMS a clearer way to evaluate whether implementation 
+reduces manual workarounds, improves medication-access coordination, and protects timely therapy in 
+practice (Centers for Medicare & Medicaid Services [CMS], 2026; U.S. Department of Health and Human 
+Services [HHS], CMS, & Office of the National Coordinator for Health Information Technology [ONC], 
+2026). 
+I support modernizing interoperability standards and prior authorization for drugs. The final rule would be 
+stronger if CMS paired the proposed technical requirements with operational safeguards that address 
+denial specificity, status visibility, specialty-level medication-access surveillance, workflow burden 
+reduction, provi...

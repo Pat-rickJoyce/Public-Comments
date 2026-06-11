@@ -1,0 +1,199 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0039_20260610115210_df352e23
+Commenter: American Academy of Neurology (AAN)
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Neurology (AAN); signed by Natalia S. Rost, MD, MPH, FAAN, FAHA.
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** World's largest association of neurologists and neuroscience professionals, with 44,000 members; represents clinicians treating brain, spinal cord, and nervous system diseases.
+
+## 2. EXECUTIVE SUMMARY
+
+AAN strongly supports extending interoperability and prior authorization guardrails to drugs and supports required APIs, NCPDP SCRIPT, formulary/benefit standards, denial reasons, timeframe requirements, and FF-SHOP application. It urges CMS to ensure accurate EHR data population, minimize provider burden, support patients with limited digital access, standardize step therapy exceptions and reporting, require continuity for prior step therapy determinations across payers, clarify urgent after-hours neurological PA decisions, and support reasonable laboratory/DMEPOS PA automation.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; FF-SHOP-REQUIREMENTS; API-USAGE-METRICS; STATE-EXTENSION-PROCESS; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; references to the 2024 CMS Interoperability and Prior Authorization final rule.
+- **Standards referenced:** FHIR; Prior Authorization API; NCPDP SCRIPT; NCPDP Formulary and Benefit; Patient Access API; Provider Access API; Payer-to-Payer API; ADT notifications; EHR integration.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: API standards and access**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support/Modify
+- **Rationale:** APIs can improve transparency and EHR integration, but patients with limited digital access need alternative support.
+- **Specific request:** Educate patients, close the digital divide, support structured neurology data elements, and test bidirectional flows with major EHR vendors.
+
+**Topic 2: Electronic PA for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Extending 2024 PA guardrails to drugs will reduce burdens and improve access.
+- **Specific request:** Require the PA API for medical benefit drugs and NCPDP SCRIPT for pharmacy benefit drugs by October 1, 2027.
+
+**Topic 3: EHR data accuracy and provider burden**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Poor electronic PA design may increase manual review and correction work.
+- **Specific request:** Require electronic PA workflows not to exceed non-electronic documentation burden and require impacted payers to attest to and demonstrate compliance.
+
+**Topic 4: Formulary and Benefit standard**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Point-of-prescribing formulary and benefit information can support clinical decision tools and reduce prescription delays.
+- **Specific request:** Finalize NCPDP F&B requirements.
+
+**Topic 5: State exemptions**
+- **Provision ID:** STATE-EXTENSION-PROCESS
+- **Position:** Support
+- **Rationale:** Removing exceptions promotes standardization and interoperability.
+- **Specific request:** Remove state Medicaid/CHIP FFS exemptions and alternative-plan exceptions.
+
+**Topic 6: Decision timeframes and denial reasons**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS
+- **Position:** Support/Clarify
+- **Rationale:** Neurological delays can lead to irreversible loss of function or death; denial reasons help appeals and supplementation.
+- **Specific request:** Finalize timeframe and denial reason requirements and clarify after-hours/weekend urgent neurological PA expectations.
+
+**Topic 7: FF-SHOP and API resources**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** Patient/provider-facing nontechnical API resources can aid understanding and data access.
+- **Specific request:** Apply interoperability requirements to small group market QHP issuers on FF-SHOPs.
+
+**Topic 8: PA data through access APIs**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support/Modify
+- **Rationale:** Individual and aggregate PA data can show whether PA is blocking covered drugs.
+- **Specific request:** Disclose PA data on an individual service basis and aggregate plan basis.
+
+**Topic 9: Event notifications**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** ADT notifications are useful for chronic neurological care but can create fatigue if poorly routed.
+- **Specific request:** Work with specialty societies to define clinically relevant ADT content and prioritize actionable notifications.
+
+**Topic 10: Step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can ignore patient history, delay neurologic care, and require redundant protocols after payer changes.
+- **Specific request:** Standardize exception processes, forms, documentation, criteria, denial content, patient-specific information, reporting, and require new payers to honor prior step therapy determinations for stable patients.
+
+**Topic 11: Laboratory/DMEPOS PA**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Laboratory and DMEPOS PA add burden, but automation may help if reasonable and predictable.
+- **Specific request:** Allow standardized minimal TRFs, automate reasonably, and allow peer-to-peer review at any step.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3/S18/S37:** AAN supports FHIR API alignment but requests structured neurology data, EHR testing, and burden limits.
+- **S12/S21:** Supports medical benefit drug PA API by October 1, 2027.
+- **S14/S19/S22:** Supports NCPDP SCRIPT and F&B standards for pharmacy benefit drugs.
+- **S16/S17:** Supports specific denial reasons and appeal communication.
+- **S20/S43:** Supports timeframes and asks for urgent after-hours/weekend clarification.
+- **S36/S38-S39:** Supports removing exemptions/alternative methods to promote standardization.
+- **S40-S42:** Supports applying API and PA requirements to FF-SHOP issuers.
+- **S29/S35:** Supports individual and aggregate PA data reporting through APIs.
+- **S66-S82:** Responds extensively on ADT notifications, step therapy, laboratory tests, DMEPOS, and workforce burden.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize required APIs and electronic PA standards for drugs.
+2. Ensure patient education and non-digital access alternatives.
+3. Require neurology-relevant structured data and bidirectional EHR testing.
+4. Require electronic PA documentation burden not to exceed non-electronic processes.
+5. Finalize NCPDP F&B and SCRIPT requirements.
+6. Remove state exceptions to support standardization.
+7. Clarify urgent neurological after-hours/weekend PA decisions.
+8. Require individual and aggregate PA data disclosure.
+9. Standardize step therapy exceptions, documentation, criteria, and reporting.
+10. Require new payers to honor prior step therapy determinations for stable patients.
+11. Use standardized minimal TRFs and reasonable automation for lab/DMEPOS PA.
+12. Allow peer-to-peer review at any PA step.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Patient harm from PA delays, flawed ePA workflows, digital divide, notification fatigue, redundant step therapy, lack of standardized exceptions, and workforce burnout.
+- **Potential negative impacts cited:** Treatment abandonment, serious adverse events, permanent disability, death, adverse impacts on patients with cognitive impairment or limited English proficiency, and provider burnout.
+- **Implementation barriers mentioned:** Inaccurate EHR population, payer-specific forms and criteria, phone-based step therapy workflows, digital access gaps, redundant ADT notices, and excessive documentation.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Physicians average 40 PA requests and 13 hours weekly; 92% report negative clinical outcomes; 79% report treatment abandonment; 95% report care delays; 26% report serious adverse events; neurological disorders affect one in two people in the U.S.; step therapy applied to 38.9% of drug coverage decisions and 55.6% required more steps than clinical guidelines in one cited study.
+- **Studies or research referenced:** 2025 AMA PA Survey; AAN prior comments; Wu et al. on Parkinson's EHR tools; Lenahan et al. Health Affairs step therapy study; AMA and media/advocacy step therapy references.
+- **Examples provided:** Parkinson's disease, epilepsy, migraine, MS, chronic neurological conditions, patients stable on medication, patients with limited digital access or caregiver constraints.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Neurologists, neurology practices, patients with neurological conditions, caregivers, payers, EHR vendors, QHP issuers, Medicaid/CHIP agencies, and PBMs.
+- **Economic implications:** Reducing PA burden may reduce practice staffing costs and avoid downstream costs from delayed neurological care.
+- **Technical feasibility:** AAN supports APIs and automation but stresses EHR accuracy, structured neurology data, and provider-burden safeguards.
+- **Patient care impact:** Very high; delayed neurological treatment can cause irreversible harm or death.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Strongly supportive with detailed modifications
+- **Tone:** Professional, urgent, evidence-based
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Within the practice of neurology, delays to care can lead to permanent disability and death." - Context: Explaining urgency.
+2. "The AAN is highly supportive of the proposed required API and NCPDP SCRIPT standards." - Context: Supporting electronic PA standards.
+3. "We recommend CMS implement a clear, standardized process to request a step therapy exception." - Context: Step therapy recommendation.
+4. "A patient with a chronic condition who is stable on medication should not be required to risk disease progression." - Context: Prior payer step therapy continuity.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports timeframes and asks for urgent after-hours/weekend clarity.
+- [x] **COST-RESOURCES** - Discusses administrative hours, staffing costs, and downstream health care costs.
+- [x] **PROVIDER-BURDEN** - PA burden on neurologists and staff is central.
+- [x] **HEALTH-EQUITY** - Notes impacts on patients with limited digital access, limited English proficiency, cognitive impairment, and caregiver constraints.
+- [x] **TECHNICAL-FEASIBILITY** - Focuses on EHR integration, bidirectional flows, and accurate data population.
+- [x] **PATIENT-ACCESS** - Strong focus on delays, abandonment, disability, and death.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for work with EHR vendors and specialty societies.
+- [x] **TRANSPARENCY** - Supports denial reasons, PA status, criteria, reporting, and patient-friendly resources.
+- [x] **EXISTING-WORKFLOWS** - Addresses manual entry, appeals, phone processes, and notification routing.
+- [x] **VENDOR-ECOSYSTEM** - EHR vendor testing and electronic workflow design are explicit concerns.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+May 29, 2026 
+ 
+The Honorable Mehmet Oz, MD 
+Administrator 
+Centers for Medicare & Medicaid Services 
+200 Independence Avenue, SW 
+Washington, DC 20201 
+ 
+RE: Medicare and Medicaid Programs; Patient Protections and AÆ¯ordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs in Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualiï¬ed 
+Health Plans on the Federally-facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Oz, 
+ 
+The American Academy of Neurology (AAN) is the worldâ€™s largest association of neurologists and 
+neuroscience professionals with 44,000 membersâ€”and the leading voice on brain health. The 
+AANâ€™s mission is to enhance member career fulï¬llment and promote brain health for all. As you 
+know, a neurologist is a doctor who specializes in diagnosis, care, and treatment of brain, spinal 
+cord, and nervous system diseases. These neurological diseases and disorders aÆ¯ect one in two 
+people in the United States and include Alzheimer's disease, stroke, concussion, epilepsy, 
+Parkinson's disease, multiple sclerosis, peripheral neuropathy, and migraine. 
+ 
+The AAN greatly appreciates that the Centers for Medicare & Medicaid Services (CMS) is working to 
+address the growing burden associated with prior authorization faced by both patients and 
+providers. Burdens associated with prior authorization are often cited as a top concern among AAN 
+members. Physicians in the United States complete an average of 40 prior authorization requests 
+every week, taking an average of 13 hours to process.1 Prior Authorization is one of the most time-
+consuming and expensive administrative requirements preventing physicians from spending more 
+time with patients. Over 92% of clinicians reported that prior authorization requirements have a 
+negative impact on patient clinica...

@@ -1,0 +1,108 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0033_inline_20260610115442
+Commenter: Not provided (retail pharmacist)
+Source: Inline Comment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Not provided
+- **Stakeholder type:** Healthcare Provider
+- **Credentials or expertise mentioned:** Retail pharmacist working directly with patients, doctors, and insurance companies.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports CMS-0062-P and moving drug prior authorization to a fully electronic process. They recommend patient notifications when PA is initiated, real-time provider access to patient-specific formularies before prescribing, and simpler API reporting oversight that does not add penalty-driven administrative burden.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PATIENT-ACCESS/GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; Docket No. CMS-2026-1255.
+- **Standards referenced:** APIs generally; CoverMyMeds mentioned as an example platform. No FHIR IGs or NCPDP standards are named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Fully electronic drug PA**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Current pharmacy PA workflows require repeated calls between pharmacy and prescriber and leave patients waiting without information.
+- **Specific request:** Move drug PA to a fully electronic process.
+
+**Topic 2: Patient notification**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patients often do not know PA has been initiated or how to follow up.
+- **Specific request:** Require automatic patient notification when a PA is initiated.
+
+**Topic 3: Real-time formulary access before prescribing**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Prescribers could avoid pharmacy-to-office back-and-forth if they knew coverage and PA requirements before sending prescriptions.
+- **Specific request:** Give providers real-time access to patient-specific drug formularies and allow PA initiation before prescriptions reach the pharmacy.
+
+**Topic 4: Reporting and penalties**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS
+- **Position:** Clarify/Modify
+- **Rationale:** Penalty-backed reporting may create a new compliance burden and divert attention from patient care.
+- **Specific request:** Use a simpler monitoring approach that preserves accountability without adding administrative load.
+
+## 5. SOLICITATION RESPONSES
+
+- **S23-S24:** The commenter raises concern about API reporting requirements and associated penalties, asking CMS to avoid unnecessary administrative burden.
+- **S29-S30:** The comment addresses monitoring burden in general, but does not propose specific metrics or privacy protections.
+- **S66-S82:** The comment responds to broader workflow and patient notification issues by requesting patient-facing PA status notification and provider access to formulary information.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic drug prior authorization modernization.
+2. Require automatic patient notification when PA is initiated.
+3. Provide prescribers real-time patient-specific formulary and coverage access before prescribing.
+4. Permit PA initiation before the prescription is sent to the pharmacy.
+5. Simplify API reporting and compliance monitoring to avoid new provider burden.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Pharmacy staff burden, lack of status visibility, patient uncertainty, provider formulary gaps, and penalty-driven reporting burden.
+- **Potential negative impacts cited:** Delays in medication access, staff time diverted from patient care, repeated calls, and provider focus shifting to compliance.
+- **Implementation barriers mentioned:** Lack of pharmacy visibility into PA status and lack of prescriber access to coverage information before prescribing.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CMS estimate that prior authorization costs providers around $34,000 and 700 hours per year in administrative work.
+- **Studies or research referenced:** None.
+- **Examples provided:** Pharmacy calling the doctor's office, repeated follow-up, CoverMyMeds notifications that do not include patients, and patients waiting without status information.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, retail pharmacists, pharmacy staff, prescribers, providers, and payers.
+- **Economic implications:** Electronic PA and formulary access could reduce staff time spent on calls and follow-up; reporting penalties could increase compliance burden.
+- **Technical feasibility:** The commenter assumes electronic PA, patient notifications, and real-time formulary access are feasible enhancements.
+- **Patient care impact:** Faster status awareness and pre-prescribing formulary checks could reduce waiting and improve medication access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Practical, professional, patient-focused
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "The current prior authorization process is slow and burdensome for everyone involved." - Context: Describing retail pharmacy experience.
+2. "Patients need to be included in the notification process." - Context: Recommending automatic patient notifications.
+3. "Providers should be given real-time access to each patient's drug formulary before writing a prescription." - Context: Requesting workflow improvement before prescriptions reach pharmacies.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment emphasizes pharmacy and provider administrative follow-up.
+- [x] **PATIENT-ACCESS** - Medication wait time and patient visibility are central concerns.
+- [x] **TECHNICAL-FEASIBILITY** - It requests electronic notification and real-time formulary tools.
+- [x] **TRANSPARENCY** - Patient notification and formulary visibility are transparency requests.
+- [x] **EXISTING-WORKFLOWS** - The comment describes current phone-based pharmacy-prescriber workflows.
+- [x] **COST-RESOURCES** - It cites administrative cost and time estimates and worries about new reporting burden.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+May 22, 2026<br/><br/>Centers for Medicare &amp; Medicaid Services<br/>Re: CMS-0062-P &mdash; Interoperability Standards and Prior Authorization for Drugs<br/>Docket No. CMS-2026-1255<br/><br/>Dear Office of CMS,<br/><br/>I am a retail pharmacist, and I am submitting this comment in support of the proposed rule CMS-0062-P. I work directly with patients, doctors, and insurance companies every day, and I want to share what I see on the ground when it comes to prior authorization for prescription drugs.<br/><br/>The current prior authorization process is slow and burdensome for everyone involved. When a doctor sends a prescription and the drug requires prior authorization, the pharmacy has to call the doctor&#39;s office to notify them and then keep calling back to find out whether they have submitted the authorization and whether it has been approved. The pharmacy does not always have visibility into what stage the process is at or whether the doctor has even contacted the insurance company. This follow-up takes up a significant amount of pharmacy staff time that should be spent on patient care. At the same time, CMS estimates that prior authorization costs providers around $34,000 and 700 hours per year in administrative work. While all of this is happening, the patient is sitting and waiting for their medicine with no idea what is going on or how long it will take.<br/><br/>I strongly support moving prior authorization for drugs to a fully electronic process. However, I would like to suggest three specific improvements to make this proposal more effective.<br/><br/>First, patients need to be included in the notification process. Right now, when a prior authorization request is sent to a doctor through systems like CoverMyMeds, the patient receives no notification at all. The proposal should require that when a prior authorization is initiated, the patient automatically receives a notification so they know what is happening and can follow up if needed. Transparency f...

@@ -1,0 +1,175 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0035_20260610115217_28dba7c1
+Commenter: National Infusion Center Association (NICA)
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Infusion Center Association (NICA); signed by Brian Nyquist, MPH, Chief Executive Officer.
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Nonprofit representing non-hospital, community-based infusion centers caring for patients needing provider-administered medications.
+
+## 2. EXECUTIVE SUMMARY
+
+NICA supports electronic prior authorization for medical benefit drugs and broader transparency improvements, but is concerned that separate medical and pharmacy benefit workflows will remain fragmented for infused and injectable therapies. It recommends better medical/pharmacy benefit coordination, drug-specific public reporting, alignment toward 24-hour PA decisions, comprehensive PA information in APIs, retained formulary data, peer-to-peer support, durable approvals, and step therapy data exchange and exceptions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; MEDICAL-VS-PHARMACY-BENEFIT/GENERAL.
+- **Regulatory citations mentioned:** None specifically.
+- **Standards referenced:** Prior Authorization API; Patient Access API; Provider Access API; Payer-to-Payer API; formulary information; electronic PA workflows.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medical benefit drug PA API**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Incorporating coverage and documentation requirements into the Prior Authorization API can improve access to provider-administered medications.
+- **Specific request:** Finalize the October 1, 2027 medical benefit drug Prior Authorization API requirement.
+
+**Topic 2: Medical/pharmacy benefit fragmentation**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Infused and injectable therapies may be covered under either benefit depending on site of care, formulation, specialty pharmacy requirements, or payer design.
+- **Specific request:** CMS and ONC should work toward seamless interoperability and coordination across medical and pharmacy benefit systems.
+
+**Topic 3: Denial reasons and public metrics**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Support/Modify
+- **Rationale:** Specific denial reasons and metrics help providers address coverage barriers and understand UM effects on access.
+- **Specific request:** Require drug-specific information in public reporting, not broad all-drug metrics.
+
+**Topic 4: Decision timeframes and enforcement**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** PA delays disrupt treatment scheduling and medically necessary therapy administration.
+- **Specific request:** Align toward a 24-hour maximum PA response timeframe across all impacted payers, including Medicare Advantage, and enforce compliance with CMPs.
+
+**Topic 5: API content and formulary data**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Infusion providers need clinically meaningful PA, formulary, coverage, step therapy, approval duration, and reauthorization data.
+- **Specific request:** Include coverage criteria, documentation requirements, step therapy protocols, approval duration, reauthorization requirements, and retain formulary information in Provider Access and Payer-to-Payer APIs.
+
+**Topic 6: Peer-to-peer review and approval continuity**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Medical necessity disputes require clinically appropriate review and stable therapy approvals.
+- **Specific request:** Explore clinician-matched peer-to-peer mechanisms and ensure approvals remain valid for at least one year or the prescribed course of treatment when clinically appropriate.
+
+**Topic 7: Step therapy data exchange and exceptions**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Repeat UM requirements during payer transitions delay or disrupt provider-administered therapies.
+- **Specific request:** Develop tools to recognize prior approvals, step therapy history, and UM determinations; ensure transparent exceptions and appeals processes.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** NICA addresses technical/workflow challenges for medical benefit drugs, especially therapies spanning medical and pharmacy benefits.
+- **S15:** NICA directly discusses the medical-vs-pharmacy distinction and the problems caused when infused or injectable therapies may fall under either benefit.
+- **S16:** NICA supports specific denial reasons for drug PA requests.
+- **S20/S43:** NICA urges alignment toward a 24-hour maximum response timeframe and supports enforcement through CMPs.
+- **S29/S35:** NICA supports public drug PA metrics and asks for drug-specific reporting.
+- **S66-S82:** NICA responds to step therapy and continuity-of-care RFIs by recommending recognition of prior approvals, step therapy history, UM determinations, and exceptions/appeals safeguards.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize medical benefit drug Prior Authorization API requirements.
+2. Improve interoperability across medical and pharmacy benefit PA systems.
+3. Require drug-specific public PA reporting.
+4. Align PA response timeframes toward a 24-hour maximum across all impacted payers, including MA.
+5. Enforce drug PA timeframe compliance, including through CMPs.
+6. Include clinically meaningful PA and UM content in Patient Access, Provider Access, and Payer-to-Payer APIs.
+7. Retain formulary information in Provider Access and Payer-to-Payer APIs.
+8. Support clinician-matched peer-to-peer review for medical necessity disputes.
+9. Preserve PA approvals for at least one year or the treatment course when clinically appropriate.
+10. Develop step therapy data exchange and exceptions/appeals processes that support continuity of therapy.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Bifurcated medical/pharmacy workflows, broad metrics, delayed PA decisions, removal of formulary data, repeated UM after payer transitions, and inadequate step therapy exceptions.
+- **Potential negative impacts cited:** Delays in scheduled infusions, disrupted therapy, administrative burden, fragmented coverage verification, and avoidable interruptions in care.
+- **Implementation barriers mentioned:** Benefit design variation, specialty pharmacy requirements, site-of-care policies, payer transitions, and therapies shifting between medical and pharmacy benefits.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None quantified.
+- **Studies or research referenced:** None.
+- **Examples provided:** Infused and injectable therapies; provider-administered medications; dose escalation; maintenance dose adjustments; patients arriving for scheduled infusion with unresolved authorization issues.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients receiving provider-administered drugs, infusion centers, prescribers, impacted payers, ONC, CMS, and Medicare Advantage organizations.
+- **Economic implications:** Better PA coordination could reduce avoidable administrative work and support lower-cost non-hospital care settings.
+- **Technical feasibility:** NICA supports APIs but asks for richer data and coordination across benefit systems.
+- **Patient care impact:** Strong emphasis on avoiding treatment delays, maintaining therapy continuity, and timely infusion scheduling.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, operational, access-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "NICA supports CMS's proposal to require impacted payers to incorporate coverage and documentation requirements into the Prior Authorization API." - Context: Support for medical benefit drug PA API.
+2. "NICA remains concerned that the proposed framework continues to bifurcate electronic prior authorization workflows." - Context: Medical/pharmacy benefit fragmentation concern.
+3. "Delays associated with prior authorization can disrupt treatment scheduling." - Context: Supporting shorter decision timeframes.
+4. "Retaining formulary information within these APIs could help support more efficient coordination of care." - Context: Opposing formulary removal from APIs.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests 24-hour PA response alignment.
+- [x] **PROVIDER-BURDEN** - Addresses fragmented workflows and repeated UM requirements for infusion providers.
+- [x] **TECHNICAL-FEASIBILITY** - Calls for enhanced API content and cross-benefit data exchange.
+- [x] **PATIENT-ACCESS** - Focuses on infusion scheduling and continuity of provider-administered therapy.
+- [x] **STAKEHOLDER-COORDINATION** - Requests CMS/ONC stakeholder work across payer and benefit systems.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central theme for infused and injectable therapies.
+- [x] **TRANSPARENCY** - Supports denial reasons, reporting, formulary access, and exceptions information.
+- [x] **EXISTING-WORKFLOWS** - Addresses fragmented coverage verification and utilization management processes.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare and Medicaid 
+Services 
+200 Independence Avenue, SW 
+Washington, DC 20201 
+ 
+Thomas Keane, MD, MBA 
+National Coordinator for Health Information Technology 
+Office of the National Coordinator for Health Information 
+Technology 
+330 C Street SW 
+Washington, DC 20201 
+Submitted electronically via www.regulations.gov   
+  
+Re: Interoperability Standards and Prior Authorization for Drugs Proposed Rule 
+ 
+Dear Administrator Oz and National Coordinator Keane: 
+ 
+The National Infusion Center Association (NICA) is a nonprofit organization formed to support non- 
+hospital, community-based infusion centers caring for patients in need of provider-administered 
+medications. To improve access to medical benefit drugs that treat complex, rare, and chronic diseases, 
+we work to ensure that patients can access these drugs in safe, more efficient, and cost-effective 
+alternatives to hospital care settings. NICA supports policies that improve drug affordability for 
+beneficiaries, increase price transparency, reduce disparities in safety across care settings, and foster 
+patient access to the highest-quality, lowest-cost setting. Today, we write to provide feedback on the 
+aforementioned proposed rule.  
+ 
+Electronic Prior Authorization for Drugs 
+NICA supports CMSâ€™ proposal to require impacted payers to incorporate coverage and documentation 
+requirements into the Prior Authorization API to support electronic prior authorization for drugs covered 
+under a medical benefit beginning October 1, 2027. However, NICA remains concerned that the 
+proposed framework continues to bifurcate electronic prior authorization workflows between drugs 
+covered under the medical benefit and those covered under the pharmacy benefit. 
+ 
+Many infused and injectable therapies may be covered under either benefit depending on factors such 
+as formulation, site-of-care policies, specialty pharmacy ...

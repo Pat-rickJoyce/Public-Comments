@@ -1,0 +1,183 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0036_20260610115350_89a521d4
+Commenter: American Diabetes Association (ADA)
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Diabetes Association (ADA); signed by Lisa Murdock, Chief Advocacy Officer.
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Nationwide nonprofit founded in 1940; represents people with diabetes and prediabetes, health care professionals, researchers, and others; authors widely followed diabetes standards of care.
+
+## 2. EXECUTIVE SUMMARY
+
+ADA supports CMS's proposal to extend electronic prior authorization reforms to drugs, including medical benefit drug APIs, denial reasons, decision timeframes, and public reporting. It urges CMS to go further by reducing the number of services and medications subject to PA, aligning Medicare drug PA processes across Part B and Part D, creating near-automatic approvals for ongoing chronic disease treatment, and eliminating or strongly limiting step therapy in Medicare.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890; 89 Fed. Reg. 8758; 84 Fed. Reg. 23832; CMS-0062-P.
+- **Standards referenced:** Prior Authorization APIs; electronic prior authorization; Medicare Part B and Part D standards; Health Tech Ecosystem reference.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extending PA reforms to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** People with diabetes need timely access to necessary medications, and drug PA should receive the same process improvements as other services.
+- **Specific request:** Finalize proposals to incorporate drug coverage/documentation requirements into PA APIs and streamline drug PA.
+
+**Topic 2: Denial reasons, timeframes, and metrics**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS
+- **Position:** Support
+- **Rationale:** Clear denial reasons, defined timeframes, and public reporting can reduce harmful delays and increase accountability.
+- **Specific request:** Finalize requirements for clear denial reasons, specific response timeframes, and public metrics on approvals, denials, and appeals.
+
+**Topic 3: Medicare Part B/Part D alignment**
+- **Provision ID:** PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Modify
+- **Rationale:** Beneficiaries may not know whether a drug is covered under Part B or Part D, and inconsistent PA rules could cause confusion.
+- **Specific request:** Align PA requirements and standards for all Medicare-covered drugs to the extent possible.
+
+**Topic 4: Reduce PA use and recurring approvals**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Chronic diseases such as diabetes require ongoing treatment, and repeated recertification adds burden and jeopardizes access.
+- **Specific request:** Use future rulemaking to reduce services and medications subject to PA and establish near-automatic approvals for treatments patients already receive.
+
+**Topic 5: Step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Oppose/Modify
+- **Rationale:** Step therapy can delay necessary and lifesaving medications, including insulin and other diabetes treatments.
+- **Specific request:** Prohibit MA step therapy for Part B drugs unless required in traditional Medicare, prohibit Part D step therapy, or at minimum add required exceptions and a diabetes medication exemption.
+
+**Topic 6: Appeals and patient protections**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Modify
+- **Rationale:** Most denied MA PA requests are not appealed even though appealed denials are frequently overturned.
+- **Specific request:** Ensure patients have clear, plain-language appeal processes and tools when delays or denials may be harmful.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S21:** ADA supports medical benefit drug PA APIs and believes applying 2024 PA improvements to drugs is important for timely medication access.
+- **S16:** ADA supports requiring clear reasons for drug PA denials.
+- **S20/S43:** ADA supports specific PA response timeframes and urges further streamlining, including faster near-automatic approval for continuing therapy.
+- **S28:** ADA urges alignment of prior authorization requirements and standards for Medicare Part B and Part D drugs to avoid beneficiary confusion.
+- **S29/S35:** ADA supports public reporting of approvals, denials, and appeals for drugs and non-drug items/services.
+- **S66-S82:** ADA responds to the step therapy RFI by opposing step therapy for diabetes medications and urging prohibition or explicit exceptions.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize drug PA API, denial reason, timeframe, and reporting proposals.
+2. Align PA requirements and standards for all Medicare-covered drugs to the extent possible.
+3. Pursue further rulemaking to reduce the number of services and medications subject to PA.
+4. Establish near-automatic approvals for ongoing treatments or medications already received by patients.
+5. Provide clear, plain-language appeal processes for harmful denials or delays.
+6. Return to prohibiting mandatory MA step therapy for Part B drugs unless required in traditional Medicare.
+7. Prohibit step therapy by Part D plans, or impose stronger exceptions.
+8. Add step therapy exceptions for adverse reaction, contraindication, drug shortage, and diabetes medications.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization and step therapy delay necessary care; inconsistent payer criteria; low appeal rates; repeated approvals for chronic disease therapy; and inconsistent Part B/Part D processes.
+- **Potential negative impacts cited:** Irreparable harm, disease progression, delayed or inhibited access to lifesaving treatments, patient burden, provider paperwork, and denial of vital services.
+- **Implementation barriers mentioned:** Inconsistent payer protocols, medical necessity criteria beyond federal requirements, patient inability to appeal, and recurring recertification for lifelong conditions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ADA represents 136 million individuals with diabetes and prediabetes; KFF reported nearly 53 million MA PA requests in 2024, 4.1 million denied or partially denied, only 11.5% appealed, and 80.7% of appealed requests approved.
+- **Studies or research referenced:** ADA Standards of Care in Diabetes 2026; KFF MA prior authorization analysis; CMS 2012 step therapy memo; 2019 MA/Part D final rule.
+- **Examples provided:** Insulin and diabetes medications; chronic disease treatments; patients repeatedly recertifying that they still have diabetes; Part B and Part D drug confusion.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** People with diabetes, prediabetes, and obesity; providers; Medicare Advantage plans; Part D plans; CMS; and health plans.
+- **Economic implications:** Streamlining may reduce provider administrative burden; denied care and recurring PA impose patient and provider costs.
+- **Technical feasibility:** ADA supports APIs and electronic processes but argues policy should also reduce unnecessary PA use.
+- **Patient care impact:** High; the comment focuses on lifesaving medication access, chronic disease continuity, and preventing disease progression.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of rule, opposed to broad PA and step therapy use
+- **Tone:** Professional, urgent, patient advocacy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We urge CMS to go further and reduce the number of services and medications subject to prior authorization and eliminate the use of step therapy in Medicare." - Context: Overarching recommendation.
+2. "Patients must be protected and have avenues to push back against denied requests." - Context: Appeal protections.
+3. "There is simply no reason for this practice." - Context: Criticizing repeated recertification for chronic disease therapies.
+4. "CMS should return to its previous position of prohibiting step therapy in MA for Part B drugs." - Context: Step therapy recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports response timeframes and faster continuing-treatment approvals.
+- [x] **PROVIDER-BURDEN** - Repeated PA paperwork detracts from patient care.
+- [x] **PATIENT-ACCESS** - Central focus is timely access to diabetes and chronic disease medications.
+- [x] **HEALTH-EQUITY** - Represents large populations with diabetes and prediabetes affected by access barriers.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for alignment across Medicare Part B, Part D, MA, and traditional Medicare.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Raises confusion between Part B and Part D drug coverage.
+- [x] **TRANSPARENCY** - Supports denial reasons, public reporting, and clear appeals.
+- [x] **EXISTING-WORKFLOWS** - Addresses inconsistent payer criteria and recurring PA processes.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+2451 Crystal Drive, Suite 900 
+ 
+ 
+Arlington, VA 22202 
+1-800-DIABETES (800-342-2383) 
+ 
+ 
+ 
+ 
+May 28, 2026 
+ 
+The Honorable Mehmet Oz  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Administrator 
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services  
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Attention: CMS-0062-P 
+Submitted via www.regulations.gov  
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated 
+Exchanges Proposed Rule 
+ 
+Dear Administrator Oz, 
+ 
+The American Diabetes Association (ADA) wishes to provide comments in response to 
+the Interoperability Standards and Prior Authorization for Drugs proposed rule.1 We 
+continue to be considered about the use of prior authorization and step therapy by health 
+plans and believe that these practices have delayed necessary, and in some cases, 
+lifesaving treatments and medications for people with diabetes, prediabetes, and obesity. 
+While we appreciate CMSâ€™s attempt to streamline prior authorization processes, we urge 
+CMS to go further and reduce the number of services and medications subject to prior 
+authorization and eliminate the use of step therapy in Medicare.  
+ 
+About ADA 
+ 
+The ADA is a nationwide, nonprofit, voluntary health organization founded in 1940 and 
+made up of individuals with diabetes, healthcare professionals who treat people with 
+diabetes, research scientists, and other concerned individuals. The ADAâ€™s mission is to 
+prevent and cure diabetes and to improve the lives of all people affected by diabetes. The 
+ADA, the largest non-governmental organization that deals with the treatment and impact 
+of dia...

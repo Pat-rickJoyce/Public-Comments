@@ -1,0 +1,130 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0046_20260610115344_d2510718
+Commenter: Living Beyond Breast Cancer / Caroline Koffke
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Caroline Koffke, RN, BSN, OCN, Director, Educational and Healthcare Provider Programs, Living Beyond Breast Cancer (LBBC).
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Patient advocate and healthcare provider; oncology nurse credentials; LBBC is a national breast cancer nonprofit reaching around 2 million individuals annually.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter urges CMS to protect oncology patients from prior authorization delays and denials for medically necessary laboratory and biomarker testing. She recommends allowing retroactive authorization after specimen collection, prohibiting denials based solely on authorization timing, avoiding repeat blood draws when valid specimens exist, requiring expedited oncology lab/biomarker review, and protecting patients from surprise administrative costs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI; PA-TIMEFRAMES-DRUGS by analogy to expedited review; PATIENT-ACCESS.
+- **Regulatory citations mentioned:** CMS-0062-P; Section III.E.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Oncology laboratory and biomarker PA timing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Biomarker and specialty lab results guide cancer treatment selection, treatment changes, monitoring, and clinical trial eligibility; rigid pre-collection timing rules can delay care.
+- **Specific request:** Allow retroactive authorization when specimens have already been collected.
+
+**Topic 2: Denials based on authorization timing**
+- **Provision ID:** GENERAL
+- **Position:** Oppose/Modify
+- **Rationale:** Denying otherwise valid testing based solely on timing can require repeat blood draws and delay urgent care.
+- **Specific request:** Prohibit denials based solely on authorization timing and prevent unnecessary repeat blood draws when a valid specimen is available.
+
+**Topic 3: Expedited oncology review**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Cancer care is time-sensitive and lab results may support life-saving decisions.
+- **Specific request:** Require expedited review for oncology-related diagnostic and biomarker testing.
+
+**Topic 4: Patient cost protection**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patients should not bear costs caused by administrative delays.
+- **Specific request:** Protect patients from surprise costs when delays are administrative.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment directly responds to the RFI on laboratory testing prior authorization impacts and opportunities to mitigate burden, especially for oncology biomarker testing.
+
+## 6. RECOMMENDATIONS
+
+1. Allow retroactive authorization when specimens have already been collected.
+2. Prohibit denials based solely on authorization timing.
+3. Prevent unnecessary repeat blood draws when a valid specimen is available.
+4. Require expedited review for oncology-related diagnostic and biomarker testing.
+5. Protect patients from surprise costs caused by administrative delays.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Rigid PA timing rules for lab/biomarker testing, specimen rejection/discard, repeat blood draws, delays to cancer care, and surprise costs.
+- **Potential negative impacts cited:** Delayed treatment decisions, delayed treatment changes, delayed disease monitoring, lost clinical trial eligibility opportunities, repeat blood draws, and potentially life-threatening care delays.
+- **Implementation barriers mentioned:** Requirements for approval before or on exact specimen collection date.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** LBBC reaches around 2 million individuals each year.
+- **Studies or research referenced:** None.
+- **Examples provided:** Breast cancer patients on Medicare or Medicaid needing frequent bloodwork; biomarker and specialty lab tests guiding treatment and clinical trials.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Breast cancer patients, Medicare and Medicaid beneficiaries, oncology providers, laboratories, care teams, and health plans.
+- **Economic implications:** Surprise costs may be shifted to patients when delays are administrative; avoiding repeat blood draws may reduce waste.
+- **Technical feasibility:** The comment focuses on policy/process changes rather than specific technical standards.
+- **Patient care impact:** Very high; timely lab and biomarker results can guide potentially life-saving oncology decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of modernization; urgent request for modifications
+- **Tone:** Urgent, patient-centered, concise
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "In cancer care, timing is critical." - Context: Explaining need for expedited laboratory testing PA.
+2. "Biomarker and specialty lab results often guide treatment selection, treatment changes, disease monitoring, and clinical trial eligibility." - Context: Supporting oncology-specific protections.
+3. "Prohibit denials based solely on authorization timing." - Context: Specific recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests expedited review for oncology-related testing.
+- [x] **PATIENT-ACCESS** - Central concern is timely access to lab and biomarker testing.
+- [x] **HEALTH-EQUITY** - Focuses on Medicare/Medicaid breast cancer patients and access barriers.
+- [x] **PROVIDER-BURDEN** - Administrative timing rules can create repeat workflows for providers and labs.
+- [x] **EXISTING-WORKFLOWS** - Addresses specimen collection, authorization timing, and repeat blood draws.
+- [x] **COST-RESOURCES** - Raises surprise costs and administrative waste.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+To Whom It May Concern: 
+My name is Caroline Koffke, and I am writing as a patient advocate and healthcare provider to 
+urgently request that CMS protect patients from critical care delays and denials caused by rigid 
+prior authorization requirements for laboratory testing. 
+Living Beyond Breast Cancer (LBBC) is a national breast cancer non-profit that reaches around 
+2 million individuals each year. Many of our constituents are on either Medicare and Medicaid 
+and depend on frequent bloodwork for the short- and long-term management of their breast 
+cancer.  
+We commend CMS for its ongoing efforts to modernize and streamline prior authorization 
+processes. We also deeply appreciate the opportunity to provide specific feedback via the 
+Request for Information regarding the impact of prior authorization on timely patient access to 
+medically necessary laboratory testing, as referenced in Section III.E of CMS-0062-P. 
+I urge CMS to protect oncology patients from delays and denials caused by prior authorization 
+requirements for medically necessary laboratory and biomarker testing. 
+In cancer care, timing is critical. Biomarker and specialty lab results often guide treatment 
+selection, treatment changes, disease monitoring, and clinical trial eligibility. When prior 
+authorization rules require approval before or on the exact specimen collection date, valid 
+specimens may be delayed, rejected, or discardedâ€”even when the patient, physician, and 
+laboratory acted in good faith. This can force repeat blood draws and delay urgent cancer care. 
+CMS should require health plans to: 
+1. Allow retroactive authorization when specimens have already been collected. 
+2. Prohibit denials based solely on authorization timing. 
+3. Prevent unnecessary repeat blood draws when a valid specimen is available. 
+4. Require expedited review for oncology-related diagnostic and biomarker testing. 
+5. Protect patients from surprise costs when delays are administrative. ...

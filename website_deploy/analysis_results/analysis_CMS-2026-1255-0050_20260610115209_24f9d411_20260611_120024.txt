@@ -1,0 +1,154 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0050_20260610115209_24f9d411
+Commenter: American Academy of Dental Sleep Medicine (AADSM)
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Dental Sleep Medicine (AADSM); signed by Paul Jacobs, DDS, Diplomate, ABDSM, AADSM President.
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** National professional organization for dentists treating obstructive sleep apnea and snoring; develops evidence-based practice standards for oral appliance therapy.
+
+## 2. EXECUTIVE SUMMARY
+
+AADSM responds to the DMEPOS RFI because oral appliances for sleep apnea are generally DME under medical benefits. It supports reducing or streamlining DMEPOS prior authorization, maximizing real-time approvals for oral appliances, improving payer portals so supporting documentation can be submitted initially, using technology to evaluate medical necessity and same/similar or duplicate-equipment edits, and including reimbursement-rate information with approvals for out-of-network providers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI; API-ENDPOINT-REPORTING/API-USAGE-METRICS by analogy to portal and transparency improvements.
+- **Regulatory citations mentioned:** CMS-0062-P.
+- **Standards referenced:** Technology-enabled PA; payer portals; no specific FHIR IGs or NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: DMEPOS PA burden for oral appliances**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Prior authorization can delay or prevent sleep apnea treatment and add provider paperwork and staff time.
+- **Specific request:** Reduce PA requirements or streamline processes across payer types.
+
+**Topic 2: Real-time approvals**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Delays between referral and delivery can be harmful for sleep apnea patients.
+- **Specific request:** Maximize instantaneous or real-time approval for oral appliances when PA applies.
+
+**Topic 3: Technology for medical necessity and edits**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Technology can assess medical necessity and same/similar or duplicate equipment restrictions more efficiently.
+- **Specific request:** Use technology to streamline DMEPOS PA adjudication and reduce lag time.
+
+**Topic 4: Payer portal documentation**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Payer portals sometimes prevent supporting documentation from being submitted with the initial request, causing denials and appeals.
+- **Specific request:** Improve portal efficiency to accept complete supporting documentation at initial submission.
+
+**Topic 5: Reimbursement transparency for out-of-network providers**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA approvals without reimbursement rates prevent providers from estimating patient financial responsibility.
+- **Specific request:** Include reimbursement-rate information with PA approval notices for out-of-network DME providers.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** AADSM directly responds to the DMEPOS RFI, addressing patient care impact, provider burden, technology opportunities, portal issues, and reimbursement transparency.
+
+## 6. RECOMMENDATIONS
+
+1. Reduce DMEPOS PA requirements where possible.
+2. Streamline PA processes across payer types.
+3. Maximize real-time approval for oral appliance therapy.
+4. Use technology to evaluate medical necessity and same/similar or duplicate-equipment edits.
+5. Improve payer portals to allow supporting documentation at initial submission.
+6. Include reimbursement-rate information with out-of-network PA approvals.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Treatment delays, provider paperwork, staff time, payer portal inefficiency, denials from incomplete initial submissions, appeals delays, and lack of reimbursement transparency.
+- **Potential negative impacts cited:** Untreated sleep apnea risks including motor vehicle accidents, high blood pressure, congestive heart failure, stroke, diabetes, impaired cognitive function, depression, poor quality of life, provider burnout, and patient uncertainty about financial responsibility.
+- **Implementation barriers mentioned:** Inefficient payer portals, inability to submit supporting documentation with initial PA requests, lack of reimbursement data on approvals, and payer variation.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None quantified.
+- **Studies or research referenced:** None.
+- **Examples provided:** Oral appliances for obstructive sleep apnea; same/similar restrictions; duplicate equipment edits; out-of-network provider reimbursement rates.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Sleep apnea patients, dentists furnishing oral appliances, out-of-network DME providers, payer portal users, and health plans.
+- **Economic implications:** PA creates higher practice expenses; lack of reimbursement information affects patient treatment decisions.
+- **Technical feasibility:** AADSM believes technology can support real-time approvals, medical necessity assessment, and reimbursement transparency.
+- **Patient care impact:** Delays in oral appliance therapy may worsen serious sleep apnea-related health risks.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of burden reduction; requests DMEPOS-specific modifications
+- **Tone:** Professional, clinical, operational
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "For patients with sleep apnea, delays in treatment can be potentially life-threatening." - Context: Patient risk from PA delays.
+2. "Processing prior authorization requests may take more time than actually providing the service." - Context: Provider burden.
+3. "Provision of instantaneous/real-time approval should be maximized." - Context: Recommendation for oral appliances.
+4. "Technology could readily be leveraged to include information on reimbursement rates." - Context: Out-of-network transparency recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Staff time, paperwork, practice expense, and burnout are central concerns.
+- [x] **COST-RESOURCES** - Discusses practice expenses and patient financial responsibility.
+- [x] **TECHNICAL-FEASIBILITY** - Supports technology for real-time approvals, edits, and reimbursement data.
+- [x] **PATIENT-ACCESS** - Focuses on timely access to sleep apnea oral appliances.
+- [x] **TRANSPARENCY** - Requests reimbursement-rate information and better portal documentation.
+- [x] **EXISTING-WORKFLOWS** - Critiques payer portals and current PA documentation workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Dentists who provide snoring and sleep apnea solutions 
+ 
+ 
+ 
+ 
+June 2, 2026 
+ 
+The Honorable Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services  
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable 
+Care Act; Interoperability Standards and Prior Authorization for Drugs 
+for Medicare Advantage Organizations, Medicaid Managed Care Plans, 
+State Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) 
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Oz: 
+ 
+On behalf of the American Academy of Dental Sleep Medicine (AADSM), thank 
+you for the opportunity to submit comments in response to the proposed rule 
+on Interoperability Standards and Prior Authorization for Drugs referenced 
+above.  The AADSM is a national professional organization for dentists focused 
+on the treatment of OSA and snoring. Our mission is to reduce the number of 
+people with undiagnosed and untreated OSA, snoring, and related conditions, 
+particularly through the use of oral appliances. To advance this mission, we 
+offer education, professional development, and resources to dentists while 
+promoting research, advocacy, and public awareness. We also develop and 
+maintain evidence-based practice standards to ensure that oral appliance 
+therapy is safely and effectively provided to patients.   
+ 
+Given that oral appliances are generally characterized as durable medical 
+equipment (DME) furnished under medical benefits, our comments are focused 
+on the Request for Information (RFI) on Laboratory Services and Durable 
+Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) items.  In 
+this RFI, the Centers for Medicare and Medicaid Services (CMS) seeks 
+information on prior authorization requirements for DMEP...

@@ -1,0 +1,150 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0041_20260610115211_7feeb004
+Commenter: Colorado Department of Health Care Policy & Financing (HCPF)
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Colorado Department of Health Care Policy & Financing (HCPF); signed by Jim Leonard, PharmD, Deputy Director, Pharmacy Office.
+- **Stakeholder type:** Government
+- **Credentials or expertise mentioned:** Colorado single state agency for Health First Colorado (Medicaid) and Child Health Plan Plus (CHIP); pharmacy office leadership.
+
+## 2. EXECUTIVE SUMMARY
+
+HCPF is concerned that CMS's proposed implementation timeline and drug prior authorization response requirements may be unrealistic for state Medicaid/CHIP programs and could unintentionally slow access to medications. It requests a three-year implementation timeframe, a later or separate effective date with enforcement discretion for IT changes, and clarification that a 24-hour pharmacy PA response may request additional information while a final decision may occur within 72 hours when needed for informed review.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; IMPLEMENTATION-TIMELINE/GENERAL; STATE-EXTENSION-PROCESS indirectly.
+- **Regulatory citations mentioned:** CMS-0062-P; proposed rule pages 19935-19938 referenced by page range; no CFR section cited.
+- **Standards referenced:** NCPDP standards; National Drug Code (NDC) transition to 12-digit format; pharmacy prior authorization response/decision process.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Implementation feasibility**
+- **Provision ID:** PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** States are facing concurrent IT and policy transformations, including WFTC-related Medicaid changes and future NDC format changes.
+- **Specific request:** Replace the proposed timeline with a more realistic three-year implementation timeframe.
+
+**Topic 2: Competing state system priorities**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Colorado must implement community engagement requirements by January 1, 2027, six-month renewals, vendor coordination, member communications, and systems changes.
+- **Specific request:** CMS should provide guidance and technical assistance and account for state implementation capacity.
+
+**Topic 3: 24-hour response vs decision**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify/Modify
+- **Rationale:** A final decision within 24 hours may force denials when additional clinical information could support approval.
+- **Specific request:** Clarify that a 24-hour response may request more information, with a 72-hour decision timeframe when needed for informed pharmacist and medical review.
+
+**Topic 4: Effective date and enforcement discretion**
+- **Provision ID:** PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** October 1, 2027 may be infeasible for this portion of the rule given IT systems adjustments.
+- **Specific request:** Consider a later separate effective date and enforcement discretion.
+
+## 5. SOLICITATION RESPONSES
+
+- **S19:** HCPF addresses state readiness and explains that concurrent state/federal requirements and IT changes make the proposed timeline unrealistic.
+- **S20:** HCPF directly responds to the 24-hour Medicaid/CHIP drug PA timeframe, requesting clarification between a response and final decision.
+- **S22:** HCPF references NCPDP and NDC-related system work as implementation burdens, though it does not provide a cost estimate.
+- **S36/S38:** HCPF's request for a three-year timeframe, separate effective date, and enforcement discretion relates to state extension/timing criteria.
+- **S43:** HCPF recommends 72 hours for pharmacy benefit PAR decisions, aligned with other benefits when additional review is needed.
+
+## 6. RECOMMENDATIONS
+
+1. Adopt a three-year implementation timeframe for affected state systems.
+2. Account for concurrent WFTC-related Medicaid eligibility and renewal system changes.
+3. Provide CMS guidance and technical assistance for implementation.
+4. Clarify that 24 hours may mean a response, not necessarily a final decision.
+5. Allow a 72-hour decision timeframe when additional clinical information or review is needed.
+6. Consider a later, separate effective date for drug PA timeline requirements.
+7. Exercise enforcement discretion during necessary IT systems adjustments.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Unrealistic timeline, concurrent statutory IT work, NCPDP/NDC transitions, ambiguity between response and decision, increased denials, and staffing constraints.
+- **Potential negative impacts cited:** Slower medication access, unnecessary denials, delayed care, administrative bottlenecks, and member disruption.
+- **Implementation barriers mentioned:** State IT changes, vendor coordination, member outreach, community engagement implementation, six-month renewals, future 12-digit NDC conversion, and need for CMS guidance.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** FDA-required 12-digit NDC transition effective March 7, 2033; community engagement requirements by January 1, 2027; current Colorado practice responds within 24 hours.
+- **Studies or research referenced:** None.
+- **Examples provided:** Requests requiring additional information before approval; staffing impact if forced final decisions increase denials.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Colorado Medicaid and CHIP members, HCPF, state vendors, providers/requesters, pharmacists/medical reviewers, CMS.
+- **Economic implications:** Major state IT and vendor coordination costs implied; increased denials would require additional staffing and administrative handling.
+- **Technical feasibility:** HCPF argues the proposed October 1, 2027 date is infeasible given concurrent systems changes.
+- **Patient care impact:** Final decisions forced too quickly may cause avoidable denials and delayed appropriate therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned; requests modification and clarification
+- **Tone:** Professional, operational, cautionary
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "CMS's proposed implementation timeline is unrealistic." - Context: State feasibility concern.
+2. "We request that the PAR response allowance time be set at the same standard required for other benefits, that is 72 hours." - Context: Timeframe recommendation.
+3. "If a decision is required within 24 hours, the number of denials will increase." - Context: Warning about unintended consequences.
+4. "A 24 hour response time is preferred but that a 72 hour decision time frame is allowed when needed." - Context: Requested clarification.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Central concern is timeline feasibility and effective dates.
+- [x] **COST-RESOURCES** - State IT, staffing, vendor, and outreach burdens are emphasized.
+- [x] **TECHNICAL-FEASIBILITY** - HCPF questions feasibility amid NCPDP/NDC and state system changes.
+- [x] **PATIENT-ACCESS** - Warns that rapid final decisions may increase denials and delay care.
+- [x] **STAKEHOLDER-COORDINATION** - Requires CMS, state agency, vendors, providers, and members to coordinate.
+- [x] **EXISTING-WORKFLOWS** - Distinguishes current PAR response workflows from final decision processes.
+- [x] **SMALL-PAYER-IMPACT** - Not a small payer, but raises state-program capacity constraints similar to resource-limited implementation concerns.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+303 E. 17th Ave. Suite 1100 
+Denver, CO   80203 
+Improving health care equity, access and outcomes for the people we serve while saving
+Coloradans money on health care and driving value for Colorado.
+hcpf.colorado.gov
+ 
+ 
+May 29, 2026    
+Dr. Mehmet Oz 
+Administrator   
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services, Attention: CMS-0062-P    
+7500 Security Boulevard   
+Baltimore, MD 21244   
+                                                                     Submitted online via Regulations.gov  
+ 
+RE: Concerns About 2026 Proposed Rule on Interoperability and Drug Prior Authorization 
+Rule, CMS File Code CMS-0062-P   
+ 
+Dear Administrator Oz, 
+ 
+The Colorado Department of Health Care Policy & Financing (HCPF) serves as Coloradoâ€™s 
+single state agency for the administration of Health First Colorado (Coloradoâ€™s Medicaid 
+program) and Child Health Plan Plus (CHP+, which is Coloradoâ€™s Children's Health Insurance 
+Program (CHIP)). We write to comment on the proposed HHS federal rule Medicare and 
+Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards 
+and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed 
+Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies 
+and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges. (CMS-0062-P). Specifically, our Medicaid agency is concerned about 
+CMSâ€™ proposed interoperability standards, especially as they apply to prior authorization for 
+drugs, and how this proposed rule may unintentionally slow patientsâ€™ access to prescribed 
+medications rather than expedite their access to needed medications.  
+ 
+We understand that this rule builds on prior rulemaking around interoperability, access, and 
+prior authorization, to expand many of those requirements to cover prior authorization for 
+drugs. In that c...

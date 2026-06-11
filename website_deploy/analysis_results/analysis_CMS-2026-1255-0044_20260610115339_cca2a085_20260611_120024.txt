@@ -1,0 +1,136 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0044_20260610115339_cca2a085
+Commenter: Linda Sherman
+Source: PDF Attachment
+Analysis Date: 2026-06-11 12:00:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Linda Sherman, Founder and Co-Host, Rethinking Aging Club Podcast and News for the Ages Podcast, BoomerTechTalk.com.
+- **Stakeholder type:** Individual
+- **Credentials or expertise mentioned:** Podcast host and aging/caregiving commentator who has interviewed healthcare professionals, researchers, innovators, caregivers, and older adults.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter strongly supports CMS-0062-P and the expansion of interoperability standards and electronic prior authorization for drugs. She emphasizes benefits for older adults and caregivers and asks CMS to finalize the proposal while continuing to focus on usability and implementation support for providers of all sizes, including smaller practices and organizations serving older adults.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P.
+- **Standards referenced:** Standards-based interoperability; electronic prior authorization; secure information exchange. No specific FHIR IGs or NCPDP standards named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Overall support for electronic PA and interoperability**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Modernized electronic PA can reduce burden, speed decisions, improve transparency, reduce duplicative documentation, and coordinate across organizations and plans.
+- **Specific request:** Finalize CMS-0062-P.
+
+**Topic 2: Older adult and caregiver impact**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Older adults managing chronic conditions are particularly vulnerable to treatment delays, and caregivers spend substantial time navigating PA requirements.
+- **Specific request:** Preserve focus on patient and caregiver experience.
+
+**Topic 3: Standards-based secure data movement**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Critical data remain trapped in disconnected systems, limiting patient-centered coordination.
+- **Specific request:** Continue emphasizing standards-based interoperability among providers, pharmacies, plans, and patients.
+
+**Topic 4: Usability and implementation support**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Providers of all sizes must be able to adopt new standards without undue burden.
+- **Specific request:** Provide usability focus and implementation support, especially for smaller practices and organizations serving older adults.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S18/S37:** The comment generally supports mandatory interoperability standards and requests attention to usability and implementation support.
+- **S12/S14:** It supports expansion of electronic PA to drugs, though without distinguishing medical and pharmacy benefit technical requirements.
+- **S66-S82:** The comment addresses broader RFI themes of patient/caregiver experience, coordination, and reducing administrative complexity.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize CMS-0062-P.
+2. Continue advancing standards-based interoperability and electronic PA for drugs.
+3. Ensure secure, efficient information movement among providers, pharmacies, plans, and patients.
+4. Focus on usability and implementation support for providers of all sizes.
+5. Pay particular attention to smaller practices and organizations serving older adults.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization delays, complexity, disconnected systems, caregiver burden, and small-provider implementation burden.
+- **Potential negative impacts cited:** Worsening health conditions, caregiver stress, avoidable healthcare utilization, reduced confidence in the healthcare system, and delayed access to prescribed medications.
+- **Implementation barriers mentioned:** Disconnected systems, duplicative documentation, repetitive data entry, and adoption burden for smaller organizations.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** Older adults with multiple chronic conditions; family caregivers following up with providers and plans and checking PA status.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Older adults, caregivers, physicians, nurses, pharmacists, healthcare staff, providers, pharmacies, health plans, smaller practices, and organizations serving older adults.
+- **Economic implications:** Reduced administrative burden and avoidable utilization may produce system efficiencies, but no quantified costs are provided.
+- **Technical feasibility:** The commenter supports standards-based interoperability but asks CMS to emphasize usability and implementation support.
+- **Patient care impact:** Improved speed and transparency could reduce delays for older adults and improve caregiver experience.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Strongly supportive
+- **Tone:** Positive, patient- and caregiver-centered
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "I am writing in strong support of CMS-0062-P." - Context: Overall position.
+2. "For older adults, delays in treatment are not merely inconveniences." - Context: Aging and chronic-condition impact.
+3. "Critical data remain trapped in disconnected systems." - Context: Interoperability rationale.
+4. "I encourage continued attention to usability and implementation support." - Context: Implementation recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Supports reducing burden on physicians, nurses, pharmacists, and staff.
+- [x] **PATIENT-ACCESS** - Focuses on timely medication access for older adults.
+- [x] **TECHNICAL-FEASIBILITY** - Supports standards-based, secure interoperability.
+- [x] **STAKEHOLDER-COORDINATION** - Emphasizes coordination across providers, pharmacies, plans, and patients.
+- [x] **TRANSPARENCY** - Supports more transparent PA status and decisions.
+- [x] **SMALL-PAYER-IMPACT** - Raises related concerns for smaller practices and organizations serving older adults.
+- [x] **EXISTING-WORKFLOWS** - Identifies duplicative documentation and repetitive data entry as burdens.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+May 31, 2026 
+Centers for Medicare & Medicaid Services 
+Re: CMS-0062-P â€” Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards for Prior Authorization for Drugs Proposed Rule 
+Dear CMS: 
+I am writing in strong support of CMS-0062-P and the proposed expansion of interoperability 
+standards and electronic prior authorization processes for drugs. 
+As founder and co-host of the Rethinking Aging Club Podcast and News for the Ages podcast at 
+BoomerTechTalk.com, I have had the opportunity to interview and engage with hundreds of 
+healthcare professionals, researchers, innovators, caregivers, and older adults. Across these 
+conversations, one challenge consistently emerges: delays, complexity, and administrative 
+burden associated with prior authorization. 
+Since launching these podcasts, I have participated in hundreds of discussions with leaders 
+across healthcare, aging services, caregiving, health technology, and longevity. Regardless of 
+specialty or stakeholder group, there is broad agreement that administrative complexity and 
+delays in prior authorization create unnecessary burdens for patients, caregivers, providers, and 
+health plans alike. 
+For older adults, delays in treatment are not merely inconveniences. They can contribute to 
+worsening health conditions, increased caregiver stress, avoidable healthcare utilization, and 
+reduced confidence in the healthcare system. When individuals are managing multiple chronic 
+conditions, timely access to prescribed therapies becomes especially important. 
+I applaud CMS for continuing to advance interoperability and electronic prior authorization 
+standards. These efforts have the potential to: 
+â€¢ Reduce administrative burden on physicians, nurses, pharmacists, and healthcare staff. 
+â€¢ Improve the speed and consistency of prior authorization decisions. 
+â€¢ Decrease unnecessary delays in patient access to prescribed medications. 
+â€¢ Improve...
