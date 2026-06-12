@@ -1,0 +1,91 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0092
+Commenter: Individual commenter
+Source: Inline Comment
+Analysis Date: 2026-06-12 14:45:14
+==================================================
+
+# Comment Analysis: CMS-2026-1255-0092
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Not provided.
+- **Stakeholder type:** Individual.
+- **Credentials or expertise mentioned:** None stated.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter expresses concern that prior authorization delays can interfere with access to medically necessary therapy services. The comment especially emphasizes patients who need ongoing skilled therapy to maintain function and avoid decline.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-TIMEFRAMES-DRUGS by analogy to authorization delays.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Delays in access to therapy services**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Delayed prior authorization can affect patients who rely on continuous skilled therapy.
+- **Specific request:** Reduce PA delays for medically necessary ongoing therapy services.
+
+**Topic 2: Patient functional decline**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Interruptions in therapy may impair function or lead to preventable decline.
+- **Specific request:** Consider continuity-of-care protections for patients receiving ongoing therapy.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** General response on prior authorization delays and continuity of care, outside the drug-specific provisions.
+- **S20/S43:** Indirectly relevant because the comment supports shorter or more reliable authorization timeframes, though not specifically for drug PA.
+
+## 6. RECOMMENDATIONS
+
+1. Reduce prior authorization delays for medically necessary therapy services.
+2. Protect continuity of ongoing skilled therapy where interruptions may cause decline.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays affecting therapy access.
+- **Potential negative impacts cited:** Loss of function or clinical decline.
+- **Implementation barriers mentioned:** Not addressed.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** Patients needing ongoing skilled therapy to maintain function.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients receiving therapy services, therapy providers, payers.
+- **Economic implications:** Not addressed.
+- **Technical feasibility:** Not addressed.
+- **Patient care impact:** Delays may interrupt medically necessary therapy and contribute to functional decline.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Brief and practical
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "prior authorization delays may affect access to medically necessary therapy services" - Context: Main concern.
+2. "patients who rely on ongoing skilled therapy to maintain function and prevent decline" - Context: Population most affected.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment concerns delay in authorization decisions.
+- [x] **PATIENT-ACCESS** - Access to medically necessary therapy is the central issue.
+- [x] **PROVIDER-BURDEN** - Therapy providers may face authorization barriers, though this is implied rather than detailed.
+- [x] **EXISTING-WORKFLOWS** - The comment points to PA workflow delays affecting ongoing care.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+prior authorization delays may affect access to medically necessary therapy services, especially for patients who rely on ongoing skilled therapy to maintain function and prevent decline....

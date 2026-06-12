@@ -1,0 +1,124 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0090
+Commenter: Dr. Amy Payne
+Source: PDF Attachment
+Analysis Date: 2026-06-12 14:45:14
+==================================================
+
+# Comment Analysis: CMS-2026-1255-0090
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Dr. Amy Payne, DSW, LCSW.
+- **Stakeholder type:** Individual; Advocacy Group perspective.
+- **Credentials or expertise mentioned:** Doctor of Social Work, licensed clinical social worker, cholangiocarcinoma advocate and legacy caregiver.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter urges CMS to protect patients from prior authorization delays and denials for laboratory testing, particularly oncology and specialty biomarker testing. She asks CMS to require retroactive approvals after specimen collection, prohibit timing-only denials, avoid repeat blood draws, expedite time-sensitive diagnostics, and protect patients from financial liability.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-TIMEFRAMES-DRUGS by analogy to urgent PA timelines; PA-DENIAL-REASONS by concern over timing-based denials.
+- **Regulatory citations mentioned:** Section III.E of CMS-0062-P referenced; no CFR citations.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Laboratory testing PA timing rules**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Plans may deny testing unless PA is approved by the specimen collection date, even where testing occurs later and administrative review lags.
+- **Specific request:** Permit retroactive PA approvals after specimen collection and prohibit denials based solely on paperwork timing.
+
+**Topic 2: Oncology and rare disease diagnostic access**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Delays in biomarker and specialty lab testing can delay treatment decisions for lethal cancers and rare diseases.
+- **Specific request:** Establish expedited PA pathways for oncology and other time-sensitive diagnostics.
+
+**Topic 3: Patient burden from repeated specimens and costs**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Discarding viable specimens can force repeat blood draws and create geographic and financial burdens, especially for rural and low-income patients.
+- **Specific request:** Prevent redundant testing when a valid specimen exists and shield patients from surprise out-of-pocket costs when acting in good faith.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** Responds to a general RFI topic on prior authorization and access to laboratory testing, asking CMS to align PA requirements with real clinical workflows.
+- **S20/S43:** Indirectly relevant because the comment stresses expedited decisions for time-sensitive diagnostics, although it does not address drug PA timeframes specifically.
+- **S16:** Indirectly relevant because timing-based denials are criticized as inappropriate where medical necessity is not disputed.
+
+## 6. RECOMMENDATIONS
+
+1. Allow PA approvals to be processed retroactively after specimen collection.
+2. Prohibit denials of medically necessary tests solely because PA paperwork was not complete before specimen collection.
+3. Prevent repeat blood draws when a valid specimen is available.
+4. Create expedited pathways for oncology and other time-sensitive diagnostic testing.
+5. Protect patients from surprise costs when they act in good faith.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Rigid PA timing requirements for lab testing, discarded specimens, repeated blood draws, delayed cancer treatment decisions.
+- **Potential negative impacts cited:** Worse mortality risk, treatment delays, financial liability, geographic burdens for rural patients, disproportionate harm to low-income populations.
+- **Implementation barriers mentioned:** Date-of-service rules tied to specimen collection rather than processing date; administrative review lag.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** The commenter's mother died 79 days after cholangiocarcinoma diagnosis.
+- **Studies or research referenced:** None.
+- **Examples provided:** Biomarker and specialty labs collected in a provider office and sent elsewhere for processing; denials based on specimen collection date.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, rare disease patients, rural and low-income patients, providers, laboratories, health plans.
+- **Economic implications:** Potential patient surprise bills and redundant testing costs; no quantified estimates.
+- **Technical feasibility:** The comment focuses on policy and workflow rules, not technical standards.
+- **Patient care impact:** High; delayed testing can delay time-sensitive oncology treatment decisions and require avoidable repeat procedures.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Urgent and personal
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "protect patients from critical care delays and denials caused by rigid prior authorization requirements for laboratory testing" - Context: Central request to CMS.
+2. "Delays in processing will only add to the already dire mortality outcome" - Context: Cholangiocarcinoma example.
+3. "Stop denying medically necessary tests solely because paperwork was not finalized before the draw date" - Context: Specific recommendation on timing-based denials.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment emphasizes expedited pathways for time-sensitive diagnostics.
+- [x] **PATIENT-ACCESS** - The primary concern is delayed access to medically necessary laboratory insights.
+- [x] **HEALTH-EQUITY** - The commenter cites disproportionate financial and geographic burdens on rural and low-income patients.
+- [x] **PROVIDER-BURDEN** - Providers must navigate PA timing rules that do not match specimen collection and processing workflows.
+- [x] **EXISTING-WORKFLOWS** - The comment asks CMS to align PA rules with real-world laboratory workflows.
+- [x] **TRANSPARENCY** - It objects to timing-based denials that obscure the underlying medical necessity of tests.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Date: June 08, 2026
+To: Centers for Medicare & Medicaid Services (CMS), Department of Health and 
+Human Services
+Attention: Docket ID: CMS-2026-1255
+Reference: RFI for Prior Authorization and Access to Laboratory Testing (Section 
+III.E of CMS-0062-P)
+Submission Portal: Regulations.gov Re: Comment on RFI for Prior Authorization and 
+Access to Laboratory Testing
+To Whom It May Concern:
+My name is Amy Payne, and I am writing as an advocate and legacy caregiver to 
+urgently request that CMS protect patients from critical care delays and denials caused 
+by rigid prior authorization requirements for laboratory testing.
+My mother, Joan, was diagnosed with Cholangiocarcinoma in October 2015 and 
+passed away 79 days later.  CCA is an incredibly lethal form of cancer.  Delays in 
+processing will only add to the already dire mortality outcome.
+While we commend CMSâ€™s efforts to modernize prior authorization, current rules 
+inflict severe, unintended clinical consequences. Many health plans deny coverage 
+unless prior authorization is approved strictly on or before the exact date a specimen is 
+collected. When administrative reviews lag, viable specimens must often be 
+discarded, forcing vulnerable patientsâ€”especially those battling cancer or rare 
+diseasesâ€”to undergo unnecessary, repeated blood draws....

@@ -1,0 +1,129 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0187_20260610115345_da388b47
+Commenter: Joanne Bayouk / Just Care
+Source: PDF Attachment
+Analysis Date: 2026-06-12 15:01:52
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Joanne Bayouk, MBA, MSN, RN, PMHNP; Just Care.
+- **Stakeholder type:** Individual / Healthcare Provider / Advocacy Group.
+- **Credentials or expertise mentioned:** Psychiatric-mental health nurse practitioner; developer/proponent of Episode Intelligence Authorization(TM).
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter proposes Episode Intelligence Authorization(TM), a national prior authorization model using one upfront authorization for an entire episode of care, starting with behavioral health. The model combines FHIR-native criteria, public society guidelines, governed AI with licensed clinician sign-off, and a phased CMMI demonstration intended to reduce PA events, appeals, and avoidable behavioral health hospitalizations.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-TIMEFRAMES-DRUGS; FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; PA-DENIAL-REASONS; ONC-STANDARDS-UPDATE.
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F; no CFR citations specified.
+- **Standards referenced:** HL7 FHIR; FHIR PA API; FHIR PlanDefinition; CQL; APA, SAMHSA, ASAM, WOCN, AHRQ, and ASCO guidelines; Maryland HB 1563; Washington SB 5395.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Single episode authorization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Procedure-by-procedure PA fragments care, creates multiple delay events, and is clinically unsuitable for behavioral health patients in crisis.
+- **Specific request:** Replace separate authorizations for evaluation, medication, inpatient, PHP, IOP, outpatient care, and LAI administration with one day-zero authorization covering a 30-, 60-, or 90-day episode.
+
+**Topic 2: Governed AI risk stratification**
+- **Provision ID:** ONC-STANDARDS-UPDATE; GENERAL
+- **Position:** Modify
+- **Rationale:** Payer AI can generate adverse decisions at scale without transparent logic, but AI may be useful if explainable, auditable, and governed by licensed clinicians.
+- **Specific request:** Require AI risk stratification to use validated instruments, maintain a full FHIR decision trail, comply with state AI PA reporting rules, and require licensed PMHNP or physician sign-off.
+
+**Topic 3: Society guideline engine and FHIR-native criteria**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Proprietary criteria such as InterQual and MCG create opacity, licensing costs, and unauditable denial logic.
+- **Specific request:** Mandate FHIR criteria using APA/SAMHSA/ASAM for behavioral health, with criteria expressed as FHIR PlanDefinitions and CQL, and exclude proprietary black-box criteria from the pilot.
+
+**Topic 4: Phased CMMI demonstration and national standard**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Behavioral health is urgent because CMS does not target BH PA in MA audits, PA-related harms are documented, and federal MHPAEA enforcement is described as uncertain.
+- **Specific request:** Authorize a CMMI behavioral health episode authorization demonstration in 2026-2028, evaluate outcomes, and expand to wound care and oncology in 2029-2030 through potential rulemaking.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16-S17:** Calls for denial logic to be transparent, auditable, and tied to published clinical guidelines.
+- **S20:** Requests less than 24-hour episode authorization turnaround at intake for behavioral health episodes.
+- **S44-S46:** Supports FHIR-native prior authorization but argues the standard should include clinical criteria and decision trails, not only data exchange.
+- **S48-S50:** Discusses cost and maturity benefits of eliminating proprietary licensing and using FHIR PlanDefinition/CQL tied to society guidelines.
+- **S53:** Proposes phased implementation: 2026 CMMI authorization and validation, 2027 live pilot, 2028 evaluation, and 2029-2030 national expansion.
+- **S54-S55:** Recommends AI governance, licensed clinician sign-off, auditable FHIR trails, and regulatory reporting for adverse decisions.
+- **S66-S82:** Responds to general PA reform RFIs with a broad episode-based authorization model across behavioral health, wound care, oncology, and other episodes.
+
+## 6. RECOMMENDATIONS
+
+1. Launch a CMMI demonstration for Episode Intelligence Authorization(TM) in behavioral health.
+2. Use one day-zero authorization to cover a 90-day behavioral health episode.
+3. Select a defined cohort of Medicare Advantage plans for the pilot.
+4. Mandate FHIR criteria using APA, SAMHSA, and ASAM guidelines.
+5. Require governed AI with licensed clinician sign-off.
+6. Maintain auditable FHIR decision trails.
+7. Evaluate denial rates, appeals, hospitalizations, and administrative events against controls.
+8. Expand the model to wound care and oncology in Phase 2 and consider national rulemaking.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Proprietary criteria are opaque; procedure-by-procedure PA causes repeated delay events; payer AI may be unaccountable.
+- **Potential negative impacts cited:** Behavioral health relapse and harm, preventable hospitalization, delayed care, unauditable denials, and patient crisis escalation.
+- **Implementation barriers mentioned:** Need for CMS authorization, plan selection, FHIR criteria validation, AI governance, clinician sign-off workflows, and outcome measurement.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 52.8 million MA PA determinations in 2024; 80.7% of appealed denials overturned; 73% of Americans say PA delays are a major problem; proposed targets of at least 50% reduction in PA administrative events, less than 24-hour episode authorization turnaround, and at least 30% reduction in avoidable BH hospitalizations.
+- **Studies or research referenced:** GAO-25-107342; Murphy et al. 2026 American Journal of Medicine systematic review; KFF 2026 MA PA analysis; KFF Health Tracking Poll; Commonwealth Fund 2026; Maryland HB 1563; Washington SB 5395.
+- **Examples provided:** Behavioral health 90-day episode, wound care 60-day episode, oncology NSCLC biomarker pathway, PHQ-9/GAF/ASAM risk instruments.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Behavioral health patients, MA plans, Medicare and Medicaid programs, clinicians, CMS/CMMI, payers, regulators, vendors, and specialty societies.
+- **Economic implications:** Potential reduction in administrative events and proprietary criteria licensing costs; possible savings from fewer avoidable hospitalizations.
+- **Technical feasibility:** The model depends on FHIR-native criteria modules, CQL, validated risk instruments, AI audit trails, and clinician governance workflows.
+- **Patient care impact:** Potentially high positive impact if episode authorization reduces repeated delays for behavioral health patients in crisis.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of CMS modernization but strongly advocating modification.
+- **Tone:** Technical, assertive, and proposal-driven.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "One clinical decision. One authorization. One episode of care." - Context: Core framing of the proposed model.
+2. "A behavioral health patient navigating a 90-day recovery arc faces five separate PA battles." - Context: Critique of procedure-by-procedure authorization.
+3. "The AI recommends; the licensed clinician (PMHNP/MD) governs." - Context: Governance principle for AI use.
+4. "Behavioral health is the pilot" - Context: Explaining why the model should begin with behavioral health before broader expansion.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Provides phased implementation from 2026 through 2030.
+- [x] **COST-RESOURCES** - Claims the model can eliminate proprietary criteria licensing costs and reduce administrative events.
+- [x] **PROVIDER-BURDEN** - Seeks to replace multiple PA submissions with one episode authorization.
+- [x] **TECHNICAL-FEASIBILITY** - Gives specific technical architecture involving FHIR, CQL, risk instruments, AI governance, and audit trails.
+- [x] **STANDARDS-MATURITY** - Relies on FHIR PlanDefinition, CQL, and society guideline maturity.
+- [x] **PATIENT-ACCESS** - Focuses on reducing delays for behavioral health patients and later other specialties.
+- [x] **TRANSPARENCY** - Strong emphasis on auditable criteria and explainable decisions.
+- [x] **EXISTING-WORKFLOWS** - Proposes replacing fragmented PA workflows with episode-based bundled authorization.
+- [x] **VENDOR-ECOSYSTEM** - Critiques InterQual/MCG licensing and proposes open guideline-based alternatives.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+JUST CARE - justcare.substack.com - @Just_Care_
+JUNE 2026
+Episode Intelligence Authorization(TM)
+A New National Standard for Prior Authorization
+Just Care - Joanne Bayouk, MBA, MSN, RN, PMHNP - June 2026
+One clinical decision. One authorization. One episode of care. The first PA model that bundles an entire care episode under a single AI-governed, society-guideline-anchored authorization - applicable across the full spectrum of care, with behavioral health as the urgent pilot. Replaces proprietary black-box criteria, procedure-by-procedure fragmentation, and unaccountable AI denials simultaneously.
+52.8M MA Prior Auth Determinations 2024 - KFF
+80.7% Appealed Denials Overturned - original wrong - KFF
+GAO 2025 CMS Does NOT Audit BH Prior Auth Denials
+73% Americans Say PA Delays Are "Major Problem"
+THE PROBLEM: Three Broken Systems. One Broken Patient...

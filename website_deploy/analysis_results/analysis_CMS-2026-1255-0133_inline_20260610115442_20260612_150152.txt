@@ -1,0 +1,93 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0133_inline_20260610115442
+Commenter: Shelly H. Glenn
+Source: Inline Comment
+Analysis Date: 2026-06-12 15:01:52
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Shelly H. Glenn, Director National Accounts - Natera
+- **Stakeholder type:** Advocacy Group; Technology Vendor/Diagnostics stakeholder
+- **Credentials or expertise mentioned:** Patient advocate, lung cancer survivor, works with oncology patients and care teams.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports CMS efforts to modernize prior authorization but urges CMS to protect oncology patients from delays and denials for medically necessary laboratory and biomarker testing. She recommends retroactive authorization, expedited oncology testing review, limits on timing-based denials, prevention of unnecessary repeat blood draws, and patient cost protections.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-TIMEFRAMES-DRUGS by analogy to expedited access; PA-DENIAL-REASONS by implication for timing-based denials.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization barriers for oncology laboratory testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Biomarker and specialty laboratory results guide cancer treatment selection, monitoring, treatment changes, and clinical trial eligibility. Authorization timing rules can delay or invalidate collected specimens and delay urgent care.
+- **Specific request:** Require plans to allow retroactive authorization after specimen collection and prohibit denials based solely on authorization timing.
+
+**Topic 2: Expedited handling and patient protections**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Oncology-related diagnostic testing is time-sensitive and administrative delays can force repeat blood draws or delay treatment decisions.
+- **Specific request:** Require expedited review for oncology diagnostic and biomarker testing, prevent unnecessary repeat blood draws when a valid specimen exists, and protect patients from surprise costs caused by administrative delays.
+
+## 5. SOLICITATION RESPONSES
+
+- **S74-S82 (GENERAL/RFIs - laboratory testing/prior authorization impacts):** The commenter responds to the RFI on prior authorization effects on timely access to medically necessary laboratory testing, emphasizing oncology biomarker testing and requesting protections against timing-based denials and administrative delays.
+
+## 6. RECOMMENDATIONS
+
+1. Allow retroactive authorization when specimens have already been collected.
+2. Prohibit denials based solely on the timing of authorization.
+3. Prevent unnecessary repeat blood draws when a valid specimen is already available.
+4. Require expedited review for oncology-related diagnostic and biomarker testing.
+5. Protect patients from surprise costs when delays stem from administrative processes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization rules tied to specimen collection timing can cause delays, denials, rejected specimens, or discarded specimens.
+- **Potential negative impacts cited:** Delayed cancer treatment decisions, repeat blood draws, delayed disease monitoring, reduced clinical trial eligibility opportunities, and surprise patient costs.
+- **Implementation barriers mentioned:** Rigid plan authorization timing requirements that do not account for already collected valid specimens.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** Oncology biomarker testing where approval must be obtained before or on specimen collection date, potentially causing valid specimens to be delayed, rejected, or discarded.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Oncology patients, clinicians, laboratories, diagnostic companies, and health plans.
+- **Economic implications:** Potential patient surprise costs and waste from repeat blood draws or discarded specimens.
+- **Technical feasibility:** Not addressed.
+- **Patient care impact:** High; the commenter frames timely biomarker and specialty lab testing as necessary for informed and potentially life-saving cancer care decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of modernization but concerned.
+- **Tone:** Professional and urgent.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "In cancer care, timing is everything." - Context: Explaining why biomarker and specialty laboratory testing should not be delayed by authorization processes.
+2. "Allow retroactive authorization when specimens have already been collected." - Context: One of the specific policy requests to protect timely testing access.
+3. "Protect patients from surprise costs when delays stem from administrative processes." - Context: Recommendation addressing patient financial harm from plan administrative delays.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - The comment focuses on avoiding delays to oncology diagnostic and biomarker testing needed for treatment decisions.
+- [x] **PROVIDER-BURDEN** - The commenter describes administrative barriers affecting clinicians, laboratories, and patients, including repeat blood draws.
+- [x] **HEALTH-EQUITY** - Not explicitly framed as equity, but the request would protect vulnerable cancer patients from access barriers.
+- [x] **EXISTING-WORKFLOWS** - The comment objects to PA timing rules that conflict with real-world specimen collection and testing workflows.
+- [x] **TRANSPARENCY** - The request to prohibit timing-only denials would make denial practices clearer and less arbitrary.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+To Whom It May Concern:<br/><br/>My name is Shelly H. Glenn, and I am writing as a patient advocate and lung cancer survivor to urgently request that CMS protect patients from harmful delays and denials caused by rigid prior authorization requirements for laboratory testing. As someone who works closely with oncology patients and their care teams, I see every day how critical timely access to testing is for informed, life-saving decisions.<br/><br/>We commend CMS for its continued efforts to modernize and streamline prior authorization processes. We also appreciate the opportunity to provide feedback through the Request for Information regarding the impact of prior authorization on timely patient access to medically necessary laboratory testing, as outlined in Section III.E of CMS-0062-P.<br/><br/>It is essential that CMS protect oncology patients from delays and denials tied to prior authorization requirements for medically necessary laboratory and biomarker testing.<br/><br/>In cancer care, timing is everything. Biomarker and specialty laboratory results guide treatment selection, treatment adjustments, disease monitoring, and clinical trial eligibility. When prior authorization rules require approval before or on the exact specimen collection date, valid specimens may be delayed, rejected, or discarded&mdash;even when the patient, physician, and laboratory acted appropriately. These administrative barriers can force repeat blood draws and delay urgent cancer care.<br/><br/>To ensure timely access to essential testing, CMS should require health plans to:<br/><br/>Allow retroactive authorization when specimens have already been collected.<br/><br/>Prohibit denials based solely on authorization timing.<br/><br/>Prevent unnecessary repeat blood draws when a valid specimen is already available.<br/><br/>Require expedited review for oncology-related diagnostic and biomarker testing.<br/><br/>Protect patients from surprise costs when delays stem from administrative processes.<br/><br/>Cancer patients deserve timely access to laboratory testing so they and their clinicians can make informed, potentially life-saving decisions without avoidable administrative obstacles.<br/><br/>Sincerely, Shelly Glenn, Director National Accounts - Natera, Tampa, FL...

@@ -1,0 +1,116 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0087_inline_20260610115442
+Commenter: Cody Adams, Pennsylvania Western University
+Source: Inline Comment
+Analysis Date: 2026-06-12 09:34:08
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Cody Adams, Pennsylvania Western University.
+- **Stakeholder type:** Healthcare Provider / Academic
+- **Credentials or expertise mentioned:** Doctor of Nursing Practice student and nurse leader with experience in healthcare administration, quality improvement, and direct patient care.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports CMS-0062-P and its electronic prior authorization requirements using standardized interoperability and NCPDP standards. They recommend clarifying complete submission requirements, standardizing denial explanations, expanding public PA metrics, providing implementation support to resource-limited organizations, and monitoring patient-centered outcomes.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL
+- **Regulatory citations mentioned:** CMS-0062-P; no CFR sections cited.
+- **Standards referenced:** NCPDP standards; standardized interoperability requirements; electronic prior authorization.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for prescription drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Standardized electronic exchanges can replace inefficient fax and telephone communications and improve communication among providers, pharmacies, and health plans.
+- **Specific request:** Finalize electronic prior authorization requirements and interoperability standards as proposed.
+
+**Topic 2: Complete PA submissions and supplemental documentation**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Clarify
+- **Rationale:** Electronic submission may not reduce burden if payers continue requesting supplemental information outside standardized workflows.
+- **Specific request:** Define complete PA submission requirements and set expectations for additional documentation requests.
+
+**Topic 3: Transparency and reporting**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Public reporting would improve accountability and let stakeholders evaluate payer performance.
+- **Specific request:** Publicly report approval rates, denial rates, turnaround times, and common denial reasons; require understandable and actionable electronic denial explanations.
+
+**Topic 4: Implementation support and outcomes monitoring**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Organizations with limited technological resources may need assistance, and CMS should assess whether modernization improves patient outcomes.
+- **Specific request:** Provide technical assistance and monitor treatment delays, medication adherence, and patient satisfaction.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** The comment supports electronic PA for prescription drugs using NCPDP standards and standardized interoperability requirements.
+- **S16/S17:** The commenter asks for standardized electronic denial explanations that are understandable and actionable.
+- **S20:** The comment cites patient delays of two weeks or longer and supports faster access to medications.
+- **S22:** The comment implicitly recognizes implementation burden by requesting technical assistance for organizations with limited resources.
+- **S29/S34/S35:** The comment recommends reporting approval rates, denial rates, turnaround times, and common denial reasons.
+- **S66-S82:** The comment addresses broader administrative burden, burnout, patient-centered outcome monitoring, and workflow modernization.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic prior authorization requirements and interoperability standards as proposed.
+2. Define what constitutes a complete PA submission.
+3. Establish expectations for supplemental documentation requests.
+4. Require standardized, understandable, actionable electronic denial explanations.
+5. Publicly report approval rates, denial rates, turnaround times, and common denial reasons.
+6. Provide technical assistance and implementation support for organizations with limited technological resources.
+7. Monitor patient-centered outcomes, including treatment delays, medication adherence, and patient satisfaction.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA creates administrative burden, delays medication access, and may not improve if payers continue nonstandard documentation requests.
+- **Potential negative impacts cited:** Provider frustration and burnout, treatment delays, interrupted treatment plans, increased anxiety, and worsened outcomes for chronic and complex patients.
+- **Implementation barriers mentioned:** Supplemental information requests outside standardized workflows and limited technological resources.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** MACPAC 2024: physicians and staff spend approximately 12 hours per week managing PA requests; Resneck et al. 2023: many patients experience delays of two weeks or longer.
+- **Studies or research referenced:** CMS 2026 proposed rule; MACPAC 2024 Prior Authorization in Medicaid; Resneck et al. 2023 JAMA Network Open.
+- **Examples provided:** General nursing-care observations of treatment delays and clinician challenges obtaining timely approvals.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, providers, pharmacies, health plans, resource-limited organizations.
+- **Economic implications:** Administrative time diverts resources from direct care and contributes to burnout; no dollar estimate provided.
+- **Technical feasibility:** The commenter supports NCPDP-based electronic PA but flags the need for implementation support and standardized documentation rules.
+- **Patient care impact:** Improved ePA could accelerate medication access, reduce anxiety and treatment interruptions, and improve patient outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with clarifications
+- **Tone:** Professional, academic, and practical
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "prior authorization remains a substantial barrier to timely healthcare delivery" - Context: Rationale for supporting the proposed rule.
+2. "physicians and staff spend approximately 12 hours per week managing prior authorization requests" - Context: Evidence of administrative burden.
+3. "electronic submission alone may not fully resolve existing challenges" - Context: Need to clarify complete submissions and documentation requests.
+4. "Public reporting of approval rates, denial rates, turnaround times, and common reasons for denial" - Context: Transparency recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - PA consumes provider and staff time and contributes to burnout.
+- [x] **PATIENT-ACCESS** - Medication access delays and treatment interruptions are central concerns.
+- [x] **TECHNICAL-FEASIBILITY** - The commenter supports standardized ePA and NCPDP standards while identifying implementation needs.
+- [x] **TRANSPARENCY** - Public reporting and standardized denial explanations are major recommendations.
+- [x] **COST-RESOURCES** - Administrative resource diversion and limited technological resources are discussed.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes communication among providers, pharmacies, and health plans.
+- [x] **EXISTING-WORKFLOWS** - Manual fax and telephone processes are identified as inefficient workflows to replace.
+- [x] **SMALL-PAYER-IMPACT** - The request for support for organizations with limited technological resources implicates smaller or under-resourced entities.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Hello Everyone<br/><br/>My name is Cody Adams, and I am a Doctor of Nursing Practice (DNP) student at Pennsylvania Western University and a nurse leader with experience in healthcare administration, quality improvement, and direct patient care. I am interested in CMS-0062-P because prior authorization requirements significantly affect patient access to medications and create administrative burdens for healthcare providers. Throughout my nursing career, I have observed treatment delays caused by prior authorization requirements and the challenges faced by clinicians attempting to obtain timely approvals for medically necessary therapies.<br/><br/>Background<br/><br/>My comments focus on CMS&rsquo;s proposal requiring impacted payers to implement electronic prior authorization (ePA) for prescription drugs using standardized interoperability requirements and National Council for Prescription Drug Programs (NCPDP) standards. The proposed rule seeks to replace inefficient manual processes...

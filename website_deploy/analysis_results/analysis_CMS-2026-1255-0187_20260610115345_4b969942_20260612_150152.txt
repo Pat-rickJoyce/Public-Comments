@@ -1,0 +1,132 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0187_20260610115345_4b969942
+Commenter: Joanne Bayouk / Just Care
+Source: PDF Attachment
+Analysis Date: 2026-06-12 15:01:52
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Joanne Bayouk, MBA, MSN, RN, PMHNP; Just Care.
+- **Stakeholder type:** Individual / Healthcare Provider / Advocacy Group.
+- **Credentials or expertise mentioned:** More than 20 years of clinical and operational experience across payer operations, pharmacy benefit management, utilization management, and behavioral health care delivery; psychiatric-mental health nurse practitioner credentials.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports CMS-0062-P as a meaningful step but argues it must do more to protect behavioral health patients, make clinical PA criteria open and machine-readable, and move beyond procedure-by-procedure authorization. She recommends explicit behavioral health drug guidance, FHIR-native clinical criteria using PlanDefinition and CQL, and a CMMI episode-based behavioral health authorization pilot that could scale to other specialties.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F; MHPAEA; 2024 MHPAEA final rule; no CFR citations specified.
+- **Standards referenced:** HL7 FHIR; FHIR PlanDefinition; Clinical Quality Language (CQL); FHIR Prior Authorization API; society guidelines from APA, SAMHSA, ASAM, ASCO, WOCN, and AHRQ.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Explicit inclusion of behavioral health drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify / Modify
+- **Rationale:** Psychiatric and SUD medications require continuity, and delays of 48 to 72 hours can cause decompensation, emergency department use, and hospitalization.
+- **Specific request:** Issue sub-regulatory guidance confirming psychiatric and SUD medications are covered, expedited timelines apply when acute behavioral health need is documented, and payers may not apply more restrictive PA standards to behavioral health drugs than comparable medical drug classes.
+
+**Topic 2: Open, auditable, FHIR-native clinical criteria**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** FHIR data exchange alone will not solve PA opacity if proprietary clinical criteria continue to govern determinations without public auditability.
+- **Specific request:** Require drug PA clinical decision logic to be open, auditable, machine-readable, and expressed in FHIR PlanDefinitions and CQL derived from public society guidelines.
+
+**Topic 3: Episode-based behavioral health authorization pilot**
+- **Provision ID:** GENERAL; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** High overturn rates for appealed denials and evidence of PA-related harm suggest procedure-by-procedure PA is structurally flawed, especially in behavioral health.
+- **Specific request:** Use CMMI authority to launch a 90-day episode-based behavioral health authorization demonstration covering intake, psychiatric evaluation, medication initiation, inpatient stabilization when indicated, PHP/IOP care, follow-up, and long-acting injectable administration.
+
+**Topic 4: Episode-based authorization as broader national model**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA-related harm spans oncology, cardiology, behavioral health, and pediatrics, so behavioral health should be the proof of concept for a broader one-episode, one-authorization standard.
+- **Specific request:** Treat CMS-0062-P as a foundation for national episode-based authorization standards across care domains.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Identifies behavioral health medication continuity and acute psychiatric need as technical and operational issues for medical benefit or provider-administered drug PA.
+- **S16-S17:** Calls for transparent, reproducible, machine-readable criteria so denial rationales can be audited and challenged.
+- **S20:** Supports expedited timelines for acute behavioral health need and argues delays of days can cause serious harm.
+- **S44:** Supports FHIR-based data exchange but argues FHIR must also govern clinical decision logic to avoid opaque PA determinations.
+- **S46:** Critiques coexistence of modern FHIR exchange with proprietary criteria as an incomplete reform.
+- **S50:** Recommends using FHIR PlanDefinitions and CQL for open clinical criteria, implying readiness for machine-readable clinical logic.
+- **S53:** Proposes phased use of behavioral health as an initial episode-based pilot before scaling nationally.
+- **S54:** Requests auditable, reproducible, governed clinical criteria and clinician oversight for AI risk stratification.
+- **S66-S82:** Responds to broader RFI themes on PA reform by proposing episode-based authorization pilots for behavioral health, wound care, oncology, and other specialties.
+
+## 6. RECOMMENDATIONS
+
+1. Explicitly confirm psychiatric and SUD drugs are covered under CMS-0062-P implementation guidance.
+2. Apply expedited PA timelines whenever acute behavioral health need is documented.
+3. Prohibit more restrictive PA standards for behavioral health drugs than for comparable medical drug classes.
+4. Require PA clinical criteria to be open, auditable, machine-readable, and society-guideline based.
+5. Express PA decision logic in FHIR PlanDefinitions and CQL.
+6. Launch a CMMI episode-based behavioral health authorization demonstration.
+7. Include governed AI risk stratification only with mandatory licensed clinician oversight.
+8. Scale episode-based authorization to oncology, wound care, and other care episodes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Behavioral health drugs may be overlooked; proprietary criteria undermine transparency; procedure-by-procedure PA produces harmful and often incorrect denials.
+- **Potential negative impacts cited:** Psychiatric decompensation, relapse, emergency department utilization, hospitalization, care delays, disease exacerbation, prolonged hospital stays, and worse outcomes.
+- **Implementation barriers mentioned:** Proprietary licensed criteria, lack of CMS behavioral health audit targeting, insufficient information on internal coverage criteria, and need for governed AI/clinician oversight.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** GAO found eight of nine MA organizations reviewed required PA for behavioral health services; KFF reported 80.7% of appealed MA PA denials were fully or partially overturned in 2024; commenter reports personal documentation of harm from 48-72 hour psychiatric drug PA delays.
+- **Studies or research referenced:** GAO-25-107342; Murphy et al. 2026 systematic review in American Journal of Medicine; KFF 2026 analysis; CMS-0057-F; MHPAEA rules.
+- **Examples provided:** Psychiatric medications, antipsychotics, mood stabilizers, MAT agents, LAI administration, behavioral health episode model, wound care and oncology episode models.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Behavioral health patients, patients with SUD, clinicians, MA enrollees, payers, PBMs, utilization management staff, CMS, CMMI, and specialty societies.
+- **Economic implications:** Open criteria could reduce proprietary licensing costs and legal liability; episode-based PA could reduce avoidable emergency and inpatient utilization.
+- **Technical feasibility:** The proposal depends on FHIR PlanDefinition, CQL, FHIR Prior Authorization API capabilities, guideline engines, and governed AI oversight.
+- **Patient care impact:** High; the commenter frames behavioral health PA delays as clinically dangerous and potentially preventable.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modifications.
+- **Tone:** Technical, clinical, and critical.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Behavioral Health Drugs Must Be Explicitly Included in Implementation Guidance" - Context: Heading and central recommendation for psychiatric and SUD medication protections.
+2. "Transparency in data exchange without transparency in clinical logic is an incomplete and insufficient reform." - Context: Rationale for requiring open, machine-readable criteria.
+3. "one episode, one authorization, one clinical decision" - Context: Summary of proposed episode-based national PA standard.
+4. "Delays measured in days, not weeks" - Context: Explaining urgency for psychiatric medication continuity.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Emphasizes expedited timelines for acute behavioral health needs and 90-day episode authorization.
+- [x] **PROVIDER-BURDEN** - Seeks to replace procedure-by-procedure gatekeeping with episode-based authorization.
+- [x] **HEALTH-EQUITY** - Focuses on behavioral health and SUD populations vulnerable to access barriers.
+- [x] **TECHNICAL-FEASIBILITY** - Proposes specific FHIR-native tools, CQL, AI governance, and clinician oversight.
+- [x] **STANDARDS-MATURITY** - Addresses maturity and use of FHIR PlanDefinition, CQL, and PA APIs.
+- [x] **PATIENT-ACCESS** - Central concern is avoiding treatment interruptions and access delays.
+- [x] **TRANSPARENCY** - Strong focus on open, auditable, machine-readable criteria and denial logic.
+- [x] **EXISTING-WORKFLOWS** - Challenges procedure-by-procedure PA and proposes episode-level workflow redesign.
+- [x] **STAKEHOLDER-COORDINATION** - Relies on CMS, CMMI, specialty societies, payers, clinicians, and technology implementers.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+JUST CARE - justcare.substack.com - @Just_Care_
+JUNE 2026
+Public Comment on Proposed Rule CMS-0062-P
+2026 Interoperability Standards and Prior Authorization for Drugs
+Docket No. CMS-2026-1255
+Joanne Bayouk, MBA, MSN, RN, PMHNP
+Just Care | justcare.substack.com | @Just_Care_
+Suwanee, Georgia | June 2026
+Introduction
+The undersigned submits these comments in response to the Centers for Medicare & Medicaid Services (CMS) proposed rule CMS-0062-P, 2026 Interoperability Standards and Prior Authorization for Drugs. The commenter brings over 20 years of cross-sector clinical and operational experience spanning payer operations, pharmacy benefit management, utilization management, and behavioral health care delivery. These comments are submitted through Just Care, an independent clinical advocacy platform committed to translating evidence-based healthcare policy into public and policy impact.
+Comment 1: Behavioral Health Drugs Must Be Explicitly Included in Implementation Guidance
+The U.S. Government Accountability Office (GAO) found in May 2025 that CMS does not target behavioral health services in its Medicare Advantage prior authorization audits...

@@ -1,0 +1,138 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0153_20260610115215_ff82512d
+Commenter: America's Essential Hospitals
+Source: PDF Attachment
+Analysis Date: 2026-06-12 15:01:52
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** America's Essential Hospitals; signed by Jennifer DeCubellis, President and CEO.
+- **Stakeholder type:** Professional Association / Healthcare Provider association.
+- **Credentials or expertise mentioned:** Represents more than 400 essential hospitals serving patients with social and financial barriers to care; cites research arm Essential Hospitals Institute.
+
+## 2. EXECUTIVE SUMMARY
+
+America's Essential Hospitals supports CMS's interoperability and prior authorization modernization proposals, including extending prior authorization protections to drugs and moving toward HL7 FHIR. The association urges CMS to go further by requiring real-time 24/7 prior authorization decisions, giving essential hospitals a 36-month FHIR compliance timeline and targeted support, and strengthening EHR certification and vendor oversight.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** None specifically cited.
+- **Standards referenced:** HL7 FHIR; HIPAA transaction standards; EHR certification; APIs; electronic prior authorization.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Faster prior authorization determinations**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Current prior authorization processes delay care, interrupt treatment plans, increase avoidable emergency department use, and increase financial strain for safety-net hospitals.
+- **Specific request:** Retain the 24-hour expedited drug PA response requirement but establish a timeline and implementation pathway for real-time, 24/7 prior authorization determinations for all services, including non-drug services.
+
+**Topic 2: Drug prior authorization expansion**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Extending streamlined prior authorization to drugs would reduce medication access delays, adverse patient outcomes, avoidable hospitalizations, and costs.
+- **Specific request:** Finalize the drug prior authorization streamlining requirements and build on them with broader real-time standards.
+
+**Topic 3: FHIR transition timeline and support for essential hospitals**
+- **Provision ID:** HIPAA-PA-STANDARDS; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Essential hospitals face financial constraints comparable to smaller health systems, operate on thin margins, and often rely on older EHR systems and legacy infrastructure.
+- **Specific request:** Extend the same 36-month compliance timeline to essential hospitals and provide targeted grants, technical assistance, and vendor pricing support.
+
+**Topic 4: EHR certification and vendor accountability**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Essential hospitals need transparent, standardized information and tested tools before investing in new health IT capabilities. Certification criteria currently cover medication electronic prior authorization but not all items and services.
+- **Specific request:** Strengthen certification criteria to require fully operational and tested electronic prior authorization functionality for all PA use cases; require vendors to provide testing environments, sandboxes, and staging tools; place responsibility for nonconforming implementations on vendors.
+
+## 5. SOLICITATION RESPONSES
+
+- **S20:** Supports a 24-hour expedited drug PA response requirement but asks CMS to move beyond it to real-time 24/7 determinations.
+- **S21:** Indicates timelines must account for safety-net provider readiness and infrastructure constraints.
+- **S44:** Supports replacing legacy HIPAA transaction standards with HL7 FHIR as a modern data exchange framework.
+- **S47:** Requests a 36-month compliance timeline for essential hospitals.
+- **S48:** Emphasizes that FHIR transition costs are significant for essential hospitals with thin margins and older EHRs.
+- **S49:** Frames essential hospitals as resource-constrained entities needing flexibility and targeted support.
+- **S54:** Requests stronger EHR certification, vendor testing environments, sandboxes, and staging tools for API validation.
+- **S60-S62:** Urges CMS and ONC to expand and strengthen certification criteria for electronic prior authorization beyond medications.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize requirements extending streamlined prior authorization protections to drugs.
+2. Require real-time, 24/7 prior authorization determinations for all services.
+3. Apply consistent real-time standards to drug and non-drug prior authorization.
+4. Extend a 36-month FHIR compliance timeline to essential hospitals.
+5. Provide targeted implementation grants and technical assistance for essential hospitals.
+6. Work with vendors to establish preferential pricing for safety-net providers.
+7. Use H.R. 7145 designation criteria to identify essential hospitals needing support.
+8. Strengthen EHR certification criteria for all prior authorization use cases.
+9. Require vendor testing environments, sandboxes, and staging tools before deployment.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization delays harm patients and burden essential hospitals; FHIR transition costs could widen disparities between well-resourced systems and safety-net hospitals.
+- **Potential negative impacts cited:** Delayed medication access, adverse outcomes, avoidable hospitalizations, emergency department visits, treatment interruptions, and financial strain.
+- **Implementation barriers mentioned:** Older EHR systems, legacy infrastructure, thin operating margins, vendor contract costs, limited capital, and insufficient certification/testing infrastructure.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Essential hospitals are 6% of acute-care hospitals but provided 29% of charity care in 2023; more than three-quarters of their patients are uninsured or covered by Medicare/Medicaid; nearly two-thirds served rural patients and communities in 2022; members had a -7.1% aggregate operating margin in 2023 compared with -2% for other hospitals.
+- **Studies or research referenced:** Essential Data 2025 and a 2025 policy brief on rural access to care.
+- **Examples provided:** Essential hospitals replacing aging systems, renegotiating vendor contracts, and validating API implementations before deployment.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Essential hospitals, safety-net patients, Medicare and Medicaid beneficiaries, rural communities, EHR vendors, CMS, ONC, and payers.
+- **Economic implications:** Significant capital investment and vendor costs for FHIR transition; potential savings from fewer avoidable hospitalizations and administrative delays.
+- **Technical feasibility:** Supportive of FHIR and real-time PA, but feasibility depends on implementation timelines, funding, vendor readiness, and certification oversight.
+- **Patient care impact:** Positive if finalized with real-time determinations and support; negative if under-resourced hospitals cannot implement required technology.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications.
+- **Tone:** Professional, policy-focused, and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Extending these protections to prior drug authorization is a critical step toward reducing delays in medication access" - Context: Support for extending PA streamlining to drugs.
+2. "mandate real-time, 24/7 prior authorization determinations for all services" - Context: Request to go beyond the proposed expedited drug PA timeframe.
+3. "extend the same 36-month compliance timeline to essential hospitals" - Context: Request for implementation flexibility for safety-net hospitals.
+4. "The burden of identifying nonconforming implementations must rest with vendors" - Context: Vendor accountability and certification oversight recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests a 36-month timeline for essential hospitals and a clear pathway toward real-time PA.
+- [x] **COST-RESOURCES** - Emphasizes thin margins, underinvestment, legacy systems, and need for grants and technical assistance.
+- [x] **PROVIDER-BURDEN** - Describes PA delays and health IT implementation burdens on essential hospitals.
+- [x] **HEALTH-EQUITY** - Focuses on hospitals serving uninsured, Medicare, Medicaid, rural, and financially vulnerable patients.
+- [x] **TECHNICAL-FEASIBILITY** - Supports FHIR but ties feasibility to infrastructure, vendor tools, and testing environments.
+- [x] **STANDARDS-MATURITY** - Supports replacing legacy HIPAA standards with HL7 FHIR while requesting certification safeguards.
+- [x] **PATIENT-ACCESS** - Prioritizes faster medication and service access through real-time PA decisions.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS, ONC, vendors, and essential hospitals to coordinate on implementation.
+- [x] **EXISTING-WORKFLOWS** - Seeks all-service PA modernization, not only medication PA.
+- [x] **VENDOR-ECOSYSTEM** - Requests vendor pricing support, sandboxes, staging tools, and accountability.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Hubert H. Humphrey Building, Room 445-G
+200 Independence Ave. SW
+Washington, DC 20201
+
+Ref: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally Facilitated Exchanges
+
+Dear Administrator Oz:
+
+Thank you for the opportunity to comment on the proposed rule. America's Essential Hospitals supports the Centers for Medicare & Medicaid Services' (CMS') efforts to promote interoperability, streamline prior authorization processes, and modernize health information technology infrastructure. Below, we offer comments on how CMS can further expand its prior authorization processes and enable essential hospitals to adopt these new technologies.
+
+America's Essential Hospitals is the leading association and champion for hospitals dedicated to high-quality care for all, including those who face social and financial barriers to care. Since 1981, America's Essential Hospitals has advanced policies and programs that promote health and access to health care. We support our more than 400 members with advocacy, policy development, research, education, and leadership development. Communities depend on essential hospitals for care across the continuum, health care workforce training, research, public health, and other services...

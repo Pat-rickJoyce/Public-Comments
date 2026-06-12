@@ -2,8 +2,12 @@
   "comment_id": "CMS-2026-1255-0029_inline_20260610115442",
   "pdf_name": "CMS-2026-1255-0029.pdf",
   "source": "inline",
-  "commenter": "Meri Pearson, Piedmont Healthcare",
+  "commenter": "Piedmont Healthcare",
   "timestamp": "20260610_122314",
   "original_comment": "We support delaying the electronic prior authorization mandate for the MIPS, MSSP, and Promoting Interoperability programs until at least Performance Year 2028. A delay is necessary to allow organizations sufficient time to develop, implement, and operationalize the required infrastructure while minimizing unintended disruption to clinical workflows. Additionally, we respectfully request that CMS include clarifying language specifying that organizations may attest 'yes' as long as at least one prior authorization transaction is completed within the applicable performance year. As currently written, the requirement is ambiguous and creates uncertainty for planning and resource allocation. It is unclear whether CMS intends the requirement to apply from the beginning of the calendar year, the start of a 180-day performance period (e.g., July 4), or by December 31. Providing clear guidance on the applicable timeframe will enable organizations to appropriately align operational, technical, and staffing resources to meet compliance expectations. Meri Pearson, Director of Regulatory Reporting (Healthcare IT) Piedmont Healthcare",
-  "analysis": "[Abbreviated - Healthcare IT director requests: (1) Delay ePA mandate for MIPS/MSSP/Promoting Interoperability to PY 2028; (2) Clarify attestation requirements (at least one PA transaction sufficient); (3) Clarify applicable timeframe. Rationale: Need time for infrastructure development, minimize workflow disruption, reduce planning uncertainty.]"
+  "analysis": "[Abbreviated - Healthcare IT director requests: (1) Delay ePA mandate for MIPS/MSSP/Promoting Interoperability to PY 2028; (2) Clarify attestation requirements (at least one PA transaction sufficient); (3) Clarify applicable timeframe. Rationale: Need time for infrastructure development, minimize workflow disruption, reduce planning uncertainty.]",
+  "organization": "Piedmont Healthcare",
+  "state": "",
+  "posted_date": "2026-06-10",
+  "country": ""
 }

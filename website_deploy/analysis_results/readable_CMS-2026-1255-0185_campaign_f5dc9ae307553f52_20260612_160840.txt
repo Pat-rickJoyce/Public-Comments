@@ -1,0 +1,93 @@
+CAMPAIGN SUBMISSION - STAMPED FROM CANONICAL ANALYSIS
+Comment ID: CMS-2026-1255-0185
+Submitter: Ashleigh Parker
+State: MS
+Posted Date: 2026-06-10
+Country: United States
+Campaign Fingerprint: f5dc9ae307553f52
+Campaign Submissions: 2
+Canonical Comment ID: CMS-2026-1255-0184
+Canonical Analysis File: analysis_CMS-2026-1255-0184_inline_20260610115442_20260612_150152.json
+
+ANALYSIS REUSED FROM CANONICAL COMMENT
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Ashleigh Parker.
+- **Stakeholder type:** Individual / patient advocate.
+- **Credentials or expertise mentioned:** Stage 4 colorectal cancer survivor; cancer patient since 2019; cancer patient in remission.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter urges CMS to protect cancer patients from prior authorization delays and denials affecting laboratory and biomarker testing. She supports CMS modernization efforts but asks for concrete protections including retroactive authorization, prohibition of timing-only denials, expedited oncology testing review, and patient cost protections.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-TIMEFRAMES-DRUGS by analogy to expedited review; PA-DENIAL-REASONS by implication for timing-based denials.
+- **Regulatory citations mentioned:** Section III.E of CMS-0062-P.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization and oncology lab testing access**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Biomarker and specialty lab results guide treatment selection, changes, monitoring, and clinical trial eligibility; timing-based PA requirements can delay or invalidate valid specimens.
+- **Specific request:** Require plans to allow retroactive authorization for already collected specimens and prohibit denials solely based on authorization timing.
+
+**Topic 2: Expedited review and patient protection**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Cancer care is time-sensitive, and PA delays can require repeat blood draws and delay urgent treatment decisions.
+- **Specific request:** Require expedited review for oncology diagnostic and biomarker testing, prevent repeat blood draws when valid specimens exist, and protect patients from surprise costs caused by administrative delays.
+
+## 5. SOLICITATION RESPONSES
+
+- **S74-S82 (GENERAL/RFIs - laboratory testing/prior authorization impacts):** The commenter responds to the RFI on prior authorization and laboratory testing access, emphasizing cancer biomarker testing and administrative timing barriers.
+
+## 6. RECOMMENDATIONS
+
+1. Allow retroactive authorization when specimens have already been collected.
+2. Prohibit denials based solely on authorization timing.
+3. Prevent unnecessary repeat blood draws when a valid specimen is available.
+4. Require expedited review for oncology-related diagnostic and biomarker testing.
+5. Protect patients from surprise costs when delays are administrative.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Rigid PA requirements can create critical care delays and denials for cancer patients needing lab testing.
+- **Potential negative impacts cited:** Delayed treatment, discarded or rejected specimens, repeat blood draws, and reduced access to time-sensitive cancer care.
+- **Implementation barriers mentioned:** Authorization rules requiring approval before or exactly on specimen collection date.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** Personal cancer experience and biomarker testing as an example of testing that improves outcomes.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, oncology care teams, laboratories, and health plans.
+- **Economic implications:** Potential surprise patient costs and duplicative testing costs from repeat blood draws.
+- **Technical feasibility:** Not addressed.
+- **Patient care impact:** High; commenter states faster detection and treatment improve cancer outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of modernization but concerned.
+- **Tone:** Personal, urgent, and constructive.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The quicker cancer is found and treated, the better the outcome is for the patient." - Context: Personal explanation of why timely biomarker testing matters.
+2. "Allow retroactive authorization when specimens have already been collected." - Context: Specific requested safeguard for lab testing workflows.
+3. "Protect patients from surprise costs when delays are administrative." - Context: Requested patient financial protection.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - The comment centers on timely access to cancer laboratory and biomarker testing.
+- [x] **HEALTH-EQUITY** - The requested protections would help patients facing serious illness avoid administrative barriers.
+- [x] **PROVIDER-BURDEN** - The comment describes repeat blood draws and workflow disruption affecting care teams and laboratories.
+- [x] **EXISTING-WORKFLOWS** - The concern is that authorization timing rules conflict with specimen collection and testing workflows.
+- [x] **TRANSPARENCY** - The commenter asks CMS to prohibit denials based solely on timing, clarifying acceptable denial practices.

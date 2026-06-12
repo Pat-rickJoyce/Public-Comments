@@ -1,0 +1,90 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0216_inline_20260610115442
+Commenter: Unknown healthcare practice commenter
+Source: Inline Comment
+Analysis Date: 2026-06-12 15:01:52
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Not provided.
+- **Stakeholder type:** Healthcare Provider.
+- **Credentials or expertise mentioned:** Commenter references "our practice," indicating provider/practice operational experience.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter strongly criticizes prior authorization as a payer strategy that delays or prevents access to medications, testing, and imaging. The comment emphasizes provider burden, patient access harms, and loss of clinical nuance in algorithmic payer decision-making.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** None.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization delays patient care**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Position:** Oppose
+- **Rationale:** Prior authorization adds steps that delay care and prevent use of both longstanding medications and newer disease-modifying therapies.
+- **Specific request:** Not explicitly stated, but the comment implies CMS should reduce or eliminate prior authorization barriers.
+
+**Topic 2: Provider administrative burden**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** The practice had to hire dedicated staff solely to handle prior authorizations because the burden became too great.
+- **Specific request:** Reduce administrative burden caused by prior authorization.
+
+## 5. SOLICITATION RESPONSES
+
+- **S20-S21:** The comment addresses timeliness by stating PA delays care and blocks medication access, though it does not address a specific proposed timeframe.
+- **S66-S82:** The comment responds generally to broader prior authorization burden and access issues.
+
+## 6. RECOMMENDATIONS
+
+1. Reduce prior authorization barriers that delay medications, testing, and imaging.
+2. Account for provider staffing burden created by PA processes.
+3. Preserve clinical nuance and expert judgment in coverage decisions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed care, denied payment, administrative burden, and algorithmic decision-making without clinical nuance.
+- **Potential negative impacts cited:** Delayed or prevented access to medications, tests, imaging, and therapies that could alter disease course.
+- **Implementation barriers mentioned:** Practice staffing burden created by PA volume.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** The practice hired someone solely to manage prior authorizations.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, healthcare providers, provider practices, payers, and Medicare.
+- **Economic implications:** Increased provider staffing costs and potential payer nonpayment.
+- **Technical feasibility:** Not addressed.
+- **Patient care impact:** Negative; the commenter states PA delays care and blocks access to clinically important therapies.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Opposed.
+- **Tone:** Critical and frustrated.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "It adds unnecessary steps that delay care" - Context: Core objection to prior authorization.
+2. "Our practice has had to hire someone to only address prior authorizations" - Context: Evidence of provider administrative burden.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment highlights dedicated staffing needed for PA work.
+- [x] **PATIENT-ACCESS** - The commenter says PA delays and prevents access to medications, testing, imaging, and therapies.
+- [x] **EXISTING-WORKFLOWS** - The comment criticizes PA as an added administrative step disrupting care.
+- [x] **COST-RESOURCES** - Hiring staff solely for PA creates practice resource burden.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Prior authorizations are a diabolical strategy implemented by insurance companies to avoid payment for medications, testing, and imaging for patients. It adds unnecessary steps that delay care, prevent use of medications from simple drugs that have been on the market for years to cutting edge therapies that would alter the course of disease. Our practice has had to hire someone to only address prior authorizations as the burden has become too great for us to handle. It is a depressing window into how insurance companies and Medicare have made medicine an algorithm that functions without thought, nuance, expert care, or experience....
