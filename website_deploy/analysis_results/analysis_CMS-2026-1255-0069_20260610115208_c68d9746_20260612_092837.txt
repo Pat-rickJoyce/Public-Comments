@@ -1,0 +1,124 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0069_20260610115208_c68d9746
+Commenter: NHMH - No Health without Mental Health and undersigned organizations
+Source: PDF Attachment
+Analysis Date: 2026-06-12 09:28:37
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** NHMH - No Health without Mental Health, joined by multiple behavioral health, disability, addiction treatment, clinical social work, marriage and family therapy, and psychiatric nursing organizations.
+- **Stakeholder type:** Advocacy Group; Professional Association.
+- **Credentials or expertise mentioned:** Florence C. Fee, J.D., M.A.; other signatories include public policy directors, clinical social workers, legal counsel, and psychiatric mental health nursing leaders.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter broadly supports CMS interoperability modernization but focuses on medical-behavioral health data exchange rather than the rule's drug prior authorization mechanics. It recommends making interoperability a funded infrastructure requirement in CMS payment models, prioritizing complex behavioral and medical populations, strengthening FHIR/API-based behavioral health data exchange, and requiring EHR vendors to support unified physical and behavioral health records.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** 42 CFR Part 2; ONC HTI-1 Rule; 21st Century Cures Act information blocking provisions.
+- **Standards referenced:** FHIR, APIs, HL7 DS4P Implementation Guide, ONC certification standards, HIEs, EHRs, PGHD, PROMs, PREMs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medical-behavioral interoperability as infrastructure**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Integrated care and value-based payment depend on shared longitudinal medical, behavioral, social, quality, and cost data.
+- **Specific request:** CMS should require and prospectively fund interoperable medical-behavioral data systems as core infrastructure in APMs and integration models.
+
+**Topic 2: FHIR/API standardization for integrated records**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** The commenter views state-of-the-art FHIR standards and APIs as necessary to support integrated medical-behavioral EHRs, patient-generated health data, and outcome measurement.
+- **Specific request:** CMS and ASTP/ONC should prioritize rules deploying FHIR data standards and APIs across integrated medical-behavioral records.
+
+**Topic 3: Privacy segmentation and patient governance**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Behavioral health and SUD data require careful consent-based sharing that preserves privacy while supporting integrated care.
+- **Specific request:** HHS should continue BHIDS work, use DS4P and 42 CFR Part 2 safeguards, and create an Integration Patient Advisory Council.
+
+**Topic 4: Vendor support for unified data systems**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** The commenter states that some EHR vendors do not meet FHIR API interoperability expectations and that behavioral health functionality is often missing from certified systems.
+- **Specific request:** CMS and ASTP/ONC should require vendors to support unified behavioral and physical health data or seamless interoperability, including behavioral health certification and stronger information blocking enforcement.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Indirectly supports requiring FHIR/API standards where needed for integrated records, but does not address specific Da Vinci IG mandate details.
+- **S60-S65:** Indirectly supports ONC standards updates and certification changes to include behavioral health functionality and FHIR API interoperability.
+- **S66-S82:** Provides general interoperability recommendations for behavioral health integration, complex populations, privacy segmentation, patient governance, and vendor obligations.
+
+## 6. RECOMMENDATIONS
+
+1. Add a rigorous evaluation component to the IBH model once implementation begins.
+2. Treat interoperability as required, prospectively funded infrastructure in CMS payment models.
+3. Prioritize unified data and interoperability for high-cost, high-need complex populations.
+4. Deploy FHIR standards and APIs for integrated medical-behavioral records, PGHD, PROMs, and PREMs.
+5. Establish an Integration Patient Advisory Council.
+6. Continue building federal policy architecture for unified medical-behavioral payment and care delivery.
+7. Require EHR vendors to support unified physical and behavioral health data or seamless interoperability.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmented medical and behavioral data, inadequate vendor support, privacy and consent for sensitive behavioral/SUD information, and excessive automation without patient trust.
+- **Potential negative impacts cited:** Continued fragmented accountability, duplicated infrastructure, misaligned incentives, unconnected data systems, and weakened patient-care team relationships.
+- **Implementation barriers mentioned:** EHR vendor limitations, need for HIE integration, behavioral health certification gaps, sensitive data segmentation, and funding for HIT modernization.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** High-cost complex populations are described as 5% of the national patient population accounting for 50% of healthcare expenditures.
+- **Studies or research referenced:** AHRQ/MEPS 2024; Samal 2016; Remers et al. 2022; Chang et al. 2023; Bipartisan Policy Center 2021; NASEM 2021; CMS Behavioral Health Strategy 2026; CMS dQM Strategic Roadmap 2024; Milliman 2018; Pew Research EHR Usability 2021-2023.
+- **Examples provided:** IBH model, BHIDS pilot, HIE use, behavioral health EHR certification, DS4P, 42 CFR Part 2 safeguards.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with behavioral health and medical comorbidities, dually eligible beneficiaries, behavioral health providers, medical providers, EHR vendors, CMS model participants, and advocacy organizations.
+- **Economic implications:** Prospective infrastructure funding could increase near-term federal/model investment but support TCOC accountability and value-based payment.
+- **Technical feasibility:** The commenter sees FHIR/API approaches as feasible but dependent on vendor compliance, certification, and integration of behavioral health records.
+- **Patient care impact:** Improved data sharing could support integrated care, reduce fragmentation, improve adherence and outcomes, and better serve high-need patients.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional and collaborative
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "Without shared interoperable data, integrated care is not possible" - Context: Recommendation to fund interoperability as core infrastructure.
+2. "Interoperability should be acknowledged as an infrastructure requisite" - Context: Argument that shared data is necessary for accountability and integrated care.
+3. "require EHR vendors to support behavioral and physical health data in one unified system" - Context: Recommendation for CMS and ASTP/ONC vendor requirements.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - Calls for prospective funding of HIT modernization and interoperability as infrastructure.
+- [x] **PRIVACY-SECURITY** - Discusses sensitive behavioral/SUD data, patient consent, 42 CFR Part 2, and DS4P.
+- [x] **HEALTH-EQUITY** - Focuses on complex, high-need populations, including dually eligible beneficiaries and people with serious mental illness or disabilities.
+- [x] **TECHNICAL-FEASIBILITY** - Identifies the need for FHIR APIs, HIEs, EHR integration, and vendor capability.
+- [x] **PATIENT-ACCESS** - Links interoperability to integrated care, trust, adherence, and positive health outcomes.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS, ASTP/ONC, vendors, HIEs, patients, and model participants to coordinate.
+- [x] **VENDOR-ECOSYSTEM** - Recommends EHR vendor certification and stronger interoperability obligations.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 5, 2026
+
+The Honorable Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+7500 Security Boulevard
+Baltimore, MD 21244
+RE: Comment on CMS-0062-P
+Interoperability of Medical-Behavioral Data Exchange in a Unified Integrated Healthcare System
+Dear Administrator Oz,
+NHMH - No Health without Mental Health, joined by the undersigned organizations, appreciates the opportunity to comment on CMS's proposed rule to modernize prior authorization and interoperability requirements. NHMH's patient advocacy nonprofit mission is to make behavioral health services an essential component of overall population health management, as part of the modernization of medical care, and thus widely available in healthcare settings across the country. Our comments focus on interoperability of data exchange as a foundational component of a unified medical-behavioral health payment and care delivery system.
+We applaud HHS and CMS for its recent interoperability-related policy innovations: (1) the 2025-2033 CMS/CMMI ground-breaking Innovations in Behavioral Health (IBH) State-based model...

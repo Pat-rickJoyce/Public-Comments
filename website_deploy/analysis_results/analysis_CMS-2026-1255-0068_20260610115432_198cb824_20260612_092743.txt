@@ -1,0 +1,176 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0068_20260610115432_198cb824
+Commenter: American Society of Retina Specialists (ASRS)
+Source: PDF Attachment
+Analysis Date: 2026-06-12 09:27:43
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Society of Retina Specialists (ASRS); signed by Geoffrey G. Emerson, MD, PhD, FASRS, President
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** ASRS represents more than 3,500 board-certified ophthalmologists with fellowship training in retinal disease; contact Allison Madson, vice president of health policy.
+
+## 2. EXECUTIVE SUMMARY
+
+ASRS strongly supports extending electronic prior authorization interoperability requirements to all drugs, especially physician-administered Part B drugs used by retina specialists. It asks CMS to finalize the drug API proposals, require clear denial reasons and public data reporting, maintain a centralized API endpoint registry, retain formulary/current authorization information, enforce existing MA continuity protections, move toward real-time decisions, and oppose expansion of prior authorization and step therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; GENERAL RFI topics on step therapy, Original Medicare prior authorization, and cybersecurity.
+- **Regulatory citations mentioned:** 42 CFR 422.101(b)(7); 42 CFR 422.112(b)(8); 42 CFR 422.136.
+- **Standards referenced:** Interoperable standards and APIs; payer-to-provider and payer-to-payer interoperable information; payer API endpoints. Specific FHIR IG names are not cited.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for physician-administered drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Retina specialists administer Part B drugs in office settings, and current prior authorization requirements delay sight-saving care and impose substantial practice burden.
+- **Specific request:** Finalize proposals extending electronic interoperability and prior authorization standards to all drugs, especially physician-administered drugs.
+
+**Topic 2: Limiting overuse of prior authorization and moving toward real-time decisions**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; GENERAL
+- **Position:** Modify
+- **Rationale:** ASRS says PA is routinely applied to care that is nearly always approved, delaying treatment without demonstrated clinical or cost benefit.
+- **Specific request:** Discourage PA for routinely approved drugs and services and develop a framework to mandate real-time PA decisions.
+
+**Topic 3: Required interoperable drug information**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Support; Modify
+- **Rationale:** Drug formulary, PA requirement, and current authorization information would help beneficiaries choose plans and physicians develop treatment plans.
+- **Specific request:** Require payer-to-provider and payer-to-payer exchange of formularies, PA requirements, and current authorization status, and require plans to access and honor that information.
+
+**Topic 4: Clear denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Denials often result from poor payer communication about required documentation or clinical criteria.
+- **Specific request:** Require clear, specific denial rationales and clear parameters about needed information and evaluation criteria.
+
+**Topic 5: Centralized API endpoint registry**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** A public registry would help EHRs and app developers access payer PA information and support accountability.
+- **Specific request:** CMS should quickly establish and maintain a centralized payer API endpoint registry with regular updates.
+
+**Topic 6: Prior authorization data transparency**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support; Modify
+- **Rationale:** Expanded public metrics would show the volume and outcome of payer PA activity and help CMS identify overused or unnecessary PA.
+- **Specific request:** Finalize expanded counts and percentages for PAs, denials, appeals, denials after appeal, expedited denials after appeal, extended reviews denied, and approvals after denials; use data to support gold card or exemption policies.
+
+**Topic 7: Step therapy and continuity protections**
+- **Provision ID:** GENERAL
+- **Position:** Oppose; Modify
+- **Rationale:** ASRS says step therapy delays medically necessary sight-saving treatment and requires patients to fail off-label or less durable treatments before FDA-approved medications.
+- **Specific request:** Revoke or prohibit step therapy; at minimum, require payer-to-payer exchange to prevent restarting step therapy after plan changes and prohibit repeat step therapy for the fellow eye in bilateral disease.
+
+**Topic 8: Original Medicare prior authorization and cybersecurity RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Oppose; Modify
+- **Rationale:** ASRS opposes importing private-plan PA barriers into Original Medicare and says cybersecurity policy should support practices without punitive burdens.
+- **Specific request:** Do not expand PA in traditional Medicare; provide technical assistance, financial support, hardship relief, and accountability for payers, vendors, and intermediaries with access to patient data.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** ASRS supports electronic PA for physician-administered drugs and describes retina practice burden and clinical risks from delayed anti-VEGF treatment.
+- **S15:** The comment focuses on Part B physician-administered drugs and the need to include drugs adjudicated like other medical services.
+- **S16:** ASRS supports requiring clear denial reasons and says specific explanations can smooth appeals and prevent misunderstandings.
+- **S20/S43:** ASRS supports deadlines for routine and urgent PA requests and urges CMS to move toward real-time PA decisions.
+- **S23/S24/S26/S27/S33:** ASRS supports a centralized CMS payer API endpoint registry with public availability and regular updates.
+- **S29/S34/S35:** ASRS supports expanded public prior authorization data reporting, including counts and percentages for requests, denials, appeals, expedited cases, extensions, and approvals after denial.
+- **S66-S82:** The RFI responses address step therapy, prior authorization in Original Medicare, and cybersecurity resilience; ASRS opposes step therapy and Original Medicare PA expansion and supports non-punitive cybersecurity assistance for practices.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA and interoperability requirements for all drugs, including physician-administered Part B drugs.
+2. Discourage or eliminate PA for drugs and services that are routinely approved.
+3. Develop a framework for real-time PA decisions.
+4. Require exchange of formulary data, PA requirements, and current authorization status.
+5. Require plans to access and honor existing authorization and treatment-history information.
+6. Require clear denial rationales.
+7. Establish and maintain a centralized payer API endpoint registry.
+8. Enforce existing MA continuity-of-care and step therapy guardrails.
+9. Prohibit additional utilization management for bilateral disease/fellow-eye treatment when the patient is stable on the same therapy.
+10. Finalize expanded public PA data reporting and use data to support exemptions or gold card policies.
+11. Revoke or prohibit step therapy, especially in MA.
+12. Do not expand PA in Original Medicare.
+13. Provide cybersecurity technical assistance, financial support, hardship relief, and ecosystem-wide accountability.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Overuse of PA and step therapy, care delays for sight-threatening disease, lack of insurer compliance with existing rules, administrative staffing cost, and cybersecurity risks.
+- **Potential negative impacts cited:** Progression of retinal disease, loss of independence, falls, depression, delayed treatment, duplicated administrative work for bilateral disease, practice consolidation, and harm from cyberattacks.
+- **Implementation barriers mentioned:** Poorly defined payer coverage policies, failure to honor existing authorizations, separate authorizations by eye, high practice staffing needs, limited labor supply, Avastin supply shortages, limited biosimilar availability, and third-party cybersecurity vulnerabilities.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ASRS represents over 3,500 retina specialists; a study found retina PA requests approved 96% of the time, with median 100 minutes of clinical staff time and delays for more than half of patients; one large Tennessee practice reported administrative staff rising from 12-13 per physician in 2019 to 15.28 in 2024 and staff costs up 63% from 2024 to 2025; a New York practice reported administrative employees rising from 6.25 to 7.4 per physician from 2019 to 2024.
+- **Studies or research referenced:** Studies on visual impairment, macular degeneration, depression, prior authorization in retina practices, and HHS OIG findings on prior authorization denials in Medicaid managed care.
+- **Examples provided:** Anti-VEGF prior authorization, Avastin/bevacizumab step therapy, multiple monthly steps before FDA-approved therapies, repeated authorization for bilateral eye disease, plan changes forcing reauthorization, and Change Healthcare cyberattack impacts.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Retina specialists, elderly Medicare beneficiaries with retinal disease, caregivers, MA plans, other impacted payers, EHR and app developers, small and independent practices, vendors, clearinghouses, and CMS.
+- **Economic implications:** ASRS cites increased staffing, higher administrative costs, practice viability concerns, consolidation pressure, and costs tied to cybersecurity preparedness and recovery.
+- **Technical feasibility:** ASRS views the API proposals as feasible and valuable, but argues data exchange must be paired with plan accountability and enforcement.
+- **Patient care impact:** The comment emphasizes that delayed retinal treatment can worsen vision, independence, mental health, and overall safety.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, critical, and evidence-based
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "strongly supports proposals" - Context: ASRS's support for extending interoperable PA standards to all drugs.
+2. "prior authorization... is over-used" - Context: ASRS's broader objection to payer utilization management.
+3. "approved 96% of the time" - Context: Evidence that retina PA requirements often add burden without changing outcomes.
+4. "strongly opposes expanding prior authorization into traditional Medicare" - Context: RFI response on Original Medicare PA.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - The comment centers on timely access to sight-saving therapies and preventing disease progression.
+- [x] **PROVIDER-BURDEN** - ASRS documents major administrative staffing and workflow burden on retina practices.
+- [x] **TRANSPARENCY** - ASRS supports denial rationales, public PA metrics, and endpoint reporting.
+- [x] **API-ENDPOINT-REPORTING** - The comment strongly supports a centralized payer API endpoint registry.
+- [x] **API-USAGE-METRICS** - ASRS supports expanded reporting of PA counts, denials, appeals, extensions, and approvals after denial.
+- [x] **EXISTING-WORKFLOWS** - The comment describes current office treatment workflows, bilateral-eye authorization, and plan-transition disruption.
+- [x] **STAKEHOLDER-COORDINATION** - ASRS asks CMS to ensure payers access and honor exchanged information and to coordinate cybersecurity responsibilities across the ecosystem.
+- [x] **PRIVACY-SECURITY** - The cybersecurity RFI response asks for support, incentives, and accountability for third-party data risks.
+- [x] **HEALTH-EQUITY** - Indirectly implicated through elderly Medicare beneficiaries and small/independent practice support, though not framed as equity.
+- [x] **COST-RESOURCES** - ASRS provides practice staffing and cost examples and discusses cybersecurity support needs.
+- [x] **TECHNICAL-FEASIBILITY** - ASRS supports APIs but says the framework should enable real-time decisions and accountable data use.
+- [ ] **IMPLEMENTATION-TIMELINE** - Not a major theme beyond support for decision deadlines and real-time goals.
+- [ ] **STANDARDS-MATURITY** - Not addressed in detail.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment focuses on physician-administered Part B drugs, not cross-benefit ambiguity.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Mentioned in cybersecurity and API developer contexts, but not the central focus.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+7500 Security Blvd
+Baltimore, MD 21244-1850
+
+Submitted electronically via www.regulations.gov
+
+Re: File Code [CMS-0062-P] RIN 0938-AV44; Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Dear Administrator Oz,
+
+The American Society of Retina Specialists (ASRS) appreciates the opportunity to provide comments on the Centers for Medicare and Medicaid Services' (CMS) Proposed Rule.
+
+ASRS is the largest retina organization in the world, representing over 3,500 board certified ophthalmologists who have completed fellowship training in the medical and surgical treatment of retinal diseases....

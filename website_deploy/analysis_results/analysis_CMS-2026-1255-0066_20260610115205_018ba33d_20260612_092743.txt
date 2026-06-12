@@ -1,0 +1,158 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0066_20260610115205_018ba33d
+Commenter: National Organization of Rheumatology Management (NORM)
+Source: PDF Attachment
+Analysis Date: 2026-06-12 09:27:43
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Organization of Rheumatology Management (NORM); signed by Michelle A. Owen, CPC, President
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** NORM represents rheumatology practice administrators; contact Andrea Zlatkus, CMPM, CRMS, CRHC; signer Michelle A. Owen, CPC.
+
+## 2. EXECUTIVE SUMMARY
+
+NORM supports CMS and ONC efforts to improve electronic drug prior authorization, denial transparency, API data exchange, and usage metrics, but argues the proposal does not sufficiently coordinate drugs that move between medical and pharmacy benefit structures. It requests more granular drug-level reporting, retention of formulary information in APIs, future 24-hour response standards for rheumatology therapies, and interoperability solutions that reduce duplicated step therapy and reauthorization requirements.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; MEDICAL-VS-PHARMACY-BENEFIT issues within PA-DRUG-MEDICAL/PA-DRUG-PHARMACY; GENERAL RFI on step therapy.
+- **Regulatory citations mentioned:** Not addressed
+- **Standards referenced:** Patient Access API, Provider Access API, Payer-to-Payer API; generally references standards and implementation guides across medical and pharmacy benefits.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic drug prior authorization across benefit structures**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Drugs with infused, injected, and self-administered formulations require practices to query separate medical and pharmacy benefit platforms for coverage, documentation, PA, step therapy, and cost-sharing information.
+- **Specific request:** CMS and ONC should move toward stronger coordination across medical and pharmacy benefit systems rather than only streamlining each system separately.
+
+**Topic 2: Denial reasons and prior authorization metrics**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Support; Modify
+- **Rationale:** Specific denial reasons and public metrics could help identify excessive denials, repeated authorization requirements, step therapy delays, and utilization management barriers.
+- **Specific request:** Require more granular drug-level reporting of prior authorization and step therapy metrics by therapy or therapeutic category.
+
+**Topic 3: Prior authorization decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Rheumatology practices face multiple payer response standards, and treatment delays can lead to irreversible joint damage, worsening disability, disease progression, and higher downstream costs.
+- **Specific request:** Pursue future rulemaking to establish a 24-hour maximum response timeframe for rheumatology therapy prior authorizations across all impacted payers and benefit categories.
+
+**Topic 4: API formulary information and usage metrics**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS
+- **Position:** Support; Modify
+- **Rationale:** NORM supports including drug PA information in Patient Access, Provider Access, and Payer-to-Payer APIs and reporting API usage metrics, but says formulary and utilization management data are needed during plan transitions and benefit shifts.
+- **Specific request:** Retain formulary information within Provider Access and Payer-to-Payer APIs.
+
+**Topic 5: Step therapy continuity and formulary adequacy**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Repeated step therapy, reauthorization, and payer-specific utilization management policies disrupt continuity for clinically stable rheumatology patients.
+- **Specific request:** Explore interoperability solutions that recognize prior determinations and treatment history, reduce duplicative requirements, and develop a formulary adequacy standard for preferred or step-therapy drugs.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** NORM identifies technical and operational challenges for drugs that can shift between medical and pharmacy benefits, including the need to query separate platforms.
+- **S15:** NORM directly addresses confusion between medical and pharmacy benefits for multi-formulation rheumatology therapies and requests cross-benefit coordination.
+- **S16:** NORM supports requirements to provide specific denial reasons because they would help practices identify utilization management barriers.
+- **S20:** NORM supports alignment of decision timeframes and seeks a future 24-hour maximum response standard for rheumatology therapies.
+- **S29:** NORM supports API usage metrics and asks for more granular drug-level reporting of PA and step therapy metrics.
+- **S30:** Not directly addressed; no privacy-specific metric safeguards are discussed.
+- **S43:** NORM supports aligning prior authorization timeframes across impacted payers and benefit categories.
+- **S66-S82:** The step therapy RFI response asks CMS and ONC to reduce repeated step therapy, recognize prior determinations and treatment history, and consider formulary adequacy.
+
+## 6. RECOMMENDATIONS
+
+1. Coordinate medical and pharmacy benefit prior authorization systems for multi-formulation drugs.
+2. Retain formulary and utilization management information in Provider Access and Payer-to-Payer APIs.
+3. Require drug-level reporting of prior authorization and step therapy metrics.
+4. Consider future rulemaking for a 24-hour maximum PA response timeframe for rheumatology therapies.
+5. Develop interoperability approaches that recognize prior payer determinations and treatment history.
+6. Explore a formulary adequacy standard for preferred or step-therapy drugs.
+7. Ultimately reduce or eliminate step therapy requirements that delay physician-recommended treatment.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Lack of cross-benefit coordination, administrative burden, delayed therapy initiation, repeated step therapy, and removal of formulary data from APIs.
+- **Potential negative impacts cited:** Treatment delays, disrupted continuity of care, patient confusion, irreversible joint damage, worsening disability, avoidable pain, disease progression, and increased downstream healthcare costs.
+- **Implementation barriers mentioned:** Disparate payer benefit platforms, different response standards, separate medical and pharmacy benefit tools, and repeated utilization management requirements.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Not addressed
+- **Studies or research referenced:** Not addressed
+- **Examples provided:** Rheumatology drugs available in infused, injected, and self-administered formulations; clinically stable patients forced through repeat queries or requirements when therapies shift between benefit structures.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Rheumatology practices, practice administrators, patients with chronic rheumatologic diseases, impacted payers, CMS/ONC, and vendors supporting API and utilization management workflows.
+- **Economic implications:** NORM cites increased downstream healthcare costs from delayed therapy but does not quantify implementation or savings.
+- **Technical feasibility:** NORM views the proposed within-benefit improvements as positive but insufficient; it implies additional standards and implementation guides are needed to coordinate across benefit structures.
+- **Patient care impact:** The comment emphasizes timely access to specialty therapies, continuity of care, and avoidance of disease progression and disability.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional and collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "NORM supports CMS' proposals to improve electronic prior authorization processes for drugs" - Context: Overall support for the proposed electronic PA direction.
+2. "this proposal falls short" - Context: NORM's objection that the rule primarily streamlines within, rather than across, medical and pharmacy benefits.
+3. "establishing a 24-hour maximum response timeframe" - Context: Recommendation for future rulemaking on rheumatology therapy PA requests.
+4. "retaining formulary information within the APIs" - Context: NORM's response to the proposed removal of formulary data from Provider Access and Payer-to-Payer APIs.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Rheumatology administrators must navigate separate platforms, repeated PA, step therapy, and reauthorization processes.
+- [x] **PATIENT-ACCESS** - The comment links delays to treatment initiation, continuity of care, and disease outcomes.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - This is the central issue for multi-formulation rheumatology drugs that span both benefits.
+- [x] **TRANSPARENCY** - NORM supports denial reasons, public metrics, and drug-level reporting to identify problematic utilization management.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on current payer platform workflows and the need to reduce duplicated queries and requirements.
+- [x] **STAKEHOLDER-COORDINATION** - NORM asks CMS and ONC to coordinate standards and implementation across benefit systems.
+- [x] **TECHNICAL-FEASIBILITY** - The comment suggests the proposal's technical architecture is feasible but incomplete for cross-benefit workflows.
+- [ ] **IMPLEMENTATION-TIMELINE** - Not addressed except for the requested future 24-hour standard.
+- [ ] **COST-RESOURCES** - Not addressed in implementation cost terms.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed in detail.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 6, 2026
+
+Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+200 Independence Avenue, SW
+Washington, DC 20201
+
+Thomas Keane, MD, MBA
+National Coordinator for Health Information Technology
+Office of the National Coordinator for Health Information Technology
+330 C Street SW
+Washington, DC 20201
+
+Submitted electronically via www.regulations.gov
+
+Re: Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+
+Dear Administrator Oz and National Coordinator Keane:
+
+The National Organization of Rheumatology Management (NORM) represents rheumatology practice administrators who manage the day-to-day operations of rheumatology practices across the country. Our members are responsible for ensuring that patients with complex, chronic rheumatologic diseases can access timely, continuous care while navigating increasingly complex payment, coverage, and administrative requirements.
+
+On behalf of our members, we appreciate the opportunity to provide feedback on the aforementioned proposed rule.
+
+Electronic Prior Authorization for Drugs
+NORM supports CMS' proposals to improve electronic prior authorization processes for drugs and facilitate more standardized exchange of prior authorization information across impacted payers. However, under this proposal, rheumatology practices would continue to face significant administrative burden associated with therapies that may shift between the medical and pharmacy benefit....

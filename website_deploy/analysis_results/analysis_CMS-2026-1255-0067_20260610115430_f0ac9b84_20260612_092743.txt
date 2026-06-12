@@ -1,0 +1,148 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0067_20260610115430_f0ac9b84
+Commenter: North Dakota Medicaid / North Dakota Department of Health and Human Services
+Source: PDF Attachment
+Analysis Date: 2026-06-12 09:27:43
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** North Dakota Medicaid / North Dakota Department of Health and Human Services
+- **Stakeholder type:** Government
+- **Credentials or expertise mentioned:** State Medicaid and CHIP Fee-for-Service program experience; pharmacy program and prior authorization operations.
+
+## 2. EXECUTIVE SUMMARY
+
+North Dakota Medicaid argues state Medicaid and CHIP FFS programs cannot meet the October 1, 2027 compliance date because of budget constraints, procurement barriers, vendor readiness issues, and competing federal IT mandates. The commenter requests an upfront 36-month delay, funding and procurement support, a 2-business-day API update window, delayed metrics reporting after the first full year of API use, clearer appeals/resubmission guidance, and revised drug PA timing rules distinguishing response from final determination.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; FHIR-IG-REQUIRED; API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS; STATE-EXTENSION-PROCESS; GENERAL metrics and implementation concerns.
+- **Regulatory citations mentioned:** Section 1927(d)(5)(A) of the Act; 42 CFR 431.80(a)(2); CMS-0057-F.
+- **Standards referenced:** NCPDP Telecommunication Standard D.0 to F6; NCPDP SCRIPT; NCPDP Formulary & Benefit (F&B); NCPDP Real-Time Prescription Benefit (RTPB); FHIR Prior Authorization API standards; PAAppealRequest; WCAG 2.2; 11-digit to 12-digit NDC transition.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Upfront 36-month delay for state Medicaid and CHIP FFS**
+- **Provision ID:** STATE-EXTENSION-PROCESS
+- **Position:** Modify
+- **Rationale:** Requiring states to apply for extensions creates additional paperwork when CMS already acknowledges states may need up to 36 months.
+- **Specific request:** Delay the deadline by 36 months for state Medicaid and CHIP FFS programs upfront, rather than requiring extension applications.
+
+**Topic 2: NCPDP pharmacy drug standards readiness**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** North Dakota Medicaid has no PBM, runs a small FFS program, lacks current support for NCPDP SCRIPT, F&B, and RTPB, and has had unsuccessful procurement efforts because vendors did not respond.
+- **Specific request:** Provide funding, procurement support, vendor readiness assessment, and a 36-month implementation delay.
+
+**Topic 3: Prior Authorization API for drugs and FHIR IG implementation**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** The state says adding drugs is not a simple extension of existing work because its CMS-0057-F API will not yet be built and vendor adoption of FHIR standards will require procurement, contracting, development, and testing.
+- **Specific request:** Extend state Medicaid/CHIP FFS compliance by 36 months and assist with funding and vendor procurement readiness.
+
+**Topic 4: Prior authorization information update timing**
+- **Provision ID:** PA-DRUG-MEDICAL; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Reporting prior authorization information within 1 business day may be infeasible because determinations can take up to 24 hours and exchange may require file transfer.
+- **Specific request:** Change the requirement to 2 business days.
+
+**Topic 5: API and prior authorization metrics reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify; Clarify
+- **Rationale:** Metrics are new requirements for the PA vendor and managed care plan, require contract amendments, and could be misinterpreted without context.
+- **Specific request:** Start metrics reporting only after the first full year of API use, define appeal versus resubmission clearly, and provide context for determination percentage reporting.
+
+**Topic 6: Drug PA response and determination timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** A same-day determination requirement can force administrative denials when prescribers are unavailable on weekends or holidays, while emergency 72-hour medication supplies already protect access.
+- **Specific request:** Require a response within 24 hours and a determination within 1 business day after receipt of all information, with an exception allowing extensions for complex clinical review.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** The commenter explains that non-Part D state Medicaid FFS pharmacy programs may not support NCPDP SCRIPT, F&B, or RTPB and may lack PBM infrastructure.
+- **S19:** The comment directly addresses state readiness, citing no budget, budget reductions, legislative timing, procurement duration, and vendor readiness issues.
+- **S20:** The commenter requests distinguishing a 24-hour response from a final determination due 1 business day after all information is received.
+- **S21:** The commenter says the October 1, 2027 API timeline is not achievable for state Medicaid/CHIP FFS due to procurement, budget, and CMS-0057-F sequencing.
+- **S22:** The comment cites increased vendor contract costs, re-procurement, intermediary connectivity, and staffing burden for NCPDP implementation.
+- **S29:** The commenter seeks delayed API metric reporting and notes metrics requirements will require contract amendments.
+- **S34:** The commenter requests that the first metric report follow the first full year of API use, with subsequent timing tied to the delayed compliance date if adopted.
+- **S36:** The commenter opposes an application-based extension process and requests an automatic 36-month delay for state Medicaid and CHIP FFS.
+- **S38:** The requested extension duration is 36 months.
+- **S43:** The commenter asks CMS to align drug PA timeframes with Medicaid statutory requirements by requiring response within 24 hours and determination within 1 business day after all information is received.
+
+## 6. RECOMMENDATIONS
+
+1. Automatically delay implementation by 36 months for state Medicaid and CHIP FFS programs.
+2. Provide funding assistance for implementation.
+3. Support vendor readiness assessment and state procurement.
+4. Change the 1-business-day PA information reporting requirement to 2 business days.
+5. Delay API metrics reporting until after the first full year of API use.
+6. Clarify the definition of appeal versus resubmission, including PAAppealRequest and state legal appeal workflows.
+7. Add context requirements or cautions for determination percentage reporting.
+8. Require Medicaid/CHIP FFS PA response within 24 hours and final determination within 1 business day after receipt of all needed information.
+9. Allow exceptions to extend determination timeframes for complex clinical review.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Unrealistic compliance timing, state budget shortfalls, vendor procurement failure, staff constraints, contract amendments, and burdensome extension paperwork.
+- **Potential negative impacts cited:** Administrative denials, increased state and provider burden, higher contract costs, misinterpreted public metrics, and reduced ability to recruit and retain state employees.
+- **Implementation barriers mentioned:** No PBM, no support for NCPDP SCRIPT/F&B/RTPB, lack of intermediary vendor interest, 10% state budget reduction, legislative biennium timing, CMS-0057-F API dependency, D.0 to F6 transition, GENEROUS model rebate review, WCAG 2.2 compliance, and 12-digit NDC transition.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** North Dakota DHHS faces a 10% budget reduction; next legislative session ends April 2027; fiscal biennium starts July 2027; procurement could run until September 2027; earliest work start would be October 1, 2027.
+- **Studies or research referenced:** Not addressed
+- **Examples provided:** Prior unsuccessful procurement attempts for electronic PA intermediary services; prescriber offices closed on weekends or holidays, making missing information hard to obtain within 24 hours.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** State Medicaid/CHIP FFS programs, North Dakota Medicaid, Medicaid expansion managed care plans, prior authorization vendors, prescribers, pharmacies, and beneficiaries.
+- **Economic implications:** The comment predicts re-procurement, contract cost increases, contract amendments, and unfunded implementation needs amid a state budget shortfall.
+- **Technical feasibility:** The commenter says implementation is technically and operationally infeasible on the proposed timeline because foundational APIs and vendor connectivity are not yet in place.
+- **Patient care impact:** The commenter argues revised response/determination timing would preserve medication access through emergency supplies while improving review quality and reducing avoidable administrative denials.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Technical and critical
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We request the deadline be delayed by 36 months" - Context: Central implementation timeline request for state Medicaid and CHIP FFS.
+2. "We currently do not have a budget" - Context: Explanation of why North Dakota cannot meet NCPDP implementation requirements.
+3. "The soonest we could start work would be October 1, 2027" - Context: The state says its earliest feasible start date is the proposed compliance date.
+4. "We request the requirement be changed to 2 business days" - Context: Request to modify PA information reporting timing.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment repeatedly requests a 36-month delay and delayed metrics reporting.
+- [x] **COST-RESOURCES** - Budget shortfall, procurement cost increases, contract amendments, and staffing strain are central concerns.
+- [x] **TECHNICAL-FEASIBILITY** - The state lacks NCPDP support, PBM infrastructure, API readiness, and vendor connectivity.
+- [x] **STANDARDS-MATURITY** - The comment discusses NCPDP F6, SCRIPT, F&B, RTPB, FHIR, PAAppealRequest, WCAG, and NDC transition dependencies.
+- [x] **STAKEHOLDER-COORDINATION** - Implementation depends on state agencies, vendors, managed care plans, prescribers, and intermediaries.
+- [x] **SMALL-PAYER-IMPACT** - North Dakota describes itself as a very small FFS program with limited market leverage.
+- [x] **PROVIDER-BURDEN** - The commenter warns that rigid deadlines may increase provider resubmissions and administrative denials.
+- [x] **PATIENT-ACCESS** - The proposed timeframe changes are framed as preserving medication access and review quality.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses current procurement, legal appeal, vendor, and prescriber-office workflows.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Mentioned only through managed care physician-administered drugs, not a major theme.
+- [ ] **TRANSPARENCY** - Not a primary theme beyond concern over metrics context.
+- [ ] **VENDOR-ECOSYSTEM** - Addressed through vendor readiness and procurement, but not as a broader market analysis.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Introduction:
+States are currently experiencing workforce and budget strain with competing large scale IT projects including: NCPDP Telecommunication Standard Version update from D.0 to F6 compliance date of August 14, 2027, API from 2024 CMS Interoperability and Prior Authorization (PA) Final Rule (CMS-0057-F) compliance date of January 1, 2027, and FDA transition from 11-digit NDC to 12-digit NDCs by March 7, 2033.
+We request the deadline be delayed by 36 months for state Medicaid and CHIP FFS programs up front, rather than requiring more paperwork by having states apply for an extension for the implementation of the API for drugs, and NCPDP and FHIR standards.
+We request funding assistance and support with vendor readiness and procurement.
+NDPDP Standards for Electronic Prior Authorization for Pharmacy Drugs:
+States need support in funding and procurement. North Dakota Medicaid does not have a Pharmacy Benefits Manager and operates a very small Fee-For-Service program....
