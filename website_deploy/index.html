@@ -428,7 +428,7 @@ body {
     background: var(--paper);
     border-radius: 4px;
     min-height: 300px;
-    max-width: 70ch;
+    max-width: 100%;
     line-height: 1.7;
     font-size: 14px;
 }
@@ -633,7 +633,7 @@ body {
         <button class="btn" onclick="exportData()">Export Data</button>
     </div>
     <div class="controls-timestamp">
-        Last updated: 04:09 AM
+        Last updated: 06:32 AM
     </div>
 </div>
 
@@ -4692,11 +4692,7 @@ function loadAnalysis() {
         // Source: ...
         // Analysis Date: ...
         // ==================================================
-        const headerPattern = /^REGULATORY COMMENT ANALYSIS\s*
-=+\s*
-([\s\S]*?)
-=+\s*
-/;
+        const headerPattern = /^REGULATORY COMMENT ANALYSIS\s*\n=+\s*\n([\s\S]*?)\n=+\s*\n/;
         const headerMatch = analysisText.match(headerPattern);
 
         if (headerMatch) {
@@ -4714,21 +4710,38 @@ function loadAnalysis() {
             const source = sourceMatch ? sourceMatch[1].trim() : '';
             const date = dateMatch ? dateMatch[1].trim() : '';
 
-            // Create the header card HTML
+            // Helper to escape HTML
+            const escapeHtml = (text) => {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            };
+
+            // Create the header card HTML with escaped content
             headerHtml = '<div class="analysis-header-card">' +
-                '<div class="analysis-meta-id">' + commentId + '</div>' +
-                '<div class="analysis-meta-name">' + commenter + '</div>' +
-                '<div class="analysis-meta-row"><span>Source:</span> ' + source + ' &nbsp;|&nbsp; <span>Date:</span> ' + date + '</div>' +
+                '<div class="analysis-meta-id">' + escapeHtml(commentId) + '</div>' +
+                '<div class="analysis-meta-name">' + escapeHtml(commenter) + '</div>' +
+                '<div class="analysis-meta-row"><span>Source:</span> ' + escapeHtml(source) + ' &nbsp;|&nbsp; <span>Date:</span> ' + escapeHtml(date) + '</div>' +
                 '</div>';
         }
 
         // Render the body as markdown
         let bodyHtml = '';
         if (typeof marked !== 'undefined' && typeof marked.parse === 'function') {
-            bodyHtml = marked.parse(bodyText);
+            try {
+                bodyHtml = marked.parse(bodyText);
+            } catch (e) {
+                console.error('Markdown parsing failed:', e);
+                // Fallback to plain text with pre-wrap
+                const div = document.createElement('div');
+                div.textContent = bodyText;
+                bodyHtml = '<div style="white-space: pre-wrap;">' + div.innerHTML + '</div>';
+            }
         } else {
             // Fallback if marked.js isn't loaded
-            bodyHtml = '<div style="white-space: pre-wrap;">' + bodyText + '</div>';
+            const div = document.createElement('div');
+            div.textContent = bodyText;
+            bodyHtml = '<div style="white-space: pre-wrap;">' + div.innerHTML + '</div>';
         }
 
         content.innerHTML = headerHtml + bodyHtml;
