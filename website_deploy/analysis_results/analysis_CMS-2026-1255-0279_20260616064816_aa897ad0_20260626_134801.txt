@@ -1,0 +1,262 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0279
+Commenter: InterSystems Corporation
+Source: PDF Attachment
+Analysis Date: 2026-06-26 13:48:01
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** InterSystems Corporation
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Major health IT vendor providing data platforms, interoperability solutions (HealthShare), and clinical information systems. Deep expertise in FHIR, HL7, NCPDP, and clinical data exchange. Contact: Zach Keating, Corporate Communications; headquartered in Boston, MA.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+InterSystems strongly supports the proposed rule's direction toward standards-based electronic prior authorization for drugs and the broader FHIR API framework. The company offers a technically sophisticated 16-page response organized around five implementation principles: mature IGs with predictable versioning, CDex as essential clinical data exchange infrastructure, a centralized endpoint directory, standardized metrics reporting, and workflow-native PA processes that eliminate portal dependency. InterSystems recommends requiring CDex now for clinical documentation, supports the proposed HIPAA shift toward FHIR, urges revisiting the direct data entry exception, and requests standardized metric definitions across all reporting requirements.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, API-ENDPOINT-REPORTING, API-USAGE-METRICS, HIPAA-PA-STANDARDS, ONC-STANDARDS-UPDATE, FF-SHOP-REQUIREMENTS, STATE-EXTENSION-PROCESS, GENERAL (step therapy, lab/DMEPOS, event notifications, cybersecurity, testing)
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F (2024 final rule)
+- **Standards referenced:** FHIR R4; US Core; Da Vinci CRD, DTR, PAS, PDex, CDex, HRex, PDex US Drug Formulary, Plan Net; CARIN IG; SMART App Launch; Bulk FHIR; FAST Security; UDAP; ATR IG; HL7 v2 ADT; X12; NCPDP; SVAP
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Required IGs — Maturity, Versioning, and Conformance**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support with Modify
+- **Rationale:** Required IGs are essential because FHIR alone does not guarantee interoperability. CMS must clarify which IG versions are permissible during transition periods, avoid confusing CMS "expired" terminology with HL7 maintenance status, and explicitly preserve the relationship between base FHIR, US Core, SMART App Launch, Bulk FHIR, and the IGs.
+- **Specific request:** Require unexpired standards with controlled versioning and migration periods; clarify compliant versions before and after January 1, 2028; resolve CMS "expiration" vs. HL7 maintenance terminology confusion; clarify treatment of dependent IGs (e.g., HRex) for conformance purposes.
+
+**Topic 2: CDex as Required IG**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support (require now with graduated path)
+- **Rationale:** CDex is sufficiently mature and directly aligned with payer-provider workflows requiring timely clinical information. Without a consistent electronic pathway for clinical documentation exchange, the industry will continue relying on portals, faxes, and manual chart retrieval.
+- **Specific request:** Require CDex where clinical documentation is needed for prior authorization now; establish graduated path toward broader CDex use (query- and task-based workflows) for quality measurement, care management, risk adjustment, and payment integrity.
+
+**Topic 3: ATR IG**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Oppose (mandate now)
+- **Rationale:** ATR has not demonstrated the maturity or broad real-world production use of other required IGs; attribution models vary significantly across programs.
+- **Specific request:** Continue to monitor; allow additional implementation and testing before requiring.
+
+**Topic 4: FAST Security IG**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support (advance, not yet require)
+- **Rationale:** FAST Security and UDAP are valuable for network-based exchange but broad implementation is still emerging.
+- **Specific request:** Continue promoting; encourage testing; preserve flexibility for point-to-point exchange during transition; establish clear path to future mandatory use.
+
+**Topic 5: PA for Medical Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Medical benefit drugs require clinical context that exists in provider systems but cannot be effectively shared through portals and faxes. Received clinical data should be incorporated into the member's longitudinal record.
+- **Specific request:** Require CRD, DTR, and PAS for EHR-workflow PA; ensure clinical data can be incorporated into longitudinal records; support reuse of previously exchanged data.
+
+**Topic 6: PA Metrics — Non-Drug**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with Modify
+- **Rationale:** Metrics require standardized definitions, denominators, and formats. Should capture cases where standards-based workflows avoid formal PA submission to measure burden reduction.
+- **Specific request:** Define standardized metrics; require machine-readable reporting with data dictionaries; capture API-enabled vs. non-API-enabled PA workflows.
+
+**Topic 7: PA Metrics — Drug**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with Modify
+- **Rationale:** Drug PA metrics must be consistent across states, benefit categories, delegated PBMs, and UM vendors; separate visibility into pharmacy and medical benefit workflows needed.
+- **Specific request:** Standardize definitions; stratify by submission method; require PBM/UM vendor support; delay 2028 reporting if specifications unavailable.
+
+**Topic 8: API Endpoint Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Discoverability is a prerequisite for interoperability; centralized registry eliminates fragmented payer-specific directories.
+- **Specific request:** Require reporting of URLs, documentation, capability statements, supported IG versions, authentication, and contacts; maintain ongoing centralized registry with historical data beyond 60 days; consider including provider endpoints.
+
+**Topic 9: Formulary Removal from Provider Access and Payer-to-Payer APIs**
+- **Provision ID:** FHIR-IG-REQUIRED (cross-cutting)
+- **Position:** Support
+- **Rationale:** Formulary is plan-specific, not patient-specific; requiring it in patient-centric APIs creates duplication and confusion.
+
+**Topic 10: HIPAA PA Standards — FHIR Adoption**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support
+- **Rationale:** Prior authorization requires structured clinical data and workflow integration beyond what administrative transactions alone can achieve; X12 should continue where effective.
+- **Specific request:** Recognize CRD, DTR, PAS, and CDex as core HIPAA PA pattern; align administrative and clinical exchange requirements.
+
+**Topic 11: Direct Data Entry Exception**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Oppose (current form); Support (revisiting/narrowing)
+- **Rationale:** Portal-based workflows trap data outside longitudinal records, undermine automation and auditability, and are the primary source of administrative fragmentation.
+- **Specific request:** Revisit and narrow DDE exception; require workflow-native PA processing; clarify exception should not preserve portals when standards-based exchange is available.
+
+**Topic 12: Event Notifications (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support (FHIR as complement, not replacement)
+- **Rationale:** HL7 v2 ADT is mature and widely deployed; FHIR adds value for cross-organization exchange and richer clinical context.
+- **Specific request:** Preserve HL7 v2 ADT; encourage FHIR where it adds value; avoid fragmented state-by-state rules.
+
+**Topic 13: Step Therapy (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Step therapy is a strong use case for longitudinal clinical data sharing; Payer-to-Payer API should carry prior therapy history and prior payer determinations.
+- **Specific request:** Standardize step therapy criteria through APIs; define conditions for honoring prior determinations; preserve patient visibility into step therapy decision history.
+
+**Topic 14: Lab Tests and DMEPOS (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with recommendations
+- **Rationale:** PA requirements should be surfaced before or at ordering time using clinical data already in the patient record.
+- **Specific request:** Clarify operationalization under Prior Authorization API; advance standards-based clinical documentation exchange; address delegated vendor role.
+
+**Topic 15: State-Based Exchanges and Severability**
+- **Provision ID:** FF-SHOP-REQUIREMENTS, STATE-EXTENSION-PROCESS, GENERAL
+- **Position:** Support (extend to SBEs) / Support severability
+- **Rationale:** Interoperability requires a national baseline; patients move across state lines and coverage types.
+- **Specific request:** Extend to SBEs; coordinate early with states; establish minimum national baseline; discourage open-ended state exceptions; preserve severability for endpoint reporting, required IGs, security, and PA timeframes.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports requiring IGs as practical necessity; urges controlled versioning with migration periods.
+- **S2:** Requests clarity on permissible IG versions during transition; resolves CMS "expiration" vs. HL7 maintenance terminology confusion.
+- **S3:** Urges predictable transition windows and a clear process for adopting newer IG versions.
+- **S8:** Supports advancing FAST Security but recommends not yet requiring; preserve flexibility during transition.
+- **S12:** Strongly supports medical benefit drugs in Prior Authorization API; endorses CRD/DTR/PAS as core workflow pattern.
+- **S18:** Argues required IGs are necessary to prevent fragmentation; recommends realistic timelines.
+- **S23:** Supports endpoint registry with appropriate authentication; recommends trust frameworks.
+- **S24:** Recommends endpoint directory include URLs, documentation, capability statements, supported IG versions, authentication, contact info, and last updated dates.
+- **S26:** Recommends both human-readable and machine-readable directory formats.
+- **S27:** Recommends ongoing maintenance with historical/archived data beyond 60 days.
+- **S29/S30:** Aggregated de-identified usage metrics with consistent denominators; machine-readable reporting.
+- **S32:** Recommends clarification on HRex treatment as dependent IG for conformance and version management.
+- **S33:** Recommends CMS maintain ongoing centralized registry with historical data.
+- **S34:** Recommends machine-readable FHIR-enabled reporting approaches.
+- **S37:** Recommends national test harnesses, reference implementations, and real-world multi-party testing.
+- **S44:** Strongly supports moving HIPAA Administrative Simplification toward FHIR-based PA standards.
+- **S46:** Supports preserving X12 where effective while recognizing FHIR as the modern PA pathway.
+- **S50:** Endorses CDex as sufficiently mature; ATR not ready; FAST Security needs advancement.
+- **S53:** Supports near-term CDex requirement for PA clinical documentation with graduated broader adoption.
+- **S54:** Strongly supports national test harnesses and real-world testing.
+- **S60/S61:** Urges CMS-ONC alignment on SVAP, semantic versioning, and required version coordination.
+- **S66 (event notifications):** Preserve HL7 v2 ADT; advance FHIR as complement; ensure actionable notification context.
+- **S67/S68 (lab/DMEPOS):** Recommend operationalizing under Prior Authorization API; surface requirements early in ordering workflow; address delegated vendor role.
+- **Step therapy RFI:** Use Payer-to-Payer API for step therapy history; define conditions for honoring prior determinations; patient ownership and visibility.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Require unexpired IGs with controlled versioning, migration periods, and testable conformance expectations.
+2. Clarify permissible IG versions during transition; resolve CMS "expiration" vs. HL7 maintenance terminology.
+3. Explicitly preserve the relationship between base FHIR, US Core, SMART App Launch, Bulk FHIR, and required IGs.
+4. Require CDex where clinical documentation is needed for PA now; establish graduated path toward broader CDex adoption.
+5. Do not require ATR IG at this time; allow additional implementation and testing.
+6. Continue advancing FAST Security; establish clear path toward future required use.
+7. Require CRD, DTR, and PAS for medical benefit drug PA within EHR workflow.
+8. Ensure received clinical PA data can be incorporated into member longitudinal records.
+9. Define standardized PA metrics including common numerators, denominators, reporting periods, decision categories, and calculation methods for both drug and non-drug PA.
+10. Require machine-readable metrics reporting with data dictionaries and standardized submission formats.
+11. Stratify drug PA metrics by submission method; require PBM/UM vendor support for payer reporting.
+12. Maintain centralized national endpoint registry with human-readable and machine-readable formats and historical data beyond 60 days.
+13. Consider including or aligning provider endpoint information in the centralized directory.
+14. Recognize CRD, DTR, PAS, and CDex as core HIPAA PA workflow standard; preserve X12 where effective.
+15. Revisit and narrow the HIPAA direct-data-entry exception; require workflow-native PA processing.
+16. Preserve HL7 v2 ADT for event notifications; advance FHIR as complementary pathway.
+17. Require strong authentication, encryption, audit logging, and trust frameworks for API-based exchange.
+18. Support national test harnesses, reference implementations, and real-world multi-party testing.
+19. Use Payer-to-Payer API to carry step therapy history and prior payer determinations.
+20. Clarify lab and DMEPOS operationalization under Prior Authorization API; surface requirements early in ordering workflow.
+21. Extend interoperability requirements to state-based exchanges; establish minimum national baseline.
+22. Support severability to preserve standards-based path if individual provisions are delayed or invalidated.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** IG versioning clarity gap; CDex not yet required despite being sufficiently mature; portal-based workflows preserved by DDE exception; ATR not ready; metric standardization gaps; 60-day endpoint reporting window may be too short.
+- **Potential negative impacts cited:** Without CDex, clinical data exchange remains on portals and faxes; without standardized metrics, public reporting could mislead; inconsistent state-by-state rules would fragment interoperability progress.
+- **Implementation barriers mentioned:** IG version transition complexity; FAST Security trust community infrastructure still emerging; ATR operationally complex; portal ecosystems create locked-in workflows.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None quantitatively cited.
+- **Studies or research referenced:** None formally cited.
+- **Examples provided:** CDex use cases across PA, quality measurement, risk adjustment, care management; HL7 v2 ADT as mature event notification infrastructure; portal data trapped outside longitudinal records as systemic problem.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health IT vendors (directly); payers (all types); providers and EHR systems; patients; CMS and state regulators; SDOs; delegated PBMs and UM vendors; laboratories and DMEPOS suppliers.
+- **Economic implications:** Standardized endpoint registry and CDex requirement would reduce per-payer/per-vendor integration costs; narrowing DDE exception eliminates costly portal workflows; standardized metrics reduce state-by-state variation; delegated PBM/UM vendor reporting requirements have compliance costs.
+- **Technical feasibility:** CDex, CRD/DTR/PAS argued to be sufficiently mature; versioning transitions need careful management; FAST Security and ATR need more production time; real-world multi-party testing essential precondition.
+- **Patient care impact:** Significant—clinical data trapped in disconnected systems delays care; CDex and longitudinal record-based PA would enable timely, informed PA decisions and reduce duplicative provider burden.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Technical, Professional, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Required IGs are essential because FHIR alone does not guarantee interoperability; without implementation constraints, each payer, state, or vendor can produce a technically valid but operationally different API." — Context: Supporting required IGs.
+
+2. "Without a consistent electronic way for payers to request and receive that information, the industry will continue to rely on portals, faxes, manual chart retrieval, and payer-specific documentation processes." — Context: Recommending CDex as required IG.
+
+3. "A portal-based ecosystem shifts burden onto providers and creates inefficiencies for payers. Data entered into portals is often trapped outside the source clinical longitudinal record, difficult to reconcile, inconsistently structured, and disconnected from longitudinal patient information." — Context: Recommending revision of HIPAA DDE exception.
+
+4. "Without standardized definitions, denominators, reporting periods, decision categories, and submission formats, public reporting could create misleading comparisons and undermine transparency." — Context: Urging standardized PA metrics definitions.
+
+---
+
+## 12. THEMES
+
+- [x] **STANDARDS-MATURITY** — Central theme: required IGs necessary with predictable versioning; CDex mature enough to require; ATR and FAST Security need more time; versioning terminology confusion must be resolved.
+- [x] **TECHNICAL-FEASIBILITY** — IG version transition complexity; FAST Security adoption still emerging; ATR operationally complex; portal-based workflows resistant to standardization.
+- [x] **TRANSPARENCY** — Standardized PA metrics definitions essential for meaningful public reporting; denial reasons and documentation delays should be reported in structured way.
+- [x] **IMPLEMENTATION-TIMELINE** — Transition period clarity critical; 60-day endpoint reporting may be too short; delay 2028 drug PA reporting if specifications unavailable.
+- [x] **PRIVACY-SECURITY** — Interoperability and cybersecurity must be designed together; FAST Security as foundational trust framework; strong authentication and audit logging requirements.
+- [x] **EXISTING-WORKFLOWS** — Preserves HL7 v2 ADT for event notifications; X12 effective where used; addresses DDE exception as root cause of portal-based fragmentation.
+- [x] **PATIENT-ACCESS** — PA clinical data trapped in disconnected systems delays care; longitudinal records and CDex would enable timely, informed PA decisions.
+- [x] **STAKEHOLDER-COORDINATION** — CMS-ONC alignment on versioning; early state coordination; delegated PBM/UM vendor reporting; national test harness development.
+- [x] **VENDOR-ECOSYSTEM** — Major health IT vendor perspective; addresses payer, provider, EHR, intermediary, and application ecosystem needs; "build once, reuse broadly" principle.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Recommends separate visibility into pharmacy and medical benefit drug PA metrics; addresses delegated PBM reporting challenges.
+- [x] **REGULATORY-AUTHORITY** — Recommends severability language to protect standards-based path if provisions are invalidated.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+InterSystems Response to
+2026 Centers for Medicare & Medicaid Services Interoperability
+Standards and Prior Authorization for Drugs Proposed Rule
+[CMS-0062-P]
+June 10, 2026
+
+Executive Summary
+InterSystems Corporation appreciates the opportunity to comment on the Center for Medicare &
+Medicaid Services (CMS) proposed rule, Interoperability Standards and Prior Authorization for
+Drugs [CMS-0062-P]. InterSystems supports CMS's efforts to reduce administrative burden,
+advance standards-based interoperability, and help patients receive needed care and medications
+without unnecessary delay.
+
+InterSystems strongly supports extending standardized electronic prior authorization workflows to
+drugs. Patients should not experience delays because clinical information needed for a coverage
+decision is trapped in disconnected systems, portals, faxes, or manual documentation workflows.
+Drug prior authorization often depends on information already available in provider systems,
+including diagnoses, medication history, allergies, laboratory values, prior therapies,
+contraindications, procedures, and care-team documentation. Standards-based exchange can help
+make this information available at the right time, in the right workflow, and in a form that supports
+timely decisions...

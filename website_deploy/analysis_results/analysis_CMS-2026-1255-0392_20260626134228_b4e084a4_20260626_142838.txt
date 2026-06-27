@@ -1,0 +1,214 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0392
+Commenter: Advanced Medical Technology Association (AdvaMed)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:38
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Advanced Medical Technology Association (AdvaMed)
+- **Stakeholder type:** Professional Association (trade association representing medical device, diagnostic, digital health technology, and health information system manufacturers)
+- **Credentials or expertise mentioned:** World's leading trade association for medical technology; members range from largest to smallest medtech producers including hundreds of small companies with fewer than 20 employees; signed by Zoe Guengerich, Senior Director, Payment & Healthcare Delivery Policy
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AdvaMed's comment focuses on two discrete areas: (1) the DMEPOS prior authorization RFI, where it describes the significant administrative and patient care burden of current manual, fragmented PA processes and recommends standardization, API connectivity, automation, and device manufacturer access to CMS APIs; and (2) the proposed Open Payments "failure to report" definition, where AdvaMed raises serious concerns about statutory authority overreach, inadequate IP/trade secret protections, lack of good faith negotiation procedures, insufficient contractor confidentiality obligations, and failure to protect privileged materials from CMP exposure.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** OPEN-PAYMENTS-CMP, GENERAL (DMEPOS PA RFI)
+- **Regulatory citations mentioned:** 42 C.F.R. § 403.902 (proposed "failure to report" definition); 42 C.F.R. § 403.912 (audit authority); 42 U.S.C. § 1320a-7h(a) and (b)(1)(A) (Open Payments statute); 45 C.F.R. §§ 160.402, 160.420, 160.422 (HIPAA enforcement); 45 C.F.R. § 5.65(d) (FOIA predisclosure); 91 Fed. Reg. 19890, 19985-19986
+- **Standards referenced:** FHIR-based APIs (referenced in context of industry pledge); CAQH Index Report 2024 (cited for ePA adoption statistics)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: DMEPOS PA – Current Burden on Patients and Providers**
+- **Provision ID:** GENERAL (DMEPOS PA RFI)
+- **Position:** Clarify/Modify
+- **Rationale:** Only 35% of medical plans have adopted electronic PA standards (2024 CAQH); 43% use payer-specific portals; 22% manual processes. Variation in documentation requirements across payers drives avoidable denials. Delayed authorization creates financial exposure for suppliers.
+- **Specific request:** Standardize documentation requirements and minimum data elements; require machine-readable PA rules; require clear actionable denial reasons; define service-level expectations for payer response times.
+
+**Topic 2: DMEPOS PA – Automation and Technology Benefits**
+- **Provision ID:** GENERAL (DMEPOS PA RFI)
+- **Position:** Support
+- **Rationale:** Automation can address gaps through: automated PAR requirement identification; real-time completeness checks; structured documentation exchange; real-time status visibility; reduction of avoidable denials from incomplete submissions.
+- **Specific request:** Support broader adoption of interoperability standards, API-based connectivity, and structured machine-readable policies. Reference June 2025 industry pledge for FHIR-based API standardization and expanded real-time approvals by 2027.
+
+**Topic 3: Technology Gaps in DMEPOS PA**
+- **Provision ID:** GENERAL (DMEPOS PA RFI)
+- **Position:** Clarify/Modify
+- **Rationale:** Technology does not address variation in payer policies, inconsistent clinical criteria, or fragmented accountability between ordering providers and suppliers. Web portals (partially electronic) increasing faster than fully electronic transactions, perpetuating data entry burdens.
+- **Specific request:** Define clear ownership across the PA workflow; better integrate utilization management tools into existing workflows; promote API-based connectivity.
+
+**Topic 4: Device Manufacturer Access to CMS APIs**
+- **Provision ID:** GENERAL
+- **Position:** Support (expanding access)
+- **Rationale:** CMS PA API policies currently address only payer and provider roles. Device manufacturers provide PA support services, have HIPAA-compliant processes to assist patients/providers, and are well positioned to reduce administrative burden through API access.
+- **Specific request:** CMS should provide a mechanism for medical device manufacturers and other third-party submitters to utilize CMS's patient access and prior authorization APIs to submit PA requests directly on behalf of providers.
+
+**Topic 5: DMEPOS PA – Healthcare Workforce Impact**
+- **Provision ID:** GENERAL (DMEPOS PA RFI)
+- **Position:** Clarify/Modify
+- **Rationale:** Manual, fragmented PA workflows contribute to burnout through repetitive tasks, frequent policy changes requiring ongoing retraining. U.S. Surgeon General Advisory identified PA as a contributor to health worker burnout.
+- **Specific request:** Standardization, automation, and reduced variation in DMEPOS PA would advance Administration's health workforce goals.
+
+**Topic 6: Open Payments – Trade Secret/IP Protection**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose/Modify
+- **Rationale:** Audit documentation may contain highly sensitive trade secrets. FOIA requests could expose materials to competitors. Loss of trade secrets cannot be measured in money damages (irreparable). CMP of ~$1.16M per entity highly disproportionate to trade secret risk.
+- **Specific request:** Acknowledge audit documents may be subject to FOIA; follow 45 C.F.R. § 5.65(d) predisclosure notification and FOIA Exemption 4 procedures; commit that audit documentation will not be used for other enforcement or prosecution.
+
+**Topic 7: Open Payments – Contractor Confidentiality Obligations**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose/Modify
+- **Rationale:** "HHS, CMS, OIG or their designees" may conduct audits. Companies have concerns about disclosure and handling of proprietary business information by third-party contractors.
+- **Specific request:** Clarify what contractual/regulatory protections bind designees handling audit materials; ensure designees subject to confidentiality obligations no less protective than those applicable to CMS itself.
+
+**Topic 8: Open Payments – Statutory Authority for CMP on Audit Non-Compliance**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose/Modify
+- **Rationale:** CMS claims § 1128G(b)(1)(A) authorizes CMPs for audit non-compliance, but that section only authorizes CMPs for failure to submit transparency reporting (not audit compliance). CMS's audit authority derives solely from its own regulations. Expanding "failure to report" to audit non-compliance may exceed Congressional intent.
+- **Specific request:** CMS should confirm and clarify the legal basis for extending CMP authority to audit non-compliance.
+
+**Topic 9: Open Payments – Good Faith Negotiations**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose/Modify
+- **Rationale:** Proposed definition grants CMS unilateral authority to impose CMPs within 30 days with no pre-penalty dispute resolution. Contrasts unfavorably with HIPAA enforcement which provides established procedural safeguards and subpoena processes.
+- **Specific request:** Distinguish between outright refusal to participate and good faith cooperation; toll 30-day deadline during good faith cooperation and scope negotiations.
+
+**Topic 10: Open Payments – Privileged Materials**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose/Modify
+- **Rationale:** The proposed definition would treat withholding of privileged materials (attorney-client privilege, work-product protection) as "failure to report" subject to CMPs.
+- **Specific request:** Final rule should expressly exclude privileged and legally protected materials from "failure to report" definition.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S57 (define "timely" for Open Payments):** Urges 30-day deadline be tolled during good faith negotiations; good faith cooperation should not be equated with "failure to report."
+- **S58 (CMP amounts):** Notes ~$1.16M per-entity CMP exposure is highly disproportionate to risk of trade secret loss; CMP framework disproportionate.
+- **S59 (due process):** Addresses due process directly: no pre-penalty dispute resolution; no mechanism to challenge scope before CMPs imposed; contrasts with HIPAA enforcement; urges good faith negotiation tolling and explicit privilege protections.
+- **S79/S80 (DMEPOS PA RFI):** Extensive response: current burdens (35% electronic adoption), improvement opportunities, automation benefits, technology gaps, workforce impacts, and request for device manufacturer API access.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Standardize DMEPOS PA documentation requirements and minimum data elements across payers; require machine-readable PA rules.
+2. Require payers to provide clear, actionable denial reasons for DMEPOS PA.
+3. Define service-level expectations for payer response times for DMEPOS PA.
+4. Promote interoperability standards and API-based connectivity for DMEPOS PA; define clear ownership across the PA workflow.
+5. Provide mechanism for medical device manufacturers and other third-party submitters to access CMS patient access and prior authorization APIs for PA submissions on behalf of providers.
+6. Address DMEPOS PA standardization and automation to support clinician well-being and Administration workforce goals.
+7. (Open Payments) Acknowledge audit documents may be subject to FOIA; follow 45 C.F.R. § 5.65(d) predisclosure notification and FOIA Exemption 4 procedures.
+8. (Open Payments) Commit that audit documentation will not be used for other enforcement or prosecution.
+9. (Open Payments) Clarify what contractual and regulatory protections bind designees/contractors handling audit materials.
+10. (Open Payments) Confirm and clarify statutory legal basis for extending CMP authority to audit non-compliance.
+11. (Open Payments) Create mechanism for good faith negotiations before CMPs imposed; toll 30-day deadline during good faith cooperation and scope negotiations.
+12. (Open Payments) Expressly exclude privileged and legally protected materials from "failure to report" definition.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Open Payments "failure to report" definition is legally overreaching and fails to protect trade secrets, privileged materials, and good faith cooperation; DMEPOS PA process is predominantly manual, fragmented, and burdensome due to lack of standardization and API connectivity.
+- **Potential negative impacts cited:** FOIA exposure could expose trade secrets to competitors; loss of trade secrets irreparable (court precedent cited); CMP of ~$1.16M per entity disproportionate to trade secret risk; only 35% of medical plans have adopted electronic PA standards (2024 CAQH).
+- **Implementation barriers mentioned:** Fragmented accountability between ordering providers and DMEPOS suppliers; no clear ownership structure; increased portal use perpetuating data entry burdens; lab benefit managers not integrated into clinical workflows.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 2024 CAQH Index Report: 35% electronic PA adoption, 43% payer-specific portal, 22% manual; ~$1.16M estimated CMP per non-compliant entity per audit cycle (CMS's proposed methodology, 3-year lookback).
+- **Studies or research referenced:** U.S. Surgeon General Advisory on Health Worker Burnout (HHS, 2022); CAQH 2024 Index Report; June 2025 industry pledge (HHS Secretary Kennedy / CMS Administrator Oz); Open Payments Original Final Rule (78 Fed. Reg. 9458).
+- **Examples provided:** Court cases on irreparable trade secret loss (N. Atl. Instruments v. Haber; FMC Corp. v. Varco Int'l; Norbrook Labs v. G.C. Hanford); HIPAA enforcement procedural safeguards as favorable contrast.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medical device manufacturers (AdvaMed members including hundreds of small companies with fewer than 20 employees), DMEPOS suppliers, ordering clinicians, patients needing mobility/respiratory/chronic disease management devices, healthcare workers facing burnout
+- **Economic implications:** Significant administrative burden on DMEPOS suppliers; financial exposure from dispensing without authorization; CMP disproportionate vs. irreparable trade secret loss; API connectivity implementation costs
+- **Technical feasibility:** API-based connectivity for DMEPOS feasible but requires standardization; 65% of plans still using portals or manual; device manufacturer API access needs mechanism; FHIR-based APIs endorsed via June 2025 industry pledge
+- **Patient care impact:** DMEPOS PA delays particularly harmful for mobility, respiratory, chronic disease management; automation improves access; manufacturer API access reduces provider burden enabling faster PA
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of interoperability/automation goals; strongly opposed to Open Payments CMP definition as drafted)
+- **Tone:** Technical, Critical (Open Payments); Collaborative (DMEPOS PA)
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Courts have recognized, for example, that the 'loss of trade secrets cannot be measured in money damages' because a 'trade secret once lost is, of course, lost forever.'" - Context: On the disproportionate risk from Open Payments audit document FOIA exposure.
+
+2. "AdvaMed respectfully submits that expanding the definition of 'failure to report' to encompass an entity's failure to produce documents in response to an audit request may extend the CMP authority beyond the scope Congress intended." - Context: Statutory authority challenge to the proposed Open Payments definition.
+
+3. "Medical device manufacturers offering prior authorization support services are well positioned to leverage these APIs to reduce administrative burden on providers and improve patient access to medically necessary items." - Context: Requesting CMS provide API access mechanism for device manufacturers.
+
+4. "Manual, fragmented prior authorization workflows contribute directly to burnout across provider, supplier, and payer teams." - Context: Describing workforce impact of current DMEPOS PA processes.
+
+---
+
+## 12. THEMES
+
+- [ ] **IMPLEMENTATION-TIMELINE** - Not a primary concern.
+
+- [x] **COST-RESOURCES** - Financial exposure from DMEPOS dispensing without authorization; CMP disproportionate to trade secret risk; administrative burden of manual PA workflows for suppliers.
+
+- [x] **PROVIDER-BURDEN** - Core DMEPOS theme: manual, fragmented workflows; policy variation requiring ongoing retraining; burnout from PA administrative burden. Surgeon General advisory cited.
+
+- [x] **PRIVACY-SECURITY** - Open Payments section: trade secret/IP protection from FOIA exposure; contractor confidentiality obligations; privilege protection; confidentiality safeguards for audit materials.
+
+- [ ] **HEALTH-EQUITY** - Not specifically addressed.
+
+- [x] **TECHNICAL-FEASIBILITY** - Automation and API connectivity for DMEPOS feasible but requires standardization; only 35% electronic adoption; web portals perpetuating burdens; device manufacturer API access needed.
+
+- [ ] **STANDARDS-MATURITY** - Not specifically addressed for FHIR/NCPDP standards.
+
+- [x] **PATIENT-ACCESS** - DMEPOS PA delays impede access to mobility, respiratory, chronic disease management items; automation and manufacturer API access would improve access.
+
+- [x] **REGULATORY-AUTHORITY** - Open Payments: substantial statutory authority challenge to CMP extension to audit non-compliance; argues overreach of Congressional intent.
+
+- [x] **STAKEHOLDER-COORDINATION** - References June 2025 industry pledge; requests device manufacturer API access; notes coordination challenge between ordering providers and DMEPOS suppliers.
+
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+
+- [x] **TRANSPARENCY** - Supports payer transparency on PA requirements and denial reasons; machine-readable PA rules; real-time status visibility; calls for CMS transparency on FOIA/trade secret protections.
+
+- [x] **SMALL-PAYER-IMPACT** - Mentions hundreds of AdvaMed member companies with fewer than 20 employees; CMP disproportionate risk noted particularly for smaller manufacturers.
+
+- [x] **EXISTING-WORKFLOWS** - Fragmented systems not electronically aligned; unclear ownership between ordering provider and DMEPOS supplier; web portals perpetuating data entry burdens; lab benefit managers not integrated.
+
+- [x] **VENDOR-ECOSYSTEM** - Device manufacturer role in PA process unaddressed by current API framework; requests third-party submitter access; references industry pledge for FHIR-based API standardization.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+
+By Electronic Submission via www.regulations.gov
+
+Dr. Mehmet Oz
+Administrator of the Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD, 21244-8013
+
+Re: CMS-0062-P: Request for Information (RFI) in Proposed Rule: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs...
+
+The Advanced Medical Technology Association (AdvaMed) DME Work Group appreciates the opportunity to respond to the Request for Information (RFI) within the "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges" Proposed Rule, published by the Centers for Medicare & Medicaid Services (CMS) at 91 Fed. Reg. 19890 (April 14, 2026)...

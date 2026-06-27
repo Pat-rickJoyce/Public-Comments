@@ -1,0 +1,163 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0273_20260616064744_2e3d9b5e
+Commenter: The Oncology Nursing Society (ONS)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 13:44:54
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** The Oncology Nursing Society (ONS)
+- **Stakeholder type:** Professional Association / Healthcare Provider
+- **Credentials or expertise mentioned:** Represents more than 100,000 oncology nurses nationwide and is the professional home to more than 35,000 members; provides oncology nursing education, treatment information, and patient-care advocacy.
+
+## 2. EXECUTIVE SUMMARY
+
+ONS supports CMS and ONC efforts to modernize prior authorization, improve transparency, update health IT standards, report API endpoints and usage metrics, and adopt HL7 FHIR standards for prior authorization transactions. Its main modification requests are to close gaps between medical and pharmacy benefit workflows, require 24-hour PA decisions for cancer drugs, retain formulary information in Access APIs, streamline step therapy, and extend interoperability improvements to oncology-related laboratory tests and DMEPOS.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** Not addressed by CFR citation.
+- **Standards referenced:** HL7 FHIR; Prior Authorization API; Patient Access API; Provider Access API; Payer-to-Payer API; Provider Directory API; health IT standards; implementation specifications.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs Across Benefit Structures**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Oncology therapies and supportive medications may move between medical and pharmacy benefits based on formulation, route, site of care, specialty pharmacy distribution, white bagging, and payer design.
+- **Specific request:** Develop a seamless interoperability framework that gives clinicians consolidated access to coverage, documentation, PA criteria, step therapy, and utilization management requirements across formulations and benefit structures.
+
+**Topic 2: Denial Reasons, Metrics, and Cancer Drug Timeframes**
+- **Provision ID:** PA-DENIAL-REASONS / PA-TIMEFRAMES-DRUGS / API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Specific denial reasons and public metrics help oncology teams address coverage barriers; cancer treatment is time-sensitive and delays can disrupt treatment planning.
+- **Specific request:** Require specific denial reasons, public PA metrics, inclusion of Part A cancer drugs where PA applies, and a 24-hour PA decision timeframe for cancer drugs regardless of benefit category.
+
+**Topic 3: Access APIs and Formulary Information**
+- **Provision ID:** FHIR-IG-REQUIRED / API-USAGE-METRICS
+- **Position:** Support / Oppose
+- **Rationale:** ONS supports adding drug PA requests and decisions to Patient Access, Provider Access, and Payer-to-Payer APIs and reporting aggregated de-identified API metrics, but formulary data is essential for oncology care coordination.
+- **Specific request:** Retain drug formulary information in the Provider Access and Payer-to-Payer APIs and improve standardization and usability of formulary and utilization management data.
+
+**Topic 4: Step Therapy Continuity and Automation Guardrails**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Repeated step therapy after a payer transition can delay medically necessary cancer care, while automation should not replace clinician judgment in complex oncology decisions.
+- **Specific request:** Use claims, encounter, and clinical data to recognize prior step therapy determinations; provide transparent guideline-aligned criteria and exception processes; maintain human clinical review for complex oncology care.
+
+**Topic 5: Laboratory Tests and DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Molecular diagnostics, biomarker testing, genetic testing, DMEPOS, and supportive-care supplies are essential to diagnosis, treatment selection, discharge, recovery, and treatment adherence in oncology.
+- **Specific request:** Streamline PA for oncology-related labs and DMEPOS, reduce redundant documentation, and improve coordination among providers, laboratories, suppliers, and payers.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** ONS identifies a technical/workflow challenge for drug PA: medical and pharmacy benefit systems are fragmented and do not provide unified access to requirements for all formulations of a medication.
+- **S15:** ONS directly addresses the medical-versus-pharmacy distinction and asks CMS/ONC to support consolidated benefit-spanning information for oncology medications.
+- **S16:** ONS supports requiring specific reasons for drug PA denials so oncology providers can resolve barriers and avoid delays.
+- **S20:** ONS asks CMS to require a 24-hour decision timeframe for cancer drugs regardless of whether the drug is covered under the medical or pharmacy benefit.
+- **S21:** ONS supports the October 1, 2027 implementation date for medical-benefit drug ePA but asks for policies that address cross-benefit realities.
+- **S23-S24:** ONS supports reporting API endpoints and technical information to CMS, although it does not propose detailed endpoint-reporting content.
+- **S29-S35:** ONS supports Patient Access API usage reporting and aggregated, de-identified metrics for Provider Access, Payer-to-Payer, and Prior Authorization APIs beginning with 2027 data reported in 2028; it also requests cancer Part A drug PA metrics.
+- **S37:** ONS describes implementation challenges caused by fragmented oncology benefit structures, formulary data gaps, and utilization management workflows.
+- **S44-S45:** ONS supports adopting HL7 FHIR standards and implementation specifications for prior authorization transactions across HIPAA-covered entities.
+- **S66-S82:** ONS responds to general RFIs on step therapy, laboratory tests, and DMEPOS by urging continuity of prior determinations, transparency, automation guardrails, and streamlined PA processes.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize requirements for electronic prior authorization for medical-benefit drugs.
+2. Develop a unified framework for coverage and documentation requirements across medical and pharmacy benefit structures.
+3. Require specific reasons for drug PA denials across affected Medicaid, CHIP, and QHP entities.
+4. Publicly report PA metrics for drugs and include Part A cancer drugs where PA applies.
+5. Require all impacted payers to meet a 24-hour PA decision timeframe for cancer drugs.
+6. Add drug PA request and decision information to Patient Access, Provider Access, and Payer-to-Payer APIs.
+7. Retain formulary information in Provider Access and Payer-to-Payer APIs.
+8. Use interoperability to recognize prior step therapy determinations when patients change plans.
+9. Preserve clinician judgment and human review for complex oncology utilization management.
+10. Streamline PA and reduce redundant documentation for oncology laboratory tests and DMEPOS.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmented medical/pharmacy benefit systems, lack of unified coverage information, cancer treatment delays, removal of formulary data from APIs, repeated step therapy, and PA barriers for labs and DMEPOS.
+- **Potential negative impacts cited:** Missed treatment windows, disease progression, increased symptom burden, diminished quality of life, patient anxiety, delayed discharge or treatment, added financial stress, and diverted nursing time.
+- **Implementation barriers mentioned:** Separate benefit systems, inconsistent payer policies, specialty pharmacy and white-bagging arrangements, site-of-care restrictions, formulary data gaps, and redundant documentation requirements.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ONS represents more than 100,000 oncology nurses and more than 35,000 members.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Infused versus oral or subcutaneous cancer therapies; specialty pharmacy distribution; white bagging; site-of-care restrictions; repeated step therapy after payer transitions; molecular diagnostics, biomarker testing, genetic testing, compression garments, feeding supplies, mobility aids, oxygen, wound care, suction setups, and tracheostomy supplies.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with cancer, oncology nurses, oncology providers, payers, pharmacies, laboratories, suppliers, states, QHP issuers, MA organizations, and health IT stakeholders.
+- **Economic implications:** ONS does not quantify costs but links delays and redundant PA work to increased utilization, avoidable administrative burden, and patient financial stress.
+- **Technical feasibility:** ONS views interoperability as necessary and beneficial but incomplete unless standards support cross-benefit formulary, coverage, PA, step therapy, and utilization management data.
+- **Patient care impact:** High; recommended changes would support faster treatment decisions, continuity of care, safer discharge, reduced delays, and better access to cancer therapies and supportive services.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "ONS supports efforts ... to modernize prior authorization processes, expand interoperability, and improve transparency." - Context: Overall support for the proposed rule.
+2. "there is currently no unified standard or mechanism" - Context: ONS's central concern about fragmented medical and pharmacy benefit workflows.
+3. "all impacted payers should be required to adhere to a 24-hour prior authorization decision timeframe for cancer drugs" - Context: Recommended cancer-drug PA timeframe.
+4. "Technology should be used to facilitate administrative processes ... but should not replace clinician judgment" - Context: Guardrails for automation in oncology utilization management.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ONS supports October 1, 2027 and 2028 reporting dates while emphasizing time-sensitive cancer care and 24-hour decisions.
+- [x] **PROVIDER-BURDEN** - The comment repeatedly describes administrative burden on oncology nurses and care teams.
+- [x] **TECHNICAL-FEASIBILITY** - ONS supports FHIR/API-based exchange but says current fragmented systems need more integrated cross-benefit functionality.
+- [x] **STANDARDS-MATURITY** - ONS supports HL7 FHIR adoption and asks for better standardization of formulary and utilization management data.
+- [x] **PATIENT-ACCESS** - The comment centers on timely cancer therapy, diagnostics, DMEPOS, and supportive care access.
+- [x] **STAKEHOLDER-COORDINATION** - ONS asks CMS and ONC to work with industry stakeholders, providers, laboratories, suppliers, and payers.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - This is one of the comment's core themes, especially for oncology drugs with multiple formulations.
+- [x] **TRANSPARENCY** - ONS supports denial reasons, public metrics, formulary data retention, and transparent step therapy criteria.
+- [x] **EXISTING-WORKFLOWS** - The comment identifies current PA, step therapy, pharmacy distribution, and documentation workflows that fragment oncology care.
+- [x] **VENDOR-ECOSYSTEM** - The requested API and standards improvements would affect EHR, payer, and interoperability vendors.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 9, 2026 
+ 
+Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+200 Independence Avenue, SW 
+Washington, DC 20201 
+ 
+Thomas Keane, MD, MBA 
+National Coordinator for Health Information Technology 
+Office of the National Coordinator for Health Information Technology 
+330 C Street SW 
+Washington, DC 20201 
+ 
+Submitted electronically via www.regulations.gov   
+  
+Re: Interoperability Standards and Prior Authorization for Drugs Proposed Rule 
+ 
+Dear Administrator Oz and Coordinator Keane: 
+ 
+Oncology nurses are privileged to support people with cancer through their entire cancer experience, from 
+diagnosis and treatment into survivorship or as they face their end-of-life journey. On behalf of the Oncology 
+Nursing Society (ONS), which represents more than 100,000 oncology nurses nationwide, we appreciate the 
+opportunity to comment on the aforementioned proposed rule.  
+General Comments 
+ONS supports efforts by the Centers for Medicare and Medicaid Services (CMS) and the Office of the National 
+Coordinator for Health IT (ONC) to modernize prior authorization processes, expand interoperability, and 
+improve transparency. Specifically, we support proposals that would require impacted payers to support 
+electronic prior authorization and make decisions within shorter, aligned timeframes across CMS programs, 
+as well as increase transparency for the prior authorization of drugs by requiring denial reasons and reporting 
+on key metrics. We also support requirements for impacted payers to update health information technology...

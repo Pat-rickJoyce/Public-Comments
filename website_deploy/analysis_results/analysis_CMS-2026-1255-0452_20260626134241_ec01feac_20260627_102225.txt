@@ -1,0 +1,178 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0452
+Commenter: American College of Medical Genetics and Genomics (ACMG)
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:25
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American College of Medical Genetics and Genomics (ACMG); signed by Mira B. Irons, MD, FACMG, President
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Founded 1991; only nationally recognized medical professional organization solely dedicated to medical genetics and genomics; represents 2,500+ clinical and laboratory geneticists, genetic counselors, and other healthcare professionals; represents both clinicians and laboratory professionals
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+ACMG supports CMS's proposed expansion of electronic prior authorization to all drugs and the broader effort to make the PA process faster, more transparent, and more uniform, while urging further improvements specific to laboratory and genetic testing. The organization responds in detail to the Lab/DMEPOS RFI, advocating for standardized test requisition forms, elimination of post-specimen-collection denial rules, and PA process automation, and raises concerns about workforce burnout driven by PA administrative burden.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL (general electronic PA support), PA-DENIAL-REASONS (transparency in denials), GENERAL (lab/DMEPOS RFI response)
+- **Regulatory citations mentioned:** CLIA regulations (CDC, 2009)
+- **Standards referenced:** Electronic prior authorization (ePA); FHIR (general); test requisition forms (TRFs); CLIA regulations
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: General Support for Electronic PA Expansion**
+- **Provision ID:** PA-DRUG-MEDICAL, GENERAL
+- **Position:** Support
+- **Rationale:** Electronic PA improvements will set a standard for other payers; will improve timeliness, access, and uniformity of PA for people with genetic conditions, especially rare genetic disorders. Most PA denials in medical genetics are reversed on appeal, indicating the process needs more transparency and standardization.
+- **Specific request:** Expand ePA requirements to all drugs; improve interoperability across payers, healthcare professionals, and patients; go further with increased clarity for rare disorder testing requirements and transparency in denial decisions.
+
+**Topic 2: PA Transparency and Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** PA criteria are "often shrouded in secrecy," preventing patients and clinicians from understanding denials. In medical genetics, most denials are reversed on appeal, indicating transparency would reduce appeal burden.
+- **Specific request:** Greater transparency and standardization in criteria; require option to speak with a knowledgeable human customer service representative (not just phone trees).
+
+**Topic 3: Lab Testing PA Burden and Impact (RFI Response)**
+- **Provision ID:** GENERAL (Lab/DMEPOS RFI)
+- **Position:** Modify/Clarify
+- **Rationale:** PA for genomic laboratory testing is a costly bottleneck; process is payer-dependent. 40% of NGS cases require PA with average 22-day delay; approximately 30% of patients with guideline-indicated germline testing denied coverage.
+- **Specific request:** Streamline PA across payers; standardize TRFs with enhanced documentation (signs/symptoms, prior testing, comorbidities, treatment intent, provider attestation); broader TRF acceptance to reduce burden and diagnostic delays.
+
+**Topic 4: Test Requisition Form (TRF) Standardization**
+- **Provision ID:** GENERAL (Lab/DMEPOS RFI)
+- **Position:** Modify
+- **Rationale:** Enhanced TRFs can strengthen medical necessity documentation; structured TRFs independently improve guideline conformity; laboratory TRF review saved $1.5M over two years.
+- **Specific request:** Standardize and enhance TRFs; pursue broader acceptance by MACs, MA plans, and non-Medicare payers as valid medical necessity documentation.
+
+**Topic 5: Post-Specimen-Collection PA Denial Problem**
+- **Provision ID:** GENERAL (Lab/DMEPOS RFI)
+- **Position:** Modify
+- **Rationale:** PA responses frequently take weeks to months; specimen collection necessarily occurs before decision is rendered; creates automatic denial basis regardless of documented medical necessity.
+- **Specific request:** Eliminate automatic denials based solely on pre-collection PA status; address timing mismatch for advanced diagnostics.
+
+**Topic 6: Laboratory Benefit Managers (LBMs)**
+- **Provision ID:** GENERAL (Lab/DMEPOS RFI)
+- **Position:** Concerned/Skeptical
+- **Rationale:** LBMs not routinely employed at all sites; limited data on benefits; network restrictions can direct specimens to preferred laboratories without patient knowledge; 5.9% of commercially insured patients face out-of-network lab bills.
+- **Specific request:** No specific recommendation; notes limited evidence base and potential patient harms.
+
+**Topic 7: Healthcare Workforce and Burnout**
+- **Provision ID:** GENERAL
+- **Position:** Concerned
+- **Rationale:** PA administrative burden contributes to healthcare professional dissatisfaction and burnout; physicians citing PA as reason for earlier retirement per AMA surveys.
+- **Specific request:** Reduce administrative burden through automation and standardization to address workforce retention.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12 (technical challenges for medical benefit drug PA):** Supports ePA expansion; notes PA for genomic testing is a costly bottleneck requiring different procedures per payer; advocates for fast-tracking and automation.
+- **S16-S17 (specific denial reasons):** Supports transparency; notes most medical genetics PA denials reversed on appeal indicating criteria are poorly communicated; criteria are "often shrouded in secrecy."
+- **S71 (Lab/DMEPOS PA RFI):** Detailed response: 40% of NGS cases require PA with 22-day average delay; 30% denial rate for guideline-indicated germline testing; advocates for enhanced and standardized TRFs; addresses post-specimen-collection denial problem; evaluates LBMs skeptically; discusses workforce burnout.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Expand ePA requirements to all drugs and support broader interoperability.
+2. Increase transparency and standardization in PA criteria, particularly for rare genetic disorders.
+3. Require payers to provide access to a knowledgeable human customer service representative.
+4. Standardize and enhance TRFs to capture comprehensive clinical context.
+5. Pursue broader TRF acceptance by MACs, MA plans, and non-Medicare payers.
+6. Address timing mismatch between PA decision timelines and specimen collection for advanced diagnostics.
+7. Evaluate and address LBM network restriction practices.
+8. Streamline and automate PA process across payers.
+9. Prioritize PA burden reduction as a workforce retention strategy.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA for genomic laboratory testing is a severe bottleneck; criteria shrouded in secrecy; most denials reversed on appeal; post-specimen-collection denial creates automatic barriers.
+- **Potential negative impacts cited:** 22-day average delay for NGS cases; approximately 30% denial rate for guideline-indicated germline testing; physician burnout driving earlier retirement; 5.9% of commercially insured patients facing out-of-network lab bills from LBM restrictions.
+- **Implementation barriers mentioned:** Payer-specific workflows requiring different procedures per payer; limited automation literature; variability in TRF quality; coverage decisions lagging behind technological advances.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 40% of NGS cases require PA with average 22-day delay (Choradia et al., 2026); approximately 30% of patients with guideline-indicated germline genetic testing denied (Vaccari et al., 2025 ASCO); lab TRF review saved $1.5M over two years (Riley et al., 2015); 5.9% of commercially insured patients receive out-of-network lab bills with mean $81 balance bills (Sen et al., 2021)
+- **Studies or research referenced:** Murphy et al., American Journal of Medicine (2025); Chen et al., JAMA Network Open (2025); Daucourt et al. (2003); van Walraven & Naylor (1998); Day-Storms et al. (2021); Klein (2020); Sireci et al. (2020); Ferraro & Panteghini (2017); Gupta et al. (2024); Schwartz et al. (2022); AMA National Physician Burnout Survey (May 2025); AMA 2024 Prior Authorization Physician Survey
+- **Examples provided:** Medical genetics PA denials largely reversed on appeal; post-collection denials despite documented medical necessity; physician burnout driving earlier retirement
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with rare genetic disorders; clinical and laboratory geneticists; genetic counselors; ordering clinicians; clinical laboratories; payers; healthcare workforce
+- **Economic implications:** 22-day average delay for NGS; $1.5M saved by TRF-based review over 2 years; unexpected patient balance bills from LBM restrictions; physician burnout creating workforce costs
+- **Technical feasibility:** Notes paucity of automation literature; TRF standardization requires cross-payer coordination; CLIA regulations already mandate TRF elements that could be leveraged
+- **Patient care impact:** Very high for patients with rare genetic disorders; diagnostic delays risk disease exacerbation and preventable hospitalizations; 30% denial rate for guideline-indicated germline testing creates serious access barriers
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of rule direction with significant additional requests)
+- **Tone:** Professional, technical, evidence-based, collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "In the field of medical genetics, most denials are reversed on appeal, which indicates that more transparency and standardization in the criteria is needed so that physicians and their teams can provide the needed information the first time." — Context: Supporting denial transparency requirements.
+2. "Prior authorization for laboratory services delays diagnostic workups, risks patient harm, and adds administrative burden, particularly as PA expands into advanced genetic testing." — Context: Describing PA impact on lab services.
+3. "The burden to 'prove' the medical necessity is often not based on what is best for the patient, requiring ordering healthcare professionals to try to guess what the payor is thinking to get the appropriate care for the patient." — Context: Describing payer-specific, opaque PA requirements for lab testing.
+4. "These issues as they exist are contributing to a disproportionate emphasis on administrative resources on existing skilled healthcare professions... with physicians citing this as a reason for earlier retirement." — Context: Workforce burnout driven by PA burden.
+
+---
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** — Central theme; PA for genomic testing is payer-specific and extremely burdensome; most denials reversed on appeal; contributes to physician burnout and earlier retirement.
+- [x] **PATIENT-ACCESS** — Diagnostic delays (22-day average for NGS) and 30% denial rates for guideline-indicated genetic testing create serious barriers; post-collection denials create automatic barriers despite medical necessity.
+- [x] **TRANSPARENCY** — PA criteria "shrouded in secrecy"; supports specific denial reasons; advocates for standardized TRFs with transparent clinical documentation requirements.
+- [x] **TECHNICAL-FEASIBILITY** — Notes paucity of automation literature; TRF standardization requires cross-payer coordination; CLIA regulations already mandate TRF elements that could be leveraged.
+- [x] **EXISTING-WORKFLOWS** — Post-specimen-collection timing mismatch is a structural problem; payer-specific procedures create workflow fragmentation.
+- [x] **STAKEHOLDER-COORDINATION** — Urges cross-payer standardization of TRFs and PA criteria; variability in PA criteria across payers compounds burden for labs and ordering clinicians.
+- [x] **COST-RESOURCES** — Administrative burden is costly and not reimbursable; TRF-based review saved $1.5M over 2 years while improving appropriateness.
+- [x] **HEALTH-EQUITY** — Disproportionate impact on patients with rare genetic disorders; coverage decisions lag behind technological advances creating access barriers for molecular diagnostics.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Dr. Mehmet Oz, Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+200 Independence Avenue, SW
+Washington, DC 20001
+
+Re: CMS Proposed Rule – Medicare and Medicaid Programs; Patient
+Protection and Affordable Care Act; Interoperability Standards and Prior
+Authorization for Drugs for Medicare Advantage Organizations, Medicaid
+Managed Care Plans, State Medicaid Agencies, Children's Health Insurance
+Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of
+Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P]
+
+Dear Dr. Oz:
+
+The American College of Medical Genetics and Genomics (ACMG) appreciates the opportunity to review
+and provide feedback on CMS's proposed rule on prior authorization and the accompanying Request for
+Information [CMS-0062-P]. As a medical association representing both clinicians and laboratory
+professionals, we are acutely aware of the burdens associated with prior authorization (PA) overuse,
+non-streamlined paperwork requirements, and lengthy timeframes for decisions. These issues not only
+delay or impede patient access to care but also require healthcare professionals to spend added time on
+paperwork instead of patient care....

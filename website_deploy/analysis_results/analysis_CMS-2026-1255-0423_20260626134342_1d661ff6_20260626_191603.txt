@@ -1,0 +1,277 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0423_20260626134342_1d661ff6
+Commenter: American Academy of Family Physicians (AAFP)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 19:16:03
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Family Physicians (AAFP); signed by Jen Brull, MD, FAAFP, Board Chair.
+- **Stakeholder type:** Professional Association; Healthcare Provider association.
+- **Credentials or expertise mentioned:** AAFP represents 124,500 physicians and medical students nationally and is the leading U.S. organization dedicated to family medicine. It states family physicians serve as primary and continuous sources of care for many Medicare and Medicaid beneficiaries.
+
+## 2. EXECUTIVE SUMMARY
+
+AAFP strongly supports CMS and ONC efforts to expand interoperability and prior authorization reforms to medications, including required FHIR Da Vinci IGs, NCPDP standards, faster decision timeframes, payer transparency, and endpoint reporting. It urges substantial modifications: broader PA volume reduction, standardized clinical criteria, denial and appeal transparency, automatic approval for missed deadlines, small-practice support, real-world testing before mandatory compliance, careful HIPAA transition from X12 to FHIR, and proactive payer/API enforcement.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; FF-SHOP-REQUIREMENTS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; STATE-EXTENSION-PROCESS; OPEN-PAYMENTS-CMP; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** HIPAA Administrative Simplification standards; 45 CFR 170.315(g)(31)-(g)(33) by implication through ONC certification discussion; Open Payments CMP authority; hospital Conditions of Participation; CMS-0053-F; CMS-0062-P. No specific PA CFR sections are quoted in the comment.
+- **Standards referenced:** HL7 FHIR R4.0.1; US Core IG STU 6.1.0; SMART App Launch IG 2.0.0; Da Vinci CRD IG 2.2.1; DTR IG 2.2.0; PAS IG 2.2.1; CDex IG 2.1.0; CARIN IG for Blue Button; PDex; PDex Plan Net; NCPDP SCRIPT; NCPDP Formulary & Benefit; NCPDP Real-Time Prescription Benefit; X12N 278; X12 6020; C-CDA; NDH IG Endpoint Profile; HL7 v2; USCDI; LOINC; FHIR ServiceRequest; Da Vinci Attribution List IG; Inferno; TEFCA; HIEs/HDUs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Required interoperability standards and API alignment**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Support with modifications
+- **Rationale:** Standardized FHIR APIs and required IGs can reduce fragmentation, but benefits depend on synchronized payer/vendor implementation, testing, and workflow integration.
+- **Specific request:** Require consistent timelines across exchange partners, readiness validation, ONC coordination, vendor accountability, and no physician liability for failures caused by vendors, clearinghouses, or external systems.
+
+**Topic 2: Medical benefit drug ePA through Prior Authorization API**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Drug PA is a substantial and growing share of family physician administrative burden, and phone/fax/portal workflows delay care.
+- **Specific request:** Finalize requirements applying consistently to all impacted payer types, including MA organizations, on a uniform timeline.
+
+**Topic 3: Pharmacy benefit drug standards**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support with monitoring
+- **Rationale:** Coordinated NCPDP standards for SCRIPT, Formulary & Benefit, and RTPB can make implementation predictable and reduce burden if all stakeholders align.
+- **Specific request:** Monitor readiness, provide targeted payer guidance, and ensure aligned implementation across all impacted payer types.
+
+**Topic 4: Extensions, exemptions, and exceptions**
+- **Provision ID:** STATE-EXTENSION-PROCESS; FF-SHOP-REQUIREMENTS
+- **Position:** Support with expectations
+- **Rationale:** Medicaid/CHIP agencies and small issuers may need implementation flexibility due to legacy systems and limited resources, but patient access goals must remain central.
+- **Specific request:** Pair extensions/exceptions with clear expectations, technical support, and ultimate compliance.
+
+**Topic 5: Denial transparency and appeals**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with stronger standards
+- **Rationale:** Opaque denials create resubmissions, administrative rework, appeal barriers, and delayed access.
+- **Specific request:** Require standardized machine-readable denial rationales, coverage criteria and evidence/formulary basis, a FHIR-native PAS appeal pathway, 24-hour expedited appeal responses when serious adverse outcomes are possible, and granular public reporting by drug category, demographic group, and plan type.
+
+**Topic 6: Decision timeframes and automatic approval**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with expansion
+- **Rationale:** Shorter standardized timelines reduce inequitable delays, but inconsistent payer standards create confusion and unequal access.
+- **Specific request:** Finalize 72-hour standard and 24-hour expedited drug PA timeframes, shorten Medicaid/CHIP FFS drug PA to 24 hours, extend equivalent standards to MA drug PA, and deem requests automatically approved when deadlines are missed.
+
+**Topic 7: Public PA metrics**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS
+- **Position:** Support with standardization
+- **Rationale:** Numeric counts, percentages, appeal outcomes, extension denials, and drug PA metrics will make payer behavior more visible.
+- **Specific request:** Publish standardized, centralized, machine-readable, comparable metrics by program, plan, contract, state, issuer, and relevant payer category.
+
+**Topic 8: FF-SHOP requirements**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** Expanding PA and interoperability requirements to FF-SHOP issuers improves consistency across payer types.
+- **Specific request:** Finalize the January 1, 2028 compliance date and allow reasonable exceptions only with clear paths to compliance.
+
+**Topic 9: API endpoint and documentation reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Centralized endpoint and documentation publication reduces integration barriers and supports developers, physicians, patients, and payers.
+- **Specific request:** Require endpoint resources, documentation URLs, one-week change updates, annual attestation, and standardized public access.
+
+**Topic 10: NDH IG alternative and directory modernization**
+- **Provision ID:** API-ENDPOINT-REPORTING; ONC-STANDARDS-UPDATE
+- **Position:** Clarify/Modify
+- **Rationale:** NDH IG may support long-term digital identity and directory modernization, but premature replacement of the primary endpoint proposal could create stale-data and burden problems.
+- **Specific request:** Do not finalize NDH IG as a replacement now; develop a phased, user-centered, TEFCA-aligned, multistakeholder strategy and consider an RFI on agentic AI governance in FHIR ecosystems.
+
+**Topic 11: Access APIs and API usage metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with expansion
+- **Rationale:** Metrics are needed to evaluate adoption and performance, but contract-level MA metrics and narrow API transaction counts are insufficient.
+- **Specific request:** Require MA plan- and contract-level reporting; add metrics on successful transaction rates, end-to-end completion, reductions in manual workflows, latency, response time, abandonment, data completeness, structured data, denial rationale completeness, clinician administrative time, and total PA requests/responses across modalities.
+
+**Topic 12: Drug formulary information**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support removal from specified APIs but seek continued formulary interoperability
+- **Rationale:** Requiring formulary data in Provider Access and Payer-to-Payer APIs may be duplicative, but real-time formulary information remains clinically important.
+- **Specific request:** Remove duplicative API requirements while advancing PDex US Drug Formulary, EHR-integrated formulary workflows, standardized update requirements, mid-year formulary change reporting, enrollee notice, and continuity-of-care protections.
+
+**Topic 13: Open Payments CMPs**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Support
+- **Rationale:** CMS needs clear authority to compel audit access and enforce timely reporting.
+- **Specific request:** Finalize the definition of failure to report and CMP authority for manufacturers/GPOs that fail to provide audit documents within 30 calendar days.
+
+**Topic 14: HIPAA PA standards transition from X12 to FHIR**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support in principle with phased transition
+- **Rationale:** FHIR better supports real-time EHR-embedded workflows than X12N 278, but mandatory HIPAA adoption affects all covered entities and must be tested in diverse settings.
+- **Specific request:** Require rigorous real-world testing, early guidance, vendor readiness milestones, certification lead time, continued X12N 278 and portal fallback until at least 75% sustained FHIR utilization, segmented adoption metrics, and semiannual public reporting.
+
+**Topic 15: ONC standard adoption and expiration**
+- **Provision ID:** ONC-STANDARDS-UPDATE; FHIR-IG-REQUIRED
+- **Position:** Support with readiness framework
+- **Rationale:** Da Vinci IGs are foundational, but primary care workflows require proven CRD/DTR integration and no abrupt standards replacement.
+- **Specific request:** Require EHR vendors to integrate CRD/DTR directly into ordering/prescribing workflows; validate IGs in primary care; pair expiration dates with utilization/readiness-based transition metrics, including lower-resourced practice settings.
+
+**Topic 16: Patient event notification RFIs**
+- **Provision ID:** GENERAL; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Event notifications can improve care coordination if timely, actionable, privacy-protected, pushed into workflows, and supported by standards, attribution, directories, and shared infrastructure.
+- **Specific request:** Advance FHIR/USCDI-based content, push notifications, clinically relevant ADT/referral/lab/imaging/medication fill data, HIE/HDU infrastructure, privacy safeguards, directory standardization, subscription capabilities, TEFCA coordination, and targeted assistance without creating excessive measures.
+
+**Topic 17: Payer API conformance, certification, and enforcement**
+- **Provision ID:** API-USAGE-METRICS; ONC-STANDARDS-UPDATE; GENERAL
+- **Position:** Support with sequencing
+- **Rationale:** Non-conformant payer APIs undermine interoperability and physician workflows.
+- **Specific request:** Establish conformance testing, public machine-readable test results, sandbox environments, end-to-end interoperability testing, re-testing after standards updates, and a phased path from testing to formal ONC certification only after real-world readiness.
+
+**Topic 18: Lab/DMEPOS and physician documentation burden**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** DMEPOS and laboratory PA requirements often delay needed care and should be aligned with clinical workflows.
+- **Specific request:** Reduce DMEPOS PA where denials are routinely overturned; allow structured TRFs using LOINC and FHIR ServiceRequest; require real-time lab PA before specimen collection; require drug PA documentation from existing FHIR EHR data; support small practices; guard against payer-inserted CDS without physician consent and transparency.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3:** AAFP supports making relevant IGs required and using updated/unexpired versions, but asks for real-world testing, synchronized timelines, and readiness-based transitions.
+- **S6:** AAFP supports required CARIN for Blue Button and related payer data exchange standardization as part of API modernization.
+- **S12:** AAFP supports medical benefit drug PA through the FHIR PA API and identifies implementation challenges for primary care and small practices.
+- **S14/S19/S22/S25:** AAFP supports NCPDP SCRIPT, Formulary & Benefit, and RTPB standards for pharmacy benefit drugs, while requesting readiness monitoring and technical guidance.
+- **S15:** AAFP supports the rule's dual medical/pharmacy pathway structure and coordinated standards, but stresses alignment to avoid duplicative workflows.
+- **S16/S17:** AAFP supports specific denial reasons and recommends standardized machine-readable rationales, coverage criteria, evidence/formulary basis, and electronic appeal workflows.
+- **S20/S43:** AAFP supports 72-hour standard and 24-hour expedited drug PA timeframes, shorter Medicaid/CHIP drug PA timelines, MA alignment, and automatic approval for missed deadlines.
+- **S21/S28:** AAFP supports applying drug ePA consistently across payer types and urges MA drug PA timeframe alignment.
+- **S23-S27:** AAFP supports centralized API endpoint and documentation reporting, one-week updates, annual attestations, and machine-readable publication; it prefers the primary endpoint approach now and recommends further NDH IG development.
+- **S29/S30/S34/S35:** AAFP supports aggregated, deidentified API usage metrics and recommends expanded measures of effectiveness, performance, data quality, clinician experience, and total PA volume across modalities, with CMS/ONC measurement coordination.
+- **S36/S38/S39:** AAFP supports state Medicaid/CHIP FFS extension pathways when paired with expectations, technical support, and patient access safeguards.
+- **S40-S42:** AAFP supports extending interoperability and PA requirements to FF-SHOP issuers with the January 1, 2028 deadline and reasonable but temporary exception processes.
+- **S44-S55:** AAFP supports FHIR as the direction for HIPAA PA standards, but calls for real-world testing, small-practice support, X12 coexistence, utilization thresholds, segmented metrics, vendor milestones, and public readiness reporting.
+- **S57-S59:** AAFP supports defining Open Payments failure to report and CMP authority for failure to provide audit records within 30 days.
+- **S60-S65:** AAFP supports Da Vinci, CDex, CARIN, PDex, and related ONC standard updates but requests primary-care validation, EHR integration, readiness/utilization criteria, and transition safeguards before older versions expire.
+- **S66-S82:** AAFP responds broadly to RFIs on patient event notifications, payer API implementation, certification, laboratory tests, DMEPOS, physician documentation burden, small practices, payer-inserted CDS, and enforcement.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize drug ePA requirements using FHIR Da Vinci IGs for medical benefit drugs and NCPDP standards for pharmacy benefit drugs.
+2. Pair ePA with broader PA volume reduction, standardized clinical criteria, and independent review of PA appropriateness.
+3. Require real-world testing of Da Vinci IGs in primary care, small, independent, rural, and under-resourced practices before mandatory compliance.
+4. Clarify physicians are not responsible for failures caused by vendors, clearinghouses, payers, or external systems.
+5. Provide technical assistance, cybersecurity support, readiness benchmarks, and implementation support for small and independent practices.
+6. Require standardized machine-readable denial rationales and FHIR-native appeal workflows.
+7. Establish expedited drug appeal responses and automatic approval when PA deadlines are missed.
+8. Extend MA drug PA timeframe standards to align with Medicaid, CHIP, and QHP requirements.
+9. Publish standardized, centralized, machine-readable PA and API metrics, including plan-level MA reporting and expanded usability/performance metrics.
+10. Finalize centralized API endpoint and documentation reporting and keep endpoint data current.
+11. Use NDH IG as a long-term directory modernization path, not as an immediate replacement for the primary endpoint proposal.
+12. Advance formulary interoperability through appropriate FHIR pathways, mid-year formulary change reporting, notice, and continuity protections.
+13. Finalize Open Payments CMP authority for failure to report.
+14. Adopt FHIR for HIPAA PA standards only with rigorous testing, vendor milestones, fallback X12/portal pathways, and utilization-based retirement of legacy channels.
+15. Require EHR vendors to integrate CRD and DTR directly in prescribing and ordering workflows.
+16. Support patient event notifications through push workflows, shared infrastructure, privacy safeguards, directory quality, attribution standards, and TEFCA alignment.
+17. Require payer API conformance testing, sandbox environments, public testing results, and phased certification.
+18. Streamline DMEPOS and laboratory PA, including TRF documentation, real-time lab PA before specimen collection, and data-driven removal of high-overturn DMEPOS PA.
+19. Ensure PA documentation requirements derive from existing FHIR-compliant EHR data and avoid duplicative forms.
+20. Set guardrails for payer-inserted CDS requiring transparency, physician consent, and limits on payer influence in clinical workflows.
+21. Use proactive CMS enforcement rather than relying on physicians or patients to identify API and payer noncompliance.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA volume, delayed care, administrative burden, opaque denials, weak appeals, payer noncompliance, small-practice resource constraints, untested standards, vendor readiness, cybersecurity costs, poor formulary data, API nonconformance, and premature retirement of X12/legacy pathways.
+- **Potential negative impacts cited:** Treatment abandonment, serious adverse events, delayed medications and services, health inequities, workflow disruption, market consolidation, increased physician burden, patient safety risks, and unmanageable costs for small and independent practices.
+- **Implementation barriers mentioned:** Fragmented payer workflows, manual phone/fax/portal processes, inconsistent documentation standards, EHR/vendor limitations, lack of sandbox environments, insufficient payer API conformance, directory data problems, attribution and matching gaps, limited IT staff, and uneven HIE/HDU/TEFCA participation.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AAFP members complete an estimated 40 PA requests per physician per week; AMA survey data report 92% of physicians see negative clinical outcomes, 26% report PA led to a serious adverse event, and 21% report patients often abandon treatment due to PA. KFF data report MA organizations made nearly 53 million PA determinations in 2024, including more than four million full or partial denials.
+- **Studies or research referenced:** AMA 2025 Prior Authorization Physician Survey; KFF analysis of 2024 MA PA determinations; Civitas Patient Centered Data Home.
+- **Examples provided:** Family medicine practices using phone/fax/portal workflows; primary care coordination across multiple health plans, hospitals, and pharmacists; formulary changes during a plan year; event notifications via HIEs/HDUs; DMEPOS mobility support delays; lab tests needing real-time PA before specimen collection.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Family physicians, patients, Medicare Advantage enrollees, Medicaid/CHIP beneficiaries, QHP/FF-SHOP enrollees, small and independent practices, rural and safety-net practices, EHR vendors, clearinghouses, payers, ACOs, PAC providers, hospitals, laboratories, DMEPOS suppliers, manufacturers/GPOs, ONC, CMS, and app developers.
+- **Economic implications:** The comment emphasizes administrative labor costs, unfunded cybersecurity/API integration costs, small-practice implementation burden, vendor upgrade costs, duplicated directory reporting, and the financial consequences of PA-related delays and abandoned care; no comprehensive dollar estimate is provided.
+- **Technical feasibility:** AAFP supports FHIR, Da Vinci, NCPDP, CDex, NDH, and API modernization but conditions feasibility on real-world testing, conformance tools, sandboxes, EHR integration, vendor readiness, segmented utilization metrics, and phased transitions.
+- **Patient care impact:** The rule could improve timely access to drugs, services, diagnostic care, and care coordination if paired with PA reduction, transparent denials, usable APIs, and reliable event notifications; poor implementation could worsen delays and physician burden.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with extensive modifications.
+- **Tone:** Professional, policy-detailed, technically informed, and assertive.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Electronic prior authorization is just one step" in addressing utilization management flaws. - Context: Need for broader PA reform.
+2. "The AAFP strongly supports this proposal" for medical benefit drug PA API expansion. - Context: Core support for drug ePA.
+3. "Physicians and their care teams must receive detailed, clear, and actionable information" on denials. - Context: Denial transparency.
+4. "Automatic approval upon deadline expiration would be the most effective mechanism" for compliance. - Context: Decision timeframe enforcement.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - AAFP repeatedly addresses October 1, 2027, January 1, 2028, HIPAA 24/36-month timelines, standards expiration, and utilization-based transition readiness.
+- [x] **COST-RESOURCES** - The comment emphasizes administrative burden, small practice costs, cybersecurity, vendor upgrades, and implementation support.
+- [x] **PROVIDER-BURDEN** - AAFP's central theme is reducing PA burden for family physicians and avoiding new duplicated EHR, documentation, CDS, and reporting tasks.
+- [x] **PRIVACY-SECURITY** - AAFP raises cybersecurity infrastructure burdens and privacy/data governance for event notifications and expanded data sharing.
+- [x] **HEALTH-EQUITY** - The comment focuses on underserved, rural, small-practice, Medicare, Medicaid, lower-income, transportation-limited, broadband-limited, and language-barrier populations.
+- [x] **TECHNICAL-FEASIBILITY** - Real-world testing, conformance, sandboxes, EHR integration, API reliability, and workflow feasibility recur throughout.
+- [x] **STANDARDS-MATURITY** - AAFP supports FHIR/Da Vinci/NCPDP/CDex but insists standards and IGs be proven in primary care before mandatory use.
+- [x] **PATIENT-ACCESS** - PA delays, treatment abandonment, serious adverse events, formulary changes, and DMEPOS/lab delays are major concerns.
+- [x] **REGULATORY-AUTHORITY** - The comment asks CMS/ONC to use enforcement, certification, HIPAA standards, Open Payments CMPs, CoPs, and reporting requirements.
+- [x] **STAKEHOLDER-COORDINATION** - AAFP calls for CMS/ONC coordination and alignment among payers, EHR vendors, HIEs/HDUs, TEFCA, ACOs, hospitals, and physicians.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - AAFP discusses the dual FHIR/NCPDP infrastructure for medical and pharmacy benefit drugs.
+- [x] **TRANSPARENCY** - Denial reasons, appeal pathways, endpoint publication, metrics, test results, formulary data, directory data, and public reporting are key recommendations.
+- [x] **SMALL-PAYER-IMPACT** - The comment supports FF-SHOP extensions/exceptions and small health plan HIPAA timing, though its strongest small-entity focus is small practices.
+- [x] **EXISTING-WORKFLOWS** - AAFP evaluates phone/fax/portal PA, EHR ordering/prescribing, CRD/DTR/PAS, X12, payer portals, event notifications, lab/DMEPOS, and CDS workflows.
+- [x] **VENDOR-ECOSYSTEM** - Vendor readiness, EHR certification, clearinghouses, payer API vendors, app developers, testing tools, and technology certification are central.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+info@aafp.org 
+(800) 794-7481 
+(202) 232-9033 
+ 
+www.aafp.org 
+1133 Connecticut Ave., NW, Ste. 1100 
+Washington, DC 20036-1011 
+ 
+June 12, 2026 
+ 
+The Honorable Mehmet Oz, MD 
+The Honorable Thomas Keane, MD 
+Administrator 
+Centers for Medicare and Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+National Coordinator for Health Information 
+Technology 
+Office of the National Coordinator for Health 
+Information Technology 
+Department of Health and Human Services 
+330 C St. SW, 7th Floor 
+Washington, D.C. 20024 
+ 
+Submitted electronically via regulations.gov 
+ 
+RE: CMS-0062â€“P; Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges 
+ 
+Dear Administrator Oz and National Coordinator Keane: 
+ 
+On behalf of the American Academy of Family Physicians (AAFP), which represents 124,500 
+physicians and medical students nationally, I write in response to the Department of Health and 
+Human Servicesâ€™ (HHS) Centers for Medicare and Medicaid Services (CMS) and Office of the 
+National Coordinator for Health Information Technologyâ€™s (ONC) proposed rule regarding 
+advancing interoperability and improving prior authorization processes. The AAFP appreciates 
+the Departments introducing proposals to improve the electronic exchange of health care data 
+and streamline prior authorization processes, including expanding these processes to 
+medications. Prior authorization requirements cause barriers to care, delayed care for enrollees, 
+and impose significant administrative burdens on physicians. We applaud CMS and ONC for 
+their thoughtful collaboration...

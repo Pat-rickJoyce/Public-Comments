@@ -1,0 +1,209 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0456_20260626134335_413ed24a
+Commenter: Pharmaceutical Research and Manufacturers of America (PhRMA)
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:49
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Pharmaceutical Research and Manufacturers of America (PhRMA); signed by Jim Stansel, Executive Vice President & General Counsel, and Elizabeth Carpenter, Executive Vice President, Policy & Research.
+- **Stakeholder type:** Professional Association.
+- **Credentials or expertise mentioned:** Represents leading innovative biopharmaceutical research companies; states member companies invested more than $850 billion in R&D over the last decade and support nearly five million U.S. jobs.
+
+## 2. EXECUTIVE SUMMARY
+
+PhRMA supports the proposed rule's general direction on interoperability, ePA, utilization management transparency, and payer accountability because prior authorization and step therapy can delay access to medicines. It recommends stronger drug ePA implementation safeguards, better formulary and benefit information, enforceable and harmonized timelines, clearer denial explanations, plan-level metrics, step therapy-specific transparency, and stronger continuity protections, while opposing CMS's proposed Open Payments "failure to report" definition as unauthorized and impractical.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; HIPAA-PA-STANDARDS; OPEN-PAYMENTS-CMP; GENERAL.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890; 91 Fed. Reg. 19896; 91 Fed. Reg. 19985; 91 Fed. Reg. 20034; 42 CFR 403.912(a), (b); proposed 42 CFR 403.902 definition of "failure to report"; Social Security Act provisions governing Open Payments are discussed generally.
+- **Standards referenced:** Payer-to-Payer APIs; Access APIs; Patient Access, Provider Access, Payer-to-Payer, and Prior Authorization APIs; electronic prior authorization; NCPDP Formulary and Benefit (F&B) files; real-time patient-specific drug coverage information; point-of-sale rejection data. Specific FHIR IGs are not a main focus in the visible text, but the comment addresses API-based PA and access functions.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for prescription medicines**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support with modifications
+- **Rationale:** Extending ePA to medicines under both the pharmacy and medical benefits can reduce fragmentation and improve patient access, but providers may be uncertain whether to use the medical or pharmacy pathway.
+- **Specific request:** Extend ePA to medicines under both benefits; assess whether F&B file updates can be expedited; address classification challenges; require payer flexibility when providers inadvertently submit through the wrong pathway so patient care is not delayed.
+
+**Topic 2: Access APIs and formulary information**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL
+- **Position:** Support with modifications
+- **Rationale:** Prior authorization request and denial information in Access APIs can improve transparency, but removing formulary information could reduce real-time prescribing visibility unless replaced with robust alternatives.
+- **Specific request:** Expand Access APIs to include PA requests and denials for prescription medicines and, if formulary information is removed from APIs, pair that removal with robust real-time electronic access to patient-specific drug coverage information.
+
+**Topic 3: Prior authorization timelines and continuity during plan transitions**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; GENERAL
+- **Position:** Modify
+- **Rationale:** Decision timelines can improve access only if harmonized across programs and enforced without incentivizing faster inappropriate denials. Plan transitions can interrupt medication access when prior authorizations are not honored.
+- **Specific request:** Align decision timelines across QHPs, Medicaid, CHIP, Medicare Advantage, and Part D; monitor expedited timeframes for unintended denials; require new payers to honor prior PA approvals for a defined transition period such as 90 days.
+
+**Topic 4: Denial explanations and AI safeguards**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications
+- **Rationale:** Opaque denial rationales and inconsistent criteria undermine appeal rights, treatment adherence, and accountability. AI-assisted PA determinations add transparency and review concerns.
+- **Specific request:** Establish stronger standardized denial explanations, structured denial categories, annual reporting of denial rationales, disclosure when AI is used in PA determinations, and clinician review of AI-involved denials while preserving appropriate automation.
+
+**Topic 5: API usage metrics and public PA transparency**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** API usage metrics and utilization management data should be actionable for CMS, providers, patients, and policymakers. Aggregated or inaccessible reporting may obscure plan-level access barriers.
+- **Specific request:** Report API metrics at the plan level across markets; pair API usage metrics with patient- and provider-centered utilization management data; publish an annual CMS report; require more granular prior authorization metrics by brand versus generic and therapeutic area; include Part D and point-of-sale rejection data; require public payer UM policies, PA criteria, and step therapy protocols.
+
+**Topic 6: Step therapy reporting and modernization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can be embedded in PA criteria, vary across plans, exceed FDA labeling, and delay access to prescribed therapies. Broad PA metrics may not reveal step therapy-specific effects.
+- **Specific request:** Require step therapy-specific reporting metrics; create transparent exceptions and appeals processes; honor prior step therapy determinations during coverage transitions where clinically appropriate; systematically collect and analyze step therapy data.
+
+**Topic 7: Laboratory tests and DMEPOS prior authorization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Prior authorization for biomarker tests can delay diagnosis and treatment selection, particularly in oncology and precision medicine contexts.
+- **Specific request:** Collect PA denial rates for biomarker tests and analyze the effect of PA on patient access to treatment and health outcomes.
+
+**Topic 8: Open Payments failure-to-report definition and CMPs**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose
+- **Rationale:** PhRMA argues CMS lacks statutory authority to expand "failure to report" to include failure to produce audit documents, and the proposal is impractical without published audit guidelines, reasonable timeframes, confidentiality protections, and appeal mechanisms.
+- **Specific request:** Do not finalize the proposed definition; instead publish Open Payments audit guidelines with manufacturer input. If finalized, revise the language to require only commercially reasonable efforts to provide known or reasonably ascertainable information and documents, allow extensions, permit objections and appeals, protect confidential business information, and lower CMP estimates to reflect good-faith compliance rather than presumed knowing failures.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports electronic PA for medical benefit drugs but asks CMS to address operational classification challenges between medical and pharmacy pathways.
+- **S14:** Supports extending ePA expectations to pharmacy benefit drugs and recommends attention to F&B file update timing and real-time drug coverage information.
+- **S15:** Directly addresses medical versus pharmacy classification uncertainty and requests payer flexibility when a provider submits through the wrong pathway.
+- **S16:** Supports stronger denial explanation requirements that are clear, actionable, and standardized.
+- **S17:** Recommends structured denial categories and annual denial rationale reporting to CMS.
+- **S20:** Generally supports enforceable decision timelines but warns that expedited timeframes require oversight to prevent increased denials or inappropriate UM.
+- **S21:** Supports the overall timeline goal for drug ePA while emphasizing implementation safeguards and cross-market alignment.
+- **S22:** Addresses cost and operational consequences of drug PA and step therapy, including provider burden and delayed access.
+- **S25:** Addresses real-time benefit and coverage information in the context of pharmacy benefit ePA, formulary data, and F&B files.
+- **S28:** Recommends further alignment across markets, explicitly including Part D, MA, Medicaid, CHIP, and QHPs.
+- **S29:** Supports API usage metrics and recommends plan-level reporting across markets.
+- **S30:** Does not focus on privacy protections for usage metrics, but requests AI-use disclosure and clinician review for AI-involved denials.
+- **S34:** Recommends annual CMS reporting that combines API usage metrics and utilization management data.
+- **S35:** Supports public-facing transparency through CMS-led analysis, standardized disclosures, and more accessible annual reporting.
+- **S43:** Requests alignment of PA timelines across drug coverage markets and programs.
+- **S44:** The comment supports API-enabled ePA for drugs but does not primarily analyze whether FHIR should be adopted as a HIPAA standard for all covered entities.
+- **S48:** Provides evidence that PA and utilization management impose access delays, costs, and administrative burden, supporting stronger transparency and oversight.
+- **S51:** Discusses practical challenges in plan transitions and payer data sharing when prior authorization and step therapy information does not follow the patient.
+- **S57:** Opposes CMS's proposed Open Payments "failure to report" definition and requests clear audit guidelines and reasonable document-production standards.
+- **S58:** Argues CMS overestimates CMPs by assuming knowing failures and should lower penalty estimates to reflect good-faith compliance.
+- **S59:** Requests due process protections, including extension processes, objection and appeal rights, stayed production deadlines during disputes, defined audit findings processes, and confidentiality protections.
+- **S66-S82 (step therapy, lab/DMEPOS, and related RFIs):** Responds to step therapy by requesting separate step therapy metrics, standardized exceptions and appeals, honoring prior determinations, and systematic CMS analysis; responds to lab/DMEPOS by requesting biomarker test PA denial data and outcome analysis.
+
+## 6. RECOMMENDATIONS
+
+1. Extend electronic prior authorization to prescription medicines under both pharmacy and medical benefits.
+2. Evaluate whether NCPDP F&B file updates can be expedited to improve reliable electronic drug coverage exchange.
+3. Require payer flexibility when providers submit drug PA requests through the wrong medical or pharmacy pathway.
+4. Expand Access APIs to include PA request and denial information for prescription medicines.
+5. Preserve robust real-time access to patient-specific drug coverage information if CMS removes formulary data from certain APIs.
+6. Align and enforce PA decision timelines across QHPs, Medicaid, CHIP, MA, and Part D, with oversight to avoid increased denials.
+7. Require new payers to honor prior PA approvals for a defined transition period, such as 90 days.
+8. Standardize denial explanations, denial categories, and annual denial rationale reporting.
+9. Require AI-use disclosure in PA determinations and clinician review of denials involving AI.
+10. Require plan-level API usage metrics and combine them with patient- and provider-centered UM data in an annual CMS report.
+11. Publish granular PA metrics by brand/generic status, therapeutic area, Part D experience, and point-of-sale rejections.
+12. Require public disclosure of utilization management policies, PA criteria, and step therapy protocols.
+13. Establish step therapy-specific reporting metrics and robust exceptions and appeals processes.
+14. Require payers to honor prior step therapy determinations during coverage transitions where clinically appropriate.
+15. Collect biomarker test PA denial rates and analyze impacts on treatment access and outcomes.
+16. Withdraw the proposed Open Payments failure-to-report definition or revise it to a commercially reasonable efforts standard.
+17. Publish Open Payments audit guidelines, create extension and appeal processes, protect confidential information, and use a systems-based audit approach.
+18. Reduce CMS's estimated Open Payments CMP assumptions to reflect good-faith manufacturer compliance.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Patient access barriers from PA and step therapy, opaque denial rationales, embedded step therapy, plan transition disruption, medical/pharmacy classification uncertainty, loss of formulary visibility, insufficient plan-level transparency, AI-enabled denials without safeguards, and Open Payments audit/CMP overreach.
+- **Potential negative impacts cited:** Delays in care, abandoned treatment, reduced adherence, avoidable adverse outcomes, administrative burden for providers, patient confusion, higher system costs, inappropriate denials, disclosure of proprietary manufacturer information, and disproportionate penalties for good-faith audit disputes.
+- **Implementation barriers mentioned:** Fragmented payer processes, inconsistent coverage criteria, varying step therapy protocols, non-real-time formulary and benefit data, API reporting that is not sufficiently granular, plan transition data gaps, undefined Open Payments audit standards, broad document requests, and rigid audit response timelines.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Commercial coverage initial denial for new brand medicine treatment increased from 57 percent in 2021 to 70 percent in 2025; Medicare Part D initial denials for new branded medicines increased from 37 percent in 2021 to 47 percent in 2025; Part D restrictions rose from approximately 27 percent of covered medicines in 2010 to 50 percent by 2024; 2026 MA-PDs subjected 54 percent of covered brand drugs to PA or step therapy and PDPs subjected 56 percent; 48 percent of Medicare patients experienced at least one denial for a new branded medicine in 2024 and 30 percent never received the prescribed medicine within one year; commercial patients eventually filling after denial faced an average 15-day delay and 28 percent waited more than two weeks.
+- **Studies or research referenced:** PhRMA Annual Membership Survey; TEConomy economic impact report; IQVIA analyses of commercial and Medicare payer control; Drug Channels and GoodRx formulary/access analyses; Avalere analyses of Part D formulary management and embedded step therapy; additional studies and legal authorities are cited throughout the comment.
+- **Examples provided:** Embedded step therapy in Part D PA criteria for psoriatic arthritis medicines; commercial step therapy requiring patients to fail numerous medicines before receiving intended treatment; Open Payments auditors requesting general ledger or broad governance information that PhRMA argues may not be appropriate for compliance verification.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing prescription medicines, Medicare Part D beneficiaries, MA enrollees, Medicaid and CHIP beneficiaries, QHP enrollees, providers and clinical teams, payers, PBMs, manufacturers, CMS, Open Payments reporting entities, EHR/ePA vendors, and policymakers.
+- **Economic implications:** PhRMA argues that PA and step therapy create provider administrative costs and downstream costs from delayed or disrupted treatment; it also argues manufacturers have invested heavily in Open Payments compliance and could face unreasonable audit and CMP burdens.
+- **Technical feasibility:** The comment views API-enabled ePA, real-time drug coverage information, plan-level metrics, and systematic CMS reporting as feasible if CMS specifies data content, timeliness, and reporting expectations. It warns that classification challenges and inadequate formulary/benefit data could undermine implementation.
+- **Patient care impact:** Recommended changes are intended to improve timely access to medicines, avoid repeat authorization and step therapy barriers, reduce treatment abandonment, and make payer utilization management more transparent and clinically accountable.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, detailed, critical on Open Payments, and supportive of PA modernization with modifications
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The Proposed Rule represents an important step toward improving access by increasing accountability and transparency in utilization management across federal health care programs." - Context: Overall support for the PA and interoperability portions of the rule.
+2. "PhRMA supports extending electronic prior authorization to medicines under both the pharmacy and medical benefits." - Context: Position on drug ePA expansion.
+3. "PhRMA supports stronger, standardized denial explanation requirements across markets." - Context: Recommendation on denial reasons and reporting.
+4. "PhRMA opposes CMS' proposed definition of 'failure to report' that would impose civil monetary penalties." - Context: Opposition to the Open Payments CMP proposal.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - PhRMA seeks enforceable timelines, cross-market alignment, transition periods, annual reporting, and reasonable Open Payments audit response deadlines.
+- [x] **COST-RESOURCES** - The comment discusses provider administrative burden, system costs from delays, manufacturer Open Payments compliance investments, and CMP exposure.
+- [x] **PROVIDER-BURDEN** - PhRMA repeatedly cites provider and clinical team time spent navigating PA, step therapy, denials, and appeals.
+- [x] **PRIVACY-SECURITY** - Open Payments audit concerns include protection of confidential business information, data security, and proprietary financial records.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - The comment addresses real-time coverage information, APIs, ePA, F&B files, POS data, and reporting design.
+- [x] **STANDARDS-MATURITY** - It discusses operational use of ePA and benefit/formulary data standards, though it does not focus on IG version maturity.
+- [x] **PATIENT-ACCESS** - The central policy concern is reducing delays and barriers to prescribed medicines.
+- [x] **REGULATORY-AUTHORITY** - PhRMA directly challenges CMS's authority for the Open Payments failure-to-report proposal.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations require coordination among CMS, payers, PBMs, providers, manufacturers, patients, and technology vendors.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - PhRMA emphasizes classification challenges and harmonization across medical and pharmacy benefits.
+- [x] **TRANSPARENCY** - The comment strongly supports denial explanations, public metrics, UM policy publication, step therapy disclosure, and CMS reports.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on current PA, step therapy, appeals, plan transition, POS rejection, and Open Payments audit workflows.
+- [x] **VENDOR-ECOSYSTEM** - EHR/ePA systems, API metrics, real-time coverage data, and reporting infrastructure are implicated.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+670 Maine Avenue, SW â€¢ Suite 1000, Washington, DC 20024 â€¢ PHRMA.ORG
+  
+June 15, 2026  
+VIA ELECTRONIC FILING - REGULATIONS.GOV    
+  
+Dr. Mehmet Oz, MD, MBA  
+Administrator  
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services  
+Attention: CMS-0062-P 
+P.O. Box 8013  
+Baltimore, MD 21244-8013  
+ 
+Re:  
+Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges (RIN 0938-AV44)  
+ 
+Dear Administrator Oz:  
+The Pharmaceutical Research and Manufacturers of America (PhRMA) appreciates the opportunity to 
+comment on the Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) 
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges Proposed Rule.1 PhRMA represents the countryâ€™s leading innovative 
+biopharmaceutical research companies, which are focused on developing medicines that transform lives 
+and help create a healthier world. Together, PhRMA members are committed to ensuring that patients can 
+access and afford medicines that prevent, treat and cure disease. Over the last decade, PhRMA member 
+companies have invested more than $850 billion in the research and development of new treatments and 
+cures, supporting nearly five million jobs across the United States.2,3  
+As CMS has recognized, prior authorization and other utilization management practices can create 
+significant access challenges for ...

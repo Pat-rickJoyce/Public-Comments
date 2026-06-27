@@ -1,0 +1,180 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0442
+Commenter: RxUtility, Inc.; Miriam Paramore
+Source: PDF Attachment
+Analysis Date: 2026-06-26 19:17:40
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Miriam Paramore, Founder & CEO, RxUtility, Inc.
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Former EDI programmer implementing HIPAA 837, 835, 270/271 and related transactions; co-author of ACA Administrative Simplification provisions including the 835 remittance mandate; creator/architect of the CAQH Index; former EVP at Emdeon/Change Healthcare; former President and Chief Strategy Officer at OptimizeRx; founder of RxUtility, which embeds real-time drug pricing into clinical and consumer workflows.
+
+## 2. EXECUTIVE SUMMARY
+
+RxUtility supports CMS-0062-P, including electronic prior authorization for drugs, NCPDP RTPB, FHIR replacing X12 278 for prior authorization, denial reason reporting, and the October 1, 2027 compliance date. The commenter argues that the final rule must focus on enforceable patient outcomes rather than nominal technical compliance, and asks CMS to add functional performance standards, daily and usable formulary data, consumer-facing RTPBC with all price points, public payer-level outcome metrics, third-party access rights, and stronger enforcement.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; GENERAL
+- **Regulatory citations mentioned:** 45 CFR Part 162; Section 6062 of the SUPPORT Act; ACA Section 1104; CMS-9915-F; CMS-9115-F; CMS-0057-F; CMS-0062-P. No specific CFR section from the proposed rule text is cited beyond HIPAA Part 162 context.
+- **Standards referenced:** NCPDP RTPB; consumer RTPBC; NCPDP Formulary & Benefit (F&B); CARIN Consumer RTPBC FHIR IG; FHIR; X12 278; HIPAA 837, 835, 270/271, 276/277; RxNorm; Da Vinci DTR; Inferno testing; machine-readable files under Transparency in Coverage.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Keep Core Rule Requirements and Compliance Date**
+- **Provision ID:** PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** RxUtility says ePA for drugs is overdue, NCPDP RTPB creates the data rail for transparency, FHIR replacing X12 278 is structurally significant, mandatory denial reasons create an audit trail, and the standards are mature enough for October 1, 2027.
+- **Specific request:** Hold the October 1, 2027 compliance date, retain 24-hour urgent and 72-hour standard timeframes, retain FHIR replacement of X12 278, and retain mandatory denial reasons with public reporting.
+
+**Topic 2: Mandate Functional Outcomes, Not Only Formats**
+- **Provision ID:** API-USAGE-METRICS; FHIR-IG-REQUIRED; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** The commenter argues Inferno conformance testing can verify endpoint existence and standards conformance but not whether the endpoint works in real prescribing workflows.
+- **Specific request:** Add functional standards for RTPB response completeness, latency under two seconds at the 95th percentile, scenario testing across specialty drugs/step therapy/chronic disease, and third-party access for HIPAA-compliant patient-authorized apps without commercial gatekeeping.
+
+**Topic 3: Fix Machine-Readable Formulary and Benefit Data**
+- **Provision ID:** PA-DRUG-PHARMACY; TRANSPARENCY-related GENERAL
+- **Position:** Modify
+- **Rationale:** RxUtility says formulary files are too stale, inconsistently coded, and operationally inaccessible, repeating problems seen in Transparency in Coverage machine-readable files.
+- **Specific request:** Require daily refresh for changes affecting cost-share or PA status, standardized NCPDP restriction vocabulary without proprietary extensions, RxNorm-coded therapeutic alternatives for every PA-required or non-preferred drug, and open third-party access on the same terms as payer portals.
+
+**Topic 4: Add Consumer RTPBC Through the Patient Access API**
+- **Provision ID:** GENERAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Providers would get real-time benefit information under the proposed rule but patients would not, despite existing technical capability and the CARIN consumer RTPBC standard. The commenter gives a personal example of being unable to find prescription copays through her health plan and finding lower cash prices only outside the plan workflow.
+- **Specific request:** Require impacted payers to expose consumer-facing RTPBC via the Patient Access API on the October 2027 timeline, including patient-specific cost at preferred and non-preferred pharmacies, formulary tier, PA status, lower-cost alternatives, coupon availability, manufacturer direct price, and cash price.
+
+**Topic 5: Enforcement and Public Outcome Metrics**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; GENERAL
+- **Position:** Modify
+- **Rationale:** RxUtility argues prior interoperability and transparency mandates have produced nominal compliance without enforcement or patient benefit. It cites the lack of TiC drug MRF enforcement and says visibility itself can be an enforcement mechanism.
+- **Specific request:** Issue a compliance status report on payer MRF adherence; publish annual payer-level metrics for PA decision timeframe compliance, RTPB response completeness, therapeutic alternative return rate, structured denial reason rate, first-fill abandonment, and TiC MRF accuracy.
+
+**Topic 6: Direct Third-Party Access and Intermediary Disclosure**
+- **Provision ID:** API-ENDPOINT-REPORTING-related GENERAL; PRIVACY-SECURITY-related GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter predicts payers may build compliant endpoints but restrict access through rate limits, approval queues, commercial agreements, preferred partners, or conflicted intermediaries.
+- **Specific request:** Require payer endpoints to be available to any HIPAA-compliant application with patient authorization without prior commercial agreement; allow security-based rate limits but prohibit commercial gatekeeping; require disclosure of intermediary infrastructure used for RTPB compliance.
+
+**Topic 7: Medical vs Pharmacy Benefit Ambiguity for Part B Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; MEDICAL-VS-PHARMACY-BENEFIT-related GENERAL
+- **Position:** Clarify
+- **Rationale:** The commenter explains that many high-cost drugs are covered under Medicare Part B when administered in clinical settings, while some biologics can fall under Part B or Part D depending on route of administration. Prescribers may not know which pathway applies at the point of prescribing.
+- **Specific request:** Name the Da Vinci DTR framework explicitly in the final rule as a parallel requirement for medical benefit prior authorization on the same October 2027 timeline.
+
+**Topic 8: Future Rulemaking on Cash Prices and Deductibles**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter argues that patients who pay lower cash prices should not lose deductible or out-of-pocket maximum credit, because current rules steer patients toward higher-cost insured channels.
+- **Specific request:** CMS and HHS should address in future rulemaking that cash prices paid out of pocket count toward deductibles and out-of-pocket maximums.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** Supports requiring NCPDP RTPB beyond Part D, including Medicaid, CHIP, and QHP issuers, and aligning these programs with existing Part D requirements.
+- **S15:** Discusses ambiguity between Part B medical benefit and Part D pharmacy benefit pathways and asks CMS to explicitly support DTR for medical benefit prior authorization.
+- **S16:** Supports mandatory denial reasons and argues they should function as part of a public audit trail.
+- **S17:** Recommends structured FHIR coded denial reasons rather than free text and proposes measuring structured denial reason rates.
+- **S20:** Supports the 24-hour urgent timeframe and says CMS should not extend urgent or standard decision timeframes.
+- **S21:** Supports the October 1, 2027 compliance date and rejects extension arguments.
+- **S25:** Treats RTPB/RTPBC as technically mature, citing years of provider RTPB use, CARIN's 2020 consumer RTPBC FHIR IG, and 2025 CARIN/NCPDP harmonization work.
+- **S29:** Recommends annual outcome metrics including timeframe compliance, RTPB response completeness, therapeutic alternative return, structured denial reason rate, first-fill abandonment, and MRF accuracy.
+- **S34:** Recommends annual public reporting by impacted payer.
+- **S35:** Strongly supports public reporting of metrics, stating that public visibility is a low-cost enforcement mechanism.
+- **S44:** Supports replacing X12 278 with FHIR for prior authorization transactions.
+- **S46:** Discusses the historical HIPAA transaction set and supports moving prior authorization away from X12 278 toward FHIR.
+- **S47:** Supports the October 2027 timeline and says the standards are mature and industry has had years of notice.
+- **S48:** Provides a cost-benefit argument centered on patient harm, prescription abandonment, avoidable hospitalizations, and lack of useful transparency.
+- **S50:** Argues RTPB, consumer RTPBC, and related standards are ready; the remaining barrier is policy and enforcement.
+- **S54:** Recommends functional certification and scenario testing beyond Inferno endpoint conformance, including reference round-trip testing.
+- **S55:** Calls for enforcement mechanisms with actual consequences, MRF compliance review, outcome metric publication, and treatment of metric non-reporting as a violation.
+- **S66-S82:** Addresses general RFIs through comments on step therapy/non-medical switching, consumer drug price access, and broader patient-facing interoperability outcomes.
+
+## 6. RECOMMENDATIONS
+
+1. Hold the October 1, 2027 compliance date.
+2. Retain 24-hour urgent and 72-hour standard prior authorization decision timeframes for drugs.
+3. Require functional performance standards for RTPB, including response completeness, latency, scenario testing, and direct third-party access.
+4. Require RTPB responses to include patient-specific cost, formulary tier, PA flag, and at least one lower-cost therapeutic alternative or a structured coded reason for missing data.
+5. Require daily updates to formulary data when cost-share or PA status changes.
+6. Standardize coverage restriction vocabulary using a constrained NCPDP value set without proprietary extensions.
+7. Require therapeutic alternatives in RxNorm for every PA-required or non-preferred drug.
+8. Require consumer-facing RTPBC through the Patient Access API by October 2027.
+9. Require consumer RTPBC responses to include insurance cost, preferred/non-preferred pharmacy pricing, coupons, manufacturer direct price, and cash price.
+10. Prohibit commercial gatekeeping for HIPAA-compliant patient-authorized applications accessing mandated endpoints.
+11. Require disclosure of RTPB intermediary infrastructure.
+12. Publish annual payer-level outcome metrics and treat non-reporting as a compliance violation.
+13. Issue a compliance status report on TiC drug MRF adherence before the final rule takes effect.
+14. Explicitly name Da Vinci DTR as a parallel medical benefit prior authorization requirement.
+15. Address in future rulemaking whether cash prices paid out of pocket count toward deductibles and out-of-pocket maximums.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Nominal compliance without patient benefit; non-enforcement; consumer exclusion from RTPBC; stale and unusable formulary data; commercial gatekeeping; hidden intermediary control; standards that pass conformance testing but fail real workflows.
+- **Potential negative impacts cited:** Prescription abandonment, preventable hospitalization, disease exacerbation, lower cancer survival, treatment interruption, unaffordable medications, inability to comparison shop, repeated unsuccessful therapies, and continued opacity in drug pricing.
+- **Implementation barriers mentioned:** Weak enforcement, payer resistance, inaccessible machine-readable files, inconsistent coding, endpoint throttling, commercial agreements, missing fields, ambiguous coverage restriction codes, and conflicted intermediary infrastructure.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CAQH Index found only 29% electronic provider-to-payer eligibility transactions by 2010; electronic remittance adoption below 60% by 2016; TiC drug MRFs have had zero civil monetary penalties in four and a half years; more than five billion RTPB queries run for prescribers since 2019; AMA 2024 survey says 93% of physicians report PA delays care and 82% say it can lead to abandonment; ASTRO 2024 survey reports 92% PA-related treatment delays; about 33% of patients with PA approval do not return to pick up medication; 40% of specialty prescriptions are never filled; 60% abandonment when out-of-pocket cost exceeds $500; Medicare and beneficiaries paid nearly $47 billion for Part B drugs in 2022.
+- **Studies or research referenced:** September 2025 American Journal of Medicine systematic review; AMA 2024 Prior Authorization Physician Survey; ASTRO 2024 Prior Authorization Survey; IQVIA 2024/2026 data; BrightInsight/Claritas Rx 2024; PLOS ONE 2023 biosimilar switching meta-analysis; JMCP 2025 study on non-medical switching; Frontiers in Pharmacology 2019 nocebo effects; MedPAC and ASPE Part B drug spending sources.
+- **Examples provided:** Personal BCBS Tennessee/CVS Caremark pricing search; losartan and estradiol insurance vs cash price comparisons; TiC MRF schema and file-size problems; four compliance games; Part B drug categories and split benefit pathway drugs such as Humira, Stelara, and Actemra.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, prescribers, pharmacies, payers, PBMs, technology vendors, third-party apps, manufacturers, CMS, Congress, and health plans subject to RTPB/F&B requirements.
+- **Economic implications:** The comment emphasizes patient savings from cash/coupon/direct prices, reduced abandonment, avoided waste from unusable MRFs, and the cost of non-enforcement; it also argues public metrics are a low-cost enforcement tool.
+- **Technical feasibility:** The commenter considers the standards mature and technically feasible, but says feasibility must be judged by functional workflow performance, data completeness, latency, access rights, and usable machine-readable data.
+- **Patient care impact:** High. The comment links prior authorization and cost opacity to delayed care, abandonment, hospitalization, worse cancer outcomes, and inability to afford medicine.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Critical, technical, and urgent
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. 'CMS-0062-P is a good rule. The question is whether the final rule produces real outcomes for patients or just adds another technically compliant layer.' - Context: Overall frame for supporting the rule while demanding stronger enforcement.
+2. 'Data standards have never been the primary challenge.' - Context: Explanation that enforcement and outcomes, not standards alone, are the central problem.
+3. 'Providers get real-time benefit data under this rule. Patients do not.' - Context: Rationale for adding consumer RTPBC.
+4. 'A mandate with no enforcement is an advisory with a compliance date.' - Context: Summary of the commenter's enforcement critique.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The commenter strongly urges CMS to hold the October 1, 2027 date and not extend timeframes.
+- [x] **COST-RESOURCES** - The comment focuses on drug affordability, patient out-of-pocket costs, cash prices, and the cost of unusable transparency data.
+- [x] **PROVIDER-BURDEN** - It cites prior authorization workload and calls for workflows that actually work for prescribers.
+- [x] **PRIVACY-SECURITY** - The comment supports access for HIPAA-compliant applications with patient authorization and distinguishes security rate limits from commercial gatekeeping.
+- [x] **HEALTH-EQUITY** - Although not primarily framed as equity, the comment highlights patients who cannot afford medication and go without.
+- [x] **TECHNICAL-FEASIBILITY** - The comment specifies latency, response completeness, scenario testing, endpoint access, data coding, and machine-usable files.
+- [x] **STANDARDS-MATURITY** - The commenter says RTPB/RTPBC/F&B standards are mature and the technical work is done.
+- [x] **PATIENT-ACCESS** - Patient access to medication, benefit information, affordability, and timely care is the dominant theme.
+- [x] **REGULATORY-AUTHORITY** - The comment repeatedly says CMS has authority and must enforce existing and new mandates.
+- [x] **STAKEHOLDER-COORDINATION** - The submission addresses payers, PBMs, intermediaries, third-party apps, standards bodies, and regulators.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The appendix discusses Part B/Part D ambiguity and asks for DTR to be explicit for medical benefit drugs.
+- [x] **TRANSPARENCY** - Drug price transparency, formulary usability, public metrics, and denial reason reporting are core requests.
+- [x] **EXISTING-WORKFLOWS** - The comment evaluates whether APIs work in real prescribing and patient shopping workflows.
+- [x] **VENDOR-ECOSYSTEM** - It discusses third-party application access, network intermediaries, MCP/API workflows, and vendor-facing implementation barriers.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+RxUtility | Public Comment: CMS-0062-P | June 15, 2026
+Respectfully submitted by RxUtility
+
+June 15, 2026
+
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Submitted electronically via Regulations.gov | Docket No. CMS-2026-1255
+
+Re: CMS-0062-P - 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+Submitted by: Miriam Paramore, Founder & CEO, RxUtility, Inc.
+
+CMS-0062-P is a good rule. The question is whether the final rule produces real outcomes for patients or just adds another technically compliant layer to a system patients do not benefit from.
+
+I started my career as an EDI programmer implementing 837 claims, 835 remittances, 270/271 eligibility, and the rest of the original HIPAA transaction set. I co-authored the Administrative Simplification provisions of the Affordable Care Act, including the statutory paragraph requiring adoption of the 835 electronic remittance standard. I created and architected the CAQH Index. I was EVP Enterprise-wide Strategy and Product at Emdeon (now Change Healthcare) and served as President and Chief Strategy Officer at OptimizeRx...

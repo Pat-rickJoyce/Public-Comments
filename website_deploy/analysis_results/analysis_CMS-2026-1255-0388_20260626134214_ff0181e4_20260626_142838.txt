@@ -1,0 +1,211 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0388
+Commenter: ADAP Advocacy Association
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:38
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** ADAP Advocacy Association
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Patient advocacy organization focused on AIDS Drug Assistance Programs (ADAPs) and HIV/AIDS patients; CEO Brandon M. Macsata; Board includes R.N., attorneys, pharmacist/MBA, and community health advocates
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+ADAP Advocacy supports the proposed rule's ePA and decision timeframe improvements as beneficial to HIV/AIDS patients but focuses primarily on three demands: prohibiting or heavily restricting step therapy for Medicare Advantage patients, requiring standardized and technology-enabled step therapy exception processes with continuity of care protections across plan changes, and enacting strict regulations on the use of artificial intelligence in PA reviews. The organization argues that step therapy and AI-driven denials disproportionately harm vulnerable patients including those living with HIV/AIDS.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, PA-TIMEFRAMES-DRUGS, PA-DENIAL-REASONS, API-USAGE-METRICS, GENERAL (step therapy RFI)
+- **Regulatory citations mentioned:** None specific
+- **Standards referenced:** None specific FHIR/NCPDP standards; references electronic prior authorization (ePA) generally
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** ePA will enable healthcare providers to access up-to-date drug coverage information, complete PAs more seamlessly, and track request statuses in real time.
+- **Specific request:** Support finalization; CMS must oversee health plans to ensure expedited processes do not lead to inappropriate coverage denials.
+
+**Topic 2: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** 24-hour determinations across all drugs will benefit patients, particularly HIV/AIDS patients needing timely access to antiretrovirals.
+- **Specific request:** Ensure oversight so expedited timelines do not become a mechanism for inappropriate denials.
+
+**Topic 3: Step Therapy – Prohibition / Restriction for Medicare Advantage**
+- **Provision ID:** GENERAL (step therapy RFI)
+- **Position:** Oppose (step therapy for MA); Modify (for other payers)
+- **Rationale:** Step therapy forces patients to fail on PBM-preferred drugs; profit motivation drives it more than clinical appropriateness; evidence shows disease progression, health complications, and increased utilization costs. No compelling evidence that fail-first protocols yield meaningful savings.
+- **Specific request:** CMS should prohibit MA plans from engaging in step therapy for drugs. Collect and release additional data on MA plans' PA use for Part B drugs.
+
+**Topic 4: Mandatory Step Therapy Exception Process**
+- **Provision ID:** GENERAL (step therapy RFI)
+- **Position:** Support (requiring exception process)
+- **Rationale:** No incentive for insurers/PBMs to exempt patients preemptively; CMS must mandate the process to protect patients.
+- **Specific request:** All entities permitted to engage in step therapy must maintain a clear, expeditious exception process: 72 hours normally, 24 hours in emergencies. Exceptions must cover: harm from required drug; prior failure or expected ineffectiveness; delayed treatment causing severe/irreversible consequences; stable patient on current medication; required drug preventing work or daily living activities.
+
+**Topic 5: Continuity of Care Across Plan Changes**
+- **Provision ID:** GENERAL (step therapy RFI)
+- **Position:** Support (requiring continuity protections)
+- **Rationale:** Patients should not repeat step therapy when changing plans; current lack of protections causes unnecessary clinical disruption and harm.
+- **Specific request:** (1) Continuity even if new insurer requires more steps or longer timelines; (2) continuity even if new payer's preferred treatments differ, as long as treatments are in the same therapeutic class.
+
+**Topic 6: Standardized Step Therapy Exception Process**
+- **Provision ID:** GENERAL (step therapy RFI)
+- **Position:** Support (standardization)
+- **Rationale:** Current payer-specific processes with varying documentation requirements impose unacceptable administrative burden on providers.
+- **Specific request:** Require all payers to use identical forms and instructions, uniform information requirements, same set of criteria for exceptions. Denials must include clinical rationale, alternative treatments, and description of appeal rights. All detailed denial justifications must go to both provider and patient.
+
+**Topic 7: Technology Platform for Step Therapy Exceptions**
+- **Provision ID:** GENERAL (step therapy RFI)
+- **Position:** Support
+- **Rationale:** Technology can standardize the exception process across all payers.
+- **Specific request:** CMS should develop a technology platform for standardized step therapy exception submissions including: patient-specific utilization management requirements; cost-sharing information; clinical documentation; criteria for exceptions; effective dates of step therapy policies.
+
+**Topic 8: Metrics Reporting – Step Therapy and Drug PA**
+- **Provision ID:** API-USAGE-METRICS, TRANSPARENCY
+- **Position:** Support with expansion
+- **Rationale:** Transparent reporting enables oversight and patient decision-making.
+- **Specific request:** Annual reporting on medications subject to step therapy, indications, request results, denial reasons, appeals outcomes. Step therapy clearly disclosed separately from PA requirements. All Part D plans required to publicly report PA metrics. API usage metrics at plan level across all payer markets, with denial rates and utilization management data; published in annual CMS report.
+
+**Topic 9: Regulation of Artificial Intelligence in PA**
+- **Provision ID:** GENERAL (PA process)
+- **Position:** Oppose (unregulated AI use in PA)
+- **Rationale:** 84% of surveyed insurers use AI/ML for utilization management per NAIC survey (2026); Optum's InterQual Auth Accelerator launched February 2026; promises of human review are not sufficient protection.
+- **Specific request:** Strict AI regulations: (1) records of AI-processed claims and outcomes; (2) documentation of human review for every claim; (3) strict guidelines on evaluation quotas; (4) plain disclosure to providers and patients when AI is used; (5) review of applicable patient data and discrimination laws; (6) financial, civil, and criminal liability for payors for adverse outcomes from AI-based decisions.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S14/S12:** Supports ePA for both pharmacy and medical benefit drugs as beneficial to HIV/AIDS patients.
+- **S20:** Supports 24-hour decision timeframes but urges CMS oversight against inappropriate denials.
+- **S29/S30/S34/S35:** Recommends API usage metrics at plan level across all payer markets, paired with utilization management data; published as annual CMS report.
+- **S76/S77 (Step Therapy RFI):** Strong recommendations: prohibit MA step therapy for drugs; require mandatory standardized exception process; require continuity of care across plan changes; build technology platform for standardized exceptions.
+- **S16:** Supports PA denial reasons; extends to requiring denial justifications for step therapy exceptions with clinical rationale, alternatives, and appeal rights provided to both provider and patient.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA for both medical and pharmacy benefit drugs; oversee plans to prevent inappropriate denials under expedited timelines.
+2. Prohibit MA plans from engaging in step therapy practices for drugs.
+3. Collect and release additional data on MA plans' PA use for Part B drugs.
+4. Require all entities engaged in step therapy to maintain a standardized exception process with 72-hour (standard) and 24-hour (emergency) response times.
+5. Define mandatory exception categories: patient harm, prior failure, delayed treatment causing severe consequences, stable patient, inability to work/perform ADLs.
+6. Require continuity of care protections when patients change plans, including same-therapeutic-class treatment continuity.
+7. Require standardized step therapy exception forms, documentation requirements, and criteria across all payers.
+8. Require all step therapy denial justifications to be provided to both providers and patients with clinical rationale, alternatives, and appeal rights.
+9. Develop a CMS technology platform for standardized step therapy exception submissions.
+10. Require step therapy to be clearly disclosed separately from PA requirements.
+11. Require all Part D plans to publicly report PA metrics at the plan level.
+12. Require API usage metrics at plan level paired with utilization management indicators; publish annual CMS report.
+13. Enact strict AI regulations for PA: records of AI-processed claims, mandatory human review, quota restrictions, disclosure, liability for adverse outcomes.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Step therapy is profit-driven cost-containment at patient health expense; unregulated AI in PA reviews endangers patients; lack of continuity protections causes harm when patients change plans.
+- **Potential negative impacts cited:** Patients subjected to step therapy experience disease progression and health complications; 84% of surveyed insurers use AI/ML for utilization management; AI promises of human review are insufficient protection.
+- **Implementation barriers mentioned:** Lack of uniformity in step therapy processes burdens providers; AI usage tracking and transparency requirements absent in current rule.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NAIC survey (2026): 84% of 93 insurance companies across 16 states use AI/ML for utilization management including PA.
+- **Studies or research referenced:** NAIC survey (Pestaina et al., 2026); Optum InterQual Auth Accelerator launch (Emerson, February 2026).
+- **Examples provided:** Optum's InterQual Auth Accelerator as example of AI integration in PA; HIV/AIDS patients' need for timely drug access as primary context.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** HIV/AIDS patients (primary focus), all patients subjected to step therapy, MA plan enrollees, Medicaid/CHIP managed care enrollees, QHP enrollees, healthcare providers, PBMs, MA organizations
+- **Economic implications:** Step therapy savings claims questioned; argues increased utilization costs result from step therapy-induced disease progression; AI regulation compliance costs for payers
+- **Technical feasibility:** Supports ePA generally; advocates for CMS technology platform for standardized step therapy exceptions
+- **Patient care impact:** Step therapy prohibition would improve HIV/AIDS patient drug access; continuity protections prevent clinical regression; AI regulations protect against automated inappropriate denials
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of ePA/timeframes; strongly opposed to step therapy and unregulated AI)
+- **Tone:** Professional, Critical
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "The truth, however, is that step therapy is clearly used as a mechanism to help insurers and PBMs pay less for care, often at the expense of patient health." - Context: Core argument against step therapy.
+
+2. "CMS should not permit Medicare Advantage plans to engage in step therapy practices, and we encourage CMS to collect and release additional data on Medicare Advantage plans' use of prior authorization for Part B drugs." - Context: Primary recommendation on step therapy.
+
+3. "While Optum and other payors have 'promised' that AI will not be used to automate approvals and denials, but rather to accelerate review processes, these promises are not sufficient to protect the health, well-being, and lives of patients." - Context: Introducing call for AI regulation.
+
+4. "These regulations must be developed to ensure that patients' lives are not put at risk in the name of saving time, money, and resources." - Context: Closing argument for AI regulations.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports 24-hour PA decision timelines; urges oversight to prevent misuse of expedited processes.
+
+- [ ] **COST-RESOURCES** - Not a primary focus; argues step therapy does not deliver meaningful savings.
+
+- [x] **PROVIDER-BURDEN** - Lack of standardized step therapy exception processes imposes unacceptable administrative burden; advocates for standardized forms and technology platform.
+
+- [ ] **PRIVACY-SECURITY** - Touches briefly on AI and patient data/discrimination laws, but not a primary theme.
+
+- [x] **HEALTH-EQUITY** - Central focus: HIV/AIDS patients face disproportionate barriers from step therapy and AI-driven denials; disease progression affects vulnerable populations.
+
+- [ ] **TECHNICAL-FEASIBILITY** - Supports ePA generally; no detailed technical concerns.
+
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+
+- [x] **PATIENT-ACCESS** - Core theme: step therapy blocks patient access to physician-prescribed medications; timely drug access critical for HIV/AIDS patients; continuity of care protection critical when changing plans.
+
+- [ ] **REGULATORY-AUTHORITY** - Not a primary focus.
+
+- [ ] **STAKEHOLDER-COORDINATION** - Not a primary focus.
+
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not specifically addressed.
+
+- [x] **TRANSPARENCY** - Strong emphasis: step therapy must be disclosed separately from PA requirements; detailed denial justifications required; annual CMS report; all data publicly available.
+
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+
+- [x] **EXISTING-WORKFLOWS** - Payer-specific step therapy processes create fragmented, burdensome workflows; advocates for CMS technology platform to standardize.
+
+- [ ] **VENDOR-ECOSYSTEM** - AI vendors (Optum InterQual) referenced critically; no broader vendor ecosystem discussion.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+RE: Interoperability Standards and Prior Authorization for Drugs
+
+The leadership of ADAP Advocacy appreciates the opportunity to comment on the Centers for Medicare and Medicaid Services (CMS) 2026 proposed rule regarding Interoperability Standards and Prior Authorization for Drugs. ADAP Advocacy's mission is to promote and enhance the AIDS Drug Assistance Programs and improve access to care for individuals living with HIV/AIDS.
+
+This proposed rule is of tremendous importance to the nation's patient population living with HIV/AIDS. With it, CMS has the opportunity to improve the prior authorization (PA) process, reduce administrative burdens for providers and patients, and strengthen transparency—all of which are critical in addressing barriers to care that patients too often face.
+
+We applaud CMS for aspects of this proposed rule that will significantly improve the PA process. It is a very positive step that CMS is striving to implement electronic prior authorization (ePA) for medications across the medical and pharmacy benefits...

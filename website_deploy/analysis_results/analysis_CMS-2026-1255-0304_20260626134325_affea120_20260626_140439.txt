@@ -1,0 +1,162 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0304
+Commenter: National Council for Mental Wellbeing
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:04:39
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Council for Mental Wellbeing (National Council)
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Membership organization representing over 3,200 mental health and substance use treatment organizations serving more than 10 million children, adults, and families; represented by Reyna Taylor, Senior Vice President, Public Policy & Advocacy
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The National Council for Mental Wellbeing generally supports the proposed rule's goals of expediting and improving transparency in prior authorization, particularly the PA-DENIAL-REASONS provision. However, the organization raises significant concerns about cybersecurity risks and resource constraints facing mental health and substance use providers—a population historically underinvested in health IT—and urges CMS to provide technical assistance, workforce support, and dedicated funding, and to clarify that providers will not be penalized for vendor failures outside their control.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DENIAL-REASONS, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED (general support for API standardization)
+- **Regulatory citations mentioned:** 91 FR 19890 (April 14, 2026); RIN 0938-AV44; Medicare Part D 6 protected classes policy; HITECH Act of 2009
+- **Standards referenced:** Application Programming Interface (API), electronic prior authorization (ePA), HIPAA
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: PA Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Clear denial reasons enable transparent communication, reduce administrative burden, and help patients understand their care decisions, supporting care continuity.
+- **Specific request:** Support the October 1, 2027 requirement that Medicaid/CHIP FFS, managed care plans, and QHP issuers provide specific reasons for drug PA denials.
+
+**Topic 2: API Standardization and ePA**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED
+- **Position:** Support with modifications
+- **Rationale:** Standardized, interoperable, real-time data exchange can reduce duplicative documentation and improve care coordination for medically complex patients. However, mental health and substance use providers depend heavily on a limited number of EHR vendors and third-party technology partners.
+- **Specific request:** CMS should clarify that providers will not be penalized for failures attributable to vendors, clearinghouses, or EHR systems outside provider control; coordinate timelines with ONC certification requirements; establish readiness validation or testing before enforcement begins.
+
+**Topic 3: Cybersecurity Risks for Safety-Net Providers**
+- **Provision ID:** GENERAL
+- **Position:** Concerns
+- **Rationale:** The expansion of API-based exchange significantly increases cybersecurity exposure for mental health and substance use providers, which often lack dedicated cybersecurity teams, operate with constrained IT resources, and were historically excluded from HITECH Act funding. Rural providers are particularly vulnerable. Integration with broader health systems also exposes these organizations to third-party security risks.
+- **Specific request:** CMS should provide technical assistance guidance, cybersecurity and IT workforce development support, and dedicated health IT funding; ensure the final framework reflects operational realities of mental health and substance use providers; support recovery planning tools.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Commenter supports requiring specific denial reasons; emphasizes value for transparent communication, reduced administrative burden, and care continuity for mental health and substance use patients.
+- **S37:** Commenter highlights implementation challenges for safety-net providers—specifically mental health and substance use organizations—citing limited IT staff, reliance on third-party vendors, and resource constraints as barriers.
+- **S18 (implicit):** Commenter notes that mandatory IG/API requirements place obligations on payers but the corresponding burden on providers and vendor readiness is not addressed; calls for provider protections.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Support the PA-DENIAL-REASONS provision requiring specific reasons when denying drug PA requests.
+2. Clarify that providers will not be penalized for compliance failures attributable to vendors, clearinghouses, or EHR systems outside their control.
+3. Coordinate implementation timelines closely with ONC certification requirements.
+4. Establish readiness validation or testing before enforcement begins.
+5. Provide technical assistance and implementation guidance to mental health and substance use providers.
+6. Provide cybersecurity and IT workforce development support and dedicated health IT funding for safety-net providers.
+7. Ensure the final implementation framework reflects operational realities and resource constraints of mental health and substance use providers.
+8. Invest strategically in cybersecurity resources for mental health and substance use providers, including recovery plan support tools.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Cybersecurity risks and unfunded mandates for mental health and substance use providers; vendor readiness gaps that could cause provider compliance failures through no fault of their own.
+- **Potential negative impacts cited:** Compliance gaps and operational disruption for safety-net providers; increased cybersecurity exposure for organizations with limited IT staff; unfunded costs for cybersecurity compliance, vendor upgrades, API integration, and maintenance.
+- **Implementation barriers mentioned:** Limited financial flexibility; small IT teams wearing multiple hats; historic underinvestment (exclusion from HITECH Act 2009); reliance on third-party vendors; rural providers lacking advanced IT infrastructure; exposure to other organizations' security risks through data sharing.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** National Council represents over 3,200 mental health and substance use treatment organizations serving 10 million+ children, adults, and families.
+- **Studies or research referenced:** References to HITECH Act of 2009 and its exclusion of mental health and substance use providers.
+- **Examples provided:** Rural community providers lacking dedicated cybersecurity teams; small IT teams maintaining HIPAA compliance with third-party vendor support; data sharing exposures when integrating with hospitals, ERs, and primary care.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Mental health and substance use treatment providers (3,200+ organizations); patients with mental illness and substance use disorders (10M+); rural communities; EHR vendors and third-party technology partners.
+- **Economic implications:** Unfunded costs for cybersecurity compliance, vendor upgrades, API integration, and maintenance would fall on resource-constrained safety-net providers.
+- **Technical feasibility:** Feasible in principle but constrained by limited IT workforce, vendor readiness gaps, and lack of dedicated funding for this provider population.
+- **Patient care impact:** Positive if implemented well—faster PA decisions and clearer denial reasons improve access for mental health and substance use patients. Risk of care disruption if implementation failures occur.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (Supportive of goals, Concerned about implementation)
+- **Tone:** Professional, Collaborative
+- **Priority level:** Medium
+
+---
+
+## 11. KEY QUOTES
+
+1. "CMS should clarify that providers will not be penalized for failures attributable to vendors, clearinghouses, or EHR systems outside provider control." - Context: Raising concern that API obligations fall on payers but implementation gaps may manifest at the provider level.
+
+2. "The historic underinvestment in, and patchwork system across, mental health and substance use providers, such as being left out of the HITECH Act of 2009, has significantly contributed to this issue." - Context: Explaining why mental health and substance use providers face greater cybersecurity challenges than other provider types.
+
+3. "As interoperability requirements expand, CMS must ensure that mental health and substance use provider organizations are not absorbing unfunded costs associated with cybersecurity compliance, vendor upgrades, API integration, or ongoing maintenance requirements." - Context: Urging CMS to accompany expanded requirements with dedicated funding and support.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Recommends coordinating timelines with ONC certification and establishing readiness validation before enforcement.
+- [x] **COST-RESOURCES** - Highlights unfunded costs of cybersecurity compliance, vendor upgrades, and API integration for underfunded safety-net providers.
+- [x] **PROVIDER-BURDEN** - Focus on administrative and operational burden on mental health and substance use providers with constrained resources.
+- [x] **PRIVACY-SECURITY** - Detailed concern about cybersecurity risks for providers with limited IT staff and infrastructure, especially given sensitive behavioral health data.
+- [x] **HEALTH-EQUITY** - Focus on mental health and substance use providers serving underserved populations, including rural communities; highlights historic underinvestment.
+- [x] **PATIENT-ACCESS** - Supports PA improvements to reduce barriers for patients managing complex mental health conditions; notes risk of care destabilization from utilization management.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends CMS coordinate with ONC; notes need for vendor readiness requirements alongside payer obligations.
+- [x] **TRANSPARENCY** - Supports PA-DENIAL-REASONS provision as key to transparency and care continuity.
+- [x] **VENDOR-ECOSYSTEM** - Central concern about reliance on EHR vendors and third-party technology partners; calls for vendor readiness requirements and provider protections.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: RIN 0938-AV44
+
+Submitted via regulations.gov
+
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid
+Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies
+and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated
+Exchanges (RIN 0938-AV44)
+On behalf of National Council for Mental Wellbeing (National Council), thank you for the opportunity to
+comment on the Centers for Medicare & Medicaid Services (CMS) proposed rule addressing
+interoperability standards and prior authorization for drugs, at 91 Federal Register ("FR") 19890 (April
+14, 2026). National Council is a membership organization representing over 3,200 mental health and
+substance use treatment organizations and the more than 10 million children, adults, and families they
+serve across our nation.
+An essential safeguard in Part D, the 6 protected classes policy ensures that patients managing complex
+health conditions, such as mental illness, are able to access the full spectrum of medications under Part
+D. Specifically, the policy says that Medicare must cover "all or substantially all" medications within the
+six classes (6PC), which includes antidepressants and antipsychotics.
+Under the law, Medicare Part D and MA plans are permitted to manage costs by using utilization management tools like step therapy, and prior authorization within all 6PC classes except HIV. While
+legal, these tools can sometimes lead to unfortunate delays for patients to medication access or
+destabilization of their health condition(s) due to requirements put in place by the health plans.
+The 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule addresses
+many of the problems patients face due to utilization management requirements, specifically prior
+authorization. We appreciate the administration's continued focus on improving patient access to health
+care as reflected in the proposed rule, which would create a "more expeditious, transparent and reliable
+process" for prior authorization...

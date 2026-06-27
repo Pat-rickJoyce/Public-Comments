@@ -1,0 +1,198 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0404
+Commenter: Premier Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:59:13
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Premier Inc. (signed by John Knapp, Vice President of Advocacy)
+- **Stakeholder type:** Professional Association / Healthcare Improvement Organization (representing an alliance of 4,350 hospitals and ~325,000 continuum of care providers; national supply chain leader)
+- **Credentials or expertise mentioned:** Malcolm Baldrige National Quality Award recipient; operates integrated data, analytics, collaboratives, and supply chain solutions; active in HHS Perinatal Improvement Collaborative (225+ hospitals across all 50 states); legislative advocacy track record (Prompt and Fair Pay Act, H.R. 4559)
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Premier Inc. generally supports the proposed rule's extension of ePA to drugs and endorses the proposed PA timeframes and denial specificity requirements, while urging CMS to establish an enforceable definition of "specific reason" for denials, provide adequate transition time and flexibility for FHIR-based standards, and allow X12 278 standards to coexist with FHIR during the HIPAA transition. Premier also recommends an incentives-based rather than mandate-based approach for electronic event notifications, and advocates for specificity-, evolvability-, and maturity-based cybersecurity standards with funding support.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, FHIR-IG-REQUIRED, HIPAA-PA-STANDARDS, API-ENDPOINT-REPORTING, API-USAGE-METRICS, GENERAL (event notifications RFI, cybersecurity RFI)
+- **Regulatory citations mentioned:** 85 FR 25510 (2020 Interop Rule); 89 FR 8758 (2024 PA Final Rule); 42 CFR 422.119(b); 42 CFR 431.60(b); 42 CFR 457.730(b); 42 CFR 438.242(b)(5); 42 CFR 457.1233(d); 45 CFR 156.221(b); 45 CFR 170.215; CMS-0057-F; H.R. 4559 (Prompt and Fair Pay Act)
+- **Standards referenced:** FHIR, HL7 FHIR IGs (CARIN Blue Button, Da Vinci PDex), NCPDP SCRIPT, X12 278, ONC subpart B 45 CFR Part 170, ADT event notifications
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs (Medical and Pharmacy Benefit)**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** A real-time integrated PA system improves patient access, reduces waiting time, and eliminates administrative burden. However, systemic issues (payer-specific workflow variation, inconsistent documentation standards) will persist after the rule.
+- **Specific request:** CMS should continue resolving persistent provider administrative burden from PA variation; encourage public-private collaboration on modernizing documentation and claims processes with technology integrated into clinical workflows.
+
+**Topic 2: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with extension
+- **Rationale:** Supports 24-hour CHIP FFS alignment and 24-hour expedited/72-hour standard drug PA for QHPs. Existing non-drug standard timeframes (7 days) remain too long and compromise access for medically complex patients.
+- **Specific request:** Advance greater alignment of PA timeframes across all payer types by further reducing non-drug standard PA timeframes to better align with proposed drug PA timeframes.
+
+**Topic 3: Specificity of Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with enhancement
+- **Rationale:** Vague denial language (e.g., "does not meet medical necessity criteria") fails to guide providers or patients toward actionable next steps. Premier data: ~15% of all claims denied initially; $25.7 billion in 2023 claims adjudication costs; 70% of denied claims ultimately overturned.
+- **Specific request:** CMS should develop a clear and enforceable definition of "specific reason"; prohibit vague or non-actionable denial language; require payers to make reasonable efforts to obtain missing information before issuing a denial.
+
+**Topic 4: FHIR-Based Interoperability Standards**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support with caveats
+- **Rationale:** Provider-side systems are insufficiently mature; EHR vendors need 12+ months post-final rule to build/update software; healthcare organizations then need additional time for configuration, testing, training, and payer coordination. FHIR alone may not capture all data needed for clinical improvement programs.
+- **Specific request:** Phased or extended compliance timeline; real-world testing and technical assistance before enforcement; acknowledge FHIR data gaps; protect safety net/rural/small providers — require payers to maintain alternative pathways when not operational; providers should not bear liability for payer technology failures.
+
+**Topic 5: HIPAA Prior Authorization Standards (FHIR replacing X12)**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support with caveats
+- **Rationale:** Replacing X12-based workflows too quickly creates operational burden; conformance testing and practical implementation learning are essential before enforcement.
+- **Specific request:** Adequate implementation timelines, clear guidance, and transitional flexibility; X12 278 must remain available until FHIR ecosystem is proven; emphasize testing, implementation support, and real-world validation.
+
+**Topic 6: API Endpoint Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Centralized endpoint registry improves discoverability and reduces administrative burden for Prior Authorization and Payer-to-Payer API connection.
+- **Specific request:** Standardized, machine-readable, minimally burdensome approach; leverage existing technical documentation; clear guidance on data elements, formatting, update processes, and validation; make publication practical for end users.
+
+**Topic 7: Electronic Event Notifications for Value-Based Care (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with caveats
+- **Rationale:** Post-acute and continuum-of-care providers lack interoperability infrastructure (excluded from HITECH-era incentives), creating data disconnects that hamper VBC care coordination.
+- **Specific request:** Incentives over unfunded mandates; technical assistance to bring PAC and continuum providers into interoperable network; support legislative PAC EHR incentive package (SNFs, LTCHs, IRFs, home health, hospice); incorporate event notification use into VBC payment models; "carrot over stick" philosophy.
+
+**Topic 8: Healthcare Cybersecurity Resiliency (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with specific framework recommendations
+- **Rationale:** Current approaches are fragmented, lacking enforceable baseline standards, and disproportionately burden providers for vendor-introduced vulnerabilities. Static regulatory codification risks creating compliance checklists without real-world ROI.
+- **Specific request:** Co-develop baseline standards based on: (1) Specificity — implementable, not open to interpretation; (2) Evolvability — adaptable to new threats without constant rulemaking; (3) Maturity — calibrated to organizational size and resources. Incentivize adoption through funding; align interoperability with security; avoid conflicting requirements.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Recommends enforceable definition of "specific reason" for PA denial; prohibit vague language; illustrates with spinal procedure example.
+- **S17:** Implicitly supports structured denial categories; recommends requiring payer outreach before administrative denial.
+- **S20:** Supports 24-hour expedited drug PA for QHPs and CHIP FFS alignment; urges CMS to also shorten non-drug standard PA timeframes across payer types.
+- **S21:** Urges phased compliance approach and adequate transition time; does not oppose October 2027 overall but notes EHR vendor and provider readiness timelines create pressure.
+- **S1/S18:** Supports FHIR IG requirements but urges adequate transition time and real-world testing before enforcement; notes provider-side systems are insufficiently mature.
+- **S3:** Urges phased compliance or extended implementation timeline; technical assistance needed before enforcement.
+- **S37:** Highlights implementation challenges: 12+ months EHR vendor build time; safety net and rural providers face heightened capital constraints.
+- **S44:** Supports FHIR as long-term direction for HIPAA PA transactions.
+- **S46:** Urges X12 278 to remain available during FHIR transition.
+- **S47:** Recommends adequate implementation timelines for HIPAA FHIR transition.
+- **S54:** Recommends conformance testing and practical implementation learning; real-world validation before enforcement.
+- **S23/S24:** Supports centralized endpoint registry; recommends standardized, machine-readable, minimally burdensome approach.
+- **S26:** Recommends clear guidance on data elements, formatting, update processes, and validation expectations.
+- **S66/S67 (Event Notification RFI):** Incentives over mandates; PAC legislative package; "carrot over stick" philosophy; VBC payment model integration.
+- **S68 (Cybersecurity RFI):** Specificity-, evolvability-, and maturity-based cybersecurity standards; public-private collaboration; funding support.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA requirement for all drugs requiring prior authorization, aligning with non-drug ePA policies.
+2. Finalize 24-hour drug PA timeframes for QHP issuers; also shorten non-drug standard PA timeframes to advance payer-type alignment.
+3. Develop clear and enforceable definition of "specific reason" for PA denial; prohibit vague or non-actionable denial language.
+4. Require impacted payers to make reasonable efforts to obtain missing information before issuing a denial.
+5. Provide phased compliance timeline or extended implementation timeline for FHIR IG requirements, with real-world testing and technical assistance before enforcement.
+6. Acknowledge FHIR data gaps for clinical improvement programs; allow inclusion of additional data fields for outcome-improvement efforts.
+7. Protect safety net, rural, and small providers; require payers to maintain alternative PA pathways when not fully operational; do not hold providers responsible for payer technology failures.
+8. Allow X12 278 standards to remain available until the FHIR-supported ecosystem has proven to work as intended.
+9. Emphasize conformance testing and practical implementation support for HIPAA FHIR standards before enforcement.
+10. Prioritize standardized, machine-readable, minimally burdensome approach for API endpoint reporting; leverage existing documentation.
+11. Advance event notification adoption through incentives, technical assistance, and flexible policy levers — not unfunded mandates; support PAC EHR legislative incentive package.
+12. Incorporate event notification use into VBC payment models and quality programs.
+13. Co-develop baseline cybersecurity standards based on specificity, evolvability, and maturity principles; avoid static regulatory codification.
+14. Align interoperability requirements with cybersecurity protections; pursue coordinated ecosystem-wide approach.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** FHIR standards and IGs not sufficiently mature for provider-side enforcement at scale; HIPAA FHIR transition too rapid given X12 dependency; denial specificity requirement needs an enforceable definition; post-acute and continuum-of-care providers lack interoperability infrastructure; healthcare cybersecurity is fragmented and provider-centric rather than ecosystem-wide.
+- **Potential negative impacts cited:** 15% initial claim denial rate to private payers; $25.7 billion in 2023 claims adjudication costs (23% YoY increase); $57/claim administrative cost; 70% of denied claims ultimately overturned; 28.5% initial Medicaid denial rate; PA landscape remains highly manual and fragmented regardless of rule.
+- **Implementation barriers mentioned:** EHR vendors need 12+ months post-final rule to build/update and release software; safety net and rural providers face heightened capital constraints; post-acute providers lack HITECH-era interoperability infrastructure; simultaneous provider configuration, testing, training, and payer coordination creates compounding timeline pressure.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 4,350 hospital alliance members; ~325,000 continuum of care providers; ~15% initial claim denial rate to private payers (Premier survey); >$25.7 billion in 2023 claims adjudication costs (23% increase from prior year); $57/claim administrative cost; 70% of denied claims ultimately overturned; 15% MA initial denial rate; 28.5% Medicaid initial denial rate.
+- **Studies or research referenced:** Premier's own survey of hospitals and health systems; HHS Perinatal Improvement Collaborative (225+ hospitals across all 50 states); H.R. 4559 (Prompt and Fair Pay Act); HITECH-era incentive program gaps for post-acute providers.
+- **Examples provided:** Spinal procedure denial — "lacks medical necessity" vs. "has not exhausted physical therapy" illustrating vague vs. actionable denial language; maternal morbidity/mortality initiative requiring data beyond FHIR capabilities; ADT event notification progress under hospital CoPs.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals and health systems (4,350 in Premier alliance), continuum-of-care providers (325,000+), post-acute providers, rural and safety net providers, EHR vendors, payers, patients
+- **Economic implications:** $25.7 billion/year in claims adjudication costs driven by denials; EHR vendor and provider implementation investment required; PAC EHR incentive legislation needed; FHIR IG enforcement before readiness risks operational disruption and provider liability
+- **Technical feasibility:** Provider-side FHIR maturity insufficient for enforcement-ready deployment by October 2027 without phased approach; EHR vendor build timelines alone approach 12 months post-final rule; FHIR standards may not capture all data needed for clinical improvement programs
+- **Patient care impact:** Specific denial reasons and faster PA timeframes directly improve access; disruption from immature FHIR enforcement or rapid X12 transition risks care delays; post-acute care data disconnects hamper VBC care coordination
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with implementation concerns and enhancement requests)
+- **Tone:** Professional, Collaborative, Advocacy-oriented
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "It is insufficient for payers to simply indicate that a prior authorization request was denied because it 'does not meet medical necessity criteria,' as this response does not help guide the patient and provider toward what the payer would deem as medically appropriate (and thus covered) care." - Context: Explaining why an enforceable definition of "specific reason" is needed beyond the proposed requirement.
+2. "Despite these anticipated improvements that would occur if the proposed policies were finalized, the current prior authorization landscape would remain highly manual, fragmented and administratively burdensome for providers due to systemic issues that would persist." - Context: Tempering expectations for the rule's real-world impact on persistent PA burden.
+3. "Providers should not be held responsible for delays, incomplete data-exchange or denials arising solely from payer technology failures or compliance gaps." - Context: Protecting providers from liability for payer-side FHIR implementation failures, especially safety net and rural providers.
+4. "Premier believes meaningful improvement in technology adoption is best achieved through financial and non-financial incentives tied to improved care coordination and outcomes, rather than through new unfunded mandates." - Context: "Carrot over stick" philosophy applied to event notification adoption for value-based care.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - FHIR IG and HIPAA PA standards timeline is challenging; EHR vendors need 12+ months post-final rule; urges phased or extended compliance timeline with testing before enforcement.
+- [x] **COST-RESOURCES** - $25.7 billion/year in claims adjudication costs; safety net and rural providers face capital constraints; post-acute providers need legislative funding for interoperability.
+- [x] **PROVIDER-BURDEN** - Core theme: persistent PA fragmentation and manual processes remain regardless of rule; payer-specific workflow variation continues; providers should not bear liability for payer technology failures.
+- [x] **PRIVACY-SECURITY** - Addresses cybersecurity RFI; advocates specificity-, evolvability-, maturity-based baseline standards; public-private collaboration; aligning interoperability with security protections.
+- [x] **HEALTH-EQUITY** - Safety net, rural, and small providers face heightened challenges; post-acute providers lack HITECH-era interoperability infrastructure; PAC EHR incentives needed.
+- [x] **TECHNICAL-FEASIBILITY** - Provider-side FHIR maturity insufficient for enforcement-ready deployment; EHR vendor readiness timeline creates compounding pressure; FHIR may not capture all clinical improvement program data.
+- [x] **STANDARDS-MATURITY** - FHIR IGs not yet mature enough for enforcement at scale; X12 278 must coexist during HIPAA FHIR transition; conformance testing and real-world validation needed.
+- [x] **PATIENT-ACCESS** - Specific denial reasons and faster PA timeframes directly improve access; disruption from premature enforcement or rapid X12 transition risks care delays.
+- [x] **TRANSPARENCY** - Supports PA denial specificity but urges enforceable definition; recommends payer outreach before administrative denial; supports public PA metrics reporting.
+- [x] **STAKEHOLDER-COORDINATION** - Post-acute/continuum provider connectivity gap hampers VBC; payer-provider coordination needed for end-to-end FHIR implementation; public-private cybersecurity collaboration essential.
+- [x] **EXISTING-WORKFLOWS** - X12 278 workflows cannot be abruptly displaced; PA landscape remains fragmented despite rule improvements; ADT notification progress built on CoP requirements.
+- [x] **VENDOR-ECOSYSTEM** - EHR vendors need time to interpret specs and release updates before provider implementation; PAC providers left behind by HITECH-era programs; current PA burden partly attributable to payer-specific system variation.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+200 Massachusetts Avenue W, Suite 330, Washington, DC 20001  |  Premierinc.com
+
+June 12, 2026,
+
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+
+Submitted electronically to: http://www.regulations.gov
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges [Docket Number CMS-0062-P]
+
+Dear Administrator Oz:
+
+Premier Inc. appreciates the opportunity to submit comments on the Medicare Program; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges), CMS-0062-P. Premier appreciates the Centers for Medicare & Medicaid Services (CMS)' ongoing commitment to improving access to care and enabling better data exchange among providers, patients and payers...

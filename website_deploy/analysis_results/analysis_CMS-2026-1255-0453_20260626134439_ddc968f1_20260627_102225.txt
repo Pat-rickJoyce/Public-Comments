@@ -1,0 +1,169 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0453
+Commenter: Johnson & Johnson Services, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:25
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Johnson & Johnson Services, Inc.; signed by Robert Donnelly, Senior Director, U.S. Government Affairs & Policy, Johnson & Johnson Innovative Medicine
+- **Stakeholder type:** Other (Pharmaceutical/Medical Technology Manufacturer)
+- **Credentials or expertise mentioned:** Member of PhRMA, BIO, and AdvaMed; supports those organizations' comment letters; experience with innovative medicines and medical technologies in federal healthcare programs
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Johnson & Johnson broadly supports CMS's proposed rule expanding electronic prior authorization requirements, emphasizing strong evidence of harm from aggressive utilization management, including data showing over 75% commercial PA denial rates in some therapeutic areas. J&J specifically responds to the step therapy and lab/DMEPOS RFIs, urging CMS to prohibit embedded step therapy and to clarify that MA plans must recognize date of test performance (not specimen collection date) as the date of service for laboratory PA purposes.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, GENERAL (step therapy and lab/DMEPOS RFIs)
+- **Regulatory citations mentioned:** 42 CFR 414.510(a) (date of service for lab services); 42 CFR 414.510(b) (exceptions to date of service rule)
+- **Standards referenced:** Electronic prior authorization; FHIR APIs (general); NCPDP standards (general); interoperability requirements (general)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: General Support for UM Reform and Electronic PA**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Strong evidence of negative impact of aggressive UM on patient access; over 75% commercial PA denial rates in five therapeutic areas; 47% of new branded medication fills in Part D initially denied; proposal would meaningfully improve UM through electronic PA, timelines, clearer denial justifications, and reporting.
+- **Specific request:** Electronic PA for pharmacy and medical benefit medicines; decision timelines; PA status access; actionable denial justifications; expanded reporting to CMS and public.
+
+**Topic 2: Step Therapy Reform — Embedded Step Therapy**
+- **Provision ID:** GENERAL (step therapy RFI)
+- **Position:** Modify/Clarify
+- **Rationale:** "Embedded step therapy" imposes step therapy within PA requirements, hiding access barriers during plan selection and prescription filling; frequently extends beyond FDA-approved labeling; undermines informed coverage and treatment decisions.
+- **Specific request:** Require timely data sharing of prior therapy history for step therapy exceptions; require full disclosure of step therapy employment; prohibit embedding step therapy within PA requirements.
+
+**Topic 3: Laboratory Test PA — Date of Service Policy**
+- **Provision ID:** GENERAL (lab/DMEPOS RFI)
+- **Position:** Clarify
+- **Rationale:** MA plans are misinterpreting 42 CFR 414.510, denying PA based on date of specimen collection even when test not yet performed; denials are procedural, not medical necessity-based, and not appealable; particularly harmful for molecular testing for cancer patients.
+- **Specific request:** Clarify that MA plans must recognize date of test performance as the date of service for PA purposes, not specimen collection date.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12 (technical challenges for medical benefit drug PA):** Supports; IQVIA data shows 47% of new branded Part D fills initially denied; CMS proposal would meaningfully improve UM through electronic PA, timelines, and clearer denials.
+- **S16-S17 (specific denial reasons):** Supports; current denials lack actionable information preventing efficient UM navigation.
+- **S20, S43 (PA timeframes):** Supports timelines; current delays average 3-5 weeks; some patients face 11+ rejections.
+- **S29-S35 (API usage metrics and reporting):** Supports expanded reporting to CMS and public to increase accountability.
+- **S69-S70 (step therapy RFI):** Urges timely data sharing of prior therapy history; calls for full disclosure of embedded step therapy and prohibition of the practice; highlights embedded step therapy extending beyond FDA-approved labeling.
+- **S71 (lab/DMEPOS RFI):** Raises specific issue with MA plan misapplication of 42 CFR 414.510; urges CMS clarification that date of test performance governs PA for lab services not yet performed.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Require electronic PA for medicines covered under both pharmacy and medical benefit.
+2. Establish timelines for PA decisions.
+3. Improve access to PA status and outcome information.
+4. Mandate clearer and more actionable denial justifications.
+5. Expand reporting requirements to CMS and public.
+6. Require timely data sharing of prior therapy history to support step therapy exceptions.
+7. Require full disclosure of when and where step therapy is employed.
+8. Prohibit embedding step therapy within prior authorization requirements.
+9. Clarify that MA plans must recognize date of test performance as the date of service for PA purposes.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Aggressive UM causing widespread denial of access to prescribed medications; embedded step therapy hides access barriers during plan selection; MA plan misapplication of date of service rules creates non-appealable administrative lab PA denials.
+- **Potential negative impacts cited:** Over 75% commercial PA denial rates (up to 92% in immunology); 3-5 week average delays; 11+ rejections for some patients; 20-67% unable to get approval within one year; 64-82% of denied patients receive no alternative treatment; 100% of PDP covered lives face PA/step therapy for PsA drugs; embedded step therapy beyond FDA-approved labeling; non-appealable PA denials for lab tests.
+- **Implementation barriers mentioned:** None specific to rule implementation; concerns focus on current UM practices that the rule should address.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:**
+  - IQVIA (July 2025): Over 75% of commercially insured patients denied coverage; up to 92% denial rate in immunology; 3-5 week delays; 11+ rejections for some patients; 20-67% unable to get approval within one year; 64-82% of those receiving no alternative treatment
+  - Avalere Health (March 2025): 100% of PDP covered lives (93% MA-PDs) face PA/step therapy for PsA single-source brand drugs; 87% PDP covered lives (51% MA-PDs) face UM for MS drugs
+  - IQVIA (June 2025): 47% of new branded Part D fill attempts initially denied; 14% unapproved within one year
+  - Community Oncology Alliance (2026): Over 90% of oncology professionals report UM not aligned with clinical recommendations; nearly 90% added staff for PA paperwork; nearly 90% say appeals processes inadequate
+- **Studies or research referenced:** IQVIA analyses; Avalere Health reports; Community Oncology Alliance survey (2026); Avalere Health Advisory (May 2025) on commercial step therapy beyond FDA label
+- **Examples provided:** Molecular testing for cancer patients (specimens collected during hospital procedures); MA misapplication of 42 CFR 414.510 creating non-appealable administrative lab PA denials.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients across all coverage types; pharmaceutical manufacturers; oncology professionals; clinical laboratories; MA organizations
+- **Economic implications:** Widespread denial of access to prescribed medications; 14% of new-to-brand Part D claims unapproved within one year; between 64-82% of denied patients receive no alternative treatment; lab PA timing rules create cancer care delays
+- **Technical feasibility:** Supports timely data sharing for step therapy history; no specific technical feasibility concerns raised
+- **Patient care impact:** Very high; empirical data documents widespread denial rates, extended delays, and high rates of no alternative treatment; cancer patients particularly affected by lab PA denials and timing rules
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, evidence-based, advocacy-oriented
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Over 75% of commercially insured patients were denied coverage when seeking to fill a new prescription, with rejections as high as 92% in immunology." — Context: Citing IQVIA data to underscore need for UM reform and electronic PA.
+2. "Embedded step therapy frequently imposes step therapy protocols that extend beyond FDA-approved labeling... These practices undermine the ability of patients and providers to make informed coverage and treatment decisions." — Context: Calling for prohibition of embedded step therapy.
+3. "It is inconsistent to apply the date of service policy as the basis for denying a prior authorization request for a laboratory service that has not yet been performed." — Context: Urging clarification of MA lab PA date of service rules.
+4. "Over 90% of surveyed oncology professionals reported that UM policies are not aligned with clinical recommendations, that UM policies interfere with patient access to providers' initial recommendations." — Context: Citing Community Oncology Alliance survey on UM burden.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** — Central; empirical data documents 75%+ commercial denial rates, weeks-long delays, and high rates of patients never receiving alternative treatment; lab PA timing rules create cancer care delays.
+- [x] **TRANSPARENCY** — Supports specific denial reasons; calls for full disclosure of embedded step therapy; supports expanded reporting to CMS and public.
+- [x] **PROVIDER-BURDEN** — Over 90% of oncology professionals report UM not aligned with clinical recommendations; nearly 90% added staff to handle PA paperwork; severe burden documented.
+- [x] **EXISTING-WORKFLOWS** — Embedded step therapy hidden within PA requirements disrupts transparent plan selection; lab PA date of service rules misapplied in current MA workflows.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Supports electronic PA across both benefit types; lab date of service issue specific to medical benefit lab services.
+- [x] **COST-RESOURCES** — 14% of new-to-brand Part D claims unapproved within one year; 64-82% of denied patients receive no alternative treatment; significant cost and harm.
+- [x] **STAKEHOLDER-COORDINATION** — Refers to and supports PhRMA, BIO, and AdvaMed comment letters; step therapy data sharing requires cross-payer coordination for prior therapy history portability.
+- [x] **REGULATORY-AUTHORITY** — Calls for CMS clarification of MA plan obligations under 42 CFR 414.510 and prohibition of embedded step therapy practices.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Johnson & Johnson Services, Inc
+1350 I (Eye) Street, NW, Suite 1210
+Washington, DC 20005 USA
+T +1 202 589-1000
+Rdonnel4@its.jnj.com
+jnj.com
+
+June 15, 2026
+
+VIA ELECTRONIC SUBMISSION AT: www.regulations.gov
+Dr. Mehmet Oz, Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Attention: CMS–0062–P
+P.O. Box 8013
+Baltimore, MD 21244–1850
+
+RE:  Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities and
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges (RIN 0938-AV44)
+
+Dear Administrator Oz:
+
+Johnson & Johnson ("J&J") is pleased to submit the following comments and
+recommendations in response to the above-referenced proposed rule, released by the
+Centers for Medicare & Medicaid Services (CMS, or the Agency) on April 14, 2026. At
+Johnson & Johnson, we are driven by a passion to achieve the best version of health for
+everyone, everywhere, for as long as possible. Focusing on transformational healthcare
+innovation allows us to move with purpose and speed to tackle the world's toughest health
+challenges....

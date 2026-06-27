@@ -1,0 +1,148 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0399
+Commenter: American Society for Transplantation and Cellular Therapy (ASTCT)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:59:13
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Society for Transplantation and Cellular Therapy (ASTCT), signed by Margaret L. MacMillan, MD, MSc, FRCPC, ASTCT President 2026-2027
+- **Stakeholder type:** Professional Association (specialty medical society)
+- **Credentials or expertise mentioned:** International association of 3,900+ physicians, investigators, and health care professionals from 50+ countries; focus on hematopoietic cell transplantation and cellular therapies
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+ASTCT commends CMS's commitment to improving interoperability and reducing prior authorization burden, but requests specific refinements focused on out-of-network and out-of-state provider applicability, more granular denial reason requirements, strengthened appeals and peer-to-peer processes, and robust enforcement mechanisms. The organization's concerns are driven by the unique access challenges facing patients requiring specialized cell therapies and transplant procedures at a limited number of treatment centers.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DENIAL-REASONS, PA-DRUG-MEDICAL (implicitly), GENERAL (out-of-network clarification, enforcement, appeals)
+- **Regulatory citations mentioned:** National Coverage Determination (NCD) for CAR-T therapy; Medicaid Covered Outpatient Drug (COD) 24-hour determination requirement
+- **Standards referenced:** None explicitly cited (FHIR/NCPDP not addressed)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Applicability to Out-of-Network and Out-of-State Providers**
+- **Provision ID:** GENERAL / PA-DRUG-MEDICAL
+- **Position:** Clarify
+- **Rationale:** Specialized cell therapies (e.g., CAR-T) are available at only a limited number of centers; patients frequently require access outside payer networks or state lines. No network adequacy standard exists for MA plans regarding cellular therapy centers, creating administrative blocks for beneficiaries entitled to care under an NCD. Inconsistent application creates operational gaps and delays with serious clinical consequences.
+- **Specific request:** CMS should clarify that PA standards, transparency requirements, and interoperability obligations apply consistently when payers authorize out-of-network care or when a medically necessary service is unavailable within the state for Medicaid beneficiaries. CMS should also provide operational guidance for payer-provider workflows for out-of-network/out-of-state care requests.
+
+**Topic 2: Specificity of Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support (with enhancement)
+- **Rationale:** Denial communications are frequently vague and insufficient to support appeal efforts; more granular categorization would enable informed appeal decisions and reduce unnecessary appeals.
+- **Specific request:** Require plans to distinguish between medical necessity denials, administrative denials, and network/site-of-care denials; require reference to specific payer policies and direct links to medical/administrative policies used in the decision.
+
+**Topic 3: Appeals and Peer-to-Peer Processes**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Complex specialty cases (cellular therapies, transplants) are subject to prolonged review, delayed peer-to-peer scheduling, and review by clinicians lacking appropriate expertise. Current proposed rule does not clearly apply timeliness/transparency requirements to appeals and reconsideration processes.
+- **Specific request:** Clarify whether reconsideration and appeals processes are subject to the proposed timeliness and transparency requirements; require peer-to-peer reviews to be conducted by clinicians with appropriate specialty expertise.
+
+**Topic 4: Enforcement and Operational Oversight**
+- **Provision ID:** GENERAL
+- **Position:** Modify (strengthen)
+- **Rationale:** Without meaningful enforcement, PA reforms have limited practical impact. Members report noncompliance with Medicaid's COD 24-hour determination requirement has significantly undermined effectiveness. Public reporting alone is insufficient.
+- **Specific request:** Establish a clear process for reporting noncompliance; implement meaningful consequences for plans that fail to meet regulatory requirements; complement public reporting with enforcement mechanisms.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Strongly supports requiring specific denial reasons; recommends categorization into medical necessity, administrative, and network/site-of-care denials with direct policy references.
+- **S17:** Recommends structured denial codes that distinguish denial type and include links to applicable payer policies.
+- **S20:** Implicitly supports faster timelines but notes that existing 24-hour COD requirement is already being violated without enforcement, raising efficacy concerns.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Clarify that PA standards, transparency requirements, and interoperability obligations apply consistently to out-of-network and out-of-state care authorizations.
+2. Require payers to distinguish between medical necessity denials, administrative denials, and network/site-of-care denials.
+3. Require denial notices to reference specific payer policies and include direct links to the medical/administrative policies used.
+4. Clarify whether timeliness and transparency requirements apply to reconsideration and appeals processes.
+5. Require peer-to-peer reviews to be conducted by clinicians with appropriate specialty expertise.
+6. Establish a clear reporting mechanism for noncompliance with PA requirements.
+7. Implement meaningful enforcement consequences for plans that fail to meet regulatory standards.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Out-of-network care for specialized cell therapies faces administrative blocks even when covered by NCD; vague denials hinder appeals; peer-to-peer review quality is inadequate for complex specialty cases; enforcement of existing requirements is insufficient.
+- **Potential negative impacts cited:** Clinically significant delays in care for life-threatening conditions; inequitable outcomes based on geography and payer network; wasted administrative effort on uninformed appeals.
+- **Implementation barriers mentioned:** Lack of MA network adequacy standards for cellular therapy; no enforcement mechanism for existing 24-hour Medicaid COD requirement.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ASTCT has 3,900+ members from 50+ countries.
+- **Studies or research referenced:** Not cited.
+- **Examples provided:** CAR-T therapy (NCD exists but no MA network adequacy standard); patients with blood cancers requiring out-of-network transplant centers; Medicaid COD 24-hour requirement noncompliance.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with life-threatening conditions requiring specialized cell therapies; specialty transplant and cellular therapy centers; MA organizations and Medicaid managed care plans; providers navigating complex out-of-network authorization workflows
+- **Economic implications:** Not directly quantified; efficiency gains anticipated from clearer denial reasons and reduced unnecessary appeals
+- **Technical feasibility:** Not addressed (comment focuses on policy and operational process rather than technical/FHIR standards)
+- **Patient care impact:** High — delays in CAR-T and transplant PA have severe clinical consequences; geographic inequity in access to life-saving treatments
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with enhancements requested)
+- **Tone:** Professional, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Access to specialty cell therapy should not be determined by chance and geography." - Context: Arguing for consistent PA standards for out-of-network and out-of-state providers when medically necessary care is unavailable locally.
+2. "Without consistent and meaningful enforcement, the practical effectiveness of these reforms will be limited, particularly for those requirements related to decision timelines and denial specificity." - Context: Urging enforcement mechanisms beyond public reporting.
+3. "Our members have reported that noncompliance with Medicaid's Covered Outpatient Drug (COD) 24-hour determination requirement has significantly undermined the effectiveness of the rule." - Context: Illustrating that existing requirements without enforcement are ineffective.
+4. "'Peer' reviews conducted by individuals who lack the appropriate clinical expertise to evaluate these cases." - Context: Describing inadequate peer-to-peer review quality for complex specialty therapies.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Notes existing 24-hour COD requirement is not being complied with; implies enforcement is needed before adding new requirements.
+- [x] **PROVIDER-BURDEN** - Prolonged review periods, delayed peer-to-peer scheduling, and uninformed reviewers burden specialty providers.
+- [x] **HEALTH-EQUITY** - Geographic inequity in access to specialized cell therapies; outcomes differ based on network and location, not clinical need.
+- [x] **PATIENT-ACCESS** - Core concern: patients with life-threatening blood cancers face administrative barriers to medically necessary, NCD-covered therapies.
+- [x] **TRANSPARENCY** - Strongly supports specific denial reasons; requests categorization by denial type and direct policy references.
+- [x] **REGULATORY-AUTHORITY** - Requests CMS clarify scope of applicability (out-of-network/out-of-state) and whether appeals processes are subject to proposed requirements.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+330 North Wabash Avenue, Suite 2000  •  Chicago, Illinois 60611  •  P: (312) 321-6820  •  F: (312) 673-6733
+
+June 12, 2026
+
+Dr. Mehment Oz
+Administrator
+Department of Health and Human Services
+Centers for Medicare & Medicaid Services
+CMS-0062-P, P.O. Box 8013
+Baltimore, MD 21244-8013
+Delivered electronically at regulations.gov
+
+RE: CMS-0062-P Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Dear Administrator Oz:
+The American Society for Transplantation and Cellular Therapy (ASTCT) is an international professional membership association of more than 3,900 physicians, investigators, and other health care professionals from more than 50 countries. Our mission is to advance hematopoietic cell transplantation and cellular therapies through groundbreaking research, high-quality education, impactful advocacy, and clinical excellence...

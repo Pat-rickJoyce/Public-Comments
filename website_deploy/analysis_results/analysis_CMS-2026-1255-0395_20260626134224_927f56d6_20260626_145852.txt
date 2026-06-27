@@ -1,0 +1,185 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0395
+Commenter: Vizient, Inc.
+Source: PDF Attachment
+Analysis Date: 20260626_145852
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Vizient, Inc.; signed by Shoshana Krilow, Senior Vice President of Public Policy and Government Relations
+- **Stakeholder type:** Professional Association / Healthcare Provider (nation's largest provider-driven healthcare performance improvement company; serves acute and ambulatory providers)
+- **Credentials or expertise mentioned:** Provides solutions and services to more than two-thirds of the nation's acute care providers and more than one-third of ambulatory providers; contract portfolio representing $156 billion in annual purchasing volume; acquired Kaufman Hall in 2024.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Vizient generally supports the proposed rule's extension of ePA and interoperability requirements to drugs, while offering targeted recommendations for modification. Key concerns include: the need for payers to account for site-of-care and patient-specific benefit pathway variations (particularly relating to white bagging); the desire for shorter PA decision timeframes than currently proposed; the need for more granular and standardized PA metrics reporting with a centralized repository; and concerns about the 30-day timeframe for responding to Open Payments audit requests. Vizient also supports the shift from X12 to FHIR for HIPAA PA standards but requests additional compliance flexibilities.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, HIPAA-PA-STANDARDS, ONC-STANDARDS-UPDATE, OPEN-PAYMENTS-CMP
+- **Regulatory citations mentioned:** 2024 CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F); 91 Fed. Reg. 19890 (April 14, 2026)
+- **Standards referenced:** FHIR (HL7), X12N 278, NCPDP SCRIPT, NCPDP Formulary & Benefit Standard, NCPDP Real-Time Prescription Benefit Standard
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: ePA for Drugs — Medical/Pharmacy Benefit Pathway Clarity**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Support with modification
+- **Rationale:** Exceptions exist where drugs generally covered under pharmacy benefit may need clinical administration under medical benefit (e.g., patient self-administration challenges, white bagging prohibitions at certain sites of care). If ePA pathways don't account for these nuances, PA requests may be inappropriately denied.
+- **Specific request:** Require impacted payers to ensure ePA pathways account for patient-specific, provider-specific, and site-of-care arrangements; clarify that the rule does not restrict coverage design, site-of-care arrangements, or medication dispensing practices.
+
+**Topic 2: PA Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modification
+- **Rationale:** Generic responses will still require additional payer contact if not sufficiently actionable.
+- **Specific request:** Ensure denial reasons and resubmission/appeal directions are sufficiently detailed so providers do not need additional payer follow-up.
+
+**Topic 3: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modification
+- **Rationale:** Proposed timeframes (7 days standard, 72 hours expedited) are excessively long and don't reflect urgency required for care decisions.
+- **Specific request:** Adopt 24-hour maximum for expedited drug PA; 72-hour maximum for standard drug PA; also shorten timeframes for medical items and services.
+
+**Topic 4: PA Metrics Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modification
+- **Rationale:** Aggregated metrics alone don't provide sufficiently granular information to identify recurring access challenges or inappropriate PA practices.
+- **Specific request:** Require drug-specific and item/service-specific PA metrics; provide standardized reporting templates; create centralized CMS repository for payer-reported metrics.
+
+**Topic 5: HIPAA PA Standards — X12 to FHIR Transition**
+- **Provision ID:** HIPAA-PA-STANDARDS, ONC-STANDARDS-UPDATE
+- **Position:** Support with modification
+- **Rationale:** 24 months may be insufficient for some covered entities; version updates between proposed and final rule add uncertainty.
+- **Specific request:** Provide additional compliance resources and flexibilities; establish predictable transition process with backward compatibility and coordinated timelines; allow provider use of older versions as payers update systems.
+
+**Topic 6: Open Payments CMP — Audit Response Timeframe**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Modify
+- **Rationale:** 30 calendar days may be insufficient given scope, nature, or complexity of audit requests.
+- **Specific request:** Substantially extend the 30-day timeframe; establish a clear process for entities to request extensions.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** Medical vs. pharmacy benefit distinction unclear for some drugs depending on site-of-care; payers should account for patient-, provider-, and site-specific nuances in ePA pathways.
+- **S16:** Denial reasons should be sufficiently specific to avoid provider follow-up; generic reasons like "insufficient documentation" must identify specifically what is missing.
+- **S20:** Proposed 72-hour expedited timeframe too long; 24-hour maximum for expedited and 72-hour maximum for standard drug PA recommended.
+- **S29:** PA metrics should be reported at drug level and item/service level; standardized templates and centralized CMS repository needed.
+- **S44:** Vizient supports replacing X12N 278 with FHIR-based standards for PA transactions.
+- **S47:** 24-month HIPAA compliance timeline may be too short; additional flexibilities and resources needed.
+- **S53:** Predictable transition process with backward compatibility and coordinated timelines needed for standards version evolution.
+- **S57:** 30-day Open Payments audit response timeframe too short; should be substantially extended with a clear extension request process.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Require payers to ensure ePA pathways account for patient-specific, provider-specific, and site-of-care arrangements.
+2. Clarify the rule does not restrict coverage design, site-of-care arrangements, or how medication may be dispensed.
+3. Ensure payer denial reasons and resubmission/appeal directions are sufficiently detailed to avoid additional payer contact.
+4. Adopt shorter drug PA timeframes: maximum 24 hours expedited; 72 hours standard.
+5. Also shorten timeframes for medical items and services.
+6. Require drug-specific PA metrics; require item- and service-specific metrics for non-drug PA.
+7. Provide standardized PA metrics reporting templates; create centralized CMS repository.
+8. Provide covered entities with additional compliance resources and flexibilities for X12-to-FHIR transition.
+9. Establish predictable transition process with backward compatibility, adequate lead time, and coordinated timelines for standards version updates.
+10. Substantially extend the 30-day Open Payments audit response timeframe; establish extension request process.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Dual-pathway ePA ambiguity for drugs crossing medical/pharmacy benefit based on site-of-care; PA decision timeframes too long; PA metrics too aggregated; 24-month HIPAA compliance window may be too short; 30-day Open Payments audit response window too short.
+- **Potential negative impacts cited:** White bagging policies cause care disruptions, increase provider administrative burden and labor costs, and create negative patient outcomes; variability in PA documentation requirements forces providers to hire additional staff and purchase PA-specific technology.
+- **Implementation barriers mentioned:** Limited provider resources for standards transitions; current PA metrics reporting variability and difficulty locating on payer websites; audit request complexity varies significantly.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Vizient serves more than two-thirds of the nation's acute care providers; $156 billion in annual purchasing volume.
+- **Studies or research referenced:** Vizient's "Survey on the patient care impact and additional expense of white/brown bagging"; AMA/ASCO issue brief on patient access to medication safety.
+- **Examples provided:** Drugs dispensed under pharmacy benefit needing clinical administration (medical benefit) due to self-administration challenges; white bagging prohibition policies creating benefit pathway confusion.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Acute care providers, ambulatory providers, academic medical centers, pediatric facilities, impacted payers, patients receiving specialty drugs, manufacturers/GPOs.
+- **Economic implications:** More granular metrics help providers evaluate payer PA challenges; white bagging ambiguity creates financial risks; 30-day audit window creates compliance risk.
+- **Technical feasibility:** X12-to-FHIR transition feasible but requires more than 24 months for some covered entities; backward compatibility critical.
+- **Patient care impact:** Shorter PA timeframes would improve access to time-sensitive treatment; clearer benefit pathway rules would prevent inappropriate denials for site-of-care-specific drug administration.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (Supportive with Targeted Modifications)
+- **Tone:** Professional, Collaborative, Technical
+- **Priority level:** Medium
+
+---
+
+## 11. KEY QUOTES
+
+1. "PA has become a highly variable, administratively complex and often duplicative process that can delay medically necessary care even when treatment is supported by evidence-based clinical pathways." — Context: Supporting CMS's proposal to require ePA through specific standards.
+
+2. "While aggregated PA metrics help increase transparency, they do not provide sufficiently granular information to identify recurring access challenges or potentially inappropriate PA practices." — Context: Recommending drug-specific and item/service-specific metrics reporting.
+
+3. "Vizient believes that the timeframes for standard and expedited requests are excessively long and do not adequately reflect the sense of urgency that is needed when care decisions need to be made." — Context: Recommending shorter PA decision timeframes.
+
+---
+
+## 12. THEMES
+
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Benefit pathway ambiguity for drugs crossing medical/pharmacy benefit depending on site-of-care; white bagging policy intersection; payers must account for patient-, provider-, and site-specific arrangements.
+- [x] **PROVIDER-BURDEN** — PA described as highly variable and duplicative; variability forces providers to hire additional staff and purchase PA-specific technology; peer-to-peer review strains provider capacity.
+- [x] **TRANSPARENCY** — Drug-specific and item/service-specific PA metrics needed; standardized reporting templates; centralized CMS repository; current metrics hard to find and inconsistently formatted.
+- [x] **PATIENT-ACCESS** — Shorter PA timeframes needed; inappropriate denials from pathway confusion or white bagging policies harm access to specialty drugs.
+- [x] **IMPLEMENTATION-TIMELINE** — 24-month HIPAA compliance window may be too short; additional flexibilities recommended; predictable version transition process needed.
+- [x] **STANDARDS-MATURITY** — Supports X12-to-FHIR shift; raises concern about standards version updates between proposed and final rule; recommends backward compatibility and coordinated transition timelines.
+- [x] **EXISTING-WORKFLOWS** — White bagging policies and site-of-care arrangements create real workflow complexity that ePA benefit pathway rules must accommodate.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1
+
+799 9th Street NW
+Suite 210
+Washington, DC 20001
+T (202) 354-2600
+vizientinc.com
+
+June 12, 2026
+
+
+Submitted electronically via: www.regulations.gov
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+
+The Honorable Dr. Thomas Keane
+National Coordinator for Health Information Technology
+Office of the National Coordinator for Health Information Technology
+U.S. Department of Health and Human Services
+330 C Street, SW, 7th Floor
+Washington, DC 20024
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of
+Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P)...

@@ -1,0 +1,147 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0266_20260616064717_bec1b825
+Commenter: Advocacy Council of the American College of Allergy, Asthma and Immunology
+Source: PDF Attachment
+Analysis Date: 2026-06-17 07:27:20
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Advocacy Council of the American College of Allergy, Asthma and Immunology (ACAAI); signed by Cherie Zachary, MD, FACAAI and J. Wesley Sublett, MD, MPH, FACAAI
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents more than 6,000 allergists-immunologists and allied health professionals.
+
+## 2. EXECUTIVE SUMMARY
+
+ACAAI strongly supports extending electronic prior authorization to drugs and using existing NCPDP SCRIPT standards to reduce provider burden and improve communication. It asks CMS and ONC to shorten PA decision timeframes, require detailed denial reasons, strengthen insurer oversight and public reporting, exempt physician-administered drugs from step therapy, and use Payer-to-Payer APIs to preserve prior step therapy history.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890 (Apr. 14, 2026)
+- **Standards referenced:** NCPDP SCRIPT; Payer-to-Payer API; electronic prior authorization systems.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for drugs and NCPDP SCRIPT**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Electronic systems can reduce paper and fax burden, improve payer-practitioner communication, and let physicians spend more time on patient care. NCPDP SCRIPT aligns with Part D workflows already familiar to practitioners.
+- **Specific request:** Finalize ePA drug requirements using NCPDP SCRIPT and existing workflows.
+
+**Topic 2: Shorter PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Faster decisions reduce interruptions in care, especially for asthma, allergy, and chronic-condition medications.
+- **Specific request:** Require 48 hours for standard requests and 24 hours for expedited requests for both drugs and non-drugs.
+
+**Topic 3: Denial specificity and clinical review quality**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Clarify/Modify
+- **Rationale:** Vague denials force repeated resubmissions and delay care; improper denials may be unsupported by evidence or reviewed by unqualified personnel.
+- **Specific request:** Clarify that a conclusory medical necessity statement is insufficient; require detailed denial bases and relevant specialty-trained physician reviewers.
+
+**Topic 4: Public reporting and noncompliance oversight**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Detailed public metrics and a reporting mechanism would reveal delays, denials, and insurer noncompliance patterns.
+- **Specific request:** Require detailed public PA metrics and create a centralized public reporting mechanism for patients and practitioners to report noncompliance.
+
+**Topic 5: Step therapy and continuity across payers**
+- **Provision ID:** GENERAL; PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Step therapy for physician-administered drugs can delay appropriate therapy and force patients to retry failed treatments after coverage changes.
+- **Specific request:** Exempt physician-administered drugs, including Medicare Part B drugs, from step therapy; use Payer-to-Payer APIs to transfer prior treatment failures and documentation; retain individualized review and standardize step therapy criteria across payers.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** ACAAI supports applying ePA drug requirements beyond Part D and aligning with NCPDP SCRIPT to reduce practitioner implementation burden.
+- **S20:** ACAAI recommends shorter drug PA timeframes of 48 hours standard and 24 hours expedited.
+- **S22:** ACAAI says using existing NCPDP SCRIPT workflows should minimize practitioner burden compared with unfamiliar platforms.
+- **S29:** ACAAI supports public PA metrics and asks for more detailed reporting capable of identifying insurer performance problems.
+- **S35:** ACAAI supports public availability of PA performance data.
+- **S16:** ACAAI asks CMS to clarify what qualifies as a specific denial reason and says conclusory medical necessity denials are insufficient.
+- **S17:** ACAAI does not request a specific code set, but supports denial explanations detailed enough for practitioners to evaluate and address.
+- **S43:** ACAAI asks for consistent timeframes for drugs and non-drugs.
+- **S66-S82:** ACAAI responds to the step therapy RFI by requesting exemptions for physician-administered drugs, transfer of prior step therapy history through Payer-to-Payer APIs, and safeguards against fully automated clinical decision-making.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for drugs using NCPDP SCRIPT.
+2. Shorten standard PA decision timeframes to 48 hours while retaining 24 hours for expedited requests.
+3. Apply shortened timeframes consistently to drugs and non-drugs.
+4. Clarify that vague medical necessity denials do not satisfy specific denial-reason requirements.
+5. Require reviewers with relevant specialty training for PA determinations.
+6. Establish a public reporting mechanism for patients and practitioners to report PA noncompliance.
+7. Expand public PA metrics to reveal delayed processing and improper denials.
+8. Exempt physician-administered drugs, including Medicare Part B drugs, from step therapy.
+9. Use Payer-to-Payer APIs to transfer prior step therapy history and documentation across plans.
+10. Maintain individualized clinical review and standardize step therapy completion criteria across payers.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Practitioner burden, delayed medication access, vague denials, improper insurer practices, unqualified reviewers, step therapy barriers, and lack of public accountability.
+- **Potential negative impacts cited:** Serious adverse events, complications, hospitalizations, emergency room visits, repeated failed therapies, and interruptions for asthma, allergy, and chronic-condition patients.
+- **Implementation barriers mentioned:** Paper forms, fax workflows, vague payer explanations, inconsistent step therapy requirements, and failure to transfer prior determinations between payers.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Physicians spend approximately twelve hours per week managing PA requests; AMA survey cited that one in four physicians report PA led to a serious adverse event.
+- **Studies or research referenced:** AMA 2024 press release on prior authorization burden; 2025 AMA Prior Authorization Physician Survey.
+- **Examples provided:** Allergy and asthma cases should be reviewed by board-certified allergists; patients stable on medication may be forced to repeat failed therapies after changing insurance.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Allergists-immunologists, allied health professionals, patients with asthma, allergies, chronic conditions, payers, and QHP/Medicaid/CHIP/MA plans.
+- **Economic implications:** Reduced administrative burden for practices; potential reductions in avoidable complications and emergency utilization.
+- **Technical feasibility:** ACAAI views NCPDP SCRIPT and Payer-to-Payer APIs as feasible ways to leverage existing workflows and support continuity.
+- **Patient care impact:** Strongly positive if finalized with stronger oversight; faster PA and step therapy continuity would reduce treatment interruptions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional and technical
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "strongly supports CMS's proposal to include drugs in ePA systems" - Context: Overall support for electronic PA for drugs.
+2. "shortened to 48 hours for standard requests and 24 hours for expedited requests" - Context: Timeframe recommendation.
+3. "a conclusory statement that a drug is not 'medically necessary' does not satisfy" - Context: Denial-reason specificity.
+4. "physician administered drugs... should not be subject to step therapy" - Context: Step therapy RFI response.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ACAAI recommends specific shorter PA decision deadlines.
+- [x] **PROVIDER-BURDEN** - The comment emphasizes physician time spent on PA and paper/fax burden.
+- [x] **PATIENT-ACCESS** - Timely medication access for asthma, allergy, and chronic conditions is central.
+- [x] **TECHNICAL-FEASIBILITY** - ACAAI supports existing NCPDP SCRIPT and Payer-to-Payer API capabilities.
+- [x] **STANDARDS-MATURITY** - The comment favors NCPDP SCRIPT because it is already used in Part D.
+- [x] **TRANSPARENCY** - It seeks detailed denial reasons, public metrics, and a reporting mechanism.
+- [x] **EXISTING-WORKFLOWS** - It discusses paper/fax PA workflows, NCPDP SCRIPT, and step therapy documentation transfer.
+- [x] **STAKEHOLDER-COORDINATION** - The comment focuses on payer-practitioner communication and cross-payer continuity.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+85 W. Algonquin Road - Arlington Heights, IL 60005 - 847-427-1200
+AdvocacyCouncil@acaai.org
+
+June 9, 2026
+
+SUBMITTED ELECTRONICALLY
+
+The Honorable Mehmet Oz, M.D.
+Administrator
+Centers for Medicare and Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+
+RE:
+ACAAI's Comments on the Proposed Rule Governing Electronic Prior Authorization for Drugs
+
+Dear Administrator Oz:
+
+The Advocacy Council of the American College of Allergy, Asthma and Immunology (ACAAI), representing the interests of more than 6,000 allergists-immunologists and allied health professionals, appreciates the opportunity to submit comments on the Centers for Medicare and Medicaid Services' (CMS) and the Office of the National Coordinator for Health Information Technology's (ONC) proposed rule that seeks to modernize and streamline the prior authorization (PA) process for drugs to reduce patient and practitioner burden...

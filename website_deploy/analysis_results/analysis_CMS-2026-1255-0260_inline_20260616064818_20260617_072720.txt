@@ -1,0 +1,93 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0260_inline_20260616064818
+Commenter: Individual commenter
+Source: Inline Comment
+Analysis Date: 2026-06-17 07:27:20
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Individual commenter; name not provided
+- **Stakeholder type:** Individual
+- **Credentials or expertise mentioned:** Medical receptionist experience and personal experience as a patient navigating prior authorization.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports requiring impacted payers to make drug prior authorization information available using both standards, despite acknowledging payer resource and education burdens. They argue the requirement would add value by reducing delays, provider burden, patient harm, and avoidable costs associated with medication access problems.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PATIENT-ACCESS related concerns under GENERAL
+- **Regulatory citations mentioned:** Not addressed
+- **Standards referenced:** Both standards for electronic prior authorization of drugs; specific FHIR or NCPDP standards not named
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Value of dual standards for drug prior authorization**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** The commenter recognizes added payer burden but believes clearer processes from insurers and providers would make dual-standard availability valuable for streamlining drug prior authorization.
+- **Specific request:** Finalize requirements that make information available using both standards, with practical steps or guidance for payers.
+
+**Topic 2: Patient and provider impact of PA delays**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Delayed or denied authorization can jeopardize patient health and force providers to seek samples, contact insurers and pharmacies, or otherwise bridge access gaps.
+- **Specific request:** Use electronic prior authorization requirements to reduce delays and administrative stress.
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** The comment directly responds to the question of whether requiring availability using both standards adds value or burden. The commenter says it may add payer burden but ultimately adds value if implemented with proper guidance.
+- **S21:** The commenter indirectly addresses timeline and feasibility by emphasizing timely drug authorization as essential to avoid health deterioration and hospitalizations.
+- **S22:** The commenter indirectly acknowledges resource, education, and knowledge burdens for payers, but views those burdens as outweighed by patient, provider, and payer benefits.
+
+## 6. RECOMMENDATIONS
+
+1. Require impacted payers to make drug prior authorization information available using both standards.
+2. Provide practical implementation steps or guidance so payers, insurers, and providers can use the process effectively.
+3. Prioritize streamlining drug prior authorization to reduce delays that jeopardize patient health.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization delays, patient health risks, provider stress, and payer implementation burden.
+- **Potential negative impacts cited:** Medication underuse, hospitalization, life-threatening consequences, and additional costs for patients and insurers.
+- **Implementation barriers mentioned:** Limited payer resources, education, and knowledge.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** The commenter reports seeing patients admitted to hospitals after stretching medications because prior authorization was denied or delayed.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, providers, insurers, impacted payers, pharmacies.
+- **Economic implications:** The commenter expects streamlined authorization to reduce avoidable patient and insurance costs from complications and hospitalizations.
+- **Technical feasibility:** Not addressed in technical detail; the commenter notes resource and education barriers.
+- **Patient care impact:** Strongly positive if authorization becomes faster; delays can endanger patients who need medically necessary drugs.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional and personal
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "this requirement will add value" - Context: Overall response to whether dual standards add value or burden.
+2. "the inability to receive prior authorization of drugs in a timely manner results in jepardized health" - Context: Patient access rationale.
+3. "patients who have received denials for their prior authorizations be admitted to hospitals" - Context: Example from medical reception experience.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - The commenter acknowledges payer resource, education, and knowledge constraints, but argues reduced downstream costs outweigh them.
+- [x] **PROVIDER-BURDEN** - The commenter describes extra provider work when authorizations are denied, including contacting insurers and pharmacies or seeking samples.
+- [x] **PATIENT-ACCESS** - The central concern is timely access to medically necessary drugs.
+- [x] **TECHNICAL-FEASIBILITY** - The comment briefly flags payer readiness and knowledge as feasibility barriers.
+- [x] **EXISTING-WORKFLOWS** - The commenter describes current manual workflows involving providers, pharmacies, and insurers.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+I am responding to the request for comments on the question, &quot;Would requiring impacted payers to make information available using both standards add value, or create additional burden, specifically related to electronic prior authorization of drugs?&quot; Although requiring impacted payers to make information available using both standards may seem like it creates extra burden as payers may lack the resources, education, or knowledge to provide this information, if given the proper steps from their insurance and/or providers this requirement will add value. Through simply working as a receptionist in the medical field, and experiencing the stress of receiving prior authorization from insurance as a patient, I have seen firsthand from both sides how tedious and prolonged this process can be. For many patients, the inability to receive prior authorization of drugs in a timely manner results in jepardized health. Additionally, this creates extra stress on providers. Providers have a responsibility to care for their patients, and when prior authorizations are not accepted the provider is put into a difficult position to provide resources for the patient to receive the drug either through samples or through contacting insurance and pharmacies. Many patients receive drugs that are medically necessary to either stay alive or in comfortable health. Through working in medical reception, I have seen patients who have received denials for their prior authorizations be admitted to hospitals due to their efforts to prolong the use of their medication instead of taking their prescribed dosages. This is can be life threatening, and cause additional payments for the patient and their insurance providers. The implementation of requiring impacted payers to make information available using both standards in order to streamline electronic prior authorization of drugs would not only relieve the patient&#39;s provider of extra work and stress when prior authorization denials come in, but also relieve the patient and insurance providers of additional financial burdens. 84159<br/>...

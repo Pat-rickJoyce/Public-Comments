@@ -1,0 +1,156 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0345
+Commenter: Melanoma Research Foundation (MRF)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:19:54
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Melanoma Research Foundation (MRF), Kim Wezik, MPH, Director of Public Policy and Advocacy
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Largest independent organization devoted to melanoma; expertise in melanoma research, education, and advocacy; proven track record assisting patients across the care journey.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The Melanoma Research Foundation responds to the RFI on prior authorization and laboratory testing, commending CMS for streamlining PA processes while urging specific protections for patients needing diagnostic laboratory tests. MRF highlights that strict pre-collection PA requirements cause specimen discard, redundant blood draws, and treatment delays for cancer patients. They call on CMS to mandate retroactive PA approvals, prohibit timing-based denials, eliminate redundant testing requirements, establish expedited oncology pathways, and protect patients from surprise financial liability.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL (RFI on Prior Authorization and Access to Laboratory Testing, Section III.E of CMS-0062-P); PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS (analogous timeframe concerns for lab testing)
+- **Regulatory citations mentioned:** CMS-0062-P Section III.E; Docket ID CMS-2026-1255
+- **Standards referenced:** None specific
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Retroactive PA Approvals for Laboratory Testing**
+- **Provision ID:** GENERAL / PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Biomarker and specialty lab specimens are often collected at the provider's office and sent to a separate lab for processing. The "date of service" is the collection date, not processing date, creating a timing gap that leads to denials even when the test was medically necessary.
+- **Specific request:** Mandate that health plans permit prior authorizations to be processed after specimen collection.
+
+**Topic 2: Prohibition on Timing-Based Denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Denying medically necessary tests solely because paperwork was not finalized before the draw date does not reflect clinical reality and harms patients.
+- **Specific request:** CMS should prohibit health plans from denying coverage based solely on PA paperwork timing relative to specimen collection.
+
+**Topic 3: Eliminating Redundant Testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** When viable specimens are discarded due to administrative delays, patients are forced to undergo repeat blood draws, increasing burden on already-vulnerable cancer patients.
+- **Specific request:** Prevent forced repeated blood draws when a valid specimen is already available.
+
+**Topic 4: Expedited Pathways for Oncology Diagnostics**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS (analogous for lab)
+- **Position:** Modify
+- **Rationale:** Oncology and other time-sensitive diagnostics require faster turnaround to avoid treatment delays.
+- **Specific request:** Establish accelerated PA turnaround times for oncology and time-sensitive diagnostics.
+
+**Topic 5: Patient Financial Protection**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patients acting in good faith should not face surprise out-of-pocket costs when PA is denied on technical timing grounds.
+- **Specific request:** Insulate patients from surprise financial liability when following provider guidance.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+This comment responds to the RFI in Section III.E rather than to numbered solicitations S1–S82. No direct responses to specific numbered solicitations identified.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Mandate that health plans allow retroactive PA approvals for laboratory tests processed after specimen collection.
+2. Prohibit denials of medically necessary tests based solely on timing of PA paperwork relative to specimen collection date.
+3. Prevent forced, repeated blood draws when a valid specimen is already available.
+4. Establish expedited PA turnaround pathways for oncology and other time-sensitive diagnostics.
+5. Protect patients from surprise out-of-pocket costs when acting in good faith under provider guidance.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA frameworks that require approval strictly before specimen collection are misaligned with clinical reality for laboratory testing, particularly oncology biomarker tests.
+- **Potential negative impacts cited:** Viable specimens discarded; patients forced into repeat blood draws; treatment decisions delayed; disproportionate financial and geographic burden on rural and low-income populations.
+- **Implementation barriers mentioned:** Administrative lag in PA reviews; disconnect between specimen collection date ("date of service") and processing date at reference labs.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None specific.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Biomarker testing collected at provider office sent to external lab for processing; timing gap between collection and processing creates denial exposure.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients (especially melanoma), rural and low-income patients, oncology providers, reference laboratories.
+- **Economic implications:** Repeat testing costs; surprise patient cost-sharing; administrative overhead for appeals.
+- **Technical feasibility:** Recommendations are policy changes to health plan practices, not technical standards changes—feasibility is high.
+- **Patient care impact:** Direct and significant; PA timing barriers delay cancer treatment decisions and force unnecessary procedures on vulnerable patients.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (of CMS goals) with specific Modify requests for laboratory testing context
+- **Tone:** Professional, Collaborative, patient-advocacy focused
+- **Priority level:** Medium
+
+---
+
+## 11. KEY QUOTES
+
+1. "Many health plans deny coverage unless prior authorization is approved strictly on or before the exact date a specimen is collected. When administrative reviews lag, viable specimens must often be discarded, forcing vulnerable patients, especially those battling cancer or rare diseases, to undergo unnecessary, repeated blood draws." - Context: Describing the core problem with current PA timing requirements for laboratory testing.
+
+2. "Prior authorization frameworks should facilitate health, not serve as bureaucratic roadblocks." - Context: Closing argument summarizing MRF's overall position.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - PA timing requirements are causing treatment delays for cancer patients needing laboratory diagnostics; specimen discard forces repeat blood draws and delays time-sensitive oncology decisions.
+- [x] **PROVIDER-BURDEN** - Misalignment between collection date and processing date creates administrative friction for oncology providers navigating lab PA requirements.
+- [x] **HEALTH-EQUITY** - Disproportionate financial and geographic burdens cited for rural and low-income patients forced into repeat blood draws.
+- [x] **TRANSPARENCY** - Denials based solely on administrative timing rather than medical necessity lack transparency and clinical justification.
+- [x] **EXISTING-WORKFLOWS** - Current PA frameworks do not account for real-world clinical lab workflows where specimens are collected at one site and processed at another.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+P.O. Box 8013
+Baltimore, MD 21244-1850
+Re: Prior Authorization and Access to Laboratory Testing (Section III.E of CMS-0062-P) (Docket ID:
+CMS-2026-1255)
+
+Dear Administrator Oz:
+
+On behalf of the Melanoma Research Foundation (MRF), thank you for the opportunity to
+provide comments to the Centers for Medicare and Medicaid Services (CMS) on the request for
+information (RFI) entitled "Prior Authorization and Access to Laboratory Testing."
+
+The MRF is the largest independent organization devoted to melanoma. Committed to the
+support of medical research to develop effective treatments and eventually a cure for
+melanoma, the MRF educates patients, caregivers and physicians about the prevention,
+diagnosis and treatment of melanoma and advocates for the melanoma community on a state
+and federal level to raise awareness of this disease and the need for a cure.
+The following comments in response to RFI derive from the MRF's expertise in melanoma research,
+education and advocacy, and our proven track record of assisting patients across their care journey...

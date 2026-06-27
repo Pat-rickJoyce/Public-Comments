@@ -1,0 +1,174 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0462
+Commenter: American Clinical Laboratory Association (Don May, Senior VP Reimbursement & Strategy)
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:23:34
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Clinical Laboratory Association (ACLA); signed by Don May, Senior Vice President, Reimbursement & Strategy
+- **Stakeholder type:** Professional Association (representing clinical laboratory industry)
+- **Credentials or expertise mentioned:** ACLA is the national trade association for leading clinical laboratories; cites ACLA member survey data, OIG reports, and XiFiN revenue cycle management analysis.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+ACLA responds to the RFI on prior authorization for laboratory tests, documenting significant systemic barriers that payers and laboratory benefit managers (LBMs) impose on clinical laboratories, including denial of PA requests submitted after the specimen collection "date of service," refusal to accept PA requests from laboratories, and rejection of test requisition forms (TRFs) as medical necessity documentation. ACLA offers eight specific recommendations to CMS to address these barriers, including prohibiting date-of-service denials, requiring acceptance of laboratory-initiated PA requests and TRFs, mandating granular PA metrics, limiting PA for LCD/NCD-covered tests, ensuring laboratory appeal rights, establishing a payer non-compliance reporting mechanism, and strengthening Organization Determination requirements for plan-directed care.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL (RFI on laboratory tests — S66-S82 range); PA-DENIAL-REASONS; API-USAGE-METRICS (metrics granularity); TRANSPARENCY
+- **Regulatory citations mentioned:** 42 C.F.R. § 414.510(a) (date of service for laboratory tests); 42 C.F.R. § 422.138(b) (PA process limits); 91 Fed. Reg. 20014 (CMS RFI preamble); 89 Fed. Reg. 8758, 8871 (2024 final rule); MolDX billing article (May 2024)
+- **Standards referenced:** Health Care Provider Taxonomy code set Level II (NUCC, v. 23.0); HIPAA standard transactions; Medicare LCDs and NCDs
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prohibition on Date-of-Service Denials**
+- **Provision ID:** GENERAL (laboratory RFI)
+- **Position:** Oppose (current payer practice); recommend new policy
+- **Rationale:** The Medicare Part B "date of service" rule (42 C.F.R. § 414.510(a)) was designed for billing attribution (hospital vs. independent lab), not as a PA deadline. MA plans and payers have distorted it to reject PA requests submitted after specimen collection, effectively making PA impossible for labs that receive specimens without pre-authorization. CMS itself stated this practice "is not compliant with the rules in the MA program."
+- **Specific request:** CMS prohibit impacted payers from denying coverage based on PA having been sought after date of service; communicate through rulemaking, HPMS memo, and/or Medicare Managed Care Manual; monitor compliance and establish a non-compliance reporting mechanism.
+
+**Topic 2: Right of Laboratories to Submit PA Requests**
+- **Provision ID:** GENERAL (laboratory RFI)
+- **Position:** Support (CMS's stated position) and enforce
+- **Rationale:** Some payers (notably those using Carelon as an LBM) allow only ordering clinicians to submit PA requests, even though it is the laboratory's reimbursement at risk.
+- **Specific request:** Require all impacted payers to accept PA requests from clinical laboratories or ordering clinicians; make repeated non-compliance subject to corrective action and negative Star Ratings.
+
+**Topic 3: Acceptance of Test Requisition Forms (TRFs)**
+- **Provision ID:** GENERAL (laboratory RFI)
+- **Position:** Recommend new requirement
+- **Rationale:** TRFs contain patient demographics, diagnosis codes, tests ordered, clinical indications, and physician attestation — sufficient to demonstrate medical necessity. The Medicare MolDX program already recognizes TRFs as sufficient documentation in more than half of states.
+- **Specific request:** CMS clarify that TRFs are valid medical documentation; additional documentation may be demanded only when TRF lacks sufficient clinical information to determine medical necessity.
+
+**Topic 4: Granularity of PA Metrics**
+- **Provision ID:** API-USAGE-METRICS, PA-DENIAL-REASONS
+- **Position:** Support with additions
+- **Rationale:** Metrics aggregated at the organization level have little practical value; meaningful analysis requires breakdown by provider type of requestor and by denial reason.
+- **Specific request:** Report PA metrics by Health Care Provider Taxonomy Level II Classification; add metrics for percentage denied per denial reason, percentage not decided within applicable timeframe, and list of PA-required items covered under LCDs/NCDs.
+
+**Topic 5: Limit PA for LCD/NCD-Covered Laboratory Tests**
+- **Provision ID:** GENERAL (laboratory RFI)
+- **Position:** Recommend new policy
+- **Rationale:** MA plans require PA for tests already covered under LCDs/NCDs; more than half of such MA claim denials are overturned on appeal, indicating they are frequently inappropriate.
+- **Specific request:** Require MA plans to limit PA for LCD/NCD-covered tests; permit PA only when plans offer more expansive coverage than the applicable LCD or NCD.
+
+**Topic 6: Laboratory Appeal Rights for Administrative Denials**
+- **Provision ID:** GENERAL (laboratory RFI)
+- **Position:** Recommend new requirement
+- **Rationale:** Payers classify denials as "administrative" when PA was sought by the "wrong" party or after the date of service, blocking independent medical necessity review.
+- **Specific request:** Ensure laboratories have the option to appeal administrative PA denials on medical necessity grounds.
+
+**Topic 7: Payer Non-Compliance Reporting Mechanism**
+- **Provision ID:** GENERAL (laboratory RFI)
+- **Position:** Recommend new mechanism
+- **Rationale:** Current reporting mechanisms not designed for systematic payer non-compliance; typical appeals process is not feasible when a payer has a systematic problem affecting thousands of claims.
+- **Specific request:** CMS establish a "hotline" or publicized reporting process for laboratories, ordering clinicians, and patients to report payer PA non-compliance; develop a resolution process for delayed/denied payments for good-faith services.
+
+**Topic 8: Organization Determination Requirements for Plan-Directed Care**
+- **Provision ID:** GENERAL (laboratory RFI)
+- **Position:** Recommend strengthening/clarification
+- **Rationale:** MA regulations protect enrollees from financial liability for plan-directed care, but do not clarify plans' responsibility to pay laboratories for such care.
+- **Specific request:** CMS clarify that ordering provider referrals for covered laboratory services constitute favorable coverage determinations for laboratory reimbursement; classify failure to obtain PA as plan-directed care with plan responsible for payment.
+
+**Topic 9: LBM Transparency**
+- **Provision ID:** TRANSPARENCY, GENERAL
+- **Position:** Recommend new requirement
+- **Rationale:** LBMs (Carelon, Evicore, Avalon) manage PA for major payers but operate with little transparency; coverage policies treated as trade secrets; payers often do not know what they cover.
+- **Specific request:** Require MA plans to disclose clearly whether and how LBMs oversee their coverage and utilization management policies, with contact information for the responsible entity.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 (General RFI — Laboratory Tests):** ACLA responds comprehensively to the laboratory PA RFI: documents workflow incompatibility between traditional PA timing and laboratory specimen collection; details date-of-service denial abuse; explains TRF evidentiary value; describes LBM opacity and shared-savings incentives to deny care; provides member survey data; offers 8 specific policy recommendations.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Prohibit impacted payers from denying laboratory PA coverage based on PA having been sought after the "date of service."
+2. Communicate this prohibition through rulemaking, HPMS memo, and/or Medicare Managed Care Manual; monitor compliance.
+3. Require all impacted payers to accept PA requests from clinical laboratories or ordering clinicians, regardless of lab contract status.
+4. Make repeated refusal to accept laboratory-initiated PA requests subject to corrective action and negative Star Ratings.
+5. Clarify that TRFs are valid medical documentation; additional documentation demanded only when TRF lacks sufficient clinical information.
+6. Require PA metrics broken down by Health Care Provider Taxonomy Level II Classification.
+7. Add required metrics: percentage denied per denial reason; percentage not decided within applicable timeframe; list of PA-required items covered under LCDs/NCDs (MA plans).
+8. Require MA plans to limit PA for LCD/NCD-covered tests; permit PA only for more expansive coverage than the applicable determination.
+9. Ensure laboratories have the option to appeal administrative PA denials on medical necessity grounds.
+10. Establish a publicized reporting mechanism ("hotline") for laboratories, clinicians, and patients to report payer PA non-compliance.
+11. Develop a clear resolution process for delayed/denied payments for services provided in good faith.
+12. Clarify that ordering provider referrals for covered laboratory services constitute favorable coverage determinations for laboratory reimbursement; classify failure to obtain PA as plan-directed care.
+13. Require MA plans to disclose whether LBMs manage their PA processes and provide LBM contact information in coverage policies.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Date-of-service PA timing incompatibility with laboratory workflow; refusal to accept laboratory-initiated PA requests; TRF non-acceptance creating documentation barriers; LBM opacity hiding shared-savings incentives to deny care; administrative denial classifications blocking medical necessity appeals; lack of financial protection for laboratories providing plan-directed care.
+- **Potential negative impacts cited:** Laboratories absorbing financial losses to provide timely patient care; patient delays in diagnosis and treatment; cancer patients experiencing clinically meaningful harm; laboratory service availability threatened by uncompensated care.
+- **Implementation barriers mentioned:** Specimen integrity requires testing before PA can be obtained; PA turnaround times (up to 14 days for MA ODs) incompatible with clinical workflow; laboratories lack access to full patient medical records; LBMs treat coverage criteria as trade secrets.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 70% of healthcare decisions depend on laboratory test results (CDC); 40% of total test volume subject to PA for labs with ≤50 tests on menu (ACLA member survey); 24% of claim denials due to PA process; 18% of PA denials overturned on appeal; 15–49% of MA claims for certain cancer-related laboratory tests denied for pre-certification/PA (XiFiN, 2024–2025); >50% of MA LCD/NCD-covered service denials overturned on appeal.
+- **Studies or research referenced:** Two OIG reports on MA PA denial practices (OEI-09-18-00260; OEI-09-16-00410); XiFiN revenue cycle management analysis (2024–2025); MolDX Clarification of Order Requirements billing article (May 2024).
+- **Examples provided:** Carelon LBM refuses PA requests submitted after date of service; payer self-service portal screenshot (Exhibit A) showing date-of-service denial policy; cancer laboratory test denial rates table.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clinical laboratories; ordering physicians; Medicare Advantage enrollees; Medicaid managed care enrollees; cancer patients; LBMs (Carelon, Evicore, Avalon).
+- **Economic implications:** Laboratories employ multiple full-time PA management staff; many contract third-party PA vendors at millions in cost; absorb financial losses providing uncompensated care; LBM shared-savings contracts create structural incentives for inappropriate denials.
+- **Technical feasibility:** No major technical barriers to most recommendations; primarily policy and regulatory changes needed; granular reporting metrics require enhanced data collection from payers.
+- **Patient care impact:** Delays in diagnosis, treatment selection, and therapy initiation; meaningful clinical consequences for cancer patients; laboratories currently protecting patients by running tests before PA disputes resolve — a practice that is financially unsustainable.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned (strongly critical of current payer PA practices; constructive with specific recommendations)
+- **Tone:** Professional, technical, evidence-based, advocacy-oriented
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Prior authorization is not a 'special' circumstance but the norm" for one ACLA member with more than 100 tests on its menu. — Context: Characterizing the pervasive scope of PA burden on laboratory operations.
+2. "CMS should not allow plans to exploit prior authorization requirements in ways that rely on laboratories continuing to furnish services for which they may never be paid." — Context: Describing the untenable position of laboratories providing plan-directed care without reimbursement protection.
+3. "LBMs and payers that employ them often each disclaim responsibility for policies that result in denial and state that denials are based on the other party's policy, leaving laboratories with no recourse for raising policy concerns." — Context: Describing the accountability vacuum created by opaque LBM arrangements.
+4. "In practice, clinical laboratories put patients first by performing tests before prior authorization issues are resolved." — Context: Noting laboratories absorb financial risk to protect patients from diagnostic delays.
+
+---
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** — Core theme: laboratories employ multiple full-time PA management staff; date-of-service denials and TRF rejection create duplicative, inefficient workflows.
+- [x] **PATIENT-ACCESS** — Timely laboratory testing directly affects diagnosis, treatment selection, and therapy initiation; cancer patients face meaningful clinical harm from brief delays.
+- [x] **TRANSPARENCY** — LBMs treat coverage criteria as trade secrets; payers do not disclose LBM relationships; demands greater metrics granularity and LBM disclosure requirements.
+- [x] **REGULATORY-AUTHORITY** — CMS has stated date-of-service PA denial by MA plans is non-compliant with MA program rules; ACLA urges CMS to enforce this position.
+- [x] **EXISTING-WORKFLOWS** — Laboratory specimen workflow is structurally incompatible with pre-authorization timing requirements; PA turnaround times incompatible with specimen stability and clinical decision-making.
+- [x] **STAKEHOLDER-COORDINATION** — LBM accountability gap between payers and LBMs; laboratories need direct access to PA submission and appeal processes.
+- [x] **HEALTH-EQUITY** — Cancer patients, Medicaid enrollees, and MA beneficiaries disproportionately affected by inappropriate PA denials for covered laboratory services.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+Dr. Mehmet Oz, Administrator
+Centers for Medicare & Medicaid Services
+
+Re: Request for Information: Laboratory Tests and Durable Medical Equipment, Prosthetics, Orthotics, and Supplies Background (CMS–0062–P)
+
+The American Clinical Laboratory Association (ACLA) appreciates the opportunity to provide comments in response to the Request for Information (RFI) on how prior authorization affects the clinical laboratory testing process. ACLA is the national trade association representing leading laboratories that deliver essential diagnostic health information to patients and providers by advocating for policies that expand access to the highest quality clinical laboratory services, improve patient outcomes, and advance the next generation of personalized care. Each year, millions of clinical laboratory services furnished by ACLA members are subject to prior authorization requirements...

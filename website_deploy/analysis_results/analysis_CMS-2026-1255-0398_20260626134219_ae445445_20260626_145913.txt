@@ -1,0 +1,202 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0398
+Commenter: Priority Health / Corewell Health
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:59:13
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Priority Health / Corewell Health (signed by Ryan Nolan, PharmD, MBA, Interim Vice President, Pharmacy)
+- **Stakeholder type:** Payer (integrated nonprofit health system and health plan; second-largest health plan in Michigan serving 1.4 million members)
+- **Credentials or expertise mentioned:** PharmD, MBA; 40-year health plan history; 60,000+ employees; 11,500+ physicians; 21 hospitals; operates MA, Medicaid, and QHP lines of business
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Priority Health generally supports extending ePA and API standards to drugs but raises serious concerns about implementation feasibility, operational complexity, drug classification ambiguity, and vendor readiness within the proposed October 1, 2027 timeline. The organization requests a minimum 18-month delay from rule finalization, clearer guidance on drug benefit classification, and clarification that the PA denial-reason requirement does not apply to benefit exclusions. Comments also address RFIs on cybersecurity resiliency, step therapy, and lab/DME prior authorization.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** MEDICAL-VS-PHARMACY-BENEFIT (Section I.C.), FHIR-IG-REQUIRED (Section II.A.3.), PA-DRUG-MEDICAL, PA-DRUG-PHARMACY (Section II.B.), PA-DENIAL-REASONS (Section II.C.2.), PA-TIMEFRAMES-DRUGS (Section II.C.3.b.), API-USAGE-METRICS (Section II.F.)
+- **Regulatory citations mentioned:** Not explicitly cited by CFR section; references CMS-0062-P and the 2024 CMS Interoperability and Prior Authorization Final Rule
+- **Standards referenced:** FHIR, CRD (Coverage Requirements Discovery) IG, DTR (Documentation Templates and Rules) IG, PAS (Prior Authorization Support) IG, NCPDP standards, TEFCA, HIPAA Security Rule
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Implementation Timeline**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** October 1, 2027 underestimates effort needed; payers are still implementing non-drug ePA requirements from the 2024 rule (effective January 1, 2027) and have no operational scale experience. Vendor alignment and system configuration take substantial time.
+- **Specific request:** Delay compliance until at least 18 months from rule finalization; allow payers to learn from January 1, 2027 non-drug ePA implementation before expanding to drugs.
+
+**Topic 2: Drug Benefit Classification Ambiguity**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify
+- **Rationale:** CMS acknowledges classifications are not consistent across programs/payers. Drugs like vedolizumab (Entyvio) may be covered under medical benefit (IV infusion) or pharmacy benefit (self-administered) depending on delivery method, not drug identity. Formulary designations vary by line of business, and some medical benefit drugs (e.g., Medicare Part B drugs) may be managed via pharmacy workflows.
+- **Specific request:** Provide clear guidance or principles for consistent drug classification; allow additional time for data mapping and formulary review.
+
+**Topic 3: FHIR IG Maturity and Stability**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** CRD, DTR, and PAS IGs are relatively new; workflows have not been tested at scale; limited operational experience exists before expansion to pharmacy use cases.
+- **Specific request:** Allow additional implementation time and evaluation period before requiring IGs for drug PA; support stable deployments with lessons learned from non-drug ePA.
+
+**Topic 4: PA Denial Reasons and Benefit Exclusions**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Clarify
+- **Rationale:** Benefit exclusions are not prior authorization denials — they reflect benefit design, not clinical criteria. Requiring a PA denial rationale for excluded benefits conflates benefit exclusion with medical necessity determinations and could increase unnecessary administrative burden.
+- **Specific request:** Clarify explicitly that the specific-reason-for-denial requirement does not apply to benefit exclusions.
+
+**Topic 5: QHP PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Compressed timelines (72 hours standard, 24 hours expedited for drugs) without capacity-building time strain payers managing multiple lines of business (MA, Medicaid, QHP). Added volume from drug PA will exacerbate existing resource constraints.
+- **Specific request:** Delay timeframe requirements to at least 18 months from rule finalization.
+
+**Topic 6: API Usage Metrics and Provider Adoption Gap**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Provider adoption of ePA is not required, so providers may continue using fax-based methods. This creates low utilization metrics that misrepresent payer compliance and undermine the value of metrics reporting. Payers bear infrastructure costs while metrics reflect provider behavior, not payer readiness.
+- **Specific request:** CMS should develop provider adoption incentives; provide flexibility in early reporting periods to account for utilization variability.
+
+**Topic 7: Cybersecurity Resiliency (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Overly prescriptive requirements divert resources from higher-impact security priorities; vendor dependencies and ransomware threats require whole-of-government approach. Compliance timelines underestimate implementation effort.
+- **Specific request:** Adopt risk-based, scalable frameworks aligned with existing standards (HSCC Cybersecurity Working Group, HHS Cybersecurity Performance Goals); prioritize public-private collaboration over prescriptive mandates; improve vendor accountability; support TEFCA alignment.
+
+**Topic 8: Step Therapy (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with caveats
+- **Rationale:** Effective step therapy evaluation requires comprehensive cross-payer claims history, which is often incomplete when members transition between payers. Provider documentation also needed to validate therapy trials.
+- **Specific request:** Recognize data availability limitations; support standardized interoperability approaches that are feasible without undue burden.
+
+**Topic 9: Lab Tests and DME Prior Authorization (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with caveats
+- **Rationale:** High-cost DME (custom wheelchairs) requires code-level clinical review; AI-generated PA submissions are increasing volume with generic or inaccurate rationales, creating additional manual validation burden and fraud/waste/abuse risk. Some labs bypass PA by proceeding with testing and using appeals for reimbursement.
+- **Specific request:** Maintain human oversight for complex services; leverage EHR data to automate streamlined review; address lab practices that bypass PA workflows.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** Addresses the medical vs. pharmacy benefit distinction, noting that drug classification depends on delivery method (e.g., IV vs. self-administered) rather than the drug itself, creating operational complexity and inconsistency across benefit structures.
+- **S12:** Highlights technical implementation challenges; CRD, DTR, and PAS IGs are new and untested at scale; additional time needed before expanding to pharmacy use cases.
+- **S16:** Requests clarification on what qualifies as a "specific reason" for PA denial — specifically whether benefit exclusions are exempt from this requirement.
+- **S20:** Raises concerns that the 24-hour expedited and 72-hour standard drug PA timeframes for QHPs are operationally infeasible without adequate capacity-building time.
+- **S29:** Notes that API usage metrics depend on provider adoption, which is voluntary; metrics may misrepresent payer compliance and system readiness.
+- **S21:** Argues that the October 1, 2027 compliance date is not achievable and should be delayed at least 18 months from finalization.
+- **S66/S67 (Resiliency RFI):** Supports whole-of-government cybersecurity approach; endorses risk-based frameworks and public-private collaboration over prescriptive mandates.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Delay compliance with most provisions until at least 18 months from rule finalization to allow adequate time for implementation.
+2. Provide clear, consistent guidance on classifying drugs as medical vs. pharmacy benefit, including principles for handling drugs like vedolizumab that vary by delivery method.
+3. Clarify that the specific-reason-for-denial requirement (PA-DENIAL-REASONS) does not apply to benefit exclusions.
+4. Adopt a phased implementation approach for ePA drug requirements, prioritizing accurate classification before full-scope expansion.
+5. Allow additional time for vendor alignment, including PBM and PA vendor coordination, before requiring comprehensive metrics reporting.
+6. Create provider adoption incentives for ePA to ensure metrics accurately reflect system effectiveness.
+7. Provide simplified reporting requirements during the implementation phase, with more comprehensive reporting phased in over time.
+8. Apply risk-based, scalable cybersecurity frameworks and prioritize public-private collaboration; align interoperability requirements with security expectations.
+9. Support TEFCA-aligned data exchange frameworks with strong security controls.
+10. Address lab practices that bypass PA requirements by proceeding with testing and using claims appeals for reimbursement.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Timeline is insufficient for classification work, vendor alignment, and system configuration; drug classification ambiguity creates inconsistency; benefit exclusions could be conflated with PA denials; API metrics depend on voluntary provider adoption.
+- **Potential negative impacts cited:** Inconsistent implementation, incomplete data exchange, increased administrative burden, low metric utility, operational strain on multi-line payers under compressed timelines.
+- **Implementation barriers mentioned:** PBM coordination, PA vendor readiness, EHR vendor alignment, formulary data mapping by line of business, lack of operational scale experience with CRD/DTR/PAS IGs.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Corewell Health: 60,000+ employees, 11,500+ physicians, 21 hospitals, 300+ outpatient locations; Priority Health: 1.4 million members, second-largest health plan in Michigan, 40 years in business.
+- **Studies or research referenced:** References the 2024 CMS Interoperability and Prior Authorization Final Rule; HHS Office of Civil Rights proposed HIPAA Security Rule update; HSCC Cybersecurity Working Group; HHS Cybersecurity Performance Goals.
+- **Examples provided:** Vedolizumab (Entyvio) — medical vs. pharmacy benefit depending on administration route; custom/power wheelchairs as high-cost DME requiring code-level review; genetic testing as an emerging area with PA bypass risk.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers (especially those managing multiple lines of business), providers, PBMs, PA vendors, EHR vendors, patients
+- **Economic implications:** Significant infrastructure investment required; metrics show low ROI if provider adoption remains voluntary; risk of increased administrative burden and fraud/waste/abuse from AI-generated submissions
+- **Technical feasibility:** CRD/DTR/PAS IGs not yet tested at scale; drug classification requires extensive data mapping and formulary review; vendor ecosystem not fully ready
+- **Patient care impact:** Misclassified drugs or compressed timelines could delay access to care; AI-generated PA submissions may lead to inappropriate coverage determinations; benefit exclusion confusion could create unnecessary barriers
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of goals, concerned about implementation)
+- **Tone:** Professional, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Prior authorization serves as an important patient safety tool, helping to ensure that services, items, and medications are evidence-based, clinically appropriate, and safe." - Context: Introduction framing PA positively before raising concerns.
+2. "We respectfully ask for consideration of a delay until at least 18 months from when the rule is finalized." - Context: Core timeline recommendation, repeated for multiple provisions.
+3. "Requiring a prior authorization denial rationale in these circumstances would conflate benefit exclusions with medical necessity determinations." - Context: Explaining why the denial-reason requirement should not apply to benefit exclusions.
+4. "Providers may continue to use non-ePA methods, such as fax, that are easier but not integrated with payers' ePA systems, bypassing plan workflows and leading to low utilization, incomplete data, and limited efficiency gains despite payer compliance." - Context: Highlighting the provider-adoption gap in API usage metrics.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Core concern throughout; requests 18-month delay from finalization for most provisions due to vendor readiness, classification complexity, and scale-testing needs.
+- [x] **COST-RESOURCES** - Highlights vendor alignment costs, infrastructure investment for API metrics, and resources needed for formulary data mapping.
+- [x] **PROVIDER-BURDEN** - Notes that ePA adoption is voluntary for providers, creating imbalance where payers invest but providers may continue using fax.
+- [x] **PRIVACY-SECURITY** - Addresses cybersecurity RFI; supports risk-based, scalable frameworks and TEFCA alignment; notes vendor dependency risks.
+- [x] **TECHNICAL-FEASIBILITY** - CRD/DTR/PAS IGs not yet tested at scale; drug classification requires extensive data mapping and formulary review by line of business.
+- [x] **STANDARDS-MATURITY** - CRD, DTR, PAS IGs described as "relatively new" with limited operational experience before pharmacy expansion.
+- [x] **PATIENT-ACCESS** - AI-generated PA submissions and bypass of PA by labs raise concerns about appropriate utilization and patient safety.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Significant discussion of classification challenges (e.g., vedolizumab); requests clearer CMS guidance.
+- [x] **TRANSPARENCY** - Supports public PA metrics reporting goal but flags data aggregation challenges across vendors and lines of business.
+- [x] **EXISTING-WORKFLOWS** - Step therapy data exchange limited by incomplete cross-payer claims transfer; labs bypassing PA via claims appeals.
+- [x] **VENDOR-ECOSYSTEM** - PBMs, PA vendors, and EHR vendors not fully ready; metrics reporting depends on third-party administrator alignment.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+
+
+The Honorable Mehmet Oz, MD
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD  21244-1850
+Sent electronically via: http://www.regulations.gov
+
+RE: Interoperability Standards and Prior Authorization for Drugs Proposed
+Rule (CMS-0062-P)
+
+Dear Administrator Oz,
+
+Priority Health, a division of Corewell Health, appreciates the opportunity to
+comment on proposed revisions to the Interoperability Standards and Prior
+Authorization for Drugs Proposed Rule (CMS-0062-P). Corewell Health is a
+nonprofit health system that provides health care and coverage with an
+exceptional team of 60,000+ dedicated people comprised of more than 11,500
+physicians and advanced practice providers, over 15,000 nurses offering
+services in 21 hospitals, 300+ outpatient locations, and numerous post-acute
+facilities. In addition, Priority Health serves over 1.4 million members primarily
+in Michigan and is the second-largest health plan in Michigan, offering an
+extensive portfolio of health benefit options for employer groups and
+individuals, including Medicare and Medicaid plans. With forty years in
+business, Priority Health continues to be recognized as a leader for quality,
+customer service, transparency and product innovation...

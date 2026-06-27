@@ -1,0 +1,225 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0389
+Commenter: Veradigm LLC
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:38
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Veradigm LLC
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Leading health IT company serving ambulatory care providers, health systems, and life sciences organizations; EHR solutions (Veradigm EHR, Practice Fusion, Veradigm Network) used daily by hundreds of thousands of clinicians; Kelly Faas, Principal Regulatory Affairs Manager
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Veradigm supports the goals of advancing electronic prior authorization and reducing administrative burden but raises significant technical feasibility and implementation timeline concerns as a major EHR vendor. Key issues include: the bifurcated FHIR/NCPDP pathway creates unworkable workflow complexity for EHR developers; existing Da Vinci IGs were not designed for drug PA and need clarification; the three-month gap between payer compliance date and ONC certification is operationally infeasible; third-party aggregator dependencies are unaddressed; and the cumulative regulatory burden of overlapping requirements is unsustainable. Veradigm urges extended timelines, consistent standards across all entities, and phased implementation.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, MEDICAL-VS-PHARMACY-BENEFIT, API-ENDPOINT-REPORTING, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, IMPLEMENTATION-TIMELINE
+- **Regulatory citations mentioned:** 45 CFR 170.215; ONC HTI-4 Final Rule; ONC HTI-2 (proposed but not finalized Provider Access API criteria); HIPAA Claims Attachment Final Rule
+- **Standards referenced:** NCPDP SCRIPT 2023011, NCPDP Formulary & Benefits (F&B) standard (v60), NCPDP RTPB (v13), HL7 FHIR Da Vinci CRD/DTR/PAS IGs, US Core, SMART App Launch, FHIR Bulk Data, OpenID Connect, Da Vinci ATR List IG; ONC HTI-4 certification criteria (g)(31), (g)(32), (g)(33)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Bifurcated FHIR/NCPDP Drug PA Pathway Creates Unworkable Workflow Complexity**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Oppose (as designed); Modify
+- **Rationale:** EHR vendors cannot reliably automate determination of whether a drug is pharmacy benefit vs. medical benefit at the point of prescribing without additional payer-supplied signals. Coverage categorization varies plan by plan and can change mid-year.
+- **Specific request:** (1) Acknowledge in final rule that determination cannot be automated without payer-supplied signals; (2) explore whether CRD could serve as routing mechanism; (3) solicit HL7 Da Vinci community input on IG modifications needed for drug-specific workflows.
+
+**Topic 2: Existing Da Vinci IGs Were Not Designed for Drug PA Under Medical Benefit**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL
+- **Position:** Oppose (CMS's characterization); Clarify
+- **Rationale:** CMS states adding drugs covered under medical benefit "requires no change to the existing standards" — Veradigm disagrees. CRD, DTR, and PAS IGs use CPT codes, SNOMED-CT, and procedure-based coverage logic. Drug PA introduces NDC codes, drug-specific formulary logic, and coverage indicators not in the Da Vinci workflow profiles.
+- **Specific request:** Clarify whether existing IGs are sufficient; condition medical benefit drug requirements on publication of drug-specific implementation guidance.
+
+**Topic 3: NCPDP Compliance Timeline – Three-Month Gap Is Infeasible**
+- **Provision ID:** PA-DRUG-PHARMACY, IMPLEMENTATION-TIMELINE
+- **Position:** Oppose (current timeline); Modify
+- **Rationale:** Payer compliance Oct 1, 2027; ONC certification Jan 1, 2028 — only three months later. EHR vendors must identify endpoints, build/validate integrations, test end-to-end flows, deliver certified software, and train providers. Three months is wholly inadequate.
+- **Specific request:** Move payer compliance to April 1, 2027 (nine-month lead), or explicitly acknowledge Jan 1, 2028 ONC cert is a minimum threshold with a reasonable ramp-up period.
+
+**Topic 4: Third-Party Aggregator Dependency Is Unaddressed**
+- **Provision ID:** PA-DRUG-PHARMACY, VENDOR-ECOSYSTEM
+- **Position:** Clarify/Modify
+- **Rationale:** EHR vendors work through third-party aggregators (Surescripts, Optum, Change Healthcare, Doctor First) for NCPDP connectivity. Aggregator compliance is not within EHR vendor control. Requires platform updates, new/amended contracts, testing, and revenue-sharing renegotiation.
+- **Specific request:** Acknowledge aggregators as a critical, regulated-adjacent ecosystem component; consider regulatory guidance or safe harbors for aggregator readiness.
+
+**Topic 5: F&B Flat File Update Frequency – Bi-Weekly Minimum Required**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Monthly updates insufficient; PBMs adjust pricing, tiering, and formulary frequently. Stale data causes incorrect cost information, formulary substitution errors, and unnecessary PA requests.
+- **Specific request:** Require F&B flat file updates at minimum bi-weekly; PA requirement indicators updated on same schedule; no material lag between effective policy change and publication.
+
+**Topic 6: F&B and RTPB Data Conflict – Single Source of Truth Needed**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify/Clarify
+- **Rationale:** Overlapping benefit indicators in both F&B and RTPB create data conflicts EHR must resolve at point of prescribing; without regulatory designation, inconsistent product-level design decisions create variation in prescriber experience.
+- **Specific request:** Designate F&B as primary source of truth for benefit/coverage information (including PA requirements); RTPB carries pricing/cost-sharing. Require consistency and synchronization between F&B and RTPB indicators.
+
+**Topic 7: Provider Access API for Drug PA Status Data**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support with condition
+- **Rationale:** Provider Access API appropriate for PA status retrieval outside real-time prescribing workflow. But ONC has not finalized certification criteria for Provider Access API.
+- **Specific request:** Condition full implementation on finalization of ONC certification criteria; coordinate ONC/CMS alignment on timelines.
+
+**Topic 8: Explicit Standards, Certification, and Governance**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support with expansion
+- **Rationale:** Explicit standards listing reduces ambiguity and implementation inconsistencies.
+- **Specific request:** Explicitly list all required standards (FHIR, US Core, SMART App Launch, Bulk Data, OpenID Connect). Recommend ONC certification for payer APIs and delegated vendors.
+
+**Topic 9: ATR List IG and API Endpoint Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** ATR List IG addresses patient attribution challenges.
+- **Specific request:** Strongly support ATR List IG adoption. Require structured endpoint documentation linking endpoints to specific plans.
+
+**Topic 10: PA Transparency, Timeliness, and Data Access**
+- **Provision ID:** PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS
+- **Position:** Support with caveats
+- **Rationale:** Electronic denial reasons improve provider efficiency and transparency; timely responses important but overly prescriptive requirements should be avoided given regulatory variability.
+- **Specific request:** Support all PA data via APIs (status, dates, denial reasons, documentation). Encourage unified PA framework across drugs and non-drug services.
+
+**Topic 11: Cumulative Regulatory Burden**
+- **Provision ID:** IMPLEMENTATION-TIMELINE
+- **Position:** Modify
+- **Rationale:** Five overlapping regulatory initiatives simultaneously (FHIR ePA APIs, NCPDP SCRIPT 2023011, NCPDP RTPB/F&B, HIPAA Claims Attachments, ONC HTI-4 criteria) draw on same engineering and compliance resources and technically interact.
+- **Specific request:** Acknowledge cumulative burden in final rule preamble; extend payer compliance dates; coordinate with ONC on certification criteria lead time; establish phased incremental go-live.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports requiring Da Vinci IGs but urges clarification that IGs may need modification for drug PA use cases.
+- **S2/S3:** Recommends concurrent use of current and updated IG versions through Jan 1, 2028; requires sufficiently tested and stable standards.
+- **S12:** CRD/DTR/PAS designed for procedure-based workflows; drug PA under medical benefit introduces NDC codes and formulary logic not currently in Da Vinci profiles; requests IG modification or supplemental guidance.
+- **S14/S22:** Payer compliance Oct 1, 2027 inadequate given ONC certification three months later; recommends April 1, 2027 or acknowledged ramp-up period.
+- **S15:** Highlights fundamental workflow complexity of benefit pathway determination; recommends CRD as routing mechanism.
+- **S19/S25:** Aggregator dependency is critical, unaddressed; recommends regulatory guidance or safe harbors.
+- **S21:** Supports 2027 timeline goals but requires adjustments for feasibility; recommends phased approach.
+- **S23/S24:** Supports endpoint reporting; recommends structured plan-linked documentation.
+- **S37:** Cumulative regulatory burden is major implementation challenge; recommends explicit acknowledgment in final rule.
+- **S60/S61:** Recommends explicit standards listing and ONC certification for payer APIs.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Acknowledge in final rule that pharmacy vs. medical benefit determination cannot be automated without payer-supplied signals; explore CRD as routing mechanism.
+2. Clarify whether existing Da Vinci IGs accommodate drug PA without modification; condition requirements on drug-specific IG guidance.
+3. Move NCPDP payer compliance to April 1, 2027, or acknowledge January 1, 2028 ONC cert is minimum with ramp-up period.
+4. Acknowledge aggregators as critical NCPDP ecosystem component; consider regulatory guidance or safe harbors.
+5. Require F&B flat file updates at minimum bi-weekly; include PA requirement indicators on same schedule.
+6. Designate F&B as primary source of truth for benefit/coverage; require RTPB/F&B synchronization.
+7. Condition drug PA status via Provider Access API on ONC certification criteria finalization; align ONC/CMS timelines.
+8. Explicitly list all required standards; recommend ONC certification for payer APIs.
+9. Support ATR List IG adoption; require structured endpoint documentation.
+10. Allow concurrent use of current and updated IG versions through January 1, 2028.
+11. Require all regulated entities to adopt same standards, versions, and timelines.
+12. Acknowledge cumulative regulatory burden in final rule preamble.
+13. Establish phased implementation timeline for incremental go-live.
+14. Pursue unified PA framework across drugs and non-drug services.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Bifurcated FHIR/NCPDP pathway creates unresolvable workflow complexity; Da Vinci IGs insufficient for drug PA without modification; three-month gap between payer compliance and ONC certification is infeasible; aggregator dependency unaddressed; cumulative overlapping requirements unsustainable.
+- **Potential negative impacts cited:** Stale F&B data causes incorrect cost information, formulary substitution errors, and unnecessary PA requests; F&B/RTPB data conflicts require inconsistent EHR-level resolutions; vendors cannot build against undefined standards.
+- **Implementation barriers mentioned:** Payer-by-payer benefit categorization variation; mid-year formulary changes; aggregator contract renegotiation; EHR vendor resource conflicts across five overlapping initiatives.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Not statistical; operational experience described.
+- **Studies or research referenced:** ONC HTI-4 Final Rule; ONC HTI-2; HIPAA Claims Attachment Final Rule; 2024 CMS Interoperability and Prior Authorization Final Rule.
+- **Examples provided:** Surescripts, Optum, Change Healthcare, Doctor First as aggregators; NCPDP SCRIPT v13 operational experience showing F&B/RTPB conflict; five overlapping regulatory deadlines enumerated with specific dates.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health IT vendors, ambulatory care providers (hundreds of thousands of clinicians on Veradigm platforms), payers, third-party aggregators, pharmacies, patients
+- **Economic implications:** Significant EHR vendor development investment; aggregator renegotiation costs; timeline compression adds risk and cost
+- **Technical feasibility:** Significant concerns throughout; recommends phased approach and standards clarification before mandating
+- **Patient care impact:** Ultimately positive if implemented correctly; inaccurate F&B data at prescribing harms patients through formulary errors and unnecessary PA delays
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of goals, concerned about feasibility and timelines)
+- **Tone:** Technical, Professional
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Veradigm respectfully submits that this bifurcated approach creates a fundamental workflow problem for EHR vendors and the providers they serve." - Context: On the dual FHIR/NCPDP pathway for medical vs. pharmacy benefit drug PA.
+
+2. "The Proposed Rule states...that adding such drugs 'requires no change to the existing standards.' Veradigm disagrees with this characterization." - Context: On CMS's assertion that existing Da Vinci IGs accommodate drug PA under the medical benefit without modification.
+
+3. "A three-month window between payer readiness and provider go-live is not operationally feasible." - Context: On the three-month gap between Oct 1, 2027 payer compliance and Jan 1, 2028 ONC certification.
+
+4. "These requirements are not sequential — they are overlapping, draw on the same engineering and compliance resources, and in many cases interact with each other at the technical level." - Context: On the cumulative burden of five overlapping regulatory initiatives.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Central concern: three-month gap between payer compliance and ONC certification infeasible; cumulative overlapping deadlines unsustainable; recommends extended timeline and phased approach.
+
+- [x] **COST-RESOURCES** - Significant development investment required; aggregator renegotiation costs; resource conflict across five overlapping regulatory initiatives.
+
+- [x] **PROVIDER-BURDEN** - Dual-pathway determination burden at point of care; stale F&B data creates unnecessary PA requests; unified PA framework would reduce burden.
+
+- [ ] **PRIVACY-SECURITY** - Not specifically addressed.
+
+- [ ] **HEALTH-EQUITY** - Not addressed.
+
+- [x] **TECHNICAL-FEASIBILITY** - Core theme: bifurcated pathway workflow problem; IGs not designed for drug PA; NCPDP aggregator ecosystem not addressed; three-month gap infeasible; F&B/RTPB data conflicts.
+
+- [x] **STANDARDS-MATURITY** - IGs designed for medical items/services, not drug PA; NDC codes and drug formulary logic not in Da Vinci profiles; recommends IG maturity assurance; concurrent version support.
+
+- [x] **PATIENT-ACCESS** - Stale F&B data causes formulary errors and unnecessary PAs; accurate PA status data via Provider Access API improves care continuity.
+
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+
+- [x] **STAKEHOLDER-COORDINATION** - CMS/ONC coordination on certification criteria alignment; aggregator ecosystem coordination; HL7 Da Vinci community input on drug PA IG modifications.
+
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Core technical concern: EHR cannot reliably determine benefit pathway at point of prescribing; variation across plans; recommends CRD as routing mechanism.
+
+- [x] **TRANSPARENCY** - Supports electronic denial reasons; supports PA data via APIs; endpoint documentation clarity.
+
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+
+- [x] **EXISTING-WORKFLOWS** - Central concern: ambulatory prescribing workflows cannot accommodate bifurcated pathway; F&B/RTPB conflicts require EHR resolution; unified PA framework recommended.
+
+- [x] **VENDOR-ECOSYSTEM** - Core theme: EHR vendor implementation complexity; aggregator dependency (Surescripts, Optum, Change Healthcare, Doctor First) unaddressed; ONC certification for payer APIs recommended.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 11, 2026
+
+The Honorable Xavier Becerra
+Secretary
+U.S. Department of Health and Human Services
+200 Independence Avenue, S.W.
+Washington, D.C. 20201
+
+Veradigm LLC respectfully submits these comments in response to the proposed rule titled "CMS Interoperability, Prior Authorization, and Patient Access API Standards for Prior Authorization of Drugs" (CMS-0062-P, hereinafter the "Proposed Rule"). Veradigm is a leading health information technology company serving ambulatory care providers, health systems, and life sciences organizations across the United States. Our electronic health record (EHR) solutions — including the Veradigm EHR, Practice Fusion, and Veradigm Network — are used daily by hundreds of thousands of clinicians to prescribe medications, manage prior authorizations, and exchange health information with payers and pharmacies.
+
+We commend CMS for continuing to advance electronic prior authorization and interoperability standards that reduce administrative burden for providers and patients. As a health IT developer supporting providers and care delivery organizations, we are committed to advancing interoperability while minimizing administrative burden and ensuring practical, scalable implementation...

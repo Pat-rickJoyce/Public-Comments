@@ -1,0 +1,145 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0293_20260616064810_a9f3df70
+Commenter: Charla B. Johnson, DNP, RN, NI-BC; FMOL Health
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:01:18
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Charla B. Johnson, DNP, RN, NI-BC; FMOL Health.
+- **Stakeholder type:** Healthcare Provider; Technology/User Organization.
+- **Credentials or expertise mentioned:** Doctor of Nursing Practice, registered nurse, nursing informatics board certification. The comment states FMOL Health uses Epic electronic medical record software and depends on vendor development for reporting and interoperability.
+
+## 2. EXECUTIVE SUMMARY
+
+FMOL Health supports extending NCPDP standards to drugs but asks CMS to remove the Prior Authorization Notification requirement for payers because the commenter views PAN as a prescriber-to-pharmacy workflow and transaction. The comment also argues that the October 1, 2027 compliance date is unrealistic and that at least 24 months after the final rule effective date is needed for development, testing, certification, and implementation.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; IMPLEMENTATION-TIMELINE as a theme; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations are mentioned.
+- **Standards referenced:** NCPDP; SCRIPT; Formulary and Benefit (F&B); Real-Time Prescription Benefit (RTPB); Prior Authorization Notification (PAN); Epic EMR.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: NCPDP Standards for Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** The commenter supports extending NCPDP standards to drugs and recognizes the proposal's use of SCRIPT, F&B, and RTPB capabilities for prior authorization, formulary information, and real-time coverage checks.
+- **Specific request:** Maintain use of NCPDP standards for drug-related electronic prior authorization, formulary, and coverage workflows.
+
+**Topic 2: Prior Authorization Notification Requirement**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** The commenter states that PAN is a prescriber-to-pharmacy workflow and transaction, so applying a PAN requirement to payers such as Medicare Advantage organizations and Medicaid managed care plans would create unnecessary implementation burden.
+- **Specific request:** Remove the PAN requirement for payers from the proposed pharmacy-benefit drug prior authorization standards.
+
+**Topic 3: Compliance Timeline**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** The commenter states that October 1, 2027 is not realistic given the time required by the industry and software vendors.
+- **Specific request:** Provide at least 24 months from the final rule effective date for development, testing, certification, and implementation.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** The comment supports applying NCPDP standards for drugs but asks CMS to refine the applicability of the PAN requirement for non-Part D payer contexts.
+- **S19:** The comment raises readiness concerns for affected organizations and vendors, stating that the proposed compliance date does not allow enough implementation time.
+- **S22:** The comment identifies unnecessary implementation burden from retaining the PAN requirement for payers.
+- **S25:** The comment references RTPB as part of the proposed pharmacy benefit drug API/transaction set but does not object to RTPB itself.
+- **S31:** The comment does not directly discuss QHP exceptions, but its burden and timeline concerns may be relevant to non-Part D payer implementation generally.
+
+## 6. RECOMMENDATIONS
+
+1. Continue supporting NCPDP standards for pharmacy benefit drug workflows.
+2. Remove the Prior Authorization Notification requirement for payers such as Medicare Advantage organizations and Medicaid managed care plans.
+3. Revise the compliance timeline to provide at least 24 months from the effective date of the final rule.
+4. Ensure vendor development, testing, certification, and implementation needs are accounted for before enforcement.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Unnecessary implementation burden from the PAN requirement and an unrealistic October 1, 2027 compliance date.
+- **Potential negative impacts cited:** Payers, providers, and vendors may face avoidable workflow and implementation burden if CMS keeps PAN in scope for payer requirements.
+- **Implementation barriers mentioned:** Need for software vendor development, testing, certification, and implementation; dependence on Epic EMR development for interoperability and reporting success.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative data are cited.
+- **Studies or research referenced:** None.
+- **Examples provided:** FMOL Health's use of Epic EMR is offered as context for vendor-dependent implementation needs.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** FMOL Health, prescribers, pharmacies, payers including MA organizations and Medicaid managed care plans, EMR vendors, and software vendors.
+- **Economic implications:** The comment cites unnecessary implementation burden but does not quantify costs.
+- **Technical feasibility:** The commenter implies the proposal is technically feasible with sufficient time, but not by October 1, 2027 if vendor development and certification are required.
+- **Patient care impact:** Patient care impact is not directly addressed.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional; Technical; Concise
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "We are supportive of the extension to the National Council for Prescription Drug Programs (NCPDP) standard to drugs" - Context: Statement of support for the general pharmacy-benefit drug standards direction.
+2. "request CMS consider removing the Prior Authorization Notification (PAN) requirement for payers" - Context: Main requested modification to the proposed NCPDP implementation.
+3. "Keeping PANotification requirement will likely cause unnecessary implementation burden." - Context: Rationale for excluding PAN from payer obligations.
+4. "A 24 month from effective date of the final rule is the minimum time necessary for the industry and software vendors to complete development, testing, certification, and implementation." - Context: Timeline recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment directly objects to the October 1, 2027 compliance date and asks for at least 24 months after the final rule effective date.
+- [x] **COST-RESOURCES** - The comment cites unnecessary implementation burden, though without cost estimates.
+- [ ] **PROVIDER-BURDEN** - Not directly addressed beyond implementation burden.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [x] **TECHNICAL-FEASIBILITY** - The comment frames feasibility around development, testing, certification, and implementation needs.
+- [x] **STANDARDS-MATURITY** - The comment supports NCPDP standards while questioning the appropriateness of including PAN for payers.
+- [ ] **PATIENT-ACCESS** - Not addressed.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - The comment highlights coordination among health systems, EMR vendors, payers, prescribers, and pharmacies.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [ ] **TRANSPARENCY** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The PAN concern is specifically grounded in the existing prescriber-to-pharmacy workflow.
+- [x] **VENDOR-ECOSYSTEM** - The comment emphasizes the role and timeline needs of software vendors, including Epic.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Charla B. Johnson, DNP, RN, NI-BC 
+5959 S. Sherwood Forest Blvd 
+Baton Rouge, LA. 70816 
+Date 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare and Medicaid Services 
+U.S. Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Dear Recipient Name 
+Thank you for the opportunity to provide feedback on the Centers for Medicare and Medicaid Services 
+(CMS) Interoperability Standards and Prior Authorizations for Drugs Proposed Rule CMS-0062-P. FMOL 
+Health is currently using the electronic medical record software vendor, Epic. Their development 
+contributes to our enterprise’s success with reporting and interoperability.   
+We are supportive of the extension to the National Council for Prescription Drug Programs (NCPDP) 
+standard to drugs, but request CMS consider removing the Prior Authorization Notification (PAN) 
+requirement for payers [Medicare Advantage Organizations, Medicaid Managed Care Plans] since this is 
+a prescriber to pharmacy workflow and transaction. The proposal would require APIs for prior 
+authorization (SCRIPT), formulary information (F&B), and real-time coverage checks (RTPB).  Keeping 
+PANotification requirement will likely cause unnecessary implementation burden. In addition, the 
+compliance date of October 1, 2027, is not realistic. A 24 month from effective date of the final rule is 
+the minimum time necessary for the industry and software vendors to complete development, testing, 
+certification, and implementation. 
+ 
+Thank you for your consideration of our feedback, 
+ 
+Sincerely, 
+Charla Johnson 
+FMOL Health

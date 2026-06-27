@@ -1,0 +1,222 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0348
+Commenter: American Health Information Management Association (AHIMA)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:19:54
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Health Information Management Association (AHIMA), Lauren Riplinger, JD, Chief Public Policy and Impact Officer
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Global nonprofit association of health information professionals; 61,000+ members; 88,500+ credentials; expertise at intersection of healthcare, technology, and business; data integrity and information privacy.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AHIMA broadly supports the proposed rule's goals of streamlining prior authorization through NCPDP and FHIR standards, but urges significant caution about implementation timelines. The organization recommends a one-year delay in the compliance date (to October 1, 2028) on grounds that payers and EHR vendors are still implementing CMS-0057-F, FHIR IGs are insufficiently mature for real-world deployment, and version management across exchange partners is not yet resolved. On HIPAA-PA-STANDARDS, AHIMA supports the eventual FHIR transition but calls for a success-threshold approach before X12 standards are retired.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, FHIR-IG-REQUIRED, PA-DENIAL-REASONS, API-ENDPOINT-REPORTING, API-USAGE-METRICS, HIPAA-PA-STANDARDS, ONC-STANDARDS-UPDATE; RFIs on electronic event notifications and laboratory/DMEPOS
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F (2024 Interoperability and Prior Authorization Final Rule); 21st Century Cures Act; X12 278 Health Care Services Review transaction; 45 CFR 162
+- **Standards referenced:** NCPDP SCRIPT, NCPDP Formulary and Benefit (F&B), NCPDP Real-Time Prescription Benefit (RTPB); HL7 FHIR; Da Vinci CRD, DTR, PAS IGs; US Core; X12 278; ADT (admission, discharge, transfer)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: NCPDP Standards for Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NCPDP SCRIPT, F&B, and RTPB standards have long supported pharmacy benefit data exchange and are widely adopted.
+- **Specific request:** CMS should delineate clearly which drugs and transactions flow through NCPDP versus FHIR APIs to reduce confusion across payers and providers.
+
+**Topic 2: FHIR Standards Maturity and Real-World Testing**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** FHIR IGs are still maturing; requiring and enforcing them before sufficient real-world testing risks failed implementations, especially for under-resourced organizations dependent on EHR vendors.
+- **Specific request:** CMS should collaborate with ONC to conduct robust real-world testing, provide technical assistance and flexibilities, and monitor version management to prevent mismatches across exchange partners.
+
+**Topic 3: Compliance Date—Request for Delay**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Industry is still implementing CMS-0057-F by January 1, 2027; layering drug PA requirements with an October 1, 2027 deadline does not allow adequate time for workflow testing, staff training, and multi-partner coordination.
+- **Specific request:** Phase implementation or delay compliance date to October 1, 2028.
+
+**Topic 4: Electronic PA for Medical Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Including drugs in the Prior Authorization API reduces burden on providers and expedites patient access to care; drugs have long been a major source of PA burden.
+- **Specific request:** No change to the proposal itself; timeline delay requested (see Topic 3).
+
+**Topic 5: PA Denial Reasons and Timeframes**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with Modify
+- **Rationale:** Specific denial reasons regardless of submission method and aligned timelines will reduce confusion and streamline workflows for health information professionals.
+- **Specific request:** Require denial information and appeal capabilities within the FHIR APIs. Require more specific reporting metrics that identify PA trends for specific drugs and plans.
+
+**Topic 6: API Endpoint Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** AHIMA members report that the 60-day reporting timeline is challenging without clarity on which lines of business must be mapped, what documentation is required, or how CMS will validate endpoints.
+- **Specific request:** Provide greater clarity on documentation and timeline requirements comparable to CMS-0057-F endpoint reporting; extend the deadline to allow accurate compliance.
+
+**Topic 7: API Usage Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with Clarify
+- **Rationale:** Metrics on Provider Access, P2P, and PA API usage are valuable, but the term "provider" is ambiguous—organization-level metrics are less useful than clinician-level metrics.
+- **Specific request:** Clarify whether metrics are at organization or clinician level; define what constitutes a PA versus other utilization management tools; provide reporting templates with normalization guidance; offer flexibilities for small and under-resourced payers.
+
+**Topic 8: Drug Formulary Removal from Provider/P2P APIs**
+- **Provision ID:** PA-DRUG-PHARMACY / API-USAGE-METRICS
+- **Position:** Support
+- **Rationale:** Removing drug formulary from FHIR-based Provider Access and P2P APIs in favor of NCPDP standards avoids duplication and maintains consistent format aligned with AHIMA member preferences.
+- **Specific request:** Continue improving timely formulary information via NCPDP standards.
+
+**Topic 9: HIPAA PA Standards—FHIR Adoption**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support (eventual) with Modify
+- **Rationale:** AHIMA supports the eventual FHIR transition and applauds the proposed attachment standard, but warns that FHIR IGs are still maturing and the 24-month compliance timeline is infeasible for EHR vendors and covered entities.
+- **Specific request:** Continue supporting both FHIR and X12 until a measurable threshold of successful FHIR transactions demonstrates effectiveness; segment success metrics by organization type, resource level, and service type; do not retire X12 until FHIR is proven reliable through real-world testing.
+
+**Topic 10: Electronic Event Notifications (ADT) RFI**
+- **Provision ID:** GENERAL (RFI)
+- **Position:** Support with Modify
+- **Rationale:** ADT has improved care coordination but gaps remain, particularly when patients are discharged at facilities outside their usual network; provider directory accuracy is a limiting factor.
+- **Specific request:** Review and update ADT requirements; improve provider directories; expand data content in ADT notifications to include standardized care information.
+
+**Topic 11: Laboratory Tests and DMEPOS RFI**
+- **Provision ID:** GENERAL (RFI)
+- **Position:** Support with Modify
+- **Rationale:** HI professionals managing DMEPOS and lab PA workflows face immense documentation burden; delays and denials harm patient care when medically necessary items are withheld.
+- **Specific request:** Streamline documentation requirements; ensure requirements are clearly understood; consider AI tools with human oversight to identify documentation misalignment and facilitate claims filing.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1 (require vs recommend IGs):** AHIMA cautions against mandating FHIR IGs before they are sufficiently mature and real-world tested; supports eventual mandate contingent on readiness.
+- **S12 (technical challenges, PA-DRUG-MEDICAL):** Cites complexity of multi-system coordination, benefit classification routing, and partner alignment as barriers to October 1, 2027 compliance.
+- **S14 (non-Part D applicability, PA-DRUG-PHARMACY):** Supports NCPDP for pharmacy benefit with request for clearer delineation of which transactions use which standard.
+- **S21 (timeline achievable, PA-DRUG-MEDICAL):** Opposes October 1, 2027 as insufficient; recommends October 1, 2028.
+- **S23 (security concerns, API endpoint reporting):** Raises concerns about lack of clarity on validation process and documentation specifics.
+- **S24 (what to report, API endpoint reporting):** Requests clarity on lines of business mapping and documentation requirements.
+- **S29 (which metrics, API usage):** Recommends clinician-level metrics over organization-level; recommends defining "prior authorization" to distinguish from other utilization management.
+- **S44 (FHIR appropriate for HIPAA PA):** Supports eventual adoption but conditions it on real-world testing demonstrating reliability.
+- **S46 (X12 coexistence):** Explicitly recommends continuing X12 support until FHIR meets a success threshold.
+- **S47 (timeline, HIPAA PA):** Opposes proposed 24-month timeline as infeasible given IG maturity and EHR vendor implementation cycle.
+- **S50 (IG maturity, HIPAA PA):** Directly raises concern that FHIR IGs are still maturing, making mandate premature.
+- **S53 (phasing, HIPAA PA):** Supports phased approach with success metrics before X12 retirement.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. CMS should clearly delineate which drugs/transactions use NCPDP versus FHIR APIs.
+2. CMS should work with ONC to conduct robust real-world testing of FHIR IGs before enforcing them.
+3. CMS should provide technical assistance and flexibilities to under-resourced organizations implementing CMS-0057-F and new requirements.
+4. CMS and ONC should implement a method to monitor and manage version use across exchange partners to avoid mismatches.
+5. CMS should delay the primary compliance date from October 1, 2027 to October 1, 2028 (or phase implementation).
+6. Require denial information and appeal capabilities within FHIR APIs.
+7. Require more specific PA reporting metrics identifying trends by specific drugs and plans.
+8. Provide greater clarity and a realistic timeline for API endpoint reporting requirements.
+9. Clarify API usage metrics at clinician level; define "prior authorization" to distinguish from other utilization management.
+10. Provide reporting templates with normalization guidance; offer flexibilities for small payers on numeric count reporting.
+11. Continue supporting both FHIR and X12 for HIPAA PA transactions; establish a success-threshold before retiring X12.
+12. Review and update ADT requirements to expand data content and improve provider directory accuracy.
+13. Streamline DMEPOS and lab documentation requirements; consider AI tools with human oversight to reduce PA burden.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** FHIR IGs are not sufficiently mature for mandate; October 1, 2027 compliance date is unrealistic given CMS-0057-F implementation still in progress; version mismatches across exchange partners create interoperability gaps; 24-month HIPAA FHIR timeline is infeasible.
+- **Potential negative impacts cited:** Healthcare organizations dependent on EHR vendors cannot participate if vendor software is untested; small, self-funded, and rural organizations face disproportionate burden; raw numeric count data without normalization can mislead providers and patients.
+- **Implementation barriers mentioned:** EHR vendor interpretation and software development cycle; multi-system and multi-partner coordination complexity; staff training; benefit classification routing complexity; DMEPOS documentation layers.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AHIMA has 61,000+ members and 88,500+ credentials; members in payer organizations reported endpoint reporting timeline challenges; HI professional members cited immense DMEPOS PA documentation burden causing months-long delays.
+- **Studies or research referenced:** None formally cited.
+- **Examples provided:** Clinician-level vs. organization-level API metrics; ADT gaps when patients discharged outside usual facility network; DMEPOS multi-step documentation process (LCDs, face-to-face evaluations, prior authorizations, delivery requirements).
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** MA organizations, Medicaid/CHIP managed care and FFS, QHP issuers, health information professionals, EHR vendors, DMEPOS suppliers, patients.
+- **Economic implications:** Substantial financial investment needed for payers to add numeric count reporting; significant EHR vendor development costs for FHIR implementation; potential for wasted effort if standards not sufficiently tested.
+- **Technical feasibility:** Highly concerned; FHIR IG maturity and real-world testing gaps are the central barrier; version management across partners is an unsolved problem.
+- **Patient care impact:** Streamlining PA for drugs and DMEPOS/lab will improve patient access; however, rushing implementation risks failed systems that could harm access more than help.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed — generally supportive of goals but strongly concerned about timelines and standards maturity
+- **Tone:** Professional, Collaborative, technically detailed
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "AHIMA caution[s] CMS on requiring and enforcing the use of these standards and IGs before they are sufficiently mature and thoroughly tested in diverse, real-world healthcare settings." - Context: On mandating FHIR IGs for PA.
+
+2. "AHIMA encourages CMS to consider a phased implementation or one year delay of the compliance date to October 1, 2028...More flexibility in the timing of implementation will allow impacted payers, healthcare organizations, and EHR vendors to implement current requirements and prepare for future requirements." - Context: Addressing the October 1, 2027 compliance date.
+
+3. "CMS should consider establishing a threshold of successful transactions that occur through FHIR to demonstrate effectiveness and value before discontinuing the X12 standards." - Context: On HIPAA PA standards transition.
+
+4. "Raw counts lack normalization and must be contextualized to avoid misinterpretation. Small plans compared to large payers will have different numeric counts that do not necessarily equate to differences in policy adherence." - Context: On API usage metrics numeric count proposal.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - AHIMA's central recommendation is a one-year delay to October 1, 2028 across multiple provisions; 24-month HIPAA timeline also flagged as infeasible.
+- [x] **COST-RESOURCES** - Substantial financial investment required for payers to implement numeric reporting; under-resourced organizations need specific flexibilities and support.
+- [x] **TECHNICAL-FEASIBILITY** - FHIR IGs not yet sufficiently mature or real-world tested; version management across exchange partners is unresolved.
+- [x] **STANDARDS-MATURITY** - Core concern across FHIR-IG-REQUIRED and HIPAA-PA-STANDARDS; recommends real-world testing threshold before X12 retirement.
+- [x] **STAKEHOLDER-COORDINATION** - CMS-ONC coordination needed for version management, testing support, and technical assistance; multi-partner alignment challenges.
+- [x] **EXISTING-WORKFLOWS** - Concern about disrupting workflows during CMS-0057-F implementation; recommends preserving X12 in parallel with FHIR.
+- [x] **VENDOR-ECOSYSTEM** - EHR vendors must interpret IGs and supply software before healthcare organizations can implement; under-resourced organizations dependent on vendor readiness.
+- [x] **TRANSPARENCY** - Supports denial reasons; requests clearer PA definition for metrics; normalization guidance needed for numeric count reporting.
+- [x] **SMALL-PAYER-IMPACT** - Explicitly calls for flexibilities and support for small, self-funded, and under-resourced payer organizations on endpoint reporting and metrics.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Recommends CMS clearly delineate which transactions use NCPDP versus FHIR to prevent confusion.
+- [x] **PATIENT-ACCESS** - Streamlining PA for drugs and DMEPOS/lab testing will improve patient access; rushing risks counterproductive failures.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Copyright © 2026 AHIMA®. All rights reserved. Confidential and proprietary.
+American Health Information Management Association
+201 West Lake Street, 226
+Chicago, IL 60606
+
+June 11, 2026
+
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare and Medicaid Services
+US Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+
+Dear Administrator Oz:
+
+On behalf of the American Health Information Management Association (AHIMA), I am writing in response to the
+Centers for Medicare and Medicaid Services (CMS) Interoperability Standards and Prior Authorization for Drugs
+Proposed Rule published in the April 14, 2026 Federal Register (CMS-0062-P).
+
+AHIMA is a global nonprofit association of health information (HI) professionals, with over 61,000 members and
+more than 88,500 credentials in the field. The AHIMA mission of empowering people to impact health® drives our
+members and credentialed HI professionals to ensure that health information is accurate, complete, and available
+to patients and clinicians. Leaders within AHIMA work at the intersection of healthcare, technology, and business,
+occupying data integrity and information privacy job functions worldwide...

@@ -1,0 +1,197 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0394
+Commenter: Advanced Medical Technology Association (AdvaMed) — Diagnostic Payment Work Group (DPWG)
+Source: PDF Attachment
+Analysis Date: 20260626_145852
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Advanced Medical Technology Association (AdvaMed), Diagnostic Payment Work Group (DPWG); signed by Zoe Guengerich, Senior Director, Payment & Healthcare Delivery Policy
+- **Stakeholder type:** Professional Association (representing medical device, diagnostic products, and health IT manufacturers)
+- **Credentials or expertise mentioned:** AdvaMed represents world's leading innovators and manufacturers of medical devices, diagnostic products, digital health technologies, and health information systems, including hundreds of small companies; responded specifically on behalf of clinical laboratory and diagnostic testing members.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AdvaMed's Diagnostic Payment Work Group responds exclusively to the RFI questions on laboratory testing prior authorization, identifying six systemic problems: (1) MA organizations improperly preventing laboratories from initiating PA requests despite existing CMS regulations; (2) inconsistent coverage criteria through LBMs that don't align with Medicare FFS LCD/NCD policy; (3) denial of services even when complete information is provided on TRFs; (4) post-specimen-collection PA denials based on misuse of the Medicare date-of-service policy; (5) inadequate transparency and accountability for LBM-delegated PA decisions; and (6) AI tools trained on non-CMS criteria amplifying inappropriate denials. AdvaMed urges CMS to codify laboratory PA rights, require TRF acceptance as valid documentation, clarify date-of-service rules, mandate LBM transparency reporting, and ensure AI oversight.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL (RFI on laboratory testing PA — corresponds to S66-S82 domain)
+- **Regulatory citations mentioned:** 42 C.F.R. § 422.566(c)(1)(ii); 42 C.F.R. § 422.138(b); 42 CFR 414.510(a) (Part B lab date of service); CMS Medicare Managed Care Manual, ch. 4, sec. 10.16; LCD L38779; billing article A58376; MolDX article 14A59741; Humana Liquid Biopsy policy HUM-1151-001; NCD 90.2; 91 Fed. Reg. 19890
+- **Standards referenced:** NCDs, LCDs, billing articles, DEX™ Diagnostics Exchange Registry (Palmetto GBA MolDX), TRFs, ICD-10 coding, NPI numbers; no FHIR or NCPDP standards addressed
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Laboratories' Right to Initiate Prior Authorization**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify (enforce existing regulation)
+- **Rationale:** Some MAOs do not permit laboratories to submit PA requests despite 42 C.F.R. § 422.566 establishing labs as providers eligible to request coverage determinations; creates procedural denials unrelated to medical necessity.
+- **Specific request:** New enforcement requirement for MAO compliance with 42 C.F.R. § 422.566; systemic reporting mechanisms for non-compliance.
+
+**Topic 2: Inconsistent MA Coverage Criteria — LCDs, NCDs, and LBMs**
+- **Provision ID:** GENERAL
+- **Position:** Oppose (current LBM practices) / Modify
+- **Rationale:** MAOs contract with LBMs who use proprietary criteria inconsistent with Medicare FFS coverage; billing articles and DEX™ registry supplements to LCDs are not required for consideration, creating MA/FFS coverage disparities.
+- **Specific request:** Require MAOs to consider billing articles and DEX™ when making coverage decisions; require public posting of MA-developed coverage policies before adoption; require UM committees to review LBM-used criteria.
+
+**Topic 3: Test Requisition Forms (TRFs) as Valid Medical Documentation**
+- **Provision ID:** GENERAL
+- **Position:** Support (codification)
+- **Rationale:** CMS contractors (MolDX) have already clarified TRFs may establish medical necessity when complete, but MAOs continue denying NCD- and LCD-covered services despite complete TRF information.
+- **Specific request:** Explicitly codify in MA regulations that TRFs are valid medical documentation; adopt MolDX clarification across MA and commercial payers.
+
+**Topic 4: Post-Specimen-Collection PA Denials / Date of Service Misuse**
+- **Provision ID:** GENERAL
+- **Position:** Oppose (current practice) / Clarify
+- **Rationale:** MA plans misapply 42 CFR 414.510(a) to deny PA after specimen collection, though labs may not receive specimens for up to 48 hours; inconsistent with 42 C.F.R. § 422.138(b).
+- **Specific request:** Clarify that date of performance (when lab receives specimen) governs for PA; clarify all denied claims always appealable on medical necessity grounds.
+
+**Topic 5: Appeals Process Deficiencies**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** MA appeals window is 65 days vs. 120 days for Medicare FFS; collecting documentation can take up to 90 days; some plans only allow patient appeals; administrative denials not escalated to medical necessity review.
+- **Specific request:** Extend MA Level 1 appeal deadline to 120 days; ensure all denials appealable on medical necessity grounds; mandate clear escalation and dispute resolution processes.
+
+**Topic 6: Laboratory Benefit Managers (LBMs) — Transparency and Accountability**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** LBMs provide vague denial rationales, apply policies inconsistently, and redirect disputes without resolution; UM committees not required to review LBM-used criteria.
+- **Specific request:** Require MAOs to report annually on PA delegated to third parties, share denied, share appealed, share overturned; CMS to compile and publish.
+
+**Topic 7: AI in Prior Authorization**
+- **Provision ID:** GENERAL
+- **Position:** Conditional Support / Concern
+- **Rationale:** Documented cases of MA plans training AI on inconsistent Medicare guideline interpretations leading to systematic inappropriate denials.
+- **Specific request:** Require AI trained on official NCDs/LCDs/billing articles; require public reporting of AI use; consider excluding complex disease groups from AI coverage determinations.
+
+**Topic 8: Consider Eliminating PA for NCD/LCD-Covered Services**
+- **Provision ID:** GENERAL
+- **Position:** Recommend
+- **Rationale:** High appeal overturn rate (80.7% in 2024) and time-sensitive nature of diagnostics suggest PA requirements for NCD/LCD-covered services are counterproductive.
+- **Specific request:** CMS should consider whether MAOs should require PA at all where defined NCD or LCD coverage policy exists.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+This comment responds exclusively to the RFI on laboratory testing (S66-S82 domain), not to numbered solicitations in the main proposed rule.
+
+- **RFI (Lab PA impact):** PA policies preventing lab-initiated requests, LBM inconsistency, TRF denials, and DOS misuse cause delays in time-sensitive oncology and precision medicine testing; 80.7% appeal overturn rate demonstrates systemic initial denial problems.
+- **RFI (TRFs as valid documentation):** Codifying TRF acceptance would align MA with Medicare FFS and reduce inappropriate denials; CMS contractors already recognize TRFs as sufficient.
+- **RFI (Frequency of post-collection PA denials):** DOS policy misuse allows procedural denials after specimen collection; date of performance (not collection) should govern.
+- **RFI (LBM impact):** LBMs impose extra criteria inconsistent with Medicare coverage; lack clear accountability; UM committees should be required to review LBM criteria.
+- **RFI (Process improvement):** Eliminate PA for NCD/LCD-covered services; codify TRF acceptance; ensure all denials appealable on medical necessity grounds; mandate escalation/dispute resolution.
+- **RFI (AI automation):** AI could improve timeliness but risks amplifying coverage misinterpretations; requires CMS oversight, mandatory reporting, and exclusions for complex cases.
+- **RFI (Issues technology isn't addressing):** Lack of escalation/dispute resolution pathways; fundamental MA/FFS coverage misalignment requires regulatory enforcement, not technology.
+- **RFI (Workforce and retention):** PA administrative burdens divert clinical/lab staff from patient care, contributing to burnout and reduced MA network participation.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. New enforcement requirement ensuring MAO compliance with 42 C.F.R. § 422.566 (lab PA initiation rights); systemic reporting mechanisms for non-compliance.
+2. Require MAOs to consider LCD billing articles and databases (e.g., DEX™ registry) when making coverage decisions.
+3. Require any MA coverage policy distinct from LCD/NCD to be publicly posted and subject to public comment before adoption.
+4. Require UM committees to explicitly review criteria used by third-party entities like LBMs.
+5. Explicitly codify in MA regulations that TRFs are valid medical documentation; adopt MolDX clarification across MA and commercial payers.
+6. Clarify that MA plans must use date of performance (not date of specimen collection) as the relevant date for lab PA purposes.
+7. Clarify that all denied claims are always appealable on medical necessity grounds, regardless of PA outcome.
+8. Extend MA Level 1 appeal deadline to align with Medicare FFS (120 days).
+9. Mandate clear escalation and dispute resolution processes for providers contending MA plans are not following rules.
+10. Require MAOs to report annually on PA delegated to third-party entities, share denied, appealed, and overturned; CMS to compile and publish.
+11. Require AI tools used in PA to be trained on official Medicare guidelines; require public reporting of AI use; consider excluding complex disease groups from AI-based determinations.
+12. Consider whether MAOs should require PA at all where defined NCD or LCD coverage policy exists.
+13. Require collection and public reporting of MA claim denial data by service type, compared to Medicare FFS.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** MA plans and LBMs systematically using procedural/administrative grounds to deny laboratory PA; 80.7% appeal overturn rate in 2024; 65-day MA appeal window insufficient when acquiring provider records takes up to 90 days; AI tools trained on incorrect criteria amplifying inappropriate denials at scale.
+- **Potential negative impacts cited:** Delays in time-sensitive oncology and precision medicine diagnostic testing; patients losing access to medically necessary services on technicalities; laboratories unable to meaningfully appeal administrative denials; workforce burnout from repetitive denial/appeal cycles.
+- **Implementation barriers mentioned:** Labs as ancillary providers can't acquire ordering provider documentation within short appeal windows; LBMs create accountability gaps; no systemic dispute resolution pathway short of individual claim appeals.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 53 million MA PA determinations in 2024 (KFF); 11.5% of denied PA requests appealed in 2024; 80.7% of those appeals partially or fully overturned (KFF).
+- **Studies or research referenced:** KFF report (Biniek et al., Jan. 28, 2026); CMS RFI (91 Fed. Reg. 19890) acknowledging DOS policy misuse and TRF acceptance gaps.
+- **Examples provided:** Humana Liquid Biopsy Policy (HUM-1151-001) improperly applying LCD criteria to NCD-covered service; LCD L38779 with complex multi-criteria billing articles; colorectal cancer screening denials despite medical necessity determinable from demographic/ICD-10 data.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clinical and diagnostic testing laboratories, MA beneficiaries, ordering physicians, MAOs, LBMs, AdvaMed members (diagnostic product manufacturers).
+- **Economic implications:** Uncompensated care from procedural denials; administrative burden from duplicative appeals and documentation gathering; workforce costs from PA-related staff time diversion.
+- **Technical feasibility:** Primary recommendations (LBM reporting, TRF codification, DOS clarification) are regulatory and feasible; AI oversight requires new reporting infrastructure.
+- **Patient care impact:** Delays in time-sensitive oncology/precision medicine diagnostics directly affect treatment decisions; high overturn rates suggest many denied services are medically necessary.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned / Opposed (to current MA PA practices)
+- **Tone:** Professional, Technical, Critical (of current MA/LBM practices)
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Technology alone cannot resolve the fundamental misalignment between MA coverage policies and Medicare FFS rules without stronger CMS enforcement and accountability mechanisms." — Context: Responding to RFI question on issues technology is not currently addressing.
+
+2. "The high overturn rate strongly suggests that many initial denials lack merit and that systematic improvements to the prior authorization process—not merely the appeals process—are warranted." — Context: Citing 80.7% appeal overturn rate in 2024 to argue for structural PA reform.
+
+3. "There is no disincentive for plans to continue this practice of high denials and no recourse for laboratories and other third-party providers." — Context: Describing how the 65-day MA appeal window combined with 90-day documentation retrieval times effectively insulates plans from accountability.
+
+4. "Improperly implemented AI tools risk amplifying existing coverage misinterpretations and denial patterns if not subject to CMS oversight and validation." — Context: Warning about AI in PA trained on inconsistent MA/Medicare guidelines.
+
+---
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** — Administrative burdens from PA denials, duplicative documentation requests, inadequate appeal windows, and LBM redirect loops directly burden clinical laboratory staff.
+- [x] **TRANSPARENCY** — Recommends public posting of MA-developed coverage policies; requires LBM denial/appeal data reporting; supports public reporting of AI use in coverage decisions.
+- [x] **PATIENT-ACCESS** — Delays in time-sensitive oncology/precision medicine testing affect treatment decisions; post-collection denials interrupt established clinical workflows.
+- [x] **REGULATORY-AUTHORITY** — Calls on CMS to enforce existing 42 C.F.R. § 422.566 and § 422.138(b); argues some current MA practices violate existing law.
+- [x] **EXISTING-WORKFLOWS** — Laboratory PA workflows inherently sequential; existing MA date-of-service policy misapplication breaks normal clinical workflow.
+- [x] **VENDOR-ECOSYSTEM** — LBMs as third-party contracted entities with proprietary criteria inconsistent with CMS rules represent a systemic accountability gap.
+- [x] **TECHNICAL-FEASIBILITY** — AI tools in PA could improve timeliness but risk amplifying biases if not trained on authoritative CMS guidance; requires regulatory safeguards.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+advamed.org  ::      @AdvaMedUpdate  ::      AdvaMed
+1 ::
+
+June 12, 2026
+
+By Electronic Submission via www.regulations.gov
+
+Dr. Mehmet Oz
+Administrator of the Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD, 21244-8013
+
+Re: CMS-0062-P: Request for Information (RFI) in Proposed Rule: Medicare and Medicaid Programs;
+Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for
+Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities,
+and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+Dear Administrator Oz:
+The Advanced Medical Technology Association (AdvaMed) Diagnostic Payment Work Group (DPWG)
+appreciates the opportunity to respond to the Request for Information (RFI) within the "Medicare and
+Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior
+Authorization for Drugs..."

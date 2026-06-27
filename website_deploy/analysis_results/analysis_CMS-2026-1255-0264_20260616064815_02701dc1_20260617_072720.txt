@@ -1,0 +1,155 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0264_20260616064815_02701dc1
+Commenter: University of Texas MD Anderson Cancer Center
+Source: PDF Attachment
+Analysis Date: 2026-06-17 07:27:20
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** University of Texas MD Anderson Cancer Center; signed by Karolyn 'Kabby' Thompson, Vice President, Payor Strategies
+- **Stakeholder type:** Healthcare Provider
+- **Credentials or expertise mentioned:** NCI-designated cancer center and major oncology provider; clinical revenue and reimbursement/payor strategy expertise.
+
+## 2. EXECUTIVE SUMMARY
+
+UT MD Anderson supports CMS efforts to improve interoperability and streamline prior authorization, but urges additional safeguards for oncology care. The comment prioritizes gold carding, standardized and enforceable authorization timeframes, limits on site-of-care and specialty pharmacy restrictions, claims adjudication accountability, and more granular public performance metrics.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; GENERAL
+- **Regulatory citations mentioned:** CMS-0062-P; no specific CFR sections cited.
+- **Standards referenced:** General interoperability and prior authorization standards; no specific FHIR IG or NCPDP standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Gold carding and medical benefit drug PA timeframes**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** High-performing oncology providers with high approval rates should not face broad PA requirements for guideline-concordant therapy. Timeframe mandates alone could lead payers to issue more denials to meet deadlines.
+- **Specific request:** Implement gold carding for providers such as NCI-designated cancer centers; standardize timeframes at 24 hours for urgent requests and 72 hours for routine requests; deem untimely requests approved and payable.
+
+**Topic 2: Narrow scope of prior authorization**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Broad PA across outpatient medications creates unnecessary delays, especially for rare and individualized oncology scenarios.
+- **Specific request:** Limit PA to high-cost or novel therapies where clinical review adds value and require payer review without forcing patients to initiate final appeals.
+
+**Topic 3: Site-of-care, specialty pharmacy, step therapy, and biosimilar policies**
+- **Provision ID:** GENERAL; PA-DRUG-MEDICAL
+- **Position:** Oppose/Modify
+- **Rationale:** These utilization management practices fragment oncology care, delay treatment, create safety risks, and may treat noninterchangeable oncology products as interchangeable.
+- **Specific request:** Prohibit site-of-care restrictions for federally covered oncology drug administration where comparable specialized care is unavailable; preserve provider control over clinically appropriate treatment decisions.
+
+**Topic 4: Denial transparency and claims adjudication reform**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Payers deny claims after authorization was obtained or after confirming no authorization was required, causing prolonged appeals and delayed reimbursement.
+- **Specific request:** Distinguish denial reasons such as site-of-care versus medical necessity; require reconciliation within 15 to 30 days; impose automatic penalties and corrective action plans for recurring inappropriate denials.
+
+**Topic 5: Expanded performance metrics and accountability**
+- **Provision ID:** API-USAGE-METRICS; API-ENDPOINT-REPORTING
+- **Position:** Support/Modify
+- **Rationale:** Public metrics must be granular enough to reveal payer utilization management patterns.
+- **Specific request:** Segment drug metrics by medical benefit versus prescription drug benefit, report by state or FI level, include provider and hospital-specific performance, publish timely data, and tie failures to penalties and corrective action.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The comment identifies oncology-specific operational challenges for medical benefit drug PA, including site-of-care restrictions, specialty pharmacy requirements, step therapy, biosimilar preferences, and rare clinical scenarios.
+- **S15:** The comment asks CMS to distinguish medical benefit drug administration issues from prescription drug benefit issues in metrics and policy.
+- **S16:** The comment requests clearer denial reasons, especially distinguishing site-of-care denials from medical necessity denials.
+- **S20:** The comment supports standardized PA timeframes of 24 hours for urgent requests and 72 hours for routine requests.
+- **S29:** The comment supports expanded usage and performance metrics, including drug-related metrics segmented by benefit type and payer performance category.
+- **S34:** The comment asks for timely reporting of payer performance data.
+- **S35:** The comment supports public accessibility of payer performance data and stronger accountability mechanisms.
+- **S66-S82:** The comment responds to broader utilization-management issues, including step therapy, care coordination, site-of-care restrictions, and therapy management in oncology.
+
+## 6. RECOMMENDATIONS
+
+1. Implement gold carding for high-performing providers, including NCI-designated cancer centers and providers with approval rates of at least 90 percent.
+2. Apply gold carding protections uniformly to in-network and out-of-network providers.
+3. Standardize PA response timeframes across payer types at 24 hours urgent and 72 hours routine.
+4. Deem requests automatically approved and payable when payers miss required response timelines.
+5. Limit PA to high-cost or novel therapies where clinical review provides clear value.
+6. Prohibit or substantially restrict site-of-care requirements that disrupt specialized oncology care.
+7. Require denials to distinguish site-of-care policy from medical necessity.
+8. Require reconciliation of inappropriate denials within 15 to 30 days, with penalties and corrective actions.
+9. Expand public metrics by benefit type, state or FI level, and provider/hospital-specific performance.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Oncology treatment delays, inappropriate utilization management, payer denial practices, site-of-care restrictions, specialty pharmacy policies, claims delays, and inadequate accountability.
+- **Potential negative impacts cited:** Fragmented care, patient safety risks, delayed treatment initiation, poorer outcomes, patient anxiety, and millions of dollars in delayed or unpaid claims.
+- **Implementation barriers mentioned:** Antiquated payer systems, opaque payer policies, inconsistent timeframes, payer-specific biosimilar preferences, and resource-intensive appeals.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Suggested high-performing provider threshold of at least 90 percent approval rates; claims resolution delays exceeding one year; millions of dollars in delayed or unpaid claims.
+- **Studies or research referenced:** UnitedHealthcare gold carding model cited as a feasible example.
+- **Examples provided:** CAR-T and routine standard-of-care oncology regimens affected by delayed claims resolution; MD Anderson does not engage in bagging due to safety and quality concerns.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, oncology providers, NCI-designated cancer centers, payers, hospitals, families, and federally covered patients.
+- **Economic implications:** Significant provider revenue delays, payer penalty exposure, administrative appeal costs, and potential cost reductions from fewer unnecessary denials.
+- **Technical feasibility:** The comment implies payer systems require modernization to support accurate authorization, claims processing, reporting, and reconciliation.
+- **Patient care impact:** High; delayed or fragmented oncology therapy can undermine coordinated treatment and patient safety.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, technical, and critical
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "gold carding should be the primary mechanism" - Context: Recommendation that timeframe standards alone are insufficient.
+2. "24 hours for urgent requests and 72 hours for routine requests" - Context: Proposed standardized PA response timeframes.
+3. "prohibit site-of-care restrictions for drug administration" - Context: Request to protect federally covered oncology patients.
+4. "claims resolution delays exceeding one year" - Context: Evidence of payer claims adjudication failures.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment proposes specific PA decision and reconciliation timelines.
+- [x] **COST-RESOURCES** - It cites millions of dollars in delayed or unpaid claims and administrative appeal burden.
+- [x] **PROVIDER-BURDEN** - The comment centers on prior authorization, appeal, inventory, and claims burdens for oncology providers.
+- [x] **PATIENT-ACCESS** - Timely access to oncology drugs and specialized care is the main patient-care concern.
+- [x] **TECHNICAL-FEASIBILITY** - The comment calls out antiquated payer systems and the need for modernized processing.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - It asks for metrics segmented by medical benefit versus prescription drug benefit.
+- [x] **TRANSPARENCY** - The comment seeks clear denial reasons and public payer performance data.
+- [x] **EXISTING-WORKFLOWS** - It addresses site-of-care policies, specialty pharmacy, step therapy, biosimilar management, peer-to-peer discussions, and appeals.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes coordinated oncology care across providers, payers, hospitals, and pharmacies.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Kabby Thompson, VP Payor Strategies
+
+Clinical Revenue & Reimbursement
+
+UT MD Anderson Cancer Center
+
+T:  713-745-2264    F:  713-792-4141
+
+P. O. Box 301407, Unit 1652
+
+Houston, TX  77230-1407
+CARING         INTEGRITY         DISCOVERY         SAFETY       STEWARDSHIP
+June 9, 2026
+
+The Honorable Dr. Mehmet Oz
+
+Via:  Electronic Submission
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+RE: CMS-0062-P, Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Dear Administrator Oz:
+
+On behalf of the University of Texas MD Anderson Cancer Center (UT MD Anderson) in Houston, Texas, we appreciate the opportunity to comment on the Centers for Medicare & Medicaid Services' (CMS) FY 2027 Proposed Changes to Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities. UT MD Anderson is one of the world's most respected centers devoted exclusively to cancer patient care, research, education, and prevention. The institution pioneered a multidisciplinary approach to research-driven care and is at the forefront of innovative treatment options...

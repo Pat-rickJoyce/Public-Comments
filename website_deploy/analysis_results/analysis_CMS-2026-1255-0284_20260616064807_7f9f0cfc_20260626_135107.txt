@@ -1,0 +1,184 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0284_20260616064807_7f9f0cfc
+Commenter: National Patient Advocate Foundation (NPAF)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 13:51:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Patient Advocate Foundation (NPAF), submitted by Rebecca A. Kirch, Executive Vice President, Policy and Programs
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** 30 years of organizational experience in patient advocacy; sister organization Patient Advocate Foundation (PAF) served 3.4 million people in 2025, distributed $259 million in financial support, directly assisted 186,000+ patients across 758 diagnoses and 434 rare diseases in 92% of U.S. counties.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+NPAF broadly supports the proposed rule's drug PA provisions, framing all major components through the lens of financial hardship for patients with complex and chronic conditions. The organization supports shorter PA decision timeframes, PA APIs for drugs, specific denial reasons, API usage metrics, broad payer scope, and FHIR-based HIPAA standardization. NPAF recommends that step therapy history be transferred across payers and that API certification include outcome-based patient financial health metrics.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-TIMEFRAMES-DRUGS, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, API-ENDPOINT-REPORTING, API-USAGE-METRICS, FF-SHOP-REQUIREMENTS, HIPAA-PA-STANDARDS
+- **Regulatory citations mentioned:** None cited explicitly
+- **Standards referenced:** FHIR (generally), Payer-to-Payer API
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Drug PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Delays cause missed work, worsening health, avoidable ER visits, and unaffordable out-of-pocket costs for low-income patients. Cross-program alignment removes the burden of navigating fragmented timelines from the least-resourced patients.
+- **Specific request:** Finalize the proposed timeframes; integrate Needs Navigation services to help patients navigate the system.
+
+**Topic 2: PA API for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Patients—especially those with low incomes—should not learn of medication inaccessibility at the pharmacy; electronic PA reduces administrative friction that disproportionately harms low-income patients and their clinicians.
+- **Specific request:** Finalize PA API extension; integrate Needs Navigation alongside electronic PA tools.
+
+**Topic 3: Specific Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Vague denials prevent timely error correction and effective appeals, causing low-income patients to forgo treatment, incur debt, or switch to less appropriate therapies.
+- **Specific request:** Finalize requirement for specific, actionable denial rationales accessible through all interoperability APIs.
+
+**Topic 4: API Endpoint Reporting and Usage Metrics**
+- **Provision ID:** API-ENDPOINT-REPORTING, API-USAGE-METRICS
+- **Position:** Support
+- **Rationale:** Accountability is essential; plans could appear compliant while maintaining workflows that delay treatment and shift hidden costs to patients. Reporting enables identification of plans imposing disproportionate burdens.
+- **Specific request:** Maintain robust reporting requirements to enable external oversight.
+
+**Topic 5: Scope of Impacted Payers (including FF-SHOP)**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** Financial hardship is not confined to one coverage type; patients should not lose protections due to income or eligibility changes. Coverage transitions are peak moments of vulnerability.
+- **Specific request:** Maintain broad payer scope; expressed concern about Medicaid spending cuts and new work requirements harming transition-period patients.
+
+**Topic 6: FHIR as HIPAA Standard for PA Transactions**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support
+- **Rationale:** Administrative complexity translates to delayed care, extra appointments, lost wages, and worsening illness for financially vulnerable patients. Standardization helps safety-net and rural providers serve low-income patients equitably.
+- **Specific request:** Finalize FHIR-based standardization; ensure under-resourced providers are not left behind.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S20:** NPAF supports the proposed 24-hour expedited and standard drug PA timeframes, emphasizing the financial protection value of faster decisions for low-income patients.
+- **S43:** Supports cross-program alignment of PA timeframes, noting that fragmented timelines burden patients with the fewest resources.
+- **S12/S15:** Supports extending PA API to medical and pharmacy benefit drugs; early coverage visibility reduces cash-pay episodes and treatment abandonment.
+- **S16:** Supports requiring specific denial reasons; vague notices disproportionately harm low-income patients unable to navigate complex appeals.
+- **S23/S24:** Supports API endpoint reporting as an accountability mechanism.
+- **S29/S30/S34/S35:** Supports API usage metrics collection and reporting; recommends metrics include patient-level financial outcome indicators.
+- **S40/S41/S42:** Supports extending requirements to FF-SHOP; cross-program consistency protects patients during coverage transitions.
+- **S44/S45:** Supports FHIR as HIPAA standard for PA transactions; standardization reduces inequities in interoperability benefits.
+- **S54:** Recommends API testing/certification explicitly assess whether patients experience fewer cash-pay episodes, abandoned prescriptions, or debt-generating care.
+- **S66-S82 (Step therapy RFI):** Recommends CMS require plans to honor completed step-therapy steps across payers via Payer-to-Payer API, and track cumulative out-of-pocket costs, with special attention to Medicaid, CHIP, and low-income MA/QHP populations.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize shorter, cross-program aligned drug PA decision timeframes.
+2. Finalize extension of PA API and interoperability requirements to drugs (medical and pharmacy benefit).
+3. Finalize requirement for specific, actionable denial reasons accessible through all interoperability pathways.
+4. Maintain robust API endpoint and usage metrics reporting to enable external accountability.
+5. Apply interoperability protections across all impacted payer types, including FF-SHOP.
+6. Finalize FHIR-based HIPAA standardization for PA transactions.
+7. Require plans to honor completed step-therapy steps when patients switch payers (using Payer-to-Payer API).
+8. Track cumulative out-of-pocket costs and delays associated with step-therapy sequences, especially for Medicaid, CHIP, and low-income MA/QHP populations.
+9. Require API testing/certification to assess patient-level financial outcomes (fewer cash-pay episodes, abandoned prescriptions, debt-generating care).
+10. Integrate Needs Navigation models across Medicare programs to address financial hardship in real time.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Financial hardship cascades from PA delays; opaque denial processes; fragmented timelines disproportionately harming low-income patients; upcoming Medicaid spending cuts and work requirements threaten coverage continuity.
+- **Potential negative impacts cited:** Treatment abandonment, medical debt, avoidable emergency care, worsening illness, lost wages when PA delays occur.
+- **Implementation barriers mentioned:** Under-resourced providers and safety-net settings struggling with fragmented, proprietary workflows; risk that plans pass technical compliance while patients still face hardship.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 2024 Gallup poll: 35% of Americans unable to access quality, affordable healthcare (4 points higher than 2023, highest since 2021). 2025 PAF Patient Insight Institute survey (n=2,510): 82% experienced financial difficulties from medical costs; 89% said Needs Navigation should be available for everyone; 95% valued it as vital. PAF 2025: reached 3.4 million people, distributed $259 million, directly assisted 186,000+ patients across 758 diagnoses, 434 rare diseases, 92% of U.S. counties.
+- **Studies or research referenced:** PAF Patient Insight Institute national survey (2025); Gallup poll (2024).
+- **Examples provided:** Patients arriving at pharmacy to find medication inaccessible; patients unable to afford cash prices while awaiting PA resolution.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Low-income patients and caregivers; Medicaid, CHIP, MA, and QHP enrollees; safety-net providers; community clinicians; Needs Navigation professionals.
+- **Economic implications:** Faster PA and clearer denials reduce medical debt, avoidable ER use, treatment abandonment, and cascading financial harm for low-income populations.
+- **Technical feasibility:** Not directly assessed; supports proposed measures with emphasis on equity in implementation.
+- **Patient care impact:** Significant—delays in drug PA cause missed work, worsening health, avoidable emergency care, and financial destabilization.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Collaborative, patient-centered, advocacy-focused
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "For patients living with financial hardship, even brief delays in medication access can trigger missed work, worsening health, avoidable emergency care, and out-of-pocket spending they cannot absorb; faster decisions are therefore not only an access protection but a financial protection." - Context: Supporting shorter drug PA decision timeframes.
+
+2. "Patients should not learn that a medication is effectively inaccessible only after arriving at the pharmacy, especially when they do not have the savings, credit, transportation flexibility, or paid leave needed to absorb repeated delays and coverage surprises." - Context: Supporting PA API extension to drugs.
+
+3. "Accountability is essential, because interoperability requirements will not meaningfully protect patients if plans can appear compliant on paper while maintaining workflows that continue to delay treatment and shift hidden costs onto patients." - Context: Supporting API endpoint and usage metrics reporting.
+
+4. "Administrative complexity is not a neutral systems issue; for patients with financial hardship, it often translates directly into delayed care, extra appointments, unpaid time away from work, transportation expenses, and worsening illness that becomes more expensive to treat." - Context: Supporting FHIR as HIPAA standard for PA transactions.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports cross-program alignment of PA decision timeframes to protect patients during coverage transitions.
+- [x] **COST-RESOURCES** - Primary frame: financial hardship cascades from PA delays; lower-income patients cannot absorb cash costs during delays.
+- [x] **HEALTH-EQUITY** - Central theme throughout; all provisions analyzed through equity lens for low-income, Medicaid-heavy, rural, and community-based populations.
+- [x] **PATIENT-ACCESS** - PA delays causing treatment abandonment, prescription abandonment, and avoidable ER use for financially vulnerable patients.
+- [x] **TRANSPARENCY** - Supports specific denial reasons and PA data in APIs as essential transparency protections for low-income patients.
+- [x] **EXISTING-WORKFLOWS** - Criticizes fragmented, proprietary workflows that disadvantage under-resourced safety-net providers and their patients.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends step-therapy data transfer via Payer-to-Payer API across coverage transitions.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 10, 2026
+
+
+Centers for Medicare and Medicaid Services
+7500 Security Blvd
+Baltimore, MD 21244
+
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified
+Health Plans on the Federally-Facilitated Exchanges
+
+Submitted electronically via www.regulations.gov
+National Patient Advocate Foundation (NPAF) appreciates the opportunity to submit comments
+on this proposed rule.
+
+Background
+NPAF prioritizes policies responsive to unmet financial needs articulated by patients and
+caregivers coping with complex and chronic conditions. For most of them, financial distress is a
+common consequence of serious illness. This is true even for individuals with health insurance.
+Costs of medical and other care escalate quickly and often overwhelm even the best planned
+household budgets, hurting individuals' economies, health, and quality of life.  Patients and
+family caregivers in our vast national network consistently tell us that preserving financial
+stability alongside medical and mental health must be considered as integral aspects of high-
+quality healthcare...

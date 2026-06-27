@@ -1,0 +1,147 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0301_20260626134320_93c29ffa
+Commenter: Safe Step Ad Hoc Coalition and 116 undersigned organizations
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:03:27
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Safe Step Ad Hoc Coalition and 116 undersigned organizations.
+- **Stakeholder type:** Advocacy Group; Professional Association; Healthcare Provider coalition.
+- **Credentials or expertise mentioned:** The coalition describes itself as a broad alliance of patient advocacy organizations, medical professional societies, and provider groups representing millions of patients with life-threatening, complex, and chronic conditions and the physicians who care for them.
+
+## 2. EXECUTIVE SUMMARY
+
+The coalition responds primarily to CMS's Step Therapy RFI and urges CMS to pair technology-enabled transparency with substantive patient protections. It recommends additional rulemaking requiring standardized, timely step therapy exception processes, recognition of prior payer determinations, prohibition on repeat step therapy after plan changes, payer transparency on clinical rationales, and technology platforms that reduce burden without automating harmful repeat authorization requirements.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFIs; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; PA-DRUG-PHARMACY; PA-DRUG-MEDICAL.
+- **Regulatory citations mentioned:** No CFR citations. The comment references the proposed rule's RFI on step therapy and the Safe Step Act (S. 2903/H.R. 5509).
+- **Standards referenced:** Technology platform for step therapy exceptions; interoperability and electronic data exchange generally; no specific FHIR IG or NCPDP standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Step Therapy Needs Substantive Reform, Not Only Technology**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify.
+- **Rationale:** Step therapy can delay physician-prescribed care and may increase medical spending even if pharmacy benefit spending appears lower. Interoperability can improve transparency but cannot by itself prevent clinical harm.
+- **Specific request:** CMS should not treat technology as sufficient reform; it should create enforceable patient protections for step therapy.
+
+**Topic 2: Required Step Therapy Exceptions Process**
+- **Provision ID:** GENERAL/RFIs; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify.
+- **Rationale:** PBMs and insurers have little incentive to preemptively exempt patients from step therapy, and step protocols can override individualized treatment plans.
+- **Specific request:** Conduct additional rulemaking requiring all health insurance plans under CMS jurisdiction to offer a medically reasonable and expedited exceptions process, with 24-hour responses for emergent requests and 72-hour responses for normal requests.
+
+**Topic 3: Exception Criteria**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify.
+- **Rationale:** Certain clinical circumstances make step therapy inappropriate, harmful, or duplicative.
+- **Specific request:** Require exceptions when a patient already tried or is expected to fail the preferred drug, delayed treatment risks irreversible consequences, the preferred drug is contraindicated or likely harmful, the required drug impairs work/school/daily activities, or the patient is stable on current medication.
+
+**Topic 4: Recognition of Prior Payer Determinations**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify.
+- **Rationale:** Requiring patients to repeat step therapy, restart PA, or undergo nonmedical switching solely because of coverage transitions harms continuity and increases utilization and costs.
+- **Specific request:** Require new payers to apply prior payer determinations that a patient satisfied step therapy, grant immediate access to the prescribed medication, and prohibit repeating completed step requirements regardless of payer.
+
+**Topic 5: Standardized Exceptions Across Payers**
+- **Provision ID:** GENERAL/RFIs; PA-DENIAL-REASONS
+- **Position:** Modify.
+- **Rationale:** Variation across payers makes exceptions difficult and burdensome for patients and providers.
+- **Specific request:** Use a single standard form, consistent instructions, uniform required information, common criteria, expedited timelines, transparent protocol rationales, and denials that include clinical rationale, covered alternatives, and appeal rights.
+
+**Topic 6: Technology Platform for Step Therapy Exceptions**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Support with modifications.
+- **Rationale:** Technology can standardize forms, documentation, and criteria, but should support continuity and reduce burden rather than automate repeat authorization demands.
+- **Specific request:** Create a technology platform for standardized step therapy exceptions across payers while avoiding automated repetition of authorization requirements.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** The coalition asks that step therapy exception denials include the payer's clinical rationale, the alternative treatment covered by the plan, and a description of appeal rights.
+- **S20/S43:** The coalition recommends decision timelines of 24 hours for emergent step therapy exception requests and 72 hours for normal requests.
+- **S66-S82 (Step Therapy RFI):** The entire comment responds to the Step Therapy RFI. It recommends standardized exceptions, recognition of prior payer determinations, prohibition on repeat steps, payer disclosure of clinical rationales, and technology platforms that support standardized exception workflows.
+
+## 6. RECOMMENDATIONS
+
+1. Issue additional rulemaking requiring all CMS-jurisdiction health plans to offer clear, medically reasonable, expedient step therapy exception processes.
+2. Require 24-hour responses for emergent exception requests and 72-hour responses for normal requests.
+3. Require exceptions when prior preferred drugs failed or are expected to be ineffective, delayed treatment risks irreversible harm, required drugs are harmful or contraindicated, required drugs impair work/school/daily activities, or the patient is stable on current therapy.
+4. Require new payers to recognize prior payer determinations that the patient satisfied step therapy.
+5. Prohibit payers from forcing patients to repeat completed step therapy requirements after plan changes.
+6. Use the Safe Step Act as a model for standardized exceptions, continuity protections, and physician-directed override standards.
+7. Standardize exception forms, instructions, supporting documentation, criteria, and expedited timelines across payers.
+8. Require plans to disclose clinical rationales and supporting evidence for step therapy protocols.
+9. Require denial notices to provide clinical rationale, covered alternatives, and appeal rights.
+10. Create technology platforms that standardize and streamline exception requests without automating repeat authorization requirements.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Harmful step therapy delays, repeat failed steps after payer transitions, payer incentives to steer patients to ineffective medication, inconsistent exceptions processes, and overreliance on technology as a substitute for patient protections.
+- **Potential negative impacts cited:** Lost body function, reduced medication adherence, diminished patient trust, death, downstream harm, higher healthcare utilization, increased costs, nonmedical switching, and delayed access to physician-prescribed treatments.
+- **Implementation barriers mentioned:** PBM and insurer incentives, variable payer protocols, lack of standardized forms and criteria, lack of transparent clinical rationale, and coverage transitions that do not preserve prior determinations.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** The coalition includes 116 undersigned organizations and states it represents millions of patients and physicians.
+- **Studies or research referenced:** Studies on Medicaid step therapy for atypical antipsychotics, SSRI generic step therapy economics, preferred drug lists and Medicaid utilization, antidepressant step therapy effects, delay and breast cancer survival, inflammatory bowel disease PA delays, variation in prescription drug step therapy protocols, and an American College of Physicians position paper on step therapy and nonmedical switching.
+- **Examples provided:** Patients switching payers may be required to restart PA, repeat step therapy, or change stable medications for nonmedical reasons.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with life-threatening, complex, and chronic conditions; physicians; patient advocacy organizations; medical societies; provider groups; PBMs; insurers; MA, Medicaid, CHIP, and QHP plans under CMS jurisdiction.
+- **Economic implications:** The coalition argues apparent pharmacy benefit savings may be offset by increased medical benefit spending, higher healthcare utilization, and downstream costs from delayed or inappropriate care.
+- **Technical feasibility:** The coalition supports technology-enabled standardization but warns that interoperability and electronic data exchange alone are insufficient unless paired with consistent policy requirements.
+- **Patient care impact:** Standardized exceptions and continuity protections would reduce treatment disruption, prevent repeat failures, preserve stable therapy, and support physician-directed care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned; supportive of CMS inquiry but seeking stronger reforms.
+- **Tone:** Urgent, policy-focused, evidence-based, and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "we caution against assuming this is sufficient to reform this practice" - Context: Warning that technology alone will not solve step therapy harms.
+2. "Treatment selection for many complex, chronic, or life-threatening conditions is becoming increasingly individualized" - Context: Rationale for exceptions to rigid insurer-preferred sequencing.
+3. "Patients currently receiving treatment should not be required to repeat step therapy protocols" - Context: Core continuity recommendation for payer transitions.
+4. "Technology solutions should support continuity of care and reduce administrative burden, not automate repeat authorization requirements" - Context: Guidance for CMS technology design.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The coalition asks for 24-hour emergent and 72-hour normal exception decision timeframes.
+- [x] **COST-RESOURCES** - It argues step therapy savings may be outweighed by medical spending and higher utilization.
+- [x] **PROVIDER-BURDEN** - The comment seeks standardized forms, documentation, and criteria to reduce provider burden.
+- [x] **TECHNICAL-FEASIBILITY** - It supports technology platforms but warns against relying solely on electronic exchange.
+- [x] **PATIENT-ACCESS** - The core concern is timely access to physician-prescribed therapy.
+- [x] **STAKEHOLDER-COORDINATION** - The comment requests standardization across payers, PBMs, providers, and CMS-regulated programs.
+- [x] **TRANSPARENCY** - It seeks clinical rationales for protocols and denials plus appeal information.
+- [x] **EXISTING-WORKFLOWS** - It focuses on payer transitions, exception requests, and repeat authorization workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 11, 2026
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Blvd
+Baltimore, MD 21244
+
+Re: Request for Information on Step Therapy in Proposed Rule for Interoperability Standards and Prior Authorization for Drugs
+
+Submitted via regulations.gov
+
+Dear Administrator Oz,
+
+On behalf of the Safe Step Ad Hoc Coalition and the 116 undersigned organizations, we implore you to ensure that patients have appropriate and timely access to the therapies they need to properly manage their health care. Below we outline our recommendations on needed reforms to the insurance practice known as step therapy, or fail-first, in response to the Centers for Medicare and Medicaid Services (CMS) request for information on step therapy.
+
+The Safe Step Ad Hoc Coalition is a broad alliance of patient advocacy organizations, medical professional societies, and provider groups whose goal is to reform the insurance practice known as step therapy...

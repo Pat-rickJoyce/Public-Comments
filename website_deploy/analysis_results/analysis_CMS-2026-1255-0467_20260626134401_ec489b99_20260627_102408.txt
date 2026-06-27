@@ -1,0 +1,154 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0467_20260626134401_ec489b99
+Commenter: AARP
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:24:08
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Megan O'Reilly, Vice President, Health and Family Government Affairs, AARP.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** AARP states that it advocates on behalf of 125 million Americans age 50 and older.
+
+## 2. EXECUTIVE SUMMARY
+
+AARP supports CMS's proposed prior authorization reforms because they should help consumers receive needed medications with fewer delays. It asks CMS to strengthen implementation by making ePA usable in practice, clarifying medical/pharmacy routing, adding AI guardrails, protecting emergency access and continuity of therapy, requiring patient-facing denial explanations, and making public PA metrics standardized and consumer-friendly.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P is referenced; no CFR sections are cited.
+- **Standards referenced:** Electronic prior authorization, APIs, implementation guides, digital tools, patient portals, and AI-supported coverage determinations are discussed generally. No specific FHIR IG, NCPDP standard, or HL7 standard is named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Apply PA reforms across medical and pharmacy benefit pathways**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** Consumers benefit when both clinician-administered and pharmacy-dispensed drugs use modern electronic workflows that reduce phone, fax, and repeat manual submissions.
+- **Specific request:** Finalize reforms across both pathways and ensure ePA is reliable, usable for clinicians, and not merely available on paper.
+
+**Topic 2: Delegated entities, right-path routing, testing, and AI guardrails**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; GENERAL
+- **Position:** Clarify / Modify
+- **Rationale:** Plans often rely on PBMs or vendors, and providers may not know whether to use the medical-benefit or pharmacy-benefit route. Automated tools could speed administration but also risk inappropriate denials.
+- **Specific request:** Keep plans accountable for delegated entities, make routing obvious at prescribing, promote strong testing and monitoring, and require AI-supported determinations to include clinically qualified human oversight, transparency, timely explanations, and meaningful appeal rights.
+
+**Topic 3: Faster drug PA timelines and emergency access**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** Drug PA timelines are patient protections, not just administrative metrics. Delays can harm patients with acute conditions, worsening chronic disease, or complex medication regimens.
+- **Specific request:** Finalize 72-hour standard and 24-hour expedited drug PA timelines for QHP issuers, honor clinician-determined expedited requests, cover temporary 3-to-5-day emergency fills when immediate medication access is needed, limit stop-the-clock documentation practices, define when the clock starts, and encourage continuity-of-therapy protections.
+
+**Topic 4: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Patients and clinicians cannot respond effectively to vague denials. Clear explanations reduce delays, unnecessary appeals, and confusion.
+- **Specific request:** Require plain-language explanations for patients and caregivers, make denial reasons specific and actionable, include a step-by-step appeal roadmap, identify missing documentation or clinical information, name step-therapy alternatives, and make denial information available through apps and patient portals.
+
+**Topic 5: Public reporting of drug PA metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Transparency can reveal outliers, support oversight, and help consumers compare plan performance, but only if data are standardized and understandable.
+- **Specific request:** Standardize definitions, stratify metrics by disease or drug class where possible, include both percentages and counts, make information easy to find and interpret, consider centralized comparison, and use the data for oversight and improvement.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports extending electronic PA reforms to drugs administered in clinical settings under the medical benefit.
+- **S14:** Supports pharmacy-benefit ePA reforms that help consumers receive medications at the pharmacy counter with fewer delays.
+- **S15:** Requests clearer right-path routing so providers know whether to submit through medical-benefit or pharmacy-benefit workflows.
+- **S16:** Supports specific reasons for drug PA denials and asks CMS to make them actionable for patients and providers.
+- **S17:** Requests denial information that identifies missing documentation, clinical criteria, appeal steps, and covered step-therapy alternatives, supporting more structured denial content.
+- **S20:** Supports 72-hour standard and 24-hour expedited drug PA decision timelines and asks CMS to make expedited review patient-centered.
+- **S29-S35:** Supports public reporting of drug PA metrics and recommends standardized definitions, counts plus percentages, disease/drug-class stratification, consumer-friendly presentation, centralized comparison, and oversight use.
+- **S31:** Addresses QHP issuer drug PA timelines and emergency access protections for FFE plan enrollees.
+- **S37:** Identifies implementation concerns around real-world ePA usability, delegated entities, routing, testing, and AI oversight.
+- **S66-S82:** Raises general implementation issues including AI-based decision making, emergency fills, continuity of therapy, and digital patient access to denial status.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize drug PA reforms across both medical-benefit and pharmacy-benefit pathways.
+2. Clarify that ePA availability must be meaningful and usable in real clinician workflows.
+3. Hold plans accountable for delegated entities such as PBMs and utilization management vendors.
+4. Make medical/pharmacy benefit routing obvious at the point of prescribing.
+5. Promote strong testing and monitoring of electronic PA implementation.
+6. Add guardrails for AI-supported PA decisions, including human clinical oversight and appeal rights.
+7. Finalize 72-hour standard and 24-hour expedited drug PA decision timelines for QHP issuers.
+8. Require temporary 3-to-5-day emergency fills when immediate medication access is needed.
+9. Limit stop-the-clock documentation practices and define when the review clock starts.
+10. Encourage continuity-of-therapy protections for stable patients.
+11. Require plain-language denial explanations for patients as well as providers.
+12. Require denial notices to include appeal steps, needed documentation, clinical basis, and covered alternatives for step therapy.
+13. Make denial status and reasons available through authorized apps and patient portals.
+14. Standardize public drug PA metrics, include counts and percentages, stratify by disease or drug class where possible, and make reporting consumer-friendly.
+15. Use public PA data for oversight and targeted improvement, not merely compliance reporting.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Improper denials, delays, unusable ePA, unclear benefit routing, delegated entity compliance, AI-based denial risk, stop-the-clock delays, lack of emergency medication access, vague denials, and inaccessible public metrics.
+- **Potential negative impacts cited:** Delayed medication access, deterioration of acute or chronic conditions, preventable suffering, caregiver stress, disruption for patients stable on therapy, and inability to appeal effectively.
+- **Implementation barriers mentioned:** Phone/fax/manual submissions, non-obvious routing between pathways, delegated PBM/vendor roles, insufficient testing, plan documentation requests, unclear timing starts, and complex reporting tables.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AARP states it advocates for 125 million Americans age 50 and older.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Immediate medication needs for a rescue inhaler, insulin, or psychiatric medication; step therapy denial of a brand-name drug requiring a cheaper alternative; consumers comparing complex plan metrics.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, family caregivers, older adults, providers, QHP issuers, payers, PBMs, delegated vendors, app developers, and CMS oversight staff.
+- **Economic implications:** The comment does not quantify costs but implies consumer harm from delays, administrative friction, and emergency medication access gaps.
+- **Technical feasibility:** Feasible if ePA is tested, usable, routed correctly, supported by delegated entities, and made transparent through digital tools.
+- **Patient care impact:** High. The comment frames drug PA delays as immediate risks for medication access, acute conditions, chronic disease management, psychiatric medications, insulin, and continuity of therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive.
+- **Tone:** Professional, consumer-focused, and constructive.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Fewer delays" - Context: Overall expected consumer benefit of the rule.
+2. "On paper" - Context: Concern that ePA must be usable, not merely nominally available.
+3. "Emergency fill" - Context: Recommended temporary medication access during PA review.
+4. "Transparency is essential" - Context: Support for public PA metrics.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment focuses on 72-hour, 24-hour, emergency-fill, and stop-the-clock timing protections.
+- [ ] **COST-RESOURCES** - Not directly addressed, aside from consumer burden and administrative hurdles.
+- [x] **PROVIDER-BURDEN** - AARP supports reducing phone, fax, and repeat manual submissions for clinicians.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - The comment asks for testing, monitoring, usable ePA, and digital access.
+- [x] **STANDARDS-MATURITY** - AARP does not name specific standards but emphasizes that ePA and implementation guides must work in practice.
+- [x] **PATIENT-ACCESS** - The central theme is timely consumer access to needed medications.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - It highlights coordination among plans, PBMs, vendors, providers, patients, and CMS.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - AARP asks for clear routing across both pathways.
+- [x] **TRANSPARENCY** - Denial explanations, digital access, and public metrics are major recommendations.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The comment emphasizes real clinical workflows and pharmacy counter access.
+- [x] **VENDOR-ECOSYSTEM** - Delegated entities, PBMs, vendors, apps, and portals are part of the implementation concerns.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+200 Independence Avenue, SW
+Washington, DC 20201
+
+RE: Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P)
+
+Dear Dr. Oz:
+AARP, which advocates on behalf of 125 million Americans age 50 and older, appreciates the opportunity to comment on CMS's proposed rule regarding Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P). Too often, use of prior authorization results in improper coverage denials or delays in access to needed care. We strongly support efforts to make sure patients can get the care they need quickly and without unnecessary hurdles. Overall, we believe this proposed rule will help patients get the medications they need with fewer delays.
+AARP has long supported strengthening guardrails and oversight to eliminate the inappropriate use of prior authorization. Any use of prior authorization should be evidence-based, targeted, and fair, because when misused or delayed, it can disrupt urgently needed care...

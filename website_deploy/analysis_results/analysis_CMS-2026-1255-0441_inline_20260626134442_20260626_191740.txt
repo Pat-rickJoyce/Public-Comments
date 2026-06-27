@@ -1,0 +1,107 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0441
+Commenter: Michelle DeAngelo, The Cholangiocarcinoma Foundation
+Source: Inline Comment
+Analysis Date: 2026-06-26 19:17:40
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Michelle DeAngelo, The Cholangiocarcinoma Foundation
+- **Stakeholder type:** Advocacy Group; Healthcare Provider/Professional
+- **Credentials or expertise mentioned:** Patient advocate; healthcare professional with 19 years of experience; daughter of a person who died from cholangiocarcinoma in 2003; representative of The Cholangiocarcinoma Foundation.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter urges CMS to strengthen prior authorization reforms so medically necessary laboratory and biomarker testing is not delayed, denied, or invalidated by administrative deadlines. The comment focuses on cancer care, especially cholangiocarcinoma and other serious time-sensitive conditions, and argues that authorization policies should reflect current evidence, real-world lab workflows, and expedited decision-making needs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; indirectly relevant to GENERAL/RFIs S66-S82 concerning broader prior authorization domains such as laboratory testing, step therapy, and care continuity.
+- **Regulatory citations mentioned:** 91 FR 19890; Document No. 2026-07205; Section III.E of CMS-0062-P.
+- **Standards referenced:** Not addressed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Timely Access to Cancer Laboratory and Biomarker Testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter states that biomarker and specialty laboratory testing inform treatment selection, treatment modification, disease monitoring, and clinical trial eligibility. Delays can cause patients to lose critical treatment time.
+- **Specific request:** CMS should strengthen prior authorization reforms to prevent delays and denials of medically necessary laboratory and biomarker testing for patients with serious, time-sensitive conditions.
+
+**Topic 2: Outdated Criteria and Step Therapy Restrictions**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** The commenter argues that coverage and authorization policies should not rely on assumptions about age or family history that may no longer match current evidence, especially as rare cancers are increasingly diagnosed in younger adults.
+- **Specific request:** CMS should clarify that cancer patients must have timely access to medically necessary testing without delays, step therapy requirements, or denials based on outdated eligibility criteria.
+
+**Topic 3: Specimen Collection Deadlines and Laboratory Workflows**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Prior authorization policies tied to specimen collection dates can cause valid specimens to be delayed, rejected, or discarded even when patients, clinicians, and laboratories acted appropriately.
+- **Specific request:** CMS should require review standards that reflect real-world laboratory workflows and should prevent insurer processing delays or clerical deadlines from overriding medical necessity.
+
+**Topic 4: Patient Financial and Equity Impacts**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Repeat testing and delays can create out-of-network charges, lost wages, travel expenses, and childcare costs, with greater impact on rural, low-income, medically underserved, immunocompromised, and severely ill patients.
+- **Specific request:** CMS should adopt safeguards that protect patients from avoidable repeat testing and preserve timely access to cancer care.
+
+## 5. SOLICITATION RESPONSES
+
+No specific numbered solicitation is explicitly answered. The comment is most relevant to GENERAL/RFI solicitations S66-S82, particularly those concerning broader prior authorization use cases, step therapy, laboratory/DME-related access, and real-world workflow barriers.
+
+## 6. RECOMMENDATIONS
+
+1. Strengthen prior authorization reforms to prevent delays and denials of medically necessary laboratory and biomarker testing.
+2. Clarify that cancer patients must receive timely access to medically necessary testing without step therapy restrictions or outdated eligibility criteria.
+3. Prohibit administrative timing rules that cause valid specimens to be rejected, discarded, or repeated when clinical parties acted appropriately.
+4. Require expedited review standards for serious, time-sensitive conditions.
+5. Align prior authorization requirements with real-world laboratory workflows and documented medical necessity.
+6. Protect patients from repeat blood draws, missed treatment opportunities, and avoidable financial burdens.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed or denied access to cancer laboratory and biomarker testing; outdated eligibility criteria; specimen rejection tied to authorization timing; administrative deadlines overriding medical need.
+- **Potential negative impacts cited:** Delayed treatment, delayed therapy changes, missed clinical trial eligibility, discarded specimens, repeat blood draws, out-of-network charges, lost wages, travel costs, childcare costs, and avoidable clinical risk.
+- **Implementation barriers mentioned:** Insurer processing delays; prior authorization rules tied to specimen collection date; rigid administrative timelines that do not match lab workflows.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Recent real-world research found biomarker testing rates among patients with advanced cancer remained only 35% despite guideline recommendations.
+- **Studies or research referenced:** The commenter refers generally to recent real-world research on biomarker testing rates but does not provide a specific citation.
+- **Examples provided:** Cholangiocarcinoma; rare cancers increasingly diagnosed in younger adults; valid specimens discarded due to authorization timing; repeat blood draws; financial burdens from repeat testing.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, rare cancer patients, rural and low-income patients, medically underserved patients, immunocompromised and severely ill patients, clinicians, laboratories, and health plans.
+- **Economic implications:** The comment identifies patient-level financial burdens including out-of-network charges, lost wages, travel costs, and childcare expenses.
+- **Technical feasibility:** Not addressed in technology terms; the commenter focuses on policy and workflow feasibility.
+- **Patient care impact:** High. The comment links prior authorization delays to treatment delays, missed clinical trial opportunities, repeat testing, and compromised cancer care planning.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional and personal
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "I urge CMS to strengthen prior authorization reforms to prevent delays and denials of medically necessary laboratory and biomarker testing." - Context: The commenter's central policy request.
+2. "When testing is postponed, patients can lose critical time to begin treatment, adjust therapy, or pursue potentially life-saving options." - Context: Explanation of the clinical stakes in cancer care.
+3. "Clerical deadlines should not override documented medical necessity." - Context: Objection to specimen timing and administrative rules.
+4. "These burdens fall especially hard on rural, low-income, medically underserved, immunocompromised, and severely ill patients." - Context: Equity impact of repeat testing and administrative delays.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment describes administrative processes that disrupt physician and laboratory workflows and can force repeated testing.
+- [x] **HEALTH-EQUITY** - The commenter specifically identifies disproportionate burdens on rural, low-income, medically underserved, immunocompromised, and severely ill patients.
+- [x] **PATIENT-ACCESS** - The central concern is timely access to medically necessary laboratory and biomarker testing.
+- [x] **TECHNICAL-FEASIBILITY** - While not framed as technical interoperability, the comment raises feasibility of prior authorization rules against real-world lab workflows.
+- [x] **EXISTING-WORKFLOWS** - The comment objects to prior authorization rules tied to specimen collection dates and insurer processing delays.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Date: June 11, 2026<br/><br/>To: Centers for Medicare &amp; Medicaid Services<br/>Re: CMS-0062-P &mdash; Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs<br/>Reference: 91 FR 19890 (Apr. 14, 2026); Document No. 2026-07205<br/><br/>Subject: Comment on Prior Authorization Requirements and Access to Medically Necessary Laboratory Testing<br/><br/>My name is Michelle DeAngelo, and I submit this comment as a patient advocate, healthcare professional, and representative of The Cholangiocarcinoma Foundation. I urge CMS to strengthen prior authorization reforms to prevent delays and denials of medically necessary laboratory and biomarker testing and to better protect patients with serious, time-sensitive conditions.<br/><br/>As the daughter of a woman who died from cholangiocarcinoma in 2003 and a healthcare professional with 19 years of experience, I have seen the consequences of delayed testing firsthand. When testing is postponed, patients can lose critical time to begin treatment, adjust therapy, or pursue potentially life-saving options...

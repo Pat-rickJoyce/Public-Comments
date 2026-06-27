@@ -1,0 +1,248 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0468_20260626134249_9cc9292e
+Commenter: b.well Connected Health
+Source: PDF Attachment
+Analysis Date: 20260627_102437
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** b.well Connected Health (Kristen Valdes, CEO/Founder; Tara R. Holiday, VP Legal)
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Operates the largest connected live consumer health data network in the market; holds data on 11 million people (24M encounters, 75M claims, 42M prescriptions); CMS-Aligned Network with live TEFCA integration; CARIN Alliance member; works with hundreds of payers operationally.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+b.well Connected Health strongly supports CMS-0062-P across all major provisions — required FHIR IGs, centralized endpoint directory, FHIR drug PA, FF-SHOP extension, and the HIPAA X12N 278 replacement — and offers five targeted recommendations to maximize patient-visible benefit. Their core ask is to extend the rule's structural gains directly to patients: consumer-facing real-time prescription benefit checks, formulary data in FHIR, PA status in the Patient Access API, and a pathway toward real-world API performance enforcement beyond conformance testing. The submission is coordinated with the CARIN Alliance and RxUtility filings.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** HIPAA-PA-STANDARDS, API-ENDPOINT-REPORTING, PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, FHIR-IG-REQUIRED, FF-SHOP-REQUIREMENTS, API-USAGE-METRICS, ONC-STANDARDS-UPDATE, OPEN-PAYMENTS-CMP, PA-DENIAL-REASONS, STATE-EXTENSION-PROCESS
+- **Regulatory citations mentioned:** 42 CFR 422.119(h); 42 CFR 482.24(d); 45 CFR 156.221-223; 45 CFR 170.215; 45 CFR 170.315; 45 CFR 170.299; 45 CFR 162.1301
+- **Standards referenced:** Da Vinci CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, CDex (current); US Core; CARIN Blue Button 2.2.0; Da Vinci PDex 2.1.0; PDex US Drug Formulary IG; SMART App Launch v2.0.0 → v2.2 (with PKCE); FHIR Subscriptions (R4B/R5 backport); SMART Health Cards/Links; HL7 IPS; Da Vinci HRex/Consent; Da Vinci Member Attribution List IG; Da Vinci Unsolicited Notifications IG; NCPDP SCRIPT, F&B, RTPB; FAST National Directory IG; HL7 SDOH Clinical Care IG; Bulk Data Access; X12 Claim Adjustment Reason Codes; HL7 v3 ActReason; OAuth 2.1; TLS 1.3
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: HIPAA PA Standards — Align Compliance Dates and Add Patient Access**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support / Modify
+- **Rationale:** HIPAA provision is the broadest reach of the rule (full covered-entity universe). Current SMART App Launch v2.0.0 citation predates PKCE; 24/36-month HIPAA windows don't align with Oct 1, 2027 API dates, creating parallel X12/FHIR maintenance burden.
+- **Specific request:** (a) Update SMART App Launch citation to v2.2 with PKCE; (b) align HIPAA compliance windows with October 1, 2027 API dates; (c) include preamble reconciliation guidance on Da Vinci CDex vs. finalized X12N 275 attachment standard; (d) set timeline for HIPAA-covered entities to expose data through Patient Access API.
+
+**Topic 2: Endpoint Discovery — National Directory as Primary Pathway**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** Current payer endpoint publishing is fragmented (developer portals, bilateral agreements); patients cannot reliably connect apps to new plans when changing coverage.
+- **Specific request:** Finalize FAST National Directory IG as primary endpoint-discovery pathway; use bilateral §422.119(h) reporting as transition mechanism; require directory to be FHIR-native, freely available, expose OAuth/SMART metadata, support FHIR Subscriptions, and carry a published SLA.
+
+**Topic 3: Consumer-Facing RTPB — Extend to Patients by October 2027**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify (expand scope)
+- **Rationale:** ~1/3 of approved prescriptions never picked up due to cost surprise at pharmacy counter. CARIN Alliance consumer RTPBC FHIR IG published since 2020; NCPDP Foundation grant in June 2025 harmonizing consumer IG with provider-facing RTPB standard.
+- **Specific request:** Require impacted payers to expose consumer-facing RTPBC endpoint via Patient Access API by October 1, 2027 including patient out-of-pocket costs, formulary tier, PA flag, lower-cost alternatives, manufacturer coupons, and cash prices alongside insurance-priced cost.
+
+**Topic 4: Reference DTR Questionnaires — Accelerate Medical-Benefit Drug PA Convergence**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support / Modify
+- **Rationale:** October 1, 2027 compliance date is achievable, but payer-EHR bilateral negotiation of DTR Questionnaire shapes for each drug category creates fragmentation. Several major biologics exist in both Part B and Part D forms, creating benefit-pathway confusion at prescribing.
+- **Specific request:** CMS commit in Final Rule, in coordination with HL7 and Da Vinci Project, to publish reference DTR Questionnaires for top 20 medical-benefit drug PA categories within 6 months of Final Rule; name DTR explicitly as the medical-benefit parallel to RTPB.
+
+**Topic 5: Real-World API Usability — Signal Longer-Term Direction**
+- **Provision ID:** FHIR-IG-REQUIRED / API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Conformance testing (e.g., HL7 Inferno) validates API presence but not real-world performance. No consistent test methods or pass criteria exist yet across multiple public harnesses.
+- **Specific request:** Acknowledge real-world API usability as goal; commit CMS/ONC to multi-stakeholder process (HL7/Da Vinci/CARIN) over 2 years; encourage voluntary use of existing harnesses now; implement open third-party access with security-based rate limits (no commercial gatekeeping) immediately in final rule.
+
+**Topic 6: FHIR IG Version Specificity**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Without named versions, "required" can mean different things at different payers.
+- **Specific request:** Name specific STU versions in final rule: CARIN BB 2.2.0, Da Vinci PDex 2.1.0, CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, current Bulk Data Access, current CDex; cap concurrent live versions at two; require 12-month overlap before sunset; require payers to publish version metadata.
+
+**Topic 7: Formulary Data Dual Exposure**
+- **Provision ID:** PA-DRUG-PHARMACY / FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Consumer apps and AI assistants shouldn't need to translate between NCPDP and FHIR for the same underlying formulary data.
+- **Specific request:** Require impacted payers to expose formulary data through both NCPDP F&B (per proposal) and FHIR PDex US Drug Formulary IG; require daily refresh for formulary changes affecting cost-share or PA status; require machine-usable formulary data.
+
+**Topic 8: FF-SHOP Requirements**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support / Clarify
+- **Rationale:** Many issuers already operate in both individual and small-group markets with the same FHIR infrastructure.
+- **Specific request:** Explicitly permit FF-SHOP issuers to use existing individual-market FHIR infrastructure; align FF-SHOP compliance date with FF-Exchange compliance date.
+
+**Topic 9: Open Payments CMP**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Support
+- **Rationale:** Supports the "failure to report" definition as a transparency-protective measure.
+- **Specific request:** No modification requested.
+
+**Topic 10: RFI Responses — Event Notifications, Resiliency, API Implementation, Step Therapy, Lab/DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Support / Modify
+- **Rationale:** Detailed operational experience informs specific technical recommendations across RFI topics.
+- **Specific request:** Numerous specific recommendations (see Solicitation Responses and Recommendations sections).
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports requiring IGs; additionally recommends naming specific STU versions in the final rule to prevent "required" meaning different things at different payers.
+- **S2:** Recommends naming specific STU versions: CARIN BB 2.2.0, Da Vinci PDex 2.1.0, CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, current Bulk Data Access and CDex versions.
+- **S3:** Cap concurrent live versions at two; require minimum 12-month overlap before sunset; 90-day advance notice; clarify that voluntary early adoption doesn't require retiring older version before expiration.
+- **S6:** Supports CARIN Blue Button 2.2.0; recommends exposing formulary data through FHIR PDex US Drug Formulary IG in addition to NCPDP F&B.
+- **S9:** Recommends including FHIR Subscriptions framework in recommended set with glide path toward required; build unified notification fabric across hospital- and payer-originated events.
+- **S12:** October 1, 2027 compliance date is achievable for medical-benefit drug PA; convergence accelerated by publishing reference DTR Questionnaires for top 20 drug categories within 6 months of final rule.
+- **S15:** Several major biologics (adalimumab, ustekinumab, tocilizumab) exist in both Part B and Part D forms; prescriber may not know which benefit pathway applies; DTR should be named as medical-benefit parallel to RTPB.
+- **S21:** October 1, 2027 is achievable from operational vantage working with hundreds of payers, with HIPAA compliance dates aligned.
+- **S23:** Recommends TLS 1.3 and OAuth 2.1 with PKCE across all required APIs; no commercial-agreement gatekeeping; security-based rate limits acceptable.
+- **S24:** Define minimum API documentation set: CapabilityStatement URL, supported SearchParameters, conformance test results, sandbox URL, technical contact information.
+- **S25:** Extends recommendation beyond provider-facing RTPB to include consumer-facing RTPBC endpoint via Patient Access API; CARIN consumer IG available since 2020, being harmonized with NCPDP RTPB via NCPDP Foundation grant (June 2025).
+- **S29:** Add quality indicators beyond volume: p95/p99 API latency, error rate by HTTP status family, OAuth authorization success rate, count of unique active third-party app clients; publish in FHIR Measure.
+- **S32:** Recommends adding Da Vinci HRex to recommended set with glide path toward required status.
+- **S33:** Directory should carry machine-readable change log; payers attest to endpoint accuracy on routine cadence with public audit log.
+- **S36:** Cap state extensions at no more than two consecutive years; require quarterly public progress reporting; decouple from HIPAA finalization.
+- **S37:** Recommends community-developed test methods for real-world API usability before mandating enforcement; voluntary harness use in the interim.
+- **S40:** Many issuers already operate in both markets with same FHIR infrastructure; clarify no new vendor relationships required where same vendor already serves individual-market business.
+- **S41:** Align FF-SHOP compliance date with FF-Exchange compliance date.
+- **S44:** Supports replacing X12N 278 with FHIR; update SMART App Launch to v2.2 with PKCE.
+- **S46:** Align HIPAA compliance windows with October 1, 2027 API dates; include preamble guidance on CDex vs. X12N 275 interaction.
+- **S47:** Recommends aligning 24/36-month HIPAA windows with October 1, 2027 API compliance dates.
+- **S50:** Recommends naming specific STU versions of Da Vinci CRD/DTR/PAS in final rule; SMART App Launch update from v2.0.0 to v2.2 needed.
+- **S54:** ONC should finalize voluntary certification criteria for payer API technology; community-developed test methods needed before mandatory enforcement; encourage payers to use certified technology within two years.
+- **S60:** Commit to no shorter than 18 months between rule finalization and expiration of current versions at 45 CFR 170.215; publish crosswalk of breaking changes.
+- **S61:** Standards incorporated by reference at §170.299 should be at free public URLs.
+- **S66-S70 (RFI III.A-E):** Detailed recommendations on event notifications (FHIR Subscriptions + Da Vinci Unsolicited Notifications IG, expanded recipient set, structured content); resiliency (TLS 1.3, OAuth 2.1, Health-ISAC participation, hybrid routing); API implementation (staged: voluntary now, ONC certification medium-term, program participation within 2 years); step therapy (Payer-to-Payer API structured history, 5-year look-back, credit prior determinations); lab/DMEPOS (extend CRD/DTR/PAS pipeline, reference Questionnaires, align timeframes, post-payment recoupment clarity).
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Update SMART App Launch citation from v2.0.0 to v2.2 with PKCE as the security baseline.
+2. Align HIPAA compliance windows (24/36 months) with October 1, 2027 API compliance dates to enable single migration.
+3. Include preamble reconciliation guidance for Da Vinci CDex vs. X12N 275 attachment standard coexistence.
+4. Require covered entities under HIPAA-PA-STANDARDS to expose data through Patient Access API with defined timeline.
+5. Finalize FAST National Directory IG as primary endpoint-discovery pathway; use bilateral §422.119(h) reporting as transition mechanism.
+6. Require consumer-facing RTPBC endpoint via Patient Access API by October 1, 2027, including out-of-pocket costs, formulary tier, PA flag, alternatives, and cash prices.
+7. Require daily formulary refresh; constrained NCPDP coverage restriction value set; RxNorm therapeutic alternatives; access on consistent terms for HIPAA-compliant apps.
+8. Require impacted payers to expose formulary data through FHIR PDex US Drug Formulary IG in addition to NCPDP F&B.
+9. CMS commit in Final Rule to publish reference DTR Questionnaires for top 20 medical-benefit drug PA categories within 6 months of Final Rule.
+10. Name DTR explicitly as medical-benefit PA parallel to RTPB on the same October 1, 2027 timeline.
+11. Acknowledge real-world API usability as goal; commit CMS/ONC to multi-stakeholder process (HL7/Da Vinci/CARIN) over 2 years for test methods.
+12. Implement open third-party API access with security-based rate limits and no commercial-agreement gatekeeping in final rule.
+13. Name specific STU versions of all required IGs in final rule (CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, CARIN BB 2.2.0, PDex 2.1.0, current Bulk Data, CDex).
+14. Cap concurrent live versions of any required standard at two; require 12-month overlap before sunset; require 90-day advance notice.
+15. Explicitly sunset fax/phone PA channels for in-scope pharmacy-benefit drugs no later than 6 months after compliance date.
+16. Define minimum API documentation set: CapabilityStatement URL, SearchParameters, conformance test results, sandbox URL, technical contact.
+17. Add quality API metrics: p95/p99 latency, error rates, OAuth success rate, unique active clients; publish in FHIR Measure.
+18. Cap state Medicaid/CHIP extensions at two consecutive years; require quarterly public progress reporting; decouple from HIPAA finalization.
+19. Bind PA denial reason to coded value set (HL7 v3 ActReason + X12 Claim Adjustment Reason Codes); permit supplementary free text.
+20. Publish SLA-clock-pause guidance for DTR follow-up question loops; clarify clock runs in calendar hours from receipt of sufficient documentation.
+21. Adopt HL7 FHIR Subscriptions Framework and Da Vinci Unsolicited Notifications IG for event notifications; expand recipient set; require structured content.
+22. Require TLS 1.3 and OAuth 2.1 with PKCE across all required APIs; encourage Health-ISAC participation; 72-hour API incident disclosure to CMS.
+23. Require Payer-to-Payer API to transmit structured step-therapy history; require receiving payers to credit prior step-therapy determinations with 5-year look-back default.
+24. Extend FHIR CRD/DTR/PAS pipeline to laboratory tests and DMEPOS; publish reference DTR Questionnaires for high-volume lab and DMEPOS categories.
+25. Include language-access requirements in reference DTR Questionnaires (FHIR Questionnaire with language-tagged display strings).
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Conformance testing is not the same as real-world API performance; current test methods are not comparable across harnesses and could enable cherry-picking. HIPAA compliance timeline misalignment will force parallel X12/FHIR maintenance. Endpoint discovery fragmentation prevents patients from connecting apps to new plans. Cost surprise at pharmacy counter (1/3 of approved prescriptions never picked up) not fully addressed by provider-facing RTPB alone.
+- **Potential negative impacts cited:** Without consumer-facing RTPBC, patients won't benefit from prescription benefit transparency the rule creates. Without named IG versions, "required" becomes ambiguous. Without real-world API usability framework, conformance certificates won't guarantee functioning APIs in production.
+- **Implementation barriers mentioned:** Payer FHIR implementations vary in ways that affect app behavior when patients change plans; bilateral DTR Questionnaire shape negotiation creates fragmentation; endpoint discovery behind developer-portal click-throughs and bilateral agreements creates friction.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 11 million patients, 24M encounters, 35M conditions, 408M observations, 75M claims, 42M prescriptions in b.well's platform; ~1/3 of PA-approved prescriptions never picked up; 82% of physicians say PA can lead to treatment abandonment (AMA 2024 survey); 29% of physicians report PA contributed to a serious adverse event.
+- **Studies or research referenced:** September 2025 Johns Hopkins systematic review in The American Journal of Medicine (25 U.S. studies): PA delays associated with preventable hospitalization, disease exacerbation, prolonged hospital stays, and lower cancer survival; AMA 2024 physician survey on PA burdens.
+- **Examples provided:** adalimumab, ustekinumab, tocilizumab as biologics existing in both Part B and Part D forms; CARIN Alliance Consumer RTPBC FHIR IG published 2020; NCPDP Foundation grant June 2025 harmonizing consumer/provider RTPB standards; HTI-2 proposals withdrawn December 2025 as reference for ONC certification path.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients (primary focus throughout); payers (all impacted payers including commercial, MA, Medicaid, CHIP, QHPs); HIPAA covered entities broadly; app developers and health IT vendors; EHR vendors; providers; ACOs and value-based care entities; PBMs and pharmacies.
+- **Economic implications:** Consumer RTPBC could reduce the 1/3 of prescriptions abandoned after PA approval; real-world API usability framework reduces integration costs for app developers; aligned HIPAA compliance dates reduce parallel-stack maintenance costs; coordinated DTR Questionnaires reduce bilateral negotiation overhead.
+- **Technical feasibility:** October 1, 2027 compliance date assessed as achievable from operational experience with hundreds of payers; real-world API performance framework requires 2-year community process before mandatory enforcement.
+- **Patient care impact:** Core focus: price transparency at point of prescribing, portability of authorizations and treatment history across plan transitions, step-therapy history portability, lab/DMEPOS PA timing matched to drug PA timeframes.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Technical / Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "b.well Connected Health strongly supports the health data interoperability and transparency goals memorialized in CMS-0062-P. Its structural proposals — required FHIR implementation guides, a centralized endpoint directory, the first FHIR-enabled drug prior authorization, incorporation of small-group QHP issuers on FF-SHOPs, and the HIPAA update replacing X12N 278 with FHIR — are each, on their merits, the right next step in the Administration's interoperability agenda." — Context: Opening statement establishing strong overall support.
+
+2. "About one-third of patients who receive a PA approval never pick up the prescription, in many cases because the cost is not visible to them until the pharmacy counter." — Context: Justifying the recommendation to extend consumer-facing RTPBC to patients via the Patient Access API.
+
+3. "Conformance testing through public tools like HL7 Inferno establishes a useful baseline by validating that an API endpoint is present and well-formed, and meets specification under controlled conditions. That baseline matters and should continue. At the same time, conformance under artificial test conditions is not the same as demonstrating that an API works reliably in a production patient workflow." — Context: Recommending a longer-term framework for real-world API usability beyond current conformance testing.
+
+4. "Without named versions, 'required' can mean different things at different payers." — Context: Arguing for naming specific STU versions of all required IGs in the final rule.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Recommends aligning HIPAA compliance windows with October 1, 2027 API dates; holds October 2027 as achievable from operational experience; warns against decoupling HIPAA and API timelines.
+- [x] **COST-RESOURCES** — Aligned compliance dates reduce parallel X12/FHIR maintenance burden; coordinated DTR Questionnaires reduce bilateral negotiation overhead; consumer RTPBC reduces prescription abandonment costs.
+- [x] **PROVIDER-BURDEN** — Reference DTR Questionnaires reduce bilateral negotiation work for payers and EHR vendors; SLA-clock-pause guidance ensures consistent deadline computation.
+- [x] **PRIVACY-SECURITY** — Recommends TLS 1.3, OAuth 2.1 with PKCE, SMART App Launch v2.2 upgrade; Health-ISAC participation; 72-hour incident disclosure; open access with security-based rate limits (no commercial gatekeeping).
+- [x] **HEALTH-EQUITY** — Recommends language-access requirements in DTR Questionnaires; provider directory accessibility/language capability/TTY/ASL extensions for members with disabilities and limited-English-proficiency.
+- [x] **TECHNICAL-FEASIBILITY** — Provides staged, community-grounded approach to real-world API usability; highlights that current harnesses are not comparable and cannot support consistent enforcement; October 2027 assessed as achievable.
+- [x] **STANDARDS-MATURITY** — Recommends specific STU versions for all required IGs; version management framework (2-version cap, 12-month overlap, 90-day sunset notice); SMART App Launch v2.0.0 → v2.2 upgrade.
+- [x] **PATIENT-ACCESS** — Extensive focus: consumer-facing RTPBC, PA status in Patient Access API, step-therapy history portability, formulary data FHIR exposure, drug PA data in Patient/Provider/Payer-to-Payer APIs.
+- [x] **REGULATORY-AUTHORITY** — Highlights HIPAA-PA-STANDARDS reach across full covered-entity universe; CMS program-participation authority as primary enforcement lever once test methods mature.
+- [x] **STAKEHOLDER-COORDINATION** — Recommends multi-stakeholder process (HL7/Da Vinci/CARIN) for real-world API test methods; coordination with CARIN Alliance and RxUtility filings explicitly noted.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Identifies major biologics (adalimumab, ustekinumab, tocilizumab) existing in both Part B and Part D; recommends DTR named as medical-benefit parallel to RTPB.
+- [x] **TRANSPARENCY** — Consumer price transparency at point of prescribing (RTPBC) is central theme; PA denial coded reasons; machine-readable API metrics; public audit log for endpoint changes; step-therapy history portability.
+- [ ] **SMALL-PAYER-IMPACT** — Not specifically addressed.
+- [x] **EXISTING-WORKFLOWS** — Addresses X12/FHIR parallel-stack burden; sunset of fax/phone PA channels; clarification that FF-SHOP issuers can reuse existing individual-market infrastructure.
+- [x] **VENDOR-ECOSYSTEM** — Patient apps may break when patients change plans due to payer FHIR implementation variation; open third-party access without commercial gatekeeping; minimum API documentation set to reduce integration cycle time.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 11, 2026
+
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services,
+Attention: CMS-0062-P,
+Mail Stop C4-26-05
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+
+Re:  CMS-0062-P, Medicare and Medicaid Programs; Patient Protection and Affordable Care
+Act; Interoperability Standards and Prior Authorization for Drugs, 91 FR 19890 (April 14, 2026)
+
+Dear Administrator Oz:
+
+b.well Connected Health strongly supports the health data interoperability and transparency goals
+memorialized in CMS-0062-P. Its structural proposals — required FHIR implementation guides, a
+centralized endpoint directory, the first FHIR-enabled drug prior authorization, incorporation of
+small-group QHP issuers on FF-SHOPs, and the HIPAA update replacing X12N 278 with FHIR — are
+each, on their merits, the right next step in the Administration's interoperability agenda. The
+recommendations in this letter are offered to help CMS finalize the rule in a form that delivers the
+maximum, visible benefit to patients: cost transparency at the moment of prescribing, authorization
+decisions that travel with the patient when they change plans, and a defined pathway to establish
+real-world API performance from paper conformance....
+==================================================

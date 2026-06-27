@@ -1,0 +1,145 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0428_20260626134234_39def672
+Commenter: Patients Rising
+Source: PDF Attachment
+Analysis Date: 2026-06-26 19:16:40
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Patients Rising; signed by Terry Wilcox, Co-Founder & CEO.
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Patients Rising describes itself as a national patient advocacy organization with more than ten years working with patients and caregivers across serious and chronic illnesses, including oncology, rare disease, autoimmune, neurological, and immunological conditions.
+
+## 2. EXECUTIVE SUMMARY
+
+Patients Rising supports the proposed rule's direction and urges CMS to prioritize patient time, treatment access, and denial transparency. It recommends electronic PA across medical and pharmacy benefits, 24-hour drug determinations across markets, patient-facing status and denial information, public plan-level metrics, limits on step therapy, and reforms to laboratory-test prior authorization.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL
+- **Regulatory citations mentioned:** No specific CFR sections cited. The comment references CMS-0062-P, Docket CMS-2026-1255, and the April 14, 2026 Federal Register publication.
+- **Standards referenced:** Electronic prior authorization; Prior Authorization API concepts; plan-level reporting metrics. No specific FHIR IG or NCPDP standard is discussed by name.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA across medical and pharmacy benefits**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Real-time coverage-rule checks, request submission, and status tracking can reduce treatment abandonment and delays.
+- **Specific request:** Require electronic PA across both benefits and ensure patients, not only providers, can see request status and outcomes.
+
+**Topic 2: Faster drug determinations with oversight**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Patients experience PA delay as days or weeks without treatment, but faster deadlines must not create faster automatic denials.
+- **Specific request:** Require 24-hour determinations across all markets and pair expedited timelines with CMS oversight against inappropriate denials.
+
+**Topic 3: Plain-language denial transparency**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Patients cannot appeal denials they do not understand, and low appeal rates suggest many patients absorb denials without challenging them.
+- **Specific request:** Require detailed, plain-language denial justifications for every denial, including initial denials, delivered to both provider and patient simultaneously.
+
+**Topic 4: Public prior authorization metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Interface-use metrics do not show whether patients get care; denial rates, appeals, outcomes, and turnaround times are more meaningful for patients.
+- **Specific request:** Require public, plan-level PA metrics, including Part D plans, broken out by brand/generic, therapeutic area, initial denials, step therapy, and patient-experience data in an annual CMS report.
+
+**Topic 5: Step therapy limits**
+- **Provision ID:** GENERAL
+- **Position:** Oppose expansion / Modify
+- **Rationale:** Step therapy can force patients to fail ineffective treatment and lose ground, especially when switching plans.
+- **Specific request:** Do not permit MA expansion of step therapy for Part B drugs; collect and publish data; honor completed steps across plans; disclose step therapy openly; maintain strong exceptions and appeals.
+
+**Topic 6: Laboratory testing prior authorization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Timing-based denials and added laboratory benefit manager layers can delay diagnosis and targeted treatment, especially in oncology and rare disease.
+- **Specific request:** End timing-based lab-test denials, allow test requisition forms as medical-necessity documentation, examine laboratory benefit managers, and reform lab PA with urgency.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S14:** Supports electronic PA across both medical and pharmacy benefit drugs, though the comment does not focus on implementation mechanics.
+- **S16:** Calls for detailed, plain-language denial justifications for every denial, including initial denials, delivered to patients and providers.
+- **S20/S43:** Supports 24-hour determinations for all drugs across markets and warns that expedited timelines need oversight to avoid auto-denials.
+- **S29:** Recommends metrics beyond API usage, including denial rates, appeal outcomes, turnaround times, step therapy, and patient-experience data.
+- **S34/S35:** Recommends annual public CMS reporting and public plan-level metrics, including Part D plans.
+- **S66-S82:** Responds to RFIs on step therapy and laboratory testing, recommending restrictions, transparency, carryover of completed steps, and lab PA reforms.
+
+## 6. RECOMMENDATIONS
+
+1. Require electronic prior authorization across medical and pharmacy benefits.
+2. Give patients access to PA request status and outcomes affecting their care.
+3. Require 24-hour drug PA determinations across all markets.
+4. Pair faster timelines with CMS oversight to prevent inappropriate auto-denials.
+5. Require detailed, plain-language denial justifications for every denial, delivered to both patient and provider.
+6. Publish plan-level PA metrics, including Part D, by brand/generic, therapeutic area, initial denials, step therapy, appeals, turnaround times, and patient experience.
+7. Do not expand MA step therapy for Part B drugs; require transparency, data reporting, completed-step carryover, and robust exceptions/appeals.
+8. End timing-based laboratory-test denials and allow test requisitions as medical-necessity documentation.
+9. Examine laboratory benefit managers and pursue lab PA reform with the same urgency as drug PA reform.
+10. Treat qualitative and distributional patient burdens as part of the rule's justification.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, denials, low appeal rates, opaque denial reasons, step therapy, lab testing delays, and patient burdens not captured in cost tables.
+- **Potential negative impacts cited:** Treatment abandonment, delayed diagnoses, repeat testing, worse outcomes, serious adverse events, financial/job burdens on families, and loss of dignity and peace of mind.
+- **Implementation barriers mentioned:** Lack of patient-facing status visibility, insufficient metrics, hidden step therapy requirements, timing-based lab denials, laboratory benefit manager involvement, and weak exceptions/appeals transparency.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 2024 MA data: nearly 53 million PA determinations, 4.1 million denials, 7.7 percent denial rate, 11.5 percent appeal rate, and 80.7 percent partial or full overturn rate among appealed denials. AMA survey: 95 percent of physicians said PA delays care, 79 percent said patients abandon treatment, 92 percent said PA negatively affects outcomes, and 26 percent reported serious adverse events.
+- **Studies or research referenced:** KFF analysis of 2024 Medicare Advantage PA determinations; American Medical Association 2025 Prior Authorization Physician Survey.
+- **Examples provided:** Patient needing biomarker testing whose test was denied because authorization was pending when blood was drawn, requiring a second blood draw and delaying treatment selection.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with serious and chronic illnesses, caregivers, providers, payers, Part D plans, laboratories, laboratory benefit managers, and CMS.
+- **Economic implications:** The comment emphasizes non-spreadsheet burdens such as unpaid time off, repeat visits, repeat draws, and emotional costs.
+- **Technical feasibility:** The comment assumes electronic PA and reporting can support patient-facing status, denial explanations, and plan-level metrics.
+- **Patient care impact:** Strongly emphasizes that faster, more transparent PA can reduce abandonment, delays, repeated testing, and poor outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Advocacy-oriented, urgent, evidence-based, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "For a patient, a prior authorization delay is not an administrative detail." - Context: Patient-centered framing for electronic PA.
+2. "A faster clock cannot be allowed to become an automatic 'no.'" - Context: Warning about 24-hour timelines without oversight.
+3. "Families cannot navigate a system they cannot see." - Context: Supporting public and patient-facing transparency.
+4. "Fail first is experienced by a patient as being required to get worse." - Context: Step therapy objection.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports 24-hour determinations across markets with active oversight.
+- [x] **PROVIDER-BURDEN** - Cites provider-reported delays, appeals, and care disruption from PA.
+- [x] **HEALTH-EQUITY** - Emphasizes burdens on the sickest patients, rare disease patients, cancer patients, and working families.
+- [x] **PATIENT-ACCESS** - Central theme is reducing care delays, treatment abandonment, repeat testing, and access barriers.
+- [x] **TRANSPARENCY** - Calls for plain-language denials, patient status visibility, plan-level public metrics, and open step therapy disclosure.
+- [x] **STAKEHOLDER-COORDINATION** - Encourages CMS, patients, providers, and plans to solve PA processes together.
+- [x] **COST-RESOURCES** - Notes unpaid time, repeat visits, repeat testing, and emotional burdens that are not captured in ordinary cost tables.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+A national voice for patients and the people who care for them
+700 12th Street, NW, Suite 700, Washington, D.C. 20005 - 202-750-1186 - advocacy@patientsrising.org - patientsrising.org
+
+June 15, 2026
+The Honorable Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Attention: CMS-0062-P
+RE: 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P); Docket No. CMS-2026-1255
+
+Dear Administrator Oz:
+Introduction: Who We Are and Why We Are Writing
+Patients Rising is a national patient advocacy organization. For more than ten years, we have worked alongside patients and caregivers living with serious and chronic illness - across oncology, rare disease, autoimmune, neurological, and immunological conditions, among others. What distinguishes our perspective is proximity and volume: through our patient learning center and our daily work with patients across the country, we hear directly and continuously about what prior authorization does to real people - the delays, the denials, the repeated tests, and the quiet decisions to give up on care altogether...

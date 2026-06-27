@@ -1,0 +1,203 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0305
+Commenter: Agadia Systems, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:04:39
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Agadia Systems, Inc.
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** HIPAA Business Associate supporting payer prior authorization operations; compliant with HITRUST and NIST frameworks; practical implementation experience with PA platforms and interoperability workflows
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Agadia Systems, a prior authorization technology platform vendor, broadly supports the proposed rule's PA framework across medical and pharmacy benefits, including the benefit-based standards split, FHIR/NCPDP alignments, denial reasons, timeframes, and API metrics reporting. The organization's most significant substantive contribution is identifying a critical gap: the rule imposes requirements on payers but lacks corresponding provider participation requirements, creating a "one-sided" interoperability model that may limit real-world effectiveness. Agadia also provides detailed input on healthcare resiliency, supporting flexibility-based approaches.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, API-ENDPOINT-REPORTING, HIPAA-PA-STANDARDS, GENERAL (provider participation gap; resiliency RFI)
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F; HIPAA Administrative Simplification; HIPAA Security Rule; HITECH
+- **Standards referenced:** FHIR (CRD, DTR, PAS); NCPDP SCRIPT, Formulary & Benefit (F&B), RTPB; HL7 FHIR; TEFCA; HITRUST; NIST; US Core
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Benefit-Based Standards Split (Medical vs. Pharmacy)**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** The dual-standard approach accurately reflects how payer operations already function. No uniform statutory definition exists for medical vs. pharmacy benefit drugs; payers and vendor systems manage this through configurable workflows.
+- **Specific request:** CMS should provide non-binding illustrative examples of benefit classification operationalization to support consistent understanding without constraining flexibility.
+
+**Topic 2: FHIR Prior Authorization API for Medical Benefit Drugs (CRD, DTR, PAS)**
+- **Provision ID:** PA-DRUG-MEDICAL, FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Logical extension of existing FHIR-based PA framework; aligns with how medical-benefit drug PA is currently operationalized. Vendor platforms normalize data across internal systems.
+- **Specific request:** Maintain flexible approach on benefit determination signaling in CRD responses; focus on outcomes rather than internal system design.
+
+**Topic 3: NCPDP Standards for Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Aligning Medicaid/CHIP/QHP with Part D standards promotes consistency. F&B should be understood as a high-level reference source, not real-time feed.
+- **Specific request:** Emphasize strong F&B governance practices (effective dates, version control, audit trails) to avoid confusion from treating it as live data.
+
+**Topic 4: Specific Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Clear denial reasons reduce resubmissions and delays; payer PA systems generate denial reasons through structured decision logic that can meet these requirements reliably.
+- **Specific request:** Maintain outcome-based approach rather than prescribing format/coding; allow payer flexibility.
+
+**Topic 5: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Standardized timeframes reduce provider confusion. State variability (e.g., Pennsylvania Act 146 vs. HealthChoices 24-hour requirement) illustrates why federal clarity is needed.
+- **Specific request:** Issue sub-regulatory guidance clarifying how "complete request" determination interacts with decision clock initiation.
+
+**Topic 6: PA Metrics Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** Raw metrics without context can be misleading—approval/denial rates reflect plan design, population complexity, and program requirements.
+- **Specific request:** Encourage inclusion of high-level contextual explanations alongside metrics to improve interpretability.
+
+**Topic 7: API Usage Metrics and Endpoint Reporting**
+- **Provision ID:** API-USAGE-METRICS, API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Greater API visibility supports oversight; centralized endpoint registry reduces integration friction and implementation costs.
+- **Specific request:** Maintain clarity on payer accountability vs. vendor support roles.
+
+**Topic 8: Provider Participation Gap (Critical Substantive Issue)**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, HIPAA-PA-STANDARDS, GENERAL
+- **Position:** Modify/Clarify
+- **Rationale:** The rule imposes requirements only on payers; providers are permitted but not required to use standardized electronic channels for PA submissions under HIPAA. This creates a one-sided interoperability model where provider adoption has been uneven and manual processes persist.
+- **Specific request:** CMS should consider: (1) baseline expectations for provider responsiveness; (2) aligning ONC certification criteria for bidirectional PA; (3) incentives for provider adoption; (4) clarifying HIPAA electronic response methods; (5) clarifying PA as appropriate TEFCA Purpose of Use.
+
+**Topic 9: Healthcare Resiliency (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Existing HIPAA Security Rule obligations already cover business continuity; modern resiliency extends to API-based real-time environments.
+- **Specific request:** Recognize modern continuity design approaches without prescribing specific solutions; maintain distinct payer vs. vendor accountability.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** Strongly supports benefit-based standards split; requests non-binding examples of benefit classification operationalization.
+- **S12:** Supports FHIR CRD/DTR/PAS expansion to medical benefit drugs; recommends flexible outcome-focused approach.
+- **S14:** Supports NCPDP alignment for pharmacy benefit; clarifies F&B as reference source requiring strong governance.
+- **S16:** Supports outcome-based denial reason requirements; endorses payer flexibility in format/coding.
+- **S20/S43:** Supports standardized timeframes; cites Pennsylvania law as example of real-world variability; requests sub-regulatory guidance on clock initiation.
+- **S29/S34:** Supports API usage metrics; recommends aligning with data payers already maintain.
+- **S23/S24/S26/S27/S33:** Supports API endpoint reporting and centralized registry; requests payer vs. vendor accountability clarity.
+- **S44/S46/S51:** Addresses HIPAA-PA-STANDARDS from provider participation angle; identifies asymmetry in provider engagement; supports TEFCA alignment for PA.
+- **S35:** PA metrics reporting should include contextual explanations; raw metrics without context mislead policy audiences.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Maintain benefit-based dual-standard framework; provide non-binding examples of benefit classification.
+2. Preserve implementation flexibility for FHIR CRD/DTR/PAS; focus on provider-facing outcomes, not internal payer system design.
+3. Clarify F&B as high-level reference source; emphasize governance practices.
+4. Maintain outcome-based approach to PA denial reason requirements.
+5. Issue sub-regulatory guidance on "complete request" determination and decision clock initiation.
+6. Pair public PA metrics reporting with contextual explanations to improve interpretability.
+7. Establish baseline provider participation expectations for electronic PA workflows.
+8. Align ONC EHR certification criteria to require bidirectional PA workflow support.
+9. Explore incentives (not mandates) for provider adoption of automated PA workflows.
+10. Clarify HIPAA acceptable electronic response methods to reduce provider practice variability.
+11. Clarify that prior authorization is an appropriate Purpose of Use under TEFCA.
+12. Support prospective structured clinical data exchange at PA submission.
+13. Recognize modern resiliency design patterns without prescribing specific solutions.
+14. Maintain distinct payer vs. vendor accountability roles.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Provider participation gap creates one-sided interoperability model; payer investments in electronic PA infrastructure may be underutilized if providers continue manual processes; public PA metrics reporting without context risks misleading oversight audiences.
+- **Potential negative impacts cited:** Unevenly adopted payer-side APIs fail to achieve efficiency gains; repeated manual submissions persist; misinterpreted public metrics may suggest poor performance where benefit design or program requirements are the actual driver.
+- **Implementation barriers mentioned:** No HIPAA requirement for providers to use standardized electronic PA channels; PA under "payment/healthcare operations" allowing provider discretion; EHR systems may restrict data sharing under TEFCA; heavy clearinghouse dependencies increase outage risk.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None explicitly cited.
+- **Studies or research referenced:** None.
+- **Examples provided:** Pennsylvania Act 146 of 2022 and HealthChoices contract showing state law vs. managed care contract timeframe divergence; specialty drug vs. broad PA scope affecting denial rate interpretability; infused/physician-administered drug populations driving more expedited requests.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers (impacted by all provisions); health IT vendors/PA platforms; providers (participation gap); patients (access improvements contingent on actual provider adoption).
+- **Economic implications:** Centralized endpoint registry reduces integration friction and implementation costs; phased PA metrics reporting timeline allows data validation; provider non-participation limits ROI on payer interoperability investments.
+- **Technical feasibility:** Agadia assesses proposed requirements as generally feasible; identifies implementation flexibility as critical to success; raises TEFCA data-sharing restrictions as practical barrier to automated clinical data exchange.
+- **Patient care impact:** Positive if provider participation increases; standardized timeframes and denial reasons directly improve patient access. Risk that one-sided model limits actual care access improvements.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted modifications
+- **Tone:** Professional, Technical, Collaborative
+- **Priority level:** High (substantive policy contribution on provider participation gap)
+
+---
+
+## 11. KEY QUOTES
+
+1. "Without clearer expectations for provider participation, there is a risk that the proposed APIs will be underutilized, and that the anticipated improvements in efficiency and burden reduction will not be fully realized." - Context: Identifying the central gap in the rule's provider-side engagement framework.
+
+2. "Because prior authorization falls within payment and healthcare operations, providers are permitted, but not required, to disclose clinical information in support of these requests... there is no requirement that providers respond through a standardized electronic channel." - Context: Explaining the HIPAA regulatory gap that creates provider participation asymmetry.
+
+3. "Publishing metrics without context may unintentionally suggest poor performance or inappropriate utilization management when the data instead reflects intentional benefit design choices or compliance with program-specific rules." - Context: Cautioning CMS on public reporting design.
+
+4. "Preserving clarity around these complementary roles [payer and vendor], rather than shifting responsibility entirely to one party, will help ensure that CMS efforts to strengthen resiliency build on existing compliance frameworks without creating confusion or unintended duplication." - Context: Addressing resiliency RFI accountability question.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports phased PA metrics reporting timelines; requests sub-regulatory guidance on complete request/clock interaction before enforcement.
+- [x] **PROVIDER-BURDEN** - Identifies provider participation gap as central issue; advocates for incentives and clearer electronic response expectations to reduce ongoing manual burden.
+- [x] **PRIVACY-SECURITY** - Detailed resiliency RFI response covering HIPAA Security Rule alignment, vendor/payer accountability, and avoiding duplicative obligations.
+- [x] **TECHNICAL-FEASIBILITY** - Extensive technical analysis of benefit determination flexibility, F&B governance, API endpoint registry design, and TEFCA-PA alignment.
+- [x] **STANDARDS-MATURITY** - Supports current FHIR IG and NCPDP standards; highlights F&B governance and version management needs.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Detailed analysis of benefit classification without uniform definition; supports flexible, principles-based approach.
+- [x] **TRANSPARENCY** - Supports PA denial reasons and public metrics reporting with contextual framing to ensure interpretability.
+- [x] **EXISTING-WORKFLOWS** - Comprehensive analysis of how vendor PA platforms operationalize current workflows; highlights risk of disruption from prescriptive technical requirements.
+- [x] **VENDOR-ECOSYSTEM** - Agadia as vendor provides practical platform perspective throughout; addresses payer-vendor accountability distinction in metrics, resiliency, and compliance.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends CMS coordinate with ONC on EHR certification criteria; supports TEFCA alignment; encourages coordination with OCR, NIST, CISA.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Submitted Electronically via Regulations.gov
+To: Centers for Medicare & Medicaid Services (CMS)
+From: Agadia Systems, Inc.
+Date: June 11, 2026
+Re: CMS-0062-P – Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+
+Dear CMS,
+Agadia appreciates the opportunity to provide comments on the CMS-0062-P proposed rule
+regarding interoperability standards and prior authorization for drugs. We commend CMS for its
+continued efforts to improve transparency, streamline prior authorization workflows, and
+advance interoperability across the healthcare ecosystem in ways that can reduce administrative
+burden and support more timely access to care.
+
+1. Electronic Prior Authorization for Drugs
+Benefit-Based Standards Split (Medical vs. Pharmacy Benefit)
+Agadia strongly supports CMS's proposed benefit-based framework for electronic prior
+authorization of drugs, as it accurately reflects how prior authorization is designed, governed,
+and operationalized across payer environments today. Distinguishing between FHIR-based
+workflows for drugs covered under a medical benefit and NCPDP standards for drugs covered
+under a pharmacy benefit appropriately aligns regulatory requirements with existing payer
+operations, industry standards maturity, and vendor-supported system architectures...

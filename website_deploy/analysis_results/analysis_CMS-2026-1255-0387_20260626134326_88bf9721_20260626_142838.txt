@@ -1,0 +1,254 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0387
+Commenter: American Osteopathic Association (AOA)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:38
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Osteopathic Association (AOA)
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents 207,000+ osteopathic physicians (DOs) and medical students; signed by Robert G.G. Piccinini, DO, D.FACN (President) and Kathleen S. Creason, MBA (CEO)
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The AOA broadly supports CMS's proposals to streamline prior authorization and improve data sharing, urging finalization of most FHIR and NCPDP standards provisions. The AOA calls for specific strengthening measures including shorter PA decision timeframes, product-level metric reporting, requirements for evidence-based PA criteria, and explicit recommendations on step therapy, DME/lab PA, and event notifications via TEFCA. The letter advocates for physician workflow integration and emphasizes that technology improvements alone will not solve underlying issues without policy guardrails.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, FHIR-IG-REQUIRED, API-ENDPOINT-REPORTING, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, HIPAA-PA-STANDARDS, API-USAGE-METRICS
+- **Regulatory citations mentioned:** 45 CFR 170.205(b), 45 CFR 170.215
+- **Standards referenced:** NCPDP SCRIPT Standard, NCPDP Formulary and Benefit Standard (v60), NCPDP RTPB, HL7 FHIR Da Vinci CRD/DTR/PAS IGs, CARIN for Blue Button IG, Da Vinci PDex US Drug Formulary IG, Da Vinci PDex Plan Net IG, FHIR Bulk Data Access IG, Da Vinci ATR List IG, Da Vinci CDex IG, FHIR at Scale Taskforce Security IG, TEFCA/QHINs
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: NCPDP SCRIPT for Pharmacy Benefit Drug PA**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NCPDP SCRIPT enables exchange of PA requirements, coverage and documentation requirements, decisions, and appeals; connects health IT to payer IT within physician workflows.
+- **Specific request:** Finalize the proposal as written.
+
+**Topic 2: NCPDP Formulary and Benefit / RTPB Standards**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support with modification
+- **Rationale:** Critical to give physicians formulary and cost-sharing information at point of prescribing, but information is only valuable if current and accurate.
+- **Specific request:** Finalize the proposal but add a requirement that payer/PBM systems be updated in a timely fashion to reflect any formulary changes, especially for non-Part D plans that lack federal notice/timing requirements for mid-year formulary changes.
+
+**Topic 3: Required FHIR IGs**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Despite 2024 rulemaking, physicians still report challenges accessing PA, claims, and encounter data in EHRs because IGs were only recommended, not required. Proprietary approaches have resulted in fragmented data exchange; standardized IGs have historically addressed this.
+- **Specific request:** Finalize requiring plans to comply with the same IGs that certified health IT must comply with under the health IT certification program.
+
+**Topic 4: Medical Benefit Drug PA via FHIR Prior Authorization API**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** PA requirements for drugs are a growing administrative burden and barrier to lifesaving therapies where timely initiation is critical. All drug PAs (medical and pharmacy benefit) should be completable electronically within physician workflows.
+- **Specific request:** Finalize the proposal.
+
+**Topic 5: API Endpoint Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** A centralized CMS endpoint registry supports health IT developers in connecting to payer APIs.
+- **Specific request:** Finalize the proposal.
+
+**Topic 6: Removal of Drug Formulary from Provider Access / Payer-to-Payer APIs**
+- **Provision ID:** FHIR-IG-REQUIRED (API data exchange)
+- **Position:** Oppose/Modify
+- **Rationale:** Machine-readable documents limit representation of information in EHRs; risk that information won't reach the point of care via APIs.
+- **Specific request:** CMS should only withdraw this requirement if certain plans will continue sharing this information via API in all necessary circumstances.
+
+**Topic 7: PA Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with expansion
+- **Rationale:** AOA has long advocated for improved transparency in the PA process; required denial reasons will help physicians during appeals.
+- **Specific request:** Finalize the proposal, and additionally require: (1) PA criteria developed from clinical guidelines/evidence; (2) no proprietary algorithms based on internal plan data; (3) denials only by same-specialty specialists; (4) decisions based on publicly available criteria consistent with clinical guidelines.
+
+**Topic 8: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modification
+- **Rationale:** Proposed timeframes (24-hour expedited, 72-hour standard) are a step forward.
+- **Specific request:** Finalize, but further shorten standard timeframe from 72 hours to 48 hours. Also align inpatient drug PA timeframes with general drug PA timeframes (avoid the more lenient 72-hour expedited / 7-day standard for incident-to inpatient drugs).
+
+**Topic 9: PA Metric Reporting**
+- **Provision ID:** TRANSPARENCY (metrics)
+- **Position:** Support with modification
+- **Rationale:** Aggregate and issuer-level reporting has limited utility; patients need product-level data to make informed plan choices; CMS needs granular data to identify low-value PA.
+- **Specific request:** Require plans to report all PA metrics (for items, services, and drugs) at the individual item/service/product level rather than at aggregate or issuer/contract level.
+
+**Topic 10: HIPAA PA Transaction Standards (FHIR)**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support (with note on referrals)
+- **Rationale:** Consistent transaction standards across programs support seamless data exchange; ONC/CMS/OCR standards should be aligned.
+- **Specific request:** Support adoption of FHIR for PA transactions. Supports considering the alternative proposal extending to referrals, noting referral data exchange remains fragmented and establishing standards could facilitate cross-institutional referrals.
+
+**Topic 11: Step Therapy (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy is often implemented inconsistent with clinical best practice, ignores physician judgment, and can cause patient harm. Technology alone does not address fundamental policy problems.
+- **Specific request:** Establish policy guardrails: clear exemption process, defined exemption circumstances, mandate protocols consistent with clinical evidence, require strict response timeframes. Leverage Payer-to-Payer API so new payers automatically honor prior plan's completed step protocols.
+
+**Topic 12: Lab Tests and DME Prior Authorization (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Modify/Clarify
+- **Rationale:** PA requirements for lab tests and DMEPOS are significant care barriers; lab PA suffers from timing/retroactive denial issues; DME PA is manual and disjointed.
+- **Specific request:** Allow TRF as valid documentation for lab PA; require DME suppliers to support electronic PA using consistent standards enabling exchange with certified health IT; automate processes for program integrity.
+
+**Topic 13: Electronic Event Notifications (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support/Clarify
+- **Rationale:** ACOs need real-time event notifications for transitional care management; current methods are highly fragmented.
+- **Specific request:** Leverage TEFCA as routing backbone; use QHINs/regional HIEs to eliminate point-to-point connections. Drive hospitals to electronically exchange event notifications with ACOs.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** AOA supports requiring (not merely recommending) the FHIR IGs listed; notes physicians still face challenges accessing PA/claims/encounter data in EHRs when IGs are only recommended.
+- **S12:** Supports finalization of medical benefit drug PA via FHIR PA API; notes growing burden and barrier to lifesaving therapies.
+- **S14:** Supports NCPDP SCRIPT for pharmacy benefit drug PA and urges finalization.
+- **S16:** Urges that denial reason requirements additionally mandate evidence-based criteria, no proprietary algorithms, same-specialty reviewer denials, and publicly available criteria.
+- **S17:** Implicitly supports structured denial reasons as proposed.
+- **S19/S22:** Supports NCPDP F&B and RTPB standards adoption; urges adding timely formulary update requirements.
+- **S20:** Supports 24-hour expedited PA timeframe; urges shortening standard timeframe from 72 to 48 hours and aligning inpatient drug PA timeframes.
+- **S23/S24:** Supports API endpoint reporting to CMS for a public registry.
+- **S44/S45:** Supports adopting FHIR for HIPAA PA transactions; supports extending scope to referrals.
+- **S66/S67:** Recommends leveraging TEFCA/QHINs as routing backbone for electronic event notifications; notes ACO needs and current fragmentation.
+- **S76/S77 (Step Therapy RFI):** Urges policy guardrails on step therapy; recommends Payer-to-Payer API to automatically honor prior plan's completed step protocols.
+- **S79/S80/S81 (Lab/DME RFI):** Supports extending electronic PA to lab tests and DMEPOS; recommends TRF as valid documentation; urges electronic standards for DME suppliers.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize NCPDP SCRIPT standard for pharmacy benefit drug PA.
+2. Finalize NCPDP F&B (v60) and RTPB standards; add requirement for timely payer/PBM formulary updates especially for non-Part D plans.
+3. Finalize required FHIR IGs (CRD, DTR, PAS, CARIN, PDex, Plan Net, Bulk Data) for payer compliance.
+4. Finalize PA API requirement for medical benefit drugs.
+5. Finalize API endpoint reporting requirement.
+6. Retain drug formulary information in Provider Access / Payer-to-Payer APIs unless CMS is certain plans will continue sharing this information via API.
+7. Finalize PA denial reason requirements and extend to require evidence-based criteria, same-specialty peer review, and publicly available decision criteria.
+8. Finalize PA decision timeframes; shorten standard from 72 to 48 hours; align inpatient drug PA timeframes with general drug PA timeframes.
+9. Require PA metric reporting at individual item/service/product level, not aggregate or issuer/contract level.
+10. Support FHIR adoption for HIPAA PA transactions; consider extending scope to referrals.
+11. Establish policy guardrails on step therapy (exemption process, evidence-based protocols, timeframes).
+12. Require Payer-to-Payer API to automatically honor prior plan's completed step therapy protocols.
+13. Allow TRF as valid documentation for lab PA; require electronic PA standards for DME suppliers.
+14. Leverage TEFCA/QHINs as routing backbone for electronic event notifications to ACOs.
+15. Address step therapy, DME/lab PA, and gold card programs in future rulemaking.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Many provisions may fall short of fully transforming the PA landscape; aggregate-level metric reporting lacks utility; inpatient drug PA timeframes too lenient; formulary accuracy not guaranteed by NCPDP adoption alone; denial reasons without evidence-based criteria requirements are insufficient.
+- **Potential negative impacts cited:** 70% of adults report PA as barrier to healthcare (KFF, 2026); 40% of adults with chronic conditions say PA is the biggest non-cost barrier; physician PA compliance consumes practice resources; delays result in adverse events.
+- **Implementation barriers mentioned:** Proprietary implementations have fragmented data exchange; physicians still face EHR access challenges after 2024 rulemaking; formulary information may be outdated; referral exchange requires human process across institutions.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** KFF Health Tracking Poll (February 2026): ~70% of adults report PA is a barrier; 40% of adults with chronic conditions report PA is most significant barrier beyond cost.
+- **Studies or research referenced:** Kaiser Family Foundation Health Tracking Poll, February 2026.
+- **Examples provided:** Biologics/oncology administered in hospital settings; lab test PAs denied as "retroactive"; DMEPOS PA as disjointed manual process separating ordering physicians from billing suppliers.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Osteopathic physicians (207,000+), patients with chronic conditions, MA organizations, Medicaid/CHIP managed care, QHP issuers, ACOs, health IT vendors, EHR developers, DME suppliers, laboratories, PBMs
+- **Economic implications:** Significant administrative burden reduction for practices if ePA fully implemented; formulary maintenance costs for plans; FHIR/NCPDP implementation costs
+- **Technical feasibility:** Supportive of the technical approach; notes workflow integration requires required (not recommended) IGs; TEFCA seen as viable routing backbone
+- **Patient care impact:** Improved medication access; reduced PA delays causing adverse events; better care coordination through event notifications; step therapy guardrails prevent clinical regression; DME/lab PA automation speeds access to critical equipment and diagnostics
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (broadly supportive with specific modifications and calls for strengthening)
+- **Tone:** Professional, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "While the changes in the proposed rule mark an important step forward, we believe that many of the provisions within this rule may still fall short in fully transforming the landscape." - Context: AOA's overall framing of its support with caveats.
+
+2. "Adoption of the NCPDP standards will enable physicians to effectively query payor systems through their health IT, but it does not ensure that the information is up to date." - Context: Recommending timely formulary update requirements alongside NCPDP adoption.
+
+3. "Step therapy, also known as 'fail first,' is utilized by insurers to determine drug coverage and requires patients to try and fail on insurers' preferred medications before covering the initial therapy prescribed by their physician. This utilization management measure is often implemented in a manner that is inconsistent with clinical best practice, ignores physician judgement, and can cause patient harm." - Context: RFI response on step therapy.
+
+4. "When a patient changes health plans, the administrative burden on practices is overwhelming. Practices are forced to track down, re-extract, and resubmit years of medication and failure history to maintain a stable patient on an already successful therapy." - Context: Recommending Payer-to-Payer API automation for step therapy continuity.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports Oct 1, 2027 dates; urges shorter standard PA timeframe (48 hrs vs. 72 hrs); wants inpatient drug PA aligned with general drug PA timeframes.
+
+- [x] **COST-RESOURCES** - Cites administrative burden of PA on physician practices; advocates for ePA to reduce resource consumption.
+
+- [x] **PROVIDER-BURDEN** - Central theme: PA requirements consume practice resources, require duplicative documentation, manual DME/lab processes; ePA within EHR workflows would reduce burden significantly.
+
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+
+- [x] **HEALTH-EQUITY** - References 70% of adults and 40% with chronic conditions facing PA barriers; advocates for gold card programs.
+
+- [x] **TECHNICAL-FEASIBILITY** - Supports FHIR/NCPDP technical approach; notes fragmented data exchange from proprietary implementations; advocates TEFCA as routing backbone.
+
+- [x] **STANDARDS-MATURITY** - Supports requiring IGs rather than recommending; notes physicians still face challenges because IGs were only recommended in 2024 rulemaking.
+
+- [x] **PATIENT-ACCESS** - Strong emphasis: PA delays cause adverse events, block lifesaving therapies; timely formulary data prevents pharmacy counter failures; step therapy disrupts care continuity.
+
+- [ ] **REGULATORY-AUTHORITY** - Not a primary focus.
+
+- [x] **STAKEHOLDER-COORDINATION** - Advocates for ONC/CMS/OCR standards alignment; supports TEFCA coordination; recommends Payer-to-Payer API for step therapy continuity.
+
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Explicitly addresses both; urges all drug PAs be completable electronically within physician workflows regardless of benefit type.
+
+- [x] **TRANSPARENCY** - Strong emphasis on product-level PA metric reporting; denial reasons with evidence-based criteria; publicly available PA criteria.
+
+- [ ] **SMALL-PAYER-IMPACT** - Not specifically addressed.
+
+- [x] **EXISTING-WORKFLOWS** - Central concern: EHR/physician workflow integration; current reliance on portals and manual processes; ACO event notification fragmentation.
+
+- [x] **VENDOR-ECOSYSTEM** - Notes EHR/health IT vendor integration challenges; proprietary implementations causing fragmentation; advocates standardized IGs.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+
+The Honorable Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Attention: CMS-0057-P
+7500 Security Boulevard
+Baltimore, MD 21244
+
+Re:
+Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid
+Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP)
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the
+Federally-Facilitated Exchanges (CMS–0062–P)
+
+Dear Administrator Mehmet Oz:
+
+The American Osteopathic Association (AOA), on behalf of the more than 207,000 osteopathic physicians
+(DOs) and medical students we represent, commends CMS' efforts to streamline prior authorization,
+reduce administrative burden, and improve data sharing between payors, physicians, and patients. The
+Interoperability Standards and Prior Authorization for Drugs Proposed Rule is an important step forward
+in ensuring that patients have timely access to care and therapies, and that physicians can spend more time
+at the bedside....

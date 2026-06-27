@@ -1,0 +1,160 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0396
+Commenter: Cleveland Clinic
+Source: PDF Attachment
+Analysis Date: 20260626_145852
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Cleveland Clinic; signed by Melissa Myers, JD, MPA, Vice President, Government Relations
+- **Stakeholder type:** Healthcare Provider (large integrated health system)
+- **Credentials or expertise mentioned:** Not-for-profit integrated healthcare system; 23 hospitals; 6,700+ beds; 300 outpatient locations; 6,600+ physicians and researchers; 17,600 nurses; 15.9 million patient encounters in the prior year.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Cleveland Clinic strongly supports the proposed rule's extension of electronic prior authorization, standardized decision timeframes, and payer transparency requirements to prescription drugs. The comment is brief and primarily expresses strong support for finalization. Cleveland Clinic also identifies an unaddressed gap—prior authorization for imaging—and urges CMS to adopt similar ePA requirements for imaging services.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, GENERAL
+- **Regulatory citations mentioned:** 89 Fed. Reg. 8758 (2024 CMS Interoperability and Prior Authorization Final Rule); CMS-0062-P
+- **Standards referenced:** Prior authorization APIs (FHIR-based); no specific IG or standard named
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: ePA for Prescription Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Current drug PA process is complex, operationally burdensome, delays access to necessary medications, impedes recovery, and ultimately harms patients. The proposed rule fills a critical gap in the PA regulatory framework and will advance automation and efficiency.
+- **Specific request:** Urges CMS to finalize all proposed policies to advance and standardize electronic prior authorization for prescription drugs.
+
+**Topic 2: Standardized PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Broadly supports CMS's proposal to align drug PA timeframes; no detail provided.
+- **Specific request:** Finalize proposed decision timeframe standards.
+
+**Topic 3: PA Denial Reasons and Metrics Transparency**
+- **Provision ID:** PA-DENIAL-REASONS, API-USAGE-METRICS
+- **Position:** Support
+- **Rationale:** Broadly supports payer transparency requirements; no detail provided.
+- **Specific request:** Finalize proposed denial reason and PA metrics requirements.
+
+**Topic 4: Prior Authorization for Imaging (Gap Not Addressed in Rule)**
+- **Provision ID:** GENERAL
+- **Position:** Recommend (extension of rule scope)
+- **Rationale:** Imaging is essential for diagnosis and tracking treatment progress; many studies must be expedited in urgent circumstances; PA delays for imaging can negatively impact patient outcomes. This rule addresses drugs and the 2024 rule addressed medical items and services, but imaging PA has not received equivalent requirements.
+- **Specific request:** CMS should consider adopting similar ePA requirements for imaging services as finalized in 2024 and proposed in this rule for drugs.
+
+**Topic 5: Prior Authorization for Laboratory Tests and DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Support (general)
+- **Rationale:** Cleveland Clinic generally supports streamlining PA and standardizing decision-making timeframes for laboratory tests and DMEPOS items.
+- **Specific request:** None beyond general support.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** CMS should finalize ePA requirements for medical benefit drugs; the expansion fills a critical gap for providers managing complex patients on specialty pharmaceuticals.
+- **S16 / S17:** Supports requiring specific denial reasons to reduce provider burden; not addressed in detail.
+- **S20 / S43:** Supports standardized decision timeframes for drug PA; not addressed in detail.
+- **S29 / S35:** Supports requiring payers to publicly report PA metrics for drugs; more transparency needed.
+- **General RFI (lab/DMEPOS/imaging):** Generally supports streamlining PA for lab tests and DMEPOS; specifically calls out imaging as an unaddressed gap requiring similar PA requirements.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize all proposed policies to advance and standardize electronic prior authorization for prescription drugs.
+2. Consider adopting ePA requirements for imaging services similar to those finalized in 2024 and proposed in this rule for drugs.
+3. Generally support streamlining PA and standardizing decision timeframes for laboratory tests and DMEPOS items.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Gap in PA regulatory framework for imaging services not addressed by this or prior rules.
+- **Potential negative impacts cited:** PA delays for imaging in urgent circumstances can negatively impact patient outcomes.
+- **Implementation barriers mentioned:** Not addressed.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Cleveland Clinic system statistics: 23 hospitals, 6,700+ beds, 300 outpatient locations, 6,600+ physicians, 15.9 million patient encounters last year.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Expedited imaging studies needed in urgent circumstances; imaging essential for diagnosis and tracking treatment progress.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Large integrated health systems, physicians, patients requiring prescription drugs and imaging services.
+- **Economic implications:** Not addressed specifically.
+- **Technical feasibility:** Not addressed.
+- **Patient care impact:** Drug PA delays impede recovery and harm patients; imaging PA delays can negatively impact outcomes in urgent situations.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, Collaborative
+- **Priority level:** Low (brief, broadly supportive comment with one targeted recommendation)
+
+---
+
+## 11. KEY QUOTES
+
+1. "Obtaining prior authorization for coverage of prescription drugs has been a complex, operationally burdensome process that delays access to necessary medications, impedes recovery, and ultimately harms the patient." — Context: Supporting CMS's proposal to establish ePA for drugs.
+
+2. "An important gap that CMS has not addressed is prior authorization for imaging...We urge CMS to consider adopting similar prior authorization policies as finalized in 2024 and proposed in this rule for imaging." — Context: Identifying imaging PA as a gap in the current regulatory framework.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** — Core motivation: PA delays for drugs and imaging harm patients; supports standardized ePA and timeframes to reduce barriers.
+- [x] **PROVIDER-BURDEN** — Drug PA described as complex and burdensome; supports automation and standardization to reduce burden on large provider systems.
+- [x] **TRANSPARENCY** — Supports payer reporting of PA metrics and specific denial reasons.
+- [x] **IMPLEMENTATION-TIMELINE** — Not addressed in detail; broadly supports October 2027 compliance date.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Page 1 of 2
+
+
+Melissa Myers, JD, MPA
+Vice President, Government Relations
+
+
+June 12, 2026
+
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+RE: CMS-0062-P; Medicare and Medicaid Programs; Patient Protection and Affordable Care
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of
+Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Submitted electronically via: Regulations.gov
+
+Cleveland Clinic is a not-for-profit, integrated healthcare system dedicated to patient-centered care,
+teaching, and research. With a footprint in Northeast Ohio, Florida, and Nevada, Cleveland Clinic
+Health System operates 23 hospitals, including a main campus near downtown Cleveland, with more
+than 6,700 beds and 300 outpatient locations...

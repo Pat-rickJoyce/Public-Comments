@@ -1,0 +1,162 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0300_20260626134217_fee71ad6
+Commenter: National Psoriasis Foundation (NPF)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:03:27
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Psoriasis Foundation (NPF); signed by Jason Harris, Vice President, Government Relations and Advocacy.
+- **Stakeholder type:** Advocacy Group; Professional Association/Patient Advocacy Organization.
+- **Credentials or expertise mentioned:** NPF describes itself as the leading national nonprofit serving 8 million people in the United States with psoriatic disease. It supports research, patient resources, provider education, and advocacy to reduce access barriers.
+
+## 2. EXECUTIVE SUMMARY
+
+NPF supports CMS's proposed electronic prior authorization, API access, communications, timeline, transparency, and reporting policies, but asks CMS to finalize them with patient-centered refinements. The comment emphasizes that electronic PA should reduce real-world delays and confusion rather than simply digitize existing burdens, and it calls for narrow exceptions, clear denial notices, patient-centered metrics, continuity protections, standardized step therapy exceptions, and lab-testing-specific PA safeguards.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; STATE-EXTENSION-PROCESS; FF-SHOP-REQUIREMENTS; GENERAL/RFIs.
+- **Regulatory citations mentioned:** No CFR citations. The comment references CMS-0062-P and affected programs including MA, Medicaid, CHIP, and QHPs on Federally-Facilitated Exchanges.
+- **Standards referenced:** Application programming interfaces (APIs); electronic prior authorization; Payer-to-Payer API; no specific FHIR IG, NCPDP standard, or CFR section named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Patient-Centered Electronic Prior Authorization**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support with modifications.
+- **Rationale:** Electronic PA can speed decisions and standardize documentation, but patients will not benefit if flawed, disconnected, and confusing PA workflows are merely digitized.
+- **Specific request:** Clarify that electronic PA should produce a timely, predictable, navigable process and evaluate whether APIs improve information exchange, reduce duplicate requests, improve continuity, and reduce patient confusion.
+
+**Topic 2: Extension and Exception Mechanisms**
+- **Provision ID:** STATE-EXTENSION-PROCESS; FF-SHOP-REQUIREMENTS
+- **Position:** Oppose/Modify.
+- **Rationale:** Extensions for state Medicaid/CHIP FFS and exceptions for QHP issuers could leave some patients with delays and burdens while others benefit from streamlined PA.
+- **Specific request:** Do not finalize these flexibility mechanisms; if finalized, apply them narrowly, transparently, temporarily, and only with concrete barriers and credible compliance plans.
+
+**Topic 3: Decision-Making Timelines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support.
+- **Rationale:** Patients with psoriatic disease need timely access because delayed treatment can worsen disease progression and comorbidities.
+- **Specific request:** Maintain proposed timelines, including 24-hour Medicaid/CHIP responses and 72-hour normal/24-hour emergency QHP responses, and monitor whether timelines lead to timely treatment.
+
+**Topic 4: Denial Communications**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications.
+- **Rationale:** Timelines are insufficient if communications are generic or do not tell clinicians and patients how to correct, resubmit, appeal, or understand the basis for non-approval.
+- **Specific request:** Require denial communications to distinguish missing information, unmet clinical criteria, benefit design limits, coding defects, submission defects, or other administrative bases, and require patient-facing plain-language notices.
+
+**Topic 5: Patient-Centered Reporting Metrics**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS
+- **Position:** Support with modifications.
+- **Rationale:** Publicly available metrics should reveal whether APIs and PA timelines improve patient access rather than only technical compliance.
+- **Specific request:** Add metrics on repeated resubmissions, delegated-entity inconsistency, frequent extensions, unclear denial rationales, and PA patterns among people with chronic diseases, disabilities, or rare diseases.
+
+**Topic 6: Step Therapy Exceptions and Continuity**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify.
+- **Rationale:** Technology alone will not stop patients from repeating failed steps or losing stable therapy after plan transitions.
+- **Specific request:** Conduct additional rulemaking requiring MA, Medicaid, CHIP, and FFE QHPs to offer standardized, medically reasonable, expedited step therapy exceptions and to recognize prior payer determinations and prior failed steps.
+
+**Topic 7: Laboratory Testing Prior Authorization**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify.
+- **Rationale:** Lab PA rules tied to specimen collection dates can delay processing or require unnecessary repeat blood draws.
+- **Specific request:** Prohibit timing-based denials, eliminate redundant testing, standardize documentation, and protect patients financially when the patient, physician, and laboratory acted in good faith.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** NPF supports specific denial reasons and asks CMS to require operationally useful explanations that identify the exact missing information, clinical criteria, benefit limitation, coding defect, submission defect, or other basis for denial.
+- **S17:** While not focused on structured codes, NPF supports standardized, specific denial content that could support more actionable clinician and patient workflows.
+- **S20:** NPF supports timely drug PA decisions and specifically supports 24-hour response expectations for Medicaid and CHIP entities.
+- **S23/S24:** NPF supports centralized reporting of payer API endpoints because it prevents public data from becoming fragmented, inconsistent, or trapped in plan-specific silos.
+- **S29/S34/S35:** NPF supports public reporting and asks CMS to choose metrics that measure patient-centered outcomes such as delays, resubmissions, extensions, unclear rationales, appeals, and effects on chronic disease populations.
+- **S36/S38:** NPF recommends not finalizing state Medicaid/CHIP FFS extension pathways, or limiting them to temporary, transparent, justified cases with concrete implementation barriers and compliance paths.
+- **S40/S42:** NPF raises parallel concerns that QHP exception pathways could create unequal experiences and asks CMS to limit exceptions if finalized.
+- **S43:** NPF supports aligned, short decision timelines across CMS-regulated coverage types and urges CMS to preserve expeditious decision-making tied to patient health risk.
+- **S66-S82 (Step Therapy and Laboratory Testing RFIs):** NPF recommends standardized step therapy exception processes, recognition of prior payer determinations, public reporting of step therapy exception outcomes, and lab PA protections tailored to real-world specimen workflows.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA policies with a clear patient-centered goal: timely, predictable, navigable access.
+2. Evaluate whether APIs reduce duplicate requests, improve continuity, speed information exchange, and reduce patient confusion.
+3. Do not finalize state FFS extension and QHP exception mechanisms; if finalized, make them narrow, transparent, temporary, and tied to concrete barriers.
+4. Maintain proposed PA decision timelines and monitor their real-world effect on timely treatment.
+5. Require denial notices that are specific, operationally useful, timely, and plain-language for patients.
+6. Require reporting metrics that capture patient-centered outcomes, repeated submissions, frequent extensions, unclear denial rationales, and patterns affecting chronic disease, disability, and rare disease populations.
+7. Require standardized step therapy exception processes with 72-hour normal and 24-hour emergency response times.
+8. Require plans to recognize prior failed steps and prior payer determinations, including when new plan requirements differ by number, duration, or preferred drug within a therapeutic class.
+9. Use any step therapy technology platform to provide patient-specific UM, cost-sharing, protocol, exception, and effective-date information in consistent formats.
+10. Adopt laboratory testing PA rules that prohibit timing-based denials, avoid repeat draws, standardize documentation, and protect patients from surprise bills.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA and step therapy delays, generic denial explanations, unequal access if extensions/exceptions are broad, lack of continuity after payer transitions, insufficient patient-centered reporting, and lab testing PA workflows that force repeat blood draws.
+- **Potential negative impacts cited:** Delayed treatment, disrupted care, reduced likelihood of disease improvement, disease progression, stress, surprise billing, repeat blood draws, higher utilization, poorer outcomes, and burdens on patients with chronic disease.
+- **Implementation barriers mentioned:** Disconnected systems, plan and delegated-entity inconsistency, frequent extensions, unclear denial rationales, payer incentives around step therapy, plan transitions, and PA timing rules tied to specimen collection.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NPF states it serves 8 million U.S. patients with psoriatic disease. It cites a survey of 1,205 people with psoriatic disease in which 45.1% underwent step therapy and 73% needed PA before treatment.
+- **Studies or research referenced:** National Health Council prior authorization burden report; AMA 2025 PA physician survey; Gondo et al. utilization management survey; studies on biologic approval delays and PA outcomes; health data exchange literature; continuity-of-care and prescription-fill delay research; KFF reporting on MA PA determinations and limited transparency; step therapy policy sources from West Virginia Watch, Arthritis Foundation, and American College of Physicians.
+- **Examples provided:** Psoriatic disease treatment delays, step therapy repetition after payer changes, lab specimens delayed or redrawn because authorization was not finalized by collection date, and the need for patients to arrange transportation, childcare, or time off for repeat blood draws.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with psoriatic disease and other chronic conditions, caregivers, clinicians and staff, laboratories, MA organizations, Medicaid and CHIP entities, QHP issuers on FFEs, PBMs, and delegated utilization management entities.
+- **Economic implications:** Delays and repeated administrative steps can increase healthcare utilization, raise costs, waste lab resources, and impose indirect costs through time off work, transportation, childcare, and surprise billing.
+- **Technical feasibility:** NPF supports API-based PA information exchange but stresses that technical compliance must be measured against operational usability and patient outcomes.
+- **Patient care impact:** The requested refinements would reduce delays, confusion, treatment interruption, repeat testing, and disease progression for patients with psoriatic disease and other chronic conditions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modifications.
+- **Tone:** Professional, evidence-based, patient-centered, and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "the goal of this effort should not be to simply digitize a flawed system" - Context: NPF's main caution about electronic PA implementation.
+2. "patients using all types of health insurance coverage under CMS's jurisdiction should receive timely responses" - Context: Support for aligned short PA timelines.
+3. "A generic statement that coverage criteria were not met is not sufficient" - Context: Argument for actionable denial explanations.
+4. "ban payers from forcing a patient to repeat steps that they have already taken" - Context: Step therapy continuity recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - NPF supports short decision timelines and wants extension/exception mechanisms limited to avoid delaying benefits.
+- [x] **COST-RESOURCES** - The comment identifies higher utilization, surprise billing, and indirect patient costs from repeated testing and delayed care.
+- [x] **PROVIDER-BURDEN** - NPF describes burdens from unclear denials, duplicate requests, and inconsistent plan/delegated-entity processes.
+- [x] **HEALTH-EQUITY** - Plain-language communications, caregiver burdens, rural transportation, childcare, and health literacy concerns implicate equitable access.
+- [x] **TECHNICAL-FEASIBILITY** - NPF supports APIs but asks CMS to evaluate whether they work in real-world care settings.
+- [x] **PATIENT-ACCESS** - Timely access to treatment and reduced delay are central throughout the comment.
+- [x] **STAKEHOLDER-COORDINATION** - The comment asks for standardized processes across payers, delegated entities, providers, labs, and CMS programs.
+- [x] **TRANSPARENCY** - NPF supports specific denial notices, public metrics, centralized endpoint reporting, and plain-language UM information.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on real-world PA, step therapy, payer-transition, and laboratory workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Our Mission: To drive efforts to cure psoriatic disease and improve the lives of those affected.
+
+1800 Diagonal Rd., Suite 360 | Alexandria, VA 22314
+psoriasis.org
+June 11, 2026
+
+Dr. Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P]
+
+Submitted via regulations.gov
+
+Dear Administrator Oz,
+
+The National Psoriasis Foundation (NPF) appreciates the opportunity to comment on the Center for Medicare and Medicaid Services' (CMS) proposed rule, Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs...

@@ -1,0 +1,181 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0421_20260626134328_3e97b47b
+Commenter: Quest Diagnostics
+Source: PDF Attachment
+Analysis Date: 2026-06-26 19:16:03
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Quest Diagnostics; signed by Michael Prevoznik, Senior Vice President and General Counsel.
+- **Stakeholder type:** Healthcare Provider; Other (clinical laboratory/diagnostic information services organization).
+- **Credentials or expertise mentioned:** Quest describes itself as a leading provider of diagnostic information services, serving one in three adult Americans and about half of U.S. physicians and hospitals annually, with over 7,700 patient access points and more than 45 million registered MyQuest users.
+
+## 2. EXECUTIVE SUMMARY
+
+Quest Diagnostics responds to the laboratory tests and DMEPOS RFI by arguing that prior authorization is often incompatible with laboratory workflows because specimens are collected and testing decisions occur before laboratories can verify or obtain authorization. Quest supports targeted reforms to prevent date-of-service-based denials, allow laboratories to initiate prior authorization or organization determinations, recognize test requisition forms as medical documentation, require deference to NCDs/LCDs, improve reporting and noncompliance channels, and ensure payment for plan-directed care.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DENIAL-REASONS by analogy to denial rationale and transparency. The comment is primarily on the laboratory tests and DMEPOS RFI rather than drug-specific PA provisions.
+- **Regulatory citations mentioned:** 42 CFR 414.510(a); 42 CFR 414.510; 42 CFR 422.122; 42 CFR 422.566(c)(1); 42 CFR 422.566(c)(1)(ii); Medicare Program Integrity Manual, Pub. 100-08, Ch. 3, Sec. 3.3.2.1.
+- **Standards referenced:** Health Care Provider Taxonomy code set Level II used in HIPAA standard transactions. No FHIR IGs, NCPDP standards, HL7 standards, or ONC technical standards are discussed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Laboratory prior authorization workflow incompatibility**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Laboratories usually receive specimens after the encounter and have limited visibility into whether prior authorization requirements were satisfied, while specimen stability and turnaround needs make pre-service determinations impractical.
+- **Specific request:** CMS should recognize the unique workflow of clinical laboratory testing and prevent prior authorization rules from blocking medically necessary testing or reimbursement.
+
+**Topic 2: Date-of-service denials**
+- **Provision ID:** GENERAL
+- **Position:** Oppose/Modify
+- **Rationale:** Medicare Advantage plans use the laboratory date of service, defined as specimen collection date, to deny authorization requests submitted when laboratories receive the specimen after that date.
+- **Specific request:** CMS should prohibit impacted payers from denying authorization or organization determination requests because they were made after the specimen collection date and before timely claim submission, including by amending 42 CFR 422.122 and clarifying 42 CFR 414.510.
+
+**Topic 3: Laboratories as prior authorization requestors**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Laboratories furnish services and should be able to request organization determinations, but plans may restrict requests to ordering providers.
+- **Specific request:** CMS should enforce 42 CFR 422.566(c)(1) and issue guidance requiring Medicare Advantage organizations to permit clinical laboratories to directly request prior authorization when needed.
+
+**Topic 4: TRF as valid medical documentation**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** A test requisition form captures the ordering clinician's test request, diagnosis codes, indications, and ordering information at the time of order, reducing duplicative record requests.
+- **Specific request:** CMS should recognize complete TRFs as sufficient medical documentation for medical necessity where they contain qualifying clinical information and update the Program Integrity Manual accordingly.
+
+**Topic 5: Deference to NCDs and LCDs**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** NCDs and LCDs already define coverage conditions, and MA plans may not be more restrictive than those policies.
+- **Specific request:** CMS should require MA plans to refrain from imposing prior authorization for laboratory tests covered under NCDs or LCDs, or limit prior authorization to circumstances where the plan offers broader coverage.
+
+**Topic 6: Denials based solely on failure to obtain prior authorization**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Oppose/Modify
+- **Rationale:** Denials based solely on administrative noncompliance can prevent meaningful review of medical necessity even when documentation supports coverage.
+- **Specific request:** CMS should prohibit denial of otherwise covered laboratory services solely for lack of prior authorization and require reporting on claims denied for lack of authorization.
+
+**Topic 7: LBM transparency and oversight**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Laboratory Benefit Managers add layers of complexity, obscure coverage and billing policies, and may disclaim responsibility with payers for denial policies.
+- **Specific request:** CMS should require impacted payers and LBMs to report detailed standardized data on requirements, approvals, denials, appeals, claim disposition, and utilization management metrics.
+
+**Topic 8: Plan-directed care and reimbursement**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Laboratories furnish tests in good faith based on participating providers' orders but may be left unpaid when no prior authorization or organization determination was obtained.
+- **Specific request:** CMS should clarify that participating provider referrals for otherwise covered laboratory services are favorable coverage determinations or plan-directed care requiring plan reimbursement.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** Quest responds to the laboratory tests and DMEPOS RFI within the general solicitation group. It focuses on laboratory testing impacts, TRF documentation, date-of-service denials, LBM transparency, issues technology does not solve, payer noncompliance reporting, and detailed utilization management metrics.
+
+Because the prompt groups laboratory/DME RFIs under S66-S82 without assigning exact solicitation numbers to each RFI question, this analysis treats the comment as responsive to the lab/DME portion of S66-S82.
+
+## 6. RECOMMENDATIONS
+
+1. Prohibit impacted payers from denying clinical laboratory test coverage because prior authorization was sought after the specimen collection date.
+2. Amend 42 CFR 422.122 to require acceptance of laboratory prior authorization requests before timely claim submission.
+3. Amend or clarify 42 CFR 414.510 so the laboratory date-of-service rule is not used to deny coverage or restrict access.
+4. Communicate the policy through rulemaking, HPMS memos, the Medicare Managed Care Manual, and payer-specific channels.
+5. Require plans to accept prior authorization and organization determination requests from clinical laboratories.
+6. Clarify that complete TRFs may be sufficient medical documentation for medical necessity and update the Program Integrity Manual.
+7. Require MA plans to defer to applicable NCDs and LCDs and avoid prior authorization for tests already covered under those determinations.
+8. Prohibit denial of otherwise covered laboratory services solely for failure to obtain prior authorization.
+9. Establish a public hotline or reporting mechanism for suspected payer noncompliance.
+10. Require impacted payers and LBMs to report detailed metrics on PA requirements, approvals, denials, appeal outcomes, claim disposition, denial reasons, missed timelines, and NCD/LCD-covered services subject to PA.
+11. Clarify organization determination requirements so laboratories are reimbursed for plan-directed care ordered by participating providers.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization processes are incompatible with laboratory testing workflows, especially when labs receive specimens after the date of service and cannot delay testing while awaiting organization determinations.
+- **Potential negative impacts cited:** Delayed access to diagnostic information, impaired diagnosis and treatment decisions, administrative burden, uncompensated laboratory services, unnecessary appeals, audits, and payer denials based on administrative timing rather than medical necessity.
+- **Implementation barriers mentioned:** Lack of lab visibility into payer-specific PA requirements, inability of labs to initiate or verify PA, specimen integrity limits, MA organization determination timelines up to 14 days, LBM opacity, date-of-service rules, and inconsistent plan/state requirements.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Diagnostic testing accounts for 2-3% of healthcare spending but drives up to 70% of healthcare decisions; Quest serves one in three adult Americans and about half of U.S. physicians and hospitals annually; Quest has more than 7,700 physical patient access points and over 45 million registered MyQuest users.
+- **Studies or research referenced:** No specific studies are cited.
+- **Examples provided:** Date-of-service denials when specimens are collected before the lab receives the order; MA plans invoking 42 CFR 414.510(a); LBM/payer responsibility disputes; claims denied despite documentation showing medical necessity; TRFs containing diagnosis codes and clinical indications.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing diagnostic testing, ordering clinicians and staff, clinical laboratories, Medicare Advantage plans, MACs, impacted non-Medicare payers, LBMs, CMS, and payers using utilization management for laboratory services.
+- **Economic implications:** Quest emphasizes uncompensated laboratory services, administrative burden, appeals, audits, delayed claims adjudication, and inefficient requests for supplemental medical records; no dollar estimate is provided.
+- **Technical feasibility:** The comment argues technology alone cannot solve legal and operational barriers; policy changes are needed around date of service, authorization requestor rights, TRF documentation, and organization determinations.
+- **Patient care impact:** Removing PA barriers could improve timely access to diagnostic information necessary for diagnosis, treatment decisions, and disease management.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned and reform-oriented.
+- **Tone:** Professional, legal/regulatory, operational, and critical of current payer practices.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Laboratory testing presents unique challenges within the prior authorization framework." - Context: Opening explanation of lab-specific PA barriers.
+2. "Recognizing a properly completed TRF as valid medical documentation" would provide benefits. - Context: Request for TRF acceptance.
+3. "The DOS has oftentimes passed by the time the lab receives the specimen for testing." - Context: Date-of-service denial problem.
+4. "Technology may help streamline prior authorization workflows" but does not address underlying issues. - Context: Limits of technical fixes.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Quest discusses PA and organization determination timing, specimen stability, and plans' 14-day response windows.
+- [x] **COST-RESOURCES** - The comment identifies uncompensated services, appeals, audits, record requests, and administrative costs.
+- [x] **PROVIDER-BURDEN** - Ordering clinicians and labs face documentation, appeals, payer-specific processes, and post-service denial burdens.
+- [x] **TECHNICAL-FEASIBILITY** - Quest argues technology cannot overcome structural workflow and regulatory barriers without policy changes.
+- [x] **PATIENT-ACCESS** - The central concern is timely access to medically necessary diagnostic testing and information.
+- [x] **REGULATORY-AUTHORITY** - The comment proposes specific CMS regulatory amendments and guidance under MA and laboratory date-of-service rules.
+- [x] **TRANSPARENCY** - Quest seeks payer/LBM transparency, denial metrics, missed-timeframe reporting, and a public noncompliance mechanism.
+- [x] **EXISTING-WORKFLOWS** - The analysis is grounded in specimen collection, TRFs, lab receipt timing, claim submission, and MA organization determination workflows.
+- [x] **VENDOR-ECOSYSTEM** - The comment addresses LBMs as intermediaries affecting payer utilization management and denial policies.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 12, 2026 
+ 
+Submitted online via: Regulations.gov 
+ 
+Dr. Mehmet Oz, Administrator 
+United States Department of Health and Human Services 
+Centers for Medicare & Medicaid Services 
+200 Independence Avenue SW 
+Washington, DC 20004 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges 
+ 
+E. Request for Information: Laboratory Tests and Durable Medical Equipment, 
+Prosthetics, Orthotics, and Supplies Items [CMS-0062-P] 
+ 
+Dear Dr. Oz: 
+ 
+Quest Diagnostics appreciates the opportunity to respond to CMS-0062-P, Section E,  
+Request for Information (RFI): Laboratory Tests and Durable Medical Equipment, Prosthetics, 
+Orthotics, and Supplies. We welcome CMSâ€™ efforts to evaluate the impact of prior authorization 
+requirements administered by Medicare Advantage plans and other impacted payers, and we 
+are encouraged by the Agencyâ€™s recognition that these requirements may impede patient 
+access to medically necessary laboratory testing and create significant administrative burden for 
+patients and healthcare providers. 
+ 
+Quest Diagnostics is among the worldâ€™s leading providers of diagnostic information services 
+whose purpose is working together to create a healthier world, one life at a time. Diagnostic 
+testing accounts for only two to three percent of healthcare spending yet drives up to 70 percent 
+of healthcare decisions. We serve one in three adult Americans and about half of physicians 
+and hospitals in the United States annually. Between our footprint of over 7,700 physical patient 
+access points and a growing digital network of more than 45 million registered MyQuestÂ® user...

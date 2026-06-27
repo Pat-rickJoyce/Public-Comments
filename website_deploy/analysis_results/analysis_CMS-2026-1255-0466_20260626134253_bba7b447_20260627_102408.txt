@@ -1,0 +1,123 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0466_20260626134253_bba7b447
+Commenter: Cholangiocarcinoma Foundation
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:24:08
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Juan Valle, MB ChB MSc FRCP, Chief Medical Officer, Cholangiocarcinoma Foundation.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** Former academic medical oncologist, researcher in precision medicine and biomarker-driven treatment for biliary tract cancers, Professor Emeritus at the University of Manchester.
+
+## 2. EXECUTIVE SUMMARY
+
+The Cholangiocarcinoma Foundation asks CMS to protect oncology patients from laboratory and biomarker testing delays caused by rigid prior authorization timing rules. The comment recommends retroactive authorization, prohibiting denials based only on authorization timing, avoiding repeat blood draws, requiring expedited oncology testing review, and protecting patients from administrative-delay costs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL, with relevance to PA-TIMEFRAMES-DRUGS by analogy for expedited review and patient access concerns.
+- **Regulatory citations mentioned:** Section III.E of CMS-0062-P is referenced; no CFR sections are cited.
+- **Standards referenced:** Not addressed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Laboratory and biomarker testing access**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Biomarker and specialty laboratory results guide cancer treatment selection, treatment changes, disease monitoring, and clinical trial eligibility. Delays can directly affect potentially life-saving care.
+- **Specific request:** CMS should protect medically necessary oncology laboratory and biomarker testing from PA delays and denials.
+
+**Topic 2: Authorization timing and specimen validity**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** If plans require authorization before or exactly on the specimen collection date, valid samples may be delayed, rejected, or discarded even when patients, physicians, and laboratories acted in good faith.
+- **Specific request:** Require plans to allow retroactive authorization for already-collected specimens and prohibit denials based solely on authorization timing.
+
+**Topic 3: Avoid repeat draws and administrative costs**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Repeat blood draws create unnecessary patient burden and can delay urgent cancer care. Administrative timing disputes should not create surprise costs for patients.
+- **Specific request:** Prevent repeat blood draws when a valid specimen exists and protect patients from costs caused by administrative delays.
+
+**Topic 4: Expedited oncology testing review**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Oncology diagnostic and biomarker testing is often time-sensitive and needed to select therapy or determine clinical trial eligibility.
+- **Specific request:** Require expedited review for oncology-related diagnostic and biomarker testing.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** Responds to the general RFI topic on laboratory testing by recommending specific safeguards for oncology-related laboratory and biomarker PA workflows, including retroactive authorization, timing-denial prohibitions, expedited review, and patient cost protection.
+
+## 6. RECOMMENDATIONS
+
+1. Allow retroactive authorization when specimens have already been collected.
+2. Prohibit denials based solely on authorization timing.
+3. Prevent unnecessary repeat blood draws when a valid specimen is available.
+4. Require expedited review for oncology-related diagnostic and biomarker testing.
+5. Protect patients from surprise costs when delays are administrative.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Rigid PA timing rules for laboratory and biomarker testing in oncology.
+- **Potential negative impacts cited:** Delayed or discarded specimens, repeat blood draws, delayed urgent cancer care, delayed treatment selection, and impeded clinical trial access.
+- **Implementation barriers mentioned:** Health plan rules requiring approval before or exactly on the specimen collection date.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Not addressed.
+- **Studies or research referenced:** Emerging research in precision medicine and biomarker-driven treatment is referenced generally, but no specific study is cited.
+- **Examples provided:** Valid specimens being delayed, rejected, or discarded because authorization timing did not match plan rules.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Oncology patients, cholangiocarcinoma patients, caregivers, physicians, laboratories, health plans, and clinical trial programs.
+- **Economic implications:** The comment raises surprise cost concerns and unnecessary costs from repeat testing, but does not quantify them.
+- **Technical feasibility:** The requested changes are policy and workflow safeguards rather than new technical standards.
+- **Patient care impact:** High. Timely biomarker testing can determine therapy choice, disease monitoring, and clinical trial eligibility.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned.
+- **Tone:** Professional and urgent.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "In cancer care, timing is critical." - Context: Rationale for expedited oncology laboratory testing.
+2. "Protect patients from surprise costs" - Context: Requested safeguard when delays are administrative.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment focuses on timing of authorization relative to specimen collection and cancer care decisions.
+- [x] **COST-RESOURCES** - It asks CMS to protect patients from surprise costs and avoid repeat blood draws.
+- [x] **PROVIDER-BURDEN** - Rigid timing rules create avoidable administrative work for physicians and laboratories.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [ ] **TECHNICAL-FEASIBILITY** - Not directly addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - The central issue is timely access to biomarker testing and treatment decisions.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - The comment highlights coordination among patients, physicians, and laboratories.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [x] **TRANSPARENCY** - Administrative timing denials and surprise costs implicate clearer payer rules and patient notice.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The comment asks CMS to adapt PA rules to real specimen collection and laboratory workflows.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Public Comment Submission
+Date: June 11, 2026
+To: Centers for Medicare & Medicaid Services (CMS), Department of Health and Human Services
+Attention: Docket ID: CMS-2026-1255
+Reference: RFI for Prior Authorization and Access to Laboratory Testing (Section III.E of CMS-0062-P)
+Submission Portal: Regulations.gov
+Re: Comment on RFI for Prior Authorization and Access to Laboratory Testing
+To Whom It May Concern:
+My name is Juan Valle, and I am writing as Chief Medical Officer of the Cholangiocarcinoma Foundation to urgently request that CMS protect patients from critical care delays and denials caused by rigid prior authorization requirements for laboratory testing.
+The Cholangiocarcinoma Foundation (CCF) is the leading global nonprofit organization dedicated to curing cholangiocarcinoma (bile duct cancer) and improving the quality of life for patients and caregivers. Through patient support, education, advocacy, and research funding, CCF works to ensure that every patient has access to timely, evidence-based care. Prior to my current role, I was an academic medical oncologist. I continue to participate as a researcher in studies that help advance precision medicine and biomarker-driven treatment approaches for patients with biliary tract cancers. Based on both clinical experience and emerging research, we know that timely access to laboratory and biomarker testing is essential...

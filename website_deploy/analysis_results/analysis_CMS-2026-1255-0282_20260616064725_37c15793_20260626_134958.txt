@@ -1,0 +1,160 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0282_20260616064725_37c15793
+Commenter: American Academy of Ophthalmology
+Source: PDF Attachment
+Analysis Date: 2026-06-26 13:49:58
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Ophthalmology (the Academy)
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents over 20,000 eye physicians and surgeons; signed by Michael X. Repka, MD, MBA, Medical Director, Governmental Affairs.
+
+## 2. EXECUTIVE SUMMARY
+
+The Academy strongly supports CMS's proposed extension of electronic prior authorization requirements to drugs, especially medical-benefit drugs used by Medicare Advantage beneficiaries. It asks CMS to strengthen the rule through faster standard decisions, longer API availability for PA information, service-level reporting, automatic approval for missed deadlines, robust enforcement, real-world testing, and major restrictions or prohibition of step therapy for MA Part B drugs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL/RFI step therapy and DICOM interoperability.
+- **Regulatory citations mentioned:** 42 CFR 422.136(a)(1); Federal Register Vol. 91, April 14, 2026, 19890; Federal Register Vol. 89, Feb. 8, 2024, 8758.
+- **Standards referenced:** Prior Authorization API; APIs; FHIR by rule context; ePA; Payer-to-Payer API; DICOM; Improving Seniors' Timely Access to Care Act mechanisms.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend PA API Requirements to Medical-Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** The Academy believes the proposal will improve access to necessary drugs, reduce physician burden, and align requirements across services and drugs.
+- **Specific request:** Finalize the requirement for payers to update Prior Authorization APIs for drugs covered under a medical benefit.
+
+**Topic 2: Real-World Testing and PA Information Availability**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** API standards must work in varied clinical settings, including small, independent, and rural practices. Prior PA decisions remain clinically relevant beyond one year.
+- **Specific request:** Require robust real-world testing with end users and require PA information to remain available for at least five years beyond the last status change.
+
+**Topic 3: Prior Authorization Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** The Academy supports 24-hour expedited decisions but argues 72 hours for standard decisions is too slow and automation can support faster responses.
+- **Specific request:** Require 48-hour standard decisions and real-time PA decisions for frequently approved drugs and services.
+
+**Topic 4: Denial Reasons and Appeals Information**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Specific denial reasons help providers understand next steps and reduce repeated exchanges with payers.
+- **Specific request:** Require plans to identify the steps and medical record documentation needed for a successful appeal.
+
+**Topic 5: Prior Authorization Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Contract-level reporting does not show whether specific drugs or services are likely to be approved or denied.
+- **Specific request:** Require MA plans to publicly report PA metrics at the individual service level.
+
+**Topic 6: Enforcement and Non-Compliance Reporting**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Transparency rules will be ineffective without enforcement, and unanswered PA requests should not burden physicians or patients.
+- **Specific request:** Treat missed PA deadlines as automatic approval with guaranteed reimbursement and create a voluntary provider/patient non-compliance reporting portal.
+
+**Topic 7: Step Therapy for MA Part B Drugs**
+- **Provision ID:** GENERAL
+- **Position:** Oppose / Modify
+- **Rationale:** The Academy states step therapy creates unsafe access barriers, can cause irreversible harm, increases administrative burden, and is inappropriate for physician-administered Part B drugs.
+- **Specific request:** Prohibit MA step therapy for Part B drugs; if not prohibited, add enforcement, definitions, exemptions, limits on multi-step protocols, approval-time guardrails, and plan-change continuity protections.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The Academy supports PA APIs for medical-benefit drugs but urges real-world testing across clinical settings before relying on standards in practice.
+- **S16:** The Academy supports specific drug PA denial reasons and asks CMS to require appeal steps and documentation requirements.
+- **S20:** It supports 24-hour expedited determinations and asks CMS to shorten standard determinations to 48 hours.
+- **S21:** It supports the October 1, 2027 compliance proposal but argues MA organizations could meet requirements by January 2027.
+- **S29:** It supports PA metric reporting for approvals, denials, appeals, and drugs requiring PA.
+- **S35:** It asks CMS to require public reporting at the individual service level rather than contract-level aggregation.
+- **S37:** It identifies implementation concerns for small, independent, and rural practices and asks for robust end-user testing.
+- **S66-S82:** The step therapy RFI response asks CMS to prohibit step therapy for MA Part B drugs or, at minimum, impose enforcement, exemptions, definitions, timeline guardrails, and continuity rules.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize PA API requirements for drugs covered under the medical benefit.
+2. Require robust real-world API testing in varied clinical settings, including small, independent, and rural practices.
+3. Extend availability of PA status and decision information to at least five years after the last status change.
+4. Require 48-hour standard PA decisions and retain 24-hour expedited decisions.
+5. Require real-time PA decisions for frequently approved drugs and services.
+6. Require denial notices to specify appeal steps and necessary documentation.
+7. Require service-level public reporting of PA metrics.
+8. Treat missed PA deadlines as automatic approval with guaranteed reimbursement.
+9. Create a voluntary provider and patient process to report payer non-compliance.
+10. Prohibit MA step therapy for Part B drugs or impose strong guardrails if continued.
+11. Promote DICOM and broader image-data interoperability in future policy.
+12. Move MA implementation to January 2027 if feasible or increase interim oversight.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Inappropriate PA denials, delayed drug access, weak enforcement, aggregate reporting, step therapy harm, insufficient testing, short PA data availability.
+- **Potential negative impacts cited:** Serious adverse events, irreversible vision loss, administrative burden, physician burnout, care delays, increased Medicare costs.
+- **Implementation barriers mentioned:** Need for testing in small and rural practices, inconsistent payer compliance, lack of step therapy definitions and exemptions, lack of image-data interoperability.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Over 35 million MA PA requests in 2021; 98% of MA beneficiaries in plans requiring PA for Part B drugs; 2025 AMA survey where over one-fourth of physicians reported PA led to a serious adverse event; 79% of surveyed physicians identified step therapy as a major or significant barrier; more than half reported 6 to 21 or more hours weekly on utilization management paperwork; 84% of surveyed providers reported step therapy increases over five years.
+- **Studies or research referenced:** Kaiser Family Foundation prior authorization analyses; AMA 2025 PA survey; AJMC 2024 utilization management and burnout study; Avalere Health 2025 Part B step therapy survey; Tullahoma News patient example.
+- **Examples provided:** Tennessee ophthalmology patient who lost sight after plan-required fail-first treatment; second-eye treatment scenarios; lack of image exchange across ophthalmology vendor platforms.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare Advantage beneficiaries, ophthalmologists, physicians, small/rural practices, payers, patients needing Part B drugs, EHR/imaging vendors, CMS.
+- **Economic implications:** Faster and clearer PA could reduce administrative costs; step therapy delays may increase Medicare and patient costs through worsened outcomes and additional services.
+- **Technical feasibility:** The Academy sees API-based ePA as feasible but dependent on real-world testing, workflow usability, data retention, and interoperability beyond payer APIs.
+- **Patient care impact:** The comment emphasizes timely drug access, prevention of irreversible eye harm, better continuity after plan changes, and reduced treatment delays.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modifications
+- **Tone:** Professional, technical, patient-safety focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The Academy strongly supports this proposed rule" - Context: Overall support for extending PA requirements to drugs.
+2. "any standards for APIs must undergo robust real-world testing" - Context: Implementation readiness recommendation.
+3. "failure to respond to a PA request within the defined timeframe should result in automatic approval" - Context: Enforcement recommendation.
+4. "we urge CMS to prohibit step therapy in MA for Part B drugs" - Context: Step therapy RFI response.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The Academy asks for January 2027 MA implementation if possible and interim oversight otherwise.
+- [x] **PROVIDER-BURDEN** - The comment repeatedly cites physician and staff time spent on PA and step therapy paperwork.
+- [x] **TECHNICAL-FEASIBILITY** - The Academy supports APIs but stresses testing across varied practice settings.
+- [x] **STANDARDS-MATURITY** - It emphasizes testing API standards and future support for DICOM interoperability.
+- [x] **PATIENT-ACCESS** - Timely access to medically necessary drugs is the central concern.
+- [x] **TRANSPARENCY** - The comment supports specific denial reasons and service-level public metrics.
+- [x] **EXISTING-WORKFLOWS** - It addresses appeals, documentation, real-time decisions, plan changes, and step therapy workflows.
+- [x] **VENDOR-ECOSYSTEM** - DICOM and cross-vendor image exchange are discussed as future interoperability needs.
+- [x] **COST-RESOURCES** - The comment links delays and step therapy to additional Medicare costs and administrative resource use.
+- [x] **HEALTH-EQUITY** - Small, rural, and independent practices are specifically identified as settings needing testing and adoption support.
+- [x] **STAKEHOLDER-COORDINATION** - The Academy asks CMS to work with providers and end users and create reporting channels.
+- [ ] **PRIVACY-SECURITY** - Not directly addressed.
+- [ ] **REGULATORY-AUTHORITY** - Not directly challenged.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Addressed only through focus on medical-benefit and Part B drugs, not benefit-boundary confusion.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 10, 2026
+
+The Honorable Mehmet Oz
+Administrator
+Centers for Medicare and Medicaid Services
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P)
+
+The American Academy of Ophthalmology (the Academy) appreciates the opportunity to submit comments on a proposed rule issued by CMS aimed at improving and streamlining the electronic exchange of healthcare data related to prior authorization (PA) for drugs. The rule proposes new requirements for major payers across the healthcare spectrum, including Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, CHIP Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-facilitated Exchanges. Our comments are mostly focused on the impact the rule would have on the MA population.
+
+The Academy is the largest association of eye physicians and surgeons in the United States. As a nationwide community of over 20,000 medical doctors, we protect sight and empower lives by setting the standards for ophthalmic education, supporting research, and advocating for our patients and the public...

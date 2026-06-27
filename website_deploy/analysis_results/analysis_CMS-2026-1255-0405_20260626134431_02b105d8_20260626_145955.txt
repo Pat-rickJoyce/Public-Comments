@@ -1,0 +1,176 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0405
+Commenter: Healthcare Association of New York State (HANYS)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:59:55
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Healthcare Association of New York State (HANYS), submitted by Marie B. Grause, RN, JD, President
+- **Stakeholder type:** Professional Association (representing nonprofit and public hospitals, nursing homes, home health agencies, and other healthcare providers in New York State)
+- **Credentials or expertise mentioned:** Marie B. Grause holds RN and JD credentials; Victoria Aufiero, VP of insurance, managed care and behavioral health, is listed as a contact
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+HANYS broadly supports the proposed rule's efforts to streamline prior authorization for prescription drugs, including extending electronic PA, setting decision deadlines, and expanding transparency reporting. While supportive of the rule's goals, HANYS urges CMS to adopt stronger enforcement mechanisms, shorten PA decision timeframes, treat non-responses as approvals, and ensure standards are adequately tested before mandated adoption.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, FF-SHOP-REQUIREMENTS
+- **Regulatory citations mentioned:** None explicitly cited beyond referencing the 2024 Interoperability and Patient Access final rule
+- **Standards referenced:** FHIR, PARDD API (Prior Authorization Requirements, Documentation, and Decision API), HIPAA minimum necessary standard
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for Drugs (PA-DRUG-MEDICAL / PA-DRUG-PHARMACY)**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Creates consistency between PA requests for non-drug items/services and drugs.
+- **Specific request:** Standards for the PARDD API should be aligned with the HIPAA minimum necessary standard to prevent payers from collecting extraneous data to unjustifiably deny or prolong approvals.
+
+**Topic 2: PARDD API / FHIR-IG-REQUIRED**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support with modification
+- **Rationale:** PARDD API has potential to improve efficiency, reduce unnecessary requests, and minimize follow-up.
+- **Specific request:** Do not adopt a phased-in approach, as it is likely to contribute to provider confusion and delays.
+
+**Topic 3: PA Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modification
+- **Rationale:** Clear and specific denial reasons facilitate better communication, enable better appeals, and reduce administrative burden on providers seeking clarity.
+- **Specific request:** Define "specific reason" robustly with actionable information; establish enforcement mechanisms for payer compliance.
+
+**Topic 4: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify (current proposals too lenient)
+- **Rationale:** Seven-calendar-day standard timeframe is too long and can have significant real-world consequences for patients.
+- **Specific request:** Adopt a shorter timeframe than seven calendar days; treat plan non-response within required timeframes as approval (not denial); prevent payers from denying claims for already preauthorized services.
+
+**Topic 5: Public Reporting of PA Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modification
+- **Rationale:** Increased transparency on PA volume and response times could reduce administrative burden and care delays.
+- **Specific request:** Require service-category-level reporting; implement penalties for payers that fail to report or report sub-par metrics; conduct regular audits of payer denials.
+
+**Topic 6: Patient Access API / FF-SHOP Extension**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support with modification
+- **Rationale:** Patient visibility into PA status alleviates provider/staff burden and helps patients understand their care.
+- **Specific request:** Explore strategies to promote access for patients who are uncomfortable or unable to use the underlying technology; avoid creating expectations for patient involvement in the PA process itself.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12 (technical challenges, PA-DRUG-MEDICAL):** HANYS supports extending electronic PA to drugs and recommends aligning PARDD API standards with the HIPAA minimum necessary standard to limit extraneous data collection.
+- **S21 (timeline achievable, PA-DRUG-MEDICAL):** HANYS opposes a phased-in approach to PARDD API implementation, arguing it would create provider confusion and delays.
+- **S16 (what is 'specific reason', PA-DENIAL-REASONS):** HANYS urges CMS to develop robust requirements defining "specific reason" with actionable information for providers, and to establish enforcement mechanisms.
+- **S17 (structured codes, PA-DENIAL-REASONS):** HANYS strongly supports requiring structured, specific denial reasons to facilitate better appeals and reduce administrative burden.
+- **S20 (24-hour achievable, PA-TIMEFRAMES-DRUGS):** HANYS calls for shorter timeframes than proposed and advocates treating plan non-response as approval rather than denial.
+- **S43 (align timeframes):** HANYS urges consistent, shorter timeframes and additional policies preventing payers from denying preauthorized services.
+- **S29 (which metrics, API-USAGE-METRICS):** HANYS supports expanded metrics and recommends adding service-category breakdowns to identify where PA may no longer be necessary.
+- **S35 (publish aggregate, API-USAGE-METRICS):** HANYS recommends CMS regularly audit payer denial samples and implement penalties for non-reporting or inadequate reporting.
+- **S40 (FF-SHOP impact):** HANYS supports extension to small group QHP issuers and inclusion of PA information in patient access API.
+- **S41 (FF-SHOP timeline):** HANYS supports inclusion of PA status in patient-facing APIs but urges strategies to reach patients who lack technology access.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Align PARDD API standards with HIPAA minimum necessary standard to prevent extraneous data collection.
+2. Do not adopt a phased-in approach to PARDD API implementation.
+3. Develop robust requirements defining "specific reason" for PA denials, with actionable information for providers.
+4. Establish enforcement mechanisms ensuring payer compliance with denial reason requirements.
+5. Adopt a shorter standard PA decision timeframe than seven calendar days.
+6. Treat plan non-response within required timeframes as approval rather than denial.
+7. Adopt additional policies preventing payers from denying claims for already preauthorized services.
+8. Require payers to report PA metrics by service category to identify areas where PA may no longer be necessary.
+9. Implement penalties for payers that fail to report or report inadequate metrics.
+10. Regularly audit a sample of payer denials and timeframes to target potentially problematic plans.
+11. Explore strategies to promote technology access for patients who cannot use the patient access API.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Insufficient enforcement mechanisms; PA timeframes too lenient; vague denial reasons allowing continued confusion; technology access gaps for patients.
+- **Potential negative impacts cited:** Ongoing provider administrative burden from imprecise denial reasons; patient care delays from lengthy decision windows; provider confusion from phased PARDD API rollout.
+- **Implementation barriers mentioned:** Payer non-compliance without enforcement; risk of extraneous data collection via PARDD API; digital equity barriers limiting patient use of access APIs.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None beyond general characterizations of administrative burden.
+- **Studies or research referenced:** American Hospital Association (2022), "Commercial Health Insurance Practices that Delay Care, Increase Costs."
+- **Examples provided:** Notes that PA requirements vary widely even among different health plan products offered by the same issuer.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals and health systems, individual providers, patients (especially those with limited technology access)
+- **Economic implications:** Significant administrative costs to hospitals from PA burden; potential savings from streamlined electronic PA
+- **Technical feasibility:** Urges adequate testing and vetting of standards before mandated adoption; supports PARDD API but wants HIPAA minimum necessary alignment
+- **Patient care impact:** PA delays have direct, real-world consequences; improved transparency helps patients navigate care; digital equity concerns for patients unable to use APIs
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of rule goals with significant modification requests)
+- **Tone:** Professional, collaborative, advocacy-focused
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "HANYS does not support a phased-in approach, as it is likely to contribute to provider confusion and delays." — Context: Opposing CMS's consideration of phased PARDD API implementation.
+2. "A non-response should be an approval of the PA request." — Context: Arguing that plan silence within required timeframes should not function as a denial.
+3. "HANYS urges CMS to develop robust requirements defining the term 'specific reason' in relation to a PA denial. Payers should be required to specifically identify the reason for the denial in as precise terms as possible, with actionable information for providers." — Context: Strengthening PA-DENIAL-REASONS provision.
+4. "HANYS cautions against a rule that creates any expectations for patient involvement in the PA process." — Context: Supporting patient API access while limiting patient administrative responsibilities.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Opposes phased PARDD API approach; urges shorter PA decision timeframes than proposed seven calendar days.
+- [x] **PROVIDER-BURDEN** — Central concern throughout; administrative burden from PA processes diverts time from patient care; vague denial reasons compound burden.
+- [x] **TRANSPARENCY** — Strongly supports specific denial reasons and expanded metric reporting; urges service-category breakdown for public reporting.
+- [x] **PATIENT-ACCESS** — Supports patient visibility into PA status; raises digital equity concerns for patients unable to use access APIs.
+- [x] **TECHNICAL-FEASIBILITY** — Urges adequate testing and vetting of standards before mandated adoption; requests HIPAA minimum necessary alignment for PARDD API.
+- [x] **EXISTING-WORKFLOWS** — Supports PARDD API integration with EHR and practice management systems as efficiency improvement.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+Robert F. Kennedy Jr.
+Secretary
+U.S Department of Health and Human Services
+Attention: CMS-9884-P
+P.O. Box 8016
+Baltimore, MD 21244-8016
+Submitted electronically: www.regulations.gov
+RE: CMS 0062-P: Interoperability Standards and Prior Authorization for Drugs for
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid
+Agencies, Children's Health Insurance Program Agencies and CHIP Managed Care
+Entities, and Issuers of Qualified Health Plans on the Federally-Faciliated Exchanges.
+Dear Secretary Kennedy:
+The Healthcare Association of New York State, on behalf of our member nonprofit and
+public hospitals, nursing homes, home health agencies and other healthcare providers,
+appreciates the opportunity to comment on CMS' proposed prior authorization rule.
+HANYS commends CMS for taking important steps in this proposal to remove barriers to
+patient care by streamlining the prior authorization process for prescription drugs covered
+by many health insurers. HANYS supports the process improvements that would require
+electronic prior authorizations, set decision deadlines and promote transparency through
+reporting metrics...

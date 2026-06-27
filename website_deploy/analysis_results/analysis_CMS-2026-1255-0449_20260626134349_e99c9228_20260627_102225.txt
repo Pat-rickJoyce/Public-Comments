@@ -1,0 +1,164 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0449
+Commenter: Lupus and Allied Diseases Association, Inc. (LADA)
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:25
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Lupus and Allied Diseases Association, Inc. (LADA); signed by Kathleen A. Arntsen, President & CEO
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** National patient-led nonprofit founded 1978; personal experience managing multiple autoimmune conditions; represents patients with lupus and allied diseases
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+LADA, a national patient advocacy organization, responds to CMS's RFI on step therapy, urging comprehensive reform of step therapy ("fail-first") protocols. The organization argues that insurer-mandated step therapy overrides physician clinical judgment, harms patients with complex autoimmune and other serious diseases, and demands that CMS require a standardized, technology-enabled exceptions process with transparency and continuity-of-coverage protections.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL (responding to step therapy RFI); PA-DRUG-PHARMACY (indirectly, as step therapy applies to drug benefit); PA-DENIAL-REASONS
+- **Regulatory citations mentioned:** None specific CFR citations
+- **Standards referenced:** None specific technical standards
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Step Therapy Exceptions Process**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Current step therapy lacks a standardized, medically reasonable exceptions process. Patients with complex conditions like lupus require individualized treatment decisions, not cost-driven formulary sequences.
+- **Specific request:** Require all MA orgs, Medicaid/CHIP FFS and managed care, and QHP issuers to offer an exceptions process with 24-hour (emergency) to 72-hour (standard) response times and five defined exception categories: prior failure/expected ineffectiveness, delayed treatment causing irreversible harm, drug causing patient harm, drug preventing work/daily activities, or patient stable on current medication.
+
+**Topic 2: Prohibition on Repeating Step Therapy**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Requiring patients to restart step therapy upon plan change (new year, formulary change, new payer) causes significant harm, increased utilization, and higher costs.
+- **Specific request:** Additional rulemaking to ban payers from forcing patients to repeat steps already completed, with portability standards covering fewer prior steps, different timelines, and different drugs within the same therapeutic class.
+
+**Topic 3: Standardization Across Payers**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** No standardized approach exists; each payer uses proprietary forms and varying documentation requirements, creating burden for providers and patients.
+- **Specific request:** Standard form and instructions across all payers; same documentation requirements; same criteria for exception approval; required inclusion of clinical rationale in denials including alternative coverage and appeal rights.
+
+**Topic 4: Technology Platform for Step Therapy**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Technology is critical to creating a streamlined, standardized exceptions process accessible to both patients and providers.
+- **Specific request:** CMS-created technology platform with standardized forms, documentation, and criteria; plain-language patient-specific UM information; annual public reporting on step therapy exception requests, approvals, denials, and appeals.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 (General/RFIs):** Specifically responds to step therapy RFI. Commenter argues step therapy reforms are urgently needed and provides detailed policy recommendations including exceptions processes, portability, standardization, and technology solutions.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Require all MA orgs, Medicaid/CHIP, and QHP issuers to offer a standardized step therapy exceptions process with 24-72 hour response times.
+2. Require exceptions in five defined circumstances (prior failure, irreversible harm, drug harm, functional impairment, stability on current medication).
+3. Base step therapy protocols on independent clinical practice guidelines or peer-reviewed data, not cost alone.
+4. Ban payers from requiring patients to repeat step therapy steps already completed upon plan transition.
+5. Establish continuity standards for new payers recognizing prior payer step therapy history across different timelines, steps, and same-class drugs.
+6. Standardize the exceptions process: uniform forms, documentation requirements, and approval criteria across all payers.
+7. Require denial notices to include clinical rationale, covered alternatives, and appeal rights.
+8. Create a CMS technology platform for standardized step therapy information and exceptions requests.
+9. Require payers to provide plain-language, patient-specific UM, cost-sharing, and step therapy protocol information.
+10. Require annual public reporting on step therapy exception volumes, results, and appeal outcomes.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Step therapy overrides physician clinical judgment; protocols are cost-driven, not clinically individualized; patients forced to suffer on ineffective treatments before accessing appropriate care.
+- **Potential negative impacts cited:** Disease progression; increased healthcare utilization and costs; physical, emotional, and financial distress; disruption of continuity of care; denial of physician's right to make individualized treatment decisions.
+- **Implementation barriers mentioned:** Lack of standardization across payers; burdensome and non-uniform documentation requirements; use of outdated processes (e.g., phone calls).
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None specific
+- **Studies or research referenced:** None specific
+- **Examples provided:** Personal experience of LADA President managing multiple autoimmune conditions; lupus described as "extremely unpredictable, highly individualized, heterogeneous, multi-system autoimmune disease" requiring individualized treatment; impact on patients with lupus, mental illness, addiction, blood disorders, cardiovascular disease, eye disease, HIV/AIDS, and cancer.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with complex chronic conditions (lupus, autoimmune diseases, cancer, HIV/AIDS, etc.); healthcare providers; MA organizations; Medicaid/CHIP managed care and FFS programs; QHP issuers; PBMs
+- **Economic implications:** Step therapy delays cost more overall due to disease progression, increased utilization, and cost-sharing for ineffective treatments; standardized process would reduce administrative burden on providers
+- **Technical feasibility:** Commenter advocates for technology platform but does not address specific implementation challenges; recommendations are policy-focused
+- **Patient care impact:** High — step therapy delays access to appropriate treatment, worsening outcomes for patients with serious conditions requiring individualized therapy
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned / Advocacy for reform
+- **Tone:** Passionate, patient-advocacy focused, collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Step therapy is a prior authorization payer practice that requires an individual to try and fail on other, generally less expensive treatment options before access is granted for the medication prescribed by the healthcare provider." — Context: Defining step therapy and its cost-driven (not clinically driven) basis.
+2. "These practices actually override the expertise of the healthcare professional and undermine the patient-physician relationship." — Context: Describing harm from step therapy protocols.
+3. "Requiring patients to undergo step therapy over again, whether due to the start of a new plan year, changes in formulary design, or a move to a new payer leads to significant harm, increased health care utilization, and ultimately increases costs." — Context: Arguing for continuity protections against repeated step therapy.
+4. "Technology will play a critical role in creating a standardized and streamlined process to step therapy exceptions." — Context: Advocating for a CMS technology platform.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** — Central theme; step therapy delays access to appropriate medications for patients with serious conditions, causing disease progression and harm.
+- [x] **PROVIDER-BURDEN** — Non-standardized, payer-specific documentation and processes create significant administrative burden for providers seeking exceptions.
+- [x] **TRANSPARENCY** — Commenter demands plain-language patient-specific information on step therapy protocols, denial reasons, and public reporting of outcomes.
+- [x] **EXISTING-WORKFLOWS** — Step therapy reform would require integration with current PA and formulary management workflows across all payer types.
+- [x] **STAKEHOLDER-COORDINATION** — Calls for CMS to work with patient and provider stakeholders through open, transparent process to develop subsequent policies.
+- [x] **HEALTH-EQUITY** — Implied; patients with complex, serious conditions (lupus, HIV/AIDS, cancer) disproportionately harmed by cost-driven step therapy protocols.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Blvd
+Baltimore, MD 21244
+
+RE:  Docket Number CMS-0062-P
+Docket Name Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations,
+Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP)
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges
+Request for Information on Step Therapy in Proposed Rule for Interoperability Standards and Prior
+Authorization for Drugs
+
+Submitted via regulations.gov
+
+Dear Administrator Oz,
+
+On behalf of Lupus and Allied Diseases Association, Inc. (LADA), a national patient-led advocacy
+organization representing people with lupus and other complicated serious diseases of unmet need and as
+an individual who struggles daily to manage my complex medical care for multiple autoimmune conditions
+who has personally experienced the harmful effects of step therapy protocols, I am writing to passionately
+urge you to ensure that millions of Americans like myself and the other leaders of LADA who are living
+with serious medical conditions have timely and appropriate access to the treatments required to manage
+their care. We have included the essential reforms that we recommend are necessary for the practice
+known as step therapy, or "fail-first," in response to the Centers for Medicare and Medicaid Services
+(CMS) request for information on step therapy....

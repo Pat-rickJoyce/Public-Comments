@@ -1,0 +1,95 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0430_inline_20260626134442
+Commenter: Scott Underwood
+Source: Inline Comment
+Analysis Date: 2026-06-26 19:17:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Scott Underwood
+- **Stakeholder type:** Individual
+- **Credentials or expertise mentioned:** Software architect; former voting member of the HL7 Standards Committee; contributor to HL7 v2.3 ADT, SIU, and ORM messages; operated an HL7 integration engine with more than 800 production interfaces.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports electronic prior authorization for drugs but argues the proposed dual-standard model creates a practical routing problem between FHIR-based medical benefit drug PA and NCPDP pharmacy benefit drug PA. He recommends CMS require payers to return an authoritative, machine-readable indication of the correct standard and endpoint for each drug, patient, and payer coverage context.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; GENERAL
+- **Regulatory citations mentioned:** Not addressed
+- **Standards referenced:** FHIR-based Prior Authorization API; Da Vinci CRD; Da Vinci PAS IG; NCPDP SCRIPT; HL7 v2.3 ADT, SIU, ORM.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Authoritative routing between medical and pharmacy benefit standards**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** The same drug may be covered under a medical or pharmacy benefit depending on payer terms, and the commenter states that leaving the payer's routing signal optional will cause incorrect submissions, rejections, dropped requests, and fallback to phone or fax.
+- **Specific request:** Require the first-stage CRD response to return, in machine-readable form, which standard and endpoint the provider must use for the specific drug, patient, and payer coverage.
+
+**Topic 2: Implementation of the dual-standard architecture**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Clarify
+- **Rationale:** The PAS IG warns against use for pharmacy-benefit medication PA when NCPDP exchange applies, but providers and EHRs lack a reliable way to determine the correct path without an authoritative payer response.
+- **Specific request:** Make path determination a required capability rather than an optional convention.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The commenter identifies a technical challenge for medical benefit drug PA: the system must reliably determine whether FHIR or NCPDP applies before submission.
+- **S15:** The comment directly addresses the medical versus pharmacy benefit distinction and argues that payer-specific benefit classification must be returned as a machine-readable routing answer.
+- **S37:** The commenter describes an implementation challenge for required FHIR IG use: optional or undefined routing signals could undermine interoperability and drive workflows back to manual channels.
+
+## 6. RECOMMENDATIONS
+
+1. Require payers to provide an authoritative, machine-readable routing decision for drug PA standard selection.
+2. Include the required standard and endpoint in the first-stage CRD response.
+3. Treat medical-versus-pharmacy path determination as a required implementation capability, not an optional convention.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Misrouting between FHIR and NCPDP standards; optional payer signaling; inability of requester systems to detect routing errors.
+- **Potential negative impacts cited:** Wrong-standard submissions, rejected or silently dropped requests, fallback to fax or phone, added burden for providers, and delayed patient access.
+- **Implementation barriers mentioned:** Payer-specific and changing benefit classifications; lack of a statutory or regulatory definition separating medical and pharmacy benefit drugs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** More than 800 production interfaces operated by the commenter in prior HL7 integration work.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** PAS IG limitation for pharmacy benefit medication PA; same drug categorized differently across payers.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Providers, EHR vendors, payers, patients, and standards implementers.
+- **Economic implications:** Not quantified, but misrouting could preserve manual administrative costs the rule is intended to reduce.
+- **Technical feasibility:** The commenter frames the solution as a standard message-routing pattern: centralize the authoritative decision in a payer response.
+- **Patient care impact:** Incorrect routing could delay medication authorization and access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Technical and collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Standard selection (medical vs pharmacy benefit) is an unsolved routing problem; make path determination a required capability, not an optional convention." - Context: Main thesis of the comment.
+2. "'Could' is the problem, from an integration standpoint." - Context: Critique of optional payer indication of the correct submission method.
+3. "Make the choice between the two mandated standards an authoritative, machine-readable answer the payer returns." - Context: Closing recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The commenter warns that wrong-standard submissions will push providers back to fax and phone workflows.
+- [x] **TECHNICAL-FEASIBILITY** - The core issue is whether dual standards can be reliably routed in real implementation networks.
+- [x] **PATIENT-ACCESS** - Misrouted PA requests may delay access to drugs.
+- [x] **STAKEHOLDER-COORDINATION** - The recommendation requires payers to supply routing information that providers and EHRs can consume.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment directly focuses on the unresolved distinction between benefit categories.
+- [x] **EXISTING-WORKFLOWS** - The commenter contrasts automated routing with fallback to fax and phone.
+- [x] **STANDARDS-MATURITY** - The comment identifies a gap in how the FHIR and NCPDP standard sets interact.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+I am submitting this comment as a private citizen. I am a software architect who served as a voting member of the HL7 Standards Committee. I contributed to the v2.3 ADT, SIU, and ORM messages, and later designed and operated a high-throughput HL7 integration engine that carried more than 800 live production interfaces across EHRs, laboratories, and e-prescription partners.<br/><br/>My comments are limited to a single interoperability mechanic in the proposed rule.<br/><br/>I support the goal of requiring electronic prior authorization for drugs. The recommendations below are intended to help the dual-standard architecture in the rule survive contact with a real network of payers and providers.<br/><br/>Standard selection (medical vs pharmacy benefit) is an unsolved routing problem; make path determination a required capability, not an optional convention.<br/><br/>The proposed rule establishes two mutually exclusive standard sets for drug prior authorization: the FHIR-based Prior Authorization API (Da Vinci) for drugs covered under a medical benefit, and the NCPDP standards for drugs covered under a pharmacy benefit. The PAS IG itself states it &quot;SHOULD NOT be used for any medication that is covered under a pharmacy benefit where prior authorization is provided by another electronic exchange process (for example, NCPDP SCRIPT).&quot;<br/><br/>The rule also acknowledges (correctly) that &quot;there is currently no statutory or regulatory definition that distinguishes between drugs covered under a pharmacy benefit and drugs covered under a medical benefit,&quot; that the same drug can fall into different categories for different payers based on their terms of coverage, and that this classification can change over time. The rule&#39;s proposed remedy is that impacted payers &quot;could indicate which method a provider should use to submit a particular prior authorization.&quot;<br/><br/>&quot;Could&quot; is the problem, from an integration standpoint...

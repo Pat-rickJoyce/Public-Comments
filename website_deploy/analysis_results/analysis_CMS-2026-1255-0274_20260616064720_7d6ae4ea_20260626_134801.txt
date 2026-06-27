@@ -1,0 +1,192 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0274
+Commenter: HIV Medicine Association (HIVMA)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 13:48:01
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** HIV Medicine Association (HIVMA)
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents nearly 6,000 physicians, researchers, scientists, and healthcare professionals working on the frontlines of the HIV epidemic; letter signed by Anna K. Person, MD, FIDSA, Chair of HIVMA.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+HIVMA broadly supports the proposed rule's interoperability standards and extension of PA decision timelines to prescription drugs, framing timely access to HIV medications as both an individual health and public health imperative. The organization urges CMS to extend requirements to state-based marketplace QHP issuers and self-funded ERISA plans, adopt a universal 24-hour PA standard for all payers (including QHP issuers), require clinical criteria disclosure alongside denial reasons, add disaggregated and AI-use metrics to public reporting, and address step therapy—which HIVMA considers categorically inappropriate for HIV—in future rulemaking.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, FF-SHOP-REQUIREMENTS, GENERAL (step therapy RFI)
+- **Regulatory citations mentioned:** 2024 CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F)
+- **Standards referenced:** FHIR (implied via Prior Authorization API); NAIC AI System Evaluation Tool 4.0 and Health AI/ML Survey Report
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Expansion to Additional Payers**
+- **Provision ID:** FF-SHOP-REQUIREMENTS, GENERAL
+- **Position:** Support with Modify (expand scope)
+- **Rationale:** HIVMA supports the proposed extension to FF-SHOP QHP issuers for consistency across QHP offerings. They urge further expansion to QHP issuers on state-based marketplaces (SBMs) and request that CMS work with the Department of Labor to assess applying similar requirements to self-funded ERISA plans.
+- **Specific request:** Extend protections to SBM QHP issuers; collaborate with DOL on ERISA plan applicability.
+
+**Topic 2: Interoperability and Medical Benefit Transparency for HIV Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support with Modify
+- **Rationale:** Long-acting injectable HIV medications are often covered as a medical benefit, and providers have reported challenges accessing medical benefit coverage information including PA criteria. The quality, timeliness, and specificity of PA criteria should be comparable regardless of benefit category.
+- **Specific request:** Ensure parity in quality, timeliness, and specificity of PA criteria information across medical and pharmacy benefit structures.
+
+**Topic 3: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with Modify (expand)
+- **Rationale:** Viral suppression depends on early, uninterrupted antiretroviral therapy. Many issuers operate across Medicaid, Medicare Managed Care, and QHP markets and can apply a consistent standard. Policy inconsistency creates protection gaps as individuals move between coverage types.
+- **Specific request:** Apply the most protective 24-hour standard to all impacted payers, including QHP issuers.
+
+**Topic 4: PA Denial Reasons and Clinical Criteria**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with Modify
+- **Rationale:** Requiring denial reasons is important but insufficient. Providers and patients need specific clinical criteria used in the determination to submit meaningful appeals, especially when denials conflict with clinical standards of care for HIV.
+- **Specific request:** Require impacted payers to disclose the specific clinical criteria used in the PA determination alongside the denial reason.
+
+**Topic 5: PA Reporting Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with Modify
+- **Rationale:** Proposed metrics do not require disaggregation by service type, preventing identification of prescription drug PA trends or potentially discriminatory plan designs targeting HIV medications. AI tools are increasingly used in PA adjudication but are not captured in proposed metrics.
+- **Specific request:** Require data disaggregation by service type including drug category/class; add AI/ML usage metrics capturing how AI is used, which models, and what bias safeguards exist; use PA data for federal monitoring and oversight.
+
+**Topic 6: Step Therapy (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Oppose (for HIV); Support step therapy API requirements
+- **Rationale:** Step therapy is never appropriate for HIV—requiring patients to fail on a regimen before accessing a clinically recommended one can have dire individual and public health consequences. However, HIVMA supports adding step therapy information to API requirements for transparency and oversight.
+- **Specific request:** Address step therapy in future rulemaking; prohibit its use for HIV when conflicting with clinically recommended care; add definitional clarity distinguishing PA from step therapy.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** HIVMA notes HIV-specific challenges with medical benefit drugs (long-acting injectables); urges parity in access to PA criteria information regardless of benefit category.
+- **S15:** HIVMA addresses medical vs. pharmacy benefit distinction specifically for long-acting injectable HIV drugs, noting provider barriers to medical benefit coverage information.
+- **S16:** HIVMA supports specific denial reasons and requests adding the specific clinical criteria used in the determination to enable meaningful appeals.
+- **S20:** HIVMA urges the 24-hour standard be applied universally to all payers including QHP issuers, citing consistency and public health rationale.
+- **S29/S30:** HIVMA supports PA metrics reporting and urges disaggregation by service type and drug category; requests addition of AI/ML usage metrics.
+- **S40/S41:** HIVMA supports FF-SHOP extension and urges further expansion to SBM QHP issuers and potential ERISA plan applicability.
+- **S43:** HIVMA supports aligning PA timeframes and urges adoption of the 24-hour standard across all payers.
+- **S66 (step therapy RFI):** HIVMA argues step therapy is inappropriate for HIV; supports step therapy API requirements to enable oversight; urges clearer definitions of PA and step therapy.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Extend interoperability and PA requirements to QHP issuers on state-based marketplaces.
+2. Work with the Department of Labor to assess whether similar requirements can apply to self-funded ERISA plans.
+3. Ensure parity in quality, timeliness, and specificity of PA criteria for medical benefit drugs, including long-acting injectable HIV drugs.
+4. Apply the 24-hour PA decision standard to all impacted payers, including QHP issuers.
+5. Require impacted payers to disclose specific clinical criteria used in PA determinations alongside denial reasons.
+6. Require PA metrics to be disaggregated by service type, including drug category/class and specific ARV medications.
+7. Add AI/ML usage metrics to required PA reporting, including model identity and bias safeguards.
+8. Use granular PA data for federal monitoring and compliance oversight, not solely public reporting.
+9. Address step therapy in future rulemaking; prohibit its use for HIV when conflicting with clinically recommended care.
+10. Add definitional clarity distinguishing PA from step therapy in regulatory text.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Insufficient PA timeframe protections for QHP issuers; lack of PA data disaggregation obscuring potential HIV drug discrimination; unmonitored AI use in PA; step therapy inappropriate for HIV.
+- **Potential negative impacts cited:** Delayed ART access impairs viral suppression, increases drug resistance, disease progression, and HIV transmission; provider administrative burden from PA (hours to full days per request).
+- **Implementation barriers mentioned:** SBM/ERISA expansion may require additional statutory authority; plans operating across markets should have no difficulty implementing a uniform 24-hour standard.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Studies show early ART access supports viral suppression; virally suppressed individuals cannot sexually transmit HIV.
+- **Studies or research referenced:**
+  - HIVMA, "Prior Authorization and HIV Medications: Considerations for State Policymakers" (January 2026).
+  - Hack J et al., "High Acceptability but Persistent Barriers to Implementation of Long-acting Injectable Antiretrovirals" (Open Forum Infect Dis. 2025).
+  - Hoenigl M et al., "Rapid HIV Viral Load Suppression in those Initiating Antiretroviral Therapy at First Visit" (Sci Rep 2016).
+  - Baumgardner J et al., "Modeling the impacts of restrictive formularies on patients with HIV" (Am J Manag Care 2018).
+  - NAIC Big Data and AI (H) Working Group, AI System Evaluation Tool 4.0 and Health AI/ML Survey Report.
+- **Examples provided:** Long-acting injectable HIV therapies (treatment and PrEP) as examples of medical benefit drugs with PA access barriers; new long-acting HIV pipeline as future concern.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** People living with HIV and those at increased HIV risk; HIV medicine providers; payers across all market types; federal/state regulators; health IT vendors.
+- **Economic implications:** Provider administrative burden from PA (hours to full days per request); costs of delayed HIV treatment; potential AI governance compliance costs.
+- **Technical feasibility:** No technical objections raised; issuers operating across multiple markets can implement a uniform 24-hour standard without significant difficulty.
+- **Patient care impact:** High—timely ART access is a proven determinant of viral suppression and HIV transmission prevention; long-acting injectable PA delays are particularly burdensome.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (broadly supportive with multiple requests for strengthening)
+- **Tone:** Professional, Clinical, Advocacy-oriented
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Step therapy is never an appropriate utilization management technique for HIV. Requiring people with HIV or at increased risk of HIV to 'fail' on a particular regimen before accessing a regimen their provider recommends can have dire individual and public health consequences." — Context: Step therapy RFI response.
+
+2. "Prior authorization requests for long-acting injectable therapies can be the most onerous and time-consuming, which is concerning given the dynamic HIV pipeline with new long-acting products on the way." — Context: Explaining clinical urgency of PA reform for HIV.
+
+3. "CMS should also require impacted payers to include the specific clinical criteria used to make the prior authorization determination, along with the denial reason." — Context: Requesting enhanced denial transparency beyond what is proposed.
+
+4. "Without this detail, the public (and regulators) cannot see what proportion of prescription drugs and devices are subject to prior authorization and what relative denial/approval rates are compared to other service categories." — Context: Advocating for disaggregated PA metrics reporting.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Supports October 1, 2027 compliance; urges 24-hour standard universally applied.
+- [x] **PROVIDER-BURDEN** — HIV PA processes consume hours to full days per request; long-acting injectable PAs are most burdensome.
+- [x] **PATIENT-ACCESS** — Core concern: timely ART access is essential for viral suppression and HIV transmission prevention; delays have individual and public health consequences.
+- [x] **HEALTH-EQUITY** — Potential discriminatory plan designs targeting HIV drug classes; step therapy use for HIV has disparate population health impacts; SBM/ERISA expansion to extend protections more broadly.
+- [x] **TRANSPARENCY** — Supports denial reasons; requests clinical criteria disclosure; urges disaggregated reporting by drug category and AI usage metrics.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Long-acting injectable HIV drugs often covered as medical benefit; providers face barriers accessing medical benefit PA criteria; parity urged.
+- [x] **REGULATORY-AUTHORITY** — Acknowledges SBM/ERISA expansion may require additional statutory authority; urges CMS to work with DOL.
+- [x] **STAKEHOLDER-COORDINATION** — Urges CMS-DOL coordination on ERISA; references NAIC AI evaluation tools as model for metrics.
+- [x] **EXISTING-WORKFLOWS** — Flags step therapy folded into PA without labeling by some plans; urges definitional clarity.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 9, 2026
+
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified
+Health Plans on the Federally-Facilitated Exchanges
+
+To Whom It May Concern:
+
+I am writing on behalf of the HIV Medicine Association (HIVMA) to provide comments
+regarding the Centers for Medicare and Medicaid Services (CMS) proposed rule on
+interoperability standards and prior authorization. HIVMA represents nearly 6,000 physicians,
+researchers, scientists and other healthcare professionals who work on the frontlines of the HIV
+epidemic providing prevention and care and conducting research in communities across the
+country.
+
+Prior authorization is a growing challenge for people who need HIV prevention and treatment
+medications. A recent paper published by HIVMA outlined the clinical and administrative
+barriers that inappropriate and burdensome prior authorization processes place on access to HIV
+medications. Opaque and lengthy prior authorization decision timelines can lead to delayed
+medication access and disruptions in treatment that can result in increased likelihood of drug
+resistance and disease progression...

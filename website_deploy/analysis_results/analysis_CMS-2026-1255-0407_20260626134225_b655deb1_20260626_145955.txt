@@ -1,0 +1,152 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0407
+Commenter: Anonymous Retina Specialist (Private Practice, Illinois) [Template Letter — Signature Block Unfilled]
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:59:55
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Anonymous board-certified retina specialist, managing partner of a private retina practice in Illinois. Note: The comment was submitted as a template letter; the signature block contains unfilled placeholders ("[Your Full Name], MD", "[Practice Name]", etc.) and the practice data section also contains an unfilled placeholder.
+- **Stakeholder type:** Healthcare Provider (individual physician, private specialty practice)
+- **Credentials or expertise mentioned:** Board-certified retina specialist; managing partner; treats neovascular AMD, diabetic macular edema, diabetic retinopathy, retinal vein occlusion using intravitreal anti-VEGF agents
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+A retina specialist supports the rule's direction but argues it repeats a critical omission from the 2024 rule by failing to extend electronic PA reforms to physician-administered drugs under the medical benefit (Part B). Citing evidence that more than 96% of anti-VEGF PA requests are ultimately approved, the commenter urges CMS to extend electronic PA, decision timeframes, gold-carding, and transparent reporting to Part B drugs in the final rule.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, MEDICAL-VS-PHARMACY-BENEFIT
+- **Regulatory citations mentioned:** CMS-0057-F (2024 Interoperability and Prior Authorization final rule); CMS-0062-P (current proposed rule)
+- **Standards referenced:** NCPDP standards (noted as not fitting medical-benefit drugs); FHIR (implicitly via electronic PA API references)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Exclusion of Physician-Administered (Part B) Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL, MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Oppose (the exclusion; supports extending coverage)
+- **Rationale:** The rule concentrates on pharmacy benefit drugs and leaves out physician-administered drugs, which is where the PA burden and patient harm are concentrated for specialties such as retina, oncology, and rheumatology. The same omission was present in the 2024 rule.
+- **Specific request:** Extend electronic PA requirements, real-time benefit lookup, and standardized data exchange to drugs under the medical benefit (Part B). Where NCPDP standards do not fit, direct development of an equivalent standard.
+
+**Topic 2: Decision Timeframes and Transparency for Part B Drugs**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS, PA-DENIAL-REASONS
+- **Position:** Support (and extend to Part B drugs)
+- **Rationale:** The 72-hour expedited and 7-day standard decision windows, specific denial reasons, and public metric reporting should apply to physician-administered drugs on the same terms as other items and services.
+- **Specific request:** Apply all timeframe and transparency requirements equally to Part B physician-administered drugs.
+
+**Topic 3: Prohibition on Repeat Re-Authorization of Stable Chronic Therapy**
+- **Provision ID:** PA-DRUG-MEDICAL, GENERAL
+- **Position:** Modify (request new policy)
+- **Rationale:** Anti-VEGF patients require injections every 4–12 weeks indefinitely; recurring re-authorization creates risk of treatment lapse and permanent vision loss. Each re-auth cycle is a mechanism for harm, not an oversight tool.
+- **Specific request:** Once a payer approves a maintenance regimen, prohibit recurring re-authorization absent a material change in clinical circumstances.
+
+**Topic 4: Gold-Carding Pathway**
+- **Provision ID:** PA-DRUG-MEDICAL, GENERAL
+- **Position:** Modify (request new policy)
+- **Rationale:** When approval rates exceed 90–95% (as they do for anti-VEGF therapy), routine PA imposes cost on everyone to identify a vanishingly small number of inappropriate requests.
+- **Specific request:** Require payers to exempt providers and drug-indication pairs with consistently high approval rates from prior authorization.
+
+**Topic 5: Drug-Level and Plan-Level Public Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support and expand
+- **Rationale:** Granular, drug-level and plan-level reporting of volumes, approval/denial/appeal rates, and decision times would reveal where PA is adding value versus functioning as friction.
+- **Specific request:** Require public reporting broken out by drug and by plan.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12 (technical challenges, PA-DRUG-MEDICAL):** Commenter argues the rule should extend electronic PA to physician-administered drugs; where NCPDP standards are insufficient, CMS should direct development of equivalent standards for medical-benefit drugs.
+- **S15 (medical vs. pharmacy distinction):** Argues the medical benefit/pharmacy benefit distinction is the central flaw — the rule reforms pharmacy benefit PA while leaving medical benefit (where burden is greatest in specialty care) unreformed.
+- **S16 (what is 'specific reason'):** Supports requiring specific denial reasons and applies this to Part B drugs.
+- **S17 (structured codes):** Implicitly supports structured denial information for Part B drugs.
+- **S20 (24-hour achievable):** Supports applying 72-hour expedited and 7-day standard timeframes to Part B drugs.
+- **S29 (which metrics):** Advocates for drug-level and plan-level granularity in metrics reporting.
+- **S35 (publish aggregate):** Supports public reporting of approval/denial/appeal/overturn rates and decision times by drug and plan.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Extend electronic PA requirements (real-time benefit lookup, standardized data exchange) to physician-administered drugs under the medical benefit (Part B).
+2. Where NCPDP standards do not fit medical-benefit drugs, direct development of an equivalent standard.
+3. Apply the 72-hour expedited and 7-day standard decision timeframes to physician-administered drugs.
+4. Apply specific denial reason and public reporting requirements to physician-administered drugs.
+5. Prohibit recurring re-authorization of stable, approved chronic therapy absent a material change in clinical circumstances.
+6. Require a gold-carding exemption for providers and drug-indication pairs with approval rates exceeding 90–95%.
+7. Require public reporting of PA metrics broken out by drug and by plan.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** The rule reforms pharmacy benefit PA while leaving medical benefit (Part B) drugs — where specialty care PA burden is greatest — unreformed; this repeats the critical omission from the 2024 rule.
+- **Potential negative impacts cited:** Patients with chronic retinal disease risk irreversible vision loss during PA delays; each PA cycle for anti-VEGF involves ~100 minutes of clinic staff time despite >96% ultimate approval rate.
+- **Implementation barriers mentioned:** NCPDP standards may not fit physician-administered drugs; a new or adapted standard would need to be developed.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:**
+  - JAMA Ophthalmology (2024): >96% of anti-VEGF PA requests ultimately approved; each consumed median ~100 minutes of clinic staff time.
+  - KFF analysis: MA insurers made ~52.8 million PA determinations in 2024; ~7.7% denied; ~11.5% of denials appealed; >80% of appealed denials overturned in whole or in part.
+- **Studies or research referenced:** JAMA Ophthalmology (2024) study on anti-VEGF PA; KFF analysis of Medicare Advantage PA determinations (2024).
+- **Examples provided:** Anti-VEGF therapy (aflibercept, ranibizumab, faricimab) for retinal diseases; neovascular AMD, diabetic macular edema, diabetic retinopathy, retinal vein occlusion.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Retina patients (risk of permanent blindness), specialty physicians (oncology, rheumatology, retina), private specialty practices
+- **Economic implications:** ~100 minutes clinic staff time per PA request for drugs with >96% approval rates; system-wide administrative waste without meaningful utilization management benefit
+- **Technical feasibility:** NCPDP standards may need adaptation for medical-benefit drugs; otherwise feasibility is similar to pharmacy-benefit implementation
+- **Patient care impact:** High — treatment delays in chronic retinal disease directly cause irreversible vision loss; anti-VEGF patients require recurring injections and repeated PA cycles amplify harm risk
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of rule direction, opposed to scope exclusion of Part B drugs)
+- **Tone:** Professional, clinical, evidence-based
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "When more than nineteen of every twenty requests are approved, the prior authorization step is not functioning as a check on inappropriate utilization — it is functioning as a delay and an administrative tax on care that physicians and payers already agree is necessary." — Context: Arguing against PA for anti-VEGF therapy using 96%+ approval rate data.
+2. "Delay in this setting is not an inconvenience — it is the mechanism of permanent harm." — Context: Describing consequences of PA delays for chronic retinal disease patients.
+3. "This rule modernizes that tool for one category of drugs while leaving the category that drives the greatest burden in specialty care untouched." — Context: Summarizing the core critique of the proposed rule's scope.
+
+---
+
+## 12. THEMES
+
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — The central argument: the rule applies to pharmacy benefit drugs but omits physician-administered medical benefit (Part B) drugs, where specialty care PA burden is concentrated.
+- [x] **PROVIDER-BURDEN** — ~100 minutes clinic staff time per anti-VEGF PA; recurring re-authorization cycles for stable chronic therapy impose continuous administrative burden.
+- [x] **PATIENT-ACCESS** — PA delays in chronic retinal disease risk irreversible vision loss; multiple PA cycles per year for stable patients create unnecessary lapse risk.
+- [x] **TRANSPARENCY** — Supports drug-level and plan-level public reporting of PA outcomes to reveal where PA adds value versus where it is friction.
+- [x] **IMPLEMENTATION-TIMELINE** — Notes the 2024 rule made the same omission; urges correction in the final rule rather than deferring again.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 13, 2026
+Submitted electronically via www.regulations.gov
+Chiquita Brooks-LaSure
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Attention: CMS-0062-P
+Re: Comment on Proposed Rule CMS-0062-P, "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs" — Request to Extend Prior Authorization Reforms to Part B Physician-Administered Drugs
+
+I write to comment on the proposed rule on Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P). I am a board-certified retina specialist and the managing partner of a private retina practice in Illinois. My partners and I treat patients with neovascular age-related macular degeneration, diabetic macular edema, diabetic retinopathy, and retinal vein occlusion — sight-threatening diseases whose standard of care is repeated intravitreal injection of anti-VEGF agents such as aflibercept, ranibizumab, and faricimab...

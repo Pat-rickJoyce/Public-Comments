@@ -1,0 +1,191 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0286_20260616064814_cb85b16c
+Commenter: Healthcare Information and Management Systems Society (HIMSS)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 13:51:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Healthcare Information and Management Systems Society (HIMSS), submitted by Harold F. Wolf III, FHIMSS, President and CEO
+- **Stakeholder type:** Professional Association (health IT)
+- **Credentials or expertise mentioned:** Global health IT society; mission-driven independent advisor to providers, innovators, and governments; prior commenter on CMS-0057 interoperability rule.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+HIMSS endorses the goals of the proposed rule but raises significant concerns about implementation readiness, calling the October 1, 2027 compliance date premature. HIMSS recommends a glidepath starting 18 months after the final rule effective date, prioritization of a CMS payer directory, mandatory testing at scale, IG version standardization, and a delayed ONC standards expiration date of January 1, 2029. On NCPDP vs. FHIR for drug ePA, HIMSS members are divided and recommend CMS convene stakeholders to find short- and long-term solutions. HIMSS also provides detailed cybersecurity recommendations in response to the Healthcare Resiliency RFI.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, ONC-STANDARDS-UPDATE, API-ENDPOINT-REPORTING, GENERAL (cybersecurity RFI)
+- **Regulatory citations mentioned:** CMS-0062-P (the proposed rule); CMS-0057 (prior interoperability rule); 2025 HIPAA Security Rule
+- **Standards referenced:** FHIR (HL7), NCPDP SCRIPT, Da Vinci CRD/DTR/PAS IGs, ONC Health IT Certification Program IGs, NIST Cybersecurity Framework, HL7 FHIR (clearinghouse resiliency), HIPAA Security Rule
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Compliance Timeline (October 1, 2027)**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL
+- **Position:** Oppose (as proposed; request modification)
+- **Rationale:** ePA FHIR APIs have not been tested at scale; CMS payer directory does not yet exist; payers on different IG versions; software development takes more than a year even absent other barriers.
+- **Specific request:** Glidepath of implementation milestones starting 18 months after final rule effective date (or after prerequisites are met).
+
+**Topic 2: CMS Payer Directory**
+- **Provision ID:** API-ENDPOINT-REPORTING, FHIR-IG-REQUIRED
+- **Position:** Modify (prerequisite must be resolved first)
+- **Rationale:** Payer directory essential for ePA payer look-up; its absence makes testing at scale near impossible.
+- **Specific request:** Prioritize payer directory development before compliance deadlines are imposed.
+
+**Topic 3: IG Version Standardization**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Payers use different IG versions due to lack of ONC certification requirements; health plans built on earlier versions for two years, creating compliance conflict.
+- **Specific request:** CMS should set a benchmark for a single IG version for industry alignment.
+
+**Topic 4: NCPDP vs. FHIR for Drug ePA**
+- **Provision ID:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL
+- **Position:** Clarify (divided membership; recommends convening)
+- **Rationale:** NCPDP advocates say FHIR is premature for drug ePA; FHIR advocates say long-term alignment is less burdensome; HIMSS members agree NCPDP is effective short-term; FHIR testable in future.
+- **Specific request:** CMS should convene a diverse group of healthcare constituencies to identify short- and long-term solutions.
+
+**Topic 5: ONC Standards Expiration Date**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** EHR and certified developers are still implementing current standards; January 1, 2028 expiration not reasonable; HIMSS recommends 18-month–2-year cycles for major standard changes.
+- **Specific request:** Voluntary shift January 2028; mandatory compliance January 1, 2029.
+
+**Topic 6: Cybersecurity / Healthcare Resiliency (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Recommend
+- **Rationale:** Healthcare organizations face asymmetric cyber threats; small/rural health systems under-resourced; legacy systems create technical debt; clearinghouses rely on outdated centralized methods; AI growth is emerging cybersecurity risk.
+- **Specific request:** Align new regulations with NIST Cybersecurity Framework; use continuous micro-learning; mandate decentralized FHIR API integrations for clearinghouses; fund small/rural practices; leverage existing Stark Law waivers for preparedness; CMS + OCR joint convening for scalable security guidance.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2/S3 (FHIR IG versions/transitions):** Recommends single IG version benchmark; payer IG version divergence due to lack of ONC certification requirements creates compliance conflict.
+- **S18 (Mandatory IG burden):** Supports FHIR for ePA generally but mandatory IGs before testing at scale and payer directory create barriers.
+- **S21 (Timeline achievable):** October 1, 2027 explicitly called premature; recommends 18-month glidepath from final rule effective date.
+- **S12 (Technical challenges — medical benefit drugs):** ePA FHIR APIs untested at scale; payer directory absence makes testing near impossible.
+- **S14/S22 (NCPDP costs, non-Part D applicability):** Members divided on NCPDP vs. FHIR; recommends CMS convene stakeholders; NCPDP effective short-term.
+- **S60 (ONC versioning approach):** Recommends voluntary January 2028, mandatory January 1, 2029 for new standards/IGs.
+- **S61 (Coordination):** Recommends CMS convene diverse constituencies on NCPDP vs. FHIR.
+- **S62 (Testing criteria):** Explicitly recommends requiring at-scale testing with lessons learned from January 2027 existing API implementation.
+- **S64 (Stakeholder input):** Recommends convening diverse group for NCPDP vs. FHIR decision.
+- **S65 (Industry adoption rates):** Health plans built on earlier IG versions for two years; alignment needed.
+- **S23/S24 (API endpoint reporting/security):** Payer directory development would support endpoint reporting and payer look-up.
+- **S66-S82 (Healthcare Resiliency RFI — Cybersecurity):** Extensive response: NIST alignment, small/rural practice support, continuous micro-learning, clearinghouse decentralization via FHIR, AI as cybersecurity risk, leveraging Stark Law waivers.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Extend the October 1, 2027 compliance date to a glidepath starting 18 months after the final rule effective date or after prerequisites are met.
+2. Prioritize development of the CMS payer directory before compliance deadlines are imposed.
+3. Require testing at scale with lessons learned from January 2027 existing API infrastructure.
+4. Set a benchmark for a single IG version to establish industry alignment.
+5. Convene a diverse group of healthcare constituencies to identify short- and long-term solutions for NCPDP vs. FHIR drug ePA standards.
+6. Set January 2028 as voluntary and January 1, 2029 as mandatory compliance date for new ONC standards/IGs.
+7. Align new CMS cybersecurity regulations with NIST Cybersecurity Framework.
+8. Fund and support small/rural practices when mandating new security measures; consider shared-service models.
+9. Mandate standardized, secure, decentralized API integrations (HL7 FHIR) for clearinghouses.
+10. Use continuous, contextual micro-learning and diagnostic phishing simulation for cybersecurity training.
+11. CMS and OCR together convene diverse regulated entities for scalable MFA, encryption, and risk assessment guidance.
+12. Promote existing Physician Self-Referral Exceptions and Anti-Kickback Act Waivers for ecosystem-wide cybersecurity preparedness.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** October 1, 2027 timeline premature; ONC January 2028 standards expiration too soon; NCPDP vs. FHIR member division; absent payer directory; untested at-scale FHIR ePA.
+- **Potential negative impacts cited:** Compliance conflicts for health plans on earlier IG versions; ineffective ePA without testing and payer directory; small/rural practice bankruptcy from unfunded cybersecurity mandates.
+- **Implementation barriers mentioned:** No at-scale FHIR ePA testing; no CMS payer directory; divergent IG versions in use; software development time over one year; asymmetric cybersecurity resources for small/rural entities; legacy medical device technical debt.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Health plans have built on earlier IG versions for two years; HIMSS recommends 18-month–2-year implementation cycles for major standard changes (consistent policy position).
+- **Studies or research referenced:** 2025 HIPAA Security Rule; HIMSS prior comments on CMS-0057.
+- **Examples provided:** Network micro-segmentation to isolate legacy medical devices; high-profile clearinghouse incidents (implied) demonstrating centralized system vulnerability.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers, EHR developers, certified electronic developers, health IT vendors, health systems, small/rural practices, clearinghouses, patients.
+- **Economic implications:** Premature compliance creates cost burdens; unfunded cybersecurity mandates could bankrupt small/rural clinics; shared-service models could reduce costs.
+- **Technical feasibility:** Significant concerns — at-scale testing not done, payer directory absent, IG version divergence; recommends phased approach.
+- **Patient care impact:** Proper implementation could accelerate care access; premature mandates could disrupt care delivery; small/rural practice bankruptcy reduces patient access.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of goals; opposed to timeline and specific implementation details)
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "October 1, 2027 is a premature compliance date for implementation." - Context: Summary of HIMSS's central concern about implementation readiness.
+
+2. "ePA FHIR® Application Programming Interfaces (APIs) have not been subjected to successful feasibility testing at scale." - Context: First of three implementation hurdles justifying timeline extension request.
+
+3. "HIMSS members, including payers and EHR developers, strongly recommend a glidepath of implementation milestones, starting at 18 months after the final rule effective date or when the prerequisites listed above are completed." - Context: Core timeline recommendation.
+
+4. "Imposing strict regulatory fines or mandates on rural clinics without financial support may drive them into bankruptcy, reducing patient access to care." - Context: Cybersecurity RFI response on small/rural practice resource constraints.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Central concern; October 1, 2027 deemed premature; recommends 18-month glidepath from final rule.
+- [x] **TECHNICAL-FEASIBILITY** - ePA FHIR APIs not tested at scale; CMS payer directory absent; prerequisites must be met before compliance required.
+- [x] **STANDARDS-MATURITY** - IG version fragmentation; NCPDP vs. FHIR division among members; ONC expiration date too soon for industry readiness.
+- [x] **PRIVACY-SECURITY** - Extensive cybersecurity RFI response: NIST alignment, AI risks, clearinghouse vulnerabilities, small/rural practice gaps.
+- [x] **VENDOR-ECOSYSTEM** - EHR developers and certified electronic developers implementing current standards; new IG requirements create compliance conflict; testing at scale needed.
+- [x] **SMALL-PAYER-IMPACT** - Small/rural practices underfunded for cybersecurity; mandates without financial support could cause bankruptcy.
+- [x] **EXISTING-WORKFLOWS** - Health plans built on earlier IG versions for two years; compliance conflict from mandating new IGs without glidepath.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends CMS convene diverse constituencies on NCPDP vs. FHIR; CMS + OCR joint convening for cybersecurity feedback.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - HIMSS members divided on whether FHIR is appropriate for pharmacy benefit drug ePA vs. NCPDP SCRIPT.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 10, 2026
+
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare and Medicaid Services
+Baltimore, MD 21244
+
+Dear Dr. Oz,
+
+On behalf of the Healthcare Information and Management Systems Society (HIMSS), we
+are pleased to provide public comments on the Centers for Medicare and Medicaid
+Services (CMS) proposed rule, Medicare and Medicaid Programs; Patient Protection
+and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed
+Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated
+Exchanges [CMS-0062-P].
+
+HIMSS (the Healthcare Information and Management Systems Society) is a mission-driven
+independent society, a global thought leader, and an advisor dedicated to creating an
+informed and empowered community of providers, innovators, and individuals. HIMSS
+stands apart by bridging strategic and visionary ideas with practical execution,
+empowering health systems and governments globally to achieve measurable impact
+for the future of health and care.
+
+HIMSS commends CMS's continued commitment to advancing ePrior Authorization
+(ePA) processes and interoperability standards through the proposed rule...

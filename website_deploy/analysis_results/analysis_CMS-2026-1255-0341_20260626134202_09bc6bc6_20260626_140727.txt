@@ -1,0 +1,191 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0341_20260626134202_09bc6bc6
+Commenter: American Psychiatric Association
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:07:27
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Psychiatric Association (APA)
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** National medical specialty society representing over 40,000 psychiatric physicians and their patients; signed by Marketa Wills, MD, MBA, FAPA, CEO and Medical Director.
+
+## 2. EXECUTIVE SUMMARY
+
+APA supports CMS's goals to expand electronic prior authorization for prescription drugs, improve interoperability, shorten decision timeframes, provide denial reasons, and publish PA metrics. APA asks CMS to ensure uniform standards, phased implementation, behavioral-health-specific flexibility, technical assistance, financial support, vendor adoption, stronger timeframes of 48 hours standard and 24 hours urgent, and evidence-based clinical guidelines.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; FF-SHOP-REQUIREMENTS.
+- **Regulatory citations mentioned:** 42 CFR Part 2; CMS-0062-P.
+- **Standards referenced:** FHIR-based APIs, NCPDP, EHR systems, structured data exchange, API endpoints.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Standardized APIs and behavioral health implementation**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support with modifications
+- **Rationale:** Uniform standards can improve interoperability, but psychiatric practices often lack infrastructure, staffing, EHR capability, and structured-data capacity.
+- **Specific request:** Enforce uniform standards while providing flexible workflows, technical assistance, targeted financial support, and phased adoption.
+
+**Topic 2: Medical vs pharmacy workflows**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Dual workflows for PBM pharmacy benefit drugs and clinically administered medical benefit drugs may disrupt existing psychiatric care delivery.
+- **Specific request:** Align implementation with clinical workflows and account for small or solo practices.
+
+**Topic 3: Behavioral health privacy and narrative documentation**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Psychiatric care relies on nuanced narrative information and heightened privacy protections, including 42 CFR Part 2.
+- **Specific request:** Permit narrative documentation where clinically appropriate and phase in structured data exchange through templates, semi-structured fields, incentives, and EHR improvements.
+
+**Topic 4: Decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Medication delays can worsen serious mental health conditions, cause avoidable hospitalizations, and interrupt care.
+- **Specific request:** Shorten maximum timeframes to 48 hours for non-urgent requests and 24 hours for urgent requests.
+
+**Topic 5: Denial reasons and clinical guidelines**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modification
+- **Rationale:** Unclear denials cause repeated submissions, delays, and clinician burden.
+- **Specific request:** Require specific denial reasons and evidence-based clinical guidelines developed by professional medical societies.
+
+**Topic 6: Metrics and endpoint reporting**
+- **Provision ID:** API-USAGE-METRICS / API-ENDPOINT-REPORTING
+- **Position:** Support with clarification
+- **Rationale:** Public metrics and endpoint publication can improve accountability and connectivity if implemented consistently and integrated by EHR vendors.
+- **Specific request:** Report both percentages and raw numbers; standardize implementation; support vendor adoption and meaningful workflow improvement.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports standardized FHIR-based APIs and electronic PA workflows, with uniform enforcement.
+- **S12:** Identifies technical challenges for psychiatric practices, including real-time API integration, structured data exchange, multiple API connections, and EHR limitations.
+- **S15:** Describes operational complexity from pharmacy benefit versus medical benefit drug workflows.
+- **S16:** Strongly supports requiring specific denial reasons.
+- **S18:** Supports required standards but warns mandatory implementation can disproportionately burden small or solo psychiatric practices.
+- **S20:** Urges CMS to shorten expedited drug PA timeframes to 24 hours.
+- **S21:** Supports more timely decisions and asks for a phased approach to structured data exchange.
+- **S23:** Supports endpoint publication if it improves connectivity and workflows.
+- **S24:** Indicates endpoint information should be useful for system-to-system connectivity.
+- **S29:** Supports public PA metrics, including percentages and raw numbers.
+- **S35:** Supports public reporting to highlight denial and delay patterns and aid patients and purchasers.
+- **S37:** Requests technical assistance, financial support, EHR improvements, vendor adoption, and behavioral-health workflow flexibility.
+- **S40:** Supports applying improved PA rules to QHPs on FFEs as part of cross-program consistency.
+- **S43:** Supports consistent drug PA timeframes and asks CMS to go beyond the proposal.
+
+## 6. RECOMMENDATIONS
+
+1. Enforce uniform FHIR-based API standards across payers.
+2. Align technical implementation with clinical workflows, especially behavioral health.
+3. Provide robust technical assistance and targeted financial support to psychiatric clinicians.
+4. Use a phased, stepped approach to structured data exchange.
+5. Allow narrative documentation where clinically appropriate while building structured-data capacity.
+6. Shorten PA decision timeframes to 48 hours for non-urgent requests and 24 hours for urgent requests.
+7. Require specific denial reasons and evidence-based guidelines developed by professional medical societies.
+8. Publicly report PA metrics using both percentages and raw numbers.
+9. Ensure API endpoint publication is paired with standardization and EHR vendor adoption.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Small-practice infrastructure gaps, dual workflows, behavioral health privacy, narrative documentation, EHR limits, and burdensome PA practices.
+- **Potential negative impacts cited:** Workflow inefficiencies, data inaccuracies, privacy concerns, delayed medications, worsening symptoms, avoidable hospitalizations, repeated submissions, and interrupted care.
+- **Implementation barriers mentioned:** Lack of staffing, EHR capability, API integration capacity, multiple standards, vendor integration, and structured-data readiness.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** APA represents over 40,000 psychiatric physicians and their patients.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Serious mental health medication delays can worsen symptoms, cause avoidable hospitalizations, and interrupt care; psychiatric notes often contain nuanced narrative information subject to 42 CFR Part 2 concerns.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Psychiatric physicians, small and solo practices, behavioral health patients, payers, EHR vendors, PBMs, Medicare, Medicaid, CHIP, and FFE QHP issuers.
+- **Economic implications:** Implementation may disproportionately burden psychiatric clinicians without technical assistance and financial support.
+- **Technical feasibility:** Feasible if phased, standardized, integrated by vendors, and supported with EHR improvements.
+- **Patient care impact:** Faster decisions and clearer denials could improve medication access and reduce avoidable mental health deterioration.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Collaborative and technical
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "APA supports CMS's efforts to advance interoperability through standardized, FHIR-based APIs and electronic prior authorization workflows." - Context: Endorsing the core API approach.
+2. "Many psychiatric practices lack the infrastructure, staffing, and electronic health records (EHR) capabilities necessary to support real-time API integration." - Context: Explaining implementation burden.
+3. "APA urges CMS to go further by shortening the maximum timeframes to 48 hours for non-urgent requests and 24 hours for urgent requests." - Context: Recommending stronger PA deadlines.
+4. "Prior authorization should be used selectively, not as a routine barrier that delays treatment and adds complexity for patients and clinicians." - Context: Calling for broader PA burden reduction.
+
+## 12. THEMES
+
+- **IMPLEMENTATION-TIMELINE** - APA supports shorter decision timeframes and phased structured-data adoption.
+- **COST-RESOURCES** - APA requests targeted financial support for psychiatric clinicians.
+- **PROVIDER-BURDEN** - The comment centers on clinician workflow, repeated submissions, and small-practice capacity.
+- **PRIVACY-SECURITY** - APA highlights 42 CFR Part 2 and behavioral health privacy concerns.
+- **TECHNICAL-FEASIBILITY** - API integration, EHR capability, structured data, and vendor adoption are central feasibility issues.
+- **STANDARDS-MATURITY** - APA supports FHIR and NCPDP alignment but asks for uniform enforcement and phased adoption.
+- **PATIENT-ACCESS** - Faster medication access is a core rationale, especially for serious mental health conditions.
+- **STAKEHOLDER-COORDINATION** - Success depends on payer consistency, EHR vendor adoption, PBMs, and clinician support.
+- **MEDICAL-VS-PHARMACY-BENEFIT** - APA identifies dual workflows for pharmacy benefit and medical benefit drugs.
+- **TRANSPARENCY** - APA supports denial reasons, public metrics, endpoint publication, and evidence-based guidelines.
+- **EXISTING-WORKFLOWS** - Behavioral health narrative documentation and current care delivery must be accommodated.
+- **VENDOR-ECOSYSTEM** - EHR vendor integration and tools to extract data from narrative notes are necessary for success.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Center for Medicare and Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+Mail Stop C4-26-05 
+7500 Security Boulevard 
+Baltimore, MD 21244-1850 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges (CMS-0062-P) 
+ 
+Dear Administrator Oz, 
+ 
+The American Psychiatric Association (APA), the national medical specialty 
+society representing over 40,000 psychiatric physicians and their patients, 
+appreciates the opportunity to comment on the Centers for Medicare & Medicaid 
+Servicesâ€™ (CMS) proposed rule, Medicare and Medicaid Programs; Patient 
+Protection and Affordable Care Act; Interoperability Standards for Prior 
+Authorization for Drugs (CMS-0062-P). APA commends CMS for its continued 
+commitment to advancing interoperability, improving transparency, and 
+streamlining prior authorization processes across Medicare, Medicaid, and 
+Marketplace plans. In particular, APA supports CMSâ€™s efforts to expand 
+electronic prior authorization requirements for prescription drugs, align 
+standards across payers, and require more timely decision-making and public 
+reporting of plansâ€™ prior authorization metricsâ€”policies that have the potential 
+to reduce administrative burden and improve patient access to medically 
+necessary care. 
+ 
+Interoperability Standards for APIs 
+APA supports CMSâ€™s efforts to advance interoperability through standardized, 
+FHIR-based APIs and electronic prior authorization workflows. The success of 
+these policies will depend on strong enforcement of uniform standards across 
+payers and alignment of technical implementation with clinical workflows.  
+Consistency in policy enforcement will help in the implementation of the 
+technical standards, but there are still significant operational implications. Many 
+ 
+ 
+psychiatric practices lack the infrastructure, staffing, and electronic health records (EHR) 
+capabilities necessary to support real-time API integration, structured data exchange, and 
+compliance with multiple standards (e.g., FHIR and NCPDP). The requirement to manage multiple 
+API connections, adapt clinical documentation to structured formats, and navigate dual workflows 
+for pharmacy benefit managers (typically dispensed through retail pharmacies) versus medical 
+benefit drugs (administered in clinical setting) introduces complexity that may disrupt existing care 
+delivery, particularly in small or solo practices.
+...

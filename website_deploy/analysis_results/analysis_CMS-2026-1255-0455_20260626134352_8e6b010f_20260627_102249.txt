@@ -1,0 +1,182 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0455_20260626134352_8e6b010f
+Commenter: Takeda Pharmaceuticals USA, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:49
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Takeda Pharmaceuticals USA, Inc.; signed by Natalie Morris, Director, Public Policy & Reimbursement, U.S. Public Affairs.
+- **Stakeholder type:** Other - pharmaceutical manufacturer.
+- **Credentials or expertise mentioned:** Takeda describes itself as a global R&D-driven biopharmaceutical company focused on gastrointestinal and inflammation, rare diseases, plasma-derived therapies, oncology, neuroscience, and vaccines; it is a PhRMA member and incorporates relevant PhRMA comments by reference.
+
+## 2. EXECUTIVE SUMMARY
+
+Takeda focuses on CMS's request for information on how technology and data sharing can improve step therapy. It urges CMS to require payer-to-payer transfer of medication histories and prior step therapy outcomes, standardize and digitize step therapy protocols, protect continuity of care after plan changes, and modernize exceptions and appeals through real-time ePA systems.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; MEDICAL-VS-PHARMACY-BENEFIT; PATIENT-ACCESS.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890 (Apr. 14, 2026); CMS-0062-P; 91 Fed. Reg. at 19896.
+- **Standards referenced:** Payer-to-Payer APIs; electronic prior authorization systems; electronic health records; machine-readable step therapy protocols. The comment does not name specific FHIR implementation guides, NCPDP standards, or HL7 standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Continuity of care after plan changes**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** When patients change plans, prior treatment history may not transfer in usable form, causing new plans to restart step therapy and require patients to retry failed treatments. This disrupts treatment, delays access, and increases provider and practice costs.
+- **Specific request:** Require impacted payers to transmit medication histories, including prior step therapy outcomes, through Payer-to-Payer APIs upon patient request and within a defined timeframe; require plans to honor documented treatment failure, intolerance, contraindication, clinical stability, or prior exemptions; prohibit reapplication of step therapy after plan-year or coverage transitions; allow physician attestation when records are unavailable or delayed.
+
+**Topic 2: Standardized and digitized step therapy protocols**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy protocols vary across plans and may be more stringent than clinical guidelines, causing delays, administrative burden, and interference with clinically appropriate prescribing.
+- **Specific request:** Establish federal guardrails requiring step therapy protocols for CMS-regulated payers to align with current clinical guidelines and FDA labeling, limit the number of required steps, prohibit redundant steps in the same therapeutic class or mechanism of action, and prohibit criteria that discriminate between clinically appropriate options solely by method or route of administration.
+
+**Topic 3: Medical and pharmacy benefit harmonization**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Step therapy and coverage policies may cross medical and pharmacy benefit channels, creating continuity problems for patients and administrative complexity for providers.
+- **Specific request:** CMS should consider harmonizing medical and pharmacy benefit coverage policies to improve continuity of therapy.
+
+**Topic 4: Machine-readable step therapy data in APIs and ePA systems**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL
+- **Position:** Modify
+- **Rationale:** Automated point-of-prescribing determinations require step therapy information that can work with EHRs and ePA systems and follow the patient across payers.
+- **Specific request:** Require machine-readable step therapy protocols that integrate with EHRs and ePA systems so completed steps or exemptions under a prior plan are recognized under a new plan.
+
+**Topic 5: Modernized exceptions and appeals**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** Slow and unclear appeals processes interrupt clinically appropriate care and contribute to adverse patient outcomes.
+- **Specific request:** Require real-time ePA systems with built-in step therapy exception pathways based on standardized criteria such as prior failure, contraindication, or clinical stability; include appeals capability; specify rapid turnaround times; require clear upfront information needed for initial coverage requests and exemption review; support pilots for adaptive, data-driven step therapy pathways, clinician overrides, and patient-reported outcomes.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 (step therapy RFI):** Takeda directly responds to the general RFI on how technology and data sharing can improve step therapy. It recommends payer-to-payer medication history transfer, recognition of prior step outcomes, machine-readable protocols, real-time ePA exception pathways, appeals capability, and pilots for adaptive step therapy models.
+- **S15:** The comment addresses medical versus pharmacy benefit continuity by asking CMS to consider harmonizing coverage policies across both benefits to avoid treatment disruption.
+- **S21:** Takeda supports use of real-time ePA systems for drug-related coverage and step therapy decisions, while emphasizing that the systems should include exception and appeals functionality.
+- **S44:** The comment does not directly address HIPAA adoption of FHIR as a standard, but it supports technology-enabled, machine-readable data sharing for PA and step therapy workflows.
+- **S48:** Takeda provides evidence that step therapy and PA impose costs and patient harms and argues that standardization and digitization would reduce avoidable burden.
+- **S51:** The comment identifies practical challenges when non-CMS or transitioning coverage arrangements fail to carry forward prior treatment history in a usable way.
+
+## 6. RECOMMENDATIONS
+
+1. Require impacted payers to share medication histories, including outcomes from prior step therapy protocols, through Payer-to-Payer APIs upon patient request and within a defined timeframe.
+2. Require plans to honor prior documented step therapy outcomes, including treatment failure, intolerance, contraindication, clinical stability, or exemption.
+3. Prohibit CMS-regulated plans from reapplying step therapy in a new plan year or after a coverage transition when prior outcomes or exemptions are documented.
+4. Permit physician attestation when records are unavailable or not received within the required timeframe.
+5. Require step therapy protocols to be evidence-based, transparent, flexible, aligned with clinical guidelines, and no more stringent than FDA labeling and current clinical guidelines.
+6. Limit the number of required steps and prohibit redundant steps within the same therapeutic class or mechanism of action.
+7. Prohibit step therapy criteria that discriminate among clinically appropriate options solely by method or route of administration.
+8. Harmonize medical and pharmacy benefit coverage policies to improve continuity of therapy.
+9. Require machine-readable step therapy protocols compatible with EHRs and ePA systems.
+10. Require real-time ePA systems with built-in exception pathways and appeals capability.
+11. Specify rapid turnaround times and require clear upfront communication about information needed for initial coverage and medical exemption review.
+12. Support pilot programs for adaptive data-driven step therapy pathways, clinician overrides, and patient-reported outcomes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Step therapy delays, lack of continuity after plan changes, inconsistent and overly stringent payer protocols, inadequate transfer of prior medication history, slow appeals, unclear exception processes, and route-of-administration discrimination.
+- **Potential negative impacts cited:** Treatment delays, abandonment of recommended care, serious adverse events, reduced adherence and effectiveness, patient confusion, treatment interruption, preventable hospitalizations, disease exacerbations, reduced disease-free survival, longer hospital stays, added physician/practice costs, and broader system costs.
+- **Implementation barriers mentioned:** Prior treatment history is not transferred in usable format, variation across payer protocols and state laws, lack of machine-readable protocols, absence of real-time exception pathways, and unclear payer communication about required information.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 2025 AMA survey: 95 percent of physicians reported PA delays necessary care, 92 percent reported negative clinical impact, 79 percent said it can lead to treatment abandonment, and 26 percent reported a serious adverse event. Rheumatoid arthritis and psoriatic arthritis step therapy was associated with 19 percent and 29 percent reductions in adherence. An oncology practice saw a six-fold year-over-year increase in drug switches due to step edits, at an average cost of $76 per switch. A cardiology survey found 77 percent reported less time for patient care and 62 percent reported patient confusion and treatment interruption.
+- **Studies or research referenced:** AMA prior authorization survey; Boytsov et al. on biologic access restrictions; Poole et al. on oncology biosimilar step edits; Marcus et al. on congenital cardiology PA burden; Karmarkar et al. expert panel on step therapy criteria; Lenahan et al. Health Affairs study on step therapy protocol variation; Fischer and Avorn JAMA article on step therapy; Murphy et al. systematic review on prior authorization and outcomes.
+- **Examples provided:** Patients changing plans may be required to retry therapies that already failed; step edits can force oncology drug switches; prior step therapy exemptions may not carry forward without payer-to-payer data sharing.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients using drugs subject to step therapy, prescribing clinicians, physician practices, payers subject to CMS regulation, EHR and ePA vendors, pharmaceutical manufacturers, and patients changing health plans.
+- **Economic implications:** Repeated step therapy and drug switching increase physician and practice administrative costs and may increase downstream health system costs through treatment disruption and preventable disease worsening.
+- **Technical feasibility:** Takeda views technology-enabled solutions as feasible if CMS requires machine-readable protocols, payer-to-payer medication history transfer, real-time ePA functionality, and standardized exception criteria.
+- **Patient care impact:** The recommendations aim to reduce delays, prevent repeat failed therapy, preserve stable treatment, reduce abandonment, and improve clinical outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, evidence-based, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We strongly support efforts to modernize step therapy in ways that reduce delays, improve continuity of care, and promote more transparent and clinically appropriate decision-making." - Context: Overall statement of support for modernizing step therapy.
+2. "CMS should require plans to honor documented prior step therapy outcomes from other plans." - Context: Recommendation to protect continuity of care after plan changes.
+3. "CMS should require machine-readable step therapy protocols that work with electronic health records and electronic prior authorization (ePA) systems." - Context: Recommendation to digitize step therapy for point-of-prescribing use.
+4. "CMS should require payers subject to CMS regulation to use real-time ePA systems with built-in exception pathways for step therapy." - Context: Recommendation to modernize exceptions and appeals.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment asks for defined timeframes for payer-to-payer transfer and rapid turnaround times for coverage, exception, and appeal decisions.
+- [x] **COST-RESOURCES** - Takeda cites provider cost from drug switches and administrative burden caused by step therapy and PA.
+- [x] **PROVIDER-BURDEN** - A central concern is reducing clinician and practice time spent on repeat step therapy, documentation, authorizations, and appeals.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - The comment recommends machine-readable protocols, EHR/ePA integration, and Payer-to-Payer API data exchange.
+- [x] **STANDARDS-MATURITY** - Takeda does not discuss named IG maturity, but it emphasizes standardized, machine-readable step therapy rules that can be implemented in technology systems.
+- [x] **PATIENT-ACCESS** - The comment focuses on reducing delays, treatment abandonment, repeated failed steps, and adverse outcomes.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations require coordination among payers, providers, EHR/ePA systems, patients, and CMS.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Takeda requests harmonization of medical and pharmacy benefit coverage policies for continuity of therapy.
+- [x] **TRANSPARENCY** - The comment calls for transparent, evidence-based step therapy criteria and upfront payer communication about required information.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The recommendations target current step therapy, appeals, coverage transition, EHR, and ePA workflows.
+- [x] **VENDOR-ECOSYSTEM** - EHR and ePA system capability is central to the requested machine-readable and real-time workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Takeda Pharmaceuticals USA, Inc. 
+670 Maine Ave. SW, Suite 210, Washington, DC 20024 
+(202) 649-4000 
+ 
+June 15, 2026 
+ 
+VIA ELECTRONIC FILING TO: 
+www.regulations.gov  
+ 
+The Honorable Mehmet Oz, MD 
+Administrator 
+Centers for Medicare and Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+Re: Comment on Medicare and Medicaid Programs; Patient Protection and Affordable 
+Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges 
+Proposed Rule [CMS-0062-P] 
+ 
+Dear Administrator Oz: 
+ 
+Takeda Pharmaceuticals (â€œTakedaâ€) is writing to comment on the Centers for Medicare & 
+Medicaid Servicesâ€™ (CMS) proposed rule relating to Interoperability Standards and Prior 
+Authorization.1 Takeda is a global, values-based, R&D-driven biopharmaceutical company 
+focused on creating better health for people and a brighter future for the world. We aim to 
+discover and deliver life-transforming treatments in our core therapeutic and business 
+areas, including gastrointestinal and inflammation, rare diseases, plasma-derived therapies, 
+oncology, neuroscience, and vaccines. 
+ 
+Takeda appreciates the opportunity to comment on CMSâ€™ proposed rule on Interoperability 
+Standards and Prior Authorization. Our comments focus on the proposed ruleâ€™s request for 
+information on how technology and data sharing can improve the step therapy process. We 
+also support and incorporate by reference relevant comments of the Pharmaceutical 
+Research and Manufacturers of America (PhRMA), of which we are a member. 
+ 
+ 
+1 91 Fed. Reg. 19890 (Apr. 14, 2026). 
+Page 2 
+ 
+ 
+ 
+Utilization management requirements, including ...

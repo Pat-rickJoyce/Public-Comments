@@ -1,0 +1,176 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0251_20260616064804_530e3036
+Commenter: Surescripts
+Source: PDF Attachment
+Analysis Date: 2026-06-17 07:12:02
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Surescripts; signed by Deanne Primozic, VP, Policy and Federal Affairs
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Surescripts operates a national health intelligence network including EHR vendors, PBMs, pharmacies, clinicians, health plans, and other stakeholders; reports 30.5 billion transactions in 2025; offers Real-Time Prescription Benefit and Prior Authorization Automation solutions; is a TEFCA Qualified Health Information Network participant.
+
+## 2. EXECUTIVE SUMMARY
+
+Surescripts strongly supports CMS's proposal to extend and standardize electronic prior authorization for pharmacy benefit drugs using NCPDP SCRIPT, Formulary & Benefit, and Real-Time Prescription Benefit standards. The comment urges CMS to finalize pharmacy-benefit proposals as written, recognize RTPB as the more patient-specific tool for PA and coverage visibility, collaborate with ONC and NCPDP on richer RTPB versions, and address cybersecurity and resiliency through MFA, Zero Trust, encryption, TEFCA, and interagency threat-sharing.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT; FHIR-IG-REQUIRED by background reference; ONC-STANDARDS-UPDATE; PRIVACY-SECURITY-related GENERAL/RFI; STAKEHOLDER-COORDINATION-related GENERAL/RFI
+- **Regulatory citations mentioned:** CMS-0062-P; RIN 0938-AV44; CMS-0057-F; CMS-9115-F; 45 CFR 170.205(u); 45 CFR 170.205(c)
+- **Standards referenced:** NCPDP SCRIPT standard version 2023011; NCPDP Formulary & Benefit Standard Implementation Guide, including v60 and unexpired versions; NCPDP Real-Time Prescription Benefit Standard Implementation Guide, including RTPB v13 and unexpired versions; HL7 FHIR; TEFCA; MFA; Zero Trust Architecture; encryption of ePHI at rest and in transit.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Pharmacy benefit drug standards and SCRIPT versioning**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NCPDP standards already support pharmacy-benefit workflows and avoid disrupting current ePA, formulary, and RTPB infrastructure.
+- **Specific request:** Finalize the pharmacy-benefit proposals as written, including use of NCPDP SCRIPT version 2023011 after January 1, 2028.
+
+**Topic 2: F&B and RTPB roles in prior authorization workflow**
+- **Provision ID:** PA-DRUG-PHARMACY; ONC-STANDARDS-UPDATE
+- **Position:** Support/Clarify
+- **Rationale:** F&B provides group-level formulary reference information, while RTPB provides patient-specific real-time coverage, cost, alternatives, and PA requirements at prescribing.
+- **Specific request:** Require impacted payers to support unexpired NCPDP F&B and RTPB versions adopted at 45 CFR 170.205 and collaborate with ONC and NCPDP on a richer RTPB path.
+
+**Topic 3: Medicaid, CHIP, and QHP RTPB expansion**
+- **Provision ID:** PA-DRUG-PHARMACY; FF-SHOP-REQUIREMENTS where QHP issuers are included
+- **Position:** Support
+- **Rationale:** Medicaid prescribers often lack point-of-care visibility into coverage, cost-sharing, and PA requirements, causing rejected prescriptions, delays, and administrative burden.
+- **Specific request:** Extend RTPB requirements to state Medicaid and CHIP FFS programs, Medicaid managed care, CHIP managed care entities, and QHP issuers on FFEs.
+
+**Topic 4: Medical versus pharmacy benefit distinction**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT; PA-DRUG-MEDICAL
+- **Position:** Support/Clarify
+- **Rationale:** Surescripts supports the proposed distinction and identifies RTPB coverage restriction codes that can signal possible medical benefit coverage.
+- **Specific request:** Use NCPDP RTPB codes 816 and 817 to indicate pharmacy benefit exclusion with possible or definite medical benefit coverage.
+
+**Topic 5: Cybersecurity and resiliency**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Cybersecurity failures directly threaten patient safety when systems are disrupted by ransomware or other attacks.
+- **Specific request:** Treat cyber hygiene as foundational to patient safety; promote interagency threat-sharing; mandate MFA on healthcare endpoints; use Zero Trust Architecture; encrypt ePHI at rest and in transit; support TEFCA with strong accountability.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** Surescripts supports applying NCPDP pharmacy-benefit standards beyond Part D to Medicaid, CHIP, managed care, and FFE QHP issuers.
+- **S15:** Surescripts supports the proposed categories of pharmacy benefit drugs and medical benefit drugs and explains how RTPB codes 816 and 817 can identify drugs potentially covered under the medical benefit.
+- **S19:** The comment indicates Medicaid implementation would address current information gaps and relies on existing PBM, EHR, and network experience, though it does not provide state-by-state readiness details.
+- **S22:** Surescripts argues F&B/RTPB improve efficiency and reduce costs by reducing confusion, rejected prescriptions, and avoidable administrative burden.
+- **S25:** The comment directly addresses RTPB maturity, saying RTPB v13 is growing in adoption while many providers already receive some proprietary RTPB-like PA indications.
+- **S31:** The comment supports requirements for QHP issuers on FFEs but does not request an exception process.
+- **S60/S61:** Surescripts supports unexpired ONC-adopted versions and asks CMS to collaborate with ONC and NCPDP on future RTPB development.
+- **S66-S82:** The comment responds to broader RFIs on cybersecurity, resiliency, TEFCA, and related technology by recommending MFA, Zero Trust, encryption, threat-sharing, and TEFCA adoption.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize the proposed pharmacy benefit drug standards framework as written.
+2. Require NCPDP SCRIPT version 2023011 after January 1, 2028.
+3. Require impacted payers to support an unexpired NCPDP F&B version adopted at 45 CFR 170.205(u).
+4. Require Medicaid, CHIP, managed care, and FFE QHP issuers to support an unexpired NCPDP RTPB version adopted at 45 CFR 170.205(c).
+5. Recognize RTPB as the better standard for patient-specific PA, cost, and coverage information at prescribing.
+6. Collaborate with ONC and NCPDP on a future path for richer RTPB functionality.
+7. Use RTPB coverage restriction codes 816 and 817 to communicate pharmacy benefit exclusion and possible medical benefit coverage.
+8. Treat cybersecurity as patient safety infrastructure and support real-time threat-sharing among HHS, DHS, CISA, law enforcement, and industry stakeholders.
+9. Mandate MFA on healthcare system endpoints, adopt Zero Trust principles, and encrypt ePHI at rest and in transit.
+10. Support TEFCA adoption for resiliency while preserving robust security controls and accountability.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prescriber lack of real-time coverage information, pharmacy counter rejections, Medicaid information gaps, PA delays, cybersecurity vulnerabilities, and fragmented standards evolution.
+- **Potential negative impacts cited:** Delayed medication access, avoidable administrative burden, compromised patient care during cyberattacks, and reduced resiliency.
+- **Implementation barriers mentioned:** RTPB v13 is still in adoption; F&B files may update monthly or more frequently rather than in real time; current RTPB access may use proprietary messaging; healthcare cybersecurity requires cross-sector collaboration.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 30.5 billion transactions in 2025, up 12% from 2024; Prior Authorization Automation available to 68,000 prescribers across 42 health systems, with 119,000 more expected in 2026; 18-second median approval time; 104 medications supported; 34% automated approval rate for in-scope medications; RTPB used 1 billion times in 2025; estimated $55.1 million patient savings in 2025 and $19.5 million from January-April 2026; QHIN activity of 114,149 patient searches and 202,213 clinical documents through April 2026.
+- **Studies or research referenced:** 2025 diabetes adherence study published in the Journal of Managed Care & Specialty Pharmacy; Surescripts 2025 Annual Impact Report; TEFCA; CMS Health Technology Ecosystem.
+- **Examples provided:** sFTP formulary file exchange and API/on-demand formulary delivery; PBMs providing Yes/No PA signals through RTPB; EHRs automatically requesting RTPB data after drug, pharmacy, and patient fields are complete.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Prescribers, patients, Medicaid beneficiaries, pharmacies, PBMs, payers, EHR vendors, QHP issuers, health systems, state agencies, cybersecurity agencies, and QHIN participants.
+- **Economic implications:** Surescripts cites patient savings from RTPB and argues standards reduce avoidable burden, rejected prescriptions, and costs.
+- **Technical feasibility:** The comment presents current broad F&B availability and growing RTPB v13 adoption as evidence of feasibility, while acknowledging ongoing adoption from proprietary to standard messaging.
+- **Patient care impact:** Improved point-of-care coverage and cost visibility can reduce delays, improve adherence, and prevent care disruption; cybersecurity controls protect patient care continuity.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Technical, collaborative, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We urge CMS to finalize these proposals as written." - Context: Support for pharmacy benefit categories and NCPDP SCRIPT 2023011.
+2. "The RTPB standard is better suited to accurately identify prior authorization needs" - Context: Distinguishing RTPB from F&B.
+3. "RTPB addresses a critical information gap in Medicaid prescribing." - Context: Support for extending RTPB requirements.
+4. "good cyber hygiene practices are just as important in overall patient safety" - Context: Cybersecurity RFI response.
+
+## 12. THEMES
+
+- [x] **TECHNICAL-FEASIBILITY** - The comment gives operational evidence on network adoption, EHR integration, and transaction workflows.
+- [x] **STANDARDS-MATURITY** - It discusses NCPDP SCRIPT 2023011, F&B v60/unexpired versions, RTPB v13 adoption, and future RTPB development.
+- [x] **PATIENT-ACCESS** - RTPB and ePA are framed as tools to prevent delays and pharmacy rejections.
+- [x] **COST-RESOURCES** - The comment cites patient savings and operational efficiencies.
+- [x] **PRIVACY-SECURITY** - Cybersecurity, MFA, Zero Trust, encryption, and TEFCA security are major RFI responses.
+- [x] **STAKEHOLDER-COORDINATION** - Surescripts emphasizes cross-industry collaboration and CMS/ONC/NCPDP coordination.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment directly supports the distinction and identifies RTPB codes for medical benefit signals.
+- [x] **EXISTING-WORKFLOWS** - F&B and RTPB integration into EHR prescribing workflows is central.
+- [x] **VENDOR-ECOSYSTEM** - Surescripts describes the role of EHR vendors, PBMs, pharmacies, plans, and network vendors.
+- [x] **TRANSPARENCY** - Real-time coverage, cost, formulary, and PA visibility increase transparency at prescribing.
+- [ ] **IMPLEMENTATION-TIMELINE** - Only the January 1, 2028 SCRIPT date is discussed.
+- [ ] **PROVIDER-BURDEN** - Addressed indirectly through reduced administrative burden.
+- [ ] **HEALTH-EQUITY** - Medicaid access issues are discussed but not framed primarily as equity.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+900 2nd Avenue South, Suite 1300 
+Minneapolis, MN 55402 
+T: 866.267.9482   F: 651.855.3001 
+550 South Clark Street, Suite 1000 
+Arlington, VA 22202 
+T: 703.921.2121   F: 703.921.2191 
+ 
+ 
+ 
+June 9, 2026 
+ 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare and Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244-1850 
+ 
+Via Regulations.gov - CMS-0062-P â€” Interoperability Standards and Prior Authorization for Drugs; 
+Surescripts Comments on Extending Real-Time Prescription Benefit (RTPB) to Plans Nationwide 
+ 
+Dear Administrator Oz, 
+ 
+Surescripts is pleased to provide comments on the proposed regulation, 2026 CMS 
+Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P; RIN: 
+0938-AV44). Surescripts applauds the Administration for its efforts on this proposal, particularly 
+regarding the data standards covering the electronic prior authorization (ePA) for drugs 
+traditionally covered under pharmacy benefits. Thank you for proposing to build upon these 
+standards: NCPDP standards (the NCPDP SCRIPT standard, NCPDP Formulary & Benefit Standard 
+Implementation Guide [NCPDP F&B standard], and the NCPDP Real-Time Prescription Benefit 
+Standard Implementation Guide [NCPDP RTPB standard]).  
+ 
+We appreciate the collective efforts of the agencyâ€™s leadership to build upon the HL7 FHIR data 
+standards codified in the CMS-0057-F regulation (â€œ2024 CMS Interoperability and Prior 
+Authorization final ruleâ€) and CMS-9115-F (â€œ2020 CMS Interoperability and Patient Access final 
+ruleâ€). We support this next step to address the friction points associated with prior authorization 
+for medications. 
+ 
+About Surescripts 
+ 
+Surescripts was created to solve the kind of healthcare challenges no one can tackle alone. We 
+started by bringing together pharmacies, payers and prescribers to make e-prescribing and 
+routing a reality. This means intense cross-industry collaboration, network-building an...

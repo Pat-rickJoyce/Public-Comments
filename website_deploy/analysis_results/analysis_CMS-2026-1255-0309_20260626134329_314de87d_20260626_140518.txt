@@ -1,0 +1,192 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0309
+Commenter: AMGA (American Medical Group Association)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:05:18
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** AMGA (American Medical Group Association); signed by Jerry Penso, MD, MBA, President and CEO
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Founded 1950; represents 440+ multispecialty medical groups and integrated delivery systems; approximately 175,000 physicians caring for one in three Americans; members include oncology, rheumatology, neurology specialists
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AMGA generally supports the proposed rule's extension of prior authorization and interoperability requirements to drugs, but urges CMS to strengthen several provisions. Key recommendations include standardizing a uniform 24-hour PA decision timeframe across all payer types, establishing a default-to-approval policy when payers miss deadlines, extending the Provider Access API to out-of-network providers with a documented care relationship, mandating minimum content standards for denial notices, and creating a Gold Carding framework to exempt high-performing providers from drug PA requirements.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-TIMEFRAMES-DRUGS, PA-DENIAL-REASONS, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, GENERAL
+- **Regulatory citations mentioned:** 91 FR 19890 (April 14, 2026 proposed rule); CMS-0062-P; 89 Fed. Reg. 8758, 8882 (Feb. 8, 2024)
+- **Standards referenced:** Prior Authorization API; Provider Access API; FHIR-based structured machine-readable formats
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Uniform 24-Hour Standard Decision Timeframe**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** The proposed 72-hour standard for QHP issuers on FFEs is inconsistent with the 24-hour standard proposed for Medicaid/CHIP; clinical urgency of a PA request does not vary by payer type; weekend submissions under a 72-hour window can create delays approaching a full business week; providers caring for patients across multiple payer types face unnecessary complexity tracking different standards.
+- **Specific request:** Reduce QHP standard timeframe to 24 hours and apply a uniform 24-hour standard across all impacted payers (MA, Medicaid/CHIP MCOs, QHPs); measure all timeframes in continuous hours, not business or calendar days.
+
+**Topic 2: Default-to-Approval for Missed Deadlines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** CMS-reported data show ~92% of MA PA requests approved initially; ~80% of appealed denials overturned; without a consequence for missing deadlines, payers face no structural incentive to comply; burden of chasing unanswered requests falls on providers and patients; delayed chemotherapy, biologic infusions, and maintenance therapies carry measurable clinical consequences.
+- **Specific request:** Require any drug PA request not decided within the applicable standard or expedited timeframe be deemed automatically approved.
+
+**Topic 3: Provider Access API — Out-of-Network Providers**
+- **Provision ID:** PA-DRUG-MEDICAL (and general Provider Access API)
+- **Position:** Modify
+- **Rationale:** Specialty drug patients often receive care from multiple providers across networks; limiting API access to contracted providers creates incomplete medication histories; patients in underserved communities more likely to rely on out-of-network providers due to limited specialist availability, creating a two-tier care coordination system.
+- **Specific request:** Extend Provider Access API access to any provider with a documented care relationship, regardless of network status; define "care relationship" broadly to include providers who have furnished services or are actively involved in ongoing care.
+
+**Topic 4: Gold Carding for Drug Prior Authorization**
+- **Provision ID:** GENERAL (RFI response on step therapy)
+- **Position:** Modify
+- **Rationale:** Providers with demonstrated appropriate prescribing records add limited utilization management value from PA/step therapy requirements; state-level models in West Virginia and Texas demonstrate feasibility of 90% approval-rate threshold triggering PA exemption; particularly applicable in high-PA specialties like oncology, rheumatology, and neurology.
+- **Specific request:** Establish mandatory Gold Carding framework exempting providers with >=90% drug PA approval rate over a six-month period for specified drug categories; apply automatically from existing payer data; evaluate additional exemptions for risk-bearing value-based care providers.
+
+**Topic 5: Denial Reason Specificity and Minimum Content Standards**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify/Strengthen
+- **Rationale:** Without minimum content standards, denials may continue to rely on boilerplate language such as "not medically necessary" that provides no actionable guidance; value of the requirement depends entirely on how CMS defines and enforces "specific."
+- **Specific request:** Codify minimum content standards for denial notifications requiring: (1) the specific clinical criterion or coverage requirement not met; (2) documentation or clinical information needed for approval; (3) specific plan policy or clinical guideline cited; (4) electronic delivery through the PA API in structured, machine-readable format.
+
+**Topic 6: Value-Based Care Exemptions**
+- **Provision ID:** GENERAL (RFI response on event notifications and care coordination)
+- **Position:** Modify
+- **Rationale:** Providers in risk-bearing arrangements already have financial incentives to avoid unnecessary services; applying PA requirements in these contexts is duplicative and counterproductive.
+- **Specific request:** CMS should collect data on drug PA volume and cost within risk-bearing arrangements and develop a regulatory pathway for exemptions; evaluate targeted exemptions when providers bear financial responsibility for the services at issue.
+
+**Topic 7: Extension to Laboratory Tests and DMEPOS**
+- **Provision ID:** GENERAL (RFI response)
+- **Position:** Support/Expand
+- **Rationale:** Operational challenges for lab and DMEPOS PA are substantially similar to drug PA; high-volume burden for AMGA members in primary care, oncology, and post-acute care.
+- **Specific request:** Extend electronic PA requirements, decision timeframes, and denial transparency standards to lab tests and DMEPOS in future rulemaking.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Recommends minimum content standards for "specific reason" — denial must identify the unmet clinical criterion, documentation needed, and the specific guideline or plan policy supporting the determination.
+- **S17:** Requests that denial reasons be communicated in structured, machine-readable format through the Prior Authorization API; should be codified in regulation rather than left to payer discretion.
+- **S20:** Argues 24-hour timeframe is achievable and should be the uniform standard across all payers, not just Medicaid/CHIP; 72 hours for QHPs is inconsistent and clinically unjustifiable.
+- **S43:** Supports aligning timeframes across all payer types; urges consistent measurement in continuous hours rather than business/calendar days.
+- **S66 (RFI - Event Notifications/Care Coordination):** Recommends CMS collect data on drug PA burden in risk-bearing arrangements and develop a pathway for value-based care exemptions.
+- **S67/step therapy RFI:** Recommends mandatory Gold Carding framework (90% approval rate threshold for six-month period) with automatic application from payer data; cites West Virginia and Texas state models.
+- **S82/Lab-DMEPOS RFI:** Recommends extending electronic PA requirements, decision timeframes, and denial standards to laboratory tests and DMEPOS in future rulemaking.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Reduce QHP standard drug PA decision timeframe from 72 to 24 hours, aligning with the Medicaid/CHIP standard.
+2. Apply a uniform 24-hour standard decision timeframe across all impacted payers (MA, Medicaid/CHIP MCOs, QHPs).
+3. Measure all PA decision timeframes in continuous hours, not business or calendar days.
+4. Require any drug PA request not adjudicated within the applicable timeframe to be automatically deemed approved.
+5. Extend the Provider Access API to all providers with a documented care relationship, regardless of network participation status; define "care relationship" broadly.
+6. Establish a mandatory Gold Carding framework exempting providers with >=90% PA approval rate over six months for specified drug categories, applied automatically from payer data.
+7. Exempt providers in risk-bearing value-based arrangements from step therapy requirements.
+8. Codify minimum content standards for drug PA denial notifications in regulation.
+9. Require PA denial reasons to be delivered through the PA API in structured, machine-readable format.
+10. Collect data on drug PA administrative burden within value-based care arrangements; develop pathway for future exemptions.
+11. Extend electronic PA requirements, decision timeframes, and denial standards to laboratory tests and DMEPOS in future rulemaking.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** 72-hour QHP standard is inconsistent with 24-hour Medicaid/CHIP standard and clinically unjustifiable; absence of default-to-approval renders deadlines unenforceable; restricting Provider Access API to in-network providers creates incomplete medication histories and health equity disparities; boilerplate denial language undermines the value of the denial-reason requirement without minimum content standards.
+- **Potential negative impacts cited:** Delays in chemotherapy, biologic infusions, and discharge medications; care fragmentation for patients with complex conditions; two-tier care coordination system disadvantaging patients in underserved communities; administrative waste when providers must chase unanswered PA requests.
+- **Implementation barriers mentioned:** No specific implementation barriers raised — comment focuses on urging stronger requirements rather than objecting to feasibility.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CMS-reported Medicare Advantage data: >92% of PA requests approved initially; >80% of appealed denials ultimately overturned; UnitedHealthcare reported ~92% approval in Medicaid/CHIP and ~95% in Medicare Advantage.
+- **Studies or research referenced:** KFF (2024) Medicare Advantage prior authorization determinations data; Freed, M. et al., "Insurers' Prior Authorization Data Offers Little Insight Into What Gets Approved or Denied," KFF, April 3, 2026.
+- **Examples provided:** West Virginia and Texas Gold Carding models (90% approval rate threshold over six months); Thursday specialty drug infusion request example illustrating weekend delay risk under 72-hour standard; oncologist managing chemotherapy needing cross-network medication history.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Physicians and multispecialty medical groups (AMGA members); patients with complex/specialty drug needs; patients in underserved communities relying on out-of-network specialists; providers in value-based care arrangements.
+- **Economic implications:** Reduced administrative costs for providers through Gold Carding; reduced re-work from more actionable denial notices; potential reduction in unnecessary PA administrative overhead within risk-bearing arrangements.
+- **Technical feasibility:** Comments note existing payer data is sufficient for automatic Gold Carding application; machine-readable denial reasons through PA API described as feasible "where technically feasible."
+- **Patient care impact:** Significant — delays in specialty drugs, biologics, and infusion therapies have direct clinical consequences; out-of-network API access affects care coordination for complex patients; uniform 24-hour standard would reduce care gaps for patients across payer types.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (generally supportive with significant modification requests)
+- **Tone:** Professional, Technical, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "A 72-hour window for standard drug requests does not reflect the realities of clinical care." - Context: Arguing for uniform 24-hour standard, noting weekend submission risks can create week-long delays.
+
+2. "The absence of a default-to-approval rule renders the deadline itself unenforceable as a practical matter." - Context: Urging default-to-approval consequence for missed PA deadlines, noting payers face no structural incentive without it.
+
+3. "Restricting data access to in-network providers creates a two-tier system in which patients with the most complex needs and the least access receive the least coordinated care." - Context: Recommending Provider Access API extension to out-of-network providers with care relationship.
+
+4. "The value of this requirement will depend entirely on how CMS defines and enforces the term 'specific.'" - Context: Supporting denial reason requirement but urging codified minimum content standards to prevent continued boilerplate responses.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Urges alignment of 72-hour QHP standard to match 24-hour Medicaid/CHIP standard; timeframes should be in continuous hours not business days.
+- [x] **COST-RESOURCES** - References administrative cost of PA within value-based care arrangements; Gold Carding would reduce provider administrative burden and cost.
+- [x] **PROVIDER-BURDEN** - Extensively addresses administrative burden on multispecialty groups tracking different PA timeframes and chasing unanswered requests.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Out-of-network Provider Access API limitation disproportionately affects underserved communities with limited specialist availability.
+- [ ] **TECHNICAL-FEASIBILITY** - Not a primary concern; notes machine-readable denial format feasible where technically possible.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - Central concern: delays in chemotherapy, biologics, infusion therapies, and maintenance medications carry direct clinical consequences.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **STAKEHOLDER-COORDINATION** - Not a primary focus.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not specifically addressed.
+- [x] **TRANSPARENCY** - Strongly supports denial reason requirement; urges minimum content standards and machine-readable format.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Addresses integration of PA requirements with value-based care arrangements; argues PA is incompatible with risk-bearing models.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 11, 2026
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Hubert H. Humphrey Building
+200 Independence Avenue, S.W.
+Washington, DC 20201
+
+Dear Administrator Oz:
+
+On behalf of AMGA, I appreciate the opportunity to comment on the 2026 CMS
+Interoperability Standards and Prior Authorization for Drugs proposed rule (CMS-0062-
+P), as published in the April 14, 2026, Federal Register (91 FR 19890). AMGA commends
+CMS for extending the interoperability and prior authorization framework established in
+the 2024 final rule to include drugs. Prior authorization for drugs, particularly specialty
+and provider-administered therapies, represents one of the most clinically consequential
+administrative burdens facing our member organizations.
+
+Founded in 1950, AMGA represents more than 440 multispecialty medical groups and
+integrated delivery systems, representing approximately 175,000 physicians who care for
+one in three Americans...

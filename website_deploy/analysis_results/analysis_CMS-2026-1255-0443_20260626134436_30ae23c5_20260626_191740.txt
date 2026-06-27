@@ -1,0 +1,173 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0443
+Commenter: Artificer Health, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-26 19:17:40
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Artificer Health, Inc.; signed by Bobby Kuzma, Founder & Chief Executive Officer, and Nikhil P. Rao, MD, MSc, Chief Medical Officer
+- **Stakeholder type:** Technology Vendor; Healthcare Provider
+- **Credentials or expertise mentioned:** Artificer Health builds clinician-side prior authorization software. Dr. Rao is triple-board-certified in general psychiatry, child and adolescent psychiatry, and obesity medicine, with clinical work in eating disorders, pediatric psychiatry, and obesity medicine.
+
+## 2. EXECUTIVE SUMMARY
+
+Artificer Health supports CMS-0062-P and specifically endorses mandatory CRD, DTR, PAS, CDex, drug prior authorization requirements, and the October 1, 2027 compliance target. The comment asks CMS to strengthen the final rule by preserving treating-clinician medical-legal authority, requiring payer API conformance testing with escalation triggers, routing step therapy determinations through Payer-to-Payer exchange with safeguards, requiring patient-and-drug-level benefit routing signals, phasing in laboratory and DMEPOS prior authorization reform, and aligning ONC/EHR certification with payer timelines.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; HIPAA-PA-STANDARDS; PA-TIMEFRAMES-DRUGS; ONC-STANDARDS-UPDATE; GENERAL
+- **Regulatory citations mentioned:** Patient Protection and Affordable Care Act; HIPAA Administrative Simplification provisions. No specific CFR section is cited.
+- **Standards referenced:** HL7 FHIR Da Vinci CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, CDex, PDex; US Core; X12N 278; FHIR R4 CapabilityStatement; FHIR DSTU2 Conformance resource; ONC Inferno; ONC Lantern Payer FHIR endpoint catalog; Payer-to-Payer API; DTR questionnaire response; C-CDA; PDF and text attachments; CRD CoverageInformation extension; NCPDP SCRIPT; NCPDP RTPB; NCPDP F&B; Da Vinci Unsolicited Notifications IG; TEFCA.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Mandatory Adoption of CRD, DTR, PAS, and CDex**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** The commenter states that voluntary Da Vinci IG status has produced uneven payer adoption and shifted payer variation into clinician-side integration cost, deployment time, and workflow burden. It supports mandatory CRD, DTR, PAS, and CDex because fallbacks to manual lookup, payer portals, fax, and X12N 278 preserve burden.
+- **Specific request:** Finalize mandatory CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, and CDex; resist weakening mandates, delaying beyond October 1, 2027, or carving out payer subsets.
+
+**Topic 2: Treating Clinician Medical-Legal Authority**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Artificer Health argues prior authorization is a medical-legal act and that automation should not remove the treating clinician's responsibility for clinical determinations submitted on the clinician's behalf.
+- **Specific request:** Clarify in the final rule preamble and, where appropriate, regulatory text that nothing in CRD, DTR, PAS, or CDex diminishes the treating clinician's medical-legal responsibility; avoid testing incentives for touchless autonomous submission.
+
+**Topic 3: Payer API Testing and Certification**
+- **Provision ID:** ONC-STANDARDS-UPDATE; FHIR-IG-REQUIRED; GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter presents endpoint scan results showing significant variation and no full Da Vinci PAS conformance among 134 publicly discoverable endpoints, arguing that voluntary adoption and one-time attestation are insufficient.
+- **Specific request:** Adopt Tier 1 mandatory Inferno conformance testing for all impacted payers, publish scores, support Tier 2 sandbox environments with realistic production behavior, and trigger Tier 3 ONC certification only after at least 12 months of data showing persistent non-compliance.
+
+**Topic 4: Step Therapy Determinations Through Payer-to-Payer Exchange**
+- **Provision ID:** GENERAL
+- **Position:** Support with safeguards
+- **Rationale:** The commenter says redundant step therapy after plan changes causes preventable adverse events, treatment delays, and care discontinuation, especially in eating disorders, pediatric psychiatry, and obesity medicine.
+- **Specific request:** Adopt Payer-to-Payer routing of step therapy determinations; require transferred data to include authorization dates, documented regimen, clinical justification, patient response markers, and prescriber identity/credentials; require receiving payers to document a patient-level clinical change before re-imposing step therapy.
+
+**Topic 5: Laboratory Tests and DMEPOS Prior Authorization**
+- **Provision ID:** GENERAL
+- **Position:** Support with phased implementation
+- **Rationale:** Artificer Health says specialty lab and DMEPOS prior authorization were excluded from the 2024 final rule and now create disproportionate clinician burden in oncology, rheumatology, endocrinology, orthopedics, pain management, post-surgical recovery, and home health.
+- **Specific request:** Phase expansion with specialty laboratory tests in year 1 and DMEPOS in year 2, to reduce clinician burden without overwhelming payer or clinician implementation capacity.
+
+**Topic 6: Medical-Benefit vs Pharmacy-Benefit Drug Routing**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify/Modify
+- **Rationale:** The commenter supports the dual-track architecture but says the unresolved problem is determining, at the point of order, whether a specific patient-drug combination belongs under medical benefit, pharmacy benefit, or both. Existing CRD, RTPB, and F&B standards were not designed to supply this routing signal.
+- **Specific request:** Require impacted payers by October 1, 2027 to publish a machine-readable patient-and-drug-level benefit-determination signal retrievable by clinician-side tools at order time, indicating benefit path, split coverage scenarios, and conditions determining routing.
+
+**Topic 7: Event Notifications and Resiliency RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Support/Clarify
+- **Rationale:** Artificer Health supports expanding ADT/event notification infrastructure for care continuity, especially in behavioral health level-of-care transitions, and says interoperability infrastructure should degrade gracefully during outages and service disruptions.
+- **Specific request:** Explore TEFCA integration and Da Vinci Unsolicited Notifications as candidate paths; design and test FHIR-based infrastructure for graceful degradation.
+
+**Topic 8: Compliance Timeline and EHR Coordination**
+- **Provision ID:** IMPLEMENTATION-TIMELINE-related GENERAL; FHIR-IG-REQUIRED
+- **Position:** Support with interim milestones
+- **Rationale:** The commenter says October 1, 2027 gives sufficient runway while maintaining urgency, but large payers can move faster and EHR vendors may be unevenly prepared.
+- **Specific request:** Maintain October 1, 2027 as the end state, consider earlier interim milestones for the top 25 payers by enrollment, and coordinate with ONC so EHR certification updates align with payer API timelines.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Strongly supports elevating CRD, DTR, and PAS from strongly recommended to mandatory standards.
+- **S2:** Supports specific mandatory versions: CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, and CDex for attachments.
+- **S12:** Addresses operational challenges for clinician-side prior authorization tools, including routing, integration variability, and payer API non-conformance.
+- **S15:** Directly addresses the medical-benefit-versus-pharmacy-benefit distinction and asks for a patient-and-drug-level benefit routing signal.
+- **S18:** Argues mandatory IGs reduce clinician burden by eliminating payer-side variation that currently creates manual fallback workflows.
+- **S21:** Supports the October 1, 2027 compliance date and recommends earlier interim milestones for the largest payers.
+- **S25:** Notes that existing RTPB and F&B standards do not solve the benefit-routing signal needed for dual-track drug prior authorization.
+- **S37:** Provides implementation challenge evidence from Artificer Health's endpoint conformance scans and clinician-side integration experience.
+- **S54:** Provides a detailed response to testing and certification: Tier 1 mandatory Inferno testing, Tier 2 realistic sandboxes, and Tier 3 ONC certification only after persistent measured non-compliance.
+- **S60-S65:** Indirectly addresses ONC coordination and certification alignment by asking CMS and ONC to align EHR certification updates with payer timelines.
+- **S66-S82:** Responds to RFIs on step therapy, laboratory/DMEPOS prior authorization, event notifications, and healthcare resiliency.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize mandatory CRD 2.2.1, DTR 2.2.0, PAS 2.2.1, and CDex.
+2. Do not delay mandatory IG requirements beyond October 1, 2027 or carve out payer subsets.
+3. Clarify that the rule does not diminish treating-clinician medical-legal responsibility for prior authorization submissions.
+4. Avoid incentives for touchless autonomous prior authorization submission without clinician review.
+5. Adopt Tier 1 mandatory Inferno conformance testing for all impacted payers and publish scores.
+6. Permit Tier 2 shared sandbox infrastructure for smaller payers and require sandbox behavior to reflect production behavior, with at least quarterly refreshes.
+7. Trigger Tier 3 ONC certification only after persistent measured non-compliance, using score thresholds and complaint patterns.
+8. Adopt Payer-to-Payer routing of step therapy determinations with required clinical data elements.
+9. Require receiving payers to document a specific patient-level clinical change before re-imposing step therapy after a transferred determination.
+10. Phase prior authorization reform into specialty lab testing first, then DMEPOS.
+11. Require patient-and-drug-level machine-readable benefit-determination signals by October 1, 2027.
+12. Consult Da Vinci Project members and clinician-side tool developers on the resource and field structure for benefit routing.
+13. Explore TEFCA and Da Vinci Unsolicited Notifications for event notifications.
+14. Design FHIR infrastructure for graceful degradation during outages and third-party disruptions.
+15. Consider earlier interim milestones for the top 25 payers by enrollment and align ONC EHR certification updates with payer timelines.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Payer-side variation; voluntary IG adoption; clinician workflow burden; autonomous submissions undermining clinician authority; insufficient payer API conformance; redundant step therapy after plan transitions; unresolved medical/pharmacy benefit routing; EHR readiness gaps.
+- **Potential negative impacts cited:** Lost clinical time, integration cost, delayed deployment, patient safety risks, liability uncertainty, reduced clinician trust, preventable adverse events, care discontinuation, pediatric psychiatric deterioration, eating disorder care delays, and obesity-related clinical setbacks.
+- **Implementation barriers mentioned:** Lack of full Da Vinci PAS endpoint conformance, unreachable/erroring payer endpoints, DSTU2/R4 inconsistency, small payer sandbox capacity, poor sandbox-production fidelity, unclear benefit routing, weak EHR certification alignment, and added complexity from lab/DMEPOS expansion.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA 2023 Prior Authorization Physician Survey estimates 13 hours per clinician per week lost to PA burden. Artificer Health's June 12, 2026 scan probed 134 publicly discoverable payer-side FHIR endpoints: 73 returned a capability statement, 33 returned an error response, 28 were unreachable, zero achieved full Da Vinci PAS conformance, 35 declared partial Da Vinci profiles without CRD/DTR/PAS, 38 exposed only baseline FHIR resources, and 29 endpoints intermittently returned DSTU2-era Conformance resources rather than R4 CapabilityStatement resources.
+- **Studies or research referenced:** AMA 2023 Prior Authorization Physician Survey; Academy for Eating Disorders position on anorexia nervosa as relapsing-remitting.
+- **Examples provided:** Manual coverage-rule lookup when CRD is absent; hand-mapping documentation when DTR is absent; portal/fax/X12N 278 fallback when PAS is absent; pediatric eating disorder level-of-care denials; pediatric psychiatry step therapy retrials; GLP-1 therapy disruption in pediatric obesity medicine; specialty lab and DMEPOS workflow examples.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clinicians, clinician-side technology vendors, EHR vendors, payers, smaller and regional payers, patients undergoing prior authorization, pediatric behavioral health patients, eating disorder patients, obesity medicine patients, lab and DMEPOS users, CMS, ONC, and Da Vinci/standards developers.
+- **Economic implications:** Mandatory IGs and testing may reduce clinician labor and vendor integration costs, while phased scope expansion and shared sandboxes may reduce implementation burden for smaller payers.
+- **Technical feasibility:** Feasible if CMS requires conformance testing, realistic sandboxes, defined escalation triggers, benefit routing signals, and ONC/EHR timeline alignment.
+- **Patient care impact:** High. The comment ties prior authorization automation and step therapy routing to patient safety, continuity of care, treatment delays, and clinical deterioration.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Technical, clinical, and collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. 'What is voluntary on the payer side becomes mandatory complexity on the clinician side.' - Context: Rationale for mandatory CRD, DTR, PAS, and CDex.
+2. 'Prior authorization is a medical-legal act.' - Context: Basis for preserving clinician final authority.
+3. 'Zero live endpoints achieved full Da Vinci Prior Authorization Support conformance.' - Context: Evidence supporting mandatory conformance testing.
+4. 'The benefit-routing signal is the missing link that lets clinician-side tools abstract dual-track complexity without burdening clinical staff.' - Context: Request for medical/pharmacy benefit routing data.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The commenter supports October 1, 2027, recommends top-25 payer interim milestones, and proposes phased lab/DMEPOS expansion.
+- [x] **COST-RESOURCES** - The comment discusses integration cost, clinician time, small payer sandbox capacity, and phased implementation burden.
+- [x] **PROVIDER-BURDEN** - Reducing clinician-side prior authorization burden is a central focus.
+- [x] **TECHNICAL-FEASIBILITY** - The comment provides detailed API conformance, sandbox, certification, and routing signal proposals.
+- [x] **STANDARDS-MATURITY** - It supports specific Da Vinci IG versions and describes conformance gaps with existing FHIR endpoints.
+- [x] **PATIENT-ACCESS** - Step therapy routing, lab/DMEPOS reform, and benefit routing are tied to preventing access delays.
+- [x] **STAKEHOLDER-COORDINATION** - The comment asks CMS to coordinate with ONC, Da Vinci, clinician-side tool developers, EHR vendors, and payers.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The medical/pharmacy benefit routing problem is one of the comment's major recommendations.
+- [x] **EXISTING-WORKFLOWS** - The analysis focuses on real clinical order workflows, prior authorization submissions, lab/DMEPOS processes, and plan-transition step therapy.
+- [x] **VENDOR-ECOSYSTEM** - The commenter is a clinician-side PA vendor and discusses EHRs, payer APIs, endpoint catalogs, sandboxes, and certification.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Artificer Health, Inc.
+CLINICIAN-SIDE PRIOR AUTHORIZATION
+Artificer Health, Inc.
+1424 Commercial Park Dr, Suite 8
+Lakeland, FL 33801
+artificerhealth.com
+June 14, 2026
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8016, Baltimore, MD 21244-8016
+Submitted electronically via regulations.gov
+Re: CMS-0062-P, Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs
+Docket No. CMS-2026-0062
+
+I. Introduction and interest of the commenter
+Artificer Health, Inc. submits these comments on the proposed rule CMS-0062-P, Interoperability Standards and Prior Authorization for Drugs, published in the Federal Register on April 14, 2026.
+
+Artificer Health is an early-stage company that builds clinician-side prior authorization software. Our product takes the documentation, submission, and tracking burden off clinical teams and keeps the treating clinician's medical-legal authority intact on every submission...

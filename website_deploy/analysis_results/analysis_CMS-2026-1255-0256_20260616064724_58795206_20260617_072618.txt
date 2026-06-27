@@ -1,0 +1,169 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0256_20260616064724_58795206
+Commenter: The National Puerto Rican Chamber of Commerce
+Source: PDF Attachment
+Analysis Date: 20260617_072618
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** The National Puerto Rican Chamber of Commerce (NPRCC); signed by Joel Berrocal, Executive Director
+- **Stakeholder type:** Advocacy Group / Other (business and community advocacy organization)
+- **Credentials or expertise mentioned:** Represents small businesses and Puerto Rican communities across Puerto Rico and the U.S. mainland; comments from the perspective of Hispanic Medicare Advantage enrollees, small/independent practices, and Puerto Rico's resource-constrained health care system.
+
+## 2. EXECUTIVE SUMMARY
+
+NPRCC supports CMS's proposal to modernize medication prior authorization and expand electronic prior authorization because it may reduce delays, provider burden, and access inequities for Puerto Rican and Hispanic communities. The commenter asks CMS to strengthen the proposal by requiring 24-hour standard drug PA decisions across markets, mandating clinically specific denial rationales, publishing detailed PA metrics, and prohibiting step therapy in Medicare Advantage.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; GENERAL/RFI topics on step therapy.
+- **Regulatory citations mentioned:** No CFR sections cited. The comment references CMS-0062-P and Medicare Advantage PA timelines.
+- **Standards referenced:** Electronic prior authorization generally; no specific FHIR IGs, NCPDP standards, HL7 standards, or API implementation guides are named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Expand electronic prior authorization for medications**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Real-time coverage access and electronic request submission would reduce administrative back-and-forth, preserve clinical capacity, and help patients receive decisions without unnecessary delay.
+- **Specific request:** Finalize and advance electronic medication PA reforms in a way that eases provider burden and improves access for Puerto Rican and Hispanic communities.
+
+**Topic 2: Accelerate drug PA decision timelines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Delayed determinations can create treatment gaps and complications for patients with serious chronic conditions, with particular impact on Hispanic patients who face higher rates of some chronic illnesses.
+- **Specific request:** Require standard prior authorization decisions within 24 hours for all drugs in all markets, building on the Medicare Advantage urgent 24-hour and standard 72-hour framework.
+
+**Topic 3: Require specific denial rationales and monitor denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Faster timelines should not lead payers to issue more inappropriate denials; clinically relevant denial reasons are needed for accountability and patient protection.
+- **Specific request:** Require payers to provide specific, clinically relevant rationales for denials and closely monitor plan behavior.
+
+**Topic 4: Public PA metrics and transparency**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Detailed metrics would show how prior authorization affects patient access and provider burden.
+- **Specific request:** Require every payer to disclose initial denial rates and appeal outcomes, broken out by therapeutic area and drug type where appropriate, and have CMS publish the data in an annual public report.
+
+**Topic 5: Step therapy limits in Medicare Advantage**
+- **Provision ID:** GENERAL
+- **Position:** Modify / Oppose current practice
+- **Rationale:** Medicare Advantage enrollees, including many Hispanic beneficiaries, should not have to try alternative therapies before receiving the treatment their clinician considers appropriate, especially when continuity of chronic care is important.
+- **Specific request:** Prohibit step therapy in MA plans and require all payers to clearly disclose and standardize step therapy policies.
+
+## 5. SOLICITATION RESPONSES
+
+- **S20:** NPRCC effectively responds to the feasibility and desirability of faster drug PA timeframes by urging CMS to accelerate standard decisions to 24 hours for all drugs in all markets.
+- **S16:** The comment supports requiring specific denial reasons and emphasizes that rationales should be clinically relevant.
+- **S29:** NPRCC recommends PA-related metrics including initial denial rates and appeals outcomes, stratified by therapeutic area and drug type where appropriate.
+- **S35:** The commenter asks CMS to compile and publish payer PA metrics in an annual public report.
+- **S66-S82:** The step therapy discussion aligns with the general/RFI topics addressing utilization management practices beyond core ePA requirements.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize and advance the proposed expansion of electronic prior authorization for medications.
+2. Require 24-hour standard decision timelines for all drug prior authorizations in all markets.
+3. Require payers to issue specific, clinically relevant denial rationales.
+4. Monitor payer denial behavior to ensure faster timelines do not increase inappropriate denials.
+5. Require detailed PA metric disclosure, including initial denial rates and appeals outcomes by therapeutic area and drug type where appropriate.
+6. Publish PA metrics in an annual CMS public report.
+7. Prohibit step therapy in Medicare Advantage plans.
+8. Require payers to clearly disclose and standardize step therapy policies.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization delays, high denial volumes, treatment disruption, provider administrative burden, step therapy barriers, and inequitable effects on Hispanic and Puerto Rican patients.
+- **Potential negative impacts cited:** Patients may forgo care, experience worse outcomes, suffer treatment gaps, and face complications from chronic conditions; small and independent practices may face unsustainable administrative strain.
+- **Implementation barriers mentioned:** Provider shortages and resource constraints in Puerto Rico; administrative strain caused by current PA processes.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** More than two-thirds of Hispanic Medicare beneficiaries are enrolled in Medicare Advantage; MA insurers processed nearly 53 million PA requests in 2024 and denied more than four million fully or partially.
+- **Studies or research referenced:** No specific studies cited.
+- **Examples provided:** Prior authorization and step therapy disrupting medication access for patients with chronic conditions; resource constraints and provider shortages in Puerto Rico.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Puerto Rican and Hispanic patients, Medicare Advantage enrollees, small and independent practices, providers serving Puerto Rican communities, payers, and CMS.
+- **Economic implications:** Reduced administrative burden may preserve provider capacity and practice sustainability; current PA processes increase health care costs and strain practices.
+- **Technical feasibility:** The comment assumes electronic PA and real-time coverage information are feasible and beneficial, but does not discuss FHIR, NCPDP, or API implementation details.
+- **Patient care impact:** Strongly positive if finalized and strengthened: faster access, fewer treatment gaps, better chronic disease continuity, and reduced disparities.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with requested modifications
+- **Tone:** Professional, collaborative, patient-access focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "NPRCC strongly supports CMS's proposal to expand electronic prior authorization (ePA) for medications." - Context: Overall position on the proposed drug ePA expansion.
+2. "we encourage CMS to build on this framework by accelerating the standard decision timeline to 24 hours for all drugs in all markets." - Context: Recommendation on PA decision timeframes.
+3. "CMS should require payers to issue specific, clinically relevant rationales for denials and closely monitor plan behavior." - Context: Denial transparency and guardrails against inappropriate denials.
+4. "CMS should prohibit the use of step therapy in MA plans and ensure that all payers clearly disclose and standardize their policies." - Context: Request to address step therapy barriers.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment focuses on faster decision timelines, especially a 24-hour standard for all drug PAs.
+- [x] **COST-RESOURCES** - NPRCC states current PA processes increase costs and strain small and independent practices.
+- [x] **PROVIDER-BURDEN** - The comment emphasizes reducing administrative back-and-forth and preserving clinical capacity.
+- [x] **HEALTH-EQUITY** - The commenter centers impacts on Puerto Rican and Hispanic patients, noting disproportionate MA enrollment and chronic illness burdens.
+- [x] **PATIENT-ACCESS** - Faster PA decisions and step therapy limits are framed as necessary to prevent treatment gaps and care delays.
+- [x] **TRANSPARENCY** - NPRCC asks for clinically relevant denial rationales and public reporting of PA metrics.
+- [x] **EXISTING-WORKFLOWS** - The comment supports ePA because it would streamline provider workflows.
+
+Not addressed: privacy/security, regulatory authority, technical standards maturity, endpoint reporting, state extension processes, FF-SHOP requirements, Open Payments CMPs, and ONC standards updates.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+866.576.5222 
+
+
+
+info@NPRChamber.org 
+www.NPRChamber.org 
+ 
+ 
+June 8th, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+RE: [CMS-0062-P] Request for Information on Proposed Rule for Interoperability Standards 
+and Prior Authorization for Drugs  
+ 
+Dear Administrator Oz,  
+ 
+The National Puerto Rican Chamber of Commerce (NPRCC) appreciates the opportunity to comment 
+on CMS's proposed rule to modernize prior authorization processes and strengthen interoperability 
+standards.  
+ 
+NPRCC is committed to advancing policies that strengthen the well-being of small businesses and 
+the communities they serve across Puerto Rico and the U.S. mainland. To that end, we welcome 
+CMS's efforts to improve the burdensome prior authorization processes that too often impede 
+clinically appropriate care, increase healthcare costs, and strain the providers many Puerto Rican 
+communities rely on.  
+ 
+More than two-thirds of Hispanic Medicare beneficiaries are currently enrolled in Medicare Advantage 
+plans. These plans impose particularly strict prior authorization requirements -- forcing providers to 
+secure insurer approval before administering many medications. In 2024 alone, Medicare Advantage 
+insurers processed nearly 53 million prior authorization requests and denied more than four million 
+either fully or partially.  
+ 
+These denials routinely delay necessary treatment, cause patients to forgo care, and lead to worse 
+outcomes. The impact is especially acute for Hispanic patients, who face higher rates of many 
+chronic illnesses that require reliable medication access. When prior authorization disrupts treatment, 
+patients are left managing escalating symptoms and complications -- deepening existing health 
+inequities and straining the clinicians and practices that care for them.
+ 
+CMS's proposed rule offers an opportunity to begin addressing these long-standing challenges for the 
+benefit of both Puerto Rican patients and providers.
+...

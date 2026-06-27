@@ -1,0 +1,174 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0303_20260626134332_7c7ab2b3
+Commenter: Alliance of Dedicated Cancer Centers (ADCC)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:03:27
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Alliance of Dedicated Cancer Centers (ADCC); signed by Jack Kolosky, Executive Director.
+- **Stakeholder type:** Healthcare Provider; Professional Association.
+- **Credentials or expertise mentioned:** ADCC represents academic medical centers devoted exclusively to cancer treatment. Members are described as regional, national, and international leaders in oncology research, clinical care, and innovation.
+
+## 2. EXECUTIVE SUMMARY
+
+ADCC supports CMS's effort to reform prior authorization but argues that oncology patients need stronger protections against delays, vendor confusion, post-service denials, and fragmented utilization management. The comment recommends gold-carding for high-approval providers, payer accountability for delegated vendors, uniform and enforceable timelines with automatic approval, granular public reporting and audits, protections against post-service no-authorization denials, and careful review of step therapy, site-of-care, specialty pharmacy, and white-bagging requirements in oncology.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; HIPAA-PA-STANDARDS; GENERAL/RFIs.
+- **Regulatory citations mentioned:** No CFR citations. The comment references CMS-0062-P, HIPAA transaction standards, and CMS's outpatient hospital prior authorization program.
+- **Standards referenced:** Standard HIPAA transactions; standardized transaction codes for gold-carded services/providers and no-authorization-required claims; no specific FHIR IG or NCPDP standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Gold-Carding for High-Approval Providers**
+- **Provision ID:** GENERAL; PA-DRUG-MEDICAL
+- **Position:** Modify.
+- **Rationale:** ADCC members have high PA approval rates and evidence-based oncology expertise, yet continue to face PA burden for routinely approved care.
+- **Specific request:** Require payers to implement gold-carding, evaluate opportunities for specialty providers such as cancer centers, exempt eligible providers from PA and notification requirements, and create standardized claim transaction codes for gold-carded services and providers.
+
+**Topic 2: Delegated Vendor Accountability**
+- **Provision ID:** GENERAL; HIPAA-PA-STANDARDS
+- **Position:** Clarify/Modify.
+- **Rationale:** Payers often delegate PA to vendors such as AIM and EviCore, creating confusion when vendors lack complete treatment plans, medical history, or coverage details.
+- **Specific request:** Require payers to make vendor use invisible to providers, remain the single point of contact, and be fully accountable for HIPAA transaction standards and PA timeframes even when vendors perform PA functions.
+
+**Topic 3: Uniform PA Timelines for Drugs and Related Services**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modifications.
+- **Rationale:** It is operationally impractical and clinically risky if an urgent chemotherapy drug is approved within 24 hours while administration services take 72 hours.
+- **Specific request:** Standardize timelines across payer types and related services, authorize provider-administered drugs and associated services on the same timeframe, and deem requests automatically approved if payers miss deadlines.
+
+**Topic 4: Clarification of Expedited Review**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify.
+- **Rationale:** The term expeditiously is subjective and may be inconsistently applied, while oncology delays of even a few days can be clinically significant.
+- **Specific request:** Define expeditiously through objective timeframes and operational requirements, require plans to prioritize urgent oncology PA, set measurable standards, and give substantial weight to treating provider determinations of urgency.
+
+**Topic 5: Enforcement and Accountability**
+- **Provision ID:** API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify.
+- **Rationale:** Regulatory standards may not protect patients if plans and delegated vendors are not audited or penalized for noncompliance.
+- **Specific request:** Define CMS oversight and enforcement for plans and delegated entities, audit publicly reported PA metrics, require corrective action, impose financial penalties, increase oversight for repeat offenders, and protect patients through automatic approval when deadlines are missed.
+
+**Topic 6: Post-Service No-Prior-Authorization Denials**
+- **Provision ID:** PA-DENIAL-REASONS; HIPAA-PA-STANDARDS
+- **Position:** Modify.
+- **Rationale:** Providers may obtain authorization or be told no PA is required, yet later receive claim denials for lack of PA, creating months or years of unresolved payment disputes.
+- **Specific request:** Prohibit later no-PA denials when a payer approved authorization or stated none was required, absent fraud, material misrepresentation, or incomplete provider information; track these communications; require timely correction; and create a universal standard transaction code for no authorization required.
+
+**Topic 7: Payer-Initiated Withdrawals**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS
+- **Position:** Clarify/Modify.
+- **Rationale:** Payer withdrawals may obscure true performance if excluded from metrics and could be used to avoid compliance.
+- **Specific request:** Treat payer-initiated withdrawals as denials for reporting, compliance, and oversight unless requested by the provider or patient, and prohibit denial, withdrawal, reclassification, or urgency downgrades due to payer failure to meet review timelines.
+
+**Topic 8: Public Reporting Granularity**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications.
+- **Rationale:** Aggregate reporting may hide plan, product, specialty service, or delegated vendor problems.
+- **Specific request:** Publicly report type of provider, approval rates, denial rates, appeal rates, overturn rates, average decision times, expedited review rates, payer-initiated withdrawals, timeframe compliance, submission method differences, medical versus pharmacy benefit determinations, oncology specialty services, and provider-level performance comparisons.
+
+**Topic 9: Step Therapy, Specialty Pharmacy, and Site-of-Care Restrictions**
+- **Provision ID:** GENERAL/RFIs; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify.
+- **Rationale:** Oncology care requires coordinated multidisciplinary management; payer restrictions can move treatment away from the treating oncologist's setting, delay therapy, disrupt procurement, and compromise patient safety.
+- **Specific request:** Evaluate step therapy, site-of-care restrictions, specialty pharmacy requirements, white-bagging, and payer-directed specialty pharmacy use; prevent these policies from applying to oncology patients when they fragment care; distinguish site-of-care denials from medical necessity denials.
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** ADCC asks CMS to distinguish medical versus pharmacy benefit determinations in public reporting and to address specialty pharmacy and provider-administered oncology drug restrictions.
+- **S16/S17:** ADCC requests clearer denial bases, including distinguishing site-of-care denials from medical necessity denials, protecting providers from no-PA post-service denials, and creating standard transaction codes for no authorization required and gold-carded status.
+- **S20/S21/S43:** ADCC supports expedited 24-hour review but asks for uniform timelines for drugs and related administration services, objective definitions of expeditiously, provider-driven urgency determinations, and automatic approval for missed deadlines.
+- **S29/S34/S35:** ADCC supports public reporting and recommends granular metrics including provider type, approval/denial/appeal/overturn rates, average decision times, expedited requests, withdrawals, compliance rates, submission method, medical/pharmacy benefit distinctions, specialty oncology services, and provider-level comparisons.
+- **S46/S55:** By discussing HIPAA transactions and payer/vendor accountability, ADCC asks CMS to ensure delegated vendors comply with standards and that payers remain accountable for failures.
+- **S66-S82 (Step Therapy and Utilization Management RFIs):** ADCC responds to CMS's broader RFI by asking CMS to evaluate step therapy, specialty pharmacy, site-of-care restrictions, white-bagging, and other oncology utilization management practices.
+
+## 6. RECOMMENDATIONS
+
+1. Require payer gold-carding for providers with high PA approval rates and evidence-based compliance histories.
+2. Ensure gold-carding applies to specialty providers and complex oncology services, with flexibility for rare cancers and emerging treatments.
+3. Establish standardized transaction codes identifying gold-carded services/providers.
+4. Require payers, not vendors, to serve as the single accountable PA contact and make vendor delegation invisible to providers.
+5. Hold payers accountable for HIPAA transaction standards and PA timeframes even when vendors process requests.
+6. Standardize PA timelines across payer types, drugs, and related administration services.
+7. Define expeditiously through objective operational standards and defer substantially to treating provider urgency determinations.
+8. Automatically approve PA requests not acted on within required timeframes and protect those approvals from later medical necessity denial if submissions were complete and accurate.
+9. Audit public PA metrics and impose corrective action, financial penalties, and enhanced oversight for noncompliance.
+10. Protect providers relying in good faith on payer authorization or no-authorization-required determinations.
+11. Create a universal transaction code indicating a payer stated no PA was required.
+12. Treat payer-initiated withdrawals as denials unless requested by provider or patient.
+13. Require granular public reporting by provider type, benefit type, specialty service, submission method, vendor, and plan/product.
+14. Evaluate and limit oncology harms from step therapy, site-of-care restrictions, specialty pharmacy requirements, and white-bagging.
+15. Require payers to distinguish site-of-care denials from medical necessity denials.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Oncology treatment delays, inconsistent payer rules, vendor confusion, lack of enforceable timelines, post-service no-PA denials, payer withdrawals obscuring metrics, insufficient reporting granularity, and utilization management that fragments cancer care.
+- **Potential negative impacts cited:** Patient safety risks, delayed cancer treatment, fragmented care delivery, additional administrative costs, unpaid medically necessary care, strained provider-patient relationships, treatment dissatisfaction, medication procurement delays, and compromised continuity of care.
+- **Implementation barriers mentioned:** Unique payer documentation standards, vendor delegation, incomplete vendor information, inconsistent interpretation of expeditiously, lack of payer accountability, payer system errors, claim denial disputes, and complex oncology coordination across specialties.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative external statistics cited. ADCC states its member centers have consistently high PA approval rates and extensive evidence-based oncology expertise.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Payers using AIM or EviCore for imaging, radiation therapy, and chemotherapy PA; urgent chemotherapy drug approved in 24 hours while administration services take 72 hours; authorizations obtained but claims denied as no PA; payers saying no PA is required then later denying; payer in-network/out-of-network mistakes causing PA confusion; chemotherapy authorized only if delivered away from the treating oncologist's facility; mandatory specialty pharmacy and white-bagging arrangements.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Oncology patients, cancer centers, physicians, nurses, administrative staff, payers, delegated PA vendors, specialty pharmacies, and CMS oversight/enforcement entities.
+- **Economic implications:** Gold-carding and standardized workflows could lower administrative cost and payer/provider workload. Current practices create unreimbursed provider labor, claim disputes, unpaid delivered care, and operational costs.
+- **Technical feasibility:** ADCC's technical asks center on standard transaction codes, reliable HIPAA transaction use, granular reporting, auditable metrics, and operational standards rather than specific API implementation details.
+- **Patient care impact:** Recommended changes would reduce delays in time-sensitive oncology treatment, improve continuity, reduce fragmented delivery, and prevent patients from bearing the consequences of payer administrative failure.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of reform but concerned that proposed changes are insufficient without stronger accountability.
+- **Tone:** Professional, urgent, provider-focused, and critical of payer practices.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "even when regulatory standards exist, provider and patient protections may be undermined if plans and their delegated vendors are not consistently held accountable" - Context: Enforcement and accountability rationale.
+2. "it is operationally impractical for an urgent chemotherapy drug to be approved within 24 hours while the administration services required to deliver that drug take 72 hours" - Context: Timeline alignment request.
+3. "Payers must remain the single point of contact and be fully accountable" - Context: Delegated vendor accountability.
+4. "Transparency without accountability is unlikely to produce the level of change necessary" - Context: Public reporting and enforcement position.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ADCC requests uniform timelines, objective expedited review standards, and automatic approvals for missed deadlines.
+- [x] **COST-RESOURCES** - The comment emphasizes administrative costs, unpaid care, repeated work, and potential efficiencies from gold-carding.
+- [x] **PROVIDER-BURDEN** - Vendor delegation, inconsistent rules, repeated submissions, appeals, and no-PA denials create substantial provider burden.
+- [x] **TECHNICAL-FEASIBILITY** - ADCC seeks operational standards, standard transaction codes, auditable metrics, and reliable HIPAA transactions.
+- [x] **PATIENT-ACCESS** - Timely access to medically necessary cancer treatment is the central patient issue.
+- [x] **STAKEHOLDER-COORDINATION** - The comment addresses coordination among payers, vendors, oncology centers, specialties, pharmacies, and CMS.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - ADCC asks for separate reporting of medical versus pharmacy determinations and addresses specialty pharmacy restrictions for provider-administered oncology drugs.
+- [x] **TRANSPARENCY** - It supports granular public reporting, provider performance feedback, denial distinctions, audits, and withdrawal reporting.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on oncology workflows, vendor workflows, claims/authorization workflows, site-of-care restrictions, and specialty pharmacy requirements.
+- [x] **VENDOR-ECOSYSTEM** - Delegated PA vendors such as AIM and EviCore are a major concern.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+By electronic delivery at regulations.gov
+
+June 11, 2026
+
+Centers for Medicare & Medicaid Services
+
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+By electronic delivery at regulations.gov
+RE: CMS-0062-P Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Dear CMS Leadership:
+
+On behalf of the Alliance of Dedicated Cancer Centers (ADCC), I am writing to comment on the proposed rules regarding Interoperability Standards and Prior Authorization requirements applicable to Medicare Advantage Organizations...

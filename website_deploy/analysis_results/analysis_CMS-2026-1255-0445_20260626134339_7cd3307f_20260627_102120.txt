@@ -1,0 +1,154 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0445_20260626134339_7cd3307f
+Commenter: National Hispanic Health Foundation
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:21:20
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Hispanic Health Foundation (NHHF); signed by Elena Rios, MD, MSPH, MACP, President.
+- **Stakeholder type:** Advocacy Group; Professional Association.
+- **Credentials or expertise mentioned:** Dr. Elena Rios is identified as President of NHHF and holds MD, MSPH, MACP credentials.
+
+## 2. EXECUTIVE SUMMARY
+
+NHHF supports expanding electronic prior authorization for medications because real-time coverage and request information would streamline physician workflows and improve patient access. The comment asks CMS to enforce shortened timelines, require detailed denial justifications, expand public PA metric reporting, publish annual summaries, and scrutinize step therapy, especially in Medicare Advantage.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; GENERAL/RFI step therapy.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** Electronic prior authorization mechanisms generally; no named FHIR IGs or NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for medications**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Real-time coverage and request information would help physicians complete PAs more efficiently.
+- **Specific request:** Expand electronic PA mechanisms for medications.
+
+**Topic 2: Shortened PA timelines and denial safeguards**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Faster timelines would reduce disruption to essential medication access, but expedited decisions should not produce wrongful denials.
+- **Specific request:** Shorten approval timelines to 24 hours for urgent requests and 72 hours for standard requests, monitor health plans, and require detailed denial justifications.
+
+**Topic 3: Public reporting of PA data and metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Detailed metrics would help CMS and the public understand the real impact of prior authorization.
+- **Specific request:** Require all payers, including Medicare Part D plans, to publicly report detailed PA metrics on initial denials, step therapy requirements, and differences between brand-name and generic drugs; CMS should analyze and summarize metrics in an annual report.
+
+**Topic 4: Step therapy scrutiny and standardization**
+- **Provision ID:** GENERAL
+- **Position:** Modify/Oppose in Medicare Advantage
+- **Rationale:** Patients should not be forced to try alternatives before receiving physician-prescribed therapy, and patients changing plans should not be surprised by undisclosed step therapy requirements.
+- **Specific request:** Prevent Medicare Advantage plans from using step therapy and require other payers to disclose and standardize step therapy practices.
+
+## 5. SOLICITATION RESPONSES
+
+- **S20/S43:** The commenter supports shortened drug PA timelines, specifically 24 hours for urgent requests and 72 hours for standard requests, with oversight to prevent wrongful denials.
+- **S16/S17:** The commenter asks CMS to require detailed denial justifications so expedited timelines do not translate into unsupported denials.
+- **S29/S34/S35:** The comment recommends public reporting of detailed PA data and metrics and asks CMS to publish annual analyses of those metrics.
+- **S66-S82 (General/RFI topics, including step therapy):** The comment asks CMS to scrutinize step therapy, bar Medicare Advantage step therapy, and standardize disclosure by other payers.
+
+## 6. RECOMMENDATIONS
+
+1. Expand electronic prior authorization mechanisms for medications.
+2. Implement 24-hour urgent and 72-hour standard decision timelines.
+3. Monitor health plans for wrongful denials under expedited timelines.
+4. Require detailed denial justifications.
+5. Require all payers, including Medicare Part D plans, to publicly report PA metrics.
+6. Include initial denials, step therapy requirements, and brand-name versus generic drug differences in reported metrics.
+7. Publish CMS annual reports summarizing PA metrics.
+8. Prevent Medicare Advantage plans from using step therapy and require other payers to disclose and standardize step therapy.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Wrongful denials, insufficient denial explanations, lack of detailed PA metrics, and step therapy barriers.
+- **Potential negative impacts cited:** Disrupted medication access and patients being forced to try alternatives before receiving prescribed therapy.
+- **Implementation barriers mentioned:** Inconsistent payer disclosure and standardization of step therapy.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None in this file.
+- **Studies or research referenced:** None.
+- **Examples provided:** Patients changing plans and being surprised by step therapy requirements.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Physicians, patients needing medications, Medicare Advantage enrollees, Medicare Part D plans, and other payers.
+- **Economic implications:** Not addressed.
+- **Technical feasibility:** The comment assumes electronic PA can provide real-time coverage and request information but does not analyze technical implementation.
+- **Patient care impact:** Faster decisions and fewer step therapy barriers are expected to reduce disruptions to essential care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with requested modifications.
+- **Tone:** Professional and direct.
+- **Priority level:** Medium.
+
+## 11. KEY QUOTES
+
+1. "CMS's plans to expand electronic prior authorization mechanisms for medications would help physicians streamline their process." - Context: Support for electronic PA expansion.
+2. "We urge the agency to monitor health plans and require payers to provide detailed denial justifications." - Context: Safeguards tied to shorter decision timelines.
+3. "CMS ought to prevent Medicare Advantage plans from using step therapy." - Context: Strong objection to step therapy in MA.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment supports 24-hour urgent and 72-hour standard PA timelines.
+- [ ] **COST-RESOURCES** - Not addressed.
+- [x] **PROVIDER-BURDEN** - Electronic PA is supported as a way to streamline physician workflow.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - The broader commenter identity and closing focus on Hispanics indicate an equity concern, though this file mainly discusses PA mechanics.
+- [ ] **TECHNICAL-FEASIBILITY** - Not substantively addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - Faster decisions and step therapy limits are framed as improving access to essential care.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **STAKEHOLDER-COORDINATION** - Not addressed.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [x] **TRANSPARENCY** - The comment asks for detailed denial justifications, public metrics, and disclosure of step therapy.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on physician PA workflow and real-time coverage information.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+2 
+ 
+CMS's plans to expand electronic prior authorization mechanisms for medications would help physicians 
+streamline their process for completing prior authorizations while allowing them to access real-time 
+coverage and request information.  
+ 
+We also applaud CMS's proposal to shorten approval timelines to 24 hours for urgent requests and 72 
+hours for standard requests. This change will allow patients to receive medications in a timely manner, 
+with fewer disruptions to essential care. We urge the agency to monitor health plans and require payers to 
+provide detailed denial justifications so that the new expedited requirements do not cause wrongful 
+coverage denials.  
+ 
+We also recommend that CMS require all payers -- including Medicare Part D plans -- to publicly report 
+detailed prior authorization data and metrics, including information on initial denials, step therapy 
+requirements, and differences between brand-name and generic drugs. This will allow CMS to gain a 
+more complete picture of the impact of prior authorization. To maximize transparency, CMS ought to 
+analyze and summarize these metrics in an annual report. 
+ 
+Finally, we ask CMS to scrutinize plans' use of step therapy. In particular, CMS ought to prevent 
+Medicare Advantage plans from using step therapy -- these patients should not be forced to try 
+alternatives before insurers cover the therapy that their doctor has prescribed. And the agency must ensure 
+that other payers properly disclose and standardize their use of step therapy, such that patients are not 
+blindsided when they change plans. 
+ 
+Thank you for the opportunity to comment on these important reforms. We remain grateful that CMS is 
+addressing these challenges and crafting meaningful reforms to improve patient care. NHHF is ready to 
+help CMS improve coverage for Hispanics in any way possible.  
+ 
+ 
+Sincerely, 
+ 
+ 
+Elena Rios, MD, MSPH, MACP 
+President, National Hispanic Health Foundation...

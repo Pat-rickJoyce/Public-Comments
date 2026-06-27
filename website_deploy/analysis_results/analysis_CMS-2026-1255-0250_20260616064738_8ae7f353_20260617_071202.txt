@@ -1,0 +1,173 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0250_20260616064738_8ae7f353
+Commenter: Pulmonary Hypertension Association (PHA)
+Source: PDF Attachment
+Analysis Date: 2026-06-17 07:12:02
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Pulmonary Hypertension Association (PHA); signed by Katherine Kroner, Vice President, Advocacy and Patient Engagement
+- **Stakeholder type:** Advocacy Group; Professional Association
+- **Credentials or expertise mentioned:** PHA is described as the country's leading pulmonary hypertension organization, accrediting PH clinical programs, coordinating a national observational patient registry, providing continuing medical education, and serving patients, caregivers, and health care professionals.
+
+## 2. EXECUTIVE SUMMARY
+
+PHA supports CMS's effort to streamline electronic prior authorization for drugs, emphasizing that timely access to pulmonary hypertension therapies can be life-preserving. The comment urges CMS to impose rapid review timelines, transparent denial explanations, expert human review of AI denials, longer reauthorization periods, standardized forms, step therapy exceptions, recognition of prior payer determinations, and technology that reduces rather than compounds provider burden.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; FHIR-IG-REQUIRED; API-USAGE-METRICS; GENERAL/RFIs on step therapy and formulary access
+- **Regulatory citations mentioned:** CMS-0062-P. No CFR citations cited.
+- **Standards referenced:** APIs, electronic medical records/electronic health records, artificial intelligence. No named FHIR IG, NCPDP, or HL7 standard is discussed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for drug access**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support with modifications
+- **Rationale:** PH therapies are complex, time-sensitive, and often life-long. Electronic tracking and streamlining can improve patient access if EHRs can document PH-specific testing and workflows are clinically appropriate.
+- **Specific request:** Ensure electronic PA systems handle complex testing such as echocardiograms and right heart catheterizations and support standardized, clinically relevant forms.
+
+**Topic 2: Review timelines, appeals, and reauthorization**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Delays can worsen symptoms, extend hospital stays, cause mental distress, and in severe PH lead to irreversible decline or death.
+- **Specific request:** Apply 48-hour standard and 24-hour expedited review recommendations, include urgent appeals and payer-provider interactions, require disease-expert appeals within no more than 72 hours, prohibit weekend information-request tactics, allow at least three to six months of continuity after plan changes, and extend stable-patient reauthorizations to every three to five years.
+
+**Topic 3: Denial transparency and reviewer qualifications**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Initial denials may lack clear reasons and appeal reviewers may lack PH expertise.
+- **Specific request:** Require clear denial reasons, transparency about who conducts reviews, and automatic expert human review when AI issues an initial denial.
+
+**Topic 4: Gold carding and reduced administrative burden**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Accredited PH centers frequently obtain eventual approval but spend substantial time overcoming administrative barriers.
+- **Specific request:** Adopt gold carding for high-performing accredited centers, with eligibility based on eventual approval rather than first-submission approval.
+
+**Topic 5: Step therapy exceptions and formulary access**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify
+- **Rationale:** Step therapy can force inappropriate treatment sequencing and delay needed therapy for a progressive, often fatal condition.
+- **Specific request:** Require clear exceptions processes, 24-hour urgent and 72-hour normal responses, recognition of previous payer step therapy determinations, standardized exceptions processes, transparency of clinical reasoning, automatic expert human review of AI denials, and accessible real-time formulary information before plan selection.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** PHA identifies technical and clinical challenges for drug PA APIs, including EHR capability to document PH-specific testing and forms that request irrelevant data.
+- **S15:** The comment describes PH therapies delivered by oral, inhaled, injected, and infusion routes, showing the complexity of benefit categorization, though it does not explicitly analyze medical versus pharmacy benefit boundaries.
+- **S16/S17:** PHA asks for clear denial reasons, transparency about reviewers, and detailed appeal explanations.
+- **S20/S43:** PHA supports 24-hour expedited and 48-hour standard review expectations, with urgent appeals and expert review completed promptly and within 72 hours where disease expertise is needed.
+- **S21:** The comment supports electronic PA implementation but warns that systems must be clinically capable and integrated with EMR/EHR workflows.
+- **S29/S35:** PHA supports electronic tracking of all prior authorizations and transparency, though it does not specify formal metric definitions.
+- **S66-S82:** PHA responds to broader RFIs on step therapy, formulary information, technology, and AI review safeguards.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic prior authorization reforms in a way that improves timely PH drug access.
+2. Require 48-hour standard review and 24-hour expedited review for urgent cases, including urgent appeals and payer-provider interactions.
+3. Require disease-expert appeal review within no more than 72 hours when expert review is needed.
+4. Prohibit payer tactics that request information when providers cannot reasonably respond and then use nonresponse to deny care.
+5. Provide continuity for patients changing plans, ideally six months and at least three months before renewed authorization is required.
+6. Extend stable-patient reauthorization intervals to three to five years for life-long PH therapies.
+7. Ensure EHR and electronic PA systems can document PH-specific tests and support clinically relevant standardized forms.
+8. Require clear denial reasons and transparency about reviewers for initial requests and appeals.
+9. Require automatic expert human review of AI-generated denials.
+10. Adopt gold carding for accredited centers based on eventual approval rates.
+11. Provide real-time formulary information before plan selection.
+12. Require standardized step therapy exception processes, recognition of prior payer determinations, and rapid exception timelines.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Treatment delays, irrelevant authorization requirements, unclear denials, insufficient reviewer expertise, frequent reauthorization, step therapy barriers, and AI denial safeguards.
+- **Potential negative impacts cited:** Emergency room visits, functional decline, extended hospital stays, mental distress, irreversible disease progression, death, and higher long-term system costs.
+- **Implementation barriers mentioned:** Antiquated technology, poor EMR alignment, payer-by-payer form variation, outdated requirements, irrelevant test requests, appeal delays, scheduling barriers for peer-to-peer discussions, and inconsistent step therapy processes.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 2023 PHA survey of 79 providers from 66 practices in 33 states; 72% saw 90% or more requests eventually approved; 48% of centers spent 20+ hours/week on PA and reauthorization; 12 centers spent 41-60 hours/week; 63% said PA often or always delayed care; reported impacts included extended hospital stays (80%), worsening symptoms from delayed or interrupted drugs (84%), and mental distress (91%).
+- **Studies or research referenced:** PHA Accredited Care Centers survey; PHA registry and accreditation activities are described but not cited as a specific study.
+- **Examples provided:** Around-the-clock infusion into the heart via pump, brand/generic sensitivity, renewals every six to twelve months disrupting stable therapy, weekend information requests, and step therapy repeat requirements after payer changes.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** PH patients, caregivers, PH specialists, accredited care centers, payers, reviewers, EHR vendors, and plans administering drug benefits.
+- **Economic implications:** PHA argues delays increase long-term health system costs through hospital stays, emergency care, and more aggressive treatment needs; provider administrative time is substantial.
+- **Technical feasibility:** Electronic PA is feasible and supported if systems can capture complex PH documentation, standardize clinically relevant forms, and integrate with provider workflows.
+- **Patient care impact:** Very high; the comment repeatedly connects delayed access to worsening symptoms, irreversible decline, and possible death.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modifications
+- **Tone:** Professional, clinical, and urgent
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Delayed access to the most appropriate, highest impact treatment... can lead to loss of function" - Context: Explaining why PH prior authorization delays are dangerous.
+2. "63% indicated that authorization requirements 'often' or 'always' delayed their patients' access to needed care." - Context: PHA survey evidence on care delays.
+3. "PHA supports full transparency during the prior authorization process regarding who is conducting reviews... and clear reasons for any denials." - Context: Denial transparency recommendation.
+4. "Technology should only be used to advance access to necessary medications for patients" - Context: Position on step therapy and technology.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - PHA requests 24-hour expedited, 48-hour standard, and 72-hour expert appeal timelines, plus longer reauthorization intervals.
+- [x] **COST-RESOURCES** - The comment documents substantial staff time and argues delays increase long-term costs.
+- [x] **PROVIDER-BURDEN** - PHA emphasizes paperwork, varying requirements, irrelevant forms, and high weekly staff time.
+- [x] **TECHNICAL-FEASIBILITY** - The comment supports APIs and electronic tracking but stresses EHR capability and clinically fit forms.
+- [x] **PATIENT-ACCESS** - Timely access to PH therapy is the central concern.
+- [x] **TRANSPARENCY** - PHA asks for clear denial reasons, reviewer transparency, formulary access, and appeal explanations.
+- [x] **EXISTING-WORKFLOWS** - The comment asks for EMR alignment, standardized forms, and efficient peer-to-peer and appeal processes.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations require coordination among CMS, payers, providers, expert reviewers, and technology vendors.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - PH therapies span oral, inhaled, injected, and infusion routes, creating benefit-design complexity.
+- [x] **HEALTH-EQUITY** - Not framed as equity in detail, but improved access and plan-selection formulary transparency may reduce unequal access.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed directly.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed directly.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 9, 2026 
+ 
+Mehmet Oz, MD, MBA 
+ 
+Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+ 
+RE: CMS-0062-P 
+ 
+Dear Administrator Oz: 
+ 
+Thank you for your leadership on coverage, access and patient care issues. On behalf of 
+the Pulmonary Hypertension Association (PHA) and the pulmonary hypertension (PH) 
+community, I write today to provide comment on the recent proposed rule, CMS-0062-P: 
+2026 CMS Interoperability Standards and Prior Authorization for Drugs. 
+ 
+PHA applauds your commitment to improving electronic prior authorization so patients 
+and providers can benefit from a more expeditious, transparent and reliable process. In 
+these comments, we outline how streamlined, electronic prior authorization, when 
+implemented correctly, can improve and even extend the lives of individuals with 
+pulmonary hypertension.  
+ 
+Pulmonary Hypertension (PH) and the Pulmonary Hypertension Association (PHA) 
+Pulmonary hypertension (PH) describes high blood pressure in the lungs, which can 
+occur without a known cause, or in conjunction with underlying heart, lung or 
+rheumatologic disease, blood clots in the lungs, or sleep disordered breathing. The disease 
+can impact anyone of any age. Without prompt, appropriate treatment, PH can be rapidly 
+progressive and fatal.  
+ 
+The World Health Organization divides PH into five types, or groups. In many cases, PH  
+is a complex, progressive and frequently fatal condition with available treatments but no 
+cure. Delayed access to the most appropriate, highest impact treatment, whether from 
+misdiagnosis or benefits management requirements, can lead to loss of function that is not 
+always recovered even after appropriate therapy is started. In the worst-case scenario, 
+delayed access to appropriate therapy can lead to death.  
+ 
+PH requires careful management by a specialist care team. Available therapy options 
+address four distinct disease pathwa...

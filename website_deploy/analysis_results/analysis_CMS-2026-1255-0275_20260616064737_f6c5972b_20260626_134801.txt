@@ -1,0 +1,257 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0275
+Commenter: Individual (Payer Representative, unidentified)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 13:48:01
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Individual (anonymous, likely payer representative based on references to "our Risk office and Legal Department")
+- **Stakeholder type:** Individual
+- **Credentials or expertise mentioned:** Demonstrates deep technical expertise in HIPAA standard transactions (X12 270/271, 278), FHIR IGs, NCPDP, and payer implementation; references production experience and internal payer compliance processes.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+This technically detailed comment from a payer-affiliated individual addresses multiple provisions across the rule, supporting the general direction but raising substantive concerns about FHIR standard maturity, HIPAA transaction changes, and regulatory clarity. The commenter strongly opposes replacing the X12 278 with CRD/DTR/PAS as a HIPAA standard and opposes proposed changes to the 270/271 transaction, arguing both transactions remain valuable and the 278 is used in over half of all PA requests per CAQH data. The commenter also raises concerns about FHIR IG maturity, FHIR version transition challenges, CARIN IG applicability, and the need for a standardized PA denial reason code list.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, PA-DENIAL-REASONS, API-ENDPOINT-REPORTING, API-USAGE-METRICS, HIPAA-PA-STANDARDS, ONC-STANDARDS-UPDATE, MEDICAL-VS-PHARMACY-BENEFIT
+- **Regulatory citations mentioned:** None specifically by CFR; references CMS-0062-P
+- **Standards referenced:** FHIR R4, R6; US Core; CARIN IG for Blue Button 2.2.0; Da Vinci CRD, DTR, PAS; SMART IG; FAST Security IG; ATR IG; X12 278 (Prior Authorization); X12 270/271 (Eligibility); X12 5010, 8060; NCPDP; RTPBC IG; Inferno testing tool
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medical/Pharmacy Benefit Split Terminology**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify
+- **Rationale:** "Medical benefit" and "pharmacy benefit" are vague terms. Tying the distinction to claim submission method is reasonable but creates edge cases where claims are submitted to the wrong entity and must be resubmitted.
+- **Specific request:** Clarify the definition and acknowledge edge cases.
+
+**Topic 2: FHIR Base Standard Must Be Named in Regulation**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Many FHIR R4 resources are not profiled under US Core or proposed IGs. Without naming the base FHIR standard in regulation, there is no definition for resources not covered by an IG.
+- **Specific request:** Name the FHIR base standard (not just IGs) in regulation.
+
+**Topic 3: FHIR Version Transition Challenges**
+- **Provision ID:** FHIR-IG-REQUIRED, ONC-STANDARDS-UPDATE
+- **Position:** Clarify
+- **Rationale:** Many FHIR R4 resources are not normative and could change in R6 in breaking ways. Unlike X12 where messages are tied to specific versions, FHIR resources accumulated over time may need to be conveyed under a newer incompatible version.
+- **Specific request:** Provide guidance on handling resources created under earlier FHIR versions when a new R version is named.
+
+**Topic 4: CARIN IG Applicability to Provider Access and Payer-to-Payer APIs**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Oppose
+- **Rationale:** CARIN IG for Blue Button 2.2.0 explicitly states it "does not directly address" Provider Access or Payer-to-Payer APIs. Requiring it for those APIs contradicts the IG's own scope.
+- **Specific request:** Do not require CARIN IG for Provider Access and Payer-to-Payer APIs.
+
+**Topic 5: FAST Security IG**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Oppose (as requirement)
+- **Rationale:** Payers will follow internal risk/legal requirements; only appropriate after production use establishes liability certainty through case law.
+- **Specific request:** Do not mandate FAST Security IG; limit recommendation to after production liability is established.
+
+**Topic 6: RTPBC IG**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** HHS should wait for current infrastructure to be used; payers will not implement unless required.
+- **Specific request:** Wait to assess current infrastructure adoption; make required if CMS wants implementation.
+
+**Topic 7: PA Decision Timeframe Auditability**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify
+- **Rationale:** "As the enrollee's health condition requires" is hard to measure or audit—unclear whether it is an API flag or inferred from clinical context.
+- **Specific request:** Clarify operationalization and auditability of the expedited timeframe trigger.
+
+**Topic 8: PA Denial Reason Code List**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** No standardized code list specified; without one, payers will use payer-specific lists, defeating standardization.
+- **Specific request:** Name a specific standardized denial reason code list.
+
+**Topic 9: API Endpoint Collection and Organization**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Clarify/Oppose as proposed
+- **Rationale:** Payers may prefer registration-gated endpoint disclosure. Without organizational guidance, the endpoint directory risks repeating the HPID/OEID enumeration problems.
+- **Specific request:** Provide specific organizational guidance for the payer endpoint directory; consider registration-gated disclosure model.
+
+**Topic 10: Provider Access API Statistics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Start simple until there is production experience, similar to how Patient Access API stats were phased in.
+- **Specific request:** Start with minimal metrics and expand after production experience.
+
+**Topic 11: Formulary Removal from Provider Access and Payer-to-Payer APIs**
+- **Provision ID:** FHIR-IG-REQUIRED (cross-cutting)
+- **Position:** Support
+- **Rationale:** Formulary is not relevant for these APIs; removal is appropriate.
+
+**Topic 12: HIPAA PA Standards — Replacing X12 278 with FHIR**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Oppose
+- **Rationale:** 278 used in over half of all PA requests per CAQH Indexes; forcing changes on trading partners for whom it works is unjustified. Current rules already allow FHIR for willing trading partners.
+- **Specific request:** Do not replace 278 as HIPAA standard; if finalized, include enforcement discretion for continued 278 use by willing trading partners.
+
+**Topic 13: 270/271 Transaction Changes**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Oppose
+- **Rationale:** The 270/271 is heavily used and effectively conveys PA information. X12 8060 adds even more PA capability. Proposed redefinition creates confusion and could force providers to run both 270/271 and CRD where one transaction currently suffices.
+- **Specific request:** Leave 270/271 definition unchanged; if CRD is named a HIPAA standard, give it a distinct transaction name without altering the 270/271; align changes with X12 8060 compliance date.
+
+**Topic 14: Referrals in CRD/DTR/PAS**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Oppose
+- **Rationale:** Not proven in production; well-established 278 transaction handles referrals.
+- **Specific request:** Do not include referrals in CRD/DTR/PAS named functions.
+
+**Topic 15: Major.Minor.Patch Versioning**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Oppose
+- **Rationale:** Allowing changes without rulemaking would undermine the same process applied to other SDOs.
+- **Specific request:** Require rulemaking for all FHIR IG version changes.
+
+**Topic 16: FHIR IG Maturity Generally**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Oppose (mandatory adoption)
+- **Rationale:** None of the IGs have had sufficient large-scale production experience; X12 had 10+ years in production before HIPAA adoption.
+- **Specific request:** Do not mandate IGs lacking sufficient production track record.
+
+**Topic 17: Direct Data Entry Exception**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Serves as "break glass" mechanism when other systems fail.
+- **Specific request:** Maintain the exception as-is.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Questions whether IGs are mature enough to require; recommends naming base FHIR standard in regulation.
+- **S2:** Raises FHIR R4-to-R6 version transition challenges; urges guidance on handling resources across versions.
+- **S3:** Opposes Major.Minor.Patch versioning bypassing rulemaking.
+- **S6:** Opposes requiring CARIN IG for Provider Access/Payer-to-Payer—IG's own scope excludes those APIs.
+- **S8:** FAST Security IG should not be mandated; liability certainty required first.
+- **S12:** RTPBC IG adoption concerns; payers only implement if required.
+- **S16:** Strongly supports standardized denial reason code list; opposes unspecified code sets.
+- **S18:** Opposes mandatory IG adoption given insufficient production experience.
+- **S23:** Raises security concern about full public endpoint disclosure; prefers registration-gated model.
+- **S24:** Flags organizational variability in payer endpoint structuring; HPID/OEID analogy.
+- **S29:** Recommends minimal initial Provider Access API metrics requirements.
+- **S37:** Inferno PHI/PII exposure issue for payers with real-only test data.
+- **S44:** Opposes FHIR as HIPAA PA standard replacing 278; requests enforcement discretion.
+- **S46:** Strongly opposes 270/271 definition changes; proposes distinct CRD transaction naming.
+- **S50:** Questions IG maturity; argues insufficient production track record for mandatory adoption.
+- **S53:** Suggests timing HIPAA transaction changes to align with X12 8060 compliance date.
+- **S60:** Opposes Major.Minor.Patch versioning for IG changes without rulemaking.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Name the FHIR base standard in regulation, not just IGs.
+2. Provide guidance on handling FHIR resources created under earlier versions when a new R version is named.
+3. Do not require CARIN IG for Provider Access or Payer-to-Payer APIs.
+4. Do not mandate FAST Security IG; limit to recommendation after production liability is established.
+5. Specify a standardized code list for PA denial reasons.
+6. Provide organizational guidance for payer endpoint directory; consider registration-gated disclosure.
+7. Start Provider Access API metrics requirements minimally; expand after production experience.
+8. Do not replace X12 278 with CRD/DTR/PAS as HIPAA standard; if finalized, include enforcement discretion for continued 278 use.
+9. Leave 270/271 definition unchanged; give CRD a distinct transaction name if named as HIPAA standard.
+10. Align HIPAA transaction changes with X12 8060 compliance timeline.
+11. Do not include referrals in CRD/DTR/PAS named functions.
+12. Require rulemaking for all FHIR IG version changes; reject Major.Minor.Patch bypass.
+13. Address PHI/PII exposure for payers testing with Inferno using real data.
+14. Limit ATR IG to in-network providers if recommended.
+15. Maintain the direct data entry exception.
+16. Do not mandate FHIR IGs without large-scale production experience.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** FHIR IG immaturity for mandatory adoption; HIPAA PA standard changes displacing widely-used X12 278 and disrupting 270/271; lack of standardized denial reason code list; FHIR version transition complexity; CARIN IG scope mismatch.
+- **Potential negative impacts cited:** Forced abandonment of working X12 278 trading partnerships; providers needing to run both 270/271 and CRD where one suffices today; PHI/PII exposure from Inferno testing; compliance complexity from FHIR version transitions.
+- **Implementation barriers mentioned:** Payers only implement recommended features when resources allow; FAST Security IG liability not settled; ATR IG not established; HPID/OEID precedent for endpoint directory failure.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CAQH Indexes: X12 278 used in over half of all PA requests.
+- **Studies or research referenced:** None formally cited.
+- **Examples provided:** HPID/OEID enumeration as precedent for payer endpoint directory chaos; X12 adoption timeline (decade+ in production before HIPAA naming) as FHIR IG maturity benchmark; CARIN IG 2.2.0 scope statement excluding Provider Access/Payer-to-Payer.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers; providers (especially 270/271 users); health IT vendors; X12 trading partner relationships; SDOs (HL7, X12, NCPDP).
+- **Economic implications:** Cost of abandoning working X12 processes for unproven FHIR IGs; payer resource constraints limit non-required implementations; cybersecurity/liability costs of FAST Security IG adoption.
+- **Technical feasibility:** Commenter argues FHIR IGs are not production-proven at scale; X12 8060 represents a superior near-term evolution path.
+- **Patient care impact:** Indirect—operational disruption to working PA systems could cause delays; commenter's objections are primarily technical/operational.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (generally supportive of rule goals, but opposed to HIPAA transaction changes and concerned about IG maturity)
+- **Tone:** Technical, Critical, Professional
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "For the changing of the named HIPAA Standard Transactions, I disagree with the proposals. The 278 for Prior Authorization...is still used in some way in over half of all prior authorization requests as per the recent CAQH Indexes." — Context: Opposing HIPAA-PA-STANDARDS proposal.
+
+2. "I would say that we have not had enough experience with a large enough base to know that any of these IGs are mature enough to be adopted. In comparison to when X12 was named for Standard Transactions, X12 transactions had been being used for well over a decade." — Context: Opposing mandatory FHIR IG adoption.
+
+3. "The 270/271 should be left alone to do what it does well now and will do even better under 8060." — Context: Opposing proposed changes to the 270/271 transaction definition.
+
+4. "For requiring a specific reason to be supplied for drug prior authorization denials, there is no code list specified. This needs to be named so that everyone is working off of the same list, not payer-specific lists." — Context: Requesting a standardized denial reason code set.
+
+---
+
+## 12. THEMES
+
+- [x] **STANDARDS-MATURITY** — Central theme: FHIR IGs lack production experience; X12 278 and 270/271 proven and widely used; CARIN IG scope mismatch; ATR IG not established.
+- [x] **TECHNICAL-FEASIBILITY** — FHIR version transition challenges; Inferno PHI/PII testing barriers; endpoint directory standardization challenges.
+- [x] **EXISTING-WORKFLOWS** — Defense of working X12 278 and 270/271 processes; concern about disrupting productive trading partner relationships.
+- [x] **TRANSPARENCY** — Requests standardized denial reason code list; criticizes vagueness of benefit split terminology.
+- [x] **PRIVACY-SECURITY** — FAST Security IG liability concerns; trust community due diligence; Inferno PHI/PII exposure risk.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Terminology vague; claim submission method as definitional anchor creates edge cases.
+- [x] **REGULATORY-AUTHORITY** — Opposes allowing IG changes without rulemaking; argues same process should apply to FHIR IGs as to X12/NCPDP.
+- [x] **VENDOR-ECOSYSTEM** — Payers only implement required items; RTPBC and FAST Security IG won't be adopted if merely recommended.
+- [x] **STAKEHOLDER-COORDINATION** — Raises X12 8060 alignment; identifies need for CMS guidance on endpoint directory organization.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+I appreciate the opportunity to comment on CMS-0062-P, 'Medicare and
+Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP
+Managed Care Entities, and Issuers of Qualified Health Plans on the
+Federally-Facilitated Exchanges'.
+For the splitting of the proposed requirements for drug prior
+authorization into those for the 'medical benefit' and 'pharmacy benefit'
+these are vague terms. I like the idea tying these to how the claim would
+be submitted, though sometimes claims for drugs are submitted to the wrong
+entity and have to be resubmitted using the other method. I would imagine
+the same could happen here even if the definitions point to the manner of
+how a claim for this drug would be submitted to the payer.
+In regards to the naming a required FHIR standards, the base FHIR
+standard does need to be named in regulation to keep everything level.
+Many of the Resources in FHIR R4 are not defined within a profile under US
+Core or any of the proposed Implementation Guides (IGs) so in order to
+have a definition, the FHIR base standard needs to be included...

@@ -1,0 +1,169 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0419_20260626134435_10413a2a
+Commenter: American Society of Pediatric Nephrology (ASPN)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 19:16:03
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Society of Pediatric Nephrology (ASPN); signed by Sandra Amaral, MD, MHS, President.
+- **Stakeholder type:** Professional Association; Healthcare Provider specialty society.
+- **Credentials or expertise mentioned:** ASPN represents more than 700 pediatric nephrologists and describes expertise caring for children with kidney disease, chronic kidney failure, dialysis, and kidney transplantation.
+
+## 2. EXECUTIVE SUMMARY
+
+ASPN strongly supports CMS efforts to modernize drug prior authorization through standardized electronic processes because pediatric nephrology patients face serious clinical consequences from delayed medications and formulations. The commenter recommends finalizing drug electronic prior authorization and decision timelines, while adding pediatric-focused standardization, exemptions or expedited pathways for clinically essential and off-label rare-disease therapies, stronger appeals standards, drug-level reporting, and enforcement.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; TRANSPARENCY/GENERAL.
+- **Regulatory citations mentioned:** No specific CFR citations are cited. The commenter references the proposed rule CMS-0062-P and proposed 72-hour standard and 24-hour expedited prior authorization timeframes.
+- **Standards referenced:** Standardized electronic prior authorization, interoperability, payer-plan clinical data elements. The comment does not name specific FHIR IGs, NCPDP standards, HL7 standards, or HIPAA transaction standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Adopt electronic prior authorization for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** ASPN states that current manual workflows impose administrative burden and delay access to clinically appropriate pediatric kidney disease therapies.
+- **Specific request:** CMS should adopt the proposal to include drugs in electronic prior authorization requirements and promote standardized processes across programs under CMS jurisdiction.
+
+**Topic 2: Pediatric rare disease and off-label therapy pathways**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PATIENT-ACCESS/GENERAL
+- **Position:** Modify
+- **Rationale:** Children with kidney disease often need pediatric-specific formulations, rare-disease therapies, and off-label uses where FDA-approved alternatives do not exist; automatic denials can trigger long appeals and clinically harmful delays.
+- **Specific request:** CMS should collaborate with pediatric specialists, rare disease organizations, and patient advocates to create standardization, exemptions, and innovative expedited approval pathways for clinically essential therapies with limited or no alternatives.
+
+**Topic 3: Standard clinical data elements**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Variation in plan-specific forms, submission requirements, and documentation standards delays care and diverts clinician time.
+- **Specific request:** CMS should align payer requirements around core clinical data elements, including diagnoses, biomarkers, laboratory results, prior treatment history, therapy failures, contraindications, and adverse reactions.
+
+**Topic 4: Decision timeframes and real-time decisions**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with clarification
+- **Rationale:** The proposed 72-hour standard and 24-hour expedited timelines would reduce treatment delays, but pediatric care can require decisions while provider, caregiver, and child are together.
+- **Specific request:** CMS should finalize the timeframes, clarify that they operate 24 hours a day and seven days a week, and continue moving toward real-time approvals or denials for routine or chronic disease therapies.
+
+**Topic 5: Reauthorizations and appeals**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Repeated prior authorizations for long-term therapies and minor pediatric dose changes disrupt continuity of care; appeals and peer-to-peer requests create some of the longest care delays.
+- **Specific request:** CMS should address repeated reauthorization requirements, strengthen appeal timeliness, require escalation to qualified clinical reviewers, ensure pediatrician participation in pediatric medication/formula appeals, and improve appeal outcome transparency.
+
+**Topic 6: Public reporting and enforcement**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Reporting must be granular enough to show pediatric access problems, especially for older and inexpensive drugs that still face burdensome repeated authorization.
+- **Specific request:** CMS should require drug-level metrics including approval rates, denial rates, appeal outcomes, and turnaround times for pediatric kidney disease medications, and establish enforcement mechanisms for turnaround-time and denial-transparency compliance.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** ASPN responds indirectly by requesting stronger denial and appeal transparency, including reporting appeal outcomes and ensuring pediatric expertise in appeals for children.
+- **S17:** The commenter does not discuss structured denial codes directly, but supports standardized clinical data elements and transparency that could support structured denial and appeal reporting.
+- **S20:** ASPN supports finalizing 72-hour standard and 24-hour expedited prior authorization timelines and asks CMS to clarify that the policy applies 24/7.
+- **S21:** ASPN supports electronic prior authorization for drugs and views the proposed timelines as meaningful improvements, while recommending continued movement toward real-time decisions.
+- **S29:** ASPN recommends drug-level reporting metrics, specifically approval rates, denial rates, appeal outcomes, and turnaround times for medications frequently prescribed to children with kidney disease.
+- **S34/S35:** ASPN supports public reporting of prior authorization metrics and asks that reporting be meaningful for pediatric populations, but does not specify frequency or aggregation methodology.
+- **S66-S82:** The comment raises general prior authorization concerns for chronic pediatric kidney disease, rare disease therapies, reauthorizations, appeals, and access to medically necessary drugs.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic prior authorization for drugs to reduce manual workflows and administrative burden.
+2. Standardize prior authorization requirements across CMS-regulated programs and payers.
+3. Create pediatric and rare-disease pathways, including exemptions or expedited approval for essential therapies with limited alternatives.
+4. Align payer requirements around core clinical data elements needed for drug prior authorization.
+5. Finalize 72-hour standard and 24-hour expedited decision timeframes and clarify they apply 24/7.
+6. Move toward real-time approvals or denials for routine, established, or chronic disease therapies.
+7. Reduce unnecessary repeated reauthorizations for long-term pediatric therapies and dose changes.
+8. Strengthen appeal timeliness, escalation to qualified reviewers, pediatrician involvement, and appeal outcome transparency.
+9. Require drug-level public reporting of approval rates, denial rates, appeal outcomes, and turnaround times for pediatric kidney disease medications.
+10. Establish meaningful enforcement mechanisms for turnaround-time and denial-transparency standards.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Pediatric kidney disease patients face delayed access to medically necessary drugs, rare-disease therapies, off-label pediatric uses, liquid formulations, and chronic maintenance medications.
+- **Potential negative impacts cited:** Treatment interruptions, long-term clinical consequences, disrupted transplant or dialysis care, inequitable access across states and plans, and reduced clinician time for patient care.
+- **Implementation barriers mentioned:** Payer-specific forms, differing submission requirements, inconsistent documentation standards, repeated reauthorizations, burdensome peer-to-peer appeals, and lack of pediatric expertise in review.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ASPN states that about 150,000 children and adolescents have kidney disease; about 10,000 have chronic kidney failure, dialysis, or kidney transplantation; coverage is roughly split among Medicare, Medicaid, and private insurance.
+- **Studies or research referenced:** No formal studies are cited.
+- **Examples provided:** The commenter lists pediatric kidney disease medications and formulations, including amlodipine suspension, calcitriol, cysteamine, enalapril suspension, Epogen/Darbepoetin, growth hormone, IVIG, rituximab/obinutuzumab, sevelamer/Renvela, sparsentan, spironolactone oral suspension, and Valcyte.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Pediatric patients with kidney disease and ESKD, families/caregivers, pediatric nephrologists, pediatric specialists, rare disease organizations, payers, Medicaid/Medicare programs, and private plans.
+- **Economic implications:** The comment emphasizes administrative cost and clinician time burden rather than quantified dollar impacts; it notes that many affected drugs are older and inexpensive despite repeated authorization burden.
+- **Technical feasibility:** ASPN views standardized electronic prior authorization as feasible and beneficial, but stresses the need for aligned data elements and consistent requirements.
+- **Patient care impact:** Faster and more standardized prior authorization could reduce treatment delays, improve continuity of care, support shared decision-making, and improve access to clinically necessary pediatric therapies.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications.
+- **Tone:** Professional, clinical, collaborative, and patient-access focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "ASPN strongly supports" CMS and ONC efforts to modernize prior authorization. - Context: Opening statement of overall support.
+2. "Delays caused by inefficient or duplicative prior authorization requirements can have profound clinical consequences for children." - Context: Pediatric kidney disease access risk.
+3. "ASPN recommends that CMS adopt the proposal to adopt electronic prior authorization for drugs." - Context: Direct support for drug ePA.
+4. "We urge CMS to move towards real-time approval or denials." - Context: Recommendation to go beyond proposed timelines.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ASPN supports 72-hour and 24-hour timelines, seeks 24/7 clarification, and urges real-time decisions.
+- [x] **COST-RESOURCES** - The comment highlights administrative burden and clinician time costs, especially for reauthorizations and appeals.
+- [x] **PROVIDER-BURDEN** - Pediatric nephrologists face payer-specific forms, peer-to-peer appeals, documentation demands, and repeated reauthorization work.
+- [x] **HEALTH-EQUITY** - ASPN states that variability across states and plans creates inequities in access for children with kidney disease.
+- [x] **TECHNICAL-FEASIBILITY** - The commenter supports standardization around core clinical data elements to make electronic workflows efficient.
+- [x] **PATIENT-ACCESS** - The central concern is delayed access to medically necessary pediatric kidney disease therapies.
+- [x] **STAKEHOLDER-COORDINATION** - ASPN asks CMS to work with pediatric specialists, rare disease organizations, and patient advocates.
+- [x] **TRANSPARENCY** - ASPN recommends drug-level reporting of approvals, denials, appeals, and turnaround times.
+- [x] **EXISTING-WORKFLOWS** - The comment describes current manual workflows, payer-specific forms, and peer-to-peer appeal processes as problematic.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+6728 Old McLean Village Drive, McLean, VA 22101, ph. 703.556.9222; fax 703,556.8729 
+ 
+ 
+June 15, 2026 
+ 
+Mehmet Oz, MD 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualiï¬ed 
+Health Plans on the Federally Facilitated Exchanges (CMS-0062-P) 
+ 
+Dear Dr. Oz: 
+ 
+On behalf of the American Society of Pediatric Nephrology (ASPN), thank you for the 
+opportunity to submit comments on the Interoperability Standards and Prior Authorization for 
+Drugs proposed rule. ASPN strongly supports the Centers for Medicare & Medicaid Servicesâ€™ 
+(CMS) and the Ofï¬ce of the National Coordinator for Health Information Technologyâ€™s efforts to 
+modernize and streamline prior authorization processes, reduce administrative burden on 
+providers and families, and improve timely access to medically necessary prescription drugs.  
+Founded in 1969, ASPN is a professional society composed of pediatric nephrologists whose 
+goal is to promote optimal care for children with kidney disease and to disseminate advances in 
+the clinical practice and basic science of pediatric nephrology. ASPN currently has over 700 
+members, making it the primary representative of the Pediatric Nephrology community in North 
+America. 
+An estimated 150,000 children and adolescents currently suffer from kidney disease; about 
+10,000 of them suffer from chronic kidney failure, receive chronic dialysis, or have a kidney 
+transplant. Children with end-stage kidney disease (ESKD) are the only children automatically 
+eligible for Medicare, and approximately on...

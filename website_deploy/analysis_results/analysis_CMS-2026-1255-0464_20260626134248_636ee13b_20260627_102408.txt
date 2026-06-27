@@ -1,0 +1,139 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0464_20260626134248_636ee13b
+Commenter: Hansa Biopharma AB
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:24:08
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Christopher Ngai, Sr. Vice President, Global Market Access, Hansa Biopharma AB.
+- **Stakeholder type:** Other - biopharmaceutical manufacturer.
+- **Credentials or expertise mentioned:** Hansa describes itself as a commercial-stage biopharmaceutical company developing immunomodulatory therapies for rare immunological conditions; its drug imlifidase is approved in Europe and under FDA review for enabling HLA-incompatible kidney transplantation.
+
+## 2. EXECUTIVE SUMMARY
+
+Hansa Biopharma supports CMS efforts to make prior authorization more electronic, transparent, reliable, and timely, especially for drugs where treatment timing is clinically critical. The comment asks CMS to ensure any prior authorization for imlifidase occurs early enough to avoid jeopardizing kidney transplant opportunities and to prevent MA plans from using step therapy or separate coverage management that could delay transplant-enabling treatment.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-TIMEFRAMES-DRUGS; MEDICAL-VS-PHARMACY-BENEFIT issues under PA-DRUG-MEDICAL; GENERAL for step therapy concerns.
+- **Regulatory citations mentioned:** Not addressed.
+- **Standards referenced:** Electronic prior authorization generally; no specific FHIR IG, NCPDP standard, HL7 standard, or CFR section is named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Timely prior authorization for transplant-enabling drugs**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** Imlifidase must be administered within 24 hours before kidney transplantation, so late authorization at organ offer or surgery can threaten organ quality and patient health.
+- **Specific request:** Require prior authorization decisions for imlifidase quickly enough that transplant timing is not compromised.
+
+**Topic 2: Authorization timing tied to waitlist activation**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** If MA plans authorize the transplant but separately manage imlifidase, the enabling treatment and transplant may not be covered at the same time.
+- **Specific request:** If a plan requires prior authorization for imlifidase, CMS should require that authorization to occur when the patient is activated on the kidney transplant waiting list.
+
+**Topic 3: Inpatient medical-benefit context**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Clarify
+- **Rationale:** Hansa expects imlifidase to be provided in the inpatient hospital setting as part of the kidney transplant DRG, so Part D-oriented rules may not apply cleanly.
+- **Specific request:** Apply the same principles of timely and transparent access to needed medicines in the inpatient hospital setting.
+
+**Topic 4: Step therapy for imlifidase-enabled kidney transplants**
+- **Provision ID:** GENERAL
+- **Position:** Oppose / Modify
+- **Rationale:** Requiring patients to fail experimental desensitization protocols could delay urgent transplantation and expose patients to therapies that may not achieve safe desensitization in time.
+- **Specific request:** Ensure MA plans do not impose step therapy before coverage of imlifidase-enabled kidney transplantation.
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** The commenter distinguishes inpatient transplant-associated use of imlifidase from Part D drug prior authorization and asks CMS to clarify how timely-access principles apply to this medical/inpatient context.
+- **S20:** The comment supports shorter prior authorization timeframes and emphasizes that decisions for imlifidase may need to occur within the transplant clinical window, because the drug is needed within 24 hours before transplantation.
+- **S66-S82:** The comment responds to the general/RFI topic area involving step therapy by asking CMS to prevent MA step therapy requirements for imlifidase-enabled kidney transplants.
+
+## 6. RECOMMENDATIONS
+
+1. Require transparent and timely prior authorization decisions for drugs used in urgent transplant workflows.
+2. Require any imlifidase prior authorization to occur when the patient is activated on the kidney transplant waiting list.
+3. Ensure coverage for imlifidase and the kidney transplant are coordinated at the same time.
+4. Extend the rule's timely-access principles to inpatient hospital drugs that do not fit neatly into Part D workflows.
+5. Prevent MA plans from requiring step therapy or failure of experimental desensitization protocols before covering imlifidase-enabled transplantation.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed authorization, separate management of transplant-enabling therapy, and step therapy requirements.
+- **Potential negative impacts cited:** Loss of an organ offer, compromised organ quality, delayed transplantation, and patient harm.
+- **Implementation barriers mentioned:** Existing PA timing may occur too late in the transplant process; inpatient DRG coverage does not map cleanly to Part D prior authorization rules.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Imlifidase must be administered within 24 hours before kidney transplantation.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Highly sensitized ESRD patients receiving imlifidase before kidney transplant; possible MA plan separation of transplant coverage from transplant-enabling drug coverage.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Highly sensitized ESRD patients, transplant providers, MA plans, hospitals, and manufacturers of transplant-enabling therapies.
+- **Economic implications:** Not addressed in monetary terms; the comment implies avoidable waste and care disruption if organ offers cannot be accepted.
+- **Technical feasibility:** Not addressed beyond support for electronic prior authorization.
+- **Patient care impact:** High. Delayed or uncertain authorization could prevent or delay a kidney transplant and affect long-term outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted concerns.
+- **Tone:** Professional and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "We especially appreciate the proposals to require payers to support electronic prior authorizations and require shorter timeframes for prior authorization decisions." - Context: Overall support for CMS prior authorization modernization.
+2. "It is critical that a highly sensitized patient receives imlifidase, if prescribed, within 24 hours prior to receiving a kidney transplant." - Context: Clinical rationale for expedited authorization.
+3. "We urge CMS to require that if a health plan seeks prior authorization for imlifidase, it must take place at the same time the patient is activated on the kidney transplant waiting list." - Context: Specific recommended timing safeguard.
+4. "Step therapy would be unethical in this situation" - Context: Objection to requiring failed experimental desensitization before imlifidase-enabled transplantation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment focuses on authorization timing and the need for decisions before transplant opportunities are lost.
+- [ ] **COST-RESOURCES** - Not addressed.
+- [x] **PROVIDER-BURDEN** - Providers need certainty to proceed with organ acceptance and transplant according to clinical best practices.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [ ] **TECHNICAL-FEASIBILITY** - Not directly addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - The central concern is patient access to a transplant-enabling drug and avoiding missed organ offers.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - The comment asks for coordinated coverage of imlifidase and transplantation across plans and providers.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Hansa emphasizes inpatient/DRG use and the mismatch with Part D-oriented PA rules.
+- [x] **TRANSPARENCY** - The comment supports more transparent PA decisions for needed medicines.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The transplant waiting-list, organ-offer, and surgery workflow drives the requested PA timing.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Hansa Biopharma
+P.O. Box 785
+SE-220 07 Lund, Sweden
+Phone: +46 46 16 56 70
+Fax: +46 46 12 77 75
+Visiting address:
+Scheelevagen 22
+223 63 Lund, Sweden
+www.hansabiopharma.com
+June 10, 2026
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8010
+Baltimore, MD 21244-8010
+
+Dear Administrator Oz:
+Hansa Biopharma thanks you for this opportunity to comment on the proposed rule on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs. We are honored to participate in this important process.
+Hansa Biopharma is a commercial-stage biopharmaceutical company pioneering the development and commercialization of innovative immunomodulatory treatments for people living with rare immunological conditions. Our mission is to successfully develop and commercialize novel immunomodulatory therapies by leveraging our expertise in enzyme technology and immunology to transform care for patients with acute or complex immune disorders. Our medicine, imlifidase, has been approved in Europe to reduce donor-specific antibodies (DSA) to a level consistent with crossmatch conversion, thus enabling human leukocyte antigen (HLA) incompatible transplantation. It is under FDA review with a PDUFA date of December 19, 2026.
+We appreciate the efforts to improve guidance on prior authorization to best benefit patients and providers by creating a more expeditious, transparent, and reliable process. We especially appreciate the proposals to require payers to support electronic prior authorizations and require shorter timeframes for prior authorization decisions. Imlifidase is a drug that reduces DSA in highly sensitized ESRD patients waiting for a kidney transplant. It is critical that a highly sensitized patient receives imlifidase...

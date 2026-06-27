@@ -1,0 +1,218 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0400
+Commenter: AstraZeneca
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:59:13
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** AstraZeneca (signed by Sarah C. Arbes, Head of US Federal Affairs and Policy)
+- **Stakeholder type:** Other (global biopharmaceutical manufacturer; operates through subsidiary Alexion for rare diseases; participates in all major U.S. payer markets)
+- **Credentials or expertise mentioned:** Global biopharmaceutical company operating in 100+ countries; 18,000+ U.S. employees; supports ~92,000 U.S. jobs; specialty in oncology, CVRM, respiratory/immunology, and rare diseases via Alexion; extensive payer and formulary engagement experience
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AstraZeneca broadly supports the proposed rule as a critical and long-overdue step toward closing the regulatory gap between medical services and prescription drugs in prior authorization. The company provides highly detailed recommendations across nearly every major provision, including: supporting the October 1, 2027 implementation date; recommending a uniform 24-hour PA decision standard across all payer markets; urging strong transparency and AI guardrails for denial rationales; advocating for plan-level and point-of-sale reporting; and calling for robust safeguards for rare disease patients who face disproportionate harm from PA delays and step therapy requirements. AstraZeneca also recommends additional reforms not directly covered by the proposed rule, including prohibitions on retroactive denials, white-bagging/brown-bagging mandates, and inadequate single case agreement processes.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, FHIR-IG-REQUIRED, API-USAGE-METRICS, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-ENDPOINT-REPORTING, GENERAL (step therapy RFI, other reforms)
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890 (April 14, 2026); 85 Fed. Reg. 25510 (2020 Interop Rule); 89 Fed. Reg. 8758 (2024 PA Final Rule); 42 C.F.R. § 423.568; 42 C.F.R. § 438.404(b)(2); Social Security Act § 1927(k)(2)(B) and (k)(3); 45 CFR 156.223(h); 90 FR 15792 (April 2025 MA Final Rule); 89 Fed. Reg. 51,238
+- **Standards referenced:** NCPDP SCRIPT standard, NCPDP Formulary and Benefit (F&B) standard, NCPDP Real-Time Prescription Benefit (RTPB) standard, HL7 FHIR, Prior Authorization API (CRD/DTR/PAS IGs), Patient Access API, Provider Access API, Payer-to-Payer API
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: PA-DRUG-PHARMACY — NCPDP Standards**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support with enhancements
+- **Rationale:** Broad adoption of NCPDP SCRIPT, F&B, and RTPB standards will improve transparency, reduce administrative inefficiency, and facilitate timely prescribing decisions. Critical for rare disease patients who face complex PA requirements and community pharmacy unfamiliarity.
+- **Specific request:** (1) Require weekly F&B data updates to ensure accuracy; (2) clarify that all claim-level restrictions resulting in rejected/modified claims (including POS claim edits) are treated as PA transactions subject to NCPDP standards and disclosure.
+
+**Topic 2: PA-DRUG-MEDICAL — Prior Authorization API**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support with enhancements
+- **Rationale:** PA API will reduce administrative burden, improve turnaround times, and is especially important for rare disease therapies (infused enzymes, monoclonal antibodies, gene therapies) that currently use manual multi-week processes.
+- **Specific request:** Adopt safeguards to prevent PA from being used to steer patients to payer-preferred (often payer-affiliated) sites of care; require site-of-care conditions to be disclosed via PA API and subject to same justification and appeal rights as denials.
+
+**Topic 3: Implementation Timeline and Extension Pathways**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, STATE-EXTENSION-PROCESS
+- **Position:** Support
+- **Rationale:** October 1, 2027 provides a reasonable timeframe; extension pathway for state Medicaid/CHIP FFS is appropriate.
+- **Specific request:** Limit extensions to no more than 6 months total; require showing of demonstrable technical/operational barriers; allow QHP issuers to request exceptions through annual certification process under 45 CFR 156.223(h).
+
+**Topic 4: Compliance Certification and Delegated Entity Accountability**
+- **Provision ID:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Payers could maintain nominal compliance while relying on older standards in live transactions; delegated entities (PBMs, UM vendors) administer core PA functions but may not be subject to same standards.
+- **Specific request:** Require compliance certification based on live transaction data (not just system support); require transaction-level auditing; establish dedicated compliance audit mechanism extending to PBMs and UM vendors.
+
+**Topic 5: Concurrent Review**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Concurrent review functions as de facto PA but may not be subject to same transparency/timeliness standards; particularly burdensome for rare disease patients requiring lifelong therapy with frequent reauthorizations.
+- **Specific request:** Clarify that concurrent review is subject to same transparency, electronic workflow, and timeliness standards; F&B files should indicate reauthorization requirements.
+
+**Topic 6: Access APIs**
+- **Provision ID:** PA-DRUG-MEDICAL (implicitly), API-USAGE-METRICS
+- **Position:** Support with enhancements
+- **Rationale:** Making PA request and decision data available through Access APIs reduces duplicative submissions and improves treatment planning; formulary removal from Provider/Payer-to-Payer APIs should be sequenced carefully.
+- **Specific request:** (1) Phase formulary removal only after PA API is fully operational; (2) include additional data elements: decision-making entity identity, step therapy status, authorization end dates, clinical criteria version applied; (3) require near-real-time updates within 12 hours of determination; (4) define covered drug scope broadly and explicitly, preventing carve-outs for biosimilars, compounded drugs, vaccines.
+
+**Topic 7: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify (strengthen)
+- **Rationale:** Varying market-specific timeframes create complexity and risk slower routing; 72-hour standard is insufficient for oncology, rare disease, and acute infectious disease patients where delays cause irreversible harm.
+- **Specific request:** Adopt uniform 24-hour standard across all impacted payers including MA and Part D; if not adopted, extend 24-hour standard to all Medicaid drugs and establish default expedited pathways for oncology, rare disease, and acute infectious disease categories; establish 5-business-day outer limit on total PA decision time; limit pends to one occurrence with documented reason; auto-approve if qualified review cannot be completed in 24 hours.
+
+**Topic 8: PA Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with significant enhancements
+- **Rationale:** Existing denial communications are vague and insufficient; rare disease specialists cannot effectively appeal without knowing specific clinical criteria; AI is increasingly used in PA decisions without disclosure or qualified review.
+- **Specific request:** (1) Send denial rationales directly to both providers AND patients; (2) require: specific criterion not met, evidence standard/guideline applied, documentation needed for approval; (3) prohibit withholding criteria on proprietary grounds; (4) develop standardized denial categories with patient advocate and specialist input; (5) require disclosure of AI use; (6) require AI-influenced denials to be reviewed by specialty-trained clinician; (7) apply rationale requirements to all denial types including administrative/technical.
+
+**Topic 9: API Usage Metrics (Payer Reporting to CMS)**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with enhancements
+- **Rationale:** Contract/issuer-level aggregation masks variation; metrics should reflect actual patient access impact, not just utilization counts.
+- **Specific request:** (1) Plan-level reporting; (2) add access/performance measures stratified by therapeutic area and drug type, overturn rates, time-to-decision, step therapy failure rates; (3) CMS to publish annual analysis; (4) define reportable transactions broadly to include claims edits, concurrent review, re-authorization, formulary exceptions.
+
+**Topic 10: Public Reporting of Rx PA Metrics**
+- **Provision ID:** API-ENDPOINT-REPORTING, API-USAGE-METRICS
+- **Position:** Support with significant enhancements
+- **Specific request:** (1) Plan-level granularity; (2) stratification by drug type and therapeutic area with rare disease reported separately; (3) include POS claim rejections; (4) extend to Medicare Part D; (5) annual CMS analysis and public publication; (6) sub-reporting for delegated entities; (7) authorization duration by drug class; (8) distinguish conditional approvals; (9) require public disclosure of UM policies and clinical criteria in machine-readable format.
+
+**Topic 11: Step Therapy (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with comprehensive reform framework
+- **Specific request:** Transparent disclosure of step therapy protocols; honor outcomes across plan transitions; automatic exceptions on prescriber attestation; prohibit when no alternative exists; prohibit plan-year resets; prohibit mid-year imposition on stable patients; establish federal \"previously failed\" definition; use collected data to develop evidence-based guardrails.
+
+**Topic 12: Other Prior Authorization Reforms**
+- **Provision ID:** GENERAL
+- **Position:** Recommend additional actions
+- **Specific request:** Guardrails for single case agreements; prohibit retroactive denials post-dispensing; require good-faith outreach before administrative denials; peer-to-peer review within 24 hours of denial; apply PA requirements to copay tier exceptions; prohibit white-bagging and brown-bagging mandates.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** Supports non-Part D NCPDP applicability; recommends scope include all claim-level restrictions and POS edits.
+- **S22:** Supports NCPDP adoption; recommends weekly F&B data updates rather than addressing costs.
+- **S25:** Supports RTPB adoption; recommends all claim-level restrictions be captured.
+- **S12:** Recommends site-of-care safeguards and concurrent review clarity for medical benefit PA API.
+- **S16:** Recommends standardized denial categories; requires criterion not met, evidence standard, needed documentation; prohibit proprietary withholding.
+- **S17:** Urges standardized denial codes with patient advocate/specialist input; require AI disclosure.
+- **S20:** Recommends uniform 24-hour standard; 5-business-day outer limit; default expedited for high-risk categories; auto-approve if qualified review cannot be completed.
+- **S21:** Supports October 1, 2027; recommends extension limits and live-transaction compliance certification.
+- **S29:** Recommends broader definition of reportable PA transactions; plan-level reporting; stratification by therapeutic area.
+- **S30:** Recommends POS rejections be included; broad coverage of all access-limiting mechanisms.
+- **S34:** Recommends annual CMS publication of aggregated metrics analysis.
+- **S35:** Supports public aggregate reporting; recommends rare disease stratification and delegated entity sub-reporting.
+- **S38/S39:** Recommends limiting extension duration to 6 months maximum.
+- **S31:** Recommends QHP exception process through annual certification.
+- **S66 (Step Therapy RFI):** Comprehensive step therapy reform framework.
+
+---
+
+## 6. RECOMMENDATIONS
+
+(See Detailed Positions above — 44 numbered recommendations are itemized there for full detail.)
+
+Key recommendations summary:
+1-2: Weekly F&B updates; POS edits as PA transactions
+3: Site-of-care steering safeguards via PA API
+4-5: Extension limits; QHP exception process
+6-7: Live-transaction compliance; delegated entity audit
+8: Concurrent review subject to same standards
+9-12: Access API enhancements (sequenced, data elements, real-time, scope)
+13-15: Uniform 24-hour PA standard; outer limits; auto-approval fallback
+16-21: Denial rationale enhancements including AI disclosure and standardized categories
+22-24: Plan-level API metrics; performance measures; broad transaction definition
+25-31: Enhanced public reporting (POS, Part D, annual CMS analysis, delegated entities, duration, conditions, UM policies)
+32-38: Step therapy reform (transparency, cross-plan recognition, rare disease prohibition, plan-year reset prohibition, federal definition)
+39-44: Other reforms (single case agreements, retroactive denials, good-faith outreach, peer-to-peer, copay tiers, white/brown-bagging)
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Vague denial rationales harm rare disease patients; POS claim edits function as PA without transparency; nominal compliance gap (standards supported but not used in live transactions); delegated entity noncompliance undermines payer-level requirements; site-of-care steering through PA conditions serves financial rather than clinical interests; white/brown-bagging disrupts care quality and integrity.
+- **Potential negative impacts cited:** 90%+ of physicians report PA delays negatively impact outcomes; nearly 1 in 4 report PA led to serious adverse event; 75%+ of abandoning patients fail to initiate alternative within 90 days; practices spend ~$68,000/physician/year; aHUS patients face irreversible kidney damage within 48-72 hours; PNH patients face life-threatening thrombosis during review periods.
+- **Implementation barriers mentioned:** Delegated entity compliance gaps; live-transaction vs. nominal compliance gap; concurrent review not clearly covered; Access API data currency insufficient for time-sensitive therapies; POS claim edits excluded from current framework.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 90%+ of physicians report PA delays negatively impact outcomes (AMA 2024/2026 surveys); nearly 1 in 4 physicians report PA led to serious adverse event (AMA May 2026); 75%+ of abandoning patients fail to initiate alternative within 90 days; $68,000/physician/year on health plan interactions; 39 PA requests/physician/week (~13 hours); 40% hired dedicated PA staff; 88%+ report PA contributes to burnout; 75% of dermatology denial letters did not identify decision maker.
+- **Studies or research referenced:** AMA 2024 and May 2026 Prior Authorization Physician Surveys; NORD 2023 barriers report; Loirat & Frémeaux-Bacchi 2011 (aHUS); Legendre et al. 2013 NEJM (eculizumab); Ismail et al. 2023 J. Managed Care & Specialty Pharmacy; Parker et al. 2005 Blood (PNH); Barbieri & Bader 2025 (dermatology denial transparency); multiple AMA Council on Medical Service reports.
+- **Examples provided:** aHUS — irreversible kidney damage within 48-72 hours; PNH — life-threatening thrombosis during review; complement-mediated disease patients require lifelong therapy with frequent reauthorization; psychiatric medications PA leads to higher hospitalization/incarceration; buprenorphine-naloxone PA removal increases use; novel anticoagulant PA restriction increases stroke risk.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Rare disease patients (disproportionate), oncology patients, providers (administrative burden reduction), PBMs (compliance extension), UM vendors, pharmacies (retroactive denial risk), payers, CMS oversight
+- **Economic implications:** PA delays create $68,000+/physician/year administrative cost; PA reform could reduce abandonment rates and downstream hospitalization; plan-level reporting needed to identify outlier payer behavior
+- **Technical feasibility:** Supports October 1, 2027 as reasonable; sequenced formulary API removal important; near-real-time API updates technically achievable; POS edits need definitional clarification only
+- **Patient care impact:** Very high — aHUS, PNH, and rare disease patients face irreversible harm; treatment abandonment rate is very high; step therapy forces repeated treatment failures; retroactive denials disrupt established therapy; white/brown-bagging compromises drug integrity
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with extensive specific enhancements)
+- **Tone:** Technical, Professional, Advocacy-oriented
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "For patients with rare diseases, prior authorization delays can be particularly devastating. Many rare diseases are progressive, meaning that delays of even days or weeks can result in irreversible organ damage, permanent disability, or death." - Context: Establishing clinical urgency of PA reform for rare disease patients.
+2. "Absent clear guidance, these claim-level restrictions may fall outside the scope of prior authorization requirements, despite having the same functional impact on patient access. This creates a risk that utilization management controls could be shifted into the claims adjudication process, where they are less visible and not subject to the same safeguards." - Context: Recommending POS claim edits be treated as PA transactions.
+3. "It is not sufficient for payers to provide boilerplate explanations that fail to communicate the reason behind the denial." - Context: Advocating for specific, actionable denial rationales.
+4. "Without greater visibility into authorization length, approval rates alone may present an incomplete or misleading picture of access. In particular, short-duration authorizations may increase the volume of repeat requests while maintaining superficially favorable approval rates." - Context: Requesting public reporting of authorization duration to reveal access barriers masked by approval rate statistics.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports October 1, 2027; recommends limiting extensions to 6 months; urges live-transaction compliance certification to prevent de facto delays.
+- [x] **COST-RESOURCES** - Cites $68,000/physician/year administrative cost of PA; notes PA leads to higher overall healthcare utilization and waste.
+- [x] **PROVIDER-BURDEN** - 39 PA requests/physician/week; 40% hired dedicated PA staff; 88%+ report PA contributes to burnout; peer-to-peer delays as additional burden.
+- [x] **HEALTH-EQUITY** - Rare disease patients face disproportionate barriers; geographic inequity; step therapy nonsensical for single-FDA-approved-drug conditions.
+- [x] **TECHNICAL-FEASIBILITY** - Recommends sequenced formulary API removal; near-real-time Access API updates; live-transaction compliance testing; POS edits definitional clarification.
+- [x] **STANDARDS-MATURITY** - Supports both NCPDP and FHIR standards as adequate; focuses on compliance scope and data quality rather than IG maturity.
+- [x] **PATIENT-ACCESS** - Central theme throughout: aHUS, PNH, rare disease patients face life-threatening consequences; treatment abandonment rate very high.
+- [x] **TRANSPARENCY** - Extensive recommendations: denial categories, AI disclosure, UM policy machine-readable files, authorization duration reporting, conditional approval reporting, POS rejection inclusion.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends delegated entity accountability; coordinated step therapy recognition across plan transitions.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Addresses both pathways; recommends concurrent review and POS edits subject to same standards regardless of benefit.
+- [x] **EXISTING-WORKFLOWS** - POS claim edits, concurrent review, single case agreements, and white/brown-bagging circumvent PA safeguards.
+- [x] **VENDOR-ECOSYSTEM** - PBMs and UM vendors are core concern; recommends compliance auditing extend to delegated entities; white/brown-bagging by PBM-affiliated specialty pharmacies.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+VIA ELECTRONIC FILING - REGULATIONS.GOV
+
+The Honorable Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges (RIN 0938-AV44)
+
+Dear Administrator Oz:
+AstraZeneca appreciates the opportunity to comment on the Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization Proposed Rule (the Proposed Rule) published by the Centers for Medicare & Medicaid Services (CMS) on April 14, 2026. AstraZeneca is a global, science-led biopharmaceutical company focused on the discovery, development, and commercialization of prescription medicines, primarily in the areas of Oncology; Cardiovascular, Renal, and Metabolism (CVRM); and Respiratory and Immunology...

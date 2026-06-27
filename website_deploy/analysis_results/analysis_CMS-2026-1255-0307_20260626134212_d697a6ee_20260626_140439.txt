@@ -1,0 +1,191 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0307
+Commenter: Washington State Health Care Authority (HCA)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:04:39
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Washington State Health Care Authority (HCA)
+- **Stakeholder type:** Government
+- **Credentials or expertise mentioned:** State Medicaid/CHIP agency operating Washington Apple Health (Medicaid); directed by Ryan Moran, DrPH, MHSA; manages Medicaid FFS and managed care programs
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The Washington State Health Care Authority supports the rule's goals of electronic PA modernization but raises urgent concerns about the October 1, 2027 compliance deadline—requesting extension to January 1, 2030—citing state budget cycles, separate pharmacy POS systems not yet updated, and competing IT priorities. The agency also requests specificity on denial reason requirements, clarification on the 24-hour timeframe (should apply after all information is received, not from initial request), and guidance on FHIR/NCPDP coordination and statewide HIE orchestration models. HCA emphasizes the risk of "compliance on paper, failure in practice" if only technical endpoint availability is measured rather than real operational adoption.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, API-ENDPOINT-REPORTING, FHIR-IG-REQUIRED, STATE-EXTENSION-PROCESS, GENERAL
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890-1 (April 14, 2026); CMS-0062-P; CMS-0057-F (89 Fed. Reg. 8758-01, February 8, 2024); Section 1927(d)(5)(A) of the Social Security Act
+- **Standards referenced:** FHIR (CRD, DTR, PAS); NCPDP SCRIPT, Formulary & Benefit (F&B), NCPDP F6 standard; NCPDP standard rejection codes; twelve-digit national drug code
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Implementation Timeline**
+- **Provision ID:** STATE-EXTENSION-PROCESS
+- **Position:** Oppose (current date); Modify
+- **Rationale:** Three reasons make October 1, 2027 infeasible: drugs excluded from 2024 rule require new physician-administered drug integration; separate pharmacy POS systems have not yet begun updates and face competing deadlines (NCPDP F6 by August 2027); state funds not available until FY beginning July 1, 2027.
+- **Specific request:** Extend compliance deadline to no earlier than January 1, 2030 (consistent with three-year period allowed for 2024 rule).
+
+**Topic 2: PA Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Clarify
+- **Rationale:** HCA already provides denial reasons but the proposed rule lacks specificity about what is required—unclear whether denial reasons must point to each unmet criterion or whether a standard code set (like NCPDP rejection codes) will be used.
+- **Specific request:** CMS must specify level of detail required and whether a standardized code set will be used before states can scope implementation costs.
+
+**Topic 3: 24-Hour PA Decision Timeframe**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Section 1927(d)(5)(A) SSA 24-hour response has been interpreted as not requiring a final determination. Requiring final decisions within 24 hours of initial request—without time for additional information—will generate unnecessary denials, harm Medicaid enrollee access, require weekend/holiday staffing, increase hearings, and raise program costs.
+- **Specific request:** Final rule should require final determination within 24 hours of receiving all information necessary to decide.
+
+**Topic 4: Medical vs. Pharmacy Benefit Drug Metrics Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Clarify
+- **Rationale:** Unclear whether medical-benefit drugs should be reported with non-drug items (2024 rule) or with pharmacy-benefit drugs, or separately.
+- **Specific request:** Clarify reporting structure; standardize metric calculations across state Medicaid programs.
+
+**Topic 5: FHIR/NCPDP Standards Applicability**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify
+- **Rationale:** Some drugs billed under both benefits depending on place of service (specialty pharmacy at home vs. provider office). Proposed rule states FHIR applies to dental/professional/institutional but not retail pharmacy, creating ambiguity.
+- **Specific request:** Final rule must clarify whether standards apply based on the actual drug or the claim type.
+
+**Topic 6: Provider Adoption Gap**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Building payer-side APIs creates capacity but does not ensure provider adoption; prior initiatives have left capacity unused.
+- **Specific request:** Support adoption entities analogous to HITECH-era Regional Extension Centers.
+
+**Topic 7: Operational Adoption vs. Technical Compliance**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Risk of "compliance on paper, failure in practice"—states may achieve technical endpoint compliance while providers continue using portals and manual workflows.
+- **Specific request:** Require operational metrics (transaction volume, success rates, error rates, endpoint uptime, response latency, fallback rates) rather than attestation of endpoint availability.
+
+**Topic 8: FHIR/NCPDP Coordination and HIE Orchestration**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, STATE-EXTENSION-PROCESS
+- **Position:** Clarify
+- **Rationale:** Dual FHIR/NCPDP framework risks fragmented workflows; statewide HIE entities could serve as orchestration intermediaries but federal guidance and APD funding clarity is needed.
+- **Specific request:** Provide FHIR/NCPDP coordination guidance; explicitly support optional statewide/HIE orchestration models; clarify APD funding.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S36/S38:** Requests extension to January 1, 2030; cites state budget cycle, POS system readiness, and competing IT priorities.
+- **S16:** Requests CMS specify denial reason level of detail; notes HCA cannot scope implementation until requirements clarified.
+- **S20/S43:** Proposes 24-hour timeframe should run from receipt of all necessary information; warns rigid rule will cause unnecessary denials.
+- **S29/S30/S34/S35:** Requests standardized operational metrics; requests clarification on medical-benefit drug reporting structure.
+- **S15:** Requests clarification on FHIR/NCPDP applicability based on drug vs. claim type/place of service.
+- **S12:** Highlights provider adoption gap; recommends Regional Extension Center-type support.
+- **S37:** Identifies statewide HIE orchestration as needed implementation support.
+- **S23/S26:** Notes need for consistent IG versions and endpoint structures across MCOs within a state.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Extend compliance deadline to no earlier than January 1, 2030.
+2. Specify denial reason requirements (criterion-specific or standard code set) before states must scope implementation.
+3. Require final PA determination within 24 hours of receiving all information necessary—not from initial request.
+4. Clarify whether medical-benefit drug metrics combine with non-drug items or pharmacy drugs, or are reported separately.
+5. Standardize metric calculations across all state Medicaid programs for comparability.
+6. Clarify whether FHIR/NCPDP standards apply based on the drug or claim type/place of service.
+7. Support HITECH-era Regional Extension Center-type entities to drive provider adoption.
+8. Require operational metrics (transaction volume, success rates, error rates, uptime, latency, fallback rates).
+9. Provide clearer guidance on FHIR/NCPDP coordination to minimize workflow fragmentation.
+10. Explicitly support optional statewide/HIE orchestration models; clarify APD and federal funding.
+11. Provide phased implementation guidance and statewide governance model support.
+12. Encourage standardization of IG versions, endpoint structures, and workflows across MCOs within a state.
+13. Encourage consent management approaches that minimize provider workflow disruption.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** October 2027 deadline infeasible given budget cycles and POS readiness; 24-hour timeframe from submission will cause unnecessary denials; lack of denial reason specificity prevents scoping; risk of technical compliance without operational adoption.
+- **Potential negative impacts cited:** Unnecessary PA denials under rigid 24-hour rule; increased Medicaid hearings; weekend/holiday staffing requirements; program cost increases; provider adoption stagnation; fragmented workflows.
+- **Implementation barriers mentioned:** State funds not available until July 1, 2027; pharmacy POS systems with competing deadlines (NCPDP F6 by August 2027); physician-administered drug integration is new work; MCO variation in IG versions/endpoints; absent HIE orchestration guidance.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NCPDP F6 transition deadline: August 14, 2027; twelve-digit NDC implementation: March 7, 2033; state funds available for CMS-0062-P no earlier than July 1, 2027.
+- **Studies or research referenced:** CMS-0057-F (2024 rule); Section 1927(d)(5)(A) Social Security Act.
+- **Examples provided:** Washington HCA's current PA practice (receipt confirmation within 1 business day; additional info request by end of next business day; final determination within 1 business day of receiving additional info); specialty pharmacy drugs billed under pharmacy benefit when administered at home but medical benefit when in provider office.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** State Medicaid FFS programs; Medicaid MCOs/CHIP; Medicaid enrollees; pharmacy POS system vendors; statewide HIE entities.
+- **Economic implications:** October 2027 deadline infeasible given state budget cycles; implementation costs unquantifiable until denial reason specifications clarified; rigid 24-hour rule will increase administrative hearing and staffing costs.
+- **Technical feasibility:** Significant concerns—POS systems not yet begun updates; physician-administered drug integration is new work; MCO variation creates state-level complexity requiring governance frameworks.
+- **Patient care impact:** Rigid 24-hour timeframe risks causing unnecessary denials and reduced Medicaid enrollee access; properly implemented, the rule would improve PA speed and transparency.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (Supportive of goals, Concerned/Opposed to timeline and implementation details)
+- **Tone:** Professional, Technical
+- **Priority level:** High (state Medicaid agency with specific, actionable requests across multiple provisions)
+
+---
+
+## 11. KEY QUOTES
+
+1. "HCA is requesting an implementation date no earlier than January 1, 2030. This would align with the three-year period that was allowed for the implementation of the 2024 rule." - Context: Leading implementation extension request.
+
+2. "Requiring Medicaid programs to make a final determination within 24 hours, without time to ask for additional information, will result in many unnecessary denials, inhibit access to care for Medicaid enrollees, require states to increase staffing on weekends and holidays, increase the number of administrative hearings, increase administrative burden on providers, and likely increase overall program costs." - Context: Opposing rigid 24-hour from submission interpretation.
+
+3. "HCA supports CMS' movement toward electronic prior authorization but urges CMS to ensure the rule supports operational adoption and workflow usability, not just technical endpoint availability." - Context: Introducing the compliance vs. operational adoption risk.
+
+4. "An API without a comprehensive plan to fuel acceptance and adoption with providers has the potential to leave developed capacity unused." - Context: Recommending HITECH-style adoption support entities.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Primary concern; requests January 1, 2030 extension; cites budget cycle, POS system readiness, and competing IT priorities.
+- [x] **COST-RESOURCES** - Implementation costs unquantifiable without denial reason specificity; costs of unnecessary denials and increased hearings under rigid 24-hour rule.
+- [x] **PROVIDER-BURDEN** - Addresses provider adoption gap; advocates for Regional Extension Center-type support; notes consent friction and fragmented workflow risks.
+- [x] **TECHNICAL-FEASIBILITY** - Detailed analysis of POS system readiness, physician-administered drug integration, MCO variation, and HIE orchestration models.
+- [x] **STANDARDS-MATURITY** - Highlights NCPDP F6 transition competing with proposed deadline; requests FHIR/NCPDP coordination guidance.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Requests clarification on place-of-service-dependent drug benefit classification and which standard applies.
+- [x] **TRANSPARENCY** - Supports denial reasons but requests specificity before implementation can be scoped.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends statewide governance models; HIE orchestration guidance; MCO standardization; FHIR/NCPDP coordination.
+- [x] **EXISTING-WORKFLOWS** - Emphasizes risk of fragmented FHIR/NCPDP workflows; advocates for integrated workflow design; highlights current HCA PA process.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+STATE OF WASHINGTON
+HEALTH CARE AUTHORITY
+626 8th Avenue, SE • P.O. Box 45502 • Olympia, Washington 98504-5502
+
+June 11, 2026
+
+Department of Health and Human Services
+Centers for Medicare & Medicaid Services
+Office of the Secretary
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+RE: Washington State Health Care Authority Comments On Proposed Rulemaking: CMS-0062-P
+
+The Washington State Health Care Authority (HCA) offers the following comments and recommendations in response to a proposed rule from the Centers for Medicare and Medicaid Services (CMS) denoted as CMS-0062-P. HCA shares in the goal of advancing the use of electronic prior authorization and recognizes the efficiencies that can be driven by APIs and regulatory standardization. Enacting appropriate reporting and adoption standards at a national level will help ensure consistency in adoption across Medicaid programs and help ensure that states are not left to advance market practices solely through their own regulation.
+
+HCA is concerned with the compliance date of October 1, 2027, for both CMS-0057-F ("2024 rule") and CMS-0062-P. HCA is requesting an implementation date no earlier than January 1, 2030. This would align with the three-year period that was allowed for the implementation of the 2024 rule...

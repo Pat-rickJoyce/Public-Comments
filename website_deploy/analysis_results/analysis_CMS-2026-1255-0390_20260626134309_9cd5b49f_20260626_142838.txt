@@ -1,0 +1,203 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0390
+Commenter: Association of American Medical Colleges (AAMC)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:38
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Association of American Medical Colleges (AAMC)
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents all 163 U.S. accredited medical schools, ~500 academic health systems and teaching hospitals (including VA medical centers), 70+ academic societies, 210,000+ full-time faculty, 99,000 medical students, 162,000 resident physicians; signed by Jonathan Jaffery, M.D., M.S., M.M.M., F.A.C.P., Chief Health Care Officer
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The AAMC broadly supports CMS's efforts to streamline prior authorization and advance interoperability, while urging more aggressive and uniform timeframes (24-hour expedited, 48-hour standard for all drug and non-drug PA across all payer types), expanded PA denial reason requirements, and aligned drug PA reporting across all payers. The AAMC also urges restrictions on PA for substance use disorder treatment, AI oversight and transparency requirements for PA processes, and a consensus-driven, risk-flexible, adequately-timed approach to cybersecurity requirements — emphasizing alignment with existing frameworks and continuity of Medicare payments during cyber events.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-TIMEFRAMES-DRUGS, PA-DENIAL-REASONS, API-USAGE-METRICS, FF-SHOP-REQUIREMENTS, GENERAL (step therapy RFI, cybersecurity RFI)
+- **Regulatory citations mentioned:** 89 FR 8758 (2024 Interoperability and Prior Authorization Final Rule); 45 CFR 160.404; HIPAA Security Rule; FISMA; HITECH Act; NIST SP 800-171; HHS Healthcare Sector Cybersecurity Performance Goals (CPGs); DoD CMMC
+- **Standards referenced:** HIPAA Security Rule; NIST SP 800-171; NIST Cybersecurity Framework; HHS Healthcare Sector CPGs; ASTP/ONC CEHRT certification criteria; referenced FHIR APIs and ePA generally
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: QHP on FFE – Non-Drug PA Timeliness Alignment**
+- **Provision ID:** FF-SHOP-REQUIREMENTS, PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** AAMC previously requested CMS extend the same non-drug PA timeline requirements to QHPs on FFEs. Aligned requirements allow providers to reduce administrative tasks and spend more time on clinical care.
+- **Specific request:** Finalize the proposal to align QHP on FFE non-drug PA decision timeframes with other impacted payers. Finalize requirement to notify providers of PA decisions.
+
+**Topic 2: Drug PA Timeliness – Shorten to 24/48 Hours Universally**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modification
+- **Rationale:** Current proposals retain variation by payer type. Prior authorization delays impede needed care, force patients to forgo treatment, and disrupt prescription drug adherence. The 24-hour timeframe already applicable in Medicaid/CHIP is the right model.
+- **Specific request:** Adopt 24-hour timeframe for urgent/expedited requests and 48-hour for non-urgent standard decisions for BOTH drug and non-drug items and services across ALL payer types, including QHPs on FFEs.
+
+**Topic 3: PA Restrictions for Substance Use Disorder Treatment**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA requirements impose barriers for individuals seeking SUD treatment by delaying care at the critical moment. Delays place patients at risk of continued substance use, medical complications, overdose, and death. GAO (2025) recommended CMS target behavioral health services in PA denial audit.
+- **Specific request:** Restrict use of PA when a patient seeks SUD treatment. Use GAO-25-107342 findings to inform thinking on behavioral health PA more broadly.
+
+**Topic 4: AI in Prior Authorization – Oversight and Transparency**
+- **Provision ID:** GENERAL
+- **Position:** Modify (urging regulatory guardrails)
+- **Rationale:** AI could support timely PA, but without understanding why an algorithm recommends denial, patient access is at risk. MA plans observed prompting more restrictive decisions than Medicare coverage guidelines. AI hallucinations (false/fabricated information presented as fact) pose specific risks in PA.
+- **Specific request:** Require public reporting of algorithm and AI use in PA (level-of-care, length-of-stay decisions). Require clear human-oversight pathway for denial disputes. Federal regulatory framework would enable streamlined governance.
+
+**Topic 5: PA Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Specific denial reasons help providers navigate next steps; enable remedy of administrative/documentation issues and appeals.
+- **Specific request:** Finalize proposal requiring specific denial reasons for drug PA across state Medicaid/CHIP FFS, managed care, and QHP issuers on FFEs.
+
+**Topic 6: PA Metrics Reporting – Align and Strengthen**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with expansion
+- **Rationale:** Including prescription drugs in reporting ensures important care component is represented; enables analysis across payer types; allows accurate assessment of plan policies' impact on patient access and provider burden.
+- **Specific request:** Align PA reporting requirements across all payers including for drug PA. Add reporting on: claims denied after service provided; beneficiary out-of-pocket spending; and disenrollment patterns from PA denials.
+
+**Topic 7: Step Therapy – Technology and Information Sharing (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support (technology for information sharing) / Caution (on harm)
+- **Rationale:** Step therapy is routinely used to steer patients to less expensive medications (38.9% of large commercial plans' drug policies apply step therapy). Particularly harmful when patients switch payers and must re-document prior treatment history. AAMC previously commented on dangers for patients on psychiatric medications.
+- **Specific request:** CMS should leverage technology and interoperability to streamline PA/step therapy history sharing across payers, especially for patients switching plans. Work with plans to find information sharing solutions ensuring continuous medication access.
+
+**Topic 8: Healthcare Resiliency / Cybersecurity (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support (goals) / Modify (approach)
+- **Rationale:** Academic health systems are committed to cybersecurity; Change Healthcare 2024 cyberattack showed severe financial and patient care impacts. Previously opposed overly prescriptive OCR HIPAA Security Rule proposals.
+- **Specific request:** Four-part framework: (1) Convene stakeholders including Health Sector Coordinating Council Cybersecurity Working Group before proposing requirements; (2) adequate compliance transition timelines; (3) align with NIST SP 800-171, HHS CPGs, and existing standards; (4) provider-level risk analysis flexibility not one-size-fits-all; (5) establish dedicated mechanism for Medicare payment continuity during cyberattacks, building on/improving AAP program.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S20:** Supports drug PA timeliness requirements; urges shortening to 24-hour expedited and 48-hour standard across all payer types and drug/non-drug items; 24-hour Medicaid/CHIP standard should be adopted universally.
+- **S16:** Supports specific denial reason requirements for drug PA; finalize as proposed.
+- **S29/S34/S35:** Supports PA metrics reporting expansion; urges alignment across all payers; recommends additional metrics (post-service denials, beneficiary out-of-pocket, disenrollment patterns).
+- **S40/S41:** Supports aligning QHP on FFE PA timeliness with other CMS-regulated payers; finalize as proposed.
+- **S76/S77 (Step Therapy RFI):** Supports technology/interoperability to share step therapy history across payers; concerns about step therapy burden for psychiatric medication patients; cites 38.9% of large commercial plans applying step therapy (Lenahan et al. 2021).
+- **S68 (Cybersecurity/Resiliency RFI):** Consensus-driven approach; adequate timelines; alignment with NIST/HHS CPGs/existing standards; risk-based flexibility; Medicare payment continuity during cyber events.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize QHP on FFE alignment with other payers on non-drug PA timeliness and provider notification.
+2. Adopt 24-hour expedited and 48-hour standard PA decision timeframes for ALL drug and non-drug PA across ALL CMS-regulated payer types.
+3. Restrict use of PA for substance use disorder treatment; leverage GAO-25-107342 findings.
+4. Require public reporting of algorithm and AI use in PA decisions; require human-oversight pathway for denial disputes.
+5. Finalize specific PA denial reason requirements for drug PA across Medicaid/CHIP FFS, managed care, and QHP issuers on FFEs.
+6. Align drug PA reporting across all payers; add reporting on post-service payment denials, beneficiary out-of-pocket spending, and disenrollment patterns.
+7. Leverage interoperability to streamline PA/step therapy history sharing across payers; protect patients switching plans from re-demonstrating prior treatment history.
+8. Before proposing cybersecurity requirements, conduct consensus-driven stakeholder engagement including Health Sector Coordinating Council Cybersecurity Working Group.
+9. Ensure alignment of any new cybersecurity requirements with NIST SP 800-171, HHS CPGs, and existing industry-accepted standards.
+10. Provide flexibility for provider-level risk analysis rather than one-size-fits-all cybersecurity mandates.
+11. Provide adequate compliance transition timelines for any cybersecurity requirements.
+12. Establish dedicated mechanism for continuity of Medicare payments during cyberattack disruptions.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA timelines too lenient and inconsistent across payer types; step therapy creates additional barriers especially for SUD and psychiatric medication patients; unmonitored AI in PA prompts overly restrictive decisions; cybersecurity requirements risk being overly prescriptive without adequate stakeholder input.
+- **Potential negative impacts cited:** PA delays and denials impede care, force patients to forgo treatment, and disrupt adherence (Wang et al., JAMA Health Forum 2026); AI hallucinations and algorithmic bias in PA; Change Healthcare cyberattack: 94% of hospitals experienced financial impacts, 74% reported direct patient care impacts.
+- **Implementation barriers mentioned:** Variation in PA timelines across payer types; lack of interoperability for step therapy history; cybersecurity talent shortage; financial resource constraints; complexity of HIPAA Security Rule compliance.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 90% of Part D plans require PA for biologics in psoriasis/psoriatic arthritis (Pourali et al., JAMA Dermatol 2021); 38.9% of large commercial plans' drug coverage policies apply step therapy (Lenahan et al., Health Affairs 2021); Change Healthcare cyberattack: 94% financial impacts, 74% patient care impacts (AHA, January 2025).
+- **Studies or research referenced:** Wang Y et al., "Prior Authorization and Associated Delays and Denials of Branded Medication Dispensation," JAMA Health Forum 2026; Pourali SP et al., JAMA Dermatol 2021; Lenahan KL et al., Health Affairs 2021; GAO-25-107342 (May 2025); AAMC Comments on RFI for AI in Clinical Care (February 2026).
+- **Examples provided:** Change Healthcare 2024 cyberattack; STAT News reports on UnitedHealth/naviHealth algorithm; AAP program as existing financial continuity mechanism (but with weaknesses needing improvement).
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Academic health systems and teaching hospitals (500+), medical schools (163), faculty/residents/students (500,000+), patients with SUD, patients on complex drug regimens, patients switching plans, all HIPAA-regulated entities
+- **Economic implications:** Cybersecurity compliance costs; financial impact of cyberattacks; PA administrative burden costs; need for Medicare payment continuity mechanism
+- **Technical feasibility:** Supports technology for step therapy history sharing; supports ePA timeline improvements; urges caution on AI without oversight; urges alignment with existing cybersecurity standards for practicality
+- **Patient care impact:** Shorter PA timeframes directly improve access; SUD PA restrictions would prevent overdose deaths; AI oversight protects against inappropriate denials; payment continuity during cyberattacks maintains care delivery
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (broadly supportive with specific modifications and new recommendations)
+- **Tone:** Professional, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "CMS should adopt a timeliness requirement for prior authorization decisions within 24 hours of receipt of a request for urgent items or services and 48 hours for non-urgent care decisions for drug and non-drug items and services." - Context: Core recommendation on PA decision timeframes.
+
+2. "Prior authorization requirements impose a barrier for individuals seeking SUD treatment by delaying the initiation of care at the critical moment when an individual is seeking to take the first steps toward accepting treatment. Delays due to prior authorization place patients at risk of continued substance use, medical complications, overdose, and death." - Context: Urging restrictions on PA for SUD treatment.
+
+3. "AI hallucinations occur when an algorithm or model generates false, fabricated, or misleading information that is presented as a factual truth. Creating transparency around how these relatively new technologies may be used to inform prior authorization decisions can help policymakers mitigate overly restrictive use of these tools." - Context: Calling for AI transparency requirements in PA.
+
+4. "CMS should ensure it has an established system in place specifically tailored to ensuring financial stability and continuity of Medicare payments in the case of cyberattacks, which will allow it to quickly activate such a system in the event of disruptions caused by major outages." - Context: Lessons from Change Healthcare cyberattack.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Urges more aggressive PA timeframes (24-hour expedited, 48-hour standard for all types); concerns about adequate transition timelines for cybersecurity requirements.
+
+- [x] **COST-RESOURCES** - Cybersecurity compliance costs; cybersecurity talent shortage; financial impact of cyberattacks; importance of Medicare payment continuity mechanism.
+
+- [x] **PROVIDER-BURDEN** - PA administrative burden; step therapy documentation burden across plan changes; cybersecurity compliance burden; unified PA timelines across payers reduce administrative complexity.
+
+- [x] **PRIVACY-SECURITY** - Substantive engagement on cybersecurity RFI: consensus-driven approach, NIST/HHS CPG alignment, risk-based flexibility, continuity of payments; referenced HIPAA Security Rule, FISMA, HITECH, Change Healthcare attack.
+
+- [x] **HEALTH-EQUITY** - SUD treatment PA barriers harm vulnerable patients; PA barriers for psychiatric medication patients; AI algorithmic bias concerns.
+
+- [ ] **TECHNICAL-FEASIBILITY** - Not a primary technical concern; supports technology for step therapy history sharing.
+
+- [ ] **STANDARDS-MATURITY** - Not specifically addressed for FHIR/NCPDP standards.
+
+- [x] **PATIENT-ACCESS** - Central theme: PA delays impede care, force patients to forgo treatment; SUD PA barriers risk overdose and death; shorter timeframes directly improve medication access; step therapy disrupts adherence.
+
+- [ ] **REGULATORY-AUTHORITY** - Not a primary focus.
+
+- [x] **STAKEHOLDER-COORDINATION** - Consensus-driven stakeholder engagement for cybersecurity; Health Sector Coordinating Council; ONC/CMS/OCR alignment; CMS involvement in HHS HIPAA Security Rule discussions.
+
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not specifically addressed.
+
+- [x] **TRANSPARENCY** - AI reporting requirements; PA denial reasons; expanded PA metrics reporting; aligning drug PA reporting across all payers; reporting on post-service denials and beneficiary out-of-pocket spending.
+
+- [ ] **SMALL-PAYER-IMPACT** - Not the primary focus.
+
+- [x] **EXISTING-WORKFLOWS** - Step therapy history sharing across payers; aligned PA timelines reduce workflow complexity; cybersecurity risk analysis flexibility for different provider types.
+
+- [ ] **VENDOR-ECOSYSTEM** - Not a primary focus.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 11, 2026
+
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+
+The AAMC welcomes this opportunity to comment on the proposed rule entitled "Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges," 91 FR 19890 (April 14, 2026).
+
+The AAMC applauds CMS for its efforts to advance interoperability and standardize the prior authorization process to support access, improve patient care, and reduce administrative burden. We support improvements to streamline the prior authorization process across all payers. We have previously commented on the burden of the prior authorization process and the need for improvements to promote safe, timely and affordable access to care for patients through reducing administrative burden...

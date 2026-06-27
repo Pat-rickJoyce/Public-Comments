@@ -1,0 +1,183 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0457_20260626134252_24e8e45a
+Commenter: Medicaid and CHIP Payment and Access Commission (MACPAC)
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:49
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Medicaid and CHIP Payment and Access Commission (MACPAC); signed by Verlon Johnson, MPA, Chair.
+- **Stakeholder type:** Government.
+- **Credentials or expertise mentioned:** MACPAC is a nonpartisan legislative branch agency that provides policy and data analysis and makes recommendations to Congress, the HHS Secretary, and states on Medicaid and CHIP issues. The letter cites MACPAC's March 2024 work on Medicaid managed care denials and appeals and June 2026 work on automation in Medicaid prior authorization.
+
+## 2. EXECUTIVE SUMMARY
+
+MACPAC supports CMS's efforts to improve transparency and data reporting for prior authorization decisions in Medicaid and CHIP, especially denial reasons, appeals, and PA outcomes. It asks CMS to require more granular reporting by service and population, add transparency around automation and AI in PA determinations, and clarify PA decision timelines for certain drugs bundled with non-drug items or services.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; PA-DRUG-MEDICAL; GENERAL.
+- **Regulatory citations mentioned:** Section 1927(d)(5)(A) of the Social Security Act; Section 1927(k)(3) of the Social Security Act; 42 CFR 447.502; CMS-0062-P; 91 Fed. Reg. 19890-20062; 2024 CMS Interoperability and Prior Authorization final rule; 2020 CMS Interoperability and Patient Access final rule.
+- **Standards referenced:** Electronic prior authorization process; application programming interfaces; automation tools; artificial intelligence; Medicaid Managed Care Program Annual Report (MCPAR). The comment does not name FHIR IGs or NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Specific reasons for denial**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** MACPAC's research found Medicaid managed care denial notices can lack clarity, with beneficiaries often receiving generic explanations they do not understand. Clear denial rationales help beneficiaries and providers respond through appeals.
+- **Specific request:** CMS should improve clarity and content of denial notices, support beneficiary assistance in filing appeals, and ensure specific denial reasons are communicated clearly regardless of the method used.
+
+**Topic 2: Electronic access to PA status and notices**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Support
+- **Rationale:** Delayed or missing mailed denial notices can leave beneficiaries with insufficient time to appeal. Electronic PA processes and APIs can help beneficiaries and providers monitor status and receive adverse benefit determinations more quickly.
+- **Specific request:** Support electronic communication options such as text, email, phone, and API-accessible PA status information to reduce administrative burden and improve timeliness.
+
+**Topic 3: Public reporting of PA metrics**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS
+- **Position:** Support with modifications
+- **Rationale:** Aggregate PA metrics improve broad program oversight but can obscure inappropriate denials for particular services or populations. More detailed data would help states and CMS identify access issues, disparities, and plan-specific patterns.
+- **Specific request:** CMS should require more granular PA reporting by service type, population, and potentially other categories; update MCPAR reporting to include denials, continuation of benefits pending appeals, and appeal outcomes; use data to support state and federal oversight.
+
+**Topic 4: Automation and AI transparency in PA determinations**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** MACPAC found limited transparency into how AI and algorithms are used in Medicaid PA processes, including how they make decisions and their approval/denial rates. Without this information, states and CMS cannot determine whether automated systems make fair decisions or affect access.
+- **Specific request:** CMS should consider reporting requirements that identify use of automation tools in PA determinations and collect metrics that reveal approval and denial rates, technical issues, data bias, and programming flaws.
+
+**Topic 5: Technical clarification for PA timeframes for certain drugs**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DRUG-MEDICAL
+- **Position:** Clarify
+- **Rationale:** CMS proposes to align PA timeframes for drugs excluded from the covered outpatient drug definition with non-drug items and services when bundled, but some drugs provided incident to services can still be covered outpatient drugs depending on payment methodology. Providers and beneficiaries may not know the payment methodology, creating confusion about whether a 24-hour drug timeframe or seven-day non-drug timeframe applies.
+- **Specific request:** CMS should consider additional regulatory clarifications to reduce confusion and inconsistencies for drugs provided as part of or incident to services when payment methodology affects covered outpatient drug status.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Supports requiring specific denial reasons and grounds the response in MACPAC findings that generic denial notices confuse beneficiaries and providers.
+- **S17:** Supports clearer denial notice content and recommends data collection that helps identify denial rationale patterns and appeal outcomes.
+- **S20:** Addresses Medicaid drug PA timeframes by discussing the 24-hour timeframe for covered outpatient drugs under Social Security Act Section 1927(d)(5)(A).
+- **S29:** Supports reporting PA-related metrics and recommends more granular data to improve oversight and identify access concerns.
+- **S30:** Raises transparency concerns about automation and AI in PA determinations and suggests reporting that could identify bias, programming flaws, and system impacts.
+- **S34:** Supports reporting through established Medicaid oversight vehicles such as MCPAR and suggests adding new data elements aligned with implementation of the interoperability rule.
+- **S35:** Supports public reporting but asks CMS to make it more granular and useful for oversight of services, populations, and automation use.
+- **S43:** Directly addresses alignment and potential confusion in drug versus non-drug PA decision timeframes for drugs provided as part of or incident to certain services.
+- **S66-S82 (automation and broader PA transparency issues):** The comment contributes to broader RFI issues by recommending oversight and reporting of automation tools used in PA and by citing MACPAC's June 2026 automation report.
+
+## 6. RECOMMENDATIONS
+
+1. Require specific, understandable reasons for denial in notices of adverse benefit determination for drugs and non-drug items/services.
+2. Issue or reinforce guidance on denial notice clarity and beneficiary assistance in filing appeals.
+3. Support electronic methods for beneficiaries and providers to receive denial notices and monitor PA request status.
+4. Require more granular PA metrics by service type, population, and other categories that can reveal access concerns.
+5. Update or continue enhancing MCPAR to include total requests, approvals, denials, appeals, continuation of benefits pending appeal, and appeal outcomes.
+6. Add reporting elements on use of automation and AI in Medicaid PA determinations.
+7. Collect automation-related data on approval and denial rates, technical issues, data bias, and programming flaws.
+8. Clarify which PA timeframe applies when drugs are provided as part of, or incident to and in the same setting as, non-drug services and payment methodology affects covered outpatient drug status.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Generic denial notices, delayed or missing mailed notices, insufficient appeal time, aggregate PA data that masks service- or population-specific problems, limited visibility into automation and AI use, and confusion over PA timeframes for certain bundled drugs.
+- **Potential negative impacts cited:** Beneficiary confusion, inability to file timely appeals, reduced oversight of inappropriate denials, hidden access disparities, unfair or biased automated determinations, technical flaws affecting PA decisions, and inconsistent application of drug versus non-drug decision timelines.
+- **Implementation barriers mentioned:** Current reporting may be too aggregated, states and stakeholders lack visibility into automated tools, providers and beneficiaries may not know payment methodology details, and bundled service/drug payment rules can complicate PA classification.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** More than half of states with managed care collect or monitor denial data from plans; HHS OIG found 22 of 37 surveyed states reported using PA denial data for oversight.
+- **Studies or research referenced:** MACPAC March 2024 Report to Congress on denials and appeals in Medicaid managed care; MACPAC June 2026 Report to Congress chapter on automation in Medicaid prior authorization; HHS OIG 2023 report on high rates of PA denials and limited state oversight; CMS 2020, 2024, and 2026 Federal Register rulemaking documents.
+- **Examples provided:** Beneficiaries receiving generic denial notices they do not understand; denial letters arriving late or not at all; focus group participants supporting text, email, or phone notices; drugs bundled with services that may or may not be covered outpatient drugs depending on payment methodology.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicaid and CHIP beneficiaries, beneficiary advocates, providers, Medicaid managed care plans, state Medicaid agencies, CMS, HHS, and beneficiaries affected by automated PA systems.
+- **Economic implications:** The comment does not emphasize direct implementation cost, but improved reporting and oversight may require state, plan, and CMS data system changes while helping detect inappropriate denials and access barriers.
+- **Technical feasibility:** MACPAC views electronic PA processes, APIs, MCPAR updates, and automation reporting as feasible oversight tools, but asks CMS to refine data granularity and clarify technical payment-driven classification issues.
+- **Patient care impact:** Clearer denial notices, faster electronic communication, and granular oversight could improve appeal access, reduce confusion, identify access problems, and protect beneficiaries from unfair automated PA decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, analytical, and technical
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "The Commission supports efforts in this proposed rule to improve transparency into the PA process and report data on the volume and outcomes of PA decisions." - Context: Overall position on PA transparency and reporting.
+2. "Denial notices can lack clarity." - Context: MACPAC's evidence supporting specific denial reason requirements.
+3. "There is limited transparency into how automation is being used in Medicaid PA processes." - Context: Concern about AI and algorithmic tools in PA decisions.
+4. "CMS may want to consider whether additional regulatory clarifications are needed." - Context: Technical request on PA timelines for certain drugs bundled with services.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - MACPAC focuses on PA decision timeframe alignment, especially the 24-hour covered outpatient drug standard versus seven-day non-drug standard.
+- [ ] **COST-RESOURCES** - Not directly addressed.
+- [x] **PROVIDER-BURDEN** - Clearer notices and electronic PA status access can reduce provider administrative burden related to appeals and status tracking.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Granular reporting by population can reveal disparities in denial and appeal outcomes affecting Medicaid and CHIP beneficiaries.
+- [x] **TECHNICAL-FEASIBILITY** - The comment highlights API access, electronic PA status, automation reporting, and payment-methodology-based classification complexity.
+- [ ] **STANDARDS-MATURITY** - Not directly addressed.
+- [x] **PATIENT-ACCESS** - MACPAC emphasizes appeal access, denial clarity, status visibility, and identification of access concerns.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - The recommendations require CMS, states, managed care plans, providers, and beneficiaries to use consistent oversight and reporting processes.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The technical comments address drug classification and payment status where drugs are bundled with services, though not pharmacy-vs-medical benefit in the usual payer sense.
+- [x] **TRANSPARENCY** - Transparency is the dominant theme, including denial reasons, PA metrics, appeals, automation, and public reporting.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses current denial notices, appeals, MCPAR reporting, PA determinations, and payment/bundling workflows.
+- [ ] **VENDOR-ECOSYSTEM** - Not directly addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Commissioners 
+Verlon Johnson, MPA, Chair 
+Robert Duncan, MBA, Vice Chair 
+Heidi L. Allen, PhD, MSW 
+Sonja L. Bjork, JD 
+Doug Brown, RPh, MBA 
+Jennifer L. Gerstorff, FSA, MAAA 
+Angelo P. Giardino, MD, PhD, MPH 
+April Hartman, MD, FAAP 
+Dennis Heaphy, MPH, MEd, MDiv 
+Timothy Hill, MPA 
+Carolyn Ingram, MBA 
+Anne Karl, JD 
+Patti Killingsworth 
+John B. McCarthy, MPA 
+Adrienne McFadden, MD, JD 
+Michael Nardone, MPA 
+Jami Snyder, MA 
+Kate Massey, MPA, 
+Executive Director 
+Advising Congress on 
+Medicaid and CHIP Policy 
+June 15, 2026 
+Re: Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior 
+Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s 
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges (CMS-0062-P) 
+ 
+Dear Secretary Kennedy, 
+ 
+The Medicaid and CHIP Payment and Access Commission (MACPAC) 
+appreciates the opportunity to comment on the notice of proposed 
+rulemaking (NPRM) on interoperability standards and prior authorization for 
+drugs published on April 14, 2026 (CMS 2026). MACPAC is a nonpartisan 
+legislative branch agency that provides policy and data analysis and makes 
+recommendations to Congress, the Secretary of the U.S. Department of 
+Health and Human Services, and the states on a wide array of issues 
+affecting Medicaid and the State Childrenâ€™s Health Insurance Program 
+(CHIP).  
+ 
+This proposed rule includes a number of provisions to implement 
+interoperability standards for impacted payers, including Medicaid and 
+CHIP, to improve the exchange of data and information on prior 
+authorization (PA) related to prescription drugs. This proposed rule builds 
+on the standards put into place through the 2020 Centers for Medicare & 
+Medicaid Services (CMS) Interoperability and Pa...

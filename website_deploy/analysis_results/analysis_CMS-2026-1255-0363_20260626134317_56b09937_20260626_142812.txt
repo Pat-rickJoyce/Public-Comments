@@ -1,0 +1,215 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0363
+Commenter: American Health Care Association and National Center for Assisted Living (AHCA/NCAL)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:12
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Health Care Association and National Center for Assisted Living (AHCA/NCAL); signed by John Kane, Senior Vice President, Reimbursement Policy
+- **Stakeholder type:** Professional Association (long-term and post-acute care providers)
+- **Credentials or expertise mentioned:** Represents more than 15,000 SNFs, assisted living communities, subacute care providers, and other LTPAC providers. References prior CMS-0057-P comments and multiple health IT studies (ASPE RTI, ONC, Health Affairs Scholar).
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AHCA/NCAL strongly supports CMS's proposed expansion of interoperability standards and electronic prior authorization to drugs covered under medical and pharmacy benefits, but urges CMS to account for the unique operational realities of long-term care (LTC) settings. The comment focuses on medication continuity during transitions of care, long-term care pharmacy (LTCP) workflow recognition, emergency medication access protections, and the need for LTC-inclusive implementation planning and technical assistance. AHCA/NCAL also responds to multiple RFIs on event notifications, step therapy, payer-to-payer exchange, cybersecurity, and measuring implementation success.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, FHIR-IG-REQUIRED (implicitly), GENERAL (LTC workflows, transitions of care, step therapy, cybersecurity)
+- **Regulatory citations mentioned:** 91 FR 19923-19926 (PA API medical benefit); 91 FR 19925-19926 (NCPDP SCRIPT); 91 FR 19926-19927 (NCPDP F&B, RTPB); 91 FR 19933-19935 (denial reasons); 91 FR 19935-19939 (PA timeframes); 91 FR 19941-19945 (PA metrics); CMS-4021-F (2024 MA/Part D Final Rule—90-day transition period)
+- **Standards referenced:** NCPDP SCRIPT Standard, NCPDP Formulary & Benefit (F&B) Standard, Real-Time Prescription Benefit (RTPB) Standard, FHIR-based Prior Authorization API, payer-to-payer API, electronic event notifications (ADT)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior Authorization API for Medical Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Expanding ePA to medical benefit drugs can improve medication access, reduce administrative burden, and facilitate communication. However, LTC transitions (hospital-to-SNF, SNF-to-community) must be recognized as priority use cases. Consolidated billing under Medicare Part A creates additional complexity.
+- **Specific request:** Recognize LTC transitions as priority use cases; clarify interaction with Medicare Part A consolidated billing; ensure consultant pharmacists and LTCPs have access to PA information; facilitate active authorization continuity across payer transitions; ensure PBMs and delegated entities comply.
+
+**Topic 2: NCPDP SCRIPT Standard for Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support (with modifications)
+- **Rationale:** Standardization reduces burden and improves consistency, but LTC pharmacy operations (cycle-fill dispensing, emergency medication kits, unit-dose packaging, consultant pharmacist roles) differ significantly from retail/physician-office workflows.
+- **Specific request:** Evaluate LTCP workflows; address institutional dispensing models and consultant pharmacist activities; clarify PBM/delegated entity accountability; engage LTC stakeholders in implementation and testing; allow longer timelines for smaller operators and small SNPs.
+
+**Topic 3: NCPDP Formulary & Benefit and RTPB Standards**
+- **Provision ID:** PA-DRUG-PHARMACY (NCPDP F&B, RTPB)
+- **Position:** Support
+- **Rationale:** Real-time formulary/benefit access can improve prescribing, reduce delays, and improve transitions of care for LTC residents.
+- **Specific request:** Support implementation approaches providing timely access during transitions; ensure LTCPs and consultant pharmacists can utilize these standards; monitor medication delays and continuity outcomes.
+
+**Topic 4: Specific Reasons for Denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Strong Support
+- **Rationale:** Vague denials require extensive follow-up, delay medication access, and increase administrative burden. This is one of the most important protections in the rule.
+- **Specific request:** Require denial notices to include specific clinical criteria not met, missing documentation, step therapy requirements, covered alternatives, and appeal options. Prohibit repeated documentation requests; encourage standardized denial categories.
+
+**Topic 5: Prior Authorization Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Timely PA decisions are resident safety issues. LTC residents need medications immediately upon admission and around the clock.
+- **Specific request:** Finalize 72-hour expedited and 24-hour Medicaid outpatient drug review standards; use calendar-day (not business-day) calculations; enforce compliance and monitor payer performance; measure actual medication access outcomes.
+
+**Topic 6: Emergency Medication Access Protections**
+- **Provision ID:** GENERAL
+- **Position:** Modify (new provision requested)
+- **Rationale:** LTC residents require medications immediately upon admission; system outages and off-hours transitions prevent timely PA decisions. Recent nationwide technology disruptions highlight importance of contingency planning.
+- **Specific request:** Establish explicit emergency medication access protections; require continuity-of-care safeguards during technology outages; ensure electronic PA requirements don't interfere with existing LTCP emergency supply practices.
+
+**Topic 7: Public Reporting of Drug PA Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support (with modifications)
+- **Rationale:** Transparency is important but must not create undue burden for smaller, provider-led plans. LTC-relevant medication categories need separate visibility.
+- **Specific request:** Require medication-category reporting; report appeal overturn rates, step therapy metrics, dual eligible stratification; consider phased implementation and streamlined reporting for smaller plans; provide standardized templates and technical assistance.
+
+**Topic 8: Implementation Readiness**
+- **Provision ID:** IMPLEMENTATION-TIMELINE
+- **Position:** Modify
+- **Rationale:** LTC providers were excluded from HITECH incentive programs; health IT maturity is lower and implementation costs proportionally higher.
+- **Specific request:** Assess LTC vendor readiness before finalizing deadlines; provide technical assistance; consider phased implementation; ensure LTC stakeholders participate in pilot testing and standards development.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Notes technical challenges including Medicare Part A consolidated billing overlap and need for LTC transition use cases to be explicitly recognized in PA API implementation.
+- **S15:** Addresses medical vs. pharmacy benefit distinction in LTC context—residents may have medications across both benefit types requiring coordinated authorization.
+- **S16:** Strongly supports specific denial reasons; recommends denial notices include clinical criteria, missing documentation, step therapy requirements, covered alternatives, and appeal pathways.
+- **S17:** Supports standardized denial categories to facilitate provider understanding.
+- **S20:** Supports 24-hour Medicaid outpatient drug PA standard; urges calendar-day rather than business-day calculations for LTC settings operating 24/7.
+- **S22:** Notes NCPDP SCRIPT implementation requires accommodation of LTC-specific workflows; smaller operators and SNPs need longer timelines.
+- **S25:** Supports RTPB standard for real-time formulary access to reduce medication delays during transitions.
+- **S29/S34:** Recommends PA metrics include medication-category breakouts relevant to LTC; supports phased implementation and standardized reporting templates for smaller plans.
+- **S35:** Supports aggregate publicly reported metrics being used to identify barriers for post-acute/LTC residents.
+- **S43:** Urges finalization of proposed timeframes; calendar-day standard essential for LTC.
+- **S66 (Event Notifications RFI):** Strongly supports; recommends NFs be explicitly recognized as both senders and recipients; supports hospital-to-SNF and post-acute transition workflows.
+- **Step Therapy RFI:** Recommends payers recognize prior therapy history; discourages step therapy restarts post-transition.
+- **Payer-to-Payer RFI:** Strongly supports transfer of active authorizations, clinical documentation, appeal decisions, and step therapy information during payer transitions.
+- **Provider Access API RFI:** Urges inclusion of NFs, ALs, LTCPs in future Provider Access API; notes HITECH exclusion created historical IT gaps.
+- **Resiliency RFI:** Supports contingency planning; urges scalable cybersecurity expectations; preserve medication access during disruptions.
+- **Lab/DMEPOS RFI:** Urges attention to Part A consolidated billing complexity for lab and DMEPOS during SNF stays.
+- **Measuring Success RFI:** Urges outcome-based metrics (medication delays, treatment interruptions, hospital readmissions) not just technology adoption metrics.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Recognize hospital-to-SNF, SNF-to-community, and other post-acute transitions as priority PA API implementation use cases.
+2. Clarify implementation implications for providers subject to Medicare Part A consolidated billing requirements.
+3. Ensure consultant pharmacists and LTCPs have appropriate access to PA information.
+4. Facilitate continuity of active medication authorizations during payer transitions.
+5. Ensure PBMs and delegated entities comply with all applicable ePA requirements.
+6. Evaluate LTC pharmacy workflows (cycle-fill, emergency kits, unit-dose, consultant pharmacist activities) during NCPDP SCRIPT implementation.
+7. Support implementation of NCPDP F&B and RTPB standards with LTCP access.
+8. Establish explicit emergency medication access protections when PA decisions are delayed or systems unavailable.
+9. Require continuity-of-care safeguards during major technology outages.
+10. Require denial notices to include specific clinical criteria, missing documentation, step therapy requirements, covered alternatives, and appeal options.
+11. Prohibit repeated documentation requests for information already submitted via interoperable systems.
+12. Finalize 72-hour expedited and 24-hour Medicaid drug PA review timeframes using calendar-day calculations.
+13. Enforce compliance and publicly monitor payer performance against timeframes.
+14. Require PA metric reporting by medication category (antipsychotics, anticoagulants, insulin, behavioral health, specialty, oncology, neurological).
+15. Report appeal overturn rates, step therapy metrics, and dual eligible-stratified data.
+16. Consider phased implementation and streamlined reporting for smaller, provider-led plans and I-SNPs.
+17. Provide technical assistance and standardized reporting tools.
+18. Explicitly recognize NFs as senders and recipients of electronic event notifications.
+19. Discourage unnecessary step therapy restarts following transitions of care.
+20. Promote payer-to-payer exchange of active authorizations, step therapy history, and clinical documentation.
+21. Include NFs and LTC stakeholders in future Provider Access API initiatives.
+22. Assess LTC vendor readiness before finalizing implementation deadlines.
+23. Evaluate implementation success using outcome-based metrics, not solely technology adoption.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** LTC settings have unique workflows that may be overlooked in implementation; LTC providers were excluded from HITECH programs, creating lower health IT maturity; smaller operators and I-SNPs face disproportionate burden.
+- **Potential negative impacts cited:** Medication delays during transitions can cause adverse clinical outcomes and avoidable hospital readmissions; technology outages could disrupt emergency medication access; dual eligible coverage transitions create authorization duplication.
+- **Implementation barriers mentioned:** Medicare Part A consolidated billing complexity; cycle-fill/institutional dispensing model incompatibility with ambulatory ePA workflows; consultant pharmacist workflow gaps; limited health IT infrastructure from HITECH exclusion; vendor readiness uncertainty.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** References 2024 MA/Part D Final Rule (CMS-4021-F) 90-day transition period requirement.
+- **Studies or research referenced:** ASPE/RTI International (December 2023) on HIT adoption in LTPAC; ONC (May 2024) on interoperable exchange among US hospitals; Jordan Everson et al. (Health Affairs Scholar, August 2024) on health information organizations and federal exchange framework.
+- **Examples provided:** Nationwide technology disruptions demonstrating outage risks; I-SNPs as models of integrated provider-led care with more selective PA use; dual eligible residents experiencing duplicative requirements during payer transitions.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Nursing facility residents, assisted living residents, LTPAC providers (SNFs, AL communities), long-term care pharmacies, consultant pharmacists, provider-led plans (I-SNPs), dual eligible beneficiaries, PBMs, utilization management vendors.
+- **Economic implications:** Implementation costs higher for LTC providers due to HITECH exclusion; smaller operators and SNPs face disproportionate burden; public reporting requirements may divert resources from beneficiary care.
+- **Technical feasibility:** Supportive of overall direction but flags LTC-specific gaps: institutional dispensing workflows, emergency medication systems, Part A consolidated billing, vendor readiness.
+- **Patient care impact:** High—medication continuity during transitions identified as a critical safety issue; delays in anticoagulants, insulin, anti-infectives, and behavioral health medications can cause immediate adverse outcomes.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with significant modifications requested)
+- **Tone:** Professional, Technical, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Nursing facility residents and individuals receiving long-term services and supports...frequently have multiple chronic conditions, extensive medication regimens, cognitive impairments, and functional limitations that make medication continuity especially important." - Context: Establishing why LTC patients have heightened vulnerability to PA delays.
+2. "AHCA/NCAL strongly supports CMS's proposal and believes it represents one of the most important beneficiary and provider protections included in the proposed rule." - Context: Endorsing the specific denial reasons requirement.
+3. "Beneficiaries do not stop needing care on weekends and providers do not stop delivering care when administrative offices are closed." - Context: Arguing for calendar-day rather than business-day PA decision timeframes.
+4. "CMS should evaluate success not only through API utilization, transaction volumes, and technology adoption, but also through measurable improvements in medication continuity, resident access to care, care coordination, and administrative burden reduction." - Context: Urging outcome-based rather than process-based metrics.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Urges LTC vendor readiness assessment before finalizing deadlines; recommends phased implementation for smaller operators and SNPs; calendar-day rather than business-day timeframes.
+- [x] **COST-RESOURCES** - Highlights disproportionate financial burden on LTC providers excluded from HITECH; flags reporting requirements potentially diverting resources from care.
+- [x] **PROVIDER-BURDEN** - Extensive documentation of administrative burden from vague denials, duplicative authorization requirements, and PA-related delays on NF staff, consultant pharmacists, and LTCPs.
+- [x] **PRIVACY-SECURITY** - Raises cybersecurity resiliency concerns; notes technology outage risks to medication access; calls for contingency planning and scalable cybersecurity expectations.
+- [x] **HEALTH-EQUITY** - Advocates for dual eligible beneficiaries and LTC residents (elderly, disabled individuals with multiple chronic conditions) who are among the most medically vulnerable populations.
+- [x] **TECHNICAL-FEASIBILITY** - Extensive discussion of LTC-specific implementation challenges: institutional dispensing workflows, emergency medication systems, Part A consolidated billing, vendor readiness.
+- [x] **STANDARDS-MATURITY** - Notes NCPDP SCRIPT and FHIR API implementation must accommodate institutional LTC workflows not currently reflected in standards.
+- [x] **PATIENT-ACCESS** - Central focus: medication continuity during transitions of care; emergency medication access; ensuring PA delays do not interrupt clinically necessary therapies.
+- [x] **STAKEHOLDER-COORDINATION** - Extensive recommendations for including LTC stakeholders in implementation planning, pilot testing, and standards governance.
+- [x] **TRANSPARENCY** - Strongly supports specific denial reasons and PA metrics reporting; recommends medication-category breakouts and dual eligible stratification.
+- [x] **SMALL-PAYER-IMPACT** - Distinguishes smaller provider-led plans (I-SNPs) from large commercial plans; urges phased implementation and streamlined reporting.
+- [x] **EXISTING-WORKFLOWS** - Detailed analysis of how LTC institutional workflows differ from ambulatory settings addressed in the proposed rule.
+- [x] **VENDOR-ECOSYSTEM** - Notes LTC-specific EHR vendors, LTCPs, PBMs, and health information exchanges create complex technology dependencies; HITECH exclusion created weaker HIT vendor ecosystem in LTC.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Submitted via Regulations.gov
+June 11, 2026
+The Honorable Dr. Mehmet Oz, Administrator
+Centers for Medicare & Medicaid Services
+7500 Security Boulevard, Baltimore, MD 21244
+
+Re: CMS-0062-P – Medicare and Medicaid Programs; Patient Protection and Affordable
+Care Act; Interoperability Standards and Prior Authorization for Drugs
+
+Dear Administrator Oz:
+The American Health Care Association and National Center for Assisted Living (AHCA/NCAL)
+appreciates the opportunity to comment on CMS-0062-P, "Interoperability Standards and Prior
+Authorization for Drugs." AHCA/NCAL represents more than 15,000 skilled nursing facilities
+(SNFs), assisted living (AL) communities, subacute care providers, and other long term and post-
+acute care (LTPAC) providers serving millions of elderly and disabled individuals annually.
+AHCA/NCAL strongly supports CMS's efforts to improve beneficiary access to medically
+necessary medications through enhanced interoperability, standardized electronic prior
+authorization (ePA), increased transparency, and more timely prior authorization determinations.
+Nursing facility (NF) and AL residents are among the populations most vulnerable to medication
+delays, particularly during transitions among hospitals, post-acute care (PAC) providers, and
+community settings. For these residents, even short disruptions in medication access can result in
+adverse clinical outcomes, avoidable hospital readmissions, and increased health care costs...

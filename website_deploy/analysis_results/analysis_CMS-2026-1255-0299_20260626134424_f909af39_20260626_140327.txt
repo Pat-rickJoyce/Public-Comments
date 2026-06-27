@@ -1,0 +1,164 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0299_20260626134424_f909af39
+Commenter: American Academy of Allergy, Asthma & Immunology (AAAAI)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:03:27
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Allergy, Asthma & Immunology (AAAAI); signed by Carla M. Davis, MD, FAAAAI, President.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** AAAAI represents more than 6,700 allergist/immunologists, other medical specialists, allied health professionals, and related healthcare professionals focused on allergic and immunologic diseases.
+
+## 2. EXECUTIVE SUMMARY
+
+AAAAI supports CMS and ONC efforts to modernize electronic prior authorization for drugs, especially for medical benefit drugs, but argues the proposal will not fully reduce burden unless medical and pharmacy benefit workflows are better aligned. The association asks CMS/ONC to preserve formulary data in Provider Access and Payer-to-Payer APIs, improve transparency on drug-level PA metrics and denial rationales, establish a future uniform 24-hour maximum response timeframe for relevant prescription drug PAs, and support continuity across step therapy and payer transitions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; MEDICAL-VS-PHARMACY-BENEFIT treated as cross-cutting under GENERAL.
+- **Regulatory citations mentioned:** No specific CFR sections cited.
+- **Standards referenced:** Prior Authorization API; Patient Access API; Provider Access API; Payer-to-Payer API; electronic prior authorization standards; formulary and utilization management data; no specific FHIR IG or NCPDP standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for Medical Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support with modifications.
+- **Rationale:** Electronic PA can modernize drug authorization, but allergy/immunology therapies often move between medical and pharmacy benefits depending on administration, site of care, specialty pharmacy use, and payer policy.
+- **Specific request:** Advance a more integrated interoperability framework that coordinates coverage, formulary information, PA requirements, and utilization management criteria across both benefits.
+
+**Topic 2: Medical and Pharmacy Benefit Fragmentation**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify/Modify.
+- **Rationale:** Biologics and specialty therapies such as omalizumab may require practices to navigate multiple authorization pathways for the same treatment, causing delays, confusion, and operational burden.
+- **Specific request:** Align medical and pharmacy benefit systems so PA approvals, coverage information, and utilization management criteria can support continuous treatment.
+
+**Topic 3: Denial Rationales and PA Metrics**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Support.
+- **Rationale:** Specific denial reasons and public metrics would make patterns of excessive denials, repeated PA, step therapy delays, and access barriers more visible.
+- **Specific request:** Require specific rationales for drug PA denials and expand public reporting of PA metrics at the drug level.
+
+**Topic 4: Drug PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify.
+- **Rationale:** Delayed access to biologics and immunologic therapies can worsen disease control, increase corticosteroid exposure, drive emergency department use and hospitalizations, and interrupt continuity of care.
+- **Specific request:** Pursue future rulemaking establishing a uniform 24-hour maximum response timeframe for prescription drug PA requests involving allergy/immunology therapies across all impacted payers.
+
+**Topic 5: Patient, Provider, and Payer-to-Payer API Drug Data**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL
+- **Position:** Support with modifications.
+- **Rationale:** PA request and decision information in these APIs can improve continuity, especially during payer transitions.
+- **Specific request:** Include step therapy requirements and other utilization management criteria that affect access to allergy/immunology therapies.
+
+**Topic 6: Removal of Formulary Information from APIs**
+- **Provision ID:** GENERAL
+- **Position:** Oppose.
+- **Rationale:** Allergy/immunology practices rely on formulary, coverage, and utilization management information, particularly when patients change payers or when therapies shift between benefit structures.
+- **Specific request:** Retain drug formulary information in the Provider Access and Payer-to-Payer APIs and improve standardization and usability of formulary and utilization management data.
+
+**Topic 7: Step Therapy RFI and Automation Guardrails**
+- **Provision ID:** GENERAL
+- **Position:** Modify/Clarify.
+- **Rationale:** Repeated step therapy and reauthorization during plan or benefit transitions can disrupt stable treatment regimens. Automation can improve efficiency but should not override patient-specific clinical judgment.
+- **Specific request:** Use interoperability tools to share PA history, prior step therapy determinations, and treatment history across payer and benefit transitions, while maintaining guardrails for individualized clinical review.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** AAAAI identifies technical and workflow challenges in applying electronic PA to medical benefit drugs where therapies cross settings and benefit categories.
+- **S15:** The comment directly addresses medical versus pharmacy benefit distinctions, emphasizing biologics that can shift between benefits based on administration method, site of care, specialty pharmacy requirements, or payer policy.
+- **S16:** AAAAI supports requiring payers to provide specific rationales for drug PA denials.
+- **S20:** AAAAI supports efforts to improve decision timeframes and seeks a uniform 24-hour response timeframe for allergy/immunology prescription drug PAs.
+- **S29/S35:** AAAAI supports public reporting of PA metrics, especially drug-level metrics that reveal denial patterns, repeated PA, step therapy delays, and other access barriers.
+- **S43:** AAAAI asks CMS to pursue greater alignment through a uniform 24-hour maximum timeframe across impacted payers for relevant prescription drug PAs.
+- **S66-S82 (Step Therapy RFI):** The commenter supports technology-enabled step therapy information sharing through the Payer-to-Payer API and asks CMS/ONC to preserve clinical guardrails around automated utilization management.
+
+## 6. RECOMMENDATIONS
+
+1. Continue modernizing drug PA through the Prior Authorization API, but integrate medical and pharmacy benefit information.
+2. Coordinate access to coverage, formulary, PA requirements, and utilization management criteria across benefit structures.
+3. Require specific denial rationales for drug PA requests.
+4. Expand public PA metrics reporting at the drug level.
+5. Establish, through future rulemaking, a uniform 24-hour maximum response timeframe for allergy/immunology prescription drug PAs across impacted payers.
+6. Include PA requests, PA decisions, step therapy requirements, and utilization management criteria in Patient Access, Provider Access, and Payer-to-Payer APIs.
+7. Retain drug formulary information in Provider Access and Payer-to-Payer APIs.
+8. Enable sharing of PA history, prior step therapy determinations, and historical treatment information during payer or benefit transitions.
+9. Preserve individualized clinical judgment and patient-specific review in automated utilization management processes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmentation between medical and pharmacy benefit PA systems; removal of formulary data from APIs; inadequate decision timeframes; step therapy disruptions; insufficient continuity when patients change payers or benefit structures.
+- **Potential negative impacts cited:** Treatment initiation delays, interruptions in ongoing therapy, patient confusion over cost sharing, unstable treatment regimens, worsening disease control, avoidable corticosteroid exposure, emergency department utilization, hospitalization, and higher healthcare costs.
+- **Implementation barriers mentioned:** Multiple authorization pathways for the same therapy, payer-specific coverage criteria, site-of-care restrictions, specialty pharmacy requirements, benefit-dependent formulary variation, and workforce shortages in allergy/immunology practices.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AAAAI states it has more than 6,700 members in the United States, Canada, and 72 other countries.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Omalizumab is cited as a therapy that may move between medical and pharmacy benefits depending on clinical circumstances and payer policies. The comment also cites severe asthma, chronic spontaneous urticaria, atopic dermatitis, chronic sinusitis with nasal polyps, eosinophilic diseases, and primary immunodeficiency disorders as conditions affected by these PA issues.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Allergy/immunology physicians and practices, patients with allergic and immunologic diseases, impacted payers, CMS/ONC, and specialty pharmacies or other entities involved in medical/pharmacy benefit administration.
+- **Economic implications:** Fragmented PA processes increase practice administrative burden and may raise downstream healthcare costs through exacerbations, emergency department use, hospitalizations, and treatment instability.
+- **Technical feasibility:** AAAAI views API-based PA modernization as feasible and valuable, but incomplete unless APIs carry formulary, step therapy, UM criteria, PA history, and benefit-spanning information.
+- **Patient care impact:** Faster, more transparent PA and better continuity across benefits could reduce treatment delays and interruptions for patients on biologics and immunologic therapies.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed/Concerned.
+- **Tone:** Professional, collaborative, and policy-focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "the value of these proposals will remain limited if providers must continue navigating separate coverage and utilization management systems" - Context: AAAAI's central qualification to its support for electronic PA modernization.
+2. "Omalizumab is one example of a therapy that may shift between the medical and pharmacy benefit" - Context: Example supporting the need for benefit-spanning interoperability.
+3. "AAAAI supports expanded public reporting of prior authorization metrics at the drug-level" - Context: Support for transparency and monitoring access barriers.
+4. "coverage determinations for complex allergy/immunology conditions should continue to rely on individualized clinical judgment" - Context: Request for guardrails around automated utilization management.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - AAAAI asks CMS to pursue future rulemaking for a 24-hour maximum prescription drug PA timeframe.
+- [x] **PROVIDER-BURDEN** - The comment emphasizes operational challenges for allergy/immunology practices navigating multiple PA pathways.
+- [x] **TECHNICAL-FEASIBILITY** - It supports API modernization but says API content must include formulary, step therapy, PA history, and UM criteria to be useful.
+- [x] **PATIENT-ACCESS** - The comment focuses on treatment delays, interruptions, and continuity for biologic and specialty therapy patients.
+- [x] **STAKEHOLDER-COORDINATION** - AAAAI requests coordination across CMS, ONC, payers, practices, and benefit structures.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - This is the dominant theme, with repeated discussion of therapies shifting between benefits.
+- [x] **TRANSPARENCY** - AAAAI supports specific denial rationales and drug-level public PA metrics.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses fragmented existing authorization, step therapy, formulary, and payer transition workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 10, 2026
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+200 Independence Avenue, SW
+Washington, DC 20201
+
+Thomas Keane, MD, MBA
+National Coordinator for Health Information Technology
+Office of the National Coordinator for Health Information Technology
+330 C Street SW
+Washington, DC 20201
+
+Submitted electronically via www.regulations.gov
+
+Re: Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+
+Dear Administrator Oz and National Coordinator Keane:
+
+Established in 1943, the American Academy of Allergy, Asthma & Immunology (AAAAI) is a professional organization with more than 6,700 members in the United States, Canada and 72 other countries. This membership includes allergist/immunologists (A/I), other medical specialists, allied health and related healthcare professionals with a special interest in the research and treatment of patients with allergic and immunologic diseases. We appreciate the opportunity to provide feedback on the aforementioned proposed rule.
+
+Electronic Prior Authorization for Drugs
+While AAAAI supports CMS' and ONC's efforts to modernize prior authorization processes for drugs covered under the medical benefit through implementation of electronic prior authorization standards under the Prior Authorization Application Programming Interface (API), the value of these proposals will remain limited if providers must continue navigating separate coverage and utilization management systems for therapies that routinely cross between the medical and pharmacy benefit.
+
+This challenge is particularly significant in allergy/immunology, where biologic and specialty therapies are frequently furnished across multiple care settings and delivery models. Therapies used to treat severe asthma, chronic spontaneous urticaria, atopic dermatitis, chronic sinusitis with nasal polyps...

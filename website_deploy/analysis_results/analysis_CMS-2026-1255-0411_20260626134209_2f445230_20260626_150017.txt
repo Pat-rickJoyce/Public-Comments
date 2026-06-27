@@ -1,0 +1,178 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0411
+Commenter: Ad Hoc Sunshine and State Law Compliance Group (via King & Spalding LLP)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 15:00:17
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Ad Hoc Sunshine and State Law Compliance Group, submitted via King & Spalding LLP (attorneys Brian Bohnenkamp, Nikki Reeves, Caitlyn Ozier)
+- **Stakeholder type:** Professional Association (coalition of 85+ pharmaceutical, medical device, and biotechnology manufacturers)
+- **Credentials or expertise mentioned:** Coalition with decades of Open Payments compliance experience; members have participated in rulemaking since 2012; attorneys at King & Spalding LLP
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The Ad Hoc Sunshine and State Law Compliance Group, a coalition of over 85 pharmaceutical, medical device, and biotechnology manufacturers, opposes CMS's proposed definition of "failure to report" under the Open Payments CMP provision (Section II.G). The Group argues CMS lacks statutory authority to impose CMPs for failing to produce documents during audits, as Congress tied CMPs to subsection (a) reporting obligations—not audit compliance. The Group urges CMS to withdraw the proposal and instead develop comprehensive audit guidance through notice-and-comment rulemaking before imposing any penalties.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** OPEN-PAYMENTS-CMP
+- **Regulatory citations mentioned:** 42 CFR § 403.912(a), (b), (e)(2); 45 CFR part 102; 42 U.S.C. § 1320a-7h(a), (b)(1), (e); 42 U.S.C. § 1302(a); 42 U.S.C. § 1395hh; 91 Fed. Reg. 19890, 19985-86, 20034, 20047 (April 14, 2026)
+- **Standards referenced:** Generally Accepted Government Auditing Standards (GAGAS); American Institute of Certified Public Accountants (AICPA) standards; Social Security Act §§ 1102, 1128G, 1871
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Statutory Authority for CMPs**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose
+- **Rationale:** Section 1128G(b)(1) of the Social Security Act authorizes CMPs only for failure to submit information "required under subsection (a)"—i.e., the annual reporting of payments to covered recipients. Audit document requests are categorically different. CMS's proposed rule omits the phrase "under subsection (a)" when quoting the statute, tacitly acknowledging this limitation. Loper Bright Enterprises v. Raimondo (2024) eliminates judicial deference to CMS's expansive statutory interpretation.
+- **Specific request:** Withdraw the proposed definition of "failure to report" as exceeding statutory authority.
+
+**Topic 2: Practical Complications—Due Process and Appeal Rights**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose
+- **Rationale:** The proposed rule lacks an appeal mechanism for manufacturers to contest unreasonable audit requests, raising due process concerns (citing Donovan v. Lone Steer, Inc., 464 U.S. 408 (1984)). The 30-day response window is inadequate given multi-year data spanning multiple business units. Subcontracted auditors would have unchecked authority to demand any documents under penalty threat.
+- **Specific request:** Add an appeal process with automatic stay of the 30-day window during disputes; require CMS oversight of subcontractor requests; recognize "commercially reasonable efforts" as satisfying compliance.
+
+**Topic 3: Overbroad Audit Requests by Subcontractors**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose
+- **Rationale:** During CMS's first audit round, subcontractors—unfamiliar with pharmaceutical/device industry operations—demanded irrelevant documents (e.g., full general ledgers, board meeting minutes, fraud compliance materials) and expanded into non-Open Payments areas. General ledgers contain highly sensitive, unrelated proprietary information. More appropriate audit procedures exist (Open Payments-specific systems documentation, reconciliation processes, targeted source testing).
+- **Specific request:** CMS must define audit scope, require auditor training, and not finalize CMPs without first publishing audit standards through notice-and-comment rulemaking.
+
+**Topic 4: Absence of Comprehensive Audit Guidance**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose
+- **Rationale:** Four years after initiating audits, CMS has still not published detailed guidance governing Open Payments audit conduct. Imposing CMPs without established standards is premature and procedurally defective.
+- **Specific request:** CMS must develop and publish, through notice-and-comment: (1) defined audit scope and auditor training requirements; (2) appropriate audit standards specific to Open Payments; (3) security protocols for confidential document transfer/storage; (4) document protection processes (NDAs, destruction timelines, breach notification, insurance); (5) audit completion timelines with accountability for both parties.
+
+**Topic 5: CMP Estimate Uses "Knowing" Violation Rate**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Modify
+- **Rationale:** CMS's CMP estimate uses the median per-record penalty of $77,371 applicable to "knowing" failures ($14,067–$140,674 range). This unfairly presumes manufacturers would knowingly fail to report. Manufacturers invest tens of millions of dollars in compliance programs; the vast majority act in good faith.
+- **Specific request:** Revise CMP estimates to reflect inadvertent violation rates; distinguish good-faith disagreements over audit scope from "knowing" failures.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S57 (define "timely"):** Commenter argues the 30-day window is insufficient for complex, multi-year audit requests spanning multiple business units and third parties; requests extension processes and stay during disputes.
+- **S58 (CMP amounts):** Commenter argues CMS's estimate improperly uses the "knowing" failure penalty rate; median per-record CMP of $77,371 unfairly presumes intentional noncompliance; CMS should use inadvertent failure rates.
+- **S59 (due process):** Commenter extensively argues the rule lacks adequate due process—no appeal mechanism, no stay of timeline during disputes, subcontractor authority unchecked—citing Donovan v. Lone Steer and U.S. Telecom Ass'n v. FCC.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Withdraw the proposed definition of "failure to report" as exceeding CMS's statutory authority under Section 1128G(b)(1) of the Social Security Act.
+2. Before any future CMP proposal, publish comprehensive Open Payments audit standards through notice-and-comment rulemaking.
+3. Define audit scope and require auditors/subcontractors to be trained on Open Payments law and industry operations.
+4. Establish appropriate audit standards specific to Open Payments (not GAGAS/AICPA financial audit standards).
+5. Implement security protocols for secure transfer and storage of confidential documents produced to auditors.
+6. Require auditors to sign NDAs, destroy documents post-audit, provide breach notification, and maintain insurance.
+7. Establish audit completion timelines with accountability for auditor delays, not only manufacturer delays.
+8. Add an appeal mechanism allowing manufacturers to contest unreasonable document requests, with automatic stay of the 30-day penalty window during disputes.
+9. Require CMS oversight of all subcontractor document requests before CMPs can be imposed.
+10. Recognize "commercially reasonable efforts" as satisfying compliance.
+11. Revise CMP estimates to reflect inadvertent (not knowing) violation rates.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** CMS lacks statutory authority; proposed rule exceeds agency power; post-Loper Bright, no deference available; rule is arbitrary and capricious without adequate audit guidance in place.
+- **Potential negative impacts cited:** Manufacturers forced to disclose highly sensitive proprietary information (general ledgers, board minutes) unrelated to Open Payments; risk of data breach; competitive harm; massive compliance burden for subcontractor-managed audit requests.
+- **Implementation barriers mentioned:** Multi-year data across multiple business units cannot be assembled in 30 days; subcontractors lack Open Payments expertise; no established audit standards exist after four years of program operation.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CMP range of $14,067–$140,674 per record for 2024 (45 CFR part 102); median of $77,371 for knowing failures; manufacturers have invested "tens of millions of dollars" in compliance.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** First-round audits where subcontractors demanded full general ledgers and board meeting minutes; requests touching fraud/abuse compliance outside Open Payments scope; auditors unfamiliar with pharma/device industry practices; general ledger example showing it captures lump-sum credit card payments rather than individual meal expenses.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** 85+ pharmaceutical, medical device, and biotechnology manufacturers; all Open Payments reporting entities; subcontracted auditors; CMS
+- **Economic implications:** Potentially severe—per-record CMPs of up to $140,674 for knowing failures; existing compliance investment of tens of millions; audit response resource burden (multi-unit coordination, document assembly over several years)
+- **Technical feasibility:** Not addressed (comment focuses on legal authority and process, not technical implementation)
+- **Patient care impact:** Not addressed
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Opposed
+- **Tone:** Professional, Legal/Technical, Critical
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Congress did not authorize CMS to pursue civil monetary penalties against manufacturers for failing to provide such information." - Context: Opening statement of the Group's core legal position.
+
+2. "CMS eliminated the critical phrase 'under subsection (a)' when it quoted the statute, suggesting that CMS understands the limitations of the statutory text on the agency's authority to impose CMPs." - Context: Statutory textual analysis demonstrating CMS's awareness of its authority limits.
+
+3. "A third-party contractor would wield unchecked authority over manufacturers, compelling compliance with even arbitrary requests under threat of penalties." - Context: Due process argument regarding absence of appeal mechanism.
+
+4. "Before the agency advances a proposal to penalize reporting entities for failure to comply with document requests in the context of an audit, the Ad Hoc Group believes that CMS must first propose, submit for public comment, and publish comprehensive standards governing its audit process." - Context: Concluding recommendation on procedural prerequisites.
+
+---
+
+## 12. THEMES
+
+- [x] **REGULATORY-AUTHORITY** - Core argument of the comment: CMS lacks statutory authority under Section 1128G(b)(1) to impose CMPs for audit document failures; post-Loper Bright, no agency deference available.
+- [x] **COST-RESOURCES** - Manufacturers have invested tens of millions in compliance; audit response burdens are significant; potential CMP liability of up to $140,674 per record.
+- [x] **PRIVACY-SECURITY** - General ledgers and other demanded documents contain highly sensitive proprietary and financial information; first-round audits exposed confidential data to inadequately trained subcontractors without security protocols.
+- [x] **TRANSPARENCY** - CMS has failed to publish audit standards or guidance for four years; proposed rule lacks clear scope, standards, or dispute mechanisms.
+- [x] **EXISTING-WORKFLOWS** - Audit document requests exceeded Open Payments scope, intruding into general business operations (fraud/abuse programs, general accounting systems) unrelated to reporting obligations.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+King & Spalding LLP
+1700 Pennsylvania Ave, NW
+Washington, D.C. 20006-4707
+www.kslaw.com
+
+
+June 12, 2026
+
+Dr. Mehmet Oz, Administrator
+
+
+Via electronic submission through
+Centers for Medicare & Medicaid Services
+
+http://www.regulations.gov
+Department of Health and Human Services
+Attention: CMS–0062–P
+P.O. Box 8013
+Baltimore, MD 21244–8013
+
+RE: 2026 CMS Interoperability Standards and Prior Authorization for Drugs
+Proposed Rule (CMS-0062-P) (April 14, 2026)
+Dear Administrator Oz:
+We submit these comments on behalf of the Ad Hoc Sunshine and State Law Compliance
+Group (the "Ad Hoc Group" or the "Group") to the Centers for Medicare & Medicaid Services
+("CMS" or "the agency") regarding CMS' April 14, 2026 Federal Register notice (CMS–0062–P)
+soliciting comments from stakeholders on a proposed amendment to the Open Payments civil
+monetary penalty regulations to include a new definition of "failure to report" (section II.G of the
+proposed rule) (hereinafter "Proposed Rule").
+Established in 2004, the Ad Hoc Group is a coalition of over 85 pharmaceutical, medical
+device, and biotechnology manufacturers that focuses on transparency requirements, including, in
+particular, the Physician Payments Sunshine Act (or Open Payments) and similar state laws that
+require manufacturers to annually disclose certain information about financial relationships and
+other interactions they have with health care professionals...

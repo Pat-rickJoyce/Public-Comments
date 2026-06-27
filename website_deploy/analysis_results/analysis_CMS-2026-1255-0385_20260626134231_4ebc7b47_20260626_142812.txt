@@ -1,0 +1,161 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0385
+Commenter: Digestive Disease National Coalition (DDNC)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:12
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Digestive Disease National Coalition (DDNC); signed by Lisa Metzger (Chairperson) and Dr. Caroll Koscheski, MD, MACG (President)
+- **Stakeholder type:** Advocacy Group / Professional Association
+- **Credentials or expertise mentioned:** Coalition of major national voluntary and professional societies focused on digestive diseases, including American College of Gastroenterology, American Gastroenterological Association, Crohn's and Colitis Foundation, and others. Institutional members include Eli-Lilly, Merck, Novo Nordisk, Pfizer, Takeda.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+DDNC strongly urges CMS to establish rigorous federal safeguards protecting patients from the harmful consequences of step therapy protocols, arguing that technological improvements alone are insufficient. The comment focuses on the RFI regarding step therapy and calls for standardized exception processes across all CMS-administered programs, mandatory continuity of care protections (including recognition of prior step therapy completion across plan changes and benefit categories), and technology-enabled transparent reporting. DDNC supports ePA interoperability but frames it as necessary but not sufficient without substantive step therapy guardrails.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL (step therapy RFI), PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS (implicitly), MEDICAL-VS-PHARMACY-BENEFIT (cross-benefit continuity)
+- **Regulatory citations mentioned:** 42 CFR § 423.578 (Part D step therapy exception process); Medicaid, CHIP, and ACA exchange programs administered by CMS
+- **Standards referenced:** Electronic prior authorization (ePA); interoperability standards generally; no specific FHIR IGs cited
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Step Therapy Leads to Negative Patient Outcomes**
+- **Provision ID:** GENERAL
+- **Position:** Oppose (step therapy as currently practiced)
+- **Rationale:** Step therapy overrides physician-prescribed treatment plans and forces patients to cycle through alternative medications regardless of clinical need. For digestive disease patients, delays in accessing biologic and advanced therapies cause irreversible disease progression, directly contradict clinical practice guidelines (AGA recommends early use of high-efficacy therapies for IBD), increase system costs through ER visits and hospitalizations, and impose unsustainable physician administrative burden. Biologic interruptions also create immunogenicity risks (anti-drug antibody formation), permanently reducing future therapy effectiveness.
+- **Specific request:** CMS should establish rigorous federal step therapy safeguards; technology improvements (ePA) are necessary but insufficient alone.
+
+**Topic 2: Standardize Step Therapy Exception Process**
+- **Provision ID:** GENERAL, PA-DENIAL-REASONS
+- **Position:** Modify (create new uniform standard)
+- **Rationale:** Many CMS-administered programs (Medicaid, CHIP, ACA exchanges) do not offer the standard exception process of 42 CFR § 423.578, even though these populations are among the most vulnerable. AMA estimates physicians spend 12 hours/week on PA/step therapy administrative burden.
+- **Specific request:** Require all plans to establish a standard process for step therapy exemption requests; respond within 72 hours (standard) and 24 hours (medical emergency). Automatic exemptions when: patient tried and failed insurer-preferred drugs; delayed treatment will cause irreversible harm; required drug will cause harm; required drug will prevent work or activities of daily living; patient is stable on current medication.
+
+**Topic 3: Technology Platform for Step Therapy Exceptions**
+- **Provision ID:** GENERAL, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support/Modify
+- **Rationale:** Technology is a critical enabler but must be designed with both patients and providers in mind. Currently, providers submit exception requests through proprietary forms, phone calls, and faxes.
+- **Specific request:** CMS should develop a technology platform standardizing electronic submission of step therapy information and exceptions. Require payers to provide in plain language: patient-specific UM requirements; cost-sharing information; clear step therapy protocol descriptions and evidence basis; effective dates. Require publicly available aggregated data on exception requests, medications subject to step therapy, health indications, results, denial reasons, and appeal overturn rates.
+
+**Topic 4: Continuity of Care Across Plans and Benefit Categories**
+- **Provision ID:** GENERAL, MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Modify (mandatory rulemaking requested)
+- **Rationale:** Patients are forced to repeat step therapy when switching insurance, when plans change formularies, when treatment crosses medical/pharmacy benefit, and at the start of every plan year. Removing patients from effective biologics creates immunogenicity risks. For liver transplant recipients, even brief interruptions risk graft rejection. Cross-benefit continuity is particularly problematic: IV induction (medical benefit) approved but subcutaneous maintenance (pharmacy benefit) denied; payer views patient as "new" to therapy because pharmacy and medical benefit data are not interoperable.
+- **Specific request:** Mandatory rulemaking requiring: new payers to honor prior payer's step therapy completion and grant immediate access to prescribed medication; plans to recognize their own step therapy completion across benefit categories and multiple plan years. Specific standards: continuity even if prior payer required fewer steps; even if payer expands/alters fail-first protocols; even if new timelines are longer; even if new plan's preferred treatments differ within the same therapeutic class.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S15 (medical vs. pharmacy benefit distinction):** Directly addresses cross-benefit continuity—biologics transitioning from IV induction (medical benefit) to subcutaneous maintenance (pharmacy benefit); non-interoperable pharmacy/medical benefit data enables payers to incorrectly treat patients as "new" to therapy. Urges recognition of established therapy history across benefit categories.
+- **S16 (specific reason for denial):** Recommends exception denials include patient-specific clinical rationale (citing national medical society guidelines, peer-reviewed literature), covered alternative treatment, and description of appeal rights.
+- **S20/S43 (PA timeframes):** Calls for step therapy exception decisions within 72 hours standard and 24 hours for medical emergencies.
+- **Step Therapy RFI:** Comprehensive response documenting clinical harms; recommends standardized exception criteria; requests technology platform; calls for mandatory continuity of care across plan changes and benefit categories; urges public reporting of step therapy metrics.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Establish rigorous federal safeguards protecting patients from harmful step therapy—technological improvements (ePA) are necessary but insufficient alone.
+2. Require all CMS-administered programs to establish a standard step therapy exemption request process equivalent to 42 CFR § 423.578.
+3. Require step therapy exception decisions within 72 hours (standard) and 24 hours (medical emergency).
+4. Mandate automatic exemptions when patient tried and failed insurer-preferred drugs; faces irreversible harm from delay; faces harm from required drug; cannot work or perform activities of daily living; is stable on current medication.
+5. Develop a CMS technology platform standardizing electronic submission of step therapy exception information across all payers.
+6. Require payers to provide in plain language: patient-specific UM requirements, cost-sharing, step therapy protocols and evidence basis, and effective dates.
+7. Require each step therapy protocol to be based on documented clinical evidence that the insurer-required medication is as effective and safe as the prescribed medication.
+8. Require exception denials to include patient-specific clinical rationale, covered alternative, and appeal description.
+9. Require publicly available aggregated data on step therapy exception requests, medications subject to step therapy, indications, results, denial reasons, and appeal overturn rates.
+10. Mandatory rulemaking requiring new payers to honor prior payer's step therapy completion and grant immediate access to prescribed medication.
+11. Require recognition of step therapy completion across benefit categories and across multiple plan years.
+12. Mandate continuity eligibility even if prior payer required fewer steps; even if payer expands protocols; even if new timelines are longer; and within the same therapeutic class.
+13. Ensure interoperability of pharmacy and medical benefit data to prevent treating established therapy patients as "new."
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Step therapy protocols in CMS-administered programs routinely override physician-prescribed treatments, causing serious patient harm. Current exception processes are absent, non-standardized, or burdensome. Technology improvements alone will not reform step therapy.
+- **Potential negative impacts cited:** Irreversible disease progression (strictures, fistulas, bowel perforations, malnutrition, liver failure, cancer); anti-drug antibody formation permanently reducing biologic effectiveness; hospitalization and ER visits; job loss and inability to perform activities of daily living; graft rejection in liver transplant recipients; 12 hours/week physician administrative burden.
+- **Implementation barriers mentioned:** Patchwork of exception and appeals processes; proprietary forms and fax-based submission; no standardization of documentation requirements; non-interoperable pharmacy and medical benefit data enabling therapy restart requirements.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA estimate: 12 hours/week per physician practice on PA/step therapy administrative burden. 85% of IBD patients subjected to step therapy reported negative health outcomes when delayed from obtaining prescribed medications (Crohn's & Colitis Foundation national survey).
+- **Studies or research referenced:** 19 peer-reviewed citations including: AGA Crohn's disease guideline; ACP position paper on step therapy (Joy & Mire, 2020); Mark et al. (Am J Manag Care, 2009); Jordan et al. (Inflamm Bowel Dis, 2025) IBD patient survey; Zisman et al. (Gastro Hep Advances, 2025) on biologic denial and remission rates; Thomas et al. (BioDrugs, 2015) on TNF inhibitor immunogenicity; Brun et al. (J Intern Med, 2022) on anti-drug antibody risk; Florenzo et al. (J Dermatolog Treat, 2024) on step therapy for dupilumab; Hanauer et al. on infliximab antibody responses.
+- **Examples provided:** Liver transplant recipients requiring lifelong immunosuppression facing PA/step therapy delays despite Part D protected class status; IV induction approved but subcutaneous maintenance denied as continuation of same therapy; biologic interruptions causing anti-drug antibody formation permanently eliminating therapy effectiveness.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with digestive diseases (IBD, chronic liver disease, celiac disease, GI cancers, autoimmune liver disease), liver transplant recipients, Medicaid/CHIP/ACA exchange enrollees, gastroenterologists and GI care teams, PBMs.
+- **Economic implications:** Step therapy fails as cost-cutting tool—multiple studies show it increases costs through ER visits, hospitalizations, and surgeries. Anti-drug antibody formation from biologic interruptions eliminates future treatment options, creating long-term cost increases. PBMs profit from steering patients to insurer-preferred medications regardless of clinical outcomes.
+- **Technical feasibility:** Supports technology platform development; notes current fax/phone-based exception submission is burdensome and that standardized electronic submission is feasible.
+- **Patient care impact:** Severe—documents irreversible disease progression, hospitalization, organ failure, cancer risk, and quality of life impacts. Biologic immunogenicity risk makes interruptions particularly harmful and potentially permanent.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Opposed (to step therapy as currently practiced); Supportive (of ePA/interoperability as necessary but insufficient)
+- **Tone:** Professional, Advocacy-oriented, Clinically grounded
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Our experience with the suffering of tens of thousands of patients over many years makes clear that technological improvements alone will be insufficient to reform the practice to the extent needed to ensure patients avoid negative consequences." - Context: Framing ePA/interoperability as necessary but not sufficient without substantive step therapy guardrails.
+2. "Insurance-mandated interruptions to ongoing therapy run the documented risk of the patient developing anti-drug antibodies, which hinder their body's future response to the medication. In these cases, the medication that once worked for a patient will no longer provide relief once the therapy is stopped." - Context: Documenting irreversible immunological harm from biologic interruptions.
+3. "A medication cannot be considered meaningfully covered if administrative barriers prevent patients from obtaining it promptly and continuously." - Context: Arguing that formulary listing without administrative access is insufficient protection.
+4. "If pharmacy and medical benefit data are not interoperable, the payer may incorrectly view the patient as 'new' to therapy or lacking documentation, even though the therapy is a continuation of established care." - Context: Documenting a specific cross-benefit interoperability gap enabling step therapy restarts.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - Central theme: step therapy delays in digestive diseases cause irreversible harm, hospitalization, organ failure, and prevent timely access to physician-prescribed care.
+- [x] **PROVIDER-BURDEN** - AMA data: physicians spend 12 hours/week on PA/step therapy administrative burden; appealing protocols redirects clinical staff from patient care.
+- [x] **HEALTH-EQUITY** - Medicaid and CHIP populations (among the most vulnerable) often lack even the basic exception process available under Part D; ACA exchange exception processes vary widely or are absent.
+- [x] **TRANSPARENCY** - Calls for public aggregated data on step therapy exception requests, denial reasons, and appeal overturn rates; requires plain language patient-specific UM disclosures; requires evidence basis for each step therapy protocol.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Explicit: cross-benefit continuity problem where IV induction (medical benefit) is approved but subcutaneous maintenance (pharmacy benefit) is denied; non-interoperable data enables payers to view established therapy patients as "new."
+- [x] **EXISTING-WORKFLOWS** - Documents how site-of-care mandates shift infusion drugs across hospital outpatient, home infusion, specialty pharmacy, and external infusion center workflows, creating multiple benefit category ambiguity points.
+- [x] **STAKEHOLDER-COORDINATION** - Urges mandatory payer-to-payer recognition of step therapy completion; interoperability of pharmacy and medical benefit data to prevent therapy restart requirements.
+- [x] **COST-RESOURCES** - Documents that step therapy increases system costs through hospitalizations and ER visits; anti-drug antibody formation eliminates future therapy options; PBM incentives misaligned with clinical outcomes.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+DIGESTIVE DISEASE NATIONAL COALITION
+50 F Street, NW, Suite 340
+Washington, DC 20001
+
+June 12, 2026
+
+Dr. Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs [CMS-0062-P]
+
+Dear Administrator Oz:
+
+The Digestive Disease National Coalition (DDNC) appreciates the opportunity to provide information to the Centers for Medicare & Medicaid Services (CMS) on the impact of step-therapy protocols on patient access to care. The DDNC is an advocacy organization comprised of the major national voluntary and professional societies concerned with digestive diseases and conditions. The DDNC's mission is to work cooperatively to improve access to and the quality of digestive disease health care to promote the best possible medical outcomes and quality of life for current and future patients.
+
+Our organizations implore CMS to establish rigorous federal safeguards to protect vulnerable patients from the harmful consequences of these "fail first" insurance mandates. We commend CMS for examining how technology can make step therapy protocols more transparent and streamlined. However, our experience with the suffering of tens of thousands of patients over many years makes clear that technological improvements alone will be insufficient to reform the practice to the extent needed to ensure patients avoid negative consequences...

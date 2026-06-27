@@ -1,0 +1,102 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0325_inline_20260626134442
+Commenter: The Advocates for Responsible Care / Rx in Reach Coalition
+Source: Inline comment
+Analysis Date: 2026-06-26 14:07:27
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** The Advocates for Responsible Care and the Rx in Reach Coalition.
+- **Stakeholder type:** Advocacy Group / Professional Association
+- **Credentials or expertise mentioned:** Represents a 52-member health-centered coalition; references provider organizations including the American Academy of Family Physicians, GASCO, and the American Society of Clinical Oncology.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports the goal of faster access to drugs but is concerned that the proposed rule's technical mandates will impose excessive cost, workflow disruption, and implementation delay. They request greater technical uniformity and rigorous real-world testing before implementation.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** Not addressed.
+- **Standards referenced:** APIs, EHR systems, data exchange standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Conflicting standards**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Conflicting data exchange standards require costly cross-walking and may delay implementation.
+- **Specific request:** Improve technical uniformity across standards.
+
+**Topic 2: API and EHR implementation burden**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Building required APIs and updating EHRs would be expensive and logistically difficult.
+- **Specific request:** Require rigorous real-world testing before implementation.
+
+**Topic 3: Provider workflow impact**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** Additional infrastructure mandates may burden clinical workflows without proven benefit.
+- **Specific request:** Avoid mandates that add administrative and financial burden to provider practices and hospitals.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Identifies technical challenges with API construction, EHR updates, and cross-standard exchange.
+- **S18:** Objects to mandatory technical requirements that may add burden without proven benefit.
+- **S21:** Implies the proposed implementation timeline is risky because technical complexity may cause delays.
+- **S22:** Raises cost concerns related to standards implementation and system updates.
+- **S37:** Requests real-world testing before implementation due to expected implementation challenges.
+
+## 6. RECOMMENDATIONS
+
+1. Reduce conflicts among required data exchange standards.
+2. Avoid costly cross-walking requirements where possible.
+3. Conduct rigorous real-world testing before implementation.
+4. Reconsider mandates that impose new infrastructure and workflow burdens without demonstrated benefit.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Conflicting standards, high cost, EHR update burden, and workflow disruption.
+- **Potential negative impacts cited:** Implementation delays and delayed patient care.
+- **Implementation barriers mentioned:** Cross-walking, API development, EHR upgrades, administrative complexity.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** The coalition states it has 52 members.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** References provider concerns from AAFP, GASCO, and ASCO.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, physicians, provider organizations, hospitals, EHR vendors, payers.
+- **Economic implications:** Prohibitively expensive implementation and financial strain on practices and hospitals.
+- **Technical feasibility:** Concerned due to cross-walking, API development, EHR upgrades, and testing needs.
+- **Patient care impact:** Delays may persist or worsen if implementation burdens disrupt care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional and critical
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The proposed rule mandates conflicting data exchange standards." - Context: Explaining concern about technical uniformity.
+2. "The building of the required APIs and updating Electronic Health Record (EHR) systems will be prohibitively expensive and logistically difficult." - Context: Describing implementation burden.
+
+## 12. THEMES
+
+- **TECHNICAL-FEASIBILITY** - The comment questions whether API and EHR changes can be implemented smoothly.
+- **COST-RESOURCES** - The commenter describes implementation as prohibitively expensive.
+- **PROVIDER-BURDEN** - Provider practices and hospitals are expected to absorb workflow and administrative burden.
+- **STANDARDS-MATURITY** - The comment raises concern about conflicting standards and cross-walking.
+- **PATIENT-ACCESS** - The commenter supports faster drug access but warns the current draft may delay care.
+- **VENDOR-ECOSYSTEM** - EHR updates and API development affect vendor and provider technology systems.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+The Centers for Medicare &amp; Medicaid Services (CMS) proposed rule issued, Interoperability Standards and Prior Authorization for Drugs, causes great concerns for patient advocates and physicians. <br/>The main concerns of The Advocates for Responsible Care and our 52 member health centered Rx in Reach Coalition include:<br/>ïƒ˜<span style='padding-left: 30px'></span>The proposed rule mandates conflicting data exchange standards. This lack of technical uniformity forces expensive cross-walking between systems and causes widespread implementation delays. <br/>ïƒ˜<span style='padding-left: 30px'></span>The building of the required APIs and updating Electronic Health Record (EHR) systems will be prohibitively expensive and logistically difficult, demanding rigorous real-world testing before implementation.<br/><br/>Providers, provider organizations, such as the American Academy of Family Physicians, oppose further mandates that add new burdens or create additional infrastructure requirements on clinical workflows without proven benefit. This would be an.<br/>Most of our RX in Reach Coalition members, such as GASCO and organizations like the American Society of Clinical Oncology, support the goals of faster drug access, however, the technical complexity, financial strain, and administrative challenges posed by the current draft will create an unreasonable burden of time and finances on provider practices and hospitals; causing delays in the care of patients.

@@ -1,0 +1,146 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0424_20260626134314_730d1426
+Commenter: Stedi, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-26 19:16:40
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Stedi, Inc.
+- **Stakeholder type:** Technology Vendor / Other - HIPAA health care clearinghouse
+- **Credentials or expertise mentioned:** Stedi states that it is a HIPAA-covered health care clearinghouse that processes EDI transactions for providers and health plans.
+
+## 2. EXECUTIVE SUMMARY
+
+Stedi supports targeted use of FHIR for clinical prior authorization data exchange, especially where Da Vinci IGs can improve structured documentation exchange. It strongly recommends that CMS retain X12 standards for mature administrative transactions, especially 270/271 eligibility and 278 referral certification/authorization, and provide clear boundaries, implementation milestones, data-parity requirements, and resiliency expectations.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** HIPAA-PA-STANDARDS; FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; GENERAL
+- **Regulatory citations mentioned:** 45 CFR 162.1202; 45 CFR 162.1302; 45 CFR 162.2002; 45 CFR 162.923(b); 45 CFR 160.103; CMS-0053-F; CMS-0057-F; 91 FR 19890; 91 FR 14350.
+- **Standards referenced:** FHIR; HL7 Da Vinci CRD, DTR, CDex, and PAS IGs; X12N 270/271 005010X279A1; X12 278; X12N 275; X12 008060; HIPAA transaction standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Retain X12 270/271 for eligibility**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Oppose
+- **Rationale:** The commenter says 270/271 is mature, high-volume, widely deployed, and lacks a reliable field in the current HIPAA-mandated 005010X279A1 version to identify whether an inquiry supports prior authorization. A partial FHIR migration would leave clearinghouses unable to determine which standard applies.
+- **Specific request:** Retain X12N 270/271 as the sole HIPAA standard for eligibility transactions under 45 CFR 162.1202.
+
+**Topic 2: Use FHIR for clinical data exchange, not all administrative transactions**
+- **Provision ID:** HIPAA-PA-STANDARDS; FHIR-IG-REQUIRED; PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Stedi supports CRD, DTR, CDex, and PAS for clinical documentation and structured prior authorization data, but argues X12 278 and X12N 275 already perform established administrative functions reliably.
+- **Specific request:** Use X12 for administrative routing, eligibility, and referral certification/authorization, while using FHIR for clinical information exchange in prior authorization workflows.
+
+**Topic 3: Clarify attachment and enforcement boundaries**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Clarify
+- **Rationale:** Covered entities need regulatory certainty rather than reliance on enforcement discretion, and clearinghouses can support both CDex and X12N 275 only if routing logic is unambiguous.
+- **Specific request:** Formally retain X12 278 as a permitted standard and use CDex for FHIR-based PA attachments while using X12N 275 for X12-based transactions.
+
+**Topic 4: Implementation milestones and readiness**
+- **Provision ID:** HIPAA-PA-STANDARDS; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** The commenter supports timely FHIR adoption for clinical components but warns that entities often wait until final months, creating testing bottlenecks and compliance risk.
+- **Specific request:** Add interim milestones such as early testing-tool registration, midpoint trading partner testing, and readiness self-assessments.
+
+**Topic 5: Data parity between portals and standard transactions**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Payers often provide richer information through portals or phone workflows than through standard transactions even when codified X12 fields exist, undercutting Administrative Simplification.
+- **Specific request:** Prohibit payers from making codifiable information available through portals or other channels while omitting it from the corresponding standard transaction.
+
+**Topic 6: Resiliency and audit trails**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The Change Healthcare incident showed that exclusive clearinghouse connections create single points of failure across claims, eligibility, PA, and revenue cycle operations.
+- **Specific request:** Promote or require multiple clearinghouse connections, failover/disaster recovery expectations, distributed routing, and clear FHIR transaction audit trail requirements.
+
+## 5. SOLICITATION RESPONSES
+
+- **S44:** FHIR is appropriate for the clinical data exchange layer of prior authorization, but not as a replacement for every administrative transaction.
+- **S45:** The proposed HIPAA PA standard scope should be narrowed so it does not disrupt mature eligibility and administrative transaction infrastructure.
+- **S46:** Stedi directly supports coexistence of FHIR and X12, with X12 retained for 270/271, 278, and 275 use cases and FHIR used for clinical documentation exchange.
+- **S47:** The commenter supports a timely compliance window for clinical FHIR components but opposes forcing mature X12 transactions onto FHIR within the same window.
+- **S50:** The Da Vinci CRD, DTR, CDex, and PAS IGs are described as mature and supported by strong tooling for the clinical components.
+- **S51:** Non-CMS covered entities, especially clearinghouses, would face routing ambiguity, compliance risk, and major transition costs if CMS partially migrates X12 transactions to FHIR.
+- **S53:** The comment effectively recommends functional phasing by transaction type: FHIR for clinical PA exchange, X12 for administrative transactions.
+- **S54:** CMS should encourage staged conformance testing, trading partner testing, and readiness self-assessment during the compliance window.
+- **S66-S82:** In response to general RFIs, Stedi recommends direct-data-entry/data-parity reforms and transaction-network resiliency requirements, including redundancy and audit trails.
+
+## 6. RECOMMENDATIONS
+
+1. Retain X12N 270/271 as the sole HIPAA standard for eligibility transactions.
+2. Formally retain X12 278 as a permitted standard for administrative prior authorization and referrals.
+3. Use FHIR CRD, DTR, CDex, and PAS for clinical prior authorization data exchange where structured clinical content adds value.
+4. Draw a clear attachment boundary: CDex for FHIR-based PA workflows and X12N 275 for X12-based transactions.
+5. Establish interim implementation milestones for testing and readiness.
+6. Prohibit payers from offering richer codifiable data through portals than they return through standard transactions.
+7. Promote or require health plans to connect to more than one clearinghouse.
+8. Establish failover, disaster recovery, distributed routing, and audit-trail expectations for FHIR-based transaction ecosystems.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Overbroad FHIR replacement of X12, routing ambiguity, unnecessary transition burden, lack of regulatory certainty, and single points of failure in transaction networks.
+- **Potential negative impacts cited:** Higher costs for covered entities, disruption of reliable transaction processing, delayed or noncompliant implementations, reduced administrative simplification, and systemwide disruption from outages.
+- **Implementation barriers mentioned:** Missing purpose indicator in 005010X279A1 270/271, unadopted X12 008060, trading partner testing capacity, clearinghouse routing ambiguity, and lack of audit trail expectations.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics were provided.
+- **Studies or research referenced:** No studies were cited.
+- **Examples provided:** 005010X279A1 BHT limitations; TR3 unsupported business functions; X12 008060 purpose indicators; prior 5010 and CMS-0057-F transition behavior; procedure-level eligibility, physical therapy visit limits, dental X-ray history; the 2024 Change Healthcare incident.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clearinghouses, providers, health plans, vendors, covered entities, and patients affected by transaction delays or outages.
+- **Economic implications:** Broad FHIR migration would impose significant transition costs without proportional benefit where X12 already works.
+- **Technical feasibility:** FHIR clinical exchange is feasible, but partial migration of eligibility and administrative transactions is technically problematic under current HIPAA X12 versions.
+- **Patient care impact:** Properly targeted FHIR use may speed PA decisions, while transaction disruption or network failures could delay care and revenue cycle operations.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Concerned
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The 270/271 works reliably and at scale, and the infrastructure exists." - Context: Supporting retention of X12 eligibility transactions.
+2. "FHIR brings clear benefits to the clinical data exchange layer of prior authorization." - Context: Supporting targeted use of FHIR IGs.
+3. "The health care transaction network cannot tolerate single points of failure." - Context: Resiliency discussion after the Change Healthcare incident.
+4. "Covered entities that have invested in 278-based infrastructure should have regulatory certainty." - Context: Request to formally retain X12 278.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports timely FHIR clinical implementation but recommends interim milestones and warns against rushed migration of X12 functions.
+- [x] **COST-RESOURCES** - Says replacing mature X12 infrastructure would create significant cost and complexity.
+- [x] **PROVIDER-BURDEN** - Warns that portal/data asymmetry and transition disruption burden providers and revenue cycle operations.
+- [x] **PRIVACY-SECURITY** - Discusses PHI concentration at clearinghouses and whether high-volume intermediaries need added security expectations.
+- [x] **TECHNICAL-FEASIBILITY** - Identifies a concrete inability to distinguish eligibility inquiries supporting PA under current 270/271.
+- [x] **STANDARDS-MATURITY** - Contrasts mature X12 standards with mature but differently scoped Da Vinci FHIR IGs.
+- [x] **REGULATORY-AUTHORITY** - Requests formal regulatory certainty for X12 278 rather than reliance on enforcement discretion.
+- [x] **STAKEHOLDER-COORDINATION** - Emphasizes trading partner testing, clearinghouse routing, payer connections, and CMS readiness visibility.
+- [x] **TRANSPARENCY** - Recommends parity between portal information and standard transaction content for codifiable data.
+- [x] **EXISTING-WORKFLOWS** - Strongly favors preserving reliable X12 administrative workflows.
+- [x] **VENDOR-ECOSYSTEM** - Addresses clearinghouse, vendor, and trading partner implementation impacts.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Comment on CMS-0062-P (91 FR 19890, April 14, 2026)
+Re: CMS-0062-P - 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+Docket ID: CMS-2026-1255
+Submitted by: Stedi, Inc.
+Date: June 12, 2026
+
+We appreciate the opportunity to comment on the proposed rule CMS-0062-P (91 FR 19890). Stedi is a HIPAA-covered entity - a health care clearinghouse - that, among other things, processes EDI transactions for providers and health plans. We support CMS's efforts to modernize prior authorization and recognize the value that FHIR-based standards bring to the clinical data exchange layer of prior authorization. Our comments below are intended to help CMS draw clear boundaries between where FHIR adds genuine value and where existing X12 standards already serve the industry reliably and at scale, and to identify additional reforms that would advance Administrative Simplification and strengthen the resilience of the transaction network.
+
+I. The Eligibility and Benefit Verification Transaction Should Remain on X12
+CMS proposes to adopt FHIR standards in place of the X12N 270/271 Health Care Eligibility Benefit Inquiry and Response transaction standard at 45 CFR 162.1202 for transactions related to prior authorization. We respectfully urge CMS not to pursue this approach. The 270/271 is a mature, high-volume, and well-functioning transaction. The infrastructure to support it is widely deployed across providers, payers, and clearinghouses...

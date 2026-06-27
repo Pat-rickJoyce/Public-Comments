@@ -1,0 +1,241 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0410
+Commenter: LTPAC Health IT Collaborative
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:59:55
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** LTPAC Health IT Collaborative, contact Michelle Dougherty (Convener), leaders@ltpachit.org
+- **Stakeholder type:** Professional Association (multi-sector collaborative representing LTPAC provider associations, vendors, payers, and national experts; members include nursing facilities, SNFs, assisted living, home health, hospice, CCRCs, rehabilitation, pharmacy, nursing, and health IT)
+- **Credentials or expertise mentioned:** Established in 2005; engaged in every major federal health IT and interoperability rulemaking; participated in HITAC May 7, 2026 Affordability Hearing; commented on HTI-2, CMS-0057, CRUSH RFI, NIH AI Strategy RFI; Shelly Spiro cited as emeritus member and HITAC panelist
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The LTPAC Health IT Collaborative strongly supports the proposed rule's goals of standardizing electronic PA, reducing administrative burden, and increasing transparency, but argues the rule fails to address the unique clinical, regulatory, and technological context of long-term and post-acute care settings. The Collaborative identifies five imperatives: recognizing LTPAC mandatory care obligations and prohibiting retroactive PA denials; enforcing standards on payers first; developing LTPAC-specific implementation guidance; closing the LTPAC interoperability gap (rooted in 15-year HITECH exclusion); and stratifying public PA metrics by care setting and drug category.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, FHIR-IG-REQUIRED, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, HIPAA-PA-STANDARDS, ONC-STANDARDS-UPDATE, GENERAL (RFI responses on lab tests, DMEPOS, AI, workforce)
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057 (2024 Interoperability and Prior Authorization final rule); ONC HTI-2 rulemaking; 42 CFR Part A consolidated billing framework; Federal Register Vol. 91, No. 71 (April 14, 2026)
+- **Standards referenced:** NCPDP SCRIPT (version 2023011), NCPDP Formulary and Benefit (FB), NCPDP Real-Time Prescription Benefit (RTPB); HL7 FHIR; Da Vinci CRD v2.2.1 STU 2.2; Da Vinci DTR v2.2.0 STU 2.2; Da Vinci PAS v2.2.1 STU 2.2; Da Vinci CDex v2.1.0 STU 2.1; X12N 278; PACIO Project FHIR IGs; TEFCA/QHINs; MDS (Minimum Data Set); OASIS
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: LTPAC Mandatory Care Obligations and Retroactive PA Denials**
+- **Provision ID:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, GENERAL
+- **Position:** Modify (request new policy)
+- **Rationale:** Drug PA in LTPAC is categorically different from community pharmacy PA. LTPAC providers must administer medications before payer authorization is obtained due to federal/state mandatory care obligations. Retroactive denials and retroactive eligibility changes impose direct financial harm on thin-margin facilities; PA delays constitute patient safety events.
+- **Specific request:** Explicitly recognize LTPAC mandatory care obligations in the final rule preamble; prohibit retroactive PA denials for medications administered under those obligations; establish procedures for prospective PA submission when coverage is uncertain; address retroactive eligibility change interactions in LTPAC-specific guidance.
+
+**Topic 2: NCPDP Standards Support**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NCPDP SCRIPT, FB, and RTPB are foundational to LTPAC e-prescribing and, once uniformly adopted, have the potential to meaningfully reduce the current fragmented PA landscape (65+ payer web portals, 750+ fax forms, 63+ payers in a single nursing home).
+- **Specific request:** Apply requirements to all Medicare and Medicaid subcontractors, not only "impacted payers"; enforce rigorous payer compliance with monitored readiness milestones before provider compliance is required.
+
+**Topic 3: FHIR Da Vinci IG Requirements**
+- **Provision ID:** FHIR-IG-REQUIRED, ONC-STANDARDS-UPDATE
+- **Position:** Support with modification
+- **Rationale:** Da Vinci CRD, DTR, PAS, CDex IGs are integral to the PA ecosystem; HITAC confirmed gaps including lack of LTPAC EHR testing environments, insufficient provider awareness, and incomplete state Medicaid FHIR questionnaire digitization.
+- **Specific request:** Include LTPAC EHR and pharmacy system vendors in publicly available ePA testing environments; require LTPAC enrollment sites in ONC innovation programs; support state Medicaid centralized FHIR questionnaire development; require PACIO Project FHIR IG compatibility.
+
+**Topic 4: Payer-First Standards Enforcement**
+- **Provision ID:** PA-DRUG-PHARMACY, FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** HITAC confirmed payer compliance with CMS-0057 APIs not expected until end of 2026; if standards are applied simultaneously to payers and providers, LTPAC providers must maintain compliance with both CMS requirements and each payer's non-standard legacy requirements, compounding burden.
+- **Specific request:** Establish monitored payer readiness milestones with publicly available API testing environments before provider compliance requirements take effect; extend requirements to all Medicare/Medicaid subcontractors.
+
+**Topic 5: PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with additions
+- **Rationale:** LTPAC patients experience the most severe consequences of PA delays; standardized, shortened timeframes applied uniformly across all payer types would improve patient safety and care quality.
+- **Specific request:** Apply shortest clinically appropriate timeframes consistently across all payer types; require emergency supply provisions (minimum 72-hour supply) when PA decision is pending, including in-facility medication administration in LTPAC settings.
+
+**Topic 6: Patient/Resident Notification for Cognitively Impaired**
+- **Provision ID:** PA-DENIAL-REASONS, GENERAL
+- **Position:** Modify
+- **Rationale:** A substantial proportion of LTPAC residents have dementia or other cognitive conditions; standard patient notification for cognitively intact outpatients is inappropriate.
+- **Specific request:** Require PA notices directed to legally recognized surrogate decision-makers; require facility-level receipt of PA decisions as primary notification channel; design consumer-facing tools for accessibility, low health literacy, and caregiver use.
+
+**Topic 7: Public Reporting of PA Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modification
+- **Rationale:** Aggregate plan-level metrics will not reveal disparities that LTPAC patients experience; setting-stratified reporting is necessary for accountability and identifying patterned denials.
+- **Specific request:** Require PA metrics stratified by care setting, drug category, payer type/plan, and denial reason code type; establish binding 90%+ automation target (Burden Reduction APIs) with financial consequences for non-compliance.
+
+**Topic 8: HIPAA-PA-STANDARDS**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support with caveats
+- **Rationale:** FHIR as HIPAA transaction standard for PA is long-overdue modernization; LTPAC EHR and pharmacy system vendors will need targeted implementation support due to older systems and limited interoperability infrastructure.
+- **Specific request:** Develop targeted FHIR/HIPAA transition support for LTPAC EHR and pharmacy system vendors; preserve extension and flexibility mechanisms for small plans and state Medicaid agencies.
+
+**Topic 9: LTPAC Interoperability Gap**
+- **Provision ID:** GENERAL, FHIR-IG-REQUIRED
+- **Position:** Modify (request new funding/policy)
+- **Rationale:** Only 17% of hospitals routinely send interoperable health information to LTPAC providers; only 8% routinely receive it; LTPAC excluded from HITECH Act funding, creating a 15-year technology investment gap.
+- **Specific request:** Dedicate funding and technical assistance for LTPAC EHR/pharmacy vendors; integrate LTPAC into TEFCA via QHINs; establish payer obligation for demographic data consistency to address ~30% PA submission failure rate.
+
+**Topic 10: RFI — Lab Tests and DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Lab PA in LTPAC involves urgent clinical needs and multi-party workflows; DMEPOS PA requires coordination between facilities, suppliers, and payers; delays impose direct patient safety risks.
+- **Specific request:** Allow signed TRF as sufficient medical necessity documentation; standardize DMEPOS PA documentation using MDS/OASIS; prohibit removal of medically necessary DMEPOS during pending PA appeals.
+
+**Topic 11: AI-Enabled PA Automation**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** AI PA tools require complete payer policy digitization still incomplete; denial rates remain high with AI; tools trained on non-LTPAC populations may not be valid for older adults with multimorbidity.
+- **Specific request:** Require AI-enabled PA tools for LTPAC patients to be validated on LTPAC populations; include human-in-the-loop review, override capabilities, audit trails, post-market surveillance; prohibit payer AI vendors from shifting liability to LTPAC providers through indemnification.
+
+**Topic 12: Medical/Pharmacy Benefit Scope Clarity for LTPAC**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT, PA-DRUG-MEDICAL
+- **Position:** Clarify
+- **Rationale:** The medical/pharmacy benefit rubric does not map cleanly to LTPAC settings where drugs are administered under Medicare Part A consolidated billing; dual-eligible beneficiaries face simultaneous Medicare and Medicaid rules.
+- **Specific request:** Publish detailed LTPAC-specific guidance clarifying scope of Prior Authorization API for Part A consolidated billing, SNF-specific drug administration, and dual-eligible beneficiary coverage.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1 (require vs recommend IGs):** Supports making Da Vinci CRD, DTR, PAS, CDex IGs required; urges LTPAC EHR testing environments and centralized state Medicaid FHIR questionnaire development.
+- **S12 (technical challenges, PA-DRUG-MEDICAL):** Requests LTPAC-specific guidance on medical/pharmacy distinction for Part A consolidated billing, SNF drug administration, and dual-eligible workflows.
+- **S14 (non-Part D applicability, PA-DRUG-PHARMACY):** Supports extension to Medicaid/CHIP/QHP; requests extension to all Medicare/Medicaid subcontractors.
+- **S15 (medical vs pharmacy distinction):** Requests explicit guidance on Part A consolidated billing, bundled payments, and dual-eligible drug coverage in LTPAC.
+- **S18 (mandatory IG burden):** Notes LTPAC EHR vendors need targeted support; urges inclusion in ONC innovation programs and testing environments.
+- **S19 (state readiness, PA-DRUG-PHARMACY):** State Medicaid agencies have not yet digitized provider manuals into FHIR questionnaires for DTR; urges CMS support for centralized development.
+- **S20 (24-hour achievable, PA-TIMEFRAMES-DRUGS):** Supports shortened, standardized timeframes; urges emergency supply provisions for LTPAC.
+- **S22 (NCPDP costs):** Notes 63+ payer complexity; supports NCPDP standardization; urges payer-first enforcement.
+- **S25 (RTPB maturity):** Supports RTPB requirement; notes LTPAC EHR systems lack FB/RTPB display capability; requests technical assistance.
+- **S29 (which metrics):** Urges stratification by care setting, drug category, payer, and denial reason code type.
+- **S35 (publish aggregate):** Supports public reporting but requires setting-stratified reporting to surface LTPAC disparities.
+- **S37 (implementation challenges):** Identifies HITAC-confirmed gaps: limited LTPAC testing environments, provider awareness deficits, incomplete state Medicaid FHIR questionnaire digitization.
+- **S43 (align timeframes):** Supports uniform timeframe application across all payer types.
+- **S44 (FHIR appropriate, HIPAA-PA-STANDARDS):** Supports FHIR as HIPAA PA transaction standard.
+- **S47 (timeline, HIPAA-PA-STANDARDS):** Supports compliance dates with extension/flexibility mechanisms for LTPAC technology partners.
+- **S49 (small entity impact, HIPAA-PA-STANDARDS):** LTPAC vendors historically receive fewer implementation resources than hospital/ambulatory EHR developers; targeted support needed.
+- **S53 (phasing, HIPAA-PA-STANDARDS):** Supports phased approach with flexibility for entities with legacy systems.
+- **S60 (versioning approach, ONC-STANDARDS-UPDATE):** Supports updated Da Vinci IG versions; advance notice for expiration of prior versions.
+- **S66/S67 (general RFI — lab/DMEPOS impact):** Lab PA delays cause preventable hospitalizations; DMEPOS PA creates multi-party coordination burden including scenario of wheelchair removal during PA appeal.
+- **S68/S69 (general RFI — automation):** Supports ePA automation for lab/DMEPOS with LTPAC population validation; human-in-the-loop requirement.
+- **S71 (general RFI — technology gaps):** LTPAC EHR systems vary widely; many use legacy systems; automation must be validated on LTPAC populations.
+- **S73 (general RFI — workforce impact):** PA burden in LTPAC diverts direct care nurses and administrators; staffing shortages already critical; urges CMS to track and report workforce impact by care setting.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Explicitly recognize LTPAC mandatory care obligations and PA-as-patient-safety-event distinction in the final rule preamble.
+2. Prohibit retroactive PA denials for medications administered under LTPAC mandatory care obligations; establish prospective PA procedures.
+3. Publish integrated guidance on CMS-0062-P and CMS-0057 interaction for SNF consolidated billing, Part A bundled payments, and dual-eligible coverage.
+4. Require payers to publish machine-readable, standardized PA routing rules for full workflow automation.
+5. Apply NCPDP SCRIPT, FB, and RTPB requirements to all Medicare and Medicaid subcontractors, not only "impacted payers."
+6. Develop LTPAC- and LTC pharmacy-specific NCPDP SCRIPT ePA implementation guidance.
+7. Require payer PA decision criteria for LTPAC patients to be validated on older adults with multimorbidity, polypharmacy, and functional limitations.
+8. Establish monitored payer readiness milestones with publicly available API testing environments including LTPAC systems before provider compliance takes effect.
+9. Facilitate LTPAC EHR inclusion in ONC innovation programs (EHIgnite, LEAP) and require PACIO Project FHIR IG compatibility.
+10. Apply shortest clinically appropriate PA timeframes uniformly across all payer types; add emergency supply provisions (72-hour minimum) for LTPAC.
+11. Establish separate electronic workflows for substantive denials versus procedural errors to maintain electronic appeals continuity.
+12. Require PA notices directed to legally recognized surrogate decision-makers in LTPAC; facility-level receipt as primary notification channel.
+13. Require PA metrics stratified by care setting, drug category, payer type, and denial reason code type; binding 90%+ automation target with financial consequences.
+14. Develop targeted FHIR/HIPAA transition support for LTPAC EHR and pharmacy system vendors; preserve extension/flexibility mechanisms.
+15. Allow signed Test Requisition Form as sufficient medical necessity documentation for laboratory PA.
+16. Standardize DMEPOS PA documentation using MDS/OASIS as evidentiary basis; prohibit DMEPOS removal during pending appeals.
+17. Require AI-enabled PA tools for LTPAC patients to be validated on LTPAC populations with human-in-the-loop review, audit trails, and post-market surveillance.
+18. Track and publicly report PA workforce impact in LTPAC settings by care setting, provider type, and payer.
+19. Dedicate funding and technical assistance for LTPAC interoperability; integrate LTPAC into TEFCA via QHINs.
+20. Establish payer demographic data consistency obligation to eliminate ~30% PA submission failure rate.
+21. Require CMS-funded ePA testing environments and educational resources specifically for LTPAC settings.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** LTPAC mandatory care obligations and retroactive PA denial risk unaddressed; 15-year HITECH-exclusion technology gap; payer compliance with CMS-0057 APIs not complete until end of 2026; AI-PA tools not validated on LTPAC populations; aggregate metrics obscure LTPAC disparities; cognitively impaired residents unreachable through standard notification.
+- **Potential negative impacts cited:** PA delays are patient safety events in mandatory-care settings; retroactive denials harm thin-margin facilities; ~30% of PA submissions fail from demographic misalignment; LTPAC EHR systems excluded from testing environments; medication discontinuities worsen outcomes for medically complex patients.
+- **Implementation barriers mentioned:** 63+ payers per facility with heterogeneous requirements; 65+ web portals and 750+ fax forms; 17% hospital-to-LTPAC data exchange rate; LTPAC EHR vendors underrepresented in federal health IT programs; disconnected prescribers; LTC pharmacy cycle-fill complexity; legacy systems without API integration.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:**
+  - 63+ payers in a single nursing home (Cleveland, OH), all Medicare subcontractors.
+  - 65+ payer web portals and 750+ payer fax forms in current manual PA environment.
+  - ~30% of PA submission failures caused by demographic data misalignment.
+  - Only 17% of hospitals routinely send interoperable health information to LTPAC; only 8% routinely receive it.
+  - LTPAC patients average 8–10 medications with high PA rates for specialty drugs, antipsychotics, opioids, and biologics.
+  - HITAC confirmed payer compliance with CMS-0057 APIs not expected until end of 2026.
+- **Studies or research referenced:** HITAC May 7, 2026 Affordability Hearing; prior Collaborative comments on HTI-2, CMS-0057, CRUSH RFI, NIH AI Strategy RFI.
+- **Examples provided:** Single nursing home managing 63+ payers; wheelchair removal during PA appeal; SNF consolidated billing complexity; coagulation monitoring and infection diagnostics as urgent LTPAC lab needs; pressure-relieving mattresses and oxygen equipment as DMEPOS examples.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** LTPAC providers (SNFs, home health, hospice, assisted living, CCRCs, rehabilitation), LTC pharmacies, LTPAC EHR and pharmacy system vendors, Medicare/Medicaid dual-eligible beneficiaries, cognitively impaired residents and their surrogates, LTPAC clinical and administrative workforce
+- **Economic implications:** Direct financial harm from retroactive PA denials on thin-margin facilities; significant workforce diversion from patient care; major potential savings from resolving ~30% demographic misalignment failure rate
+- **Technical feasibility:** LTPAC sector faces 15-year HITECH investment gap; many smaller providers use legacy systems without API integration; publicly available testing environments exclude LTPAC systems; feasibility contingent on dedicated investment and phased payer-first enforcement
+- **Patient care impact:** Very high — PA delays are patient safety events in mandatory-care settings; cognitively impaired residents cannot self-advocate; medication discontinuities and care gaps directly worsen outcomes for medically complex patients
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (strongly supportive of rule goals with extensive sector-specific modification requests)
+- **Tone:** Professional, technical, collaborative, advocacy-focused
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Affordability, modernization, and consumer choice cannot be achieved for older Americans without intentionally designing solutions for LTPAC. We face 63+ payers in a single facility, a 15-year technology investment gap from HITECH exclusion, mandatory care obligations that make prior authorization delays a patient safety issue, and only 17% of hospitals sending interoperable data to us." — Context: Shelly Spiro's HITAC testimony, framing the overarching LTPAC challenge.
+2. "Drug prior authorization in LTPAC is categorically different from community pharmacy prior authorization." — Context: Core framing principle for all LTPAC-specific recommendations; this distinction is not yet explicitly addressed in the proposed rule.
+3. "Prior authorization delays are patient safety events in LTPAC. Unlike community settings where a prescription can be withheld pending payer determination, LTPAC facilities have a mandatory care obligation." — Context: Establishing why PA timeframes carry patient safety implications specific to LTPAC.
+4. "Standards without transparent rules will not eliminate manual workarounds." — Context: Arguing that NCPDP standardization must be paired with machine-readable payer PA routing rules to solve the workflow problem, not just the data problem.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Urges payer-first enforcement with monitored readiness milestones before provider compliance; supports compliance dates with flexibility mechanisms for LTPAC technology partners; notes payer compliance with CMS-0057 APIs not complete until end of 2026.
+- [x] **COST-RESOURCES** — 15-year HITECH exclusion technology gap; thin-margin facilities absorbing retroactive denial costs; requests dedicated funding and technical assistance for LTPAC EHR/pharmacy vendors.
+- [x] **PROVIDER-BURDEN** — 63+ payers per facility; 65+ web portals and 750+ fax forms; ~30% submission failures from demographic misalignment; workforce diversion from direct care to PA administration in already-understaffed settings.
+- [x] **HEALTH-EQUITY** — LTPAC patients (elderly, dual-eligible, cognitively impaired, high multimorbidity) among those most harmed by PA barriers; aggregate metrics obscure LTPAC disparities; cognitively impaired residents cannot advocate through standard notification processes.
+- [x] **TECHNICAL-FEASIBILITY** — LTPAC EHR systems excluded from testing environments; disconnected prescriber workflows; LTC pharmacy cycle-fill complexity; legacy systems without API integration; 15-year HITECH gap creates fundamental infrastructure deficit.
+- [x] **STANDARDS-MATURITY** — Supports NCPDP SCRIPT 2023011, FB, RTPB, and Da Vinci CRD/DTR/PAS/CDex; identifies state Medicaid FHIR questionnaire digitization gap; urges PACIO Project FHIR IG compatibility requirement.
+- [x] **PATIENT-ACCESS** — PA delays are patient safety events in mandatory-care settings; medication discontinuities directly worsen outcomes; emergency supply provisions essential; cognitively impaired residents require surrogate notification.
+- [x] **STAKEHOLDER-COORDINATION** — Multi-party complexity (facilities, suppliers, payers, prescribers, pharmacies); TEFCA integration for LTPAC QHINs; coordination between CMS-0062-P and CMS-0057; state Medicaid MCO policy digitization inconsistency across plans.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — LTPAC drug administration under Part A consolidated billing does not map to medical/pharmacy benefit rubric; dual-eligible beneficiaries face simultaneous Medicare and Medicaid PA frameworks.
+- [x] **TRANSPARENCY** — Strongly supports PA metrics reporting but requires care-setting stratification and drug-category breakdown; binding automation targets with financial consequences for non-compliance.
+- [x] **EXISTING-WORKFLOWS** — Disconnected prescriber workflows; LTC pharmacy cycle-fill processes; multi-party DMEPOS and lab PA workflows; retroactive eligibility changes during care episodes; electronic appeals continuity gap reverts to fax/phone.
+- [x] **VENDOR-ECOSYSTEM** — LTPAC EHR and pharmacy system vendors historically excluded from federal health IT resources, testing environments, and ONC innovation programs; targeted implementation support required for NCPDP and FHIR standards.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+LTPAC Health IT Collaborative Comment Letter: Proposed rule on Prior Authorization for Drugs
+Page 1
+Date: June 12, 2026
+Submitted via: www.regulations.gov
+Administrator Mehmet Oz, M.D.
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+P.O. Box 8013
+Baltimore, MD 21244-8013
+Re: CMS Proposed Rule: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs
+
+Dear Administrator,
+
+The Long-Term Post-Acute Care (LTPAC) Health IT Collaborative ("the Collaborative") submits these comments on the proposed rule on Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P), published in the Federal Register on April 14, 2026 (Vol. 91, No. 71). The Collaborative's members include provider and professional associations and national experts representing nursing facilities, skilled nursing facilities, assisted living, home health, hospice, continuing care retirement communities, rehabilitation services, pharmacy, nursing, and healthcare information systems.
+
+Established in 2005 to advance health IT issues through coordination among LTPAC provider organizations, policymakers, vendors, payers, and other stakeholders, the Collaborative has consistently advocated for policies that reflect the unique care and technology environments of LTPAC providers and the complex, high-need patients they serve...

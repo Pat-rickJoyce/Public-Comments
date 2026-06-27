@@ -1,0 +1,206 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0465_20260626134245_552b959b
+Commenter: American Medical Association
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:24:08
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** John Whyte, MD, MPH, on behalf of the American Medical Association.
+- **Stakeholder type:** Professional Association.
+- **Credentials or expertise mentioned:** AMA represents physician and medical student members and relies on physician survey data, prior AMA policy principles, and clinical and health IT expertise.
+
+## 2. EXECUTIVE SUMMARY
+
+The AMA strongly supports CMS and ONC moving prior authorization toward standardized electronic workflows for drugs, medical services, and payer APIs, but argues that the rule must be strengthened with implementation testing, payer accountability, workflow usability, and better transparency. It supports replacing X12N 278 with FHIR as the HIPAA PA standard only through a deliberate transition, including enforcement discretion through December 31, 2028 and mandatory FHIR compliance on January 1, 2029.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** 42 CFR 422.137(d)(3); 45 CFR 147.136; 29 CFR 2560.503-1(f) and (m)(1); Social Security Act sections 1927(d)(5)(A) and 1927(k)(3). The comment also discusses proposed HIPAA transaction changes affecting X12N 278 and X12N 270/271.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, PAS, CDex, PDex, PDex Drug Formulary, PDex Plan Net, and Member Attribution List IGs; CARIN Blue Button; FAST Security IG; US Core; SMART App Launch; NCPDP SCRIPT version 2023011, Formulary and Benefit version 60, and RTPB version 13; HL7 consumer-facing RTPBC IG; X12N 278 and X12N 270/271; Inferno testing; SVAP; FHIR Endpoint Resource; NDH IG Endpoint Profile; PlanDefinition and ActivityDefinition.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Pharmacy benefit drug PA standards**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** NCPDP SCRIPT, F&B, and RTPB support complementary functions for ePA, formulary/benefit visibility, and patient-specific cost and coverage information. The AMA warns that October 1, 2027 may not align with EHR readiness.
+- **Specific request:** Finalize NCPDP requirements, continue requiring both F&B and RTPB, require accurate and timely payer files, and consider aligning compliance with the January 1, 2028 ONC EHR deadline.
+
+**Topic 2: Medical benefit drugs and benefit routing**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support / Clarify
+- **Rationale:** Medical benefit drugs include high-cost, time-sensitive specialty drugs. Misrouting drugs between FHIR and NCPDP workflows could create denials and provider confusion.
+- **Specific request:** Finalize medical-benefit drug ePA requirements and convene a multi-stakeholder tiger team to define when drugs route through FHIR PA APIs versus NCPDP ePA transactions.
+
+**Topic 3: Required FHIR IGs and real-world usability**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** Required IGs can reduce proprietary variation, but technical conformance alone will not improve physician workflows if APIs return incomplete criteria, pended statuses, or non-actionable responses.
+- **Specific request:** Require practical usability, payer conformance testing, public testing results, sandbox environments, corrective action pathways, evidence-based auditable PA criteria, standardized fallback workflows, and aligned EHR deployment.
+
+**Topic 4: Immature or premature IG mandates**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Oppose / Modify
+- **Rationale:** ATR, FAST Security, and consumer-facing RTPBC have value but are not mature enough for mandate; patient-facing cost tools could conflict with prescriber-facing data and cause confusion.
+- **Specific request:** Do not mandate immature recommended IGs until operational testing, governance, and data consistency issues are resolved.
+
+**Topic 5: Denial notices**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Generic denial language prevents physicians from correcting requests, appealing, or identifying approvable alternatives. Fax, mail, and portals often fail to reach the responsible physician in time.
+- **Specific request:** Require standardized drug and non-drug denial templates, transmit notices through the same electronic PA workflow, and extend the same standards to MAOs and Part D sponsors.
+
+**Topic 6: Decision timeframes and extensions**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Delays harm patients, especially for MOUD, pain management, cancer care, post-acute care, CHIP, Medicaid, and QHP requests. Non-final responses should not satisfy decision deadlines.
+- **Specific request:** Require 24-hour drug PA decisions for QHPs and Medicaid/CHIP drug contexts, 48-hour standard and 24-hour expedited QHP non-drug decisions, final approvals or denials by the deadline, simultaneous enrollee/provider notice, and repeal or sharply limit the proposed 14-day extension.
+
+**Topic 7: Public PA and API metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Aggregate or inconsistent reporting hides poor payer performance and prevents physicians, patients, CMS, and purchasers from identifying bottlenecks.
+- **Specific request:** Report API usage metrics at payer level, add transaction success, error, latency, endpoint availability, manual-workaround, benchmark, and remediation metrics, and standardize public PA metrics and drug/service PA lists.
+
+**Topic 8: API endpoint registry**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** EHRs and intermediaries need reliable endpoint discovery to connect to payer APIs without manual payer-by-payer setup.
+- **Specific request:** Create a centralized machine-readable registry for all five interoperability APIs, collect authentication metadata, validate endpoints, publish updates quickly, and design the registry for future expansion to other commercial plans.
+
+**Topic 9: HIPAA PA standard transition**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support / Modify
+- **Rationale:** FHIR is the right long-term direction, but PAS still has X12 dependencies and the HIPAA proposal reaches all covered entities, including entities with less readiness than CMS impacted payers.
+- **Specific request:** Replace X12N 278 with FHIR through an interim final rule or tiered transition, extend enforcement discretion through December 31, 2028, set January 1, 2029 as the mandatory date, monitor readiness, support clearinghouses, limit CDex to a narrow attachment pathway, and keep DTR as the primary documentation mechanism.
+
+**Topic 10: ONC standards updates and versioning**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Support / Modify
+- **Rationale:** Updated IG versions are needed, but uncoordinated version changes can cause payer-EHR mismatches and workflow failures.
+- **Specific request:** Adopt updated IGs with testing, updated conformance tools, January 1, 2028 expiration and transition, version monitoring, backward compatibility for payer early adoption, joint CMS/ONC/HIPAA roadmap guidance, and predictable update cadence.
+
+**Topic 11: RFIs on event notifications, resiliency, step therapy, labs, and DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Technology can improve care coordination and utilization management only if designed around physician workflow and patient safety.
+- **Specific request:** Reduce ADT notification inbox burden, provide cybersecurity incentives and recovery support, require structured FHIR-aligned step therapy criteria, reinstate/strengthen limits on step therapy where clinically harmful, and reform lab/DMEPOS PA submission, timing, and documentation rules.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports making CRD, DTR, PAS and related IGs required, but only with enforceable conformance, usability, testing, sandbox, and corrective-action requirements.
+- **S2-S3:** Supports version flexibility and transition periods, asks for predictable cadence, backward compatibility, PDex 2.2, and formal monitoring of version mismatches.
+- **S6:** Supports required use of patient-access/data-exchange IGs such as CARIN/PDex where mature, with implementation guardrails.
+- **S12:** Supports incorporating medical benefit drugs into the FHIR Prior Authorization API.
+- **S14:** Supports NCPDP SCRIPT, F&B, and RTPB requirements for pharmacy benefit drugs for impacted payers beyond Part D.
+- **S15:** Requests a multi-stakeholder tiger team to clarify medical versus pharmacy benefit routing and avoid misrouted PA transactions.
+- **S16-S17:** Supports specific denial reasons and asks CMS to require standardized denial templates with structured clinical, coverage, documentation, reviewer, policy, and next-step information.
+- **S18:** Warns that mandatory IGs can increase burden unless CMS requires practical usability in physician workflows.
+- **S20:** Supports 24-hour drug PA decisions across Medicaid/CHIP drug contexts and QHP drug PAs.
+- **S21-S22:** Requests timeline alignment with January 1, 2028 EHR readiness and notes payer, vendor, intermediary, and practice implementation costs.
+- **S23-S24:** Supports endpoint reporting with authentication metadata and functional validation so endpoint publication does not create security or reliability gaps.
+- **S25:** Treats RTPB as useful but not a substitute for F&B, and cautions against mandating consumer-facing HL7 RTPBC before maturity.
+- **S26-S27:** Requests machine-readable publication and rapid updates, including CMS publication within 48 hours or real time if FHIR-based.
+- **S29-S30:** Supports API usage metrics but opposes aggregate-only reporting; payer-level publication is needed while protecting individual privacy.
+- **S31:** Recommends tighter QHP decision deadlines and limits on extensions.
+- **S33-S35:** Requests payer-level API usage reporting, transaction success metrics, benchmarks, and public accountability for underperforming APIs.
+- **S37:** Identifies implementation challenges including EHR readiness, clearinghouse transition, version mismatch, conformance testing, endpoint discovery, and fallback workflows.
+- **S43:** Requests alignment of drug and non-drug PA decision timeframes with clinical urgency and treating physician determinations.
+- **S44-S55:** Supports FHIR as the HIPAA PA standard but requests a staged transition, continued X12/FHIR enforcement discretion through 2028, January 1, 2029 mandatory compliance, readiness monitoring, CDex guardrails, clearinghouse support, testing, and enforcement mechanisms.
+- **S60-S65:** Supports updated ONC standards, testing tools, transition periods, CMS/ONC coordination, stakeholder monitoring, expiration planning, and adoption-rate tracking.
+- **S66-S82:** Responds to RFIs on event notifications, resiliency, step therapy, lab PA, and DMEPOS by emphasizing workflow design, cybersecurity support, structured step therapy criteria, and policy reforms beyond automation.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize NCPDP SCRIPT, F&B, and RTPB requirements, but consider a January 1, 2028 compliance date.
+2. Continue requiring both F&B and RTPB and require accurate, timely payer formulary and benefit files.
+3. Finalize medical and pharmacy benefit drug ePA policies and create national guardrails for benefit routing.
+4. Require FHIR IG conformance to include real-world workflow usability and final determinations within required timeframes.
+5. Mandate payer conformance testing, public testing results, sandbox environments, endpoint validation, and corrective-action pathways.
+6. Require PA criteria transmitted through APIs to be evidence-based, transparent, reviewable, and auditable.
+7. Align payer API deadlines with certified EHR and practice management system readiness and require fallback workflows when FHIR transactions fail.
+8. Do not mandate ATR, FAST Security, or consumer RTPBC until mature.
+9. Require standardized denial notices for drug and non-drug PAs and transmit them through the same electronic workflow.
+10. Extend denial-notice standards to MAOs and Part D sponsors.
+11. Require 24-hour drug PA decisions for QHPs, Medicaid, and CHIP contexts; require tighter QHP non-drug timeframes.
+12. Specify that only a final approval or denial satisfies a PA decision deadline and repeal or sharply limit 14-day extensions.
+13. Standardize PA public reporting, including service/drug-class disaggregation, appeal outcomes, extension outcomes, Part D inclusion, and plan-level reporting.
+14. Create a centralized machine-readable API endpoint registry with authentication metadata and prompt updates.
+15. Publish API usage and performance metrics at payer level, including transaction success and remediation status.
+16. Replace X12N 278 with FHIR as the HIPAA PA standard through a measured transition ending January 1, 2029.
+17. Adopt updated ONC standards with testing, transition periods, backward compatibility, and joint timeline guidance.
+18. Modernize step therapy criteria into structured, FHIR-aligned data and address harmful step therapy policy, not only technology.
+19. Reform lab and DMEPOS PA policies around submitting provider, timing of request, and excessive documentation.
+20. Support event notification and cybersecurity resiliency improvements that reduce physician burden and provide financial/technical support for smaller practices.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, poor payer implementation, inaccurate benefit data, non-actionable denials, weak reporting, API failures, premature IG mandates, HIPAA transition disruption, and technology that digitizes flawed utilization management.
+- **Potential negative impacts cited:** Treatment delays, treatment abandonment, adverse outcomes, physician burnout, missed medication access, avoidable emergency visits/readmissions, hospital costs, cybersecurity disruption, and burden on small practices.
+- **Implementation barriers mentioned:** EHR deployment gaps, payer variation, inaccurate F&B files, immature IGs, X12 dependencies in PAS, clearinghouse readiness, endpoint discovery, lack of conformance testing, version mismatch, and insufficient standardized reporting.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA survey data that 95 percent of physicians report PA delays care, 79 percent report treatment abandonment, 92 percent report negative clinical outcomes, 26 percent report serious adverse events, physicians complete about 40 PA requests weekly consuming 13 hours, and 94 percent report PA contributes to burnout. The comment also cites 98 percent of MA beneficiaries in plans requiring PA for Part B drugs in 2025; 24 percent of physicians reporting EHR ePA for prescriptions; 27 percent reporting EHR PA information is rarely or never accurate; nearly 81 percent of appealed MA denials overturned in 2024; only 21 percent of physicians always appealing adverse determinations; and Medi-Cal FFS response data showing only about nine percent of providers responded within a notice window.
+- **Studies or research referenced:** KFF, MedPAC, HHS OIG, Senate investigation, BMJ cancer-delay meta-analysis, JAMA hospital stay analysis, CDC opioid guideline, ASAM buprenorphine considerations, FDA buprenorphine labeling updates, NIDA report, and prior AMA letters/policies.
+- **Examples provided:** Inaccurate payer disclosures, delayed cancer imaging authorization, step therapy protocol modernization using GLP-1/metformin for type 2 diabetes, lab PA after sample collection, DMEPOS mobility delays, and Change Healthcare cybersecurity disruption.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, physicians, physician practices, MAOs, Medicaid/CHIP programs, QHP issuers, Part D sponsors, EHR developers, health IT vendors, clearinghouses, pharmacies, laboratories, DMEPOS suppliers, hospitals, and CMS/ONC/HHS regulators.
+- **Economic implications:** AMA emphasizes physician and staff time, implementation costs, cost passthrough from vendors/clearinghouses, small-practice cybersecurity costs, avoidable utilization, and hospital costs from PA-related discharge delays.
+- **Technical feasibility:** Feasible if sequenced with testing, sandbox access, endpoint validation, version management, EHR readiness, and payer accountability; risky if implemented as attestation-only compliance.
+- **Patient care impact:** High. The comment repeatedly links PA delays and weak implementation to delayed treatment, abandonment, adverse events, overdose risk, cancer progression, pain undertreatment, discharge delay, and loss of continuity of therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive but concerned.
+- **Tone:** Professional, technical, and frequently critical of weak implementation.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Voluntary measures alone will not suffice" - Context: AMA's rationale for binding PA reform.
+2. "FHIR is the right direction" - Context: Support for replacing X12N 278 over time.
+3. "Physicians should not be the testing environment" - Context: Argument for payer API testing before production.
+4. "Technology only approach" - Context: Warning that automating step therapy without policy reform could perpetuate flawed criteria.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - AMA repeatedly requests aligned compliance dates, transition periods, and January 1, 2029 HIPAA FHIR compliance.
+- [x] **COST-RESOURCES** - The comment discusses practice burden, implementation costs, cost passthrough, hospital costs, and cybersecurity financing.
+- [x] **PROVIDER-BURDEN** - Reducing physician and staff PA workload is the central concern.
+- [x] **PRIVACY-SECURITY** - Cybersecurity resiliency, HIPAA security risk reporting, endpoint authentication, and Change Healthcare are discussed.
+- [x] **HEALTH-EQUITY** - The comment highlights small, rural, under-resourced practices and patients affected by access delays.
+- [x] **TECHNICAL-FEASIBILITY** - It conditions support on testing, sandboxes, EHR readiness, endpoint validation, and implementation monitoring.
+- [x] **STANDARDS-MATURITY** - It distinguishes mature standards from immature IGs and emphasizes version management.
+- [x] **PATIENT-ACCESS** - Patient harm from PA delays, denials, and treatment interruption is a dominant theme.
+- [x] **REGULATORY-AUTHORITY** - The comment addresses HHS use of HIPAA administrative simplification authority to replace X12N 278.
+- [x] **STAKEHOLDER-COORDINATION** - It calls for CMS/ONC coordination, multi-stakeholder tiger teams, and payer-vendor-provider testing.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The AMA asks CMS to clarify FHIR versus NCPDP routing for drugs.
+- [x] **TRANSPARENCY** - Denial notices, PA public reporting, endpoint registries, step therapy criteria, and API metrics are major topics.
+- [x] **SMALL-PAYER-IMPACT** - The HIPAA transition discussion explicitly raises small health plans and entities newly subject to FHIR PA.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on avoiding portals, faxes, pended statuses, inbox overload, and duplicative documentation.
+- [x] **VENDOR-ECOSYSTEM** - EHR developers, intermediaries, clearinghouses, standards bodies, and payer API vendors are central to the recommendations.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 12, 2026
+
+The Honorable Mehmet C. Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+Hubert H. Humphrey Building, Room 445-G
+200 Independence Avenue, SW
+Washington, DC 20201
+Re: File Code CMS-0062-P. Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+Dear Administrator Oz:
+On behalf of the physician and medical student members of the American Medical Association (AMA), I appreciate the opportunity to offer our comments to the Centers for Medicare & Medicaid Services (CMS) and the Office of the National Coordinator for Health Information Technology (ONC) on the Notice of Proposed Rulemaking (Proposed Rule) extending interoperability and prior authorization (PA) requirements to drugs for Medicare Advantage organizations (MAOs), state Medicaid and CHIP fee-for-service (FFS) programs, Medicaid and CHIP managed care entities, and Qualified Health Plan (QHP) issuers on the Federally-facilitated Exchanges (FFEs), published in the Federal Register on April 14, 2026. We offer detailed comments below and provide targeted feedback on key provisions. We look forward to working with the Administration on these important policy proposals.
+Executive Summary
+The AMA appreciates the Administration's continued leadership on PA reform and commends CMS for advancing policies that confront the substantial burden PA imposes on physicians and patients. PA remains one of the most pressing administrative and clinical concerns in medicine today: it delays needed care, contributes to adverse patient outcomes, fuels physician burnout, and consumes substantial practice resources...

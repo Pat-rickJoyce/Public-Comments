@@ -1,0 +1,224 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0454_20260626134237_94475ae3
+Commenter: Texas Association of Community Health Centers (TACHC)
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:49
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Texas Association of Community Health Centers (TACHC); signed by Jana Eubank, CEO.
+- **Stakeholder type:** Professional Association.
+- **Credentials or expertise mentioned:** Represents 79 Texas federally qualified health centers/community health centers operating more than 700 clinic sites in 131 counties and serving 1.9 million Texans, including Medicaid, uninsured, low-income, agricultural worker, and homeless populations.
+
+## 2. EXECUTIVE SUMMARY
+
+TACHC broadly supports CMS's interoperability and electronic prior authorization proposals because they could reduce administrative burden and improve access for medically underserved patients served by community health centers. It urges CMS to pair the mandates with realistic timelines, vendor accountability, cybersecurity and implementation support, centralized reporting, benefit-classification transparency, CDex guardrails, gold-carding, and CMS-ONC harmonization.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** 45 CFR 170.315(g)(31)-(g)(33); 90 FR 37130; CMS-0053-F; CMS-0062-P. The comment also references the proposed CMS-0062-P interoperability and PA framework generally.
+- **Standards referenced:** FHIR; HL7 Da Vinci CRD, DTR, PAS implementation guides; CRD Coverage Information extension; Provider Access API; Patient Access API; Payer-to-Payer API; Prior Authorization API; CDex; C-CDA; X12 278; X12 6020; ONC certification criteria; HTI-4; HTI-5.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Interoperability API implementation support**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** CHCs support standardized, real-time exchange but have limited IT staff, constrained budgets, vendor dependence, and cybersecurity exposure. Without aligned vendor readiness and testing, API requirements may create operational disruption for safety-net providers.
+- **Specific request:** Coordinate timelines with ONC certification, validate readiness before enforcement, clarify providers will not be penalized for vendor or clearinghouse failures outside their control, and provide technical assistance, cybersecurity support, workforce development support, and funding.
+
+**Topic 2: Drug electronic prior authorization and benefit classification**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support with modifications
+- **Rationale:** Prescription drug ePA could improve medication access, adherence, and point-of-prescribing visibility, but dual medical/pharmacy benefit workflows are difficult for CHCs when coverage pathway is unclear.
+- **Specific request:** Require payers to expose benefit classification through Provider Access APIs using the CRD Coverage Information extension and clarify whether a PA approval under one benefit pathway applies to an alternate pathway.
+
+**Topic 3: Pharmacy operations and 340B workflows**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Drug ePA implementation will cross EHRs, pharmacy management systems, contract pharmacies, TPAs, payer APIs, eligibility, claims, dispensing, and 340B accumulation systems that may not exchange complete structured data in real time.
+- **Specific request:** CMS should coordinate with the Office of Pharmacy Affairs and provide targeted guidance, technical assistance, and funding for CHCs and 340B-related pharmacy operations.
+
+**Topic 4: PA expiration notifications and prior authorization reduction**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** ePA alone may digitize a burdensome process without reducing PA volume; proactive expiration alerts can prevent medication interruptions and retroactive reauthorization work.
+- **Specific request:** Mandate proactive PA expiration notifications through FHIR-based alerts, extend gold-carding to prescription drugs, and create sunset provisions for PA categories with consistently high approval rates.
+
+**Topic 5: Denial reasons, timeframes, and accountability**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modifications
+- **Rationale:** Clear denial explanations and faster decisions are important for CHC patients who face barriers to access and continuity of care. Public metrics can improve transparency but should capture real-world burden.
+- **Specific request:** Require actionable denial information, publish PA metrics centrally on CMS's website, add metrics such as denial rates by service or medication category and first-pass approval rates, enforce against persistent delays or inappropriate denials, and establish automatic approval when required timeframes are missed.
+
+**Topic 6: API endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Centralized endpoint information would reduce provider, EHR vendor, and app developer burden and prevent care delays from outdated or hard-coded endpoints.
+- **Specific request:** Publish payer API endpoint information on CMS's website in centralized, machine-readable files; maintain one-week update requirements and annual verification; prioritize ease of access for safety-net and rural primary care providers.
+
+**Topic 7: API usage metrics and formulary information**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** More granular metrics can identify access gaps and payer accountability issues, but CMS should also measure whether APIs function in real clinical workflows. Removing formulary information from Provider Access and Payer-to-Payer APIs would harm real-time prescribing decisions.
+- **Specific request:** Report metrics by program and plan for Medicaid/CHIP managed care; add metrics on successful and failed API requests, authorization failures, malformed queries, unreceived calls, structured versus unstructured responses, calls per query, queries per user, workflow impact, and API maintenance cost; retain formulary information in Provider Access and Payer-to-Payer APIs.
+
+**Topic 8: HIPAA PA standards transition, CDex, and gold-carding**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support with modifications
+- **Rationale:** TACHC supports moving from X12 toward FHIR but warns that CHCs will face a dual-standard transition involving X12 6020 and FHIR/CDex. CDex may also enable repeated escalating documentation requests unless bounded.
+- **Specific request:** Extend CMS's February 28, 2024 enforcement discretion for use of a FHIR PA API as an X12 278 substitute through the CMS-0062-P transition; require payers to specify all documentation in the initial CDex request, limit solicited attachments to two per PA transaction, establish payer response timeframes after receiving attachments, and recommend broad gold-carding initiatives.
+
+**Topic 9: ONC standards and certification alignment**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** CMS payer compliance by October 1, 2027 may precede certified provider-facing ePA technology deadlines in December 2027 and January 2028, creating a gap for CHCs. HTI-5 certification reductions may also weaken supporting infrastructure.
+- **Specific request:** CMS and ONC should issue joint implementation guidance, ensure HTI-5 does not undercut CMS-0062-P, publish a CMS-ONC harmonization assessment before the final rule, and confirm providers are not non-compliant when certified technology is unavailable.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports making interoperability and ePA standards more consistent, but asks CMS to pair requirements with vendor accountability, testing, and provider protections.
+- **S2:** Urges synchronized IG timelines and coordinated ONC certification deadlines so providers have available technology when payer obligations begin.
+- **S3:** Requests transition support and enforcement discretion during standards transitions, especially where CHCs must support X12 and FHIR simultaneously.
+- **S12:** Identifies technical challenges for medical benefit drug ePA, including vendor readiness, limited CHC IT capacity, cybersecurity exposure, and unclear benefit classification.
+- **S15:** Directly addresses medical versus pharmacy benefit ambiguity and requests real-time benefit classification through the CRD Coverage Information extension.
+- **S16:** Supports specific denial reasons that explain why a request was denied, identify missing or insufficient information, and provide actionable resubmission or appeal information.
+- **S17:** Supports greater transparency and structured reporting of denial patterns, including denial rates by service type or medication category and overturned denials tied to unclear notices.
+- **S20:** Supports timely drug PA decisions and urges automatic approval when payers miss required timeframes.
+- **S21:** Indicates the October 1, 2027 timeline requires realistic implementation safeguards, readiness testing, and alignment with certified provider technology availability.
+- **S22:** Notes cost and workflow burdens for pharmacy benefit ePA, particularly for CHCs, contract pharmacies, TPAs, EHRs, PMS platforms, and 340B operations.
+- **S23:** Raises cybersecurity concerns for CHCs as API-based exchange expands and requests technical assistance, funding, and workforce support.
+- **S24:** Supports reporting API endpoint and associated technical information centrally so providers and vendors do not need to search payer websites.
+- **S26:** Requests machine-readable endpoint files to minimize manual interpretation and support app/EHR integration.
+- **S27:** Supports one-week updates after endpoint changes and at least annual verification.
+- **S29:** Supports expanded API usage metrics and recommends additional measures of API functionality, usability, error rates, workflow impact, and maintenance cost.
+- **S30:** Raises privacy and security implications indirectly through cybersecurity capacity concerns and the need for support as sensitive data exchange expands.
+- **S34:** Supports aligning usage metric deadlines with reporting periods to reduce confusion and improve data value.
+- **S35:** Encourages CMS to publish trends in usage and PA metrics and use them for accountability and policy interventions.
+- **S44:** Supports FHIR as a modernization step for PA but emphasizes transition support for safety-net providers.
+- **S46:** Discusses coexistence of X12 and FHIR/CDex during transition and requests continued enforcement discretion for FHIR PA API use as an X12 278 substitute.
+- **S47:** Raises timeline concerns, including overlap between CMS-0062-P, X12 6020 claims attachment compliance in May 2028, and FHIR/CDex PA attachment compliance in 2029.
+- **S48:** Argues that ePA can reduce burden only if paired with PA reduction reforms such as gold-carding and sunset provisions.
+- **S49:** Identifies small and resource-constrained safety-net providers as needing funding, training, cybersecurity, and vendor support.
+- **S50:** Flags maturity and operational readiness issues for FHIR-based IGs, CDex, and supporting certified health IT.
+- **S51:** Describes non-CMS operational challenges for CHCs, including vendor dependence, EHR/PMS interoperability gaps, and 340B workflows.
+- **S53:** Requests phased transition protections and support while multiple standards must be supported.
+- **S54:** Requests readiness validation or testing before enforcement begins.
+- **S55:** Requests provider protections from enforcement when failures are attributable to vendors or when certified technology is not yet available.
+- **S60:** Supports CMS-ONC harmonization on health IT standards and warns that HTI-5 changes could undercut CMS-0062-P implementation.
+- **S61:** Requests joint CMS-ONC implementation guidance and a formal harmonization assessment.
+- **S62:** Points to certification timing and criteria as central to whether CHCs can actually connect to payer APIs.
+- **S64:** Requests agency coordination and stakeholder-aware implementation support for safety-net providers.
+
+## 6. RECOMMENDATIONS
+
+1. Coordinate CMS API and PA timelines with ONC certification schedules and validate readiness before enforcement.
+2. Clarify that providers are not penalized for vendor, clearinghouse, EHR, or unavailable certified technology failures outside their control.
+3. Provide technical assistance, cybersecurity support, workforce development support, and dedicated health IT funding for CHCs.
+4. Require payer disclosure of drug benefit classification through Provider Access APIs using CRD Coverage Information.
+5. Clarify whether PA approvals under one drug benefit pathway apply to alternate medical or pharmacy payment pathways.
+6. Coordinate with OPA on 340B and pharmacy workflow impacts and provide targeted CHC implementation guidance.
+7. Mandate proactive FHIR-based PA expiration notifications to providers.
+8. Pair ePA mandates with PA reduction reforms, including prescription drug gold-carding and sunset provisions.
+9. Require actionable denial notices and automatic approval when required decision timeframes are missed.
+10. Publish PA metrics and API endpoint information centrally on CMS's website in standardized, machine-readable formats.
+11. Expand API usage metrics to measure functionality, errors, usability, data structure, workflow impact, and maintenance cost.
+12. Retain formulary information in Provider Access and Payer-to-Payer APIs.
+13. Extend enforcement discretion for FHIR PA API use as an X12 278 substitute through the transition period.
+14. Add CDex guardrails limiting iterative attachment requests and requiring timely payer decisions after attachments.
+15. Publish joint CMS-ONC guidance and a harmonization assessment before finalizing CMS-0062-P.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Vendor readiness, CHC IT and cybersecurity capacity, dual medical/pharmacy benefit workflows, lack of benefit-pathway clarity, fragmented pharmacy and 340B systems, ePA digitizing rather than reducing burden, removal of formulary information from APIs, dual X12/FHIR transition burden, and misalignment with ONC certification timing.
+- **Potential negative impacts cited:** Delayed care, medication interruptions, inappropriate denials, duplicative documentation, higher administrative costs, care coordination disruption, cybersecurity risk, provider confusion, and unreimbursed staff burden.
+- **Implementation barriers mentioned:** Limited CHC budgets and IT staff, reliance on EHR vendors and third-party technology partners, PMS/EHR interoperability gaps, rural and safety-net resource constraints, changing formularies, hard-coded endpoints, certification timeline gaps, and multiple concurrent standards.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 79 Texas FQHCs, more than 700 sites in 131 counties, 1.9 million Texas patients, more than 500,000 Medicaid patients, over 630,000 uninsured patients, 94 percent of physicians reporting PA delays care, average PA wait time of about three days, nearly one-third waiting more than one week, nearly 53 million MA PA determinations in 2024, CHC national patient population statistics, chronic disease counts for Texas CHCs, over 65 percent of CHCs using 340B contract pharmacy arrangements, and financial strain indicators including fewer than 90 days cash on hand for nearly half of CHCs.
+- **Studies or research referenced:** AMA prior authorization survey, KFF Medicare Advantage PA determinations, MGMA PA burden report, HRSA UDS data, NACHC reports, medication adherence research, pharmacy interoperability literature, EHR access studies, CMS enforcement discretion guidance, WISeR model materials, and HTI-4/HTI-5 regulatory materials.
+- **Examples provided:** Extended-release buprenorphine may be billed under pharmacy benefit when dispensed by a pharmacy or medical benefit when administered in-clinic; CHC patients who are homeless or agricultural workers may need PA information retained because they move frequently and may not return for months; outdated hard-coded API endpoints can disrupt EHR workflows.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Community health centers, FQHC patients, Medicaid and CHIP patients, uninsured and low-income patients, rural communities, EHR vendors, pharmacy management system vendors, contract pharmacies, TPAs, payers, CMS, ONC, and OPA.
+- **Economic implications:** CHCs may face unreimbursed costs for technology upgrades, cybersecurity, training, workflow redesign, pharmacy coordination, and dual-standard support; federal matching funds and dedicated support could reduce safety-net burden.
+- **Technical feasibility:** Feasible if CMS aligns implementation with ONC certification, requires testing, ensures vendor accountability, publishes machine-readable endpoint data, retains necessary formulary data, and supports EHR/PMS/API integration.
+- **Patient care impact:** The proposals could improve medication adherence, reduce delays, support continuity of care, and improve transparency, but poor implementation could interrupt treatment and shift costs onto safety-net providers and patients.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, collaborative, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "TACHC therefore supports many of the changes in this proposed rule because of their potential to reduce administrative burden and improve timely patient access to medically necessary care and prescription drugs." - Context: Overall position on CMS's proposed interoperability and PA reforms.
+2. "CMS should clarify that providers will not be penalized for failures attributable to vendors, clearinghouses, or EHR systems outside provider control." - Context: Vendor readiness and enforcement concerns.
+3. "TACHC recommends that CMS require payers to expose benefit classification information through the Provider Access APIs." - Context: Medical versus pharmacy benefit classification for drug ePA.
+4. "TACHC urges CMS to establish automatic approval for PA requests that are not decided within the required timeframes." - Context: Enforcement of PA communication and decision timeframes.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - TACHC repeatedly requests realistic timelines, transition support, readiness validation, and alignment with ONC certification deadlines.
+- [x] **COST-RESOURCES** - The comment emphasizes CHC financial constraints, unreimbursed PA work, cybersecurity costs, implementation expenses, and need for funding.
+- [x] **PROVIDER-BURDEN** - Reducing administrative burden for CHCs is a central theme, including manual PA work, denials, resubmissions, endpoint searches, and attachment requests.
+- [x] **PRIVACY-SECURITY** - TACHC warns that expanded API exchange increases cybersecurity exposure for resource-constrained CHCs.
+- [x] **HEALTH-EQUITY** - The comment grounds its position in impacts on underserved, low-income, Medicaid, uninsured, rural, homeless, and agricultural worker populations.
+- [x] **TECHNICAL-FEASIBILITY** - Vendor readiness, EHR/PMS integration, testing, API usability, and certification timing are major implementation concerns.
+- [x] **STANDARDS-MATURITY** - The comment addresses FHIR, Da Vinci IGs, CDex, X12 coexistence, and ONC certification alignment.
+- [x] **PATIENT-ACCESS** - TACHC links ePA, expiration alerts, denial reasons, formulary data, and automatic approval to medication access and continuity of care.
+- [ ] **REGULATORY-AUTHORITY** - Not directly addressed.
+- [x] **STAKEHOLDER-COORDINATION** - The comment requests coordination among CMS, ONC, OPA, payers, providers, vendors, pharmacies, and TPAs.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - TACHC directly requests real-time benefit classification and clarity for drugs covered under both pathways.
+- [x] **TRANSPARENCY** - The comment supports centralized endpoint reporting, public PA metrics, denial reasons, and retention of formulary information.
+- [x] **SMALL-PAYER-IMPACT** - The comment focuses more on small and safety-net provider impact than small payer impact, but the same resource constraints are relevant to implementation burden.
+- [x] **EXISTING-WORKFLOWS** - TACHC addresses EHR, PMS, contract pharmacy, TPA, X12, CDex, 340B, and payer workflow integration.
+- [x] **VENDOR-ECOSYSTEM** - Vendor readiness, EHR certification, third-party partner dependence, and endpoint usability are recurring concerns.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+ 
+June 15, 2026 
+The Honorable Mehmet Oz, MD 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+P.O. Box 8013 
+Baltimore, MD 21244 
+ATTN: CMS-0062-P 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualiï¬ed Health Plans on the Federally-
+Facilitated Exchange 
+ 
+Dear Administrator Oz: 
+ 
+The Texas Association of Community Health Centers (TACHC) appreciates the opportunity to 
+provide comments to the 2026 CMS Interoperability Standards and Prior Authorization for 
+Drugs proposed rule.   These comments represent the perspective of the 79 Texas federally 
+qualiï¬ed health centers (FQHCs) or community health centers. FQHCs provide a wide array 
+of primary and preventive care services, including medical, dental, behavioral health, 
+pharmacy, and vision services. Texas health centers operate more than 700 clinic sites in 131 
+counties statewide.  
+CHCs are the healthcare home for many of Americaâ€™s medically underserved communities. 
+FQHCs provide services to 1.9 million Texans including more than 500,00 patients with 
+Medicaid, and over 630,000 uninsured patients. For these patients, delays associated with 
+prior authorization (PA) requirements can interrupt treatment, delay necessary care, and 
+create signiï¬cant barriers to maintaining stable health outcomes. These delays are common 
+under the current system. A survey from the American Medical Association (AMA) found that 
+94 percent of physicians reported prior authorization delays patient care, while patient 
+surveys found the average wait time for a prior authorization decision was approximately 
+three days, with nearly one-third of patients waiting longer...

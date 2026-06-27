@@ -1,0 +1,161 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0415
+Commenter: American Association for the Study of Liver Diseases (AASLD)
+Source: PDF Attachment
+Analysis Date: 2026-06-26 15:00:17
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Association for the Study of Liver Diseases (AASLD), signed by Saul J. Karpen, MD, Ph.D., FAASLD, AASLD President
+- **Stakeholder type:** Professional Association (medical specialty society representing hepatologists, liver disease researchers, and allied health professionals)
+- **Credentials or expertise mentioned:** Leading member organization of scientists, researchers, and allied health care professionals committed to prevention and cure of liver disease; provides practice guidance for hepatology; membership includes practicing hepatologists and transplant clinicians
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AASLD strongly supports CMS's goals of modernizing prior authorization for drugs, including ePA adoption, 24/72-hour decision timeframes, and PA metrics reporting. The organization urges CMS to ensure ePA genuinely reduces administrative burden (not just changes its modality), require drug-level PA metrics reporting, clarify that timeframes run in calendar hours, extend expedited review to all transplant-related PA requests, prohibit repeated PA for pediatric compounded medications, and establish evidence-based guardrails for step therapy requirements.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, GENERAL (RFI on step therapy)
+- **Regulatory citations mentioned:** Not specifically cited
+- **Standards referenced:** Electronic health records (Epic mentioned as example); electronic prior authorization (ePA) processes; NCPDP/FHIR standards implicitly referenced through ePA discussion
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support with modifications
+- **Rationale:** ePA has potential to reduce administrative burden and improve efficiency for liver disease patients, but risks becoming more burdensome if plans add excessive documentation requirements or complex workflows. Without guardrails, electronic systems may replicate or worsen existing burdens.
+- **Specific request:** Standardize ePA requirements across plans; limit requests to ≤1 page and ~5 minutes completion time; restrict to clinically relevant, EHR-available data elements. Establish clinician-informed post-implementation evaluation at 1 and 2 years. Preserve ability to submit narrative medical necessity letters alongside structured portal fields.
+
+**Topic 2: Prior Authorization Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modifications
+- **Rationale:** 24-hour expedited and 72-hour standard timeframes are important for liver disease patients where delays cause disease progression, loss of transplant candidacy, and hospitalization. However, calendar hours vs. business hours distinction is critical—weekend/holiday submissions must not extend review periods.
+- **Specific request:** Clarify that 72-hour standard review runs in calendar hours, not business hours. Classify all transplant-related PA requests (candidates and recipients) as expedited (24-hour) regardless of acuity. Move toward real-time PA decisions when patient and provider are together.
+
+**Topic 3: Prohibition on Repeated PA for Pediatric Compounded Medications**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support (requesting new requirement)
+- **Rationale:** Many children cannot swallow tablets and require compounded medications. For chronic conditions, repeated PA requirements delay and interrupt access to medically necessary drugs.
+- **Specific request:** Prohibit repeated PA for compounded medications when medical record documents that the patient requires a compounded version and it has been well tolerated.
+
+**Topic 4: Drug-Level PA Metrics Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify (strengthen beyond aggregate)
+- **Rationale:** Aggregate-level reporting does not identify clinically meaningful barriers affecting specific drugs, disease states, or patient populations. High conversion rates (denials overturned on appeal) may indicate overly restrictive criteria.
+- **Specific request:** Require plan-specific, drug-level reporting of: initial denial rates, second denial rates, conversion rates, time to final approval in calendar hours, approval/denial rates by drug/drug class, median and average turnaround times, appeal frequency and success rates, and rates of requests exceeding CMS-required timelines. Report both in aggregate and at individual drug/service level.
+
+**Topic 5: Step Therapy Reform (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support reform with specific guardrails
+- **Rationale:** Step therapy protocols in hepatology are often cost-driven rather than evidence-based, requiring patients to fail medications despite lack of comparative evidence or guideline support for a mandated sequence. For chronic liver disease and transplant recipients, treatment interruptions cause serious complications.
+- **Specific request:** Require step therapy to align with evidence-based clinical guidelines; prohibit payers from imposing treatment sequences beyond or contradicting accepted standards of care; allow direct access to guideline-supported final-step therapies without interim steps; exempt patients stable on therapy for >3 months from restarting step therapy when transitioning plans or providers.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S20 (24-hour expedited timeframe achievable):** AASLD strongly supports the 24-hour expedited and 72-hour standard timeframes; requests clarification that timeframes run in calendar hours, not business hours, and that all transplant-related requests be classified as expedited.
+- **S43 (align timeframes):** Recommends moving toward real-time PA decisions when patient and provider are present together.
+- **S29 (which metrics to collect):** AASLD provides a specific, detailed list of eight PA metrics that should be collected at the drug and service level, not just aggregate.
+- **S35 (publish aggregate data):** AASLD requests drug-level and service-level reporting in addition to aggregate, arguing aggregate alone masks clinically meaningful variation.
+- **S66-S82 (General/RFIs):** AASLD responds to the step therapy RFI, urging evidence-based guardrails, prohibition on cost-driven sequences contradicting clinical guidelines, continuity-of-care protections, and step therapy exemptions for patients stable ≥3 months.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Standardize ePA requirements across plans; limit to ≤1 page, ~5 minutes to complete, using only EHR-available data elements.
+2. Preserve clinician option to submit narrative medical necessity letters alongside structured portal fields.
+3. Establish formal clinician-informed post-implementation evaluation at 1 and 2 years.
+4. Clarify that the 72-hour standard PA review period runs in calendar hours, not business hours.
+5. Require all transplant-related PA requests (candidates and recipients) to receive expedited 24-hour review.
+6. Move toward real-time PA approval/denial decisions.
+7. Prohibit repeated PA for compounded medications when the patient's medical record documents requirement and tolerability.
+8. Require plan-specific, drug-level reporting of PA metrics (8 specific measures identified).
+9. Require step therapy requirements to align with evidence-based clinical guidelines.
+10. Allow direct access to guideline-supported final-step therapies without interim steps where guidelines do not support a required sequence.
+11. Exempt patients stable on therapy for >3 months from restarting step therapy when transitioning plans or providers.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** ePA may replicate existing burdens electronically rather than reducing them; aggregate-only metrics reporting will mask variation in access barriers; step therapy is driven by cost rather than evidence in hepatology.
+- **Potential negative impacts cited:** For liver disease patients—disease progression, avoidable hospitalizations, hepatic decompensation, loss of transplant candidacy, graft dysfunction, organ rejection, increased healthcare costs from PA delays. For pediatric patients—interrupted access to compounded medications for chronic conditions.
+- **Implementation barriers mentioned:** EHR systems (like Epic) use narrative letters as primary clinical justification; structured portal fields alone may not capture complex clinical circumstances.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Not addressed with specific statistics.
+- **Studies or research referenced:** Not addressed by name, but AASLD clinical practice guidelines referenced as standard for step therapy alignment.
+- **Examples provided:** Epic EHR as example where narrative letters provide clearest clinical justification; liver transplant patients requiring urgent immunosuppressives, anti-infectives; children requiring compounded medications for chronic conditions.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with liver disease (viral hepatitis, MASLD, hepatocellular carcinoma, cirrhosis, post-transplant), pediatric patients, hepatologists, transplant clinicians, health plans
+- **Economic implications:** Reduced administrative burden for providers; prevented costs from avoidable hospitalizations and disease progression; transplant-related care is high-cost and highly time-sensitive
+- **Technical feasibility:** Concerns that standardization of ePA forms and drug-level metrics reporting will require investment; real-time PA is technically aspirational but forward-looking
+- **Patient care impact:** High—delays in hepatology medications directly cause disease progression, transplant ineligibility, and graft failure
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modifications requested
+- **Tone:** Professional, Clinical, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "CMS should require that prior authorization requests be no more than one page in length, capable of completion within approximately five minutes, and limited to clinically relevant, routinely collected data elements." - Context: Requesting guardrails to ensure ePA actually reduces burden.
+
+2. "Patients should not experience treatment delays because requests are submitted before weekends or holidays." - Context: Arguing for calendar-hour (not business-hour) measurement of PA timeframes.
+
+3. "Aggregate metrics may offer a broad overview of prior authorization activity but are unlikely to identify clinically meaningful barriers to care or reveal problematic utilization management practices affecting specific drugs, disease states, or patient populations." - Context: Arguing for drug-level rather than aggregate-only PA metrics reporting.
+
+4. "Step therapy remains a substantial source of administrative burden for hepatologists and, in many cases, represents one of the most significant barriers to timely patient care." - Context: Introducing the step therapy RFI response.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - Core concern: PA delays for liver disease medications cause disease progression, transplant ineligibility, graft failure, and avoidable hospitalizations; pediatric compounded medication access repeatedly interrupted.
+- [x] **PROVIDER-BURDEN** - ePA must genuinely reduce administrative burden; step therapy adds substantial burden to hepatologists; narrative letter option must be preserved.
+- [x] **TRANSPARENCY** - Drug-level PA metrics reporting essential to identify clinically meaningful barriers; aggregate reporting alone masks variation across drugs, disease states, and specialties.
+- [x] **IMPLEMENTATION-TIMELINE** - Post-implementation evaluation at 1 and 2 years needed to assess real-world burden reduction.
+- [x] **TECHNICAL-FEASIBILITY** - Concerns that ePA forms may not accommodate complex clinical presentations; EHR narrative letters may be more appropriate than structured fields for hepatology cases.
+- [x] **HEALTH-EQUITY** - Pediatric patients, chronic liver disease patients, and transplant recipients face disproportionate harm from PA delays and step therapy requirements.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally Facilitated Exchanges (CMS-0062-P)
+
+Dear Dr. Oz:
+
+On behalf of the American Association for the Study of Liver Diseases (AASLD), thank you for the opportunity to submit comments on the Interoperability Standards and Prior Authorization for Drugs proposed rule. The AASLD strongly supports the Centers for Medicare & Medicaid Services' (CMS) and the Office of the National Coordinator for Health Information Technology's efforts to modernize and streamline prior authorization processes, reduce administrative burden on providers and families, and improve timely access to medically necessary prescription drugs...

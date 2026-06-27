@@ -1,0 +1,179 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0469_20260626134250_7173b1cc
+Commenter: Excellus Health Plan (Excellus BlueCross BlueShield / Univera Healthcare)
+Source: PDF Attachment
+Analysis Date: 20260627_102437
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Excellus Health Plan, Inc. (James R. Reed, President & CEO), doing business as Excellus BlueCross BlueShield and Univera Healthcare; nonprofit independent licensee of the Blue Cross Blue Shield Association
+- **Stakeholder type:** Payer
+- **Credentials or expertise mentioned:** Nonprofit health plan serving upstate New York for ~90 years; 4,000+ employees; 1.5 million members across Medicare, Medicaid, employer-sponsored, and individual plans; 250,000+ Medicare Advantage members; nearly 200,000 Medicaid Managed Care/safety net members; 98% provider network penetration in upstate NY.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Excellus Health Plan generally supports CMS-0062-P's direction toward standardized, electronic prior authorization and FHIR interoperability, but has significant concerns about implementation feasibility. Their primary ask is to extend the compliance date by at least 15 months (October 1, 2027 → January 1, 2029, or preferably April 1, 2029), citing cumulative implementation burden, resource constraints, complex multi-vendor dependencies, and overlap with NCPDP Telecommunication Standard F6 transition. They also call for CMS to extend requirements to providers and EHR vendors, not just payers, to ensure end-to-end adoption.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED, PA-DRUG-PHARMACY, HIPAA-PA-STANDARDS
+- **Regulatory citations mentioned:** 45 C.F.R. § 170.215; 91 FR 19890
+- **Standards referenced:** FHIR implementation guides (Patient Access, Provider Access, Provider Directory, Payer-to-Payer, Prior Authorization APIs); Da Vinci Plan-Net IG; NCPDP Formulary & Benefit (F&B) Standard; NCPDP Real-Time Prescription Benefit (RTPB) Standard; Da Vinci CRD; NCPDP Telecommunication Standard Version F6
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Mandatory FHIR Implementation Guides**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Making IGs mandatory promotes greater consistency across implementations, reduces ambiguity for payers and technology vendors, and creates clearer expectations for all stakeholders.
+- **Specific request:** No modification; however, caution about overlapping version transition periods creating operational complexity.
+
+**Topic 2: NCPDP F&B Standard**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Enables plan-level formulary and utilization management information to be incorporated into prescribing workflows and surfaced in provider EHR systems.
+- **Specific request:** No modification.
+
+**Topic 3: NCPDP RTPB Standard**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Standardizing real-time patient-specific eligibility, coverage, and estimated cost-sharing reduces reliance on fragmented payer-specific portals and proprietary solutions.
+- **Specific request:** No modification.
+
+**Topic 4: Provider Directory API Clarification**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Specifying Da Vinci Plan-Net resolves existing implementation ambiguity and promotes consistency across impacted payers.
+- **Specific request:** No modification.
+
+**Topic 5: FHIR API Standards (Version Transitions)**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** Overlapping versions of standards that don't integrate well create avoidable operational complexity, increase implementation burden, and delay broader alignment.
+- **Specific request:** Avoid lengthy transition periods for older standards once newer standards are adopted; minimize concurrent version overlap.
+
+**Topic 6: Implementation Timeline — Extend to April 1, 2029**
+- **Provision ID:** FHIR-IG-REQUIRED / PA-DRUG-PHARMACY
+- **Position:** Oppose (as proposed)
+- **Rationale:** Technical resources already committed to existing interoperability initiatives; complex multi-vendor dependencies (PBM, specialty drug UM SaaS, oncology UM partner, FHIR platform); contracting alone may take 6-8 months; cumulative burden with NCPDP F6 transition affecting same teams and partners.
+- **Specific request:** Extend compliance date by at least 15 months from October 1, 2027 to January 1, 2029; prefers April 1, 2029 as most realistic.
+
+**Topic 7: Provider and Vendor Readiness**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify (expand scope)
+- **Rationale:** CMS has imposed significant requirements on health plans, but provider and EHR vendor readiness remains inconsistent; many providers still on legacy systems or lack financial/technical resources; payers may build advanced capabilities without achieving end-to-end electronic exchange.
+- **Specific request:** CMS should encourage and support FHIR API adoption by providers and EHR vendors; collect and report API adoption/usage metrics for providers and EHR vendors (not just payers); provide targeted funding, incentives, and technical support.
+
+**Topic 8: Future FHIR Expansion for Eligibility/Benefits**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support (future rulemaking)
+- **Rationale:** Broader FHIR-based eligibility and benefits inquiries beyond PA would support more general use cases for confirming coverage and patient financial responsibility.
+- **Specific request:** CMS, in coordination with NCVHS, should consider broader future rulemaking to expand FHIR-based APIs for eligibility and benefits inquiries beyond those associated with PA.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Strongly supports requiring the currently recommended FHIR implementation guides across all required APIs; sees mandatory status as reducing ambiguity and promoting consistency.
+- **S2/S3:** Advises against lengthy overlapping transition periods; overlapping versions that don't integrate well create operational complexity and delay alignment on updated standards.
+- **S21:** Disputes achievability of October 1, 2027 date; recommends extension to January 1, 2029 at minimum, preferably April 1, 2029; cites cumulative burden with NCPDP F6, committed technical resources, multi-vendor contracting timelines of 6-8 months.
+- **S22:** Notes cumulative burden with NCPDP Telecommunication Standard Version F6 transition affecting same health plans and PBM partners.
+- **S44:** Supports using FHIR CRD within PA workflow; encourages broader future rulemaking for FHIR-based eligibility/benefits inquiries beyond PA.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Extend the compliance date by at least 15 months from October 1, 2027 to January 1, 2029; prefers April 1, 2029.
+2. Avoid lengthy transition periods for older standards once newer standards are adopted; minimize concurrent version overlap.
+3. CMS and ONC should encourage and support FHIR API adoption by providers and EHR vendors, not just payers.
+4. Collect and report FHIR API adoption and usage metrics for providers and EHR vendors (in addition to payers) to assess uptake and identify gaps.
+5. Provide targeted funding, incentives, and technical support programs to accelerate provider and EHR vendor adoption.
+6. CMS and NCVHS should consider future rulemaking to expand FHIR-based APIs for eligibility and benefits inquiries beyond PA use cases.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** October 1, 2027 compliance date is not achievable given cumulative implementation burden; parallel NCPDP F6 transition is consuming the same technical resources; multi-vendor contracting timelines add months before development can begin.
+- **Potential negative impacts cited:** Layering requirements on overlapping timelines risks delayed implementation, reduced system quality, and slower adoption; health plans may be forced to build capabilities without corresponding provider/EHR vendor readiness, preventing end-to-end electronic PA.
+- **Implementation barriers mentioned:** Complex multi-partner dependencies (PBM, specialty drug UM SaaS, oncology UM partner, FHIR platform, UM recommendation partner); contracting alone may take 6-8 months; technical resources already committed to existing interoperability initiatives with approaching deadlines.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 92 cents of every premium dollar spent on member care; 1.5 million members; 250,000+ MA members; ~200,000 Medicaid/safety net members; contracting timelines of 6-8 months cited.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Types of vendor dependencies listed: large PBM, medical specialty drug UM SaaS vendor, delegated oncology UM partner, UM recommendation partner, CMS interoperability FHIR platform and managed services partner.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers (primary concern); PBMs and specialty drug vendors; EHR vendors and providers; utilization management partners and technology vendors.
+- **Economic implications:** Contracting costs and extended timelines; overlap with NCPDP F6 transition consuming same technical budgets; risk of reduced implementation quality from compressed timelines.
+- **Technical feasibility:** Expresses significant concern about October 2027 date; positions April 1, 2029 as more realistic accounting for multi-vendor contracting (6-8 months), development, testing, and go-live stabilization.
+- **Patient care impact:** Not specifically addressed; implicit that proper implementation (vs. rushed) better serves members.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of goals, concerned about timeline)
+- **Tone:** Professional / Collaborative
+- **Priority level:** Medium
+
+---
+
+## 11. KEY QUOTES
+
+1. "We support the overall direction of CMS-0062-P and believe it represents an important next step toward promoting more efficient, standardized, and transparent prior authorization processes, particularly for prescription drugs." — Context: Establishing overall supportive posture before raising concerns.
+
+2. "We believe an implementation date of April 1, 2029 would provide a more realistic and sustainable timeframe for plans, vendors, and other ecosystem participants to complete the necessary development, testing, contracting, and operational readiness activities while preserving CMS's broader policy objectives." — Context: Primary timeline recommendation.
+
+3. "Health plans may be required to build and maintain advanced interoperability capabilities without achieving the intended end-to-end electronic exchange envisioned by the regulation." — Context: Warning about provider and EHR vendor readiness gap undermining payer compliance investments.
+
+4. "We encourage CMS to consider the cumulative implementation burden associated with the separate transition to NCPDP Telecommunication Standard Version F6 when finalizing the compliance and transition framework." — Context: Highlighting resource conflict with parallel regulatory requirement affecting same organizations and partners.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Primary concern: requests 15+ month extension (Oct 2027 → Jan 2029, preferably Apr 2029); cites cumulative burden with NCPDP F6 and committed technical resources.
+- [x] **COST-RESOURCES** — Complex multi-vendor dependencies; contracting timelines of 6-8 months; technical resources already committed to existing initiatives; parallel NCPDP F6 consuming same budgets.
+- [ ] **PROVIDER-BURDEN** — Not addressed from provider perspective; addressed from payer-building-without-provider-readiness perspective.
+- [ ] **PRIVACY-SECURITY** — Not addressed.
+- [ ] **HEALTH-EQUITY** — Not addressed.
+- [x] **TECHNICAL-FEASIBILITY** — Central concern; lists specific vendor categories that create complex implementation dependencies; flags NCPDP F6 overlap.
+- [x] **STANDARDS-MATURITY** — Cautions against lengthy overlapping version transition periods; overlapping versions that don't integrate well create operational complexity.
+- [ ] **PATIENT-ACCESS** — Not specifically addressed.
+- [ ] **REGULATORY-AUTHORITY** — Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** — Calls for CMS to extend requirements to providers and EHR vendors to achieve end-to-end adoption; aligns with BCBSA separate filing.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** — Not addressed.
+- [ ] **TRANSPARENCY** — Not specifically addressed.
+- [ ] **SMALL-PAYER-IMPACT** — Not specifically addressed (Excellus is a mid-to-large regional plan).
+- [x] **EXISTING-WORKFLOWS** — Highlights that API-driven PA adds a new workflow pathway alongside existing portal-based PA; managing multiple parallel workflows creates significant operational burden.
+- [x] **VENDOR-ECOSYSTEM** — Emphasizes vendor dependency complexity; calls for provider and EHR vendor adoption support; flags provider reliance on legacy systems as gap undermining payer investments.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+A nonprofit independent licensee of the Blue Cross Blue Shield Association
+165 Court Street
+Rochester, NY 14647
+
+June 15, 2026
+
+RE: 2026 Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P)
+
+On behalf of Excellus Health Plan (EHP), thank you for the opportunity to provide comments on the Proposed Rule. Excellus Health Plan, Inc., doing business as Excellus BlueCross BlueShield and Univera Healthcare, is a nonprofit health plan that has served upstate New York for about 90 years. With more than 4,000 local employees, we believe everyone deserves access to high-quality care that's as affordable as possible. As a nonprofit, 92 cents of every premium dollar is spent on our members' care—including prescription drugs, hospital stays, and doctor visits. We contract with 98% of doctors in upstate New York and serve about 1.5 million members in Medicare, Medicaid, employer-sponsored coverage or individual plans...
+==================================================

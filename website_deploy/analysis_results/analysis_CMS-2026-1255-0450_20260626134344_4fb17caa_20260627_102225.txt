@@ -1,0 +1,174 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0450
+Commenter: Pharmacy Interoperability and Clinical Services Alliance (PICSA)
+Source: PDF Attachment
+Analysis Date: 2026-06-27 10:22:25
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Pharmacy Interoperability and Clinical Services Alliance (PICSA); signed by Kim Boyd, Leavitt Partners, on behalf of PICSA
+- **Stakeholder type:** Professional Association (multi-sector alliance of pharmacies, pharmacists/providers, technology vendors, payers, EHR platforms, standards bodies, and regulators)
+- **Credentials or expertise mentioned:** Led by Leavitt Partners; membership includes pharmacies, pharmacists, payers, EHR vendors, standards bodies, and regulators; cross-sector operational experience in pharmacy and medical benefit workflows
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+PICSA generally supports CMS's direction to expand standards-based electronic prior authorization across medical and pharmacy benefits but raises significant concerns about ambiguity in pathway identification, routing, and actionability of responses. The alliance urges CMS to clarify how the dual FHIR/NCPDP pathways will be operationalized to prevent parallel, uncoordinated workflows, and to explicitly recognize pharmacists' dual role as both dispensers and clinical providers in PA workflows.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, MEDICAL-VS-PHARMACY-BENEFIT, PA-TIMEFRAMES-DRUGS, FHIR-IG-REQUIRED, API-ENDPOINT-REPORTING
+- **Regulatory citations mentioned:** None specific CFR sections cited
+- **Standards referenced:** FHIR Da Vinci CRD, DTR, PAS IGs; NCPDP SCRIPT ePA, Formulary & Benefit (F&B), Real-Time Prescription Benefit (RTPB); CARIN Digital Insurance Card FHIR IG; CARIN Real-Time Prescription Benefit Check (RTPBC); HL7 FHIR-Based Prior Authorization for Medications (PSS-2732); TEFCA/QHINs; Payer-to-Payer API
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Pathway Identification and Routing (Medical vs. Pharmacy Benefit)**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Without clarity, organizations may implement parallel, uncoordinated workflows across FHIR and NCPDP standards. Benefit assignment is ambiguous for drugs like GLP-1 agonists and specialty/infused drugs depending on indication, site of administration, or plan design.
+- **Specific request:** Clarify how impacted payers will support identification of the correct authorization pathway at point of care; consider CARIN Digital Insurance Card FHIR IG as standardized query/response mechanism for real-time coverage determination.
+
+**Topic 2: Actionable Responses and Workflow Orchestration**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Responses indicating coverage requirements without identifying next steps require additional manual interpretation, causing repeated submissions and delays; patients bear the burden through delayed care.
+- **Specific request:** Require that responses indicate whether PA is required, identify the appropriate pathway, and enable routing to that pathway; consider emerging HL7 efforts (PSS-2732) for end-to-end workflow orchestration across FHIR and NCPDP.
+
+**Topic 3: PA Timeframes and Operational "Clock"**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify
+- **Rationale:** Ambiguity in when the PA clock starts/stops, what constitutes a "complete" request, and how iterative submissions affect timeframes risks misaligned accountability and reporting artifacts rather than true operational performance.
+- **Specific request:** Define when request is "received," what constitutes completeness, and how iterative workflows (additional information requests, corrected submissions, re-routing) interact with timeframe measurement.
+
+**Topic 4: Pharmacist Dual Role Recognition**
+- **Provision ID:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL
+- **Position:** Clarify/Modify
+- **Rationale:** Pharmacists operate as both downstream dispensers (dependent on external documentation) and as rendering clinical providers responsible for generating and submitting PA documentation. Current policy does not explicitly support both capacities.
+- **Specific request:** Clarify that pharmacists can participate in PA workflows in both dispenser and provider roles; ensure payer workflows, APIs, and infrastructure support multiple initiating actors including pharmacists.
+
+**Topic 5: Real-Time Benefit Information and Patient Access**
+- **Provision ID:** PA-DRUG-PHARMACY, FHIR-IG-REQUIRED
+- **Position:** Support with clarification
+- **Rationale:** Real-time benefit information must be actionable within existing workflows and available to all relevant participants including pharmacists; plan-level files and real-time responses are not operationally interchangeable today.
+- **Specific request:** Reinforce that modernizing electronic PA is not just about creating endpoints but enabling workflow outcomes; support meaningful patient participation in PA workflows without creating additional delays.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S15 (medical vs. pharmacy benefit distinction):** PICSA highlights that pathway identification is a core operational challenge; benefit assignment is ambiguous for drugs like GLP-1 agonists; urges clarification of how payers will communicate the correct pathway at point of care.
+- **S19 (state/participant readiness for pharmacy PA standards):** PICSA notes that while NCPDP standards are mature as transaction standards, prospective point-of-care operationalization by providers remains uneven.
+- **S20 (24-hour PA timeframe achievability):** PICSA urges clarification on when the PA clock starts/stops, how completeness is determined, and how iterative submissions interact with timeframe measurement.
+- **S25 (RTPB maturity):** PICSA notes that plan-level F&B files and real-time RTPB responses are not operationally interchangeable; urges CMS to clarify expectations for actionable patient-specific benefit information in workflows.
+- **S66 (electronic event notifications/ADTs):** PICSA supports explicit consideration of pharmacist-enabled care coordination contexts; flags fragmented medication lists; supports pharmacists as both contributors to and recipients of event notification data.
+- **S67 (healthcare resiliency/cybersecurity):** PICSA supports security/resiliency approaches implementable across diverse participants including smaller pharmacies without mature infrastructure.
+- **S68 (API testing/certification):** PICSA notes API availability alone does not ensure adoption; encourages mechanisms to improve consistency, usability, and real-world operability especially for pharmacists as initiating actors.
+- **S69-S70 (step therapy RFI):** PICSA attributes many step therapy burdens to lack of transparent, portable therapy history; encourages leveraging Payer-to-Payer API for historical prior therapy data; supports pharmacist-assisted documentation.
+- **S71 (lab/DMEPOS PA RFI):** PICSA urges CMS to apply lessons learned from medication PA modernization to adjacent domains to avoid replicating fragmentation.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Clarify how impacted payers will support identification of the correct authorization pathway (medical vs. pharmacy benefit) at the point of care.
+2. Consider CARIN Digital Insurance Card FHIR IG as a standardized mechanism for real-time coverage and pathway determination.
+3. Require PA responses to identify next steps actionably—whether PA is required, which pathway applies, and what information is missing.
+4. Consider HL7 PSS-2732 for orchestrating end-to-end workflows across FHIR and NCPDP standards.
+5. Define operational PA clock parameters: when "received," what constitutes completeness, and how iterative submissions affect timeframes.
+6. Clarify that pharmacists can initiate, submit, and support PA requests as rendering providers in addition to their dispenser role.
+7. Ensure payer APIs and infrastructure support multiple initiating actors including pharmacists.
+8. Distinguish plan-level F&B files from real-time RTPB for actionable point-of-care decisions.
+9. Leverage Payer-to-Payer API to ensure prior therapy history is available to reduce repeated step therapy requirements.
+10. Include pharmacists explicitly in electronic event notification frameworks for care coordination.
+11. Apply PA modernization lessons to future expansions (lab, DMEPOS) to avoid replicating fragmentation.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Ambiguous pathway identification between FHIR and NCPDP pathways creates risk of parallel, uncoordinated, technically compliant but operationally disconnected solutions; pharmacists not adequately recognized in dual roles.
+- **Potential negative impacts cited:** Administrative burden may increase rather than decrease without pathway clarity; patients delayed when responses require manual interpretation; pharmacies excluded from EHR incentive programs leaving uneven infrastructure maturity.
+- **Implementation barriers mentioned:** Uneven technology adoption across pharmacies; fragmented medication lists; PDMP data inaccessible across state lines; VA records unavailable to community care teams; plan-level and real-time benefit data not interchangeable operationally.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None specific
+- **Studies or research referenced:** HL7 PSS-2732 (FHIR-Based Prior Authorization for Medications); CARIN RTPBC initiative
+- **Examples provided:** GLP-1 agonists and specialty/infused drugs as examples of ambiguous benefit assignment; patients on GLP-1 therapies requiring timely deprescribing; PDMP and VA records accessibility gaps.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Pharmacists (dispenser and provider roles); patients; payers; EHR vendors; PBMs; care coordination organizations; smaller pharmacies with limited infrastructure
+- **Economic implications:** Parallel uncoordinated implementations would increase burden; actionable responses and pharmacist integration could reduce duplicative submissions and overhead
+- **Technical feasibility:** Moderate concern; NCPDP mature as transaction standard but point-of-care operationalization uneven; HL7 PSS-2732 still emerging
+- **Patient care impact:** Moderate to high; unclear routing causes care delays; timely medication access for GLP-1 and specialty drug patients depends on accurate real-time routing
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (generally supportive with significant clarification requests)
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Absent additional clarity, there is risk that organizations implement parallel and uncoordinated workflows across FHIR and NCPDP standards raising administrative burden rather than reducing it." — Context: Core concern about dual pathway operationalization without routing guidance.
+2. "PICSA is not asking CMS to collapse the two pathways. Rather, PICSA is encouraging CMS to reduce ambiguity in how these pathways are operationalized." — Context: Clarifying the nature of their request.
+3. "These are fundamentally different operational realities, and both must be supported." — Context: Describing pharmacists' dual dispenser and provider roles.
+4. "API availability alone does not ensure adoption." — Context: Urging CMS to focus on consistency, usability, and real-world operability.
+
+---
+
+## 12. THEMES
+
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Central theme; ambiguous benefit assignment for drugs like GLP-1 agonists creates unclear routing between FHIR and NCPDP pathways; clarification essential.
+- [x] **TECHNICAL-FEASIBILITY** — NCPDP mature as transaction standard but prospective point-of-care operationalization uneven; HL7 PSS-2732 still emerging; pharmacy infrastructure less mature than health systems.
+- [x] **STANDARDS-MATURITY** — Highlights gap between NCPDP as mature transaction standard and uneven real-time clinical decision workflow adoption; references emerging HL7 efforts.
+- [x] **PROVIDER-BURDEN** — Pharmacists excluded from EHR incentive programs; operate across both standards in same workflow; dual role not recognized in current policy.
+- [x] **EXISTING-WORKFLOWS** — Strong emphasis on how dual FHIR/NCPDP pathways interact with current pharmacy and medical benefit operational workflows; risk of parallel disconnected systems.
+- [x] **STAKEHOLDER-COORDINATION** — Multi-sector alliance perspective; urges coordination across pharmacists, providers, payers, EHR vendors, standards bodies; supports pharmacist inclusion in ADT event notifications.
+- [x] **PATIENT-ACCESS** — Unclear routing and non-actionable responses delay patient care; step therapy continuity across transitions affects patient access.
+- [x] **IMPLEMENTATION-TIMELINE** — Implicit; uneven infrastructure maturity across pharmacies raises feasibility concerns for compliance timelines.
+- [x] **VENDOR-ECOSYSTEM** — EHR/health IT vendors and pharmacy systems require specific guidance to avoid technically compliant but operationally disconnected solutions.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+PICSA
+Pharmacy Interoperability and Clinical Services
+Alliance
+
+Washington, D.C.     I     PICSA    I       ©2026
+
+June 15, 2026
+
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS–0062–P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+Re: CMS–0062–P — Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+Dear Administrator Oz:
+The Pharmacy Interoperability and Clinical Services Alliance (PICSA) appreciates CMS's continued efforts
+to advance electronic prior authorization and real-time benefit capabilities. These provisions represent
+important progress toward reducing administrative burden and improving timely patient access to
+therapies.
+Led by Leavitt Partners, PICSA is a membership-driven, multi-sector alliance of pharmacies,
+pharmacists/providers, technology vendors, payers, EHR platforms, standards bodies, and regulators.
+PICSA is committed to advancing practical, scalable solutions that fully integrate pharmacists as clinical
+providers within care teams and that function across both pharmacy services and medical services....

@@ -1,0 +1,186 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0361
+Commenter: Alliance for Aging Research
+Source: PDF Attachment
+Analysis Date: 2026-06-26 14:28:12
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Alliance for Aging Research (signed by Scott Frey, SVP for Public Policy and Government Relations)
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Leading nonprofit organization dedicated to healthy aging and equitable access to care; references MedPAC and 2025 provider survey research.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The Alliance for Aging Research supports the rule's general objectives but raises a critical concern: the proposed interoperability and prior authorization improvements exclude Medicare Part D plans and their beneficiaries, which they call a "grave omission." The Alliance urges CMS to extend all proposed standards to Part D, require step therapy-specific transparency and metrics, and strengthen patient protections against utilization management abuse in both Part D and Medicare Advantage Part B drug programs.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY (Part D exclusion), PA-DENIAL-REASONS, API-USAGE-METRICS, GENERAL (step therapy)
+- **Regulatory citations mentioned:** None cited specifically
+- **Standards referenced:** Electronic prior authorization (ePA), payer-to-payer API, CMS language access standards
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend Requirements to Medicare Part D**
+- **Provision ID:** PA-DRUG-PHARMACY, GENERAL
+- **Position:** Modify
+- **Rationale:** The proposed improvements to transparency, electronic PA, and denial explanations do not apply to Medicare Part D plans, leaving a major gap. MedPAC data shows UM tools in Part D have grown, causing access barriers and inconsistent outcomes for beneficiaries.
+- **Specific request:** Extend all proposed standards and requirements to Part D plans, including detailed denial explanations, plan-level approval rate reporting, clinical history portability, elimination of fax requirements, 24-hour decision timeframes, and caregiver access to PA status.
+
+**Topic 2: Step Therapy Transparency and Oversight in Medicare Advantage (Part B)**
+- **Provision ID:** GENERAL
+- **Position:** Modify/Clarify
+- **Rationale:** Since CMS permitted MA plans to apply step therapy to Part B drugs in 2018, patients with serious, chronic, progressive, or rare conditions face growing access barriers. A 2025 provider survey found MA step therapy requirements are not consistently aligned with clinical guidelines.
+- **Specific request:** Require plans to clearly identify step therapy requirements separately from prior authorization, mandate step therapy-specific metrics reporting (number of treatments subject to step therapy, denial frequency, delays, exception/appeal rates), and protect patients from being required to restart step therapy when switching coverage.
+
+**Topic 3: PA Decision Timeliness**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Delays in access to treatments have grave consequences; 24 hours is reasonable but expedited determinations must not result in increased wrongful denials.
+- **Specific request:** Require decisions within timeframes matching clinical urgency, with 24 hours as the standard.
+
+**Topic 4: API Usage Metrics and Public Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Metrics should fully track patient and provider experience to provide meaningful accountability.
+- **Specific request:** CMS should share annual analysis with the public; require plan-level PA metrics for all markets with brand vs. generic breakouts, and include initial denial rates and step therapy data.
+
+**Topic 5: Denial Explanation Specificity**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Part D plans should provide the same level of specificity as Medicaid and Marketplace plans, including which criteria were not met, what alternative drug must be tried, and what additional documentation is needed.
+- **Specific request:** Extend denial reason requirements to Part D; notices sent to beneficiaries must be in plain language meeting CMS language access standards.
+
+**Topic 6: Payer-to-Payer API for Part D**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Part D sponsors should carry the same requirements for payer-to-payer API as other providers to ensure continuity of care when beneficiaries switch plans.
+- **Specific request:** Require Part D sponsors to use payer-to-payer API, including portability of previously completed step therapy requirements.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Commenter addresses what constitutes a "specific reason" for PA denial, urging that Part D plans provide the same specificity as Medicaid/Marketplace plans—identifying unmet criteria, required alternative drug, and additional documentation needed.
+- **S17:** Implicitly supports structured denial reason codes but emphasizes plain language for beneficiary-facing notices.
+- **S20:** Supports 24-hour timeframe for expedited determinations but cautions against wrongful denials.
+- **S29/S30:** Urges that API usage metrics include patient and provider experience data; supports public sharing of annual analysis with plan-level breakouts including brand vs. generic and step therapy data.
+- **S43:** Supports aligning PA timeframes with clinical urgency; recommends 24 hours as standard.
+- **S66-S82 (RFIs):** Responds to the step therapy RFI, urging CMS to collect and analyze step therapy data, require disaggregated reporting, and implement safeguards for continuity of care when beneficiaries switch plans.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Extend all proposed interoperability and PA standards to Medicare Part D plans.
+2. Require detailed, understandable denial explanations from Part D plans (same specificity as Medicaid/Marketplace).
+3. Require plan-level approval rate reporting (not contract-level averages), with brand vs. generic and step therapy breakouts.
+4. Ensure clinical history (including completed step therapy requirements) travels with beneficiaries when switching plans.
+5. Eliminate requirements for providers to fax clinical documentation.
+6. Require PA decisions within timeframes matching clinical urgency—ideally 24 hours.
+7. Ensure caregiver access to PA status for beneficiaries they assist.
+8. Require Part D sponsors to implement payer-to-payer API.
+9. Require plain language beneficiary notices meeting CMS language access standards.
+10. Require step therapy requirements to be disclosed separately from prior authorization.
+11. Mandate step therapy-specific metrics reporting (treatments subject to step therapy, denial frequency, delays, exception/appeal rates).
+12. Prohibit requiring patients to repeat step therapy protocols when switching coverage.
+13. CMS should systematically collect and analyze step therapy policy and outcome data.
+14. Implement stronger safeguards for rare, ultra-rare, and medically complex conditions.
+15. Ensure beneficiaries can readily obtain step therapy exceptions in specified circumstances (contraindication, prior failure, risk of serious harm, rare disease).
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Part D plans are excluded from the proposed improvements, leaving millions of Medicare beneficiaries without the same protections as Medicaid and Marketplace enrollees.
+- **Potential negative impacts cited:** Growing UM use in Part D delays or prevents access to necessary treatments; MA step therapy for Part B drugs creates barriers particularly for patients with serious or progressive conditions; delays can lead to disease progression, irreversible harm, or hospitalization.
+- **Implementation barriers mentioned:** Complex and inconsistent plan requirements; time-consuming PA and documentation processes; lack of transparency on step therapy protocols across MA plans.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** MedPAC March 2025 Report to Congress documenting growth in UM tools (quantity limits, step therapy, PA) in Part D.
+- **Studies or research referenced:** 2025 survey of healthcare providers finding MA step therapy requirements for Part B drugs are not consistently aligned with clinical guidelines and frequently limit access to preferred treatment options.
+- **Examples provided:** Patients with progressive diseases, rare conditions, or limited treatment alternatives particularly harmed by step therapy delays; patients switching plans forced to restart step therapy.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare Part D beneficiaries, Medicare Advantage enrollees with Part B drug needs, healthcare providers, patients with serious/chronic/progressive/rare conditions, caregivers.
+- **Economic implications:** Not directly quantified, but MedPAC data cited showing UM cost impact is "inconsistent at best."
+- **Technical feasibility:** Alliance supports ePA implementation if done properly; no specific technical objections raised.
+- **Patient care impact:** High—delays in treatment access cited as causing worsening outcomes, irreversible disease progression, and diminished quality of life.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supportive of rule objectives, but strongly critical of Part D exclusion)
+- **Tone:** Professional, Collaborative, Advocacy-oriented
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "We consider it a grave omission that the proposed administrative improvements and transparency requirements would not be applicable to Medicare Part D plans and its beneficiaries." - Context: Core objection to the rule's scope.
+2. "Delays in access to treatments often have grave consequences and we believe that 24 hours is a reasonable timeline for determinations. However, care must be taken to ensure that expedited determinations do not lead to an increase in wrongful denials." - Context: Supporting 24-hour timeframe with caveat.
+3. "Patients who have already satisfied step therapy requirements under a previous insurer should not be forced to repeat those protocols solely because they change coverage." - Context: Recommending continuity of care protections.
+4. "When CMS identifies patterns of excessive delays, patient harm, administrative burden, or inequitable access, the agency should consider implementing additional safeguards and standards to ensure that utilization management practices support high-quality, patient-centered care rather than impede it." - Context: Calling for data-driven future rulemaking.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports 24-hour decision timeframe for PA determinations.
+- [x] **PROVIDER-BURDEN** - Notes administrative burden on physicians navigating complex, inconsistent PA requirements diverting time from patient care.
+- [x] **HEALTH-EQUITY** - Central concern: Part D beneficiaries (often elderly, with serious conditions) excluded from proposed improvements; focus on rare disease patients and those switching coverage.
+- [x] **PATIENT-ACCESS** - Primary focus: step therapy and PA delays prevent timely access to medically necessary treatments, particularly for patients with progressive or rare conditions.
+- [x] **TRANSPARENCY** - Strong emphasis on requiring step therapy-specific disclosures, disaggregated reporting, plain language beneficiary notices, and public sharing of API metrics.
+- [x] **EXISTING-WORKFLOWS** - Calls to end fax requirements and require ePA across all plans including Part D.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends payer-to-payer API for Part D to ensure clinical history portability when beneficiaries switch plans.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 11, 2026
+Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Blvd
+Baltimore, MD 21244
+Submitted via regulations.gov
+
+RE: CMS-0062-P -- Proposed Rule on Interoperability Standards and Prior Authorization for
+Drugs
+
+Dear Administrator Oz,
+
+The Alliance for Aging Research (Alliance) appreciates the opportunity to provide comments on the
+Centers for Medicare & Medicaid Services' (CMS) proposed rule on Interoperability Standards and
+Prior Authorization for Drugs released on April 10, 2026.
+
+As the leading nonprofit organization dedicated to changing the narrative to achieve healthy aging and
+equitable access to care, the Alliance supports efforts to mitigate the negative impacts of prior
+authorization and other forms of utilization management (UM) on patients, promote transparency,
+and alleviate the administrative burdens that inhibit fair and timely dispute resolution for patients and
+their families.
+
+Barriers to Access for Part D Beneficiaries Due to Step Therapy and Specific Recommendations
+for Improvement
+
+UM policies, including prior authorization, in Part D plans may be intended by payers to lower drug
+expenditures but, in effect, often delay or even prevent beneficiaries from accessing necessary
+treatments prescribed by their clinicians...
