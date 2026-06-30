@@ -1,0 +1,199 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0720_20260629112305_b3a5b4d2
+Commenter: Bradley Shogren, Iota Intel LLC
+Source: PDF Attachment
+Analysis Date: June 30, 2026 16:32:45
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Bradley Shogren, Founder, Iota Intel LLC
+- **Stakeholder type:** Individual / Technology and compliance professional
+- **Credentials or expertise mentioned:** Nearly two decades of experience in regulatory affairs, healthcare operations, and compliance at a major health insurance and healthcare services organization; writes in individual capacity and identifies personal experience as a long-term cancer survivor and caregiver.
+
+## 2. EXECUTIVE SUMMARY
+
+Bradley Shogren supports CMS's objective to make drug prior authorization faster, more transparent, and interoperable, but urges the agency to ensure the rule improves patient outcomes rather than merely digitizing existing processes. He recommends actionable and machine-readable denial reasons, outcome-oriented API and PA metrics, conformance testing and sandboxes, production oversight, accountability for automation, reductions in PA volume, continuity protections, and disciplined standards governance.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; API-USAGE-METRICS; FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE; GENERAL (payer API implementation, automation accountability, PA volume reduction, gold-carding, continuity of care)
+- **Regulatory citations mentioned:** CMS-0062-P; Docket No. CMS-2026-1255; section II.C.2; section II.F.2.c; section III.C; 2024 CMS Interoperability and Prior Authorization final rule CMS-0057-F; no CFR sections cited directly.
+- **Standards referenced:** Applicable electronic transactions; FHIR-based APIs; implementation guides; code sets; federally adopted health IT standards; ONC health information technology framework; HL7 State of FHIR survey; NCPDP is not named directly.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Drug PA modernization must serve patient outcomes**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** The commenter supports faster, more transparent, interoperable drug PA and recognizes legitimate utilization management purposes, but warns against simply migrating existing friction into electronic form.
+- **Specific request:** Finalize principal transparency and interoperability provisions while strengthening measures that ensure timely, understandable, clinically actionable results for patients and providers.
+
+**Topic 2: Actionable and machine-readable denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Generic denial phrases or unexplained proprietary codes do not help providers or patients correct issues, resubmit, or appeal.
+- **Specific request:** Require denial responses to identify the precise unmet criterion, policy version or effective date, denial category, missing information, covered alternatives or step therapy requirements, and appeal/resubmission instructions in both human-readable and structured machine-readable form.
+
+**Topic 3: Patient-facing adverse decision explanations**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Patients often forgo potentially successful appeals when the basis for denial and challenge process are unclear.
+- **Specific request:** Ensure patients, not only prescribers, receive clear explanations of adverse decisions and appeal rights.
+
+**Topic 4: Outcome-oriented API and PA metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Counts of participating providers, request volume, and API request percentages measure adoption but not reliability, burden reduction, or real-world completion.
+- **Specific request:** Add operational metrics including transaction completion, errors, timeouts, failed connections, manual workarounds, supplemental information requests, elapsed time to decision and medication access, denial categories, resubmissions, appeals, and overturns.
+
+**Topic 5: Granular drug PA reporting**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Aggregate plan-level figures can hide variation by drug category, benefit type, and delegated decision-maker.
+- **Specific request:** Disaggregate key drug PA metrics by therapeutic category, Part B versus Part D status, and whether the initial determination was made by the plan, PBM, or another delegated entity.
+
+**Topic 6: Conformance testing, sandboxes, and production oversight**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE; GENERAL
+- **Position:** Support / Modify
+- **Rationale:** Real-world API reliability requires more than initial availability; testing must cover realistic workflows and material changes.
+- **Specific request:** Require standardized conformance testing, public and CMS-visible testing results, maintained sandboxes, renewed testing after material changes or IG updates, production monitoring, endpoint availability information, outage reporting, policy-version change transparency, and practical fallbacks that preserve original submission time.
+
+**Topic 7: Accountability for automated tools**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify
+- **Rationale:** As electronic PA uses automation for intake, documentation review, and decision support, payers must remain accountable for accuracy, consistency, and clinical appropriateness.
+- **Specific request:** Require auditable records of criteria, policy version, data, and logic when automation materially contributes to an adverse determination, and require meaningful human review when clinical judgment or disputed facts are involved.
+
+**Topic 8: Reducing PA volume and preserving continuity**
+- **Provision ID:** GENERAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Processing fewer unnecessary requests can reduce burden more directly than processing all requests faster.
+- **Specific request:** Encourage drug PA reductions, periodic removal of PA for therapies with established clinical use and high approval rates, streamlined pathways for prescribers with strong approval histories, gold-carding, and continuity protections for patients stable on therapy or changing plans.
+
+**Topic 9: Standards governance and version alignment**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Frequent or unpredictable changes to implementation guides, code sets, and technical requirements create moving-target compliance burdens.
+- **Specific request:** Pair current-version compliance with predictable update schedules, clear versioning, reasonable backward compatibility, sufficient implementation runway, harmonized versions across impacted payers, and close CMS/ONC coordination.
+
+## 5. SOLICITATION RESPONSES
+
+**Solicitation Responses:**
+- **S2:** The commenter supports tying compliance to current unexpired versions in principle, if paired with disciplined standards governance and sufficient implementation runway.
+- **S3:** He requests predictable update schedules, clear versioning, backward compatibility, and harmonized transitions before older versions sunset.
+- **S16:** He directly addresses specific denial reasons and asks CMS to define specificity in actionable detail.
+- **S17:** He requests structured, machine-readable denial fields with standardized categories plus individualized explanations.
+- **S21:** He supports drug ePA implementation but asks CMS to use reasonable, clearly defined timelines and phased compliance for legacy-system and readiness challenges.
+- **S29:** He responds directly to API usage metrics, recommending operational and outcome measures beyond adoption counts.
+- **S30:** He does not focus on privacy, but his proposed disaggregation and automation audit records would require careful governance of reported and retained data.
+- **S34:** He supports transparent, measurable metrics and ongoing production oversight, including outages and performance problems.
+- **S35:** He supports public availability of meaningful testing results and performance information.
+- **S37:** He identifies implementation challenges including legacy systems, incomplete ePA adoption, standards version changes, and the need for phased compliance.
+- **S50:** He addresses standards maturity and version management, emphasizing predictable governance and harmonization across drug and non-drug PA frameworks.
+- **S54:** He supports conformance testing, maintained sandboxes, renewed testing after changes, and production monitoring.
+- **S56:** He cites international FHIR adoption as evidence that standards-based interoperability can operate at national scale when governance is coherent.
+- **S60:** He recommends predictable standards update schedules and disciplined governance.
+- **S61:** He urges close CMS and ONC coordination on adoption, maintenance, and conformance testing of relevant IGs.
+- **S62:** He supports conformance testing criteria, sandbox testing, and production oversight.
+- **S63:** He asks for adequate lead time before older versions sunset or newer versions are enforced.
+- **S64:** He encourages stakeholder-sensitive governance that accounts for payers, providers, and health IT developers.
+- **S65:** He cites HL7's State of FHIR survey and international examples as evidence of growing adoption and feasibility.
+- **S66-S82:** He responds to broader prior authorization reform issues by recommending automation accountability, reduced PA volume, gold-carding, continuity of care, and fallback processes when APIs fail.
+
+## 6. RECOMMENDATIONS
+
+1. Clarify that generic denial phrases, unexplained proprietary codes, and vague statements do not satisfy the specific-reason requirement.
+2. Require denial explanations to include precise unmet criteria, policy version, denial category, missing information, alternatives, step therapy requirements, and appeal/resubmission instructions.
+3. Provide denial information in human-readable language and structured machine-readable fields.
+4. Ensure patients receive clear adverse decision explanations and appeal rights.
+5. Supplement API adoption metrics with end-to-end operational, reliability, burden-reduction, timing, denial, appeal, and overturn metrics.
+6. Disaggregate key drug PA metrics by therapeutic category, Part B versus Part D status, and reviewing entity.
+7. Clarify how supplemental information requests affect decision timeframes.
+8. Require standardized conformance testing, maintained sandbox environments, retesting after material changes, and production monitoring.
+9. Provide fallbacks when APIs fail while preserving original submission time.
+10. Preserve payer accountability and auditable records when automated tools contribute to adverse determinations.
+11. Encourage PA volume reductions, gold-carding, streamlined prescriber pathways, and continuity protections.
+12. Manage standards evolution through predictable schedules, version harmonization, backward compatibility, and CMS/ONC coordination.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Vague denials, adoption metrics that do not measure outcomes, aggregate reporting that hides variation, unreliable APIs, lack of testing and production oversight, automation without accountability, excessive PA volume, continuity disruptions, and unstable standards governance.
+- **Potential negative impacts cited:** Patients forgoing appeals, avoidable administrative friction, delayed medication access, manual workarounds, uneven adoption, rushed transitions, and reduced trust in electronic PA.
+- **Implementation barriers mentioned:** Legacy payer systems, incomplete electronic PA adoption, investment needs, evolving implementation guides and code sets, standards sunset timelines, and divergent medical/pharmacy PA frameworks.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** June 2025 industry pledge to reform PA; reported approximately 11 percent reduction in PA and more than 15 percent reduction in Medicare Advantage among participating plans; CMS voluntary Medicare Advantage service-level data pilot beginning in 2026 with anticipated expansion in 2027; HL7 2026 State of FHIR survey citing 101 responses from 63 countries and 80 percent of applicable regulations mandating or advising FHIR.
+- **Studies or research referenced:** CMS proposed rule; HHS press release on industry PA pledge; AHIP/BCBSA report; CMS Prior Authorization API FAQs; CMS HPMS memorandum on service-level data collection; AHA summary; UnitedHealthcare and Cigna PA reform announcements; HL7/Firely State of FHIR survey.
+- **Examples provided:** Examples of actionable denial content; operational API metrics; disaggregation by therapeutic category and reviewing entity; Saudi Arabia, Israel, and India as international interoperability examples; gold-carding and stable-therapy continuity protections.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients in MA, Medicaid, CHIP, and Marketplace coverage; prescribers; providers; payers; PBMs and delegated entities; health IT developers; CMS and ONC; patients with serious or complex conditions.
+- **Economic implications:** The comment acknowledges implementation costs and investment needs, but argues better metrics, testing, continuity, and PA-volume reduction can reduce avoidable administrative friction while preserving program integrity.
+- **Technical feasibility:** The commenter views implementation as feasible with phased timelines, conformance testing, sandboxes, production oversight, predictable standards governance, and harmonized FHIR implementation requirements.
+- **Patient care impact:** Stronger denial notices, reliable APIs, continuity protections, and reduced PA volume would help patients obtain medications they are entitled to with fewer delays and more understandable appeal pathways.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modifications
+- **Tone:** Professional, technical, practical, patient-centered
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "not merely the migration" - Context: Warning against digitizing flawed processes.
+2. "genuinely actionable and machine-readable" - Context: Denial-reason recommendation.
+3. "Measure successful outcomes" - Context: Metrics recommendation.
+4. "compliance remains achievable" - Context: Standards governance recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment calls for reasonable, clearly defined timelines and phased compliance.
+- [x] **COST-RESOURCES** - It acknowledges legacy systems, investment needs, and implementation cost while arguing transparency should not be deferred indefinitely.
+- [x] **PROVIDER-BURDEN** - Recommendations target manual workarounds, resubmissions, appeals, supplemental information loops, and unnecessary PA volume.
+- [x] **TECHNICAL-FEASIBILITY** - The comment gives detailed technical recommendations on testing, sandboxes, endpoint performance, API reliability, and production oversight.
+- [x] **STANDARDS-MATURITY** - It focuses heavily on IG versioning, code sets, sunset timing, backward compatibility, and CMS/ONC standards governance.
+- [x] **PATIENT-ACCESS** - The commenter frames the rule around timely medication access, appeal clarity, and continuity for patients stable on therapy.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations require coordination among CMS, ONC, payers, providers, developers, PBMs, and delegated entities.
+- [x] **TRANSPARENCY** - The comment emphasizes denial explanations, public testing results, performance information, metric disaggregation, and auditability.
+- [x] **EXISTING-WORKFLOWS** - It addresses real clinical workflows, fallback processes, manual workarounds, gold-carding, and continuity when patients change plans.
+- [x] **VENDOR-ECOSYSTEM** - It highlights health IT developers, sandboxes, conformance testing, and the burden of rapidly changing technical requirements.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Comments on CMSâ€‘0062â€‘P â€“ Page 1 of 6 
+Bradley Shogren 
+Founder, Iota Intel LLC 
+Frisco, Texas 
+June 15, 2026 
+Submitted electronically via www.regulations.gov 
+Administrator Mehmet Oz 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+Re:  Comments on CMSâ€‘0062â€‘P; Docket No. CMSâ€‘2026â€‘1255 â€“ Interoperability Standards and 
+Prior Authorization for Drugs 
+ 
+Dear Administrator Oz: 
+I appreciate the opportunity to comment on CMSâ€‘0062â€‘P with particular focus on prior authorization 
+standards for prescription drugs.1 I submit these comments in my individual capacity, informed by 
+nearly two decades of experience in regulatory affairs, healthcare operations, and compliance at a 
+major health insurance and healthcare services organization.  
+I support CMSâ€™s objective of making prior authorization for drugs faster, more transparent, and more 
+interoperable. Prior authorization can serve legitimate purposes, including promoting clinically 
+appropriate care, administering benefits consistently, supporting program integrity, and managing 
+healthcare resources responsibly. At the same time, extending electronic prior authorization 
+requirements to drugs creates an important opportunity to reduce avoidable administrative friction. 
+CMS should ensure that implementation supports both sound utilization management and timely, 
+understandable, and clinically actionable results for patients and providers â€“ and that the final rule 
+advances the underlying goals of the mandate, not merely the migration of existing processes into 
+electronic form. 
+The stakes here are not primarily administrative. The patients who depend on the coverage at issue â€“ 
+older adults in Medicare Advantage, lowâ€‘income and disabled beneficiaries in Medicaid and CHIP, and 
+families with Marketplace coverage â€“ are often among the most vulnerable people the health system 
+serves, and the drugs subject to prior authorizati...

@@ -1,0 +1,150 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0698_20260629112117_3f00917a
+Commenter: Netsmart Technologies, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:30:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Netsmart Technologies, Inc.; signed by Kevin Scalia, Executive Vice President.
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Supplier of clinical and management information systems for behavioral health, substance use treatment, home and community-based services, senior living, post-acute care, skilled nursing, home health, hospice, inpatient rehabilitation, and physician practices.
+
+## 2. EXECUTIVE SUMMARY
+
+Netsmart supports expanding the FHIR-based Prior Authorization API to medical benefit drugs and agrees that Da Vinci CRD, DTR, and PAS can technically support drug PA. Its primary requests are operational: require payer testing/sandbox endpoints at least 12 months before the October 1, 2027 compliance date and avoid duplicative pharmacy-pathway development by aligning the NCPDP SCRIPT timeline with Version 2023011 or allowing SCRIPT 2023011 as compliant by October 1, 2027. The letter also addresses several hospice and palliative care proposals outside the core CMS-2026-1255-0001 provision map, emphasizing transparency, workflow integration, sufficient implementation runway, and use of existing EHR workflows.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; IMPLEMENTATION-TIMELINE/GENERAL; ONC-STANDARDS-UPDATE by implication; GENERAL for hospice and palliative care topics outside the listed provisions.
+- **Regulatory citations mentioned:** 42 CFR 418.24; 42 CFR 418.26(b); 42 CFR 418.3; 42 CFR 418.56(a)(1)(i); 42 CFR 418.56; 42 CFR 418.22(a)(4)(ii); 42 CFR 418.22(b)(1); section 1814(a)(7)(D)(i)(II) of the Act; section 6209(f) of the Consolidated Appropriations Act, 2026.
+- **Standards referenced:** FHIR; Da Vinci CRD, DTR, and PAS IGs; X12N 278; X12N 270/271; NCPDP SCRIPT Version 2017071 and Version 2023011; G-codes/modifiers; E/M, ACP, CCM, and PCM billing codes.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: FHIR-Based PA API Expansion to Medical Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Manual drug PA through phone, fax, and payer portals delays treatment and creates burden for behavioral health, post-acute, therapy, and related providers. Netsmart believes CRD, DTR, and PAS already have the technical capability to support medical benefit drug PA.
+- **Specific request:** Finalize expansion of the Prior Authorization API to medical benefit drugs and recognize that the adoption gap is payer readiness, not standards maturity.
+
+**Topic 2: Payer Sandbox Readiness Before Compliance**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** EHR developers cannot reliably build and test drug-specific CRD hooks, DTR questionnaires, and PAS submissions without payer endpoints containing drug-specific coverage rules and documentation requirements.
+- **Specific request:** Require payers to make drug-specific Prior Authorization API testing/sandbox endpoints available at least 12 months before the October 1, 2027 compliance date.
+
+**Topic 3: Pharmacy-Pathway NCPDP SCRIPT Timeline Alignment**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Requiring SCRIPT 2017071 by October 1, 2027 and then SCRIPT 2023011 by January 1, 2028 would force developers, pharmacies, and trading partners to build and test twice within one quarter, creating avoidable rework without patient access benefit.
+- **Specific request:** Move the pharmacy-pathway compliance date to January 1, 2028 or expressly permit SCRIPT 2023011 as compliant beginning October 1, 2027.
+
+**Topic 4: HIPAA and X12-to-FHIR Transition**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Not fully developed/Clarify
+- **Rationale:** Netsmart notes that CMS/ASTP-ONC proposes replacing X12N 278 and X12N 270/271 HIPAA standards with FHIR-based standards, but its detailed recommendations focus on implementation readiness rather than legal authority or coexistence.
+- **Specific request:** Ensure sufficient implementation runway and endpoint readiness if FHIR-based standards replace existing HIPAA transaction standards.
+
+**Topic 5: Hospice, Telehealth, and Palliative Care Operational Topics**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Netsmart supports transparency and care access goals but emphasizes that EHR workflow design, code specifications, preview periods, and clinical judgment must be accounted for.
+- **Specific request:** Provide hospice SSVI preview periods, risk-adjust non-hospice spending metrics, clarify hospice election addendum workflow, allow at least six months after final rule publication for addendum implementation, issue telehealth coding guidance promptly, and use existing billing codes and EHR workflows for community palliative care.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Netsmart supports requiring specific IGs for payer APIs in substance, stating CRD, DTR, and PAS can already support medical benefit drugs.
+- **S12:** The comment directly addresses technical challenges for medical benefit drug PA, especially payer endpoint readiness and the need for drug-specific coverage and documentation rules.
+- **S14/S22:** Netsmart responds to pharmacy-pathway applicability and cost/burden by warning against duplicative NCPDP SCRIPT 2017071 then 2023011 implementation.
+- **S19:** The comment raises ecosystem readiness concerns for pharmacies, trading partners, inpatient pharmacies, and direct pharmacy integrations.
+- **S21:** Netsmart says the October 1, 2027 compliance date depends on payers making sandbox endpoints available 12 months in advance.
+- **S25:** Netsmart treats SCRIPT 2023011 as the forward-looking standard and recommends aligning the compliance path to it.
+- **S44/S46/S47/S50:** The comment mentions the proposed shift from X12 HIPAA standards to FHIR-based standards and emphasizes implementation runway, coexistence/replacement risk, and readiness rather than opposing FHIR.
+- **S60-S65:** The SCRIPT version transition comments address standards update timing, version transition burden, and coordination across developers and trading partners.
+- **S66-S82:** The hospice, telehealth, and palliative care sections respond to broader CMS RFIs and operational proposals outside the drug PA provisions.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize expansion of the Prior Authorization API to drugs covered under the medical benefit.
+2. Confirm that Da Vinci CRD, DTR, and PAS do not need changes to support medical benefit drug PA.
+3. Require payer drug-specific PA API testing/sandbox endpoints at least 12 months before October 1, 2027.
+4. Align pharmacy-pathway prior authorization compliance with the January 1, 2028 SCRIPT 2023011 transition.
+5. Alternatively, permit SCRIPT 2023011 as compliant beginning October 1, 2027.
+6. Avoid requiring short-lived SCRIPT 2017071 builds that must be replaced within one quarter.
+7. Provide sufficient implementation runway and early technical guidance for all EHR-impacting proposals.
+8. For hospice-related proposals, allow score previews, risk adjustment, workflow-compatible addendum implementation, and prompt coding guidance.
+9. For community palliative care, leverage existing billing codes and EHR workflows rather than creating new infrastructure from scratch.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Payer readiness, lack of test endpoints, duplicative NCPDP SCRIPT implementation, compressed development timelines, inconsistent ecosystem readiness, and regulatory workflows that do not map cleanly to EHR operations.
+- **Potential negative impacts cited:** Implementation errors, delayed medication access, administrative burden, rework for developers/pharmacies/trading partners, inconsistent EHR implementation, and burden shifted away from clinical care.
+- **Implementation barriers mentioned:** Need for payer sandbox endpoints, drug-specific rules, trading partner readiness, NCPDP version transition timing, code/modifier specifications, workflow design, clinical training, and EHR development/testing/deployment time.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** For hospice topics, cites $2.8 billion in non-hospice spending during hospice elections in FY 2024 and pressure-ulcer skin-substitute carrier claims increasing from $18 million in FY 2020 to $714 million in FY 2024.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Manual PA for antipsychotics, mood stabilizers, long-acting injectable antipsychotics, MOUD, and specialty medications; pharmacy integration involving retail and inpatient pharmacies; hospice addendum timing; palliative care use cases before hospice eligibility.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** EHR developers, behavioral health providers, substance use treatment providers, post-acute providers, pharmacies, inpatient pharmacies, trading partners, payers, hospice providers, palliative care clinicians, and vulnerable patients needing medications.
+- **Economic implications:** Avoiding duplicate SCRIPT builds would reduce wasted development/testing cost; hospice and palliative care recommendations seek efficient use of existing workflows and billing structures.
+- **Technical feasibility:** Netsmart says FHIR-based medical benefit drug PA is technically feasible using CRD, DTR, and PAS, but payer readiness and endpoint availability are gating factors.
+- **Patient care impact:** Integrated PA workflows could speed treatment initiation for vulnerable populations; poor implementation could delay medication access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with implementation modifications
+- **Tone:** Technical, pragmatic, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The FHIR-based Prior Authorization API already has the technical capability to handle drug prior authorization." - Context: Support for PA-DRUG-MEDICAL and FHIR IG readiness.
+2. "Payer readiness is the gating factor for EHR developer implementation." - Context: Rationale for requiring payer sandbox endpoints.
+3. "Requiring health IT developers, pharmacies, and trading partners to build, test, certify, and deploy pharmacy prior authorization transactions on SCRIPT 2017071 and then immediately repeat that work on SCRIPT 2023011 would create duplicative development and testing burden." - Context: NCPDP timeline concern.
+4. "CMS provide a sufficient runway to effectively accomplish the goals of improving patient care." - Context: Overall implementation-timeline recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Netsmart requests 12 months of payer sandbox lead time and alignment with the January 1, 2028 SCRIPT 2023011 transition.
+- [x] **COST-RESOURCES** - The comment emphasizes duplicative development, testing, certification, deployment, and rework costs.
+- [x] **PROVIDER-BURDEN** - Manual PA burdens clinical staff and diverts time from patient care.
+- [x] **TECHNICAL-FEASIBILITY** - Netsmart states CRD, DTR, and PAS can support medical benefit drugs, but implementation depends on payer endpoints.
+- [x] **STANDARDS-MATURITY** - The comment distinguishes FHIR IG readiness from payer adoption and discusses NCPDP SCRIPT version transition timing.
+- [x] **PATIENT-ACCESS** - Manual and poorly implemented PA delays treatment initiation for vulnerable populations.
+- [x] **STAKEHOLDER-COORDINATION** - The comment stresses coordination among payers, EHR developers, pharmacies, and trading partners.
+- [x] **EXISTING-WORKFLOWS** - Netsmart focuses on embedding PA into prescribing workflows and aligning hospice/palliative requirements with EHR workflows.
+- [x] **VENDOR-ECOSYSTEM** - The letter is primarily from a health IT vendor perspective and highlights developer readiness needs.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed in detail.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Addressed only insofar as medical-benefit FHIR and pharmacy-pathway NCPDP timelines differ.
+- [ ] **TRANSPARENCY** - Addressed mainly in hospice sections, not core drug PA transparency.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+U.S. Department of Health and Human Services (HHS)
+Center for Medicare and Medicaid Services (CMS)
+Attention: Administrator Oz
+
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Docket ID CMS-0062-P
+
+Administrator Dr. Mehmet Oz,
+
+Netsmart Technologies, Inc. ("Netsmart") appreciates the opportunity to comment on the Interoperability Standards and Prior Authorization for Drugs Notice of Proposed Rulemaking (NPRM). We are a leading supplier of clinical and management information systems for behavioral health, substance use treatment providers, home and community-based services, senior living, and post-acute care providers and organizations nationwide. Our products serve behavioral health organizations, substance use treatment programs, skilled nursing facilities, home health agencies, hospice providers, inpatient rehabilitation facilities, and physician practices across the continuum of care. We believe our experience and client base provide us with a pragmatic on-the-ground perspective of health care information technology (IT) systems, and we are grateful for the ability to share that insight.
+
+The proposed rule issued by the Centers for Medicare & Medicaid Services (CMS) and the Assistant Secretary for Technology Policy/Office of the National Coordinator for Health Information Technology (ASTP/ONC) seeks comments on extending electronic prior authorization requirements to drugs....

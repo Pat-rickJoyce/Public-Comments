@@ -1,0 +1,176 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0715_20260629112112_6fd1bc21
+Commenter: Kansas Hospital Association
+Source: PDF Attachment
+Analysis Date: June 30, 2026 16:32:45
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Kansas Hospital Association (KHA); signed by Karen Braman, RPh, MS, Senior Vice President, Clinical and Strategic Initiatives
+- **Stakeholder type:** Professional Association / Healthcare Provider representative
+- **Credentials or expertise mentioned:** Represents 124 acute-care community hospitals in Kansas, including 83 critical access hospitals and 3 rural emergency hospitals; signatory is a pharmacist and senior clinical/strategic executive.
+
+## 2. EXECUTIVE SUMMARY
+
+KHA generally supports CMS's proposals to expand electronic prior authorization for drugs, align decision timeframes, and increase payer transparency. It urges CMS to strengthen denial-reason specificity, broaden the concept of adverse determinations, centralize public prior authorization metrics, provide non-digital reporting options for enrollees, and investigate payers with unusually high denial rates.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; GENERAL (public prior authorization metrics and transparency)
+- **Regulatory citations mentioned:** No CFR sections cited directly; comment references CMS-0062-P and the 2024 CMS Interoperability and Prior Authorization final rule.
+- **Standards referenced:** NCPDP SCRIPT Standard for Prior Authorization; NCPDP Real-Time Prescription Benefit (RTPB). The comment does not substantively discuss FHIR IGs by name, though it supports the medical-benefit drug Prior Authorization API concept.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for medical benefit drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** KHA says requiring Medicaid/CHIP FFS, Medicaid/CHIP managed care, and QHP issuers on federal Marketplaces to support electronic drug PA would standardize a process that is currently difficult for patients and providers to navigate.
+- **Specific request:** Finalize the proposal requiring impacted payers to support electronic prior authorization for drugs covered under the medical benefit.
+
+**Topic 2: Electronic PA for pharmacy benefit drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** KHA states that requiring electronic PA for pharmacy-benefit drugs, together with medical-benefit drug PA APIs, would cover all PA-required drugs and reduce provider administrative burden that delays needed medications and care.
+- **Specific request:** Finalize the proposal requiring impacted payers to use electronic prior authorization for pharmacy-benefit drugs.
+
+**Topic 3: NCPDP RTPB adoption**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** KHA supports requiring non-MA impacted payers to support NCPDP RTPB because it can provide real-time information on PA requirements and patient out-of-pocket costs.
+- **Specific request:** Require impacted payers other than MA organizations to support NCPDP RTPB, aligning with the existing January 1, 2027 MA Part D requirement.
+
+**Topic 4: Specific reasons for drug PA denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** KHA supports the proposal but believes the regulatory text is too vague. Generic reasons such as lack of medical necessity do not give providers or patients enough information to appeal, resubmit, or supply missing documentation.
+- **Specific request:** Add stronger regulatory-text requirements that denial notices identify the specific coverage criterion or documentation issue, including the particular part of supporting documentation found insufficient.
+
+**Topic 5: Definition of denial/adverse determination**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Clarify / Modify
+- **Rationale:** KHA notes that a payer may approve treatment but deny the duration or full scope requested, which still affects care and should be transparent.
+- **Specific request:** Use a broader definition of denial or adverse determination that includes partial approvals, such as approving treatment for less time than prescribed.
+
+**Topic 6: Drug PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** KHA supports aligning QHP timeframes with other impacted payers and aligning non-covered outpatient drug timelines with non-drug items and services. It also supports reducing CHIP FFS prescription-drug PA response time to 24 hours.
+- **Specific request:** Finalize the proposed QHP and Medicaid/CHIP timeframe alignments and consider applying a 24-hour drug PA timeframe to all payers, including MA organizations and QHPs, in future rulemaking.
+
+**Topic 7: Public prior authorization metrics**
+- **Provision ID:** GENERAL
+- **Position:** Support / Modify
+- **Rationale:** KHA supports adding numeric counts and drug-specific PA metrics because percentages alone do not provide a full view of payer behavior. It is concerned that public website posting alone may not reach enrollees with low literacy or technology access.
+- **Specific request:** House payer metrics in one CMS-managed location; provide alternate formats such as opt-in mailed annual reports; and trigger CMS inquiry when denial rates exceed a high threshold, such as 80% for a given item or service.
+
+## 5. SOLICITATION RESPONSES
+
+**Solicitation Responses:**
+- **S12:** KHA indirectly supports applying electronic PA to medical-benefit drugs and does not identify specific technical challenges.
+- **S14:** KHA supports applying pharmacy-benefit electronic PA requirements to impacted non-Part D payers.
+- **S16:** KHA responds directly on what constitutes a specific denial reason, asking CMS to prohibit generic explanations and require actionable detail.
+- **S17:** KHA does not request structured denial codes specifically, but its request for more precise denial information is relevant to standardized denial content.
+- **S20:** KHA supports a 24-hour CHIP FFS prescription-drug PA timeframe and urges CMS to consider extending that approach to all payers in future rulemaking.
+- **S21:** KHA supports the medical-benefit drug electronic PA proposal and does not object to the timeline.
+- **S25:** KHA supports NCPDP RTPB adoption and describes real-time information on PA requirements and out-of-pocket costs as beneficial.
+- **S43:** KHA supports aligning timeframes across QHPs and Medicaid/CHIP drug categories to reduce provider burden and improve predictability.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic prior authorization requirements for drugs covered under medical benefits.
+2. Finalize electronic prior authorization requirements for pharmacy-benefit drugs using NCPDP standards.
+3. Require impacted payers other than MA organizations to support NCPDP RTPB.
+4. Strengthen regulatory text for denial reasons so payers must provide specific, actionable explanations.
+5. Treat partial approvals, such as shortened treatment duration, as denials or adverse determinations requiring explanation.
+6. Finalize QHP and Medicaid/CHIP drug PA timeframe alignments.
+7. Consider a 24-hour drug PA decision timeframe for all payers in future rulemaking.
+8. Require numeric counts in public PA metrics and add drug-specific metrics.
+9. Publish prior authorization metrics in a centralized CMS location and offer non-digital reporting options for enrollees.
+10. Investigate payers with very high denial rates for particular items or services.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Insufficient specificity in denial notices; continued provider administrative burden; treatment delays; lack of centralized, accessible payer transparency data.
+- **Potential negative impacts cited:** Delayed medically necessary medications and care; inability of providers and patients to understand or appeal denials; inequitable access to online-only public reporting for enrollees with lower literacy or technology literacy.
+- **Implementation barriers mentioned:** Not addressed in detail; KHA does not identify major technical implementation barriers.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** KHA represents 124 Kansas acute-care community hospitals, including 83 critical access hospitals and 3 rural emergency hospitals. It gives an illustrative 80% denial-rate threshold for CMS inquiry.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Examples of insufficient denial explanations include generic lack of medical necessity; examples of better explanations include identifying the specific coverage criterion or supporting documentation issue. KHA also provides a partial-approval example where treatment is approved but the requested duration is denied.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals, physicians, clinicians, prescribing providers, patients, Medicaid/CHIP programs and plans, QHP issuers, MA organizations, and enrollees comparing payer performance.
+- **Economic implications:** KHA frames prior authorization as a major administrative burden for providers but does not quantify costs. Streamlined electronic PA and clearer denial explanations could reduce provider rework and appeal burden.
+- **Technical feasibility:** KHA expresses support for electronic PA and NCPDP RTPB without raising feasibility objections.
+- **Patient care impact:** KHA expects electronic PA, faster timeframes, RTPB information, and more specific denials to improve timely access to medications and reduce delays in medically necessary care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted modifications
+- **Tone:** Professional and collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "KHA generally supports CMS's proposed provisions" - Context: Overall position on the rule.
+2. "lack of medical necessity" - Context: Example of an inadequate denial reason.
+3. "one aggregated place" - Context: Request for centralized CMS publication of PA metrics.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - KHA repeatedly connects PA standardization, electronic PA, and aligned timeframes to reducing administrative burden on hospitals, physicians, and clinicians.
+- [x] **HEALTH-EQUITY** - KHA notes that enrollees with lower literacy or technology literacy may not benefit from online-only public reporting.
+- [x] **TECHNICAL-FEASIBILITY** - The comment supports electronic PA and RTPB adoption without raising feasibility objections, indicating confidence in the technical direction.
+- [x] **PATIENT-ACCESS** - The central rationale is faster, more predictable access to needed medications and medically necessary care.
+- [x] **TRANSPARENCY** - KHA strongly supports more specific denial reasons, numeric PA metrics, drug-specific metrics, centralized publication, and denial-rate oversight.
+- [x] **EXISTING-WORKFLOWS** - The comment emphasizes simplifying and standardizing PA processes across payers so providers can work within more predictable workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare and Medicaid Services 
+7500 Security Blvd. 
+Baltimore, MD 21244 
+ 
+RE: CMS-0062-P; Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs 
+ 
+Submitted electronically via regulations.gov. 
+ 
+Dear Administrator Oz, 
+ 
+The Kansas Hospital Association appreciates the opportunity to provide comments on CMSâ€™ 
+Interoperability Standards and Prior Authorization for Drugs proposed rule. The Kansas Hospital 
+Association represents 124 acute-care, community hospitals in Kansas, including 83 critical access 
+hospitals and 3 rural emergency hospitals.  
+ 
+On behalf of our member hospitals, KHA thanks CMS for its work toward achieving interoperability and 
+increasing transparency and beneficiary engagement in prior authorization, as well as efforts to reduce 
+administrative burden. We are pleased to see the progress that CMS and commercial insurers have made 
+in the last year toward making prior authorization a more patient- and provider-friendly practice and look 
+forward to CMS building upon this momentum. 
+ 
+KHA generally supports CMSâ€™ proposed provisions to reduce burdens for rural providers and improve 
+patientsâ€™ experiences with the healthcare system. KHA is pleased to see the proposed changes to prior 
+authorization, including imposing timeframes for payer decisions on prior authorization requests for 
+drugs. More transparency and more detailed information sharing from payers is critical to improve timely 
+access to medications and reduce unnecessary administrative burden that payers impose upon hospitals, 
+physicians, and clinicians.  
+ 
+Electronic Prior Authorization for Drugs 
+Proposed Requirement To Incorporate Drugs Covered Under a Medical Benefit Into the Prior 
+Authorization API for All Impacted Payers 
+ 
+KHA supports CMSâ€™ proposal to require Medicaid and CHIP fee-for-servi...

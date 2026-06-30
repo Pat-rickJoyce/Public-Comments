@@ -1,0 +1,152 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0699_20260629112259_a0d35f94
+Commenter: BJC Health
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:31:09
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** BJC Health; signed by Christian G. Morgan, Vice President, Government Relations.
+- **Stakeholder type:** Healthcare Provider.
+- **Credentials or expertise mentioned:** BJC describes itself as a health system with acute care hospitals, multi-specialty physician practices, post-acute, corporate, and behavioral health services across Missouri, Illinois, and the St. Louis and Kansas City regions. The commenter references direct operational experience with prior authorization for pharmaceuticals, oncology drugs, post-acute care, and payer utilization management.
+
+## 2. EXECUTIVE SUMMARY
+
+BJC Health supports CMS's proposal to extend electronic prior authorization requirements to drugs under both medical and pharmacy benefits and supports stronger public reporting and API usage metrics. It urges CMS to finalize the rule for 2027 but argues that technology and reporting alone will not address payer incentives, recommending a 24-hour maximum drug PA deadline, expanded public reporting, step therapy oversight, and stronger federal enforcement.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; TRANSPARENCY-related elements of API reporting and public metrics; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** 91 FR 19890; 91 FR 19900; 91 FR 19921; 91 FR 19940; 91 FR 19969; 91 FR 20013; prior 2024 interoperability/prior authorization final rule at 89 FR 8758.
+- **Standards referenced:** FHIR; FHIR Da Vinci Clinical Data Exchange IG; NCPDP standards and implementation guides; API standards for Patient Access, Provider Access, Payer-to-Payer, and Prior Authorization APIs; HIPAA Administrative Simplification referral certification/authorization and eligibility transactions; CEHRT/ONC certification standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend E-PA to Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY.
+- **Position:** Support.
+- **Rationale:** BJC says the 2024 rule excluded outpatient and retail prescription drugs and supports CMS's proposal to remedy that gap for both medical benefit drugs, such as outpatient oncology infusions, and pharmacy benefit drugs.
+- **Specific request:** Finalize E-PA requirements for drugs beginning October 1, 2027.
+
+**Topic 2: API and Standards Requirements**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS.
+- **Position:** Support with caution.
+- **Rationale:** BJC previously opposed mandates until the technology reached baseline maturity but now agrees the technologies have matured sufficiently for adoption in 2027. It cautions that implementation will require change management and may temporarily reduce productivity.
+- **Specific request:** Finalize the technical approach while considering detailed technical comments from hospital associations and Epic Systems.
+
+**Topic 3: Expanded Public Reporting**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS; API-ENDPOINT-REPORTING where related to public transparency.
+- **Position:** Support and expand.
+- **Rationale:** BJC argues numeric counts, percentages, denial/appeal metrics, and turnaround time reporting are necessary to understand payer behavior and enforce compliance.
+- **Specific request:** Finalize expanded reporting for PY2027 and add disaggregation by service type, post-acute care setting, and drug classes such as cost tiers, retail versus outpatient, and branded versus generic.
+
+**Topic 4: Limits of Technology-Only Reform**
+- **Provision ID:** GENERAL.
+- **Position:** Clarify/Modify.
+- **Rationale:** BJC supports E-PA but argues APIs may expedite straightforward requests while leaving complex second- and third-round payer reviews, portals, peer-to-peer reviews, and step therapy barriers intact.
+- **Specific request:** Pair E-PA policies with aggressive enforcement, policy limits on utilization management, and monitoring of payer shifts to concurrent or retrospective review.
+
+**Topic 5: Turnaround Time and Step Therapy Reform**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; GENERAL/RFI step therapy.
+- **Position:** Modify.
+- **Rationale:** Delayed drug and post-acute care authorizations harm patients and hospital throughput. BJC argues patient needs are continuous and PA clocks should not stop after business hours.
+- **Specific request:** Require a maximum 24-hour deadline for all drug PAs and expedited non-drug PAs; designate all post-acute care PAs as expedited; clarify that clocks run outside business hours; standardize step therapy policies and public reporting across federal programs.
+
+**Topic 6: Enforcement Structure**
+- **Provision ID:** GENERAL.
+- **Position:** Modify.
+- **Rationale:** BJC argues rules matter only if consistently enforced and expresses skepticism that payer voluntary commitments will endure.
+- **Specific request:** Work with Congress to establish an independent HHS ombudsman or enforcement bureau, preferably within OIG, using real-time beneficiary and provider feedback.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** BJC supports extending the Prior Authorization API to medical benefit drugs but notes technical implementation will require workflow change management and vendor support.
+- **S14:** BJC supports applying drug E-PA requirements to pharmacy benefit drugs and aligning with NCPDP standards outside the existing Medicare Part D context.
+- **S18:** BJC supports mandatory IG adoption by 2027 after previously urging CMS to wait for maturity, while cautioning about temporary productivity impacts and implementation challenges.
+- **S20:** BJC recommends CMS require a maximum 24-hour deadline for all drug PA determinations.
+- **S21:** BJC considers 2027 adoption achievable because the relevant technologies have matured sufficiently.
+- **S22:** BJC does not provide a quantified NCPDP cost estimate but supports finalizing pharmacy-benefit drug standards.
+- **S29:** BJC strongly supports API usage metrics and says actual usage data will show whether E-PA tools address provider and patient problems.
+- **S34:** BJC supports applying drug-related API metrics beginning in PY2027 and standardizing metrics across APIs.
+- **S35:** BJC supports public reporting of usage and PA metrics and asks CMS to expand reportable categories.
+- **S66-S82:** BJC responds generally to RFI-style issues on step therapy and utilization management, urging consistent step therapy policies, transparency, and reporting across federal programs.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize E-PA requirements for covered drugs under medical and pharmacy benefits for October 1, 2027.
+2. Finalize expanded public reporting with both counts and percentages for PA metrics, including denials, appeals, and turnaround times.
+3. Add disaggregated reporting by service type, post-acute care setting, and drug category or cost tier.
+4. Finalize standardized API usage metrics across Patient Access, Provider Access, Payer-to-Payer, and Prior Authorization APIs.
+5. Establish a maximum 24-hour deadline for all drug PAs and expedited non-drug PAs.
+6. Treat all post-acute care PAs as expedited and clarify that PA clocks run outside normal business hours.
+7. Create standardized step therapy policies and reporting metrics across federal programs.
+8. Establish an independent federal enforcement or ombudsman function focused on payer compliance with coverage, payment, and E-PA rules.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Payer use of prior authorization to delay or deny medically necessary care; limits of technology-only reform; insufficient enforcement; payer shifts to other utilization management tactics.
+- **Potential negative impacts cited:** Delayed oncology and drug treatment, worsened patient outcomes, disrupted hospital throughput, provider administrative burden, delayed or denied payment, and continued use of step therapy despite clinical guidelines.
+- **Implementation barriers mentioned:** Workflow redesign, CEHRT/vendor alignment, change management, temporary productivity decline, payer portal processes, peer-to-peer review practices, and complex clinical cases outside payer standard protocols.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No internal quantitative data are provided. BJC asks CMS to require counts as well as percentages in payer reporting.
+- **Studies or research referenced:** June 2026 HHS OIG data briefs on Medicare Advantage denials for long-term acute care, inpatient rehabilitation, and skilled nursing facility admissions; CMS press release on a payer prior authorization pledge; prior CMS final and proposed rules.
+- **Examples provided:** High-cost oncology drugs, outpatient oncology infusions, post-acute care referrals, skilled nursing facility admissions, peer-to-peer consultations, step therapy protocols, and payer-owned utilization management vendors.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, physicians, hospitals, post-acute care providers, pharmacies, MA plans, Medicaid MCOs, state/federal program beneficiaries, EHR vendors, and federal regulators.
+- **Economic implications:** BJC suggests implementation costs and productivity disruption for providers, but greater reporting value and enforcement benefits. It emphasizes delayed payment and payer incentives to retain premium dollars.
+- **Technical feasibility:** Feasible for 2027 but dependent on workflow changes, vendor support, mature IGs, and consistent payer implementation.
+- **Patient care impact:** Potentially faster routine PA decisions, but continued risk of delays for complex care, oncology treatment, post-acute care discharge, and step therapy exceptions unless CMS strengthens deadlines and enforcement.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant enforcement concerns.
+- **Tone:** Professional, critical, and policy-oriented.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "We agree that such technologies have matured sufficiently for their adoption and deployment starting in 2027." - Context: Support for moving forward with E-PA standards after prior caution about maturity.
+2. "BJC strongly supports these proposals and recommends the Agency finalize them for Plan Year 2027." - Context: Support for drug-related API usage metrics and standardized API reporting.
+3. "Technology alone cannot solve core problems of organization and incentives baked into the American healthcare system." - Context: BJC's caution that E-PA will not eliminate utilization management incentives.
+4. "The Agency should finalize a maximum 24-hour deadline for all drug PARs." - Context: Recommendation to strengthen PA turnaround time requirements.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - BJC supports 2027 implementation but notes change management and productivity risks.
+- [x] **COST-RESOURCES** - The comment addresses provider operational burden and payer payment incentives, though without detailed cost estimates.
+- [x] **PROVIDER-BURDEN** - BJC describes portals, peer-to-peer reviews, step therapy, and post-acute care PAs as ongoing provider burdens.
+- [x] **TECHNICAL-FEASIBILITY** - BJC says the technology is now mature enough but implementation details still matter.
+- [x] **STANDARDS-MATURITY** - The commenter discusses FHIR, NCPDP, IGs, CEHRT, and prior concerns about baseline maturity.
+- [x] **PATIENT-ACCESS** - The comment focuses on delayed medically necessary drugs, oncology care, and post-acute care.
+- [x] **STAKEHOLDER-COORDINATION** - BJC points to hospitals, payers, CMS, trade associations, and EHR vendors.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - BJC explicitly supports applying E-PA to drugs covered under both medical and pharmacy benefits.
+- [x] **TRANSPARENCY** - Expanded public reporting, counts, percentages, denial/appeal metrics, and disaggregation are central recommendations.
+- [x] **EXISTING-WORKFLOWS** - BJC warns that existing manual and portal-based processes may persist beneath the API layer.
+- [x] **VENDOR-ECOSYSTEM** - The comment references CEHRT systems and Epic Systems as relevant technical stakeholders.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Via Electronic Submission (www.regulations.gov)
+
+June 15, 2026
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare and Medicaid Services
+Department of Health and Human Services
+Attn: CMS-0062-P
+PO BOX 8013
+Baltimore, MD 21244-8013
+
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs...
+
+BJC Health is comprised of acute care hospitals, multi-specialty physician practices, and post-acute, corporate, and behavioral health services, with service areas spanning the St. Louis and Kansas City metropolitan regions, as well as southeast Missouri, and southwest Illinois. BJC clinicians regularly endure and must adapt to the various tactics commercial and government-contracted private insurers use to deter their beneficiaries from accessing medically necessary care in a timely manner, including pharmaceutical treatments, e.g., high-cost oncology drugs...

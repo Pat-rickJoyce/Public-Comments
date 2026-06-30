@@ -1,0 +1,193 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0704_20260629112306_7a636f64
+Commenter: HTD Health Interoperability Practice
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:31:39
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** HTD Health Interoperability Practice; signed by Brendan Keeler, Pryce Anconca, Brad Thorson, and Ryan Paul Brickner
+- **Stakeholder type:** Technology Vendor / Health IT Consultant
+- **Credentials or expertise mentioned:** Advises EHR vendors, payers, HINs, digital health companies, and investors on FHIR, HL7, NCPDP, X12, and federal interoperability rules; discloses commercial interest in certification recommendations.
+
+## 2. EXECUTIVE SUMMARY
+
+HTD Health broadly supports CMS's interoperability direction, especially requiring Da Vinci FHIR IGs and expanding drug prior authorization, but argues CMS must close routing, conformance, and timeline gaps. The comment recommends deterministic benefit-type routing, phased implementation, payer API conformance/certification, centralized endpoint and metric reporting, and stronger event notification supply-side requirements.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; FF-SHOP-REQUIREMENTS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL/RFIs.
+- **Regulatory citations mentioned:** CMS-0062-P; no specific CFR citations are cited in the comment text.
+- **Standards referenced:** Da Vinci CRD, DTR, PAS; FHIR; HL7 FHIR Subscriptions; HL7 v2 ADT; NCPDP SCRIPT; NCPDP Formulary & Benefit; NCPDP RTPB; X12N 278; X12 and FHIR attachments; ONC Inferno.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Deterministic medical/pharmacy benefit routing**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Without a designated routing signal, prescribers and vendors may have to query both NCPDP and FHIR channels, favoring large integrated EHRs and disadvantaging standalone e-prescribing systems and smaller providers.
+- **Specific request:** Require NCPDP Formulary & Benefit to carry all covered drugs across both benefit types, remove the PDF-formulary escape hatch, and add an explicit benefit-type indicator in CRD CoverageInformation and RTPB Coverage Restriction Codes 816/817.
+
+**Topic 2: Required Da Vinci implementation guides**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support with modification
+- **Rationale:** Optional guidance has produced uneven APIs and weak conformance; required IGs create a baseline but need enforcement.
+- **Specific request:** Require CRD, DTR, and PAS and pair the requirement with payer API conformance and certification mechanisms.
+
+**Topic 3: Implementation timeline and HIPAA transition**
+- **Provision ID:** HIPAA-PA-STANDARDS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** The October 1, 2027 date for the full stack is too compressed and risks incomplete implementation.
+- **Specific request:** Phase obligations by benefit-type discovery/F&B comprehensiveness first, full PAS drug PA next, and HIPAA standard replacement later based on demonstrated PAS maturity; publish a roadmap reconciling X12 and FHIR attachment tracks.
+
+**Topic 4: Expanded impacted payer scope**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** Expanding to small group market QHP issuers improves interoperability coverage, but exclusions continue to fragment data exchange.
+- **Specific request:** Add FF-SHOP issuers and signal future sequencing for state-based exchange, SBE-FP, dental, and employer-sponsored markets.
+
+**Topic 5: Endpoint directory and usage metrics**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS
+- **Position:** Support with clarification
+- **Rationale:** Endpoint and usage reporting can support conformance, certification, and public accountability.
+- **Specific request:** Specify a machine-readable submission and publication format, consider the National Directory endpoint profile, allow realistic time for complex payer structures, and publish comparable payer metrics.
+
+**Topic 6: Payer API technology certification and conformance**
+- **Provision ID:** ONC-STANDARDS-UPDATE; FHIR-IG-REQUIRED; GENERAL
+- **Position:** Modify
+- **Rationale:** Broken payer APIs often originate with vendors who are outside direct enforcement; payer-only accountability is insufficient.
+- **Specific request:** Require conformance testing, sandboxes, and certification now through CMS program participation authority rather than delaying for later ONC action.
+
+**Topic 7: Step therapy and payer-to-payer exchange**
+- **Provision ID:** GENERAL
+- **Position:** Support with clarification
+- **Rationale:** Honoring prior payer step-therapy determinations would prevent patients from repeating already-completed therapy steps.
+- **Specific request:** Define data elements and provenance needed for a receiving payer to rely on prior determinations, and reconcile the exclusion of denied requests with the need to understand failed step therapy.
+
+**Topic 8: Electronic event notifications**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** ADT notification gaps are caused by incomplete and request-gated supply, not merely by insufficient recipient categories.
+- **Specific request:** Make events nationally available to qualified treating/accountable entities, enforce send-completeness, name FHIR Subscriptions as the destination, and avoid forcing immediate migration off HL7 v2 ADT feeds.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports making CRD, DTR, and PAS required rather than merely recommended, provided CMS adds a real conformance mechanism.
+- **S12:** Responds to technical challenges for medical-benefit drug PA by identifying benefit-type routing as the central implementation problem.
+- **S14:** Addresses pharmacy-benefit applicability by recommending comprehensive NCPDP F&B coverage across both medical and pharmacy benefit drugs.
+- **S15:** Directly addresses medical-versus-pharmacy distinction and asks CMS to designate an explicit routing signal.
+- **S18:** Supports mandatory IGs but warns that a requirement without conformance enforcement will remain weak.
+- **S21:** Argues the October 2027 timeline is too aggressive for the full stack and should be phased.
+- **S23/S24/S26/S27:** Supports endpoint reporting but asks CMS to clarify machine-readable formats, publication approach, and practical reporting timing.
+- **S29/S33/S34/S35:** Supports usage and PA metrics, including public comparable metrics to create accountability incentives.
+- **S40/S41:** Supports FF-SHOP expansion and asks CMS to map future expansion to remaining excluded payer markets.
+- **S44/S46/S47/S48/S50/S53/S54/S55:** Supports FHIR as the forward PA standard but recommends a transition runway from X12N 278, a phased HIPAA milestone tied to PAS maturity, and testing/certification with enforcement.
+- **S66-S82:** Responds to RFIs on payer API certification, step therapy, Payer-to-Payer API use cases, and ADT event notifications.
+
+## 6. RECOMMENDATIONS
+
+1. Designate a deterministic benefit-type routing signal for drug prior authorization.
+2. Require NCPDP Formulary & Benefit to include all covered drugs across both benefit types and remove PDF-formulary fallback.
+3. Add an explicit benefit-type indicator to CRD CoverageInformation and RTPB Coverage Restriction Codes 816/817.
+4. Require Da Vinci CRD, DTR, and PAS and pair the requirement with conformance testing and certification.
+5. Phase the October 2027 obligations to protect implementation quality.
+6. Use CMS program authority to require payer API conformance/certification, sandboxes, and ONC Inferno testing.
+7. Specify machine-readable endpoint reporting and publish comparable usage metrics.
+8. Require nationally available ADT event notification supply, stronger enforcement, and a migration path toward FHIR Subscriptions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Ambiguous benefit routing; weak conformance enforcement; overly compressed implementation timeline; legal vulnerability if ONC alone expands certification; incomplete ADT notification supply.
+- **Potential negative impacts cited:** Smaller providers and standalone e-prescribing vendors could fall back to manual processes; patients may repeat step therapy; broken payer APIs may persist without vendor accountability.
+- **Implementation barriers mentioned:** Dual NCPDP/FHIR connectivity, plan-to-PBM data sharing, payer complexity, incomplete API implementations, legal authority questions, and migration from HL7 v2 to FHIR Subscriptions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics cited.
+- **Studies or research referenced:** No studies cited.
+- **Examples provided:** Four routing architecture options; broken payer API implementations reported by CMS; request-gated ADT notifications; patients switching plans and repeating step therapy.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers, EHR vendors, e-prescribing vendors, PBMs, providers, patients, health IT vendors, QHP issuers, HINs, CMS, and ONC.
+- **Economic implications:** Certification and conformance requirements create vendor accountability and may increase compliance work; query-both architectures would impose disproportionate cost on smaller vendors and providers.
+- **Technical feasibility:** The comment sees FHIR PA as feasible but only with phased timelines, deterministic routing, conformance testing, sandboxes, and clear version/transition planning.
+- **Patient care impact:** Better routing, step-therapy portability, and reliable PA APIs could reduce delays and repeated therapy requirements.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Supportive with modifications
+- **Tone:** Professional, technical, direct
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Do not let the query-both fallback become the default" - Context: Summary recommendation on benefit-type routing.
+2. "Moving the Da Vinci IGs from strongly recommended to required is the correct call." - Context: Support for FHIR-IG-REQUIRED.
+3. "Testing and sandboxes are the floor, not the plan." - Context: Argument for immediate certification and conformance requirements.
+4. "National availability is the operative phrase" - Context: ADT event notification supply-side recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment says October 1, 2027 is too aggressive for the full stack and recommends phased milestones.
+- [x] **COST-RESOURCES** - It warns that query-both routing and certification work impose differential burdens, especially on smaller vendors and providers.
+- [x] **PROVIDER-BURDEN** - The comment argues poor routing would leave smaller practices with manual medical-benefit drug PA workflows.
+- [x] **TECHNICAL-FEASIBILITY** - Much of the comment concerns routing architecture, API conformance, sandboxes, testing, and ADT technical migration.
+- [x] **STANDARDS-MATURITY** - It ties HIPAA FHIR replacement to demonstrated PAS maturity and asks for an X12/FHIR transition roadmap.
+- [x] **PATIENT-ACCESS** - The step-therapy discussion focuses on avoiding repeated therapy and reducing patient harm when plans change.
+- [x] **REGULATORY-AUTHORITY** - It discusses ONC certification authority after Loper Bright and recommends CMS program authority instead.
+- [x] **STAKEHOLDER-COORDINATION** - The routing proposal explicitly addresses coordination among payers, PBMs, EHRs, e-prescribing vendors, and providers.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment's first major section is dedicated to medical/pharmacy drug benefit distinction and routing.
+- [x] **TRANSPARENCY** - Endpoint directories and comparable published metrics are framed as accountability mechanisms.
+- [x] **SMALL-PAYER-IMPACT** - The phased timeline and complex payer structure concerns implicate smaller or less resourced payers.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses X12N 278 coexistence, HL7 v2 ADT feeds, and avoiding disruptive rail changes.
+- [x] **VENDOR-ECOSYSTEM** - It focuses heavily on payer API vendors, EHR vendors, e-prescribing vendors, and certification accountability.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+â€‹
+HEALTH TECHNOLOGY MADE HUMAN 
+ 
+PROPOSED RULE RESPONSE 
+CMS-0062-P 
+Below are HTD Healthâ€™s comments on 
+the 2026 CMS Interoperability Standards 
+and Prior Authorization for Drugs 
+Proposed Rule. 
+ 
+CMS-0062-P RESPONSE â€” HTD HEALTH INTEROPERABILITY PRACTICEâ€‹
+LAST UPDATE 
+ 
+Jun 15, 2026
+June 15, 2026 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013, Baltimore, MD 21244-8013 
+ 
+Re: Comments on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs 
+Proposed Rule (CMS-0062-P) 
+ 
+Dear Administrator Oz: 
+HTD Health's Interoperability Practice advises across the health IT ecosystem, including EHR vendors, 
+payers, health information networks, digital health companies, and the investors who back them, on 
+FHIR, HL7, NCPDP, X12, and the federal interoperability rules. We submit these comments in the interest 
+of an interoperability framework that the whole market can actually implement and use. 
+Disclosure. HTD's advisory work includes helping payer technology developers prepare for 
+conformance and certification. We benefit commercially if CMS adopts the certification 
+recommendation we make in Section 7. We make it anyway, because the enforcement gap it closes is 
+indefensible, and we would rather name that interest plainly than let a vaguer disclosure carry it 
+unspoken. 
+We commend CMS for the ambition of this proposed rule and for surfacing, rather than assuming away, 
+the hard routing and conformance questions it contains. Our comments and recommendations follow. 
+SUMMARY OF RECOMMENDATIONS 
+1.â€‹ Designate a deterministic benefit-type routing signal for drug PA. Do not let the query-both 
+fallback become the default, which advantages integrated EHR platforms and strands smaller 
+providers. 
+2.â€‹ Support FHIR as the forward PA standard, with a real transition runway off the X12N 278, and 
+publish a roadmap reconciling the X12 and...

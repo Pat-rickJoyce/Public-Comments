@@ -1,0 +1,278 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0718_20260629112058_c6364567
+Commenter: League of United Latin American Citizens
+Source: PDF Attachment
+Analysis Date: June 30, 2026 16:32:45
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** League of United Latin American Citizens (LULAC); signed by Roman Palomares, National President and Board Chairman
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Describes itself as the nation's oldest and largest Latino civil rights organization, representing more than 570,000 members and more than 435 councils across the United States. Lead reviewers listed as Miguel Diaz Gutierrez, Christian Acosta Zuniga, and Steven Gaytan.
+
+## 2. EXECUTIVE SUMMARY
+
+LULAC supports CMS's interoperability and transparency goals but argues the proposed rule must pair reporting with enforceable accountability. It urges CMS to establish denial-rate and appeal-overturn thresholds, require demographic disparity reporting and corrective action, mandate multilingual patient-facing communications, and measure success by reduced inappropriate denials and improved patient outcomes rather than transaction speed alone.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL (prior authorization accountability, demographic reporting, language access, PBM/formulary transparency)
+- **Regulatory citations mentioned:** CMS-0062-P; RIN 0938-AV44; April 14, 2026 proposed rule; no CFR sections cited directly.
+- **Standards referenced:** FHIR-based application programming interfaces; standardized electronic prior authorization workflows; standardized denial reason codes. No NCPDP standards are named, though prescription drug prior authorization and formulary management are discussed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Interoperability must improve care, not just speed denials**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** LULAC supports FHIR-based APIs, electronic PA workflows, and standardized denial codes, but argues the proposal focuses too much on transaction efficiency and not enough on whether patients receive medically necessary care.
+- **Specific request:** Evaluate success by reduced inappropriate denials, improved patient outcomes, and faster access to physician-prescribed care, not administrative speed alone.
+
+**Topic 2: Transparency must trigger accountability**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS; GENERAL
+- **Position:** Modify
+- **Rationale:** LULAC supports reporting denial rates, appeal outcomes, utilization management metrics, and denial codes but argues that data collection without consequences risks normalizing harmful practices.
+- **Specific request:** Pair every transparency provision with enforcement and measurable accountability, including objective thresholds for denial and appeal-overturn rates.
+
+**Topic 3: Enforcement for high denial and overturn rates**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** LULAC cites high Medicare Advantage prior authorization volume, low appeal rates, and high reversal rates as evidence that many patients may not receive needed care because they cannot challenge initial denials.
+- **Specific request:** Require automatic regulatory review, corrective action, and enforcement when denial rates or appeal-overturn rates exceed evidence-based thresholds or national norms.
+
+**Topic 4: Health equity and Latino beneficiary impacts**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** LULAC argues Latino communities disproportionately rely on Medicaid and Medicare, experience greater chronic disease and affordability barriers, and may face higher PA denial rates, making PA reform a civil rights and equity issue.
+- **Specific request:** Require demographic reporting and corrective action when disparities persist for Latino beneficiaries, patients with limited English proficiency, or other protected populations.
+
+**Topic 5: PBM and formulary transparency**
+- **Provision ID:** PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** LULAC says prescription drug PA and formulary transparency are valuable but insufficient if rebate-driven formularies, step therapy, and utilization management policies continue to delay physician-prescribed treatment.
+- **Specific request:** Use transparency to expose and reform practices that increase costs or delay medication access, rather than merely documenting them.
+
+**Topic 6: Language access for patient-facing communications**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Modify
+- **Rationale:** LULAC argues electronic interoperability fails if patients cannot understand denial notices, appeal instructions, or other patient-facing electronic communications.
+- **Specific request:** Require all patient-facing electronic communications, including denial notices and appeal instructions, to be available in the patient's preferred language.
+
+## 5. SOLICITATION RESPONSES
+
+**Solicitation Responses:**
+- **S1:** LULAC supports FHIR-based APIs and standardized electronic PA workflows, but asks CMS to ensure these standards improve care rather than merely accelerate denials.
+- **S16:** LULAC supports standardized denial explanations and argues denial data should be tied to accountability when patterns indicate inappropriate decision-making.
+- **S17:** LULAC supports standardized denial reason codes as part of transparency, while emphasizing that codes must lead to oversight and corrective action.
+- **S20:** LULAC references faster denial delivery, including a 24-hour example, to argue that speed alone is inadequate if inappropriate denials persist.
+- **S22:** LULAC raises prescription drug PA and formulary-management concerns, focusing on whether transparency produces patient benefit rather than only administrative information.
+- **S29:** LULAC supports reporting approval rates, denial rates, appeal volumes, appeal outcomes, utilization management metrics, and related data, but wants metrics tied to enforcement thresholds.
+- **S30:** LULAC requests demographic reporting to identify disparities affecting Latino beneficiaries, patients with limited English proficiency, and other protected populations.
+- **S34:** LULAC implies that repeated annual reporting is inadequate without action when high denial or overturn rates persist.
+- **S35:** LULAC supports public reporting but argues publication must lead to oversight, corrective action, and enforcement.
+- **S66-S82:** LULAC responds to broader prior authorization and health equity concerns by requesting accountability standards, demographic disparity reporting, PBM/formulary transparency that benefits patients, and multilingual patient communications.
+
+## 6. RECOMMENDATIONS
+
+1. Establish enforceable accountability standards tied to denial rates and appeal overturn rates.
+2. Require automatic regulatory review when denial rates or appeal overturn rates exceed evidence-based thresholds.
+3. Extend enforcement authority to plans with persistent inappropriate denial patterns.
+4. Require demographic reporting and corrective action when disparities are identified.
+5. Mandate multilingual access for all patient-facing electronic communications, including denial notices and appeal instructions.
+6. Pair every transparency provision with a corresponding accountability mechanism.
+7. Measure success by improved patient outcomes and reduced inappropriate denials rather than administrative efficiency alone.
+8. Ensure prescription drug and PBM/formulary transparency produces patient access and affordability benefits.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Transparency without accountability; faster electronic denials that do not reduce inappropriate denials; disproportionate effects on Latino communities; lack of demographic reporting; insufficient language access; PBM and utilization management incentives that continue to delay care.
+- **Potential negative impacts cited:** Delayed medically necessary care, unappealed denials, serious adverse events from PA delays, higher burdens on Latino beneficiaries and limited-English-proficient patients, and documentation of inequity without correction.
+- **Implementation barriers mentioned:** No technical implementation barriers are emphasized; LULAC focuses on regulatory design, enforcement thresholds, demographic data collection, language access, and corrective action.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** KFF 2026 report: nearly 53 million Medicare Advantage PA determinations in 2024, approximately 4.1 million denials, 11.5 percent appealed, and more than 80 percent of appealed denials overturned. AMA 2025 report: 94 percent of physicians report PA harms clinical outcomes and nearly one-third witnessed a serious adverse event from PA delays. LULAC cites nearly one-third of Latinos enrolled in Medicaid, Hispanic Americans as approximately 31 percent of Medicaid enrollees, and higher disease and affordability burdens among Latino Medicare beneficiaries.
+- **Studies or research referenced:** KFF Medicare Advantage PA report; AMA prior authorization report; Medicaid and Latino enrollment analyses; HHS report on Latino Medicare enrollees; 2024 study on racial and ethnic disparities in PA for cancer patients; KFF LEP report; MedCOD translation study; CRS language-access report; National Health Law Program Title VI and Section 1557 explainer; additional works cited list.
+- **Examples provided:** High denial rates and high appeal-overturn rates as triggers for oversight; Latino beneficiaries, limited-English-proficient patients, and protected populations as groups requiring disparity monitoring; denial notices and appeal instructions as communications needing language access.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Latino beneficiaries, Medicaid and Medicare enrollees, patients with limited English proficiency, patients subject to PA and step therapy, physicians, providers, health plans, PBMs, regulators, and protected populations experiencing disparities.
+- **Economic implications:** LULAC discusses medication affordability and patient costs but does not provide quantified cost estimates for implementation. It suggests accountability could reduce wasteful denials, appeals, and delayed care.
+- **Technical feasibility:** LULAC supports FHIR-based APIs and standardized workflows but argues technical modernization must be accompanied by policy accountability and multilingual access.
+- **Patient care impact:** The comment argues that PA reform should reduce inappropriate denials, prevent delayed care, improve access to physician-prescribed treatment, and address disparities in outcomes and access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Concerned
+- **Tone:** Critical, equity-focused, policy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Visibility, however, is not reform." - Context: Core argument for accountability.
+2. "Technology should improve care" - Context: Concern about accelerating denials.
+3. "Language access is a legal obligation" - Context: Request for multilingual communications.
+4. "Accountability is." - Context: Conclusion that transparency is not the end goal.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - LULAC cites physician administrative burden and time spent navigating utilization management.
+- [x] **HEALTH-EQUITY** - The comment centers Latino beneficiaries, Medicaid reliance, limited English proficiency, and disparate denial impacts.
+- [x] **PATIENT-ACCESS** - LULAC frames the rule's success around whether patients receive medically necessary and physician-prescribed care.
+- [x] **TRANSPARENCY** - The comment supports reporting but insists transparency must trigger oversight and enforcement.
+- [x] **TECHNICAL-FEASIBILITY** - LULAC supports FHIR APIs and standardized workflows but emphasizes that technology alone is insufficient.
+- [x] **REGULATORY-AUTHORITY** - The comment asks CMS to use enforcement authority and corrective-action mechanisms when data reveal failure.
+- [x] **EXISTING-WORKFLOWS** - It addresses step therapy, utilization management, appeal workflows, and denial-notice processes.
+- [x] **STAKEHOLDER-COORDINATION** - The comment discusses regulators, plans, providers, PBMs, and patients as participants in a PA accountability framework.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+League of United Latin American Citizens 
+ 
+ 
+1150 18th Street, NW, Suite 650 â€¢ Washington, DC 20036 â€¢ (202) 833-6130 â€¢ FAX (202) 833-6135 â€¢ www.LULAC.org 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NA TIONAL PRE SIDE NT 
+ROMAN PALOMARES 
+ 
+C H IE F  E XE C UTIV E  
+OFFIC E R  
+JUAN PROAÃ‘O 
+ 
+NA TIONA L  OFFIC E R S  
+Do min go  Garcia 
+Immediate Past President 
+M aggie  R ive ra 
+Treasurer 
+A ide n  R o ach  
+Youth President 
+A n a V ale n zu e la 
+VP for Elderly 
+Lu pe  To rre s 
+VP for Women  
+A n ast acio  Lo pe z 
+VP for Youth 
+A ric H e rre ra 
+VP for Young Adults 
+Jo se  B arre ra 
+VP for Far West 
+E mma Lo zan o  
+VP for Midwest 
+R ame ry De  Lu n a 
+VP for Northeast 
+M ari C o re ge do  
+VP for Southeast 
+R ay M an ce ra 
+VP for Southwest 
+Gabrie l Po rt u gal  
+VP for Northwest 
+ 
+STA TE  DIR E C TOR S  
+A lma Yu be t a 
+Arizona 
+R e y H e rn an de z 
+Arkansas 
+Jaco b San do val  
+California 
+So n n y Su bia 
+Colorado 
+Gilda Goldental-St o e cke r 
+District of Columbia 
+A sia C le rmo n t  
+Florida 
+C e ce lia Garcia 
+Illinois 
+E dward M o re n o  
+Iowa 
+M alu  E lizo n do  
+Nevada 
+Su e ch e t  R o drigu e z 
+New Jersey 
+Fre d B aca 
+New Mexico 
+A licia Pagan  
+Ohio 
+C ecilia Giro n -M e n do za 
+Oregon 
+M aridarlyn  Go n zale z 
+Pennsylvania 
+C arlo s Farjardo  
+Puerto Rico 
+Gabrie l R o sale s 
+Texas 
+B e lia Paz 
+Utah 
+A n dy Lara 
+Washington 
+Jaime  A lvarado  
+Wisconsin 
+   
+Lead Reviewers: Miguel Diaz 
+Gutierrez, Christian Acosta 
+Zuniga, Steven Gaytan  
+June 15, 2026 
+ 
+ 
+Submitted Electronically via Regulations.gov 
+ 
+The Honorable Dr. Mehmet Oz 
+Administrator, Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+RE: LULAC Comments on Proposed Rule CMS-0062-P (RIN...

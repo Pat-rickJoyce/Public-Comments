@@ -1,0 +1,162 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0716_20260629112258_75ba0a69
+Commenter: ICAN, International Cancer Advocacy Network
+Source: PDF Attachment
+Analysis Date: June 30, 2026 16:32:45
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** ICAN, International Cancer Advocacy Network; signed by Marcia K. Horn, JD, President and CEO
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** National cancer patient advocacy organization founded in 1996; reports assisting more than 21,000 late-stage cancer patients across all 50 states and 93 countries; manages the Biomarker Collaborative and rare cancer patient groups.
+
+## 2. EXECUTIVE SUMMARY
+
+ICAN asks CMS to protect cancer patients from prior authorization delays and denials for laboratory and biomarker testing. The comment emphasizes that timely biomarker testing is central to precision oncology and recommends retroactive authorization, expedited review, limits on timing-based denials, avoidance of repeat specimen collection, and patient protection from surprise costs caused by administrative delays.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL (RFI on prior authorization and access to laboratory testing)
+- **Regulatory citations mentioned:** Section III.E of CMS-0062-P; no CFR citations mentioned.
+- **Standards referenced:** No FHIR, NCPDP, HL7, or other technical standards referenced.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization barriers to biomarker testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** ICAN states that biomarker testing is foundational to precision medicine for patients with advanced, metastatic, rare, and biomarker-driven cancers. PA delays can postpone treatment selection, increase anxiety, and cause clinical harm for patients whose disease may progress quickly.
+- **Specific request:** CMS should take prompt action to prevent PA requirements from delaying or denying medically necessary laboratory and biomarker testing.
+
+**Topic 2: Retroactive authorization and timing-based denials**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Specimens may already be collected before authorization issues are resolved, and timing-based denials can waste valid specimens and delay care.
+- **Specific request:** Require health plans to allow retroactive authorization when specimens have already been collected and prohibit denials based solely on authorization timing.
+
+**Topic 3: Avoiding repeat specimen collection**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Cancer tissue samples may be limited and difficult to recollect; unnecessary repeat blood draws or invasive procedures create additional patient burden and risk.
+- **Specific request:** Prevent unnecessary repeat blood draws or recollection when a valid specimen is available.
+
+**Topic 4: Expedited oncology diagnostic review**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Advanced cancer treatment decisions often depend on rapid test results, and administrative review delays may cause missed treatment opportunities.
+- **Specific request:** Require expedited review for oncology-related diagnostic and biomarker testing.
+
+**Topic 5: Patient financial protection**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patients should not bear surprise costs caused by administrative delays outside their control.
+- **Specific request:** Protect patients from surprise costs when laboratory testing delays are administrative.
+
+## 5. SOLICITATION RESPONSES
+
+**Solicitation Responses:**
+- **S66-S82:** ICAN responds to the general RFI area addressing laboratory testing and prior authorization. It urges CMS to address PA delays for biomarker testing through retroactive authorization, expedited review, limits on timing-based denials, avoidance of repeat specimens, and patient cost protections.
+
+## 6. RECOMMENDATIONS
+
+1. Require health plans to allow retroactive authorization when specimens have already been collected.
+2. Prohibit denials based solely on prior authorization timing.
+3. Prevent unnecessary repeat blood draws or repeat tissue collection when a valid specimen is available.
+4. Require expedited review for oncology-related diagnostic and biomarker testing.
+5. Protect patients from surprise costs when testing delays are administrative.
+6. Take prompt CMS action to reduce PA-related delays and denials for medically necessary laboratory testing.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays and denials for biomarker testing; administrative burden on oncology practices and laboratories; patient anxiety and delayed cancer treatment decisions.
+- **Potential negative impacts cited:** Disease progression, worsening symptoms, missed opportunities for targeted therapies, immunotherapies, or clinical trials, additional invasive procedures, and surprise costs.
+- **Implementation barriers mentioned:** Differing payer requirements; documentation exchanges between laboratories, oncology practices, and health plans; limited tissue samples that cannot easily be recollected.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ICAN states it has assisted more than 21,000 late-stage cancer patients across all 50 states and 93 countries and has nearly 100 volunteers.
+- **Studies or research referenced:** No specific studies cited; the comment references nationally recognized clinical guidelines recommending biomarker testing for many tumor types.
+- **Examples provided:** Biomarker-driven cancers involving Exon 20 insertions, MET alterations, NRG1 fusions, and PD-L1 amplifications; potential need for additional invasive procedures if testing is delayed or denied after specimen collection.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, caregivers, oncology practices, laboratories, health plans, patient advocacy organizations, and clinicians ordering diagnostic and biomarker tests.
+- **Economic implications:** The comment notes potential surprise costs for patients and inefficient provider/laboratory administrative work but does not provide quantified cost estimates.
+- **Technical feasibility:** Not addressed from a health IT standards perspective; recommendations focus on payer policy and review-process changes.
+- **Patient care impact:** ICAN argues that timely biomarker testing determines access to targeted therapies, immunotherapies, and clinical trials, and that delays can directly harm advanced cancer patients.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional, urgent, patient-centered
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Fast, accurate biomarker testing is the key" - Context: ICAN's central patient-care argument.
+2. "Cancer does not pause" - Context: Explanation of harm from administrative delay.
+3. "Prohibit denials based solely on authorization timing" - Context: One of ICAN's requested payer requirements.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - ICAN requests patient protection from surprise costs when delays are administrative.
+- [x] **PROVIDER-BURDEN** - The comment describes substantial administrative work for oncology practices and laboratories navigating payer requirements.
+- [x] **HEALTH-EQUITY** - ICAN advocates for vulnerable late-stage, rare-cancer, and metastatic cancer patients who may have limited time and few standard treatment options.
+- [x] **PATIENT-ACCESS** - The comment's core concern is timely access to laboratory and biomarker testing needed to guide treatment.
+- [x] **EXISTING-WORKFLOWS** - ICAN criticizes traditional PA workflows as poorly suited to biomarker testing where specimens are time-sensitive and sometimes difficult to recollect.
+- [x] **STAKEHOLDER-COORDINATION** - The comment highlights delays caused by exchanges among laboratories, oncology practices, and health plans.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, MD, MBA  
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: Docket ID: CMS-2026-1255 
+P.O. Box 8016 
+Baltimore, MD 21244-8016 
+ 
+ 
+Reference: RFI for Prior Authorization and Access to Laboratory 
+Testing (Section III.E of CMS-0062-P) 
+ 
+Re: Comment on RFI for Prior Authorization and Access to 
+Laboratory Testing 
+ 
+ 
+Dear Dr. Oz and Members of the CMS Staff,  
+ 
+On behalf of ICAN, International Cancer Advocacy Network, a 
+national cancer patient advocacy organization representing 
+patients and families affected by cancer, we appreciate the 
+opportunity to provide comments regarding the impact of prior 
+authorization requirements on access to laboratory testing.  We 
+respectfully request that CMS take prompt, effective action to 
+protect our patients, and all patients, from delays and denials for 
+laboratory testing caused by prior authorization requirements. 
+ 
+It is important to know a little of ICANâ€™s history to understand 
+our perspective on this issue, and how dependent the patients we 
+serve are on fast and accurate laboratory testing. ICAN is a 
+501(c)(3) non-profit charitable organization (EIN 86-0818253) 
+founded in 1996 with a singular mission: to help Stage IV cancer 
+patients extend life with the highest achievable quality of life.  
+ 
+Over the past 30 years, ICAN has assisted more than 21,000 late-
+stage cancer patients across all 50 states and 93 countriesâ€”
+entirely at no cost to patients and families. Our small staff and 
+nearly 100 volunteers provide a broad spectrum of services, 
+including connecting patients to second opinions and appropriate 
+clinical trials, helping patients understand molecular profiling, 
+anatomic pathology reports, and molecular diagnoses (both 
+germline and somatic).  We connect patients to opportunities for 
+compassionate use. 
+ 
+ICAN re Docket ID: CMS-2026-1255, Prior Authoriz...

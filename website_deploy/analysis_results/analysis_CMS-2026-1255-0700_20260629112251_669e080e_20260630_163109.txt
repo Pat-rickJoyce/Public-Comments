@@ -1,0 +1,145 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0700_20260629112251_669e080e
+Commenter: Tessara, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:31:09
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** David Everett, Founder, Tessara, Inc.; prepared with Soren Vale, Tessara, Inc.
+- **Stakeholder type:** Technology Vendor.
+- **Credentials or expertise mentioned:** Tessara operates a continuous independent conformance monitor that probes payer FHIR endpoints from the public internet and publishes reproducible, versioned availability and conformance records against pinned IGs. The comment discloses Tessara's commercial interest in conformance-verification tooling.
+
+## 2. EXECUTIVE SUMMARY
+
+Tessara supports CMS's endpoint directory and continuing API maintenance obligations but argues the rule lacks an independent method to verify that reported endpoints actually work and remain conformant. It recommends a two-tier verification framework: finalize a non-punitive Tier 1 with independently verified timestamps, open-source test definitions, and acceptance of reproducible evidence now, then propose a Tier 2 recurring verified-status and cure-period framework in a later rulemaking.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** API-ENDPOINT-REPORTING; API-USAGE-METRICS; FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS where FHIR PA transaction infrastructure is implicated; ONC-STANDARDS-UPDATE; GENERAL enforcement/readiness.
+- **Regulatory citations mentioned:** CMS-0062-P; Section II.A.3; Section II.A.4-II.A.5; Section II.E; Section II.F.2.c; CMS-9115-F; CMS-0057-F; 42 CFR 422.119(b); 45 CFR 170.315(g)(10).
+- **Standards referenced:** FHIR; CapabilityStatement at [base]/metadata; Da Vinci CRD, DTR, PAS; US Core; Da Vinci PDex Plan Net IG STU 1.1.0; SMART/OAuth; FAST Security; ONC Inferno; HL7 Touchstone; unexpired standard versions.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Independent Verification of CMS Endpoint Directory**
+- **Provision ID:** API-ENDPOINT-REPORTING.
+- **Position:** Modify.
+- **Rationale:** Tessara argues a federally published directory can mislead users if CMS relies solely on payer self-verification once every 12 months and self-reported changes. A directory and maintenance duty are meaningful only if endpoint accuracy and conformance can be checked independently.
+- **Specific request:** Add a neutral "last independently verified" timestamp, test-kit version, open-source test definitions, and a path for CMS to accept reproducible third-party conformance evidence.
+
+**Topic 2: Recurring Conformance Testing**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE.
+- **Position:** Modify.
+- **Rationale:** API conformance is mutable because deployments, TLS/certificate changes, authorization server updates, CapabilityStatement edits, and IG version changes can break production endpoints after a one-time check.
+- **Specific request:** Conduct at least monthly availability/CapabilityStatement checks and at least quarterly full conformance testing, recording timestamp, test-kit version, and reproducible inputs.
+
+**Topic 3: Relationship to Certification and Connectathons**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE.
+- **Position:** Clarify.
+- **Rationale:** Tessara states product certification and voluntary connectathons do not measure deployed payer-instance production conformance and are not tied to the federal directory.
+- **Specific request:** Treat independent production verification as a distinct complement to certification, not as duplicative testing.
+
+**Topic 4: Readiness Measurement for IGs**
+- **Provision ID:** FHIR-IG-REQUIRED.
+- **Position:** Clarify/Modify.
+- **Rationale:** CMS asks about readiness and testing for recommended IGs such as FAST Security. Tessara argues ecosystem-wide pass-rate trends would provide empirical evidence for maturity.
+- **Specific request:** Use continuous testing and longitudinal pass-rate trends to determine when maturing IGs are ready for requirement.
+
+**Topic 5: API Usage Metrics Need Reliability Context**
+- **Provision ID:** API-USAGE-METRICS.
+- **Position:** Modify.
+- **Rationale:** Usage counts alone do not show whether an API works; low usage may reflect broken endpoints rather than lack of need.
+- **Specific request:** Pair API usage metrics with independent conformance and reliability measurement.
+
+**Topic 6: Future Enforcement Layer**
+- **Provision ID:** GENERAL; API-ENDPOINT-REPORTING.
+- **Position:** Modify.
+- **Rationale:** Tessara proposes avoiding immediate public pass/fail labels but says CMS should tee up a later status framework with due process.
+- **Specific request:** In a future rule, establish recurring testing with verified-status fields, cure periods, private notice, reproducible test evidence, and publication only after sustained failures.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Tessara supports making IG conformance meaningful by requiring verification against adopted FHIR standards and required IGs.
+- **S2:** The comment recommends recording exact test-kit versions and testing against pinned IG versions to support reproducibility.
+- **S3:** Tessara notes IG version bumps can break conformance and should be monitored as part of ongoing verification.
+- **S23:** Tessara addresses security by proposing public unauthenticated probing where possible, synthetic credentials for protected APIs, no member data access, and retention only of structural metadata.
+- **S24:** Tessara recommends the directory include endpoint URLs, CapabilityStatement URLs, last independently verified timestamp, and test-kit version.
+- **S26:** The comment supports machine-readable endpoint directory information and reproducible testing inputs.
+- **S27:** Tessara proposes monthly availability and CapabilityStatement checks and quarterly full conformance testing, exceeding annual self-verification.
+- **S29:** Tessara argues usage metrics should be paired with reliability and conformance metrics because usage alone can be misleading.
+- **S32:** The comment references open-source Inferno test kits for Da Vinci CRD, DTR, and PAS and suggests phasing tests as kits mature.
+- **S37:** Tessara responds to implementation challenges by proposing government-run or CMS-authorized independent testing using existing tools.
+- **S50:** The comment says maturity should be measured through longitudinal pass-rate trends, not assumed through one-time certification or connectathons.
+- **S54:** Tessara directly addresses testing/certification, explaining why ONC certification and connectathons do not replace production endpoint verification.
+- **S55:** Tessara proposes a future enforcement layer with cure periods, private notice, repeated-run confirmation, and public status only after due process.
+
+## 6. RECOMMENDATIONS
+
+1. Add a neutral "last independently verified" timestamp to each endpoint in the CMS directory.
+2. Record and publish the test-kit version used for each verification.
+3. Direct CMS or ONC to publish open-source test definitions.
+4. Permit CMS to accept reproducible third-party conformance evidence without naming a preferred vendor.
+5. Use ONC Inferno, HL7 Touchstone, and Da Vinci CRD/DTR/PAS test kits where applicable.
+6. Perform monthly availability and CapabilityStatement checks and quarterly full conformance runs.
+7. Phase testing by beginning with availability, CapabilityStatement, authorization-flow, and PAS server tests, then adding CRD and DTR as kits mature.
+8. In a later rule, establish verified-status fields, graduated cure periods, and due-process procedures before public status changes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Self-attestation cannot prove ongoing production conformance; unverified directories may mislead users; voluntary efforts have not produced reliable endpoint behavior.
+- **Potential negative impacts cited:** Failed patient apps, provider inability to retrieve records, wasted app developer effort, low API usage caused by broken endpoints, and CMS publication of inaccurate infrastructure information.
+- **Implementation barriers mentioned:** Changing production configurations, authorization-server behavior, TLS/certificate changes, inconsistent CapabilityStatements, immature test kits for some IGs, and the need for synthetic credentials or allow-listing for protected APIs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Tessara states that as of June 15, 2026, it probed 53 large Medicare Advantage organizations representing 28.4 million enrollees; 45 of 53 exposed no publicly discoverable Provider Directory endpoint; 6 gradeable endpoints failed conformance; 2 were in transient error; 0 passed.
+- **Studies or research referenced:** The comment references CMS-9115-F, CMS-0057-F, ONC Inferno certification testing, HL7 Touchstone, and a May 2025 private network operator report that roughly half of payers failed to serve a working Coverage resource on the Patient Access surface.
+- **Examples provided:** Broken Provider Directory APIs, unreachable endpoints, wrong authorization metadata, non-conformant CapabilityStatements, silent production breaks after deployments, and the difference between sandbox certification and production payer-instance behavior.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** CMS, ONC, payers, patients, providers, app developers, independent testing bodies, and health IT vendors.
+- **Economic implications:** Tessara argues the cost is bounded and modest because testing uses existing open-source tools and cloud compute, and because Tier 1 places testing burden on the verifier rather than requiring new payer builds.
+- **Technical feasibility:** High for baseline verification because CapabilityStatements and existing test engines already exist; more complex for protected APIs and maturing CRD/DTR test kits.
+- **Patient care impact:** Indirect but important: reliable APIs support patient apps, provider access to records, prior authorization workflows, and avoidance of integration failures.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted modifications.
+- **Tone:** Technical, professional, and evidence-driven.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "A directory CMS does not verify can mislead." - Context: Core objection to relying only on payer self-reporting.
+2. "Maintain is a continuing duty that cannot be observed without repeated testing." - Context: Rationale for recurring production verification.
+3. "This is integration, not invention." - Context: Argument that existing Inferno and Touchstone tooling can support verification.
+4. "Usage without reliability misleads." - Context: Explanation of why API usage metrics need conformance context.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Tessara proposes Tier 1 now and Tier 2 in a later rulemaking, with phased test coverage as kits mature.
+- [x] **COST-RESOURCES** - The comment analyzes bounded testing costs and argues payer burden is small.
+- [x] **PRIVACY-SECURITY** - Tessara discusses unauthenticated probing, synthetic credentials, no member data access, and structural metadata retention.
+- [x] **TECHNICAL-FEASIBILITY** - The comment is centered on feasibility of endpoint verification and use of existing tools.
+- [x] **STANDARDS-MATURITY** - Tessara proposes measuring maturity through longitudinal conformance pass rates.
+- [x] **PATIENT-ACCESS** - Broken APIs can impair patient apps and access to payer data.
+- [x] **REGULATORY-AUTHORITY** - Tessara argues verification is a logical outgrowth of the endpoint-reporting proposal and within CMS's existing authority.
+- [x] **STAKEHOLDER-COORDINATION** - The proposal involves CMS, ONC, HL7 tooling, payers, third parties, providers, and app developers.
+- [x] **TRANSPARENCY** - Independent timestamps, test definitions, and reproducible evidence improve transparency of the public directory.
+- [x] **EXISTING-WORKFLOWS** - Tessara distinguishes production verification from certification, connectathons, and self-attestation.
+- [x] **VENDOR-ECOSYSTEM** - The commenter is a vendor and discusses independent testing bodies, app developers, and health IT infrastructure.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Re: CMS-0062-P - 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule (published April 14, 2026; comment period closing June 15, 2026)
+Submitted by David Everett, Founder, Tessara, Inc. - an operator of a continuous, independent conformance monitor that probes payer FHIR endpoints from the public internet and publishes reproducible, versioned records of their availability and conformance against pinned Implementation Guides.
+
+SUMMARY RECOMMENDATION
+The proposed rule requires impacted payers to implement and maintain API technology conformant with the adopted FHIR standards (Section II.A.3), and proposes that CMS collect and publish a machine-readable directory of every payer's API endpoints and FHIR CapabilityStatement URLs (Section II.E). It does not, however, propose any mechanism by which CMS - or anyone relying on that directory - can independently confirm that a listed endpoint actually works or conforms over time...

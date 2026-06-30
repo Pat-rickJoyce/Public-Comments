@@ -1,0 +1,162 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0709_20260629112101_f26d53df
+Commenter: Contexture
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:31:39
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Contexture; signed by Melissa A. Kotrys, Chief Executive Officer
+- **Stakeholder type:** Health Information Exchange / Other
+- **Credentials or expertise mentioned:** Nonprofit HIE serving Arizona and Colorado; supports data exchange for approximately 28 million patients across hospitals, physician practices, behavioral health providers, long-term care facilities, community-based organizations, and public health agencies; operates real-time and near-real-time event notification services.
+
+## 2. EXECUTIVE SUMMARY
+
+Contexture responds exclusively to the RFI on electronic event notifications for value-based care and care coordination. It urges CMS to recognize state and regional HIE/HDU infrastructure as the preferred model for scalable notification exchange, expand actionable notification content, incentivize workflow-integrated use, avoid point-to-point burdens, and strengthen reporting, enforcement, funding, and technical assistance.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFIs; related to ONC-STANDARDS-UPDATE only insofar as technical event-notification standards and infrastructure are discussed.
+- **Regulatory citations mentioned:** CMS-0062-P; 2020 CMS Interoperability and Patient Access final rule; 85 FR 25587; hospital Conditions of Participation; 42 CFR Part 2 referenced as a consent barrier.
+- **Standards referenced:** HL7 v2 ADT; CCD; Direct Secure Messaging; HIE/HDU frameworks; no FHIR IG position stated.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: HIE-based architecture for event notifications**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Point-to-point hospital connections to payers, ACOs, PAC providers, and community organizations are burdensome, duplicative, and fragmented.
+- **Specific request:** CMS should incentivize, allow, or require use of state and regional HIE networks as trusted intermediaries so hospitals can send one feed and HIEs can route notifications to authorized recipients.
+
+**Topic 2: Notification content and enrichment**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify
+- **Rationale:** Minimum notifications are less useful without clinical context, attribution, risk indicators, and related longitudinal data.
+- **Specific request:** Encourage inclusion, when available, of diagnoses, reason for visit, risk stratification, care team attribution, medication flags, SDOH/referral status, and supplemental CCDs or longitudinal context through HIE enrichment.
+
+**Topic 3: Workflow-integrated use and incentives**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Notifications improve care only when acted upon, not merely sent or received.
+- **Specific request:** Link payment and Promoting Interoperability measures to delivery through centralized HIE infrastructure, integration into EHR/care management workflows, and documented follow-up actions such as outreach within 48 hours after discharge.
+
+**Topic 4: Recipient expansion**
+- **Provision ID:** GENERAL
+- **Position:** Support with modification
+- **Rationale:** Behavioral health providers, EMS, pharmacies, social service organizations, payers, ACOs, and PAC providers all support care coordination, especially for high-risk populations.
+- **Specific request:** Expand notification recipients through HIE routing with consent, segmentation, role-based access controls, attribution management, and delivery connections managed centrally.
+
+**Topic 5: Barriers to hospital sharing**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Hospitals face integration complexity, consent/legal uncertainty, attribution gaps, and resource constraints.
+- **Specific request:** Use centralized HIE exchange to reduce interface burden, standardize attribution, support consent management, and assist CAHs, REHs, rural providers, and under-resourced hospitals.
+
+**Topic 6: Enforcement and support**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Compliance should assess delivery, completeness, timeliness, and usability, while avoiding excessive hospital administrative burden.
+- **Specific request:** Require reporting on delivery and receipt, audit data completeness and timeliness, tie compliance to payment adjustments, fund HIE participation and workflow integration, issue technical guidance, and offer technical assistance modeled on Regional Extension Centers.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment substantively responds to the electronic event notification RFI, including content, recipient types, provider engagement, technical approaches, enforcement, and support.
+- **Event notification content questions:** Contexture says hospitals connected to HIEs often send more than the minimum data, including demographics, encounter details, diagnoses, treating provider/facility details, labs, radiology, clinical notes, and several notification types.
+- **Provider engagement questions:** CMS should incentivize integration into clinical workflows and tie incentives to documented interventions, not simple transmission.
+- **Recipient expansion questions:** CMS should encourage broader recipients, including behavioral health, EMS, social services, pharmacies, ACOs, payers, and PAC providers, through centralized HIE routing.
+- **Technical approach questions:** HL7 v2 ADT feeds with HIE-mediated routing are described as the most widespread, proven, and scalable model.
+- **Enforcement/support questions:** CMS should require delivery/receipt reporting, audit completeness and timeliness, tie compliance to payment, provide HIE participation funding, and support rural/under-resourced hospitals.
+
+## 6. RECOMMENDATIONS
+
+1. Recognize state and regional HIE/HDU frameworks as trusted event-notification infrastructure.
+2. Allow, encourage, or require HIE connections to satisfy related Conditions of Participation.
+3. Avoid requiring multiple payer-to-provider or provider-to-provider point-to-point connections.
+4. Add or encourage actionable content such as diagnoses, reason for visit, risk flags, attribution, medication flags, and SDOH/referral information.
+5. Incentivize integration of notifications into EHRs and care management platforms.
+6. Tie payment or program measures to timely follow-up actions triggered by notifications.
+7. Expand notification recipients through HIE-mediated consent, segmentation, role-based access, and attribution controls.
+8. Use Promoting Interoperability and value-based payment programs to measure acted-upon notifications.
+9. Require reporting on notification delivery/receipt, and audit completeness and timeliness.
+10. Provide funding and technical assistance for HIE participation, especially for CAHs, REHs, rural hospitals, and under-resourced providers.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmented point-to-point architecture, inconsistent data quality, limited workflow integration, consent/legal uncertainty, attribution gaps, and resource constraints.
+- **Potential negative impacts cited:** Increased hospital burden, duplicated infrastructure, higher costs, fragmented delivery, disconnected smaller/rural providers, and notifications that are received but not acted upon.
+- **Implementation barriers mentioned:** Interface development/testing/maintenance, 42 CFR Part 2 and state consent rules, outdated attribution lists, limited IT staff, funding gaps, cybersecurity and revenue cycle competing priorities, and alert fatigue.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Contexture states it supports approximately 28 million patients and that HIE-connected organizations exchange millions of notifications monthly.
+- **Studies or research referenced:** No formal studies cited.
+- **Examples provided:** Arizona and Colorado HIE operations; HL7 and CCD Gold Standards; routing to hundreds of downstream entities; CommunityCares in Arizona; Arizona Differential Adjusted Payment program; examples involving high utilizers, pregnant members, ED visits, and discharge follow-up.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals, ACOs, payers, PAC providers, EMS, behavioral health providers, pharmacies, social service organizations, community-based organizations, rural hospitals, CAHs, REHs, patients, HIEs, and CMS.
+- **Economic implications:** HIE-based routing reduces duplicate integration costs and hospital burden; funding and payment incentives would be needed to expand participation and workflow integration.
+- **Technical feasibility:** Contexture views HL7 v2 ADT feeds with HIE-mediated routing as widespread and scalable; HIEs can add normalization, patient matching, consent, attribution, enrichment, and delivery reporting.
+- **Patient care impact:** More complete and actionable notifications can improve transitions of care, ED follow-up, maternity care coordination, high-utilizer management, medication reconciliation, and social care coordination.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, operational, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "community HIEs serve as the primary infrastructure" - Context: Core architectural recommendation for event notification exchange.
+2. "one connection to serve hundreds of healthcare organizations" - Context: Explanation of HIE-mediated routing benefits.
+3. "notifications are embedded into workflows and tied to action" - Context: Meaningful use of notifications by ACOs and payers.
+4. "notifications acted upon" - Context: Recommendation for Promoting Interoperability program measures.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - The comment repeatedly stresses reducing duplicate integration costs and funding HIE participation for under-resourced hospitals.
+- [x] **PROVIDER-BURDEN** - A central argument is that HIE-based one-to-many exchange minimizes hospital burden compared with point-to-point connections.
+- [x] **PRIVACY-SECURITY** - Consent, segmentation, role-based access, 42 CFR Part 2, and sensitive behavioral health data are identified as key considerations.
+- [x] **HEALTH-EQUITY** - Support for rural hospitals, CAHs, REHs, community-based organizations, high-risk populations, pregnant members, and social service coordination implicates equity and access.
+- [x] **TECHNICAL-FEASIBILITY** - The comment addresses HL7 v2 ADT feeds, CCDs, SFTP, Direct, data normalization, matching, attribution, and HIE routing.
+- [x] **PATIENT-ACCESS** - Event notifications are framed as enabling better care transitions, outreach, ED diversion, and care coordination.
+- [x] **STAKEHOLDER-COORDINATION** - It focuses on coordination among hospitals, ACOs, payers, PAC providers, EMS, behavioral health, pharmacies, and social service organizations.
+- [x] **EXISTING-WORKFLOWS** - It recommends integration into EHR and care management workflows and warns against standalone or point-to-point approaches.
+- [x] **TRANSPARENCY** - Delivery/receipt reporting, auditability, completeness, timeliness, and routing logs are proposed to strengthen accountability.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+ 
+June 15, 2026  
+Administrator Mehmet Oz  
+Centers for Medicare & Medicaid Services  
+U.S. Department of Health & Human Services  
+200 Independence Avenue SW  
+Washington, DC 20201   
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act: Interoperability 
+Standards and Prior Authorization for Drugs (CMS-0062-P)  
+Dear Administrator Oz:   
+Thank you for the opportunity to respond to the Request for Information (RFI) regarding Electronic Event 
+Notifications for Value-Based Care and Care Coordination. Contexture appreciates the opportunity to 
+contribute insights grounded in real-world implementation experience across diverse healthcare 
+environments in Arizona and Colorado. 
+Contexture is one of the nationâ€™s leading health information exchanges (HIEs), serving Arizona and Colorado 
+and representing the largest health information organization in the Western region. As a nonprofit, we 
+support secure, interoperable data exchange for approximately twenty-eight (28) million patients across 
+thousands of healthcare organizations; including hospitals, physician practices, behavioral health providers, 
+long-term care facilities, community-based organizations, and public health agencies. 
+Founded on the principle that connected care improves outcomes, Contexture operates as a neutral 
+intermediary and trusted infrastructure partner, bridging disparate healthcare systems and enabling access 
+to longitudinal patient data across settings. Through this infrastructure, we support real-time and near real-
+time event notifications, care coordination, and value-based care use casesâ€”particularly for high-risk and 
+high-cost populations such as high utilizers and pregnant members. 
+For purposes of this RFI, Contexture is responding exclusively to the section titled â€œRequest for Information: 
+Electronic Event Notifications for Value-Based Care and Care Coordination.â€ Our responses reflect direct 
+operational experience...

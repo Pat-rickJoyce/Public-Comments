@@ -1,0 +1,130 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0697_inline_20260629112518
+Commenter: Tribal Biotechnology & Health Consortium
+Source: Inline Comment
+Analysis Date: 2026-06-30 16:30:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Tribal Biotechnology & Health Consortium, submitted by Clear Health Pass Holdings, LLC as Authorized Tribal Agent; signed by John Michael Cataldi, CEO.
+- **Stakeholder type:** Government/Other
+- **Credentials or expertise mentioned:** Submission asserts formal Government-to-Government status under Executive Order 13175 and HHS/CMS Tribal Consultation Policies, on behalf of ECHAGA Corporation of the Pine Ridge Oglala Sioux Tribe and Blue Lake Rancheria Economic Development Corporation.
+
+## 2. EXECUTIVE SUMMARY
+
+The Consortium requests that CMS address tribal consultation obligations before finalizing CMS-0062-P and ensure prior authorization criteria do not disadvantage FDA-regulated, tribally owned, or I/T/U-furnished products. It also asks CMS to require disaggregated public PA metrics for AI/AN beneficiaries, I/T/U providers, and tribally owned products, confirm consistency with the Indian Health Care Improvement Act and federal trust responsibility, and respond in the final rule preamble.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** REGULATORY-AUTHORITY/GLOBAL; PA-DENIAL-REASONS; API-USAGE-METRICS; API-ENDPOINT-REPORTING by implication; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL.
+- **Regulatory citations mentioned:** Executive Order 13175; HHS and CMS Tribal Consultation Policies; Administrative Procedure Act; Indian Health Care Improvement Act; federal trust responsibility; treaty obligations; CMS-0062-P.
+- **Standards referenced:** FDA status and Medicare coverage; no FHIR IG or NCPDP standards named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Tribal Consultation Before Finalization**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** The Consortium frames the rule as implicating Government-to-Government consultation duties and tribal rights.
+- **Specific request:** CMS should state on the record whether formal G2G tribal consultation occurred and conduct such consultation before finalizing the rule.
+
+**Topic 2: Anti-Discrimination in Prior Authorization Criteria**
+- **Provision ID:** PA-DENIAL-REASONS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** PA criteria could disadvantage FDA-regulated, tribally owned, or I/T/U-furnished products, including through improper unproven or investigational designations.
+- **Specific request:** CMS should add an express anti-discrimination provision barring such criteria and barring designations inconsistent with FDA status or Medicare coverage.
+
+**Topic 3: Disaggregated Prior Authorization Metrics**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Disaggregated metrics would allow CMS and the public to detect differential PA approval and denial patterns affecting AI/AN beneficiaries, I/T/U providers, and tribally owned products.
+- **Specific request:** CMS should require public reporting of PA approval and denial metrics disaggregated for these populations and products.
+
+**Topic 4: Consistency with IHCIA and Federal Trust Responsibility**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** The Consortium reserves rights under federal law and seeks confirmation that the rule aligns with tribal health statutes and the trust responsibility.
+- **Specific request:** CMS should confirm consistency with the Indian Health Care Improvement Act and federal trust responsibility and respond to the comment in the final rule preamble.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** The comment addresses denial reasons indirectly by seeking to bar denial rationales or PA criteria that label products unproven or investigational when inconsistent with FDA status or Medicare coverage.
+- **S29:** The commenter asks CMS to require PA approval and denial metrics disaggregated for AI/AN beneficiaries, I/T/U providers, and tribally owned products.
+- **S35:** The request for public disaggregated reporting relates to how CMS should publish or use aggregate metrics, with emphasis on subgroup visibility.
+- **S52:** The comment raises legal authority and procedural obligations, including Executive Order 13175, the Indian Health Care Improvement Act, federal trust responsibility, APA rights, and treaty obligations.
+- **S66-S82:** The tribal consultation, anti-discrimination, and equity-reporting requests fall within broader general policy and equity RFIs.
+
+## 6. RECOMMENDATIONS
+
+1. State on the record whether formal G2G tribal consultation was conducted for CMS-0062-P.
+2. Conduct tribal consultation before finalizing the rule if it has not occurred.
+3. Include an express anti-discrimination provision for FDA-regulated, tribally owned, or I/T/U-furnished products.
+4. Bar unproven or investigational designations that conflict with FDA status or Medicare coverage.
+5. Require disaggregated public reporting of PA approval and denial metrics for AI/AN beneficiaries, I/T/U providers, and tribally owned products.
+6. Confirm consistency with IHCIA and the federal trust responsibility.
+7. Respond to the comment in the preamble to the final rule.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Lack of tribal consultation, potentially discriminatory PA criteria, inadequate visibility into PA outcomes for tribal stakeholders, and possible inconsistency with federal tribal obligations.
+- **Potential negative impacts cited:** Disadvantaging AI/AN beneficiaries, I/T/U providers, and tribally owned products; improper denial or unfavorable treatment based on product status labels.
+- **Implementation barriers mentioned:** Need for disaggregated data collection/reporting and formal consultation processes.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Not addressed.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Potential use of unproven/investigational labels inconsistent with FDA status or Medicare coverage; PA metrics for AI/AN beneficiaries, I/T/U providers, and tribally owned products.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** AI/AN beneficiaries, I/T/U providers, tribal corporations and tribally owned product entities, CMS, payers, and tribal governments.
+- **Economic implications:** Not quantified; the comment implies potential economic and market harm to tribally owned products if PA criteria discriminate.
+- **Technical feasibility:** Disaggregated metrics would require data collection/reporting capability but no specific technical method is proposed.
+- **Patient care impact:** Anti-discrimination protections and transparent metrics could improve equitable access for AI/AN beneficiaries and I/T/U-furnished care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Formal, legal, rights-preserving
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "This correspondence constitutes a formal Government-to-Government submission pursuant to Executive Order 13175 and the HHS and CMS Tribal Consultation Policies." - Context: Establishing procedural status of the comment.
+2. "State on the record whether formal G2G tribal consultation was conducted on CMS-0062-P, and conduct such consultation before finalizing the rule." - Context: Core procedural request.
+3. "Bar prior authorization criteria that disadvantage FDA-regulated, tribally owned, or I/T/U-furnished products." - Context: Requested anti-discrimination protection.
+4. "Require disaggregated public reporting of prior authorization approval and denial metrics for AI/AN beneficiaries, I/T/U providers, and tribally owned products." - Context: Requested transparency and equity reporting.
+
+## 12. THEMES
+
+- [x] **HEALTH-EQUITY** - The comment seeks protections and metrics for AI/AN beneficiaries, I/T/U providers, and tribal products.
+- [x] **TRANSPARENCY** - It asks for public disaggregated PA approval and denial metrics and preamble response.
+- [x] **REGULATORY-AUTHORITY** - The comment invokes Executive Order 13175, tribal consultation policies, IHCIA, federal trust responsibility, APA, and treaty obligations.
+- [x] **STAKEHOLDER-COORDINATION** - The comment requests formal Government-to-Government consultation before finalization.
+- [x] **PATIENT-ACCESS** - Anti-discrimination protections could affect access to products for AI/AN beneficiaries and I/T/U settings.
+- [x] **API-USAGE-METRICS** - Although framed as PA metrics rather than API usage, the request aligns with metric reporting and public transparency.
+- [ ] **IMPLEMENTATION-TIMELINE** - Not addressed beyond consultation before finalization.
+- [ ] **COST-RESOURCES** - Not addressed.
+- [ ] **PROVIDER-BURDEN** - Not addressed.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **TECHNICAL-FEASIBILITY** - Not addressed in detail.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **EXISTING-WORKFLOWS** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+GOVERNMENT-TO-GOVERNMENT (G2G) COMMUNICATION
+This correspondence constitutes a formal Government-to-Government submission pursuant to Executive Order 13175 and the HHS and CMS Tribal Consultation Policies. It is submitted on behalf of the Tribal Biotechnology & Health Consortium by Clear Health Pass Holdings, LLC, in its capacity as Authorized Tribal Agent for ECHAGA Corporation (a Section 16 corporation of the Pine Ridge Oglala Sioux Tribe) and the Blue Lake Rancheria Economic Development Corporation (a Section 17 federally chartered corporation), pursuant to tribal governing-body authorization.
+
+This comment is submitted by Clear Health Pass Holdings, LLC, in its capacity as Authorized Tribal Agent, on behalf of the Tribal Biotechnology & Health Consortium - ECHAGA Corporation (Pine Ridge Oglala Sioux Tribe) and the Blue Lake Rancheria Economic Development Corporation - as a formal Government-to-Government submission under Executive Order 13175 and the HHS and CMS Tribal Consultation Policies.
+
+The Consortium's full comment on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P) is set forth in the attached PDF, which is the operative document. In summary, the Consortium requests that CMS: (1) state on the record whether formal G2G tribal consultation was conducted on CMS-0062-P, and conduct such consultation before finalizing the rule; (2) bar prior authorization criteria that disadvantage FDA-regulated, tribally owned, or I/T/U-furnished products....

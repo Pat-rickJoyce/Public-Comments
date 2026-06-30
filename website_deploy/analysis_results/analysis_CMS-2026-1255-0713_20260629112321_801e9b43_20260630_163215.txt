@@ -1,0 +1,154 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0713_20260629112321_801e9b43
+Commenter: Ketan Dayma, MD
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:32:15
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Ketan Dayma, MD; SUNY Upstate Medical University, New York
+- **Stakeholder type:** Healthcare Provider; Academic
+- **Credentials or expertise mentioned:** Physician and radiologist; work focuses on validation and governance of artificial intelligence in clinical decision-making; conducting research on concordance between payer coverage determinations and specialty-society clinical criteria, including NCCN and ACR criteria.
+
+## 2. EXECUTIVE SUMMARY
+
+Dr. Dayma strongly supports CMS's effort to standardize and accelerate electronic prior authorization, but warns that faster electronic transport alone will not make determinations accountable. He recommends requiring each automated or AI-assisted ePA determination to include a structured, machine-readable reference to the publicly accessible clinical criterion used, aligned with Medicare Advantage coverage-criteria policy and emerging state AI utilization-management laws.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** 42 CFR § 422.101(b)(6); CMS-4201-F; CMS-0062-P.
+- **Standards referenced:** HL7 FHIR Da Vinci standards; Prior Authorization API; NCCN Drugs & Biologics Compendium; ACR Appropriateness Criteria; NCDs/LCDs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Clinical basis of ePA determinations**
+- **Provision ID:** PA-DENIAL-REASONS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** The rule standardizes electronic transport of prior authorization decisions but does not require disclosure of the clinical criteria supporting approvals or denials. A denial transmitted quickly by API is still opaque if it does not identify the criterion applied.
+- **Specific request:** Require every ePA determination to include a structured reference to the specific clinical criterion or guideline applied, and require internal criteria to be publicly accessible.
+
+**Topic 2: Extending publicly accessible criteria requirements to drug PA**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** CMS already requires Medicare Advantage internal coverage criteria to be based on current evidence and publicly accessible when Medicare coverage criteria are not fully established. The commenter argues this principle should also govern drug prior authorization under the new ePA pathways.
+- **Specific request:** Clarify that the § 422.101(b)(6) publicly accessible internal coverage criteria standard applies to drug PA determinations made through this rule, including automated or algorithm-assisted determinations.
+
+**Topic 3: AI-assisted and algorithmic prior authorization**
+- **Provision ID:** GENERAL; PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** AI-assisted PA could scale opaque proprietary logic unless determinations are traceable to an auditable clinical criterion. The commenter does not oppose automation but wants the basis of automated decisions reconstructable by clinicians, patients, auditors, or courts.
+- **Specific request:** Require machine-readable criterion references for automated or algorithmically assisted determinations; when no public criterion exists, attribute individualized determinations to a licensed clinician reviewer.
+
+**Topic 4: Structured FHIR criterion-mapping element**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** A free-text explanation would be less interoperable, comparable, or auditable than a structured data element. Structured criterion data would also make public PA metrics more meaningful.
+- **Specific request:** Define a structured FHIR data element in the Prior Authorization API identifying guideline source, identifier, version, and date.
+
+**Topic 5: Alignment with state AI utilization-management laws**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** States are adopting AI-in-utilization-management transparency and accountability laws. A federal ePA standard without criterion mapping could conflict with or duplicate state requirements.
+- **Specific request:** Design criterion mapping so one structured determination record can support both federal ePA requirements and state AI utilization-management transparency/auditability requirements.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The comment supports FHIR-based ePA infrastructure for covered outpatient and Part D drugs, while requesting added clinical-accountability data in the workflow.
+- **S16:** The comment responds directly to what makes a denial reason specific, arguing that the reason should identify the precise publicly accessible clinical criterion applied.
+- **S17:** The commenter favors structured, machine-readable criterion references rather than unstructured explanations.
+- **S29:** The comment argues that public PA metrics become more meaningful when paired with structured criterion data that allows comparison across payers and services.
+- **S37:** Identifies an implementation gap: standards may move decisions faster but still leave determinations opaque unless clinical criteria are mapped into the data exchange.
+- **S66-S82:** Responds to broader RFIs on automation, accountability, transparency, and AI-assisted utilization management.
+
+## 6. RECOMMENDATIONS
+
+1. Require each ePA determination to reference the specific clinical criterion applied.
+2. Extend the § 422.101(b)(6) publicly accessible criteria principle to drug prior authorization under the rule's ePA pathways.
+3. Require AI-assisted or algorithmic determinations to be traceable to a publicly accessible criterion.
+4. Attribute determinations to a licensed clinician reviewer when individualized clinical judgment is used and no public criterion applies.
+5. Create a structured, machine-readable FHIR data element for clinical-criterion references, including source, identifier, version, and date.
+6. Align federal ePA criterion mapping with state AI utilization-management transparency and auditability laws.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Electronic prior authorization may automate opaque payer logic if determinations do not disclose the clinical criterion applied.
+- **Potential negative impacts cited:** Faster but unexplained denials; proprietary or vendor-controlled AI logic; limited auditability for patients, clinicians, regulators, and courts; conflict with emerging state AI transparency requirements.
+- **Implementation barriers mentioned:** Lack of structured clinical criterion fields in the Prior Authorization API and reliance on free text or payer attestations.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative data is provided.
+- **Studies or research referenced:** The commenter references his own research on concordance between payer coverage determinations and NCCN/ACR criteria; KFF Quick Insights on prior authorization data; CMS-4201-F and CMS FAQ guidance; California SB 1120; Indiana HB 1271; Utah SB 319.
+- **Examples provided:** NCCN Compendium for oncology drugs, ACR Appropriateness Criteria for advanced imaging, NCD/LCD citations, and state AI-in-utilization-management requirements.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, clinicians, payers, CMS, state regulators, AI/algorithm vendors, utilization management entities, oncology providers, radiologists, and auditors.
+- **Economic implications:** The comment does not quantify costs but argues structured criterion mapping could reduce duplicative federal/state compliance burden and make metrics more useful.
+- **Technical feasibility:** The commenter believes criterion mapping should be implemented as structured FHIR data rather than free text, implying feasibility within the ePA architecture.
+- **Patient care impact:** Criterion transparency could improve accountability for drug access decisions, particularly where denials affect oncology therapy or other clinically sensitive treatments.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, technical, cautionary
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Building the electronic pipes without specifying the clinical substrate that flows through them risks automating opacity at scale." - Context: Summary of the commenter's main concern.
+2. "A denial reason code communicated in 72 hours over a FHIR API is not more accountable than a faxed denial if neither references the specific, publicly accessible clinical criterion on which it rests." - Context: Rationale for criterion mapping.
+3. "The corrective is not to prohibit automation; automation is necessary and beneficial for the volume of drug authorizations at issue." - Context: Clarifies that the recommendation is transparency, not a ban on automation.
+4. "Electronic prior authorization should standardize not only how decisions move, but whether they can be explained." - Context: Closing summary of recommendations.
+
+## 12. THEMES
+
+- [ ] **IMPLEMENTATION-TIMELINE** - Not a major focus.
+- [ ] **COST-RESOURCES** - Not directly addressed, though the commenter says alignment with state law could reduce administrative burden.
+- [x] **PROVIDER-BURDEN** - Transparent criteria could reduce provider burden by making the basis for determinations clearer and appealable.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - Recommends a specific structured FHIR criterion-reference element as a technical design change.
+- [x] **STANDARDS-MATURITY** - Discusses the need to add clinical criterion data to ePA standards rather than relying only on transport standards.
+- [x] **PATIENT-ACCESS** - Focuses on accountability for drug PA determinations that can affect timely access to therapy.
+- [ ] **REGULATORY-AUTHORITY** - Does not challenge authority; cites existing CMS criteria policy as precedent.
+- [x] **STAKEHOLDER-COORDINATION** - Requests alignment between federal ePA standards and state AI utilization-management laws.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [x] **TRANSPARENCY** - Central theme: determinations must disclose the clinical criteria applied.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Builds on CMS ePA and MA coverage-criteria frameworks and compares API denials to existing fax-based opacity.
+- [x] **VENDOR-ECOSYSTEM** - Raises concern about proprietary, vendor-controlled AI logic in utilization management.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Dear CMS Administrator and Rule Review Team, 
+Thank you for the opportunity to comment on CMS-0062-P. I am a physician and radiologist at 
+SUNY Upstate Medical University in Syracuse, New York, where my work focuses on the 
+validation and governance of artificial intelligence in clinical decision-making. I am currently 
+conducting a research project on the concordance between payer coverage determinations and 
+publicly accessible, specialty-society-developed clinical criteria, specifically the National 
+Comprehensive Cancer Network (NCCN) Compendium for oncology drug therapy and the 
+American College of Radiology (ACR) Appropriateness Criteria for advanced imaging. 
+I write in strong support of CMS's continued effort to standardize and accelerate electronic prior 
+authorization (ePA), and to offer a focused recommendation: as CMS extends FHIR-based ePA 
+infrastructure to covered outpatient drugs and Part D drugs, the rule should ensure that 
+automated and AI-assisted prior authorization determinations are anchored to, and auditable 
+against, publicly accessible clinical criteria, not proprietary, undisclosed, or purely subjective 
+logic. Building the electronic pipes without specifying the clinical substrate that flows through 
+them risks automating opacity at scale. 
+My comments below identify five gaps in the current proposal and offer recommendations for 
+each. 
+1. The proposed rule standardizes the transport of prior authorization decisions but is 
+silent on the clinical basis of those decisions. 
+CMS-0062-P appropriately requires payers to implement the Prior Authorization API using the 
+HL7 FHIR Da Vinci standards, and to communicate decisions, reasons, and timelines 
+electronically. This is a meaningful advance in speed and transparency of process. However, the 
+rule does not address the substance of the determination: the clinical criteria against which a 
+drug request is approved or denied. 
+Electronic infrastructure that faithfully ...

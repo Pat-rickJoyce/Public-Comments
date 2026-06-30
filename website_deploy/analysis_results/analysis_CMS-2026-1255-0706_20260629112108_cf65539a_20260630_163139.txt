@@ -1,0 +1,173 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0706_20260629112108_cf65539a
+Commenter: Flexpa
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:31:39
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Flexpa; signed by Andrew Arruda, Josh Kelly, and Tom Hamilton
+- **Stakeholder type:** Technology Vendor / Consumer App Developer
+- **Credentials or expertise mentioned:** Connects third-party applications to payer FHIR APIs on behalf of patients and states it maintains connections to more payer Patient Access API implementations than any other organization.
+
+## 2. EXECUTIVE SUMMARY
+
+Flexpa supports extending prior authorization requirements to drugs, fixing IG versions, and requiring API endpoint reporting, but argues the rule's success depends on implementation quality. It recommends simple endpoint publication, automated app registration, durable patient credentials, claims timeliness expectations, Inferno conformance testing, sandboxes, third-party noncompliance reporting, enforcement, and continued expansion across plan types.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** API-ENDPOINT-REPORTING; API-USAGE-METRICS; FHIR-IG-REQUIRED; FF-SHOP-REQUIREMENTS; GENERAL; Patient Access API implementation issues related to the broader interoperability framework.
+- **Regulatory citations mentioned:** CMS-0062-P; no specific CFR sections cited.
+- **Standards referenced:** HL7 FHIR; SMART authorization guide; OAuth; CARIN IG for Blue Button; ONC Inferno; NDH Endpoint Profile.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Endpoint reporting format**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** Developers currently lack an authoritative source for payer API endpoints; discovery is manual and stale. Flexpa believes the NDH Endpoint Profile is uncertain and too complex for this purpose.
+- **Specific request:** Publish a simple flat list of endpoint URLs for each API and payer, include a distinct verified capability statement URL, require prompt updates, and treat unreachable/non-conformant listed endpoints as compliance signals.
+
+**Topic 2: Automated application registration**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Manual app vetting and discretionary registration criteria can block patient-authorized access before a patient can connect.
+- **Specific request:** Require standardized automated third-party app registration and prohibit payer vetting beyond legitimate technical security requirements.
+
+**Topic 3: Patient authentication and durable credentials**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Payer authentication and identity proofing vary widely; short token lifetimes and absent refresh tokens defeat longitudinal patient access.
+- **Specific request:** Set a floor for patient authentication, bar unnecessary barriers, and require refresh tokens and reasonable token lifetimes.
+
+**Topic 4: Claims timeliness through Patient Access API**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Stale adjudicated claims reduce the usefulness of patient-facing applications for cost management, financial assistance, and care navigation.
+- **Specific request:** Establish a maximum interval between claim adjudication and availability through the Patient Access API.
+
+**Topic 5: Conformance testing, published results, and sandboxes**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Flexpa has observed payers with incomplete or non-conformant Patient Access API data and nonconforming SMART/OAuth implementations.
+- **Specific request:** Require ONC Inferno conformance testing, published test results, mandatory sandbox environments, explicit IG versions, minimized overlap of divergent versions, and eventual certification of payer API technology.
+
+**Topic 6: Third-party compliance reporting and enforcement**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Self-reported payer metrics measure volume rather than quality and cannot reveal all defects seen by app developers.
+- **Specific request:** Create a structured third-party channel for reporting payer non-compliance and pair it with meaningful enforcement, including penalties for sustained non-compliance.
+
+**Topic 7: Expanding plan type coverage**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support / Modify
+- **Rationale:** Expanding covered populations reduces fragmentation for patients and developers.
+- **Specific request:** Add small group market QHP issuers on FF-SHOPs and use available levers, including COBRA continuation-related authority and coordination with DOL EBSA, to widen API coverage.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2/S3/S6/S18:** Supports specified IG versions, including CARIN IG for Blue Button, and urges CMS to minimize periods of divergent versions because conformance testing needs defined targets.
+- **S23/S24/S26/S27/S33:** Directly responds to endpoint reporting by recommending a flat endpoint URL list, verified capability statement URLs, prompt updates, and rejecting mandatory NDH Endpoint Profile use.
+- **S29/S30/S34/S35:** Says proposed usage metrics are useful but insufficient because they measure volume rather than quality; recommends third-party reporting and enforcement.
+- **S40/S41:** Supports adding FF-SHOP small group QHP issuers and encourages further expansion of covered plan types.
+- **S44/S50/S54/S55:** Supports conformance testing, published results, sandboxes, and eventual certification of payer API technology as part of implementation quality oversight.
+- **S66-S82:** Responds to the payer API implementation RFI with recommendations on app registration, authentication, claims timeliness, sandboxes, non-compliance reporting, and enforcement.
+
+## 6. RECOMMENDATIONS
+
+1. Publish API endpoint information as a flat list rather than using the NDH Endpoint Profile.
+2. Include verified capability statement URLs as distinct endpoint directory fields.
+3. Require automated application registration and prohibit discretionary app vetting that blocks patient-authorized access.
+4. Set authentication floors and require refresh tokens and reasonable token lifetimes.
+5. Establish a timeliness standard for adjudicated claims returned through the Patient Access API.
+6. Require ONC Inferno conformance testing, published results, and payer sandbox environments.
+7. Create a third-party channel for reporting payer API non-compliance.
+8. Enforce sustained API non-compliance with meaningful penalties.
+9. Continue expanding API requirements across additional plan types.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Endpoint discovery burden, NDH complexity, discretionary app blocking, weak patient authentication practices, stale claims data, non-conformant API implementations, reliance on self-reported metrics, and insufficient enforcement.
+- **Potential negative impacts cited:** Patients may be unable to connect apps, receive incomplete data, or get stale claims information; developers must repeatedly solve endpoint and conformance gaps.
+- **Implementation barriers mentioned:** Manual endpoint discovery, payer onboarding queues, inconsistent SMART/OAuth implementation, missing Coverage and ExplanationOfBenefit resources, lack of sandboxes, and multiple divergent IG versions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Flexpa states it maintains connections to more payer Patient Access API implementations than any other organization.
+- **Studies or research referenced:** Flexpa references its 2023 CMS-0057-P comment documenting non-conformant payer implementations.
+- **Examples provided:** Payers omitting Coverage or ExplanationOfBenefit resources; nonconforming SMART/OAuth implementations; stale adjudicated claims; unreachable or non-functional published endpoints.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, third-party application developers, payers, CMS, providers using patient-facing data, and QHP issuers.
+- **Economic implications:** Flat endpoint publication and automated registration reduce duplicated developer effort; conformance testing and sandboxes impose payer work but should reduce downstream integration costs.
+- **Technical feasibility:** Flexpa views flat endpoint lists, capability statement fields, Inferno testing, sandboxes, refresh tokens, and claims timeliness standards as feasible and necessary for real-world API usability.
+- **Patient care impact:** Better API reliability and timely claims can improve cost management, financial assistance, care navigation, and longitudinal patient access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Technical, practical, critical of implementation gaps
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Move from requesting comment to requiring conformance." - Context: Recommendation on Inferno testing, published results, and sandboxes.
+2. "The basis for access under these rules is the patient's authorization" - Context: Objection to discretionary app vetting.
+3. "An endpoint that is listed but non-functional is no better for a patient" - Context: Endpoint reporting compliance signal.
+4. "Visibility is only useful when paired with consequences." - Context: Third-party reporting and enforcement.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - While patient-app focused, the comment notes incomplete APIs and stale claims impede downstream care navigation and data use.
+- [x] **PRIVACY-SECURITY** - It addresses legitimate technical security in app registration and patient authentication floors.
+- [x] **TECHNICAL-FEASIBILITY** - The comment centers on practical API implementation, endpoint discovery, sandboxes, Inferno testing, and production usability.
+- [x] **STANDARDS-MATURITY** - It supports explicit IG versions and minimizing version divergence to make conformance testing credible.
+- [x] **PATIENT-ACCESS** - The comment is rooted in patient-authorized app access and reliable Patient Access API data.
+- [x] **STAKEHOLDER-COORDINATION** - It discusses coordination among CMS, payers, app developers, and potentially DOL EBSA.
+- [x] **TRANSPARENCY** - It calls for public endpoint lists, published test results, and third-party noncompliance reporting.
+- [x] **EXISTING-WORKFLOWS** - It recommends preserving and improving patient app onboarding, SMART/OAuth flows, and claims availability processes.
+- [x] **VENDOR-ECOSYSTEM** - Flexpa writes as a third-party app connector and emphasizes developer-facing barriers and compliance channels.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Centers for Medicare & Medicaid Services Department of Health and Human Services Attention: 
+CMS-0062-P P.O. Box 8013 Baltimore, MD 21244-8013 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P) 
+Background and Summary 
+Flexpa connects third-party applications to payer FHIR APIs on behalf of patients. We maintain 
+connections to more payer Patient Access API implementations than any other organization, 
+and our business depends on those APIs working the way the prior rules intended. That 
+vantage point is the basis for this comment. 
+ 
+We support the goals of the proposed rule. Extending prior authorization requirements to drugs, 
+pinning specific implementation guide versions, and requiring payers to report their API 
+endpoints to CMS all move the program forward. 
+ 
+Three years ago, in our comment on CMS-0057-P, we argued that the success of these APIs 
+would turn on whether payers implemented the existing ones uniformly and correctly, more than 
+on any new capability a rule might add. We renew that argument here. Most of our 
+recommendations concern the Patient Access API, where we have the deepest operating 
+experience and where the gap between a payer having an API and that API working remains 
+widest. 
+ 
+We recommend that CMS: 
+ 
+1.â€‹ Publish endpoint information as a simple flat list of endpoint URLs, and decline to require 
+the NDH Endpoint Profile for this purpose. 
+2.â€‹ Require support for automated application registration and bar discretionary app vetting 
+that blocks patient-authorized access. 
+3.â€‹ Set a floor on patient authentication and require durable credentials, including refresh 
+tokens and reasonable token lifetimes. 
+4.â€‹ Set a timeliness expectation for adjudicated claims returned through the Patient Access 
+API. 
+5.â€‹ Require conformance testing through ONC's Inferno, with published...

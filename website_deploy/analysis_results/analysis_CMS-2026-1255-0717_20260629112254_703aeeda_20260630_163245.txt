@@ -1,0 +1,232 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0717_20260629112254_703aeeda
+Commenter: Connected Health Initiative
+Source: PDF Attachment
+Analysis Date: June 30, 2026 16:32:45
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Connected Health Initiative (CHI); signed by Brian Scarpelli, Executive Director, and Chapin Gregor, Policy Counsel
+- **Stakeholder type:** Technology Vendor / Multi-stakeholder coalition
+- **Credentials or expertise mentioned:** Broad multi-stakeholder effort including patients, providers, payers, technology innovators, and many small and medium-sized software developers; focused on connected health, interoperability, patient access, digital health, and AI tools.
+
+## 2. EXECUTIVE SUMMARY
+
+CHI broadly supports CMS's standards-based interoperability direction, including electronic PA for drugs, required FHIR implementation guides, NCPDP pharmacy standards, adoption of FHIR for HIPAA PA transactions, centralized endpoint reporting, and extending requirements to FF-SHOP issuers. It asks CMS to coordinate closely with ASTP/ONC, provide realistic phased timelines, keep requirements technology-neutral and lightweight, support testing and conformance tools, and avoid disproportionate burdens on developers, payers, under-resourced providers, and small issuers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; FF-SHOP-REQUIREMENTS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL (event notifications, resiliency, payer API implementation, step therapy, lab/DMEPOS)
+- **Regulatory citations mentioned:** CMS-0062-P; RIN 0938-AV44; 91 Fed. Reg. 19890, 19892, 19893, 19895, 19896, 19896-97; HIPAA Administrative Simplification authority. No CFR sections cited directly.
+- **Standards referenced:** FHIR; HL7 FHIR Da Vinci implementation guides; NCPDP SCRIPT, Formulary & Benefit, and Real-Time Prescription Benefit; Patient Access, Provider Directory, Provider Access, Payer-to-Payer, and Prior Authorization APIs; ADT event notifications; ONC Health IT Certification Program; NIST Cybersecurity Framework; HHS Healthcare and Public Health Sector Cybersecurity Performance Goals; Health Industry Cybersecurity Practices under Section 405(d); CISA Known Exploited Vulnerabilities guidance; software bills of materials.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** CHI describes prior authorization as a major source of care delay and administrative cost and supports standardized API-based PA for all drugs, using FHIR for medical-benefit drugs and NCPDP standards for pharmacy-benefit drugs.
+- **Specific request:** Finalize electronic PA requirements for all drugs and keep requirements consistent across CMS programs and ASTP/ONC certification criteria.
+
+**Topic 2: Required FHIR implementation guides and version management**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support / Clarify
+- **Rationale:** CHI says making HL7 FHIR Da Vinci IGs required reduces variability and gives developers predictable requirements. It supports allowing any unexpired adopted version but warns that overlapping versions require clear schedules.
+- **Specific request:** Require the IGs, permit unexpired versions, and coordinate version adoption and expiration timelines with adequate transition overlap.
+
+**Topic 3: FHIR as a HIPAA prior authorization transaction standard**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support / Modify
+- **Rationale:** CHI supports adopting FHIR and associated guides for referral certification, authorization, and eligibility transactions related to prior authorization. It frames the change as consistent with API-based interoperability and administrative burden reduction.
+- **Specific request:** Adopt FHIR for HIPAA PA transactions while coordinating implementation, testing, and transition expectations.
+
+**Topic 4: Centralized payer API endpoint directory**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** CHI argues that APIs cannot deliver full value if developers, providers, and payers must locate endpoints individually. A centralized directory would reduce discovery burden, especially for Payer-to-Payer exchange.
+- **Specific request:** Publish an open, standardized, machine-readable, regularly updated endpoint directory and keep payer reporting requirements lightweight.
+
+**Topic 5: Comparable payer-side and provider-side technology standards**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** CHI says interoperability depends on both payer-side and provider-side technology advancing together, supported by conformance testing, performance expectations, and certification alignment.
+- **Specific request:** Pair API expectations with appropriate conformance testing, collaborate with payers and developers on achievable performance benchmarks, and phase benchmarks in over adequate timelines.
+
+**Topic 6: FF-SHOP issuer inclusion**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support / Modify
+- **Rationale:** CHI supports comparable protections for small group market QHP enrollees but recognizes meaningful implementation cost and operational complexity for some issuers.
+- **Specific request:** Extend requirements to FF-SHOP issuers using a phased, adequately resourced timeline, retain a narrowly tailored exception mechanism, and consider flexibility for genuine new entrants and issuers without prior API implementation.
+
+**Topic 7: Event notifications for value-based care**
+- **Provision ID:** GENERAL
+- **Position:** Support / Modify
+- **Rationale:** CHI views ADT-style event notifications as high-value for care coordination and readmission reduction, but urges FHIR-based standardization, privacy safeguards, and careful burden calibration.
+- **Specific request:** Advance FHIR-forward event notification criteria, align them with standards adopted elsewhere, provide accessible testing tools, and favor collaborative or voluntary approaches over new enforcement obligations.
+
+**Topic 8: Health care resiliency and cybersecurity**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** CHI supports resiliency improvements but cautions against duplicative cybersecurity mandates, especially for rural or under-resourced facilities and small developers.
+- **Specific request:** Anchor expectations to existing frameworks, expand cybersecurity safe harbors for donated security tools and training, scale software transparency measures appropriately, and coordinate across ASTP/ONC, OCR, and CISA.
+
+**Topic 9: Payer API implementation, testing, and real-world usability**
+- **Provision ID:** GENERAL; ONC-STANDARDS-UPDATE
+- **Position:** Support / Modify
+- **Rationale:** CHI supports automated testing, conformance mechanisms, reference implementations, sandboxes, and reasonable API response-time and availability expectations. It also flags fees and contracting terms as potential barriers to usability.
+- **Specific request:** Make automated testing tools, reference implementations, and sandboxes openly available; develop performance expectations collaboratively; and address practical API access barriers in a balanced way.
+
+**Topic 10: Step therapy data sharing**
+- **Provision ID:** GENERAL
+- **Position:** Support / Clarify
+- **Rationale:** CHI says transferring step therapy history through the Payer-to-Payer API can prevent patients from repeating therapies they have already completed after changing payers.
+- **Specific request:** Standardize data elements needed to evaluate, apply, and honor step therapy criteria through FHIR-based APIs.
+
+**Topic 11: Lab and DMEPOS prior authorization**
+- **Provision ID:** GENERAL
+- **Position:** Support / Modify
+- **Rationale:** CHI sees value in extending API-based PA to laboratory tests and DMEPOS if done over an appropriate timeframe and in consultation with affected stakeholders.
+- **Specific request:** Consider bringing lab and DMEPOS PA into the same standardized framework, explore transparency and selective exemptions, and develop relief for consistently compliant providers collaboratively with payers.
+
+## 5. SOLICITATION RESPONSES
+
+**Solicitation Responses:**
+- **S1:** CHI supports requiring, rather than recommending, FHIR IGs because mandatory IGs reduce variability and support predictable development.
+- **S2:** CHI supports use of unexpired adopted versions but asks CMS and ASTP/ONC to coordinate version adoption and expiration.
+- **S3:** CHI asks for clearly communicated transition schedules and adequate overlap where multiple unexpired versions exist.
+- **S12:** CHI supports incorporating medical-benefit drugs into the FHIR Prior Authorization API.
+- **S14:** CHI supports NCPDP SCRIPT, Formulary & Benefit, and RTPB standards for pharmacy-benefit drugs across impacted payers.
+- **S21:** CHI supports extending drug ePA but asks CMS to use realistic implementation timelines and align requirements across programs.
+- **S23:** CHI supports endpoint reporting and, while not raising endpoint-specific security objections, separately emphasizes privacy safeguards and cybersecurity alignment.
+- **S24:** CHI supports reporting Patient Access, Provider Directory, Provider Access, Payer-to-Payer, and Prior Authorization API endpoints and related information.
+- **S26:** CHI asks that endpoint publication be open, standardized, machine-readable, and lightweight for reporting entities.
+- **S27:** CHI asks that the endpoint directory be regularly updated.
+- **S33:** CHI supports centralized CMS publication of endpoint information as a reliable directory.
+- **S37:** CHI identifies implementation challenges around timeline realism, cost, technical complexity, version transitions, testing, and performance expectations.
+- **S40:** CHI supports including small group market QHP issuers on FF-SHOPs so patients receive comparable protections across markets.
+- **S41:** CHI requests a phased, adequately resourced timeline for FF-SHOP implementation.
+- **S42:** CHI supports retaining a narrowly tailored exception mechanism and additional flexibility for new entrants or issuers without prior API implementation.
+- **S44:** CHI supports FHIR as appropriate for prior authorization transactions under HIPAA Administrative Simplification.
+- **S45:** CHI supports applying FHIR and associated guides to referral certification, authorization, and eligibility transactions related to dental, professional, and institutional PA.
+- **S47:** CHI urges workable transition periods and adequate overlap between versions.
+- **S49:** CHI highlights small and medium-sized software developers and small issuers as stakeholders that may face disproportionate burden if requirements are not phased and supported.
+- **S50:** CHI supports required FHIR Da Vinci IGs and asks for careful version management.
+- **S53:** CHI supports phased implementation for performance expectations and complex new requirements.
+- **S54:** CHI supports conformance testing, automated testing tools, reference implementations, and sandboxes.
+- **S55:** CHI favors collaborative and proportionate approaches, particularly for event notifications and performance expectations, rather than disproportionate enforcement burdens.
+- **S60:** CHI supports coordinated standards versioning and expiration across CMS and ASTP/ONC.
+- **S61:** CHI calls for coordination across CMS, ASTP/ONC, OCR, and CISA to avoid overlapping or inconsistent mandates.
+- **S62:** CHI supports accessible testing tools and certification/conformance mechanisms.
+- **S63:** CHI asks for clear expiration schedules and adequate overlap for standards transitions.
+- **S66-S82:** CHI responds to several general RFIs, including event notifications, resiliency, payer API implementation, step therapy, and lab/DMEPOS. Across these, it favors FHIR-based standardization, practical testing infrastructure, privacy and cybersecurity safeguards, voluntary/collaborative implementation where appropriate, and burden-sensitive phasing.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for all drugs using FHIR for medical-benefit drugs and NCPDP standards for pharmacy-benefit drugs.
+2. Align CMS requirements with ASTP/ONC certification criteria so developers can build once and deploy across settings.
+3. Make FHIR Da Vinci IGs required and manage version transitions with clear schedules and adequate overlap.
+4. Adopt FHIR and associated guides for HIPAA PA-related referral certification, authorization, and eligibility transactions.
+5. Create an open, standardized, machine-readable, regularly updated CMS endpoint directory.
+6. Keep endpoint reporting lightweight.
+7. Pair API expectations with conformance testing and collaboratively developed performance expectations.
+8. Phase in performance benchmarks and complex requirements over adequate timelines.
+9. Extend interoperability and PA protections to FF-SHOP issuers with appropriate exceptions and flexibility.
+10. Advance FHIR-based event notifications while preserving privacy safeguards and limiting disproportionate enforcement burden.
+11. Anchor resiliency expectations to existing cybersecurity frameworks and expand cybersecurity safe harbors.
+12. Provide automated testing tools, reference implementations, and open sandboxes for developers.
+13. Standardize step therapy data elements for exchange through FHIR APIs.
+14. Consider extending standardized API-based PA to laboratory tests and DMEPOS after consultation and over an appropriate timeframe.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Regulatory misalignment, version-transition uncertainty, duplicative implementations, endpoint discovery burden, API usability barriers, disproportionate costs for small developers and issuers, cybersecurity mandate fragmentation, and insufficient testing infrastructure.
+- **Potential negative impacts cited:** Higher development and compliance costs, delayed implementation, barriers to entry, inconsistent API performance, underused APIs despite nominal availability, and avoidable burden on under-resourced providers and facilities.
+- **Implementation barriers mentioned:** Multiple versions of standards, endpoint discovery, conformance testing gaps, response-time and availability expectations, fees or contracting barriers, cybersecurity supply-chain transparency burdens, and FF-SHOP issuer readiness.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative implementation cost estimates or adoption statistics provided.
+- **Studies or research referenced:** No studies cited.
+- **Examples provided:** ADT event notifications for care transitions; Payer-to-Payer API transfer of step therapy history; FHIR APIs as an alternative to one-off point-to-point connections; use of SBOMs and supply-chain attestations for resiliency.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, providers, payers, technology developers, small and medium-sized software companies, small group QHP issuers, new market entrants, under-resourced and rural facilities, remote monitoring services, care management platforms, and patient-authorized applications.
+- **Economic implications:** CHI expects standardization to reduce duplicative development and administrative burden but warns that compliance, cybersecurity, testing, and performance expectations can create real costs if not phased and scaled.
+- **Technical feasibility:** CHI views the technical direction as feasible if based on FHIR, NCPDP, accessible testing tools, reference implementations, sandboxes, coordinated certification, and realistic timelines.
+- **Patient care impact:** CHI expects improved data access, reduced PA friction, better care coordination, fewer repeated step therapy requirements, improved resilience, and stronger support for digital health tools.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with implementation-focused modifications
+- **Tone:** Technical, collaborative, policy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "build once and deploy across settings" - Context: CHI's alignment request.
+2. "required reduces variability" - Context: Support for mandatory FHIR IGs.
+3. "machine-readable endpoint directory" - Context: Support for centralized endpoint reporting.
+4. "risk-proportionate and outcome-focused" - Context: Cybersecurity and software transparency recommendations.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - CHI repeatedly asks for realistic, phased timelines and adequate transition overlap.
+- [x] **COST-RESOURCES** - The comment recognizes real implementation cost and burden for payers, developers, small issuers, and under-resourced facilities.
+- [x] **PROVIDER-BURDEN** - CHI supports electronic PA and event notifications as ways to reduce administrative friction for clinicians and providers.
+- [x] **PRIVACY-SECURITY** - CHI discusses privacy safeguards for notifications and detailed cybersecurity/resiliency recommendations.
+- [x] **TECHNICAL-FEASIBILITY** - The comment focuses heavily on testing, conformance, API performance, versioning, certification, sandboxes, and reference implementations.
+- [x] **STANDARDS-MATURITY** - CHI supports required FHIR IGs but asks for careful version adoption and expiration management.
+- [x] **PATIENT-ACCESS** - CHI links ePA, data access, step therapy history, and care coordination to improved patient outcomes and access.
+- [x] **STAKEHOLDER-COORDINATION** - CHI calls for collaboration among CMS, ASTP/ONC, OCR, CISA, payers, providers, developers, and other stakeholders.
+- [x] **TRANSPARENCY** - CHI supports endpoint directory publication and proportionate API performance transparency.
+- [x] **SMALL-PAYER-IMPACT** - The comment flags FF-SHOP issuers, small issuers, and new entrants as needing phased timelines and exception flexibility.
+- [x] **EXISTING-WORKFLOWS** - CHI emphasizes build-once implementation, API usability, step therapy transfer, and avoiding duplicative workflows.
+- [x] **VENDOR-ECOSYSTEM** - The comment is strongly developer-focused, especially for small and medium-sized software developers.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 9, 2026 
+ 
+ 
+The Honorable Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+Hubert H. Humphrey Building 
+200 Independence Avenue SW 
+Washington, DC 20201 
+ 
+ 
+Re:   
+Comments of the Connected Health Initiative, Medicare and Medicaid Programs; 
+Patient Protection and A2ordable Care Act; Interoperability Standards and Prior 
+Authorization for Drugs (CMS-0062-P; RIN 0938-AV44; 91 Fed. Reg. 19890, April 14, 2026) 
+ 
+Dear Administrator Oz: 
+ 
+The Connected Health Initiative (CHI) appreciates the opportunity to comment on the proposed 
+rule issued by the Centers for Medicare & Medicaid Services (CMS) and the Assistant Secretary for 
+Technology Policy and OPice of the National Coordinator for Health Information Technology 
+(ASTP/ONC) on interoperability standards and prior authorization for drugs.1 
+ 
+CHI is a broad multistakeholder ePort that brings together patients, providers, payers, and 
+technology innovators, including many small and medium-sized software developers, to advance a 
+connected and interoperable health care system. Our comments focus on the proposed changes to 
+the Medicare Promoting Interoperability (PI) Program, which fall within CHI's core interests in 
+interoperability, patient access to health data, and the responsible use of digital health tools. 
+ 
+I. 
+Introduction and Statement of Interest 
+ 
+CHI is a leading multistakeholder ePort dedicated to realizing the full potential of connected health 
+technologies to improve patient outcomes, lower the cost of care, and expand access. CHIâ€™s 
+participants include patients, providers, payers, and the technology developers who build the 
+digital health tools that patients and clinicians rely on every day. Standardized, predictable, and 
+openly accessible health data infrastructure beneï¬ts every participant in this ecosystem. 
+CHI prioritizes interoperability and patient access to health data, the ...

@@ -1,0 +1,138 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0694_20260629112322_8e6bac46
+Commenter: American Society of Health-System Pharmacists (ASHP)
+Source: PDF Attachment
+Analysis Date: 2026-06-30 16:30:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Society of Health-System Pharmacists (ASHP); signed by Jillanne Schulte Wall, J.D., Senior Director, Health & Regulatory Policy.
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** ASHP represents over 65,000 pharmacists, student pharmacists, and pharmacy technicians in hospitals, ambulatory clinics, and health-system community pharmacies.
+
+## 2. EXECUTIVE SUMMARY
+
+ASHP supports CMS's proposed modernization of drug prior authorization and interoperability requirements, emphasizing that delays harm patients and burden pharmacists, prescribers, and health systems. It recommends shorter decision timelines, a roadmap toward near real-time determinations, greater automation with clinician oversight, transparency for AI-assisted review, and broader prior authorization reforms such as gold carding and reduced PA volume.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** Not addressed.
+- **Standards referenced:** Standards-based data exchange, electronic prior authorization, standardized electronic attachments; no specific FHIR IG or NCPDP standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Shorter Prior Authorization Decision Timelines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Authorization delays can interrupt therapy, prolong hospital stays, delay discharges, cause emergency department revisits, and worsen patient health.
+- **Specific request:** CMS should significantly shorten the 72-hour standard request timeline, automatically expedite selected decisions such as reauthorization for ongoing treatment and medications initiated in the hospital or at discharge, and create a roadmap toward near real-time determinations.
+
+**Topic 2: Automated and Streamlined Determinations**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support/Modify
+- **Rationale:** Electronic processes should not merely digitize manual review; structured clinical data should enable automated approvals when coverage criteria are met.
+- **Specific request:** CMS should encourage payers to use structured clinical data for automated approvals and allow pharmacists and prescribers to determine at prescribing and dispensing whether authorization is required and whether clinical information satisfies plan requirements.
+
+**Topic 3: Oversight of AI-Assisted Prior Authorization Review**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Automated review may be useful but could harm medically complex patients if deployed without adequate clinician review and transparency.
+- **Specific request:** CMS should establish a regulatory framework for AI-assisted prior authorization tools, including denial-rationale transparency and adequate training data sets.
+
+**Topic 4: Future Prior Authorization Reform**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** ASHP views the rule as a first step and believes broader reforms are needed to reduce administrative burden.
+- **Specific request:** CMS should reduce PA volume where approval rates are consistently high, expand gold carding, expand standardized electronic attachments, and increase consistency across public and private payer requirements.
+
+## 5. SOLICITATION RESPONSES
+
+- **S20:** ASHP addresses drug PA timeframes by urging CMS to shorten standard decision timeframes and automatically expedite selected drug requests tied to ongoing treatment, hospitalization, or discharge.
+- **S43:** ASHP supports alignment toward faster, more standardized timeframes and recommends a progressive roadmap toward near real-time decisions as electronic workflows mature.
+- **S16:** ASHP indirectly addresses denial specificity by requesting transparency in AI-assisted denials, including clear rationale for denial decisions.
+- **S66-S82:** ASHP's broader recommendations on gold carding, lower PA volume, standardized attachments, and payer consistency respond to general reform RFIs.
+
+## 6. RECOMMENDATIONS
+
+1. Significantly shorten the 72-hour standard prior authorization decision timeframe.
+2. Automatically expedite reauthorizations for ongoing treatment and medications initiated during hospitalization or at discharge.
+3. Establish a roadmap toward near real-time PA determinations when sufficient clinical information is available.
+4. Encourage automated approvals using structured clinical data when coverage criteria are met.
+5. Require clinician review and transparency for AI-assisted prior authorization decisions, especially for medically complex patients.
+6. Reduce PA requirements for services and medications with consistently high approval rates.
+7. Expand gold carding for providers with demonstrated evidence-based prescribing practices.
+8. Expand standardized electronic attachments and promote consistency across payer authorization requirements.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, administrative burden, lack of transparency in automated or AI-assisted denials, and persistence of manual review under electronic workflows.
+- **Potential negative impacts cited:** Therapy interruptions, prolonged hospital stays, delayed discharges, emergency department revisits, avoidable health deterioration, and burden on pharmacists, prescribers, patients, and health systems.
+- **Implementation barriers mentioned:** Need for mature interoperability capabilities, payer adoption of structured data, and governance of automated review tools.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ASHP represents over 65,000 pharmacy professionals.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Delayed discharges, prolonged hospital stays, ED revisits, ongoing-course reauthorizations, and medications initiated in hospital or at discharge.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Pharmacists, prescribers, patients, hospitals, health systems, payers, and medically complex patients.
+- **Economic implications:** Not quantified, but reduced administrative work and shorter hospital stays could lower system burden.
+- **Technical feasibility:** ASHP views real-time determinations as an achievable future state as standards-based exchange and automated decision support mature.
+- **Patient care impact:** Faster determinations and fewer PA barriers would improve medication access, continuity of therapy, and care transitions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "ASHP strongly supports CMS's continued efforts to modernize prior authorization processes, improve interoperability, and reduce administrative burden." - Context: Overall position on the proposed rule.
+2. "We recommend that CMS automatically expedite certain prior authorization decisions such as any required reauthorization for an ongoing course of treatment, authorization for medications initiated in the hospital and at discharge." - Context: Request for faster decision timelines.
+3. "The full value of interoperability will not be realized if electronic transactions simply replicate manual review processes in a digital format." - Context: Rationale for automation and streamlined determinations.
+4. "CMS should establish a regulatory framework governing these tools to ensure that they are transparent regarding rationale for denials." - Context: Concern about AI-assisted review.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ASHP urges shorter standard and urgent decision timelines and a roadmap toward near real-time decisions.
+- [x] **PROVIDER-BURDEN** - The comment emphasizes time pharmacists and prescribers spend navigating PA requirements and submitting documentation.
+- [x] **TECHNICAL-FEASIBILITY** - ASHP supports structured data and automated decision support as interoperability matures.
+- [x] **PATIENT-ACCESS** - The comment focuses on delays that impede timely medication access and continuity of care.
+- [x] **TRANSPARENCY** - ASHP seeks transparency in denial rationales, particularly when AI-assisted tools are used.
+- [x] **EXISTING-WORKFLOWS** - Recommendations address integration at prescribing, dispensing, discharge, and reauthorization points.
+- [ ] **COST-RESOURCES** - Not addressed.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed in detail.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **STAKEHOLDER-COORDINATION** - Not addressed in detail.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+American Society of Health-System Pharmacists - 4500 East-West Highway, Suite 900, Bethesda, MD 20814 - (866) 279-0681 - ashp.org
+June 15, 2026
+[Submitted electronically to www.regulations.gov]
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244
+Re: Docket No. CMS-0062-P - Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges.
+Dear Administrator Oz:
+The American Society of Health-System Pharmacists (ASHP) appreciates the opportunity to submit comments to Centers for Medicare & Medicaid Services (CMS) regarding its proposed rule on interoperability standards and prior authorization for prescription drugs. ASHP is the largest association of pharmacy professionals in the United States, representing over 65,000 pharmacists, student pharmacists, and pharmacy technicians in all patient care settings, including hospitals, ambulatory clinics and health-system community pharmacies.
+ASHP strongly supports CMS's continued efforts to modernize prior authorization processes, improve interoperability, and reduce administrative burden. Pharmacists routinely encounter delays associated with prior authorization requirements that impede timely access to medically necessary medications and place substantial burdens on patients, prescribers, pharmacists, and health systems. CMS's proposed changes represent progress toward a more efficient and patient-centered authorization process.
+While ASHP supports the proposed requirements, we believe CMS should use this rulemaking to establish a pathway toward even more timely and transparent prior authorization processes....
