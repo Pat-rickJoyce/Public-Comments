@@ -1,0 +1,176 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0544
+Commenter: Asthma and Allergy Foundation of America
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:09:47
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Asthma and Allergy Foundation of America (AAFA); signed by Kenneth Mendez, President and Chief Executive Officer
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** AAFA states it is the leading patient organization advocating for people with asthma and allergies and the oldest asthma and allergy patient group in the world.
+
+## 2. EXECUTIVE SUMMARY
+
+AAFA supports CMS's efforts to streamline prior authorization and step therapy through technology and data sharing, especially where these processes delay access to asthma medications. AAFA urges CMS to finalize electronic prior authorization requirements for both medical- and pharmacy-benefit drugs, require clear denial communications, preserve continuity of care, make metrics meaningful, ensure PBM involvement does not undermine compliance, and create standardized step therapy exception and recognition processes.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; API-USAGE-METRICS; PATIENT-ACCESS-related general issues; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** No specific standards named; the comment generally refers to technology, data sharing, electronic prior authorization, and interoperability.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend Electronic Prior Authorization Requirements to Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Prior authorization can delay or block asthma patients from receiving the treatment best suited to their condition, creating clinical risk and long-term cost.
+- **Specific request:** Finalize the proposal to extend electronic PA requirements to drugs under both the medical and pharmacy benefits.
+
+**Topic 2: Denial Communication and Appeals Support**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Clear and timely denial communications are needed so patients and providers can rapidly appeal, correct, resubmit, or request exceptions.
+- **Specific request:** Require clear, timely denial communications that support rapid appeals, corrections, resubmissions, and exception requests.
+
+**Topic 3: Continuity of Care**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patients should not lose access to effective therapy or repeat administrative hurdles because of coverage or plan changes.
+- **Specific request:** Ensure implementation facilitates continuity of care and require recognition of previous payer step therapy determinations.
+
+**Topic 4: Public Reporting and Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Prior authorization reporting should be clear and meaningful to all stakeholders, including patients and providers.
+- **Specific request:** Make public reporting and metrics on prior authorization data clear and meaningful.
+
+**Topic 5: PBM Compliance and Patient Protections**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify / Modify
+- **Rationale:** PBM involvement in drug purchasing and administration should not weaken patient protections or interoperability obligations.
+- **Specific request:** Ensure PBM involvement does not diminish compliance with patient protections and interoperability.
+
+**Topic 6: Step Therapy Exceptions and Standardization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can require patients to cycle through ineffective medications despite asthma's heterogeneous nature and individualized treatment needs.
+- **Specific request:** Require clear step therapy exception processes for all CMS-jurisdiction plans, with responses within 72 hours and 24 hours for emergencies, recognition of prior determinations, and standardized step therapy information/processes.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12 / S15 / S21:** AAFA supports extension of electronic PA requirements to drugs under both medical and pharmacy benefits to reduce delays for patients with asthma.
+- **S14 / S19 / S22 / S25 / S31:** The comment supports pharmacy-benefit drug PA requirements generally and asks CMS to ensure PBM involvement does not reduce compliance with interoperability or patient protections.
+- **S16-S17:** AAFA requests clear and timely denial communications that permit rapid appeals, corrections, resubmissions, and exceptions.
+- **S29-S35:** AAFA asks CMS to make public PA reporting and metrics clear and meaningful for all stakeholders.
+- **S66-S82:** The comment responds to step therapy-related RFI themes, requesting exceptions processes, 72-hour/24-hour response timeframes, recognition of prior payer determinations, and standardized step therapy information.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize the proposal to extend electronic prior authorization requirements to drugs under both medical and pharmacy benefits.
+2. Require clear and timely denial communications that support appeals, corrections, resubmissions, and exception requests.
+3. Ensure implementation facilitates continuity of care for patients.
+4. Make public PA reporting and metrics clear and meaningful to all stakeholders.
+5. Ensure PBM involvement does not reduce compliance with patient protections or interoperability.
+6. Require all CMS-jurisdiction plans to develop clear step therapy exception processes.
+7. Require responses to step therapy exception requests within 72 hours, or 24 hours for emergency requests.
+8. Require recognition of previous payer step therapy determinations so stable patients do not have to repeat failed therapy steps after plan or employment changes.
+9. Standardize step therapy information and processes across payers.
+10. Continue reducing prior authorization and step therapy burden beyond programs directly under CMS jurisdiction through stakeholder collaboration.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed access to asthma medications, forced ineffective medication trials, lack of transparency, nonclinical access restrictions, and potential PBM-related compliance gaps.
+- **Potential negative impacts cited:** Severe or irreversible health outcomes, permanent lung damage, reduced lung function, pregnancy complications, reduced quality of life, worsening symptoms, higher long-term costs, and delays in care.
+- **Implementation barriers mentioned:** Variation across payers; PBM involvement; lack of standardized step therapy exceptions; insufficient transparency in denials and metrics.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Asthma affects nearly 28 million Americans, including about 5 million children; asthma causes almost 1 million emergency department visits annually and an average of 10 deaths per day.
+- **Studies or research referenced:** National Center for Health Statistics 2024 NHIS adult and child summary health statistics; AHRQ/CDC 2020 healthcare use data; National Vital Statistics System mortality data.
+- **Examples provided:** Controller medication, quick-relief medication, combination medication, biologic immunomodulators, and step therapy requiring patients to try less effective or ineffective medications.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Asthma and allergy patients, children with asthma, pregnant patients with asthma, clinicians, payers, PBMs, and federal health program beneficiaries.
+- **Economic implications:** AAFA argues delayed or restricted medication access can be more expensive in the long term due to worsened health and avoidable care utilization.
+- **Technical feasibility:** Comment does not analyze technical standards; it assumes technology and data sharing can streamline PA and step therapy if implemented with patient protections.
+- **Patient care impact:** High; asthma care is individualized, and delays can lead to serious, irreversible, or fatal outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, patient-centered, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We appreciate CMS’s effort to identify how to streamline the prior authorization and step therapy processes through technology and data sharing." - Context: Opening support for CMS's overall direction.
+2. "For people with asthma, delays in care can lead to severe or even irreversible health outcomes." - Context: Rationale for reducing PA and step therapy delays.
+3. "Finalize the proposal to extend electronic prior authorization requirements to drugs, to reduce delay for drugs under both the medical and pharmacy benefits." - Context: Primary PA recommendation.
+4. "No patient should be required to stop taking an effective treatment and repeat another step therapy process simply due to a change in employment or health insurance plan." - Context: Continuity-of-care recommendation for step therapy.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests 72-hour and 24-hour response deadlines for step therapy exceptions.
+- [x] **PROVIDER-BURDEN** - Notes PA and step therapy force doctors and patients into inefficient, burdensome compromise decisions.
+- [x] **HEALTH-EQUITY** - Focuses on patient protections for a common chronic disease affecting millions, including children.
+- [x] **PATIENT-ACCESS** - Central theme; emphasizes timely access to appropriate asthma medications.
+- [x] **STAKEHOLDER-COORDINATION** - Asks CMS to work with all stakeholders to reduce PA and step therapy burden.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Specifically supports requirements for drugs under both medical and pharmacy benefits.
+- [x] **TRANSPARENCY** - Requests clear denial communications and meaningful public metrics.
+- [x] **EXISTING-WORKFLOWS** - Addresses current PA and step therapy processes that delay or block treatment.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1400 Crystal Drive • Suite 660 • Arlington, VA 22202 • 202-466-7643 • 800-7-ASTHMA • aafa.org 
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Blvd 
+Baltimore, MD 21244  
+Submitted via www.regulations.gov 
+ 
+Re: Proposed Rule:  Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed 
+Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated 
+Exchanges 
+ 
+Dear Administrator Oz, 
+ 
+On behalf of the Asthma and Allergy Foundation of America (AAFA), I am writing to 
+provide our comments regarding the proposed rule noted above. AAFA is the leading 
+patient organization advocating for people with asthma and allergies, and the oldest 
+asthma and allergy patient group in the world. 
+ 
+We appreciate CMS’s effort to identify how to streamline the prior authorization and 
+step therapy processes through technology and data sharing, and, most importantly, 
+address unnecessary barriers to patient health.   
+ 
+Asthma is one of the most common chronic diseases in the U.S., affecting nearly 28 
+million Americans, including about 5 million children.1,2  Asthma leads to almost 1 
+ 
+1 National Center for Health Statistics. 2024 NHIS Adult Summary Health Statistics. Data accessed 
+February 19, 2026. Available from https://data.cdc.gov/d/25m4-6qqq 
+2 National Center for Health Statistics. 2024 NHIS Child Summary Health Statistics. Data accessed 
+February 19, 2026. Available from https://data.cdc.gov/d/wxz7-ekz9 
+ 
+ 
+1400 Crystal Drive • Suite 660 • Arlington, VA 22202 • 202-466-7643 • 800-7-ASTHMA • aafa.org 
+2
+million emergency department visits in the U.S. per year,3 and causes an average of 
+10 deaths every day.4 
+ 
+While there...

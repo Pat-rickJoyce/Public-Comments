@@ -1,0 +1,156 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0560_20260629112051_39c3b773
+Commenter: Healthy Aging Coalition Members and Friends
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:23:18
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Healthy Aging Coalition Members and Friends, led by Vicki Shepard, Founder and CEO, Healthy Aging Coalition.
+- **Stakeholder type:** Advocacy Group; coalition including researchers, clinicians, academic leaders, industry experts, community-based organizations, foundations, businesses, faith-based organizations, and government leaders.
+- **Credentials or expertise mentioned:** Coalition members include leaders from aging, clinical, community health, research, philanthropy, and advocacy organizations focused on healthy aging and longevity.
+
+## 2. EXECUTIVE SUMMARY
+
+The Healthy Aging Coalition supports CMS's prior authorization reform goals but urges CMS to make transparency data findable, centralized, standardized, and useful to older adults and advocates. The Coalition asks CMS to extend consumer-accessible PA metrics to Medicare Part D drugs and require PA metric reporting by service category rather than only aggregate counts.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** API-ENDPOINT-REPORTING by analogy to centralized publication; API-USAGE-METRICS; PA-DRUG-PHARMACY; TRANSPARENCY; PA-DRUG-MEDICAL to the extent the proposal covers medical benefit drugs; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations are discussed in detail; references CMS-0062-P, CMS-0057-F, MA-PD, and Medicare Part D reporting.
+- **Standards referenced:** Machine-readable CSV or JSON formats; public posting standards; CMS.gov centralized database. No FHIR IG or NCPDP standard is materially addressed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Centralized and Findable Public PA Metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Existing PA metrics posted under CMS-0057-F are often buried, inconsistently labeled, hard to compare, and inaccessible to beneficiaries and researchers.
+- **Specific request:** Require standardized headings and site architecture, prominent links within no more than two clicks, machine-readable CSV/JSON in addition to PDFs, and a CMS-operated searchable public database.
+
+**Topic 2: Extend Transparency to Part D Drug PA Metrics**
+- **Provision ID:** PA-DRUG-PHARMACY; API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify/Oppose exclusion
+- **Rationale:** Existing Part D coverage determination data is not public in a consumer-accessible format and does not provide PA approval, denial, and overturn metrics.
+- **Specific request:** Require MA-PD plans to publicly post Part D drug PA metrics on the same schedule and format as other impacted payers and include that data in any centralized CMS database.
+
+**Topic 3: Numeric Count Reporting for PA Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** Numeric counts improve oversight, but aggregate counts can mask service-specific access problems.
+- **Specific request:** Finalize numeric counts for PA requests, approvals, denials, and appeals, and segment all publicly reported PA metrics by major service category.
+
+**Topic 4: Service-Level Transparency**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** High denial or overturn rates may be hidden in aggregate reporting even when specific care categories, such as SNF admissions, show concerning patterns.
+- **Specific request:** Require reporting by inpatient hospital, outpatient, pharmacy, behavioral health, skilled nursing/rehabilitation, post-acute, and other major service categories.
+
+## 5. SOLICITATION RESPONSES
+
+- **S24:** Recommends specific public posting content and format for PA transparency data, including standardized labels and machine-readable CSV/JSON.
+- **S26:** Supports standardized file formats and site architecture to enable comparison and independent analysis.
+- **S27:** Implies consistent schedule alignment across payer types, including MA-PD Part D drug PA metrics.
+- **S29:** Supports numeric counts and recommends major service category segmentation.
+- **S34:** Supports regular public reporting in a standardized location and centralized CMS database.
+- **S35:** Supports CMS publication of aggregated and payer-specific data through a searchable public repository.
+- **S28/S31 by implication:** Opposes excluding MA-PD Part D drugs from transparency requirements and argues existing Part D reporting is not duplicative.
+
+## 6. RECOMMENDATIONS
+
+1. Require standardized PA metric labels and website architecture.
+2. Require payer PA metrics to be available within no more than two clicks from a prominent plan webpage or member portal location.
+3. Require machine-readable CSV or JSON in addition to PDF.
+4. Establish a CMS-operated, centralized, searchable database for PA metrics.
+5. Require MA-PD plans to publicly report Part D drug PA metrics.
+6. Include Part D drug PA data in the centralized CMS database.
+7. Finalize numeric count reporting for PA requests, approvals, denials, and appeals.
+8. Require PA metrics to be segmented by major service category.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Transparency data is technically posted but difficult to find or use; Part D exclusion creates a major information gap; aggregate data masks service-specific problems.
+- **Potential negative impacts cited:** Older adults and caregivers cannot compare plans or understand PA practices; medically necessary care may be delayed or denied without meaningful accountability.
+- **Implementation barriers mentioned:** Inconsistent payer website architecture, obscure headings, inaccessible formats, and fragmented data sources.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** June 2026 OIG report found MA organizations overturned 95 percent of appealed SNF admission PA denials.
+- **Studies or research referenced:** HHS OIG reports on SNF admissions, inpatient rehabilitation facilities, and long-term acute care hospitals.
+- **Examples provided:** PA metrics buried in dense plan documents; data nested deep on carrier websites; Part D data submitted to CMS but not meaningfully available to beneficiaries.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare beneficiaries, older adults, caregivers, healthcare providers, researchers, advocates, policymakers, MA-PD plans, and impacted payers.
+- **Economic implications:** Centralized transparency may increase compliance work for payers but improve oversight, plan comparison, and accountability.
+- **Technical feasibility:** Practical and achievable; the commenter points to CMS's proposed centralized API endpoint reporting as a model.
+- **Patient care impact:** Strongly positive if CMS makes PA practices visible by plan, drug/service type, and service category.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications.
+- **Tone:** Professional, consumer-focused, policy-oriented.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The data is difficult for consumers, researchers, advocates, and policymakers to find and use." - Context: Critiquing current PA metric posting.
+2. "The Healthy Aging Coalition respectfully disagrees with this exclusion and urges CMS to reconsider." - Context: Opposing exclusion of Medicare Part D drug PA metrics.
+3. "Aggregate numeric counts alone are insufficient." - Context: Arguing for service-category reporting.
+4. "A centralized repository would dramatically improve public access" - Context: Supporting a CMS-operated public database.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - Focuses on older adults' access to medications and medically necessary care.
+- [x] **TRANSPARENCY** - Core theme: findable, accessible, centralized, comparable PA metrics.
+- [x] **HEALTH-EQUITY** - Consumer focus includes beneficiaries and older adults who may be less able to navigate obscure data.
+- [x] **PROVIDER-BURDEN** - Notes clinicians serving older adults are burdened by PA and need usable transparency.
+- [x] **TECHNICAL-FEASIBILITY** - Recommends machine-readable formats and a centralized CMS database.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS collection and publication of payer data for public use.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Highlights gap created by excluding Part D drug PA metrics while adding medical benefit drug transparency.
+- [x] **EXISTING-WORKFLOWS** - Addresses current public posting workflows and Part D reporting limitations.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+Re: 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed 
+Rule [CMS-0062-P] 
+ 
+Dear Administrator: 
+ 
+As members of the Healthy Aging Coalition, we advance policy and knowledge that support 
+healthy aging and longevity. Our coalition includes a range of stakeholders, including 
+researchers, clinicians, academic leaders, industry experts, advocacy and community-based 
+organizations, foundations, businesses, faith-based organizations, and government leaders – all 
+committed to the shared vision of promoting healthy lifestyles and aging with dignity and 
+independence. 
+We write in response to the 2026 CMS Interoperability Standards and Prior Authorization for 
+Drugs Proposed Rule (CMS-0062-P), published on April 10, 2026. Prior authorization (PA) 
+reform is central to our mission to assure access and credible information to promote choice and 
+consumer decision making. The healthcare professionals who serve older adults – including 
+primary care providers, nurses, physical and occupational therapists, behavioral health clinicians, 
+and social workers – are among those most burdened by PA processes, and it is the consumer 
+that is most impacted by delays or denial of necessary care.  
+It is with a consumer focus, that we commend CMS for continuing to build on the 2024 final rule 
+(CMS-0057-F) and offer the following comments on three specific areas: 
+ 
+I. Assure Data Transparency is Findable and Accessible to Improve Access for Consumers. 
+To achieve this goal, CMS Should Require Consistent Public Posting Standards and 
+Establish a Centralized Database 
+ 
+CMS-0057-F required impacted payers to publicly report prior authorization metrics on their 
+websites by March 31, 2026. Despite this mandate, compliance has been deeply problematic – 
+not because payers failed to post data, ...

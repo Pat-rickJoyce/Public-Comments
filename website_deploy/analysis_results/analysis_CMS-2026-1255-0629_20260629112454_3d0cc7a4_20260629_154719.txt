@@ -1,0 +1,140 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0629
+Commenter: National Committee for Quality Assurance (NCQA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:47:19
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Committee for Quality Assurance (NCQA); signed by Eric Musser, MPH, Vice President, Federal Affairs.
+- **Stakeholder type:** Professional Association / Quality Accreditation Organization.
+- **Credentials or expertise mentioned:** NCQA is a private 501(c)(3) not-for-profit, independent quality oversight and measurement organization. It cites Health Plan Accreditation, Utilization Management standards, HEDIS measures, more than 1,200 health plans adhering to NCQA UM standards, and more than 100 organizations with UM Accreditation.
+
+## 2. EXECUTIVE SUMMARY
+
+NCQA supports CMS's proposal to extend prior authorization reforms to drugs and views the rule as a continuation of the 2024 interoperability and prior authorization reforms. NCQA emphasizes timely access to medications, 72-hour standard and 24-hour urgent turnaround standards, electronic workflows, FHIR-based exchange, and greater use of standardized clinical data to improve decision-making and reduce burden.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; FHIR-IG-REQUIRED; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; no specific CFR citations cited.
+- **Standards referenced:** FHIR-based API exchange; electronic prior authorization; HEDIS measures. No specific Da Vinci IG, NCPDP, or HL7 implementation guide named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend prior authorization reform to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NCQA argues that drug PA reform can reduce care delays, ease administrative burden, and support patient-centered decision-making.
+- **Specific request:** Finalize the proposal to extend PA reforms to drug prior authorizations.
+
+**Topic 2: Drug PA decision turnaround standards**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** NCQA supports clear standards of 72 hours for standard requests and 24 hours for urgent requests, stating these are critical for timely medication access.
+- **Specific request:** Establish clear turnaround time standards for drug PA decisions.
+
+**Topic 3: Standards-based electronic workflows and FHIR exchange**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** NCQA states that FHIR-based API exchange enables real-time access to PA information and supports transition from manual to automated workflows.
+- **Specific request:** Continue advancing interoperable, standards-based exchange and promote greater use of standardized clinical data in PA processes.
+
+**Topic 4: Alignment with quality measurement**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** NCQA notes that HEDIS medication management and adherence measures can capture downstream quality improvements from drug PA reform.
+- **Specific request:** Recognize the role of quality measurement in evaluating reform impact.
+
+## 5. SOLICITATION RESPONSES
+
+- **S20:** NCQA supports clear drug PA decision standards of 24 hours for urgent requests and 72 hours for standard requests.
+- **S21:** NCQA implies support for the proposed implementation direction and sees electronic drug PA as a natural extension of existing reforms.
+- **S44-S50:** NCQA generally supports FHIR-based exchange for PA, but does not directly address HIPAA standard adoption scope, authority, or cost.
+- **S66-S82:** NCQA generally endorses continued industry coordination and electronic PA acceleration but does not provide detailed RFI responses.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize the proposal to extend PA reform to prescription drugs.
+2. Establish and maintain clear drug PA turnaround times of 72 hours for standard requests and 24 hours for urgent requests.
+3. Continue advancing interoperable, standards-based electronic prior authorization workflows.
+4. Promote greater use of standardized clinical data in PA processes to support accurate and clinically appropriate decisions.
+5. Use quality measurement infrastructure, including medication management and adherence measures, to monitor downstream impacts.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Manual PA processes delay care and create burden; drug PA delays can interrupt treatment and reduce adherence.
+- **Potential negative impacts cited:** Treatment interruptions, non-adherence, avoidable escalations in care, care delays, and administrative burden.
+- **Implementation barriers mentioned:** Need for continued advancement of interoperable, standards-based data exchange and electronic workflow adoption.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** More than 1,200 health plans adhere to NCQA UM standards; more than 100 organizations have achieved UM Accreditation; more than 50 health plans covering nearly 80% of insured Americans participated in the prior authorization pledge.
+- **Studies or research referenced:** HEDIS medication management and adherence measures are cited as relevant quality measurement tools; no external studies cited.
+- **Examples provided:** Drug PA delays affecting chronic conditions, behavioral health needs, and complex drug regimens.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, clinicians, health plans, quality measurement organizations, EHR vendors, data networks.
+- **Economic implications:** Reduced administrative burden and avoidable escalations in care; no detailed cost estimates provided.
+- **Technical feasibility:** NCQA views FHIR-based API exchange and ePA as feasible and necessary, while emphasizing continued standards-based exchange.
+- **Patient care impact:** Expected improvements in timely medication access, adherence, and patient-centered decision-making.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, collaborative
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "NCQA applauds CMS for advancing meaningful prior authorization reform, supported by strong industry consensus." - Context: Opening statement of support for CMS's proposed rule.
+2. "We support CMS’s latest proposal to extend these reforms to prior authorizations for drugs." - Context: Direct position on extending PA reforms to drugs.
+3. "Delays in drug prior authorization are associated with treatment interruptions, non-adherence and avoidable escalations in care." - Context: Rationale for drug PA reform.
+4. "CMS’s emphasis on FHIR-based API exchange enables real-time access to prior authorization information and supports the transition from manual to automated workflows." - Context: Technical rationale for standards-based ePA.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports clear 72-hour standard and 24-hour urgent drug PA timeframes.
+- [x] **PROVIDER-BURDEN** - Emphasizes reduced administrative burden for clinicians.
+- [x] **TECHNICAL-FEASIBILITY** - Supports FHIR-based API exchange and automated workflows.
+- [x] **PATIENT-ACCESS** - Focuses on timely medication access and avoidance of treatment interruptions.
+- [x] **STAKEHOLDER-COORDINATION** - Praises the industry pledge and Electronic Prior Authorization Acceleration initiative.
+- [x] **TRANSPARENCY** - Notes improvements in PA timelines, reporting, and data exchange that support transparency.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1100 13th Street NW, Third Floor 
+ 
+ 
+Washington, DC 20005 
+phone 202.955.3500 
+fax 202.955.3599 
+ 
+ 
+www.ncqa.org 
+ 
+ 
+Better health care. Better choices. Better health. 
+June 15, 2026 
+ 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Hubert H. Humphrey Building 
+200 Independence Ave. SW 
+Washington, DC 20201 
+ 
+Attention: CMS-0062-P 
+ 
+Dear Dr. Oz: 
+The National Committee for Quality Assurance (NCQA) thanks you for the opportunity to 
+provide feedback on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs 
+Proposed Rule. 
+NCQA is a private, 501(c)(3) not-for-profit, independent organization dedicated to improving 
+health care quality through our Accreditation and measurement programs...

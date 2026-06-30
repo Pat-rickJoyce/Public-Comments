@@ -1,0 +1,158 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0474
+Commenter: Defacto Health LLC
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:25:40
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Defacto Health LLC; submitted by Ron Urwongse
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Healthcare data company that queries payer-published Provider Directory APIs and machine-readable files at scale; has queried directory data from more than 150 payers and observed endpoint reliability, data quality, and discoverability variation.
+
+## 2. EXECUTIVE SUMMARY
+
+Defacto Health strongly supports CMS-0062-P's mandatory payer API endpoint reporting requirements and treats them as foundational public infrastructure. The commenter recommends broadening the endpoint registry beyond CMS-9115/CMS-0057 APIs, requiring plan and network identifiers, extending usage metrics to directory and machine-readable file endpoints, and creating a public endpoint issue registry.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** API-ENDPOINT-REPORTING; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P, CMS-9115, CMS-0057, CMS-4208-F2; no CFR sections are cited.
+- **Standards referenced:** HL7 FHIR, SMART configuration via .well-known/smart, machine-readable files, Transparency in Coverage MRFs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Mandatory Centralized Endpoint Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Current endpoint discovery is ad hoc and burdens developers, researchers, regulators, and consumers because there is no authoritative public registry for mandated payer APIs.
+- **Specific request:** Finalize mandatory reporting of payer API endpoints, technical documentation, and registration steps, and treat the registry as foundational health tech infrastructure.
+
+**Topic 2: Broader Scope of Reported Endpoints**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** A registry limited to CMS-9115 and CMS-0057 APIs would omit public payer data endpoints that consumers, employers, researchers, regulators, and developers need.
+- **Specific request:** Include QHP provider directory URLs and machine-readable files, MA Plan Finder provider directory files, and Transparency in Coverage machine-readable files.
+
+**Topic 3: Plan and Network Identifier Resolution**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** Endpoint registries are only useful if users can unambiguously map a plan, carrier, market, state, or network to the correct endpoint without proprietary data.
+- **Specific request:** Require each endpoint to be associated with stable, publicly resolvable carrier, network, and plan identifiers, and convene or designate an industry process to maintain the mapping.
+
+**Topic 4: Usage Metrics for Directories and MRFs**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Low or zero usage can signal that an endpoint is broken, undocumented, unreachable, or undiscoverable rather than simply unused.
+- **Specific request:** Extend usage metrics reporting to provider directory APIs and machine-readable file endpoints, including TiC MRFs, with request volume, distinct requester count where determinable, and error rate.
+
+**Topic 5: Public Endpoint Issue Registry**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** There is no standardized feedback loop for broken, undocumented, or malformed payer endpoints, leaving CMS without visibility and developers without a reliable reporting channel.
+- **Specific request:** Create a CMS-hosted public issue registry with structured issue templates, public read access, payer notification, payer response/resolution opportunities, and visible issue status.
+
+## 5. SOLICITATION RESPONSES
+
+- **S23:** Indirectly relevant; the commenter discusses public endpoint reporting but does not raise security objections.
+- **S24:** Responds directly by recommending endpoint data include technical documentation, registration steps, and stable plan/network/carrier identifiers.
+- **S26:** Recommends a publicly queryable, centralized registry and structured issue templates, implying a machine-readable and standardized reporting format.
+- **S27:** Does not specify reporting frequency.
+- **S29:** Recommends usage metrics for provider directory APIs and machine-readable file endpoints, including total request volume, distinct requester count, and error rate.
+- **S33:** Supports CMS public publication through a centralized registry and recommends expanding it into a broader coordination layer for payer data infrastructure.
+- **S34:** Does not specify a reporting frequency for usage metrics.
+- **S35:** Supports public visibility into usage and endpoint problems, but does not specifically address aggregate publication limits.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize mandatory API endpoint reporting.
+2. Make endpoint data publicly queryable through a centralized authoritative registry.
+3. Include technical documentation and registration steps with reported endpoints.
+4. Expand scope to include QHP directory URLs and MRFs, MA Plan Finder provider directory files, and Transparency in Coverage MRFs.
+5. Require stable, publicly resolvable carrier, network, and plan identifiers for each endpoint.
+6. Convene or designate an industry process to maintain endpoint-to-plan/network identifier mappings.
+7. Extend usage metrics reporting to provider directory APIs and MRF endpoints.
+8. Require usage metrics for request volume, distinct requester count where technically determinable, and error rate.
+9. Establish a CMS-hosted public endpoint issue registry with public status tracking and payer notification.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Endpoint discoverability, incomplete registry scope, lack of plan/network identifier resolution, missing usage metrics for directory and MRF endpoints, and absence of a public feedback loop.
+- **Potential negative impacts cited:** Developers may abandon endpoints, CMS may lack visibility into malfunctioning infrastructure, consumers may not receive accurate plan/provider information, and the National Provider Directory may be less useful.
+- **Implementation barriers mentioned:** Inconsistent endpoint publication, payer naming differences, inconsistent index files, broken or malformed endpoints, and unclear responsibility between API vendors and payers.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Defacto Health has queried directory data from more than 150 payers.
+- **Studies or research referenced:** No formal studies are cited.
+- **Examples provided:** QHP provider directories, MA Plan Finder directory files, TiC MRF index files, .well-known/smart discovery, and GitHub-style issue tracking used in CMS transparency and health tech ecosystem work.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Developers, researchers, regulators, consumers, employers, payers, API vendors, MA beneficiaries, QHP consumers, and the broader health tech ecosystem.
+- **Economic implications:** Better endpoint discoverability may reduce manual search and integration costs; inaccurate or unreachable endpoints can impose avoidable operational costs.
+- **Technical feasibility:** The recommendations are technically feasible and grounded in existing public endpoint registries, machine-readable files, and issue-tracking practices.
+- **Patient care impact:** More reliable endpoint discovery and directory data can support consumers seeking high-quality, low-cost, in-network care and accurate plan information.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We strongly support this proposal" - Context: Support for mandatory payer API endpoint reporting.
+2. "there is no centralized, authoritative, publicly queryable registry" - Context: Rationale for API-ENDPOINT-REPORTING.
+3. "An API with no usage is a meaningful signal" - Context: Support for extending API-USAGE-METRICS to directory and MRF endpoints.
+4. "The purpose of this registry is transparency" - Context: Request for a public endpoint issue registry without automatic penalties at this stage.
+
+## 12. THEMES
+
+- [ ] **IMPLEMENTATION-TIMELINE** - Not addressed.
+- [ ] **COST-RESOURCES** - Not a central theme, though the commenter implies reduced discovery and integration costs.
+- [ ] **PROVIDER-BURDEN** - Not addressed.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - Focuses on endpoint reliability, discoverability, machine-readable files, identifiers, and issue tracking.
+- [x] **STANDARDS-MATURITY** - References HL7 FHIR APIs and SMART discovery, though the comment focuses more on operational infrastructure than IG maturity.
+- [x] **PATIENT-ACCESS** - Links endpoint usability to consumers' ability to find high-quality, low-cost, in-network care and accurate MA plan information.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for a centralized registry and an industry process for plan/network identifier mapping.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [x] **TRANSPARENCY** - Central theme; recommends public endpoint reporting, public identifiers, usage metrics, and public issue tracking.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Describes current ad hoc discovery workflows and proposes a centralized replacement.
+- [x] **VENDOR-ECOSYSTEM** - Strongly addressed from a healthcare data company and developer ecosystem perspective.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Comments of Defacto Health LLC
+CMS-0062-P: Medicare and Medicaid Programs; Electronic Prior Authorization for Drugs
+Submitted by Ron Urwongse, Defacto Health LLC
+
+June 15, 2026 
+Introduction 
+Defacto Health LLC is a healthcare data company that queries payer-published Provider 
+Directory APIs and machine-readable files at scale to assess the accuracy and usability of 
+provider directory data. We have directly queried directory data published by more than 150 
+payers and have observed firsthand the wide variation in endpoint reliability, data quality, and 
+discoverability. We submit these comments in support of the proposed mandatory payer API 
+endpoint reporting requirements in CMS-0062-P, and offer recommendations for strengthening 
+those requirements in ways that would materially advance the goals of the rule. 
+I. The Proposed Endpoint Reporting Requirement Is a Necessary Step 
+CMS-0062-P proposes that payers subject to the CMS Interoperability and Patient Access Rule 
+submit their API endpoint data, along with technical documentation and registration steps, to a 
+centralized location. We strongly support this proposal. 
+Since the finalization of CMS-9115 in 2020, payers have been required to publish Patient 
+Access, Provider Directory, and other APIs built on HL7 FHIR standards. CMS-0057 extended 
+those requirements further. Despite this regulatory history, there is no centralized, authoritative, 
+publicly queryable registry of where those endpoints actually are. Developers, researchers, and 
+regulators must discover endpoints through ad hoc means: crawling payer websites, querying 
+.well-known/ smart configuration files, relying on community-maintained lists, or engaging 
+payers directly. This friction impedes access to these mandated resources, and prevents 
+regulators and industry from assessing their usability and using them to support consumers in 
+their search for high quality, low-cost, and in-network care....

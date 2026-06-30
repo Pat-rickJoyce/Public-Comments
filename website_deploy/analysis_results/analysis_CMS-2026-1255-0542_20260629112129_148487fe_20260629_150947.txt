@@ -1,0 +1,145 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0542
+Commenter: ALS United
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:09:47
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** ALS United; signed by Jerry Dawson, President and CEO
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Nationwide partnership of independent nonprofit organizations serving the ALS community through research, care, and advocacy.
+
+## 2. EXECUTIVE SUMMARY
+
+ALS United supports CMS's broader efforts to modernize prior authorization and asks CMS to ensure laboratory-testing prior authorization policies account for serious, progressive, rare, and time-sensitive diseases such as ALS. The comment focuses on patient-centered protections: no timing-only denials, no redundant blood draws when a valid specimen exists, expedited review for clinically urgent testing, retroactive authorization when appropriate, and protection from surprise bills caused by administrative delays.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; PATIENT-ACCESS-related concerns under the broader prior authorization framework.
+- **Regulatory citations mentioned:** None cited directly; comment references Section III.E of the proposed rule regarding prior authorization and laboratory testing.
+- **Standards referenced:** No specific technical standards such as FHIR IGs or NCPDP are referenced.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior Authorization for Laboratory Testing in ALS and Rare Disease Care**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** ALS progresses rapidly and laboratory testing can affect diagnosis, treatment decisions, medication safety monitoring, genetically targeted therapies, clinical trial eligibility, and disease progression tracking.
+- **Specific request:** Require PA policies for laboratory testing to reflect clinical workflows and patient needs, especially for serious, progressive, rare, or time-sensitive conditions.
+
+**Topic 2: Timing-Based Denials and Retroactive Authorization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Denials based solely on specimen collection date penalize patients for administrative sequencing outside their control and may delay clinically valid testing.
+- **Specific request:** Prohibit denials based solely on specimen timing and allow documented retroactive authorization when specimens have already been collected and remain clinically valid.
+
+**Topic 3: Redundant Specimen Collection and Patient Burden**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Requiring repeat blood draws for ALS patients can impose substantial physical, logistical, caregiver, transportation, and financial burdens.
+- **Specific request:** Prohibit policies that force repeat blood draws when a viable specimen is already available.
+
+**Topic 4: Expedited Review and Patient Financial Protection**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS / GENERAL
+- **Position:** Modify
+- **Rationale:** Delays of weeks or months can materially affect ALS treatment planning, genetic/biomarker information, medication safety monitoring, and clinical trial access.
+- **Specific request:** Establish expedited review pathways for laboratory testing needed in serious, progressive, rare, or time-sensitive conditions and protect patients from bills or coverage denials when patients, clinicians, and laboratories acted in good faith.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment responds to the general RFI area concerning prior authorization and laboratory testing, particularly how PA can affect access to tests needed for serious, progressive, rare, or time-sensitive conditions. ALS United recommends protections for timing-based denials, retroactive authorization, expedited review, and patient financial liability.
+
+## 6. RECOMMENDATIONS
+
+1. Prohibit PA denials based solely on the timing of specimen collection when a medically necessary test was ordered by the treating clinician.
+2. Prevent unnecessary repeat blood draws when a viable specimen is already available.
+3. Protect patients from surprise bills, out-of-pocket costs, and coverage denials caused by administrative delays beyond their control.
+4. Establish expedited review pathways for laboratory testing needed in serious, progressive, rare, or time-sensitive conditions, including ALS.
+5. Ensure PA policies do not block genetic testing, biomarker testing, medication safety monitoring, or other ALS-relevant laboratory testing.
+6. Require payers to recognize appropriate clinical documentation from treating clinicians and laboratories.
+7. Permit appropriately documented retroactive authorization when specimens have already been collected and remain clinically valid.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Administrative timing rules, delayed or denied laboratory testing, redundant blood draws, unexpected patient financial liability, and failure to account for ALS care realities.
+- **Potential negative impacts cited:** Delayed diagnosis or treatment planning, lost access to targeted therapies or clinical trials, delayed safety monitoring, financial stress, additional physical burden, and avoidable appeals.
+- **Implementation barriers mentioned:** Real-world laboratory workflows in which ordering, specimen collection, lab receipt, processing, and authorization may not occur in the exact sequence required by payer rules.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No numerical statistics cited.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Genetic testing for mutation-defined ALS; neurofilament light chain testing; Qalsody (tofersen) for SOD1-ALS; liver function testing for riluzole safety monitoring; repeat blood draws caused by authorization timing issues.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** ALS patients and families, treating clinicians, laboratories, payers, and rare disease care teams.
+- **Economic implications:** Potential reduction in avoidable out-of-pocket costs, surprise bills, appeals, repeat testing, and redundant visits.
+- **Technical feasibility:** Comment does not address FHIR/NCPDP implementation; feasibility focus is operational alignment with lab workflows and retroactive/expedited authorization processes.
+- **Patient care impact:** High; timely testing affects diagnosis, treatment eligibility, biomarker monitoring, medication safety, clinical trial access, and disease progression management.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, patient-centered, urgent
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "For people living with ALS, timely access to medically necessary laboratory testing is not a secondary or technical issue." - Context: Establishing why lab testing access should be treated as clinically urgent.
+2. "Prior authorization rules should not delay medically necessary testing, force redundant blood draws, deny coverage based on paperwork timing, or leave patients with unexpected financial liability when patients and clinicians acted in good faith." - Context: Summary of requested patient protections.
+3. "When coverage turns on an arbitrary collection-date technicality, patients can be penalized for timing issues that are entirely outside their control." - Context: Objection to timing-based denials.
+4. "For people living with ALS and their families facing a rapidly progressive fatal disease, time matters." - Context: Closing rationale for expedited and patient-centered policies.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests expedited review pathways and objects to delays caused by administrative sequencing.
+- [x] **PROVIDER-BURDEN** - Highlights clinician and laboratory documentation burdens and appeals caused by PA rules.
+- [x] **HEALTH-EQUITY** - Addresses protections for people with serious, progressive, rare diseases who face heightened consequences from delays.
+- [x] **PATIENT-ACCESS** - Central theme; focuses on timely access to laboratory testing needed for diagnosis, treatment, monitoring, and trial eligibility.
+- [x] **TRANSPARENCY** - Requests clearer documentation recognition and coverage protections so patients are not surprised by denials or bills.
+- [x] **EXISTING-WORKFLOWS** - Emphasizes that PA rules must align with real-world laboratory workflows and specimen processing.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Re: Docket No. CMS-2026-1255 | Medicare and Medicaid Programs: Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, etc. 
+ 
+ALS United appreciates the opportunity to comment on the Centers for Medicare & Medicaid Services’ 
+Request for Information regarding prior authorization and access to laboratory testing, as referenced in 
+Section III.E of the proposed rule. 
+  
+ALS United is a nationwide partnership of independent nonprofit organizations dedicated to serving the 
+ALS community through research, care, and advocacy. ALS is a fatal, progressive neurodegenerative 
+disease that often moves quickly and leaves patients, families, and clinicians with little room for 
+administrative delay. For people living with ALS, timely access to medically necessary laboratory testing 
+is not a secondary or technical issue. It can affect diagnosis, treatment decisions, medication safety 
+monitoring, access to genetically targeted therapies, and the ability to track disease progression. 
+  
+ALS United supports CMS’s broader efforts to modernize prior authorization and urges the agency to 
+ensure that laboratory testing policies reflect the clinical realities of serious, progressive, and rare 
+diseases. Prior authorization rules should not delay medically necessary testing, force redundant blood 
+draws, deny coverage based on paperwork timing, or leave patients with unexpected financial liability 
+when patients and clinicians acted in good faith. 
+  
+Summary of Recommendations 
+  
+ALS United respectfully urges CMS to: 
+  
+• 
+Prohibit prior authorization denials based solely on the timing of specimen collection, 
+particularly where the test was medically necessary and ordered by the treating clinician. 
+• 
+Prevent unnecessary repeat blood draws when a viable specimen is already available. 
+• 
+Protect patients from surprise bills, out-of-pocket costs...

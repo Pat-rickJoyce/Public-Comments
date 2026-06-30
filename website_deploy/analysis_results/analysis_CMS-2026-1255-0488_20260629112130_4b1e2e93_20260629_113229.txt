@@ -1,0 +1,191 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0488_20260629112130_4b1e2e93
+Commenter: Alliance of Community Health Plans (ACHP)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:32:29
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Alliance of Community Health Plans (ACHP); signed by Ceci Connolly, President and CEO.
+- **Stakeholder type:** Professional Association / Payer association.
+- **Credentials or expertise mentioned:** ACHP describes itself as a national organization of payer-provider aligned regional health plans covering tens of millions of Americans, with experience modernizing prior authorization and implementing interoperability initiatives.
+
+## 2. EXECUTIVE SUMMARY
+
+ACHP supports the policy direction of electronic prior authorization and interoperability, but urges CMS to slow and narrow implementation to avoid operational disruption. Its central recommendations are to delay prescription drug ePA requirements, clarify medical-benefit versus pharmacy-benefit workflows, incentivize provider API adoption, limit reporting burden, and preserve flexibility for smaller plans and existing efficient workflows.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** No specific CFR sections cited by number. The comment references CMS-0062-P and HIPAA transaction standards generally.
+- **Standards referenced:** FHIR, Da Vinci implementation guides generally, SMART, FAST Security IG, NCPDP SCRIPT 2023011, X12N 270/271, HL7 v2 ADT.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prescription drug ePA implementation timeline**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** ACHP says drug ePA expansion is premature because existing January 1, 2027 interoperability requirements have not yet been implemented, tested, or evaluated at scale.
+- **Specific request:** Delay the October 1, 2027 compliance date by one year or to at least 24 months after the final rule, whichever is later.
+
+**Topic 2: Medical versus pharmacy benefit workflow complexity**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify / Modify
+- **Rationale:** The same drug can fall under different benefits by context or line of business, requiring different FHIR versus NCPDP workflows and increasing provider confusion.
+- **Specific request:** Issue operational guidance and create targeted exemptions where existing processes, such as oncology regimen-based review, already reduce burden.
+
+**Topic 3: Regimen-based oncology authorization**
+- **Provision ID:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** ACHP argues NCPDP SCRIPT 2023011 is not compatible with complete regimen-based medical review and could split bundled Part B and Part D requests, adding provider work and delaying care.
+- **Specific request:** Create an exception allowing current regimen-based medical review for oncology requests.
+
+**Topic 4: Required implementation guides and security standards**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Support with modification
+- **Rationale:** ACHP supports naming required IGs for consistency but wants CMS to specify required capabilities rather than requiring every component of an IG when only some functions are relevant. It opposes requiring FAST Security IG before production maturity and liability issues are clearer.
+- **Specific request:** Identify API-specific IG capabilities, allow flexible versioning/backward compatibility, and keep FAST Security IG recommended only for registration, authentication, and authorization.
+
+**Topic 5: Provider adoption and reciprocity**
+- **Provision ID:** GENERAL; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Payer APIs will not achieve policy goals if providers are not connected, incentivized, trained, and technically able to use them.
+- **Specific request:** Create provider workflow standards, expand quality metrics from attestation toward volume-based measures as APIs mature, and support last-mile providers with resources and education.
+
+**Topic 6: API usage and endpoint reporting**
+- **Provision ID:** API-USAGE-METRICS; API-ENDPOINT-REPORTING
+- **Position:** Support with modification
+- **Rationale:** ACHP supports endpoint reporting to enable a national payer endpoint directory, but says granular usage metrics should wait until APIs are live and feasibility is known.
+- **Specific request:** Limit initial usage metrics to simple usage and build a CMS-managed FHIR endpoint directory including payer and provider endpoint information.
+
+**Topic 7: Patient Access API prescription cost information**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** ACHP says CMS should evaluate adoption of existing Patient Access API functionality before adding real-time prescription drug cost and coverage information of uncertain value.
+- **Specific request:** Do not finalize real-time prescription drug cost and coverage information in the Patient Access API at this time.
+
+**Topic 8: HIPAA prior authorization standards**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify / Clarify
+- **Rationale:** ACHP warns that replacing or carving out X12N 270/271 prior authorization information may make providers worse off if PA information can no longer be returned through eligibility transactions.
+- **Specific request:** Allow flexibility and more implementation time for smaller health plans, and clarify coexistence of X12 270/271 with CRD/FHIR workflows.
+
+**Topic 9: RFIs on step therapy, labs/DMEPOS, event notification, and community organizations**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify
+- **Rationale:** ACHP supports future improvements but urges CMS to learn from 2027 APIs, preserve safeguards against overutilization, and account for current event notification infrastructure.
+- **Specific request:** Use lessons learned before step therapy expansion; safeguard lab and DMEPOS PA; stage FHIR event notification after HL7 v2 ADT improvements; fund reference implementations, shared services, and grants for smaller organizations.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports required IGs in principle, but wants CMS to identify only the capabilities relevant to each API.
+- **S2/S3:** Recommends a regular cadence for standards updates, baseline standards, and flexibility to use more current backward-compatible versions.
+- **S12:** Identifies technical and operational challenges for medical-benefit drug PA, especially benefit classification and provider adoption.
+- **S14:** Raises concerns about applying NCPDP pharmacy-benefit workflows where existing processes are more streamlined.
+- **S15:** Directly requests guidance on distinguishing medical versus pharmacy benefit drug workflows.
+- **S18:** Warns that requiring all IG capabilities, such as all SMART requirements, can create unnecessary development burden.
+- **S20/S43:** Requests clarification that decision timeframes run from receipt of a complete request and asks how CMS will measure health-condition-based expedition.
+- **S21:** Says the October 1, 2027 timeline is not achievable and requests delay.
+- **S22/S25:** Notes NCPDP SCRIPT 2023011 may not support regimen-based reviews and asks for time to evaluate technical and operational impacts.
+- **S23/S24/S26/S33:** Supports endpoint reporting and asks CMS to create a national endpoint directory with payer and provider information.
+- **S29/S34:** Recommends limiting usage metrics to simple usage until APIs are operational.
+- **S30:** Implicitly raises feasibility and value concerns for granular reporting, though not a specific privacy proposal.
+- **S44-S47:** Supports flexibility on HIPAA PA standards, asks for clarification of FHIR and X12 coexistence, and seeks more time especially for smaller plans.
+- **S49:** Requests greater flexibility and implementation time for smaller health plans.
+- **S50/S54:** Urges production maturity, testing, and clearer liability treatment before requiring FAST Security IG.
+- **S66-S82:** Responds to RFIs on step therapy, labs/DMEPOS, event notifications, and community health organization investment.
+
+## 6. RECOMMENDATIONS
+
+1. Delay prescription drug ePA implementation to October 1, 2028, January 1, 2029, or at least 24 months after the final rule.
+2. Issue guidance on operational distinctions between medical-benefit FHIR workflows and pharmacy-benefit NCPDP workflows.
+3. Create an oncology regimen-based review exception to preserve bundled authorization workflows.
+4. Specify only required IG capabilities relevant to each API and preserve flexible versioning.
+5. Keep FAST Security IG recommended until production use, liability, and insurance issues mature.
+6. Incentivize and support provider API adoption, especially for smaller, independent, and rural providers.
+7. Limit API usage reporting to simple usage initially.
+8. Build a CMS-managed FHIR endpoint directory with payer and provider endpoint information.
+9. Clarify drug PA turnaround time measurement from receipt of complete requests.
+10. Clarify coexistence of X12 270/271 and FHIR CRD/PAS workflows under HIPAA PA standards.
+11. Use staged, evidence-based approaches for step therapy, event notifications, and lab/DMEPOS policy expansions.
+12. Provide grants, reference implementations, shared services, and technical assistance for smaller organizations.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Premature timeline, untested IGs, provider non-adoption, benefit classification complexity, loss of efficient existing workflows, excessive reporting burden, and unclear HIPAA/X12 carve-outs.
+- **Potential negative impacts cited:** Increased provider burden, delayed oncology care, higher administrative cost, stalled adoption, reduced consumer choice, and worsened provider access to PA requirement information.
+- **Implementation barriers mentioned:** Fax/phone use by providers, immature API deployment, limited rural and independent provider resources, endpoint routing difficulty, incomplete standards maturity, and payer/PBM operational complexity.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics beyond ACHP member plans covering tens of millions of Americans.
+- **Studies or research referenced:** January 2026 NEJM Catalyst article, "Prior Authorization: Moving Toward Zero."
+- **Examples provided:** Oncology bundled authorization involving surgery, radiation, medical oncology, medical-benefit drugs, and pharmacy-benefit drugs; rural and independent providers still using fax or phone; event notification reliance on HL7 v2 ADT and HIEs.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Regional health plans, providers, PBMs, oncology practices, rural and independent providers, patients, CMS/ONC, hospitals, HIEs, and smaller health plans.
+- **Economic implications:** ACHP anticipates significant development and administrative costs, especially if API capabilities are overbroad or endpoint routing remains custom.
+- **Technical feasibility:** Feasible only with more time, targeted requirements, production testing, provider-side workflow standards, and endpoint infrastructure.
+- **Patient care impact:** Could improve access if implemented well, but may delay care if regimen-based workflows are split or providers cannot adopt APIs.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Concerned.
+- **Tone:** Professional, collaborative, technical.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Delay the implementation for prescription drug ePA requirements" - Context: ACHP's first priority recommendation.
+2. "the same drug may require different workflows depending on context" - Context: Medical versus pharmacy benefit operational complexity.
+3. "CMS should not finalize reporting metrics beyond simple usage until the APIs are live" - Context: API usage reporting feasibility.
+4. "ACHP strongly encourages CMS to create an exception" - Context: Oncology regimen-based medical review.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ACHP repeatedly requests delay and staged policy evolution after real-world experience with 2027 requirements.
+- [x] **COST-RESOURCES** - The comment emphasizes limited payer resources, smaller organization costs, and the burden of custom connections.
+- [x] **PROVIDER-BURDEN** - ACHP warns that split workflows and lack of provider incentives could increase clinical administrative work.
+- [x] **PRIVACY-SECURITY** - Security appears through FAST Security IG, Zero Trust, liability, and cybersecurity insurance concerns.
+- [x] **HEALTH-EQUITY** - The comment highlights rural, underserved, and high-risk populations served by smaller organizations.
+- [x] **TECHNICAL-FEASIBILITY** - ACHP questions API readiness, endpoint routing, and production maturity.
+- [x] **STANDARDS-MATURITY** - The comment seeks tested IGs, flexible versioning, and staged FHIR event notification adoption.
+- [x] **PATIENT-ACCESS** - ACHP supports reduced delays but warns poor implementation could delay oncology and drug access.
+- [x] **STAKEHOLDER-COORDINATION** - The comment calls for CMS, ONC, providers, payers, PBMs, HIEs, and vendors to coordinate.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - A central concern is distinguishing FHIR and NCPDP workflows by benefit type.
+- [x] **TRANSPARENCY** - ACHP supports endpoint reporting, expanded PA public reporting, and clearer turnaround measurement.
+- [x] **SMALL-PAYER-IMPACT** - ACHP requests flexibility for smaller health plans and support for smaller organizations.
+- [x] **EXISTING-WORKFLOWS** - The comment urges CMS not to disrupt portal-based and regimen-based workflows that already reduce burden.
+- [x] **VENDOR-ECOSYSTEM** - Vendor and PBM workflows are cited in the oncology example and technical implementation discussion.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+
+RE: 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P)
+
+Dear Administrator Oz:
+
+The Alliance of Community Health Plans (ACHP) and its member companies are invested in the digital transformation of health care and the significant benefit it will create for consumers. To streamline care delivery and reduce administrative burden we continue to rapidly modernize prior authorization. We appreciate the opportunity to provide comments on CMS's proposed rule to extend interoperability and establish electronic prior authorization requirements to prescription drugs. ACHP strongly supports advancing health care towards a more consumer friendly and less burdensome system with the critical support of interoperability. Making the prior authorization process easier for payers and providers is of the upmost importance to avoid care delays for patients.
+
+As you know, ACHP is the only national organization advancing a unique payer-provider aligned model of health care that fosters true competition, delivering both high-quality coverage and care. As local insurers, ACHP member companies provide affordable coverage options to tens of millions of Americans nationwide. Regional health plans play a central role in sustaining consumer choice and competitive local markets.
+
+We raise the following priorities for your consideration:
+
+- Delay the implementation for prescription drug ePA requirements.
+- Issue guidance on the operational complexity in distinguishing between medical and pharmacy benefit drug API workflows.
+- Ensure provider connection and reciprocity.
+...

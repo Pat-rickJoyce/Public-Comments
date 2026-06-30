@@ -1,0 +1,182 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0677_20260629112336_3effecff
+Commenter: Consumers' Checkbook
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:50:42
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Consumers' Checkbook / Checkbook; contact Eric Ellsworth.
+- **Stakeholder type:** Advocacy Group / Other (consumer information and plan/provider choice organization)
+- **Credentials or expertise mentioned:** Checkbook states its mission is helping consumers make educated, high-value choices of service providers and describes extensive experience collecting, cleansing, and publishing provider directory data from QHP JSON files for plan shopping tools.
+
+## 2. EXECUTIVE SUMMARY
+
+Checkbook supports CMS's interoperability goals and specifically supports centralized CMS collection and publication of impacted payers' API endpoints in the National Provider Directory rather than decentralized self-publication. The comment also urges CMS to develop structured payer, network, plan, and formulary identifiers, collect Transparency in Coverage file URLs, require structured prior authorization denial reason codes, report denial rates by reason code, and align QHP prior authorization timelines with other impacted payers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** API-ENDPOINT-REPORTING; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-USAGE-METRICS; FF-SHOP-REQUIREMENTS; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations. The comment references CMS-0062-P, CMS-0057, CMS-9882P, ACA Transparency in Coverage reporting, Transparency in Coverage machine-readable files, and ERISA-regulated/self-insured plans.
+- **Standards referenced:** National Provider Directory; NDH IG Endpoint Profile; FHIR APIs; FHIR Formulary resource; X12 claim adjustment reason codes, group codes, claims status codes/category codes, remittance advice remark codes, provider adjustment reason codes; CCIIO Machine Readable URL PUF; ONC Lantern.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Centralized API Endpoint Collection and Publication**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** Checkbook argues that a centralized, time-driven CMS collection process would make endpoints easier for app developers, patients, and researchers to discover; create payer accountability; and enable CMS monitoring similar to ONC Lantern.
+- **Specific request:** CMS should collect and publish impacted payer API endpoints in the National Provider Directory and should not rely on self-publication through the NDH IG Endpoint Profile as the primary approach.
+
+**Topic 2: Voluntary Endpoint Submission for Non-Impacted Lines of Business**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** Many payers use the same endpoints across plans and lines of business, but app developers cannot confidently use them for non-impacted lines without a centralized assertion.
+- **Specific request:** CMS should request voluntary submission of API endpoints for non-impacted market segments, including ERISA-regulated plans, to broaden consumer access and app coverage.
+
+**Topic 3: Payer, Network, Plan, and Formulary Identifiers**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter states that consumers and apps need open, structured identifiers to connect a health plan product to endpoints, provider networks, treatments, services, formularies, and price transparency data.
+- **Specific request:** CMS should continue developing open, well-structured payer, network, and plan identifiers across all markets and coordinate with the Department of Labor to extend reach into self-insured ERISA plans.
+
+**Topic 4: Transparency in Coverage URL Collection**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** TIC file discovery is burdensome, especially because payers often do not consolidate TIC files across plans and lines of business. Centralized URL collection would allow directories, TIC files, provider network participation, and prices to be linked and validated.
+- **Specific request:** The National Provider Directory should collect TIC machine-readable file URLs for impacted payers and seek voluntary submissions for non-impacted lines of business.
+
+**Topic 5: Structured Prior Authorization Denial Reason Codes**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Free-text explanations alone would lead to inconsistent categorization and vague public debate, as seen in ACA denial reporting. Structured codes would support apples-to-apples analysis and accountability.
+- **Specific request:** CMS should require well-structured denial reason codes alongside free text, using X12 code sets where possible and augmenting them as needed for prior authorization.
+
+**Topic 6: Prior Authorization Timeline Alignment for QHPs**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** A single standard across market segments would make consumer rights easier to understand and act upon.
+- **Specific request:** CMS should align prior authorization timelines for QHPs with other impacted payers.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** The comment responds directly by supporting clear explanations for prior authorization denials and recommending that explanations include structured denial reason codes.
+- **S17:** The comment directly supports structured codes and recommends using existing X12 denial/remittance/status code frameworks, augmented where necessary for prior authorization.
+- **S23:** The comment supports centralized endpoint publication and argues it improves discoverability and accountability; it does not identify security objections to publication.
+- **S24:** The comment recommends that CMS collect payer API endpoint URLs and also voluntarily collect endpoint information for non-impacted lines of business.
+- **S26:** The comment opposes relying primarily on self-publication through the NDH IG Endpoint Profile and favors centralized CMS/NPD collection and publication.
+- **S27:** The comment supports a regular, time-driven collection process so endpoint information is updated and stale URLs can be corrected.
+- **S29:** The comment proposes reporting aggregated prior authorization denial rates broken out by structured reason codes, which is a usage/accountability metric for PA processes.
+- **S33:** The comment supports publishing API endpoint information through the National Provider Directory, analogous to the CCIIO Machine Readable URL PUF.
+- **S40:** The comment indirectly supports broader market reach by recommending voluntary endpoint and identifier participation for non-impacted market segments and lines of business.
+- **S43:** The comment supports aligning QHP prior authorization timelines with other impacted payers to simplify consumer understanding of rights.
+- **S66-S82:** The comment raises broader interoperability issues around network, plan, payer, formulary, and TIC identifiers that support consumer choice beyond the narrow drug PA provisions.
+
+## 6. RECOMMENDATIONS
+
+1. Collect and publish impacted payers' API endpoints centrally in the National Provider Directory.
+2. Do not rely on decentralized self-publication through the NDH IG Endpoint Profile as the primary endpoint discovery mechanism.
+3. Use centralized endpoint collection to enable ongoing CMS monitoring and conformance testing similar to ONC Lantern.
+4. Request voluntary endpoint submissions for non-impacted market segments and lines of business, including ERISA-regulated plans.
+5. Develop open, structured payer, network, and plan identifiers across all markets.
+6. Coordinate with the Department of Labor to maximize use of identifiers in self-insured ERISA markets.
+7. Improve formulary identification and support access to the correct plan-specific formulary, ideally through FHIR Formulary resources.
+8. Collect TIC machine-readable file URLs through the National Provider Directory.
+9. Link TIC files, provider directory data, and identifiers to validate directory data and enable price/network tools.
+10. Require structured prior authorization denial reason codes alongside free-text explanations.
+11. Require reporting of aggregated denial rates by reason code.
+12. Align QHP prior authorization timelines with other impacted payers.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Endpoint self-publication would reduce discoverability and accountability; network/plan/payer/formulary identifiers are inadequate; TIC URLs are hard to discover; free-text denial explanations would be inconsistent; QHP-specific timelines confuse consumers.
+- **Potential negative impacts cited:** App developers and consumers may be unable to find correct endpoints or TIC files; consumers may not be able to determine provider compatibility, treatment coverage, formulary status, or cost; denial data may be vague and non-comparable.
+- **Implementation barriers mentioned:** Stale or undiscoverable URLs, payer non-responsiveness without CMS accountability, lack of identifiers across non-impacted markets, poor formulary identification, inconsistent denial categorization, and lack of a regular endpoint update process.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics cited.
+- **Studies or research referenced:** No formal studies cited.
+- **Examples provided:** Checkbook cites its use of the CCIIO Machine Readable URL PUF for QHP JSON files and contrasts it with State-Based Marketplaces where URLs are not centrally submitted and require direct payer outreach. It also references experience with ACA Transparency in Coverage denial reporting to show variability when code-based categories are absent.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Consumers, patients, app developers, researchers, payers, QHP issuers, ERISA/self-insured plan sponsors, CMS, Department of Labor, price transparency vendors, providers, and entities using the National Provider Directory.
+- **Economic implications:** Centralized endpoint and TIC URL discovery would reduce duplicative URL discovery work and improve market efficiency for consumer tools. Structured identifiers and denial codes could reduce administrative ambiguity and improve accountability.
+- **Technical feasibility:** The commenter frames the approach as feasible by analogy to the existing CCIIO URL PUF and ONC Lantern, and recommends using existing X12 code sets and FHIR resources where possible.
+- **Patient care impact:** Better endpoint discovery, identifiers, formularies, and PA denial transparency would help consumers understand coverage, access correct information, compare plans/providers, and exercise rights under prior authorization timelines.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications.
+- **Tone:** Professional, constructive, and policy-focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "We strongly support the collection and publication of impacted payers' API endpoints in the National Provider Directory." - Context: Core position on API endpoint reporting.
+2. "We do not support the alternative approach of self-publication through NDH IG Endpoint Profile." - Context: Objection to decentralized endpoint discovery.
+3. "There remains an urgent need for a clear network-based product identifier." - Context: Recommendation for structured network/plan/payer identifiers.
+4. "CMS should require reporting aggregated denial rates broken out by such reason codes." - Context: Request for coded PA denial reporting.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - The comment focuses on giving consumers access to correct plan, provider, formulary, price, and PA information.
+- [x] **TECHNICAL-FEASIBILITY** - It discusses specific implementation mechanisms including NPD collection, endpoint URLs, FHIR Formulary, X12 codes, and ONC Lantern-like monitoring.
+- [x] **STANDARDS-MATURITY** - The comment calls for structured identifiers and use of existing X12 and FHIR standards while acknowledging areas needing further development.
+- [x] **TRANSPARENCY** - Endpoint publication, TIC URLs, identifiers, formularies, and denial reason reporting are all transparency-focused.
+- [x] **STAKEHOLDER-COORDINATION** - The recommendations require coordination among CMS, payers, app developers, consumers, the Department of Labor, and market segments outside CMS's direct reach.
+- [x] **EXISTING-WORKFLOWS** - The comment is grounded in Checkbook's real-world data collection workflows and payer URL discovery problems.
+- [x] **VENDOR-ECOSYSTEM** - It addresses app developers, price transparency vendors, and entities building plan shopping tools.
+- [x] **FF-SHOP-REQUIREMENTS** - The comment supports consistent consumer access across QHP and non-QHP market segments, including broader commercial markets.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P  
+Submitted electronically to: http://www.regulations.gov 
+ 
+ 
+Dear Administrator Oz: 
+We applaud CMS for taking a leadership role in ensuring that patients, along with many other 
+entities in the health system, can leverage digital technologies to access the information they 
+need to make good healthcare choices. 
+ 
+Organizational Background 
+Checkbookâ€™s organizational mission is to help consumers make educated and high-value choices 
+of service providers. In the course of this work, we have observed many problems associated 
+with access to information about insurance plans and in-network providers. We have long 
+advocated for transparency and accessibility of information consumers need to make educated 
+choices of healthcare services and service providers. 
+ 
+Below we provide more detailed comments regarding the proposed rules. 
+ 
+We welcome the opportunity to engage further with CMS on this subject â€“ please do not 
+hesitate to contact Eric Ellsworth at eellsworth@checkbook.org or 202-454-3010 if you have 
+any questions or we can provide further information or assistance. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Need for Centralized Collection and Publication of API Endpoints in the National 
+Provider Directory 
+We strongly support the collection and publication of impacted payersâ€™ API endpoints in the 
+National Provider Directory. We do not support the alternative approach of self-publication 
+through NDH IG Endpoint Profile, for several reasons. First, this would leave the task of 
+discovering the correct NDH Endpoint resources to stakeholders such as app developers, 
+patients, researchers and others. Second, the lack of a regular, time-driven collection process 
+would reduce the accountability for making updates to publicly posted information on a regular 
+basis. Third, collecting URLs will...

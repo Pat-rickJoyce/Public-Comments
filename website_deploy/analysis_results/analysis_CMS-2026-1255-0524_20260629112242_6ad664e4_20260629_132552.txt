@@ -1,0 +1,167 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0524_20260629112242_6ad664e4
+Commenter: Foundation for Defense of Democracies
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:25:52
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Foundation for Defense of Democracies (FDD)
+- **Stakeholder type:** Advocacy Group / Think Tank
+- **Credentials or expertise mentioned:** Provides cybersecurity and critical infrastructure policy analysis; cites prior FDD health care cybersecurity research.
+
+## 2. EXECUTIVE SUMMARY
+
+FDD responds to CMS's resiliency RFI, arguing that cyberattacks directly threaten patient safety, care operations, and provider finances. It recommends that CMS use its Medicare and Medicaid levers to raise baseline cybersecurity preparedness, incentivize cybersecurity through payment and quality programs, and help HHS identify systemically important health care entities and workforce gaps.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL, with relevance to ONC-STANDARDS-UPDATE and API/interoperability implementation only as cybersecurity context.
+- **Regulatory citations mentioned:** Conditions of Participation and Conditions for Coverage; HIPAA Security Rule; FISMA; HITECH Act; proposed HIPAA cybersecurity rule; National Security Memorandum 22.
+- **Standards referenced:** Healthcare and Public Health Cybersecurity Performance Goals; ONC SAFER Guides; ONC/OCR Security Risk Analysis tool; CISA/Health Sector Coordinating Council resources; ASPR/NIST Health Care and Public Health Sector Cybersecurity Framework Implementation Guide; FTC Start with Security Business Guide.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Cyber resilience as patient safety and operational resilience**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Cyberattacks disrupt EHRs, diagnostic tools, medication histories, communications, ambulances, claims processing, prescription processing, and patient care. FDD frames cybersecurity as essential to continuity of care, not only privacy compliance.
+- **Specific request:** CMS should focus on operational resilience and use its standards-setting role for Medicare and Medicaid providers to promote strong cybersecurity practices.
+
+**Topic 2: Baseline cybersecurity through Conditions of Participation and Coverage**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Providers participate in CMS programs through CoPs and CfCs, giving CMS a mechanism to elevate cybersecurity preparedness without creating an unrelated new framework.
+- **Specific request:** Amend CoPs/CfCs to require implementation of basic practices from the Healthcare and Public Health Cybersecurity Performance Goals and require demonstrated workforce education on cyber threats and response.
+
+**Topic 3: Incentives and support for under-resourced providers**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Rural and small providers face financial constraints, workforce shortages, legacy systems, and higher care-access consequences when cyberattacks force diversion or closure.
+- **Specific request:** Identify financial incentives and grant programs to help providers implement cybersecurity performance goals, particularly Critical Access Hospitals and other under-resourced facilities.
+
+**Topic 4: Cybersecurity in payment and quality programs**
+- **Provision ID:** GENERAL; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** CMS payment programs can encourage cybersecurity prioritization as part of interoperability and quality improvement, especially for operability.
+- **Specific request:** Expand the Quality Payment Program and MIPS, including possible improvement activities or Promoting Interoperability categories, to include cyber-related performance goals, workforce training reporting, and attestation to basic cybersecurity practices.
+
+**Topic 5: Systemically important entities and third-party risk**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Dependence on clearinghouses and other third parties can create sector-wide fragility, as shown by Change Healthcare. Providers cannot realistically maintain redundant clearinghouse arrangements because enrollment with payers and clearinghouses is non-standardized and slow.
+- **Specific request:** CMS should support HHS and ASPR in identifying systemically important entities by using Medicare and Medicaid data to find entities processing significant shares of claims or serving many hospitals; such entities should receive appropriate oversight, planning, and preparedness attention.
+
+**Topic 6: Medical devices, legacy systems, and operational technology**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Connected devices, legacy operating systems, operational technology, and medical Internet of Things devices expand the attack surface and can create patient-safety risks if compromised.
+- **Specific request:** CMS should add unique guidance on operational technology and medical IoT security, especially where continued device operation may need to be balanced against data-confidentiality concerns.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment responds to CMS's general RFI on increasing health care resiliency. FDD identifies ransomware, connected devices, legacy systems, third-party concentration, rural provider vulnerability, underinvestment, and workforce gaps as major resiliency issues and recommends CMS actions through CoPs/CfCs, payment incentives, and systemically important entity identification.
+
+## 6. RECOMMENDATIONS
+
+1. Use CMS's Medicare and Medicaid standards-setting role to improve health care cybersecurity preparedness.
+2. Amend Conditions of Participation and Conditions for Coverage to include basic Healthcare and Public Health Cybersecurity Performance Goals.
+3. Require demonstrated workforce education on cyber threats and response.
+4. Promote workforce training materials from CISA, HHS, and the Health Sector Coordinating Council.
+5. Identify financial incentives and grant programs to help under-resourced hospitals, especially Critical Access Hospitals, implement cyber performance goals.
+6. Add cyber-related goals to the Quality Payment Program and MIPS, including workforce training reporting and attestation to basic practices.
+7. Avoid duplicating existing guidelines; instead amplify HIPAA, SAFER Guides, CISA/HHS/HSCC, NIST, ASPR, and FTC resources.
+8. Provide unique CMS guidance for operational technology and medical IoT security.
+9. Help HHS identify systemically important health care entities, including large claims processors and entities serving many Medicare/Medicaid hospitals.
+10. Treat the health care cybersecurity workforce gap as a priority comparable to clinical workforce shortages.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Ransomware, connected medical devices, vulnerable operational technology, legacy systems, third-party service concentration, clearinghouse dependency, rural provider exposure, underinvestment, and cybersecurity workforce shortages.
+- **Potential negative impacts cited:** Clinic closures, chemotherapy delays, ambulance diversion, degraded patient care, increased complications and mortality, nearby emergency department disruption, financial distress, claims and prescription processing disruption, sensitive data exposure, and rural hospital closure.
+- **Implementation barriers mentioned:** Limited IT budgets, lack of dedicated security staff, patching burdens, obsolete systems without vendor support, non-standardized clearinghouse and payer registration, shortage of cybersecurity professionals, and resource constraints at rural and small providers.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** U.S. health care was described as the top ransomware target in 2025; Change Healthcare processed an estimated 40 percent of U.S. medical claims; nearly 200 million Americans' data was compromised in the Change Healthcare incident; an AHA survey found 94 percent of hospitals suffered financial impacts and three-quarters reported patient-care impacts; most health care organizations spend less than 10 percent of IT budgets on cybersecurity; 70 percent of successful health care cyberattacks target small providers; more than 130 rural hospitals have closed since 2010 and more than 600 are at risk.
+- **Studies or research referenced:** FDD reports on health care cybersecurity; FBI/AHA reporting; CNN reports on University of Mississippi Medical Center and Ascension; studies in Healthcare Dive, JAMA Network Open, and Emergency Medicine Journal; Health-ISAC/Booz Allen threat report; Cipher Brief report on Chinese-manufactured patient monitors; Censinet, Trustwave, Black Book, HIPAA Journal, PCAST, and other cybersecurity sources.
+- **Examples provided:** University of Mississippi Medical Center clinic closures and delayed chemotherapy; Ascension ambulance diversion; Chinese-manufactured patient monitors transmitting data to China and containing backdoors; Lehigh Valley Health Network exploitation of an unpatched vulnerability; Change Healthcare ransomware attack; St. Margaret's Health closure after a cyberattack-related shutdown.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals, clinics, Critical Access Hospitals, rural communities, patients needing emergency or time-sensitive care, Medicare and Medicaid providers, CMS, HHS, ASPR, CISA, ONC, OCR, clearinghouses, payers, medical device manufacturers, cybersecurity workforce, and third-party service providers.
+- **Economic implications:** The comment emphasizes high remediation costs, lost claims processing, unreimbursed care, underinvestment, expensive legacy modernization, and the need for grants or incentives to avoid burdening under-resourced providers.
+- **Technical feasibility:** FDD views improvement as feasible if CMS builds on existing cybersecurity performance goals and guidance rather than creating duplicative frameworks, while recognizing legacy systems, medical IoT, and workforce gaps as major constraints.
+- **Patient care impact:** Cyber resilience is presented as directly tied to patient safety, mortality, emergency access, continuity of chemotherapy and other services, and rural care availability.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of CMS engagement on resiliency; concerned about current sector readiness
+- **Tone:** Technical, evidence-based, urgent, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Cyber Risks Threaten Health Care Operations and Impact Patients" - Context: Section heading framing cybersecurity as a care-delivery issue.
+2. "A resilient health care system is not about burdening hospitals with maintaining redundant technology platforms" - Context: Discussion of clearinghouse dependency and systemic resilience.
+3. "CMS should leverage its unique capabilities to focus on overall operational resilience" - Context: Lead recommendation that CMS supplement rather than duplicate existing cybersecurity resources.
+4. "The cyber health of the nation's hospitals has a very real effect on the quality of care" - Context: Conclusion connecting cyber readiness to patient outcomes.
+
+## 12. THEMES
+
+- [ ] **IMPLEMENTATION-TIMELINE** - Not materially addressed.
+- [x] **COST-RESOURCES** - The comment repeatedly cites underinvestment, rural hospital finances, grant needs, and cybersecurity budget constraints.
+- [x] **PROVIDER-BURDEN** - FDD warns against burdening providers with redundant platforms and recognizes operational burdens from patching, staffing, and compliance.
+- [x] **PRIVACY-SECURITY** - Cybersecurity, data protection, ransomware, devices, operational technology, and resilience are the core subjects.
+- [x] **HEALTH-EQUITY** - Rural and under-resourced communities face disproportionate risks when cyberattacks disrupt local facilities.
+- [x] **TECHNICAL-FEASIBILITY** - The comment discusses legacy systems, connected devices, clearinghouse switching complexity, and cybersecurity workforce gaps.
+- [ ] **STANDARDS-MATURITY** - Not addressed in relation to FHIR/NCPDP standards.
+- [x] **PATIENT-ACCESS** - Cyber disruptions are linked to delayed chemotherapy, ambulance diversion, ED delays, rural access, and mortality.
+- [ ] **REGULATORY-AUTHORITY** - The comment invokes CMS's Medicare/Medicaid standards role but does not challenge or analyze legal authority in depth.
+- [x] **STAKEHOLDER-COORDINATION** - FDD recommends CMS coordination with HHS, ASPR, CISA, ONC, OCR, NIST, and HSCC.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [ ] **TRANSPARENCY** - Not a central theme.
+- [x] **SMALL-PAYER-IMPACT** - The analogous small-provider impact is central, especially for small and rural care facilities; small payer impact is not addressed.
+- [x] **EXISTING-WORKFLOWS** - Clearinghouse registration, manual downtime processes, claims workflows, and clinical operations are discussed.
+- [x] **VENDOR-ECOSYSTEM** - Third-party services, clearinghouses, medical device manufacturers, and connected device vendors are central to the risk analysis.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Foundation for Defense of Democracies 
+ 
+www.fdd.org 
+0 
+ 
+ 
+ 
+Foundation for Defense of Democracies 
+ 
+www.fdd.org 
+1 
+Despite the critical role they play in maintaining public health, safety, and wellbeing, health care 
+providers are often under-equipped to handle cybersecurity challenges that threaten the delivery 
+of critical services. The challenge is widespread â€” chronic underinvestment and structural 
+vulnerability contribute to the threat environment, while attacks from ransomware groups have 
+cost the health care sector millions of dollars and disrupted care for hundreds of thousands of 
+patients.1 Addressing the gaps requires an understanding of the threat landscape, sector 
+vulnerabilities, and potential paths forward to secure the sector and protect patients and providers 
+alike. 
+While the Department of Health and Human Servicesâ€™ (HHSâ€™s) Centers for Medicare and 
+Medicaid Services (CMS) does not have regulatory oversight of all hospitals and health care 
+entities, its unique position as a standards-setting body for those providing Medicare and 
+Medicaid services provides an opportunity to guide the adoption of strong cybersecurity 
+practices that can equip providers to keep their patients, practices, and finances safe.  
+Cyber Risks Threaten Health Care Operations and Impact Patients 
+Americaâ€™s health care sector is under threat in cyberspace. The United States experienced the 
+most health care-related cyberattacks of any country in 2025, and the FBI has consistently 
+identified the health care and public health sector as the critical infrastructure sector most 
+targeted by ransomware.2  
+When ransomware encrypts a hospitalâ€™s systems, providers can lose access to electronic health 
+records, diagnostic tools, medication histories, and communication systems. To mitigate the 
+effects of a technology disruption, staff may be forced to revert to manual, paper-based processes 
+for patient triage, exams, and lab reques...

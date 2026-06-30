@@ -1,0 +1,187 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0668_20260629112042_26982921
+Commenter: Highmark Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:32:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Highmark Inc.; signed by Amy Sawyer, Director Health Policy.
+- **Stakeholder type:** Payer.
+- **Credentials or expertise mentioned:** Highmark describes itself as part of an integrated healthcare delivery and financing system and the third-largest Blue Cross Blue Shield-affiliated organization, covering nearly 8 million members across several states.
+
+## 2. EXECUTIVE SUMMARY
+
+Highmark supports CMS's overall interoperability and electronic prior authorization direction, including FHIR-enabled APIs and drug prior authorization modernization. It asks CMS to add clear version governance, preserve dual FHIR/X12 transaction paths during transition, align timelines with X12 8060, address provider readiness and affordability, and make denial/reporting requirements operationally feasible.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; HIPAA-PA-STANDARDS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations are cited directly.
+- **Standards referenced:** FHIR; FHIR implementation guides; NCPDP SCRIPT; NCPDP RTPB; formulary standards; Provider Directory/PlanNet IG; X12 278; X12 270/271; X12 8060; APIs; EHRs; clearinghouse translation from X12 to FHIR.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: IG version governance**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Requiring IGs without specifying versions may create fragmentation, indefinite backward compatibility expectations, and costly support for multiple concurrent versions.
+- **Specific request:** Establish baseline versions, defined transition/adoption timelines, and explicit version retirement schedules.
+
+**Topic 2: Pharmacy standards and readiness variation**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Pharmacy readiness differs depending on whether utilization management is handled internally or delegated to PBMs, and real-time prescription benefit expectations may not reflect final adjudicated amounts.
+- **Specific request:** Account for payer operating models and clarify the meaning of "real-time" for prescription benefit tools.
+
+**Topic 3: Electronic PA for drugs and provider readiness**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support with modifications
+- **Rationale:** Expanding ePA to drugs can improve access to specialty medications, but independent, dental, and professional providers may lack FHIR-enabled EHRs and face costly vendor or clearinghouse transitions.
+- **Specific request:** Use phased/tiered adoption timelines, readiness assessments, targeted education, technical assistance, and funding mechanisms.
+
+**Topic 4: FHIR as HIPAA PA standard and X12 coexistence**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** Abrupt transition from X12 to FHIR would disrupt provider workflows, increase transaction failures, and delay care.
+- **Specific request:** Explicitly allow FHIR and X12 278 coexistence during transition, provide use-case-based transaction-selection guidance, and align timelines with X12 8060.
+
+**Topic 5: Eligibility transactions and PA indicators**
+- **Provision ID:** HIPAA-PA-STANDARDS; EXISTING-WORKFLOWS/GENERAL
+- **Position:** Clarify
+- **Rationale:** Providers currently use 270/271 eligibility workflows, including Type 30 inquiries, to receive benefit and PA information; the proposed rule creates ambiguity about whether PA indicators may continue in 271 responses.
+- **Specific request:** Preserve flexibility, clarify whether PA indicators may continue in 271 responses, and explain how providers should be alerted to incorrect transaction types.
+
+**Topic 6: Denials, timeframes, and metrics reporting**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Highmark supports transparency, but fully standardized denial reason codes may not fit benefit-design and clinical-decision variation; metrics reporting will require system enhancements.
+- **Specific request:** Use hybrid denial categories with plan-specific detail, provide clear definitions and standardized reporting methodologies, allow enough implementation time, and focus metrics on burden reduction and workflow efficiency.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Highmark supports required adoption of FHIR IGs but says naming IGs alone is insufficient for real interoperability.
+- **S2:** Highmark opposes a version-neutral approach without governance and asks CMS to designate baseline versions.
+- **S3:** Highmark asks for defined transition, adoption, and retirement timelines to avoid unlimited backward compatibility.
+- **S6:** Highmark notes Provider Directory/PlanNet IG limitations and asks CMS to strengthen standards based on real-world consumer and provider needs.
+- **S12:** Highmark supports expanding ePA to drugs but emphasizes distinct medical and pharmacy benefit systems, workflows, and vendor platforms.
+- **S14:** Highmark supports continued use of pharmacy standards but asks CMS to recognize readiness differences caused by PBM delegation and internal UM models.
+- **S15:** Highmark addresses the need to distinguish medical and pharmacy benefit ecosystems because they use different workflows and systems.
+- **S21:** Highmark urges phased, supportive timelines and warns that provider readiness barriers could reduce access to care.
+- **S22:** Highmark notes material costs for upgrades, replacement systems, clearinghouse translation, payer system development, testing, and maintenance.
+- **S25:** Highmark asks CMS to clarify "real-time" for prescription benefit tools because point-of-service estimates may not equal final adjudicated amounts.
+- **S16:** Highmark supports meaningful, actionable denial explanations but cautions that fully standardized denial codes are not feasible.
+- **S17:** Highmark recommends a hybrid approach using standardized categories plus plan-specific detail.
+- **S20/S43:** Highmark states proposed timelines generally align with current operations but flexibility may be needed across programs with different constraints.
+- **S29/S34/S35:** Highmark supports expanded metrics reporting if CMS provides clear definitions, standardized methodologies, sufficient implementation time, and metrics tied to burden reduction and workflow efficiency.
+- **S44:** Highmark supports FHIR as the long-term direction for prior authorization.
+- **S46:** Highmark strongly supports coexistence of FHIR and X12 278 during transition.
+- **S47/S53:** Highmark asks CMS to phase and sequence implementation and align timing with X12 8060.
+- **S48/S49/S51:** Highmark highlights costs and access risks for providers lacking FHIR-enabled systems, especially independent practices, professional practices, and dental providers.
+- **S50/S54:** Highmark asks for clear transaction-use guidance and testing/implementation coordination to prevent market fragmentation.
+- **S66-S82:** Highmark provides broader cross-cutting recommendations on provider readiness, eligibility workflows, and regulatory coordination.
+
+## 6. RECOMMENDATIONS
+
+1. Establish clear version governance for all required interoperability standards and IGs.
+2. Designate baseline IG versions and define transition, adoption, and retirement schedules.
+3. Account for different payer/PBM operating models in pharmacy standards compliance.
+4. Clarify "real-time" expectations for RTPB and prescription benefit tools.
+5. Strengthen Provider Directory/PlanNet IG capabilities to reflect real-world use cases.
+6. Use phased or tiered adoption timelines for drug ePA and FHIR-based PA.
+7. Provide readiness assessments, education, technical assistance, and funding mechanisms for providers.
+8. Explicitly allow FHIR and X12 278 coexistence during transition.
+9. Align CMS-0062-P timelines with X12 8060 development and adoption.
+10. Clarify when FHIR APIs, X12 278, and eligibility 270/271 transactions should be used.
+11. Preserve flexibility for PA indicators in 271 eligibility responses unless and until a fully operational replacement exists.
+12. Use hybrid denial-reason reporting with standardized categories and plan-specific detail.
+13. Standardize metrics definitions and reporting methodologies and allow adequate implementation time.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Version fragmentation, unlimited backward compatibility, provider readiness, cost, workflow disruption, overlapping regulatory timelines, eligibility transaction ambiguity, and infeasible reporting standardization.
+- **Potential negative impacts cited:** Provider market exits, reduced network adequacy, reduced access to care, premium/member affordability impacts, transaction failures, care delays, market fragmentation, and repeated reconfiguration/testing cycles.
+- **Implementation barriers mentioned:** Non-FHIR EHR environments, legacy practice management systems, clearinghouse translation needs, PBM delegation, vendor dependencies, multiple concurrent IG versions, X12 8060 overlap, and fragmented/manual data capture.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Highmark reports nearly 8 million members and operations across Pennsylvania, Delaware, New York, West Virginia, Missouri, and Kansas.
+- **Studies or research referenced:** No studies are cited.
+- **Examples provided:** Type 30 eligibility inquiries returning PA information in 271 responses; independent, dental, and professional practices needing vendor migration or clearinghouse translation from X12 to FHIR; operational burden caused by simultaneous CMS-0062-P and X12 8060 implementation.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers, PBMs, providers, independent practices, dental providers, professional practices, clearinghouses, vendors, patients, and members.
+- **Economic implications:** Highmark expects significant financial burden from system upgrades, vendor migration, dual-standard support, system development, testing, maintenance, reporting enhancements, and possible pass-through effects on premiums and affordability.
+- **Technical feasibility:** Feasible with clearer governance, dual-standard transition, X12 coordination, and adequate implementation time; risky if CMS requires abrupt FHIR-only adoption.
+- **Patient care impact:** Successful implementation could improve access to high-cost and specialty medications; rushed implementation could reduce provider participation, network adequacy, and timely care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, operational, and cautionary
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We support CMS's overall direction" - Context: Highmark's broad position on ePA and FHIR-enabled interoperability.
+2. "Requiring IGs without specifying versions does not achieve true interoperability" - Context: Highmark's argument for version governance.
+3. "A dual transaction environment-supporting both FHIR and X12 278-will be necessary" - Context: Highmark's HIPAA PA standards transition recommendation.
+4. "The absence of clear answers creates the potential for substantial confusion" - Context: Highmark's concerns about eligibility transaction and PA indicator workflows.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Highmark repeatedly requests phased timelines and alignment with X12 8060.
+- [x] **COST-RESOURCES** - The comment emphasizes provider upgrade costs, payer system costs, reporting costs, and premium affordability impacts.
+- [x] **PROVIDER-BURDEN** - Provider readiness, independent practice burden, and workflow disruption are central concerns.
+- [x] **TECHNICAL-FEASIBILITY** - Highmark focuses on version governance, dual standards, transaction selection, system upgrades, and data capture feasibility.
+- [x] **STANDARDS-MATURITY** - The comment addresses IG versioning, PlanNet limitations, NCPDP standards, and X12 8060 coordination.
+- [x] **PATIENT-ACCESS** - Highmark warns implementation barriers could reduce network adequacy and access to care.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes payer, PBM, provider, vendor, clearinghouse, CMS, and X12 coordination.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Highmark highlights distinct medical and pharmacy benefit ecosystems and vendor architectures.
+- [x] **TRANSPARENCY** - Highmark supports meaningful denial explanations and consistent metrics reporting.
+- [x] **EXISTING-WORKFLOWS** - X12 278, 270/271 eligibility, Type 30 inquiries, and current provider workflows are major themes.
+- [x] **VENDOR-ECOSYSTEM** - Highmark discusses EHRs, practice management systems, clearinghouses, PBMs, and vendor migration.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Page 1 
+ 
+ 
+ 
+ 
+June 15, 2026 
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+via http://www.regulations.gov 
+ 
+Subject: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of 
+Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P) 
+ 
+Dear Sir/Madam,  
+ 
+Highmark Health is an integrated healthcare delivery and financing system based in Pittsburgh, 
+Pennsylvania. As one of the largest health insurance organizations in the United States Highmark 
+Inc. (Highmark) is an independent licensee of the Blue Cross Blue Shield Association and 
+together with its Blue-branded affiliates, collectively comprise the third largest overall Blue 
+Cross Blue Shield-affiliated organization in the country with nearly 8 million members in 
+Pennsylvania, Delaware, New York, West Virginia, Missouri and Kansas.  
+Highmark appreciates the opportunity to provide comments on proposed rule CMS-0062-P. We 
+commend CMS for continuing to advance policies promoting interoperability, reducing 
+administrative burden, and improving access to timely, high-quality care. 
+We support CMSâ€™s overall direction, including the expansion of electronic prior authorization 
+(ePA) and the broader transition toward API-enabled interoperability using FHIR standards. 
+Collectively, these efforts represent a meaningful opportunity to modernize administrative 
+processes and improve the experience for patients and providers alike. 
+At the same time, our comments reflect a consistent theme observed across industry 
+stakeholders: while the policy direction is appropriate, successful implement...

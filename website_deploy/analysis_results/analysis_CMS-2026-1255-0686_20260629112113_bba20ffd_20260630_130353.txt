@@ -1,0 +1,183 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0686_20260629112113_bba20ffd
+Commenter: CancerCare
+Source: PDF Attachment
+Analysis Date: 2026-06-30 13:03:53
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** CancerCare; signed by Kim Czubaruk, JD, Vice President of Policy.
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Cancer patient advocacy organization; references its 2025 report, The Health Insurance Maze: How Cancer Patients Get Lost in the Red Tape of Utilization Management.
+
+## 2. EXECUTIVE SUMMARY
+
+CancerCare strongly supports CMS extending prior authorization API requirements to prescription drugs and emphasizes the patient access harms caused by utilization management delays in cancer care. It recommends stronger patient notice protections, faster drug PA timeframes, continuity safeguards, detailed denial reasons, public disaggregated API metrics, step therapy reforms, and interagency attention to alternative funding programs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; PATIENT-ACCESS / GENERAL.
+- **Regulatory citations mentioned:** No CFR sections cited directly.
+- **Standards referenced:** Patient API; prior authorization APIs; electronic transfer of authorization history. No specific FHIR IG or NCPDP version is named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend PA APIs to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Prior authorization causes diagnostic and treatment delays for cancer patients, despite high ultimate approval rates.
+- **Specific request:** Finalize extension of prior authorization API requirements to prescription drugs under both medical and pharmacy benefits.
+
+**Topic 2: Patient access and non-digital notice**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patient API access can improve understanding of medication decisions, but people without apps, phones, stable internet, or a preference for electronic access should not be disadvantaged.
+- **Specific request:** Require states and QHP issuers to provide redundant written notices upon request whenever important notices or responses are handled through an app or Patient API.
+
+**Topic 3: Faster PA timelines for QHPs and drugs**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Automation should enable shorter timeframes, and drug access delays are especially dangerous for patients needing cancer treatment.
+- **Specific request:** For non-drug QHP PA, require 72-hour standard and 24-hour expedited responses; for prescription drugs, require QHP issuers to respond within 24 hours in all cases.
+
+**Topic 4: Continuity and repeat authorization protections**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** Repeat PA for stable patients and mid-course changes can interrupt long-term therapies and force patients to restart documentation or appeals.
+- **Specific request:** Prohibit reauthorization for stable long-term therapies, require approvals for the duration of treatment, bar mid-course PA changes without continuity protections, and require plans to honor existing approvals during plan transitions.
+
+**Topic 5: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Clarify
+- **Rationale:** Generic denials such as lack of medical necessity do not tell providers what patient-specific information is missing and may mask automated denials.
+- **Specific request:** Clarify that denial reasons must include patient-specific detail and identify what additional information is needed.
+
+**Topic 6: API usage metrics and public reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** API usage data can help stakeholders understand uptake and identify trends or disparities.
+- **Specific request:** Collect disaggregated data by provider type, plan, organizational size, and geography, and publish API usage data at least annually.
+
+**Topic 7: Step therapy and prescribing history**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Technology can reduce burden by sharing prior prescribing history and avoiding repeats of drugs that have already failed.
+- **Specific request:** Conduct future rulemaking requiring payers to consider past utilization management and prescribing patterns, automate appropriate determinations, and set step therapy exception timeframes of 72 hours standard and 24 hours emergency.
+
+**Topic 8: Alternative funding programs**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Oppose abusive practices
+- **Rationale:** AFPs may use unreasonable PA requirements or coverage exclusions to impede access to specialty drugs.
+- **Specific request:** CMS should work with the Department of Labor to address PA abuses in alternative funding programs, especially where a covered drug is subject to unreasonable PA.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports extending PA API requirements to prescription drugs, including drugs covered under medical benefit arrangements.
+- **S14:** Supports extending PA API requirements to prescription drugs under pharmacy benefits.
+- **S16:** Supports requiring specific reasons for PA denials and asks CMS to reject generic medical-necessity explanations.
+- **S20:** Recommends 24-hour responses for all prescription drug PA requests, aligning QHP enrollees with Medicaid and CHIP protections.
+- **S29:** Supports PA API usage metric reporting and asks CMS to collect disaggregated data by provider type, plan, organizational size, and region.
+- **S34:** Recommends routine public posting of API usage data at least annually.
+- **S35:** Supports public availability of API usage data for patients, policymakers, and other stakeholders.
+- **S40-S42:** Addresses QHP PA timeframes and patient notice protections, recommending faster QHP responses and non-digital written notices.
+- **S66-S82:** Responds to RFIs on step therapy and related utilization management, recommending use of prescribing history, step therapy exception deadlines, and attention to alternative funding programs.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize extension of PA API requirements to prescription drugs under medical and pharmacy benefits.
+2. Preserve access to written notices for people who cannot or do not use apps or APIs.
+3. Require QHP non-drug PA decisions within 72 hours standard and 24 hours expedited.
+4. Require prescription drug PA responses within 24 hours in all cases.
+5. Prohibit unnecessary repeat authorization for stable long-term therapies.
+6. Require approvals to remain valid for the duration of treatment and during appropriate plan-transition periods.
+7. Require patient-specific denial reasons and information on what the provider must submit.
+8. Collect disaggregated API usage metrics and publish them at least annually.
+9. Use technology to account for prior prescribing history in step therapy.
+10. Establish 72-hour standard and 24-hour emergency step therapy exception response deadlines.
+11. Work with the Department of Labor to address PA abuses in alternative funding programs.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Cancer treatment delays, digital access inequities, repeat PA, inadequate denial specificity, insufficient public metrics, step therapy burden, and alternative funding program abuse.
+- **Potential negative impacts cited:** Diagnostic delays, treatment delays, financial stress, reduced trust in the health care system, interrupted long-term therapy, and repeated failed-drug requirements.
+- **Implementation barriers mentioned:** App and internet access limitations, plan transitions, lack of interoperable authorization history, and automated denials lacking patient-specific review.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CancerCare survey found 29% of respondents experienced diagnostic delays, 40% had treatment delayed, 95% of authorization requests were eventually approved, and 73% experienced prior authorization for chemotherapy.
+- **Studies or research referenced:** CancerCare's 2025 report, The Health Insurance Maze: How Cancer Patients Get Lost in the Red Tape of Utilization Management.
+- **Examples provided:** Lost or damaged phones, lack of permanent mobile or high-speed internet access, patients stable on long-term therapy, patients changing plans, and specialty drug alternative funding programs.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, caregivers, providers, QHP issuers, states, payers, policymakers, and specialty drug users.
+- **Economic implications:** PA delays and AFPs can worsen patient finances; streamlined APIs and reduced repeat PA may lower provider and patient burden.
+- **Technical feasibility:** Supports API-based improvements but stresses automation should enable faster timelines and transfer of authorization history.
+- **Patient care impact:** Faster drug PA, continuity protections, and clear denial information would reduce delays in life-saving treatment.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, patient-centered, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "we strongly support CMS's actions in this rule" - Context: Support for extending prior authorization rules to prescription drugs.
+2. "40% had treatment delayed because of this red tape" - Context: Evidence of patient harm from prior authorization.
+3. "CMS should require states and QHP issuers to make available to individuals, upon request, redundant written methods of notice." - Context: Digital access and patient notice recommendation.
+4. "we urge CMS to require insurers to respond within 24 hours in all cases" - Context: Recommended drug PA timeframe for QHP issuers.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - CancerCare recommends faster QHP and drug PA deadlines and step therapy exception timeframes.
+- [x] **PROVIDER-BURDEN** - The comment addresses provider documentation burden, repeat authorization, and step therapy processes.
+- [x] **HEALTH-EQUITY** - It highlights people who lack apps, reliable devices, high-speed internet, or who prefer paper notices.
+- [x] **TECHNICAL-FEASIBILITY** - It assumes automation and API usage can support faster decisions and authorization-history transfer.
+- [x] **PATIENT-ACCESS** - Cancer treatment delays and medication access are the comment's central concern.
+- [x] **TRANSPARENCY** - The commenter asks for patient-specific denial reasons and public API usage data.
+- [x] **EXISTING-WORKFLOWS** - Recommendations seek continuity across plan changes and avoid restarting authorization processes.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Dr. Mehmet Oz  
+Administrator, Centers for Medicare & Medicaid Services (CMS) 
+U.S. Department of Health and Human Services 
+200 Independence Ave SW 
+Washington, DC 20201 
+ 
+Re: Proposed Rule on Prior Authorization for Drugs or Medicare Advantage Organizations, Medicaid 
+Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies and 
+CHIP Managed Care Entities, and Issuers of Qualified health Plans on Federally-Facilitated Exchanges 
+(CMS-0062-P) 
+ 
+Administrator Oz:  
+ 
+Thank you for the opportunity to comment on this rule. We strongly support CMSâ€™s ongoing work to 
+address prior authorization and improve patient access to care.  
+ 
+In past comments, we have asked CMS to extend the scope of the rules to prescription drugs and we 
+strongly support CMSâ€™s actions in this rule to do so.  
+ 
+Prior authorization places a heavy burden on patients and providers. In 2025, we released our report 
+The Health Insurance Maze: How cancer Patients Get Lost in the Red Tape of Utilization Management. In 
+our survey, we found that 29% of all respondents experienced diagnostic delays due to their most 
+recent authorization, and 40% had treatment delayed because of this red tape, despite 95% of 
+authorization requests eventually being approved. 73% experienced prior authorization for 
+chemotherapy at some point.  Patients reported more stress, worse finances, and less trust in the health 
+care system due to challenges with insurance.  
+ 
+Patient Access to Information 
+We support the efforts to improve patient access to information through the patient API. The prior 
+authorization process is perplexing, frustrating, and can be dangerous. Access to more information will 
+not solve all of the problems listed above, but will help patients and caregivers at least understand the 
+status of decisions on their life-saving medications. 
+ 
+CMS should also broadly ensure that individuals...

@@ -1,0 +1,166 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0547
+Commenter: American Osteopathic Association and undersigned osteopathic physician organizations
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:09:47
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Osteopathic Association and 16 additional osteopathic physician organizations
+- **Stakeholder type:** Professional Association / Healthcare Provider
+- **Credentials or expertise mentioned:** The undersigned organizations represent more than 207,000 osteopathic physicians (DOs) and medical students. Osteopathic physicians are described as trained in a patient-centered, whole-person approach to care.
+
+## 2. EXECUTIVE SUMMARY
+
+The osteopathic physician organizations strongly support CMS's proposal to extend electronic prior authorization requirements to drugs and require standards-based APIs that support PA within physicians' EMR workflows. They ask CMS to strengthen the rule by requiring specialist review and evidence-based criteria for denials, more granular PA metrics by specialty/therapeutic area/drug/service, shorter non-drug PA timeframes, real-time decision capability, limits on low-value PA/step therapy, and gold card relief for high-performing physicians.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DENIAL-REASONS; API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS; GENERAL.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** Standards-based APIs; implementation guides; EMR workflows. No specific IG names are identified in the comment.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Standards-Based APIs for Electronic Prior Authorization**
+- **Provision ID:** FHIR-IG-REQUIRED / PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Physicians continue to face interoperability challenges exchanging information with health plans, and electronic standards can allow PA to be performed for drugs and services within physicians' EMR workflows.
+- **Specific request:** Finalize proposals requiring each impacted payer to implement and maintain standards-based APIs supporting critical PA functions.
+
+**Topic 2: Denial Reasons and Specialist Review**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Denial reasons alone may not reduce inappropriate denials unless adverse decisions are clinically grounded and reviewed by relevant experts.
+- **Specific request:** Finalize denial-reason provisions, require potential adverse decisions to be reviewed by relevant specialists before denial, and require PA requirements to be based on publicly available evidence or clinical guidelines.
+
+**Topic 3: Prior Authorization Metrics Granularity**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Aggregate issuer- or contract-level metrics have limited value for beneficiaries shopping for plans and providers contracting with payers.
+- **Specific request:** Require PA metrics reporting by specialty, therapeutic area, drug, or individual service to make plan performance transparent and identify areas where PA may be inappropriate.
+
+**Topic 4: Prior Authorization Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Shorter timeframes reduce unnecessary care delays and support timely access to needed care.
+- **Specific request:** Keep proposed drug timeframes of 72 hours standard and 24 hours urgent where applicable, shorten non-drug item/service timeframes to 72 hours standard and 24 hours urgent, and consider requiring plans to be capable of real-time PA decisions.
+
+**Topic 5: Comprehensive PA and Step Therapy Reform**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Electronic PA reforms alone will not eliminate low-value PA policies or step therapy requirements that create burden with limited patient safety or utilization benefit.
+- **Specific request:** Limit PA and step therapy to drugs/services truly of concern for patient safety; require specialty experts to develop evidence-based PA policies; require specialist peer review; and create carefully designed gold card programs for physicians with strong documentation and PA approval records.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1 / S18:** Supports requiring implementation guides and standards-based APIs, emphasizing that required standards are needed for seamless data sharing and PA within EMR workflows.
+- **S12 / S21:** Supports extending PA requirements to drugs and views the proposal as responsive to stakeholder concerns about drug PA barriers.
+- **S16-S17:** Supports denial-reason requirements and recommends additional protections: specialist review before adverse decisions and publicly available evidence-based criteria.
+- **S29-S35:** Supports annual PA metrics but requests more granular reporting by specialty, therapeutic area, drug, or service rather than issuer/contract-level aggregates.
+- **S43:** Requests non-drug PA decision timeframes be shortened to 72 hours standard and 24 hours urgent, and asks CMS to consider real-time decision capability.
+- **S66-S82:** Responds generally to broader PA/step therapy reform by recommending limits on low-value PA and step therapy, specialty-developed criteria, and gold card programs.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize standards-based API requirements for impacted payers to support critical PA functions.
+2. Finalize denial-reason communication provisions for denied drug PA requests.
+3. Require potential adverse decisions to be reviewed by relevant specialists before denials are issued.
+4. Require PA requirements for items and services to be based on publicly available evidence or clinical guidelines.
+5. Require PA metrics reporting by specialty, therapeutic area, drug, or individual service.
+6. Shorten non-drug PA timeframes to 72 hours for standard requests and 24 hours for urgent requests.
+7. Consider requiring plans to be capable of issuing real-time PA decisions.
+8. Limit PA and step therapy to drugs and services truly of concern for patient safety.
+9. Prevent low-value PA policies that create burden with limited patient-safety or appropriate-utilization benefit.
+10. Ensure PA policies are developed by relevant specialty experts using publicly available evidence-based criteria.
+11. Require adverse decisions or peer reviews to be conducted by relevant specialists.
+12. Establish carefully designed gold card programs for physicians with strong documentation and PA approval records.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Physician administrative burden, care delays, serious adverse events, insufficiently granular transparency, inappropriate denials, low-value PA/step therapy, and inadequate non-drug timeframes.
+- **Potential negative impacts cited:** Delayed care, serious adverse events, reduced physician time with patients, diminished trust in plan performance, and unnecessary administrative burden.
+- **Implementation barriers mentioned:** Persistent interoperability challenges with health plans despite existing API requirements; lack of specificity in aggregate metrics; payer PA policies not tied to evidence or specialty expertise.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** The organizations represent more than 207,000 osteopathic physicians and medical students.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Medicare Advantage already requires relevant specialist review for PA denials for items and services; gold card programs are cited as a model for reducing burden for physicians with strong approval/documentation records.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Osteopathic physicians and medical students, patients, physician practices, impacted payers, health plans, and CMS.
+- **Economic implications:** Reducing low-value PA, improving real-time decisioning, and adopting gold card programs could reduce physician practice time and cost burden.
+- **Technical feasibility:** The comment supports standards-based APIs and EMR workflow integration but does not provide detailed technical implementation analysis.
+- **Patient care impact:** High; the comment links PA delays to serious adverse events and urges faster decisions and clinically appropriate denial review.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, supportive, reform-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The prior authorization (PA) process places substantial time and cost burdens on physician practices, and care delays associated with PA often lead to serious adverse events among patients." - Context: Establishes the patient-safety and burden rationale.
+2. "Our organizations urge CMS to finalize proposals to require each impacted payor to implement and maintain standards-based application programming interfaces (APIs)." - Context: Core support for standards-based API requirements.
+3. "Requiring reporting based on specialty, therapeutic area, drug, or individual service will provide more meaningful information to patients and providers." - Context: Metrics transparency recommendation.
+4. "Timeframes should be reduced to the greatest extent possible to minimize unnecessary care delays." - Context: Recommendation for shorter PA decision timeframes.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests shorter decision timeframes and real-time PA capabilities.
+- [x] **COST-RESOURCES** - Highlights time and cost burdens on physician practices.
+- [x] **PROVIDER-BURDEN** - Central theme; focuses on physician administrative burden and EMR workflow integration.
+- [x] **TECHNICAL-FEASIBILITY** - Supports standards-based APIs to improve data exchange with health plans, though without detailed technical analysis.
+- [x] **STANDARDS-MATURITY** - Supports requiring specific implementation guides and standards as a driver of broader ePA adoption.
+- [x] **PATIENT-ACCESS** - Emphasizes timely care and minimizing unnecessary delays.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for specialty-expert involvement in PA policy development and peer review.
+- [x] **TRANSPARENCY** - Strong focus on denial reasons and granular PA metrics.
+- [x] **EXISTING-WORKFLOWS** - Requests PA be performed within physicians' EMR workflows and supports gold card programs.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 10, 2026 
+ 
+The Honorable Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+Attention: CMS-0057-P 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Re: 
+Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children’s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of 
+Qualified Health Plans on the Federally-Facilitated Exchanges (CMS–0062–P) 
+ 
+Dear Administrator Mehmet Oz: 
+ 
+On behalf of the undersigned 17 organizations representing more than 207,000 osteopathic physicians 
+(DOs) and medical students, thank you for this opportunity to comment on the 2026 CMS Interoperability 
+Standards and Prior Authorization for Drugs Proposed Rule. We appreciate the work that the Centers for 
+Medicare & Medicaid Services (CMS) has undertaken to address physician administrative burden and 
+the agency’s commitment to pursing reforms that will improve care delivery and access. 
+ 
+Osteopathic physicians are trained in a patient-centered, whole-person approach to care. We believe 
+policies should be tailored to empower physicians in partnering with patients to make treatment decisions 
+that will result in the best outcomes. The prior authorization (PA) process places substantial time and 
+cost burdens on physician practices, and care delays associated with PA often lead to serious adverse 
+events among patients. 
+ 
+We commend CMS’ efforts to improve the PA process and extend the requirements from the 2024 
+Promoting Interoperability and Improving Prior Authorization Processes final rule to cover PA for drugs. 
+We commented on the 2024 rulemaking with a request for CMS to address the growing care barriers 
+associated with drug PAs and appreciate CMS for its work to be responsive to  our organizations and 
+...

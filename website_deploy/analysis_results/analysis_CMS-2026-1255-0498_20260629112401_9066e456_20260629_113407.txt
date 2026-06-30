@@ -1,0 +1,206 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0498
+Commenter: Pharmaceutical Care Management Association (PCMA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:34:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Pharmaceutical Care Management Association (PCMA), signed by Tim Dube, Senior Vice President, Policy
+- **Stakeholder type:** Professional Association (representing Pharmacy Benefit Managers)
+- **Credentials or expertise mentioned:** PCMA represents PBMs administering prescription drug plans for more than 289 million Americans; PBMs conduct 94% of eligibility and benefit verification transactions electronically and in real time.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+PCMA, representing PBMs, generally supports CMS's interoperability and ePA modernization goals but urges at least a 24-month compliance timeline from final rule effective date, clarification on integrated episode-based PA submissions spanning both medical and pharmacy benefits, and greater policy focus on provider adoption of ePA tools (not just payer mandates). PCMA also raises concerns about cybersecurity risks from API endpoint reporting and supports technology-enhanced step therapy processes.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, API-ENDPOINT-REPORTING, API-USAGE-METRICS, PA-TIMEFRAMES-DRUGS, MEDICAL-VS-PHARMACY-BENEFIT
+- **Regulatory citations mentioned:** 42 CFR 423.160(a)(5); 42 CFR 423.160(a)(3); CMS-1751-F (2022 Physician Fee Schedule); 89 Fed. Reg. 51239
+- **Standards referenced:** FHIR (including FHIR R6), NCPDP SCRIPT, Formulary & Benefit (F&B), Real-Time Prescription Benefit (RTPB/RTBT), HL7 FHIR IGs (CRD, DTR, PAS), NIST Cybersecurity Framework, Cybersecurity Information Sharing Act of 2015 (CISA 2015)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Compliance Timeline**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** October 1, 2027 is too ambitious given coordination complexity across PBMs, health plans, pharmacies, EHR vendors; FHIR IGs are still evolving; simultaneous overlapping federal/state requirements; key operational questions remain unanswered.
+- **Specific request:** Provide at least a 24-month compliance period from final rule effective date; align compliance dates with other federal interoperability initiatives; exercise enforcement discretion during first year if timeline not extended; consider phased implementation.
+
+**Topic 2: Dual Standards for Medical vs. Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Support with modifications
+- **Rationale:** Dual standard approach reflects long-standing technical distinctions between medical and pharmacy claims. However, CMS should wait for FHIR R6 before mandating FHIR API standards to reduce rework. NCPDP standards are well-established for pharmacy benefit.
+- **Specific request:** Consider deferring FHIR API mandate until FHIR R6 is formally adopted; clarify that payers may issue integrated episode-based PAs spanning both medical and pharmacy benefit drugs in a single request; allow single PA entry pathway with payer-side internal routing.
+
+**Topic 3: Episode-Based PA Submissions**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify
+- **Rationale:** Complex therapies (e.g., oncology regimens like AML maintenance therapy) involve both medical benefit drugs (injectables) and pharmacy benefit drugs (oral agents). Splitting PA requests creates clinical risk of approving components individually when the combined regimen may not be evidence-supported.
+- **Specific request:** CMS should explicitly clarify that payers may continue to issue single PAs covering drug regimens that include both medical and pharmacy benefit drugs, with payers responsible for internal routing.
+
+**Topic 4: PA Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Compressed turnaround times that do not account for time needed to gather complete clinical documentation (chart notes, lab results) may lead to increased denials and resubmissions.
+- **Specific request:** Clarify that PA timeframes begin when the payer receives complete information necessary to make the determination.
+
+**Topic 5: Provider Adoption Gap**
+- **Provision ID:** GENERAL
+- **Position:** Modify (broaden scope)
+- **Rationale:** Most PBMs/plans already support ePA capabilities; the bottleneck is provider adoption. Despite HIPAA mandates on Part D ePA since 2006, providers outside Part D still rely on fax, phone, and paper. RTBT recommendations are made for only a small percentage of prescriptions.
+- **Specific request:** CMS should implement policies incentivizing provider adoption of ePA and RTBT, including stronger quality program measures, expanded education/outreach, better EHR workflow integration, and coordination with ONC and EHR vendors.
+
+**Topic 6: API Endpoint Reporting and Usage Metrics**
+- **Provision ID:** API-ENDPOINT-REPORTING, API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** Broad endpoint reporting could expose sensitive system information and increase cybersecurity risks; overlapping federal/state reporting mandates risk duplication and administrative burden.
+- **Specific request:** Limit reporting to essential technical metadata; protect proprietary information; align with existing frameworks; use phased implementation focusing on core metrics; standardize metric definitions and harmonize with state requirements.
+
+**Topic 7: Cybersecurity Resiliency (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with recommendations
+- **Rationale:** Cybersecurity threats are growing and the health sector faces fragmented regulatory requirements, increasing attack sophistication, and resource constraints.
+- **Specific request:** Ground requirements in NIST Cybersecurity Framework; adopt outcome-oriented resilience standards; harmonize cybersecurity requirements across federal programs; provide funding assistance especially for resource-constrained organizations; reauthorize CISA 2015 long-term.
+
+**Topic 8: Step Therapy (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Support with recommendations
+- **Rationale:** Step therapy is an important clinical tool, not merely a cost control mechanism. Technology can move step therapy decisions earlier to the prescribing point rather than the dispensing point, reducing patient frustration.
+- **Specific request:** Support technology enabling payer access to historical claims data of new members (with consent); preserve payer flexibility in applying plan-specific clinical criteria; do not mandate automatic acceptance of step therapy determinations from other payers.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** PCMA notes that implementing drug PA APIs for medical benefit drugs is complex and resource intensive; FHIR IGs are still evolving and key operational questions remain about how payers indicate whether a drug is covered under medical benefit.
+- **S15:** PCMA supports the dual standard framework but urges clarification on integrated episode-based PA submissions spanning both medical and pharmacy benefit drugs, and on single-entry pathway options with payer-side routing.
+- **S20:** PCMA cautions that PA timeframes must be measured from receipt of complete information; compressed timelines without flexibility for gathering clinical documentation may increase denials.
+- **S21:** PCMA implies the October 1, 2027 timeline is not achievable, recommending at least 24 months from final rule effective date.
+- **S23:** PCMA raises cybersecurity risks from broad API endpoint reporting; recommends limiting reporting to essential technical metadata.
+- **S25:** PCMA supports NCPDP RTPB standards but notes RTBT recommendations are currently made for only a small percentage of prescriptions.
+- **S29:** PCMA supports reporting goals but urges standardized metric definitions and harmonization with existing state and federal frameworks to reduce duplication.
+- **S37:** PCMA cites unanswered operational questions about medical benefit drug routing as justification for extended timelines and continued sub-regulatory guidance.
+- **S66 (step therapy RFI):** PCMA strongly supports step therapy as a clinical tool and endorses technology to move decisions to prescribing point; opposes mandating automatic acceptance of other payers' step therapy determinations.
+- **S67/resiliency RFI:** PCMA supports NIST-grounded, outcome-oriented cybersecurity requirements; recommends harmonizing federal requirements; supports CISA 2015 reauthorization; advocates for funding assistance for resource-constrained organizations.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Allow at least 24 months from final rule effective date for compliance; alternatively exercise enforcement discretion during first year.
+2. Align compliance dates with other federal interoperability and electronic transaction initiatives.
+3. Consider phased implementation, prioritizing mature capabilities.
+4. Consider waiting for FHIR R6 adoption before mandating FHIR API standards.
+5. Clarify that payers may issue integrated, episode-based PAs spanning both medical and pharmacy benefit drugs in a single request, with payers responsible for internal routing.
+6. Clarify that PA timeframes begin upon receipt of complete clinical information.
+7. Clarify interactions with state-specific PA requirements.
+8. Complement payer mandates with policies incentivizing provider adoption: stronger quality program measures, expanded education/outreach, better EHR workflow integration.
+9. Coordinate with ONC and EHR vendors to improve ePA usability and workflow integration.
+10. Limit API endpoint reporting to essential technical metadata; protect proprietary information.
+11. Align metric reporting requirements with existing frameworks; use phased approach focusing initially on core metrics.
+12. Ground cybersecurity requirements in NIST Cybersecurity Framework; standardize across federal programs.
+13. Provide funding assistance for cybersecurity investment, especially for resource-constrained organizations.
+14. Support reauthorization of CISA 2015 on a long-term basis.
+15. Use technology to move step therapy decisions to prescribing point; allow payer access to historical claims data with patient consent; preserve payer flexibility in clinical criteria.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** October 1, 2027 compliance date is too compressed; payer-only mandates will not achieve CMS's goals without provider adoption; FHIR IGs are still evolving (less mature than NCPDP); broad API endpoint reporting creates cybersecurity risks; overlapping federal/state reporting mandates create duplication.
+- **Potential negative impacts cited:** Increased denials and resubmissions from compressed PA timeframes; rushed deployments and potential disruptions to patient care; cybersecurity exposure from increased interoperability; administrative burden from duplicative reporting.
+- **Implementation barriers mentioned:** Complexity of coordinating across PBMs, health plans, pharmacies, and EHR vendors; evolving FHIR standards with unanswered operational questions; simultaneous overlapping federal and state interoperability, PA, and Part D requirements.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** PBMs conduct 94% of eligibility and benefit verification transactions electronically (CAQH DataSpring, December 2020); RTBT recommendations made for only a small percentage of prescriptions (JAMA, 2022).
+- **Studies or research referenced:** JAMA Internal Medicine (2022) on RTBT adoption; CAQH DataSpring blog (December 15, 2020).
+- **Examples provided:** AML maintenance therapy as an example of complex oncology regimen spanning both medical benefit (injectables like decitabine/azacitidine) and pharmacy benefit (oral agents like midostaurin, gilteritinib, quizartinib) drugs requiring integrated PA.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** PBMs, health plans, pharmacies, prescribers/EHR vendors, patients, all other HIPAA covered entities (cybersecurity)
+- **Economic implications:** Rushed implementation risks deployment failures and disruption; duplicative reporting burdens; cybersecurity underfunding in resource-constrained organizations; potential premium increases if step therapy flexibility eliminated
+- **Technical feasibility:** FHIR IGs noted as still evolving with unresolved operational questions; NCPDP standards well-established; RTBT adoption currently low despite availability
+- **Patient care impact:** Incomplete PA information leading to denials delays care; step therapy technology improvements could reduce pharmacy counter disruptions; provider adoption gap means benefits of ePA may not materialize
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (generally supportive of goals, but with significant concerns about timeline and scope)
+- **Tone:** Professional, collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "We continue to believe that mandates on the payer side alone will not achieve CMS's goals." - Context: PCMA's overarching theme that provider adoption is the key missing element.
+2. "The absence of flexibility in awaiting necessary information before starting the timeline may lead to an increase in denials and resubmissions due to incomplete information, leading to greater delays and administrative burden." - Context: Concern about compressed PA timeframes without accounting for clinical documentation gathering.
+3. "The efficiency gains envisioned by CMS cannot be fully realized unless electronic workflows become the standard point-of-care process for prescribing clinicians." - Context: Arguing for provider-side mandates and incentives alongside payer requirements.
+4. "Step therapy does not, nor is it intended to, override the clinical judgment of the patient's physician. It performs an important safety function by alerting patients and their prescribers to more conservative therapy choices that may be available, but critically, the final clinical decision always lies with the patient's prescriber." - Context: Defending step therapy against mischaracterization as purely a cost tool.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - PCMA requests at least 24-month compliance period from final rule; proposes phased implementation and enforcement discretion during first year.
+- [x] **COST-RESOURCES** - Highlights resource intensity of implementing dual PA API frameworks; cybersecurity funding gaps for resource-constrained organizations.
+- [x] **PROVIDER-BURDEN** - Extensive focus on provider adoption gap; argues provider ePA workflow integration is the central challenge, not payer readiness.
+- [x] **PRIVACY-SECURITY** - Raises cybersecurity concerns about broad API endpoint reporting; recommends NIST-grounded, outcome-oriented requirements; supports CISA 2015 reauthorization.
+- [x] **TECHNICAL-FEASIBILITY** - Notes FHIR IGs are still evolving; unanswered operational questions about medical vs. pharmacy benefit drug routing; recommends waiting for FHIR R6.
+- [x] **STANDARDS-MATURITY** - Contrasts mature NCPDP standards against still-evolving FHIR IGs; recommends considering FHIR R6 before mandating compliance.
+- [x] **PATIENT-ACCESS** - Compressed timeframes risk increased denials; step therapy technology improvements could reduce pharmacy counter disruptions.
+- [x] **STAKEHOLDER-COORDINATION** - Stresses need for coordination across PBMs, health plans, pharmacies, EHR vendors; recommends alignment of compliance dates with other federal initiatives.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Supports dual standards but requests clarification on integrated episode-based PA submissions spanning both benefits; single-entry pathway approach.
+- [x] **TRANSPARENCY** - Supports API endpoint and usage metric reporting goals; urges limits to protect cybersecurity and align with existing frameworks.
+- [x] **EXISTING-WORKFLOWS** - Notes payers/PBMs already support robust ePA via NCPDP; problem is provider-side workflow integration; discusses step therapy adjudication logic already in use.
+- [x] **VENDOR-ECOSYSTEM** - Recommends CMS coordinate with ONC and EHR vendors to improve ePA usability and workflow integration.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Submitted via http://www.regulations.gov
+
+
+June 15, 2026
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS–0062–P, Mail Stop C4–26–05
+7500 Security Boulevard
+Baltimore, MD 21244–1850.
+
+RE: 2026 CMS Interoperability Standards and Prior Authorization for Drugs
+Proposed Rule (CMS–0062–P)
+
+Dear Administrator Oz:
+
+The Pharmaceutical Care Management Association (PCMA) appreciates the opportunity
+to submit comments on the 2026 CMS Interoperability Standards and Prior Authorization
+for Drugs Notice of Proposed Rulemaking (proposed rule) published by the Centers for
+Medicare & Medicaid Services (CMS) in the Federal Register on April 14, 2026
+(NPRM).
+
+PCMA is the national association representing the country's pharmacy benefit managers
+(PBMs), which administer prescription drug plans and operate specialty pharmacies for
+more than 289 million Americans with health coverage through Fortune 500 companies,
+health insurers, labor unions, Medicare, Medicaid, the Federal Employees Health
+Benefits Program, and the Exchanges established by the Affordable Care Act...

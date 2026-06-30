@@ -1,0 +1,177 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0568_20260629112353_95a10660
+Commenter: Tennessee Hospital Association
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:26:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Tennessee Hospital Association (THA), signed by Rodney R. Adams, Sr. Vice President, Finance & Reimbursement.
+- **Stakeholder type:** Professional Association / Healthcare Provider representative.
+- **Credentials or expertise mentioned:** Represents more than 160 Tennessee healthcare facility members, including hospitals and health systems.
+
+## 2. EXECUTIVE SUMMARY
+
+THA strongly supports CMS's proposal to extend interoperability and electronic prior authorization requirements to drugs, especially drugs covered under the medical benefit. THA emphasizes that implementation must account for hospital operational readiness, rural and small provider constraints, technology transition costs, testing needs, and the risk that reporting or standards transitions could create new burdens if not phased and coordinated.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** CMS-0057-F referenced; no CFR citations mentioned.
+- **Standards referenced:** FHIR-based interoperability standards; standardized APIs; existing ANSI transactions; electronic prior authorization; API endpoint and usage metrics.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extending electronic prior authorization to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Support.
+- **Rationale:** Tennessee hospitals experience administrative burden and patient care delays from fragmented PA processes for drugs under medical and pharmacy benefits. Extending CMS-0057-F's framework to drugs would create a more unified and predictable authorization process.
+- **Specific request:** Finalize drug ePA requirements using standardized APIs, especially for physician-administered drugs, infusion therapies, oncology treatments, biologics, and other medically necessary therapies.
+
+**Topic 2: Coverage and documentation requirements in the PA API**
+- **Provision ID:** FHIR-IG-REQUIRED / PA-DRUG-MEDICAL
+- **Position:** Support.
+- **Rationale:** Providers spend substantial time identifying payer-specific requirements that are not easily accessible or consistently communicated.
+- **Specific request:** Incorporate coverage rules and documentation requirements directly into the Prior Authorization API so providers can view requirements and status earlier in the process.
+
+**Topic 3: Implementation timeline and transition flexibility**
+- **Provision ID:** FHIR-IG-REQUIRED / HIPAA-PA-STANDARDS (by implication) / GENERAL
+- **Position:** Modify.
+- **Rationale:** Hospitals, especially rural hospitals and smaller community providers, face workforce shortages, financial pressures, and technology implementation challenges. Transitioning from existing ANSI transactions to updated electronic standards requires coordination among hospitals, health systems, EHR vendors, clearinghouses, and payers.
+- **Specific request:** Maintain flexibility, consider phased implementation, allow a temporary transition period where current transaction standards remain available alongside new standards, and provide sufficient testing before deadlines.
+
+**Topic 4: API endpoint and usage metric reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING / API-USAGE-METRICS
+- **Position:** Support with caution.
+- **Rationale:** Reporting endpoint and usage metrics can help CMS evaluate adoption, efficiency, burden reduction, and communication improvements, but overly broad requirements may create new administrative burdens.
+- **Specific request:** Keep reporting requirements targeted and balanced so they do not unintentionally burden providers and payers.
+
+**Topic 5: Reducing manual, fax, and portal workflows**
+- **Provision ID:** GENERAL / FHIR-IG-REQUIRED
+- **Position:** Support.
+- **Rationale:** Manual, fax-based, and portal-based PA workflows create inefficiencies and divert clinical staff from patient care.
+- **Specific request:** Use standardized electronic workflows to reduce manual processes and increase operational efficiency.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S18/S37:** Supports requiring standardized API-based ePA, while emphasizing operational readiness, phased implementation, testing, and provider constraints.
+- **S12:** Identifies technical and operational challenges for hospitals, including technology development, workflow redesign, staff education, and coordination with EHR vendors, clearinghouses, and payers.
+- **S21:** Supports drug ePA but asks CMS to consider implementation timelines and readiness, especially for rural/small providers.
+- **S23/S29/S34/S35:** Supports API endpoint and usage metric reporting, provided reporting is targeted and balanced to avoid new administrative burden.
+- **S44/S46/S47/S53/S54:** Although not directly framed as HIPAA standards, THA addresses transition from existing ANSI transactions to new standards and recommends coexistence/temporary transition, phasing, and testing.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize extension of interoperability and prior authorization requirements to drugs.
+2. Require impacted payers to support ePA using standardized APIs.
+3. Incorporate coverage rules and documentation requirements directly into the Prior Authorization API.
+4. Recognize operational and financial challenges for rural hospitals and smaller community providers.
+5. Provide adequate time for technology development, workflow redesign, staff education, and coordination with payer partners.
+6. Allow a temporary transition period where current transaction standards remain available alongside new standards.
+7. Consider phased implementation where appropriate.
+8. Ensure sufficient testing opportunities before full implementation deadlines.
+9. Require API endpoint and usage metrics but keep reporting targeted and balanced.
+10. Continue collaboration with providers, hospitals, health plans, vendors, and other stakeholders.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Operational readiness, financial and workforce constraints, transition from existing ANSI transactions, insufficient testing, and reporting burden.
+- **Potential negative impacts cited:** Disrupted continuity of care, delayed treatment initiation, provider burden, patient confusion, and implementation disruption for rural and smaller providers.
+- **Implementation barriers mentioned:** Workforce shortages, financial pressure, technology implementation challenges, EHR vendor coordination, clearinghouse coordination, payer coordination, workflow redesign, and staff education needs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** THA represents more than 160 healthcare facility members. No additional quantitative data provided.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Physician-administered drugs, infusion therapies, oncology treatments, biologics, specialty drugs, high-cost medications, time-sensitive therapies, manual/fax/portal workflows, and rural/small hospital implementation constraints.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Tennessee hospitals and health systems, rural hospitals, smaller community providers, patients needing time-sensitive therapies, EHR vendors, clearinghouses, payers, providers, and clinical staff.
+- **Economic implications:** Implementation will require technology development, testing, workflow redesign, staff education, and coordination; financial pressures are significant for rural and smaller providers.
+- **Technical feasibility:** Feasible with phased implementation, temporary coexistence of current and new standards, and pre-deadline testing.
+- **Patient care impact:** Standardized workflows and clearer documentation requirements could improve continuity of care, reduce confusion, and speed access for specialty, oncology, infusion, biologic, and other high-cost therapies.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with implementation caution.
+- **Tone:** Professional, constructive, provider-focused.
+- **Priority level:** Medium-high.
+
+## 11. KEY QUOTES
+
+1. "Tennessee hospitals and health systems strongly support CMS's continued efforts to modernize and streamline prior authorization processes." - Context: Overall position.
+2. "Extending the interoperability and prior authorization framework established in the CMS Interoperability and Prior Authorization final rule (CMS-0057-F) to include drugs is a logical and necessary next step." - Context: Support for drug ePA expansion.
+3. "Many hospitals, particularly rural hospitals and smaller community providers, continue to face workforce shortages, financial pressures, and technology implementation challenges." - Context: Need for implementation flexibility.
+4. "Providers may benefit from a temporary transition period in which current transaction standards remain available alongside the new standards." - Context: Transition/coexistence request.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - THA requests flexibility, phasing, transition periods, and testing before deadlines.
+- [x] **COST-RESOURCES** - Financial pressures, staffing shortages, and implementation costs are central concerns.
+- [x] **PROVIDER-BURDEN** - The comment emphasizes administrative burden, manual workflows, and provider inefficiency.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Rural/smaller providers are discussed, but health equity is not a major framing.
+- [x] **TECHNICAL-FEASIBILITY** - THA emphasizes standards transition, testing, technology development, and vendor/clearinghouse coordination.
+- [x] **STANDARDS-MATURITY** - The comment addresses updated FHIR-based standards and transition from existing ANSI transactions.
+- [x] **PATIENT-ACCESS** - THA focuses on timely access, continuity of care, time-sensitive therapies, and treatment initiation.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - THA asks CMS to coordinate with providers, vendors, payers, clearinghouses, and hospitals.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment references fragmented processes for drugs covered under medical and pharmacy benefits.
+- [x] **TRANSPARENCY** - Supports improved transparency, coverage rules, documentation expectations, status updates, endpoint/usage metrics.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Focuses on manual, fax-based, portal-based, and ANSI transaction workflows.
+- [x] **VENDOR-ECOSYSTEM** - Notes coordination with EHR vendors, clearinghouses, payers, and technology vendors.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+The Tennessee Hospital Association 
+5201 Virginia Way Brentwood, TN 37027 
+615.256.8240 ǀ THA.com 
+ 
+ 
+June 15, 2026  
+ 
+ 
+ 
+e-comment submitted electronically 
+ 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges (CMS-0062-P) 
+ 
+The Tennessee Hospital Association (THA), on behalf of its more than 160 healthcare 
+facility members, appreciates the opportunity to comment on the Centers for 
+Medicare & Medicaid Services’ proposed rule regarding Interoperability Standards 
+and Prior Authorization for Drugs. Tennessee hospitals and health systems strongly 
+support CMS’s continued efforts to modernize and streamline prior authorization 
+processes through interoperability, electronic prior authorization standards, 
+improved transparency, and more consistent communication requirements from 
+health plans. Hospitals and providers across our state continue to experience 
+significant administrative burdens and patient care delays associated with 
+fragmented prior authorization processes, particularly for drugs covered under 
+medical and pharmacy benefits. 
+ 
+Hospitals in Tennessee have long supported efforts to improve interoperability and 
+standardize data exchange requirements between providers and payers. Extending 
+the interoperability and prior authorization framework established in the CMS 
+Interoperability and Prior Authorization final rule (CMS-0057-F) to include drugs is a 
+ 
+Page 2 of 4 
+CMS 0062-P 
+ 
+logical and necessary next step that has the poten...

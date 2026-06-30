@@ -1,0 +1,113 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0657
+Commenter: New Day Foundation for Families / Gina Kell Spehn
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:26:20
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Gina Kell Spehn, President, New Day Foundation for Families.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** Caregiver, patient advocate, and nonprofit leader serving cancer patients, caregivers, and families in Michigan.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter urges CMS to protect oncology patients from prior authorization delays and denials for medically necessary laboratory and biomarker testing. The comment supports PA modernization but asks CMS to require retroactive authorization, prohibit timing-only denials, avoid repeat blood draws, expedite oncology lab review, and protect patients from surprise costs caused by administrative delays.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI on prior authorization and access to laboratory testing; related to PATIENT-ACCESS concerns. No direct response to drug PA API provisions.
+- **Regulatory citations mentioned:** Section III.E of CMS-0062-P; no CFR sections cited.
+- **Standards referenced:** Not addressed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization for oncology laboratory and biomarker testing**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify.
+- **Rationale:** Biomarker and specialty lab results guide treatment selection, treatment changes, disease monitoring, and clinical trial eligibility. PA timing rules can delay, reject, or discard valid specimens and force repeat blood draws.
+- **Specific request:** Require plans to allow retroactive authorization, prohibit denials based solely on authorization timing, prevent unnecessary repeat blood draws, expedite oncology lab reviews, and protect patients from surprise administrative costs.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** Responds to the RFI on prior authorization and access to laboratory testing. The commenter asks CMS to prevent administrative PA timing requirements from delaying oncology diagnosis and treatment decisions.
+
+## 6. RECOMMENDATIONS
+
+1. Allow retroactive authorization when laboratory specimens have already been collected.
+2. Prohibit denials based solely on authorization timing.
+3. Prevent unnecessary repeat blood draws when a valid specimen is available.
+4. Require expedited review for oncology-related diagnostic and biomarker testing.
+5. Protect patients from surprise costs when delays are administrative.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Rigid PA requirements for laboratory and biomarker testing can delay or deny critical cancer care.
+- **Potential negative impacts cited:** Valid specimens may be delayed, rejected, or discarded; patients may face repeat blood draws, surprise costs, and delayed treatment decisions.
+- **Implementation barriers mentioned:** Authorization timing rules tied to specimen collection dates.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None.
+- **Examples provided:** Oncology biomarker and specialty lab testing used for treatment selection, disease monitoring, treatment changes, and clinical trial eligibility.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, caregivers, families, oncologists, laboratories, health plans, and patient advocacy nonprofits.
+- **Economic implications:** Patients may face surprise costs and the system may incur avoidable costs from repeat blood draws and administrative denials.
+- **Technical feasibility:** Not addressed; the requested changes are policy and operations-focused rather than standards-focused.
+- **Patient care impact:** High; delays in biomarker and laboratory testing can impede time-sensitive cancer treatment and clinical trial access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned and supportive of modernization.
+- **Tone:** Urgent, patient-focused, professional.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "time is of the essence" - Context: Describing cancer patients served by the organization.
+2. "protect oncology patients from delays and denials" - Context: Central request to CMS.
+3. "Biomarker and specialty lab results often guide treatment selection" - Context: Rationale for expedited laboratory access.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment describes administrative barriers that interfere with physician-directed testing and treatment decisions.
+- [x] **PATIENT-ACCESS** - The core concern is timely access to laboratory and biomarker testing for cancer care.
+- [x] **HEALTH-EQUITY** - The organization serves cancer patients, caregivers, and families, and asks CMS to protect vulnerable patients from administrative delays and costs.
+- [x] **TRANSPARENCY** - The comment seeks clearer plan obligations around timing denials and patient financial responsibility.
+- [x] **EXISTING-WORKFLOWS** - It addresses specimen collection workflows where PA approval timing may not align with urgent testing.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+To: Centers for Medicare & Medicaid Services (CMS), Department of Health & Human Services; Docket 
+ID: CMS-2026-1255 
+Reference: RFI for Prior Authorization and Access to Laboratory Testing (Section III.E of CMS-0062-P) 
+Re: Comment on RFI for Prior Authorization and Access to Laboratory Testing 
+To Whom It May Concern: 
+I am writing as a caregiver, patient advocate and nonprofit leader in service to cancer patients, caregivers 
+and families in Michigan. Iâ€™m  to urgently request that CMS protect patients from critical care delays and 
+denials caused by rigid prior authorization requirements for laboratory testing. 
+At New Day Foundation for Families, we serve cancer patients and families for whom time is of the 
+essence. These patients need doctors who can make decisions about what is needed and act without 
+delay. In the time it takes to await a decision or fight a denial, lives are being compromised or lost.  
+We commend CMS for its ongoing efforts to modernize and streamline prior authorization processes. We 
+also deeply appreciate the opportunity to provide specific feedback via the Request for Information 
+regarding the impact of prior authorization on timely patient access to medically necessary laboratory 
+testing, as referenced in Section III.E of CMS-0062-P. 
+I urge CMS to protect oncology patients from delays and denials caused by prior authorization 
+requirements for medically necessary laboratory and biomarker testing. 
+With cancer, timing is critical. Biomarker and specialty lab results often guide treatment selection, 
+treatment changes, disease monitoring, and clinical trial eligibility. When prior authorization rules require 
+approval before or on the exact specimen collection date, valid specimens may be delayed, rejected, or 
+discardedâ€”even when the patient, physician, and laboratory acted in good faith. This can force repeat 
+blood draws and delay urgent cancer care. 
+CMS should require health plans to:...

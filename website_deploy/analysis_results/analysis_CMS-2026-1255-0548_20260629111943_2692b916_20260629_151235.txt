@@ -1,0 +1,173 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0548
+Commenter: MultiCare Health System
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:12:35
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** MultiCare Health System; signed by Ingrid S. Gourley Mungia, JD, VP, Public Policy and Advocacy
+- **Stakeholder type:** Healthcare Provider
+- **Credentials or expertise mentioned:** Large integrated health system; public policy and advocacy leadership; experience with provider health IT, EHR integration, middleware, payer connectivity, pharmacy/PBM workflows, and prior authorization operations.
+
+## 2. EXECUTIVE SUMMARY
+
+MultiCare supports CMS-0062-P and the move toward end-to-end electronic prior authorization for drugs, but argues that the proposal creates substantial near-term operational, technical, cybersecurity, and financial burden for health systems. It asks CMS to fund or incentivize provider infrastructure investment, require end-to-end integrated workflows including pharmacies and PBMs, standardize minimum data elements and payer behavior, add safeguards to shortened decision timelines, and phase implementation with safe harbors and stronger payer/API accountability.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; HIPAA-PA-STANDARDS; GENERAL
+- **Regulatory citations mentioned:** CMS-0062-P; no specific CFR sections cited.
+- **Standards referenced:** FHIR Prior Authorization APIs; NCPDP SCRIPT; real-time prescription benefit standards; formulary standards; FHIR accelerators; pharmacy benefit management workflows.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Provider health IT infrastructure and funding**
+- **Provision ID:** HIPAA-PA-STANDARDS / FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** The rule regulates payers but pushes major downstream work onto providers, including EHR integration, interface engines, middleware, monitoring, resiliency, identity management, access controls, logging, and cybersecurity.
+- **Specific request:** CMS should recognize provider-side burden, fund and/or incentivize infrastructure investment, limit transaction fees, and assign API performance accountability to the regulated entities, potentially through vendor certification.
+
+**Topic 2: End-to-end drug prior authorization workflow**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Support with modifications
+- **Rationale:** Drug PA requires coordination among providers, pharmacies, PBMs, and payers; otherwise ePA will remain fragmented and will not provide a seamless patient or care team experience.
+- **Specific request:** CMS should require integrated workflows including pharmacies, PBMs, and other entities, and should standardize data elements and response behavior across lines of business.
+
+**Topic 3: Medical-benefit drugs and attachment minimization**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** MultiCare supports FHIR-based PA for medical-benefit drugs, including computable policy and documentation requirements, but warns that lack of minimum data standards will increase attachments and slow turnaround.
+- **Specific request:** CMS should specify minimum data standards and semantics and ensure attachments are required only when clinically necessary.
+
+**Topic 4: Decision timeframe safeguards**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS / PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Shorter decision timelines may lead to premature denials or perfunctory approvals unless CMS defines what counts as a complete request and allows clinically appropriate extensions.
+- **Specific request:** CMS should define a completed request, allow extensions when additional documentation is needed, and require denial rationales that are specific, actionable, traceable, and uniquely tied to an authorization.
+
+**Topic 5: Phased implementation and real-world API performance**
+- **Provision ID:** API-ENDPOINT-REPORTING / API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Health systems will have to support FHIR APIs, NCPDP SCRIPT, RTPB, and formulary standards while payer readiness and data quality vary widely.
+- **Specific request:** CMS should adopt phased implementation, safe-harbor periods, an authoritative endpoint directory, and operational performance metrics such as API availability, latency, and error rates.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports incorporating medical-benefit drugs into FHIR-based prior authorization APIs but asks CMS to require computable policy, minimum data standards, and attachment minimization.
+- **S14:** Supports expanding NCPDP SCRIPT, formulary and benefit, and real-time prescription benefit capabilities beyond Medicare Part D into Medicaid, CHIP, and QHPs, with consistent minimum data and response behavior.
+- **S17:** Supports specific denial rationale, but asks that denial reasons be actionable, traceable, and uniquely tied to an authorization.
+- **S20/S43:** Supports standardized shorter drug PA timeframes, but requests safeguards including definitions of complete requests and clinically appropriate extensions.
+- **S21:** Raises concerns that aggressive implementation timelines may disrupt care delivery; recommends phased implementation and safe-harbor periods.
+- **S23/S24/S26/S33:** Supports endpoint reporting but recommends an authoritative endpoint directory and operational performance reporting.
+- **S29/S34:** Supports usage metrics and asks CMS to add performance metrics such as availability, latency, and error rates.
+- **S37:** Identifies implementation challenges for providers, including EHR integration complexity, concurrent standards, payer variability, cybersecurity, and unfunded infrastructure costs.
+- **S44-S55:** Addresses the shift from legacy X12 to FHIR-enabled API workflows, supporting modernization while requesting accountability, performance expectations, and a phased transition.
+
+## 6. RECOMMENDATIONS
+
+1. Fund and/or incentivize provider health IT infrastructure needed for ePA implementation.
+2. Assign API readiness and performance accountability to the payers and vendors regulated under the rule.
+3. Require end-to-end workflows that include pharmacies, PBMs, and other relevant entities.
+4. Standardize minimum data elements and response behavior across all lines of business.
+5. Specify minimum data standards and semantics for medical-benefit drug PA to minimize attachments.
+6. Define what constitutes a completed request.
+7. Allow clinically appropriate extensions when additional documentation is necessary.
+8. Require denial rationales that are specific, actionable, traceable, and uniquely identified to the authorization.
+9. Adopt phased implementation and safe-harbor periods.
+10. Publish an authoritative API endpoint directory and require metrics on availability, latency, and error rates.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Provider-side health IT burden; payer implementation variability; fragmented workflows; API failures; cybersecurity exposure; aggressive timelines.
+- **Potential negative impacts cited:** Premature denials, perfunctory approvals, care disruption, operational penalties for provider organizations due to payer/API failures, increased attack surface, and inconsistent drug rules by benefit design.
+- **Implementation barriers mentioned:** EHR integration, middleware, interface engines, multiple concurrent standards, payer readiness, payer data quality, monitoring and exception handling, identity/access management, and unfunded infrastructure costs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics cited.
+- **Studies or research referenced:** No studies cited.
+- **Examples provided:** High-cost therapies such as infusion drugs and specialty injectables; same drug subject to different rules based on benefit design; provider infrastructure demands caused by near-real-time PA exchange.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health systems, providers, patients, payers, pharmacies, PBMs, vendors, and standards organizations.
+- **Economic implications:** Significant unfunded provider costs for integration, support models, monitoring, cybersecurity, identity management, and transaction fees.
+- **Technical feasibility:** Feasible over time if implemented through phased timelines, standardized data, endpoint directories, payer performance accountability, and safe harbors; risky if imposed on aggressive timelines with uneven payer readiness.
+- **Patient care impact:** Potential to reduce delays for high-cost therapies and improve timely/equitable care, but poor implementation could create denials, outages, workflow failures, and care disruption.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Concerned
+- **Tone:** Professional, operational, constructive
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "MultiCare supports this rule and agrees that it has the potential to reduce administrative burden over time." - Context: Overall position.
+2. "CMS should explicitly assign accountability for system performance, potentially through vendor certification, to the entities regulated under this rule." - Context: Provider concern about payer/API failures.
+3. "Prior authorization for drugs depends on the coordinated exchange of information among a variety of entities including pharmacies and pharmacy benefit managers (PBMs)." - Context: End-to-end workflow recommendation.
+4. "We recommend CMS adopt a phased approach to implementation, including safe-harbor periods, to support a stable transition and reduce disruption to care delivery." - Context: Implementation timeline request.
+
+## 12. THEMES
+
+- **IMPLEMENTATION-TIMELINE:** MultiCare requests phased implementation and safe-harbor periods because proposed timelines are aggressive.
+- **COST-RESOURCES:** The comment emphasizes unfunded provider infrastructure, cybersecurity, and operational support costs.
+- **PROVIDER-BURDEN:** The comment focuses on provider EHR, middleware, interface engine, and support-model impacts.
+- **PRIVACY-SECURITY:** MultiCare notes expanded API connectivity increases the provider attack surface and requires additional security investment.
+- **HEALTH-EQUITY:** The comment links consistent workflows and reliable implementation to timely and equitable care.
+- **TECHNICAL-FEASIBILITY:** Feasibility depends on payer readiness, data quality, high availability, exception handling, and monitoring.
+- **STANDARDS-MATURITY:** The comment discusses concurrent support for FHIR, NCPDP SCRIPT, RTPB, and formulary standards.
+- **PATIENT-ACCESS:** Faster ePA could improve access to infusion drugs and specialty injectables, but poor implementation could delay care.
+- **STAKEHOLDER-COORDINATION:** The comment calls for workflows including providers, payers, pharmacies, PBMs, and vendors.
+- **MEDICAL-VS-PHARMACY-BENEFIT:** MultiCare warns that different rules for the same drug by benefit design undermine efficiency and equity.
+- **TRANSPARENCY:** The comment asks for actionable denial rationales and operational endpoint/API performance metrics.
+- **EXISTING-WORKFLOWS:** The comment addresses the shift from legacy X12 transactions to FHIR-enabled workflows.
+- **VENDOR-ECOSYSTEM:** MultiCare suggests vendor certification and emphasizes external API and vendor readiness.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 12, 2026 
+ 
+Mehmet Oz, MD, Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+Hubert H. Humphrey Building, Room 445-G 
+200 Independence Ave. SW 
+Washington, DC 20201 
+RE: CMS-0062-P - Interoperability Standards and Prior Authorization for Drugs 
+Dear Administrator Oz: 
+On behalf of MultiCare Health System, we appreciate the opportunity to comment on the Interoperability 
+Standards and Prior Authorization for Drugs proposed rule issued on April 10.  
+MultiCare supports this rule and agrees that it has the potential to reduce administrative burden over time. 
+However, in its current form the rule also presents significant operational, technical and financial risks for 
+health systems in the near term — particularly related to implementation complexity. We request CMS 
+address these impacts to ensure the proposed policy succeeds in practice.  
+Below is a summary of our recommendations: 
+• 
+Recognize and address provider IT burden by funding and/or incentivizing infrastructure 
+investment and ensuring API performance accountability rests with all parties involved in prior 
+authorization 
+• 
+Require end-to-end, integrated workflows that include pharmacies, pharmacy benefit managers 
+and other relevant entities 
+• 
+Standardize data elements and behavior across all lines of business to eliminate instances where 
+different rules apply to the same drug  
+• 
+Pair shorter decision timelines with safeguards that define what constitutes a “completed” request, 
+allow extensions when appropriate and require rationale for denials that are specific and 
+actionable  
+• 
+Adopt a phased implementation approach and strengthen oversight to align policy requirements 
+with real-world operational conditions  
+Impact of electronic prior authorization standards on health IT infrastructure  
+MultiCare supports end-to-end electronic prior authorization (EPA) for prescription drugs. When supported 
+by standardized data, EPA can: 
+• 
+D...

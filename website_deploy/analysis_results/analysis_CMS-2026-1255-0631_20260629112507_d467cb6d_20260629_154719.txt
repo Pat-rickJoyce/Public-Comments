@@ -1,0 +1,158 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0631
+Commenter: Oscar Health, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:47:19
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Oscar Health, Inc.; signed by Cathy Grason, Vice President and Head of Government Affairs.
+- **Stakeholder type:** Payer / Technology-enabled health insurer.
+- **Credentials or expertise mentioned:** Oscar describes itself as a healthcare technology company using data-driven solutions and responsibly deployed AI. It notes participation in CMS's Digital Health Ecosystem.
+
+## 2. EXECUTIVE SUMMARY
+
+Oscar supports expanding interoperability and prior authorization requirements to drugs and emphasizes shared accountability, real-time data exchange, and testing infrastructure. It recommends requiring or incentivizing providers to submit electronic PA requests with complete clinical data, creating a centralized API endpoint repository, aligning endpoint reporting with the NDH IG Endpoint Profile, limiting simultaneous mandatory IG version burden, using public sandboxes with synthetic data, and improving interoperability across markets including ICHRAs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; HIPAA-PA-STANDARDS/RFI certification issues; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; no CFR sections cited.
+- **Standards referenced:** FHIR-based APIs; Provider Access API; Patient Access API; Payer-to-Payer API; Prior Authorization API; NDH IG Endpoint Profile resource; implementation guides; sandbox conformance testing.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Shared accountability for electronic PA**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** Oscar argues payer APIs can only work if complete, accurate clinical data enter the system at the point of care. It cites missing or inaccurate information as a major cause of denials and manual workflows as a barrier.
+- **Specific request:** Require providers accepting Medicare and Medicaid patients to submit PA requests electronically with complete clinical data needed for review.
+
+**Topic 2: Responsible AI and automation enabled by complete data**
+- **Provision ID:** GENERAL
+- **Position:** Support / Modify
+- **Rationale:** Complete structured data could support real-time approvals, FWA detection, continuity of care, and reduced duplication during issuer transitions.
+- **Specific request:** Encourage electronic clinical data submission to allow responsible AI/automation and better continuity workflows.
+
+**Topic 3: Centralized API endpoint repository**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** A centralized repository would reduce issuer, CMS, developer, and provider burden by eliminating payer-by-payer endpoint searching.
+- **Specific request:** CMS should develop a centralized repository for all required interoperability API endpoints; endpoint collection alone should eliminate the need to collect a direct FHIR capability-statement URL; issuers should provide a single URL for authorization/authentication protocols and implementation details.
+
+**Topic 4: NDH IG Endpoint Profile alignment**
+- **Provision ID:** API-ENDPOINT-REPORTING; FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** Using the NDH IG Endpoint Profile would streamline updates and reduce manual reporting redundancy.
+- **Specific request:** Align reporting requirements with the NDH IG Endpoint Profile resource and allow 90 days after final rule effective date if finalized as an alternative.
+
+**Topic 5: Limit mandatory IG version burden**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Oscar supports mandatory IGs for interoperability but warns against requiring simultaneous maintenance of too many unexpired versions.
+- **Specific request:** Establish guardrails to set retirement timelines for older IG versions or minimize the number of IGs issuers must support at once.
+
+**Topic 6: Sandbox testing and certification roadmap**
+- **Provision ID:** GENERAL/RFI; HIPAA-PA-STANDARDS implementation/certification issues
+- **Position:** Modify
+- **Rationale:** Public sandboxes with synthetic data can verify structural conformance without production instability and give providers/developers reliable test environments.
+- **Specific request:** Formalize public sandbox environments; evaluate testing tools based on IG profile validation, sandbox compatibility, and public availability; publish standardized conformance test suites; avoid rigid multi-system testing beyond initial conformance validation.
+
+**Topic 7: ICHRA and cross-market interoperability gaps**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify
+- **Rationale:** ICHRA users moving from large-group to individual-market coverage may not receive full payer-to-payer data exchange, causing medical history gaps.
+- **Specific request:** Explore incentives for interoperability across individual, Medicaid, large group, and Medicare markets.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Oscar supports mandatory IGs because standardization is necessary for true interoperability.
+- **S2/S3:** Oscar requests predictable IG lifecycle guardrails, retirement timelines for older versions, and limits on simultaneous IG support.
+- **S23/S24/S26/S27/S33:** Oscar supports a centralized API endpoint repository, a single implementation/authentication URL, and NDH IG Endpoint Profile alignment.
+- **S29/S34/S35:** Oscar addresses API reporting burden indirectly through endpoint reporting and standardized resources rather than detailed usage metric design.
+- **S37:** Oscar identifies operational burdens of multiple IGs and developer implementation complexity.
+- **S54:** Oscar recommends public sandboxes, synthetic datasets, automated validation suites, and standardized conformance test suites as a pathway toward certification.
+- **S66-S82:** Oscar responds to payer API technology/certification RFI issues and cross-market interoperability issues, including ICHRAs.
+
+## 6. RECOMMENDATIONS
+
+1. Incentivize or require providers accepting Medicare and Medicaid patients to submit PA requests electronically with complete clinical data.
+2. Use complete structured data to support responsible AI, automation, FWA detection, and continuity of care.
+3. Create a centralized CMS repository for API endpoints for each required interoperability API.
+4. Do not require a separate direct URL for FHIR capability statements if endpoints are collected.
+5. Require issuers to provide a single URL for authorization/authentication protocols and implementation details.
+6. Align endpoint reporting with the NDH IG Endpoint Profile resource.
+7. If NDH IG alignment is finalized, provide 90 days after the final rule effective date for implementation.
+8. Limit simultaneous mandatory IG version support by establishing retirement timelines or support caps.
+9. Formalize public sandbox environments using synthetic datasets.
+10. Evaluate testing tools using IG validation, sandbox compatibility, and public availability criteria.
+11. Avoid rigid interoperability testing beyond initial conformance validation.
+12. Publish standardized conformance test suites for issuer self-validation.
+13. Explore incentives for interoperability across individual, Medicaid, large group, and Medicare markets.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Incomplete/inaccurate clinical data, manual provider workflows, reporting burden, multiple mandatory IG version burden, production instability, and cross-market data gaps.
+- **Potential negative impacts cited:** Denials from missing information, patient confusion during issuer transitions, administrative costs, FWA risk, and incomplete medical history for ICHRA users.
+- **Implementation barriers mentioned:** Provider non-participation, fax/phone workflows, developer burden, upfront NDH alignment costs, testing/certification maturity, and issuer variation.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 28%-35% of PA denials attributed to missing or inaccurate information; 59% of physicians completed PAs by phone and 45% used fax in a 2022 AMA survey; Oscar and other issuers committed to approving at least 80% of medical ePA requests in real time; 90-day transition period commitment for existing PAs.
+- **Studies or research referenced:** CMS Health Technology Ecosystem overview; Muni Health 2026 guide; AMA 2022 prior-authorization fax survey; AHIP 2025 prior authorization commitments; Oscar Diabetes plan information.
+- **Examples provided:** Incorrect patient information; incomplete clinical histories; payer transitions; ICHRA transition from large-group to individual-market plan.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Issuers, providers, patients, Medicare/Medicaid providers, third-party developers, CMS, ICHRA enrollees.
+- **Economic implications:** Reduced administrative costs and FWA; upfront development costs for NDH IG alignment and sandbox/test infrastructure.
+- **Technical feasibility:** Strongly technical comment; supports FHIR APIs, NDH IG alignment, synthetic-data sandboxes, standardized test suites, and lifecycle guardrails.
+- **Patient care impact:** Improved continuity, fewer denials due to missing data, faster approvals, less confusion during payer transitions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Technical, collaborative, implementation-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Oscar welcomes the expansion of these rules to drugs." - Context: Overall support for the proposed rule.
+2. "CMS should require providers that accept Medicare and Medicaid patients to submit requests electronically." - Context: Shared accountability recommendation.
+3. "CMS should develop a centralized repository for issuers to report API endpoints for each required interoperability API." - Context: API endpoint reporting recommendation.
+4. "CMS should formalize the use of public sandbox environments populated with synthetic datasets." - Context: Testing and certification recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Argues manual provider workflows undermine ePA and asks providers to submit electronically with complete data.
+- [x] **TECHNICAL-FEASIBILITY** - Detailed recommendations for API endpoints, NDH IG, sandboxes, and conformance testing.
+- [x] **STANDARDS-MATURITY** - Supports mandatory IGs but asks for lifecycle guardrails and limits on simultaneous versions.
+- [x] **TRANSPARENCY** - Supports centralized endpoint reporting and implementation detail publication.
+- [x] **STAKEHOLDER-COORDINATION** - Emphasizes collaboration between issuers, providers, developers, and CMS.
+- [x] **VENDOR-ECOSYSTEM** - Addresses developer burden, testing tools, and sandbox environments.
+- [x] **EXISTING-WORKFLOWS** - Seeks to replace fax/phone/manual workflows with electronic PA.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+75 Varick St, 5th Floor 
+New York, NY 10013 
+ 
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attn: CMS–0042–NC 
+7500 Security Boulevard 
+Baltimore, MD 21244-8013 
+ 
+Submitted electronically via: http://www.regulations.gov 
+ 
+RE: File Code CMS-0062-P - Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs...

@@ -1,0 +1,147 @@
+{
+  "comment_id": "CMS-2026-1255-0622",
+  "source_file": "CMS-2026-1255-0622_20260629112224_9d7c1154.txt",
+  "analysis_timestamp": "20260629_154605",
+  "commenter_information": {
+    "author_organization_name": "American Association for Homecare (AAHomecare)",
+    "stakeholder_type": "Professional Association / Healthcare Provider-Supplier Association",
+    "credentials_or_expertise_mentioned": "National association representing DMEPOS suppliers, manufacturers, and other homecare stakeholders supplying oxygen, PAP, ventilators, complex rehabilitation technology, urological, ostomy, wound care, and other home medical equipment and services."
+  },
+  "executive_summary": "AAHomecare supports ePA modernization but focuses on DMEPOS prior authorization burdens, patient access delays, rural supplier impacts, and the gap between FHIR-based automation and DME supplier technology capacity. It requests retroactive authorization protections for urgent equipment delivery, MA plan FFS-parity enforcement, gold carding, standardized documentation checklists, supplier technology support, renewal/status data in PA APIs, structured CRT documentation standards, granular denial metrics, and AI guardrails.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "PA-DENIAL-REASONS",
+      "PA-TIMEFRAMES-DRUGS",
+      "API-USAGE-METRICS",
+      "FHIR-IG-REQUIRED",
+      "GENERAL"
+    ],
+    "regulatory_citations_mentioned": [
+      "CMS-0057-F",
+      "CY 2024 MA and Part D Final Rule",
+      "2025 DMEPOS Proposed Rule",
+      "Medicare FFS coverage and documentation requirements",
+      "LCDs and Policy Articles"
+    ],
+    "standards_referenced": [
+      "FHIR APIs",
+      "HCPCS",
+      "LCDs",
+      "Policy Articles",
+      "FHIR-compliant machine-readable criteria",
+      "AI / natural language processing for PA-relevant clinical findings"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "DMEPOS PA delays and patient harm",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "DMEPOS PA approvals commonly take one to four weeks, delaying hospital discharge, respiratory therapy, mobility equipment, and activities of daily living, especially for rural and underserved beneficiaries.",
+      "specific_request": "CMS should reform DMEPOS PA processes to reduce delays, administrative burden, supplier attrition, and access barriers."
+    },
+    {
+      "topic": "Retroactive authorization for urgent DME delivery",
+      "provision_id": "PA-DENIAL-REASONS",
+      "position": "Modify",
+      "rationale": "Urgent clinical circumstances may require equipment delivery before PA completion, and process-based denials after delivery discourage suppliers from meeting urgent needs.",
+      "specific_request": "Create a retroactive authorization pathway, e.g., submission within 72 hours after urgent delivery, prohibit denials solely for post-delivery timing with urgency attestation, and require granular denial reason reporting to distinguish procedural from clinical denials."
+    },
+    {
+      "topic": "MA plan DMEPOS FFS parity and criteria transparency",
+      "provision_id": "TRANSPARENCY",
+      "position": "Modify",
+      "rationale": "MA plan DMEPOS PA criteria can exceed or narrow Medicare FFS LCD and Policy Article requirements, and decisions may be inconsistent with published criteria.",
+      "specific_request": "Require annual CMS review of MA DMEPOS PA criteria, create a beneficiary/supplier complaint process, publish machine-readable MAC LCD/Policy Article criteria, require standardized public criteria updates, and require denial reasons identifying the specific criterion not met."
+    },
+    {
+      "topic": "Gold carding and streamlined renewals",
+      "provision_id": "GENERAL",
+      "position": "Support",
+      "rationale": "Repeated PA for high-performing suppliers, prescribers, stable patients, replacements, repairs, and routine supplies creates burden with limited program integrity value.",
+      "specific_request": "Finalize strong DMEPOS gold carding with transparent thresholds and automatic qualification; create streamlined renewal pathways and a 90-day continuity-of-authorization standard when beneficiaries change plans."
+    },
+    {
+      "topic": "DMEPOS ePA technology access gap",
+      "provision_id": "FHIR-IG-REQUIRED",
+      "position": "Modify",
+      "rationale": "Many DMEPOS suppliers lack native EMR integration or capacity to build direct FHIR API integrations, especially small and rural suppliers.",
+      "specific_request": "Provide a no-cost CMS-facilitated shared-service PA portal, technical assistance grants, and ensure mandates do not impose additional payer/subcontractor overhead costs on providers."
+    },
+    {
+      "topic": "PA API renewal and status information",
+      "provision_id": "PA-DRUG-MEDICAL",
+      "position": "Modify",
+      "rationale": "DMEPOS suppliers need proactive authorization management to avoid lapses in oxygen, ventilators, power wheelchairs, enteral nutrition, and other long-term equipment.",
+      "specific_request": "Require payer PA APIs to include authorization expiration date and renewal eligibility data in all PA determination responses."
+    },
+    {
+      "topic": "Complex rehabilitation technology documentation standards",
+      "provision_id": "TECHNICAL-FEASIBILITY",
+      "position": "Modify",
+      "rationale": "CRT documentation may span 20 to 40 pages and current ePA systems cannot reliably process unstructured functional assessments.",
+      "specific_request": "Invest in structured, computable data standards for CRT functional assessments that support automated review while preserving individualized clinical evaluation."
+    },
+    {
+      "topic": "AI guardrails in PA decision-making",
+      "provision_id": "GENERAL",
+      "position": "Clarify",
+      "rationale": "AI tools could improve consistency but may also apply vague or overly restrictive criteria, deny based on population-level data, or prioritize cost reduction over individualized review.",
+      "specific_request": "Require qualified human review before AI-assisted denials, prohibit AI criteria more restrictive than CMS-published LCD standards, and mandate disclosure when AI influenced a PA determination."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "S16-S17",
+      "summary": "Requests granular denial reason reporting, including differentiation of procedural versus clinical denials and identification of the specific LCD or Policy Article criterion not met."
+    },
+    {
+      "solicitation": "S20 / S43",
+      "summary": "Addresses urgent DME circumstances where standard timelines are clinically impractical and requests retroactive authorization protections."
+    },
+    {
+      "solicitation": "S29-S35",
+      "summary": "Requests DMEPOS PA approval, denial, appeal overturn, and product-category reporting to support CMS oversight and supplier benchmarking."
+    },
+    {
+      "solicitation": "RFI: Prior authorization and laboratory/testing timing analog",
+      "summary": "Analogizes specimen-collection timing denials to urgent DME delivery before PA completion and requests retroactive authorization safeguards."
+    },
+    {
+      "solicitation": "RFI: Improving implementation / automation",
+      "summary": "Requests shared-service PA portal, technical assistance, machine-readable criteria, renewal data, structured CRT documentation standards, and AI safeguards."
+    }
+  ],
+  "theme_taxonomy": [
+    "PATIENT-ACCESS",
+    "PROVIDER-BURDEN",
+    "COST-RESOURCES",
+    "HEALTH-EQUITY",
+    "TECHNICAL-FEASIBILITY",
+    "SMALL-PAYER-IMPACT",
+    "TRANSPARENCY",
+    "VENDOR-ECOSYSTEM",
+    "EXISTING-WORKFLOWS"
+  ],
+  "stakeholder_map": [
+    "Healthcare Providers",
+    "Patients & Advocacy Groups",
+    "MA Organizations",
+    "Medicaid/CHIP Managed Care",
+    "Health IT Vendors",
+    "Small Employers"
+  ],
+  "key_quotes": [
+    "Prior authorization requirements often delay access to essential equipment.",
+    "Technology can improve submission efficiency, but it cannot fix PA criteria that are unpublished, ambiguous, or more restrictive than FFS requirements.",
+    "The majority of DMEPOS suppliers operate with supplier management software and billing systems that are not natively integrated with hospital system EMR platforms."
+  ],
+  "agency_action_requested": "Use the rulemaking/RFIs to reform DMEPOS PA by enforcing FFS parity, reducing renewals, protecting urgent deliveries, supporting small supplier ePA access, improving documentation standards, publishing machine-readable criteria, and regulating AI use.",
+  "overall_position": "Support with DMEPOS-focused modifications",
+  "substantive_content": true,
+  "commenter": "American Association for Homecare",
+  "organization": "American Association for Homecare",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

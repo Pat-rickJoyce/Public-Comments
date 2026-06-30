@@ -1,0 +1,177 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0473
+Commenter: Auth57 Labs (Automatic Delight LLC)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:25:40
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Auth57 Labs (Automatic Delight LLC)
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Operates a multi-payer prior authorization evidence layer across Medicaid jurisdictions, Medicare, and commercial carriers; exposes FHIR Da Vinci CRD/DTR/PAS, public API, and consumer tools; identifies itself as an HL7/Da Vinci implementer.
+
+## 2. EXECUTIVE SUMMARY
+
+Auth57 Labs strongly supports extending electronic prior authorization to drugs and supports use of FHIR CRD/DTR/PAS for medical-benefit drugs. The commenter asks CMS to preserve public referenceability, harmonize FHIR and NCPDP drug paths, require machine-readable metrics and denial/appeal data, add effective dates and change logs, and phase implementation with support for small practices.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; MEDICAL-VS-PHARMACY-BENEFIT as reflected in PA-DRUG-MEDICAL/PA-DRUG-PHARMACY; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P and CMS-0057-F are mentioned, but no CFR citations are cited.
+- **Standards referenced:** FHIR, Da Vinci CRD, DTR, PAS, NCPDP, HCPCS Level II, RxNorm.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: FHIR Path for Medical-Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Using CRD/DTR/PAS for physician-administered drugs aligns the drug proposal with CMS-0057-F and permits a common standards stack for procedures and Part B drugs.
+- **Specific request:** Require code-to-criteria mappings for HCPCS-coded medical drugs to remain publicly referenceable and not blocked by proprietary code licensing.
+
+**Topic 2: Harmonization of Medical and Pharmacy Drug Paths**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Drugs may be billable under either the medical or pharmacy benefit depending on site of care, so separate FHIR and NCPDP paths could create gaps, duplicated burden, or non-comparable decision data.
+- **Specific request:** Require deterministic benefit/path routing and a shared minimum data set across FHIR and NCPDP transactions.
+
+**Topic 3: Machine-Readable Drug Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Aggregate or brand-name-only reports and free-text PDFs are not comparable or usable at scale.
+- **Specific request:** Require public, machine-readable metrics at drug-class and where feasible drug level, keyed to RxNorm for pharmacy drugs and HCPCS for medical drugs.
+
+**Topic 4: Denial Reasons and Appeal Pathways**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Patients often do not appeal denials despite high reversal rates because appeal instructions are not clear or actionable at the point of denial.
+- **Specific request:** Include specific denial reason plus appeal path, deadline, and forum in a machine-readable PAS response.
+
+**Topic 5: Effective Dates and Change History**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA requirements change frequently and sometimes silently, causing downstream tools and users to rely on stale requirements.
+- **Specific request:** Require the drug PA requirements interface to expose machine-readable effective dates and structured change history for each requirement.
+
+**Topic 6: Phased Timeline and Small Practice Support**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Small and independent practices may lack ePA-capable systems and could be disadvantaged by implementation.
+- **Specific request:** Adopt a firm but phased rollout and provide a no-cost conformant reference path, such as a hosted DTR questionnaire renderer.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports making the Da Vinci CRD/DTR/PAS FHIR stack required for medical-benefit drugs rather than merely recommended.
+- **S12:** Addresses technical implementation by urging public, code-based criteria mappings for HCPCS-coded medical drugs.
+- **S15:** Directly addresses the medical versus pharmacy benefit distinction and asks CMS to require deterministic routing and shared data across FHIR and NCPDP paths.
+- **S16:** Supports extending specific denial reasons to drug PA denials and asks that appeal information accompany the denial.
+- **S17:** Supports structured, machine-readable denial and appeal data in the PAS response.
+- **S21:** Supports a firm compliance date but asks for phased implementation and a reference path for small practices.
+- **S22:** Indirectly addresses implementation burden for pharmacy and medical paths by requesting shared data and harmonization.
+- **S29:** Recommends drug-class and drug-level machine-readable metrics keyed to standard drug identifiers.
+- **S30:** Not directly addressed.
+- **S37:** Addresses implementation challenges involving stale PA requirements, version currency, and small-practice readiness.
+
+## 6. RECOMMENDATIONS
+
+1. Keep FHIR medical-drug requirements publicly referenceable through public HCPCS-based code-to-criteria mappings.
+2. Harmonize FHIR and NCPDP drug PA pathways with deterministic routing and a shared minimum data set.
+3. Require machine-readable public drug PA metrics at drug-class and, where feasible, drug granularity.
+4. Key pharmacy metrics to RxNorm and medical-benefit drug metrics to HCPCS.
+5. Include denial reason, appeal path, deadline, and forum in machine-readable PAS responses.
+6. Require machine-readable effective dates and structured change logs for PA requirements.
+7. Use a phased implementation timeline with a no-cost conformant reference path for small and independent practices.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmentation between FHIR and NCPDP paths, lack of machine-readable public data, stale PA requirements, and small-practice readiness.
+- **Potential negative impacts cited:** Coverage gaps, duplicated provider burden, patient abandonment of successful appeals, use of outdated PA requirements, and widening disparity between large systems and small practices.
+- **Implementation barriers mentioned:** Proprietary code licensing, non-machine-readable PDFs, frequent payer requirement changes, and lack of ePA-capable systems in small practices.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** The commenter states that roughly four in five PA denials are overturned on appeal, while only about one in ten are appealed.
+- **Studies or research referenced:** No formal studies are cited.
+- **Examples provided:** Infused biologics may fall under either benefit depending on site of care; a national payer's PA lists are observed to change monthly without machine-readable notice.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, prescribers, small and independent practices, payers, technology vendors, researchers, and oversight bodies.
+- **Economic implications:** Reduced burden and better reuse of standards may lower costs, while unsupported implementation could strain small practices.
+- **Technical feasibility:** The commenter presents the recommendations as feasible because it already works with FHIR, public APIs, standard code systems, and payer PA disclosures.
+- **Patient care impact:** Improved appeal visibility, current PA requirements, and reduced fragmentation could reduce delays and prevent avoidable denials.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We support requiring the CRD/DTR/PAS FHIR stack for medical-benefit (physician-administered) drugs" - Context: Statement of support for PA-DRUG-MEDICAL and FHIR-IG-REQUIRED.
+2. "Many drugs are billable under either benefit depending on site of care" - Context: Rationale for harmonizing FHIR and NCPDP drug PA paths.
+3. "Patients are abandoning fights they would win" - Context: Argument for machine-readable denial and appeal information.
+4. "A correct answer that is six weeks out of date is a wrong answer" - Context: Support for effective dates and structured change history.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports a firm compliance date but recommends phased implementation to protect smaller practices.
+- [x] **COST-RESOURCES** - Notes that small and independent practices may lack ePA-capable systems and need a no-cost conformant path.
+- [x] **PROVIDER-BURDEN** - Warns that benefit split complexity can double provider burden.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed, though small-practice impacts may affect patients with fewer resources.
+- [x] **TECHNICAL-FEASIBILITY** - Provides technical recommendations for routing, public APIs, data sets, and structured change history.
+- [x] **STANDARDS-MATURITY** - Supports required CRD/DTR/PAS and standard identifiers while requesting harmonization with NCPDP.
+- [x] **PATIENT-ACCESS** - Emphasizes avoiding PA delays, stale requirements, and inaccessible appeal pathways.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Requests coordination across FHIR and NCPDP pathways and between payers, providers, and tools.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central theme; asks for deterministic routing and shared data where drugs cross benefits.
+- [x] **TRANSPARENCY** - Calls for public referenceability, machine-readable metrics, denial reasons, appeals, effective dates, and change logs.
+- [x] **SMALL-PAYER-IMPACT** - Not about small payers specifically, but small and independent practice impacts are emphasized.
+- [x] **EXISTING-WORKFLOWS** - Discusses preserving workable PA paths and avoiding disruption from split benefit workflows.
+- [x] **VENDOR-ECOSYSTEM** - Commenter speaks from a vendor/implementer perspective and focuses on API and data usability.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Public Comment on CMS-0062-P (Drug Electronic Prior Authorization 
+Expansion)
+To:   Centers for Medicare & Medicaid Services
+Re:   CMS-0062-P - Proposed expansion of electronic prior authorization to 
+drugs
+From: Auth57 Labs (Automatic Delight LLC) - hello@auth57labs.com
+Date: June 14, 2026
+Auth57 Labs operates a multi-payer prior-authorization evidence layer 
+spanning all 51 Medicaid jurisdictions, Medicare, and major commercial 
+carriers, exposed through FHIR (Da Vinci CRD/DTR/PAS), a public API, and 
+consumer-facing decision tools. We are an HL7/Da Vinci implementer. In the 
+course of normalizing payer disclosures and ingesting payers' own 
+published prior-authorization (PA) requirement documents, we have a 
+granular, cross-payer view of how PA actually behaves in the field - and 
+we write in strong support of extending electronic prior authorization 
+(ePA) to drugs, with six recommendations to make the rule work for 
+patients, prescribers, and small practices.
+1.
+Keep the FHIR medical-drug path publicly referenceable.
+We support requiring the CRD/DTR/PAS FHIR stack for medical-benefit 
+(physician-administered) drugs, identified by HCPCS Level II codes. This 
+aligns the drug rule with CMS-0057-F and lets one standards stack serve 
+both procedures and Part B drugs. Because HCPCS Level II codes are public 
+domain, this path can be implemented and surfaced transparently. CMS 
+should preserve this by requiring code-to-criteria mappings to remain 
+publicly referenceable - proprietary code-licensing must not become a 
+barrier between a patient and the rule that requires this transaction to 
+exist for their benefit.
+2.
+Harmonize the medical (FHIR) and pharmacy (NCPDP) paths.
+The proposal routes pharmacy-benefit drugs through NCPDP and medical-
+benefit drugs through FHIR. Many drugs are billable under either benefit 
+depending on site of care (infused biologics are the clearest case). We 
+urge CMS to require deterministic benefit/path routing and a shared 
+minimum data set across the two standards, so that a drug billable either 
+way cannot fall into a coverage gap or double the provider's burden, and 
+so that approval, denial, and decision-timeframe data remain comparable 
+across paths. Without explicit harmonization, the benefit split will 
+reproduce the fragmentation the rule is meant to reduce....

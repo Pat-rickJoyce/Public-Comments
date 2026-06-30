@@ -1,0 +1,148 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0557
+Commenter: National Association of Dental Plans (NADP)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:15:54
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Association of Dental Plans (NADP); signed by Bianca Balale, Director of Government Relations.
+- **Stakeholder type:** Professional Association; Payer representative.
+- **Credentials or expertise mentioned:** National association representing dental plans; comments on standalone dental plan (SADP) market structure and Federally-Facilitated Marketplace participation.
+
+## 2. EXECUTIVE SUMMARY
+
+NADP supports CMS's continued exemption of standalone dental plans from QHP API requirements and argues the same rationale supports excluding SADPs from electronic prior authorization and related interoperability requirements. The comment contends that dental benefit design generally uses voluntary predeterminations rather than mandatory prior authorization, making FHIR-based APIs costly, low-value, and potentially harmful to affordability and market participation.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FF-SHOP-REQUIREMENTS; FHIR-IG-REQUIRED; PA-DRUG-MEDICAL/PA-DRUG-PHARMACY by analogy only; GENERAL.
+- **Regulatory citations mentioned:** None specifically cited.
+- **Standards referenced:** Open APIs for Issuer EDI transmissions; FHIR-based APIs; electronic prior authorization; QHP certification standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Maintain SADP exemption from QHP API requirements**
+- **Provision ID:** FF-SHOP-REQUIREMENTS; FHIR-IG-REQUIRED
+- **Position:** Support exemption/Oppose application to SADPs
+- **Rationale:** SADPs differ structurally and operationally from medical plans, with lower enrollment and lower premiums; API implementation costs would be disproportionate to scale and benefit.
+- **Specific request:** Maintain the exemption for SADPs participating in the FFM from QHP certification standards requiring open API implementation for Issuer EDI transmissions.
+
+**Topic 2: Exclude SADPs from electronic prior authorization requirements**
+- **Provision ID:** GENERAL
+- **Position:** Oppose application to SADPs
+- **Rationale:** Dental plans generally rely on voluntary predeterminations or pre-treatment estimates, which provide information but do not prevent care.
+- **Specific request:** Do not apply electronic prior authorization or related process requirements to SADP issuers.
+
+**Topic 3: Avoid disproportionate administrative burden**
+- **Provision ID:** FHIR-IG-REQUIRED; COST-RESOURCES theme
+- **Position:** Oppose/Modify
+- **Rationale:** Building and maintaining EDI infrastructure and FHIR-based APIs would impose costs that exceed the limited expected value for dental coverage.
+- **Specific request:** Continue excluding SADPs from interoperability mandates to avoid diverting resources from benefit administration and innovation.
+
+**Topic 4: Preserve market participation and affordability**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Modify/Oppose expansion
+- **Rationale:** Applying API and ePA mandates to SADPs could raise administrative costs and premiums, discourage FFM issuer participation, reduce plan availability, and harm consumers.
+- **Specific request:** Continue SADP exemptions from both proposed requirements and electronic PA provisions finalized in the 2024 rule.
+
+## 5. SOLICITATION RESPONSES
+
+- **S40:** Responds directly to impact on QHP/SADP issuers, arguing SADPs face disproportionate burden and limited benefit.
+- **S41:** Does not address timeline in detail because NADP opposes applicability rather than requesting delayed implementation.
+- **S42:** Supports continued exception/exemption processes for SADPs based on unique market structure.
+- **S44-S56:** Indirectly addresses FHIR/ePA applicability by arguing FHIR-based API and ePA mandates are unnecessary for SADPs.
+
+## 6. RECOMMENDATIONS
+
+1. Maintain SADP exemptions from FFM QHP API certification standards.
+2. Exclude SADPs from electronic prior authorization requirements.
+3. Exclude SADPs from related interoperability process requirements.
+4. Recognize that dental predeterminations are voluntary and informational rather than care-blocking prior authorization.
+5. Avoid imposing FHIR-based API costs that are disproportionate to SADP scale and expected enrollee benefit.
+6. Preserve affordability, plan availability, and issuer participation in the Marketplace.
+7. Do not apply the proposed rule or 2024 ePA provisions to SADP issuers.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Disproportionate cost and administrative burden; low value of ePA requirements for dental benefits; market participation and affordability risks.
+- **Potential negative impacts cited:** Higher premiums, reduced FFM participation, fewer dental plan options, diversion of resources from core benefit administration.
+- **Implementation barriers mentioned:** SADPs have lower enrollment, lower premiums, and limited prior authorization use; building FHIR-based APIs would be costly relative to expected benefit.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No numerical data cited; states SADPs generally have lower enrollment and significantly lower premiums than medical plans.
+- **Studies or research referenced:** Prior CMS rulemaking recognition of SADP differences is referenced but not cited by CFR or publication.
+- **Examples provided:** Dental predeterminations/pre-treatment estimates are voluntary and based on eligibility, benefit accumulation, and contract terms.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Standalone dental plan issuers, FFM consumers, dental providers, CMS/QHP certification programs.
+- **Economic implications:** API/ePA mandates could increase administrative costs and premiums while reducing issuer participation.
+- **Technical feasibility:** Technically possible but not justified due to disproportionate burden and low use case value.
+- **Patient care impact:** NADP argues requirements would not meaningfully improve consumer experience because dental predeterminations do not block care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Opposed to SADP applicability; supportive of continued exemption
+- **Tone:** Professional, concise, and market-structure-focused
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "NADP supports CMS’s continued recognition of the unique structure of standalone dental plans." - Context: Support for SADP exemption.
+2. "There is no need to apply electronic prior authorization or related process requirements to SADPs." - Context: Central policy request.
+3. "Dental benefit plans use predeterminations, or pre-treatment estimates on a volunteer basis." - Context: Explaining why dental workflows differ from medical PA.
+4. "Continuing to exempt SADPs is necessary to preserve affordability, maintain issuer participation, and ensure access to dental coverage in the Marketplace." - Context: Affordability and participation rationale.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - Emphasizes disproportionate API implementation and maintenance costs for SADPs.
+- [x] **SMALL-PAYER-IMPACT** - Describes lower enrollment, lower premiums, and limited SADP scale.
+- [x] **TECHNICAL-FEASIBILITY** - Argues FHIR-based APIs are not justified for SADP workflows.
+- [x] **EXISTING-WORKFLOWS** - Dental predeterminations differ from medical prior authorization and do not block care.
+- [x] **VENDOR-ECOSYSTEM** - API/EDI infrastructure requirements would affect dental plan operations and technology investments.
+- [x] **PATIENT-ACCESS** - NADP argues mandates could harm access indirectly by increasing premiums and reducing plan availability.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+National Association of Dental Plans (NADP) 
+6125 Luther Lane, Ste. 378 • Dallas, TX 75225-6202 
+972-458-6998 • nadp.org • info@nadp.org 
+ 
+Dr. Mehmet Oz 
+Administrator for the Centers for Medicare & Medicaid Services  
+Center for Medicare and Medicaid Services (CMS) 
+P.O. Box 8013, 
+Baltimore, MD 21244-8013 
+ 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;  
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children’s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P) 
+June 15, 2026 
+Dear Dr. Oz, 
+ 
+The National Association of Dental Plans (NADP) appreciates the opportunity to provide 
+comments on the Proposed Rule: Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability and Patient Access for Medicare Advantage Organization 
+and Medicaid Managed Care Plans, State Medicaid Agencies, CHIP Agencies and CHIP Managed 
+Care Entities, Issuers of Qualified Health Plans in the Federally-Facilitated Marketplace (FFM) 
+and Health Register on April 14, 2026. 
+NADP supports CMS’s continued recognition of the unique structure of standalone dental plans 
+(SADPs) and its proposal to maintain the exemption for SADPs participating in the Federally-
+Facilitated Marketplace (FFM) from minimum Qualified Health Plan (QHP) certification 
+standards requiring implementation of open Application Programming Interfaces (APIs) for 
+Issuer Electronic Data Interchange (EDI) transmissions. We further appreciate CMS’s request for 
+comment on whether prior considerations continue to support excluding SADPs from electronic 
+prior authorization and related interoperability requirements. 
+NADP strongly affirms that these considerations not only remain valid but continue to support 
+the conclusion that there is no n...

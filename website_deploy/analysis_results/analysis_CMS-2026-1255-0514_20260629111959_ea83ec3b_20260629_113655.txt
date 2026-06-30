@@ -1,0 +1,185 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0514
+Commenter: DrFirst, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:36:55
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** DrFirst, Inc. (represented by Colin Banas, MD, MHA, Chief Medical Officer; Tyler Wince, VP Product & Technology, Specialty Solutions)
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** 20+ years in electronic prescribing, medication management, and health IT interoperability; ONC-certified health IT developer; active NCPDP and HL7 community participant; operates Total Benefits platform spanning both FHIR Da Vinci (medical benefit) and NCPDP SCRIPT ePA (pharmacy benefit); serves hundreds of thousands of prescribers, payers, pharmacies, and health systems.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+DrFirst strongly supports CMS-0062 as a genuine sea change in administrative simplification, endorsing the dual-track FHIR/NCPDP architecture, the October 1, 2027 compliance date, and the proposed centralized API endpoint directory. The company urges CMS to eliminate or materially sunset the Direct Data Entry (portal) exception, designate the CRD Coverage Information extension as the authoritative mechanism for medical-vs.-pharmacy benefit routing, establish a joint CMS/ONC payer PA API certification program, and require clearinghouses to meet the same FHIR transition timeline as payers.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, MEDICAL-VS-PHARMACY-BENEFIT (routing), API-ENDPOINT-REPORTING, ONC-STANDARDS-UPDATE
+- **Regulatory citations mentioned:** 45 CFR 170.215(j) (CRD 2.2.1, DTR 2.2.0, PAS 2.2.1); CMS-0057-F (2024 PA final rule); CMS-0062-P; 89 FR 8758; ONC HTI-4 Final Rule (90 FR 37130)
+- **Standards referenced:** Da Vinci CRD IG v2.2.1, DTR IG v2.2.0, PAS IG v2.2.1; NCPDP SCRIPT 2023011; NCPDP RTPB; NCPDP F&B; NCPDP Coverage Restriction Codes 816 and 817; X12N 278
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Eliminating the Direct Data Entry (Portal) Exception**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL
+- **Position:** Modify (strengthen)
+- **Rationale:** The portal exception has been the single most powerful brake on ePA adoption—payers have no financial incentive to invest in APIs while portals satisfy compliance. "Electronic PA" currently means anything from full FHIR automation to manual web-form re-entry. Regence–MultiCare FHIR pilot showed PA decisions in ~2 minutes vs. days; 71% FHIR approval rate vs. 46% portal.
+- **Specific request:** Sunset the DDE portal exception no later than October 1, 2028 for all CMS-regulated payers; issue guidance clarifying portal-based PA does not satisfy drug API requirements under this rule.
+
+**Topic 2: Dual-Track FHIR/NCPDP Architecture**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** FHIR Da Vinci was designed for provider-administered drugs; NCPDP SCRIPT for outpatient self-administered prescriptions. DrFirst has operational experience bridging both through its Total Benefits platform. The distinction is clinically and technically correct.
+- **Specific request:** Affirm the dual-track architecture; do not collapse the two standards.
+
+**Topic 3: CRD Coverage Information Extension as Benefit-Type Routing**
+- **Provision ID:** PA-DRUG-MEDICAL, FHIR-IG-REQUIRED
+- **Position:** Modify (extend the IG)
+- **Rationale:** A meaningful percentage of specialty drug PA transactions in DrFirst's network are initially misrouted. The CRD Coverage Information extension lacks an explicit benefit-type field. Providers should not bear the burden of manual benefit-type research.
+- **Specific request:** Require payers to populate an explicit benefit-type field in CRD responses; use NCPDP Coverage Restriction Codes 816/817 in RTPB responses as a secondary routing signal.
+
+**Topic 4: Clearinghouse Readiness**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** ~162 U.S. clearinghouses are a critical dependency in the X12N-to-FHIR transition; CMS acknowledged uncertainty about their FHIR adoption path.
+- **Specific request:** Hold clearinghouses to the same compliance timeline as payers and providers.
+
+**Topic 5: ONC Certification for Payer-Facing APIs**
+- **Provision ID:** FHIR-IG-REQUIRED, ONC-STANDARDS-UPDATE
+- **Position:** Support
+- **Rationale:** No payer-side certification equivalent to ONC EHR certification exists. Without certification, compliance verification for complex FHIR IGs is impossible, undermining rule objectives.
+- **Specific request:** Joint CMS/ONC certification for payer PA APIs covering CRD 2.2.1, DTR 2.2.0, PAS 2.2.1; condition program participation (MA contracts, Medicaid MCO, QHP) on demonstrated certification; analogous NCPDP conformance testing for pharmacy benefit.
+
+**Topic 6: Centralized API Endpoint Directory**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Manual endpoint discovery is expensive, slow, and advantages large incumbents over innovative entrants.
+- **Specific request:** Require endpoint reporting 90 days before compliance deadlines; include conformance status, IG versions, and test environments; publish via machine-readable FHIR API.
+
+**Topic 7: October 1, 2027 Compliance Timeline**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Da Vinci IGs are mature and production-tested; NCPDP SCRIPT ePA is at scale for Part D. The primary gap is payer investment willingness, not technical feasibility. PA burden is a daily clinical crisis.
+- **Specific request:** Hold firm against extension pressure; 72-hour standard and 24-hour expedited windows are minimum standards of care.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1 (require vs. recommend IGs):** Strongly supports making CRD, DTR, PAS required; voluntary adoption has proven insufficient.
+- **S12 (technical challenges for medical benefit drug PA):** Identifies benefit-type routing as the primary technical challenge; recommends CRD Coverage Information extension with explicit benefit-type field.
+- **S15 (medical vs. pharmacy distinction):** Recommends CRD as authoritative routing mechanism and NCPDP Coverage Restriction Codes 816/817 for RTPB secondary signals.
+- **S21 (timeline achievable):** Affirms October 2027 achievable for payers that engage now.
+- **S23 (API endpoint security/reporting):** Supports centralized directory; recommends machine-readable FHIR API format.
+- **S24 (what to report):** Include conformance status, supported IG versions, test environment availability.
+- **S27 (reporting frequency):** Endpoints reported no later than 90 days before compliance deadlines.
+- **S37 (implementation challenges):** Four core barriers: portal exception, benefit-type routing uncertainty, clearinghouse readiness, absence of payer API certification.
+- **S54 (testing/certification):** Strongly supports ONC certification extended to payer PA APIs with real-world interoperability testing as program participation condition.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Sunset the DDE portal exception no later than October 1, 2028 for all CMS-regulated payers.
+2. Issue guidance clarifying portal-based PA does not satisfy drug API requirements under this rule.
+3. Affirm the dual-track FHIR Da Vinci/NCPDP SCRIPT architecture.
+4. Require payers to populate an explicit benefit-type field in CRD Coverage Information extension responses.
+5. Clarify that NCPDP Coverage Restriction Codes 816 and 817 should be used by PBMs in RTPB responses to signal medical-benefit coverage.
+6. Hold clearinghouses to the same FHIR transition compliance timeline as payers.
+7. Establish a joint CMS/ONC certification program for payer PA APIs (CRD 2.2.1, DTR 2.2.0, PAS 2.2.1).
+8. Condition MA contract renewal, Medicaid MCO certification, and QHP participation on demonstrated payer API certification.
+9. Establish analogous NCPDP SCRIPT ePA conformance testing for pharmacy benefit drugs.
+10. Require payer API endpoints reported no later than 90 days prior to compliance deadlines.
+11. Include conformance status, supported IG versions, and test environment availability in the endpoint directory.
+12. Publish the endpoint directory via machine-readable FHIR API.
+13. Hold firm against pressure to extend the October 1, 2027 compliance deadline.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Portal exception blocking true ePA interoperability; benefit-type routing ambiguity causing misrouted PA transactions; absence of payer API certification creating unverifiable compliance; clearinghouse readiness as an unaddressed dependency.
+- **Potential negative impacts cited:** Without portal sunset, payers retain no incentive for API investment; without benefit-type routing resolution, duplicate PA submissions and denials continue; without certification, compliance verification gap undermines rule objectives.
+- **Implementation barriers mentioned:** Payer willingness to invest (not technical feasibility) is the primary gap; clearinghouse FHIR transition unaddressed; ONC legal authority over payer certification is complex (CMS programmatic authority is sufficient alternative).
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 94% of physicians report PA-related care delays (AMA 2024); 78% report patients abandoned recommended treatments due to PA; FHIR pilot PA decisions in ~2 minutes vs. days; 71% approval rate FHIR vs. 46% portal; 84% of CRD queries returned PA not required; ~162 U.S. health care clearinghouses.
+- **Studies or research referenced:** AMA 2024 Prior Authorization Physician Survey; Da Vinci Project real-world pilot data (Regence–MultiCare FHIR pilot, cited in CMS-0062 preamble).
+- **Examples provided:** Adalimumab, lecanemab as drugs with ambiguous benefit type at point of ordering; oncologists abandoning biologics due to PA burden; specialty pharmacy therapy gaps.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health IT vendors, payers (MA, Medicaid MCOs, QHPs), providers (especially specialists/oncologists), specialty pharmacies, clearinghouses, patients on specialty/biologic therapies.
+- **Economic implications:** Portal sunset requires payer API investment; centralized endpoint directory reduces industry-wide connection discovery costs; smaller vendors gain access to previously cost-prohibitive payer integrations.
+- **Technical feasibility:** October 2027 is achievable—Da Vinci IGs mature and production-tested; NCPDP SCRIPT ePA at scale for Part D; primary gap is payer willingness, not technical readiness.
+- **Patient care impact:** Portal perpetuates care delays; benefit-type misrouting causes duplicate submissions and denials; real-time CRD benefit-type determination would eliminate routing delays for specialty drug patients.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with targeted modifications to strengthen the rule)
+- **Tone:** Professional, Technical, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "The continued availability of the portal exception has been the single most powerful brake on ePA adoption in the U.S." — Context: Arguing for sunset of the DDE portal exception.
+
+2. "For some payers, it means true workflow-integrated FHIR API exchange with automated coverage determinations in seconds. For others, it means a web form that a staff member opens in a separate browser tab, manually re-enters patient data, and awaits a faxed decision 3-15 business days later." — Context: Illustrating the current meaninglessness of 'electronic PA.'
+
+3. "The primary gap is payer willingness to invest in API development ahead of a regulatory deadline, not technical feasibility." — Context: Supporting the October 2027 deadline.
+
+4. "Benefit type determination should become a computable, real-time transaction that resolves before the PA request is initiated. Providers should not bear the burden of determining benefit type through manual research." — Context: Explaining why the CRD Coverage Information extension benefit-type field is essential.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Strongly supports October 1, 2027 deadline; recommends October 1, 2028 portal exception sunset; urges CMS to resist extension pressure.
+- [x] **TECHNICAL-FEASIBILITY** — Da Vinci IGs mature and production-tested; NCPDP SCRIPT ePA at scale; payer investment willingness, not technical readiness, is the key gap.
+- [x] **STANDARDS-MATURITY** — References specific IG versions (CRD 2.2.1, DTR 2.2.0, PAS 2.2.1); recommends ONC certification to validate implementation quality.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Core focus: same-drug, different-benefit routing problem; CRD Coverage Information extension benefit-type field as authoritative solution.
+- [x] **PROVIDER-BURDEN** — Portal-based PA creates manual, click-intensive burden; benefit-type misrouting generates duplicate submissions and rework.
+- [x] **PATIENT-ACCESS** — PA burden causes oncologists to abandon biologics; specialty pharmacy patients experience dangerous therapy gaps; 78% of physicians report patients abandoning recommended treatments.
+- [x] **EXISTING-WORKFLOWS** — Detailed analysis of DDE portal exception, X12N-to-FHIR transition, and clearinghouse role in current PA transaction routing.
+- [x] **STAKEHOLDER-COORDINATION** — Recommends CMS work with HL7, Da Vinci project, NCPDP, ONC, and clearinghouses for benefit-type routing and certification framework.
+- [x] **TRANSPARENCY** — Centralized endpoint directory with machine-readable FHIR API will create public compliance accountability and reduce vendor friction.
+- [x] **VENDOR-ECOSYSTEM** — Portal exception disadvantages innovative vendors; certification levels the technical quality playing field; clearinghouse role as critical dependency.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+DrFirst, INC.
+Formal Public Comment Submission
+
+2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062)
+
+Submitted To: Centers for Medicare & Medicaid Services (CMS)
+Docket ID: CMS-0062-P
+Comment Deadline: June 15, 2026
+Submitted By: DrFirst, Inc.
+Date of Submission: June 15, 2026
+Colin Banas, MD, MHA, Chief Medical Officer, DrFirst, Inc.
+Tyler Wince, VP, Product & Technology, Specialty Solutions, DrFirst, Inc.
+
+DrFirst, Inc., respectfully submits these comments in response to the Centers for Medicare & Medicaid Services' 2026 Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062).
+
+DrFirst is a leading healthcare technology company with more than two decades of experience in electronic prescribing, medication management, and health IT interoperability. We provide clinical decision support, electronic prior authorization (ePA), specialty pharmacy workflow, real-time prescription benefit (RTPB) tools, and formulary and benefit (F&B) data exchange to hundreds of thousands of prescribers, payers, pharmacies, and health systems nationwide...

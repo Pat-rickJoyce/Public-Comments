@@ -1,0 +1,178 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0515_20260629112020_d9651709
+Commenter: Bristol Myers Squibb (BMS)
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:24:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Bristol Myers Squibb (BMS); signed by Rachel Licata, Vice President, U.S. Policy & Research, U.S. Policy & Government Affairs.
+- **Stakeholder type:** Other - pharmaceutical manufacturer/life sciences company.
+- **Credentials or expertise mentioned:** BMS describes its work in oncology, hematology, neuroscience, immunology, and cardiovascular disease, and highlights its role in discovering, developing, and delivering innovative medicines.
+
+## 2. EXECUTIVE SUMMARY
+
+BMS supports CMS's proposed extension of electronic prior authorization and related transparency protections to prescription medicines, but asks CMS to ensure these policies actually reduce patient and provider burden rather than enable faster or broader denials. It recommends clearer and more standardized PA frameworks, human clinician review and AI transparency for denials, plan-level API and PA reporting, Part D and ERISA expansion, uniform 24-hour drug PA timeframes, and strong step therapy exceptions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; HIPAA-PA-STANDARDS/GENERAL for electronic standards; GENERAL for Part D, ERISA, and step therapy.
+- **Regulatory citations mentioned:** CMS-0062-P; 91 Fed. Reg. 19890; 91 Fed. Reg. 19934; 91 Fed. Reg. 20013; 29 U.S.C. 1144(b)(2); 84 Fed. Reg. 23832-23884.
+- **Standards referenced:** Electronic prior authorization standards; Prior Authorization API; Provider Access API; Payer-to-Payer API; interoperability standards; NCPDP/FHIR concepts indirectly through rule context; NCCN clinical guidelines.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for prescription medicines**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support with modifications.
+- **Rationale:** BMS supports extending ePA to pharmacy- and medical-benefit medicines because standardized transactions can reduce delays and improve access, but emphasizes that technology has not yet reduced PA burden in practice.
+- **Specific request:** Develop interoperability and ePA requirements in a results-oriented way that reduces burden on patients and providers, with standardized data elements, fields, and clinical questions that all insurers must accept.
+
+**Topic 2: Decision timeframes and payer accountability**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modifications.
+- **Rationale:** Faster PA timelines can improve access, but compressed timelines without oversight could incentivize rapid denials or inappropriate utilization management.
+- **Specific request:** Pair accelerated timelines with CMS monitoring, transparency, enforcement resources, and clear implementation guidance; consider 24-hour decision standards for all prescription drug PA requests across MA Part B, Part D, Medicaid/CHIP, and QHPs; adopt a uniform 24-hour Medicaid/CHIP drug standard rather than a COD/non-COD distinction.
+
+**Topic 3: Denial justification, human clinical review, and AI transparency**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications.
+- **Rationale:** BMS supports specific denial reasons but warns that boilerplate denials, opaque step therapy criteria, and AI-driven decisions can undermine meaningful appeals and trust.
+- **Specific request:** Require payers to attest that denials were independently reviewed by an appropriate clinician; disclose whether AI or algorithmic tools influenced a denial and what role they played; require qualified clinician de novo review within standard timeframes for AI-influenced denials.
+
+**Topic 4: API and public PA reporting**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support with modifications.
+- **Rationale:** API metrics and PA reporting can show whether ePA is being adopted and whether access is improving, but aggregate reporting may obscure plan-level variation.
+- **Specific request:** Require plan-level reporting for all payer markets for Prior Authorization API, Provider Access API, and Payer-to-Payer API metrics; extend public PA reporting requirements to prescription drug PA and Medicare Part D.
+
+**Topic 5: Expansion to ERISA plans**
+- **Provision ID:** GENERAL
+- **Position:** Modify/Expand.
+- **Rationale:** Employer-sponsored and self-insured ERISA plans cover a large share of non-elderly Americans and impose similar PA access hurdles, while ERISA preemption limits state-law protections.
+- **Specific request:** Extend proposed PA protections and modernization requirements to large group and self-insured ERISA plans.
+
+**Topic 6: Step therapy safeguards**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** BMS argues step therapy can delay clinically appropriate treatment, harm patients with chronic or life-threatening diseases, interfere with the patient-provider relationship, and conflict with recognized clinical guidelines.
+- **Specific request:** Support Safe Step Act-style protections and adopt mandatory step therapy exceptions when a patient is stable, previously failed the required drug, faces contraindication or likely harm/ineffectiveness, or has a rapidly progressive condition where delay could cause severe or irreversible consequences; review Humana's MA NSCLC step therapy policy and ensure protocols follow evidence and standards of care.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports extending ePA to medical-benefit medicines, while warning CMS must make the standards reduce burden and not expand payer documentation requirements.
+- **S14:** Supports ePA for pharmacy-benefit medicines and broader prescription medicine PA protections beyond Part D.
+- **S15:** Addresses both pharmacy- and medical-benefit medicines and asks CMS to standardize transactions across payer and benefit categories.
+- **S17:** Supports specific denial reasons and asks CMS to require unmet criteria, human clinician review attestations, and AI-use disclosures.
+- **S20/S43:** Supports new maximum response times and encourages a uniform 24-hour decision standard for prescription drug PA across payer categories, including Medicaid/CHIP and QHPs.
+- **S21/S28:** Supports alignment of MA Part B and Medicare Part D PA timeframes with Medicaid/CHIP, and recommends CMS investigate Part D implementation and compliance challenges.
+- **S29/S34/S35:** Supports API usage and public PA metrics but recommends plan-level reporting for all markets and inclusion of Medicare Part D public reporting.
+- **S44-S56:** Does not directly analyze HIPAA legal authority, but supports interoperability standards for ePA when designed to reduce burden and increase accountability.
+- **S66-S82:** Responds to the step therapy RFI, recommending specific exceptions, clinical guideline alignment, transparency, and limits on arbitrary payer protocols.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA extension to medical- and pharmacy-benefit prescription medicines.
+2. Design ePA standards to reduce PA burden for patients and providers, not merely digitize existing barriers.
+3. Establish standardized PA data elements, fields, and clinical questions all insurers must accept.
+4. Pair faster decision timeframes with oversight, monitoring, transparency, and enforcement to prevent rapid denials or inappropriate utilization management.
+5. Consider a 24-hour decision standard for all prescription medicine PA requests across MA, Part D, Medicaid/CHIP, and QHPs.
+6. Adopt a uniform 24-hour Medicaid/CHIP prescription drug PA timeframe rather than separate COD/non-COD timelines.
+7. Require specific denial rationales that identify unmet criteria and next steps for resubmission or appeal.
+8. Require independent review of all PA denials by an appropriate clinician and attestation in denial communications.
+9. Require disclosure of AI or algorithmic tool use in denials, including the specific role of the tool.
+10. Require qualified clinician de novo review for AI-influenced adverse determinations.
+11. Require plan-level API usage metrics for all payer markets.
+12. Extend public PA reporting to prescription medicine PA and Medicare Part D.
+13. Extend PA protections to large group and self-insured ERISA plans.
+14. Adopt mandatory step therapy exceptions and require step therapy protocols to align with clinical guidelines and standards of care.
+15. Review Humana's MA NSCLC step therapy policy and the evidence used by its P&T committee.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization burden, treatment delays, rapid or automatic denials, inappropriate AI use, lack of clinician review, opaque payer criteria, insufficient plan-level data, Part D opacity, ERISA plan gaps, and harmful step therapy.
+- **Potential negative impacts cited:** Treatment abandonment, serious adverse events, hospitalization, delayed therapy, stress, financial burden, disease progression, poorer quality of life, irreversible consequences, shorter survival, and increased system costs.
+- **Implementation barriers mentioned:** Different insurer PA frameworks, nonstandard fields and clinical questions, COD/non-COD complexity, aggregate reporting, lack of public Part D data, ERISA preemption, and payer step therapy protocols not aligned with evidence.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** KFF poll identifying PA as the public's biggest burden; AMA survey finding 95 percent of physicians report PA causes delays, 79 percent report treatment abandonment, one-quarter report serious adverse events, one-fifth report hospitalization, and 60 percent worry AI will increase denial rates; employer-sponsored coverage covers about 60 percent of non-elderly Americans; 67 percent of workers with employer-sponsored coverage are in self-insured plans; KFF survey showing 15 percent of insured adults in employer plans reported denied or delayed prior approval; Commonwealth Fund survey showing 13 percent of privately insured adults experienced PA denial and many did not appeal.
+- **Studies or research referenced:** KFF health tracking poll; AMA 2025 physician PA survey; Peterson-KFF employer coverage trends; KFF 2025 Employer Health Benefits Survey; KFF consumer PA survey; Commonwealth Fund 2025 Affordability Survey; NCCN NSCLC guidelines; CMS MA step therapy statements.
+- **Examples provided:** COBENFY access delays for schizophrenia patients; Humana 2025 MA anti-PD(L)1 step therapy policy for metastatic NSCLC; patients cycling through therapies before accessing physician-selected treatment.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients using prescription medicines, especially oncology, schizophrenia, chronic disease, and life-threatening condition populations; providers; MA organizations; Medicare Part D sponsors; Medicaid/CHIP programs and MCOs; QHP issuers; ERISA plan enrollees; payers; manufacturers; CMS.
+- **Economic implications:** BMS argues PA and step therapy can increase patient and system costs through delays, disease progression, hospitalization, adverse events, and inefficient appeals, while standardized ePA and reporting could reduce administrative burden.
+- **Technical feasibility:** BMS views ePA as feasible if standardized, plan-level, transparent, and paired with oversight, but warns that faster timelines and AI tools require safeguards to prevent inappropriate denials.
+- **Patient care impact:** High. The comment frames timely access to clinically appropriate prescription medicines as central, particularly for serious mental illness, cancer, chronic disease, and rapidly progressive conditions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modifications.
+- **Tone:** Professional, policy-focused, patient-access oriented, and critical of payer utilization management.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "must be intentional and results-oriented" - Context: BMS urges CMS to make technology reduce PA burden.
+2. "Transparency regarding the role of AI" - Context: BMS supports AI disclosure in PA denials.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - BMS supports accelerated PA timeframes and recommends uniform 24-hour standards for prescription medicines.
+- [x] **COST-RESOURCES** - The comment links PA and step therapy to financial burden, hospitalizations, system costs, and administrative burden.
+- [x] **PROVIDER-BURDEN** - BMS focuses on reducing provider time spent navigating inconsistent insurer PA frameworks.
+- [ ] **PRIVACY-SECURITY** - Not materially addressed.
+- [x] **HEALTH-EQUITY** - BMS highlights vulnerable populations including schizophrenia, cancer, chronic disease, and ERISA plan enrollees lacking protections.
+- [x] **TECHNICAL-FEASIBILITY** - The comment supports APIs/ePA but asks CMS to standardize implementation and monitor AI use.
+- [x] **STANDARDS-MATURITY** - It emphasizes standardized ePA data elements and clinical questions, though it does not deeply critique FHIR/NCPDP maturity.
+- [x] **PATIENT-ACCESS** - The central concern is avoiding delays, abandonment, and step therapy barriers to clinically appropriate medications.
+- [ ] **REGULATORY-AUTHORITY** - ERISA expansion is requested, but legal authority is not analyzed in depth.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations require coordination across CMS, plans, providers, clinician reviewers, and patients.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - BMS supports coverage across both pharmacy and medical benefit medicines and across benefit categories.
+- [x] **TRANSPARENCY** - Denial reasons, AI disclosures, plan-level reporting, Part D public reporting, and step therapy criteria are major transparency themes.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - BMS addresses existing insurer PA frameworks, Part D processes, appeals, and step therapy protocols.
+- [x] **VENDOR-ECOSYSTEM** - AI and algorithmic tools are addressed, though vendor impacts are secondary.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+June 15, 2026 
+ 
+VIA ELECTRONIC SUBMISSION 
+ 
+The Honorable Mehmet Oz, M.D., MBA 
+Administrator 
+Centers for Medicare & Medicaid Services  
+Attention: CMSâ€“0062â€“P 
+Mail Stop C4â€“26â€“05 
+7500 Security Boulevard 
+Baltimore, MD 21244â€“1850 
+ 
+Re: Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Dr. Oz: 
+ 
+Bristol Myers Squibb (BMS) appreciates the opportunity to comment on the Proposed Rule on prior authorization 
+protections for beneficiaries in Medicare Advantage, Medicaid, CHIP, and Qualified Health Plans, as published 
+by the Centers for Medicare & Medicaid Services (CMS) on April 14, 2026.1 
+ 
+At BMS, we are inspired by a single visionâ€”transforming patientsâ€™ lives through science. We are in the business 
+of breakthroughsâ€”the kind that transform patientsâ€™ lives through life-saving, innovative medicines. Our talented 
+employees come to work every day dedicated to our mission of discovering, developing, and delivering innovative 
+medicines that help patients prevail over serious diseases. We combine the agility of a biotech with the reach and 
+resources of an established pharmaceutical company to create a global leading biopharma company. In oncology, 
+hematology, neuroscience, immunology, and cardiovascular diseaseâ€”with one of the most diverse and promising 
+pipelines in the industryâ€”we focus on innovations that drive meaningful change.  
+ 
+BMS supports the Agencyâ€™s policies to promote beneficiary access to new and effective medical treatments and 
+ensure patients benefit from the innovation that defines the U.S. health care system. BMS supports the proposed 
+policies to improve and streamline access to prescri...

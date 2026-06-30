@@ -1,0 +1,195 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0683_20260629112326_19e8c1a5
+Commenter: Boehringer Ingelheim Pharmaceuticals, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:51:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Boehringer Ingelheim Pharmaceuticals, Inc.; signed by Carrie Harney, Executive Director, Public Policy.
+- **Stakeholder type:** Other - Pharmaceutical manufacturer / biopharmaceutical company
+- **Credentials or expertise mentioned:** Research-driven biopharmaceutical company developing therapies; comments focus on patient access to medications and therapies affected by prior authorization and utilization management.
+
+## 2. EXECUTIVE SUMMARY
+
+Boehringer Ingelheim supports CMS's proposed prior authorization and interoperability reforms but recommends expanded transparency into prior authorization, utilization management, appeals, denial rationales, AI-assisted reviews, and patient access outcomes. The company urges CMS to add per-drug and therapy-level reporting, time-to-therapy metrics, Part D reporting, continuity-of-care protections, and step therapy safeguards for stable patients and plan transitions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY by drug-reporting scope; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS/GENERAL public PA metrics; GENERAL/RFI step therapy and continuity of care.
+- **Regulatory citations mentioned:** CMS-0062-P. No CFR sections are cited directly.
+- **Standards referenced:** Interoperability/data sharing generally; no specific FHIR IG, NCPDP, HL7, or HIPAA standard is named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Expanded PA reporting and per-drug transparency**
+- **Provision ID:** API-USAGE-METRICS / GENERAL
+- **Position:** Modify
+- **Rationale:** Boehringer argues that patients, providers, plans, and CMS need meaningful visibility into how PA and UM practices operate across plans and affect access.
+- **Specific request:** Require reporting and disaggregation of PA denials, coverage determinations, and UM data on a per-drug basis, including denial rates by brand/generic status and therapeutic class.
+
+**Topic 2: Prescription rejection and pharmacy channel reporting**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Initial claims rejections and differences between affiliated and non-affiliated pharmacy channels may reveal access barriers that PA-only metrics miss.
+- **Specific request:** Require reporting on the total number and percentage of claims initially rejected for medications and denial rates at affiliated versus non-affiliated pharmacies.
+
+**Topic 3: Timing, format, and accessibility of public data**
+- **Provision ID:** API-USAGE-METRICS / GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Public reporting is only useful if stakeholders can access timely, usable, meaningful data.
+- **Specific request:** Clarify expectations for timing, format, and accessibility of publicly reported data.
+
+**Topic 4: Time-to-therapy and treatment abandonment metrics**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Administrative processing timelines do not fully capture patient experience or delays in starting therapy.
+- **Specific request:** Require metrics for time from prescription submission to initial decision, denial to appeal decision, appeal to therapy initiation, prescription abandonment, and treatment drop-off after PA delays or rejections.
+
+**Topic 5: Include Medicare Part D in reporting scope**
+- **Provision ID:** PA-DRUG-PHARMACY / GENERAL
+- **Position:** Modify
+- **Rationale:** Drug access barriers in Part D are central to the patient-access concerns raised by the company.
+- **Specific request:** Expand PA metric reporting requirements to Medicare Part D and make UM policies publicly available.
+
+**Topic 6: Appeals, overturns, exception requests, denial rationales, and AI oversight**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** OIG findings and provider surveys suggest some UM practices may improperly restrict access and that AI-assisted reviews could affect denial patterns.
+- **Specific request:** Report appeals, overturns, exception requests, denial rationales, AI use in initial reviews or denials, and AI-related denials later overturned.
+
+**Topic 7: Continuity-of-care protections**
+- **Provision ID:** PA-DRUG-MEDICAL / GENERAL
+- **Position:** Modify
+- **Rationale:** PA and UM requirements can disrupt patients stable on therapy and create unnecessary delays for continuation or maintenance care.
+- **Specific request:** Distinguish new therapy initiation from ongoing treatment, streamline or limit PA for stable patients, and extend transition protections to patients changing plans.
+
+**Topic 8: Step therapy safeguards**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** Step therapy may be clinically inappropriate, overly restrictive compared with clinical guidelines, and burdensome when repeated after plan changes.
+- **Specific request:** Require clinically appropriate step therapy, timely exception processes, and policies preventing stable patients or those who already satisfied step therapy from repeating protocols solely because they changed plans.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** The company asks CMS to expand transparency into denial rationales so patients, providers, and CMS can understand why requests are denied.
+- **S17:** The comment supports more detailed denial information and reporting but does not specifically request structured denial codes.
+- **S20:** Boehringer supports stronger accountability around PA timeliness and requests time-to-therapy metrics that capture actual patient access delays.
+- **S21:** The commenter supports CMS's drug PA reforms while asking CMS to broaden reporting beyond administrative processing timelines.
+- **S28:** The company asks CMS to expand PA reporting into Medicare Part D and make UM policies publicly available.
+- **S29:** Boehringer recommends numerous metrics, including per-drug denials, coverage determinations, initial rejections, pharmacy channel denial rates, appeals, overturns, exceptions, abandonment, and treatment drop-off.
+- **S34:** The comment asks CMS to clarify timing of public reporting so data are timely and meaningful.
+- **S35:** The company supports public availability of detailed, disaggregated metrics rather than high-level aggregate reporting alone.
+- **S43:** The comment supports timeliness metrics and continuity protections to reduce therapy interruptions.
+- **S66-S82:** The company responds to the step therapy RFI by urging clinically appropriate step therapy, rapid exceptions, and continuity protections during plan transitions.
+
+## 6. RECOMMENDATIONS
+
+1. Require per-drug reporting of PA denials, coverage determinations, and related UM data.
+2. Report denial rates by brand versus generic products and by therapeutic class.
+3. Report medication claims initially rejected.
+4. Report denial rates at affiliated versus non-affiliated pharmacies.
+5. Clarify timing, format, and accessibility requirements for public data.
+6. Require time-to-therapy metrics from prescription submission through decision, appeal, and therapy initiation.
+7. Report prescription abandonment and treatment drop-off after PA delays, denials, or rejections.
+8. Expand PA metric reporting requirements to Medicare Part D.
+9. Require public availability of UM policies.
+10. Report appeals, overturns, exception requests, and denial rationales.
+11. Require transparency when AI is used in initial PA reviews or denials and track AI-related denials later overturned.
+12. Strengthen continuity-of-care protections for patients stable on therapy or transitioning between plans.
+13. Prevent unnecessary repeated step therapy for patients who are stable or have already satisfied prior step therapy requirements.
+14. Require timely step therapy exceptions when step therapy is ineffective or medically inappropriate.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Insufficient PA transparency, lack of per-drug reporting, inadequate patient-experience metrics, Part D exclusion, unclear UM policies, inappropriate denials, AI-assisted denial risks, treatment disruption, and overly restrictive step therapy.
+- **Potential negative impacts cited:** Delayed treatment initiation, treatment abandonment, adverse events, increased administrative burden, disrupted continuity of care, and poorer outcomes for patients stable on medication.
+- **Implementation barriers mentioned:** Limited current reporting granularity, lack of standardized public data expectations, appeals/exception opacity, plan transitions, and UM practices that differ from clinical guidelines.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA 2024 survey: 93% of physicians report PA delays care; 82% report PA can lead to treatment abandonment; 29% report PA has resulted in a serious adverse event. 2026 JAMA Health Forum study: among branded prescriptions initially rejected due to PA, 35% were processed within one day, remaining prescriptions had a median six-day processing delay, and 54% were ultimately approved. 2022 HHS OIG report: 13% of MA-denied PA requests met coverage rules and likely should have been approved. AMA 2025 survey: 60% of physicians are concerned AI will increase denial rates; 95% report PA requirements delay necessary care.
+- **Studies or research referenced:** AMA 2024 and 2025 Prior Authorization Physician Surveys; Wang et al. 2026 JAMA Health Forum study; 2022 HHS OIG report on MA denials; Westrich et al. Health Affairs 2025 step therapy/UM study; AGA step therapy access resource; CMS Medicare Part D Benefits Manual.
+- **Examples provided:** Branded medication prescriptions rejected due to PA; affiliated versus non-affiliated pharmacy denials; AI-assisted denials; stable patients facing PA for continuation therapy; patients changing plans and being required to repeat step therapy.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing medications and therapies, providers, plans, Medicare Part D beneficiaries, MA beneficiaries, pharmaceutical manufacturers, pharmacies, and CMS oversight staff.
+- **Economic implications:** The comment does not provide implementation cost estimates, but argues that PA/UM delays increase administrative burden and may contribute to treatment abandonment and adverse events.
+- **Technical feasibility:** Boehringer views expanded reporting and interoperability/data sharing as achievable policy tools, though it asks CMS to clarify reporting timing, format, accessibility, and scope.
+- **Patient care impact:** High; the comment links PA delays, appeals, prescription rejections, step therapy, and plan transitions to delayed therapy initiation, treatment abandonment, adverse events, and disrupted continuity of care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modifications
+- **Tone:** Professional, data-driven, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "increasing transparency and reporting" - Context: Overall support for CMS direction.
+2. "time to therapy" - Context: Requested patient-centered reporting metric.
+3. "AI-assisted review and denial processes" - Context: Requested oversight of AI use.
+4. "stable on their medication" - Context: Continuity-of-care protections.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment emphasizes reporting on time to decision, appeal, and therapy initiation.
+- [x] **PROVIDER-BURDEN** - It cites administrative burden on providers and recommends reporting and process changes to reduce it.
+- [x] **TECHNICAL-FEASIBILITY** - The comment asks CMS to clarify reporting formats, timing, and use of interoperability/data sharing for transitions.
+- [x] **PATIENT-ACCESS** - The dominant focus is timely medication access and avoiding abandonment, adverse events, and care disruptions.
+- [x] **TRANSPARENCY** - The company requests expanded public reporting across per-drug metrics, UM policies, denials, appeals, overturns, and AI use.
+- [x] **EXISTING-WORKFLOWS** - It addresses appeals, pharmacy rejections, affiliated pharmacy channels, ongoing therapy, and plan-transition workflows.
+- [x] **STAKEHOLDER-COORDINATION** - The recommendations depend on coordination among plans, providers, pharmacies, CMS, and data-sharing systems.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Life forward 
+ 
+Date June 15, 2026 
+Page 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Re: Medicare and Medicaid Programs: Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, etc. [CMS-0062-P] 
+ 
+ 
+Dear Administrator Oz: 
+ 
+Boehringer Ingelheim Pharmaceuticals, Inc. (â€œBoehringer Ingelheimâ€ or â€œThe Companyâ€) is 
+submitting these comments in response to the Centers for Medicare and Medicaid Services 
+(â€œCMSâ€ or â€œThe Agencyâ€) Proposed Rule, Interoperability Standards and Prior Authorization 
+(hereinafter â€œProposed Ruleâ€).  
+ 
+Boehringer Ingelheim is a leading research-driven biopharmaceutical company developing 
+breakthrough therapies that transform patient lives today and for generations to come. The 
+Company appreciates the opportunity to collaborate with CMS regarding the recent 
+Proposed Rule. 
+ 
+Prior authorization (PA) and other utilization management (UM) practices play a significant 
+role in determining whether and when patients are able to access necessary medications 
+and therapies. While these tools are intended to support appropriate utilization and manage 
+costs, they can also create unnecessary delays in treatment initiation, disrupt continuity-of-
+care, and increase administrative burden for providers and patients. CMSâ€™ Proposed Rule is 
+an important step toward increasing transparency and reporting around PA denial and 
+appeal rates, accelerating response timeframes, and expanding these requirements across 
+Medicare, Medicaid, CHIP, and Marketplace plans. While Boehringer supports CMSâ€™ 
+Proposed Rule, the Company also encourages further clarification and expansion of certain 
+reporting requirements to strengthen transparency around how UM practices impact 
+patient access, timeliness of care, continuity of treatment, and the overall patient 
+experience. 
+ 
+To that end, Boehringer Ingelheim subm...

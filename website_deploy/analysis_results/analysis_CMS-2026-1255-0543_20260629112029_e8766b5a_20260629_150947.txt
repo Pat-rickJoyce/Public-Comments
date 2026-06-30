@@ -1,0 +1,221 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0543
+Commenter: American Hospital Association
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:09:47
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Hospital Association (AHA); signed by Ashley Thompson, Senior Vice President, Public Policy Analysis and Development
+- **Stakeholder type:** Professional Association / Healthcare Provider Association
+- **Credentials or expertise mentioned:** Represents nearly 5,000 hospitals, health systems, and other healthcare organizations; clinician partners including more than 270,000 affiliated physicians and 2 million nurses and other caregivers; 43,000 healthcare leaders in professional membership groups.
+
+## 2. EXECUTIVE SUMMARY
+
+AHA strongly supports CMS's goal of modernizing prior authorization and extending interoperability requirements to drugs, especially medical-benefit drugs, but urges modifications to ensure the rule reduces real-world provider burden. Its core requests include uniform shorter decision timeframes, service-level PA metrics, centralized machine-readable API endpoint reporting, a phased transition from X12 278 to FHIR-based prior authorization, DTR-centered documentation workflows, robust payer API conformance testing, and coordinated CMS/ONC version management.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** No specific CFR sections are emphasized in the body, but the comment addresses CMS-0062-P and HIPAA Administrative Simplification standards.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, PAS; CDex; X12 278; X12 270/271; ONC certification criteria; HIPAA transaction standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Medical-Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Drugs covered under the medical benefit, including chemotherapy, immunotherapy, biologics, and provider-administered specialty therapies, often treat serious and complex conditions and are frequently subject to burdensome PA.
+- **Specific request:** Finalize extension of interoperability and PA protections to drugs covered under the medical benefit and align these drug PA processes with medical-service PA workflows.
+
+**Topic 2: Uniform Prior Authorization Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** PA is often the final step before care initiation, and FHIR-enabled workflows should reduce time needed for plan review.
+- **Specific request:** Apply 72 hours for standard requests and 24 hours for expedited requests across both drug and non-drug items and services; revisit for further reductions after implementation efficiencies are realized.
+
+**Topic 3: Prior Authorization Metrics and Transparency**
+- **Provision ID:** API-USAGE-METRICS / TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Aggregate reporting obscures service-specific problems and is difficult for patients and providers to use.
+- **Specific request:** Require service-level and drug-level reporting, standardized public posting, search-engine optimized plan links, and a centralized CMS platform linked from Medicare Plan Finder and Healthcare.gov.
+
+**Topic 4: Payer API Endpoint Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support with modifications
+- **Rationale:** Providers and vendors need reliable endpoint discovery to connect to payer systems at scale; fragmented payer websites create manual burden.
+- **Specific request:** Require centralized, machine-readable, timely, accurate, validated endpoint publication, including standardized authentication information.
+
+**Topic 5: HIPAA Prior Authorization Standards Transition**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support with modifications
+- **Rationale:** Replacing X12 278 with FHIR can reduce fragmentation, but a rushed transition and continued dependence on legacy X12 constructs could perpetuate complexity.
+- **Specific request:** Replace X12 278 with a FHIR-based Prior Authorization API, make PAS operationally independent from X12 278, allow transition flexibility through Dec. 31, 2028, and set mandatory FHIR PA compliance for Jan. 1, 2029.
+
+**Topic 6: Eligibility Transactions**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Clarify / Caution
+- **Rationale:** X12 270/271 eligibility transactions are deeply embedded and mission-critical; immature FHIR replacement could disrupt revenue cycle and patient access.
+- **Specific request:** Retain 270/271 until FHIR-based eligibility standards are proven reliable at scale, thoroughly tested, and shown to reduce burden.
+
+**Topic 7: Documentation Workflows and Attachments**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** DTR can structure documentation in workflows; overuse of CDex attachments could recreate unstructured payer-specific documentation burden.
+- **Specific request:** Treat DTR as the primary documentation approach; reserve CDex for limited, well-defined use cases; support asynchronous team-based documentation workflows.
+
+**Topic 8: Payer API Conformance and Oversight**
+- **Provision ID:** FHIR-IG-REQUIRED / API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Technical conformance alone is insufficient if APIs return incomplete, nonactionable, or pended responses that force providers back to portals and fax.
+- **Specific request:** Require robust conformance testing, public results, trading-partner validation, formal payer API certification or validation, and oversight based on practical usability and adoption.
+
+**Topic 9: ONC Standards Versioning and Implementation Coordination**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Support with modifications
+- **Rationale:** Updated standards are necessary, but uncoordinated version transitions could create market fragmentation.
+- **Specific request:** Establish predictable coordinated transition schedules, maintain backward compatibility during transition periods, and align CMS compliance timelines with ONC-certified capability deployment.
+
+**Topic 10: Step Therapy and Event Notifications RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Modify / Oppose in part
+- **Rationale:** Step therapy should be evidence-based and continuity-preserving; expanded hospital CoPs are not the right tool to advance event notification interoperability.
+- **Specific request:** Use payer-to-payer exchange to honor prior step therapy determinations and treatment failures; do not eliminate portals prematurely; do not expand CoPs for event notifications; address cybersecurity and third-party privacy/security accountability.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports making key IGs required rather than merely recommended, provided CMS distinguishes technical conformance from practical usability.
+- **S2-S3:** Supports updated IG versions and an unexpired-version lifecycle, but asks CMS/ONC to manage version transitions through coordinated schedules and compatibility requirements.
+- **S12:** Supports extending electronic PA to medical-benefit drugs and highlights specialty/physician-administered drugs as high-impact use cases.
+- **S17:** Supports improved denial communications and actionable documentation, though it focuses more on transparency and review processes than specific structured denial codes.
+- **S20 / S43:** Supports 72-hour standard and 24-hour expedited timeframes for drugs and urges the same across non-drug services.
+- **S23-S24 / S26-S27 / S33:** Supports API endpoint reporting with centralized, machine-readable, timely, accurate, validated publication and standardized authentication information.
+- **S29 / S34 / S35:** Supports metrics reporting but asks for service-level and drug-level metrics, standardized posting, centralized CMS access, and use of API usage/performance data for oversight.
+- **S44-S56:** Supports a FHIR-based HIPAA prior authorization standard replacing X12 278, but requests a staged transition, PAS independence from X12, clearinghouse/intermediary guidance, readiness monitoring, and avoiding premature expansion beyond PA.
+- **S54-S55:** Calls for formal payer API validation/certification, conformance testing, public results, and enforcement focused on real-world usability.
+- **S60-S65:** Supports updated ONC standards and incorporation by reference, with coordinated version transition schedules and alignment with ONC certification readiness.
+- **S66-S82:** Responds to RFIs on portals/direct data entry, event notifications, resiliency/cybersecurity, payer APIs, and step therapy. AHA generally supports interoperability improvements but opposes expanded CoPs and warns against premature elimination of portals.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic prior authorization requirements for drugs covered under the medical benefit.
+2. Adopt uniform PA decision timeframes of 72 hours for standard requests and 24 hours for expedited requests across drug and non-drug items and services.
+3. Require service-level and drug-level PA metrics, standardized public posting, and centralized CMS access.
+4. Establish a centralized, machine-readable, accurate, timely, and validated payer API endpoint repository.
+5. Replace X12 278 with FHIR-based prior authorization through a deliberate staged transition ending Jan. 1, 2029.
+6. Ensure PAS requirements are operationally independent from X12 278.
+7. Retain X12 270/271 eligibility transactions until FHIR alternatives are proven reliable at scale.
+8. Make DTR the primary documentation workflow and limit CDex attachments to defined supplemental use cases.
+9. Require payer API conformance testing, public reporting of results, formal validation/certification, and real-world usability standards.
+10. Coordinate CMS/ONC timelines, testing readiness, and version transitions.
+11. Preserve portals/direct data entry during the transition for providers lacking resources to implement advanced transactions.
+12. Use payer-to-payer data exchange to support continuity of care and avoid repeated step therapy.
+13. Avoid using hospital CoPs to expand event notification interoperability requirements.
+14. Retain privacy and security certification criteria and strengthen cybersecurity accountability across third-party vendors.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Provider burden, care delays, fragmented payer workflows, insufficient transparency, immature or inconsistent APIs, rushed HIPAA standards transition, endpoint discovery problems, and uncoordinated version changes.
+- **Potential negative impacts cited:** Delayed care, treatment abandonment, serious adverse events, provider burnout, new intermediary fees, workflow disruption, cost shifting, and reversion to manual processes.
+- **Implementation barriers mentioned:** Payer variation, immature API deployment, clearinghouse readiness, vendor certification gaps, embedded X12 eligibility workflows, payer-specific documentation requirements, and lack of machine-readable endpoint data.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA survey: 95% of physicians report PA delays necessary care; 79% report PA can lead patients to abandon treatment; about 1 in 4 physicians report PA led to a serious adverse event; approximately 40 PA requests per physician per week and nearly two business days spent on PA activities. AHA also cites OCR breach data rising from 27 million affected individuals in 2020 to 259 million in 2024; Change Healthcare attack affected over 190 million Americans; 48% of rural hospitals operated at a financial loss in 2023.
+- **Studies or research referenced:** AMA prior authorization survey; HHS OIG report on inappropriate Medicare Advantage denials including infusion drugs; KFF analysis of PA metrics; CAQH index; ONC event notification data; OCR breach portal; RAND hospital cost report data.
+- **Examples provided:** Chemotherapy authorization delays; infusion drugs; payer metrics hidden in websites; PAS as X12 wrapper; DTR/CDex workflow variation; Change Healthcare ransomware attack; rural hospital cybersecurity constraints.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals, health systems, physicians, nurses and caregivers, patients, payers, QHP issuers, CMS/HHS/ONC, health IT developers, clearinghouses, intermediaries, rural hospitals, and third-party vendors.
+- **Economic implications:** Potential administrative savings from automation, but risk of cost shifting to providers through intermediary fees, implementation costs, portal/API duplication, cybersecurity burden, and vendor add-on charges.
+- **Technical feasibility:** Feasible if staged, tested, and aligned; AHA warns feasibility depends on API usability, endpoint discovery, ONC-certified capabilities, clearinghouse readiness, and coordinated version transitions.
+- **Patient care impact:** High; improved PA workflows could reduce delays, treatment interruptions, abandonment, and adverse events, especially for serious and complex conditions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modifications
+- **Tone:** Professional, technical, policy-focused, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Prior authorization remains one of the most significant administrative challenges facing the healthcare delivery system." - Context: Opening rationale for the rule's importance.
+2. "CMS should adopt uniform decision timeframes of 72 hours for standard requests and 24 hours for expedited requests across both drug and non-drug items and services." - Context: Key policy recommendation on decision timeframes.
+3. "The AHA strongly supports the goal of modernizing HIPAA Administrative Simplification standards for prior authorization by transitioning away from the ASC X12N 278 transaction and toward HL7 FHIR-based approaches." - Context: HIPAA PA standards position.
+4. "The AHA urges CMS to distinguish between technical conformance and operational usability when defining and determining compliance." - Context: API oversight and conformance testing recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests staged HIPAA transition, aligned CMS/ONC timelines, and coordinated version transitions.
+- [x] **COST-RESOURCES** - Addresses provider resource burden, intermediary fees, rural cybersecurity resources, and implementation costs.
+- [x] **PROVIDER-BURDEN** - Central theme; AHA focuses on reducing administrative burden on hospitals and clinicians.
+- [x] **PRIVACY-SECURITY** - Includes extensive cybersecurity, HIPAA preemption, third-party vendor accountability, and ONC security certification recommendations.
+- [x] **HEALTH-EQUITY** - Notes rural and underserved cybersecurity resilience and patient access concerns for complex conditions.
+- [x] **TECHNICAL-FEASIBILITY** - Addresses API readiness, endpoint discovery, conformance testing, FHIR eligibility maturity, and implementation failures.
+- [x] **STANDARDS-MATURITY** - Discusses FHIR IG maturity, X12-to-FHIR transition, PAS/X12 dependency, and version management.
+- [x] **PATIENT-ACCESS** - Emphasizes timely medically necessary care, drug therapy access, and avoiding delays.
+- [x] **REGULATORY-AUTHORITY** - Discusses HIPAA Administrative Simplification and cautions against using CoPs for interoperability expansion.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for alignment among CMS, HHS, ONC, payers, vendors, providers, clearinghouses, and intermediaries.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Focuses on medical-benefit drugs and alignment with medical-service PA workflows.
+- [x] **TRANSPARENCY** - Strong emphasis on PA metrics, endpoint reporting, authentication information, and public conformance results.
+- [x] **EXISTING-WORKFLOWS** - Addresses portals, X12 270/271 eligibility, DTR/CDex workflows, and team-based documentation.
+- [x] **VENDOR-ECOSYSTEM** - Discusses health IT developers, ONC certification, clearinghouses, intermediaries, third-party vendors, and payer API certification.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+ 
+The Honorable Robert F. Kennedy Jr.  
+Secretary 
+Department of Health and Human Services 
+200 Independence Ave. SW 
+Washington, DC 20201 
+ 
+Mehmet Oz, M.D. 
+Administrator 
+Centers for Medicare & Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244-1850 
+ 
+Thomas Keane, M.D., MBA 
+National Coordinator for Health Information Technology 
+Department of Health and Human Services 
+330 C St. SW, 7th Floor 
+Washington, DC 20024 
+ 
+Re: CMS-0062-P, Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs 
+for Medicare Advantage Organizations, Medicaid Managed Care Plans, State 
+Medicaid Agencies, Children’s Health Insurance Program (CHIP) Agencies and 
+CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the 
+Federally-Facilitated Exchanges 
+ 
+Dear Secretary Kennedy, Administrator Oz and National Coordinator Keane: 
+ 
+On behalf of our nearly 5,000 member hospitals, health systems and other healthcare 
+organizations, and our clinician partners — including more than 270,000 affiliated 
+physicians, 2 million nurses and other caregivers — and the 43,000 healthcare leaders 
+who belong to our professional membership groups, the American Hospital Association 
+(AHA) appreciates the opportunity to comment on the Centers for Medicare & Medicaid 
+Services’ (CMS’) proposed rule titled “Interoperability Standards and Prior Authorization 
+for Drugs.” 
+ 
+The Honorable Robert F. Kennedy Jr.  
+The Honorable Mehmet Oz, M.D. 
+The Honorable Thomas Keane, M.D., MBA 
+June 15, 2026 
+Page 2 of 29 
+ 
+Hospitals and health systems are committed to CMS’ ongoing efforts to reduce 
+administrative burden, advance interoperability and improve patients’ access to timely, 
+medically necessary care. Prior authorization remains one of the most significant 
+administrative challenges facing the healthcare delivery system, consuming substantial 
+clinical and operational resources while fre...

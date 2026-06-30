@@ -1,0 +1,175 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0674_20260629112057_addec9a0
+Commenter: Families USA
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:49:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Families USA; signed by Anthony Wright, Executive Director
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** National, nonpartisan health care consumer advocacy organization with 45 years of work toward affordable, high-quality coverage and care.
+
+## 2. EXECUTIVE SUMMARY
+
+Families USA generally supports the proposed rule as an important step toward data-sharing standards, prior authorization transparency, and faster access for the more than 142 million people relying on Medicaid, Medicare, and marketplace coverage. It asks CMS to strengthen the rule by standardizing denial explanations, tightening drug PA timeframes toward 24 hours, improving public reporting by service type and claim volume, extending requirements to additional markets, and addressing step therapy and plan-transition harms.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FF-SHOP-REQUIREMENTS; GENERAL/RFI on step therapy and future rulemaking.
+- **Regulatory citations mentioned:** CMS-0062-P; 91 Fed. Reg. 19890 pages 19923, 19925-19927, 19933, 19936, 19938, 19940-19941, 19949, and 20013; prior 2020 and 2024 CMS interoperability rules; ERISA referenced for DOL authority.
+- **Standards referenced:** Prior Authorization APIs; national data-sharing and interoperability standards; electronic prior authorization; no detailed comments on specific FHIR IG versions or NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Families USA states that electronic PA can reduce administrative cost and speed access to needed prescription and physician-administered drugs. It cites evidence that electronic PA reduced median time from request to decision from 18.7 hours to 5.7 hours.
+- **Specific request:** Finalize the expansion of existing ePA requirements to prescription and physician-administered drugs for impacted payers beginning October 1, 2027.
+
+**Topic 2: Specific Reasons for Drug PA Denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications
+- **Rationale:** Denials are widespread and often overturned on appeal, suggesting inappropriate or overly aggressive prior authorization practices. Specific explanations help patients and providers pursue appeals or alternative treatments.
+- **Specific request:** Provide more explicit guidance on what qualifies as a specific reason and require clinical criteria supporting denials for both drug and non-drug services.
+
+**Topic 3: Prior Authorization Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modifications
+- **Rationale:** Current timeframes vary by payer, and delays can harm patients. Families USA supports the proposed timeframes but says CMS should adopt tighter, consumer-friendly standards where possible.
+- **Specific request:** Finalize proposed timeframes and consider requiring all prescription drug PA determinations to be made within 24 hours.
+
+**Topic 4: Public Reporting of PA Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** Current PA metric reporting is not standardized enough to show which services are subject to PA or how payer decisions vary. Better data would support oversight, advocacy, and policies to exempt services with high approval rates.
+- **Specific request:** Require both numeric counts and percentages of total claims subject to PA, disaggregated by service type, in addition to proposed drug and non-drug metrics.
+
+**Topic 5: FF-SHOP Small Group QHP Requirements and Future Market Alignment**
+- **Provision ID:** FF-SHOP-REQUIREMENTS; GENERAL
+- **Position:** Support with expansion
+- **Rationale:** Consumers should receive comparable protections regardless of coverage source. The comment says SHOP and other marketplace coverage should not be left behind while employer-sponsored coverage remains outside the rule.
+- **Specific request:** Extend requirements to FF-SHOP issuers, pursue future rulemaking for QHP issuers on SBEs and SBE-FPs, and work with DOL to align requirements for ERISA-regulated plans.
+
+**Topic 6: Step Therapy and Plan Transitions**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can delay needed care, especially when patients who already completed or failed prior steps must repeat them after switching coverage.
+- **Specific request:** Use future rulemaking and interoperability infrastructure to prevent unnecessary step therapy repetition, protect continuity, and apply consumer-friendly prior authorization timelines and transparency standards across payer types.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Families USA supports electronic PA for physician-administered drugs under the medical benefit, emphasizing faster decisions and reduced burden.
+- **S14:** The comment supports electronic PA for pharmacy-benefit prescription drugs for impacted payers.
+- **S16:** Families USA supports specific denial reasons but asks CMS to define required information more clearly and require clinical criteria supporting denials.
+- **S17:** The commenter does not specifically request structured denial codes, but its request for standardized, explicit denial information aligns with structured and comparable denial communication.
+- **S20:** Families USA supports proposed drug PA decision timeframes and urges CMS to consider the most consumer-friendly standard, including 24-hour prescription drug determinations.
+- **S29:** The commenter supports public PA metrics for drugs and non-drug services.
+- **S34:** Families USA supports improving reporting levels and deadlines, and asks for more standardized data that includes counts and percentages.
+- **S35:** The comment supports public reporting that allows policymakers, providers, consumers, and advocates to identify payer outliers and denial patterns.
+- **S40:** Families USA supports extending interoperability and PA requirements to small group market QHP issuers on FF-SHOPs.
+- **S41:** The comment supports applying these protections in the small group market and does not seek a delay beyond the proposed framework.
+- **S66-S82:** Families USA addresses step therapy and future rulemaking, urging CMS and DOL to standardize consumer protections and prevent insurer red tape from delaying medically necessary care.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize expansion of electronic prior authorization requirements to prescription and physician-administered drugs.
+2. Require clear, standardized denial explanations that include clinical criteria.
+3. Finalize and consider tightening decision timeframes, including 24-hour determinations for all prescription drug PA requests.
+4. Require public PA metrics for drugs and non-drug services with both counts and percentages.
+5. Require reporting of how many total claims and which service types are subject to PA.
+6. Disaggregate PA metrics by service type.
+7. Extend interoperability and PA requirements to QHP issuers in the FF-SHOP small group market.
+8. Pursue future rulemaking extending similar protections to QHP issuers on SBEs and SBE-FPs.
+9. Work with DOL to align timing and transparency requirements for ERISA-regulated employer plans.
+10. Use future policy to address step therapy repetition and continuity problems when patients change coverage.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization misuse and overuse, unclear denial reasons, delays in care, inadequate public metrics, lack of cross-payer uniformity, and step therapy barriers.
+- **Potential negative impacts cited:** Patients paying more than expected, declines in health, delayed care, inability to receive recommended care, abandoned care, life-threatening events, and medically necessary care denied or delayed.
+- **Implementation barriers mentioned:** Variation across payer types, insufficient specificity in denial requirements, fragmented reporting locations and metrics, lack of service-level data, and limits of CMS jurisdiction over ERISA plans without DOL coordination.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** More than 142 million people rely on Medicaid, Medicare, and marketplace coverage; about 1 in 6 insured patients report PA problems; 37% paid more than expected, 26% reported health decline, 32% reported delays, and 34% could not receive recommended care; 17% of marketplace enrollees and 22% of Medicaid beneficiaries reported PA challenges; patients taking prescription drugs were more than twice as likely to report PA problems; nearly 60% of physicians said PA always or often delays care; MA plans denied roughly 8% of PA requests in 2024 and over 80% of appealed denials were overturned; electronic PA reduced median request-to-decision time from 18.7 to 5.7 hours.
+- **Studies or research referenced:** KFF coverage and PA surveys; Commonwealth Fund coverage denial survey; AMA prior authorization survey; Journal of the American Pharmacists Association evaluation of electronic PA; KFF analyses of MA and marketplace denials; Health Affairs study on step therapy protocols; legal and policy research on step therapy; Institute for Patient Access and Arthritis Foundation materials.
+- **Examples provided:** Marketplace enrollees, Medicaid beneficiaries, privately insured patients, patients taking prescription drugs, small business and self-employed marketplace enrollees, patients subject to step therapy, and ERISA-covered workers.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients and families, providers, impacted payers, QHP issuers, small employers, policymakers, advocates, DOL-regulated employer plans, and CMS.
+- **Economic implications:** The comment argues electronic PA and unnecessary PA exemptions can save provider and payer time and money; it also highlights consumer financial harm from delays and denials.
+- **Technical feasibility:** Families USA views electronic PA and standardized reporting as feasible and beneficial, but calls for broader alignment across payers and markets.
+- **Patient care impact:** Strong emphasis on faster medication access, fewer delays, clearer appeals, and reducing inappropriate denials of medically necessary care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with recommended strengthening
+- **Tone:** Professional, consumer-focused, evidence-based
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Families USA generally supports the proposed rule" - Context: Overall position on CMS-0062-P.
+2. "Electronic prior authorization helps patients more quickly access the prescription drugs they need" - Context: Support for extending ePA to drugs.
+3. "CMS should establish clear requirements for what information must be included when a payer denies a claim" - Context: Request for stronger denial-reason standards.
+4. "requiring all prescription drug prior authorization determinations to be made within 24 hours" - Context: Future alignment and consumer-friendly timeframe recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports proposed timeframes and seeks tighter 24-hour prescription drug standards.
+- [x] **COST-RESOURCES** - Discusses administrative costs, consumer financial exposure, and potential savings from reducing unnecessary PA.
+- [x] **PROVIDER-BURDEN** - Cites physician survey data and supports ePA to reduce administrative burden.
+- [x] **HEALTH-EQUITY** - Focuses on Medicaid, marketplace, small group, and ERISA-covered consumers needing uniform protections.
+- [x] **TECHNICAL-FEASIBILITY** - Supports electronic PA and better data reporting as practical tools for reducing delays.
+- [x] **PATIENT-ACCESS** - Central theme: timely access to medically necessary care and prescription drugs.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS-DOL joint rulemaking and cross-payer alignment.
+- [x] **TRANSPARENCY** - Strong focus on denial reasons and public PA metrics.
+- [x] **FF-SHOP-REQUIREMENTS** - Supports extending requirements to small group market QHP issuers on FF-SHOPs.
+- [x] **EXISTING-WORKFLOWS** - Addresses appeals, payer reporting, and current inconsistent PA practices.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Does not address maturity of specific standards.
+- [ ] **REGULATORY-AUTHORITY** - ERISA/DOL authority is discussed for future rulemaking, but not as an objection to CMS authority.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Supports both drug channels but does not focus on the distinction.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, M.D. 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+P.O. Box 8016 
+Baltimore, MD 21244-8016 
+ 
+Submitted electronically via regulations.gov 
+Re: CMS-0062-P: Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges 
+Dear Administrator Dr. Oz, 
+As the longtime national, nonpartisan health care consumer advocacy organization, Families 
+USA appreciates the opportunity to comment on the 2026 Interoperability and Prior 
+Authorization proposed rule. For 45 years, Families USA has worked toward our vision of a 
+health care system in which everyone in America has access to high-quality, affordable coverage 
+and care that protects their health and financial security. If finalized, this rule will take essential 
+steps toward that goal by providing standards and transparency around prior authorization the 
+over 142 million people who rely on Medicaid, Medicare, and marketplace coverage for their 
+health coverage.1 Families USA generally supports the proposed rule and offers constructive 
+feedback to assist the Centers for Medicare & Medicaid Services (CMS) in strengthening some 
+of the provisions finalizing the regulation.  
+National data-sharing and interoperability standards are critical to reducing waste, enabling 
+real-time coordination of services across health sectors, and driving meaningful improvements 
+in health care quality and outcomes for our nationâ€™s families. By allowing health and health care 
+data to flow more smoothly within and across the health care system, providers can better 
+identify and bridge potent...

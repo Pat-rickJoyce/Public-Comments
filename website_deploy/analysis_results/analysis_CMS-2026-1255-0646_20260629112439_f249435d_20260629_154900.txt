@@ -1,0 +1,160 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0646_20260629112439_f249435d
+Commenter: CareDx Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:49:00
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** CareDx Inc.; signed by Kimberly Linthicum, VP, Government Affairs
+- **Stakeholder type:** Technology Vendor; Clinical Laboratory Provider; Other healthcare company
+- **Credentials or expertise mentioned:** CLIA-licensed, CAP-accredited laboratory services for transplant recipients; precision medicine company focused on transplant diagnostics including AlloMap and AlloSure.
+
+## 2. EXECUTIVE SUMMARY
+
+CareDx responds to the RFI on laboratory testing and prior authorization from the perspective of transplant rejection monitoring. It urges CMS to reduce or eliminate PA barriers for longitudinal non-invasive molecular transplant monitoring, standardize LBM criteria and timelines, improve transparency for LBM-driven coverage changes, and at minimum require one annual authorization for longitudinal biomarker monitoring pathways.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI laboratory tests and DMEPOS; PA-TIMEFRAMES-DRUGS by analogy; PA-DENIAL-REASONS; TRANSPARENCY; EXISTING-WORKFLOWS.
+- **Regulatory citations mentioned:** CMS-0062-P RFI on laboratory tests and DMEPOS; no CFR citations.
+- **Standards referenced:** No FHIR/NCPDP standards central to the comment; focuses on laboratory benefit managers (LBMs), prior authorization processes, and medical necessity documentation.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: LBM transparency and accountability**
+- **Provision ID:** GENERAL/RFI; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** CareDx says payer use and switching of LBMs creates disjointed, non-transparent coverage and PA processes. LBMs and payer customers may each direct the lab back to the other, delaying resolution and creating abrupt coverage changes.
+- **Specific request:** CMS should standardize clinical criteria, documentation requirements, and decision timelines for LBMs used by payers under CMS authority; payers should remain accountable for LBM policies and decisions.
+
+**Topic 2: Coverage policy changes by LBMs**
+- **Provision ID:** PA-DENIAL-REASONS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** CareDx reports that changes between LBMs can convert a service from covered to non-covered or experimental/investigational without explanation, disrupting patients undergoing longitudinal monitoring.
+- **Specific request:** Require negative coverage changes to be publicly posted with evidence-based rationale, an appeal pathway, and a meaningful transition period.
+
+**Topic 3: Prior authorization for non-invasive molecular transplant monitoring**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Oppose PA / Modify if PA retained
+- **Rationale:** CareDx argues non-invasive molecular testing often replaces or informs invasive biopsies, which generally do not require PA, and repeated authorizations for recurring monitoring create duplicative burden and payment uncertainty.
+- **Specific request:** Remove PA for non-invasive molecular transplant monitoring tests; if not possible, treat organ rejection monitoring as a care pathway with one annual authorization covering all testing needed that year.
+
+**Topic 4: Longitudinal biomarker monitoring beyond transplant**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** Similar recurring testing occurs in oncology minimal residual disease (MRD) monitoring and other advanced biomarker pathways. Repeated PA submissions do not improve clinical decision-making.
+- **Specific request:** Apply the single annual authorization/care pathway approach to longitudinal biomarker monitoring services ordered multiple times per year.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 (Laboratory tests/DMEPOS RFI):** CareDx responds directly to questions about LBMs' impact, process improvement opportunities, and how PA can be made more effective at reducing burden and improving outcomes.
+- **S16/S17:** The comment is relevant to denial reasons and transparent rationale for negative coverage determinations, especially when services move to non-covered or experimental status.
+- **S20/S43:** CareDx addresses decision timelines for LBMs and argues that a 3-day authorization window can be unreasonable compared with a 7-14 day operational expectation.
+
+## 6. RECOMMENDATIONS
+
+1. Eliminate prior authorization for non-invasive molecular transplant monitoring tests where testing replaces or reduces invasive procedures.
+2. If PA remains, create care pathways that limit PA to one annual approval per patient for longitudinal biomarker monitoring.
+3. Standardize LBM clinical criteria, documentation requirements, and decision timelines for payers under CMS authority.
+4. Require public reporting of negative LBM/payer coverage policy changes with evidence-based rationale.
+5. Require appeal rights and meaningful transition periods when coverage status changes.
+6. Ensure payers remain accountable for policies implemented through contracted LBMs.
+7. Use post-payment review and test requisition forms to substantiate medical necessity and program integrity.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** LBM opacity, abrupt coverage changes, repeated PA for longitudinal monitoring, annual quantity restrictions, short authorization windows, payment uncertainty.
+- **Potential negative impacts cited:** Delayed transplant monitoring, unnecessary biopsies or invasive procedures, delayed detection of rejection, unnecessary administrative burden, reduced predictability for clean claims.
+- **Implementation barriers mentioned:** LBM/payer accountability gaps, inconsistent coverage criteria, lack of transparency into policy disputes and authorization requirements.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Medicare coverage dates for CareDx services in 2006 and 2017; examples of professional guideline monitoring frequencies (monthly in first year and quarterly thereafter for heart/lung; monthly for first four months then quarterly for kidney in some recommendations).
+- **Studies or research referenced:** Mentions publication of evidence supporting innovation but does not cite specific studies in the comment text.
+- **Examples provided:** One LBM covers post-transplant surveillance testing only one unit per year; another example cites a 3-day authorization timeline where 7-14 days would be more reasonable.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Transplant patients, transplant clinicians, clinical laboratories, LBMs, payers, oncology patients needing MRD monitoring.
+- **Economic implications:** Non-invasive monitoring may reduce costs by avoiding biopsies, inpatient rejection treatment, graft failure, return to dialysis, retransplantation, and redundant administrative work.
+- **Technical feasibility:** The comment emphasizes policy/process reform more than technology standards.
+- **Patient care impact:** High; timely monitoring can protect transplanted organs, guide treatment, avoid invasive biopsies, and support personalized care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of modernization but critical of current LBM/PA barriers.
+- **Tone:** Professional, evidence-oriented, operational, patient-centered.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The increased payer use of LBMs and their subsequent switching of LBM services has created a disjointed and non-transparent system." - Context: LBM impact.
+2. "we believe removing prior authorization for non-invasive molecular testing should be the standard." - Context: Main PA reform recommendation.
+3. "CMS should recognize longitudinal biomarker monitoring as a care pathway, not discrete one-off services." - Context: Proposed alternative if PA remains.
+4. "Patients actively undergoing longitudinal organ transplant monitoring should not experience abrupt coverage disruptions" - Context: Coverage policy transition concerns.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - Comment focuses on timely access to laboratory testing for transplant monitoring and oncology biomarker monitoring.
+- [x] **PROVIDER-BURDEN** - Repeated PA submissions and LBM disputes burden clinicians and laboratories.
+- [x] **TRANSPARENCY** - Strong emphasis on public coverage policy changes, rationale, appeal routes, and accountability.
+- [x] **EXISTING-WORKFLOWS** - Discusses real-world lab workflows and recurring longitudinal monitoring.
+- [x] **COST-RESOURCES** - Argues non-invasive monitoring can reduce high-cost interventions and avoid redundant administrative burden.
+- [x] **STAKEHOLDER-COORDINATION** - Highlights payer/LBM/lab responsibility gaps.
+- [ ] **TECHNICAL-FEASIBILITY** - Not a central technical standards comment.
+- [ ] **IMPLEMENTATION-TIMELINE** - Mentions timelines but not rule compliance timeline.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - LBMs are discussed, but not health IT vendor ecosystem.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+ 
+ 
+ 
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, M.D., MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244–1850 
+ 
+Re: Request for Information: “Laboratory Tests and Durable Medical Equipment, Prosthetics, 
+Orthotics, and Supplies Items” contained within CMS-0062-P  
+ 
+Submitted via http://www.regulations.gov  
+ 
+Dear Dr. Oz: 
+ 
+CareDx Inc. appreciates the opportunity to respond to your Request for Information (RFI) 
+within the Proposed Rule for Interoperability Standards and Prior Authorization for Drugs (CMS-
+0062-P).  CareDx is the leading precision medicine company focused on the discovery, 
+development, and commercialization of clinically differentiated, high-value healthcare solutions 
+for transplant patients, including non-invasive molecular testing.  As a member of the Coalition for 
+21st Century Medicine (C21), we support the comments filed by the coalition and provide additional 
+comments herein specifically from the transplant rejection laboratory testing perspective.    
+Background on CareDx:  
+As a clinical laboratory provider, CareDx provides CLIA-licensed, CAP-accredited laboratory 
+services for transplant recipients.  Our blood-based testing is validated for use to monitor for solid 
+organ rejection ahead of older lagging biomarker technologies.  Leading biomarker tests like our 
+AlloMap® and AlloSure® services can predict rejection months ahead of older tests and invasive 
+biopsies.  We deliver actionable insights through these advanced diagnostics along with 
+streamlined workflows to improve outcomes and reduce complexity.  Technologically, our testing 
+services involve gene-expression profiling which measures activation of the host immune system 
+and donor-derived cell-free DNA that measures graft injury both of which can play a role in 
+monitoring solid organs for rejection.  These services were first covered by Medicare with specific 
+clinical cri...

@@ -1,0 +1,184 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0554
+Commenter: Physicians of Southwest Washington (PSW) and MultiCare Connected Care (MCC)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:15:54
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Physicians of Southwest Washington (PSW) and MultiCare Connected Care (MCC).
+- **Stakeholder type:** Healthcare Provider; clinically integrated/value-based networks.
+- **Credentials or expertise mentioned:** CINs in Washington State serving over 400,000 individuals across independent practices, health systems, and rural health systems.
+
+## 2. EXECUTIVE SUMMARY
+
+PSW and MCC support electronic prior authorization for drugs but warn that the rule creates near-term operational, technical, and financial risk for delegated, value-based, and health plan-aligned entities. They request phased implementation, standardized payer behavior and data elements, safeguards for shortened decision timeframes, authoritative endpoint reporting, and accountability frameworks that align responsibility with operational control.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; GENERAL.
+- **Regulatory citations mentioned:** None specifically cited.
+- **Standards referenced:** FHIR Prior Authorization APIs; NCPDP SCRIPT; formulary and benefit standards; real-time prescription benefit; legacy HIPAA X12 transactions; standards development organizations and FHIR accelerators.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization in delegated models**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support with modifications
+- **Rationale:** Electronic PA can reduce delays and rework, but CINs and delegated entities may be accountable for authorization outcomes without control over payer APIs, benefit logic, data quality, or timelines.
+- **Specific request:** Explicitly recognize delegated entities and align accountability with operational control over API reliability, data quality, and transaction performance.
+
+**Topic 2: Concurrent standards and workflow integration**
+- **Provision ID:** HIPAA-PA-STANDARDS; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Moving from legacy X12 to FHIR-enabled workflows while also supporting NCPDP standards creates integration, monitoring, and exception-handling burdens.
+- **Specific request:** Require end-to-end integrated workflows across payers, delegated entities, pharmacies, PBMs, prescribers, and care teams.
+
+**Topic 3: Standardization across lines of business**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support/Modify
+- **Rationale:** Extending NCPDP capabilities beyond Part D is useful, but inconsistent data requirements and response behaviors will perpetuate multi-payer variation.
+- **Specific request:** Require consistent minimum data elements, response behavior, and workflow expectations across Medicaid, CHIP, QHPs, and other covered lines.
+
+**Topic 4: Medical versus pharmacy benefit ambiguity**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Clarify
+- **Rationale:** Infused drugs, specialty therapies, and high-cost medications may be adjudicated differently depending on benefit design, creating misclassification and denial risk.
+- **Specific request:** Specify minimum data standards and semantics for consistent benefit-pathway determinations and computable policy/documentation requirements.
+
+**Topic 5: Decision timeframe safeguards**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Shorter timelines can improve access, but without safeguards may result in premature denials or avoidable additional information requests.
+- **Specific request:** Define completed request, allow clinically appropriate extensions, require specific actionable denial rationales, and account for dependencies outside delegated entities' control.
+
+**Topic 6: Implementation timeline and reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS; IMPLEMENTATION-TIMELINE
+- **Position:** Modify
+- **Rationale:** Current timelines are aggressive given multi-standard support and payer-readiness variation.
+- **Specific request:** Adopt phased implementation and safe-harbor periods; publish an authoritative endpoint directory; require reporting on availability, latency, and error rates.
+
+**Topic 7: Risk-bearing arrangements**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** In value-based and risk-bearing arrangements, utilization management accountability may already exist and duplicative PA can add friction.
+- **Specific request:** Allow reduced or alternative PA requirements in risk-bearing models while maintaining patient protections and transparency.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports FHIR-based PA for medical benefit drugs but identifies operational challenges for delegated entities and benefit pathway ambiguity.
+- **S14:** Supports expansion of NCPDP SCRIPT/formulary/RTPB capabilities beyond Part D, with consistent minimum requirements across programs.
+- **S15:** Responds directly by warning that ambiguity between medical and pharmacy benefit pathways is a major operational risk.
+- **S17:** Requests specific, actionable, authorization-traceable denial rationales.
+- **S20/S43:** Supports shorter timeframes but asks CMS to define completed requests and permit clinically appropriate extensions.
+- **S21:** Raises concern that proposed implementation timelines are aggressive and recommends phased implementation and safe harbors.
+- **S23/S24/S26/S27/S33:** Supports endpoint reporting and asks CMS to publish an authoritative endpoint directory with operational performance details.
+- **S29/S34/S35:** Supports usage metrics and urges reporting on availability, latency, and error rates.
+- **S44-S47:** Addresses transition from X12 to FHIR-enabled workflows and supports a real-world phased transition.
+- **S53/S54:** Supports phased implementation, safe harbors, and operational testing/readiness expectations.
+
+## 6. RECOMMENDATIONS
+
+1. Recognize downstream burden on delegated entities, CINs, IPAs, and risk-bearing organizations.
+2. Align accountability with operational control over payer APIs and data quality.
+3. Require end-to-end integrated prior authorization workflows.
+4. Standardize data elements, semantics, response behavior, and workflow expectations across payers and lines of business.
+5. Clarify medical versus pharmacy benefit determination logic for specialty and infused drugs.
+6. Pair shortened decision timelines with safeguards, completed-request definitions, extensions, and actionable denial rationales.
+7. Adopt phased implementation and safe-harbor periods.
+8. Publish an authoritative payer endpoint directory.
+9. Require operational API metrics including availability, latency, and error rates.
+10. Permit evolution or reduction of PA requirements in risk-bearing arrangements.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Misalignment between regulatory accountability and operational control; multi-payer variation; implementation complexity; benefit-pathway ambiguity; aggressive timelines.
+- **Potential negative impacts cited:** Increased denials, rework, training burden, administrative burden, misclassification of drugs, patient delays, and financial risk for delegated organizations.
+- **Implementation barriers mentioned:** Payer API variation, data-quality problems, benefit determination logic outside delegated control, concurrent FHIR/NCPDP/X12 support, and differing payer workflows.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Serves over 400,000 individuals across the Pacific Northwest.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Infused drugs, specialty therapies, and high-cost medications may be adjudicated under different benefit pathways depending on plan design.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** CINs, delegated entities, IPAs, risk-bearing organizations, providers, care teams, patients, payers, pharmacies, and PBMs.
+- **Economic implications:** Requires investment in integration, monitoring, exception handling, training, and operational support.
+- **Technical feasibility:** Feasible if phased and standardized; risky if payer variability and API performance are unmanaged.
+- **Patient care impact:** Well-implemented ePA may speed access to high-cost therapies; poorly implemented requirements could increase denials and delays.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed/supportive with significant implementation concerns
+- **Tone:** Collaborative, operational, and technical
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We support this rule and agree that it has the potential to reduce administrative burden over time and improve patient access to needed therapies." - Context: Overall position.
+2. "There is a real risk that operational accountability will be misaligned with regulatory authority." - Context: Delegated model concern.
+3. "Ambiguity between medical and pharmacy benefit pathways remains a significant operational risk." - Context: Specialty and infused drug classification.
+4. "We recommend that CMS adopt a phased approach to implementation, including safe-harbor periods." - Context: Implementation timeline recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment asks for phased implementation and safe harbors.
+- [x] **COST-RESOURCES** - Delegated entities must invest in integration, monitoring, exception handling, and training.
+- [x] **PROVIDER-BURDEN** - Multi-payer variation creates rework and administrative burden for care teams.
+- [x] **TECHNICAL-FEASIBILITY** - API performance, data quality, and concurrent standards support are central concerns.
+- [x] **STANDARDS-MATURITY** - The comment discusses FHIR, NCPDP, X12 transition, and standards development processes.
+- [x] **PATIENT-ACCESS** - ePA could improve access, but poor implementation could increase delays and denials.
+- [x] **STAKEHOLDER-COORDINATION** - Requires coordination among payers, delegated entities, pharmacies, PBMs, prescribers, and care teams.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment specifically calls out ambiguity between benefit pathways.
+- [x] **TRANSPARENCY** - Requests actionable denial rationales, endpoint directory, and operational metrics.
+- [x] **EXISTING-WORKFLOWS** - Focuses on real-world delegated and value-based care workflows.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1300 S Evergreen Park Dr SW, Suite 200, Olympia, WA 98502 | 360.943.4337 | 1.877.943.4337 | pswipa.com 
+ 
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare and Medicaid Services 
+U.S. Department of Health and Human Services 
+ 
+RE: CMS-0062-P – Interoperability Standards and Prior Authorization for Drugs 
+ 
+Dear Administrator Oz, 
+ 
+Physicians of Southwest Washington (PSW) and MultiCare Connected Care (MCC) are 
+Clinically Integrated Networks (CINs) located in Washington State serving over 400,000 
+individuals across the Pacific Northwest. These networks consist of numerous independent 
+practices, health systems, and rural health systems that have joined together to find a better way 
+to provide coordinated care for their patients.  
+ 
+On behalf of PSW and MCC, we appreciate the opportunity to comment on the Interoperability 
+Standards and Prior Authorization for Drugs proposed rule issued on April 10. 
+ 
+We support this rule and agree that it has the potential to reduce administrative burden over time 
+and improve patient access to needed therapies. However, in its current form, the rule also 
+presents significant operational, technical, and financial risks for organizations operating in 
+delegated, value-based, and health plan-aligned models in the near term, particularly related to 
+implementation complexity, multi-payer variation, and misalignment between accountability and 
+operational control. We request that CMS address these impacts to ensure the proposed policy 
+succeeds in practice. 
+ 
+Summary 
+ 
+Summary of Recommendations 
+• Recognize and address the operational and IT burden created for delegated entities, CINs, 
+Independent Provider Associations (IPAs), and other risk-bearing organizations, and 
+ensure accountability aligns with control. 
+• Require end-to-end, integrated workflows across all actors. 
+• Standardize data elements and behavior across payers and lines of business. 
+• Pair shorter timelines with safeguards and clear denial r...

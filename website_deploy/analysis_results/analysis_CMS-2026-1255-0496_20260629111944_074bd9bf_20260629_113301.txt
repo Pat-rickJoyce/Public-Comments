@@ -1,0 +1,152 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0496
+Commenter: American College of Rheumatology (ACR)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:33:01
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American College of Rheumatology (ACR), signed by President William F. Harvey, MD, MSc, FACR
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents 10,400+ rheumatologists and rheumatology interprofessional team members; expertise in managing complex chronic inflammatory conditions requiring specialized pharmacologic interventions
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The ACR commends CMS for addressing the prior authorization burden and supports the proposed shortened decision timeframes and denial reason requirements. The ACR urges four key enhancements: more granular definition of "specific reasons" for PA denials, stronger public reporting with specialty-level disaggregation and payer approval criteria publication, extension of requirements to state-based exchange QHPs and Medicare Part D plans, and adoption of FHIR-based APIs for Part D drugs to eliminate remaining fax/manual documentation burdens.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, API-USAGE-METRICS, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FF-SHOP-REQUIREMENTS, FHIR-IG-REQUIRED
+- **Regulatory citations mentioned:** 2024 CMS prior authorization and interoperability final rule; ERISA-based guidance (15-day QHP decision timeframe reference)
+- **Standards referenced:** FHIR-based APIs; NCPDP SCRIPT (for Part D); Da Vinci CRD/DTR/PAS IGs (implicit)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Decision Timeframes — Support with Commendation**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** The proposed compression to 72 hours standard / 24 hours expedited for drug PA, applied consistently across payer types including QHPs, is an important improvement. Aligning decision timeframes across payers eliminates the gap when QHPs were excluded.
+- **Specific request:** None beyond support; commends CMS.
+
+**Topic 2: Denial Reasons — Support with Strengthening Request**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** The requirement for specific denial reasons is a critical improvement, but vague responses like "medical necessity not met" or "does not meet plan criteria" do not give rheumatologists actionable information to resubmit or appeal.
+- **Specific request:** CMS should define in the final rule what constitutes a "specific reason" — including what documentation is missing, alternative treatments the plan requires first, or what clinical threshold the plan requires.
+
+**Topic 3: Public Reporting of PA Metrics — Support with Enhancement**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Without specialty-level disaggregation or publication of approval criteria, rheumatologists cannot compare payer behavior to stated criteria. Shorter decision timeframes risk driving payers to deny more claims to "run out the clock." Aggregated Part D plan reporting obscures which specific plans deny at higher rates.
+- **Specific request:** (a) Require payers to publish drug approval criteria; (b) mandate specialty-level disaggregation; (c) explore mechanisms to investigate discrepancies between published criteria and payer behavior; (d) require Part D plan-level (not contract-level) reporting.
+
+**Topic 4: Scope — Extend to State-Based Exchange QHPs**
+- **Provision ID:** FF-SHOP-REQUIREMENTS, GENERAL
+- **Position:** Modify
+- **Rationale:** Over 7 million Americans receive coverage through state-based exchanges, creating a meaningful exclusion from the rule's protections.
+- **Specific request:** Extend requirements to QHP issuers on state-based exchanges; CMS could condition HealthCare.gov platform access on meeting interoperability requirements.
+
+**Topic 5: FHIR APIs for Part D Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY, FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** The rule's FHIR-based API infrastructure does not extend to Medicare Part D drugs, which continue using NCPDP SCRIPT through pharmacy billing systems. Practices must continue faxing or manually uploading documentation for Part D PA, maintaining the administrative burden the rule otherwise eliminates.
+- **Specific request:** Require FHIR-based APIs for Part D drugs; work with health IT vendors and PBMs to build FHIR-NCPDP integration so Part D is included in the same digital PA pathway.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S20 (24-hour expedited PA timeframe achievability):** ACR applauds the 24-hour expedited / 72-hour standard timeframes for drugs and alignment across payer types; no concerns raised about achievability.
+- **S16 (what is a "specific reason" for denial):** ACR urges CMS to define this in the final rule; vague responses are insufficient; effective denial reasons should specify missing documentation, required step therapy, or clinical thresholds.
+- **S17 (structured denial reason codes):** Implied support for structured, actionable denial reasons aligned with specific clinical/documentation criteria.
+- **S29 (which metrics to collect):** ACR urges specialty-level disaggregation and publication of payer drug approval criteria.
+- **S35 (publish aggregate metrics):** ACR recommends plan-level (not contract-level) reporting for Part D; supports mechanisms to investigate discrepancies between published criteria and payer behavior.
+- **S14 (non-Part D pharmacy PA applicability):** ACR identifies the Part D NCPDP gap as a significant remaining burden; recommends FHIR integration for Part D drugs.
+- **S40 (FF-SHOP requirements — impact):** ACR recommends extending requirements to state-based exchange QHPs; notes 7 million enrollees currently excluded.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Support and commend the shortened PA decision timeframes (72 hours standard, 24 hours expedited) aligned across payer types.
+2. Define "specific reason" for PA denial in the final rule to require actionable information: missing documentation, required step therapy alternatives, or clinical thresholds.
+3. Require payers to publish their drug approval criteria publicly.
+4. Mandate specialty-level disaggregation in public PA metrics reporting.
+5. Explore mechanisms to investigate discrepancies between payers' published approval criteria and actual denial behavior.
+6. Require Part D plans to report PA metrics at the plan level rather than the contract level.
+7. Extend interoperability and transparency requirements to QHP issuers on state-based exchanges.
+8. Require adoption of FHIR-based APIs for Part D drugs; integrate FHIR and NCPDP-based pharmacy billing systems.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Vague denial reasons will undermine the requirement; payers may increase denials to circumvent shorter timeframes ("running out the clock"); state-based exchange QHPs excluded; Part D drugs excluded from FHIR API infrastructure.
+- **Potential negative impacts cited:** Rheumatology patients face disproportionate PA burden; treatment abandonment and disease exacerbation from delays; continuation of fax/manual burden for Part D despite rule's intent.
+- **Implementation barriers mentioned:** Health IT vendor and PBM integration needed to include Part D in FHIR pathway; no mechanism proposed to extend requirements to state-based exchanges.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 48% of ACR patient survey respondents (2020) subjected to PA; 94% of patients with PA-required treatments experienced care delays (AMA 2023 survey); 78% of physicians had patients abandon treatment; physicians complete 39 PAs/week requiring 13 hours of staff time (AMA 2024); 7+ million Americans covered by state-based exchanges.
+- **Studies or research referenced:** January 2026 meta-analysis of 25 studies (PubMed 40912445) finding PA associated with disease exacerbation, preventable hospitalizations, and longer hospital stays; Hopkins Medicine article on measurable patient harm linked to PA.
+- **Examples provided:** States that shortened PA timeframes saw increased denial rates as payers "ran out the clock"; rheumatic conditions where even short treatment interruptions cause clinical consequences.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** 10,400+ rheumatologists and their patients; patients with complex chronic inflammatory conditions; state-based exchange enrollees (7+ million); Medicare Part D beneficiaries
+- **Economic implications:** 13 hours/week of staff time per physician on PA; potential payer gaming (increased denials) to offset shortened timeframes
+- **Technical feasibility:** Flags need for vendor/PBM collaboration to achieve FHIR integration for Part D; otherwise no major technical barriers noted
+- **Patient care impact:** High — PA delays cause disease exacerbation, potentially life-threatening outcomes, preventable hospitalizations, and treatment abandonment in rheumatology patients
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with meaningful scope and definition enhancements requested)
+- **Tone:** Professional, evidence-based, commendatory toward CMS
+- **Priority level:** High (patient safety and clinical outcomes implications; evidence-backed policy recommendations)
+
+---
+
+## 11. KEY QUOTES
+
+1. "Vague denial reasons like 'medical necessity not met' or 'does not meet plan criteria' do not provide sufficient information." — Context: Urging CMS to define "specific reason" for PA denial in final rule.
+
+2. "More granular public reporting of approval criteria and denial rates may also discourage payers from denying claims simply as a means of 'running out the clock' on the new, shorter decision timeframes." — Context: Warning of payer gaming behavior; recommending transparency as a counterweight.
+
+3. "In some states that have instituted shortened decision timeframes for prior authorization decisions, denial rates have risen, as payers work around the new regulations by denying more services." — Context: Evidence-based concern about unintended consequences of shortened timeframes without transparency.
+
+4. "To simplify prior authorization processes further, CMS should require adoption of the same FHIR-based APIs for Part D drugs and work with health IT vendors and PBMs to build integration between the FHIR-based API and the NCPDP-based pharmacy billing systems." — Context: Identifying Part D as a remaining administrative burden gap.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** — Central concern: rheumatology patients face disproportionate PA burden; 94% experience delays; treatment abandonment documented; even short interruptions in inflammatory condition treatment cause clinical consequences.
+- [x] **TRANSPARENCY** — Strongly supports denial reason requirements but urges actionable specificity; calls for publication of payer approval criteria, specialty-level disaggregation, and plan-level Part D reporting.
+- [x] **PROVIDER-BURDEN** — 39 PAs/week per physician, 13 hours of staff time; Part D fax/manual burden would persist without FHIR integration.
+- [x] **TECHNICAL-FEASIBILITY** — Flags need for vendor/PBM collaboration to achieve FHIR integration for Part D.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Specifically identifies the Part D NCPDP gap as maintaining the administrative burden the rule aims to eliminate; urges FHIR/NCPDP integration for Part D.
+- [x] **STAKEHOLDER-COORDINATION** — Recommends CMS work with health IT vendors and PBMs to build FHIR-NCPDP integration for Part D.
+- [x] **REGULATORY-AUTHORITY** — Suggests CMS use HealthCare.gov platform access as leverage to extend requirements to state-based exchange QHPs.
+- [x] **HEALTH-EQUITY** — Notes 7+ million state-based exchange enrollees excluded from rule's protections, creating two-tiered access to PA improvements.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+The American College of Rheumatology (ACR), representing over 10,400 rheumatologists and rheumatology interprofessional team members, appreciates the opportunity to respond to the proposed rule on interoperability standards and prior authorization for drugs, which was published in the Federal Register on April 14, 2026. The ACR commends CMS for recognizing the undue burden of prior authorization and the delays these processes impose on both patients and clinicians.
+
+Rheumatologists provide ongoing care for patients with complex chronic and acute conditions that require specialized expertise. Rheumatologists, rheumatology physician assistants, and nurse practitioners provide face-to-face, primarily non-procedure-based care and serve patients with conditions that can be difficult to diagnose and treat. Rheumatic disease patients are particularly affected by prior authorization. According to a 2020 patient survey conducted by the ACR, 48% of patients reported being subjected to prior authorization...
+==================================================

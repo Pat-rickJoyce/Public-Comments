@@ -1,0 +1,159 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0643
+Commenter: Mindful Choices for ADHD
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:48:28
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Mindful Choices for ADHD; signed by Jakara Eason, Executive Director.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** Nonpartisan nonprofit focused on informing national policy about ADHD and bringing together policymakers, clinicians, patients, and medical innovators.
+
+## 2. EXECUTIVE SUMMARY
+
+Mindful Choices supports CMS's efforts to modernize prior authorization and improve interoperability, but urges CMS to protect continuity of care for patients with ADHD. The comment asks CMS to ensure prior authorization and step therapy history follows patients across payers/providers, prevent fragmented records from blocking treatment, keep documentation requirements clinically appropriate, and explore a Medicaid/CHIP demonstration reducing PA barriers for extended-release ADHD medications.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DENIAL-REASONS; API-USAGE-METRICS; Payer-to-Payer API / Patient data sharing; GENERAL step therapy and CMMI demonstration.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** APIs generally; EHRs; electronic prior authorization systems.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Continuity of care across provider and payer transitions**
+- **Provision ID:** PA-DRUG-PHARMACY / GENERAL
+- **Position:** Modify.
+- **Rationale:** ADHD medication management is individualized and often requires trial-and-error to identify effective medication, dosage, and formulation. If payers do not honor prior approvals or failed therapies, patients may face months of disruption.
+- **Specific request:** Establish continuity-of-care protections so patients are not required to restart PA or step therapy when switching providers or payers.
+
+**Topic 2: Recognize prior step therapy and treatment history**
+- **Provision ID:** GENERAL / Payer-to-Payer API
+- **Position:** Clarify / Modify.
+- **Rationale:** Step therapy can force patients to repeat ineffective treatments even when previous failures or stable treatment are known.
+- **Specific request:** Clarify that step therapy policies should recognize prior failed therapies, previous step determinations, and established treatment stability across payer transitions; implement reasonable exceptions for individualized ADHD factors.
+
+**Topic 3: Avoid denials based on fragmented records**
+- **Provision ID:** PATIENT-ACCESS / TECHNICAL-FEASIBILITY
+- **Position:** Clarify.
+- **Rationale:** Medicaid patients may receive care across multiple providers and systems; incomplete records may not show prior tried/failed medications, pharmacy-level barriers, or prior authorizations.
+- **Specific request:** Ensure patients are not denied ADHD treatment because of incomplete documentation histories during provider, payer, or Medicaid eligibility transitions.
+
+**Topic 4: Clinically appropriate electronic documentation requirements**
+- **Provision ID:** PA-DENIAL-REASONS / EXISTING-WORKFLOWS
+- **Position:** Modify.
+- **Rationale:** ADHD medication choice may depend on adherence, formulation, swallowing issues, side effects, and clinical judgment that do not map neatly to diagnostic codes.
+- **Specific request:** Clarify that electronic PA documentation requirements should be clinically appropriate and not require overly specific documentation, such as a dysphagia diagnosis for a child who needs liquid medication.
+
+**Topic 5: Demonstration project reducing PA barriers for ER ADHD medications**
+- **Provision ID:** GENERAL / PA-DRUG-PHARMACY
+- **Position:** Support / Modify.
+- **Rationale:** Prior authorization may steer patients toward older, lower-cost immediate-release therapies that may be less appropriate and more prone to misuse/diversion.
+- **Specific request:** CMS and CMMI should explore a Medicaid/CHIP pilot evaluating whether reducing PA barriers for clinically appropriate extended-release ADHD medications improves treatment stability, adherence, patient experience, outcomes, and administrative costs.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14/S19/S22:** Mindful Choices addresses pharmacy benefit drug PA in Medicaid/CHIP and resource/burden implications for ADHD medication access.
+- **S16/S17:** Indirectly addresses denial reasons and documentation expectations by urging clinically appropriate, actionable documentation requirements.
+- **S66-S82:** Responds to broader RFIs on step therapy and data sharing by urging recognition of prior treatment history and a CMMI demonstration.
+
+## 6. RECOMMENDATIONS
+
+1. Require continuity-of-care protections for ADHD patients transitioning across providers or health plans.
+2. Require or encourage payers to honor prior authorizations and previous failed therapies.
+3. Clarify that step therapy must recognize prior treatment history and stable treatment across payer transitions.
+4. Ensure patients are not penalized for incomplete or fragmented records during payer/provider/eligibility changes.
+5. Make electronic PA documentation requirements clinically appropriate for ADHD and avoid overly specific diagnosis-code requirements.
+6. Explore a Medicaid/CHIP demonstration to reduce PA barriers for clinically appropriate extended-release ADHD medications.
+7. Assess outcomes including treatment stability, adherence, patient experience, administrative cost, prescribing patterns, and reliance on therapies more likely to be misused or diverted.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Treatment interruptions, repeat step therapy, fragmented records, inappropriate documentation requirements, and PA steering toward older therapies.
+- **Potential negative impacts cited:** Delays, medication regimen disruption, loss of condition management progress, school and employment impacts, and access barriers to formulations appropriate for pediatric or adherence needs.
+- **Implementation barriers mentioned:** Fragmented EHR data, pharmacy-level barriers not reflected in records, transitions between providers/plans, and electronic documentation requirements that do not reflect real-world clinical decisions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative data cited.
+- **Studies or research referenced:** None.
+- **Examples provided:** ADHD patients needing individualized medication, dosage, and formulation; patients required to repeat 30-day trials; children needing liquid medications without a dysphagia diagnosis; ER versus IR ADHD medications.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Individuals with ADHD, pediatric patients, caregivers, clinicians, Medicaid/CHIP patients, providers, payers, CMS/CMMI.
+- **Economic implications:** Potential reductions in administrative costs and improved adherence through a demonstration project; current PA may generate unnecessary rework.
+- **Technical feasibility:** APIs and EHR data exchange can help but must account for incomplete histories and clinical nuance.
+- **Patient care impact:** Stronger continuity and documentation safeguards could prevent treatment disruptions affecting school, work, adherence, and daily functioning.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted modifications.
+- **Tone:** Professional, practical, patient-centered.
+- **Priority level:** Medium.
+
+## 11. KEY QUOTES
+
+1. "ADHD medication management is highly individualized." - Context: Core rationale for continuity and documentation flexibility.
+2. "We urge CMS to strengthen continuity of care protections by removing prior authorization barriers when patients with ADHD transition between providers or health plans." - Context: Main recommendation.
+3. "CMS is in a position to ensure that patients receive timely and clinically appropriate care when records are incomplete or unavailable." - Context: Fragmented record concern.
+4. "We encourage CMS and CMMI to consider a pilot program within Medicaid and CHIP." - Context: Demonstration proposal for ER ADHD medications.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Discusses administrative burdens on providers managing individualized ADHD treatment.
+- [x] **PATIENT-ACCESS** - Focuses on timely access and continuity of ADHD medication.
+- [x] **TECHNICAL-FEASIBILITY** - Addresses EHR fragmentation and API data limitations.
+- [x] **EXISTING-WORKFLOWS** - Discusses provider transitions, payer transitions, pharmacy-level access issues, and documentation workflows.
+- [x] **TRANSPARENCY** - Implied through recognition of prior history and documentation needs.
+- [x] **HEALTH-EQUITY** - Raises concerns about Medicaid patients and pediatric populations facing fragmented care.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS/CMMI, providers, payers, and patient stakeholders to evaluate pilot reforms.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1
+ 
+June 15, 2026 
+Dr. Mehmet Oz  
+Administrator 
+Centers for Medicare & Medicaid Services  
+7500 Security Boulevard 
+Baltimore, Maryland 21244-1850 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's 
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and 
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges 
+Dear Dr. Oz, 
+On behalf of Mindful Choices for ADHD, thank you for the opportunity to respond to the 
+Department of Health and Human Services (HHS) proposed rule titled “Medicare and 
+Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards 
+and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid 
+Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program 
+(CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on 
+the Federally-Facilitated Exchanges.”  
+Mindful Choices for ADHD (Mindful Choices) is the only nonpartisan, nonprofit 
+organization created to inform national policy about ADHD. We bring together 
+policymakers and advisors with leading clinicians, patients and medical innovators to 
+address pressing challenges for individuals with ADHD and the healthcare system that 
+serves them.  
+We appreciate CMS’s efforts to streamline the prior authorization process, aim to reduce 
+administrative burden, and improve interoperability to ensure that patients maintain timely 
+access to treatment. Below, we offer additional context and recommendations for the 
+proposed rule. 
+Background 
+ADHD medication management is highly individualized and requires collaboration 
+between patients, caregivers, and providers over time to identify the most effective 
+ 
+ 
+2
+ 
+medication, dosage, and formulation for a particular individual. ...

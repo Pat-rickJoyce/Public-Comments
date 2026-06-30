@@ -1,0 +1,203 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0551
+Commenter: Medicaid Health Plans of America (MHPA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:12:35
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Medicaid Health Plans of America (MHPA); signed by Shannon Attanasio, Senior Vice President, Government Relations, Policy and Advocacy
+- **Stakeholder type:** Payer / Professional Association
+- **Credentials or expertise mentioned:** National trade association focused on Medicaid; represents more than 160 Medicaid managed care organizations serving nearly 47 million Medicaid enrollees in 40 states, D.C., and Puerto Rico; members include for-profit, nonprofit, national, regional, and single-state Medicaid plans.
+
+## 2. EXECUTIVE SUMMARY
+
+MHPA supports CMS’s interoperability and prior authorization goals, including FHIR-based standards, CDex attachments, and greater transparency, but argues that timelines and reporting requirements are too compressed for Medicaid managed care implementation. It recommends delaying most drug PA API requirements to January 1, 2029, clarifying medical-versus-pharmacy drug categorization, limiting 24-hour decision requirements for non-covered outpatient drugs, preserving payer flexibility, simplifying endpoint reporting, and providing better testing infrastructure.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; GENERAL/RFIs
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F; HIPAA Administrative Simplification; no specific CFR sections cited.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, PAS; CDex IG Version 2.1.0 - STU 2.1; FHIR R6; X12 278; NDH IG; Patient Access API; Provider Access API; Payer-to-Payer API; Prior Authorization API; Inferno; CDS Sandbox.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: FHIR API and IG requirements**
+- **Provision ID:** FHIR-IG-REQUIRED / HIPAA-PA-STANDARDS
+- **Position:** Support with modifications
+- **Rationale:** MHPA supports updating FHIR standards and moving CRD/DTR/PAS from recommended to required, but believes vendors, payers, and providers need more real-world experience before standards are locked into regulation.
+- **Specific request:** Provide sufficient time for stabilization, require backward compatibility, account for anticipated FHIR R6 publication before formal HIPAA adoption, and align final requirements with pending HIPAA standards legislation.
+
+**Topic 2: HIPAA PA standards and CDex attachments**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support
+- **Rationale:** MHPA supports adopting HL7 FHIR and related IGs for PA transactions and CDex for attachments.
+- **Specific request:** Finalize CDex Version 2.1.0 - STU 2.1 and retain the proposed 24-month timeline from the effective date of the final rule for this HIPAA-related requirement.
+
+**Topic 3: Implementation timeline for drug PA APIs**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY / IMPLEMENTATION-TIMELINE
+- **Position:** Modify
+- **Rationale:** October 1, 2027 is insufficient because Medicaid MCOs are already implementing non-drug PA APIs by January 1, 2027, while Medicaid enrollees face other program changes. Adding drugs involves dosage, step therapy, API changes, formulary removals, Provider Directory policy changes, and IG updates.
+- **Specific request:** Delay the compliance deadline for most drug-related provisions to January 1, 2029 and allow a two-year phased implementation period.
+
+**Topic 4: Medical versus pharmacy benefit categorization**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT / PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Plans need consistent application of timelines, API requirements, and reporting obligations when items have overlapping characteristics or are obtained through pharmacy channels.
+- **Specific request:** CMS should provide examples and guidance on DME obtained through pharmacy benefits, physician-administered buy-and-bill drugs, equipment/supplies with drug components, and combination products.
+
+**Topic 5: Drug PA denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications
+- **Rationale:** MHPA supports including denial reasons and considers October 1, 2027 generally feasible, but warns that public data can be misinterpreted without context.
+- **Specific request:** Permit payers to provide contextual narrative and top denial reasons with metrics, and provide additional time to January 1, 2029 if CMS finalizes broader implementation timing changes.
+
+**Topic 6: PA information retention and decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support retention; modify timeframe for non-covered outpatient drugs
+- **Rationale:** MHPA supports retaining PA information for at least one year after last status change but opposes applying a 24-hour decision standard to non-covered outpatient drugs, which often require added review and PBM/vendor/pharmacy dependencies.
+- **Specific request:** Apply a 7-day standard for non-urgent non-covered outpatient drug PA requests and 72 hours for expedited requests; clarify that clocks start when the payer has access to, control over, and authority to make the data available.
+
+**Topic 7: Formulary and Provider Directory API policy alignment**
+- **Provision ID:** GENERAL / FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Dynamic formulary data can become outdated in Provider Access and Payer-to-Payer APIs, and consistent denial/discontinuation policies reduce operational complexity.
+- **Specific request:** Finalize removal of drug formulary information from Provider Access and Payer-to-Payer APIs and align Provider Directory API denial/discontinuation policies with other APIs.
+
+**Topic 8: PA metrics and API usage metrics**
+- **Provision ID:** API-USAGE-METRICS / TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** MHPA is concerned about feasibility, clarity, validation, and operational burden, including partial denials, individual vs group provider reporting, payer-to-payer scope, and opt-in metric definitions.
+- **Specific request:** Report drug PA metrics as percentages only, maintain March 31 annual deadlines, delay reporting to CY 2029, adopt a uniform March 31 deadline across lines of business, limit payer-to-payer exchange to active transitions with explicit member authorization, and refrain from separate individual/group provider reporting until API connectivity is clearer.
+
+**Topic 9: API endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify / Clarify
+- **Rationale:** MHPA believes direct reporting to CMS is simpler while unresolved NDH IG issues remain, including multiple brand names and authority questions.
+- **Specific request:** Allow direct reporting of endpoint information to CMS rather than requiring NDH IG use, and clarify CMS authority to build or mandate participation in a commercial endpoint directory.
+
+**Topic 10: RFIs on step therapy, cybersecurity, and payer API technology**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify / Clarify
+- **Rationale:** MHPA supports targeted historical claims data use for step therapy but opposes automatic acceptance of other payers’ determinations; supports cybersecurity information sharing and better API testing infrastructure.
+- **Specific request:** Preserve payer flexibility in step therapy criteria; support CISA reauthorization and NDAs to reduce duplicative cyber reporting; promote HSCC resources; create standardized test data and a common sandbox/testing tool for APIs.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3/S18/S37:** Supports required FHIR standards and CRD/DTR/PAS, but asks for more real-world experience, backward compatibility, and sufficient time before codification.
+- **S44-S56:** Supports FHIR and CDex adoption for HIPAA PA standards, but urges CMS to consider FHIR R6 timing, HIPAA legislation, enforcement discretion, and lessons from X12 278.
+- **S12/S14/S15/S19/S21/S22/S25/S28/S31:** Supports drug ePA conceptually but requests a January 1, 2029 effective date and more clarity on medical versus pharmacy benefit categorization.
+- **S16/S17:** Supports denial reason inclusion and asks to allow contextual narrative/top denial reasons to avoid misleading public comparisons.
+- **S20/S43:** Opposes applying a 24-hour standard to non-covered outpatient drugs; recommends 7 days for standard and 72 hours for expedited requests.
+- **S23-S27/S33:** Recommends direct endpoint reporting to CMS instead of NDH IG use and asks CMS to clarify endpoint-directory authority.
+- **S29/S30/S34/S35:** Recommends percentage-only metrics, March 31 reporting deadlines, CY 2029 implementation, clarification of opt-in metrics, and limits on payer-to-payer data sharing.
+- **S66-S82:** Responds to RFIs on step therapy, cybersecurity resiliency, and payer API testing with targeted historical data use, information sharing, HSCC resources, standardized test data, and common sandboxes.
+
+## 6. RECOMMENDATIONS
+
+1. Allow sufficient lead time for IT integration, testing, staff training, vendor coordination, and member notification.
+2. Provide more time and real-world experience before formally codifying CRD/DTR/PAS as required under regulation.
+3. Ensure new standards are backward compatible.
+4. Account for FHIR R6 and pending HIPAA standards legislation before HIPAA adoption.
+5. Finalize FHIR and CDex standards for PA transactions with a 24-month effective-date-based HIPAA timeline.
+6. Delay most drug PA API requirements to January 1, 2029.
+7. Provide examples clarifying medical versus pharmacy benefit categorization.
+8. Permit contextual narrative with denial metrics.
+9. Do not apply the 24-hour standard to non-covered outpatient drugs; use 7 days/72 hours.
+10. Clarify when PA timeframe clocks start.
+11. Remove formulary information from Provider Access and Payer-to-Payer APIs.
+12. Align Provider Directory API denial/discontinuation policies.
+13. Use percentages only for PA public metrics and delay reporting to CY 2029.
+14. Limit payer-to-payer exchange to active transitions of care with explicit member approval and minimum necessary data.
+15. Avoid separate individual/group provider reporting until connectivity is clearer.
+16. Use a uniform March 31 reporting deadline across lines of business.
+17. Allow direct API endpoint reporting to CMS instead of mandatory NDH IG use.
+18. Support standardized API test data and shared sandbox/testing tools.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Compressed timelines, insufficient testing, Medicaid enrollee/provider confusion, drug API complexity, payer-to-payer privacy/antitrust risks, unclear reporting definitions, NDH IG uncertainty, and API testing limitations.
+- **Potential negative impacts cited:** Implementation failures, disruption to patient care, higher administrative costs, eroded trust, misleading metrics, outdated formulary data, inappropriate coverage decisions, HIPAA minimum-necessary concerns, and provider confusion.
+- **Implementation barriers mentioned:** System integration, testing, staff training, vendor coordination, member notification, PBM dependencies, pharmacy systems, multiple lines of business, partial denials, provider connectivity uncertainty, and lack of adequate test data.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** MHPA represents more than 160 Medicaid MCOs serving nearly 47 million enrollees; nearly three-quarters of Medicaid enrollees receive care through MCOs.
+- **Studies or research referenced:** MHPA references its prior Technology Education and Action Workgroup material; no external research studies cited.
+- **Examples provided:** Community engagement requirements, more frequent redeterminations, and modified retroactive coverage periods beginning January 1, 2027; compounded drugs as non-covered outpatient drugs; DME obtained through pharmacy benefit; buy-and-bill physician-administered drugs; multiple-brand-name health plans for endpoint reporting.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicaid MCOs, Medicaid enrollees, state Medicaid systems, providers, PBMs, vendors, pharmacies, CMS, ONC, and API developers.
+- **Economic implications:** Compressed implementation could increase administrative costs and require costly IT build-outs, vendor work, data validation, and operational changes.
+- **Technical feasibility:** Feasible with added lead time, backward compatibility, better test data, sandbox tools, and clearer requirements; risky under October 2027 deadlines.
+- **Patient care impact:** Improved interoperability could help Medicaid members access PA information, but poor implementation could disrupt care, confuse enrollees, and delay determinations for complex non-covered outpatient drugs.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Supportive with timing and operational concerns
+- **Tone:** Professional, payer-operational, cautionary
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We urge CMS to allow for sufficient lead time to support a smooth and successful implementation." - Context: Overall implementation concern.
+2. "We recommend that CMS delay the compliance deadline of these provisions to January 1, 2029." - Context: Drug PA API timeline recommendation.
+3. "CMS should not apply the 24-hour standard to non-covered outpatient drugs." - Context: Decision timeframe position.
+4. "Routine payer-to-payer sharing outside of member transitions lacks a clear use case and may introduce unnecessary risk." - Context: Payer-to-payer API concern.
+
+## 12. THEMES
+
+- **IMPLEMENTATION-TIMELINE:** Central request to delay implementation to January 1, 2029 and preserve March 31 reporting timelines.
+- **COST-RESOURCES:** MHPA cites administrative costs and IT build-outs from compressed timelines.
+- **PROVIDER-BURDEN:** Provider connectivity, provider API reporting, and provider confusion are recurring issues.
+- **PRIVACY-SECURITY:** Payer-to-payer exchange raises HIPAA minimum-necessary and member authorization concerns; cybersecurity RFI also addressed.
+- **HEALTH-EQUITY:** Medicaid enrollees are the affected population; the comment focuses on avoiding disruption and confusion in Medicaid programs.
+- **TECHNICAL-FEASIBILITY:** Testing, vendor coordination, API architecture, PBM dependencies, and sandbox tools are major concerns.
+- **STANDARDS-MATURITY:** MHPA asks for more real-world testing before codifying standards and notes FHIR R6.
+- **PATIENT-ACCESS:** Better PA data can support access, but compressed timelines may disrupt care.
+- **REGULATORY-AUTHORITY:** MHPA asks CMS to clarify authority for a commercial endpoint directory.
+- **STAKEHOLDER-COORDINATION:** Implementation requires coordination among MCOs, states, CMS, ONC, vendors, PBMs, pharmacies, and providers.
+- **MEDICAL-VS-PHARMACY-BENEFIT:** MHPA requests guidance and examples on benefit categorization.
+- **TRANSPARENCY:** Supports metrics but requests context and feasibility protections.
+- **SMALL-PAYER-IMPACT:** Not framed as small payer, but Medicaid plans and varying lines of business face operational burden.
+- **EXISTING-WORKFLOWS:** Discusses X12 278 history, PBM/pharmacy workflows, and existing transition-of-care and step therapy processes.
+- **VENDOR-ECOSYSTEM:** Vendor readiness, PBM dependencies, and testing tools are central.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 15, 2026 
+Submitted via http://www.regulations.gov  
+Administrator Mehmet Oz 
+Deputy Administrator Daniel Brillman 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+Re: CMS Interoperability Standards and Prior Authorization for Drugs Proposed 
+Rule (CMS-0062-P) 
+Dear Administrator Oz, 
+On behalf of the Medicaid Health Plans of America (MHPA), we appreciate the opportunity 
+to comment on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs 
+proposed rule (CMS-0062-P). MHPA and its member Medicaid health plans are grateful for 
+the opportunity to support CMS’s efforts to improve the prior authorization process for 
+patients and to further its broader initiative to promote standards for interoperability and 
+health information exchange. 
+MHPA is the only national trade association with a sole focus on Medicaid, representing 
+more than 160 Medicaid managed care organizations (MCOs) serving nearly 47 million 
+Medicaid enrollees in 40 states, the District of Columbia and Puerto Rico. MHPA’s members 
+include both for-profit and non-profit, national, regional, as well as single-state health plans 
+that compete in the Medicaid market. Nearly three-quarters of all Medicaid enrollees receive 
+health care through MCOs, and MHPA provides research and advocacy services that support 
+policy solutions to enhance the delivery and coordination of comprehensive, cost- effective, 
+and quality health care for Medicaid enrollees. 
+MHPA shares CMS’s commitment to improving transparency in health care and expanding  
+patient access to health information, including prior authorization requests and decisions. 
+MHPA has previously expressed support for data standardization among states and utilizing 
+modern application programming interface (API) architecture to reduce tech debt for 
+individuals and organizations who interface with State Medicaid systems1.  
+While we support these goals, we note that compl...

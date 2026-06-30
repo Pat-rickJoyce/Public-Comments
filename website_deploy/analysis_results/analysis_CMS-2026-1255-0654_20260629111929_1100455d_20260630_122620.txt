@@ -1,0 +1,168 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0654
+Commenter: ChenMed
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:26:20
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** ChenMed; contact Lisa Ard, Managing Director of Market Insights and External Affairs.
+- **Stakeholder type:** Healthcare Provider.
+- **Credentials or expertise mentioned:** Value-based primary care organization serving high-risk Medicare beneficiaries, including dually eligible and chronically ill seniors; takes full risk for total cost of care and outcomes.
+
+## 2. EXECUTIVE SUMMARY
+
+ChenMed responds to the rule's event notification RFI by asking CMS to make hospital event notifications more clinically useful, timely, routable, and measurable. It recommends mandatory clinical payloads, real-time attribution verification, explicit inclusion of ACOs/MSOs/risk-bearing value-based entities as recipients, ONC certification support, and outcome-based enforcement metrics.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFIs; related to ONC-STANDARDS-UPDATE for certification coordination, but not the specific 45 CFR 170.215 version updates.
+- **Regulatory citations mentioned:** No CFR citations mentioned directly; references hospital Conditions of Participation, Medicare Promoting Interoperability Program, HIPAA TPO, and TEFCA.
+- **Standards referenced:** ADT notifications, ICD-10, FHIR APIs, FHIR Subscriptions, TEFCA/QHINs, certified EHR functionality, interoperable provider directories.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Minimum clinical payload for event notifications**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Minimal ADT pings are too late, incomplete, and misrouted to support safe transitions or avoidable readmission prevention.
+- **Specific request:** Require reconciled medications, ICD-10 diagnoses, pending results with responsible provider, disposition, and attending contact information in every ADT/discharge notification.
+
+**Topic 2: Real-time attribution and provider identity verification**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Notifications often fail because hospitals cannot identify the accountable PCP, ACO, MSO, or risk-bearing entity at the point of care.
+- **Specific request:** Replace reasonable-effort language with mandatory, auditable PCP and attributed-entity verification at ED registration, inpatient admission, and discharge.
+
+**Topic 3: Required recipients for value-based care**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Risk-bearing value-based care organizations are clinically and financially accountable for patients but lack a uniform route to receive hospital alerts.
+- **Specific request:** Add ACOs, MSOs, full-risk providers, and other documented value-based entities as required notification recipients under hospital CoPs.
+
+**Topic 4: Certification, PI measures, and enforcement**
+- **Provision ID:** GENERAL; ONC-STANDARDS-UPDATE
+- **Position:** Modify.
+- **Rationale:** Current requirements focus on technical capability rather than whether useful notifications reach the right recipient quickly.
+- **Specific request:** Coordinate with ONC on certification criteria and add PI/outcome metrics for delivery confirmation, attribution completeness, and clinical content completeness.
+
+**Topic 5: TEFCA and directory-enabled routing**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify.
+- **Rationale:** TEFCA and a national provider directory could simplify routing, but smaller VBC organizations may face legal, technical, and cost barriers.
+- **Specific request:** Create a streamlined TEFCA participation pathway or ACO participant tier and fund connectivity grants for VBC and community-based providers.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** ChenMed responds extensively to the event notification RFI. It recommends richer notification content, mandatory attribution verification, broader recipient rules for value-based entities and PAC providers, certification criteria, TEFCA support, and outcome-based compliance metrics.
+- **S9:** The comment indirectly references FHIR Subscriptions as a possible acknowledgment mechanism for notification delivery confirmation, but it does not address the Subscriptions backport proposal itself.
+- **S60-S65:** The comment indirectly urges CMS/ONC certification alignment for event notification functionality, though it does not address the specific ONC standards update versioning questions.
+
+## 6. RECOMMENDATIONS
+
+1. Require a minimum clinical payload in hospital ADT and discharge notifications.
+2. Require pending results to be transmitted to the identified PCP or attributed organization within 24 hours of finalization.
+3. Require real-time PCP and attributed-entity verification at registration, admission, and discharge.
+4. Add ACOs, MSOs, full-risk providers, and other risk-bearing value-based entities as required notification recipients.
+5. Clarify that notifications to attributed PCPs and VBC entities are permitted under HIPAA TPO without additional patient authorization.
+6. Define ONC certification criteria for subscription-based alerts, endpoint registration, delivery acknowledgment, and reporting.
+7. Add PI measures for Notification Delivery Confirmation Rate, Attribution Completeness Rate, and Clinical Content Completeness Rate.
+8. Use TEFCA and provider directories to route alerts, with simplified onboarding and grants for smaller VBC/community providers.
+9. Provide CMS guidance, blueprints, technical assistance, and enforcement tied to measurable outcomes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Late or incomplete notifications, misrouting, lack of attribution data, unclear authorization rules, and capability-only compliance.
+- **Potential negative impacts cited:** Unsafe care transitions, preventable readmissions, manual workarounds, alert fatigue, privacy concerns from indiscriminate distribution, and reduced effectiveness of value-based care.
+- **Implementation barriers mentioned:** Heterogeneous hospital EHRs, legacy interfaces, customized workflows, fragmented attribution files, uncertain HIPAA interpretations, limited PAC connectivity, TEFCA onboarding burden, and missing certified directory/query functionality.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Proposed targets of at least 90 percent delivery confirmation, at least 90 percent attribution completeness, and 100 percent clinical content completeness; examples of 48-72 hour delays for PAC discharge information.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** HIE feeds, point-to-point interfaces, payer alerting systems, faxed discharge summaries, manual calls, pending lab/imaging/culture results, SNF/home health handoffs, and batch payer attribution rosters.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** High-risk Medicare beneficiaries, dually eligible and chronically ill seniors, PCPs, hospitals, ACOs, MSOs, full-risk providers, payers, PAC providers, behavioral health providers, pharmacies, EMS, social service providers, EHR vendors, HIEs, and QHINs.
+- **Economic implications:** More reliable notifications may reduce avoidable readmissions and support risk-bearing entities; implementation may require EHR configuration, interface updates, TEFCA onboarding, and technical assistance funding.
+- **Technical feasibility:** ChenMed views richer notifications as feasible if data is auto-populated from structured EHR fields and supported by certification, FHIR APIs, directories, and event-driven workflows.
+- **Patient care impact:** Timely, complete notifications would improve transitions, medication reconciliation, pending-result follow-up, PAC admissions, and care coordination.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of stronger requirements.
+- **Tone:** Technical, operational, and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Always notify the accountable care team" - Context: Organizing principle for notification routing.
+2. "Tell us what actually happened during the hospitalization" - Context: Need for content-rich notifications.
+3. "Enforce outcomes, not just technical capabilities" - Context: Recommendation to move beyond capability attestation.
+4. "there is no standardized authorization pathway" - Context: Barrier to ACO/VBC notification receipt.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - ChenMed describes manual workarounds caused by incomplete or misrouted notifications.
+- [x] **PRIVACY-SECURITY** - It seeks HIPAA TPO clarification and cautions against broad distribution without active care relationships.
+- [x] **TECHNICAL-FEASIBILITY** - The comment focuses on EHR integration, directories, attribution APIs, TEFCA, and certification criteria.
+- [x] **STANDARDS-MATURITY** - It argues current notification requirements lack an enforceable specification for complete discharge notifications.
+- [x] **PATIENT-ACCESS** - Timely notifications are framed as essential for safe transitions and readmission prevention.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes coordination among hospitals, PCPs, ACOs, MSOs, payers, PAC providers, ONC, and CMS.
+- [x] **TRANSPARENCY** - It requests auditable delivery, attribution, and content metrics.
+- [x] **EXISTING-WORKFLOWS** - It proposes integrating notifications into registration, discharge, result finalization, PI, and CoP workflows.
+- [x] **VENDOR-ECOSYSTEM** - It asks ONC to require certified EHR support for subscription alerts, endpoint routing, acknowledgments, and reporting.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+www. ChenMed.com
+ 
+Request for Information Response: RFI  
+Electronic Event Notifications for Value-Based Care and Care Coordination 
+CMS-0062-P, Section III.A 
+Docket: CMS-2026-0037 
+Submitted by: ChenMed 
+Contact: Lisa Ard, Managing Director of Market Insights and External Affairs 
+lisa.ard@chenmed.com 
+Organizational Statement 
+ChenMed is a value-based care organization delivering comprehensive, high-touch 
+primary care to high-risk Medicare beneficiaries, including many dually eligible and 
+chronically ill seniors. We take full risk for total cost of care and are directly 
+accountable for clinical outcomes, making timely, content-rich hospital event 
+notifications foundational to safe care transitions, avoidable readmission prevention, 
+and effective care coordination.  
+Today, hospitalsâ€™ â€œpatient event notificationsâ€ often amount to minimal ADT pings that 
+are late, incomplete, and misrouted, forcing our teams to reconstruct critical clinical 
+information through manual workarounds. CMS has a pivotal opportunity to move 
+from intent-based requirements toward outcome-based expectations for notification 
+delivery, clinical content, attribution accuracy, and inclusion of all accountable value-
+based entities.  
+Our recommendations emphasize four organizing principles: 
+â€¢ 
+Always notify the accountable care team actually responsible for the patientâ€™s 
+outcomes and costs.  
+â€¢ 
+Tell us what actually happened during the hospitalization, including pending 
+results and responsible clinicians.  
+â€¢ 
+Verify attribution and provider identity in real time, at every encounter, using 
+interoperable directories.  
+â€¢ 
+Enforce outcomes, not just technical capabilities or â€œreasonable efforts,â€ with 
+auditable metrics tied to incentives.  
+Below we respond to the specific questions we are addressing in this RFI. 
+ 
+ 
+ 
+ 
+www. ChenMed.com
+ 
+Use and Content of Patient Event Notifications 
+Question 3 (aâ€“b) 
+a. What addi...

@@ -1,0 +1,137 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0482
+Commenter: American Society of Dentist Anesthesiologists (ASDA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:31:16
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Society of Dentist Anesthesiologists (ASDA); signed by Bryant Cornelius, DDS, MBA, MPH, Diplomate, American Dental Board of Anesthesiology, President.
+- **Stakeholder type:** Professional Association.
+- **Credentials or expertise mentioned:** Represents dentist anesthesiologists; signer has dental, business, public health, and board diplomate credentials.
+
+## 2. EXECUTIVE SUMMARY
+
+ASDA urges CMS to keep stand-alone dental plan issuers outside current and proposed interoperability and prior authorization rules because dental records, dental software, and dental workflows are not ready for HL7/FHIR-based compliance. It asks CMS to clarify dental anesthesia and sedation drug authorization, treat those drugs as bundled with anesthesia or sedation services, preserve direct data entry options, and avoid step therapy policies that could block access to medically necessary dental anesthesia for vulnerable patients.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; GENERAL/RFIs; MEDICAL-VS-PHARMACY-BENEFIT; GENERAL stand-alone dental plan exclusion.
+- **Regulatory citations mentioned:** CMS-0062-P; no CFR sections cited.
+- **Standards referenced:** HL7; FHIR; NCPDP Formulary and Benefit; Real Time Prescription Benefit (RTPB); CPT 00170 and 00100-01999; dental sedation codes D9222, D9223, D9224, D9225.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Stand-alone dental plan issuer exclusion**
+- **Provision ID:** GENERAL
+- **Position:** Support current exclusion / Oppose future expansion
+- **Rationale:** ASDA says current electronic dental records, especially in non-institutional practices, are not prepared for HL7 or FHIR compliance and dental integration remains immature.
+- **Specific request:** Keep SADP issuers outside the 2024 CMS Interoperability and Prior Authorization final rule and the current proposal.
+
+**Topic 2: Dental readiness for NCPDP and RTPB workflows**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify/Modify
+- **Rationale:** Dentist anesthesiologists and some dental specialists rarely use NCPDP Formulary and Benefit in daily practice and generally lack dental record tools that support static formularies or RTPB.
+- **Specific request:** Recognize that current dental workflows rely on web portals or phone communication and do not yet support the proposed pharmacy benefit drug tools.
+
+**Topic 3: Dental anesthesia and sedation drug treatment**
+- **Provision ID:** PA-DRUG-MEDICAL; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify/Modify
+- **Rationale:** ASDA explains that anesthesia drugs are usually bundled with anesthesia services authorized through surgical CPT codes, but dental restorative, endodontic, and periodontal procedures often lack numerical CPT codes, creating uncertainty for CPT 00170 and dental sedation.
+- **Specific request:** CMS should clearly define and educate payers that drugs for CPT 00170 and dental sedation procedures should be considered included in the anesthesia or sedation service code.
+
+**Topic 4: Prior authorization timeframes for anesthesia changes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** ASDA says 24-hour emergency authorization would be insufficient if a dental anesthesia or sedation drug not included in the initial authorization becomes necessary during care, such as for a combative patient with special health care needs.
+- **Specific request:** Prefer bundling at provider discretion; at minimum, require real-time prior authorization capability for anesthesia and sedation medication changes.
+
+**Topic 5: Direct data entry and dental technology limitations**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Oppose removal of direct data entry
+- **Rationale:** ASDA says the dental industry lacks standardized, interoperable dental records, imaging, and claims exchange, and dentist anesthesiologists often operate as independent small businesses without control over office dental records.
+- **Specific request:** Preserve direct data entry and portal options for dental prior authorization and related administrative workflows.
+
+**Topic 6: Step therapy and dental anesthesia access**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Clarify/Modify
+- **Rationale:** ASDA is concerned dental data may not be captured in step therapy processes, allowing policies that require failed sedation before access to general anesthesia for vulnerable populations.
+- **Specific request:** Ensure step therapy policies do not inhibit access to medically necessary general anesthesia for dental care, especially for vulnerable patients.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14/S25:** ASDA indirectly responds on NCPDP and RTPB applicability by explaining that dentist anesthesiologists rarely use these tools and dental records are not equipped for them.
+- **S15:** ASDA raises a specific medical-versus-pharmacy distinction issue for anesthesia and sedation drugs in dental procedures and asks CMS to clarify bundling with service codes.
+- **S20/S43:** ASDA supports PA timeframe proposals generally but says 24-hour emergency authorization is inadequate for dental anesthesia/sedation drug changes, making real-time authorization or bundling necessary.
+- **GENERAL/RFI S66-S82:** ASDA responds to RFIs on direct data entry and step therapy, warning that removing portal-based entry would be harmful and that step therapy could restrict access to dental general anesthesia.
+
+## 6. RECOMMENDATIONS
+
+1. Keep SADP issuers outside the 2024 CMS Interoperability and Prior Authorization final rule and the current proposal.
+2. Recognize that non-institutional electronic dental records are not ready for HL7/FHIR compliance.
+3. Clarify how payers should handle anesthesia and sedation drugs associated with dental procedures.
+4. Treat drugs for CPT 00170 and dental sedation codes D9222, D9223, D9224, and D9225 as included in the anesthesia or sedation service.
+5. Use real-time authorization if separate authorization is ever required for anesthesia or sedation drug changes, though provider-discretion bundling is preferred.
+6. Preserve direct data entry and web portal options for dental practices and dentist anesthesiologists.
+7. Ensure step therapy policies do not force failed sedation before medically necessary general anesthesia for vulnerable dental patients.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Dental EHR immaturity; lack of HL7/FHIR readiness; lack of dental integration with NCPDP/RTPB tools; ambiguity around dental anesthesia drug bundling; inadequate 24-hour authorization for urgent anesthesia decisions; harm from removing direct data entry; step therapy access barriers.
+- **Potential negative impacts cited:** Delays, non-payment for dentist anesthesiologists, worsened hospital dental access gaps, cancelled cases, and reduced access to general anesthesia for vulnerable populations.
+- **Implementation barriers mentioned:** Non-interoperable dental records, dental imaging and claims software limitations, portal-dependent workflows, small-business contractor models, lack of control over host dental office records, and institutional EHR/dental software integration gaps.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None quantified.
+- **Studies or research referenced:** ADA News item on a 2024 dental data exchange prototype; HL7 dental data exchange best practices; literature on integrated dental record challenges with citations 10.18683/jccp.2024.1091, 10.1186/s12903-022-02163-9, 10.1093/jamia/ocac001, and 10.1177/00220345221100175.
+- **Examples provided:** Special health care needs patient needing unplanned pre-operative sedation; dental anesthesia linked to CPT 00170; restorative, endodontic, and periodontal procedures lacking numerical CPT codes; dentist anesthesiologists using portals or phone workflows.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Dentist anesthesiologists, dental specialists, SADP issuers, dental practices, dental software vendors, dental patients, patients with special health care needs, hospitals, and payers.
+- **Economic implications:** ASDA warns of non-payment risks for dentist anesthesiologists and disproportionate burden on small independent contractor practices.
+- **Technical feasibility:** ASDA considers current dental FHIR/HL7 readiness low and views portal/direct data entry workflows as still necessary.
+- **Patient care impact:** Potentially high for dental patients needing anesthesia or sedation, especially vulnerable patients whose care may be cancelled or delayed if authorization rules are rigid.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned.
+- **Tone:** Professional, cautionary, and specialty-specific.
+- **Priority level:** Medium to High.
+
+## 11. KEY QUOTES
+
+1. "remain outside of the 2024 CMS Interoperability" - Context: SADP exclusion request.
+2. "virtually no electronic dental records" - Context: dental FHIR/HL7 readiness concern.
+3. "considered included in the anesthesia or sedation services code" - Context: requested dental anesthesia drug bundling.
+4. "removal of direct data entry would be disastrous" - Context: dental portal workflow concern.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ASDA argues dental records are too immature for near-term inclusion and requires real-time handling for anesthesia changes.
+- [x] **COST-RESOURCES** - Small dentist anesthesiology practices may face non-payment and lack resources or control over dental record systems.
+- [x] **PROVIDER-BURDEN** - The comment emphasizes dental workflow burden from portals, phone calls, lack of tools, and unclear authorization responsibilities.
+- [x] **TECHNICAL-FEASIBILITY** - Dental record interoperability and HL7/FHIR readiness are central concerns.
+- [x] **STANDARDS-MATURITY** - ASDA characterizes dental data exchange as still early and not widely adopted.
+- [x] **PATIENT-ACCESS** - The commenter warns of cancelled cases, delays, and restricted access to anesthesia for vulnerable dental patients.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment centers on whether dental anesthesia/sedation drugs should be bundled with medical/dental services.
+- [x] **SMALL-PAYER-IMPACT** - SADP issuers and small dental practices are treated as not ready for the same requirements.
+- [x] **EXISTING-WORKFLOWS** - ASDA asks CMS to preserve direct data entry, web portals, and phone-based workflows because they remain core to dental practice.
+- [x] **VENDOR-ECOSYSTEM** - Dental record, imaging, claims, and exchange vendors are described as not interoperating meaningfully with EHRs or payer systems.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Improving Access to Care for Dental Patients and Their Dentists
+956 S. Bartlett Rd #119, Bartlett, IL 60103
+June 12, 2026
+
+American Society of Dentist Anesthesiologist (ASDA) Comment on (CMS-0062-P)
+2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+
+I.C. CMS asks: We are not proposing to apply requirements to stand-alone dental plan (SADP) issuers, but we solicit comment on whether the considerations described previously do in fact diminish the need for electronic prior authorization requirements and prior authorization process requirements for SADP issuers...

@@ -1,0 +1,144 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0493
+Commenter: N.H. (Private Citizen, Fishers, Indiana)
+Source: Inline
+Analysis Date: 2026-06-29 11:33:01
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** N.H. (anonymous private citizen, Fishers, Indiana)
+- **Stakeholder type:** Individual
+- **Credentials or expertise mentioned:** Medicaid/Medicare beneficiary; constituent of affected communities
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+This individual commenter supports interoperability and prior authorization reform in principle but raises four specific concerns: a conflict-of-interest allegation regarding CMS leadership (Chris Klomp's former role at Collective Medical/PointClickCare), inadequate access controls and scope disclosure for the proposed FHIR endpoint registry, data governance gaps across expanded APIs, and the absence of explicit prohibitions on non-healthcare secondary use of patient data. The commenter requests formal CMS responses to each concern in the final rule preamble.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** API-ENDPOINT-REPORTING, GENERAL
+- **Regulatory citations mentioned:** Privacy Act of 1974, HIPAA, Social Security Act (referenced in context of prior CMS data-sharing violations)
+- **Standards referenced:** FHIR (endpoint registry, Payer-to-Payer API, Prior Authorization API, Patient Access API)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Conflict of Interest — CMS Leadership**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Chris Klomp, overseeing CMS operations, is the former CEO of Collective Medical (sold for ~$650M to PointClickCare) and retains investments through Endurance Companies. The rule expands health data-sharing infrastructure directly benefiting his former employer.
+- **Specific request:** Disclose whether Klomp recused himself, whether a conflict-of-interest waiver was obtained, and which officials made the final determination to publish.
+
+**Topic 2: FHIR Endpoint Registry — Undisclosed Scope**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Clarify / Modify
+- **Rationale:** The registry constitutes new permanent federal infrastructure without defined access controls; the proposed rule does not address who can access it, whether it can be shared with DHS or immigration enforcement, audit mechanisms, or whether it is subject to HIPAA limitations.
+- **Specific request:** Explicitly prohibit registry data from being repurposed for non-healthcare uses without Congressional authorization; address access controls in the final rule.
+
+**Topic 3: Data Governance Gaps**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The rule expands multiple APIs without establishing data minimization requirements, prohibitions on secondary commercial use, patient notification for Payer-to-Payer data flows, or individual remedies for misuse.
+- **Specific request:** Add explicit data minimization requirements, commercial-use prohibitions, patient notification requirements, and individual remedies.
+
+**Topic 4: Transparency and Accountability Requests**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Given documented prior CMS violations (Senators Schiff and Padilla letters regarding Medicaid PII sharing with DHS), the commenter argues the final rule requires higher justification and explicit oversight mechanisms.
+- **Specific request:** CMS must respond on the record to: all COI reviews, private-sector consultation relationships, whether Payer-to-Payer data can be accessed by law enforcement/immigration, and what independent oversight body will monitor compliance.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S23 (API endpoint reporting — security concerns):** Commenter raises concern that the new FHIR endpoint registry lacks defined access controls and could be accessed by non-healthcare federal agencies, including immigration enforcement, without explicit prohibition.
+- **S24 (what to report):** Implicitly addressed — commenter argues the scope of the registry and who may access reported endpoint data is undisclosed and inadequate.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Disclose whether Chris Klomp recused himself from all CMS-0062-P decisions and whether a formal COI waiver was obtained.
+2. Identify all senior CMS officials with financial interests in entities benefiting from expanded interoperability and disclose COI reviews.
+3. Identify private-sector entities consulted in drafting the rule and any financial relationships to the FHIR endpoint registry or health data infrastructure.
+4. Explicitly prohibit registry data from being repurposed for non-healthcare uses (including immigration enforcement) without Congressional authorization.
+5. Add data minimization requirements to all expanded APIs (Payer-to-Payer, Prior Authorization, Patient Access).
+6. Prohibit secondary commercial use of data flowing through interoperability APIs.
+7. Require patient notification when their data flows through Payer-to-Payer channels.
+8. Establish individual remedies for data misuse.
+9. Confirm whether Payer-to-Payer API data can be accessed under existing memoranda of understanding with law enforcement or immigration agencies.
+10. Identify an independent oversight body to monitor compliance with data use restrictions.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Conflict of interest in CMS leadership; inadequate access controls on the FHIR endpoint registry; lack of data governance safeguards; risk that health data could be shared with immigration enforcement.
+- **Potential negative impacts cited:** Patient data shared without knowledge or consent with commercial or governmental third parties; registry repurposed for immigration enforcement; rule finalized without adequate accountability.
+- **Implementation barriers mentioned:** None regarding technical implementation; concerns are governance/legal in nature.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** PointClickCare operates with 27,000 senior care facilities, 2,700+ hospitals, 180 health plans, 75 state/government agencies; Collective Medical sold for ~$650 million in 2020.
+- **Studies or research referenced:** Formal letters by Senators Schiff and Padilla documenting CMS sharing Medicaid enrollee PII (names, addresses, SSNs, immigration status) with DHS, alleged to violate Privacy Act of 1974, HIPAA, and the Social Security Act.
+- **Examples provided:** Chris Klomp's trajectory from Collective Medical CEO → Senior Advisor at PointClickCare → CMS leadership role as a concrete conflict-of-interest example.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** All Medicaid/Medicare/CHIP/QHP enrollees; immigrant communities; all covered entities subject to expanded data flows
+- **Economic implications:** Not addressed directly; notes $650M sale of Collective Medical as background
+- **Technical feasibility:** Not addressed
+- **Patient care impact:** Commenter argues patient privacy and autonomy are undermined if health data flows to non-healthcare governmental or commercial actors without consent
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supports stated goals; deeply concerned about governance and accountability)
+- **Tone:** Critical, formal, legally grounded
+- **Priority level:** High (raises conflict-of-interest and civil liberties concerns)
+
+---
+
+## 11. KEY QUOTES
+
+1. "This proposed rule directly expands the health data sharing infrastructure that Mr. Klomp's former company pioneered & from which his former employer continues to profit." — Context: Framing the conflict-of-interest allegation regarding CMS leadership.
+
+2. "The final rule must explicitly prohibit registry data from being repurposed for non-healthcare uses without Congressional authorization." — Context: Responding to documented prior CMS sharing of Medicaid PII with DHS.
+
+3. "The rule's stated goal of giving patients more control over their health information is undermined if that same information can flow to third parties — commercial or governmental — without patient knowledge or consent." — Context: Summarizing data governance gaps.
+
+4. "A rule that expands health data sharing infrastructure — overseen by officials w/ undisclosed financial conflicts, creating new federal registries without defined access controls, building on a system already documented to have shared patient data in violation of federal law — requires a higher standard of justification than has been provided in this proposal." — Context: Closing argument for why CMS must respond to each concern on the record.
+
+---
+
+## 12. THEMES
+
+- [x] **PRIVACY-SECURITY** — Central theme: commenter raises concerns about FHIR endpoint registry access controls, potential immigration enforcement use, data minimization gaps, and lack of individual remedies for data misuse.
+- [x] **TRANSPARENCY** — Requests formal on-the-record responses regarding COI reviews, private-sector consultations, and independent oversight of data use restrictions.
+- [x] **REGULATORY-AUTHORITY** — Raises conflict-of-interest concerns about CMS officials with financial ties to health data industry benefiting from the rule; references Senators' documented concern over prior CMS data-sharing violations.
+- [x] **API-ENDPOINT-REPORTING** — Specifically addresses the new FHIR endpoint registry as undisclosed federal infrastructure with undefined access and audit controls. (Note: API-ENDPOINT-REPORTING is a provision ID, not a theme ID, but is the most directly implicated provision.)
+- [x] **PATIENT-ACCESS** — Argues patient control over health information is undermined by absence of consent requirements and secondary-use prohibitions in the expanded API framework.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+I am a private citizen & a constituent of/within communities affected by medicaid/medicare. I write neither in opposition to interoperability Standards as a goal nor to prior authorization reform, both of which, relatively speaking, I support in principle. I write because this proposed rule raises specific, documented concerns that must be addressed in the final rule before implementation.
+
+1. CONFLICT OF INTEREST — CHRIS KLOMP
+
+The individual currently overseeing CMS operations, Chris Klomp, is the former CEO of Collective Medical — a health data sharing company he built & sold for approximately $650 million in 2020 to PointClickCare, which now operates with 27,000 senior care facilities, over 2,700 hospitals, 180 health plans, & 75 state and government agencies. Mr. Klomp remained a Senior Advisor to PointClickCare through January 2024 & retains investments in related health technology companies through Endurance Companies.
+
+This proposed rule directly expands the health data sharing infrastructure that Mr. Klomp's former company pioneered & from which his former employer continues to profit...
+==================================================

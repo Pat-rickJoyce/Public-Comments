@@ -1,0 +1,169 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0641
+Commenter: MAPRx Coalition
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:48:28
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** MAPRx Coalition and undersigned member organizations.
+- **Stakeholder type:** Advocacy Group / Professional Association coalition.
+- **Credentials or expertise mentioned:** National coalition of more than 60 beneficiary, caregiver, and healthcare professional organizations focused on Medicare beneficiaries with chronic diseases and disabilities and Part D medication access.
+
+## 2. EXECUTIVE SUMMARY
+
+MAPRx supports CMS's modernization of prior authorization but argues that Medicare Part D beneficiaries are left behind. The coalition asks CMS to extend specific denial explanations, public reporting, clinical history portability, electronic clinical documentation, timeframe oversight, and caregiver access protections to Part D sponsors.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DENIAL-REASONS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; PA-TIMEFRAMES-DRUGS; PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; PATIENT-ACCESS; Payer-to-Payer API; GENERAL Part D policy.
+- **Regulatory citations mentioned:** 42 CFR 423.160; 42 CFR 423.568; 42 CFR 423.572.
+- **Standards referenced:** FHIR-based APIs; NCPDP SCRIPT; Payer-to-Payer API; Patient Access API; EHR connections.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Specific denial explanations for Part D**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify.
+- **Rationale:** Vague Part D denials such as "medical necessity not met" prevent providers and beneficiaries from correcting documentation gaps or understanding next steps.
+- **Specific request:** Require Part D sponsors to provide actionable, plain-language denial reasons to both the provider and beneficiary, including missing criteria, required alternatives, or documentation needs.
+
+**Topic 2: Public reporting for Part D and granular data**
+- **Provision ID:** API-USAGE-METRICS / TRANSPARENCY
+- **Position:** Oppose exclusion; Modify.
+- **Rationale:** Internal CMS reporting is not visible to beneficiaries, caregivers, and providers and aggregate reporting masks denial patterns for critical therapies.
+- **Specific request:** Extend public reporting to Part D; integrate PA metrics into Medicare Plan Finder; require disaggregation by therapeutic area, denial reason, brand/generic status, UM type, delay length, abandonment, and final therapy received.
+
+**Topic 3: Carry clinical history across plan transitions**
+- **Provision ID:** Payer-to-Payer API / GENERAL / PA-DRUG-PHARMACY
+- **Position:** Modify.
+- **Rationale:** Beneficiaries switching Part D plans may be forced to repeat step therapy or re-prove medical necessity despite documented prior approvals or failed therapies.
+- **Specific request:** Require Part D sponsors to retrieve and apply PA and step therapy history through the Payer-to-Payer API and establish standards for when history may be disregarded.
+
+**Topic 4: End faxing of clinical documentation for Part D**
+- **Provision ID:** PA-DRUG-PHARMACY / TECHNICAL-FEASIBILITY
+- **Position:** Modify.
+- **Rationale:** NCPDP SCRIPT handles transaction data but not clinical documentation, leaving providers to fax or manually submit documents.
+- **Specific request:** Establish interoperability requirements enabling clinical documentation to flow from provider EHRs to Part D sponsors through FHIR-based APIs while NCPDP handles pharmacy transactions.
+
+**Topic 5: Part D decision timeframe transparency**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify.
+- **Rationale:** Part D has 72-hour standard and 24-hour expedited timeframes, but extension usage and incomplete-submission findings are not publicly reported.
+- **Specific request:** Require public reporting of Part D timeframe compliance, extension usage, and incomplete-submission findings.
+
+**Topic 6: Caregiver access to PA information**
+- **Provision ID:** PATIENT-ACCESS / PRIVACY-SECURITY
+- **Position:** Modify.
+- **Rationale:** Many beneficiaries rely on caregivers to track PA status, appeals, and denials, but caregivers lack electronic access pathways.
+- **Specific request:** Require prior authorization status and decision information to be accessible to authorized caregivers and personal representatives through the Patient Access API consistent with HIPAA authorization.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** MAPRx supports specific denial reasons and urges extension to Part D with actionable explanations.
+- **S17:** Supports denial reasons that identify missing documentation, required alternative therapies, and next steps in plain language.
+- **S23/S24/S26/S27/S33:** Addresses public reporting design by calling for standardized, plan-shopping-accessible reporting, including Medicare Plan Finder integration.
+- **S29/S30/S34/S35:** Supports granular public PA metrics and tracking denial rates with timeframe compliance.
+- **S43:** Asks CMS to monitor Part D timeframe compliance, extension usage, and incomplete-submission findings.
+- **S46/S51:** Suggests FHIR and NCPDP coexistence for Part D, with FHIR carrying clinical documentation and NCPDP handling pharmacy transactions.
+- **S66-S82:** Responds to step therapy and caregiver access RFIs by urging Payer-to-Payer API use for prior treatment history and authorized caregiver access.
+
+## 6. RECOMMENDATIONS
+
+1. Extend specific denial-reason requirements to Part D sponsors.
+2. Require denial explanations to be actionable and plain-language for beneficiaries.
+3. Extend standardized public PA reporting to Part D and integrate metrics into Medicare Plan Finder.
+4. Require granular, disaggregated reporting by therapy area, denial reason, UM type, delay, abandonment, and final treatment outcome.
+5. Require Part D sponsors to retrieve and honor prior PA and step therapy history through Payer-to-Payer APIs.
+6. Track and publicly report continuity of PA history after plan switching.
+7. Enable FHIR-based clinical documentation exchange for Part D while retaining NCPDP SCRIPT for pharmacy transactions.
+8. Publicly report Part D timeframe compliance, extension usage, and incomplete-submission findings.
+9. Permit authorized caregivers and personal representatives to access PA status and decisions via the Patient Access API.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Part D exclusion from protections, vague denials, hidden reporting, repeated step therapy, faxed documentation, unreported timeframe compliance, and lack of caregiver access.
+- **Potential negative impacts cited:** Prescription abandonment, unsafe delays, treatment gaps for chronic diseases, repeated failed therapy, unnecessary administrative burden, and beneficiary confusion.
+- **Implementation barriers mentioned:** NCPDP SCRIPT's limitations for clinical documents; lack of explicit requirement to apply Payer-to-Payer API history; gaps in caregiver authorization workflows.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Coalition membership and scope; examples of chronic disease groups; references to existing Part D regulatory timeframes.
+- **Studies or research referenced:** MAPRx references its own documentation of increased Part D step therapy since IRA implementation.
+- **Examples provided:** Beneficiaries with diabetes, neurological disorders, heart disease, cancer; multiple sclerosis patient stable on biologic; January 1 plan-switch step therapy reset; providers forced to fax documentation.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare Part D beneficiaries, caregivers, providers, Part D sponsors, PBMs, health IT vendors, and chronic disease advocacy organizations.
+- **Economic implications:** Reporting and documentation reforms may reduce wasteful repeat step therapy and administrative rework; Part D plans may incur implementation costs.
+- **Technical feasibility:** MAPRx supports hybrid FHIR/NCPDP architecture and believes existing APIs can solve Part D continuity problems if CMS requires use.
+- **Patient care impact:** Stronger Part D protections could prevent treatment delays, prescription abandonment, and care disruptions for beneficiaries with serious chronic conditions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant concerns.
+- **Tone:** Professional, beneficiary-centered, critical of Part D gaps.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Medicare Part D beneficiaries have been left behind in critical areas of this reform." - Context: Overall concern with the proposed rule's scope.
+2. "Require real denial explanations, not 'medical necessity not met'." - Context: Summary of requested protections.
+3. "The clinical record that could prevent that harm will sit unused in an interoperable system." - Context: Payer-to-Payer API and repeated step therapy.
+4. "Providers should not be left faxing documentation for Part D drugs while they use modern digital pathways for everything else." - Context: FHIR/NCPDP clinical documentation recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Seeks timeline alignment for Part D clinical documentation pathways.
+- [x] **PROVIDER-BURDEN** - Focuses on faxing, repeat submissions, and blind resubmissions.
+- [x] **TECHNICAL-FEASIBILITY** - Proposes FHIR/NCPDP bridging and API use.
+- [x] **PATIENT-ACCESS** - Central concern is timely medication access for Part D beneficiaries.
+- [x] **TRANSPARENCY** - Calls for public reporting, denial explanations, and Plan Finder metrics.
+- [x] **EXISTING-WORKFLOWS** - Addresses pharmacy transactions, EHR documentation, and fax workflows.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS, health IT vendors, PBMs, pharmacy systems, plans, providers, beneficiaries, and caregivers to align.
+- [x] **VENDOR-ECOSYSTEM** - Requires health IT/pharmacy/PBM bridge development.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+ 
+Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Blvd 
+Baltimore, MD 21244 
+Submitted via regulations.gov 
+ 
+RE: CMS-0062-P -- Proposed Rule on Interoperability Standards and Prior Authorization for 
+Drugs 
+ 
+Dear Administrator Oz, 
+ 
+The MAPRx Coalition (MAPRx) appreciates the opportunity to provide comments on the Centers for 
+Medicare & Medicaid Services' (CMS) proposed rule on Interoperability Standards and Prior 
+Authorization for Drugs released on April 10, 2026. 
+ 
+MAPRx is a national coalition of more than 60 beneficiary, caregiver, and healthcare professional 
+organizations committed to improving access to prescription medications and safeguarding the 
+well-being of Medicare beneficiaries with chronic diseases and disabilities. The coalition has 
+championed policies in Part D that improve the affordability of medications and beneficiary access 
+to those medications, including provisions of the Inflation Reduction Act (IRA) that establish an out-
+of-pocket cap in Part D and the Medicare Prescription Payment Plan. We are committed to 
+ensuring that the implementation of these and other elements of the IRA are informed by the 
+experiences and needs of beneficiaries living with chronic diseases and conditions. 
+ 
+The undersigned members of MAPRx support CMS's efforts to modernize prior authorization 
+processes and improve interoperability across the healthcare system. The proposed rule takes 
+important steps to reduce administrative burden for providers and expedite access to medications 
+for patients. However, we are deeply concerned that Medicare Part D beneficiaries have been left 
+behind in critical areas of this reform. While the proposed rule extends new protections and 
+transparency requirements to Medicare Advantage, Medicaid, CHIP, and Marketplace plans, 
+similar requirements for Part D sponsors are either absent or weakened, perpetuating longstanding ...

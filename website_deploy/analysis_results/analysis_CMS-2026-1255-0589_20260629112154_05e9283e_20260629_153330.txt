@@ -1,0 +1,158 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0589_20260629112154_05e9283e
+Commenter: SCLC Global Policy Initiative (SCL-GPI)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:33:30
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Kevin B. Kimble, Esq., Executive Director, SCLC Global Policy Initiative (SCL-GPI)
+- **Stakeholder type:** Advocacy Group / civil rights and policy organization
+- **Credentials or expertise mentioned:** Policy arm of the Southern Christian Leadership Conference, with a six-decade civil rights history focused on Black Americans and marginalized communities.
+
+## 2. EXECUTIVE SUMMARY
+
+SCL-GPI supports CMS-0062-P as a needed reform to a PA system it views as slow, opaque, and inequitable. It urges CMS to finalize ePA, adopt the most aggressive operationally achievable timeline, provide technical assistance to smaller providers, require 24-hour decisions for all drugs, strengthen plain-language denial notices, publish meaningful PA metrics, and prohibit or tightly restrict step therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** None specifically cited beyond CMS-0062-P.
+- **Standards referenced:** Electronic prior authorization; APIs generally; no named FHIR IG or NCPDP standard cited.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization infrastructure**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Paper- and fax-based PA is a structural barrier that falls hardest on safety-net hospitals, FQHCs, and independent Black-owned practices.
+- **Specific request:** Finalize ePA requirements on the most aggressive timeline that is operationally achievable and invest in technical assistance for smaller providers.
+
+**Topic 2: Coverage determination timelines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** A 72-hour non-urgent drug timeframe remains inadequate for serious chronic or acute conditions in communities where delays escalate into emergencies.
+- **Specific request:** Require drug PA decisions within 24 hours for all drugs, not only urgent requests.
+
+**Topic 3: Denial oversight and plain-language justifications**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify / strengthen
+- **Rationale:** Fast timelines without accountability may produce faster denials, and generic denials undermine appeal rights.
+- **Specific request:** Establish rigorous oversight for elevated denial rates; require comprehensive, specific, plain-language justification for every denial, including initial denials, simultaneously to provider and patient.
+
+**Topic 4: Payer metrics and public reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** API usage metrics alone do not show whether patients receive treatment, and aggregated data obscures disparities.
+- **Specific request:** Pair API reporting with denial rates, appeal approvals, and time from PA request to treatment; compile annual public reporting; require Part D public reporting at plan level and by brand/generic, therapeutic area, initial denials, and step therapy.
+
+**Topic 5: Step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Oppose / modify
+- **Rationale:** Fail-first requirements delay effective care and compound inequitable burdens.
+- **Specific request:** Prohibit MA plans from using step therapy; collect and release detailed data on MA PA for Part B drugs; require plans to honor prior step therapy completion across plan changes; require transparent disclosure, robust exceptions, and accessible appeals.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S14:** Supports ePA requirements across medical and pharmacy benefits with technical assistance for smaller providers.
+- **S16/S17:** Requests comprehensive, specific, plain-language denial reasons for every denial, including initial denials.
+- **S20/S43:** Requests 24-hour decisions for all drug PA requests.
+- **S29/S34/S35:** Requests meaningful public reporting that includes denial rates, appeal success, and time to treatment rather than API usage alone.
+- **S66-S82:** Responds to step therapy topics by urging prohibition in MA, public data on Part B drug PA, portability of completed steps, clear disclosures, and robust appeals/exceptions.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA requirements for medications across both medical and pharmacy benefits.
+2. Implement requirements on the most aggressive timeline that is operationally achievable.
+3. Provide meaningful technical assistance for smaller providers.
+4. Require 24-hour decisions for all drug PA requests.
+5. Monitor expedited timelines for denial-rate abuse.
+6. Require specific, comprehensive, plain-language denial explanations to provider and patient.
+7. Pair API metrics with patient/provider outcome measures.
+8. Publish annual public reports with plan-level Part D PA data and granular breakouts.
+9. Prohibit MA step therapy or impose strong patient protections and public reporting.
+10. Require step therapy completion to be honored after plan changes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Systemic inequity in PA, paper/fax barriers, excessive timelines, denial opacity, aggregated metrics, and step therapy.
+- **Potential negative impacts cited:** Delayed effective care, emergency escalation, inability to appeal, hidden disparities, and repeated fail-first requirements after coverage changes.
+- **Implementation barriers mentioned:** Smaller providers, safety-net hospitals, FQHCs, and independent Black-owned practices may lack resources for implementation.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No specific numeric data cited; relies on civil-rights/equity analysis and placeholder source markers.
+- **Studies or research referenced:** None named.
+- **Examples provided:** Three-day wait for serious chronic or acute conditions; repeated step therapy after plan change; opaque PA processes burying step therapy requirements.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Black Americans, marginalized communities, safety-net hospitals, FQHCs, independent Black-owned medical practices, patients, providers, MA enrollees, Part D enrollees, policymakers, and advocates.
+- **Economic implications:** Administrative barriers and delayed treatment may escalate costs; technical assistance needed to prevent benefits accruing only to large health systems.
+- **Technical feasibility:** Supports aggressive but operationally achievable implementation, with provider assistance.
+- **Patient care impact:** Expected positive impact from faster decisions, clear denials, and fewer step therapy delays; risk remains if faster timelines produce faster denials.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with strong equity-focused modifications
+- **Tone:** Direct, critical, civil-rights oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Prior authorization is one of the most tangible mechanisms through which systemic healthcare inequity is enforced." - Context: Framing PA as a civil rights issue.
+2. "The benefits of this rule should not accrue exclusively to large health systems." - Context: Technical assistance for smaller providers.
+3. "Speed without accountability... is not a sufficient reform." - Context: Oversight of expedited denials.
+4. "Aggregated data has historically allowed health disparities to remain obscured in published reporting." - Context: Granular reporting.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests aggressive achievable timeline and 24-hour drug decisions.
+- [x] **COST-RESOURCES** - Notes resource constraints for safety-net and smaller providers.
+- [x] **PROVIDER-BURDEN** - Emphasizes paper/fax PA burden and small provider strain.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Central focus on Black and marginalized communities.
+- [x] **TECHNICAL-FEASIBILITY** - Requests operationally achievable implementation and technical assistance.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - Focuses on delayed care and step therapy barriers.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **STAKEHOLDER-COORDINATION** - Limited to provider support and CMS oversight.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Supports ePA across both benefit types.
+- [x] **TRANSPARENCY** - Strong focus on denial reasons, reporting, and step therapy disclosure.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Critiques paper/fax and embedded step therapy workflows.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Southern Christian Leadership | Global Policy Initiative | Washington DC 
+June 15, 2026 
+ 
+Centers for Medicare and Medicaid Services 
+Department of Health and Human Services 
+ 
+Re: SCLC Global Policy Initiative Comments in Support of CMS-0062-P, 2026 Interoperability 
+Standards and Prior Authorization for Drugs Proposed Rule 
+Dear Administrator Oz: 
+The SCLC Global Policy Initiative (SCL-GPI) submits these comments in support of the 2026 CMS 
+Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P). (source) 
+SCL-GPI is the policy arm of the Southern Christian Leadership Conference, an organization with a six-
+decade history of advancing the civil, economic, and social rights of Black Americans and other 
+marginalized communities. Healthcare equity is not a peripheral concern for SCL-GPI; it is central to our 
+organizational mission and the communities we serve. 
+Prior authorization is one of the most tangible mechanisms through which systemic healthcare inequity is 
+enforced. The communities we represent bear a disproportionate burden from a prior authorization 
+process that is slow, opaque, and structurally tilted toward denial. CMS-0062-P has the potential to 
+change that dynamic in meaningful ways. (source) 
+I. Electronic Prior Authorization Infrastructure 
+SCL-GPI supports CMS's proposal to require electronic prior authorization for medications across both 
+the medical and pharmacy benefit. (source) The persistence of paper-based and fax-based prior 
+authorization is not a minor inefficiency. It is a structural barrier that falls hardest on the providers most 
+likely to serve underresourced communities: safety-net hospitals, Federally Qualified Health Centers, and 
+the dwindling number of independent, Black-owned medical practices operating under sustained financial 
+stress. 
+We recommend that CMS finalize ePA requirements on the most aggressive timeline that is operationally 
+achievable, and that the agency invest in meaningful ...

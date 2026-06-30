@@ -1,0 +1,127 @@
+{
+  "comment_id": "CMS-2026-1255-0621",
+  "source_file": "CMS-2026-1255-0621_20260629111924_a3124aa4.txt",
+  "analysis_timestamp": "20260629_154605",
+  "commenter_information": {
+    "author_organization_name": "Blue Shield of California",
+    "stakeholder_type": "Payer",
+    "credentials_or_expertise_mentioned": "Nonprofit California health plan; HL7 Da Vinci Project participant; California Data Exchange Framework participant; investor in Manifest MedEx and regional HIEs; participant in Epic Payer Platform; committed to CMS ePA Acceleration Pledge and internal PA Reimagined initiative targeting 80 percent real-time PA responses by 2027."
+  },
+  "executive_summary": "Blue Shield supports requiring FHIR implementation guides for payer APIs, especially prior authorization, but emphasizes that information sharing must be a shared responsibility across payers, providers, and EHR developers. The comment also responds to RFIs on ADT event notifications and payer API oversight, recommending stronger provider/EHR requirements, clearer CMS guidance, pinned test versions, more testing infrastructure, and scalable onboarding models.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "FHIR-IG-REQUIRED",
+      "PA-DRUG-MEDICAL",
+      "API-ENDPOINT-REPORTING",
+      "ONC-STANDARDS-UPDATE",
+      "GENERAL"
+    ],
+    "regulatory_citations_mentioned": [
+      "Medicare Conditions of Participation for ADT event notifications",
+      "ONC Health IT Certification Program"
+    ],
+    "standards_referenced": [
+      "FHIR",
+      "HL7 Da Vinci Implementation Guides",
+      "Prior Authorization APIs",
+      "ADT notifications",
+      "SMART Backend Services",
+      "Inferno",
+      "Touchstone",
+      "BCBSA Interoperability Hub",
+      "Drummond G10+ FHIR ATM",
+      "ICD-10",
+      "National Provider Identifier"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "Mandatory FHIR implementation guides",
+      "provision_id": "FHIR-IG-REQUIRED",
+      "position": "Support",
+      "rationale": "Common IG requirements reduce variability across payers and make ePA more usable for providers and EHR developers.",
+      "specific_request": "Finalize required IGs for the required FHIR APIs, particularly Prior Authorization APIs."
+    },
+    {
+      "topic": "Provider and EHR developer adoption",
+      "provision_id": "PA-DRUG-MEDICAL",
+      "position": "Modify",
+      "rationale": "Payers must develop API functionality, but providers and EHR developers are not equally required to use or support it, limiting adoption.",
+      "specific_request": "ONC should include electronic prior authorization certification criteria in the Base EHR definition, and CMS should strengthen hospital/clinician incentives, including a CoP when systems support applicable APIs."
+    },
+    {
+      "topic": "Electronic event notification expansion",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "ADT notifications support coordination, but current implementation flexibility has produced inconsistent completeness, timeliness, and usability.",
+      "specific_request": "Require ADT notifications for ED discharges and observation stays, expand the ADT CoP to skilled nursing facilities, include insurers as recipients, and add standardized required data elements such as NPIs, discharge disposition, admit reason, event reason code, and ICD-10 diagnosis information."
+    },
+    {
+      "topic": "ADT accountability and certification",
+      "provision_id": "ONC-STANDARDS-UPDATE",
+      "position": "Modify",
+      "rationale": "Absent or inconsistent provider identifiers limit matching and can create privacy risks.",
+      "specific_request": "CMS should work with ONC to update certification criteria, establish content standards for ADT elements, and audit notification completeness, accuracy, and timeliness."
+    },
+    {
+      "topic": "Payer API oversight and conformance testing",
+      "provision_id": "API-ENDPOINT-REPORTING",
+      "position": "Clarify",
+      "rationale": "Current documentation leaves too much open to interpretation and risks inconsistent implementation or non-conformance.",
+      "specific_request": "CMS should issue clear prescriptive guidance, pin IG and test kit versions, identify mandatory Inferno tests, provide office hours and stakeholder forums, and recognize tool-agnostic testing approaches."
+    },
+    {
+      "topic": "API implementation barriers and scalable onboarding",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "Provider-side readiness, individualized registration, delegated-entity ambiguity, and legacy batch systems make real-time API performance difficult.",
+      "specific_request": "CMS should consider provider-side requirements, centralized broker or hub-and-spoke onboarding, additional delegated-entity guidance, and performance testing focused on real-world constraints."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "S1 / S18 / S37",
+      "summary": "Supports making FHIR IGs mandatory and asks CMS/ONC to align provider and EHR developer requirements so payer APIs are used in practice."
+    },
+    {
+      "solicitation": "RFI: Electronic Event Notifications",
+      "summary": "Recommends expanded ADT notification scope, additional required data elements, insurer receipt, SNF inclusion, and stronger audit/certification accountability."
+    },
+    {
+      "solicitation": "RFI: Improving Implementation of Payer API Technology",
+      "summary": "Recommends prescriptive guidance, pinned IG/test versions, explicit Inferno requirements, more CMS technical support, Connectathons, tool-agnostic conformance testing, partner testing, and public self-service tools."
+    }
+  ],
+  "theme_taxonomy": [
+    "STANDARDS-MATURITY",
+    "TECHNICAL-FEASIBILITY",
+    "PROVIDER-BURDEN",
+    "STAKEHOLDER-COORDINATION",
+    "VENDOR-ECOSYSTEM",
+    "TRANSPARENCY",
+    "PRIVACY-SECURITY",
+    "IMPLEMENTATION-TIMELINE"
+  ],
+  "stakeholder_map": [
+    "MA Organizations",
+    "QHP Issuers",
+    "Healthcare Providers",
+    "Health IT Vendors",
+    "Patients & Advocacy Groups",
+    "Consumer App Developers",
+    "SDOs (HL7, NCPDP)"
+  ],
+  "key_quotes": [
+    "Blue Shield supports requiring IGs to ensure interoperable implementation of the required FHIR APIs, particularly for the Prior Authorization APIs.",
+    "The impact of the Proposed Rule would be magnified if it included complementary data-sharing requirements on providers and health information technology developers.",
+    "Standardized conformance testing should be tied to pinned implementation guide and test kit versions."
+  ],
+  "agency_action_requested": "Finalize mandatory IGs while adding provider/EHR adoption requirements, strengthening ADT event notification standards, and creating clear, stable, scalable payer API testing and oversight mechanisms.",
+  "overall_position": "Support with targeted modifications",
+  "substantive_content": true,
+  "commenter": "Blue Shield of California",
+  "organization": "Blue Shield of California",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

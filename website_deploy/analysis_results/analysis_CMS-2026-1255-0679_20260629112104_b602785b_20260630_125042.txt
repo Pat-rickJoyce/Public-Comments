@@ -1,0 +1,221 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0679_20260629112104_b602785b
+Commenter: Biotechnology Innovation Organization (BIO)
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:50:42
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Biotechnology Innovation Organization (BIO); signed by Crystal Kuntz, Senior Vice President, Healthcare Policy & Reimbursement, and Luke Schwartz, Manager, Healthcare Policy & Reimbursement.
+- **Stakeholder type:** Professional Association / Industry Association.
+- **Credentials or expertise mentioned:** BIO represents biotechnology companies, industry leaders, and state biotech associations in the United States and more than 35 countries, including biopharmaceutical companies developing medicines.
+
+## 2. EXECUTIVE SUMMARY
+
+BIO supports standardized electronic prior authorization for drugs covered under both medical and pharmacy benefits, including FHIR-based APIs and NCPDP pharmacy standards, but warns that faster electronic workflows must not expand inappropriate utilization management. BIO recommends clinical guardrails, standardized PA data elements, continuity protections, near-real-time formulary/PA updates, stronger denial review and AI transparency, more frequent and granular PA reporting, narrowing the HIPAA direct data entry exception, and significant step therapy reforms including rescission of the Medicare Advantage Part B drug step therapy policy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; HIPAA-PA-STANDARDS; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** Section 1927 of the Social Security Act; 42 CFR 441.505 referenced in step therapy exception criteria; CMS-0062-P; CMS-0057-F; 2024 Interoperability and Prior Authorization final rule; 2019 MA Part B step therapy policy.
+- **Standards referenced:** FHIR; FHIR-based transactions; HIPAA transaction standards; direct data entry (DDE) exception; NCPDP SCRIPT, Formulary and Benefit, and Real-Time Prescription Benefit standards; Prior Authorization API; payer-to-payer API.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Standardized Interoperability APIs and FHIR Requirements**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS
+- **Position:** Support / Modify
+- **Rationale:** BIO agrees that standardized electronic exchange can reduce administrative burden, improve coordination, and support more accountable utilization management, but believes technology alone will not solve inappropriate PA or step therapy.
+- **Specific request:** Finalize standardization while adding guardrails to ensure electronic PA improves patient access rather than merely accelerating denials or documentation requests.
+
+**Topic 2: Electronic PA for Medical and Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** Fragmented manual workflows, payer-specific forms, duplicative documentation, and inconsistent coverage rules delay access to prescription drugs.
+- **Specific request:** Require electronic PA capabilities for both medical and pharmacy benefit drugs, establish a standardized PA framework and common data elements all impacted payers must accept, and ensure PA is used only where clinically appropriate.
+
+**Topic 3: Medical vs Pharmacy Benefit Pathway Assignment**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT / PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Clarify / Modify
+- **Rationale:** Non-Medicare payer discretion to assign drugs to electronic PA pathways could cause avoidable delays or confusion without oversight.
+- **Specific request:** CMS should monitor plan pathway determinations, create guardrails/reporting mechanisms, and require plans to redirect misrouted electronic PA requests to the correct pathway when required information is present.
+
+**Topic 4: Formulary and PA Requirement Updates**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Patients and providers need current formulary and PA information, including mid-year changes, to avoid delays.
+- **Specific request:** Require plans to update formulary and PA requirements in API portals as close to real time as possible.
+
+**Topic 5: PA Decision Timeframes and Denial Communications**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Formal deadlines and specific denial reasons are necessary but insufficient if payers use repeated information requests, resubmissions, appeals, or AI tools to delay or deny clinically appropriate care.
+- **Specific request:** Adopt and enforce proposed timelines, consider a uniform 24-hour timeline for urgent and non-urgent drug PA with oversight, require meaningful specific denial reasons, require clinician review/sign-off for AI-assisted adverse determinations, disclose AI involvement, and require specialist review of denials.
+
+**Topic 6: Continuity of Care Across Payers**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Position:** Modify
+- **Rationale:** Patients switching plans should not have to restart completed PA or step therapy processes.
+- **Specific request:** Require payers to honor previous prescription drug PA approvals and leverage payer-to-payer APIs so step therapy determinations and exceptions follow patients across plan transitions.
+
+**Topic 7: PA Metrics and Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Public metrics can identify excessive utilization management, inappropriate denials, delays, appeal reversals, and therapeutic areas with access problems.
+- **Specific request:** Require public reporting of drug PA metrics, underlying counts, denials after appeal, extended-timeframe outcomes, therapeutic-area reporting, repeated denials, appeal reversals, and extended delays; allow CMS to require more frequent reporting when annual data show access concerns or outlier PA use.
+
+**Topic 8: HIPAA Direct Data Entry Exception**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** Web portals remain burdensome and limit adoption of fully electronic standards-based transactions.
+- **Specific request:** Narrow the DDE exception over time, retaining portals only as limited fallbacks rather than permanent substitutes for standards-based ePA.
+
+**Topic 9: Step Therapy Reform**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Oppose / Modify
+- **Rationale:** BIO argues step therapy can delay clinically appropriate therapy, interfere with physician judgment, worsen outcomes, and cause abandonment, especially for serious illnesses and medical benefit drugs.
+- **Specific request:** Rescind the MA Part B drug step therapy policy, create evidence-based guardrails and exceptions, collect/report step therapy data, define standard data elements, improve transparency of protocols, and implement reforms quickly.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** BIO supports stronger standardization of FHIR-based transactions and mandatory implementation consistency, while urging patient-centered guardrails.
+- **S12:** BIO supports incorporating medical benefit drugs into the Prior Authorization API but asks CMS to ensure ePA does not increase inappropriate utilization management.
+- **S14:** BIO supports applying NCPDP SCRIPT, Formulary and Benefit, and Real-Time Prescription Benefit standards to non-Medicare pharmacy benefit drugs.
+- **S15:** BIO asks CMS to clarify oversight of payer drug-by-drug determinations of whether medical or pharmacy PA pathways apply and to require redirection of misrouted requests.
+- **S16:** BIO supports requiring specific denial reasons and says denials must be meaningful, actionable, clinically appropriate, and transparent to patients and providers.
+- **S17:** BIO does not focus on a specific code set but supports standardized data elements and clearer denial/step therapy reporting.
+- **S20:** BIO supports 24-hour expedited drug PA timelines and statutory alignment for Medicaid covered outpatient drugs.
+- **S21:** BIO supports the October 1, 2027 drug ePA framework but stresses that implementation must account for real-world provider workflows.
+- **S22:** BIO does not quantify NCPDP costs but supports the pharmacy benefit standards because they can streamline ePA, formulary inquiries, and real-time benefit checks.
+- **S25:** BIO supports real-time prescription benefit and formulary information and recommends near-real-time updates for formulary and PA requirements.
+- **S28:** BIO supports alignment with Part D-like NCPDP standards for non-Medicare payers while preserving patient access safeguards.
+- **S29:** BIO supports expanded PA metrics, including numerators/denominators, appeal outcomes, extended review outcomes, repeated denials, appeal reversals, extended delays, and therapeutic-area reporting.
+- **S34:** BIO says annual reporting is insufficient in some cases and recommends CMS retain authority to trigger more frequent reporting for access concerns or outlier utilization management.
+- **S35:** BIO supports public reporting but warns metrics must be interpreted in clinical context and not incentivize restrictive UM practices.
+- **S44:** BIO supports FHIR standardization as a platform for improvement but emphasizes that standardization alone will not solve inappropriate utilization management.
+- **S46:** BIO addresses coexistence with existing HIPAA workflows by urging CMS to narrow the DDE/web portal exception over time.
+- **S47:** BIO acknowledges separate HIPAA compliance timing and supports moving away from web portals over time.
+- **S50:** BIO treats FHIR-based standardization as sufficiently promising for PA improvement, while emphasizing guardrails and real-world monitoring.
+- **S53:** BIO's recommendation to narrow DDE over time implies a phased transition toward standards-based electronic transactions.
+- **S66-S82:** BIO responds extensively to the step therapy RFI, recommending data collection, continuity protections, exceptions, rescission of the MA Part B policy, and interoperability-supported transfer of step therapy history.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for drugs under both medical and pharmacy benefits.
+2. Ensure ePA does not increase inappropriate, non-clinical, or overly complex utilization management.
+3. Establish a standardized PA framework with common data elements, fields, and clinical questions that all impacted payers must accept.
+4. Require payers to honor previous PA approvals for prescription drugs when patients switch coverage.
+5. Monitor and evaluate payer decisions assigning drugs to medical or pharmacy ePA pathways.
+6. Require plans to redirect misrouted PA requests to the proper pathway when all needed information is present.
+7. Require near-real-time updates of formulary and PA requirements in API portals.
+8. Consider a 24-hour timeline for both urgent and non-urgent drug PA decisions, with oversight to prevent rushed inappropriate denials.
+9. Require clinician review and sign-off for AI-assisted denials or adverse PA determinations, disclose AI use, and explain the rationale.
+10. Require denials to be reviewed by a specialist with expertise in the patient's diagnosis.
+11. Collect public PA metrics with counts, appeal outcomes, extended-timeframe outcomes, repeated denials, appeal reversals, extended delays, and therapeutic-area breakouts.
+12. Allow more frequent reporting when annual metrics show access concerns or PA use above benchmarks.
+13. Narrow the HIPAA DDE/web portal exception over time.
+14. Rescind the Medicare Advantage Part B drug step therapy policy.
+15. Establish evidence-based step therapy guardrails, exceptions, data elements, reporting, and continuity protections.
+16. Use payer-to-payer APIs so completed step therapy and exceptions follow patients across plan transitions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Overuse and misapplication of prior authorization and step therapy; technology-enabled faster denials; payer-specific PA requirements; care delays; low appeal rates despite high appeal success; insufficient annual reporting; DDE portal reliance; opaque step therapy practices.
+- **Potential negative impacts cited:** Treatment abandonment, worsening symptoms, avoidable complications, emergency/inpatient utilization, disease progression, irreversible consequences for serious conditions, administrative burden on providers, and patient confusion.
+- **Implementation barriers mentioned:** Fragmented workflows, manual processes, duplicative documentation, inconsistent coverage rules, payer-specific forms, misrouted medical/pharmacy pathway requests, mid-year formulary changes, AI opacity, web portals, and lack of step therapy data standards.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** KFF found PA ranked as the public's biggest healthcare burden; one-third of doctors have witnessed serious adverse events from excessive PA and untimely decisions; 93% of physicians reported PA caused care delays and 82% said it can lead to treatment abandonment; 80.7% of MA PA denials were eventually overturned on appeal while only 11.5% were appealed; providers and staff spend 13 hours per week on PA requests.
+- **Studies or research referenced:** KFF polling and MA prior authorization analysis; National Organization for Rare Disorders survey; AMA prior authorization survey; IQVIA payer controls white paper; PAN Foundation State of Patient Access Report; Avalere/Advisory provider survey on Part B step therapy; CMS MA Part B step therapy policy documents.
+- **Examples provided:** Rare disease patients, cancer, autoimmune disease, rare genetic disorders, medical benefit drugs, fail-first step therapy, patients stable on current therapies, and patients changing health plans.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing prescription drugs, rare disease patients, biopharmaceutical innovators, prescribers, providers and staff, MA organizations, Medicaid/CHIP payers, QHP issuers, CMS, standards development organizations, and health plans using PA/step therapy tools.
+- **Economic implications:** Standardized ePA can reduce administrative burden and duplicative data entry, but restrictive UM can cause downstream emergency/inpatient utilization and treatment abandonment. Reporting and oversight require payer and CMS investment but may improve accountability.
+- **Technical feasibility:** BIO supports FHIR and NCPDP-based infrastructure as feasible but stresses the need for standardized data elements, near-real-time updates, pathway monitoring, and transition away from DDE portals.
+- **Patient care impact:** High. BIO argues the rule could improve access if paired with guardrails, but could worsen access if it simply makes denials and UM more efficient.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed: supportive of interoperability/ePA standardization, strongly concerned about utilization management abuse.
+- **Tone:** Professional, evidence-based, and critical.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "BIO supports CMS's proposal to require electronic prior authorization capabilities for prescription drugs." - Context: Core support for drug ePA expansion.
+2. "Faster denials or more efficient requests for additional documentation do not constitute meaningful reform from a patient perspective." - Context: Warning that ePA must improve access, not just process speed.
+3. "BIO encourages CMS to narrow the direct data entry exception over time." - Context: HIPAA/DDE recommendation.
+4. "BIO urges CMS to rescind the Part B Drug Step Therapy Policy." - Context: Step therapy RFI recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - BIO addresses October 1, 2027 implementation, decision deadlines, more frequent reporting, and rapid step therapy reforms.
+- [x] **COST-RESOURCES** - The comment cites provider staff time, administrative burden, and downstream emergency/inpatient utilization.
+- [x] **PROVIDER-BURDEN** - Provider workflow burden from forms, portals, duplicative documentation, and payer-specific fields is a major focus.
+- [x] **TECHNICAL-FEASIBILITY** - BIO discusses FHIR, NCPDP, DDE portals, standardized data elements, real-time updates, AI tools, and payer-to-payer APIs.
+- [x] **STANDARDS-MATURITY** - The comment supports standardizing ePA transactions but asks for more mature common data elements and step therapy data standards.
+- [x] **PATIENT-ACCESS** - Timely access to clinically appropriate prescription medicines is BIO's central concern.
+- [x] **TRANSPARENCY** - BIO requests transparent denial reasons, AI disclosure, PA metrics, step therapy protocols, and public reporting.
+- [x] **STAKEHOLDER-COORDINATION** - The comment calls for CMS, plans, SDOs, providers, and stakeholders to coordinate on data elements, reporting, and policy safeguards.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - BIO asks CMS to monitor and clarify drug pathway assignments and misrouted requests.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses web portals, provider PA workflows, appeals, step therapy, plan transitions, and formulary updates.
+- [x] **VENDOR-ECOSYSTEM** - AI-based PA tools, API portals, and standards-based transaction vendors are implicated by BIO's recommendations.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 15, 2026 
+ 
+The Honorable Robert F. Kennedy Jr.  
+Secretary 
+U.S. Department of Health and Human Services  
+200 Independence Avenue SW  
+Washington, DC 20201 
+ 
+The Honorable Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services  
+200 Independence Avenue SW  
+Washington, DC 20201 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated 
+Exchanges (CMSâ€“0062-P) 
+ 
+Dear Secretary Kennedy and Administrator Oz: 
+ 
+ 
+The Biotechnology Innovation Organization (BIO) appreciates the opportunity to comment 
+on the Centers for Medicare & Medicaid Servicesâ€™ (CMS) proposed rule, Medicare and 
+Medicaid Programs; Interoperability Standards and Prior Authorization for Drugs (CMSâ€“
+0062-P). 
+ 
+BIO is the premier biotechnology advocacy organization representing biotech  
+companies, industry leaders, and state biotech associations in the United States and  
+more than 35 countries around the globe. BIO members range from biotech start-ups to 
+some of the worldâ€™s largest biopharmaceutical companies, all united by the  
+same goal -- to develop medical and scientific breakthroughs that prevent and fight  
+disease, restore health, and improve patientsâ€™ lives. BIO also organizes the BIO  
+International Convention and a series of annual conferences that drive partnerships,  
+investment, and progress within the sector. 
+ 
+A central part of our mission is to ensure that patients can access clinically appropriate 
+prescription medicines in a timely manner, as prescribed by their provider.  
+ 
+ 
+Summary of BIOâ€™s Comments 
+ 
+BIOâ€™s comment...

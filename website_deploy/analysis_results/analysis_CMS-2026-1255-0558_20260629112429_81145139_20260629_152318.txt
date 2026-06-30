@@ -1,0 +1,184 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0558_20260629112429_81145139
+Commenter: American Academy of Hospice and Palliative Medicine (AAHPM)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:23:18
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Hospice and Palliative Medicine (AAHPM), signed by Kimberly Curseen, MD, FAAHPM, President.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** Represents more than 5,000 hospice and palliative medicine physicians and interdisciplinary serious-illness care professionals, including nurses, social workers, spiritual care providers, pharmacists, and other clinicians.
+
+## 2. EXECUTIVE SUMMARY
+
+AAHPM supports CMS proposals to extend electronic prior authorization standards to drugs and to require specific denial reasons, but asks CMS to strengthen timelines, transparency, enforcement, and API policy. The commenter emphasizes the serious harm that PA delays can cause for patients with serious illness, particularly for medications used to alleviate pain and distressing symptoms.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; PATIENT/PROVIDER/PAYER-TO-PAYER API drug PA data as related to FHIR-IG-REQUIRED; GENERAL RFIs on electronic event notifications, step therapy, and DMEPOS.
+- **Regulatory citations mentioned:** No CFR citations emphasized in the commenter text; references proposed October 1, 2027 implementation date and CMS-0062-P.
+- **Standards referenced:** FHIR; Da Vinci Prior Authorization API framework; NCPDP SCRIPT; NCPDP Formulary and Benefit; NCPDP Real-Time Prescription Benefit; CEHRT; APIs for Patient Access, Provider Access, and Payer-to-Payer exchange.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Drug PA requirements impose clinical burden and delay medications needed for pain and symptom relief in serious illness care.
+- **Specific request:** Finalize requirements for impacted payers to implement the Prior Authorization API for medical benefit drugs and NCPDP SCRIPT for pharmacy benefit drugs.
+
+**Topic 2: Specific Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Specific denial reasons help clinicians decide whether to seek reconsideration and are particularly important for practices lacking electronic PA capability.
+- **Specific request:** Finalize the requirement that payers provide specific reasons for drug PA denials regardless of submission method.
+
+**Topic 3: Shorter and More Uniform Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Seriously ill patients face harm when access is delayed; varying timelines by payer type are confusing and may create unequal access.
+- **Specific request:** Require 48 hours for standard non-drug requests and 24 hours for expedited non-drug requests; require 24 hours for both standard and expedited drug PA requests across impacted payers, and pursue future MA rulemaking for the same standard.
+
+**Topic 4: Prior Authorization Metrics and Granularity**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Aggregate reporting obscures meaningful patterns in PA burden and patient access barriers.
+- **Specific request:** Finalize new metrics, incorporate drugs into PA reporting, report non-drug categories, and report drug PA at the category and class level.
+
+**Topic 5: API Drug PA Data and Formulary Information**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS
+- **Position:** Support in part; Oppose in part
+- **Rationale:** Adding drug PA data to APIs can improve transparency, but removing formulary data from Provider Access and Payer-to-Payer APIs would make it harder for clinicians to identify affordable medication options.
+- **Specific request:** Add drug PA data to Patient Access, Provider Access, and Payer-to-Payer APIs; monitor burden and update physician payment policy if needed; do not remove drug formulary information from Provider Access and Payer-to-Payer APIs.
+
+**Topic 6: Electronic Event Notifications**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Hospices and palliative care teams need timely hospital event notifications but often lack CEHRT and resources.
+- **Specific request:** Clarify hospices are included as post-acute providers; encourage notifications to palliative care teams; work with Congress to fund hospice health IT investments and avoid unfunded mandates.
+
+**Topic 7: Step Therapy and DMEPOS RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Step therapy and DMEPOS PA can harm seriously ill patients and create avoidable clinician burden.
+- **Specific request:** Use payer-to-payer medication history to avoid repeated step therapy; digitize tried-and-failed OTC medication data where relevant; use technology and algorithms to reduce DMEPOS PA burden.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports technical standards for medical benefit drug PA using FHIR-based APIs and recommends finalization.
+- **S14:** Supports pharmacy benefit drug electronic PA via NCPDP SCRIPT and related NCPDP standards.
+- **S16:** Supports specific denial reasons for drug PA denials and explains their value for reconsideration decisions.
+- **S20:** Recommends a 24-hour decision timeframe for both standard and expedited drug-related PA requests across impacted payers.
+- **S21:** Supports implementation but highlights practice burden and the need for monitoring and enforcement.
+- **S28:** Requests future MA alignment so drug PA decisions are due within 24 hours.
+- **S29/S34/S35:** Supports updated metrics but recommends greater granularity by service category and drug category/class.
+- **S66-S82:** Responds to RFIs on event notifications, step therapy, and DMEPOS by recommending hospice/palliative inclusion, continuity protections, and technology-enabled burden reduction.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for drugs using FHIR APIs or NCPDP SCRIPT depending on benefit type.
+2. Finalize specific denial reason requirements for drug PA denials regardless of submission method.
+3. Adopt shorter, uniform decision timeframes: 48/24 hours for non-drug requests and 24 hours for drug requests.
+4. Expand PA metric reporting to service categories and drug category/class levels.
+5. Add drug PA information to Patient Access, Provider Access, and Payer-to-Payer APIs.
+6. Retain formulary information in Provider Access and Payer-to-Payer APIs.
+7. Clarify hospice and palliative care team inclusion in electronic event notifications and fund needed health IT capacity.
+8. Use interoperability to prevent repeated step therapy and reduce DMEPOS PA burden.
+9. Establish strong enforcement mechanisms to ensure payer compliance.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays for serious-illness medications; inconsistent decision timeframes; inadequate granularity in PA reporting; removal of formulary API data; unfunded hospice IT burden.
+- **Potential negative impacts cited:** Delayed symptom relief, patient harm, increased clinician burden, confusion across payer types, and continued workflow fragmentation.
+- **Implementation barriers mentioned:** Lack of hospice/palliative CEHRT, vendor gaps, technology upgrade costs, payer compliance, and physician practice capacity.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** A single PA request can take an hour or more of physician or clinical staff time.
+- **Studies or research referenced:** No external study is central to the argument; the comment relies on clinical experience and member reports.
+- **Examples provided:** Serious illness medications such as long-acting opioids, anti-emetics, bowel medications; DMEPOS needs including walkers, wheelchairs, and hospital beds.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospice and palliative care clinicians, seriously ill patients and families, payers, hospitals, hospices, pharmacies, and EHR vendors.
+- **Economic implications:** Potential increased costs for practices and hospices from API implementation and event notification infrastructure; potential reduced administrative burden if PA is streamlined.
+- **Technical feasibility:** Supportive of standards but concerned about uneven CEHRT availability and implementation burden.
+- **Patient care impact:** Strongly positive if finalized with modifications; shorter timeframes and better transparency would reduce delays in pain, symptom, medication, and equipment access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications.
+- **Tone:** Professional, clinical, collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "A single prior authorization request can take an hour or more of physician or clinical staff time to process" - Context: Explaining burden on hospice and palliative practices.
+2. "Finalizing this proposal would give providers clearer information when assessing whether to seek a reconsideration" - Context: Supporting specific denial reasons.
+3. "Each day of treatment delay can result in increased harm" - Context: Justifying shorter PA decision timeframes for seriously ill patients.
+4. "No one enters a profession in health care aiming to devote their time to duplicative paperwork" - Context: Describing workforce impact of PA.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests shorter decision timeframes and future MA alignment.
+- [x] **COST-RESOURCES** - Discusses IT costs, CEHRT gaps, and physician practice burden.
+- [x] **PROVIDER-BURDEN** - Central concern across drug PA, DMEPOS, step therapy, and event notifications.
+- [x] **TECHNICAL-FEASIBILITY** - Notes CEHRT limitations and API implementation implications.
+- [x] **STANDARDS-MATURITY** - Supports FHIR and NCPDP standards while requesting monitoring.
+- [x] **PATIENT-ACCESS** - Emphasizes serious harm from medication and DMEPOS delays.
+- [x] **STAKEHOLDER-COORDINATION** - Requests CMS, Congress, hospices, hospitals, vendors, and payers coordinate.
+- [x] **TRANSPARENCY** - Supports denial reasons, PA metrics, and drug PA API data.
+- [x] **EXISTING-WORKFLOWS** - Focuses on practice workflows, formularies, event notifications, and electronic PA integration.
+- [x] **VENDOR-ECOSYSTEM** - Discusses lack of hospice/palliative CEHRT and vendor development gaps.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services  
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+The Honorable Thomas Keane, MD, MBA 
+National Coordinator for Health Information Technology 
+Office of the National Coordinator for Health Information Technology 
+330 C Street SW 
+Washington, DC 20201 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior 
+Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children’s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on 
+the Federally-Facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Oz and National Coordinator Keane: 
+ 
+On behalf of the more than 5,000 members of the American Academy of 
+Hospice and Palliative Medicine (AAHPM), thank you for the opportunity 
+to comment in response to the Interoperability Standards and Prior 
+Authorization for Drugs proposed rule referenced above. AAHPM is the 
+professional organization for physicians specializing in Hospice and 
+Palliative Medicine (HPM). Our membership also includes nurses, social 
+workers, spiritual care providers, pharmacists, and other health 
+professionals deeply committed to improving quality of life for the 
+expanding population of patients facing serious illness as well as their 
+families and caregivers. Together, we strive to advance the field and 
+ensure that patients across all communities and geographies have access 
+to high-quality palliative and hospice care.  
+ 
+ 
+Overall, AAHPM appreciates CMS’s proposals that extend prior authorization standards and electronic 
+prior authorization processing requirements to drugs covered by impacted payers.  Prior authorization 
+requirements for drugs contribute to significant burden for our members – and potential har...

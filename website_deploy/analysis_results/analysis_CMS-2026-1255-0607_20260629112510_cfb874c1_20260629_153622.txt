@@ -1,0 +1,91 @@
+# Comment Analysis: CMS-2026-1255-0607_20260629112510_cfb874c1
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** CVS Health; signed by Melissa Schulman, Senior Vice President, Government & Public Affairs
+- **Stakeholder type:** Payer; PBM/pharmacy/provider organization; health care company
+- **Credentials or expertise mentioned:** CVS Health serves millions through local and digital channels and employs nearly 300,000 colleagues, including more than 40,000 physicians, pharmacists, nurses, and nurse practitioners.
+
+## 2. EXECUTIVE SUMMARY
+
+CVS Health supports CMS's interoperability goals but argues the proposed October 1, 2027 compliance date is not feasible and should be no earlier than January 1, 2028, with at least six months after final technical specifications. It asks CMS to align the PA pathway for medical-benefit drugs with the eventual billing pathway, promote provider adoption, keep FHIR requirements clear and stable, create a version transition framework, preserve state/timeframe flexibility, and prioritize percentage-based reporting with contextual narrative. CVS also provides cybersecurity/resiliency recommendations focused on identity, data minimization, privileged access, governance, and HIPAA/NIST modernization.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; MEDICAL-VS-PHARMACY-BENEFIT; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** 91 FR 19890; HIPAA.
+- **Standards referenced:** FHIR Release 4 (R4); FHIR APIs; Prior Authorization API; NCPDP SCRIPT; NCPDP Formulary and Benefit (F&B) V60; NCPDP Real-Time Prescription Benefits V13; Real-Time Benefit (RTB); EHR systems; Payer-to-Payer consent management; NIST digital identity guidelines.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Compliance timeline**
+- **Provision ID:** IMPLEMENTATION-TIMELINE
+- **Position:** Modify
+- **Rationale:** Final build, scaling, end-to-end testing, and technical-specification finalization cannot be completed by October 1, 2027.
+- **Specific request:** Set compliance no earlier than January 1, 2028, include at least six months after final technical specifications before enforcement, and align compliance dates across federal interoperability and electronic transaction initiatives.
+
+**Topic 2: Medical versus pharmacy benefit pathway**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify/Modify
+- **Rationale:** Medical-benefit drug workflows are less mature than pharmacy workflows, differ by code set and site of care, and may create duplication across PBMs and plans or ambiguous Part B/Part D routing.
+- **Specific request:** Align the PA pathway for drugs under a medical benefit with the method used for eventual billing and clarify key definitions, including “administrative documentation.”
+
+**Topic 3: Provider adoption of ePA APIs**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Payer investment will not yield efficiency unless providers and EHR vendors adopt and integrate the ePA API at scale.
+- **Specific request:** Use 2027 to validate non-drug ePA API implementation, encourage provider adoption, align payer and vendor compliance dates, and support vendor accountability for workflow integration.
+
+**Topic 4: FHIR standards stability and versioning**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** A version-neutral approach could be difficult to manage, and future versions may include functional changes that strain implementation.
+- **Specific request:** Retain a single named base FHIR standard in regulation, currently R4; specify capabilities of required IGs by API; reassess the January 1, 2028 expiration date based on future functional changes; and provide clear transition periods.
+
+**Topic 5: NCPDP version transition framework**
+- **Provision ID:** PA-DRUG-PHARMACY; ONC-STANDARDS-UPDATE
+- **Position:** Clarify/Modify
+- **Rationale:** Stakeholders need predictable version rules and notice of breaking changes.
+- **Specific request:** Identify active versions such as NCPDP F&B V60 and RTPB V13, use a major/minor/patch methodology, set SCRIPT compliance to 2028, and accompany future IG updates with transparent testing, FAQs, guidance, and transition periods.
+
+**Topic 6: 24-hour turnaround time and clock pauses**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Oppose/Modify
+- **Rationale:** State Medicaid timeframes vary, medical-benefit drug workflows often need additional clinical data, and compressed timelines could increase administrative denials and appeals.
+- **Specific request:** Do not expand the 24-hour TAT beyond current scope; if expanded, delay compliance to no earlier than January 1, 2028; start the clock only after a complete request and confirmed coverage pathway; allow pauses when clinically necessary information has been requested but not received.
+
+**Topic 7: Prior authorization reporting metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Raw counts lack context and can produce misleading comparisons across plans of different sizes; average/median review time may add burden without meaningful value.
+- **Specific request:** Prioritize percentage-based reporting, allow contextual narrative including top denial reasons, remove average and median standard drug PA review time reporting, and address differing definitions across states before expanding reporting.
+
+**Topic 8: Healthcare resiliency and cybersecurity RFI**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Health care faces increasing cyber threats and fragmented regulatory requirements while exchanging large volumes of data.
+- **Specific request:** Reduce reliance on static identifiers; support changeable assignable identifiers; govern data-sharing connections and minimize exchange; require privileged access management; require technology governance routines; support digital consumer identity and HIPAA/NIST modernization; create a payer-to-payer consent safe harbor for authenticated online workflows.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2/S3/S18:** Supports clear required FHIR standards but asks CMS to retain stable named standards, specify active versions, define capabilities by API, and provide a version transition framework.
+- **S12:** Describes significant operational and technical challenges of expanding the Prior Authorization API to medical-benefit drugs.
+- **S15:** Requests aligning the PA pathway with eventual billing because medical and pharmacy benefit distinctions are immature and variable.
+- **S20:** Opposes expanding the 24-hour turnaround requirement and urges state/timeframe flexibility and preservation of pend periods.
+- **S21:** States October 1, 2027 is infeasible and recommends compliance no earlier than January 1, 2028 with six months after technical specifications.
+- **S22:** Requests SCRIPT compliance in 2028 to allow adequate implementation time and alignment with other NCPDP updates.
+- **S29/S34/S35:** Recommends percentage-based reporting, contextual narrative, and caution about raw counts and cross-payer comparisons.
+- **S60-S65:** Addresses standards update/versioning by requesting active versions, transition guidance, testing, FAQs, and reassessment of expiration dates.
+- **S66-S82:** Responds to the healthcare resiliency RFI with identity, data minimization, privileged access, governance, and HIPAA/NIST modernization recommendations.
+
+## 6. THEMES
+
+IMPLEMENTATION-TIMELINE; TECHNICAL-FEASIBILITY; STANDARDS-MATURITY; MEDICAL-VS-PHARMACY-BENEFIT; EXISTING-WORKFLOWS; API-USAGE-METRICS; PRIVACY-SECURITY; STAKEHOLDER-COORDINATION.
+
+## 7. OVERALL POSITION
+
+Support with substantial modifications and timeline delay.
+
+## 8. PRIORITY / NOTES
+
+High priority. Major payer/PBM/provider-organization perspective emphasizing operational feasibility, provider adoption, version stability, and Medicaid/state variability.

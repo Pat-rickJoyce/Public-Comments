@@ -1,0 +1,99 @@
+# Comment Analysis: CMS-2026-1255-0620
+
+## 1. COMMENTER INFORMATION
+- **Author/Organization name:** AHIP
+- **Stakeholder type:** Payer / Professional Association
+- **Credentials or expertise mentioned:** National association representing health insurance plans covering over 205 million Americans across Medicare, Medicaid, employer-sponsored coverage, and the individual market.
+
+## 2. EXECUTIVE SUMMARY
+AHIP supports extending electronic prior authorization requirements to drugs, but argues CMS must balance innovation with implementation feasibility and regulatory stability. Its core requests are a 24-month post-final-rule compliance timeline, no premature mandatory IG versions, deferral of endpoint reporting, stronger provider adoption incentives, and narrower, contextualized metrics.
+
+## 3. REGULATORY CONTEXT
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; FF-SHOP-REQUIREMENTS; GENERAL.
+- **Regulatory citations mentioned:** 45 CFR 170.215; 5 U.S.C. 706(2)(c); Paperwork Reduction Act; HIPAA Privacy and Security Rules; ONC Health IT Certification Program; MIPS; Promoting Interoperability; Medicare Conditions of Participation.
+- **Standards referenced:** FHIR R4; HL7 Da Vinci CRD, DTR, PAS; US Core; CARIN IG for Blue Button; CARIN RTPBC IG; NCPDP standards; X12 278; X12 270/271; CAQH operating rules; FAST Security IG; NDH IG Endpoint Profile; Inferno; SVAP; CDex; TEFCA.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Drug prior authorization implementation timeline**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Plans are still implementing non-drug ePA APIs and need time to validate those workflows before adding drug-specific complexities, including medical/pharmacy benefit routing and PBM coordination.
+- **Specific request:** Set compliance at 24 months after the final rule effective date instead of October 1, 2027.
+
+**Topic 2: Medical versus pharmacy benefit distinction and unified authorizations**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** Providers may not know the correct benefit pathway at ordering, and rigid separation could fragment oncology and other regimen-level care.
+- **Specific request:** Clarify routing and permit unified prior authorizations for integrated regimens, protocols, and episodes of care.
+
+**Topic 3: Mandatory FHIR IGs and version management**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Specific versions, especially Da Vinci CRD/DTR/PAS 2.0, may be outdated or immature, and IGs can impose policy beyond rulemaking.
+- **Specific request:** Do not require specific CRD/DTR/PAS versions now; retain a named base FHIR standard; specify applicable IG capabilities by API; provide stable transition rules.
+
+**Topic 4: Provider adoption of ePA**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Payer investments will not reduce burden unless providers and EHR vendors adopt and use the API in production.
+- **Specific request:** Move from attestation to performance-based measures, eventually consider a Medicare CoP, and align EHR certification and incentives with payer API requirements.
+
+**Topic 5: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** There is no single national taxonomy across X12, CAQH, CMS, and proprietary codes; vendors need time for reconfiguration and testing.
+- **Specific request:** Set October 1, 2028 compliance, create an SDO-maintained denial reason taxonomy, issue detailed guidance, align with NCQA, and phase implementation where vendor constraints exist.
+
+**Topic 6: Drug PA timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Compressed timeframes without complete electronic submissions may increase denials, appeals, and patient safety risks.
+- **Specific request:** Apply 24-hour response only for complete ePA submissions; measure timeframes from complete request receipt; allow clock pauses for missing information; make October 1, 2028 the earliest compliance date.
+
+**Topic 7: Payer endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Oppose / Defer
+- **Rationale:** CMS has not fully explained legal authority, data scope, governance, PRA implications, publication format, validation, security risks, or complex payer hierarchy representation.
+- **Specific request:** Do not finalize mandatory endpoint reporting in this rule; issue a comprehensive proposed rule. If CMS proceeds, use NDH Endpoint resources and clarify treatment of brands, affiliates, lines of business, delegates, and state-specific models.
+
+**Topic 8: Prior authorization and API metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Detailed metrics before APIs stabilize may be inconsistent and burdensome; raw counts can mislead because plan size differs.
+- **Specific request:** Use narrow initial metrics, maintain percentages rather than raw counts, permit contextual narrative, and delay drug reporting changes until at least 2029 reporting using 2028 data.
+
+**Topic 9: HIPAA prior authorization standards**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** FHIR can modernize transactions, but broad HIPAA-covered entity adoption requires clear authority, phased implementation, coexistence rules, and alignment with X12/NCPDP workflows.
+- **Specific request:** Finalize a carefully phased FHIR transition for prior authorization, avoid overbroad scope, and provide testing, guidance, and implementation flexibility.
+
+**Topic 10: ONC certification and payer API testing**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** ONC can support testing, but formal payer certification may exceed statutory authority and create inappropriate information-blocking implications.
+- **Specific request:** Support robust voluntary testing outside the statutory certification program, including test tools for all unexpired IG versions, technical assistance, and payer-focused forums.
+
+## 5. SOLICITATION RESPONSES
+- **S1-S3, S18, S32, S37:** Supports standardization but opposes premature mandatory versions; requests API-specific capability scoping and coordinated CMS/ONC transitions.
+- **S12, S15, S21, S28:** Requests more time and flexibility for drug ePA, especially benefit routing and unified episode-level authorizations.
+- **S14, S19, S22, S25, S31:** Requests alignment with NCPDP/PBM infrastructure, EHR vendor readiness, and continued exclusion of FFE stand-alone dental plans.
+- **S16-S17:** Supports clear denial reasons with a later date, national taxonomy, NCQA alignment, and guidance.
+- **S20, S43:** Opposes broad 24-hour decision timelines absent complete electronic submissions and requests clock pauses and complete-request definitions.
+- **S23-S24, S26-S27, S33:** Requests deferral of endpoint reporting pending authority, governance, data scope, privacy/security, and PRA process.
+- **S29-S30, S34-S35:** Requests narrow, phased usage metrics with privacy protections and implementation experience first.
+- **S44-S56:** Supports modernization but urges careful phasing, scope limits, testing, authority analysis, and coexistence planning.
+- **S60-S65:** Requests predictable ONC standards updates and voluntary testing support rather than payer certification mandates.
+
+## 6. THEME TAXONOMY
+IMPLEMENTATION-TIMELINE; COST-RESOURCES; PROVIDER-BURDEN; TECHNICAL-FEASIBILITY; STANDARDS-MATURITY; REGULATORY-AUTHORITY; STAKEHOLDER-COORDINATION; EXISTING-WORKFLOWS; VENDOR-ECOSYSTEM; TRANSPARENCY; MEDICAL-VS-PHARMACY-BENEFIT.
+
+## 7. STAKEHOLDER IMPACT
+The comment primarily reflects payer concerns but emphasizes impacts on providers, PBMs, EHR vendors, clearinghouses, SDOs, patients, and all HIPAA covered entities if FHIR prior authorization standards are adopted broadly.
+
+## 8. KEY REQUESTS
+Set a 24-month post-final-rule compliance timeline, do not require immature or outdated IG versions, defer endpoint reporting, require provider adoption incentives, use narrower metrics, and implement HIPAA/FHIR transitions in phases.
+
+## 9. OVERALL POSITION
+Support with significant modifications.

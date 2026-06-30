@@ -1,0 +1,188 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0545
+Commenter: National Association of Medicaid Directors
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:09:47
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Association of Medicaid Directors (NAMD); signed by Stuart Portman, NAMD Board President and Georgia Medicaid Director, and Lee Grossman, NAMD Board President Elect and Iowa Medicaid Director
+- **Stakeholder type:** Government / Professional Association
+- **Credentials or expertise mentioned:** Nonpartisan professional community of Medicaid leaders serving nearly 70 million people through Medicaid and CHIP across states, D.C., and territories; supports over 500 Medicaid policy leaders.
+
+## 2. EXECUTIVE SUMMARY
+
+NAMD supports CMS's goals for interoperability, streamlined prior authorization, and improved information exchange, but argues that the proposed timeline is not feasible for Medicaid agencies facing major system, budget, procurement, legislative, and vendor-capacity constraints. NAMD asks CMS to extend implementation by at least three years, prioritize core functionality before reporting, provide enhanced systems match and technical assistance, allow flexible compliance pathways, account for PBM/vendor market limitations, create open-source Medicaid reference implementations, and revise 24-hour requirements to align with real-world Medicaid operations.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; API-USAGE-METRICS; FHIR-IG-REQUIRED; STATE-EXTENSION-PROCESS; PA-TIMEFRAMES-DRUGS; GENERAL.
+- **Regulatory citations mentioned:** None cited directly.
+- **Standards referenced:** FHIR; X12; NCPDP; Patient Access API; Payer-to-Payer API; Prior Authorization APIs; health information network connectivity.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medicaid Implementation Timeline**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY / FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Medicaid agencies are simultaneously implementing prior CMS interoperability rules, H.R. 1/Working Families Tax Cut Legislation changes, state legislative requirements, procurement changes, budget constraints, and major systems modernization.
+- **Specific request:** Extend implementation by at least three years, prioritize core functionality first, and delay reporting requirements until implementation experience matures.
+
+**Topic 2: Funding and Enhanced Federal Match**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Implementation requires Medicaid enterprise system changes, vendor contracts, staff capacity, and technical resources.
+- **Specific request:** Provide enhanced systems match to support implementation to the fullest extent possible.
+
+**Topic 3: Alternative Compliance Pathways for Existing Networks**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify / Modify
+- **Rationale:** Existing health information networks already use FHIR, X12, and NCPDP connections and may already support electronic PA workflows.
+- **Specific request:** Clarify whether pharmacy vendor integrations with health information networks satisfy NCPDP requirements and whether agencies may rely on vendor documentation instead of payer-specific documentation.
+
+**Topic 4: PBM Infrastructure Exemption, Extension, and Reference Implementation**
+- **Provision ID:** STATE-EXTENSION-PROCESS / PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** PBM vendor markets are concentrated; smaller Medicaid agencies may lack vendor responses or appropriations for mid-procurement changes.
+- **Specific request:** Establish exemption/extension processes that account for vendor market availability, provide targeted technical assistance and enhanced match clarification, assess vendor capacity before final compliance dates, and develop an open-source Medicaid pharmacy-benefit reference implementation.
+
+**Topic 5: Managed Care Reporting Pathway**
+- **Provision ID:** API-USAGE-METRICS / FHIR-IG-REQUIRED
+- **Position:** Clarify / Modify
+- **Rationale:** Medicaid agencies need to know whether MCOs must build their own Prior Authorization APIs or report through the state Medicaid API; uncertainty could cause duplicate builds and contract amendments.
+- **Specific request:** Allow state/territory Medicaid agencies to designate a consolidated reporting pathway through the Medicaid API and provide local-market flexibility.
+
+**Topic 6: Data Reporting and 24-Hour Compliance Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS / API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Overnight batch processing, PBM data exchange, MMIS updates, weekends, holidays, and late-day requests may make one-business-day or 24-hour requirements operationally infeasible.
+- **Specific request:** Incorporate business-day standards and consider two-business-day timeframes across applicable provisions; adopt a principles-based compliance framework based on practical implementation realities and demonstrated progress.
+
+**Topic 7: Technical Assistance, Guidance, and Open-Source Tools**
+- **Provision ID:** GENERAL / FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** States need support on workforce/vendor readiness, implementation guidance, training, cross-state learning, and compliance questions.
+- **Specific request:** Provide technical assistance; partner with vendors; offer FHIR training; move technical details into sub-regulatory guidance where possible; pair guidance with model open-source software; create reference implementations for Patient Access API and Payer-to-Payer API; hold office hours, listening sessions, FAQs, and supplemental guidance.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12 / S14 / S19:** NAMD identifies Medicaid-specific implementation challenges for drug PA standards, especially procurement, vendor contracts, PBM readiness, and operational capacity.
+- **S21:** NAMD argues the proposed timeline is not achievable for Medicaid agencies and requests at least a three-year extension.
+- **S22:** NAMD raises cost and procurement concerns related to NCPDP and PBM infrastructure, especially for smaller agencies.
+- **S25:** NAMD seeks clarity on whether existing health information network connections can satisfy NCPDP requirements.
+- **S29-S35:** NAMD asks CMS to delay reporting requirements until core functionality matures, account for data latency, publish existing API usage, and allow consolidated Medicaid reporting pathways.
+- **S36 / S38:** NAMD supports extension/exemption processes that account for state/territory readiness and vendor market availability, with targeted technical assistance and federal match clarification.
+- **S37:** NAMD describes implementation challenges including procurement, contracts with MCOs/PBMs/fiscal agents, vendor capacity, workforce constraints, FHIR training, and overlapping federal/state initiatives.
+- **S43:** NAMD requests revised 24-hour timeframes and recommends business-day or two-business-day standards to accommodate batch processing and clinical complexity.
+- **S60-S65:** NAMD supports sub-regulatory guidance, open-source resources, and reference implementations to manage technical details and future standards changes.
+
+## 6. RECOMMENDATIONS
+
+1. Extend implementation timelines by at least three years.
+2. Prioritize core functionality first and delay reporting requirements until experience matures.
+3. Provide enhanced systems match to support Medicaid implementation.
+4. Clarify whether existing health information network/vendor integrations satisfy NCPDP standard requirements.
+5. Allow agencies to reference vendor documentation where appropriate rather than maintaining redundant payer-specific materials.
+6. Structure the final rule with outcomes-based flexibility rather than a single prescribed technical pathway.
+7. Issue sub-regulatory guidance, guidance letters, and open-source resources before compliance deadlines.
+8. Establish exemption and extension processes accounting for PBM/vendor market availability.
+9. Assess vendor capacity before finalizing compliance dates.
+10. Develop or facilitate a Medicaid reference implementation for pharmacy benefits.
+11. Allow consolidated reporting through state/territory Medicaid APIs where appropriate.
+12. Build flexibility into reporting expectations to account for data latency and vendor/MCO/PBM challenges.
+13. Replace rigid 24-hour requirements with business-day standards, potentially two business days where operationally appropriate.
+14. Provide technical assistance on workforce readiness, vendor readiness, implementation guidance, training, cross-state learning, and operational questions.
+15. Partner with vendors and facilitate FHIR training.
+16. Develop reference implementations for Patient Access API and Payer-to-Payer API.
+17. Establish office hours, listening sessions, FAQs, supplemental guidance, and other ongoing state engagement mechanisms.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Timeline infeasibility, insufficient state and vendor capacity, procurement and contract constraints, PBM vendor concentration, duplicative MCO infrastructure, data latency, and lack of operational clarity.
+- **Potential negative impacts cited:** Increased denials if 24-hour decisions are rushed, provider frustration, delayed access to care when additional clinical information is needed, duplicative builds, costly contract amendments, and underutilized APIs.
+- **Implementation barriers mentioned:** H.R. 1 implementation, state legislative requirements, budget constraints, procurement requirements, MCO/PBM/fiscal agent contracts, MMIS modifications, batch processing, PBM data exchange delays, holidays/weekends, workforce shortages, and vendor capacity.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NAMD represents Medicaid programs covering nearly 70 million people and supports more than 500 Medicaid policy leaders.
+- **Studies or research referenced:** CMS Medicaid and CHIP Policy Implementation Roadmap; CMS software reuse policy and open-source software strategy; Eligibility Made Easy (Emmy) tool as an example of open-source implementation support.
+- **Examples provided:** Procurement delays, contract amendments with MCOs/PBMs/fiscal agents, states requesting additional time for current interoperability rules, concentrated PBM vendor market, overnight batch processing, and pharmacy data received from PBMs often taking two business days.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** State and territory Medicaid agencies, Medicaid members, CHIP agencies, MCOs, PBMs, fiscal agents, pharmacy vendors, health information networks, CMS, state legislatures, and Medicaid IT staff.
+- **Economic implications:** Significant implementation costs from procurement, contract amendments, vendor builds, MMIS changes, workforce training, and potential duplicative infrastructure; enhanced federal match could mitigate costs.
+- **Technical feasibility:** Feasible only with longer timelines, flexible pathways, technical assistance, open-source reference implementations, vendor capacity assessments, and realistic data-reporting timeframes.
+- **Patient care impact:** NAMD supports timely access and administrative burden reduction, but warns rigid decision deadlines could increase denials or delay care when additional clinical information is needed.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned / Supportive with major modifications
+- **Tone:** Professional, operational, pragmatic, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Medicaid agencies share CMS’ goals of improving interoperability, streamlining prior authorization processes, and promoting informed decision-making." - Context: Opening support for CMS's objectives.
+2. "CMS should extend the implementation period and provide Medicaid agencies with tailored technical assistance and other implementation resources." - Context: Central thesis of the comment.
+3. "Extend the implementation timeline for these provisions by at least three years." - Context: Specific implementation timeline recommendation.
+4. "CMS should consider adopting a two-business-day timeframe across applicable provisions." - Context: Operational concern about 24-hour/one-business-day requirements.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Central theme; requests at least a three-year extension and revised timeframes.
+- [x] **COST-RESOURCES** - Discusses budget constraints, enhanced systems match, procurement, contract amendments, and workforce/vendor resources.
+- [x] **TECHNICAL-FEASIBILITY** - Focuses on FHIR, NCPDP, network connectivity, MMIS updates, batch processing, vendor capacity, and API implementation.
+- [x] **STANDARDS-MATURITY** - Requests sub-regulatory guidance and open-source resources to manage changing standards and technical details.
+- [x] **PATIENT-ACCESS** - Supports timely access but warns compressed deadlines could cause inappropriate denials or delays.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS-state-vendor collaboration, cross-state learning, office hours, FAQs, and NAMD convening support.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Addresses medical-benefit drug denials, PBM infrastructure, pharmacy benefit standards, and complex outpatient-administered treatments.
+- [x] **TRANSPARENCY** - Requests publication of existing API usage and clarity on reporting pathways.
+- [x] **SMALL-PAYER-IMPACT** - Highlights smaller Medicaid agencies' difficulty obtaining PBM vendor responses and procurement support.
+- [x] **EXISTING-WORKFLOWS** - Addresses current Medicaid batch processing, MMIS, PBM exchange, contracts, and procurement workflows.
+- [x] **VENDOR-ECOSYSTEM** - Extensive focus on PBMs, vendors, health information networks, MCOs, fiscal agents, and vendor readiness.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+ 
+ 
+June 15, 2026 
+ 
+Dr. Mehmet Oz  
+Administrator  
+The Centers for Medicare and Medicaid Services  
+7500 Security Boulevard  
+Baltimore, MD 21244  
+ 
+Dear Administrator Oz, 
+ 
+On behalf of the nation’s Medicaid Directors, the National Association of Medicaid Directors 
+(NAMD) is pleased to offer comments on the 2026 CMS Interoperability Standards and Prior 
+Authorization for Drugs (CMS-0062-P) proposed rule. This rule builds on prior rulemaking around 
+interoperability, access, and prior authorization, to expand many of those requirements to cover 
+prior authorization for drugs.  
+ 
+Medicaid agencies share CMS’ goals of improving interoperability, streamlining prior authorization 
+processes, and promoting informed decision-making through the exchange and use of health 
+information. Over the past several years, Medicaid agencies have made significant investments 
+to modernize legacy systems, strengthen data exchange capabilities, implement interoperability 
+requirements, and explore emerging technologies, including artificial intelligence-enabled tools, 
+to improve program administration and the Medicaid member experience. 
+However, Medicaid agencies have concerns about the feasibility of implementing these provisions 
+on the proposed timeline while simultaneously undertaking major systems and policy 
+transformations related to H.R. 1, otherwise known as the Working Families Tax Cut Legislation 
+or One Big Beautiful Bill Act; navigating budget constraints; managing procurement processes; 
+and implementing requirements from prior interoperability rulemaking. To support successful 
+implementation and advance the intended goals of the rule, CMS should extend the 
+implementation period and provide Medicaid agencies with tailored technical assistance 
+and other implementation resources. 
+NAMD is a nonpartisan, professional community of leaders who provide health insurance to nearly 
+70 million people through Medicaid and CHIP in the states, D.C., and the U.S. terri...

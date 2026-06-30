@@ -1,0 +1,155 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0590_20260629112046_003215d8
+Commenter: Regeneron Pharmaceuticals, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:33:30
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Regeneron Pharmaceuticals, Inc.; Maya Bermingham, Senior Vice President, Regeneron Public Policy & Government Affairs
+- **Stakeholder type:** Other / pharmaceutical manufacturer / biotechnology company
+- **Credentials or expertise mentioned:** Regeneron is a biotechnology company developing and commercializing medicines for serious diseases, including eye diseases, inflammatory diseases, cancer, cardiovascular/metabolic diseases, neurological diseases, hematologic conditions, infectious diseases, and rare diseases.
+
+## 2. EXECUTIVE SUMMARY
+
+Regeneron responds primarily to CMS's Step Therapy RFI and urges CMS to rescind the Medicare Advantage Part B step therapy regulation at 42 CFR 422.136. It argues that MA step therapy for Part B drugs violates the Medicare statute by allowing restrictions not found in Original Medicare, and asks CMS to issue interim sub-regulatory guidance prohibiting MA plans from requiring patients to fail on more than one drug before accessing the physician's selected therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; HIPAA-PA-STANDARDS not directly; PA-DRUG-MEDICAL indirectly through Part B drugs and step therapy; REGULATORY-AUTHORITY theme.
+- **Regulatory citations mentioned:** 42 CFR 422.136; SSA §§ 1832(a)(1), 1852(a)(1), 1852(c)(1)(G), 1852(c)(2)(B), 1861(s)(2); 42 CFR 422.4(a)(1)(ii); 42 CFR 422.136(b)(11); 5 USC 553; 84 FR 23832; 84 FR 23853; 84 FR 23860; 84 FR 23864; 90 FR 20478; 91 FR 19890; 91 FR 20013; references to Loper Bright, Chevron, Whitman, Erringer, Flagstaff, and Chao.
+- **Standards referenced:** Step therapy technology generally; no FHIR IG, NCPDP, or API standards discussed in detail.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Rescind MA Part B step therapy regulation**
+- **Provision ID:** GENERAL
+- **Position:** Oppose current regulation / rescind
+- **Rationale:** Regeneron argues that 42 CFR 422.136 permits MA plans to impose step therapy restrictions on Part B drugs not imposed in Original Medicare, contrary to the statutory requirement that MA plans provide the same Part A and B benefits as Original Medicare.
+- **Specific request:** Initiate notice-and-comment rulemaking to rescind 42 CFR 422.136.
+
+**Topic 2: Statutory authority and post-Loper Bright review**
+- **Provision ID:** GENERAL
+- **Position:** Oppose / legal challenge
+- **Rationale:** The commenter says disclosure provisions about utilization management do not create substantive authority to withhold a covered Part B drug, and that the regulation cannot survive the best-reading standard after Loper Bright.
+- **Specific request:** Apply the Administration's regulatory review directive to identify and repeal unlawful regulations, including 42 CFR 422.136.
+
+**Topic 3: Interim guidance limiting multiple-step protocols**
+- **Provision ID:** GENERAL
+- **Position:** Modify pending rescission
+- **Rationale:** Rulemaking will take time, and protocols requiring failure on multiple drugs impose the greatest burden and harm. The regulation does not specify the number of steps, creating room for interpretive guidance.
+- **Specific request:** Issue sub-regulatory guidance clarifying that MA plans may not require a patient to try and fail more than one drug before covering the physician's originally prescribed therapy.
+
+**Topic 4: Patient harm and provider burden from step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Oppose harmful step therapy
+- **Rationale:** Multiple-step protocols substitute plan preferences for physician judgment, delay effective treatment, and may be especially dangerous for progressive diseases.
+- **Specific request:** Recognize the excessive burdens and risks of multiple-step policies and act immediately to curtail them.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment responds to the Step Therapy RFI by arguing that technology cannot fix the underlying legal and policy flaw of MA Part B step therapy. It requests rescission of 42 CFR 422.136 and interim guidance barring more than one required step.
+- **S52 (regulatory authority, by analogy):** Although not responding to HIPAA-PA-STANDARDS, the comment raises statutory authority concerns under the MA statute and administrative law.
+- **S53/S55 (phasing/enforcement, by analogy):** Requests interim sub-regulatory guidance while notice-and-comment rescission proceeds.
+
+## 6. RECOMMENDATIONS
+
+1. Rescind 42 CFR 422.136 through notice-and-comment rulemaking.
+2. Recognize that MA plans must furnish the same Part B drug benefits as Original Medicare and should not impose step therapy restrictions absent from Original Medicare.
+3. Issue immediate sub-regulatory guidance clarifying that the current regulation does not permit multiple-step step therapy protocols for Part B drugs.
+4. Specifically prohibit MA plans from requiring patients to fail on more than one drug before receiving the physician's first-choice therapy.
+5. Explain in guidance that multiple-step policies impose excessive burdens, risks, and negative health consequences, particularly for progressive disease.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Lack of statutory authority for MA Part B step therapy, inferior MA benefit compared with Original Medicare, multiple-step protocols, plan intrusion into physician judgment, and delays to life-transforming or life-saving drugs.
+- **Potential negative impacts cited:** Delayed access, ineffective initial treatment, treatment abandonment, severe side effects, disease progression, irreversible damage, and provider burden.
+- **Implementation barriers mentioned:** Notice-and-comment rescission will take time; MA enrollment is large and growing; current protocols already impose harm.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** KFF reporting that 54% of eligible Medicare beneficiaries were enrolled in MA in 2025 and CMS February 2026 enrollment data showing just over 35 million MA enrollees; CBO projection that MA share will reach 64% by 2034; 2025 AMA survey reporting 75% of physicians saw ineffective initial treatment due to step therapy, 95% reported PA delays necessary care, and 79% reported PA can lead to treatment abandonment; Avalere data on multiple-step requirements for rheumatoid arthritis drugs in MA.
+- **Studies or research referenced:** KFF Medicare Advantage enrollment analyses, CBO projections, AMA Prior Authorization Physician Survey, Avalere Health analysis, and a 2018 AMA coalition letter on Part B step therapy.
+- **Examples provided:** MA plans requiring failure on two or more alternatives before covering the physician-selected drug; patients with autoimmune disorders and progressive blinding eye diseases where fail-first delays can cause irreversible damage.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** MA enrollees, Original Medicare beneficiaries by comparison, physicians, patients with serious and progressive diseases, MA plans, CMS, pharmaceutical manufacturers, and providers.
+- **Economic implications:** Regeneron focuses less on direct cost estimates and more on statutory benefit parity, treatment delay, and provider burden; rescission may reduce administrative burden and treatment delays.
+- **Technical feasibility:** The comment argues technology improvements are insufficient; legal/policy rescission and guidance are needed.
+- **Patient care impact:** Strongly negative under current multiple-step protocols; rescission/interim guidance would improve access to physician-selected Part B drugs.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Opposed to MA Part B step therapy regulation; supportive of reducing step therapy risks
+- **Tone:** Legal, technical, critical, formal
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Technical improvements cannot correct the fundamental flaw in the MA step therapy regulation: it violates the MA statute..." - Context: Main legal argument.
+2. "MA enrollees are entitled to the same Part B drug coverage as beneficiaries in Original Medicare." - Context: Statutory benefit parity.
+3. "CMS should issue sub-regulatory guidance clarifying that an MA plan may not require a patient to try and fail on more than one drug..." - Context: Interim relief request.
+4. "Stacking step edits... substitutes the plan's preferences for the prescriber's judgment..." - Context: Clinical and provider burden rationale.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests near-term guidance while rulemaking proceeds.
+- [ ] **COST-RESOURCES** - Not a major focus, though provider burden is discussed.
+- [x] **PROVIDER-BURDEN** - Multiple-step protocols burden providers and interfere with physician judgment.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [ ] **TECHNICAL-FEASIBILITY** - Says technology cannot solve the underlying legal issue.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - Central focus is access to Part B drugs without fail-first delays.
+- [x] **REGULATORY-AUTHORITY** - Core argument is statutory and administrative-law authority.
+- [ ] **STAKEHOLDER-COORDINATION** - Not addressed.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Focuses on Part B medical-benefit drugs, but not benefit classification.
+- [x] **TRANSPARENCY** - Discusses disclosure provisions but argues they do not authorize step therapy.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Discusses current MA step therapy utilization management and fail-first protocols.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+6/15/2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS–0062–P 
+P.O. Box 8013 
+Baltimore, MD 21244–8013 
+ 
+ 
+Re:  
+CMS–0062–P: Response to Request for Information: Step Therapy in the 
+2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule  
+ 
+Dear Administrator Oz, 
+ 
+Regeneron Pharmaceuticals, Inc. (Regeneron) submits these comments in response to the Request 
+for Information on Step Therapy (Step Therapy RFI) within the Interoperability Standards and Prior 
+Authorization for Drugs Proposed Rule issued by the Centers for Medicare & Medicaid Services (CMS).1 
+Regeneron appreciates the opportunity to provide the comments below.  
+ 
+Regeneron is a leading biotechnology company that invents, develops, and commercializes life-
+transforming medicines for people with serious diseases. Founded and led by physician-scientists, our 
+unique ability to repeatedly and consistently translate science into medicine has led to numerous approved 
+treatments and product candidates in development, most of which were homegrown in our laboratories. It is 
+Regeneron’s mission to use the power of science to bring new medicines to patients over and over again, 
+and our medicines and pipeline are designed to help patients with eye diseases, allergic and inflammatory 
+diseases, cancer, cardiovascular and metabolic diseases, neurological diseases, hematologic conditions, 
+infectious diseases, and rare diseases. 
+ 
+In the Step Therapy RFI, CMS solicits comments on “how technology may facilitate step therapy 
+determinations and improve current step therapy processes,” recognizing that “step therapy requirements . 
+. . based on poor evidence or implemented using an inflexible approach . . . can cause clinical issues for 
+patients forced to return to a drug or class of drugs that were previously ineffective, potentially delaying 
+access to treatments, hindering adherence to drug...

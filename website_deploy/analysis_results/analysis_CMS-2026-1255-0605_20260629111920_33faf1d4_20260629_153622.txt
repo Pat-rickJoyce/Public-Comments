@@ -1,0 +1,106 @@
+# Comment Analysis: CMS-2026-1255-0605_20260629111920_33faf1d4
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Pfizer Inc.; signed by Margaret Davis-Cerone, Head of Federal Policy, U.S. Policy & Government Relations
+- **Stakeholder type:** Manufacturer/GPOs; biopharmaceutical company
+- **Credentials or expertise mentioned:** Research-based global biopharmaceutical company that develops and manufactures medicines and vaccines.
+
+## 2. EXECUTIVE SUMMARY
+
+Pfizer supports extending electronic prior authorization requirements to drugs under both medical and pharmacy benefits and supports the October 1, 2027 compliance date with appropriate extension flexibility. It recommends stronger patient-access safeguards, including a clear medical/pharmacy benefit pathway, 24-hour drug PA decision standards, patient-facing denial reasons, granular public reporting, continuity protections during plan transitions, and step therapy transparency. Pfizer opposes the Open Payments CMP proposal as exceeding statutory authority and lacking audit-process safeguards.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; OPEN-PAYMENTS-CMP; GENERAL; medical-vs-pharmacy benefit issues; transparency and patient access issues.
+- **Regulatory citations mentioned:** 42 CFR 422.568(b)(3); 42 CFR 422.572; 42 CFR 423.568; 42 CFR 423.572; 42 CFR 403.902; 42 CFR 422.136; Social Security Act sections 1128G, 1852(a)(1), 1927(d)(5)(A), 1927(k)(2)(B), and 1927(k)(3); 45 CFR 170.205 and 170.215.
+- **Standards referenced:** Prior Authorization API; FHIR; Da Vinci CRD CoverageInformation extension; NCPDP RTPB; NCPDP standards; PDex US Drug Formulary IG; CARIN Consumer RTPBC IG; Payer-to-Payer API.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medical versus pharmacy benefit categorization**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify
+- **Rationale:** Ambiguous benefit categorization can route requests to the wrong standard and delay care, especially for products covered differently by site of care, formulation, or plan design.
+- **Specific request:** Establish a clear default rule, require real-time point-of-prescribing pathway transparency, use NCPDP RTPB and CRD CoverageInformation, and require payers to reroute good-faith misdirected requests or promptly instruct correction.
+
+**Topic 2: Electronic PA for drugs under medical and pharmacy benefits**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Standardized electronic transactions should reduce administrative burden, variation, and patient delays.
+- **Specific request:** Finalize requirements for medical-benefit drugs through the Prior Authorization API and pharmacy-benefit drugs through NCPDP standards, with October 1, 2027 compliance and extension flexibility.
+
+**Topic 3: Real-time patient prescription cost and coverage information**
+- **Provision ID:** PATIENT-ACCESS
+- **Position:** Support/Modify
+- **Rationale:** Patient-specific real-time benefit data can reduce prescription abandonment and is distinct from static group formulary information.
+- **Specific request:** Recommend the CARIN RTPBC IG for the Patient Access API and work toward requiring real-time prescription benefit functionality in future rulemaking.
+
+**Topic 4: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Specific denial reasons help providers correct deficiencies and appeal effectively; patients also need direct notice.
+- **Specific request:** Provide denial reasons to patients as well as providers and require annual reporting of standardized, categorized denial reason codes.
+
+**Topic 5: Drug PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Different timeframes by drug category are confusing and may leave clinically urgent drugs outside the fastest standard.
+- **Specific request:** Adopt a uniform 24-hour decision timeframe for all Medicaid, CHIP, and QHP prescription drug PA requests, including non-covered outpatient drugs, provider-administered drugs, and vaccines; monitor for increased denials or circumvention.
+
+**Topic 6: Public PA and API usage metrics**
+- **Provision ID:** TRANSPARENCY; API-USAGE-METRICS
+- **Position:** Support/Modify
+- **Rationale:** Public metrics can improve accountability, but aggregate data do not show patient access impacts.
+- **Specific request:** Require plan-level, therapeutic-area, brand/generic, step-therapy, denial-reason, point-of-sale rejection, appeal, and patient-journey metrics; publicly release usage metrics; extend comparable reporting to Part D.
+
+**Topic 7: Utilization management and step therapy transparency**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Metrics show how often requests are denied but not the actual coverage criteria or required treatment sequence.
+- **Specific request:** Require public, machine-readable publication of the actual prior authorization criteria and step therapy protocols, clearly labeling step therapy requirements.
+
+**Topic 8: Continuity during plan transitions**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Patients should not interrupt stable therapy or repeat PA/step therapy solely because they changed coverage.
+- **Specific request:** Require new payers to honor prior PA approvals for a 90-day transition period and honor completed step therapy determinations for at least the current and following plan year where clinically appropriate.
+
+**Topic 9: Open Payments CMPs**
+- **Provision ID:** OPEN-PAYMENTS-CMP
+- **Position:** Oppose
+- **Rationale:** Pfizer argues CMS lacks statutory authority to treat audit-document delays as failure to report and has not established audit safeguards.
+- **Specific request:** Withdraw the proposal and develop Open Payments audit guidelines with manufacturer input.
+
+**Topic 10: Medicare Advantage Part B step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Oppose/Modify
+- **Rationale:** Pfizer argues MA beneficiaries should not face Part B drug step therapy barriers absent in Original Medicare.
+- **Specific request:** Rescind 42 CFR 422.136 or, at minimum, require public reporting, CMS pre-approval of protocols, no mid-year additions, clinical guideline consistency, and a cap such as two steps.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports expanding the Prior Authorization API to medical-benefit drugs because it can expose coverage/documentation requirements and reduce duplicative submissions.
+- **S14:** Supports NCPDP standards for pharmacy-benefit drug ePA across non-Part D impacted payers.
+- **S15:** Requests a clear default rule and real-time electronic indicators for the correct medical versus pharmacy benefit pathway, plus payer rerouting of good-faith misdirected requests.
+- **S16:** Supports specific denial reasons and recommends direct patient notification.
+- **S17:** Recommends standardized categorized denial reason codes and annual reporting to CMS.
+- **S20:** Recommends a uniform 24-hour drug PA decision timeframe for Medicaid and CHIP, including non-covered outpatient and provider-administered drugs.
+- **S21:** Supports the October 1, 2027 compliance date, with appropriate extension circumstances.
+- **S25:** Supports NCPDP RTPB and CRD CoverageInformation to identify the correct PA pathway and supports patient-specific real-time benefit information through the Patient Access API.
+- **S29/S34/S35:** Supports usage metrics, urges plan-level public reporting, and disagrees with CMS's proposal not to publish usage metrics.
+- **S43:** Supports aligning drug PA timeframes toward the fastest 24-hour standard across programs.
+- **S57/S59:** Opposes the Open Payments CMP proposal and raises statutory authority and due process concerns.
+- **S66-S82:** Responds to step therapy RFI with recommendations for distinct step therapy metrics, transfer of prior determinations, electronic overrides, and continuity protections.
+
+## 6. THEMES
+
+PATIENT-ACCESS; TRANSPARENCY; MEDICAL-VS-PHARMACY-BENEFIT; IMPLEMENTATION-TIMELINE; EXISTING-WORKFLOWS; REGULATORY-AUTHORITY; STAKEHOLDER-COORDINATION.
+
+## 7. OVERALL POSITION
+
+Support with modifications. Pfizer opposes the Open Payments CMP proposal and Medicare Advantage Part B step therapy authority.
+
+## 8. PRIORITY / NOTES
+
+High priority. This is a detailed manufacturer comment with strong patient-access, transparency, continuity-of-care, and step therapy recommendations.

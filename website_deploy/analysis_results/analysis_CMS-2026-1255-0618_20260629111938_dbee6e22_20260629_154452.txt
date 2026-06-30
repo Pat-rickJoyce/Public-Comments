@@ -1,0 +1,175 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0618_20260629111938_dbee6e22
+Commenter: Healthcare Leadership Council and Confidentiality Coalition
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:44:52
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Healthcare Leadership Council (HLC) and the Confidentiality Coalition
+- **Stakeholder type:** Professional Association / Healthcare industry coalition / Privacy and confidentiality coalition
+- **Credentials or expertise mentioned:** HLC represents CEOs and C-suite executives from hospitals, academic health centers, health plans, pharmaceutical and device companies, laboratories, distributors, post-acute care, homecare, GPOs, and health IT companies. The Confidentiality Coalition focuses on balancing health information privacy with interoperable data exchange.
+
+## 2. EXECUTIVE SUMMARY
+
+HLC and the Coalition strongly support CMS's goal to modernize prior authorization through interoperability, while recommending operational refinements to avoid new burden. They ask CMS to apply timeframes only to complete requests, allow workflow flexibility between NCPDP and FHIR pathways, streamline reporting, incentivize technology adoption, provide at least 24 months for implementation, allow version flexibility and phased adoption, and strengthen cybersecurity resilience through risk-based public-private approaches.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE; GENERAL/RFI.
+- **Regulatory citations mentioned:** References CMS-0062-P and the 2024 final rule; no specific CFR sections central to the comment.
+- **Standards referenced:** FHIR; Da Vinci CRD, DTR, PAS; NCPDP SCRIPT-based transactions; pharmacy benefit real-time information; APIs; version 2.2 FHIR implementation guides; TEFCA; AI-enabled cybersecurity; authentication, least privilege, monitoring.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Expedited decision timeframes and complete requests**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** HLC supports accelerated timeframes and specific denial reasons but warns that incomplete requests could trigger avoidable denials, resubmissions, appeals, and burden.
+- **Specific request:** Apply timeframes only to complete requests; require prompt, specific notice of missing elements; avoid triggering compressed timelines before minimum necessary information is submitted.
+
+**Topic 2: Medical vs pharmacy benefit workflow flexibility**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Modify / Clarify
+- **Rationale:** CMS proposes different standards for pharmacy benefit drugs (NCPDP SCRIPT) and medical benefit drugs (FHIR CRD/DTR/PAS), but drugs may be categorized differently across payers and regimens may span benefits.
+- **Specific request:** Provide routing and processing flexibility across technical pathways, allow integrated episode-based workflows, and clearly identify which pathway applies for a given drug.
+
+**Topic 3: Reporting and transparency**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Support / Modify
+- **Rationale:** HLC supports transparency but warns duplicative or poorly designed reporting could be burdensome or misaligned.
+- **Specific request:** Align and simplify reporting across federal and state programs; clarify how CRD/DTR determinations that no PA is required should be reported.
+
+**Topic 4: Technology adoption and real-time benefit information**
+- **Provision ID:** PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** Technology requirements will not reduce burden unless providers and stakeholders can adopt them, including rural and underserved providers.
+- **Specific request:** Provide financial/technical support for adoption; leverage CMS/industry Health Tech Ecosystem efforts; promote real-time, patient-specific pharmacy benefit information at prescribing.
+
+**Topic 5: Implementation timeline and version flexibility**
+- **Provision ID:** IMPLEMENTATION-TIMELINE; ONC-STANDARDS-UPDATE; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Implementation of ePA, API updates, reporting, workflow redesign, and vendor dependencies is complex; rushed deployments could cause instability.
+- **Specific request:** Provide at least 24 months after final rule and guidance; allow earlier/existing standard versions during transition with guardrails; adopt phased implementation prioritizing mature capabilities.
+
+**Topic 6: Cybersecurity RFI**
+- **Provision ID:** GENERAL/RFI; PRIVACY-SECURITY
+- **Position:** Modify / Clarify
+- **Rationale:** Expanded connectivity increases cyber risk; cybersecurity is a patient safety and continuity-of-care issue.
+- **Specific request:** Use risk-based, outcomes-focused expectations; support public-private collaboration, threat sharing, AI-driven security capabilities, harmonized breach reporting, continuity of payments, recovery relief, workforce support, and rural/underserved cybersecurity assistance.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S15/S21/S28:** HLC addresses medical/pharmacy drug PA workflows, benefit categorization, and the need for flexible routing across NCPDP and FHIR pathways.
+- **S16/S20:** HLC supports specific denial reasons and expedited timeframes but asks CMS to apply timeframes only to complete requests.
+- **S23/S24/S29/S30/S34/S35:** HLC comments on reporting design, API-related metrics, privacy protections, and how to avoid duplicative or misleading reporting.
+- **S37:** HLC highlights implementation challenges, provider adoption needs, and the importance of financial/technical support.
+- **S47/S50/S53/S54:** HLC addresses implementation timing, standards maturity/version flexibility, phased implementation, and testing.
+- **S60-S65:** HLC asks for version flexibility and guardrails until proposed FHIR IG version 2.2 becomes mandatory.
+- **S66-S82:** HLC responds to the cybersecurity/resiliency RFI with prevention, response, and recovery recommendations.
+
+## 6. RECOMMENDATIONS
+
+1. Adopt a complete-request standard for prior authorization timeframes.
+2. Require prompt, specific notice of missing elements in incomplete requests.
+3. Provide flexibility in routing PA requests between NCPDP pharmacy-benefit and FHIR medical-benefit pathways.
+4. Clearly identify the applicable pathway for a given drug.
+5. Streamline reporting across programs and ensure metrics are meaningful.
+6. Clarify reporting treatment for CRD/DTR outcomes where no PA is required.
+7. Provide financial and technical support for technology adoption, especially rural and underserved providers.
+8. Promote patient-specific real-time pharmacy benefit information at prescribing.
+9. Provide at least a 24-month implementation period after final rule and guidance.
+10. Allow version flexibility during transition and clarify compliant versions.
+11. Adopt phased implementation focused first on mature, tested capabilities.
+12. Strengthen cybersecurity prevention, incident response, recovery, workforce, and public-private information sharing.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Incomplete requests under compressed timeframes, duplicative workflows across medical/pharmacy benefits, reporting burden, insufficient implementation time, uneven technology adoption, and cybersecurity risks from expanded connectivity.
+- **Potential negative impacts cited:** Avoidable denials and appeals, administrative burden, workflow fragmentation, patient care disruptions, cyber incidents affecting care delivery and costs.
+- **Implementation barriers mentioned:** Vendor dependencies, provider technology gaps, rural/underserved resource constraints, version transitions, benefit categorization differences, third-party cybersecurity risk.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** HLC cites cybersecurity data: 92% of healthcare organizations reported a cyberattack in 2024; average healthcare breach cost in 2025 was $7.42 million; healthcare breaches remained nearly 70% higher than the global cross-industry average of $4.4 million.
+- **Studies or research referenced:** HealthTech Magazine cybersecurity threat reporting; IBM Cost of a Data Breach Report 2025; HLC/Confidentiality Coalition/Manatt 2025 cybersecurity framework; GAO cybersecurity grants information.
+- **Examples provided:** Incomplete PA submissions leading to avoidable denials; integrated regimens spanning medical and pharmacy benefits; clearinghouses or critical intermediaries as single points of failure during cyber incidents.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health plans, providers, patients, pharmacies, rural/underserved providers, health IT vendors, clearinghouses, cybersecurity teams, federal agencies.
+- **Economic implications:** Technology mandates and cyber incidents can create significant cost; support and phased implementation can reduce burden and instability.
+- **Technical feasibility:** Feasible with 24-month runway, version flexibility, testing, phased adoption, and practical cybersecurity safeguards.
+- **Patient care impact:** Properly implemented interoperability can reduce delays; poor implementation or cyber disruptions could harm continuity and access.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial operational refinements
+- **Tone:** Professional, technical, collaborative, risk-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "HLC and the Coalition strongly support CMS’s goal to modernize prior authorization through improved interoperability." - Context: Overall position.
+2. "timeframes must be applied only to complete requests" - Context: Expedited decision timeframe recommendation.
+3. "CMS should allow regulated entities at least 24 months from the publication of the final rule and accompanying guidance" - Context: Implementation timeline request.
+4. "cybersecurity is fundamentally a patient safety and continuity-of-care issue" - Context: Cybersecurity RFI response.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests at least 24 months, phased implementation, and version transition guardrails.
+- [x] **COST-RESOURCES** - Discusses financial/technical support, breach costs, and resource needs.
+- [x] **PROVIDER-BURDEN** - Focuses on avoiding incomplete-request denials, duplicative workflows, and reporting burden.
+- [x] **PRIVACY-SECURITY** - Major cybersecurity and privacy/resilience RFI section.
+- [x] **HEALTH-EQUITY** - Calls out support for rural and underserved providers.
+- [x] **TECHNICAL-FEASIBILITY** - Extensive discussion of standards, routing, versions, testing, and cybersecurity feasibility.
+- [x] **STANDARDS-MATURITY** - Requests version flexibility until FHIR IG v2.2 and mature capabilities are ready.
+- [x] **PATIENT-ACCESS** - Seeks to prevent delays, denials, and cyber disruptions that affect care.
+- [ ] **REGULATORY-AUTHORITY** - Not a primary topic.
+- [x] **STAKEHOLDER-COORDINATION** - Public-private collaboration, threat sharing, CMS/industry initiatives.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central discussion of NCPDP vs FHIR pathways.
+- [x] **TRANSPARENCY** - Supports meaningful reporting and missing-information notices.
+- [ ] **SMALL-PAYER-IMPACT** - Not central, though scalable expectations are discussed.
+- [x] **EXISTING-WORKFLOWS** - Addresses workflows across prescribing, routing, reporting, and incident response.
+- [x] **VENDOR-ECOSYSTEM** - Discusses vendors, intermediaries, clearinghouses, and technology dependencies.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Healthcare Leadership Council • 750 9th Street, NW Suite 500, Washington, DC 20001 • www.hlc.org 
+ 
+June 15, 2026 
+ 
+The Honorable Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+Mail Stop: C4-26-05 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+RE: Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P) 
+Dear Administrator Oz:  
+The Healthcare Leadership Council (HLC) and the Confidentiality Coalition (collectively, HLC and the 
+Coalition) appreciate the opportunity to comment on Medicare and Medicaid Programs; Patient 
+Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and 
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges Proposed Rule (CMS-
+0062-P).1 The proposed rule aims to improve the electronic exchange of healthcare data and 
+streamline processes related to prior authorization, goals that we strongly support.  
+HLC is an association of CEOs and C-suite executives from all sectors of healthcare working to 
+shape the future of the U.S. healthcare system. HLC is the exclusive forum for the nation’s 
+healthcare industry leaders to lead on major, sector-wide issues, generate innovative solutions to 
+unleash private sector ingenuity, and advocate for policies to improve our nation’s healthcare 
+delivery system. Members of HLC – hospitals, academic health centers, health plans, 
+pharmaceutical companies, medical device manufacturers, laboratories, biotech firms, health 
+product distributors/ wholesalers, post-acute care providers, homecare providers, group purchasing 
+organizations, and information technology companies – advocate for measures to increase the 
+quality and efficiency of healthcare through a ...

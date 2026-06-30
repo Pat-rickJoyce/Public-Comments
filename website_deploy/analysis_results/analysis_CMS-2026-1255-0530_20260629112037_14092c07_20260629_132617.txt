@@ -1,0 +1,154 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0530_20260629112037_14092c07
+Commenter: American Urological Association (AUA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:26:17
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Urological Association (AUA); signed by Mark T. Edney, MD, MBA, Chair, AUA Public Policy Council.
+- **Stakeholder type:** Professional Association; Healthcare Provider representative.
+- **Credentials or expertise mentioned:** AUA states it has more than 22,000 members in more than 100 countries, including more than 18,000 U.S.-based members, representing urologic disease treatment expertise.
+
+## 2. EXECUTIVE SUMMARY
+
+AUA supports modernizing electronic prior authorization for drugs, especially inclusion of physician-administered drugs, because urologists report high PA burden and patient delays for medications and therapies. It asks CMS to standardize PA drug classes, preserve rapid access for time-sensitive therapies, consider urgent exceptions or real-time decisions, and account for appeals burden.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS/Reporting Metrics generally; GENERAL.
+- **Regulatory citations mentioned:** None specifically cited.
+- **Standards referenced:** Electronic prior authorization (ePA); interoperability; no FHIR IG, NCPDP, HL7, or CFR citation is specifically named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization expansion to prescription and physician-administered drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** AUA states that standardized ePA and interoperability can reduce administrative burden and improve timely access to drugs and therapies for urologic conditions. It strongly supports including physician-administered drugs such as chemotherapy and infused or injected therapies.
+- **Specific request:** Finalize ePA expansion for drugs, including physician-administered drugs furnished in physician offices.
+
+**Topic 2: Standardized drug classes requiring PA**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** AUA understands CMS does not intend to create an exhaustive list of drugs requiring PA but says standardizing drug classes would give providers up-front information and reduce workflow burden.
+- **Specific request:** CMS should consider standardizing drug classes that require prior authorization.
+
+**Topic 3: Decision timeframes and urgent clinical exceptions**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support/Modify
+- **Rationale:** AUA supports 72-hour standard and 24-hour expedited decision timeframes but says some clinical situations require even faster action, including obstructing kidney stones, cancer therapies, and other time-sensitive treatments.
+- **Specific request:** Require plans to develop electronic pathways with flexibility or exceptions for clearly urgent clinical circumstances and support real-time decisions when feasible.
+
+**Topic 4: Appeals burden after denials**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Denied PA requests often require clinically complex appeals and extensive documentation by physicians and staff.
+- **Specific request:** CMS should consider appeals complexity and downstream provider burden if finalizing new PA regulations.
+
+**Topic 5: Shared decision-making and provider-patient relationship**
+- **Provision ID:** GENERAL
+- **Position:** Oppose/Concerned
+- **Rationale:** AUA states that prior authorization in any form disrupts and interferes with shared decision-making, which it views as fundamental to patient-provider relationships and outcomes.
+- **Specific request:** Reduce PA burden and avoid policies that interfere with patient-provider clinical decision-making.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports expanding ePA to medical benefit drugs and specifically physician-administered drugs, including chemotherapy and infused or injected therapies.
+- **S15:** Addresses medical benefit drug inclusion by emphasizing physician-administered drugs in office settings and the need for standardized handling of time-sensitive therapies.
+- **S20/S43:** Supports 72-hour standard and 24-hour expedited timelines but asks CMS to consider faster or real-time pathways for urgent clinical situations.
+- **S21:** Implied support for implementation of ePA expansion, but with attention to practical workflow and urgent exception pathways rather than a specific compliance-date request.
+- **S29-S30/S34-S35:** The heading references reporting metrics, but the substantive comment focuses mainly on decision timeframes and real-time decisions rather than detailed API usage metrics.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA expansion to prescription drugs and physician-administered medical benefit drugs.
+2. Standardize clinical indications for time-sensitive therapies and rapid PA decisions across plans.
+3. Consider standardizing drug classes that require prior authorization.
+4. Maintain 72-hour standard and 24-hour expedited maximum decision timeframes.
+5. Require electronic pathways for urgent clinical exceptions and additional flexibility.
+6. Encourage real-time PA decisions where the electronic process can support them.
+7. Account for appeals burden and documentation complexity caused by denials.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization burdens physicians and staff, delays medically necessary urologic medications and therapies, interferes with shared decision-making, and creates complex appeal burdens.
+- **Potential negative impacts cited:** Delayed cancer treatment, delayed access to therapies for overactive bladder, erectile dysfunction, low testosterone, cancer, and benign prostatic hyperplasia; harm from delayed imaging or treatment for obstructing kidney stones; extra travel/time burdens for rural patients and working patients.
+- **Implementation barriers mentioned:** Lack of up-front clarity on drugs requiring PA, plan variation, appeal complexity, and absence of pathways for urgent or real-time decisions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Recent AUA survey data found 93 percent of respondents indicated that medications they prescribe require prior authorization. AUA cites more than 22,000 members, including more than 18,000 in the United States.
+- **Studies or research referenced:** Krambeck et al., Campbell-Walsh Urology, cited regarding obstructing kidney stones and morbidity.
+- **Examples provided:** PA for medications treating overactive bladder, erectile dysfunction, low testosterone, cancer, and benign prostatic hyperplasia; physician-administered chemotherapy and infused/injected therapies; CT or MRI scans for acute obstructing kidney stones.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Urologists, physician office staff, patients with urologic conditions, rural patients, payers, CMS, and plans implementing ePA workflows.
+- **Economic implications:** The comment does not quantify costs, but indicates administrative burden from PA and appeals consumes physician and staff resources and may require additional patient visits or time away from work.
+- **Technical feasibility:** AUA views ePA as capable of supporting standardization and possibly real-time decisions, but asks CMS to require pathways for urgent cases.
+- **Patient care impact:** Delays can affect cancer treatment, stone disease, medication access, quality of life, continuity of care, and shared decision-making.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of ePA expansion but concerned about PA burden
+- **Tone:** Professional, clinical, and advocacy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "prior authorization requirements impose significant administrative burdens" - Context: Establishes AUA's broad concern with PA.
+2. "93 percent of respondents indicated that medications they prescribe require prior authorization" - Context: Quantifies burden among AUA members.
+3. "strongly supports the inclusion of physician-administered drugs" - Context: Supports PA-DRUG-MEDICAL expansion.
+4. "many items and services should be able to receive prior authorizations in real-time" - Context: Supports more rapid electronic PA pathways.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment focuses on administrative burden for physicians and staff, including appeals.
+- [x] **TECHNICAL-FEASIBILITY** - AUA discusses ePA, interoperability, electronic urgent pathways, and real-time decision potential.
+- [x] **PATIENT-ACCESS** - The comment centers on avoiding delays in medically necessary drugs, therapies, imaging, and procedures.
+- [x] **STAKEHOLDER-COORDINATION** - AUA asks CMS to standardize plan approaches for drug classes, indications, and rapid decisions.
+- [x] **TRANSPARENCY** - Standardized drug classes and clinical indications would make PA requirements more predictable.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - AUA specifically highlights physician-administered medical benefit drugs alongside prescription drugs.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses prescribing workflows, bedside/exam-table decisions, appeals, and patient travel/work constraints.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Mehmet Oz, MD 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P) 
+ 
+Dear Dr. Oz: 
+ 
+On behalf of the American Urological Society (AUA), thank you for the opportunity to submit 
+comments on the Interoperability Standards and Prior Authorization for Drugs proposed rule. 
+ 
+The AUA is a globally engaged organization with more than 22,000 members practicing in 
+more than 100 countries. Our members represent the worldâ€™s largest collection of expertise 
+and insight into the treatment of urologic disease. Of the total AUA membership, more than 
+18,000 are based in the United States, therefore we are actively engaged in commenting on 
+the regulatory proposals of the Department of Human and Health Services and its agencies 
+that affect our members and their patients. Our members provide invaluable support to the 
+urologic community by fostering the highest standards of urologic care through education, 
+research, and formulation of health policy 
+ 
+We are grateful that we can participate in the rule making process, and we recognize the 
+Medicare & Medicaid Servicesâ€™ (CMS) and the Office of the National Coordinator for Health 
+Information Technologyâ€™s efforts to reduce administrative burden on providers. The AUA 
+appreciates the opportunity to comment on CMSâ€™s proposed policies to advance 
+interoperability and improve prior authorization processes. AUA members and other medical 
+providers continue to report that prior a...

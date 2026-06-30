@@ -1,0 +1,170 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0645_20260629112143_10885cf4
+Commenter: Coalition of State Rheumatology Organizations (CSRO)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:49:00
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Coalition of State Rheumatology Organizations (CSRO)
+- **Stakeholder type:** Professional Association; Healthcare Provider
+- **Credentials or expertise mentioned:** Coalition of more than 40 state and regional rheumatology societies representing practicing rheumatologists.
+
+## 2. EXECUTIVE SUMMARY
+
+CSRO supports extending electronic prior authorization requirements to drugs and supports clearer denial reasons, public PA metrics, and API usage reporting. Its main recommendation is to close the gap between medical- and pharmacy-benefit drug workflows so providers and patients can access consolidated coverage, PA, step therapy, utilization management, formulary, distribution, and cost-sharing information for medications that can shift between benefit categories.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; MEDICAL-VS-PHARMACY-BENEFIT; GENERAL/RFI step therapy.
+- **Regulatory citations mentioned:** No specific CFR citations.
+- **Standards referenced:** Prior Authorization API, NCPDP SCRIPT, FHIR implementation guides, Patient Access API, Provider Access API, Payer-to-Payer API.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for medical benefit drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Support/Modify
+- **Rationale:** CSRO supports requiring impacted payers to incorporate coverage and documentation requirements into the Prior Authorization API for medical benefit drugs by October 1, 2027, but believes the proposal does not adequately address drugs that can be covered under both medical and pharmacy benefits.
+- **Specific request:** Develop a seamless interoperability framework that gives providers, administrators, and patients unified access to coverage, PA, step therapy, utilization management, documentation, distribution, and cost-sharing requirements across benefit structures.
+
+**Topic 2: Medical versus pharmacy benefit fragmentation**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Many rheumatology therapies vary by formulation, route, site of care, specialty pharmacy arrangements, and payer policy. Maintaining separate workflows forces practices to conduct separate benefit investigations and navigate fragmented PA and step therapy rules.
+- **Specific request:** CMS and ONC should work with stakeholders to close the gap and support consolidated workflows across medical and pharmacy benefits.
+
+**Topic 3: Denial reasons, decision timeframes, and PA metrics**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS
+- **Position:** Support/Modify
+- **Rationale:** CSRO supports specific denial reasons and public reporting, but urges true alignment across payer types and drug categories. Rheumatology delays can lead to irreversible joint damage, disability, disease progression, and downstream costs.
+- **Specific request:** Establish a future 24-hour maximum decision timeframe for all expedited drug PA requests across all impacted payers and benefit categories, including Medicare Advantage; require more granular drug/therapeutic-category metrics.
+
+**Topic 4: Formulary information in APIs**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS; GENERAL
+- **Position:** Oppose removal
+- **Rationale:** CSRO states formulary, coverage, and utilization management information is necessary for rheumatology care coordination, especially when patients transition between payers or therapies shift between benefits.
+- **Specific request:** Retain formulary information in the Provider Access and Payer-to-Payer APIs and improve standardization/usability of formulary and utilization management data.
+
+**Topic 5: Step therapy RFI**
+- **Provision ID:** GENERAL/RFI; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** CSRO supports technology and data sharing to reduce redundant step therapy but warns that meaningful streamlining requires integrated access across both benefits and guardrails against replacing clinician judgment with automation.
+- **Specific request:** Use interoperability to support continuity of care, recognition of prior payer determinations, formulary adequacy assessment, and patient-centered measures such as delays, abandonment, disease progression risk, and practice burden.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** CSRO addresses technical challenges for medical benefit drug PA by identifying the need for unified workflows for drugs that move between medical and pharmacy benefit structures.
+- **S15:** CSRO directly addresses the medical versus pharmacy benefit distinction and says the split creates fragmented workflows for rheumatology therapies.
+- **S16/S17:** CSRO supports specific denial reasons and improved transparency to enable rapid correction, appeals, and accountability.
+- **S20/S43:** CSRO encourages stronger alignment of PA timeframes and future 24-hour expedited drug PA standards across impacted payers and benefits.
+- **S29/S35:** CSRO supports API usage metrics and public reporting but urges more detailed, drug-specific and therapeutic-category reporting.
+- **S66-S82 (Step therapy RFI):** CSRO provides extensive comments on step therapy, continuity of care, prior payer determinations, formulary adequacy, and automation guardrails.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for drugs, including medical benefit drugs.
+2. Develop a unified interoperability framework across medical and pharmacy benefits for medications with multiple formulations or coverage pathways.
+3. Require detailed, drug-specific and therapeutic-category PA metrics for heavily managed therapies, including autoimmune therapies.
+4. Establish a future 24-hour expedited drug PA standard across all impacted payers and benefit categories.
+5. Retain formulary information in Provider Access and Payer-to-Payer APIs.
+6. Use payer-to-payer exchange and other tools to recognize prior step therapy determinations and support continuity of care.
+7. Maintain guardrails so automation supports, but does not replace, clinician judgment.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmentation between medical and pharmacy benefit workflows, administrative burden, treatment delays, removal of formulary data from APIs, excessive/opaque utilization management.
+- **Potential negative impacts cited:** Delayed treatment initiation, disrupted continuity of care, increased administrative costs, patient confusion, irreversible joint damage, worsening disability, disease progression.
+- **Implementation barriers mentioned:** Separate NCPDP and Prior Authorization API pathways, payer benefit design variation, specialty pharmacy arrangements, step therapy protocols, cost-sharing/financial assistance limitations.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics; the comment cites rheumatology clinical examples and practice experience.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** UnitedHealthcare Cosentyx policy addressing self-administered and provider-administered formulations, requiring physician attestation of inability to self-administer before covering a provider-administered alternative.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Rheumatology practices, patients with autoimmune/inflammatory diseases, payers, specialty pharmacies, practice administrators, EHR vendors.
+- **Economic implications:** Administrative costs for practices and downstream healthcare costs from treatment delays.
+- **Technical feasibility:** CSRO views the proposal as directionally useful but incomplete without cross-benefit integration and standardized formulary/utilization management information.
+- **Patient care impact:** High; delays can worsen chronic rheumatologic disease, cause irreversible joint damage, disability, and reduced quality of life.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with important modifications.
+- **Tone:** Professional, clinical, patient-centered, collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "CSRO supports proposals that would require impacted payers to incorporate coverage and documentation requirements into the Prior Authorization Application Programming Interface" - Context: Support for medical benefit drug ePA.
+2. "providers and patients would still be forced to navigate two separate systems" - Context: Objection to fragmented medical/pharmacy workflows.
+3. "CSRO also strongly encourages CMS to pursue future rulemaking establishing a 24-hour maximum decision timeframe" - Context: Requested expedited PA timeframe alignment.
+4. "technology should support administrative functions and access to historical treatment information, but should not replace clinician judgment" - Context: Step therapy automation guardrails.
+
+## 12. THEMES
+
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central theme; CSRO says separate workflows perpetuate burden and confusion.
+- [x] **PROVIDER-BURDEN** - Rheumatology practices must perform separate benefit investigations, PAs, step therapy workflows, and specialty pharmacy coordination.
+- [x] **PATIENT-ACCESS** - CSRO emphasizes delays in access to rheumatology therapies and continuity of care.
+- [x] **TRANSPARENCY** - Supports denial reasons, public metrics, and formulary/coverage information.
+- [x] **EXISTING-WORKFLOWS** - Concerned about fragmentation across current benefit and utilization management workflows.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS/ONC to work with industry stakeholders.
+- [x] **TECHNICAL-FEASIBILITY** - Requests more integrated interoperability approaches across benefit structures.
+- [x] **API-USAGE-METRICS/IMPLEMENTATION-TIMELINE** - Supports metrics and future timeframe alignment, though timeline is not the dominant issue.
+- [ ] **COST-RESOURCES** - Administrative costs are noted but not deeply quantified.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Mentioned only indirectly through EHRs and interoperability.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+200 Independence Avenue, SW 
+Washington, DC 20201 
+ 
+Thomas Keane, MD, MBA 
+National Coordinator for Health Information Technology 
+Office of the National Coordinator for Health Information Technology 
+330 C Street SW 
+Washington, DC 20201 
+ 
+Submitted electronically via www.regulations.gov   
+  
+Re: Interoperability Standards and Prior Authorization for Drugs Proposed Rule 
+ 
+Dear Administrator Oz and National Coordinator Keane: 
+ 
+The Coalition of State Rheumatology Organizations (CSRO) is comprised of over 40 state 
+and regional professional rheumatology societies whose mission is to advocate for 
+excellence in the field of rheumatology, ensuring access to the highest quality of care for 
+the management of rheumatologic and musculoskeletal disease. Our coalition serves 
+the practicing rheumatologist. 
+ 
+Electronic Prior Authorization for Drugs 
+CSRO supports proposals that would require impacted payers to incorporate coverage 
+and documentation requirements into the Prior Authorization Application Programming 
+Interface (API) to support electronic prior authorization for drugs covered under a 
+medical benefit beginning October 1, 2027. However, we are concerned that the 
+proposed framework does not adequately address medications that may be covered 
+under both the medical and pharmacy benefit depending on formulation, route of 
+administration, site of care, specialty pharmacy distribution arrangements, or other 
+variations in payer benefit design and utilization management policies. 
+ 
+For example, CMS’ proposals would require electronic prior authorization to be 
+available for all drugs covered by impacted payers for which prior authorization is 
+required, either through the Prior Authorization API (for medical benefit drugs) or the 
+NCPDP SCRIPT standards (for pharmacy benefit drugs) adopted by the Secretary. CMS 
+also explains that the implementation guides (IGs) prop...

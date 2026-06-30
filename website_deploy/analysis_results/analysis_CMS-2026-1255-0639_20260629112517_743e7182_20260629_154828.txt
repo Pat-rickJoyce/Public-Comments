@@ -1,0 +1,210 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0639
+Commenter: National Health Law Program (NHeLP)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:48:28
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Health Law Program (NHeLP); signed by Wayne Turner, Senior Attorney.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** Public interest health law organization focused on access to quality health care and legal rights of low-income and underserved people.
+
+## 2. EXECUTIVE SUMMARY
+
+NHeLP supports HHS's effort to bring efficiency, transparency, and accountability to prescription drug prior authorization, but urges CMS to strengthen patient-facing protections, public reporting, Medicaid due process safeguards, and Medicaid FFS/MCO parity. The comment emphasizes that prior authorization delays and opaque denials harm low-income and underserved enrollees, and asks CMS to require granular public metrics, point-of-sale denial notices, 24-hour review for clinically indispensable bundled drugs, disclosure of medical necessity criteria, and elimination of the Medicaid/CHIP FFS exemption in favor of only limited extensions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; API-USAGE-METRICS; API-ENDPOINT-REPORTING; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; STATE-EXTENSION-PROCESS; TRANSPARENCY-related general issues.
+- **Regulatory citations mentioned:** 42 CFR 438.520; 42 CFR §§ 431.206(b), 431.210(a)-(c); 42 U.S.C. § 1396a(a)(3); section 1927(k)(3) of the Social Security Act; multiple court decisions regarding Medicaid notice and due process.
+- **Standards referenced:** Prior Authorization API generally; interoperability and Patient/Provider/Payer-to-Payer APIs; no detailed FHIR IG critique.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization harms access and equity**
+- **Provision ID:** GENERAL / PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Modify.
+- **Rationale:** Prior authorization delays medically necessary care, contributes to treatment abandonment, and disproportionately burdens underserved communities and small practices. NHeLP warns payers may shift to other utilization management tools if only PA is regulated.
+- **Specific request:** HHS should monitor and regulate other utilization management practices such as step therapy, concurrent review, retrospective review, and pill limits where they harm patients.
+
+**Topic 2: Stronger and standardized public reporting**
+- **Provision ID:** API-USAGE-METRICS / API-ENDPOINT-REPORTING / TRANSPARENCY
+- **Position:** Support with modifications.
+- **Rationale:** Existing 2024 reporting has been inconsistent, hard to find, and too aggregated to identify targeted denials or discriminatory practices.
+- **Specific request:** Require standardized, user-friendly public reporting at the plan level and by specific prescription drug categories, including services subject to PA, denial rates, response times, appeal outcomes, and criteria used.
+
+**Topic 3: Point-of-sale denial notices and patient-facing due process**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify.
+- **Rationale:** Prescription drug denials often occur at the pharmacy, leaving Medicaid enrollees without notice of why coverage was denied or what action to take.
+- **Specific request:** Require plans and Medicaid/CHIP FFS programs to provide enrollees and providers detailed denial reasons and next steps at point of sale, including grievance and appeal rights.
+
+**Topic 4: Medicaid notice and hearing protections as consumer protection baseline**
+- **Provision ID:** PA-DENIAL-REASONS / PATIENT-ACCESS
+- **Position:** Clarify.
+- **Rationale:** Medicaid due process requires clear written notice and meaningful opportunity to challenge adverse actions. Portal-only communications could exclude Medicaid enrollees with limited internet access.
+- **Specific request:** Ensure PA notices are not limited to electronic portals and incorporate Medicaid-style notice, explanation, and hearing protections across programs where feasible.
+
+**Topic 5: Timeframes for bundled or incident-to drugs**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify.
+- **Rationale:** Some drugs excluded from the Medicaid covered outpatient drug definition, such as MAT in opioid treatment programs or medications central to chronic disease treatment bundles, are clinically indispensable rather than incidental.
+- **Specific request:** Align all such drugs with the statutory 24-hour Medicaid timeframe, or at minimum require 24-hour review where the drug is indispensable to treatment.
+
+**Topic 6: Disclosure of medical necessity criteria**
+- **Provision ID:** PA-DENIAL-REASONS / TRANSPARENCY
+- **Position:** Modify.
+- **Rationale:** Plans may use restrictive criteria inconsistent with accepted standards of care; appeals are difficult when enrollees cannot access the criteria used.
+- **Specific request:** Require plans to make the medical necessity criteria used for prescription drug PA available to enrollees on request or in adverse determination notices.
+
+**Topic 7: Medicaid FFS and managed care parity**
+- **Provision ID:** STATE-EXTENSION-PROCESS
+- **Position:** Support.
+- **Rationale:** Exempting smaller FFS populations creates a two-tier Medicaid system affecting people with complex needs, disabilities, rural residents, and beneficiaries served through mixed FFS/MCO arrangements.
+- **Specific request:** Finalize elimination of the Medicaid/CHIP FFS exemption and use only limited extensions until the HIPAA Administrative Simplification compliance date.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** NHeLP responds by urging specific, meaningful denial reasons for prescription drug denials, including point-of-sale explanations and next steps.
+- **S17:** NHeLP supports structured, detailed denial information sufficient to permit correction, resubmission, grievance, or appeal.
+- **S20:** NHeLP urges 24-hour decision timing for drugs that are clinically indispensable even when provided in bundled settings.
+- **S29/S30/S34/S35:** NHeLP supports stronger PA metrics but wants standardized, granular, public, patient-usable reporting rather than aggregate reporting.
+- **S36/S38/S39:** NHeLP supports replacing the FFS exemption with a limited extension process and ultimately requiring consistent Medicaid/CHIP compliance.
+- **S66-S82:** The comment indirectly addresses broader utilization management, step therapy, patient access, and transparency RFIs.
+
+## 6. RECOMMENDATIONS
+
+1. Require standardized, accessible, granular public reporting of prior authorization policies and performance for prescription drugs and services.
+2. Require plans to report PA data by specific drug category at plan level rather than only aggregate approval/denial rates.
+3. Require detailed point-of-sale denial notices explaining reasons, next steps, and appeal/grievance rights.
+4. Preserve non-electronic notice options and prevent portal-only communications for Medicaid enrollees.
+5. Apply the Medicaid 24-hour timeframe to drugs that are indispensable in bundled or same-setting services, including MAT for OUD.
+6. Require disclosure of medical necessity criteria used for PA determinations.
+7. Finalize elimination of the Medicaid/CHIP FFS exemption and replace it with only limited extensions.
+8. Monitor payer substitution of other utilization management tools such as step therapy and pill limits.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA impedes care, public reporting is inconsistent, patients are not sufficiently included in the PA framework, and opaque denial notices violate practical and legal due process expectations.
+- **Potential negative impacts cited:** Treatment delays, prescription abandonment, health disparities, denial of Medicaid procedural rights, overdose risk, and disruption of chronic disease care.
+- **Implementation barriers mentioned:** Inconsistent reporting formats, fragmented Medicaid delivery systems, limited internet/computer access among Medicaid enrollees, and variations between FFS and managed care PA processes.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA survey finding 95% of physicians report PA delays care and 79% report treatment abandonment; OIG finding more than 2 million of 17 million Medicaid MCO PA requests denied; KFF estimate of Medicaid enrollees with limited internet/computer access; OUD prior authorization data and PA metrics examples.
+- **Studies or research referenced:** AMA survey, OIG and GAO reports, KFF reports, MACPAC, ProPublica, JAMA Network Open, SAMHSA, GAO OUD treatment report, and multiple court cases.
+- **Examples provided:** Point-of-sale pharmacy denials in N.B. v. District of Columbia; MAT in opioid treatment programs; specialty medications for Crohn's disease, rheumatoid arthritis, multiple sclerosis, and ESRD drugs bundled with dialysis.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicaid and CHIP enrollees, low-income patients, people with disabilities, people with OUD, patients with chronic conditions, state Medicaid agencies, MCOs, providers, caregivers, and consumer advocates.
+- **Economic implications:** Increased transparency may deter denial-driven claims mitigation; reporting may support oversight of targeted denials for high-cost drugs.
+- **Technical feasibility:** NHeLP does not deeply critique technical feasibility but stresses implementation must reach patients and not only payer-provider systems.
+- **Patient care impact:** Stronger notice, reporting, and 24-hour review could reduce treatment delays, prescription abandonment, and preventable adverse outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive but concerned.
+- **Tone:** Professional, legal, patient-advocacy focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Prior authorization impedes access to medically necessary care." - Context: Opening substantive section framing PA as a patient access and equity problem.
+2. "Patients and caregivers are hardly passive participants in the prior authorization process." - Context: Argument that CMS should include patients and caregivers in PA implementation.
+3. "For patients, knowing the reason for a prior authorization denial is paramount and constitutionally required." - Context: Point-of-sale notice and Medicaid due process discussion.
+4. "A beneficiary's access to electronic prior authorization, Patient Access APIs, Provider Access APIs, and other interoperability tools should not depend on whether a particular Medicaid benefit is administered through MCO or FFS." - Context: Support for eliminating the FFS exemption.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports limited extensions for Medicaid/CHIP FFS but opposes permanent exemptions.
+- [x] **PROVIDER-BURDEN** - Discusses provider paperwork and burden but emphasizes patient/caregiver burden.
+- [x] **HEALTH-EQUITY** - Focuses on low-income and underserved populations and disparate impacts.
+- [x] **PATIENT-ACCESS** - Central theme; PA delays prescriptions and medically necessary treatment.
+- [x] **TRANSPARENCY** - Calls for stronger metrics, public reporting, denial reasons, and criteria disclosure.
+- [x] **STATE-EXTENSION-PROCESS** - Supports replacing exemptions with limited extensions.
+- [x] **EXISTING-WORKFLOWS** - Notes mixed FFS/MCO delivery and point-of-sale pharmacy workflows.
+- [x] **STAKEHOLDER-COORDINATION** - Seeks coordination among HHS components, states, plans, providers, enrollees, and advocates.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1444 I Street NW, Suite 1105  ·  Washington, DC  20005  ·  (202) 289-7661   
+3701 Wilshire Boulevard, Suite 315  ·  Los Angeles, CA  90010  ·  (310) 204-6010   
+1512 E. Franklin Street, Suite 110  ·  Chapel Hill, NC  27514  ·  (919) 968-6308   
+www.healthlaw.org  
+ 
+ 
+ 
+June 15, 2026 
+ 
+Submitted via regulations.gov   
+ 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services  
+7500 Security Boulevard  
+Baltimore, MD 21244–1850 
+ 
+Re: RIN 0938–AV44  
+Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior 
+Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children’s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans 
+(QHP) on the Federally-Facilitated Exchanges 
+ 
+Dear Dr. Oz: 
+ 
+The National Health Law Program (NHeLP) is a public interest 
+organization working to advance access to quality health care 
+and protect the legal rights of low-income and underserved 
+people. We appreciate the opportunity to provide these 
+comments on the Department of Health and Human Services’ 
+(HHS) proposed rule on prior authorization and interoperability 
+with respect to prescription drugs in Medicaid, the Children’s 
+Health Insurance Program (CHIP), and Qualified Health Plans 
+(QHPs) sold through the Affordable Care Act (ACA) 
+Marketplaces (hereinafter “Prescription Drug Proposed Rule”).1 
+Jennifer Cannistra 
+Executive Director 
+ 
+Board of Directors 
+ 
+Arian M. June 
+Chair 
+Debevoise & Plimpton LLP 
+ 
+Juliana S. O’Reilly 
+Vice Chair 
+American Express 
+ 
+Shamina D. Sneed 
+Treasurer 
+CLYO Consulting 
+ 
+John Bouman 
+Secretary 
+Legal Action Chicago 
+ 
+Hailyn J. Chen 
+Munger, Tolles & Olson LLP 
+ 
+Jeanna M. Cullins 
+Aon Hewitt (Ret.) 
+ 
+Joel Ferber 
+Legal Services of Eastern Missouri 
+ 
+Ann M. Kappler 
+Chair Emerita 
+Prudential Financial, Inc. 
+ 
+Rob...

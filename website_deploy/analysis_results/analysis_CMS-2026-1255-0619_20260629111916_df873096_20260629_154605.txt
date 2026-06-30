@@ -1,0 +1,49 @@
+# Comment Analysis: CMS-2026-1255-0619
+
+## 1. COMMENTER INFORMATION
+- **Author/Organization name:** American Immunization Registry Association (AIRA); American Medical Informatics Association (AMIA); Association of Public Health Laboratories (APHL); Association of State and Territorial Health Officials (ASTHO); Big Cities Health Coalition (BCHC); Council of State and Territorial Epidemiologists (CSTE); Healthcare Information and Management Systems Society (HIMSS); National Association of County and City Health Officials (NACCHO); Public Health Informatics Institute (PHII)
+- **Stakeholder type:** Professional Association / Public Health Advocacy Group
+- **Credentials or expertise mentioned:** Coalition of public health informatics and public health organizations focused on health IT, public health infrastructure, surveillance, and care coordination.
+
+## 2. EXECUTIVE SUMMARY
+The coalition supports CMS and ONC efforts to improve standards-based interoperability and electronic event notifications for care coordination. The comment focuses on the RFI for electronic event notifications, recommending that CMS draw from public health ADT and syndromic surveillance experience, use pilots and incentives before expanding notification recipients, and strengthen data quality testing and validation.
+
+## 3. REGULATORY CONTEXT
+- **Specific provisions addressed:** GENERAL; ONC-STANDARDS-UPDATE by implication through health IT certification/testing and standards alignment.
+- **Regulatory citations mentioned:** Promoting Interoperability program; Conditions of Participation.
+- **Standards referenced:** ADT messages; PHIN Messaging Guide for Syndromic Surveillance; TEFCA; electronic case reporting (eCR); certified electronic health record technology.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Use public health ADT and syndromic surveillance experience**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Syndromic surveillance reporting uses ADT-like messages that include additional public health data elements and could inform event notification improvements.
+- **Specific request:** CMS should explore the PHIN syndromic surveillance messaging guide and related public health reporting experience when considering additional event notification elements.
+
+**Topic 2: Expand event notification recipients cautiously**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Additional provider types may benefit, but CMS should first determine whether ADT messages are sufficient and what data different care settings need.
+- **Specific request:** Conduct surveys and pilots, potentially with incentives and networks such as TEFCA/HIEs, before requiring hospitals to send alerts to provider types beyond current regulation.
+
+**Topic 3: Improve data quality and standardization**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Support
+- **Rationale:** Event notification utility is limited when ADT feeds lack standardization or have variable quality.
+- **Specific request:** CMS should work with ONC on real-world testing and validation, consider priority data-element quality metrics, support remediation for serious quality failures, and evaluate centralized dashboards or CEHRT-generated measures to reduce burden.
+
+## 5. SOLICITATION RESPONSES
+- **RFI: Electronic Event Notifications for Value-Based Care and Care Coordination:** Recommends additional standardized data elements, careful expansion of recipient types, pilots, TEFCA/HIE incentives, and stronger testing and data quality validation.
+
+## 6. THEME TAXONOMY
+STAKEHOLDER-COORDINATION; TECHNICAL-FEASIBILITY; TRANSPARENCY; PROVIDER-BURDEN; HEALTH-EQUITY.
+
+## 7. STAKEHOLDER IMPACT
+The recommendations would affect hospitals, public health agencies, HIEs, long-term care, behavioral health, rehabilitation, maternal and child care providers, health IT vendors, and patients whose care coordination depends on accurate and timely event notifications.
+
+## 8. KEY REQUESTS
+CMS should use public health messaging experience, pilot expanded recipient workflows, strengthen real-world testing and validation, and avoid burdensome metrics by using CEHRT or centralized dashboard approaches where feasible.
+
+## 9. OVERALL POSITION
+Support with modifications/clarifications.

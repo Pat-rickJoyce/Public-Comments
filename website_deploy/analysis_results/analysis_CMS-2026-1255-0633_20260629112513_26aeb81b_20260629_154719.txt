@@ -1,0 +1,213 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0633
+Commenter: Cabarrus Rowan Community Health Centers, Inc. (CRCHC)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:47:19
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Cabarrus Rowan Community Health Centers, Inc. (CRCHC); signed by Don Holloman.
+- **Stakeholder type:** Healthcare Provider / Community Health Center / Safety-net Provider.
+- **Credentials or expertise mentioned:** Established June 14, 2006; operates six brick-and-mortar sites across four counties, two special-populations clinics for migrant and homeless individuals, two mobile medical/dental buses, and a school-based care program. In 2025, served 19,381 unique patients across 60,779 encounters, with 44% uninsured.
+
+## 2. EXECUTIVE SUMMARY
+
+CRCHC supports CMS's interoperability and drug ePA proposals because they could reduce administrative burden and improve access for medically underserved patients, but it stresses that implementation must account for safety-net providers' limited IT, cybersecurity, vendor, and financial capacity. It recommends vendor accountability, no provider penalties for vendor failures, payer alignment, cybersecurity and funding support, benefit-pathway transparency, 340B/pharmacy workflow coordination, proactive PA expiration alerts, stronger PA reduction policies including gold-carding, centralized metrics and endpoint reporting, FHIR transition support, CDex guardrails, and CMS-ONC harmonization.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; MEDICAL-VS-PHARMACY-BENEFIT; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0053-F; 45 CFR 170.315(g)(31)-(g)(33); 90 FR 37130 (Aug. 4, 2025); CMS February 28, 2024 National Standards Group enforcement discretion.
+- **Standards referenced:** APIs; FHIR; CRD/DTR/PAS HL7 Da Vinci IGs v2.2; Provider Access API; Patient Access API; Payer-to-Payer API; Prior Authorization API; CRD Coverage Information extension; X12 6020 claims attachments; FHIR/CDex PA attachments; X12 278; C-CDA, PDF, text, and FHIR resource attachments; HTI-4 and HTI-5 ONC certification rules.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: API interoperability and safety-net implementation support**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** Standardized real-time exchange can reduce duplicative documentation, improve visibility into PA requirements, and streamline care coordination, but CHCs face vendor dependence, limited IT staff, and fragmented workflows.
+- **Specific request:** Clarify providers will not be penalized for failures attributable to vendors, clearinghouses, or EHR systems; coordinate timelines with ONC certification; require readiness validation/testing; create uniform implementation requirements across Medicaid MCOs and QHP issuers.
+
+**Topic 2: Cybersecurity and funding support for CHCs**
+- **Provision ID:** PRIVACY-SECURITY / GENERAL
+- **Position:** Modify
+- **Rationale:** Broader API exchange increases cybersecurity exposure for resource-constrained CHCs that lack dedicated cybersecurity officers and rely on third parties.
+- **Specific request:** Provide technical assistance, implementation guidance, cybersecurity and IT workforce development support, and dedicated health IT funding opportunities.
+
+**Topic 3: Electronic prior authorization for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** Drug ePA can improve point-of-prescribing visibility and reduce manual PA burden for medications used in diabetes, hypertension, behavioral health, HIV, OUD, and serious mental illness.
+- **Specific request:** Finalize ePA for drugs but pair it with implementation support, benefit-pathway transparency, and PA reduction reforms.
+
+**Topic 4: Medical vs pharmacy benefit classification**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify / Modify
+- **Rationale:** Drugs such as Sublocade, long-acting injectable antipsychotics, and Cabenuva may be billed under pharmacy or medical benefits depending on payer and care setting.
+- **Specific request:** Require payers to expose benefit classification information through Provider Access APIs using the CRD Coverage Information extension; clarify whether PA approvals under one pathway apply to alternate payment pathways.
+
+**Topic 5: 340B, pharmacy operations, and interoperability**
+- **Provision ID:** PA-DRUG-PHARMACY; TECHNICAL-FEASIBILITY
+- **Position:** Modify
+- **Rationale:** CHC pharmacy operations depend on EHRs, pharmacy management systems, TPAs, contract pharmacies, and payer APIs that may not exchange real-time structured information, risking missed 340B accumulation and delays.
+- **Specific request:** Coordinate with the Office of Pharmacy Affairs to provide technical assistance, implementation guidance, and funding support for CHCs.
+
+**Topic 6: PA expiration alerts and PA reduction reforms**
+- **Provision ID:** GENERAL/RFI; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** ePA alone may accelerate inefficient processes and not reduce total burden; proactive notifications and reduced PA volume would protect continuity.
+- **Specific request:** Mandate proactive PA expiration notifications via FHIR-based alerts; extend gold-carding to prescription drugs; create sunset provisions for PA categories with consistently high approval rates.
+
+**Topic 7: Communications, denial reasons, timeframes, and automatic approval**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; TRANSPARENCY
+- **Position:** Support / Modify
+- **Rationale:** Denial reasons and aligned timeframes help CHCs correct submissions, appeal, and avoid delays; payer deadline misses should not harm patients.
+- **Specific request:** Finalize specific denial reasons regardless of submission method; maintain aligned timeframes; publish PA metrics centrally; expand metrics; create automatic approval when payers miss required timeframes.
+
+**Topic 8: API endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** Centralized endpoint information reduces CHC IT burden and helps avoid outdated hard-coded endpoints.
+- **Specific request:** Publish endpoint information on CMS's website as machine-readable files; require updates within one week and annual verification; prioritize ease of access for rural and safety-net primary care providers.
+
+**Topic 9: API usage metrics and PA data through APIs**
+- **Provision ID:** API-USAGE-METRICS; PATIENT-ACCESS; PROVIDER-ACCESS; PAYER-TO-PAYER
+- **Position:** Support / Modify
+- **Rationale:** Detailed PA information in APIs supports accountability and continuity for populations that move frequently. Metrics should measure usability and operational value, not just availability.
+- **Specific request:** Make PA request/decision information for all drugs available through Patient Access, Provider Access, and Payer-to-Payer APIs beginning October 1, 2027; retain information for at least one year; report managed care metrics by program and plan; add API functionality/usability metrics including success rates, authorization failures, malformed queries, unreceived calls, structured/unstructured data, workflow impact, calls per query, queries per user, and API maintenance cost.
+
+**Topic 10: Retain formulary information in APIs**
+- **Provision ID:** API-USAGE-METRICS / PA-DRUG-PHARMACY
+- **Position:** Oppose / Modify
+- **Rationale:** Payer websites and standard communications are not sufficiently reliable or real-time for CHC prescribing across multiple payers.
+- **Specific request:** Reconsider removing drug formulary information from Provider Access and Payer-to-Payer APIs.
+
+**Topic 11: HIPAA standards transition from X12 to FHIR**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support / Modify
+- **Rationale:** CRCHC supports moving from X12 to FHIR but warns CHCs will face dual-standard burdens during transition.
+- **Specific request:** Provide transition support; extend CMS's February 28, 2024 enforcement discretion for FHIR PA API as an X12 278 substitute through the CMS-0062-P transition period.
+
+**Topic 12: CDex guardrails and gold-carding**
+- **Provision ID:** HIPAA-PA-STANDARDS; GENERAL
+- **Position:** Support / Modify
+- **Rationale:** CDex can support PA attachments but may enable iterative payer data requests. Gold-carding can reduce unreimbursed CHC staff burden.
+- **Specific request:** Require all documentation in the initial CDex request, limit solicited-attachment requests to two per PA transaction before decision, set maximum payer response timeframes after attachments, formally recommend gold-card initiatives, and extend privileges to all items and services for eligible providers.
+
+**Topic 13: CMS-ONC harmonization and HTI-5 concerns**
+- **Provision ID:** ONC-STANDARDS-UPDATE; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** CMS-0062-P payer compliance by October 1, 2027 may precede certified provider-facing technology availability under HTI-4, and HTI-5 deregulation could remove supporting capabilities CHCs need.
+- **Specific request:** Issue joint CMS-ONC implementation guidance, conduct a formal CMS-ONC harmonization assessment before finalizing CMS-0062-P, and ensure providers are not deemed non-compliant for unavailable certified technology.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2/S3:** Supports mandatory CRD/DTR/PAS standards but requests synchronized IG timelines, ONC alignment, and readiness validation.
+- **S12/S15/S21:** Supports ePA for drugs but asks for benefit classification through APIs, clarification of dual medical/pharmacy benefit approvals, and implementation support.
+- **S16/S17:** Supports specific drug PA denial reasons and asks for actionable information identifying missing or insufficient content.
+- **S20/S43:** Supports aligned decision timeframes and requests automatic approval when payers fail to meet deadlines.
+- **S23/S24/S26/S27/S33:** Supports centralized API endpoint reporting, one-week updates, annual verification, and machine-readable CMS publication.
+- **S29/S30/S34/S35:** Supports granular API usage metrics and recommends additional functionality, usability, and workflow-impact measures.
+- **S37:** Identifies implementation challenges for CHCs, EHR vendors, cybersecurity, 340B operations, and payer variation.
+- **S44-S55:** Supports FHIR transition from X12 but requests enforcement discretion, transition support, CDex guardrails, and realistic certification/timeline alignment.
+- **S60-S65:** Requests CMS-ONC harmonization and assessment of HTI-5 impacts on CMS-0062-P implementation.
+- **S66-S82:** Responds to broader PA reform issues including proactive PA expiration alerts, gold-carding, sunset provisions, and step-therapy-related PA burden.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize API and drug ePA proposals with safety-net implementation support.
+2. Clarify that providers will not be penalized for vendor, clearinghouse, or EHR failures outside provider control.
+3. Coordinate CMS timelines with ONC certification and require readiness validation before enforcement.
+4. Establish uniform implementation requirements across Medicaid MCOs and QHP issuers.
+5. Provide cybersecurity technical assistance, workforce support, and funding for CHCs.
+6. Require benefit classification information through Provider Access APIs using CRD Coverage Information extension.
+7. Clarify cross-pathway PA validity where drugs can be covered under both medical and pharmacy benefits.
+8. Coordinate with OPA on 340B and pharmacy workflow implementation assistance.
+9. Mandate proactive PA expiration notifications via FHIR-based alerts.
+10. Pair ePA mandates with PA reduction requirements, including gold-carding for prescription drugs and sunset provisions for high-approval PA categories.
+11. Finalize specific denial reason requirements for drug PA denials regardless of submission method.
+12. Publish PA metrics centrally in a standardized, publicly accessible CMS format.
+13. Add granular metrics including denial rates by medication/service category, first-pass approval rates, denials overturned due to inadequate notices, and data completeness/quality.
+14. Establish automatic approval for PA requests not decided within required timeframes.
+15. Publish API endpoints as machine-readable files on CMS's website and maintain timely updates.
+16. Make drug PA information available through Patient Access, Provider Access, and Payer-to-Payer APIs by October 1, 2027 and retain it at least one year.
+17. Report Medicaid/CHIP managed care Patient Access API usage by program and plan.
+18. Add API functionality/usability metrics and workflow-impact measures.
+19. Reconsider removing drug formulary information from Provider Access and Payer-to-Payer APIs.
+20. Prioritize safety-net providers for federal matching funds and implementation support.
+21. Extend CMS enforcement discretion for FHIR PA API as X12 278 substitute during the CMS-0062-P transition.
+22. Adopt CDex guardrails limiting iterative attachment requests.
+23. Issue guidance recommending payer gold-card initiatives across all items and services for eligible providers.
+24. Issue joint CMS-ONC guidance and publish a harmonization assessment before final rule.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Safety-net readiness, vendor dependency, cybersecurity exposure, fragmented payer requirements, dual medical/pharmacy benefit ambiguity, 340B workflow gaps, ePA without PA reduction, payer delays, poor metric granularity, X12/FHIR transition burden, and CMS-ONC timeline misalignment.
+- **Potential negative impacts cited:** Medication delays, missed HIV injection appointments, psychiatric decompensation, viral rebound, relapse, avoidable worsening conditions, data/security risk, missed 340B accumulation events, duplicative work, claim errors, and unreimbursed staff costs.
+- **Implementation barriers mentioned:** No native EHR PA submission; reliance on fax, Availity, and payer portals; limited CHC IT staff; lack of cybersecurity officer; non-integrated pharmacy and EHR systems; contract pharmacy/TPA complexity; vendor priorities; certified technology not available by payer deadlines.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CRCHC served 19,381 patients and 60,779 encounters in 2025; 44% uninsured; 94% of physicians report PA delays care; average PA wait about three days and nearly one-third wait over a week; MA organizations made nearly 53 million PA determinations in 2024 with over four million full/partial denials; CHCs serve more than 16 million Medicaid beneficiaries, over 6 million uninsured people, 20.5 million low-income people, 1.1 million agricultural workers, and over 1.5 million homeless individuals; over 90% of CHC patients have incomes below 200% FPL; CRCHC has 2,573 diabetic patients, 4,005 patients with hypertension, 551 with heart disease; more than 65% of CHCs use 340B contract pharmacy arrangements; CRCHC has 750+ contract pharmacy arrangements; proactive outreach before PA expiration has positive outcomes in 87% of cases vs 25% without notification; 26% of CRCHC patients are Medicaid; nearly half of CHCs have fewer than 90 days cash on hand; one in four CHCs report negative 5% margins.
+- **Studies or research referenced:** AMA, KFF, MGMA, HRSA UDS, NACHC, Weitzman Institute, Pharmacy Times, Krauss et al., Murthi et al., Vishwanath et al., Lauffenburger et al., Salzbrenner et al., CMS guidance, WISeR model materials, 90 FR 37130.
+- **Examples provided:** HIV patient missing scheduled injection after fax PA delay; Sublocade, LAI antipsychotics, Cabenuva, Aristada, Perseris, Uzedy, Invega Sustenna; 340B TPA/EHR/pharmacy management system disconnects.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** CHCs, safety-net providers, uninsured and Medicaid patients, rural patients, migrant and homeless populations, providers, EHR vendors, clearinghouses, TPAs, pharmacies, PBMs, Medicaid MCOs, QHP issuers, CMS, ONC, OPA.
+- **Economic implications:** Significant unfunded IT/cybersecurity/vendor costs; unreimbursed PA staff burden; possible federal matching funds needed; CHC cash-flow strain; risk of claim/340B errors and payer delays shifting costs to CHCs.
+- **Technical feasibility:** Feasible if CMS coordinates with ONC, vendors, and safety-net providers; requires certified modules, FHIR/API readiness, CDex guardrails, endpoint/reporting standardization, and cybersecurity support.
+- **Patient care impact:** Strongly positive if implemented with support; risk of treatment interruptions and access barriers if implementation is fragmented or underfunded.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial implementation conditions
+- **Tone:** Detailed, evidence-based, safety-net focused, constructive
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Cabarrus Rowan Community Health Centers, Inc therefore supports many of the changes in this proposed rule because of their potential to reduce administrative burden and improve timely patient access." - Context: Overall position.
+2. "CMS should clarify that providers will not be penalized for failures attributable to vendors, clearinghouses, or EHR systems outside provider control." - Context: Vendor readiness recommendation.
+3. "Electronic prior authorization alone may not reduce overall administrative burden without concurrent prior authorization reform." - Context: Concern about ePA accelerating inefficient processes.
+4. "Cabarrus Rowan Community Health Centers, Inc urges CMS to establish automatic approval for PA requests that are not decided within the required timeframes." - Context: Enforcement/timeframe recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Raises CMS/ONC timing gaps and asks for readiness validation before enforcement.
+- [x] **COST-RESOURCES** - Emphasizes CHC budget constraints, implementation costs, unreimbursed staff burden, and funding needs.
+- [x] **PROVIDER-BURDEN** - Extensive discussion of fax, payer portals, duplicate data entry, and manual PA work.
+- [x] **PRIVACY-SECURITY** - Flags increased cybersecurity exposure and limited CHC cybersecurity staffing.
+- [x] **HEALTH-EQUITY** - Focuses on Medicaid, uninsured, homeless, migrant, low-income, rural, and medically underserved populations.
+- [x] **TECHNICAL-FEASIBILITY** - Addresses EHR readiness, vendor capacity, APIs, CDex, FHIR, and implementation validation.
+- [x] **STANDARDS-MATURITY** - Discusses CRD/DTR/PAS v2.2, HTI-4/HTI-5, certification timing, and CMS-ONC harmonization.
+- [x] **PATIENT-ACCESS** - Central purpose is timely medication and care access.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS, ONC, OPA, vendors, payers, CHCs, pharmacies, and TPAs to coordinate.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Requests benefit classification and cross-pathway PA clarification.
+- [x] **TRANSPARENCY** - Supports denial reasons, public metrics, endpoint reporting, and formulary information in APIs.
+- [x] **SMALL-PAYER-IMPACT** - Not primarily about small payers, but emphasizes small/safety-net provider capacity constraints.
+- [x] **EXISTING-WORKFLOWS** - Details current EHR, pharmacy, 340B, fax, portal, and payer workflows.
+- [x] **VENDOR-ECOSYSTEM** - Significant focus on EHR vendors, clearinghouses, TPAs, PBMs, and certified technology readiness.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1
+June 15, 2026
+The Honorable Mehmet Oz, MD
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+P.O. Box 8013
+Baltimore, MD 21244
+ATTN: CMS-0062-P
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of 
+Qualified Health Plans on the Federally-Facilitated Exchange
+Dear Administrator Oz:
+Cabarrus Rowan Community Health Centers, Inc. (CRCHC) was established on June 14, 2006...

@@ -1,0 +1,169 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0553
+Commenter: California Clinical Laboratory Association (CCLA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:15:54
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** California Clinical Laboratory Association (CCLA); signed by Kristi Foy, Executive Director.
+- **Stakeholder type:** Professional Association; Healthcare Provider representative.
+- **Credentials or expertise mentioned:** Represents over twenty-five regional and national clinical laboratories with firsthand experience in laboratory prior authorization and utilization management across Medicare Advantage, commercial, and other payers.
+
+## 2. EXECUTIVE SUMMARY
+
+CCLA responds primarily to the RFI on prior authorization for laboratory tests and urges CMS to reduce administrative barriers that delay medically necessary testing. The comment supports CMS clarifications that laboratories may initiate prior authorization and that PA may only assess medical necessity, while requesting stronger enforcement, TRF acceptance, appeal protections, oversight of MA plans and LBMs, and codification of PA exceptions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; TRANSPARENCY-related aspects of GENERAL RFIs.
+- **Regulatory citations mentioned:** 42 CFR 422.101(a); references to 42 CFR 422.113(a); MA Part C appeals/Independent Review Entity requirements.
+- **Standards referenced:** No FHIR, NCPDP, or HL7 implementation guides are discussed in detail. The comment references Medicare NCDs, LCDs, MolDx policy, TRFs, MA prior authorization rules, and LBMs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Reduce PA for NCD/LCD-covered laboratory services**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Laboratory tests already covered under NCDs or LCDs have established medical necessity criteria, yet MA plans impose PA and deny at higher rates than Medicare FFS.
+- **Specific request:** Limit or eliminate PA for tests explicitly covered under NCDs/LCDs, or at least require streamlined automated approvals.
+
+**Topic 2: Accept test requisition forms as medical documentation**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Laboratories often lack full medical records, while TRFs commonly contain diagnoses, test orders, clinical indications, demographics, and physician attestation sufficient to support medical necessity.
+- **Specific request:** Require or clarify payer acceptance of TRFs when they contain necessary coverage information.
+
+**Topic 3: Permit laboratory-initiated PA**
+- **Provision ID:** GENERAL
+- **Position:** Support/Clarify
+- **Rationale:** Laboratories often receive the order and specimen before PA is obtained and are in the best position to submit documentation. Some MA plans or LBMs still refuse laboratory-initiated requests.
+- **Specific request:** Enforce CMS clarification that laboratories are providers that must be allowed to initiate PA.
+
+**Topic 4: Prohibit timing or administrative denials unrelated to medical necessity**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Denials based on date of service, requester identity, or request timing cause nonpayment for medically necessary testing and penalize workflows where testing must proceed promptly.
+- **Specific request:** Require plans to accept PA requests until claim submission and prohibit denials, voiding, or cancellations based on procedural issues unrelated to medical necessity.
+
+**Topic 5: Protect appeals and external review**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Administrative denial classifications can prevent medical necessity review, and MA organizations may fail to forward upheld denials for external review.
+- **Specific request:** Clarify that laboratories, providers, and beneficiaries retain appeal rights and require MA plans to forward denials to the Independent Review Entity.
+
+**Topic 6: Oversight of MA organizations and LBMs**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** LBMs create opaque coverage policies, unclear accountability, and barriers to reimbursement; existing CMS escalation pathways have been insufficient.
+- **Specific request:** Establish a mechanism to report systemic violations, collect more granular denial and appeal data, audit MA/LBM compliance, and impose corrective action or penalties where warranted.
+
+**Topic 7: Codify prior authorization exceptions**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Existing exception language for emergency, urgent, stabilization, and out-of-network MA PPO services appears in preambles/FAQs rather than regulatory text, limiting its usefulness in appeals.
+- **Specific request:** Add regulatory text prohibiting PA for out-of-network MA PPO services and other recognized exceptions.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** Responds to the RFI on laboratory testing/DMEPOS by describing laboratory-specific workflow barriers, patient access impacts, documentation problems, LBM effects, and automation safeguards.
+- **S16:** Addresses the need for denial reasons and argues denials must be based on medical necessity rather than administrative requirements.
+- **S17:** Indirectly supports structured, reviewable denial rationales that preserve appeal rights, though it does not propose a specific coding system.
+- **S29/S35:** Supports more granular reporting of denial rates, appeal outcomes, overturn rates, utilization management metrics, and CPT/service-level data to illuminate true PA burden.
+
+## 6. RECOMMENDATIONS
+
+1. Eliminate or reduce PA for laboratory services covered under NCDs and LCDs.
+2. Require payer acceptance of TRFs as valid documentation when sufficient to establish medical necessity.
+3. Enforce requirements permitting laboratories to initiate prior authorization.
+4. Prohibit PA denials based on date of service or administrative requirements unrelated to medical necessity.
+5. Preserve appeals and medical necessity review even after PA denial, cancellation, or voiding.
+6. Ensure MA organizations forward eligible denials to Independent Review Entities.
+7. Strengthen oversight, transparency, and accountability for MA organizations and LBMs.
+8. Collect granular denial, appeal, overturn, CPT-code, and service-type data.
+9. Codify PA exceptions currently described in preamble or FAQ materials.
+10. Align automation with NCDs, LCDs, and safeguards against accelerated inappropriate denials.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays laboratory testing; administrative denials prevent medical necessity review; MA and LBM practices are opaque and inconsistent; laboratories assume financial risk when testing proceeds for patient care.
+- **Potential negative impacts cited:** Delayed clinical decisions, lost reimbursement for medically necessary services, duplicative record requests, repeat administrative appeals, and loss of independent review.
+- **Implementation barriers mentioned:** Laboratory workflows often receive specimens before PA; laboratories lack full medical records; LBMs and MA plans vary in documentation and submission rules; current CMS escalation channels are inadequate.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** More than half of MA denials reported by members are overturned on appeal; more than 60% of successful appeals of PA denials occur at second or third appeal level; PA denials represented over one quarter of molecular diagnostic denials in 2024.
+- **Studies or research referenced:** HHS OIG reports on MA denials and appeal outcomes; Xifin 2025 Payor Denial Impact Report; MolDx Local Coverage Article A59792.
+- **Examples provided:** Carelon LBM allegedly does not allow laboratories to submit PA for tests; Humana liquid biopsy MA policy allegedly adds criteria beyond NCD 90.2.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clinical laboratories, ordering providers, MA beneficiaries, MA organizations, LBMs, MACs, commercial payers, and CMS oversight staff.
+- **Economic implications:** Laboratories incur staffing and appeal costs and may absorb nonpayment for medically necessary services; PA denials shift financial risk to providers.
+- **Technical feasibility:** Automation could help if aligned with coverage rules and medical necessity, but cannot fix underlying policy and enforcement failures by itself.
+- **Patient care impact:** PA can delay time-sensitive diagnostic, molecular, and precision medicine testing, undermining treatment decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional, detailed, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Prior authorization requirements for laboratory tests can delay access to medically necessary testing, increase administrative burden for laboratories and ordering providers, and create uncertainty regarding coverage and payment." - Context: Describing impact on patient care and provider burden.
+2. "Data from CCLA members demonstrates that more than half of MA denials are overturned upon appeal." - Context: Supporting concern that denials are frequently inappropriate.
+3. "CMS should ensure that all MA organizations comply with this requirement" - Context: Requesting enforcement of laboratory-initiated PA rights.
+4. "Prior authorization requests should be accepted any time until the claim is submitted." - Context: Recommended solution for timing-based denials.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Laboratories and ordering providers face duplicative documentation requests, repeated outreach, and lengthy appeals.
+- [x] **PATIENT-ACCESS** - Delays in testing can delay diagnosis, treatment selection, and time-sensitive care decisions.
+- [x] **TRANSPARENCY** - The comment asks for clearer denial reasons, granular reporting, and visibility into LBM and MA practices.
+- [x] **EXISTING-WORKFLOWS** - Laboratory workflows often involve specimen receipt before PA, making pre-service authorization requirements misaligned with care delivery.
+- [x] **COST-RESOURCES** - Laboratories absorb administrative costs and financial risk for medically necessary testing.
+- [x] **TECHNICAL-FEASIBILITY** - Automation is supported only if aligned with Medicare coverage policy and safeguards.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes coordination among laboratories, ordering providers, MA plans, MACs, and LBMs.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1127 Eleventh Street, Suite 820  l  Sacramento, CA 95814  l  (916) 446-2646 
+June 15, 2026 
+The Honorable Mehmet Oz, M.D., MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+Re: CMS-0062-P – Request for Information on Prior Authorization for Laboratory Tests 
+and DMEPOS 
+Dear Administrator Oz: 
+The California Clinical Laboratory Association (“CCLA”) appreciates the opportunity to 
+submit comments in response to the Request for Information (RFI) on prior authorization 
+for laboratory tests and Durable Medical Equipment, Prosthetics, Orthotics, and Supplies 
+(DMEPOS) included in the 2026 CMS Interoperability Standards and Prior Authorization 
+Proposed Rule. CCLA was formed in 1976 by a small group of clinical laboratories to 
+advocate for themselves at the state and national level. Today, the CCLA continues its 
+strong advocacy efforts representing over twenty-five large and small clinical laboratories 
+that are both regional and national in scope.  
+CCLA member laboratories provide a broad range of laboratory services that are essential 
+to patient care, ranging from routine clinical laboratory testing to advanced testing that 
+guides precision medicine. As providers that furnish laboratory services, our members 
+have extensive firsthand experience navigating prior authorization and utilization 
+management requirements across Medicare Advantage (MA), commercial, and other 
+health plans. We appreciate CMS’ recognition that current prior authorization processes 
+for laboratory services may create unintended barriers to timely patient care and impose 
+significant burdens on health care providers. 
+The comments below reflect the experiences of CCLA member laboratories with prior 
+authorization and other utilization management requirements. In our answers to the RFI 
+questions, we describe how current prior authorization processes impact patient access 
+CALIFORNIA 
+  CLINICAL 
+    LABORATORY 
+to laboratory testing a...

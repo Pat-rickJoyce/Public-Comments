@@ -1,0 +1,123 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0610_inline_20260629112518
+Commenter: New Jersey Medicaid/NJ FamilyCare fee-for-service program (organization not explicitly named)
+Source: Inline Comment
+Analysis Date: 2026-06-29 15:41:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** New Jersey Medicaid/NJ FamilyCare fee-for-service program (organization not explicitly named)
+- **Stakeholder type:** Government; Payer; State Medicaid FFS/MCO oversight
+- **Credentials or expertise mentioned:** Operational responsibility for New Jersey Medicaid fee-for-service pharmacy and medical drug prior authorization, managed care oversight, vendor contracting, claims/POS systems, DURB-approved PA criteria, and state implementation planning.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter raises substantial implementation concerns for New Jersey Medicaid FFS and managed care, especially because NJ FFS lacks an online formulary, does not currently support PA for physician-administered drugs, and would need major staffing, vendor, claims, and contract changes. The commenter requests clarification of the 24-hour requirement, prefers one business day or response-not-decision language, recommends limiting the scope of covered drugs, extending implementation deadlines, and exempting small FFS populations from CMS-0062-P requirements.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; STATE-EXTENSION-PROCESS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; STAKEHOLDER-COORDINATION/GENERAL.
+- **Regulatory citations mentioned:** No specific CFR citations cited.
+- **Standards referenced:** NCPDP Telecommunication Standard Version D.0 to F6; electronic prior authorization intermediary; APIs; payer-to-payer API.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medicaid FFS and MCO operational readiness**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** NJ FFS does not maintain an online covered-drug list, does not publish DURB-approved PA criteria, and does not currently support PA for physician-administered drugs. MCOs maintain individual PDLs, PA criteria, and PBM arrangements, making uniform implementation complex.
+- **Specific request:** Extend implementation time and allow approaches that account for state-specific FFS/MCO structures, vendor dependencies, and PBM variation.
+
+**Topic 2: Physician-administered drug PA**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Implementing PA for physician-administered drugs would require clinical staff, claims-code updates, systems to request and document medical drug PA, and possible vendor contract modifications.
+- **Specific request:** Limit scope, provide more time, and recognize the cost and staffing burden of adding PAD PA capability.
+
+**Topic 3: 24-hour timeframe**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify/Modify
+- **Rationale:** The commenter is concerned that a strict 24-hour decision requirement could increase denials when physician offices are closed on weekends or holidays or when additional information is needed.
+- **Specific request:** Change the timeframe to one business day, clarify that a response rather than a final decision is required within 24 hours, and limit the drug scope subject to the requirement.
+
+**Topic 4: State cost, staffing, and vendor contracts**
+- **Provision ID:** COST-RESOURCES/GENERAL; STATE-EXTENSION-PROCESS
+- **Position:** Modify
+- **Rationale:** Implementation would require additional IT and clinical staff, MCO oversight, contract changes with MCOs and MEP vendors, possible new vendors, and capitation impacts.
+- **Specific request:** Extend the compliance deadline and provide flexibility or exemptions for small FFS programs.
+
+**Topic 5: FFS exemption / small population impact**
+- **Provision ID:** STATE-EXTENSION-PROCESS; SMALL-PAYER-IMPACT
+- **Position:** Modify
+- **Rationale:** NJ FFS accounts for only about 5% of NJ membership, while most members are in managed care; implementation costs would be significant relative to benefit.
+- **Specific request:** Exempt small FFS populations from CMS-0062-P requirements and align with the FFS exemption request process under CMS-0057-F.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Identifies technical and operational challenges for medical benefit drugs, including lack of current PAD PA capability and need for claims-code/system updates.
+- **S14/S19:** Notes state readiness challenges for pharmacy benefit standards, including the NCPDP D.0 to F6 transition and competing POS updates.
+- **S20:** Responds directly to the 24-hour timeframe by recommending one business day, clarification that only a response may be required, and concern that strict timing could increase denials.
+- **S21:** States that implementation by the proposed deadline is difficult given competing priorities, vendor changes, staffing, and procurement.
+- **S36/S38:** Supports flexibility for state FFS programs and recommends extending implementation deadlines and exempting small FFS populations.
+- **S29/S34/S35:** Addresses reporting by noting additional staffing and contract burden needed to support compliance reporting and appeals coordination.
+- **S66-S82:** Provides general RFI-style concerns about payer-to-payer API coordination and implementation barriers.
+
+## 6. RECOMMENDATIONS
+
+1. Extend the implementation deadline for state Medicaid FFS and related MCO/PBM implementation.
+2. Clarify that the 24-hour timeframe requires a response, not necessarily a final decision, when additional information is needed.
+3. Change the 24-hour requirement to one business day to account for weekends and holidays.
+4. Limit the scope of drugs subject to the 24-hour requirement.
+5. Exempt small FFS populations from CMS-0062-P requirements or align CMS-0062-P with existing CMS-0057-F FFS exemption concepts.
+6. Recognize the need for additional state IT, clinical, oversight, and legal staff.
+7. Allow time for MCO, PBM, MEP vendor, and ePA intermediary contract updates.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** State readiness, staffing shortages, vendor contracts, lack of current PAD PA infrastructure, MCO/PBM variation, and unrealistic timing.
+- **Potential negative impacts cited:** Increased PA denial rates, budget strain, implementation burden disproportionate to small FFS membership, and operational disruption from concurrent NCPDP/POS updates.
+- **Implementation barriers mentioned:** Procurement, claims-system code changes, API development, online formulary publication, payer-to-payer coordination, reporting, appeals coordination, and MCO oversight.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NJ FFS covers about 5% of NJ membership; most NJ members are in managed care.
+- **Studies or research referenced:** None.
+- **Examples provided:** Lack of NJ FFS formulary publication; lack of PAD PA support; MCOs maintain unique PDLs, PA criteria, and PBMs; upcoming NCPDP D.0 to F6 rollout.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** State Medicaid FFS program, MCOs, PBMs, MEP vendor, clinical staff, IT staff, claims unit, physicians, and beneficiaries.
+- **Economic implications:** Significant vendor-contract costs, new vendor procurement, state staffing, capitation impacts, and budget strain.
+- **Technical feasibility:** Feasible only with more time and resources; current FFS systems do not support some required functions.
+- **Patient care impact:** The commenter warns that compressed decision timelines could increase denials and delay access when additional clinical information cannot be obtained promptly.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned / Mixed
+- **Tone:** Operational; pragmatic; cautionary
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "NJ FFS doesn't currently support PA on PADs." - Context: Used to explain why medical benefit drug PA implementation would require new staff, processes, and systems.
+2. "Recommend changing to one business day to accommodate physician office closings." - Context: Recommended change to the proposed 24-hour timeframe.
+3. "Recommend clarifying that a 'response' is required within the 24-hour time frame, not a 'decision.'" - Context: Concern that final decisions may be impossible when more information is needed.
+4. "Cost to implement would be significant with minimal benefit to members." - Context: Argument for exempting small FFS populations.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The commenter repeatedly asks for deadline extensions and timing flexibility.
+- [x] **COST-RESOURCES** - The comment emphasizes staff hiring, vendor contracts, procurement, and budget strain.
+- [x] **TECHNICAL-FEASIBILITY** - Current FFS systems do not support PAD PA and would require claims/API changes.
+- [x] **STAKEHOLDER-COORDINATION** - Implementation requires coordination among the state, MCOs, PBMs, MEP vendors, ePA intermediaries, and legal units.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment distinguishes PAD/medical benefit PA from pharmacy/POS drug workflows.
+- [x] **TRANSPARENCY** - Notes lack of current online formulary and PA criteria publication.
+- [x] **SMALL-PAYER-IMPACT** - Requests exemption for small FFS populations.
+- [x] **EXISTING-WORKFLOWS** - Highlights disruption to current POS, claims, vendor, and PA processes.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule<br/><br/>(CMS0062-P)<br/><br/>&middot; FFS &ndash;<br/><br/>o NJ FFS is one of the 2 states that do not have a formulary<br/><br/>o NJ FFS doesn&rsquo;t presently post the list of covered drugs online<br/><br/>o NJ FFS doesn&rsquo;t presently post DURB approved PA criteria online<br/><br/>&middot; MCO -<br/><br/>o MCOs are allowed to maintain individual PDLs<br/><br/>o MCOs maintain individual PA criteria for drugs where FFS doesn&rsquo;t have a policy<br/><br/>o MCOs contract with their own PBMs<br/><br/>o Contract changes will need to be made to specific to the requirements of this proposed rule<br/><br/>&middot; Oversight &ndash;<br/><br/>o State would need to hire additional IT and clinical staff to implement each component of this rule and oversee the plans and FFS implementations<br/><br/>o State oversight would need to be individual to each plan, as each plan is unique in their coverage and PBM<br/><br/>&middot; Physician Administered Drug (PAD) PA-<br/><br/>o NJ FFS doesn&rsquo;t currently support PA on PADs<br/><br/>o Would require clinical staff to coordinate a team to review the PA for medical benefit drugs<br/><br/>o Potential MEP vendor (GW) contract changes<br/><br/>o State&rsquo;s claims unit will need update the codes for PADs to require PA and implement the systems to request/document the PA for medical drugs.<br/><br/>&middot; Timing &ndash;<br/><br/>o State has multiple competing IT and POS related updates going on in the next few years, specifically the roll out of the new NCPDP Telecommunication Standard Version from D.0 to F6. Implementation of this proposed rule will require hiring additional staff.<br/><br/>o NJ is compliant with current PA turnaround times. Concern exists that the 24-hour time frame will increase PA denial rate across FFS and MCOs. If a physician office is closed due to a holiday or weekend, the PA will be denied as the payer cannot get the n...

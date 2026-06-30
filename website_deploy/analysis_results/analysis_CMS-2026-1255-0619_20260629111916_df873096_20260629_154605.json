@@ -1,0 +1,83 @@
+{
+  "comment_id": "CMS-2026-1255-0619",
+  "source_file": "CMS-2026-1255-0619_20260629111916_df873096.txt",
+  "analysis_timestamp": "20260629_154605",
+  "commenter_information": {
+    "author_organization_name": "American Immunization Registry Association (AIRA); American Medical Informatics Association (AMIA); Association of Public Health Laboratories (APHL); Association of State and Territorial Health Officials (ASTHO); Big Cities Health Coalition (BCHC); Council of State and Territorial Epidemiologists (CSTE); Healthcare Information and Management Systems Society (HIMSS); National Association of County and City Health Officials (NACCHO); Public Health Informatics Institute (PHII)",
+    "stakeholder_type": "Professional Association / Public Health Advocacy Group",
+    "credentials_or_expertise_mentioned": "Coalition of public health informatics and public health organizations focused on health IT, public health infrastructure, surveillance, and care coordination."
+  },
+  "executive_summary": "The coalition supports CMS and ONC efforts to improve standards-based interoperability and the usefulness of electronic event notifications for care coordination. The comment focuses on the RFI for electronic event notifications, recommending use of public health ADT/syndromic surveillance experience, pilots and incentives before expanding recipients, and stronger data quality testing and validation.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "GENERAL",
+      "ONC-STANDARDS-UPDATE"
+    ],
+    "regulatory_citations_mentioned": [
+      "Promoting Interoperability program",
+      "Conditions of Participation"
+    ],
+    "standards_referenced": [
+      "ADT messages",
+      "PHIN Messaging Guide for Syndromic Surveillance",
+      "TEFCA",
+      "electronic case reporting (eCR)",
+      "certified electronic health record technology"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "Use public health ADT and syndromic surveillance experience to improve event notifications",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "Syndromic surveillance reporting already uses ADT-like messages with additional data elements important for public health surveillance and may inform what data would improve care coordination.",
+      "specific_request": "CMS should explore the PHIN syndromic surveillance messaging guide and related ADT-like public health reporting experience when considering additional event notification elements."
+    },
+    {
+      "topic": "Expand event notification recipients cautiously through pilots and stakeholder input",
+      "provision_id": "GENERAL",
+      "position": "Clarify",
+      "rationale": "Additional provider types may benefit from notifications, but CMS should first determine whether ADT messages are sufficient and what additional elements are needed for different care settings.",
+      "specific_request": "Conduct surveys and pilots, potentially with incentives and networks such as TEFCA/HIEs, before requiring hospitals to send alerts to provider types beyond current regulation."
+    },
+    {
+      "topic": "Improve data quality and standardization",
+      "provision_id": "ONC-STANDARDS-UPDATE",
+      "position": "Support",
+      "rationale": "ADT feeds may be hindered by inconsistent standardization and variable data quality; real-world testing and validation would improve utility while reducing burden if metrics are calculated by CEHRT or centralized dashboards.",
+      "specific_request": "CMS should work with ONC on real-world onboarding and production validation, consider incentives tied to priority data elements, create processes for serious data quality remediation, and evaluate numerator/denominator metrics and centralized dashboards."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "RFI: Electronic Event Notifications for Value-Based Care and Care Coordination",
+      "summary": "The commenters respond to the RFI by recommending additional standardized data elements, careful expansion of recipient types, pilots, TEFCA/HIE incentives, and stronger testing and data quality validation."
+    }
+  ],
+  "theme_taxonomy": [
+    "STAKEHOLDER-COORDINATION",
+    "TECHNICAL-FEASIBILITY",
+    "TRANSPARENCY",
+    "PROVIDER-BURDEN",
+    "HEALTH-EQUITY"
+  ],
+  "stakeholder_map": [
+    "Healthcare Providers",
+    "Health IT Vendors",
+    "Patients & Advocacy Groups",
+    "SDOs (HL7, NCPDP)",
+    "Government"
+  ],
+  "key_quotes": [
+    "We applaud CMS and ONC on their efforts to further an interoperable health technology ecosystem rooted in standards-based data exchange.",
+    "Use of ADT feeds to improve patient care may be hindered by lack of standardization and variable data quality."
+  ],
+  "agency_action_requested": "Consider public health messaging guides and data-quality infrastructure when developing event notification policy; use pilots, incentives, validation, and stakeholder surveys before expanding regulatory requirements.",
+  "overall_position": "Support with modifications/clarifications",
+  "substantive_content": true,
+  "commenter": "Becky Lampkins",
+  "organization": "",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

@@ -1,0 +1,177 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0684_20260629112325_90ab2605
+Commenter: CRISP Shared Services, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:51:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** CRISP Shared Services, Inc. (CSS), with signatures from Craig Behm, CSS Chief Executive Officer/CRISP President, and partner HIE/HDU executives from Alaska, Connecticut, District of Columbia, Florida, Virginia, and West Virginia.
+- **Stakeholder type:** Technology Vendor / Health Information Exchange / Other health data utility infrastructure organization
+- **Credentials or expertise mentioned:** Not-for-profit organization managing shared infrastructure for HIEs and HDUs across multiple states and territories, providing governance, privacy/security, and data interoperability across providers, payers, public health, and state officials.
+
+## 2. EXECUTIVE SUMMARY
+
+CRISP Shared Services urges CMS to prioritize measurable data exchange outcomes over prescriptive technical mandates and to recognize HIEs and HDUs as essential trusted intermediaries for scalable interoperability. The comment focuses on patient electronic event notifications, recommending flexible, HIE-mediated approaches that improve data quality, governance, attribution, directories, and care coordination while avoiding duplicative or fragmented exchange models.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI on patient event notifications; ONC-STANDARDS-UPDATE by implication; FHIR-IG-REQUIRED by implication where HL7 Subscriptions, Da Vinci Unsolicited Notifications IG, and ATR List IG are discussed.
+- **Regulatory citations mentioned:** CMS-0062-P; 85 FR 25587. No CFR sections are cited directly.
+- **Standards referenced:** HL7 v2 ADT messages; HL7 Subscriptions Framework; HL7 Da Vinci Unsolicited Notifications IG; HL7 FHIR Da Vinci Member Attribution (ATR) List IG; TEFCA; certified EHR/health IT concepts.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Outcomes over prescriptive standards**
+- **Provision ID:** ONC-STANDARDS-UPDATE / GENERAL
+- **Position:** Modify
+- **Rationale:** CSS argues that existing standards can support effective interoperability and that the limiting factors are data quality, reliability, timeliness, context, and governance rather than the absence of new standards.
+- **Specific request:** CMS should prioritize reliable, timely, meaningful data exchange and avoid treating specific technical standards as proxies for value.
+
+**Topic 2: Recognize HIEs and HDUs as essential infrastructure**
+- **Provision ID:** GENERAL
+- **Position:** Support/Modify
+- **Rationale:** HIEs and HDUs already address many challenges involving care coordination, public health reporting, Medicaid operations, and patient access through scalable, governed exchange.
+- **Specific request:** Explicitly support HIEs and HDUs as trusted neutral intermediaries and avoid policies that encourage duplicative or fragmented exchange models.
+
+**Topic 3: Event notification data content and quality**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Clarify/Modify
+- **Rationale:** Hospitals in mature HIEs often send enriched ADT data, but quality varies when direct notification models lack HIE normalization and governance.
+- **Specific request:** Focus on accurate, consistently populated, high-value data elements such as event type, timestamp, care location, discharge disposition, and patient attribution identifiers.
+
+**Topic 4: Standards for event notifications**
+- **Provision ID:** ONC-STANDARDS-UPDATE / GENERAL
+- **Position:** Clarify
+- **Rationale:** CSS states HL7 v2 ADT is the predominant and effective mechanism for current event notifications; mandating new standards may add cost and complexity without better outcomes.
+- **Specific request:** Do not mandate premature adoption of advanced approaches; allow HL7 v2 ADT via HIEs while advanced HL7/FHIR approaches mature.
+
+**Topic 5: Provider directories, attribution, and patient matching**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** Accurate directories, attribution, and identity management determine whether notifications reach the right recipients and support value-based care.
+- **Specific request:** Reinforce directory lifecycle management and recognize HIE-managed directory, attribution, subscription, and patient matching services.
+
+**Topic 6: Privacy and governance for expanded notifications**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Clarify/Modify
+- **Rationale:** Expanded notification content creates greater need for role-based access, data minimization, audit controls, and consent enforcement.
+- **Specific request:** Use HIE governance frameworks to manage privacy, consent, auditability, and appropriate role-based filtering.
+
+**Topic 7: Burden on hospitals, CAHs, REHs, and clinicians**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** Mandatory expanded data elements could burden resource-constrained facilities, and clinician burden should not be shifted into manual workflows.
+- **Specific request:** Use HIE-mediated extraction, validation, routing, and normalization; derive additional data from administrative/system-generated sources without new clinician workflows.
+
+**Topic 8: Policy levers and enforcement**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** CSS believes CoPs can set baseline expectations, but value-based care, quality, payment incentives, education, transparency, and technical assistance are better suited to drive innovation and effective use.
+- **Specific request:** Use payment, quality, and value-based programs to incentivize notification use; prioritize education and technical assistance before punitive enforcement.
+
+## 5. SOLICITATION RESPONSES
+
+- **S9:** The comment discusses HL7 Subscriptions Framework and related Da Vinci notification approaches, stating they may add value over time but should not be mandated prematurely.
+- **S60:** CSS recommends an outcome-focused standards approach that allows existing standards, especially HL7 v2 ADT, where they already work effectively.
+- **S61:** The comment urges CMS and ONC coordination on certification criteria that support subscription access through intermediaries such as HIEs, without requiring every recipient to operate certified EHR technology.
+- **S62:** CSS recommends certification and technical criteria that support intermediated subscription access and governance rather than direct recipient-by-recipient technical requirements.
+- **S64:** The comment asks CMS to recognize HIE/HDU experience and implementation realities, emphasizing stakeholder-governed exchange and technical assistance.
+- **S65:** CSS notes that HL7 v2 ADT feeds via HIEs are currently the most common and scalable approach for event notifications.
+- **S66-S82:** The comment extensively responds to general RFI questions on patient event notifications, including additional data elements, hospital/PAC/ACO/payer receipt, attribution, directories, TEFCA, CoPs, enforcement, privacy, technical approaches, and incentives.
+
+## 6. RECOMMENDATIONS
+
+1. Prioritize data exchange outcomes over prescriptive technical standards.
+2. Recognize HIEs and HDUs as essential, trusted infrastructure for scalable interoperability.
+3. Avoid duplicative or fragmented exchange models that bypass existing HIE/HDU governance.
+4. Focus event notification improvements on data quality, consistency, and usability rather than data volume.
+5. Continue allowing HL7 v2 ADT-based event notifications where effective.
+6. Do not prematurely mandate advanced notification standards such as HL7 Subscriptions or Da Vinci notification IGs.
+7. Include high-value event elements such as event type, timestamp, care location, discharge disposition, and attribution identifiers when accurate and reliable.
+8. Support HIE-managed provider directories, attribution, subscriptions, and patient matching.
+9. Use role-based access, data minimization, audit controls, and consent enforcement for expanded notifications.
+10. Avoid adding clinician workflows; derive data from administrative or system-generated sources and quality-check centrally.
+11. Recognize attribution-based notification via HIEs as a scalable model for ACOs, PAC providers, suppliers, payers, EMS, behavioral health, pharmacies, and social service providers.
+12. Use payment, quality, and value-based programs rather than CoPs alone to drive advanced notification use.
+13. Prioritize education, transparency, technical assistance, and HIE participation before punitive enforcement.
+14. Ensure TEFCA complements rather than duplicates existing HIE networks.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Overly prescriptive standards mandates, fragmented direct exchange, inconsistent data quality, operational variability, burden on CAHs/REHs, weak provider directories, unclear attribution, insufficient governance, and duplication of existing HIE capabilities.
+- **Potential negative impacts cited:** Superficial compliance, increased cost and complexity, reduced participation, noisy/incomplete alerts, misrouted notifications, clinician burden, and fragmented implementations that fail to improve care coordination.
+- **Implementation barriers mentioned:** Variable hospital and PAC technical resources, inconsistent data quality, lack of interface staff, fragmented authorization, patient matching gaps, directory maintenance issues, and siloed attribution processes.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No numerical statistics cited.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Mature HIEs sending encounter type, admission/discharge timestamps, patient class, care location, discharge disposition, and service line indicators; ACO notification subscription models; attribution-based filtering; care management platform integration; automated outreach triggers; PAC providers receiving near-real-time alerts through HIEs.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals, CAHs, REHs, HIEs, HDUs, ACOs, PAC providers, long-term care facilities, payers, EMS, behavioral health providers, pharmacies, social service providers, public health agencies, Medicaid programs, clinicians, and patients.
+- **Economic implications:** CSS argues that reusing HIE/HDU infrastructure can achieve economies of scale and reduce duplicative implementation costs, while prescriptive new standards may add cost and complexity.
+- **Technical feasibility:** The comment states current HL7 v2 ADT feeds via HIEs are widespread, reliable, and scalable; advanced FHIR-based notification mechanisms may add future value but should not be required prematurely.
+- **Patient care impact:** Reliable, timely, high-quality notifications can improve transitions of care, discharge planning, population management, value-based performance, and care coordination across diverse recipient types.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed; supportive of interoperability goals but concerned about prescriptive technical mandates
+- **Tone:** Technical, collaborative, and infrastructure-focused
+- **Priority level:** Medium-High
+
+## 11. KEY QUOTES
+
+1. "data exchange outcomes over prescriptive technical standards" - Context: Central recommendation.
+2. "trusted, neutral intermediaries" - Context: Description of HIE/HDU role.
+3. "HL7 v2 is not the limiting factor" - Context: Standards and data quality discussion.
+4. "TEFCA should complement--not duplicate" - Context: Network coordination recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - CSS warns against new clinician workflows and resource burdens for CAHs, REHs, and hospitals.
+- [x] **PRIVACY-SECURITY** - The comment emphasizes role-based access, data minimization, audit controls, and consent enforcement.
+- [x] **TECHNICAL-FEASIBILITY** - It analyzes existing HL7 v2 ADT feeds, HIE normalization, subscriptions, TEFCA, and certification approaches.
+- [x] **STANDARDS-MATURITY** - CSS argues advanced HL7/FHIR notification standards may add value later but should not be mandated prematurely.
+- [x] **STAKEHOLDER-COORDINATION** - HIEs/HDUs are framed as intermediaries connecting providers, payers, public health, Medicaid, ACOs, PAC, and community partners.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on event notifications, discharge planning, care management platforms, provider directories, attribution, and patient matching.
+- [x] **VENDOR-ECOSYSTEM** - It directly addresses HIE/HDU infrastructure and how CMS policy could support or duplicate existing exchange networks.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1
+June 15, 2026
+Dr. Mehmet Oz
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+ATTN: CMSâ€“0062-P
+PO Box 8013
+Baltimore, MD 21224-1850
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of 
+Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P)
+CRISP Shared Services, Inc. (â€œCSSâ€) appreciates the opportunity to provide input on the CMS 
+Interoperability Standards and Prior Authorization for Drugs Proposed Rule. CSS is a not-for-
+profit organization managing a shared infrastructure for Health Information Exchanges (â€œHIEsâ€) 
+and Health Data Utilities (â€œHDUsâ€) across the country. CSSâ€™s core tenets seek to preserve the 
+independence and data governance of each HIE / HDU while achieving economies of scale â€“ the 
+whole should be greater than the sum of its parts. Currently, the states and territories CSS serves 
+include HIEs and HDUs for Alaska, Connecticut, the District of Columbia, Florida, Kentucky, 
+Maryland, Virigina, and West Virginia. CSS and its HIE / HDU partners stand as trusted third 
+parties, providing governance, privacy and security, and data interoperability across providers, 
+payers, and public and state health officials. Based on our experience, we are providing answers 
+to select questions from the RFI, and we offer the following general recommendations.
+ 
+â€¢ Prioritize data exchange outcomes over prescriptive technical standards.
+CMS should emphasize reliable, timely, and meaningful data exchange rather than treating 
+specific standards as proxies for value. Existing standards already support effective 
+interoperability; policy should focus on ensuring that high-quality data are ...

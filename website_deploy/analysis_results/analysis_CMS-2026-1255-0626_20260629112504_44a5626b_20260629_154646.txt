@@ -1,0 +1,157 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0626
+Commenter: Concert
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:46:46
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** The Concert Team / Concert.
+- **Stakeholder type:** Technology Vendor / laboratory management and interoperability vendor.
+- **Credentials or expertise mentioned:** Concert cites more than a decade of experience simplifying laboratory management for payers and providers and reports enabling health plan customers to reduce lab prior authorization by up to 50%.
+
+## 2. EXECUTIVE SUMMARY
+
+Concert responds to CMS's RFI on laboratory testing, arguing that prior authorization is unnecessary for many laboratory tests and can be simplified or automated for others. It recommends standardized test identification and FHIR-based computable clinical policy to reduce ambiguity, automate review, focus PA on high-value cases, and avoid denial based solely on pre-collection authorization timing.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI on laboratory tests; PA-DRUG-MEDICAL only indirectly through FHIR PA workflow principles; FHIR-IG-REQUIRED; TECHNICAL-FEASIBILITY; TRANSPARENCY.
+- **Regulatory citations mentioned:** CMS-0062-P Section III.E RFI on Laboratory Tests and DMEPOS.
+- **Standards referenced:** FHIR implementations, procedure codes, Genetic Testing Unit (GTU) ID, coding standards, FHIR-based questionnaires, computable/machine-readable clinical criteria.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Reduce unnecessary laboratory PA**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify.
+- **Rationale:** Genetic and molecular lab tests can represent 15-20% of authorization requests but less than 1% of claims costs for many plans, while inappropriate utilization may be low.
+- **Specific request:** Remove PA for tests where PA is unnecessary and focus PA on high-cost or frequently misused services.
+
+**Topic 2: Standardized test identification and coding**
+- **Provision ID:** TRANSPARENCY; TECHNICAL-FEASIBILITY
+- **Position:** Support / clarify.
+- **Rationale:** Procedure codes alone may not identify the exact genetic test; distinct tests can share codes, causing FHIR workflow problems and wrong questionnaires.
+- **Specific request:** Use transparent test identifiers such as GTU IDs tied to clinical policy and coding standards to identify the ordered test accurately.
+
+**Topic 3: Computable policy and automated review**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL/RFIs
+- **Position:** Support.
+- **Rationale:** Machine-readable FHIR-based clinical criteria can automate reviews and claims adjudication, reducing reliance on manual interpretation of dense guidelines.
+- **Specific request:** Encourage FHIR-based clinical criteria and questionnaires as a blueprint for lab-specific interoperability.
+
+**Topic 4: Specimen-collection timing denials**
+- **Provision ID:** GENERAL/RFIs; PATIENT-ACCESS
+- **Position:** Modify.
+- **Rationale:** Denials based solely on lack of authorization before specimen collection can delay care and penalize laboratories/providers even when automated validation is possible.
+- **Specific request:** Use digital assets enabling validation at the point of order so plans need not rely on pre-draw submission rules.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** Responds to the RFI concerning laboratory tests by recommending test identification standards, FHIR-based computable policy, removal of unnecessary PA, and avoidance of specimen-collection timing denials.
+- **S12/S37:** Indirectly addresses technical challenges in using FHIR workflows where procedure codes are insufficient to trigger the correct questionnaire.
+- **S54/S62:** Points to a live demonstration and open catalog as testing/reference materials for technical readiness.
+
+## 6. RECOMMENDATIONS
+
+1. Remove prior authorization for laboratory tests where utilization and cost risk do not justify administrative burden.
+2. Use standardized, transparent genetic test identifiers such as GTU IDs aligned with coding standards.
+3. Adopt computable, FHIR-based clinical policy to automate PA review and claims adjudication.
+4. Synchronize claim payment integrity tools with clinical and reimbursement policy for tests removed from front-end PA.
+5. Avoid denials based solely on missing authorization before specimen collection where the specimen/test is otherwise clinically valid.
+6. Review Concert's open genetic test catalog and FHIR questionnaire demonstration as implementation references.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Excessive lab PA, ambiguous coding, manual reviews, delegated LBM incentives, specimen timing denials.
+- **Potential negative impacts cited:** High administrative friction, peer-to-peers and appeals, wrong questionnaires, delayed care, abrasion from delegated laboratory benefit managers.
+- **Implementation barriers mentioned:** Code stacking, non-specific procedure codes, changing evidence base, lack of computable policy, test identification ambiguity.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Genetic and molecular lab tests represent 15-20% of authorization requests but less than 1% of claims costs for many plans; Concert customers have reduced lab PA by up to 50%; 20-30% of tests may be removable from PA.
+- **Studies or research referenced:** No external studies cited.
+- **Examples provided:** Genetic test ambiguity from shared procedure codes; GTU ID use to trigger correct FHIR questionnaires; FHIR-based computable policy for automated validation.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing lab/genetic testing, providers, laboratories, payers, clinical reviewers, laboratory benefit managers, technology vendors.
+- **Economic implications:** Potentially lower administrative costs by reducing PA volume and manual reviews; payment integrity can continue through claims tools.
+- **Technical feasibility:** Concert argues solutions are available and technically ready through test identifiers, FHIR questionnaires, and computable policy.
+- **Patient care impact:** Faster testing, fewer unnecessary denials, fewer delays from pre-draw authorization rules.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted lab-policy recommendations.
+- **Tone:** Technical, pragmatic, vendor-perspective.
+- **Priority level:** Medium to high.
+
+## 11. KEY QUOTES
+
+1. "Prior authorization is unnecessary for many laboratory tests that commonly require it, and it can be dramatically simplified for the remaining areas." - Context: Overall lab RFI position.
+2. "Because entirely distinct genetic tests can share codes, these codes may not provide the information a FHIR API needs to identify which test is actually being ordered." - Context: Need for GTU/test identifiers.
+3. "Machine-readable, FHIR-based clinical criteria enable efficient, automated reviews and claims adjudication" - Context: Computable policy recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Lab PA causes manual review, peer-to-peers, appeals, and administrative friction.
+- [x] **TECHNICAL-FEASIBILITY** - Offers specific technical tools for automated lab PA.
+- [x] **STANDARDS-MATURITY** - Discusses coding standards, GTU IDs, and FHIR-based questionnaires.
+- [x] **PATIENT-ACCESS** - Seeks to reduce delay from unnecessary or timing-based PA denials.
+- [x] **TRANSPARENCY** - Standardized test identification clarifies what test is ordered and which policy applies.
+- [x] **EXISTING-WORKFLOWS** - Addresses real-world lab ordering, coding, and claims workflows.
+- [x] **VENDOR-ECOSYSTEM** - Discusses LBMs and vendor-provided computable policy/test catalogs.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+333 Commerce St 
+Suite 1400 /  Nashville, TN 37201 
+615 • 861 • 2634  
+concert.co 
+ 
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services 
+200 Independence Avenue, SW 
+Washington, D.C. 20201 
+ 
+Submitted electronically 
+ 
+RE: Request for Information: Laboratory Tests and Durable Medical Equipment, 
+Prosthetics, Orthotics, and Supplies (DMEPOS) Items [CMS-0062-P] 
+ 
+Dear Administrator Oz, 
+ 
+The 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule 
+(CMS-0062-P) reflects a desire to make electronic prior authorization more expeditious, 
+transparent and reliable. This desire applies to laboratory tests as indicated by the agency’s 
+Request for Information (RFI).  
+ 
+Based on more than a decade of experience in simplifying laboratory management for payers 
+and providers, Concert can confirm this is an area where significant improvement is possible. As 
+discussed below, prior authorization is unnecessary for many laboratory tests that commonly 
+require it, and it can be dramatically simplified for the remaining areas. Concert has enabled 
+health plan customers to reduce prior authorization in laboratory testing by up to 50%, although 
+these results should not be considered generalizable to all Medicare Advantage plans.   
+ 
+Lab testing is a good area to improve prior authorization for the following reasons:  
+ 
+1. Genetic and Molecular lab tests represent 15-20% of authorization requests but <1% of claims 
+costs for many plans. Meanwhile, inappropriate utilization for many tests is low. The friction and 
+abrasion are disproportionately high relative to costs. Meaningful improvements are possible.  
+Page 1 of 3 
+ 
+ 
+ 
+2. Complex manual reviews, peer-to-peers, and appeals are frequent. Payer clinical staff often 
+dread these cases. One test can be represented by multiple codes that are associated with 
+multiple policies for which the underlying evidence is constantly...

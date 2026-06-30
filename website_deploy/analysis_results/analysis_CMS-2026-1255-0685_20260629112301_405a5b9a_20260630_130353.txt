@@ -1,0 +1,193 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0685_20260629112301_405a5b9a
+Commenter: Regulatory Relief Coalition
+Source: PDF Attachment
+Analysis Date: 2026-06-30 13:03:53
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Regulatory Relief Coalition (RRC), signed by multiple national physician specialty organizations including AAN, AAFP, AAO, AAOS, AMA-related specialty groups, MGMA, and others.
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Coalition of national physician specialty organizations representing thousands of physicians and focused on reducing regulatory burden and utilization-management barriers.
+
+## 2. EXECUTIVE SUMMARY
+
+RRC strongly supports CMS's proposal to expand electronic prior authorization for drugs across payer types, including FHIR APIs for medical benefit drugs and NCPDP standards for pharmacy benefit drugs. It asks CMS to strengthen the rule through real-world testing, shorter standard PA decision timeframes, more granular transparency, stronger enforcement, limits on step therapy, caution on Medicare FFS expansion, and a prohibition on payer clawbacks after PA approval.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** 2024 Final Rule, 89 Fed. Reg. 8758; Medicare Advantage PA final rule, 88 Fed. Reg. 22120; Proposed Rule at 19898. No specific CFR sections are cited.
+- **Standards referenced:** NCPDP standards; FHIR-based APIs; PA APIs; electronic health record integration.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Require e-PA for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Standardized e-PA across services and payer types would reduce provider administrative burden and improve timely patient access to medications.
+- **Specific request:** Finalize requirements for pharmacy benefit drugs using NCPDP standards and medical benefit drugs using FHIR APIs.
+
+**Topic 2: Real-world API testing**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** API standards must work in actual clinical workflows, including small, independent, and rural practices.
+- **Specific request:** Require robust real-world testing with physicians and other end users before or during implementation.
+
+**Topic 3: PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Delays in both expedited and standard requests can harm patients, and technology makes faster responses feasible.
+- **Specific request:** Keep 24-hour expedited decisions, reduce standard decisions from 72 to 48 hours, and require real-time decisions for frequently approved drugs and services.
+
+**Topic 4: Denial transparency and service-level reporting**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS; API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** Denial reasons and aggregate contract-level data are insufficient for providers to correct requests or understand specific payer policies.
+- **Specific request:** Require payers to identify next steps and required documentation after denial, and report PA metrics at the individual service or product level.
+
+**Topic 5: Clinically supported PA criteria**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Transparent criteria must also be clinically valid and reviewed by qualified physicians.
+- **Specific request:** Apply safeguards parallel to the Medicare Advantage PA rule: public criteria before use, literature support, and review by expert physicians or a utilization management committee.
+
+**Topic 6: Enforcement and payer accountability**
+- **Provision ID:** GENERAL; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Transparency alone will not change payer behavior without consequences for missed deadlines or noncompliance.
+- **Specific request:** Treat failure to respond within required timeframes as PA approval with guaranteed reimbursement, and create a voluntary portal for providers and patients to report payer noncompliance.
+
+**Topic 7: Step therapy RFI**
+- **Provision ID:** GENERAL
+- **Position:** Oppose / Modify
+- **Rationale:** Step therapy burdens providers, interferes with clinical judgment, varies widely, and may not be evidence-based.
+- **Specific request:** Eliminate step therapy for Medicare Advantage Part B drugs, or ensure automation preserves individualized clinical review and applies firm deadlines to subsequent step-therapy requests.
+
+**Topic 8: Medicare FFS RFI and WISeR**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Oppose expansion
+- **Rationale:** Concerns with WISeR include aggressive timelines, inadequate oversight of AI-driven reviews, multiple portals, weak EHR integration, burden, and questionable denials.
+- **Specific request:** Address WISeR-related concerns before expanding e-PA changes in traditional Medicare.
+
+**Topic 9: Payer clawbacks after PA approval**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA approvals that disclaim payment certainty allow later denials or recoupments, harming patients and providers.
+- **Specific request:** Instruct payers that affirmations of coverage are final, guarantee payment, and cannot later be retracted.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports FHIR-based PA APIs for medical benefit drugs but emphasizes real-world testing in diverse clinical settings, including rural and small practices.
+- **S14:** Supports NCPDP standards for pharmacy benefit drugs across covered payer types.
+- **S20:** Supports a 24-hour expedited drug PA timeframe but asks CMS to shorten standard decisions to 48 hours.
+- **S21:** Implied support for implementation if standards are tested and integrated into physician workflows.
+- **S29:** Requests more granular PA reporting metrics at the individual service or product level, rather than only contract or issuer level.
+- **S66-S82:** Responds to general RFIs on step therapy and Medicare FFS application, opposing step therapy and urging caution before expanding e-PA in traditional Medicare.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize e-PA requirements for medical and pharmacy benefit drugs.
+2. Require robust real-world testing of PA API standards with physicians and varied practice types.
+3. Maintain 24-hour expedited PA decisions and shorten standard decisions to 48 hours.
+4. Require real-time PA decisions for frequently approved drugs and services.
+5. Require denial notices to specify provider next steps and required medical-record documentation.
+6. Require payer reporting at the individual service or product level.
+7. Require PA criteria to be public, clinically supported, and reviewed by expert physicians.
+8. Treat missed PA deadlines as approvals with guaranteed reimbursement.
+9. Create a provider and patient reporting pathway for payer noncompliance.
+10. Eliminate or tightly constrain step therapy, especially for Medicare Advantage Part B drugs.
+11. Resolve WISeR concerns before expanding e-PA in Medicare FFS.
+12. Prohibit payer clawbacks after an affirmative PA coverage decision.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Excessive PA delays, insufficient enforcement, non-specific denial information, aggregate reporting, unsupported PA criteria, step therapy, Medicare FFS expansion risks, and payer clawbacks.
+- **Potential negative impacts cited:** Patient harm from treatment delays, provider administrative burden, deceptive payment reversals, and inappropriate denials.
+- **Implementation barriers mentioned:** Lack of EHR integration, multiple portals, need for real-world testing, AI oversight concerns, and workflow fit for small/rural practices.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** A Health Affairs study found 55.6 percent of reviewed commercial plans applied step therapy more stringently than corresponding clinical guidelines.
+- **Studies or research referenced:** AMA Prior Authorization and Utilization Management Reform Principles; Lenahan et al., Health Affairs, 2021, on step therapy protocol variation.
+- **Examples provided:** WISeR model concerns; ONC information-blocking portal as a model for noncompliance reporting; payer disclaimers stating PA approval does not guarantee payment.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Physicians, patients, payers, CMS, Medicare Advantage plans, Medicaid/CHIP entities, QHP issuers, and Medicare FFS participants.
+- **Economic implications:** Reduced administrative burden if e-PA works; potential provider losses and disputes if clawbacks continue; payer accountability may increase compliance costs.
+- **Technical feasibility:** Supportive of FHIR and NCPDP implementation but conditioned on real-world testing and EHR workflow integration.
+- **Patient care impact:** Faster decisions, real-time approvals, and stronger transparency would improve medication access; step therapy and clawbacks could delay or disrupt care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, collaborative, and firm on enforcement concerns
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "RRC strongly supports, and urges CMS to finalize, its proposal to require payers to support e-PA for drugs" - Context: Opening position on the core drug e-PA proposal.
+2. "RRC urges CMS to modify the timeframe for standard determinations for both drugs and services by requiring payers to respond to a PA request within 48 hours rather than 72 hours." - Context: Recommendation on PA decision timeframes.
+3. "failure to comply with a PA deadline should be constitute an approval of the PA request with guaranteed reimbursement." - Context: Enforcement proposal for payer missed deadlines.
+4. "RRC is fundamentally opposed to step therapy as a utilization management technique" - Context: Response to the step therapy RFI.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - RRC addresses PA decision deadlines and requests a 48-hour standard timeframe plus real-time approvals for common cases.
+- [x] **COST-RESOURCES** - The comment focuses on reducing administrative burden and preventing uncompensated provider disputes from payer clawbacks.
+- [x] **PROVIDER-BURDEN** - Provider workflow burden is a central concern across PA, step therapy, multiple portals, and denial follow-up.
+- [x] **TECHNICAL-FEASIBILITY** - RRC supports APIs but asks for real-world testing and EHR workflow integration.
+- [x] **PATIENT-ACCESS** - The comment repeatedly links PA delays, step therapy, and clawbacks to patient access problems.
+- [x] **STAKEHOLDER-COORDINATION** - RRC calls for physician and end-user involvement in testing and review.
+- [x] **TRANSPARENCY** - The comment seeks more detailed denial explanations, service-level reporting, and public clinically supported PA criteria.
+- [x] **EXISTING-WORKFLOWS** - RRC wants e-PA embedded in existing physician workflows rather than payer-specific portals.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+Submitted Electronically via www.regulations.gov   
+ 
+The Honorable Mehmet Oz, M.D. 
+Administrator  
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore MD 21244-8013 
+ 
+RE:  Regulatory Relief 
+ Comments on the Proposed Rule Governing 
+Electronic Prior Authorization for Drugs 
+ 
+Dear Administrator Oz: 
+ 
+The undersigned members of the Regulatory Relief Coalition (RRC), representing thousands of 
+physicians throughout the United States, appreciate the opportunity to comment on the Centers 
+on electronic prior authorization (e-
+PA) for drugs in federal health care programs 
+.  RRC is a group of national 
+physician specialty organizations advocating for regulatory burden reduction to ensure that 
+utilization review policies are not a barrier to timely and equitable access to care for the patients 
+we serve.   
+ 
+RRC strongly supports the regulatory changes set forth in the Proposed Rule, which build on 
+1 by standardizing e-PA for drugs across all services and payer types.  
+These regulations would significantly reduce barriers to care for patients and lessen provider 
+requirements.2  Our comments focus on additional 
+modifications and clarifications which will further aid CMS in accomplishing these goals. 
+ 
+1 Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Advancing Interoperability and 
+Improving Prior Authorization Processes, 89 Fed. Reg. 8758 (2024) (hereinafter 2024 Final Rule).  
+2 For the purposes of these comments, unless otherwise noted, the term payers will be used to refer to Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, CHIP Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-facilitated Exchanges.  
+ 
+Required E-Prior Authorization for Drugs 
+ 
+RRC strongly supports, and urges CMS to finalize, its proposal to ...

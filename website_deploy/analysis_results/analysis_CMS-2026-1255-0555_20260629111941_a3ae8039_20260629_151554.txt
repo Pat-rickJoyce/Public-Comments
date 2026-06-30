@@ -1,0 +1,176 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0555
+Commenter: National Association of Nutrition and Aging Services Programs (NANASP)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:15:54
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Association of Nutrition and Aging Services Programs (NANASP); signed by Robert Blancato.
+- **Stakeholder type:** Advocacy Group / Professional Association.
+- **Credentials or expertise mentioned:** Represents community-based organizations supporting the health, nutrition, independence, and care navigation needs of older Americans.
+
+## 2. EXECUTIVE SUMMARY
+
+NANASP supports CMS's proposed modernization of prior authorization and electronic information exchange because older adults are especially vulnerable to treatment delays. The comment recommends stronger patient protections, including clear denial explanations, plan-level Part D transparency, limits on step therapy for Part B drugs, continuity of care across plan changes, stronger appeals and exceptions, and authorized caregiver access to PA information.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** None specifically cited.
+- **Standards referenced:** Electronic prior authorization generally; no specific FHIR IGs, NCPDP standards, or HL7 guides named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Expand electronic prior authorization**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Manual and paper-based PA creates delays, fragmented communication, and administrative burden for clinicians serving older adults.
+- **Specific request:** Finalize and implement electronic prior authorization to improve visibility, information sharing, and timeliness.
+
+**Topic 2: Faster decision-making**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Older adults often have chronic or progressive conditions that worsen when care is delayed.
+- **Specific request:** Establish clear, expedited, and consistent plan response time expectations.
+
+**Topic 3: Clear denial explanations**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Patients and providers cannot respond effectively if they do not understand the coverage requirement that was not met or appeal options.
+- **Specific request:** Require denial notices to prescribing clinicians and patients to identify the unmet coverage requirement and explain appeal/exception pathways.
+
+**Topic 4: Medicare Part D PA transparency**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY-related GENERAL
+- **Position:** Modify
+- **Rationale:** Beneficiaries enroll in specific plans, not contracts, so plan-level data is needed for informed choice.
+- **Specific request:** Require plan-level Part D reporting that distinguishes brand/generic medications and reports initial denials, approvals after appeal, and step therapy use.
+
+**Topic 5: Step therapy oversight for Part B drugs**
+- **Provision ID:** GENERAL
+- **Position:** Oppose/Modify
+- **Rationale:** Older adults should not have to fail plan-selected therapies before accessing clinician-recommended treatment.
+- **Specific request:** Prohibit step therapy for Part B drugs in Medicare Advantage and require public reporting on PA/utilization management for these therapies.
+
+**Topic 6: Continuity of care across plan changes**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Repeating already completed utilization management requirements can delay ongoing treatment.
+- **Specific request:** Allow prior medical necessity or step therapy determinations to follow beneficiaries when they enroll in a new plan.
+
+**Topic 7: Appeals, exceptions, and caregiver access**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Modify
+- **Rationale:** Older adults and caregivers need accessible processes and status information to navigate coverage requirements.
+- **Specific request:** Strengthen appeals/exceptions processes and ensure authorized caregivers can access PA status and communications.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Responds by asking for complete denial explanations that identify the unmet coverage requirement.
+- **S17:** Indirectly supports structured, actionable denial notices and appeal/exception instructions.
+- **S20/S43:** Supports clear and expedited decision timelines so clinical needs drive treatment decisions.
+- **S29/S35:** Requests public plan-level Part D reporting, including denials, appeal outcomes, and step therapy use.
+- **S66-S82:** Addresses broader RFI themes on step therapy, care continuity, caregiver access, transparency, and patient-centered PA protections.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA expansion to reduce delays and administrative burden.
+2. Establish clear and expedited decision timelines.
+3. Require denial notices to explain reasons, unmet criteria, and appeal/exception options.
+4. Require plan-specific Medicare Part D reporting rather than only contract-level information.
+5. Distinguish brand and generic medication PA data in reporting.
+6. Include initial denials, approvals after appeal, and step therapy use in reporting.
+7. Prohibit step therapy for Part B drugs in Medicare Advantage.
+8. Preserve continuity of care when beneficiaries change plans by honoring prior determinations.
+9. Strengthen accessible appeals and exceptions processes.
+10. Permit authorized caregivers to access PA status and related communications.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Slow and fragmented PA, lack of transparency, step therapy barriers, repeat utilization management after plan changes, and inaccessible appeals.
+- **Potential negative impacts cited:** Delays in care, interruptions in treatment, stress for patients/caregivers, worsening chronic or progressive conditions, and uninformed plan selection.
+- **Implementation barriers mentioned:** Patients and caregivers lack clear visibility into status, required information, denial reasons, and appeal pathways.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics cited.
+- **Studies or research referenced:** None referenced.
+- **Examples provided:** Older adults with multiple chronic conditions and multiple specialists; beneficiaries switching Medicare coverage and being asked to repeat step therapy.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Older adults, Medicare beneficiaries, caregivers, prescribing clinicians, Medicare Part D plans, Medicare Advantage plans, policymakers.
+- **Economic implications:** Not quantified; improved transparency may help consumers choose plans and reduce avoidable administrative friction.
+- **Technical feasibility:** Supports electronic systems but does not discuss technical implementation details.
+- **Patient care impact:** Faster decisions and continuity protections would reduce delays, treatment interruptions, and caregiver confusion.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Patient-centered, professional, and constructive
+- **Priority level:** Medium to High
+
+## 11. KEY QUOTES
+
+1. "NANASP supports CMS's efforts to modernize prior authorization processes and improve the exchange of information between health plans, providers, and patients." - Context: Overall position.
+2. "Coverage determinations should be made as quickly as possible so that treatment decisions are driven by clinical needs rather than administrative delays." - Context: Decision timeline support.
+3. "Patients and providers cannot effectively respond to a denial if they do not understand why it occurred." - Context: Denial explanation recommendation.
+4. "Older adults who switch Medicare coverage should not be required to repeat utilization management requirements that they have already completed." - Context: Continuity of care recommendation.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - Focuses on timely access to medications and care for older adults.
+- [x] **PROVIDER-BURDEN** - Supports ePA to reduce clinician administrative burdens.
+- [x] **TRANSPARENCY** - Requests denial explanations, plan-level reporting, and PA status visibility.
+- [x] **HEALTH-EQUITY** - Addresses older adults and caregivers who may face disproportionate difficulty navigating PA.
+- [x] **IMPLEMENTATION-TIMELINE** - Supports expedited decision-making timelines.
+- [x] **EXISTING-WORKFLOWS** - Discusses appeals, exceptions, plan changes, and caregiver support workflows.
+- [x] **STAKEHOLDER-COORDINATION** - Emphasizes information exchange among plans, providers, patients, and caregivers.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Submitted electronically via regulations.gov  
+ 
+June 15, 2026 
+ 
+Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+ 
+RE: Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P) 
+ 
+Dear Administrator Oz: 
+ 
+The National Association of Nutrition and Aging Services Programs (NANASP) appreciates the 
+opportunity to comment on the Centers for Medicare & Medicaid Services' (CMS) proposed rule regarding 
+interoperability standards and prior authorization for drugs. 
+ 
+NANASP represents community-based organizations that support the health, nutrition, and independence 
+of older Americans. We support older adults who rely on timely access to medications and medical care to 
+manage chronic conditions, maintain their health, and remain independent in their communities. 
+ 
+SUPPORT FOR THE PROPOSED RULE 
+ 
+NANASP supports CMS's efforts to modernize prior authorization processes and improve the exchange of 
+information between health plans, providers, and patients.  
+ 
+Older adults often manage multiple chronic conditions, see several specialists, and rely on consistent 
+access to medications and treatments. When prior authorization processes are slow, fragmented, or 
+difficult to navigate, the consequences can extend beyond administrative inconvenience and result in 
+delays in care, interruptions in treatment, and unnecessary stress for patients and caregivers.  
+ 
+We believe the proposed rule represents an important opportunity to create a more efficient and 
+transparent system that better supports timely access to medically necessary care. 
+ 
+Electronic Prior Authorization Will Reduce Delays and Administrative Burden 
+ 
+NANASP strongly supports CMS's proposal to expand the use of electronic prior authorization. Replacing 
+manual and paper-based processes with electronic systems can help reduce unnecessary delays, 
+improve communication between plans and providers, and give clinicians greater...

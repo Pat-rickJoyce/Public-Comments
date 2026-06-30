@@ -1,0 +1,163 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0594
+Commenter: McKesson Corporation
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:34:21
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** McKesson Corporation; signed by Rich Buckley, Senior Vice President, Corporate Affairs.
+- **Stakeholder type:** Technology Vendor / healthcare services organization / pharmacy and distribution stakeholder.
+- **Credentials or expertise mentioned:** McKesson describes an enterprise-wide role spanning community pharmacy, specialty care, oncology, distribution, health information technology, providers, pharmacies, payers, and technology developers.
+
+## 2. EXECUTIVE SUMMARY
+
+McKesson strongly supports extending interoperability and electronic prior authorization requirements to drugs, but urges CMS to reflect pharmacy, PBM, specialty pharmacy, provider, and intermediary workflows rather than an EHR-only model. It recommends preserving the dual FHIR/NCPDP standards framework, eliminating fax-based processes, requiring patient-specific machine-readable coverage criteria at initial eligibility inquiry, aligning payer and PBM requirements, strengthening actionable denial responses, and using phased implementation with clear glide paths.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; FF-SHOP-REQUIREMENTS; HIPAA-PA-STANDARDS; STATE/Medicaid implementation issues; GENERAL workflow and direct data entry concerns.
+- **Regulatory citations mentioned:** CMS-0062-P. The comment refers to sections II.A, II.B, and II.C of the proposed rule but does not rely heavily on specific CFR citations.
+- **Standards referenced:** FHIR APIs; NCPDP SCRIPT; NCPDP pharmacy ePA workflows; Prior Authorization API; patient-specific eligibility/coverage inquiry; structured denial codes; PBM/payer APIs; EHR-connected and intermediary tools.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Preserve dual-standard FHIR/NCPDP framework**
+- **Provision ID:** PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support / clarify.
+- **Rationale:** McKesson argues a FHIR-only approach would not support real-world pharmacy PA operations because NCPDP SCRIPT already provides mature request-response workflows for pharmacy benefit PA.
+- **Specific request:** Retain NCPDP standards for pharmacy benefit workflows and use FHIR where it improves medical benefit and payer API consistency.
+
+**Topic 2: Transition fully away from fax-based PA**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; EXISTING-WORKFLOWS
+- **Position:** Modify / strengthen.
+- **Rationale:** Fax-based submissions and inconsistent payer processing of electronic submissions drive administrative burden despite available ePA infrastructure.
+- **Specific request:** Require payers to accept and process electronic PA requests and establish a clear glide path away from fax, including near-term electronic submission/receipt followed by real-time processing and structured responses.
+
+**Topic 3: Machine-readable coverage criteria and benefit pathway clarity**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Modify / clarify.
+- **Rationale:** Specialty and oncology therapies may be covered under medical, pharmacy, Medicare Part D, or multiple pathways depending on site of care, reimbursement, and affordability. Ambiguity causes delay and back-and-forth.
+- **Specific request:** Require payers and PBMs to provide machine-readable coverage criteria and PA requirements at the point of initial benefit eligibility inquiry; require a 24-hour front-end response for specialty drugs to clarify available coverage pathways and PA requirements.
+
+**Topic 4: PBM/payer alignment and broader care-team participation**
+- **Provision ID:** PA-DRUG-PHARMACY; VENDOR-ECOSYSTEM; STAKEHOLDER-COORDINATION
+- **Position:** Modify.
+- **Rationale:** PBM-administered requirements may conflict with payer medical policies; PA work is often performed by office staff, vendors, pharmacies, specialty pharmacies, and care-team members, not only ordering clinicians in EHRs.
+- **Specific request:** Require payers to oversee and align PBM criteria with payer medical policies; explicitly preserve participation by pharmacies, specialty pharmacies, delegated vendors, intermediary tools, and non-physician care-team members with appropriate permissions.
+
+**Topic 5: Actionable denial communications**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with transition details.
+- **Rationale:** Current NCPDP SCRIPT transactions may not consistently support all structured denial details; denials are often conveyed through unstructured attachments.
+- **Specific request:** Require complete, specific, usable denial information during transition and advance standardized denial codes and response elements over time. Responses should identify missing information, denial basis, clinical/utilization-management criteria, step therapy requirements, and duration parameters.
+
+**Topic 6: Timeframes and completeness rules**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify / modify.
+- **Rationale:** A nominal response is not meaningful if it only initiates repeated back-and-forth or premature denial. Timeframes must reflect initial submission, missing information requests, and final determination.
+- **Specific request:** Require prompt acknowledgement, specificity on missing information, and a substantive determination once a request is complete; clarify when the clock starts; use pharmacy workflow lessons to push medical benefit PA toward faster, informative responses.
+
+**Topic 7: Phased implementation and QHP flexibility**
+- **Provision ID:** IMPLEMENTATION-TIMELINE; FF-SHOP-REQUIREMENTS; STATE-EXTENSION-PROCESS
+- **Position:** Modify.
+- **Rationale:** Operational readiness, Medicaid/PBM/vendor complexity, and marketplace constraints may vary.
+- **Specific request:** Adopt clear phased implementation with time-bound expectations, preserve long-term consistent electronic capabilities, and avoid an EHR-centric model.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3, S18, S32, S37 (FHIR IGs):** Supports FHIR APIs where useful, but warns against overriding mature pharmacy standards and asks for real-world workflow integration and machine-readable policy logic.
+- **S12, S15, S21, S28 (medical benefit drugs):** Strong response; supports inclusion of medical benefit drugs and asks for benefit-pathway transparency and front-end coverage determination.
+- **S14, S19, S22, S25, S31 (pharmacy benefit drugs):** Strong response; preserve NCPDP SCRIPT and pharmacy ePA infrastructure; avoid FHIR-only design.
+- **S16-S17 (denial reasons):** Strong response; require complete, usable, structured denial information and advance standardized denial codes.
+- **S20, S43 (timeframes):** Requests clarity on clock-start rules, missing information, and front-end specialty-drug pathway responses within 24 hours.
+- **S40-S42 (QHP exceptions):** Supports limited phased flexibility if consistent with long-term electronic PA capability.
+- **S44-S56 (HIPAA standards):** Addresses interaction of FHIR and NCPDP standards, urging preservation of dual standards and practical workflows.
+- **S66-S82 / direct data entry and workflow RFI:** Addresses need to move away from fragmented fax/payer portals while preserving intermediary and EHR-connected tools that support actual care-team workflows.
+- **Other solicitations:** Endpoint publication, Open Payments CMP, and ONC standards are less central than workflow and standards-choice issues.
+
+## 6. THEMES
+
+- TECHNICAL-FEASIBILITY
+- EXISTING-WORKFLOWS
+- VENDOR-ECOSYSTEM
+- MEDICAL-VS-PHARMACY-BENEFIT
+- STANDARDS-MATURITY
+- PROVIDER-BURDEN
+- PATIENT-ACCESS
+- IMPLEMENTATION-TIMELINE
+- STAKEHOLDER-COORDINATION
+- TRANSPARENCY
+
+## 7. POTENTIAL CMS ACTION ITEMS
+
+1. Preserve NCPDP standards for pharmacy benefit PA while requiring FHIR where appropriate.
+2. Require payers to accept and process electronic PA submissions and phase out fax reliance.
+3. Require patient-specific, machine-readable coverage criteria and PA requirements at initial eligibility/benefit inquiry.
+4. Clarify coverage pathway response obligations for specialty drugs, including 24-hour front-end pathway responses.
+5. Require payer oversight and alignment of PBM PA criteria with payer medical policy.
+6. Ensure APIs and authorization workflows can be used by pharmacies, specialty pharmacies, delegated vendors, and care-team staff.
+7. Define denial response elements and build toward standardized structured denial codes.
+8. Adopt phased implementation with clear milestones.
+
+## 8. NOTABLE QUOTES / EVIDENCE
+
+- McKesson states that a FHIR-only model will not support real-world pharmacy prior authorization operations.
+- The comment stresses that implementation should not default to an EHR-centric model because PA work is often performed by office staff, pharmacies, specialty pharmacies, or delegated vendors.
+- McKesson recommends machine-readable coverage criteria at initial benefit eligibility inquiry to reduce iterative back-and-forth.
+
+## 9. OVERALL ASSESSMENT
+
+McKesson provides a technically detailed support-with-modifications comment from a pharmacy/technology ecosystem perspective. Its highest-priority asks are dual-standard preservation, machine-readable coverage criteria, PBM alignment, care-team workflow access, phased implementation, and actionable denial responses.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+McKesson Corporation 
+6535 State Hwy 161 
+Irving, TX 75039 
+ 
+ 
+ 
+www.mckesson.com 
+ 
+1 
+ 
+Rich Buckley 
+Senior Vice President, Corporate Affairs 
+ 
+ 
+June 15, 2026 
+ 
+ 
+Mehmet Oz, M.D., Administrator, Centers for Medicare & Medicaid Services 
+Thomas Keane, M.D., National Coordinator for Health Information Technology 
+U.S. Centers for Medicare & Medicaid Services 
+Department of Health and Human Services  
+Attention: CMS-0062-P  
+7500 Security Boulevard 
+Baltimore, MD 21244-1850 
+ 
+Sent electronically via: regulations.gov 
+ 
+RE: CMS-0062-P; Interoperability Standards and Prior Authorization for Drugs 
+Dear Administrator: 
+McKesson Corporation (“McKesson”) appreciates the opportunity to comment on the Centers for 
+Medicare & Medicaid Services (CMS) proposed rule on Interoperability Standards and Prior 
+Authorization for Drugs. We commend CMS for continuing to advance policies that modernize 
+healthcare data exchange, reduce administrative burden, and improve timely access to care. 
+McKesson is a diversified healthcare services organization with a unique enterprise-wide perspective 
+spanning community pharmacy, specialty care, oncology, distribution, and health information 
+technology. We partner across the healthcare ecosystem—including providers, pharmacies, payers, 
+and technology developers—to improve patient access, affordability, and outcomes. 
+We strongly support CMS’s effort to extend interoperability and electronic prior authorization (ePA) 
+requirements to prescription drugs. As reflected in our prior comments on health technology policy, prior 
+authorization for drugs remains a significant driver of administrative burden, care delays, and 
+fragmentation across the healthcare system. Expanding standardized, electronic, and API-enabled 
+workflows to drugs is a critical step toward improving efficiency and advancing patient-centered care. At 
+the same time, successful implementation will depend on ensuring that the rule reflects real-world 
+workflows across the...

@@ -1,0 +1,82 @@
+# Comment Analysis: CMS-2026-1255-0609_20260629111919_64a87ae6
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Alliance for Patient Access (AfPA); signed by Josie Cooper, Executive Director
+- **Stakeholder type:** Advocacy Group; provider/patient advocacy network
+- **Credentials or expertise mentioned:** AfPA is a national network of policy-minded health care providers advocating for patient-centered care, clinical decision-making, personalized care, and protection of the clinician-patient relationship.
+
+## 2. EXECUTIVE SUMMARY
+
+AfPA strongly supports extending electronic prior authorization to medical-benefit drugs, shorter decision windows, and public reporting, but urges CMS to judge success by patient outcomes rather than faster paperwork. It recommends same-day expedited determinations for clinically urgent medical-benefit drugs, support for off-label prescribing, prevention of deadline workarounds, continuity protections for stable patients, real-time/intelligible status and denial information, advance electronic notice of coverage changes, and patient-centered public metrics. AfPA's step therapy RFI response calls for transferable treatment-failure data, expedited exceptions, reasonable step limits, plain-language disclosure, regularly updated evidence-based protocols, and individualized clinician review.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; TRANSPARENCY; PATIENT-ACCESS; PROVIDER-BURDEN; HEALTH-EQUITY; GENERAL.
+- **Regulatory citations mentioned:** Not addressed.
+- **Standards referenced:** Prior Authorization API; Payer-to-Payer API; electronic prior authorization standards; public reporting.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for medical-benefit drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support/Modify
+- **Rationale:** Infused and injected complex therapies covered through the medical benefit often rely on manual faxes, paper forms, and peer-to-peer calls, delaying treatment and pulling clinicians away from patients.
+- **Specific request:** Finalize inclusion of medical-benefit drugs in electronic submission frameworks and continue building on the proposal so patients receive prescribed therapies sooner.
+
+**Topic 2: Patient-centered decision speed and quality**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PATIENT-ACCESS
+- **Position:** Modify
+- **Rationale:** A fast automated denial can harm patients just as much as a slow manual process if the decision is uninformed or opaque.
+- **Specific request:** Guarantee a genuinely expedited track for medical-benefit drugs when delay risks rapid clinical deterioration, including same-day determinations when warranted; ensure off-label prescribing fits within electronic standards; prevent repeated record requests, open-ended pauses, or shifting timeline start dates that defeat decision deadlines.
+
+**Topic 3: Clinician-administered therapy vulnerabilities**
+- **Provision ID:** PA-DRUG-MEDICAL; SMALL-PAYER-IMPACT
+- **Position:** Modify
+- **Rationale:** Treatment cycles for infused clinic therapies are time-sensitive, and buy-and-bill practices bear financial risk when approvals are delayed or reversed, especially small/community practices.
+- **Specific request:** Address mid-cycle authorization lapses and financial risk for clinician-administered therapies so practices are not discouraged from offering complex treatments.
+
+**Topic 4: Continuity of care for stable patients**
+- **Provision ID:** PATIENT-ACCESS; GENERAL
+- **Position:** Modify
+- **Rationale:** Stable patients with progressive conditions can lose hard-won disease control if formulary changes, step requirements, or plan transitions force them to restart therapy pathways.
+- **Specific request:** Maintain approvals for clinically reasonable periods, avoid reauthorization solely for dose/interval adjustments, require receiving payers to recognize prior approvals and documented treatment failures through the Payer-to-Payer API, and continue coverage of existing therapy while appeals are pending.
+
+**Topic 5: Transparency for patients and clinicians**
+- **Provision ID:** PA-DENIAL-REASONS; TRANSPARENCY
+- **Position:** Support/Modify
+- **Rationale:** Transparency is useful only when information is timely, specific, intelligible, and actionable.
+- **Specific request:** Provide near-real-time status updates in patient-understandable language; require denial reasons precise enough for clinicians to correct; require advance electronic notice to in-network clinicians of new step edits, formulary changes, or point-of-care restrictions.
+
+**Topic 6: Public reporting metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Public reporting should help patients compare plans based on whether needed care tends to be approved.
+- **Specific request:** Report approval and denial rates, appeal overturn rates, decision timelines, rates at which previously approved therapies are sent back for fresh authorization, frequency of step therapy requirements, and therapeutic-category-level metrics where data allow.
+
+**Topic 7: Step therapy guardrails**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can delay clinician-prescribed medications, fail to reflect current science, and force patients to repeat failed therapies after changing plans or aging into Medicare.
+- **Specific request:** Require prior treatment failures and step therapy determinations to follow patients across plan changes; create clear, easy, prompt exceptions processes that defer to treating clinicians and include expedited urgent routes; limit the number of required steps; disclose protocols in plain language during open enrollment; make protocols public, regularly updated to specialty-society guidelines, and subject to individualized review by clinicians with relevant expertise.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Strongly supports bringing medical-benefit drugs into electronic PA submission because these therapies often remain manual and burdensome.
+- **S16:** Requests denial reasons precise enough to tell clinicians what to fix and intelligible enough for patients to understand.
+- **S20:** Supports shorter decision windows and asks for truly expedited same-day determinations where delay risks rapid deterioration.
+- **S29:** Supports public PA data and requests patient-centered metrics including approval/denial rates, appeal overturn rates, timelines, reauthorization rates, and step therapy frequency.
+- **S35:** Recommends reporting by therapeutic category where possible to help beneficiaries compare plan access for needed care.
+- **S66-S82:** Responds to the step therapy RFI with guardrails for transfer of treatment failures, exceptions, step limits, open enrollment disclosure, public/evidence-updated protocols, and individualized clinician review.
+
+## 6. THEMES
+
+PATIENT-ACCESS; PROVIDER-BURDEN; HEALTH-EQUITY; TRANSPARENCY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; MEDICAL-VS-PHARMACY-BENEFIT; EXISTING-WORKFLOWS.
+
+## 7. OVERALL POSITION
+
+Strong support with patient-centered modifications and step therapy guardrails.
+
+## 8. PRIORITY / NOTES
+
+Medium-high priority. This advocacy comment focuses less on technical standards and more on ensuring electronic PA improves access, continuity, transparency, and clinical judgment.

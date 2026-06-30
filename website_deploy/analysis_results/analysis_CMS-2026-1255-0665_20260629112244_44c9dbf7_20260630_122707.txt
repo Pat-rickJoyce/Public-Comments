@@ -1,0 +1,152 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0665_20260629112244_44c9dbf7
+Commenter: Cancer Leadership Council and undersigned cancer organizations
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:27:07
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Cancer Leadership Council, joined by Academy of Oncology Nurse & Patient Navigators, American Society for Radiation Oncology, Association of Oncology Social Work, CancerCare, Cancer Nation, Cancer Support Community, Children's Cancer Cause, Fight Colorectal Cancer, Hematology/Oncology Pharmacy Association, International Myeloma Foundation, LUNGevity Foundation, Lymphoma Research Foundation, Ovarian Cancer Research Alliance, and Susan G. Komen.
+- **Stakeholder type:** Advocacy Group; Professional Association.
+- **Credentials or expertise mentioned:** Coalition representing cancer patients, health care professionals, researchers, family members, and caregivers.
+
+## 2. EXECUTIVE SUMMARY
+
+The coalition supports CMS's extension of interoperability and prior authorization process standards to drugs, including electronic PA, FHIR standards, decision timeframes, and public reporting. It argues the proposal remains limited because it does not address clinical criteria, AI use, step therapy, or the special burdens created by separate medical-benefit and pharmacy-benefit drug workflows in cancer care.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS; GENERAL.
+- **Regulatory citations mentioned:** Improving Seniors' Timely Access to Care Act, S. 1816 and H.R. 3514 in the 119th Congress; no CFR sections cited.
+- **Standards referenced:** HL7 FHIR; NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic drug prior authorization**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support.
+- **Rationale:** Replacing paper and fax processes with electronic systems is a positive process improvement for patients and clinicians.
+- **Specific request:** Finalize process reforms while recognizing they do not solve all substantive PA problems.
+
+**Topic 2: Public reporting and decision timeframes**
+- **Provision ID:** API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS
+- **Position:** Support.
+- **Rationale:** Reporting approval and denial rates, appeal outcomes, decision timeframes, and numbers of PAs improves transparency.
+- **Specific request:** Require public reporting of numbers, not only percentages, for drug PA activity.
+
+**Topic 3: Clinical substance of prior authorization**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** The rule improves process but does not address whether payer clinical standards are valid, guideline-concordant, or appropriately applied.
+- **Specific request:** CMS and Congress should address substantive clinical standards, AI limits, and prior authorization abuses through additional policy or legislation.
+
+**Topic 4: Dual medical-benefit and pharmacy-benefit pathways**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify and modify.
+- **Rationale:** Cancer medications may be classified as medical or pharmacy benefit drugs depending on plan design, and multi-drug regimens may require separate PA processes for treatment and supportive drugs.
+- **Specific request:** Address administrative barriers created by using separate FHIR and NCPDP pathways for cancer drug regimens.
+
+**Topic 5: Step therapy in cancer care**
+- **Provision ID:** GENERAL
+- **Position:** Oppose step therapy for guideline-concordant cancer care.
+- **Rationale:** Cancer treatment is increasingly personalized, and step therapy can delay appropriate treatment, expose patients to unnecessary toxicity, worsen outcomes, and waste resources on inappropriate drugs.
+- **Specific request:** Abandon step therapy for guideline-concordant cancer care, potentially through legislation.
+
+**Topic 6: Laboratory and biomarker testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** PA timing rules tied to specimen collection can cause rejected or discarded specimens, repeated collection, delayed treatment decisions, and greater burden for rural patients.
+- **Specific request:** Require expedited review for oncology-related diagnostic and biomarker testing and permit retroactive authorization when specimens have already been collected.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports FHIR-based medical-benefit drug PA but notes cancer-specific workflow complications.
+- **S14:** Supports NCPDP standards for pharmacy-benefit drugs but raises concern about separate pathways for drug regimens.
+- **S15:** Directly addresses medical versus pharmacy benefit classification, warning that the same cancer drug may fall under different benefit categories depending on plan design.
+- **S20:** Supports consistent prior authorization decision timeframes as a positive patient protection.
+- **S29:** Supports expanded public reporting of prior authorization approval and denial rates, appeal outcomes, decision timeframes, and counts.
+- **S66-S82:** Responds to RFIs on step therapy and laboratory testing by urging no step therapy for guideline-concordant cancer care, expedited oncology lab review, and retroactive authorization for already-collected specimens.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA process improvements for drugs.
+2. Require public reporting of drug PA counts in addition to percentages, denial rates, appeal outcomes, and timeframes.
+3. Address substantive clinical standards for prior authorization decisions through additional policy or legislation.
+4. Limit AI use in prior authorization unless appropriately trained professionals are involved.
+5. Consider legislative approaches such as the Improving Seniors' Timely Access to Care Act and gold carding for guideline-compliant providers.
+6. Resolve administrative barriers caused by separate FHIR and NCPDP pathways for cancer drug regimens.
+7. Abandon step therapy for guideline-concordant cancer care.
+8. Require expedited review for oncology-related diagnostic and biomarker tests.
+9. Permit retroactive authorization when laboratory specimens have already been collected.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays for cancer treatment, dual drug workflow complexity, lack of clinical criteria reform, AI use in PA, step therapy, and lab PA timing rules.
+- **Potential negative impacts cited:** Anxiety, stress, fear, treatment delays, diagnostic delays, second-choice therapy, out-of-pocket costs, therapy denial, disease progression, care abandonment, hospitalization/ER visits, and loss of life.
+- **Implementation barriers mentioned:** Separate FHIR/NCPDP systems, variable benefit classification by plan design, complex multi-drug regimens, specimen collection timing, and appeals/documentation burdens.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CancerCare survey: 85% experienced PA at least once, 95% eventually approved, 29% experienced diagnostic delays, 40% experienced treatment delays, and one in five delays lasted three weeks to more than a month. ASCO survey: over one-third of respondents ascribed loss of life to PA.
+- **Studies or research referenced:** CancerCare 2025 national survey; Cancer Support Community Cancer Experience Registry; Association for Clinical Oncology 2022 Prior Authorization Survey Summary.
+- **Examples provided:** Cancer drug regimens may include primary therapies and supportive drugs such as anti-emetics; lab PA tied to specimen collection may require repeated specimen collection and additional visits.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, caregivers, oncologists, oncology nurses and navigators, pharmacies, payers, laboratories, rural patients, and CMS.
+- **Economic implications:** Delays, repeated specimen collection, inappropriate step therapy, appeals, and out-of-pocket costs can waste health care resources and increase patient costs.
+- **Technical feasibility:** Electronic PA is feasible and supported, but dual FHIR/NCPDP pathways may create operational complexity for cancer regimens.
+- **Patient care impact:** PA can delay diagnosis and treatment, worsen outcomes, increase toxicity exposure, cause disease progression, and in some cases contribute to mortality.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed.
+- **Tone:** Professional, supportive of process reforms, and critical of unresolved substantive issues.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "the proposed rule is a minor step forward" - Context: Overall assessment of limited process reforms.
+2. "It is a positive move to replace paper- and fax-based prior authorization systems with electronic systems." - Context: Support for electronic PA.
+3. "The proposal is a solid process plan but leaves unaddressed many questions about the substance of prior authorization" - Context: Critique of rule scope.
+4. "Abandoning step therapy for cancer drugs is the best approach for people with cancer" - Context: Step therapy RFI response.
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - Cancer treatment, diagnostic, and lab access are the central concerns.
+- [x] **PROVIDER-BURDEN** - Describes documentation, appeals, and clinical time diverted from care.
+- [x] **TRANSPARENCY** - Supports public reporting of PA outcomes and counts.
+- [x] **TECHNICAL-FEASIBILITY** - Supports electronic PA but warns about dual pathway complexity.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Identifies cancer-specific problems when the same drug may be classified differently by payer design.
+- [x] **EXISTING-WORKFLOWS** - Highlights multi-drug cancer regimens, supportive drugs, and specimen collection workflows.
+- [x] **HEALTH-EQUITY** - Notes that repeated lab visits and specimen collection burdens may be especially significant for rural patients.
+- [x] **COST-RESOURCES** - Discusses out-of-pocket costs, inefficient step therapy, repeated specimen collection, and clinician administrative burden.
+- [x] **STAKEHOLDER-COORDINATION** - The comment reflects a broad coalition and asks for coordinated policy across CMS and Congress.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+CONTACT: 2446 39TH STREET NW - WASHINGTON, D.C. 20007
+Phone: 202-333-4041 - www.cancerleadership.org
+CANCER LEADERSHIP COUNCIL
+
+A PATIENT-CENTERED FORUM OF NATIONAL ADVOCACY ORGANIZATIONS ADDRESSING PUBLIC POLICY ISSUES IN CANCER
+
+June 15, 2026
+
+The Honorable Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+
+RE: CMS-0062-P, Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+
+Dear Administrator Oz:
+
+The undersigned organizations representing cancer patients, health care professionals, researchers, and family members and caregivers of people with cancer, appreciate the opportunity to comment on the proposed rule that is intended to improve the electronic exchange of health care data and streamline processes related to prior authorization by increasing the interoperability of systems used across the health care industry...

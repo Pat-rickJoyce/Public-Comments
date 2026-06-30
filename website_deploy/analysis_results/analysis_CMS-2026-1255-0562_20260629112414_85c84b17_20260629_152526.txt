@@ -1,0 +1,194 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0562_20260629112414_85c84b17
+Commenter: HIMSS Electronic Health Record (EHR) Association
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:25:26
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** HIMSS Electronic Health Record (EHR) Association; signed by Leigh Burchell, Chair, and Stephanie Jamison, Vice Chair, with executive committee members from EHR developers.
+- **Stakeholder type:** Technology Vendor; Professional Association.
+- **Credentials or expertise mentioned:** Represents 27-30 health IT developer companies supplying the vast majority of EHRs to U.S. physician practices and hospitals; members participate in Da Vinci IG, NCPDP, and CMS interoperability implementation and testing.
+
+## 2. EXECUTIVE SUMMARY
+
+The EHR Association supports CMS's goals for electronic prior authorization and drug PA modernization, but urges careful alignment with ONC certification, testing tools, and standards maturity. It recommends flexibility for CRD/DTR/PAS modular support, alignment on version 2.2, deferral of medical-benefit drug PA API requirements until at least 2029, public payer endpoints, phased payer API certification, and a cautious approach to CDex, direct data entry, and cybersecurity mandates.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; API-ENDPOINT-REPORTING; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL/RFIs.
+- **Regulatory citations mentioned:** 45 CFR 170.215; 45 CFR 170.299; 45 CFR 170.315; 45 CFR 162.1301; references to IPPS and PFS rulemaking.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, PAS; Da Vinci CDex; NCPDP standards; X12N; CEHRT; SVAP; FHIR US Core.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Federal alignment and implementation flexibility**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Requirements intersect with health IT certification, implementation guide adoption, testing infrastructure, and multiple CMS programs. Inconsistent timelines and definitions would increase complexity.
+- **Specific request:** Align CMS, ONC, IPPS, and PFS requirements and preserve flexibility while standards continue to evolve.
+
+**Topic 2: CRD/DTR/PAS modular support and bonus year**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** Adoption of CRD, DTR, and PAS will vary by stakeholder; 2027 should be a meaningful testing and alignment year.
+- **Specific request:** Allow one or more CRD/DTR/PAS capabilities through 2027, support the IPPS bonus year, align stakeholders on version 2.2, and move the January 1, 2027 payer version 2.2 deadline to July 1, 2027.
+
+**Topic 3: Versioning of Da Vinci PA guides**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Many implementations use version 2.1 and may not yet be certifiable; version 2.2 should be the common industry target but needs transition time.
+- **Specific request:** Keep version 2.0 available through January 1, 2028 if certified capabilities are required; use SVAP and future rulemaking for later versions.
+
+**Topic 4: CDex for prior authorization attachments**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** CDex may be useful for additional information exchange, but there is insufficient real-world PA workflow experience to require it.
+- **Specific request:** Encourage CDex as a preferred optional method when ready, but do not require it in the initial rollout.
+
+**Topic 5: Medical-benefit drug PA API and benefit routing**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify / Clarify
+- **Rationale:** CRD is the right mechanism for distinguishing FHIR vs NCPDP workflows, but current CRD does not consistently define how payers convey benefit classification and routing.
+- **Specific request:** Defer medical-benefit drug PA API inclusion until at least 2029 and address benefit routing in a future CRD version before requiring it.
+
+**Topic 6: API endpoints and payer API certification**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** Endpoint reporting improves discoverability, but health plans should also publish endpoints and documentation on their own public websites. Mandatory payer API certification is premature without aligned standards and test tools.
+- **Specific request:** Require payer endpoint reporting to CMS and public payer website documentation; provide test tools at least 18 months before deadlines; consider payer certification beginning with version 2.2 and potentially as early as 2028.
+
+**Topic 7: HIPAA PA standards and X12 coexistence**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support / Clarify
+- **Rationale:** Updating definitions to support FHIR-based PA workflows is appropriate; maintaining X12 for other referral certification uses may create temporary complexity but should diminish as FHIR adoption grows.
+- **Specific request:** Finalize definition updates and operating rule modifications while treating dual-standard burden as transitional.
+
+**Topic 8: Direct data entry exception**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** Removing the exception now could create unintended consequences because end-to-end PA API workflows are not mature.
+- **Specific request:** Revisit the exception in a future rulemaking after broader implementation.
+
+**Topic 9: Cybersecurity and resiliency RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Modify / Clarify
+- **Rationale:** Cybersecurity requirements should be risk-based, outcome-focused, aligned with existing standards, and feasible for smaller and rural providers.
+- **Specific request:** Address privacy and security together; avoid one-size-fits-all mandates; promote asset management, workforce education, MFA, backups, incident response, threat intelligence protections, interim payments during cyber disruptions, and clearinghouse resilience.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S18/S37:** Supports mandatory IG movement in principle but stresses implementation flexibility, modular CRD/DTR/PAS support, and testing readiness.
+- **S2/S3/S60-S65:** Recommends version 2.2 as the common industry target for 2028, transitional availability for older versions, and SVAP/future rulemaking for later versions.
+- **S12/S15/S21:** Supports medical-benefit drug PA direction but says implementation beginning in 2028 is premature; recommends deferral until at least 2029 and improved CRD benefit-routing standards.
+- **S23/S24/S26/S27/S33:** Supports CMS endpoint reporting and recommends payer public websites also include endpoints, documentation, guidance, and test environments.
+- **S44-S56:** Supports FHIR-based PA definition updates and operating rule changes; views X12 coexistence as transitional; recommends version 2.2 and sufficient time.
+- **S54/S55:** Opposes mandatory payer API certification in 2027; recommends aligned version requirements, public testing tools 18 months before deadlines, and possible payer certification after maturity milestones.
+- **S66-S82:** Provides extensive cybersecurity and resiliency RFI responses focused on outcome-based security, role-specific training, ransomware recovery, clearinghouse redundancy, rural/small provider support, and liability protections for threat sharing.
+
+## 6. RECOMMENDATIONS
+
+1. Preserve flexibility as IGs and standards evolve.
+2. Align CMS and ONC rulemaking, certification, test tools, and program timelines.
+3. Allow modular CRD/DTR/PAS support through 2027.
+4. Use version 2.2 as the common target, but avoid premature cutoff of earlier usable versions where certification timing requires them.
+5. Do not require CDex in the initial ePA rollout; encourage it as ready.
+6. Defer medical-benefit drug PA API inclusion until at least 2029.
+7. Improve CRD standards for medical vs pharmacy benefit routing before making drug routing mandatory.
+8. Require payer endpoint reporting and encourage payer public website publication.
+9. Make authoritative testing tools available at least 18 months before compliance deadlines.
+10. Delay mandatory payer API certification until standards and testing tools are mature.
+11. Finalize HIPAA PA definition and operating rule updates supporting FHIR PA.
+12. Revisit direct data entry exception only after workflows are mature.
+13. Use cybersecurity requirements that are achievable, risk-based, and coordinated with existing standards.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Premature standards lock-in; insufficient testing tools; immature CDex and CRD drug-routing use cases; misalignment across CMS/ONC programs; premature payer API certification; overprescriptive cybersecurity requirements.
+- **Potential negative impacts cited:** Duplicative effort, implementation failures, workflow disruption, inability to certify, payer variability, increased provider and vendor burden, and security compliance burdens without proportional risk reduction.
+- **Implementation barriers mentioned:** Version misalignment, lack of authoritative test tools, limited real-world experience, EHR certification timing, payer/provider readiness gaps, clearinghouse onboarding delays, and small/rural provider resource limits.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Represents 27-30 EHR developer companies supporting the vast majority of U.S. hospitals and ambulatory providers.
+- **Studies or research referenced:** Relies primarily on industry implementation experience and federal program alignment rather than external studies.
+- **Examples provided:** Current ePA implementations on version 2.1; CDex not included in ePA certification criteria; Change Healthcare-type clearinghouse disruption; need for interim payments after cyber incidents.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** EHR developers, payers, providers, hospitals, ambulatory practices, clearinghouses, pharmacy systems, SDOs, CMS, ONC, small and rural providers.
+- **Economic implications:** Poor alignment or premature requirements could increase implementation cost and rework; testing tools and aligned versions could reduce waste.
+- **Technical feasibility:** Feasible with version alignment, mature test tools, phased certification, and deferral of immature drug-routing requirements.
+- **Patient care impact:** Better ePA integration can reduce delays; rushed or fragmented implementation could produce unreliable workflows and delays.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive but cautious.
+- **Tone:** Professional, technical, collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "We support the overarching goals of this proposed rule." - Context: Overall position.
+2. "Successful implementation of electronic prior authorization requires careful coordination among payers, providers, EHR developers, pharmacy systems, intermediaries, standards development organizations, and government agencies." - Context: Implementation alignment.
+3. "Requiring support for this capability is premature for both payers and providers." - Context: CDex requirement.
+4. "We recommend that CMS defer inclusion of drugs covered under a medical benefit in the Prior Authorization API workflow until at least 2029." - Context: Medical-benefit drug PA API timeline.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Recommends delays and phased transitions for version 2.2, medical-benefit drugs, certification, and direct data entry changes.
+- [x] **COST-RESOURCES** - Notes implementation burden, certification/testing costs, and small/rural cybersecurity constraints.
+- [x] **PROVIDER-BURDEN** - Focuses on provider workflow integration and avoiding duplicative or immature requirements.
+- [x] **PRIVACY-SECURITY** - Extensive cybersecurity RFI response.
+- [x] **TECHNICAL-FEASIBILITY** - Central theme: readiness, test tools, certification, and real-world implementation.
+- [x] **STANDARDS-MATURITY** - Discusses CRD/DTR/PAS, CDex, version 2.2, SVAP, and future versions.
+- [x] **PATIENT-ACCESS** - Supports ePA to reduce delays but warns failed implementation could harm care.
+- [x] **STAKEHOLDER-COORDINATION** - Emphasizes CMS, ONC, SDO, payer, provider, vendor, and intermediary coordination.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Requests CRD-based benefit-routing maturity before drug workflow requirements.
+- [x] **TRANSPARENCY** - Supports endpoint reporting and public documentation.
+- [x] **SMALL-PAYER-IMPACT** - Addresses small/rural provider burden rather than small payers, but feasibility concerns are relevant to smaller entities.
+- [x] **EXISTING-WORKFLOWS** - Discusses direct data entry, X12 coexistence, clearinghouse workflows, and EHR integration.
+- [x] **VENDOR-ECOSYSTEM** - Comment is vendor-centered and addresses EHR developers, testing, certification, and clearinghouses.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+550 W Van Buren  Street, Suite S1 110 
+Chicago, IL 606 07 
+ 
+@EHRAssociation | ehra.org  
+ 
+ 
+ 
+ 
+June 15, 2026 
+Dr. Mehmet Oz 
+Administrator, Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Re: Interoperability Standards and Prior Authorization for Drugs, CMS–0062–P 
+Dear Administrator Oz,  
+The HIMSS Electronic Health Record (EHR) Association appreciates CMS’s continued leadership in 
+advancing interoperability and reducing administrative burden by modernizing prior authorization 
+processes. We support the overarching goals of this proposed rule, including expanding electronic prior 
+authorization capabilities for drugs, advancing standards-based interoperability, and reducing manual 
+workflows that contribute to delays in patient care and administrative inefficiencies across the 
+healthcare system. 
+The EHR Association represents nearly 30 health IT developer companies whose technologies support 
+the vast majority of hospitals and ambulatory providers across the United States. Many of our members 
+have been actively engaged in the development, implementation, testing, and deployment of electronic 
+prior authorization capabilities, including participation in industry initiatives involving the Da Vinci 
+implementation guides, NCPDP standards, and CMS interoperability programs. As such, we strongly 
+support the industry’s movement toward more automated, standards-based prior authorization 
+workflows. 
+At the same time, successful implementation of electronic prior authorization requires careful 
+coordination among payers, providers, EHR developers, pharmacy systems, intermediaries, standards 
+development organizations, and government agencies. Experience from prior interoperability initiatives 
+has consistently shown that the value of new requirements is maximized when all stakeholders can 
+advance together with mature standards, realistic implementation timelines, and readily av...

@@ -1,0 +1,161 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0550
+Commenter: Myriad Genetics, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:12:35
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Myriad Genetics, Inc.; signed by Michael J. Maniaci, Vice President, Associate General Counsel
+- **Stakeholder type:** Technology Vendor / Clinical Laboratory / Other health care supplier
+- **Credentials or expertise mentioned:** Molecular diagnostic laboratory in Utah and Ohio; Medicare-enrolled since 1994; has provided molecular diagnostic testing to approximately 1 million Medicare beneficiaries over 30 years; sole performing laboratory for several Medicare-covered tests including MyRisk, Prolaris, GeneSight Psychotropic, and MyChoice CDx.
+
+## 2. EXECUTIVE SUMMARY
+
+Myriad comments primarily on the laboratory testing RFI, arguing that Medicare Advantage organizations misuse prior authorization to restrict access to NCD- and LCD-covered laboratory tests. It asks CMS to prohibit MA prior authorization for NCD/LCD-covered items and services, or at minimum clarify that laboratories may initiate PA, DOS rules cannot be used to deny PA for tests not yet performed, TRFs must count as medical record documentation, and CMS must create a fast enforcement pathway.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFIs; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS (indirectly); TRANSPARENCY; REGULATORY-AUTHORITY
+- **Regulatory citations mentioned:** 42 CFR 422.101(b)(3); 42 CFR 422.566(c)(1)(ii); 42 CFR 414.510; 42 CFR 422.138(b); 42 CFR 422.101(c)(1); 42 CFR 422.138(b)(1)-(3); Medicare Managed Care Manual chapter 4 §§ 90.4.1 and 110.1.1; NCD 90.2; LCDs L38974, L38341, L38394; Article A59741; 91 Fed. Reg. 19890, 20014-20015.
+- **Standards referenced:** No FHIR or NCPDP standards discussed. Focus is on Medicare coverage policy, laboratory date-of-service rules, medical documentation, TRFs, NCDs/LCDs, and MA prior authorization operations.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prohibit MA prior authorization for NCD/LCD-covered laboratory tests**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify
+- **Rationale:** Myriad argues NCD- and LCD-covered tests already have detailed Medicare coverage criteria applied by MACs without prior authorization, and MA plans are legally required to follow NCDs and applicable LCDs. Prior authorization is being used to create inappropriate barriers to needed care.
+- **Specific request:** CMS should prohibit MA organizations from requiring prior authorization for items or services covered under an NCD or LCD. If CMS does not prohibit PA entirely, it should clarify MA responsibilities and create an enforcement pathway.
+
+**Topic 2: Laboratory ability to initiate prior authorization**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Clarify / Support CMS clarification
+- **Rationale:** Myriad says MA organizations commonly require ordering clinicians to request PA before specimen collection and prohibit the performing lab from obtaining PA, creating burden and denials because clinicians lack experience with unique diagnostic-service PA.
+- **Specific request:** CMS should enforce its statement that laboratories are providers that furnish or intend to furnish services and therefore MA plans must allow laboratories to initiate PA requests under 42 CFR 422.566(c)(1)(ii).
+
+**Topic 3: Date-of-service misuse and retroactive authorization**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Clarify / Modify
+- **Rationale:** Some MA organizations apply the Medicare Part B lab DOS rule, where DOS is specimen collection, to deny PA submitted after collection even though the test has not yet been performed. Myriad calls this a Catch-22 for molecular diagnostic labs because orders and specimens often reach the lab after collection.
+- **Specific request:** CMS should clarify that if an MA organization requires specimen collection date as DOS, it must allow the laboratory or ordering provider to obtain PA within 30 days after DOS, and DOS-based denials must remain appealable on medical necessity grounds.
+
+**Topic 4: Administrative denials and enforcement**
+- **Provision ID:** PA-DENIAL-REASONS / GENERAL/RFIs
+- **Position:** Modify
+- **Rationale:** Myriad says MA organizations deny, void, or cancel PAs for procedural reasons unrelated to medical necessity, then deny claims administratively for lack of PA. This prevents meaningful review of whether a service was medically necessary and covered.
+- **Specific request:** CMS should establish a clear, streamlined, and expeditious complaint and enforcement pathway to resolve misuse of PA and utilization management for NCD/LCD-covered services.
+
+**Topic 5: Test requisition forms as medical record documentation**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Clarify
+- **Rationale:** Myriad says test-specific TRFs collect clinical information required by Medicare coverage policies, but many MA organizations refuse to consider TRFs as part of the medical record or require duplicative documentation elsewhere.
+- **Specific request:** CMS should clarify that MA organizations must consider TRF information as part of the medical record and must cover a test when TRF information satisfies coverage criteria unless contradictory medical record information materially undermines it.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 / Laboratory testing RFI:** Myriad responds to CMS’s RFI on lab testing and DMEPOS PA burdens. It focuses on MA misuse of PA for Medicare-covered laboratory tests, laboratories’ right to initiate PA, date-of-service timing denials, retroactive authorization, and TRFs as valid medical documentation.
+- **S16/S17 (indirect):** Myriad does not discuss structured denial codes, but it objects to administrative denials and voided/cancelled authorizations that obscure medical necessity review.
+- **S20/S43 (indirect):** Myriad’s 30-day retroactive authorization request concerns laboratory workflow timing rather than drug PA decision timeframes.
+- **S52 (indirect):** The comment relies on MA statutory/regulatory obligations to follow NCDs and LCDs and asks CMS to enforce those obligations.
+
+## 6. RECOMMENDATIONS
+
+1. Prohibit MA organizations from requiring prior authorization for items or services covered under an NCD or LCD.
+2. If CMS does not prohibit such PA, clarify MA organizations’ obligation to approve PA requests for NCD/LCD-covered services when coverage criteria are satisfied.
+3. Confirm and enforce that laboratories may initiate PA requests for their own tests as providers furnishing or intending to furnish services.
+4. Clarify that MA organizations using specimen collection date as DOS must allow PA within 30 days after DOS.
+5. Require DOS-related or administrative denials to remain fully appealable on medical necessity grounds.
+6. Clarify that TRFs and equivalent electronic portal records are part of the medical record.
+7. Prohibit MA plans from requiring TRF information to be repeated elsewhere in the medical record unless other record evidence materially contradicts it.
+8. Establish a clear, streamlined enforcement pathway for PA and utilization management misuse by MA organizations.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** MA plans misuse PA to limit access to Medicare-covered lab tests, prohibit lab-initiated PA, misuse DOS rules, treat TRFs as insufficient documentation, and convert clinically appropriate requests into administrative denials.
+- **Potential negative impacts cited:** Delayed or denied access to molecular diagnostics; increased clinician burden; beneficiary access barriers; claims denied despite good-faith PA attempts; inability to obtain meaningful medical necessity review.
+- **Implementation barriers mentioned:** Ordering-provider-only PA requirements, specimen-collection DOS timing, plan refusal to accept retroactive authorization, and duplicative medical record documentation demands.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Myriad has served approximately 1 million Medicare beneficiaries over 30 years.
+- **Studies or research referenced:** No studies; cites Medicare regulations, Managed Care Manual provisions, CMS proposed-rule discussion, MolDX policies, NCD/LCD coverage policies, and HHS prior authorization pledge.
+- **Examples provided:** MyRisk, Prolaris, GeneSight Psychotropic, and MyChoice CDx; GeneSight portal/TRF documentation routinely denied with demands for additional records; MA plans deny PA because submission occurred after specimen collection but before testing was performed.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare Advantage enrollees, ordering clinicians, clinical laboratories, MA organizations, MACs, and beneficiaries needing molecular diagnostic testing.
+- **Economic implications:** Improper administrative denials may shift costs to laboratories or patients and waste clinician/lab resources on avoidable appeals and duplicative documentation.
+- **Technical feasibility:** Myriad’s proposals are operational/legal clarifications rather than new technical standards; implementation would require MA policy changes, PA workflow changes, and enforcement processes.
+- **Patient care impact:** Strong patient access implications for hereditary cancer testing, prostate cancer risk stratification, pharmacogenomic testing, and companion diagnostics for targeted therapies.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of CMS attention; critical of MA practices
+- **Tone:** Legal, detailed, enforcement-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We respectfully request that CMS use the Final Rule to prohibit an MA organization from requiring prior authorization for an item or service covered under an NCD or LCD." - Context: Core recommendation.
+2. "This creates a Catch-22 for providers of molecular diagnostic services like Myriad." - Context: Date-of-service timing problem.
+3. "These administrative denials can prevent meaningful review of whether the service was medically necessary and otherwise should have been covered." - Context: Objection to procedural denials.
+4. "Test requisition forms are part of the medical record." - Context: MolDX policy quoted to support TRF documentation validity.
+
+## 12. THEMES
+
+- **PROVIDER-BURDEN:** Ordering clinicians face burdensome PA requests and duplicative documentation demands.
+- **PATIENT-ACCESS:** The comment centers on access to Medicare-covered laboratory diagnostics and avoiding coverage delays/denials.
+- **REGULATORY-AUTHORITY:** Myriad relies heavily on MA obligations to follow NCDs, LCDs, and Medicare coverage rules.
+- **TRANSPARENCY:** Administrative denials and refusal to consider TRF information obscure medical necessity review.
+- **EXISTING-WORKFLOWS:** The comment focuses on real-world lab order/specimen/TRF workflows and why PA timing rules do not fit them.
+- **STAKEHOLDER-COORDINATION:** Lab, ordering provider, MA plan, and MAC roles must align for PA to work.
+- **HEALTH-EQUITY:** Not directly framed as equity, but patient access to covered diagnostics is a central concern.
+- **TECHNICAL-FEASIBILITY:** The requested fixes are largely policy clarifications and workflow enforcement, not new technology.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+322 North 2200 West 
+Salt Lake City, UT 84116 
+(801) 584-3600
+Myriad.com 
+ 
+ 
+ 
+June 15, 2026  
+ 
+VIA Regulations.gov  
+ 
+The Honorable Mehmet Oz, M.D., MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS–0062–P 
+Mail Stop C4–26–05 
+7500 Security Boulevard 
+Baltimore, MD 21244–1850 
+ 
+Re: 
+Interoperability Standards and Prior Authorization – Request for Information for 
+Laboratory Tests (CMS-0062-P) 
+Dear Administrator Dr. Oz: 
+On behalf of Myriad Genetics, Inc., I appreciate the opportunity to provide public 
+comments on CMS’s Request for Information (RFI) on prior authorization for laboratory tests . 
+Myriad applauds CMS’s commitment to provide relief to providers and beneficiaries from 
+the burdensome prior authorization practices utilized by Medicare Advantage (MA) organizations.  
+These practices limit access to clinical laboratory tests covered under National Coverage 
+Determinations (NCDs) and Local Coverage Determinations (LCDs).  We strongly support CMS’s 
+efforts to address many of the areas of prior authorization misuse that Myriad has experienced.  
+Myriad provides responses to the RFI below, with a specific focus on MA prohibiting 
+laboratories from obtaining prior authorization for their own tests, using the Medicare Part B 
+laboratory date of service (DOS) policy to make it difficult to obtain prior authorization for 
+laboratory tests, and refusing to consider information documented on the test requisition form 
+(TRF) as part of the medical record.  To address these issues in a wholesale manner, we 
+respectfully request that CMS use the Final Rule to prohibit an MA organization from requiring 
+prior authorization for an item or service covered under an NCD or LCD.  Alternatively, we request 
+that CMS provide specific clarifications in the Final Rule of MA organizations’ responsibility to 
+approve prior authorization requests for NCD and LCD-covered services and that the agency 
+establis...

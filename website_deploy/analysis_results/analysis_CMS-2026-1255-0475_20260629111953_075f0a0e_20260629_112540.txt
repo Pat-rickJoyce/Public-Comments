@@ -1,0 +1,160 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0475
+Commenter: Community Oncology Alliance
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:25:40
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Community Oncology Alliance (COA); signed by Debra Patt, MD, PhD, MBA, FASCO, President, and Ted Okon, MBA, Executive Director
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** National nonprofit dedicated to independent community oncology practices and patients with cancer; signatory includes physician oncology leadership.
+
+## 2. EXECUTIVE SUMMARY
+
+COA supports CMS-0062-P as an important step toward improving drug prior authorization, especially for physician-administered oncology drugs, while maintaining that prior authorization is fundamentally harmful in cancer care. COA asks CMS to improve oncology-specific interoperability, strengthen public reporting and metrics, require transparency on AI use in PA decisions, and limit fail-first step therapy and non-medical switching in cancer care.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** The comment references CMS-0062, CMS-0062-P, Section II.A, Section II.B, Section II.C, and Section III.D, but does not cite specific CFR sections.
+- **Standards referenced:** FHIR; APIs; FDA approval; National Comprehensive Cancer Network category recommendations; AHIP prior authorization commitments; AI in PA decisions.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Oncology-Specific Interoperability Data Elements**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Oncology data such as staging, biomarker data, treatment intent, and outcomes are often incomplete, poorly normalized, inconsistently structured, or fragmented across settings and vendors.
+- **Specific request:** Support standards and implementation approaches that reliably exchange key oncology care data elements for prior authorization and broader treatment planning.
+
+**Topic 2: Electronic Prior Authorization for Medical-Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Physician-administered oncology drugs are increasingly subject to PA, creating a significant gap if medical-benefit drugs are not included in electronic workflows.
+- **Specific request:** Finalize expansion of electronic prior authorization for drugs, including medical-benefit oncology drugs.
+
+**Topic 3: Drug Denial Reasons and Decision Timeframes**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Specific reasons for denials and improved communications/timeframes can help patient access, reduce provider burden, and align requirements across payer types.
+- **Specific request:** Require Medicaid, CHIP, and FFE QHPs to provide specific denial reasons for all drugs and improve drug and non-drug PA decision timeframes.
+
+**Topic 4: Public Prior Authorization Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Total counts and percentages can mask PA trends, and Part B-only reporting leaves gaps for oncology drugs and services.
+- **Specific request:** Require MA plans to report Part B and Part D drug PA metrics in the same format; stratify metrics at item or service level; include counts as well as percentages; add metrics on reduced PA scope, staff available to assist members, and whether AI was used.
+
+**Topic 5: Step Therapy and Non-Medical Switching in Cancer Care**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy and non-medical switching can interfere with physician-patient decision-making and timely cancer treatment.
+- **Specific request:** Ban fail-first step therapy and non-medical switching for FDA-approved, NCCN Category-recommended cancer drugs, and require clear exception processes, potentially including gold carding.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports API/interoperability standards generally, but asks CMS to ensure oncology-specific data elements are reliably structured and exchanged.
+- **S12:** Supports expanding electronic PA for drugs under the medical benefit and identifies oncology medical-benefit drugs as a key use case.
+- **S16:** Supports requiring specific denial reasons for all drugs across Medicaid, CHIP, and FFE QHPs.
+- **S17:** Does not specifically discuss structured denial codes, but supports clearer denial communication.
+- **S20:** Supports improved decision timeframes for drug and non-drug prior authorizations because timely treatment initiation is critical in cancer care.
+- **S28:** Recommends MA plans publicly report PA metrics for both Part B and Part D drugs in the same format to align transparency across oncology drugs.
+- **S29:** Recommends item- or service-level PA metrics, numeric counts as well as percentages, AI-use reporting, and additional metrics aligned with AHIP commitments.
+- **S35:** Supports public reporting of more granular PA metrics to help patients make informed decisions and improve CMS awareness of patient and provider experience.
+- **S43:** Supports alignment of decision timeframe requirements across payer types, including Medicaid, CHIP, QHPs, MA, and Part D.
+- **S66-S82:** Responds to a general RFI on step therapy by recommending limits on fail-first protocols, a ban in specified cancer-drug circumstances, and clear exceptions including possible gold carding.
+
+## 6. RECOMMENDATIONS
+
+1. Promote interoperability standards that exchange oncology staging, biomarker, treatment intent, and outcomes data reliably.
+2. Finalize electronic prior authorization for drugs, including medical-benefit oncology drugs.
+3. Require specific denial reasons for all drugs across Medicaid, CHIP, and FFE QHPs.
+4. Improve and align PA decision timeframes across payer types.
+5. Require MA plans to publicly report PA metrics for both Part B and Part D drugs in the same format.
+6. Stratify PA metrics at the item or service level and report numeric counts in addition to percentages.
+7. Add public metrics on reductions in claims subject to PA and staff dedicated to helping members after PA determinations.
+8. Require public reporting of whether AI was used in PA decisions.
+9. Ban fail-first step therapy and non-medical switching for FDA-approved, NCCN Category-recommended cancer drugs.
+10. Establish clear exception processes for step therapy and non-medical switching, including possible gold carding.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization burden, patient harm from treatment delays, inadequate oncology data exchange, insufficient transparency in PA metrics, AI-driven denials, and step therapy in cancer care.
+- **Potential negative impacts cited:** Delayed lifesaving cancer treatment, adverse clinical outcomes, increased administrative burden on community oncology practices, masked PA trends, and interference with physician-recommended treatment.
+- **Implementation barriers mentioned:** Poor data quality, fragmented systems, inconsistent FHIR implementation, access restrictions, and limited practice resources.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA survey findings that 84% of physicians reported increased prescription-drug PA over five years; 82% reported the same for medical services; 94% reported PA negatively affects outcomes; more than one in four reported PA led to a serious adverse event; a 2026 COA survey found 96.6% of independent community oncology practice respondents observed cancer patients struggling due to insurer step therapy.
+- **Studies or research referenced:** AMA prior authorization surveys, ACS CAN cost-of-cancer report, Journal of Clinical Pathways article on oncology medical-benefit payer management, AHIP statements, NAIC AI/ML survey, COA survey and gold carding issue brief.
+- **Examples provided:** Oncology staging, biomarkers, treatment intent, outcomes, physician-administered oncology drugs, AI use in PA decisions, fail-first step therapy, non-medical switching, and gold carding.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with cancer, community oncology practices, oncologists, MA plans, Medicaid and CHIP plans, QHP issuers, payers using AI, and CMS.
+- **Economic implications:** PA imposes administrative costs on practices and may drive higher downstream costs through treatment delays and adverse events; clearer standards and reporting may improve accountability.
+- **Technical feasibility:** COA supports FHIR and API-based interoperability but stresses that real-world implementation remains inconsistent and oncology-specific data elements need better structure.
+- **Patient care impact:** High; the comment focuses on timely cancer treatment, avoiding adverse outcomes, and preserving physician-patient treatment decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, critical, patient-centered
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Prior authorization imposes a significant burden on patients and providers" - Context: Overall critique of prior authorization in cancer care.
+2. "COA strongly supports CMS's proposal to expand electronic prior authorization for drugs" - Context: Support for PA-DRUG-MEDICAL and drug ePA expansion.
+3. "many data elements critical for oncology care...are not reliably structured or exchanged" - Context: Request for oncology-specific interoperability improvements.
+4. "Require plans to publicly report whether artificial intelligence was used" - Context: Transparency recommendation for public PA metrics.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports improved PA decision timeframes and timely treatment initiation.
+- [x] **COST-RESOURCES** - Notes community oncology practices often have fewer resources to absorb administrative burden.
+- [x] **PROVIDER-BURDEN** - A central concern; PA and step therapy burden community oncology practices.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - Discusses inconsistent real-world FHIR implementation and oncology data quality barriers.
+- [x] **STANDARDS-MATURITY** - Requests standards that better support oncology-specific data exchange.
+- [x] **PATIENT-ACCESS** - Central theme; emphasizes timely cancer treatment and avoiding delays.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Implicates coordination among CMS, payers, providers, and oncology practices.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not a central theme, though Part B and Part D metric alignment is requested.
+- [x] **TRANSPARENCY** - Seeks denial reasons, granular metrics, Part B/Part D reporting, AI-use reporting, and step therapy exception clarity.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Discusses oncology workflows, prior authorization processes, and step therapy protocols.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8016 
+Baltimore, MD 21244-8016 
+ 
+Submitted electronically to: http://www.regulations.gov 
+ 
+RE: Request for Information: Medicare and Medicaid Programs; Patient Protection 
+and Affordable Care Act; Interoperability Standards and Prior Authorization for 
+Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State 
+Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges 
+ 
+Dear Administrator Oz: 
+ 
+On behalf of the Board of Directors of the Community Oncology Alliance, we are 
+submitting this comment letter regarding the Interoperability Standards and Prior 
+Authorization for Drugs Proposed Rule (CMS-0062). COA is an organization dedicated 
+to advocating for the complex care and access needs of patients with cancer and 
+the community oncology practices that serve them....

@@ -1,0 +1,143 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0613_20260629112214_0cefa566
+Commenter: DataSpring, formerly CAQH
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:41:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** DataSpring, formerly CAQH
+- **Stakeholder type:** Technology Vendor / Standards and Data Organization
+- **Credentials or expertise mentioned:** Describes itself as a healthcare data connector with more than 25 years supporting provider and payer data exchange and administrative efficiency.
+
+## 2. EXECUTIVE SUMMARY
+
+DataSpring supports the proposed extension of prior authorization requirements to drugs under both medical and pharmacy benefits, including decision timeframes, transparency, and API reporting. The comment encourages CMS to refine requirements over time toward greater uniformity, especially standardized decision-reason code reporting and measurement of API value and ROI.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; TRANSPARENCY; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations.
+- **Standards referenced:** CMS-0057; API reporting; decision-reason code reporting; general interoperability standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extending PA requirements to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** DataSpring believes expansion to medical and pharmacy benefit drugs will reduce variability, administrative burden, and delays in patient access.
+- **Specific request:** Finalize the extension of CMS prior authorization requirements to drugs covered under both benefit types.
+
+**Topic 2: Decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** The proposed standards and timeframes are described as appropriate and a thoughtful expansion of CMS-0057.
+- **Specific request:** Maintain decision timeframe requirements and revisit refinement as implementations mature.
+
+**Topic 3: Transparency and reporting**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Support/Modify
+- **Rationale:** Transparency can inform targeted refinement of PA strategies and reduce burden without undermining utilization management.
+- **Specific request:** Use API reporting to evaluate policy impact, administrative efficiency, cycle times, burden reduction, and ROI.
+
+**Topic 4: Standardized decision-reason codes**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Variability and ambiguity in decision reasons can undermine the benefits of electronic workflows.
+- **Specific request:** Further refine requirements through standardized approaches to decision-reason code reporting.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16/S17:** Supports clearer and more standardized decision-reason code reporting to reduce ambiguity.
+- **S20/S43:** Supports the proposed decision timeframes as appropriate for advancing rule goals.
+- **S29/S34/S35:** Supports expanded API reporting as a way to evaluate interoperability strategies, ROI, administrative efficiency, cycle times, and burden reduction.
+- **S12/S14/S21/S22:** Supports extension to drugs generally but does not provide detailed technical challenge responses.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize extension of PA requirements to drugs under both medical and pharmacy benefits.
+2. Maintain the proposed decision timeframes.
+3. Enhance transparency and reporting requirements.
+4. Refine decision-reason code reporting to improve uniformity and reduce ambiguity.
+5. Use API reporting to measure value, ROI, cycle times, administrative efficiency, and burden reduction.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Industry variability and ambiguity in decision-reason reporting.
+- **Potential negative impacts cited:** None framed as objections; the comment focuses on benefits and future refinement.
+- **Implementation barriers mentioned:** None in detail.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** DataSpring cites more than 25 years of industry support experience.
+- **Studies or research referenced:** None.
+- **Examples provided:** Standardized decision-reason code reporting and API usage reporting as levers for improvement.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Providers, payers, patients, and data/technology intermediaries.
+- **Economic implications:** API reporting can support evaluation of ROI and burden reduction.
+- **Technical feasibility:** DataSpring implies feasibility and supports implementation maturation.
+- **Patient care impact:** Positive; expected to improve timely access and experience.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional; concise; collaborative
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "DataSpring supports the extension of CMS prior authorization requirements to drugs covered under both the medical and pharmacy benefits." - Context: Overall position.
+2. "The proposed standards and decision timeframes are appropriate to advance the goals of this rule." - Context: Support for timeframes.
+3. "Standardized approaches to decision-reason code reporting... would help reduce ambiguity and streamline exchange." - Context: Recommended refinement.
+4. "API reporting [is] a means of evaluating the impact of policymaking and enabling continuous improvement." - Context: Support for metrics.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Supports the rule as a way to reduce clinician administrative burden.
+- [x] **PATIENT-ACCESS** - Supports improving timely access to care.
+- [x] **TRANSPARENCY** - Strongly supports reporting and visibility into PA practices.
+- [x] **TECHNICAL-FEASIBILITY** - Emphasizes API reporting and measurement of interoperability strategies.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Supports coverage of drugs under both benefit pathways.
+- [x] **VENDOR-ECOSYSTEM** - DataSpring speaks from a data connector/intermediary perspective.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+Submitted Electronically 
+Re: 2026 CMS Interoperability Standards and Prior Authorization for Drugs 
+Proposed Rule (CMS-0062-P) 
+Thank you for the opportunity to respond to the Interoperability and Prior 
+Authorization for Drugs Proposed Rule (CMS-0062-P). We appreciate the actions 
+taken by the Centers for Medicare & Medicaid Services to extend interoperability, 
+response, and transparency requirements to drugs covered under both the medical 
+and pharmacy benefits and are pleased to offer brief supportive comments.  
+DataSpring, formerly CAQH, is the trusted data connector at the core of healthcare, 
+powering the industry with accurate, authorized data from providers and payers to 
+create a more connected ecosystem for all. For more than 25 years, the organization 
+has supported the industry with the largest and most complete healthcare data 
+foundation in the U.S. By improving how essential information flows across the 
+system, DataSpring helps healthcare operate more efficiently and deliver better 
+experiences and outcomes for providers, payers, and patients.  
+Support for Prior Authorization for Drugs, Decision 
+Timeframes, and Transparency 
+DataSpring supports the extension of CMS prior authorization requirements to drugs 
+covered under both the medical and pharmacy benefits. We believe the proposed 
+standards and decision timeframes are appropriate to advance the goals of this rule 
+and represent a thoughtful expansion of the foundational requirements established in 
+the 2024 Interoperability and Prior Authorization Final Rule (CMS-0057). 
+These requirements will help address persistent industry variability, reduce 
+administrative burden for clinicians, and improve patients’ timely access to care. As 
+ 
+implementations mature, we encourage CMS to further refine requirements to drive 
+greater uniform...

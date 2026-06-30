@@ -1,0 +1,221 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0574_20260629112411_4b138b3c
+Commenter: American Cancer Society Cancer Action Network (ACS CAN)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:27:31
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Cancer Society Cancer Action Network (ACS CAN); signed by Anna Schwamlein Howard, Vice President, Public Policy Advocacy
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** ACS CAN is the nonprofit, nonpartisan advocacy affiliate of the American Cancer Society and advocates for evidence-based policies to reduce the cancer burden.
+
+## 2. EXECUTIVE SUMMARY
+
+ACS CAN broadly supports CMS's proposal to extend 2024 interoperability and prior authorization requirements to prescription drugs, emphasizing that cancer patients need timely access to outpatient and physician-administered therapies. The organization recommends broader applicability to Part D and state-based exchange QHPs, stronger denial specificity, shorter and aligned PA timeframes, penalties for missed timeframes, plan-level and category-level metric reporting, continued formulary data access, caregiver access clarification, and strong oversight of step therapy, AI, laboratory testing, and DMEPOS prior authorization.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FF-SHOP-REQUIREMENTS; API-ENDPOINT-REPORTING indirectly; GENERAL/RFIs on step therapy and laboratory/DMEPOS
+- **Regulatory citations mentioned:** CMS-0062-P; 91 Fed. Reg. 19890 (April 14, 2026)
+- **Standards referenced:** Prior Authorization API; Patient Access API; Provider Access API; Payer-to-Payer API; Fast Healthcare Interoperability Resources (FHIR); NCPDP SCRIPT standards; CARIN Consumer Real-Time Pharmacy Benefit Check (RTPBC) IG; real-time coverage information.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Real-time patient drug cost and coverage information**
+- **Provision ID:** FHIR-IG-REQUIRED / PATIENT-ACCESS
+- **Position:** Support
+- **Rationale:** Cancer patients may have multiple concurrent drugs with varying coverage rules, PA requirements, and out-of-pocket costs.
+- **Specific request:** Support patient access to clear, timely, real-time drug cost and coverage information through the Patient Access API; consider CARIN RTPBC IG support.
+
+**Topic 2: Medical-benefit drugs in the Prior Authorization API**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support with expansion
+- **Rationale:** Excluding drugs creates inconsistent requirements by drug type and payer, increasing burden and delaying cancer treatment.
+- **Specific request:** Finalize inclusion of medical-benefit drugs by October 1, 2027; extend requirements to SBE/SBE-FP QHP issuers and Part D sponsors; apply the same PA standards to any drug covered by an MA plan.
+
+**Topic 3: Pharmacy-benefit drug electronic PA standards**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Unified prescription drug PA requirements will reduce confusion and administrative burden while aligning with existing Part D standards.
+- **Specific request:** Finalize NCPDP SCRIPT standards and related formulary/benefit and real-time coverage information requirements.
+
+**Topic 4: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modification
+- **Rationale:** Generic denials prolong the time patients wait and prevent providers from quickly addressing issues.
+- **Specific request:** Require clear, specific denial reasons for all drug PA denials and prohibit generic statements such as “failed to establish medical necessity” without additional detail.
+
+**Topic 5: PA decision and notification timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modification
+- **Rationale:** Standardized and shorter timeframes reduce patient confusion, provider burden, and treatment delays.
+- **Specific request:** Support 72-hour standard and 24-hour expedited drug PA timeframes; require MA organizations to meet a 24-hour outpatient drug PA standard in future rulemaking; shorten non-drug service timeframes to align with drug timeframes; extend standardized timeframes to QHP issuers on SBEs and SBE-FPs; require penalties and oversight for missed timeframes.
+
+**Topic 6: Public PA metrics**
+- **Provision ID:** API-USAGE-METRICS / TRANSPARENCY
+- **Position:** Support with modification
+- **Rationale:** Public metrics improve transparency, but issuer-level or aggregated reporting can obscure plan variation and inappropriate PA use.
+- **Specific request:** Publish metrics on CMS's website and payer websites; require plan-level reporting; report metrics by category of item or service; use the data for oversight.
+
+**Topic 7: FF-SHOP Patient Access and Payer-to-Payer APIs**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** Small group QHP members should have consistent data access and payer-to-payer continuity, especially cancer patients with complex care.
+- **Specific request:** Finalize Patient Access API and Payer-to-Payer API requirements for FF-SHOP issuers; require plain-language enrollee education and opt-out explanation.
+
+**Topic 8: Drug PA data in Access APIs and caregiver access**
+- **Provision ID:** FHIR-IG-REQUIRED / GENERAL API updates
+- **Position:** Support with clarification
+- **Rationale:** Including drug PA information across APIs promotes consistency and reduces confusion.
+- **Specific request:** Clarify how individuals can designate caregivers for Patient Access API information and require written communication options for enrollees who prefer them.
+
+**Topic 9: Formulary data in Provider Access and Payer-to-Payer APIs**
+- **Provision ID:** FHIR-IG-REQUIRED / GENERAL API updates
+- **Position:** Oppose removal
+- **Rationale:** Removing formulary data would force providers to search multiple sources, increasing burden and delaying care.
+- **Specific request:** Reconsider proposal to remove drug formulary information from Provider Access and Payer-to-Payer APIs.
+
+**Topic 10: Step therapy and AI oversight**
+- **Provision ID:** GENERAL / RFI Step Therapy
+- **Position:** Modify
+- **Rationale:** Step therapy and AI-enabled utilization management can increase denials, burden, and delays for cancer patients whose treatments are tailored.
+- **Specific request:** Require CMS staff review and human oversight of technological tools; conduct rigorous oversight and enforcement; require step therapy override processes; monitor embedded step therapy in PA requirements.
+
+**Topic 11: Laboratory tests and DMEPOS PA**
+- **Provision ID:** GENERAL / RFI Laboratory Tests and DMEPOS
+- **Position:** Modify
+- **Rationale:** Laboratory tests and DMEPOS are essential for cancer diagnosis, treatment selection, monitoring, mobility, daily functioning, and symptom management.
+- **Specific request:** Hold PA for laboratory tests and DMEPOS to the same standards as other services; monitor implementation and exercise oversight when PA delays approvals.
+
+## 5. SOLICITATION RESPONSES
+
+- **S6 / S8 / related patient benefit IG questions:** Supports giving patients real-time drug cost and coverage information through the Patient Access API and discusses CARIN RTPBC IG value.
+- **S12:** Supports incorporating medical-benefit drugs into the Prior Authorization API and says this will reduce burden and treatment delays.
+- **S15:** Calls for consistent standards for all drugs and urges extension to Part D and SBE/SBE-FP QHP issuers to reduce medical/pharmacy benefit fragmentation.
+- **S21:** Supports the October 1, 2027 compliance timeline for drug PA because impacted payers are already implementing non-drug requirements.
+- **S28:** Urges any drug covered by an MA plan to be subject to the same PA requirements and supports Part D alignment in future rulemaking.
+- **S14 / S22 / S25 / S31:** Supports NCPDP SCRIPT and pharmacy-benefit standards and formulary/real-time coverage information requirements.
+- **S16:** Supports specific denial reasons and asks CMS to require more detail than generic medical-necessity language.
+- **S20 / S43:** Supports 72-hour standard and 24-hour expedited drug PA timeframes and asks CMS to align non-drug timeframes with the shorter drug timeframes.
+- **S29-S35:** Supports public PA metrics, numeric counts, plan-level reporting, category-level reporting, CMS publication, and oversight use.
+- **S40-S42:** Supports FF-SHOP Patient Access and Payer-to-Payer API requirements, stating burden should be limited because many issuers already participate in FFEs.
+- **S66-S82 / Step Therapy RFI:** Supports technology-enabled step therapy efficiency with caution; requests human oversight, override processes, and monitoring of embedded step therapy.
+- **S66-S82 / Laboratory Tests and DMEPOS RFI:** Recommends applying the same PA standards to laboratory tests and DMEPOS and monitoring for delayed treatment approvals.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize extension of Prior Authorization API requirements to medical-benefit drugs.
+2. Extend drug PA requirements to Part D sponsors and QHP issuers on SBEs and SBE-FPs.
+3. Apply the same PA standards to any drug covered by an MA plan.
+4. Finalize NCPDP SCRIPT and real-time pharmacy benefit/coverage information requirements.
+5. Require detailed, specific denial reasons for all drug PA denials.
+6. Align PA timeframes across programs and shorten non-drug service timeframes to match drug timeframes.
+7. Establish penalties and enforcement for payers that miss required PA timeframes.
+8. Publish PA metrics on CMS's website and payer websites at the plan level and by service category.
+9. Finalize FF-SHOP Patient Access and Payer-to-Payer API requirements.
+10. Clarify caregiver access under the Patient Access API and preserve written communication options.
+11. Retain formulary information in Provider Access and Payer-to-Payer APIs.
+12. Require human oversight and safeguards for AI and other UM technology.
+13. Require step therapy override processes and monitor embedded step therapy.
+14. Apply comparable PA standards to laboratory tests and DMEPOS and monitor payer implementation.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Drug PA delays, inconsistent standards across payer/program types, generic denial reasons, inadequate non-drug PA timeframes, insufficient enforcement, aggregation of metrics, removal of formulary data, and AI/step therapy risks.
+- **Potential negative impacts cited:** Treatment delays, disease progression, provider administrative burden, patient confusion, delayed appeals, worse outcomes for cancer patients, and additional patient costs.
+- **Implementation barriers mentioned:** Fragmented payer scope, lack of plan-level data, lack of category-level metrics, absence of penalties, caregiver access ambiguity, and technology/AI oversight needs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ACS CAN's 2024 report found Part D plans required PA for CDK 4/6 inhibitors 97% of the time; embedded step therapy occurred in 23% of cases for Ibrance, 22% for Kisqali and Kisqali Femara co-pack, and 88% for Verzenio.
+- **Studies or research referenced:** AMA article on AI and prior authorization denials; ACS CAN 2024 Step Therapy in Medicare Part D Oncology Drugs report.
+- **Examples provided:** Cancer patients with multiple concurrent prescriptions; outpatient and physician-administered therapies; CDK 4/6 inhibitors; laboratory testing for cancer diagnosis and monitoring; DMEPOS for mobility and symptom management.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, caregivers, providers, MA organizations, Medicaid/CHIP programs, QHP issuers, Part D sponsors, FF-SHOP issuers, and payers using utilization management tools.
+- **Economic implications:** The comment does not provide implementation cost estimates; it emphasizes reduced administrative burden and patient/provider costs associated with delays and fragmented data.
+- **Technical feasibility:** Supports the October 2027 timeline and API expansion; requests clarification and safeguards around caregiver access, written communication, formulary data, and technology oversight.
+- **Patient care impact:** Very high. The comment repeatedly ties timely drug access, PA decisions, lab testing, and DMEPOS access to cancer outcomes and disease progression.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, detailed, patient-centered, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Including prescription drugs would simplify the prior authorization process for providers and reduce confusion and lead to more timely access for patients." - Context: Overall support for extending PA API requirements to drugs.
+2. "When drugs are excluded from these API requirements, providers and patients must navigate different timelines and requirements depending on the drug type and payer." - Context: Rationale for drug inclusion.
+3. "ACS CAN also urges CMS to require payers to provide more than a generic statement such as 'failed to establish medical necessity.'" - Context: Denial reason recommendation.
+4. "For cancer patients — whose treatment is often tailored to their specific condition — any barrier to receiving the specific drug they need can jeopardize treatment outcomes." - Context: Step therapy and UM oversight concern.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports October 2027 for drug PA and seeks shorter, aligned timeframes and enforcement.
+- [x] **COST-RESOURCES** - Addresses administrative burden, patient costs, and provider time wasted searching multiple sources.
+- [x] **PROVIDER-BURDEN** - Central concern across PA, denials, metrics, formulary data, and step therapy.
+- [ ] **PRIVACY-SECURITY** - Not a major focus, though caregiver access and written communication are mentioned.
+- [x] **HEALTH-EQUITY** - Cancer patient access and consistent protections regardless of exchange type or residence are emphasized.
+- [x] **TECHNICAL-FEASIBILITY** - Discusses APIs, NCPDP standards, RTPBC IG, caregiver access, formulary data, and AI oversight.
+- [x] **STANDARDS-MATURITY** - Supports NCPDP standards and considers CARIN RTPBC IG for patient cost/coverage information.
+- [x] **PATIENT-ACCESS** - Central theme; timely access to cancer drugs, labs, DMEPOS, and appeals is repeatedly emphasized.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for alignment across CMS programs, Part D, exchanges, providers, payers, patients, and caregivers.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Strong focus on consistent treatment of outpatient, physician-administered, medical-benefit, and pharmacy-benefit drugs.
+- [x] **TRANSPARENCY** - Strong focus on denial reasons, public metrics, plan-level reporting, and category-level reporting.
+- [x] **SMALL-PAYER-IMPACT** - Supports FF-SHOP requirements and says added burden should be minimal for issuers already in FFEs.
+- [x] **EXISTING-WORKFLOWS** - Addresses PA workflows, notification, appeals, metrics publication, formulary lookup, and step therapy overrides.
+- [ ] **VENDOR-ECOSYSTEM** - Not directly addressed except AI/technology tools.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+American Cancer Society Cancer Action Network  
+655 15th Street, NW, Suite 503, Washington, D.C. 20005 
+fightcancer.org | 1.202.661.5700 
+ 
+ 
+ 
+ 
+June 15, 2026 
+ 
+The Honorable Robert F. Kennedy, Jr. 
+ 
+Dr. Mehmet Oz 
+Secretary 
+ 
+Administrator 
+U.S. Department of Health and Human Services  
+Centers for Medicare & Medicaid Services 
+200 Independence Avenue, SW 
+ 
+7500 Security Boulevard 
+Washington, D.C. 20201 
+ 
+Baltimore, MD 21244 
+Re: 
+CMS-0062-P – Interoperability Standards and Prior Authorization for Drugs  
+91 Fed. Reg. 19890 (April 14, 2026) 
+Dear Secretary Kennedy and Dr. Oz:  
+The American Cancer Society Cancer Action Network (ACS CAN) appreciates the opportunity to comment 
+on the policy changes to the 2026 Interoperability Standards and Prior Authorization for Drugs proposed 
+rule. ACS CAN is making cancer a top priority for public officials and candidates at the federal, state, and 
+local levels. ACS CAN empowers advocates across the country to make their voices heard and influence 
+evidence-based public policy change, as well as legislative and regulatory solutions that will reduce the 
+cancer burden. As the American Cancer Society’s (ACS) nonprofit, nonpartisan advocacy affiliate, ACS 
+CAN is more determined than ever to end cancer as we know it, for everyone. 
+We applaud the Centers for Medicare & Medicaid Services (CMS) for proposing to extend the requirements 
+established in the 2024 Interoperability Standards and Prior Authorization final rule for the Prior 
+Authorization Application Programming Interface (API) to prescription drugs. Including prescription drugs 
+would simplify the prior authorization process for providers and reduce confusion and lead to more timely 
+access for patients. We support many of the proposals outlined in the proposed rule and support CMS’s 
+efforts to improve alignment of standards across payers. We note that the proposed rule does not extend 
+these new requirements to Part D plans, and we encourage CMS to address this ...

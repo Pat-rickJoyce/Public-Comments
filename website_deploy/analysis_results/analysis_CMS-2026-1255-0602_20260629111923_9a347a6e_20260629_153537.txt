@@ -1,0 +1,144 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0602_20260629111923_9a347a6e
+Commenter: Color of Gastrointestinal Illnesses (COGI)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:35:37
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Color of Gastrointestinal Illnesses (COGI); signed by Melodie Narain-Blackwell, President.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** National patient advocacy organization focused on populations disproportionately affected by inflammatory bowel disease, digestive disorders, and associated chronic illnesses.
+
+## 2. EXECUTIVE SUMMARY
+
+COGI supports CMS's direction on prior authorization modernization and transparency, emphasizing that reforms must reduce treatment delays and protect continuity of care for patients with chronic gastrointestinal diseases. The commenter asks CMS to ensure technology supports individualized clinical decision-making rather than replacing the judgment of treating providers, especially in step therapy and chronic disease management.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; API-USAGE-METRICS; GENERAL/RFI on step therapy; PATIENT-ACCESS-related issues.
+- **Regulatory citations mentioned:** No CFR sections cited.
+- **Standards referenced:** Interoperability and technology/data sharing generally; no specific FHIR IGs or NCPDP standards named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Support for prescription drug prior authorization reform**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support.
+- **Rationale:** Patients with Crohn's disease, ulcerative colitis, chronic liver diseases, GI cancers, and other GI disorders often rely on complex medication regimens; delays can cause disease progression, exacerbations, ED visits, hospitalizations, and increased costs.
+- **Specific request:** Finalize reforms in a way that meaningfully reduces delays in treatment and supports timely access to therapies recommended by providers.
+
+**Topic 2: Denial transparency and public metrics**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Support / strengthen.
+- **Rationale:** Specific denial reasons and public metrics can improve accountability and reveal whether PA policies are causing denied or delayed access to recommended care.
+- **Specific request:** Require specific reasons for denials and public reporting of PA metrics that patients, providers, and policymakers can use.
+
+**Topic 3: Continuity of care for chronic disease therapies**
+- **Provision ID:** GENERAL; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify / strengthen.
+- **Rationale:** Patients stable on established therapies should not face repetitive authorization or disruptions due to administrative processes or coverage transitions.
+- **Specific request:** Reduce repetitive authorization for established therapies; recognize documented treatment history, prior failures, adverse events, and patient response; protect continuity during plan transitions.
+
+**Topic 4: Technology and step therapy should preserve clinical judgment**
+- **Provision ID:** GENERAL/RFI on step therapy
+- **Position:** Clarify / modify.
+- **Rationale:** Patients with GI illnesses often have complex histories that cannot be captured fully by utilization management protocols; treatment decisions depend on provider judgment, severity, adverse events, preferences, and response patterns.
+- **Specific request:** Ensure technology streamlines administration but does not substitute for individualized provider decision-making or undermine the patient-provider relationship.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S14:** Supports reforms to improve prior authorization for prescription drugs and reduce delays for chronic GI therapies.
+- **S16/S17:** Supports requiring specific reasons for denials to improve accountability and patient/provider understanding.
+- **S29/S35:** Supports public reporting of PA metrics to help stakeholders understand access impacts and identify unintended consequences.
+- **S66-S82:** Responds to step therapy/data-sharing RFI by urging CMS to preserve clinical judgment, recognize treatment histories, and avoid one-size-fits-all protocols.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize reforms that improve prior authorization efficiency and transparency for prescription drugs.
+2. Require specific denial reasons.
+3. Publicly report prior authorization metrics in a way useful to patients, providers, and policymakers.
+4. Prioritize continuity of care for patients stable on chronic therapies.
+5. Reduce repetitive prior authorization for established treatments.
+6. Recognize documented treatment history, including prior medication failures and adverse events.
+7. Protect patients during coverage transitions so plan changes do not interrupt medically necessary treatment.
+8. Ensure step therapy and technology-enabled UM support, not replace, treating provider judgment.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delays in therapy initiation, interruptions to ongoing treatment, repetitive authorization, and step therapy protocols overriding individualized care.
+- **Potential negative impacts cited:** Disease progression, symptom exacerbation, preventable complications, reduced quality of life, ED visits, hospitalizations, stress for patients/families, and provider burden.
+- **Implementation barriers mentioned:** Chronic disease complexity, personalized medicine, incomplete capture of treatment history in protocols, and coverage transitions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No numerical statistics cited.
+- **Studies or research referenced:** No formal studies cited.
+- **Examples provided:** Crohn's disease, ulcerative colitis, chronic liver diseases, gastrointestinal cancers, advanced therapies, prior medication failures, adverse events, disease severity, and response patterns.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with GI diseases, treating clinicians, GI specialists, payers, and policymakers.
+- **Economic implications:** Delays can increase ED visits, hospitalizations, healthcare costs, and administrative burden.
+- **Technical feasibility:** Supports technology and data sharing but warns against overreliance on protocols.
+- **Patient care impact:** High for chronic GI disease patients whose disease can progress while reviews are pending.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with patient-centered modifications.
+- **Tone:** Professional, collaborative, cautious.
+- **Priority level:** Medium-High.
+
+## 11. KEY QUOTES
+
+1. "Prior authorization represents a barrier to needed care that is recommended by a patient's care team." - Context: General concern about access for GI patients.
+2. "Disease progression does not pause while administrative reviews are pending." - Context: Rationale for timely PA decisions.
+3. "Patients who are stable on a prescribed therapy should not experience unnecessary treatment disruptions due to administrative requirements." - Context: Continuity-of-care recommendation.
+4. "Technology may help streamline administrative processes, but it should not serve as a substitute for the informed judgment of providers." - Context: Step therapy and data-sharing RFI response.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Notes administrative burden on healthcare providers.
+- [x] **HEALTH-EQUITY** - Organization focuses on disproportionately affected populations, though the comment primarily centers chronic GI disease access.
+- [x] **TECHNICAL-FEASIBILITY** - Supports technology but cautions that protocols cannot capture complex care histories.
+- [x] **PATIENT-ACCESS** - Central theme: timely access to therapies and avoidance of delays.
+- [x] **TRANSPARENCY** - Supports denial reasons and public metrics.
+- [x] **EXISTING-WORKFLOWS** - Addresses how administrative reviews and step therapy interact with real care processes.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+info@colorofgi.org | 9103 Woodmore Center Dr., Suite 2004 | Glenarden, MD 20706 
+June 15, 2026 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+Submitted via electronic submission 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's 
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and 
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P) 
+Dear Administrator Oz: 
+The Color of Gastrointestinal Illnesses (COGI) appreciates the opportunity to provide 
+comments to the Centers for Medicare & Medicaid Services (CMS) regarding the Medicare 
+and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability 
+Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P). 
+COGI is a national patient advocacy organization whose mission is to improve the quality of 
+life for populations disproportionately affected by Inflammatory Bowel Disease (IBD), 
+digestive disorders, and associated chronic illnesses through community engagement, 
+research, education, and advocacy. We work to spread awareness about the day-to-day 
+challenges of living with digestive illnesses and advocate on behalf of policy changes that 
+eliminate barriers to care. 
+COGI commends CMS for continuing its efforts to reform prior authorization processes and 
+improve interoperability across the healthcare system. The proposed rule builds on the 
+reforms finalized in 2024 and represents meaningful progress toward a more transparent, 
+efficient, and patient-centered prior authorization system.  
+For individuals living with chronic gastrointestinal diseases, timely access to medications is 
+often essential to maintaining disease control, preventing complications,...

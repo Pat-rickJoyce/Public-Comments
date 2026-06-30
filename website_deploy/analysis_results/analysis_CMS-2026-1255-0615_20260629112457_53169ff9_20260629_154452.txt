@@ -1,0 +1,188 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0615_20260629112457_53169ff9
+Commenter: National Pharmaceutical Council
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:44:52
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Pharmaceutical Council (NPC)
+- **Stakeholder type:** Advocacy Group / Research-focused pharmaceutical policy organization
+- **Credentials or expertise mentioned:** NPC describes experience conducting and disseminating research on evidence, innovation, value of medicines, utilization management, prior authorization, and step therapy.
+
+## 2. EXECUTIVE SUMMARY
+
+NPC broadly supports CMS efforts to reduce prior authorization burden, improve transparency, standardize electronic prior authorization for drugs, and harmonize data sharing across plans. The comment recommends stronger oversight, standardized denial terminology and reporting, therapeutic-area-level metrics, a cross-payer definition of prior authorization, attention to diagnostic testing and AI, and step therapy reforms that protect patients during plan transitions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** The comment references CMS-0062-P and Federal Register pages for drug PA timeframes, denial reasons, API access to PA information, and public reporting metrics; it does not focus on specific CFR citations.
+- **Standards referenced:** APIs generally; Patient Access API; Provider Access API; Payer-to-Payer API. The comment does not provide detailed technical positions on specific FHIR IG versions or NCPDP standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NPC states that current prior authorization creates treatment delays, denials, reduced adherence, treatment abandonment, patient/provider burden, and possible adverse outcomes.
+- **Specific request:** Finalize requirements for electronic PA processes for drugs and require plans to provide decisions within specific timeframes.
+
+**Topic 2: Expedited decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** NPC supports 24-hour expedited decisions because delays can be especially harmful for serious or life-threatening conditions, but cautions that speed should not increase inappropriate denials.
+- **Specific request:** Extend a 24-hour decision requirement across CMS-regulated payers and monitor for increased denials or inappropriate utilization management.
+
+**Topic 3: Specific denial reasons and aligned denial terminology**
+- **Provision ID:** PA-DENIAL-REASONS; TRANSPARENCY
+- **Position:** Support / Modify
+- **Rationale:** Lack of clear denial rationales prevents patients and providers from evaluating or challenging drug coverage decisions and limits oversight.
+- **Specific request:** Require specific denial reasons, align terminology for denial reasons across payers, and require website metrics on reasons for drug PA denials.
+
+**Topic 4: PA information through APIs**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS
+- **Position:** Support
+- **Rationale:** NPC believes detailed information on PA requests and decisions should be available to patients, providers, and payers to support continuity and transparency.
+- **Specific request:** Require impacted payers to make drug PA status, approval/denial dates, authorization end dates, approved drugs and dosage, denial reasons, and submitted documentation available via Patient Access, Provider Access, and Payer-to-Payer APIs.
+
+**Topic 5: Public reporting of PA metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Support / Modify
+- **Rationale:** NPC supports annual reporting but argues that unstandardized or overly aggregated reporting will limit usefulness for CMS, researchers, patients, and providers.
+- **Specific request:** Require therapeutic-area-level reporting in standardized, accessible formats; develop oversight standards; and publish CMS annual or biannual reports on payer PA metrics.
+
+**Topic 6: Definition of prior authorization and hidden step therapy**
+- **Provision ID:** GENERAL; EXISTING-WORKFLOWS
+- **Position:** Modify / Clarify
+- **Rationale:** Plans may characterize or structure utilization management differently, including embedding step therapy within prior authorization criteria.
+- **Specific request:** Implement a consistent definition of prior authorization across payers that avoids ambiguity and prevents hidden step therapy.
+
+**Topic 7: Diagnostic testing and biomarker access**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** Diagnostic, biomarker, and pharmacogenomic testing are increasingly important to treatment selection, and PA delays can interfere with adoption and care.
+- **Specific request:** Consider harmonizing PA policies across ancillary services, including diagnostic and biomarker testing, and coordinate with FDA and NIH.
+
+**Topic 8: Artificial intelligence in PA**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Clarify / Modify
+- **Rationale:** NPC warns that AI could improve PA but also risks incorrect decisions, increased denials, burden, and lack of transparency.
+- **Specific request:** Examine AI impacts on PA requirements and determinations and consider disclosure requirements for AI tools used in PA.
+
+**Topic 9: Step therapy reforms**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** NPC states that step therapy is increasing, varies widely across payers, may be stricter than clinical guidelines, and can disrupt continuity when patients switch plans.
+- **Specific request:** Define step therapy functionally; prohibit or limit step therapy in certain high-risk therapeutic/product classes; prevent plans from requiring patients to retry failed medicines after plan changes; and use data exchange/regulations to reduce step therapy burden.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** NPC supports requiring specific reasons for drug PA denials and asks CMS to align denial terminology across payers.
+- **S17:** NPC implicitly supports structured, standardized denial reasons by recommending aligned terminology and denial-reason metrics.
+- **S20:** NPC supports 24-hour expedited drug PA decisions and recommends extending the 24-hour standard across CMS-regulated payers.
+- **S21:** NPC supports specific drug PA timeframes while urging monitoring for unintended access harms.
+- **S29/S34/S35:** NPC supports public reporting of PA metrics but asks for standardized, accessible, therapeutic-area-level reporting and CMS oversight/public synthesis.
+- **S66-S82:** NPC responds to broader RFIs on step therapy, diagnostic testing, and AI by recommending patient-centered definitions, continuity protections, and disclosure/oversight mechanisms.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for drugs across medical and pharmacy benefit contexts.
+2. Require expedited drug PA decisions within 24 hours across CMS-regulated payers.
+3. Monitor accelerated PA timelines to prevent higher denial rates or inappropriate utilization management.
+4. Require specific denial reasons and align denial terminology across impacted payers.
+5. Require public denial-reason metrics by plan and therapeutic area.
+6. Require detailed PA data to be available through Patient Access, Provider Access, and Payer-to-Payer APIs.
+7. Standardize public PA metrics, require therapeutic-area reporting, and publish CMS annual/biannual reports.
+8. Adopt a consistent cross-payer definition of prior authorization.
+9. Harmonize PA policies for diagnostic, biomarker, and pharmacogenomic testing.
+10. Examine AI use in PA and develop disclosure/oversight policies.
+11. Define step therapy and prevent hidden or embedded fail-first requirements from evading transparency.
+12. Prevent new payers from requiring patients to retry medicines they already failed under prior coverage.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA and step therapy delays/denials harm patients; utilization management may not be evidence-based; poor transparency limits appeals and oversight; step therapy may be hidden inside PA criteria; AI may increase denials without transparency.
+- **Potential negative impacts cited:** Treatment delays, abandonment, worsened health outcomes, preventable utilization, increased provider burden, disrupted continuity after plan changes, delayed diagnostic/biomarker testing.
+- **Implementation barriers mentioned:** Lack of standardized definitions, variable payer terminology, inconsistent public reporting, opaque AI tools, variation in step therapy protocols.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NPC cites survey and research findings including 34% of insured adults reporting PA-related negative physical health impact, 41% of respondents with PA denial reporting delayed care, 28% reporting worsened health problems, 8% of physicians reporting PA led to disability/permanent damage/birth defect/death, 94% reporting PA increases physician burnout, and studies showing misalignment between utilization management and clinical guidelines.
+- **Studies or research referenced:** JAMA Health Forum branded medication PA delays; AMA PA survey; KFF tracking poll; Commonwealth Fund survey; NPC/Tufts CEVR research on guideline alignment; Health Affairs and other studies on step therapy and coverage policy.
+- **Examples provided:** Asthma biologic delays leading to prednisone use; schizophrenia modeling showing limited cost savings; biomarker testing delays affecting oncology treatment decisions; step therapy protocols requiring up to five failed treatments.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, providers, payers, researchers, CMS, PBMs, health plans, pharmaceutical innovators, diagnostic testing stakeholders.
+- **Economic implications:** NPC argues PA may not yield intended savings when delays cause downstream utilization and burden; standardized reporting could improve oversight and future policy.
+- **Technical feasibility:** NPC supports APIs for sharing PA information but focuses more on policy and transparency than technical feasibility.
+- **Patient care impact:** Strong focus on preventing delayed treatment, improving continuity during plan changes, ensuring evidence-based utilization management, and reducing nonclinical barriers.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant recommended modifications
+- **Tone:** Professional, research-focused, policy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We support the streamlining of standardized prior authorization information across plans and greater transparency of prior authorization denials and approval times" - Context: NPC's rationale for supporting CMS transparency proposals.
+2. "We support CMS’s proposal to require decisions on expedited prior authorization requests for drugs within 24-hours across payers." - Context: Timeframe recommendations.
+3. "We recommend that CMS implement a definition of prior authorization across payers to promote transparency and ensure consistency." - Context: Concern about hidden or inconsistent utilization management.
+4. "No definition of step therapy, or a definition that is too narrow, would limit the effectiveness of policies aimed at addressing burdens for patients and providers" - Context: Step Therapy RFI response.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports expedited timeframes but asks CMS to guard against unintended consequences.
+- [x] **COST-RESOURCES** - Discusses economic burden of utilization management and questions whether PA always produces savings.
+- [x] **PROVIDER-BURDEN** - Emphasizes administrative burden and burnout from PA and step therapy.
+- [ ] **PRIVACY-SECURITY** - Not a central focus.
+- [x] **HEALTH-EQUITY** - Addresses continuity and access risks for serious illness and coverage transitions, though not framed primarily as equity.
+- [x] **TECHNICAL-FEASIBILITY** - Supports API data sharing but does not deeply analyze implementation mechanics.
+- [x] **STANDARDS-MATURITY** - Limited; the comment supports standardization more than specific standards maturity.
+- [x] **PATIENT-ACCESS** - Central theme; PA and step therapy delays are framed as direct patient access barriers.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends coordination across CMS, FDA, NIH, patients, and stakeholders on diagnostics and AI.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Addresses drug PA across payer/benefit contexts and diagnostic testing adjacency.
+- [x] **TRANSPARENCY** - Central theme; denial reasons, metrics, definitions, and AI disclosure.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Discusses current PA and step therapy practices, hidden criteria, and plan transitions.
+- [ ] **VENDOR-ECOSYSTEM** - Not central.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+Dr. Mehmet Oz 
+Administrator, Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services  
+7500 Security Boulevard Baltimore, MD 21244 
+ 
+Submitted Electronically via: regulations.gov  
+ 
+Dear Administrator Oz, 
+ 
+The National Pharmaceutical Council (NPC) thanks the Administrator of the Centers for Medicare & 
+Medicaid Services (referred to as “CMS” or “Agency” in this letter) for the opportunity to provide 
+research-focused insights on the Medicare and Medicaid Programs; Patient Protection and Aﬀordable 
+Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance 
+Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualiﬁed Health Plans on the 
+Federally-Facilitated Exchanges Proposed Rule.1 We envision a world where advances in medicine are 
+accessible to patients, valued by society, and sustainably reimbursed by payers to ensure continued 
+innovation. We have rich experience conducting research and disseminating information about the 
+critical issues of evidence, innovation, and the value of medicines for patients.2 Our research helps 
+inform important healthcare policy debates and supports the achievement of the best patient outcomes 
+in the most eﬃcient way possible. NPC’s extensive research on the impact of utilization management, 
+including prior authorization and step therapy, has informed our response to the Proposed Rule and the 
+Step Therapy Request for Information (RFI) below.  
+We agree with Administrator Oz: “[t]he current prior authorization process creates unnecessary 
+delays for patients, burdens health care providers with excessive paperwork, and erodes trust between 
+payers and health care providers, even though all share the same goal: delivering high-quality patient 
+care.”3  We applaud the strong interest and ongoing engagement CMS and HHS have shown reg...

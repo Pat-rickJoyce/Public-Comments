@@ -1,0 +1,189 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0533_20260629112431_d810c101
+Commenter: American College of Obstetricians and Gynecologists
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:26:43
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American College of Obstetricians and Gynecologists (ACOG); signed by Lisa Satterfield, MS, MPH, CAE, CPH
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Represents more than 62,000 physicians and partners dedicated to women's health and obstetric/gynecologic care.
+
+## 2. EXECUTIVE SUMMARY
+
+ACOG supports CMS's use of electronic standards to improve prior authorization where PA is still required, including expansion of the Prior Authorization API to medical-benefit drugs and adoption of NCPDP standards for pharmacy-benefit drugs. The organization also urges CMS to reduce unnecessary PA, shorten all urgent PA response times to 24 hours and non-urgent times to 48 hours, collect richer equity-related metrics, preserve denied PA and formulary data in APIs, provide transition time for standards updates, and avoid fully automated adverse PA determinations.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; STATE-EXTENSION-PROCESS; FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE; GENERAL
+- **Regulatory citations mentioned:** No specific CFR sections quoted beyond references to CMS proposals; the comment discusses October 1, 2027 compliance dates and January 1, 2028 standards expiration.
+- **Standards referenced:** FHIR APIs; Prior Authorization API; NCPDP SCRIPT; FHIR-based Endpoint Resources; NDH IG Endpoint Profile; Access APIs; Provider Directory API; Provider Access API; Payer-to-Payer API; HL7 v2.5.1 ADT; USCDI; HIEs; TEFCA; C-CDA.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA standards for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Electronic methods are superior to analog PA processes and can improve timeliness, transparency, and provider workflow.
+- **Specific request:** Finalize expansion of the Prior Authorization API for medical-benefit drugs and finalize NCPDP standards for pharmacy-benefit drugs.
+
+**Topic 2: State implementation burden and extensions**
+- **Provision ID:** STATE-EXTENSION-PROCESS
+- **Position:** Modify
+- **Rationale:** States face limited budgets, staffing constraints, procurement cycles, and additional Medicaid changes under H.R.1 that may make the proposed implementation timeframe unrealistic.
+- **Specific request:** Pause implementation of Prior Authorization API requirements or grant longer compliance windows with adequate resources.
+
+**Topic 3: Denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Specific denial reasons improve transparency and efficiency between providers and payers.
+- **Specific request:** Finalize the proposal requiring payers to provide specific reasons for drug PA denials.
+
+**Topic 4: Decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Delays in authorization for women's health drugs and services can disrupt care, worsen symptoms, and create clinical risks.
+- **Specific request:** Require 24-hour response times for all urgent drug and non-drug requests and 48-hour response times for all non-urgent drug and non-drug requests; finalize CHIP FFS 24-hour prescription-drug notices.
+
+**Topic 5: PA metrics and equity data**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Existing reporting gaps limit evaluation of PA performance and obscure disproportionate effects on underserved groups.
+- **Specific request:** Finalize PA metrics proposals and expand reporting to include race, ethnicity, disability status, and socioeconomic status.
+
+**Topic 6: API endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Complete, standardized, current endpoint information supports interoperability and accountability.
+- **Specific request:** Finalize requirements for impacted payers to report standardized API endpoint information to CMS.
+
+**Topic 7: API data content**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Denied PA rationales and formulary information can prevent repeated denials, unnecessary requests, and prescribing delays.
+- **Specific request:** Include PA requests and decisions for all drugs, retain denied PA requests for drug and non-drug items/services in exchange datasets, maintain formulary data in Provider Access and Payer-to-Payer APIs, and finalize Provider Directory API update policies.
+
+**Topic 8: ONC standards versioning**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Updated standards may require system changes, and stakeholders need clarity on adopted versions and transition timing.
+- **Specific request:** Add the January 1, 2028 expiration date if new versions are adopted, provide reasonable transition periods, and identify adopted versions in final rule text and guidance.
+
+**Topic 9: Event notifications and resiliency RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Ob-gyns often serve as primary care providers and need timely admission, discharge, and transfer information, but sensitive reproductive, mental health, and substance-use data require strong privacy protections.
+- **Specific request:** Use FHIR/HL7 v2.5.1 ADT API-based notifications aligned with USCDI, HIEs, and TEFCA; include core actionable data; protect sensitive information; consider administrative burden in resiliency and HIPAA Security proposals.
+
+**Topic 10: Automation and AI in prior authorization**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** Fully automated processes may increase inappropriate denials, bias, privacy risks, and appeal burden.
+- **Specific request:** Refrain from fully automated PA processes; require adverse determinations to receive peer-to-peer review by licensed, specialty-specific providers; align AI use with privacy protections.
+
+**Topic 11: Laboratory tests and DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Evidence-based tests such as NIPT and NAAT for bacterial vaginosis and DMEPOS such as remote blood pressure monitoring are often standard or beneficial and should not face unnecessary PA barriers.
+- **Specific request:** Minimize PA requirements for evidence-based recommended laboratory tests and DMEPOS, and pause work to integrate automation into those PA processes.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** ACOG supports medical-benefit drug PA API expansion and expects reduced delays and burden.
+- **S14:** ACOG supports applying NCPDP standards for pharmacy-benefit drugs to relevant non-Part D impacted payers.
+- **S16:** ACOG supports requiring specific denial reasons to improve transparency and efficiency.
+- **S20:** ACOG urges 24-hour urgent and 48-hour non-urgent timeframes for drugs and non-drug items/services, and supports CHIP FFS 24-hour prescription-drug decisions.
+- **S21:** ACOG supports the medical-benefit drug API concept but argues states need more time and resources.
+- **S22:** ACOG recommends finalizing pharmacy-benefit NCPDP standards but does not quantify costs.
+- **S23-S24:** ACOG supports comprehensive, standardized API endpoint reporting while urging streamlined and timely requirements.
+- **S29-S30:** ACOG supports expanded PA metrics and recommends demographic data reporting to understand equity impacts.
+- **S33-S35:** ACOG supports publishing PA metrics and endpoint information in ways that improve transparency and accountability.
+- **S36-S38:** ACOG argues state Medicaid/CHIP FFS programs need longer compliance windows because of budget, staffing, procurement, and statutory implementation pressures.
+- **S40-S41:** ACOG addresses QHP timelines by supporting stronger requirements and shorter response periods.
+- **S60-S65:** ACOG supports ONC standards updates with reasonable transition periods, explicit version identification, and guidance.
+- **S66-S82:** ACOG responds to RFIs on electronic event notifications, healthcare resiliency, step therapy/automation, laboratory tests, and DMEPOS.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize expansion of the Prior Authorization API to include medical-benefit drugs.
+2. Finalize NCPDP standards for pharmacy-benefit drug ePA, formulary/benefit information, and real-time benefit information.
+3. Pause or extend implementation for states until they have sufficient time and resources.
+4. Finalize denial-reason requirements.
+5. Revise PA decision timeframes to 24 hours for urgent and 48 hours for non-urgent drug and non-drug requests.
+6. Finalize public PA metrics and add demographic reporting fields.
+7. Finalize standardized API endpoint reporting.
+8. Include denied PA requests and maintain formulary information in API exchange datasets.
+9. Finalize Provider Directory API update policies.
+10. Provide transition periods and clear version guidance for ONC standards updates.
+11. Use robust, privacy-protective event notification standards and include actionable clinical details.
+12. Avoid fully automated PA adverse determinations and require specialty-specific peer review.
+13. Minimize PA for evidence-based laboratory tests and DMEPOS.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Unnecessary PA, care delays, clinician burden, state implementation capacity, equity gaps in PA data, loss of denied PA/formulary data, privacy risks, and automated denial systems.
+- **Potential negative impacts cited:** Serious adverse events, worsened symptoms, disease exacerbation, preventable hospitalizations, prolonged stays, lower disease-free survival, inequitable outcomes, and physician burnout.
+- **Implementation barriers mentioned:** State procurement cycles, staffing and fiscal constraints, patchwork messaging standards, disparate EHRs, and inadequate payer-side automation oversight.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ACOG informal member survey; 2025 AMA PA survey reporting 94% physician burnout impact, 95% care delays, 26% serious adverse events, and 61% concern about unregulated AI increasing denials; administrative duties average 24% of physician working hours; ob-gyn burnout rates range from 40% to more than 75%.
+- **Studies or research referenced:** AMA 2025 PA survey; ACOG practice guidance on bacterial vaginosis and fetal chromosomal abnormality screening; MACPAC Medicaid procurement and automation materials; Murphy et al. systematic review on PA effects; KFF MA disparities literature; ACOG and peer-reviewed references on mental health, substance use, telehealth, and remote monitoring.
+- **Examples provided:** NIPT for all pregnant patients, NAAT for bacterial vaginosis, surgical authorization invalidated by intraoperative findings, remote blood pressure monitoring in pregnancy/postpartum, and automated downcoding concerns.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Ob-gyns, patients seeking women's health care, pregnant and postpartum patients, Medicaid/CHIP agencies, MA plans, QHP issuers, payers, developers, and EHR/HIE participants.
+- **Economic implications:** Prior authorization increases practice administrative costs and burnout; state implementation requires resources, but enhanced FFP may offset some Medicaid system costs.
+- **Technical feasibility:** FHIR and NCPDP standards are viewed as suitable, but version transitions, endpoint reporting, EHR heterogeneity, and automation governance require care.
+- **Patient care impact:** Shorter timelines, fewer PA requirements, richer notifications, and better transparency could reduce delays and improve outcomes, especially for women's health and underserved groups.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, policy-focused, and critical where patient access or automation risks are implicated
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "While ACOG is in opposition to unnecessary prior authorization and other utilization management processes, we are supportive of utilizing the API and NCPDP SCRIPT standards for electronic prior authorization provisions." - Context: Overall position on standards-based ePA.
+2. "ACOG recommends CMS to finalize the expansion of the Prior Authorization API to include drugs under the medical benefit." - Context: Medical-benefit drug proposal.
+3. "ACOG strongly disagrees with the proposed timeframes." - Context: Requested shorter PA decision timelines.
+4. "ACOG strongly urges CMS to refrain from implementing fully automated prior authorization processes." - Context: Automation and AI concerns.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ACOG requests shorter PA response times but longer state implementation windows.
+- [x] **COST-RESOURCES** - The comment emphasizes state resource constraints and practice administrative burden.
+- [x] **PROVIDER-BURDEN** - Prior authorization is framed as a major source of ob-gyn dissatisfaction, burnout, and workflow disruption.
+- [x] **PRIVACY-SECURITY** - ACOG highlights reproductive, mental health, and substance-use privacy concerns in notifications, resiliency, and AI.
+- [x] **HEALTH-EQUITY** - The comment recommends demographic PA reporting to assess impacts on underserved and underrepresented populations.
+- [x] **TECHNICAL-FEASIBILITY** - ACOG supports FHIR/NCPDP standards but notes EHR and messaging heterogeneity.
+- [x] **STANDARDS-MATURITY** - ACOG asks for transition periods and clear version guidance for updated ONC standards.
+- [x] **PATIENT-ACCESS** - The comment repeatedly links PA delays to safety risks and delayed treatment.
+- [x] **TRANSPARENCY** - ACOG supports denial reasons, metrics, endpoint reporting, and public posting.
+- [x] **STAKEHOLDER-COORDINATION** - The comment calls for better payer, provider, state, and technology alignment.
+- [x] **EXISTING-WORKFLOWS** - Surgical and ob-gyn workflows are described as poorly served by rigid PA processes.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Administrator Mehmet Oz
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Blvd
+Baltimore, MD 21244-8016
+
+RE: [CMS-0062-P] Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Dear Administrator Oz,
+
+On behalf of the American College of Obstetricians and Gynecologists (ACOG), representing more than 62,000 physicians and partners dedicated to advancing women's health and the health of individuals seeking obstetric and gynecologic care, we appreciate the opportunity to provide comments on the Centers for Medicare and Medicaid Services' (CMS) proposed rule on interoperability and prior authorization standards for certain administered plans.
+...

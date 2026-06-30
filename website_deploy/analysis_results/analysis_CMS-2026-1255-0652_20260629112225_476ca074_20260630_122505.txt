@@ -1,0 +1,155 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0652_20260629112225_476ca074
+Commenter: Partnership to Empower Physician-Led Care (PEPC)
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:25:05
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Partnership to Empower Physician-Led Care (PEPC); signed by Kristen McGovern, Executive Director.
+- **Stakeholder type:** Advocacy Group; Healthcare Provider association/coalition focused on physician-led care.
+- **Credentials or expertise mentioned:** PEPC describes itself as a membership organization supporting value-based care, independent physician practices, competition, quality improvement, cost reduction, patient empowerment, and access to care.
+
+## 2. EXECUTIVE SUMMARY
+
+PEPC responds to the rule's RFI on electronic event notifications for value-based care and care coordination. It urges CMS to design policy around the needs of small and independent practices, strengthen and standardize HIE infrastructure, reduce or subsidize ADT connection costs, standardize facility identifiers, and tighten hospital Conditions of Participation so hospitals share ADT alerts broadly with ACOs and other attributed providers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL. The comment addresses the RFI on electronic event notifications, value-based care, care coordination, ADT feeds, and hospital Conditions of Participation, not the drug prior authorization standards provisions.
+- **Regulatory citations mentioned:** No CFR sections cited. The comment references CMS-0062-P, RIN 0938-AV44, hospital Conditions of Participation (CoP), and Conditions for Coverage (CfC).
+- **Standards referenced:** Admit, Discharge, and Transfer (ADT) feeds; HIE infrastructure; CMS Certification Number (CCN); Organizational NPI; patient rosters.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Small and Independent Practice Support**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Small and independent practices often lack the data infrastructure, ADT feed connections, and technical support needed to fully use event notifications in value-based care.
+- **Specific request:** CMS should design event notification policy with small practices in mind and provide technical assistance and other resources where needed.
+
+**Topic 2: HIE Modernization and Standardization**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Stronger, more open, capable, and standardized HIEs would reduce the technical burden per practice and make care coordination feasible for smaller providers.
+- **Specific request:** CMS should strengthen HIE infrastructure and drive standardization across the notification ecosystem.
+
+**Topic 3: ADT Connection Costs**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** ADT connection costs can be difficult for resource-limited independent practices to absorb.
+- **Specific request:** CMS should explore mechanisms to reduce or subsidize ADT connection costs, especially for resource-limited providers.
+
+**Topic 4: Additional Event Notification Content**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Minimum hospital notification data are insufficient for receiving providers to identify the patient, understand the event, and take timely action.
+- **Specific request:** Notifications should include enough clinical context for transitions of care and should standardize facility identification using CCN and/or Organizational NPI.
+
+**Topic 5: Hospital CoP/CfC Information Sharing**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** PEPC says current CoP requirements are too broad and allow hospitals to limit information sharing, sometimes for competitive reasons rather than technical limitations.
+- **Specific request:** CMS should update or clarify CoP/CfC requirements to encourage or require hospitals to exchange alerts with ACOs, PAC providers, suppliers, and payers to which patients are attributed or assigned, including by accepting patient rosters.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** PEPC responds to the general RFI on electronic event notifications, value-based care, and care coordination. It recommends HIE modernization, ADT standardization, subsidies or cost reduction for small practices, additional notification content, standardized facility identifiers, and stronger hospital CoP/CfC expectations for broad alert sharing.
+
+## 6. RECOMMENDATIONS
+
+1. Design event notification policy around the needs of small and independent physician practices.
+2. Provide technical assistance and resources to practices that lack data infrastructure.
+3. Strengthen HIEs so they are more open, capable, and standardized.
+4. Reduce or subsidize ADT connection costs for resource-limited providers.
+5. Standardize notification implementation and vendor support across the ADT ecosystem.
+6. Include sufficient patient and clinical context in event notifications to support timely action.
+7. Standardize facility identification using CCN and/or Organizational NPI.
+8. Clarify or update hospital CoP/CfC requirements to encourage or require broader alert sharing.
+9. Require hospitals to make every effort to accept patient rosters.
+10. Preserve implementation flexibility for hospitals while closing loopholes that allow avoidable information blocking.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Small practice resource constraints, inconsistent ADT implementation, uneven vendor support, insufficient notification content, non-standard facility identifiers, hospital reluctance to share data, and broad CoP loopholes.
+- **Potential negative impacts cited:** Higher practice burden, reduced value-based care participation, weaker care coordination, jeopardized ACO population health management, reduced competition, avoidable waste, and poorer patient outcomes.
+- **Implementation barriers mentioned:** PMPM ADT connection costs, interface customization, inconsistent HIE/vendor identifiers, uneven adoption of standards, and hospital-by-hospital data access negotiations.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** PEPC states ADT connection costs are typically structured per member per month and may range from $0.00 to $0.133 PMPM depending on integration and region.
+- **Studies or research referenced:** No studies cited.
+- **Examples provided:** Small practices needing ADT feeds for value-based care, hospitals accepting patient rosters, local HIEs, vendor alert contracts, hospital-built exchanges or interfaces, and hospitals treating data as proprietary.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Small and independent physician practices, ACOs, hospitals, PAC providers and suppliers, payers, HIEs, vendors, patients, and value-based care participants.
+- **Economic implications:** ADT connection costs and interface customization disproportionately burden smaller practices; stronger shared infrastructure and subsidies could reduce costs and increase value-based care participation.
+- **Technical feasibility:** PEPC says no new technology is needed for roster-based ADT sharing because hospitals already have options such as HIEs, vendor alerts, and internal exchanges/interfaces.
+- **Patient care impact:** Better event notifications would improve transitions of care, population health management, care coordination, quality, cost control, patient experience, and outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted modifications.
+- **Tone:** Professional, practical, and advocacy-oriented.
+- **Priority level:** Medium.
+
+## 11. KEY QUOTES
+
+1. "We urge CMS to ensure that all policy is designed with small and independent physician practices in mind" - Context: PEPC's overarching implementation principle.
+2. "CMS should focus policy efforts on strengthening health information exchanges" - Context: Recommendation for expanding event notification use.
+3. "Facility identification should be standardized around commonly recognized identifiers" - Context: Recommendation to use CCN and/or Organizational NPI.
+4. "The current CoP is too broad with loopholes" - Context: Argument for stronger hospital event-notification sharing requirements.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - PEPC focuses on ADT connection costs, technical assistance, and small practice resource constraints.
+- [x] **PROVIDER-BURDEN** - The comment aims to reduce per-practice technical burden and hospital-by-hospital data sharing work.
+- [x] **TECHNICAL-FEASIBILITY** - PEPC discusses HIE infrastructure, ADT feeds, facility identifiers, patient rosters, vendor implementation, and standards maturity.
+- [x] **STANDARDS-MATURITY** - PEPC notes that supporting interoperability standards are not yet sufficiently mature or widely adopted in event notifications.
+- [x] **PATIENT-ACCESS** - The comment frames event notifications as supporting timely care coordination and transitions of care.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations require coordination among CMS, hospitals, HIEs, vendors, ACOs, PAC providers, payers, and independent practices.
+- [x] **TRANSPARENCY** - PEPC objects to hospitals treating data as proprietary and supports broader information sharing.
+- [x] **EXISTING-WORKFLOWS** - The comment references current ADT feeds, HIE connections, patient rosters, vendor alerts, and hospital interfaces.
+- [x] **VENDOR-ECOSYSTEM** - HIEs and national vendors are central to the identified problems and recommendations.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 15, 2026 
+ 
+Submitted via regulations.gov  
+ 
+The Honorable Administrator Mehmet Oz, M.D.  
+Centers for Medicare & Medicaid Services  
+7500 Security Boulevard  
+Baltimore, MD 21244  
+ 
+Re:  
+Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P; RIN: 
+0938-AV44) 
+ 
+Dear Administrator Oz:  
+Thank you for the opportunity to provide comments in response to the Request for Information (RFI) on 
+Electronic Event Notifications for Value-Based Care and Care Coordination included in the Interoperability 
+Standards and Prior Authorization for Drugs Proposed Rule. 
+The Partnership to Empower Physician-Led Care (PEPC) is a membership organization dedicated to 
+supporting value-based care to reduce costs, improve quality, empower patients and physicians, and 
+increase access to care for millions of Americans through a competitive health care provider market. We 
+believe that it is impossible to achieve truly value-based care without a robust independent practice 
+community.  
+Health technology plays an essential role in supporting health care providers in value-based care 
+arrangements. Small and independent practices are more resource constrained and struggle to develop 
+the data infrastructure, including the Admit, Discharge, and Transfer (ADT) feeds necessary to receive and 
+act on patient event notifications, and the associated supports necessary to fully leverage data and 
+technology. PEPC appreciates the Administration's commitment to reducing burden and promoting 
+seamless and secure flow of health information between patients, providers, and payers, which will be 
+particularly beneficial to small and independent physician practices and further support CMS' goals of 
+increasing health care competition and participation of independent physician practices in value-based 
+care models. 
+We urge CMS to ensure that all policy is designed with small and independent physician practices in mind, 
+conside...

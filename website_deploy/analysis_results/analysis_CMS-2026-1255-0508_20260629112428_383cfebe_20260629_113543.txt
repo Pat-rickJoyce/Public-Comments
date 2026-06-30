@@ -1,0 +1,179 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0508
+Commenter: American Society of Hematology (ASH)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:35:43
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Society of Hematology (ASH) — Robert Negrin, MD, President; Carina Smith, Manager of Health Care Access Policy
+- **Stakeholder type:** Professional Association (healthcare provider)
+- **Credentials or expertise mentioned:** Represents more than 18,000 clinicians and scientists worldwide committed to studying and treating blood and blood-related diseases, including malignant hematologic disorders (leukemia, lymphoma, multiple myeloma), sickle cell disease, bleeding/clotting disorders, and gene and cell therapies.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+ASH supports CMS's proposal to extend electronic prior authorization (ePA) to drugs, agreeing it has the potential to reduce administrative burden and improve patient access. However, ASH cautions that ePA will only shift—not meaningfully reduce—burden unless documentation requirements are standardized across plans, and urges guardrails against unnecessary additional documentation requests, AI overreliance, and requests for expedited pathways for urgent hematologic cases. ASH also opposes step therapy for hematologic conditions and supports improved PA timeline transparency and appeal process reform.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-TIMEFRAMES-DRUGS, PA-DENIAL-REASONS, GENERAL (step therapy RFI)
+- **Regulatory citations mentioned:** None cited by CFR section
+- **Standards referenced:** EHRs and APIs generally; no specific FHIR IGs or NCPDP standards cited
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** ASH members still rely on fax, phone, and payer-specific portals; ePA has potential to reduce these burdens and improve timely patient access. However, ePA will only shift burden rather than reduce it unless documentation requirements are standardized across plans and core clinical data elements are consistent.
+- **Specific request:** CMS should promote alignment around core clinical data elements for drug PA requests (diagnoses, biomarker/lab results, prior treatment history, therapy failures, contraindications, adverse reactions); establish guardrails to prevent plans from using electronic submission as a basis to request additional documentation beyond what is reasonably necessary.
+
+**Topic 2: AI in Prior Authorization Decision-Making**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Modify / Clarify
+- **Rationale:** AI may help expedite PA for straightforward, uncomplicated cases with established clinical pathways, but must not replace clinical judgment of providers. Complex hematologic cases, off-label therapies, rare diseases, genomic-driven treatments require human review. Automated systems cannot appropriately address all clinical situations.
+- **Specific request:** Ensure changes do not create overreliance on AI decision-making tools; require accessible escalation pathways like peer-to-peer reviews when automated systems cannot appropriately respond to clinical situations.
+
+**Topic 3: Reporting Metrics and PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** ASH supports 72-hour standard and 24-hour expedited timeframes but notes that certain hematologic conditions (aggressive leukemias, lymphomas, urgent bleeding/clotting, transplant issues, discharge-related needs) require decisions in less than 24 hours. Timeframes should operate 24/7.
+- **Specific request:** Require plans to develop electronic pathways with flexibility or exceptions for clearly urgent clinical circumstances; work toward real-time approval/denial decisions; strengthen appeal timeliness requirements; require timely escalation to qualified clinical reviewers; provide transparency regarding appeal outcomes.
+
+**Topic 4: Public Reporting and Transparency**
+- **Provision ID:** PA-DENIAL-REASONS, GENERAL
+- **Position:** Support
+- **Rationale:** Public reporting of PA metrics (approval rates, denial rates, appeal outcomes, turnaround times) improves accountability and identifies access barriers. Same-day approvals and approvals within 24 hours would be particularly meaningful metrics.
+- **Specific request:** Include timeliness measures such as same-day approvals in public reporting metrics.
+
+**Topic 5: Step Therapy (RFI)**
+- **Provision ID:** GENERAL
+- **Position:** Oppose (generally) / Support (with conditions for improved interoperability)
+- **Rationale:** ASH does not support step therapy for hematologic treatments given the complex and sensitive nature of hematologic conditions; prefers its elimination. If step therapy is used, interoperability processes should make it more consistent, with portability of prior treatment history across plans to prevent treatment disruption. Patients should not retry previously ineffective or harmful therapies, and providers must have autonomy to "skip a step."
+- **Specific request:** Require consistent documentation requirements across payers; ensure portability of treatment history across plans; preserve physician autonomy to make clinically appropriate decisions including skipping steps when prior treatment history supports it.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12 (PA-DRUG-MEDICAL - technical challenges):** ASH notes continued reliance on fax, phone, and payer-specific portals; urges standardization of clinical data elements as prerequisite for meaningful interoperability.
+- **S20 (PA-TIMEFRAMES-DRUGS - 24-hour achievable):** Supports 72-hour standard and 24-hour expedited timeframes but requests additional flexibility or exceptions for urgent hematologic clinical circumstances that may require less than 24 hours; advocates for real-time decision pathways.
+- **S43 (PA-TIMEFRAMES-DRUGS - align timeframes):** Urges 24/7 operation of PA timelines and work toward real-time decisions.
+- **S16/S17 (PA-DENIAL-REASONS):** Implicitly addressed through support for transparency and appeal process reform; recommends timely escalation to qualified clinical reviewers.
+- **S66-S82 (GENERAL RFIs - step therapy):** Responds to the step therapy RFI opposing step therapy for hematologic conditions generally while supporting improved interoperability for portability of treatment history; emphasizes physician autonomy to skip steps for clinically inappropriate protocols.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Standardize core clinical data elements for drug PA requests across plans (diagnoses, biomarker/lab results, prior treatment history and therapy failures, contraindications, adverse reactions).
+2. Establish guardrails to prevent plans from using electronic submission as a basis for requesting additional documentation beyond what is reasonably necessary.
+3. Ensure changes do not create overreliance on AI decision-making tools; preserve human clinical review especially for complex, rare, or off-label cases.
+4. Require accessible peer-to-peer review escalation pathways when automated systems cannot appropriately address clinical situations.
+5. Require PA timelines to operate on a true 24/7 basis.
+6. Develop electronic pathways with flexibility or exceptions for urgent clinical circumstances requiring less than 24-hour decisions.
+7. Work with plans and EHR vendors toward real-time approval/denial decisions.
+8. Strengthen requirements for appeal timeliness and timely escalation to qualified clinical reviewers.
+9. Require transparency regarding appeal outcomes in public reporting.
+10. Include timeliness measures (same-day approvals, within-24-hour approvals) in public PA metrics reporting.
+11. For step therapy: require consistent documentation requirements across payers; ensure portability of prior treatment history across plans; preserve physician autonomy to skip steps based on prior treatment failures or clinical appropriateness.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** ePA for drugs may only shift administrative burden rather than meaningfully reduce it if documentation requirements are not standardized across plans; plans may use electronic submissions as delay tactics by requesting unnecessary additional documentation; AI overreliance may harm complex hematologic patients requiring nuanced clinical judgment.
+- **Potential negative impacts cited:** Unnecessary documentation requests creating care delays and adverse patient outcomes; automated systems inadequate for complex hematologic cases, off-label therapies, rare diseases, and genomic-driven treatments; appeals process creating longest care delays.
+- **Implementation barriers mentioned:** Payer/plan-specific forms, submission requirements, and documentation standards vary; lack of standardization of core clinical data elements across plans; inadequate escalation pathways for urgent cases.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None cited with specific numbers beyond organizational membership (18,000+ clinicians and scientists).
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Aggressive leukemias/lymphomas, urgent bleeding or clotting complications, transplant-related issues, discharge-related treatment needs as clinical scenarios requiring sub-24-hour PA decisions; step therapy failures when patients change health plans or electronic records fail to capture prior treatment history.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hematologists and oncologists, patients with hematologic malignancies and non-malignant blood disorders, health plans, EHR vendors, CMS.
+- **Economic implications:** Standardized ePA has potential to reduce administrative and financial burden for physicians, practices, and health systems; without standardization, ePA shifts rather than reduces burden.
+- **Technical feasibility:** ASH does not directly assess technical feasibility of FHIR or NCPDP standards; focuses on policy outcomes (standardization, guardrails, AI oversight) rather than technical implementation details.
+- **Patient care impact:** High concern for hematologic patients requiring urgent treatment decisions; delays in PA for leukemia, lymphoma, bleeding/clotting disorders, transplant care have serious health consequences; step therapy forcing retry of ineffective/toxic therapies creates treatment disruption and clinical harm.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with significant modifications and conditions)
+- **Tone:** Professional, Clinical, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "ASH cautions that this change may only shift the burden of prior authorization rather than meaningfully reducing it unless there is greater consistency of documentation requirements across plans." - Context: Conditional support for ePA, warning about burden-shifting rather than burden-reduction.
+
+2. "AI tools should support and not replace the clinical judgment of providers. Human review remains especially important for complex hematologic cases, the use of off-label therapies, treating rare diseases, when using genomic-driven treatments, and other circumstances that may not fit neatly within standardized criteria." - Context: Concerns about AI overreliance in automated PA decision-making.
+
+3. "Patients should not be required to retry therapies that were previously ineffective, poorly tolerated, highly toxic, or clinically inappropriate simply because they changed health plans, or when the electronic record failed to capture data of previously tried and failed therapies." - Context: Step therapy RFI, arguing for physician autonomy and treatment history portability.
+
+4. "Real-time decisions, while the patient and provider are in the same room, will increase shared decision-making, improve patient care, and improve timely access to needed therapies and drugs." - Context: Advocating for real-time PA as the aspirational goal.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports proposed 72-hour/24-hour timeframes but requests sub-24-hour exceptions for urgent hematologic cases and advocates for real-time PA as the longer-term goal.
+- [x] **COST-RESOURCES** - Notes ePA shifts rather than reduces administrative and financial burden unless documentation requirements are standardized across plans.
+- [x] **PROVIDER-BURDEN** - Central concern: current fax/phone/portal workflow creates administrative burden; ePA must standardize data elements to genuinely reduce burden rather than shift it.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Implicit in concern for timely access to hematologic therapies and prevention of care delays for seriously ill patients.
+- [ ] **TECHNICAL-FEASIBILITY** - Not directly addressed; comment focuses on clinical and policy concerns rather than technical implementation.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - Central concern: timely access to hematologic drugs and therapies; sub-24-hour urgency for leukemia, lymphoma, clotting disorders, transplant care; real-time decisions improve shared decision-making.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends CMS work with plans and EHR vendors toward real-time PA decisions; emphasizes need for coordination to standardize documentation requirements.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [x] **TRANSPARENCY** - Supports public reporting of PA metrics including approval rates, denial rates, appeal outcomes, turnaround times, and timeliness measures.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Addresses current reliance on fax, phone, and payer-specific portals; urges standardization of data elements and step therapy documentation across plans.
+- [ ] **VENDOR-ECOSYSTEM** - Not directly addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P)
+
+Dear Dr. Oz:
+
+On behalf of the American Society of Hematology (ASH), thank you for the opportunity
+to submit comments on the Interoperability Standards and Prior Authorization for
+Drugs proposed rule. We support the Centers for Medicare & Medicaid Services' (CMS)
+and the Office of the National Coordinator for Health Information Technology efforts
+to update and propose policies that streamline the use of prior authorization for drugs,
+and non-drug items and services in plans administered by the Agency...

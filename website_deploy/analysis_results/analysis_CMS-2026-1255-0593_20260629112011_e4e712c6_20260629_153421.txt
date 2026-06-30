@@ -1,0 +1,141 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0593
+Commenter: New Hampshire Hospital Association (NHHA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:34:21
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** New Hampshire Hospital Association (NHHA); signed by Steve Ahnen, President.
+- **Stakeholder type:** Professional Association / healthcare provider association.
+- **Credentials or expertise mentioned:** NHHA represents New Hampshire hospitals and health systems. The letter identifies Christian Ramsey, Director of Financial Policy & Reimbursement, as the contact.
+
+## 2. EXECUTIVE SUMMARY
+
+NHHA strongly supports CMS’s proposals to expand electronic prior authorization for drugs, improve denial communications, align decision timeframes, and increase transparency, particularly for hospital-administered medical benefit drugs. It urges CMS to strengthen denial specificity, require meaningful reporting and usability, pair technical standards with operational oversight, and ensure payer APIs reduce manual workarounds rather than merely achieving nominal conformance.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL/RFI direct data entry and workflow concerns.
+- **Regulatory citations mentioned:** CMS-0062-P; reference to the 2024 Interoperability and Prior Authorization final rule. Specific CFR citations are not central to the comment.
+- **Standards referenced:** FHIR-based APIs; NCPDP standards; implementation guides; API endpoint reporting; usage metrics; prior authorization API; EHR/vendor workflows; conformance testing.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend ePA requirements to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support.
+- **Rationale:** Hospitals face delays for physician-administered drugs, infusion therapies, oncology treatments, specialty pharmaceuticals, and other medically necessary services. Manual portals, faxes, phone calls, and duplicative documentation divert clinical staff from patient care.
+- **Specific request:** Finalize ePA requirements for drugs and ensure implementation aligns with clinical workflows, especially for complex and time-sensitive medical benefit therapies.
+
+**Topic 2: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with stronger standard.
+- **Rationale:** Vague denials such as “not medically necessary” do not identify coverage criteria, missing documentation, or clinical reasons, preventing efficient correction, appeal, or patient counseling.
+- **Specific request:** Require denial notices to identify the basis for the decision, missing documentation or clinical information, and steps needed for resubmission or appeal.
+
+**Topic 3: Decision timeframes and continuity of care**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with future strengthening.
+- **Rationale:** Consistent response expectations reduce administrative burden, but urgent therapies and stable ongoing regimens may need shorter turnaround and protection from repeated reauthorization disruptions.
+- **Specific request:** Continue exploring shorter timeframes for clinically urgent therapies and for ongoing treatment where patients are stable.
+
+**Topic 4: Prior authorization metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Support with more granular reporting.
+- **Rationale:** Numeric counts and public metrics can reveal payers creating unnecessary barriers, but aggregate reporting can obscure delays and denials.
+- **Specific request:** Require consistent definitions, easy-to-find public posting, distinctions between standard/expedited requests, initial denials, appeals, extended reviews, and eventually service-level or drug-level reporting. Consider a centralized CMS platform.
+
+**Topic 5: API endpoint reporting and usability oversight**
+- **Provision ID:** API-ENDPOINT-REPORTING; FHIR-IG-REQUIRED
+- **Position:** Support with operational safeguards.
+- **Rationale:** Consistent technical requirements can reduce custom interfaces, but payers may technically comply while maintaining burdensome workflows or incomplete data exchange.
+- **Specific request:** Pair technical standards with oversight of API functionality, reliability, testing, fallback expectations, provider-facing usability, transparency into testing results, and clear distinction between technical conformance and operational usability.
+
+**Topic 6: Standards transitions and HIPAA modernization**
+- **Provision ID:** HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE
+- **Position:** Support with staged implementation.
+- **Rationale:** Standards modernization can support administrative simplification, but transitions must avoid disruption and protect provider workflows.
+- **Specific request:** Coordinate CMS/ONC timelines, conformance expectations, and version transitions; ensure standards are mature, tested, and usable at scale.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3, S18, S32, S37 (FHIR IGs and implementation):** NHHA supports updated FHIR-based standards and required implementation guides but asks CMS to require robust conformance testing, practical usability, and fallback processes.
+- **S12, S15, S21, S28 (medical benefit drugs):** NHHA strongly supports including medical benefit drugs, especially chemotherapy, immunotherapy, biologics, infusions, and provider-administered specialty drugs.
+- **S14, S19, S22, S25, S31 (pharmacy benefit drugs):** NHHA supports automated exchanges for pharmacy benefits but focuses more heavily on medical benefit drug workflows.
+- **S16-S17 (denial reasons):** Strong response; require specific denial rationales with missing information and appeal/resubmission steps.
+- **S20, S43 (timeframes):** Supports alignment and shortening while encouraging future reductions for urgent and continuing therapies.
+- **S23-S24, S26-S27, S33 (API endpoint reporting):** Supports payer endpoint reporting and standardized publication.
+- **S29-S30, S34-S35 (metrics):** Supports expanded PA metrics and requests more granularity, consistency, public accessibility, and centralized reporting.
+- **S44-S56 (HIPAA PA standards):** Supports modernization if phased and operationally practical.
+- **S60-S65 (ONC updates):** Supports updated standards with coordinated transitions and attention to implementation readiness.
+- **Other solicitations:** State extension, FF-SHOP exceptions, Open Payments CMP, and lab/DMEPOS RFIs are not central to this comment.
+
+## 6. THEMES
+
+- PROVIDER-BURDEN
+- PATIENT-ACCESS
+- EXISTING-WORKFLOWS
+- TECHNICAL-FEASIBILITY
+- TRANSPARENCY
+- STANDARDS-MATURITY
+- API-ENDPOINT-REPORTING
+- API-USAGE-METRICS
+- VENDOR-ECOSYSTEM
+- IMPLEMENTATION-TIMELINE
+
+## 7. POTENTIAL CMS ACTION ITEMS
+
+1. Finalize drug ePA requirements with hospital workflow-specific implementation guidance.
+2. Define a stronger denial specificity standard.
+3. Require drug- or service-level PA metrics and make reporting easier to locate and compare.
+4. Require conformance testing, public testing transparency, and provider-facing usability validation for payer APIs.
+5. Establish fallback expectations for API failures.
+6. Coordinate standards version transitions across CMS, ONC, payers, EHR vendors, and intermediaries.
+
+## 8. NOTABLE QUOTES / EVIDENCE
+
+- NHHA cites AMA survey findings that 95% of physicians reported PA delays necessary care and 79% said PA can lead to treatment abandonment.
+- NHHA emphasizes that APIs that technically meet a standard but do not return actionable information or reduce manual workarounds will not achieve the rule’s goals.
+
+## 9. OVERALL ASSESSMENT
+
+NHHA is a provider-association support-with-modifications comment. Its strongest value is operational: denial specificity, medical benefit drug workflows, real-world usability, conformance testing, reporting granularity, and safeguards against nominal API compliance.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+125 Airport Road ■ Concord, NH 03301-7300 ■ 603.225.0900 ■ Fax: 603.225.4346 ■ http://www.nhha.org 
+ 
+June 15, 2026 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+Re: CMS-0062-P; Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children’s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges 
+ 
+Dear Administrator Oz, 
+On behalf of the New Hampshire Hospital Association (NHHA), we appreciate the opportunity to 
+comment on CMS’ proposed rule to improve interoperability and streamline prior authorization 
+for drugs. NHHA strongly supports policies that reduce administrative burden, enhance patient 
+access to medically necessary care and create more transparent, predictable payor processes. 
+We appreciate CMS’ continued work to build on the 2020 interoperability framework and the 
+2024 prior authorization final rule by extending many of those requirements to drugs and 
+proposing updated standards for the electronic exchange of prior authorization information. 
+New Hampshire’s hospitals and health systems experience the effects of fragmented prior 
+authorization processes every day. Delays in approvals for physician-administered drugs, 
+infusion therapies, oncology treatments, specialty pharmaceuticals and other medically 
+necessary services can postpone care, increase staffing burdens, create confusion for patients 
+and contribute to avoidable utilization elsewhere in the system. For that reason, we welcome 
+proposals that would expand electronic prior authorization for drugs, improve denial 
+communications, align decision timeframes more closely across programs and increase public 
+accountability for payor prior authorizati...

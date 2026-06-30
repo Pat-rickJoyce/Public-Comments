@@ -1,0 +1,196 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0494
+Commenter: American Academy of Pediatrics (AAP)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:33:01
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Pediatrics (AAP), signed by President Andrew D. Racine, MD, PhD, FAAP
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** Organization of 67,000+ primary care pediatricians, pediatric medical subspecialists, and pediatric surgical specialists; substantial expertise in Medicaid/CHIP policy affecting children
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+AAP generally supports the proposed rule's goals of streamlining prior authorization and advancing interoperability, citing significant provider burden and patient care delays from the current PA system. The AAP raises concerns about limited scope (PBMs, non-covered payers), implementation timeline adequacy, and the need for PA timeframes that operate outside business hours. The Academy specifically advocates for pediatric-centered protections including alignment with EPSDT requirements and protections against step therapy delays for children.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, FHIR-IG-REQUIRED, GENERAL
+- **Regulatory citations mentioned:** 42 U.S. Code § 1396r-8 (Medicaid drug PA timeframes); EPSDT benefit provisions; CMS EPSDT Coverage Guide (May 2026)
+- **Standards referenced:** NCPDP SCRIPT, Formulary & Benefit (F&B), Real-Time Prescription Benefit (RTPB); FHIR Prior Authorization API; Patient Access API; Provider Access API; Payer-to-Payer API
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Support for ePA Standards for Pharmacy and Medical Benefit Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** NCPDP SCRIPT, F&B, and RTPB standards have strong potential to improve real-time provider access to formulary information at point of prescribing, reducing PA burden. Expansion of the Prior Authorization API to medical benefit drugs is also supported.
+- **Specific request:** CMS should consider applying NCPDP standards to EHR criteria to ensure complete integration into prescribing workflows; also extend ePA requirements to PBMs.
+
+**Topic 2: PBM Inclusion**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Many payers rely on PBMs to manage PAs; without requiring PBMs to comply, the rule's improvements will have minimal impact.
+- **Specific request:** Ensure ePA proposals apply to PBMs since they manage PAs on behalf of payers.
+
+**Topic 3: Universal Applicability to All Payer Types**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Limiting drug PA changes to only certain payer types creates inequitable outcomes where some patients receive more timely care based on insurer type.
+- **Specific request:** Apply drug PA changes to all payer types to increase standardization and reduce inequity.
+
+**Topic 4: Implementation Timeline**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Short timeframes often lead to minimal viable product solutions that don't get integrated into real clinical workflows.
+- **Specific request:** Extend or strategically phase in the compliance timeline to allow for real-world testing, IT/EHR system updates, and practical integration.
+
+**Topic 5: PA Decision Timeframes — No Business Hour Restrictions**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Patients need care on nights, weekends, and holidays; PA timeframes measured in business hours create arbitrary delays. EPSDT specifically requires 24-hour response for urgent outpatient prescription drugs.
+- **Specific request:** Turnaround time requirements must not be limited to business days or hours; align with existing EPSDT 24-hour urgent processing requirements.
+
+**Topic 6: Denial Reasons — Standardized Format**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Lack of transparency around denial reasons is a top frustration for pediatricians; standardized notification would maximize utility.
+- **Specific request:** CMS should provide a standardized notification process and format for PA denial reasons.
+
+**Topic 7: API Transparency for PA Information**
+- **Provision ID:** PA-DENIAL-REASONS, PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Making PA status, approval/denial dates, authorized drugs/dosages, denial reasons, and provider documentation available through Patient Access and Provider Access APIs reduces confusion.
+- **Specific request:** Not stated beyond support.
+
+**Topic 8: Electronic Event Notifications**
+- **Provision ID:** GENERAL
+- **Position:** Modify / Clarify
+- **Rationale:** Existing EHR interoperability limitations make current event notifications difficult to route to the correct provider.
+- **Specific request:** Add primary/admitting diagnosis, estimated discharge date, and inpatient care team contact to notifications; optimize provider notification before broadening recipients.
+
+**Topic 9: Cybersecurity / Resiliency**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Every new EHR connection increases cybersecurity risk; small practices face high insurance costs and limited resources.
+- **Specific request:** Evaluate new/modified health IT requirements in light of smaller practice resource constraints.
+
+**Topic 10: Step Therapy**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Step therapy creates disproportionate barriers for pediatric patients due to frequent dosage/medication changes as children develop; can delay hospital discharge unnecessarily.
+- **Specific request:** PA data sharing should support documentation of step therapy history; any policy to honor prior payer determinations must include clear documentation standards.
+
+**Topic 11: Lab Tests and DMEPOS PA**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** PA delays for lab tests and DMEPOS cause missed diagnoses, unnecessary hospital stays, and harm to pediatric patients; weekend/holiday delays are particularly problematic.
+- **Specific request:** Address PA processes for lab/DMEPOS, particularly non-business-hours processing.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S14 (non-Part D pharmacy PA applicability):** AAP supports applying NCPDP SCRIPT/F&B/RTPB standards to Medicaid/CHIP FFS, managed care, and QHP issuers; calls for extension to PBMs.
+- **S20 (24-hour PA timeframe achievability):** AAP strongly supports 24-hour urgent processing aligned with EPSDT; urges timeframes not be limited to business hours.
+- **S16 (what is a specific denial reason):** AAP recommends a standardized notification process and format for denial reasons to maximize utility.
+- **S43 (align timeframes):** AAP highlights EPSDT as a guiding framework for child-specific PA timeframes.
+- **S21 (is timeline achievable):** AAP urges CMS to extend or phase the compliance timeline given clinical workflow integration challenges.
+- **S66 (electronic event notifications):** AAP recommends adding primary/admitting diagnosis, estimated discharge date, and inpatient team contact; optimize provider routing first.
+- **S67 (resiliency/cybersecurity):** AAP flags cybersecurity risk and resource burden for smaller practices.
+- **S68 (step therapy):** AAP highlights pediatric-specific step therapy burdens; supports PA data sharing for step therapy history documentation.
+- **S71 (lab/DMEPOS PA):** AAP describes specific harms from PA delays for lab tests and DMEPOS in pediatric settings, including weekend/holiday discharge delays.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Apply ePA proposals to PBMs since many payers delegate PA management to them.
+2. Apply drug PA changes to all payer types to achieve standardization and health equity.
+3. Consider applying NCPDP SCRIPT/F&B/RTPB standards to EHR criteria to integrate formulary information into prescribing workflows.
+4. Extend or strategically phase in the compliance timeline to allow real-world testing and IT/EHR system integration.
+5. Require PA turnaround timeframes without regard to business days or hours, including nights, weekends, and holidays.
+6. Align urgent PA timeframes with existing EPSDT 24-hour requirements.
+7. Provide a standardized notification process and format for PA denial reasons.
+8. Add primary/admitting diagnosis, estimated discharge date, and inpatient care team contact to electronic event notifications.
+9. Optimize provider notification routing before broadening to additional event notification recipients.
+10. Evaluate new health IT requirements in the context of smaller practice cybersecurity resource constraints.
+11. Ensure PA data sharing supports documentation of step therapy history with clear documentation standards.
+12. Address PA processing for lab tests and DMEPOS, particularly weekend/holiday delays.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PBMs outside the rule's scope will limit impact; short compliance timelines lead to minimal viable products not integrated into clinical workflows; PA timeframes limited to business hours harm patients needing urgent care; pediatric patients face disproportionate PA burdens.
+- **Potential negative impacts cited:** Pharmacy systems auto-submitting unnecessary PA requests; interoperability requirements adding to administrative burden if not carefully implemented; cybersecurity risk to smaller practices from increased EHR connections.
+- **Implementation barriers mentioned:** Limited internet connectivity in some areas causing EHR performance issues; lack of EHR-to-EHR interoperability hampering event notification routing; inadequate timeline for real-world testing.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 79% of providers report PA process issues lead to treatment abandonment (2025 AMA provider survey); 95% report PA causes care delays; physicians spend 13 hours/week on PA tasks; 40% of physicians have dedicated PA staff.
+- **Studies or research referenced:** Cook SC, Desmarais AG, Berry JG. "Room to Improve Prior Authorization in Children with Complex Medical Needs." Pediatrics March 2022; 149(3): e2021054843.
+- **Examples provided:** Pediatric patients remaining in hospital days awaiting PA for rehabilitation, anticoagulants, or oxygen; weekend/holiday discharge delays from DMEPOS PA; pharmacy systems auto-submitting unnecessary PA requests.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Children enrolled in Medicaid/CHIP; primary care pediatricians and their staff; small/independent practices; PBMs; inpatient and outpatient care teams
+- **Economic implications:** Unnecessary hospital days due to DMEPOS PA delays represent significant costs; PA administrative burden costs physicians 13 hours/week
+- **Technical feasibility:** Concerns about EHR integration, internet connectivity gaps, cybersecurity burden for small practices, and inadequate event notification routing
+- **Patient care impact:** High — PA delays cause treatment abandonment, life-threatening delays, missed diagnoses, and unnecessary hospital stays, disproportionately affecting children with complex needs
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with significant modifications requested)
+- **Tone:** Professional, collaborative, evidence-based
+- **Priority level:** High (pediatric patient care impact; broad scope of recommendations)
+
+---
+
+## 11. KEY QUOTES
+
+1. "PA is consistently identified as one of the largest sources of administrative burden that impedes timely access to needed care for children enrolled in Medicaid and the Children's Health Insurance Program (CHIP)." — Context: Framing the pediatric impact of PA burden.
+
+2. "These efforts will have minimal impact if not universally accepted and followed by all payers and all parts of the electronic prior authorization (ePA) process." — Context: Calling for inclusion of PBMs and all payer types.
+
+3. "Any turnaround time requirements must be made without regard to 'business' days or hours; patients need care on nights, weekends, and holidays and their health should not be subject to arbitrary delays." — Context: Recommending 24/7 PA timeframes.
+
+4. "Short timeframes often lead to 'minimal viable product' solutions with the intention to go back and improve and implement those solutions into real clinical workflows. However, in practice, this does not often happen." — Context: Arguing for extended compliance timeline.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — AAP urges extension or phased compliance timeline to allow real-world testing and clinical workflow integration; warns against minimal viable product implementations.
+- [x] **PROVIDER-BURDEN** — Extensively documented: 13 hours/week on PA, 40% with dedicated PA staff, treatment abandonment; pediatric practices disproportionately affected.
+- [x] **PATIENT-ACCESS** — Central concern: PA delays cause life-threatening delays, treatment abandonment, unnecessary hospital stays, and delayed diagnoses, especially for children.
+- [x] **HEALTH-EQUITY** — Recommends applying drug PA changes to all payer types to avoid inequitable outcomes based on insurer type; highlights EPSDT protections for Medicaid children.
+- [x] **TECHNICAL-FEASIBILITY** — Concerns about EHR integration, internet connectivity gaps, cybersecurity burden for small practices, and inadequate event notification routing.
+- [x] **TRANSPARENCY** — Supports PA denial reasons in standardized format; supports API visibility into PA status and documentation.
+- [x] **STANDARDS-MATURITY** — Recommends applying NCPDP standards to EHR criteria for full workflow integration; notes practical implementation gaps.
+- [x] **STAKEHOLDER-COORDINATION** — Calls for PBM inclusion; notes EHR interoperability gaps between inpatient and outpatient settings hamper care coordination.
+- [x] **EXISTING-WORKFLOWS** — Highlights pharmacy systems auto-submitting unnecessary PAs; warns against adding to administrative burden without clinical workflow integration.
+- [x] **PRIVACY-SECURITY** — Cybersecurity risk from increased EHR connections; particular concern for smaller, independent practices.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+On behalf of the American Academy of Pediatrics (AAP), a non-profit professional organization of more than 67,000 primary care pediatricians, pediatric medical subspecialists, and pediatric surgical specialists dedicated to the health, safety and well-being of infants, children, adolescents, and young adults, I write in response to the Notice of Proposed Rulemaking (NPRM) from the Centers for Medicare & Medicaid Services (CMS) related to advancing interoperability and improving prior authorization (PA) processes for prescription drugs.
+
+As noted in the 2025 AMA provider survey, 79 percent of providers report that PA process issues lead to treatment abandonment, while 95 percent reported that process issues led to delays in care. Additionally, physicians and their staff report spending 13 hours a week completing PA-related tasks and 40 percent of physicians have staff dedicated to working on PA. These sentiments are echoed by pediatricians — PA is consistently identified as one of the largest sources of administrative burden that impedes timely access to needed care for children enrolled in Medicaid and the Children's Health Insurance Program (CHIP). Importantly, children with complex and chronic health care needs are at risk for a disproportionate share of PAs to access their medications and medical equipment...
+==================================================

@@ -1,0 +1,157 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0595
+Commenter: Natera
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:34:21
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Natera.
+- **Stakeholder type:** Technology Vendor / diagnostics company / laboratory provider.
+- **Credentials or expertise mentioned:** Natera describes itself as a diagnostics company focused on cell-free DNA and genetic testing, including oncology, women’s health, and organ health testing. The comment provides operational data on molecular testing prior authorization and claims outcomes.
+
+## 2. EXECUTIVE SUMMARY
+
+Natera’s comment responds primarily to the RFI on laboratory testing prior authorization, arguing that laboratory workflows are structurally mismatched with rigid pre-collection authorization rules. It asks CMS to prohibit date-of-service/specimen-collection timing denials, require minimum retrospective authorization windows, allow laboratories to initiate PA, accept test requisition forms as valid documentation when sufficient, limit duplicative PA for tests governed by NCDs/LCDs, and impose transparency/accountability requirements on laboratory benefit managers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI laboratory tests and DMEPOS; PA-TIMEFRAMES-DRUGS by analogy; PA-DENIAL-REASONS by analogy; TRANSPARENCY; EXISTING-WORKFLOWS; API/automation opportunities.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890 (Apr. 14, 2026); Docket No. CMS-0062-P; 42 C.F.R. Sec. 414.510(a) (Medicare Part B laboratory date-of-service policy); Medicare Advantage rules; Medicare NCDs and LCDs.
+- **Standards referenced:** Laboratory prior authorization workflows, test requisition forms, laboratory benefit managers, Medicare coverage criteria, machine-readable publication by LBMs; the comment does not focus on FHIR/NCPDP standards except in the broader context of automation.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Laboratory PA workflow mismatch**
+- **Provision ID:** GENERAL/RFI laboratory testing
+- **Position:** Modify.
+- **Rationale:** Treating providers often order tests and collect specimens before the laboratory has the opportunity to determine payer requirements, gather records, and submit authorization. For reflex, confirmatory, or result-contingent tests, medical necessity may not be knowable until an earlier result exists.
+- **Specific request:** Design PA rules around laboratory medicine workflows and avoid rigid pre-service requirements that are conceptually incompatible with reflex or sequential testing.
+
+**Topic 2: Prohibit date-of-service/specimen timing denials**
+- **Provision ID:** GENERAL/RFI laboratory testing; PATIENT-ACCESS theme
+- **Position:** Modify / strengthen.
+- **Rationale:** Natera presents data showing denial rates sharply increased after two Medicare Advantage payers eliminated or reduced retrospective authorization windows: Payor A denial rate rose from 2.2% to 57.0%; Payor B from 31.8% to 91.6%. Patient-level coverage fell substantially, with roughly four out of five repeat-period patients experiencing reduced coverage.
+- **Specific request:** Prohibit MA, FFE, Medicaid managed care, and CHIP managed care plans from denying coverage/payment solely because authorization was sought after specimen collection when the test was ordered by a treating provider, the lab did not control collection, and the lab acted promptly.
+
+**Topic 3: Establish minimum retrospective authorization windows and prevent repeat specimens**
+- **Provision ID:** GENERAL/RFI laboratory testing
+- **Position:** Modify.
+- **Rationale:** Without retroactive authorization, patients may face repeat blood draws, delayed testing, discarded valid specimens, billing complications, and anxiety, especially in oncology and other time-sensitive contexts.
+- **Specific request:** Require plans to accept and adjudicate retroactive lab PA requests submitted after specimen collection under defined conditions and prohibit requiring a second specimen when a valid specimen is available.
+
+**Topic 4: Post-payment recoupment safeguards**
+- **Provision ID:** GENERAL/RFI laboratory testing; TRANSPARENCY
+- **Position:** Modify.
+- **Rationale:** Payment integrity vendors may recoup paid lab claims months or years later based on alleged authorization or documentation deficiencies, compounding front-end PA harm.
+- **Specific request:** Limit recoupment to circumstances where requirements were clearly disclosed, labs had reasonable opportunity to comply, the recoupment occurs within a defined reasonable period, and standards are not more restrictive than those disclosed at submission.
+
+**Topic 5: Permit laboratories to request prior authorization**
+- **Provision ID:** GENERAL/RFI laboratory testing
+- **Position:** Support / clarify.
+- **Rationale:** Laboratories furnish or intend to furnish the service and may be the entity best positioned to identify the test and submit available documentation. If only ordering clinicians may request PA, workflows break down.
+- **Specific request:** Require impacted payers to accept PA requests from laboratories across impacted programs, consistent with CMS’s recognition in the MA context.
+
+**Topic 6: Accept test requisition forms as valid documentation**
+- **Provision ID:** GENERAL/RFI laboratory testing; PA-DENIAL-REASONS by analogy
+- **Position:** Modify.
+- **Rationale:** TRFs often contain the ordered test, diagnosis codes, clinical indications, provider information, physician attestation, and other criteria-relevant information. Full medical record retrieval may be impossible within payer windows and can turn PA into record chasing. Natera states commercial payer cohorts showed 17.1% and 56.6% denials due to medical-record documentation requirements despite positive coverage policies.
+- **Specific request:** Require payers to accept complete TRFs as valid medical documentation when they contain information necessary to evaluate applicable coverage criteria; if more is needed, payers must identify the missing element with specificity and allow supplementation.
+
+**Topic 7: Limit duplicative PA for NCD/LCD-governed tests**
+- **Provision ID:** GENERAL/RFI laboratory testing
+- **Position:** Modify.
+- **Rationale:** NCDs and LCDs already establish Medicare coverage conditions; duplicative PA for covered codes can impose more restrictive criteria and administrative burden.
+- **Specific request:** Prohibit MA plans from requiring PA for lab tests covered under an applicable NCD or LCD absent a specific program-integrity or utilization-management rationale consistent with MA rules and no more restrictive than traditional Medicare.
+
+**Topic 8: Laboratory benefit manager transparency and accountability**
+- **Provision ID:** GENERAL/RFI laboratory testing; TRANSPARENCY; VENDOR-ECOSYSTEM
+- **Position:** Modify / strengthen.
+- **Rationale:** LBMs act as consequential gatekeepers, but labs often lack visibility into which LBM is involved, what policies apply, and whether plan or LBM is responsible for denials.
+- **Specific request:** Require plans to disclose LBM use and identity; require LBMs to publish PA criteria, documentation requirements, and appeals processes in standardized machine-readable formats; require plan certification that LBM policies comply with program rules; and hold plans accountable for LBM decisions.
+
+**Topic 9: Automation and workforce impact**
+- **Provision ID:** GENERAL/RFI laboratory testing; API/automation opportunities
+- **Position:** Support targeted automation.
+- **Rationale:** PA has become a document-intensive burden-of-proof process that diverts laboratory resources from patient care and innovation.
+- **Specific request:** Improve automation, transparency, and documentation standards while avoiding automation that simply accelerates inappropriate procedural denials.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 / Laboratory and DMEPOS RFI:** Strong and direct response. Natera addresses all six laboratory-specific RFI questions: impact on patient care and provider burden, test requisition forms, after-specimen denials, laboratory benefit managers, automation/process improvement, and workforce impacts.
+- **S16-S17 (denial reasons, by analogy):** Recommends specific identification of missing documentation and meaningful opportunity to supplement rather than procedural denial.
+- **S20/S43 (timeframes, by analogy):** Supports timeframes aligned to laboratory realities, including retrospective windows and prompt adjudication after labs receive specimens/orders/documentation.
+- **S29-S35 (metrics/reporting, by analogy):** Supports transparency around LBM policies and payer practices; the comment provides data showing payment/denial impacts of retrospective-window changes.
+- **Other solicitations:** Drug ePA standards, FHIR IGs, NCPDP standards, endpoint reporting, HIPAA FHIR standards, FF-SHOP exceptions, state extension processes, and Open Payments CMP are not the primary focus.
+
+## 6. THEMES
+
+- PATIENT-ACCESS
+- EXISTING-WORKFLOWS
+- PROVIDER-BURDEN
+- TRANSPARENCY
+- TECHNICAL-FEASIBILITY
+- VENDOR-ECOSYSTEM
+- HEALTH-EQUITY (implicitly through access and serious conditions)
+- REGULATORY-AUTHORITY / MA compliance with Medicare coverage rules
+- COST-RESOURCES
+
+## 7. POTENTIAL CMS ACTION ITEMS
+
+1. Prohibit lab PA denials solely based on specimen collection date or date-of-service timing where medical necessity documentation is supplied.
+2. Establish minimum retrospective authorization windows for laboratory testing.
+3. Prohibit repeat specimen collection when a valid specimen is available and only administrative authorization remains unresolved.
+4. Require impacted payers to accept laboratory-initiated PA requests.
+5. Require acceptance of complete TRFs as valid documentation when they contain criteria-relevant information.
+6. Require specific missing-information notices and reasonable supplementation opportunities.
+7. Limit duplicative PA for NCD/LCD-governed tests absent a justified program-integrity rationale.
+8. Regulate LBM transparency, machine-readable policies, appeals processes, and plan accountability.
+9. Limit post-payment recoupment based on undisclosed or retroactively applied authorization/documentation standards.
+
+## 8. NOTABLE QUOTES / EVIDENCE
+
+- Natera provides controlled before/after data from two MA payers showing denial rates rose to 57.0% and 91.6% after retrospective authorization windows were eliminated or reduced.
+- The comment states that prior authorization approval does not reliably translate into claim payment, creating duplicate burden and post-payment uncertainty.
+- Natera describes an “ontological mismatch” between PA and some lab workflows, especially reflex and result-contingent testing.
+
+## 9. OVERALL ASSESSMENT
+
+Natera provides a detailed RFI response focused on laboratory testing rather than the rule’s core drug ePA provisions. It should be coded as a high-substance laboratory PA workflow comment with strong evidence on retroactive authorization windows, documentation rules, LBM accountability, and patient access harms.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+Re: Request for Information: Laboratory Tests and Durable Medical Equipment, Prosthetics, 
+Orthotics, and Supplies Items, 91 Fed. Reg. 19890 (Apr. 14, 2026); Docket No. CMS-0062-P 
+June 13, 2026 
+ 
+Centers for Medicare & Medicaid Services 
+Centers for Medicare & Medicaid Services Department of Health and Human Services 
+Submitted Electronically via Regulations.gov (CMS-0062-P) 
+ 
+Re: Comment in Response to Request for Information on Laboratory Tests and DMEPOS Items 
+Prior Authorization 
+To Whom It May Concern: 
+Natera appreciates the opportunity to submit comments in response to the above-referenced 
+Request for Information. Natera is a diagnostics company focused on cell-free DNA and genetic 
+testing, including tests used in oncology, women's health, and organ health. Our comments focus 
+on the laboratory testing issues raised by CMS and on practical reforms that would reduce 
+unnecessary prior authorization burden while preserving appropriate program integrity 
+safeguards. 
+Timely access to laboratory testing is central to patient care. Laboratory results frequently inform 
+diagnosis, treatment selection, treatment monitoring, and care-management decisions. For 
+patients with cancer and other serious conditions, delays in obtaining molecular, genetic, or other 
+clinically indicated laboratory test results can delay decisions about targeted therapy, recurrence 
+assessment, disease progression, clinical trial eligibility, or changes in treatment. Prior 
+authorization policies should therefore be designed around the clinical and operational realities 
+of laboratory medicine, not around administrative workflows that laboratories and patients do not 
+control. 
+CMS posed six laboratory-specific questions in Section III.E of the RFI: (1) the overall impact of 
+prior authorization on patient care and provider burden; (2) the consequences of broader 
+acceptance of test requisition forms as valid medical documentation; (3) the frequency and 
+impact of denials when a req...

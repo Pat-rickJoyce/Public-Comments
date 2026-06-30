@@ -1,0 +1,207 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0585_20260629112013_f99bc50d
+Commenter: The Cooperative Exchange, the National Clearinghouse Association
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:32:56
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** The Cooperative Exchange, the National Clearinghouse Association (CE).
+- **Stakeholder type:** Technology Vendor / Clearinghouse industry association.
+- **Credentials or expertise mentioned:** Represents 20 member organizations, over 90% of the clearinghouse industry, more than 1 million provider organizations, more than 7,000 payer connections, 1,000 HIT vendors, and over 6 billion health care transactions annually.
+
+## 2. EXECUTIVE SUMMARY
+
+The Cooperative Exchange supports the goal of electronic prior authorization but urges CMS to recognize clearinghouses as central infrastructure for scalable exchange. CE raises concerns about replacing or redefining existing HIPAA transactions without clear business process boundaries, warns that point-to-point API connections do not scale, recommends preserving the direct data exception, seeks a realistic endpoint directory process, opposes mandatory payer API certification in favor of real-world auditing, and asks for clearer timestamping, conformance tools, and responsibility rules when clearinghouses are involved.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** HIPAA-PA-STANDARDS; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS indirectly through timing/reporting; GENERAL/RFI — health care resiliency and payer API implementation; EXISTING-WORKFLOWS concerns.
+- **Regulatory citations mentioned:** Proposed rule sections II.h.9, II.h.6, II.h.2, II.h.11, II.E, III.B.2, III.C.2.
+- **Standards referenced:** Da Vinci implementation guides, Da Vinci Trebuchet process, CRD, FHIR PAS, X12N TR3 278, X12 270/271 eligibility transaction, HIPAA administrative simplification standards, JSON APIs, FHIR, C-CDA, HETS, CMS National Standards Group audits.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Clearinghouse role in prior authorization**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Clarify
+- **Rationale:** CE says clearinghouses already process PA transactions and are actively working with the Da Vinci Trebuchet process on clearinghouse-to-clearinghouse exchange.
+- **Specific request:** CMS should recognize the current and active role of clearinghouses in PA transactions and consider CE pilot results.
+
+**Topic 2: CRD and eligibility transaction ambiguity**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify / Clarify
+- **Rationale:** CE argues that using CRD within or instead of an eligibility transaction based on query intent creates ambiguity and potential HIPAA administrative simplification violations.
+- **Specific request:** CMS should define a new transaction for provider requests to health plans asking whether PA is required for a specific service, adopt CRD for that transaction, and provide a specific example.
+
+**Topic 3: FHIR PAS for referrals and X12 278 replacement**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Oppose in part / Modify
+- **Rationale:** Clearinghouses process millions of 278 referral transactions successfully, and CE says FHIR transactions have been pilot-tested for prior authorization but not referrals.
+- **Specific request:** Do not replace X12N TR3 278 for referrals; adopt FHIR transactions only for prior authorization.
+
+**Topic 4: Direct data exception**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Oppose elimination
+- **Rationale:** Direct data entry provides redundancy during enrollment, EDI disruption, claim correction, and payment review workflows.
+- **Specific request:** Keep the direct data exception available as an option for providers; permit plans to eliminate it voluntarily but do not require elimination.
+
+**Topic 5: Endpoint directory reporting and scalability**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support with concerns / Modify
+- **Rationale:** CE supports a directory in principle but warns that endpoint data may be hard to maintain accurately because payers often have multiple plan-level and service-specific endpoints and lack a unique payer identifier.
+- **Specific request:** CMS should provide a process for reporting broken or missing endpoints and design any directory hierarchically to accommodate multiple endpoints per payer/plan/function.
+
+**Topic 6: Clearinghouse resiliency and enrollment transitions**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** State Medicaid and CMS Medicare/HETS enrollment processes can impede continuity, and exclusivity/lock-in provisions can hinder rapid clearinghouse transitions during cyber events.
+- **Specific request:** Improve transfer of provider enrollments between TPIDs, restore or address HETS validation support issues, and encourage clearinghouses to avoid exclusivity clauses.
+
+**Topic 7: Point-to-point connection limitations**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** CE argues thousands of providers and plans create a many-to-many scaling problem that FHIR alone does not solve; validation, translation, routing, and network services remain necessary.
+- **Specific request:** CMS should recognize the continued need for clearinghouse/network infrastructure rather than assuming point-to-point APIs can scale nationwide.
+
+**Topic 8: FHIR implementation guide versioning and API conformance**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Multiple FHIR IG versions are challenging, not always backward compatible, and advancing faster than the industry can absorb; APIs are not plug and play.
+- **Specific request:** Coalesce around a single version, give the industry time to adopt, slow the pace of standard changes, and publish testing/conformance information and tools.
+
+**Topic 9: Payer API certification vs auditing**
+- **Provision ID:** GENERAL
+- **Position:** Oppose mandatory certification
+- **Rationale:** CE says certification does not ensure real-world performance, adds costs, advantages large incumbents, and may not work well for complex workflow APIs.
+- **Specific request:** Use real-world auditing similar to CMS NSG HIPAA transaction audits instead of mandatory ONC payer API certification.
+
+**Topic 10: Timestamping and enforcement responsibility**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Clarify
+- **Rationale:** Timing and reporting depend on accurate transaction timestamps and clear allocation of responsibility when both a plan and clearinghouse handle the PA result.
+- **Specific request:** Require timestamping in implementation guides/instructions and clarify compliance responsibility when a health plan transmits a result too late for a clearinghouse to meet timing requirements.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** CE supports required standards only with clear business process boundaries, workable implementation guidance, and recognition of clearinghouse workflows.
+- **S2:** CE says multiple FHIR IG versions are challenging and recommends coalescing around a single version.
+- **S3:** CE asks CMS to give the industry enough time for adoption and avoid rapid, incompatible version transitions.
+- **S23:** CE raises endpoint directory security/operational concerns indirectly by stressing accuracy, timeliness, and broken-link reporting.
+- **S24:** CE recommends endpoint reporting accommodate multiple endpoints per payer, plan, function, and delegated PA partner.
+- **S26:** CE implies endpoint information must be structured hierarchically to be useful.
+- **S27:** CE stresses timeliness and a process for reporting endpoint issues.
+- **S32:** CE discusses CRD ambiguity and recommends defining a distinct PA-required inquiry transaction.
+- **S44:** CE supports FHIR for PA but not as a broad replacement for all adjacent transactions without testing and clarity.
+- **S45:** CE recommends limiting FHIR adoption to prior authorization, not referrals.
+- **S46:** CE asks CMS to preserve existing X12 278 referral workflows and direct data entry options where they work.
+- **S47:** CE recommends more implementation time and slower standards advancement.
+- **S50:** CE warns FHIR IGs and APIs are not plug-and-play and need conformance tools.
+- **S54:** CE opposes mandatory certification and favors real-world auditing and conformance testing tools.
+- **S55:** CE requests enforcement clarification where plans and clearinghouses share PA processing responsibilities.
+- **S66-S82 / Resiliency and payer API RFIs:** CE describes clearinghouse enrollment barriers, point-to-point scaling limits, transition challenges during cyber events, API implementation difficulties, and the relative value of audits over certification.
+
+## 6. RECOMMENDATIONS
+
+1. Recognize clearinghouses' current and active role in PA transactions.
+2. Use CE/Da Vinci Trebuchet pilot results to inform IG updates for clearinghouse-to-clearinghouse exchange.
+3. Define a new transaction for determining whether prior authorization is required for a specific service and adopt CRD for that transaction.
+4. Provide a concrete example of the CRD-based PA-required inquiry transaction.
+5. Do not replace X12N TR3 278 for referrals; limit FHIR adoption to prior authorization where tested.
+6. Preserve the direct data exception as a provider option.
+7. Create a process for reporting broken or missing API endpoints.
+8. Design endpoint reporting to handle multiple endpoints by payer, plan, function, and outsourced service partner.
+9. Address Medicaid and HETS enrollment/validation barriers that limit clearinghouse resiliency.
+10. Encourage clearinghouses to avoid exclusivity clauses and contractual lock-in provisions.
+11. Recognize that clearinghouses/networks are needed for scalable many-to-many exchange even in a FHIR environment.
+12. Coalesce around a single FHIR IG version and allow sufficient adoption time.
+13. Prefer real-world audits over mandatory payer API certification.
+14. Require accurate and consistent transaction timestamping.
+15. Clarify plan vs clearinghouse responsibility for untimely PA results.
+16. Publish information and tools for FHIR testing and conformance.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** CMS under-recognition of clearinghouses; ambiguity between eligibility and PA queries; untested FHIR referral replacement; endpoint directory accuracy; point-to-point scalability; incompatible IG versions; mandatory certification costs; unclear enforcement responsibility.
+- **Potential negative impacts cited:** HIPAA administrative simplification violations, disruption of working referral workflows, provider burden, claims submission failures, higher implementation costs, slower implementation, and reduced business continuity during cyber events.
+- **Implementation barriers mentioned:** Multiple payer endpoints, no unique payer identifier, plan-level and delegated PA processing, state Medicaid and HETS enrollment limitations, companion guide variation, non-backward-compatible IG versions, security implementation burden, exclusivity clauses, and variable API behavior.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CE represents over 90% of the clearinghouse industry, supports over 1 million provider organizations, has more than 7,000 payer connections and 1,000 HIT vendor connections, and processes over 6 billion transactions annually.
+- **Studies or research referenced:** CE references its Da Vinci Trebuchet pilot cohort but does not cite published studies.
+- **Examples provided:** Provider enrollment transfer problems between TPIDs in state Medicaid gateways; HETS validation changes leading providers to be unable to submit claims; payers with multiple plan-level and service-specific PA endpoints; clearinghouses already offering JSON APIs for eligibility and claim status.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clearinghouses, providers, payers, HIT vendors, state Medicaid agencies, CMS Medicare/HETS, patients indirectly, and API technology developers.
+- **Economic implications:** Networked clearinghouse exchange reduces cost and implementation timelines; mandatory certification may increase costs and disadvantage new entrants; point-to-point infrastructure may impose unnecessary scale costs.
+- **Technical feasibility:** CE sees FHIR PA adoption as feasible with clearinghouse participation, pilot testing, version stability, conformance tools, timestamping, and real-world auditing; it views point-to-point-only exchange as technically insufficient at national scale.
+- **Patient care impact:** Indirect but meaningful: failed transactions, enrollment disruptions, or non-scalable APIs can delay administrative processing needed for care and coverage.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Concerned
+- **Tone:** Technical, pragmatic, critical of specific proposals
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Clearinghouses currently process PA transactions today for providers and plans." - Context: CE rebuttal to any implication that clearinghouses do not play a PA role.
+2. "We do not believe that there is a need to replace the X12N TR3 278 for referrals." - Context: Opposition to FHIR replacement for referral transactions.
+3. "The many-to-many problem... does not change simply because we now have FHIR APIs." - Context: Argument that point-to-point APIs do not scale nationally.
+4. "Certification does not mean real-world performance." - Context: Opposition to mandatory payer API certification.
+5. "We recommend that Implementation Guides and instructions assure that all transactions have timestamping requirements." - Context: Timing and enforcement concern.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - CE asks CMS to slow FHIR version changes and give the industry time to adopt.
+- [x] **COST-RESOURCES** - CE warns certification and point-to-point implementation increase costs and burden.
+- [x] **PROVIDER-BURDEN** - Enrollment re-attestation, HETS validation changes, and loss of direct data options increase provider burden.
+- [x] **PRIVACY-SECURITY** - CE discusses cyber-related clearinghouse transitions and API security implementation burdens.
+- [x] **TECHNICAL-FEASIBILITY** - The comment is heavily focused on FHIR, X12, endpoint, conformance, and scalability issues.
+- [x] **STANDARDS-MATURITY** - CE says FHIR IGs have multiple incompatible versions and referrals have not been pilot-tested.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes clearinghouse, payer, provider, vendor, CMS, and SDO coordination.
+- [x] **TRANSPARENCY** - CE recommends endpoint issue reporting, testing tools, and timestamping.
+- [x] **EXISTING-WORKFLOWS** - CE seeks preservation of effective X12 278 referral and direct data workflows.
+- [x] **VENDOR-ECOSYSTEM** - The comment focuses on clearinghouses, HIT vendors, certification impacts, and market effects on new entrants.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 The views expressed herein are a compilation of the views gathered from our member constituents and reflect the directional 
+feedback of the majority of its collective members. CE has synthesized member feedback and the views, opinions, and positions 
+should not be attributed to any single member and an individual member could disagree with all or certain views, opinions, and 
+positions expressed by CE. 
+ 
+ 
+June 15, 2026 
+ 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services, Attention: CMS-0062-P 
+7500 Security Boulevard 
+Baltimore, MD 21244-1850 
+ 
+Submitted electronically at www.regulations.gov 
+ 
+The Cooperative Exchange, the National Clearinghouse Association (CE), composed of 20 member 
+organizations1, representing over 90% of the clearinghouse industry that supports over 1 million provider 
+organizations, through more than 7,000 payor connections and 1,000 Health Information Technology (HIT) 
+Vendors, and processes over 6 billion healthcare transactions annually; represents the U.S. healthcare 
+electronic data interstate highway system enabling connectivity across all lines of healthcare eCommerce 
+in the United States. We are pleased to comment on behalf of the Cooperative Exchange members on the 
+proposed rule CMS-62-P, Medicare and Medicaid Programs: Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, etc. 
+Our members have significant experience in the exchange of health care transactions between and among 
+providers and plans.  We are providing these comments based on our experience and knowledge of health 
+care data exchange and our ability to facilitate that exchange.  Clearinghouses have and will continue to 
+play an important role in the exchange of both administrative and clinical data.    
+ 
+Comments on specific sections: 
+Clearinghouse Role in Prior Authorization 
+Section II.h.9 
+There is a stat...

@@ -1,0 +1,175 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0522
+Commenter: Connecting for Better Health (C4BH)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:25:21
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Connecting for Better Health (C4BH); signed by Timi Leslie, Executive Director.
+- **Stakeholder type:** Advocacy Group / Coalition.
+- **Credentials or expertise mentioned:** Coalition of providers, patient advocates, caregivers, health plans, technology innovators, and community-based organizations focused on health and social data sharing; engaged in implementation work under California's Data Exchange Framework and operates the Community Sandbox.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+C4BH supports CMS's proposals to extend electronic prior authorization to drugs and strengthen transparency requirements. Its substantive input focuses on CMS's RFI on electronic event notifications, urging CMS to move beyond ADT-only notifications, prioritize usability and verifiable care relationships, and support implementation guidance and sandbox testing before broad requirements take effect.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, TRANSPARENCY, FHIR-IG-REQUIRED (FHIR Subscriptions referenced in RFI context).
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** FHIR Subscriptions, California Data Exchange Framework (DxF), event notifications, ADT notifications, national data exchange standards.
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Support for Drug ePA and Transparency**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY / TRANSPARENCY
+- **Position:** Support
+- **Rationale:** Extending electronic prior authorization to drugs and strengthening transparency advances efficient, equitable data exchange and care access.
+- **Specific request:** Finalize meaningful drug ePA and transparency improvements while accounting for implementation complexity and last-mile technical capacity.
+
+**Topic 2: Broaden Event Notifications Beyond ADT**
+- **Provision ID:** GENERAL
+- **Position:** Modify / Clarify
+- **Rationale:** ADT notifications are valuable but do not cover all care coordination needs. High-value events include emergency department visits, care transitions, critical lab results, medication dispensing events, behavioral health encounters, and closed-loop referral completions.
+- **Specific request:** CMS should use a broader event notification concept and solicit implementation-community input on which event types generate the highest care coordination value before broadening requirements.
+
+**Topic 3: Usability and Care Relationship Routing**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Notifications can create burden if they are not actionable or routed correctly. They are most useful when sent to the right recipient based on a verifiable care relationship, including family caregivers with patient consent where appropriate.
+- **Specific request:** CMS should design notification requirements to provide clinical benefit without undue burden and should consider routing based on verifiable care relationships.
+
+**Topic 4: Implementation Guidance and Community Sandbox Model**
+- **Provision ID:** GENERAL / FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Predictable minimum data sets and workflows are needed for consistent implementation. Sandbox testing can validate approaches against standards and reveal participation gaps.
+- **Specific request:** CMS should explore the C4BH Community Sandbox or a similar model to map event notification exchange, test use cases against national standards including FHIR Subscriptions, and store sample workflows and minimum data sets.
+
+**Topic 5: Compliance Timelines and Technical Assistance**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** On-the-ground implementation complexity and last-mile technical capacity gaps may prevent providers and patients from benefiting even when policy requirements are finalized.
+- **Specific request:** CMS should account for operational complexity when finalizing compliance timelines and designing technical assistance and implementation support.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S9:** References FHIR Subscriptions as a standard that should be tested for event notification use cases before requirements take effect.
+- **S37:** Identifies implementation challenges related to last-mile technical capacity, data element predictability, implementation workflows, and participation gaps.
+- **S66/S67:** Directly responds to the event notifications RFI by supporting real-time event notifications for care coordination and recommending expansion beyond ADT to higher-value event types.
+- **S68/S69:** Recommends attention to usability, actionable routing, verifiable care relationships, and implementation-community input before broadening requirements.
+- **S70/S71:** Recommends implementation guidance, minimum data sets, sample workflows, and sandbox validation against national standards to support consistent adoption.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize policies extending electronic prior authorization to drugs and strengthening transparency.
+2. Treat ADT as a foundation but consider a broader event notification framework.
+3. Prioritize high-value event types such as ED visits, care transitions, critical labs, medication dispensing, behavioral health encounters, and closed-loop referral completions.
+4. Ensure notifications are actionable and routed based on verifiable care relationships, including caregivers with patient consent.
+5. Solicit implementation-community input before broadening notification requirements.
+6. Develop implementation guidance specifying data elements for particular event or message types.
+7. Use the C4BH Community Sandbox or a similar model to map current event notification exchange and identify participation gaps.
+8. Test event notification use cases against national standards, including FHIR Subscriptions, before requirements take effect.
+9. Store sample workflows and minimum data sets that organizations can adapt.
+10. Account for implementation complexity in compliance timelines, technical assistance, and implementation support.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Event notification requirements may be too narrow if limited to ADT, or too burdensome if expanded without usability, routing, and implementation guidance.
+- **Potential negative impacts cited:** Undue burden, inconsistent implementation, unresolved participation gaps, and failure of last-mile technical capacity to deliver benefits to providers and patients.
+- **Implementation barriers mentioned:** Lack of standardized data elements by event type, insufficient testing against standards, cross-organizational transparency gaps, and local technical capacity constraints.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None quantified.
+- **Studies or research referenced:** C4BH's 2025 response to the CMS Health Technology Ecosystem RFI; California Data Exchange Framework policies and procedures.
+- **Examples provided:** California DxF's use of the broader term Event Notification; C4BH Community Sandbox validating data sharing approaches; potential use cases including ED visits, care transitions, critical lab results, medication dispensing, behavioral health encounters, and closed-loop referral completions.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Providers, patients, caregivers, health plans, technology innovators, community-based organizations, California DxF participants, and broader care teams.
+- **Economic implications:** The comment does not quantify costs, but states that closed-loop referral completion notifications can reduce administrative burden and improve accountability.
+- **Technical feasibility:** C4BH views event notification expansion as feasible with implementation guidance, sandbox testing, minimum data sets, workflow examples, and technical assistance.
+- **Patient care impact:** Improved notifications can support coordinated whole-person care, smoother transitions, timely response to critical events, caregiver engagement with consent, and fewer lost referrals.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive.
+- **Tone:** Collaborative, implementation-focused, technical.
+- **Priority level:** Medium-High.
+
+---
+
+## 11. KEY QUOTES
+
+1. "Real-time event notifications are one of the highest-value data use cases our coalition has consistently identified." - Context: Supporting CMS's event notification RFI.
+2. "ADT notifications are a valuable foundation, but the care coordination needs of our coalition's stakeholders extend well beyond ADT." - Context: Recommending broader notification event types.
+3. "Event notifications should provide clinical benefit without undue burden." - Context: Emphasizing usability and routing.
+4. "Testing notification use cases against national data exchange standards, including FHIR Subscriptions, before requirements take effect." - Context: Recommending sandbox-supported implementation testing.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - C4BH asks CMS to account for real-world implementation complexity when finalizing compliance timelines.
+- [ ] **COST-RESOURCES** - Not a primary focus, though administrative burden and implementation support are discussed.
+- [x] **PROVIDER-BURDEN** - Usable notifications and closed-loop referrals are framed as ways to reduce administrative burden.
+- [ ] **PRIVACY-SECURITY** - Mentions caregiver notifications with patient consent and verifiable care relationships but does not focus on security architecture.
+- [x] **HEALTH-EQUITY** - C4BH frames data sharing as supporting an efficient and equitable health care system, including CBO participation.
+- [x] **TECHNICAL-FEASIBILITY** - Discusses implementation guidance, data elements, sandbox testing, national standards, and technical assistance.
+- [x] **STANDARDS-MATURITY** - Recommends testing FHIR Subscriptions and event notification workflows before requirements take effect.
+- [ ] **PATIENT-ACCESS** - Indirectly addressed through care coordination rather than drug access specifics.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Central theme; coalition includes providers, plans, patients, caregivers, innovators, and CBOs, and the recommendations focus on cross-organizational data sharing.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [x] **TRANSPARENCY** - Supports transparency requirements and cross-organizational transparency for implementation.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Focuses on event notification, closed-loop referral, and care transition workflows.
+- [x] **VENDOR-ECOSYSTEM** - Technology innovators and sandbox testing are important to the implementation model.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Administrator Mehmet Oz 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health & Human Services 
+200 Independence Avenue SW 
+Washington, DC 20201 
+ 
+June 15, 2026 
+ 
+Dear Administrator Oz: 
+ 
+On behalf of Connecting for Better Health (C4BH), we write in response to the Centers for 
+Medicare & Medicaid Services (CMS) proposed rule "Interoperability Standards and Prior 
+Authorization for Drugs" (CMS-0062-P), published April 14, 2026. C4BH is a coalition of 
+providers, patient advocates, caregivers, health plans, technology innovators, and 
+community-based organizations (CBOs) dedicated to advancing health and social data sharing to 
+improve the health of all Californians and beyond. Our vision is that every care team will have 
+the information and insights they need to make care seamless, high-quality, and affordable. 
+ 
+We are supportive of CMS's proposals to extend electronic prior authorization to drugs and 
+strengthen transparency requirements. We are grateful for the opportunity to respond to the 
+Request for Information on electronic event notifications for value-based care and care 
+coordination, which aligns closely with implementation work we are engaged in on the ground 
+in California....

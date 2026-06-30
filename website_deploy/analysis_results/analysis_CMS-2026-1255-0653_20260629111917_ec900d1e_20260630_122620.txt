@@ -1,0 +1,157 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0653
+Commenter: Susan G. Komen
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:26:20
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Susan G. Komen; signed by Molly Guthrie, Vice President, Policy & Advocacy.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** National breast cancer nonprofit advocating for patients, research, access to care, direct patient support, and information; cites advocacy for people diagnosed with and dying from breast cancer in 2026.
+
+## 2. EXECUTIVE SUMMARY
+
+Susan G. Komen generally supports CMS efforts to modernize and standardize electronic prior authorization for prescription drugs, especially because PA delays can harm breast cancer patients. The organization asks CMS to reduce dual-standard burdens, require faster and more durable PA approvals, increase transparent reporting, and further address step therapy, lab tests, and DMEPOS.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; TRANSPARENCY-related GENERAL; GENERAL/RFIs on step therapy, laboratory tests, and DMEPOS.
+- **Regulatory citations mentioned:** No CFR citations mentioned directly.
+- **Standards referenced:** Electronic prior authorization generally; no specific FHIR IG or NCPDP standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for medical and pharmacy benefit drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support with modification.
+- **Rationale:** Breast cancer treatment often involves drugs under both medical and pharmacy benefits, and sometimes the same drug can be classified differently based on benefit design. Using two standards could preserve burden for patients and providers.
+- **Specific request:** Ensure patients and providers are not left with duplicative paperwork or hurdles that delay care.
+
+**Topic 2: PA decision timeframes and approval duration**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify.
+- **Rationale:** Delays in oncology treatment can worsen outcomes, and repeated PA renewals for long-term treatment can create gaps in therapy.
+- **Specific request:** Require all prescription drug PA responses within 24 hours; require PA approvals to remain valid for the duration of treatment or set limits on repeat PA; require approvals to transfer between payers during transitions.
+
+**Topic 3: PA metrics and transparency**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support with modification.
+- **Rationale:** Reporting request volumes and outcomes can reveal the prevalence and consequences of PA, but aggregate data may obscure effects on cancer patients or people with advanced disease.
+- **Specific request:** Require disaggregated PA metrics and standardized website display so information is findable and readable.
+
+**Topic 4: Step therapy**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify.
+- **Rationale:** Step therapy can conflict with personalized metastatic cancer treatment and can force patients to fail therapies despite time-sensitive disease progression.
+- **Specific request:** Prohibit step therapy for individuals with metastatic cancer diagnoses and consider further rulemaking.
+
+**Topic 5: Laboratory tests and DMEPOS**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Support further action.
+- **Rationale:** Lab testing is central to breast cancer diagnosis and treatment planning, and PA delays can require repeat specimens, delay diagnosis, and add avoidable costs.
+- **Specific request:** Continue reducing PA burdens and delays for laboratory testing and DMEPOS.
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** Komen addresses the medical versus pharmacy benefit distinction, warning that two standards may burden providers and patients because breast cancer drugs can span both benefit categories.
+- **S20/S43:** Komen responds to drug PA timeframes by urging a 24-hour response in all cases and alignment across QHP, Medicaid, and CHIP standards.
+- **S29/S34/S35:** Komen supports PA metrics reporting and asks for disaggregated data and standardized public display to reveal population-specific impacts.
+- **S66-S82:** Komen responds to RFIs on step therapy, laboratory tests, and DMEPOS by urging reduced UM burden, more transparency, and a prohibition on step therapy for metastatic cancer.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for drugs covered under both medical and pharmacy benefits, while minimizing dual-standard workflow burden.
+2. Require prescription drug PA responses within 24 hours for all request types.
+3. Require PA approvals to remain valid for the duration of treatment or limit repeat PA frequency and timing.
+4. Require PA approvals to transfer between payers during transitions to prevent treatment gaps.
+5. Require disaggregated PA metrics and standardized, readable insurer website reporting.
+6. Prohibit step therapy for people with metastatic cancer diagnoses.
+7. Continue rulemaking or policy work to reduce PA delays for laboratory testing and DMEPOS.
+8. Monitor PA implementation, outcomes, inappropriate use, and erroneous denials.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, repeat PA for long-term cancer therapies, dual medical/pharmacy benefit workflows, insufficient transparency, and step therapy for metastatic cancer.
+- **Potential negative impacts cited:** Delayed diagnosis or treatment, avoidable treatment gaps, increased mortality risk, added patient/provider burden, and higher system costs.
+- **Implementation barriers mentioned:** Distinguishing medical versus pharmacy benefit drugs, displaying meaningful metrics, and integrating PA workflows without preserving paperwork burdens.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Komen cites estimated 324,600 U.S. breast cancer diagnoses and 42,670 deaths in 2026; states that nearly all breast cancer deaths are due to metastatic breast cancer.
+- **Studies or research referenced:** Journal of Oncology Practice 2017 study on prior authorization for medications in a breast oncology practice; studies showing a four-week metastatic cancer treatment delay is associated with increased mortality.
+- **Examples provided:** Breast cancer treatment may include drugs under both benefits, multiple concurrent drugs, long-term metastatic breast cancer treatment, and immediate lab orders where PA delays can require a second specimen.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Breast cancer patients and survivors, people with metastatic or advanced cancer, oncology providers, payers, QHP enrollees, Medicaid and CHIP beneficiaries, laboratories, and DMEPOS suppliers.
+- **Economic implications:** PA may increase complexity and costs despite cost-control intent; repeat specimens and delayed care can create unnecessary downstream costs.
+- **Technical feasibility:** Komen does not dispute electronic PA feasibility but flags workflow complexity from multiple standards and benefit classifications.
+- **Patient care impact:** Faster and more durable PA approvals could reduce treatment gaps, while step therapy and lab PA delays can directly harm oncology outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with concerns.
+- **Tone:** Professional, patient-focused, collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Komen is generally supportive of the proposed rule" - Context: Overall position before detailed recommendations.
+2. "Komen urges CMS to require insurers to respond within 24 hours in all cases" - Context: Recommendation on PA timeframes.
+3. "no one living with MBC or any metastatic or advanced cancer should be subject to step therapy" - Context: RFI response on step therapy.
+4. "Electronic modernization and standardization of PA practices could improve the timeliness of coverage decisions" - Context: Conclusion on potential benefits.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment asks for faster decision timeframes and approval continuity across treatment and payer transitions.
+- [x] **COST-RESOURCES** - It argues PA can increase overall care complexity and costs, especially through repeat testing or delayed interventions.
+- [x] **PROVIDER-BURDEN** - It emphasizes paperwork, repeat PA renewals, and workflow burdens on oncology practices.
+- [x] **HEALTH-EQUITY** - It asks for disaggregated reporting to understand impacts on populations such as individuals living with cancer or advanced disease.
+- [x] **TECHNICAL-FEASIBILITY** - It flags operational concerns from using separate standards for medical and pharmacy benefit drugs.
+- [x] **PATIENT-ACCESS** - The central concern is avoiding delays in cancer diagnosis and treatment.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment directly discusses drugs that may cross or vary between benefit categories.
+- [x] **TRANSPARENCY** - It supports metrics reporting and asks for standardized, readable public displays.
+- [x] **EXISTING-WORKFLOWS** - It seeks modernization that avoids preserving burdensome paper or duplicative workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Mehmet Oz, MD 
+Administrator  
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services 
+7500 Security Boulevard  
+Baltimore, MD 21244 
+ 
+Attention: CMS-0062-P 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards 
+and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, 
+State Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Oz,  
+ 
+I am writing on behalf of Susan G. Komen (Komen) to comment on proposals included in the Interoperability 
+Standards and Prior Authorization for Drugs proposed rule, issued by the Department of Health and Human 
+Services (HHS), the Centers for Medicare and Medicaid Services (CMS) and the Office of the National 
+Coordinator for Health Information Technology (ONC).  
+ 
+Komen is the worldâ€™s leading nonprofit breast cancer organization, working to save lives and end breast cancer 
+forever. Komen has an unmatched, comprehensive 360-degree approach to fighting this disease across all 
+fronts and supporting millions of people in the U.S. and in countries worldwide. We advocate for patients, drive 
+research breakthroughs, improve access to high-quality care, offer direct patient support and empower people 
+with trustworthy information. Komen is committed to supporting those affected by breast cancer today, while 
+tirelessly searching for tomorrowâ€™s cures. We advocate on behalf of the estimated 324,600 people in the 
+United States who will be diagnosed with breast cancer and the 42,670 who will die from the disease in 2026 
+alone.  
+ 
+Komen applauds the efforts CMS is taking to streamline and standardize prior authorization (PA) for 
+prescription drugs. Komen was supportive of the agencyâ€™s 2024 CMS In...

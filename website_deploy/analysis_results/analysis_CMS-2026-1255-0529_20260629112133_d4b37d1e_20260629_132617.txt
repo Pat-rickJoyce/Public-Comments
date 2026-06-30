@@ -1,0 +1,159 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0529_20260629112133_d4b37d1e
+Commenter: athenahealth, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:26:17
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** athenahealth, Inc.; signed by Jennifer Michaels, Senior Manager, Government & Regulatory Affairs.
+- **Stakeholder type:** Technology Vendor.
+- **Credentials or expertise mentioned:** athenahealth states it has supported clinicians for more than 29 years, serves nearly one-fifth of the U.S. population, includes more than 170,000 providers, and offers the cloud-based athenaOne EHR, practice management, care coordination, patient engagement, analytics, and revenue cycle platform.
+
+## 2. EXECUTIVE SUMMARY
+
+athenahealth broadly supports CMS's drug prior authorization interoperability proposals, including expansion of the Prior Authorization API to medical benefit drugs, specific denial reasons, standardized decision timeframes, endpoint reporting, and adoption of FHIR as a HIPAA prior authorization standard. Its main modification request is to delay drug-related PA compliance until no earlier than January 1, 2029 so stakeholders can learn from CMS-0057-F implementation and build on a stable foundation.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; HIPAA-PA-STANDARDS; IMPLEMENTATION-TIMELINE/GLOBAL timing considerations.
+- **Regulatory citations mentioned:** No CFR sections cited by number; references CMS-0062-P and CMS-0057-F.
+- **Standards referenced:** FHIR; FHIR APIs; X12N 278; standardized machine-readable denial reason codes/categories; API endpoint and documentation URLs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for drugs under the medical benefit**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** athenahealth says extending the CMS-0057-F prior authorization API framework to medical benefit drugs will create a more consistent PA experience, improve information exchange, support electronic documentation, and reduce operational burden for providers, health IT developers, and payers.
+- **Specific request:** Finalize the expansion while building on existing standards-based infrastructure and implementation experience.
+
+**Topic 2: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Clear denial reasons help providers understand rejections and take resubmission or appeal steps efficiently, reducing delays in care.
+- **Specific request:** Require denial reasons to be communicated consistently across automation channels using standardized, machine-readable codes or categories wherever possible.
+
+**Topic 3: Drug PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Clear maximum wait times create predictable expectations and improve treatment planning and PA experience.
+- **Specific request:** Finalize the 72-hour standard and 24-hour expedited FFE QHP timeframes and the 24-hour prescription drug timeframe for state CHIP FFS programs.
+
+**Topic 4: API endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Centralized publication of payer API endpoints and documentation URLs will improve discoverability and make developer-provider connectivity easier to establish and maintain.
+- **Specific request:** Finalize payer endpoint and documentation URL reporting to CMS for centralized publication.
+
+**Topic 5: FHIR as HIPAA prior authorization standard**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support
+- **Rationale:** athenahealth states that the future of electronic prior authorization is FHIR-based and that adopting FHIR will advance interoperability, modern data exchange, and future PA innovation.
+- **Specific request:** Adopt FHIR as the HIPAA standard for referral certification/authorization and eligibility transactions related to prior authorization, replacing X12N 278 for this context.
+
+**Topic 6: Implementation timeline**
+- **Provision ID:** PA-DRUG-MEDICAL; GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter says the October 1, 2027 date does not give enough time to adopt new drug-related requirements, especially while CMS-0057-F FHIR API implementation is still underway and its provider workflow impacts are not yet fully known.
+- **Specific request:** Establish a compliance date no earlier than January 1, 2029 for drug-related prior authorization requirements.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports using the existing prior authorization API framework for medical benefit drugs and suggests existing infrastructure can simplify adoption.
+- **S16-S17:** Supports specific denial reasons and recommends standardized, machine-readable denial codes or categories.
+- **S20/S43:** Supports maximum decision timeframes, including 72 hours standard and 24 hours expedited for QHP issuers, plus 24 hours for state CHIP FFS prescription drug requests.
+- **S21:** Responds that the October 1, 2027 drug PA timeline is not achievable and recommends January 1, 2029 or later.
+- **S23-S24/S33:** Supports centralized API endpoint and documentation URL reporting to improve connectivity and discoverability.
+- **S44-S47/S50:** Supports FHIR as the HIPAA PA standard and replacing older X12N 278 for relevant prior authorization transactions, while linking implementation timing to industry readiness and CMS-0057-F lessons.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize expansion of the prior authorization API framework to medical benefit drugs.
+2. Require drug denial reasons to be clear, actionable, consistent across automation channels, and machine-readable where possible.
+3. Finalize standardized maximum decision timeframes for QHP issuers and state CHIP FFS prescription drugs.
+4. Require payers to report API endpoints and documentation URLs for centralized CMS publication.
+5. Adopt FHIR as the HIPAA standard for prior authorization-related referral certification/authorization and eligibility transactions.
+6. Set drug-related prior authorization compliance no earlier than January 1, 2029.
+7. Use lessons from CMS-0057-F implementation before expanding requirements to drugs.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** The October 1, 2027 implementation date is too soon; CMS-0057-F infrastructure and provider workflow impacts have not yet matured; denial reasons need standardization.
+- **Potential negative impacts cited:** Premature implementation could reduce the chance that drug PA APIs produce meaningful benefits for providers, payers, and patients.
+- **Implementation barriers mentioned:** Connectivity with payer APIs, resource-intensive integration maintenance, immature real-world CMS-0057-F experience, and lack of standardized machine-readable denial reasons.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** athenahealth states it supports clinicians caring for nearly one-fifth of the U.S. population and more than 170,000 providers.
+- **Studies or research referenced:** None.
+- **Examples provided:** Experience under CMS-0057-F shows that establishing and maintaining payer-health IT developer connectivity can be difficult and resource-intensive.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Providers, patients, payers, QHP issuers, state CHIP FFS programs, health IT developers, API developers, and EHR/practice management vendors.
+- **Economic implications:** The comment implies that standardized APIs, endpoint reporting, and machine-readable denial reasons can reduce administrative burden and integration costs, while rushed timelines may increase implementation expense.
+- **Technical feasibility:** athenahealth considers FHIR-based electronic PA technically appropriate but says the industry needs more time to mature CMS-0057-F infrastructure and apply lessons learned.
+- **Patient care impact:** More efficient PA, transparent denial reasons, and predictable timeframes could reduce treatment delays and improve prescribing workflows.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with timeline concerns
+- **Tone:** Professional, technical, and collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "athenahealth supports CMS's proposal to expand the prior authorization API framework" - Context: Indicates support for PA-DRUG-MEDICAL.
+2. "denial reasons for drugs should be communicated consistently across all automation channels" - Context: Supports standardized machine-readable denial reasons.
+3. "The future of electronic prior authorization is FHIR-based" - Context: Supports HIPAA-PA-STANDARDS.
+4. "compliance date no earlier than January 1, 2029" - Context: States the main requested timeline modification.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - athenahealth requests delaying compliance from October 1, 2027 to no earlier than January 1, 2029.
+- [x] **PROVIDER-BURDEN** - The comment repeatedly frames electronic PA as a way to reduce administrative workload for providers and staff.
+- [x] **TECHNICAL-FEASIBILITY** - It discusses FHIR APIs, endpoint discoverability, connectivity, and implementation readiness.
+- [x] **STANDARDS-MATURITY** - The comment supports FHIR but asks CMS to let CMS-0057-F experience mature before drug PA expansion.
+- [x] **PATIENT-ACCESS** - Faster, more predictable PA and clear denial reasons are tied to avoiding delays in patient care.
+- [x] **STAKEHOLDER-COORDINATION** - The comment highlights implementation across CMS, payers, providers, health IT developers, and other stakeholders.
+- [x] **TRANSPARENCY** - It supports specific denial reasons and centralized publication of payer API endpoints.
+- [x] **EXISTING-WORKFLOWS** - The commenter focuses on provider prescribing workflows, automated routing, follow-up, and integration maintenance.
+- [x] **VENDOR-ECOSYSTEM** - athenahealth writes from the health IT developer perspective and emphasizes API integration and developer readiness.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, M.D. 
+ Administrator 
+ Centers for Medicare & Medicaid Services 
+ U.S. Department of Health and Human Services 
+ 7500 Security Boulevard 
+ Baltimore, MD 21244 
+ 
+Re: CMS-0062-P â€“ Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges 
+ 
+Submitted electronically via regulations.gov 
+athenahealth, Inc. ("athenahealth") appreciates the opportunity to respond to CMS-0062-P, the 
+proposed rule addressing Interoperability Standards and Prior Authorization for Drugs across 
+Medicare Advantage, Medicaid managed care, CHIP, and Qualified Health Plans on the Federally-
+Facilitated Exchanges. 
+For more than 29 years, athenahealth has supported clinicians caring for nearly one-fifth of the U.S. 
+population across ambulatory and hospital settings in all 50 states. Our network includes more than 
+170,000 providers, and our cloud-based athenaOne platform delivers electronic health record, 
+practice management, care coordination, patient engagement, data analytics, and revenue cycle 
+management capabilities that support clinical and operational workflows at scale. This position 
+within the healthcare ecosystem provides us with direct visibility into how prior authorization 
+policies are implemented in practice and where operational friction impacts care delivery. 
+athenahealth's vision is to create a thriving healthcare ecosystem that delivers accessible, high 
+quality, and sustainable healthcare for all. We work towards this vision partially by reducing 
+burdensome administrative tasks for providers so that they can focus on improving patient 
+outcomes. We believe that with t...

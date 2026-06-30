@@ -1,0 +1,174 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0518_20260629112433_7c2e9a2f
+Commenter: American College of Physicians
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:25:05
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American College of Physicians (ACP); signed by Ross Hilliard, MD, FACP, Chair, Medical Informatics Committee.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** ACP describes itself as the largest medical specialty organization and second-largest physician membership society in the United States, representing 163,000 internal medicine physicians, subspecialists, and trainees. The comment cites ACP policy work on utilization management, interoperability, artificial intelligence, Medicare Advantage oversight, electronic prior authorization, and automated decision-making.
+
+## 2. EXECUTIVE SUMMARY
+
+ACP supports CMS's overall effort to expand electronic prior authorization for drugs, increase interoperability, and improve transparency, but urges CMS to ensure implementation reduces physician burden rather than digitizing existing inefficient processes. ACP recommends workflow-integrated EHR functionality, convergence between FHIR and NCPDP processes, stronger denial transparency, public performance reporting, support for small practices, reduction in unnecessary prior authorization volume, and safeguards for AI and automated decision-making.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; GENERAL.
+- **Regulatory citations mentioned:** No specific CFR sections cited. The rule title and RIN 0938-AV44 are cited.
+- **Standards referenced:** FHIR; NCPDP SCRIPT; NCPDP Real-Time Prescription Benefit (RTPB/RTB); APIs; EHR workflow integration.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support with modification.
+- **Rationale:** Electronic prior authorization could reduce administrative burden and improve efficiency only if it is integrated into physician workflows, supports real-time information exchange, and avoids duplicative portals and manual re-entry.
+- **Specific request:** CMS should require implementation that integrates with EHR workflows, uses existing clinical data, and avoids shifting paper burdens into electronic platforms.
+
+**Topic 2: Standards Alignment and Convergence**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Support with modification.
+- **Rationale:** ACP views FHIR as the most promising long-term prior authorization framework, while recognizing NCPDP standards remain important for pharmacy benefit workflows. Maintaining multiple frameworks indefinitely may fragment physician workflows.
+- **Specific request:** CMS should articulate a roadmap toward greater alignment and convergence across medical and pharmacy benefit prior authorization processes.
+
+**Topic 3: Denial Transparency and Coverage Criteria**
+- **Provision ID:** PA-DENIAL-REASONS; TRANSPARENCY
+- **Position:** Support with modification.
+- **Rationale:** Physicians often receive denial notices that do not explain the basis for the determination or how to obtain coverage.
+- **Specific request:** Denials should include coverage criteria, clinical rationale, appeal/reconsideration instructions, missing information, standardized denial reason codes, and machine-readable explanations. Coverage requirements should be accessible before submission.
+
+**Topic 4: Timeliness and Real-Time Determinations**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modification.
+- **Rationale:** Delays can cause treatment interruptions, disease progression, complications, and patient anxiety.
+- **Specific request:** CMS should continue evaluating whether decision timelines reflect clinical urgency and should move toward expedited or real-time determinations as electronic capabilities mature.
+
+**Topic 5: API Infrastructure and Reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS
+- **Position:** Support with modification.
+- **Rationale:** Centralized interoperability infrastructure and standardized APIs could reduce fragmentation, but API data must be reliable, actionable, and workflow-integrated.
+- **Specific request:** CMS should publish standardized performance metrics, including approval and denial rates, average time to determination, appeal rates, overturn rates, and requests for additional information.
+
+**Topic 6: Reducing Prior Authorization Volume**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Automating prior authorization does not address physician burden if excessive low-value requirements remain.
+- **Specific request:** CMS should explore gold carding, exemptions for high-performing physicians/practices, and elimination of PA requirements for routinely approved drugs and services with limited demonstrated value.
+
+**Topic 7: Oversight of AI and Automated Decision-Making**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** AI and automation may improve efficiency but raise concerns about transparency, accountability, bias, patient safety, and replacement of clinical judgment.
+- **Specific request:** CMS should require disclosure when AI or automated tools are used, establish guardrails for validation and monitoring, pilot and independently evaluate such tools, and prohibit adverse determinations based solely on automated systems.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** ACP supports FHIR-based prior authorization as the preferred long-term framework, but urges workflow-integrated implementation rather than technology mandates that increase burden.
+- **S12:** ACP identifies technical and workflow challenges for medical benefit drug prior authorization, including payer portals, manual data entry, duplicative workflows, and lack of EHR integration.
+- **S15:** ACP emphasizes that differences between medical and pharmacy benefit workflows create confusion and inefficiency, and asks CMS to harmonize and converge processes over time.
+- **S16:** ACP states that specific denial reasons should include coverage criteria, clinical rationale, appeal options, and missing information needed for review.
+- **S17:** ACP supports standardized denial reason codes and machine-readable explanations to support automated workflows and reduce resubmission and appeal burden.
+- **S20:** ACP supports clear timeliness requirements but asks CMS to continue evaluating whether timelines reflect clinical urgency and to move toward real-time decisions when sufficient information is available.
+- **S23:** ACP supports centralized API infrastructure but cautions that API data must be reliable, actionable, accurate, and not shift reconciliation burdens to physicians.
+- **S24:** ACP supports reporting technical and usability information that helps physicians access complete and timely prior authorization data.
+- **S29:** ACP recommends public reporting of prior authorization metrics, including approval and denial rates, average time to determination, appeal rates, overturn rates, and requests for additional information.
+- **S35:** ACP supports public availability of standardized metrics so physicians, patients, researchers, and policymakers can compare payer performance and identify problematic practices.
+- **S66-S82:** ACP's general comments address broader utilization management reforms, including reduction of unnecessary prior authorization, gold carding, step therapy review, and AI oversight.
+
+## 6. RECOMMENDATIONS
+
+1. Ensure electronic prior authorization is fully integrated into EHR workflows and does not require duplicate portal use or manual data entry.
+2. Create a roadmap for convergence between FHIR-based medical benefit PA and NCPDP pharmacy benefit workflows.
+3. Require denial notices to include coverage criteria, clinical rationale, appeal instructions, missing information, standardized reason codes, and machine-readable explanations.
+4. Make prior authorization requirements and coverage criteria available electronically before submission and at the point of care.
+5. Continue shortening decision timelines and encourage real-time determinations when adequate clinical data are available.
+6. Publicly report standardized PA performance metrics, including approval, denial, appeal, overturn, timing, and additional-information metrics.
+7. Provide support and flexibility for small and resource-constrained physician practices.
+8. Reduce unnecessary PA volume through gold carding, exemptions, and elimination of low-value PA requirements.
+9. Establish transparency, validation, monitoring, clinician review, and accountability guardrails for AI and automated PA tools.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Administrative burden, workflow disruption, fragmented standards, inadequate denial explanations, delayed care, small practice burden, and insufficient oversight of AI/automation.
+- **Potential negative impacts cited:** Delayed medically necessary care, physician burnout, treatment interruptions, disease progression, complications, patient anxiety, and inequitable or unsafe automated decisions.
+- **Implementation barriers mentioned:** EHR integration gaps, multiple payer portals, manual re-entry, duplicative workflows, fragmented medical/pharmacy benefit standards, unreliable API data, and limited IT resources in small practices.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ACP states it represents 163,000 internal medicine physicians, related subspecialists, and trainees.
+- **Studies or research referenced:** ACP cites its policy papers and comments on Medicare Advantage oversight, AI in health care, prior interoperability and ePA rulemaking, ONC ePA standards RFIs, and the WISeR model.
+- **Examples provided:** Examples include payer portals, manual re-entry, denial notices lacking actionable information, and potential gold carding for consistently high approval rates.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Physicians, small and independent practices, patients, payers, EHR vendors, researchers, policymakers, and CMS.
+- **Economic implications:** ACP emphasizes high administrative costs for practices and warns that poorly implemented requirements could create unfunded burdens, especially for small practices.
+- **Technical feasibility:** ACP views FHIR-based solutions as feasible and promising, but dependent on mature workflow integration, reliable APIs, standards alignment, and implementation support.
+- **Patient care impact:** ACP expects better ePA and transparency to improve timely access, but warns that delays and poorly governed automation can harm access, outcomes, equity, and trust.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive.
+- **Tone:** Professional, collaborative, and policy-focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Electronic prior authorization systems should be fully integrated into electronic health record (EHR) workflows" - Context: ACP's core condition for realizing the benefits of ePA.
+2. "CMS should articulate a clear roadmap toward greater alignment and convergence of standards" - Context: Request to reduce fragmentation between medical and pharmacy benefit workflows.
+3. "Denial communications should include the specific coverage criteria used in the determination" - Context: ACP's recommendation for more transparent denial notices.
+4. "Adverse coverage determinations should not be based solely on automated systems." - Context: ACP's AI and automation guardrail recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ACP supports timeliness standards and asks CMS to continue moving toward expedited and real-time determinations as capabilities mature.
+- [x] **COST-RESOURCES** - ACP cites high practice costs and warns against unfunded burdens on small and resource-constrained practices.
+- [x] **PROVIDER-BURDEN** - Reducing physician burden is the central theme, including avoiding portals, manual re-entry, and duplicative workflows.
+- [x] **HEALTH-EQUITY** - ACP asks for AI evaluation and monitoring for impacts on health equity.
+- [x] **TECHNICAL-FEASIBILITY** - ACP conditions success on EHR integration, reliable APIs, real-time exchange, and usable implementation.
+- [x] **STANDARDS-MATURITY** - ACP supports FHIR while warning that long-term coexistence of multiple standards frameworks risks fragmentation.
+- [x] **PATIENT-ACCESS** - ACP repeatedly links PA delays to treatment interruptions and other patient harms.
+- [x] **STAKEHOLDER-COORDINATION** - ACP requests CMS coordination across standards, workflows, physicians, payers, and technology systems.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - ACP directly addresses confusion caused by differing medical and pharmacy benefit workflows.
+- [x] **TRANSPARENCY** - ACP supports denial transparency, coverage criteria access, and public performance metrics.
+- [x] **SMALL-PAYER-IMPACT** - Not directly focused on small payers, but ACP does address small and resource-constrained physician practices.
+- [x] **EXISTING-WORKFLOWS** - ACP stresses workflow-integrated ePA and warns against merely digitizing current burdens.
+- [x] **VENDOR-ECOSYSTEM** - EHR integration and API usability imply significant vendor implementation responsibilities.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+200 Independence Ave SW 
+Washington, DC 20001 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability 
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed 
+Care Plans, State Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans the Federally-Facilitated Exchanges (RIN 
+0938-AV44) 
+Dear Administrator Oz:  
+The American College of Physicians (ACP) appreciates the opportunity to comment on the Centers for 
+Medicare & Medicaid Servicesâ€™ (CMS) proposed rule to advance interoperability and improve prior 
+authorization processes for drugs. ACP is the largest medical specialty organization and the second-
+largest physician membership society in the United States. ACP members include 163,000 internal 
+medicine physicians, related subspecialists, and medical students, residents, and fellows. Internal 
+medicine physicians are specialists who apply scientific knowledge and clinical expertise to diagnose, 
+treat, and provide compassionate care for adults across the spectrum from health to complex illness. 
+Thank you for your leadership and CMSâ€™s continued efforts to streamline prior authorization processes, 
+enhance transparency, and leverage interoperable technologies to reduce administrative burden and 
+improve patient care. Prior authorization remains one of the most significant sources of administrative 
+burden facing physicians and their practices. As ACP has noted in previous comments regarding 
+interoperability and electronic prior authorization initiatives, prior authorization requirements frequently 
+delay medically necessary care, disrupt clinical workflows, increase physician burnout, and impose high 
+costs on physician practices. 
+Meaningfu...

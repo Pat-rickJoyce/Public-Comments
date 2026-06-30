@@ -1,0 +1,167 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0662_20260629112508_62b2575e
+Commenter: Essentia Health
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:27:07
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Essentia Health; signed by Brian Vamstad, PhD, Director of Regulatory Affairs.
+- **Stakeholder type:** Healthcare Provider.
+- **Credentials or expertise mentioned:** Integrated rural health system with 14 hospitals, 80 clinics, long-term care facilities, pharmacies, ambulance services, a rural health research institute, and service to a largely rural region including 17 federally recognized Tribal Nations.
+
+## 2. EXECUTIVE SUMMARY
+
+Essentia Health generally supports CMS's proposed expansion of interoperability and prior authorization standards to prescription drugs, including FHIR-based prior authorization for medical benefit drugs, NCPDP standards for pharmacy benefit drugs, API endpoint reporting, usage metrics, and drug PA decision timeframes. It recommends implementation flexibility, clearer workflow distinctions, stronger transparency metrics, TEFCA-aligned trust infrastructure, and financial support for provider resiliency during major cybersecurity disruptions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** 42 CFR 422.101.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, PAS, CDex, ATR; NCPDP SCRIPT ePA, Formulary and Benefit, RTPB, PANotification; FAST Security IG; Tiered OAuth; TEFCA; HL7 v2 ADT; FHIR Subscriptions; Da Vinci Unsolicited Notifications; Bulk Publish; SMART User Access Brands; National Directory of Healthcare.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for prescription drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support and clarify.
+- **Rationale:** Standardized electronic PA workflows can improve consistency, continuity, and patient care, but providers may not know whether a drug follows a medical-benefit FHIR workflow or pharmacy-benefit NCPDP workflow.
+- **Specific request:** Clarify how providers can determine whether a drug is covered under the medical or pharmacy benefit.
+
+**Topic 2: FHIR PA implementation guide versions**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify.
+- **Rationale:** CRD, DTR, and PAS version 2.2 IGs are newly available, and vendors and health systems need time to test and integrate without rework.
+- **Specific request:** Permit interim use of versions 2.0, 2.1, and 2.2 and establish a formal overlap period between versions.
+
+**Topic 3: API endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support and modify.
+- **Rationale:** Centralized endpoint information will reduce the burden of locating payer API endpoints, but reporting should be scalable and avoid manual updates.
+- **Specific request:** Use Bulk Publish as the primary mechanism, consider NDH for non-patient-access endpoints, use SMART User Access Brands for patient-facing endpoints, and allow incremental updates.
+
+**Topic 4: FAST Security and trust infrastructure**
+- **Provision ID:** ONC-STANDARDS-UPDATE; GENERAL
+- **Position:** Modify.
+- **Rationale:** Business-to-business authentication and authorization should not become fragmented through payer-specific trust arrangements.
+- **Specific request:** Align FAST Security and Tiered OAuth expectations with TEFCA and test patient-facing use cases before broader mandates.
+
+**Topic 5: PA timeframes, denial reasons, and metrics**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Support and modify.
+- **Rationale:** Essentia cites MA prior authorization opacity and delays, including proprietary criteria that function as a decision-making black box.
+- **Specific request:** Adopt the proposed timeframes and metrics, remind MAOs of 42 CFR 422.101 obligations, and add future metrics for documentation requests, resubmissions, peer-to-peer review/manual follow-up, and fully electronic completion rates.
+
+**Topic 6: Event notifications and cybersecurity RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Support and modify.
+- **Rationale:** ADT/event notifications can improve care coordination, but new requirements should align with other implementation demands; cybersecurity disruptions can threaten patient safety and provider financial stability.
+- **Specific request:** Use TEFCA as the preferred trust and exchange framework for expanded event notifications and provide timely financial support to hospitals during major cybersecurity disruptions, with reconciliation later.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports requiring FHIR IGs for interoperability APIs but asks for practical transition flexibility.
+- **S2:** Recommends allowing multiple CRD/DTR/PAS versions during implementation because version 2.2 is still emerging.
+- **S3:** Requests a formal transition or overlap period between IG versions to reduce rework and disruption.
+- **S12:** Supports extending the Prior Authorization API to drugs and highlights provider workflow challenges.
+- **S15:** Asks CMS to clarify how providers identify whether a drug belongs to the medical-benefit FHIR workflow or pharmacy-benefit NCPDP workflow.
+- **S21:** Supports the October 1, 2027 drug PA implementation direction while emphasizing testing, vendor readiness, and operational integration.
+- **S23:** Addresses security indirectly by recommending TEFCA-aligned authentication and authorization for business-to-business exchange.
+- **S24:** Supports reporting payer API endpoints, capability statement URLs, and technical documentation.
+- **S26:** Recommends Bulk Publish as the primary reporting exchange mechanism and NDH/SMART User Access Brands for endpoint representation.
+- **S27:** Supports incremental update patterns to avoid manual CMS notifications for endpoint changes.
+- **S29:** Supports API usage metrics and recommends additional measures of provider burden and electronic completion.
+- **S32:** Discusses related Da Vinci IGs and supports alignment with implementation readiness.
+- **S60-S65:** Supports ONC standards updates generally and recommends TEFCA alignment for security and trust framework implementation.
+- **S66-S82:** Responds to RFIs on event notifications and healthcare resiliency/cybersecurity by supporting improved ADT/event infrastructure, TEFCA-based trust, and financial support during major cyber incidents.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize expansion of electronic prior authorization for drugs through FHIR and NCPDP workflows.
+2. Clarify how providers determine medical-benefit versus pharmacy-benefit workflow applicability.
+3. Allow interim use of CRD, DTR, and PAS IG versions 2.0, 2.1, and 2.2 with a formal transition period.
+4. Create a centralized public source for payer API endpoints using Bulk Publish.
+5. Use NDH for most endpoint representation and SMART User Access Brands for patient-facing endpoints.
+6. Align FAST Security and Tiered OAuth policy with TEFCA.
+7. Add future metrics on documentation burden, resubmissions, peer-to-peer/manual follow-up, and end-to-end electronic PA completion.
+8. Use TEFCA as the preferred framework for expanded event notifications.
+9. Provide timely financial support to hospitals during major cybersecurity disruptions, subject to later reconciliation.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Provider confusion over medical versus pharmacy benefit workflows; insufficient time for standards testing and vendor readiness; payer opacity in MA prior authorization; fragmented trust frameworks; overlapping implementation demands.
+- **Potential negative impacts cited:** Added administrative burden, rework, workflow disruption, delayed or denied care, cyber-related care disruptions, cash-flow interruptions for hospitals.
+- **Implementation barriers mentioned:** New IG versions, vendor readiness, operational integration, endpoint discovery, authentication/authorization governance, resource constraints for cybersecurity recovery.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Essentia describes its system scale: 15,000 employees, 2,200 physicians and advanced practitioners, 14 hospitals, 80 clinics, and service to a largely rural region including 17 Tribal Nations.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** MAOs allegedly use proprietary medical necessity criteria that create a prior authorization black box; ransomware attacks can cause emergency diversion, delayed surgeries, manual workflows, and financial disruption.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Providers, patients, payers including MAOs, vendors, CMS, health information networks, hospitals, rural communities, and Tribal communities.
+- **Economic implications:** Additional metrics could expose provider administrative costs; cybersecurity disruptions can create cash-flow and payroll risks; version transitions could create rework costs if not managed.
+- **Technical feasibility:** Feasible if CMS allows transition periods, aligns with TEFCA, and uses scalable endpoint reporting mechanisms.
+- **Patient care impact:** Faster and more transparent prior authorization, better care coordination, and improved cyber resiliency could reduce delays and protect continuity of care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive.
+- **Tone:** Professional and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Essentia Health supports the proposed expansion of prior authorization API's to apply to prescription drugs" - Context: Support for drug PA expansion.
+2. "CMS should clarify how providers can determine whether a drug is covered under the medical benefit... or the pharmacy benefit" - Context: Request for workflow clarity.
+3. "CMS should allow interim use of versions 2.0, 2.1, and 2.2" - Context: Implementation guide version transition.
+4. "health plans should be held to the same standards" - Context: Support for payer transparency and accountability.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests sufficient time for testing, vendor readiness, operational integration, and IG version transition.
+- [x] **COST-RESOURCES** - Discusses administrative resources for PA management and financial support during cyber disruptions.
+- [x] **PROVIDER-BURDEN** - Highlights documentation burden, resubmissions, peer-to-peer review, and workflow disruption.
+- [x] **PRIVACY-SECURITY** - Addresses FAST Security, Tiered OAuth, TEFCA, and cybersecurity resiliency.
+- [x] **HEALTH-EQUITY** - Essentia serves rural and Tribal communities, making access and continuity concerns relevant to underserved populations.
+- [x] **TECHNICAL-FEASIBILITY** - Raises vendor readiness, operational integration, endpoint reporting, and trust framework implementation.
+- [x] **STANDARDS-MATURITY** - Notes that CRD/DTR/PAS version 2.2 IGs are newly available and need overlap periods.
+- [x] **PATIENT-ACCESS** - Supports faster PA decisions and continuity of care.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends TEFCA for cross-stakeholder trust and exchange.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Requests clarity on distinguishing drug benefit workflows.
+- [x] **TRANSPARENCY** - Supports endpoint publication, usage metrics, denial reasons, and payer accountability.
+- [x] **EXISTING-WORKFLOWS** - Emphasizes provider workflow integration and avoiding disruption.
+- [x] **VENDOR-ECOSYSTEM** - Discusses vendor readiness and standards integration.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+We are called to make a healthy difference in people's lives.
+Quality | Hospitality | Respect | Joy | Justice | Stewardship | Teamwork
+
+June 15, 2026
+
+The Honorable Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+Mail Stop: C4-26-05
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+
+Submitted electronically via regulations.gov
+
+Re: Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P)
+
+Dear Administrator Oz:
+
+On behalf of Essentia Health, we appreciate the opportunity to provide comments on the Interoperability Standards for Drugs proposed rule. The proposal builds on prior authorization policies previously finalized by CMS by extending key interoperability and data transmission standards to prescription drugs and establishing publicly available payer reporting requirements. Overall, Essentia Health supports many of the policies in this proposed rule and appreciates CMS's continued efforts to reduce administrative burden, improve payer transparency, and advance more consistent prior authorization standards.
+
+Essentia Health is headquartered in Duluth, Minnesota, and combines the strengths and talents of 15,000 employees, including 2,200 physicians and advanced practitioners, who serve a largely rural region across Minnesota, Wisconsin, and North Dakota including 17 federally recognized Tribal Nations...

@@ -1,0 +1,170 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0517_20260629112241_ff675a97
+Commenter: Prime Therapeutics LLC
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:24:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Prime Therapeutics LLC; signed by Steve Cutts, PharmD, Senior Vice President and Chief Clinical and Specialty Officer.
+- **Stakeholder type:** Technology Vendor / PBM / Payer operations vendor.
+- **Credentials or expertise mentioned:** Prime describes itself as a pharmacy solutions partner providing pharmacy benefit management, specialty and medical drug management, and state government solutions to millions of people.
+
+## 2. EXECUTIVE SUMMARY
+
+Prime supports CMS's movement toward electronic prior authorization and drug interoperability standards, but asks CMS to align compliance timing and reporting requirements with operational readiness. Its main recommendations are to extend the medical-benefit drug FHIR API compliance timeline, phase Medicaid/CHIP RTPB implementation, start PA decision clocks only after receipt of all necessary information, delay first-cycle public reporting of drug PA metrics, and develop an avoided-PA pharmacy-benefit metric through stakeholder collaboration.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F; Proposed section II.B.3; Proposed section II.A.2; Proposed sections II.A.2.a, II.B.4; Proposed sections II.A.2.b, II.B.5; Proposed sections II.A.2.c, II.B.6; Proposed section II.C.3; Proposed section II.C.7.
+- **Standards referenced:** FHIR Prior Authorization API; NCPDP SCRIPT; NCPDP Formulary and Benefit (F&B) Version 60; NCPDP Real-Time Prescription Benefit (RTPB) Version 13; Da Vinci PDex 2.1.0; CARIN Blue Button 2.2.0; HL7 FHIR; X12; EHR integrations.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medical-benefit drug PA integration into FHIR API**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Modify.
+- **Rationale:** Prime supports the FHIR API policy but says medical-benefit drug PA is newly added and requires drug-specific implementation guidance, client responsibility alignment, engineering work, and complex benefit categorization.
+- **Specific request:** Extend compliance to no earlier than 15 months after final implementation guidance, or provide first-year enforcement discretion.
+
+**Topic 2: NCPDP standards and ecosystem readiness**
+- **Provision ID:** PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support with modifications.
+- **Rationale:** Prime supports SCRIPT, F&B, and RTPB but says ecosystem readiness differs by standard and line of business, especially outside Part D.
+- **Specific request:** Support SCRIPT broadly; publish detailed F&B implementation guidance with lead time and allow backward-compatible version updates without full rulemaking; phase RTPB compliance by keeping October 1, 2027 for Part D and QHPs but adding 24 months for Medicaid and CHIP.
+
+**Topic 3: Drug PA decision clock start**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify/Modify.
+- **Rationale:** Prime supports shorter decision durations but says many requests are incomplete and ultimately approved after outreach, so starting the clock at initial receipt could force unnecessary denials and appeals.
+- **Specific request:** Start the decision timeframe when the impacted payer receives all information necessary for a determination, rather than initial receipt of the request.
+
+**Topic 4: Public drug PA metric reporting timing**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support with modifications.
+- **Rationale:** Prime supports transparency but argues new categorical definitions, aggregation rules, and data flows need time before reliable public reporting.
+- **Specific request:** Extend the compliance date for public posting of drug PA metrics, or exercise enforcement discretion during the first reporting cycle.
+
+**Topic 5: Avoided-PA measure for pharmacy benefit drugs**
+- **Provision ID:** API-USAGE-METRICS; PA-DRUG-PHARMACY
+- **Position:** Modify/future addition.
+- **Rationale:** Current metrics capture formal PA requests but not PA requirements avoided through RTPB, F&B, SCRIPT, and point-of-prescribing decision support.
+- **Specific request:** Convene impacted payers, PBMs, SDOs, prescribers, and consumer representatives to define a pharmacy-benefit avoided-PA metric for future rulemaking; limit the measure to pharmacy-benefit drug PA and exclude medical-benefit PA because comparable real-time infrastructure does not exist.
+
+## 5. SOLICITATION RESPONSES
+
+- **S2/S3:** Addresses IG and standards version management, recommending flexibility for backward-compatible updates and a streamlined recognition process to avoid outdated regulatory version locks.
+- **S12:** Identifies medical-benefit drug FHIR API implementation challenges, including 9-15 months of build effort, up to  million in IT investment, drug categorization complexity, and risk of misrouted requests or denials.
+- **S14:** Supports NCPDP SCRIPT, F&B, and RTPB for pharmacy benefit drugs but asks CMS to calibrate implementation by standard and program readiness.
+- **S19:** Directly raises state Medicaid readiness concerns for RTPB due to PDL variation, supplemental rebates, MCO carve-outs, and safety-net provider EHR fragmentation.
+- **S21:** Says the October 1, 2027 medical-benefit drug PA API date is operationally challenging and asks for at least 15 months after final guidance.
+- **S22:** Cites substantial IT costs and implementation work for medical-benefit drug PA and ecosystem-wide NCPDP alignment.
+- **S25:** States RTPB is mature in Medicare Part D but materially less mature in Medicaid and CHIP, requiring a phased timeline.
+- **S29/S34/S35:** Supports public drug PA metrics but asks for delayed first-cycle posting/enforcement discretion and future development of an avoided-PA measure.
+- **S37:** Addresses implementation challenges across payers, vendors, EHRs, PBMs, and standards alignment.
+- **S44-S56:** Does not directly address HIPAA authority, but notes medical-benefit workflows involve HL7 FHIR or X12 and should not be conflated with pharmacy-benefit NCPDP workflows.
+
+## 6. RECOMMENDATIONS
+
+1. Extend medical-benefit drug PA FHIR Prior Authorization API compliance to at least 15 months after final implementation guidance.
+2. Provide first-year enforcement discretion if CMS does not extend the medical-benefit drug API compliance date.
+3. Support NCPDP SCRIPT across pharmacy-benefit lines of business.
+4. Publish detailed NCPDP F&B implementation guidance, including version specifications and compatibility requirements, with sufficient lead time.
+5. Avoid overly granular regulatory version-locking by allowing backward-compatible standard updates or streamlined recognition of newer versions.
+6. Adopt a phased RTPB timeline: full compliance for Part D and QHPs by October 1, 2027, and 24 additional months for Medicaid and CHIP.
+7. Clarify that drug PA decision clocks begin when all information necessary for determination is received.
+8. Extend the public drug PA metrics posting compliance date or use first-cycle enforcement discretion.
+9. Engage stakeholders to define a pharmacy-benefit avoided-PA metric as a future utilization-management effectiveness indicator.
+10. Do not extend avoided-PA measurement requirements to medical-benefit services or medical-benefit PA absent comparable standardized real-time infrastructure.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Operational timeline feasibility, ecosystem readiness, standards version-locking, Medicaid/CHIP RTPB readiness, incomplete PA submissions, first-cycle reporting inconsistency, and inappropriate extension of pharmacy-specific measures to medical benefit workflows.
+- **Potential negative impacts cited:** Misrouted PA requests, misapplied coverage logic, delayed beneficiary access, inappropriate denials, disrupted therapy, denials followed by avoidable appeals, inaccurate public reporting, and technical compliance without functional transparency.
+- **Implementation barriers mentioned:** Drug benefit categorization by route and coverage logic, health plan-client operational responsibility alignment, payer/vendor/EHR coordination, Medicaid PDL and rebate variation, MCO carve-outs, safety-net provider EHR gaps, provider response times, and lack of medical-benefit real-time service-check infrastructure.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Prime estimates medical-benefit drug PA FHIR API implementation requires 9-15 months of build effort and up to  million in IT investment. Prime reports average pharmacy benefit drug PA decision time of about 0.57 days/13.7 hours from May 2025-May 2026. It reports that approximately 15 percent of Medicaid reviews and 30 percent of Medicare reviews from January-May 2026 required outbound research, and that 35 percent of those Medicaid cases and 37 percent of those Medicare cases were granted after outreach.
+- **Studies or research referenced:** Not external studies; relies primarily on Prime operational experience and data.
+- **Examples provided:** Medical-benefit drugs administered through different routes triggering different benefit categories; Medicaid RTPB readiness affected by state PDLs, supplemental rebates, MCO carve-outs, low cost-sharing, and safety-net provider EHR gaps; point-of-prescribing avoided PA through RTPB/F&B/SCRIPT.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** PBMs, impacted payers, health plan clients, state Medicaid and CHIP programs, QHPs, Medicare Part D plans, prescribers, EHR vendors, SDOs, beneficiaries, and safety-net practices.
+- **Economic implications:** Prime identifies up to  million in IT investment for medical-benefit drug PA API implementation and potential costs from misrouting, appeals, duplicate work, and unreliable reporting.
+- **Technical feasibility:** Feasible with adequate lead time, final guidance, version flexibility, ecosystem testing, phased Medicaid/CHIP RTPB adoption, and careful metric definition. Risky if CMS applies uniform deadlines to immature ecosystems.
+- **Patient care impact:** Prime frames its requested changes as preventing delayed medication access, inappropriate denials, disrupted ongoing therapy, and avoidable denial/appeal cycles.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with operational modifications.
+- **Tone:** Technical, pragmatic, collaborative, and implementation-focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "policy intent of the FHIR API framework" - Context: Prime supports medical-benefit drug PA modernization.
+2. "RTPB is an ecosystem standard" - Context: Prime explains why payer-side readiness alone is insufficient.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Prime requests extended timelines, phased compliance, and first-cycle enforcement discretion.
+- [x] **COST-RESOURCES** - The comment cites up to  million in IT investment and costs from poor implementation.
+- [ ] **PROVIDER-BURDEN** - Provider burden is secondary but present in concerns about appeals, EHR readiness, and incomplete submissions.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Medicaid, CHIP, safety-net practices, and vulnerable beneficiaries are discussed in ecosystem readiness concerns.
+- [x] **TECHNICAL-FEASIBILITY** - This is a central theme, including build timelines, standards alignment, operational definitions, and infrastructure gaps.
+- [x] **STANDARDS-MATURITY** - Prime distinguishes mature SCRIPT/F&B/Part D RTPB readiness from less mature Medicaid/CHIP RTPB adoption and warns against version-locking.
+- [x] **PATIENT-ACCESS** - Prime links compressed timelines and incomplete requests to delayed access, denials, and disrupted therapy.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - The comment calls for payer, PBM, SDO, vendor, EHR, prescriber, consumer, state, and CMS coordination.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Prime strongly distinguishes medical-benefit FHIR workflows from pharmacy-benefit NCPDP workflows.
+- [x] **TRANSPARENCY** - Public PA metrics, avoided-PA measures, and reporting reliability are major topics.
+- [ ] **SMALL-PAYER-IMPACT** - Not directly addressed.
+- [x] **EXISTING-WORKFLOWS** - Existing pharmacy benefit operations, provider outreach, EHR workflows, Part D RTPB, and medical-benefit authorization workflows are central.
+- [x] **VENDOR-ECOSYSTEM** - EHR vendors, payers, PBMs, SDOs, and health plan clients are key to implementation readiness.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+7544-CL1 Â© 2024 Prime Therapeutics LLC  
+Prime Therapeutics LLC 
+2900 Ames Crossing Road, Suite 200 
+Eagan, MN 55121 
+ 
+PrimeTherapeutics.com 
+800.858.0723 
+June 15, 2026 
+ 
+ 
+ 
+ 
+ 
+Filed electronically at http://www.regulations.gov  
+Centers for Medicare & Medicaid Services 
+Department of Health & Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244 
+RE: CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule; CMS-0062-
+P (91 Fed. Reg. 91 FR 30164, April 14, 2026) 
+Dear Administrator Dr. Mehmet Oz: 
+Thank you for the opportunity to submit comments on the Centers for Medicare & Medicaid Services' 
+(CMS) proposed rule, â€œCMS Interoperability Standards and Prior Authorization for Drugsâ€ (CMS-0062-P). 
+Prime Therapeutics LLC (Prime) is a pharmacy solutions partner that delivers savings, simplicity and 
+support to customers and members. Prime provides care to millions of people across the country through 
+pharmacy benefit management, specialty and medical drug management, and state government 
+solutions. Prime creates a new standard for the industry by doing whatâ€™s right through a conflict-free 
+approach, offering a holistic specialty experience, accessing the most modern technology, and 
+emphasizing purpose beyond profits. 
+Prime supports CMS's actions toward modernizing prior authorization. The advancement of electronic 
+prior authorization and the extension of the standards-based interoperability framework to drug prior 
+authorization reflect important policy goals that Prime shares. Prime is committed to supporting CMS's 
+modernization objectives and to providing feedback that ensures that the regulatory framework advances 
+interoperability without introducing misalignment between policy intent and operational reality. 
+Prime also endorses the comments submitted by the Pharmaceutical Care Management Association 
+(PCMA) and submits these comments to supplement PCMA's filing with Pri...

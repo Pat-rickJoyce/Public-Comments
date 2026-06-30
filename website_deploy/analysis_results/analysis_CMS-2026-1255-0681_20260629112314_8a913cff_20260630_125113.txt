@@ -1,0 +1,158 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0681_20260629112314_8a913cff
+Commenter: Delta Dental Plans Association
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:51:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Delta Dental Plans Association; signed by Adam M. Shaw, Director, Federal Policy & Regulatory Affairs.
+- **Stakeholder type:** Payer / Professional Association
+- **Credentials or expertise mentioned:** Represents 39 Delta Dental companies providing dental coverage to more than 78 million Americans across private and public markets, including Medicare Advantage, Medicaid, CHIP, and Exchanges.
+
+## 2. EXECUTIVE SUMMARY
+
+Delta Dental generally supports CMS's interoperability and prior authorization goals but urges CMS to continue excluding stand-alone dental plans (SADPs) from current and future interoperability/API requirements. The commenter argues SADPs differ materially from medical QHPs, rarely use prior authorization as defined in the rule, do not generally cover prescription drugs, and would face significant burden with little enrollee benefit.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FF-SHOP-REQUIREMENTS; FHIR-IG-REQUIRED/API requirements by implication; PA-DRUG-MEDICAL and PA-DRUG-PHARMACY by exclusion; GENERAL scope of SADP applicability.
+- **Regulatory citations mentioned:** CMS-0062-P; 91 FR 19890, 19891, 19892, 19898; 85 FR 25510 and 25552-25553; 89 FR 8758 and 8859.
+- **Standards referenced:** APIs/open API technology generally; no specific FHIR IG, NCPDP standard, or HIPAA transaction standard is discussed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Maintain SADP exclusion from interoperability requirements**
+- **Provision ID:** FF-SHOP-REQUIREMENTS / GENERAL
+- **Position:** Oppose expansion
+- **Rationale:** Delta Dental states that CMS correctly excluded SADPs in earlier interoperability rules because SADPs provide specialized dental coverage, have different enrollment and premium economics, and would receive limited value from open API requirements.
+- **Specific request:** Maintain the current SADP exclusion and do not apply the Proposed Rule's interoperability or prior authorization requirements to SADPs.
+
+**Topic 2: Do not pursue future rulemaking applying 2024 or proposed requirements to SADPs**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** The commenter argues the reasons for excluding SADPs in 2020 and 2024 remain valid, and imposing medical-plan interoperability requirements could reduce SADP participation in FFEs.
+- **Specific request:** CMS should not consider future rulemaking to apply the Proposed Rule or 2024 Rule interoperability requirements to SADPs.
+
+**Topic 3: Prior authorization is materially different in dental coverage**
+- **Provision ID:** PA-DRUG-MEDICAL / GENERAL
+- **Position:** Clarify
+- **Rationale:** Dental insurers generally use pre-treatment estimates, not prior authorization as defined in the medical-insurance context. When dental prior authorization exists, it is limited to rare specialized procedures rather than routine preventive or minor restorative services.
+- **Specific request:** CMS should recognize that electronic prior authorization requirements are unnecessary for SADPs because prior authorization is not typically relevant to SADP operations.
+
+**Topic 4: SADPs generally do not cover prescription drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify/Oppose expansion
+- **Rationale:** The commenter agrees with CMS that SADPs are not required to cover prescription drugs and notes dental prescriptions are generally processed through medical coverage, with local anesthesia bundled into dental procedures.
+- **Specific request:** Continue excluding SADPs from drug prior authorization requirements.
+
+**Topic 5: Dental benefits in MA or Medicaid and API scope**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Delta Dental suggests CMS should reassess whether dental benefits provided by SADPs to MA or Medicaid enrollees should fall within API requirements, given dental coverage differences and burden concerns.
+- **Specific request:** Reconsider inclusion of dental benefits provided by SADPs to Medicare Advantage or Medicaid enrollees within API requirements.
+
+## 5. SOLICITATION RESPONSES
+
+- **S40:** The commenter addresses the impact of extending interoperability obligations to QHP-related dental issuers, warning that applying requirements to SADPs could create significant burden and reduce plan participation.
+- **S41:** Delta Dental does not propose an alternative timeline; it argues the requirements should not apply to SADPs at all.
+- **S42:** The commenter effectively supports an exception/exclusion approach for SADPs and asks CMS to maintain the current exemption.
+- **S66-S82:** The comment responds to general CMS requests for comment on whether SADP considerations diminish the need for electronic prior authorization requirements and whether CMS should consider future SADP rulemaking.
+
+## 6. RECOMMENDATIONS
+
+1. Maintain the current exclusion of SADPs from interoperability requirements.
+2. Do not consider future rulemaking to apply the Proposed Rule or 2024 Rule requirements to SADPs.
+3. Recognize that SADPs generally use pre-treatment estimates rather than medical-style prior authorization.
+4. Treat SADP prescription-drug relevance as minimal because SADPs generally do not cover prescription drugs.
+5. Reconsider whether dental benefits provided by SADPs to Medicare Advantage or Medicaid enrollees should be within API requirements.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Significant burden on dental payers and providers; limited or no enrollee benefit; possible SADP withdrawal from FFEs; mismatch between medical prior authorization concepts and dental operations.
+- **Potential negative impacts cited:** Reduced SADP participation, reduced access to dental coverage, burdens on dental providers, and worsened access amid dental provider shortages.
+- **Implementation barriers mentioned:** SADP economics, specialized dental coverage, lack of widespread API utility for dental enrollees, limited use of prior authorization, and absence of prescription drug coverage in SADPs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Delta Dental covers more than 78 million Americans through 39 companies.
+- **Studies or research referenced:** No independent studies are cited; the commenter relies on CMS's prior rulemaking rationale in the 2020, 2024, and Proposed Rules.
+- **Examples provided:** Dental pre-treatment estimates; routine check-ups, cleanings, and exams typically offered with little or no cost-sharing and no pre-authorization; rare specialized procedures where dental prior authorization may occur.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** SADP issuers, dental providers, enrollees in FFEs, MA and Medicaid enrollees receiving dental benefits, and state/federal marketplace administrators.
+- **Economic implications:** The commenter expects significant implementation cost and burden for dental plans and providers with little offsetting benefit, potentially causing SADPs to stop participating in FFEs.
+- **Technical feasibility:** Delta Dental does not claim implementation is impossible but argues API investments are disproportionate and poorly matched to dental coverage workflows.
+- **Patient care impact:** The commenter warns that applying requirements to SADPs could reduce dental coverage availability and access to oral health care, especially in areas with provider shortages.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed; supportive of broad goals but opposed to applying requirements to SADPs
+- **Tone:** Professional, technical, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "supports the Proposed Rule's goals" - Context: Overall support for interoperability and PA streamlining.
+2. "exclude stand-alone dental plans" - Context: Core policy recommendation.
+3. "little or no benefit to enrollees" - Context: Burden-benefit argument against SADP application.
+4. "reduced access to care" - Context: Warning about potential SADP withdrawal from FFEs.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - Delta Dental emphasizes that interoperability/API implementation would impose substantial burden on SADP issuers relative to the expected benefit.
+- [x] **PROVIDER-BURDEN** - The comment states dental providers would also face burden if medical-style interoperability and prior authorization requirements were imposed.
+- [x] **PATIENT-ACCESS** - The commenter warns that SADP withdrawal from FFEs could reduce access to dental coverage and care.
+- [x] **TECHNICAL-FEASIBILITY** - The comment questions the fit and utility of open API requirements for dental coverage, though not the technical possibility.
+- [x] **SMALL-PAYER-IMPACT** - The comment relies on CMS's prior concern that SADP enrollment and premium intake may make API investment disproportionately burdensome.
+- [x] **EXISTING-WORKFLOWS** - Dental workflows rely heavily on pre-treatment estimates rather than the prior authorization processes used by medical insurers.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The commenter explains that SADPs generally do not cover prescription drugs and dental prescriptions are handled through other coverage.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Delta Dental Plans Association  
+901 New York Avenue, NW, Suite 310W           
+Washington, DC 20001                      
+     
+ 
+                        
+ 
+June 15, 2026  
+Dr. Mehmet Oz  
+Administrator 
+Centers for Medicare & Medicaid Services 
+Attention: CMS-0062-P  
+P.O. Box 8016 
+Baltimore, MD 21244-8016   
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability 
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed 
+Care Plans, State Medicaid Agencies, CHIP Agencies and Managed Care Entities, and Issuers of QHPs on 
+the Federally-Facilitated Exchanges (CMS-0062-P). 
+ 
+Dear Administrator Oz: 
+ 
+I am writing on behalf of Delta Dental Plans Association in response to the Centers for Medicare & Medicaid 
+Servicesâ€™ (CMS) proposed rule described above, which was published on April 14, 2026 (Proposed Rule).  
+ 
+Across the nation, over 78 million Americans trust Delta Dental to ensure that they have access to the oral 
+health care they need. Through the 39 Delta Dental companies, we offer high quality, affordable coverage 
+in the private and public marketplaces including Medicare Advantage (MA), Medicaid and the Childrenâ€™s 
+Health Insurance Program, as well as the Exchanges.  
+ 
+Executive Summary 
+ 
+Generally speaking, Delta Dental supports the Proposed Ruleâ€™s goals of improving the electronic exchange 
+of healthcare data and streamlining processes relating to prior authorization by increasing the 
+interoperability of systems used across the healthcare industry.1 Since 2020, however, and for good reason, 
+the interoperability requirements have excluded stand-alone dental plans (SADPs). Delta Dental does not 
+recommend that CMS change this approach to consider future rulemaking to apply the interoperability 
+requirements to SADPs.  
+ 
+Background. The interoperability requirementsâ€™ purpose is to foster the exchange of health data between...

@@ -1,0 +1,143 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0611_20260629112205_b3386ab0
+Commenter: Society of Nuclear Medicine and Molecular Imaging (SNMMI)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:41:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Society of Nuclear Medicine and Molecular Imaging (SNMMI)
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** SNMMI represents more than 15,000 professionals in nuclear medicine, molecular imaging, and theranostics; it develops practice guidelines, education, research, and advocacy for molecular imaging and therapy.
+
+## 2. EXECUTIVE SUMMARY
+
+SNMMI supports modernization of prior authorization but is concerned that extending electronic PA to “all drugs” could sweep in Medicare Part B radiopharmaceuticals and inadvertently expand utilization management for highly time-sensitive diagnostic and therapeutic products. SNMMI urges CMS and ONC to ensure implementation does not delay care, undermine adoption of molecular imaging and theranostics, or create additional barriers for radiopharmaceuticals.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; TRANSPARENCY/GENERAL.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** Electronic prior authorization generally; no specific FHIR, NCPDP, or HL7 implementation guides referenced.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Inclusion of radiopharmaceuticals in “all drugs”**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify/Clarify
+- **Rationale:** Radiopharmaceuticals, including diagnostic and therapeutic products, are often time-sensitive and require coordination among manufacturers, radiopharmacies, facilities, and clinicians. Even modest administrative delays can affect staging, treatment planning, missed treatment windows, rescheduling, waste, and costs.
+- **Specific request:** Evaluate the impact on radiopharmaceutical products and ensure electronic PA implementation does not expand or intensify barriers to clinically necessary radiopharmaceuticals.
+
+**Topic 2: Avoid expansion of utilization management**
+- **Provision ID:** PA-DRUG-MEDICAL; GENERAL
+- **Position:** Modify
+- **Rationale:** SNMMI is concerned that requiring PA infrastructure for both services and Part B products could set a precedent for additional PA burdens on prescribing clinicians.
+- **Specific request:** Modernize administrative processes without increasing utilization management requirements for time-sensitive Part B drugs.
+
+**Topic 3: Transparency without access barriers**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS/GENERAL
+- **Position:** Support with guardrails
+- **Rationale:** SNMMI supports transparency in PA utilization, approvals, denials, and processing times but warns transparency should not justify new barriers for Part B radiopharmaceuticals.
+- **Specific request:** Achieve program integrity and oversight goals without adding administrative barriers to medically necessary radiopharmaceutical products.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Addresses challenges for medical benefit drugs by emphasizing the special timing, handling, and care-coordination needs of radiopharmaceuticals.
+- **S15:** Implied response regarding Part B products and services, noting radiopharmaceuticals may be bundled with imaging and diagnostic procedures and should not face compounded burdens.
+- **S16/S17:** Supports transparency in approval, denial, and processing metrics, though does not define specific reason-code requirements.
+- **S20/S21:** Responds indirectly by stressing that even modest delays can harm diagnostic and therapeutic timelines.
+- **S66-S82:** Provides RFI-like input on patient access and the need to avoid new barriers for time-sensitive technologies.
+
+## 6. RECOMMENDATIONS
+
+1. Carefully evaluate how PA requirements affect radiopharmaceuticals and other clinically time-sensitive Part B therapies.
+2. Ensure electronic PA requirements do not expand utilization management or create new barriers to radiopharmaceutical access.
+3. Preserve timely access to molecular imaging and theranostic technologies.
+4. Use transparency and oversight tools without adding administrative barriers to medically necessary products.
+5. Engage SNMMI and clinical stakeholders during implementation.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delays in access to diagnostic and therapeutic radiopharmaceuticals, expansion of PA requirements, and added clinician burden.
+- **Potential negative impacts cited:** Missed treatment windows, rescheduled procedures, increased waste, higher costs, delayed diagnosis/treatment, and reduced adoption of precision medicine technologies.
+- **Implementation barriers mentioned:** Coordination among manufacturers, radiopharmacies, imaging facilities, and clinicians; short half-lives and timing constraints.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** SNMMI represents more than 15,000 members.
+- **Studies or research referenced:** None.
+- **Examples provided:** Short half-lives of radiopharmaceuticals; bundled imaging/diagnostic procedures; cancer, neurological, and cardiovascular use cases.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing imaging or therapy, nuclear medicine clinicians, molecular imaging providers, radiopharmacies, manufacturers, facilities, and Part B payers.
+- **Economic implications:** Waste and rescheduling costs if products expire or treatment windows are missed.
+- **Technical feasibility:** Not the main issue; SNMMI focuses on clinical workflow and access consequences.
+- **Patient care impact:** High; delays may affect diagnosis, staging, treatment planning, and outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant concerns
+- **Tone:** Professional; clinical; cautionary
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "If finalized as proposed, the rule encompasses all drugs payable under Medicare Part B including radiopharmaceuticals." - Context: SNMMI's core concern about scope.
+2. "Even modest administrative delays can result in missed treatment windows, rescheduling procedures, increased waste, and additional costs." - Context: Explains why radiopharmaceutical timing matters.
+3. "Transparency objectives should not be used to justify expansion of prior authorization requirements." - Context: Supports transparency but warns against broader UM expansion.
+4. "Policies that create new barriers to accessing these technologies risk undermining broader federal efforts to promote personalized, evidence-based care." - Context: Links access to federal precision medicine goals.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment warns of coalescing PA burdens for prescribing clinicians.
+- [x] **PATIENT-ACCESS** - The core concern is delayed access to time-sensitive imaging and therapy.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Focuses on Medicare Part B/radiopharmaceuticals under the medical benefit.
+- [x] **TRANSPARENCY** - Supports PA utilization and denial transparency but warns against using it to justify access barriers.
+- [x] **STAKEHOLDER-COORDINATION** - Radiopharmaceutical care requires coordination across manufacturers, radiopharmacies, facilities, and clinicians.
+- [x] **EXISTING-WORKFLOWS** - The comment emphasizes specialized timing and handling workflows for radiopharmaceuticals.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Dr. Thomas Keane, National Coordinator 
+Office of the National Coordinator for Health 
+Information Technology 
+U.S. Department of Health and Human Services 
+330 C Street SW, Floor 7 
+Washington, DC 20201 
+ 
+Submitted via www.regulations.gov to CMS-2026-1255 
+ 
+Dear Administrator Oz and National Coordinator Keane: 
+ 
+On behalf of the Society of Nuclear Medicine and Molecular Imaging (SNMMI), we 
+appreciate the opportunity to provide comments on the proposed rule titled, “Medicare 
+and Medicaid Programs: Patient Protection and Affordable Care Act; Interoperability 
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, etc.”  SNMMI supports the U.S. Department of Health and 
+Human Services (HHS) efforts to streamline patient access to medications by reducing 
+barriers presented by prior authorization and other utilization management practices. 
+ 
+SNMMI is a global nonproﬁt organization dedicated to advancing nuclear medicine, 
+molecular imaging, and theranostics through its education and research programs. 
+Founded in 1954, SNMMI brings together more than 15,000 members who are 
+professionals from all parts of the ﬁeld to drive innovation, establish practice standards, 
+enhance education in precision medicine, and improve patient care. SNMMI’s members 
+set the standard for molecular imaging and nuclear medicine practice by creating 
+guidelines, sharing information through journals and meetings, and leading advocacy on 
+key issues that affect molecular imaging and therapy, research, and clinical practice.  
+ 
+SNMMI has concerns with CMS and ONC’s proposal to require most federal payers - 
+including Medicare Advantage (MA) organizations, state fee-for-service (FFS) programs, 
+state Children’s Health Insurance Program (CHIP) FFS progra...

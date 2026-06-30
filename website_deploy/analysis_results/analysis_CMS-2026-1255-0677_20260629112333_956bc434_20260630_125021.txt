@@ -1,0 +1,138 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0677_20260629112333_956bc434
+Commenter: Consumers' Checkbook/Center for the Study of Services
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:50:21
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Consumers' Checkbook/Center for the Study of Services; signed by Eric Ellsworth, Director, Health Data Strategy
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Decades helping consumers shop for health plans and drug coverage; experience with machine-readable formulary data, paper formularies, and design of the FHIR Formulary resource within the FHIR PDEX workstream.
+
+## 2. EXECUTIVE SUMMARY
+
+Consumers' Checkbook urges regulators to improve the accuracy, completeness, and usability of machine-readable formulary data, particularly FHIR Formulary resources. Although framed as comments on the ASTP/ONC HTI-2 NPRM rather than this CMS drug prior authorization rule, the submission is relevant to ONC-STANDARDS-UPDATE and general pharmacy benefit interoperability because it recommends public formulary identifiers, explicit searchable scope, affirmative non-coverage data, improved NDC-to-RxCUI mapping, and richer representation of formulary policy terms.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** ONC-STANDARDS-UPDATE; PA-DRUG-PHARMACY; GENERAL
+- **Regulatory citations mentioned:** RIN 0955-AA06 HTI-2 NPRM; no CFR sections from CMS-2026-1255-0001 are cited.
+- **Standards referenced:** FHIR Formulary resource; FHIR PDEX workstream; RxNorm; RxCUI; NDC; machine-readable formulary data; SERFF; Medicare Part D and Part C public use files.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Standardized public formulary identifiers**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter states that formularies often lack public identifiers analogous to plan identifiers, making it difficult for consumers, third-party tools, and regulators to confirm that a searchable formulary is the one relevant to a plan or member.
+- **Specific request:** Require standardized public identifiers for each distinct formulary and require insurers to provide those identifiers on member IDs, SBCs, plan documents, websites, and other consumer-facing materials.
+
+**Topic 2: Explicit searchable scope for formulary data**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** A failed drug search may mean non-coverage or may mean that the drug was outside the formulary's intended scope; without an explicit scope, applications may generate false negative coverage results.
+- **Specific request:** Require formularies to declare search scope and work to harmonize search scope across formularies.
+
+**Topic 3: Affirmative non-coverage data**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Relying on absence from a covered-drug list causes ambiguity and false negatives, especially in plan-shopping comparisons and third-party applications.
+- **Specific request:** Require insurers to list non-covered drugs in machine-readable formulary data, and consider linking FHIR Formulary resources to other formularies that may cover or list out-of-scope drugs.
+
+**Topic 4: Codeset conversion quality**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** The commenter identifies risks in converting NDC-based internal data to RxCUI-based public formulary data, including unclear reliability of RxNorm mappings, archived drug handling, new drug timing, and duplicate RxCUI tier listings.
+- **Specific request:** Conduct more extensive testing of NDC-RxCUI mappings and create mechanisms to distinguish cases where the same RxCUI appears on different tiers because of NDC, price, indication, or coverage reason differences.
+
+**Topic 5: Complete representation of formulary policy terms**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Current machine-readable formulary efforts focus on covered drugs and tiers but may omit policy terms such as blanket exclusions, OTC coverage, prior authorization, step therapy, compounding rules, required pharmacies, and references to specialty formularies.
+- **Specific request:** Require FHIR Formulary resources and other machine-readable implementations to capture enough information to fully define and compute medication coverage rules for referenced plans.
+
+## 5. SOLICITATION RESPONSES
+
+- **S60:** The comment responds indirectly by urging ONC/ASTP to improve standards versioning and formulary implementation requirements so FHIR Formulary resources can represent complete, accurate coverage rules.
+- **S61:** The comment responds indirectly by calling for coordination among ASTP, CMS, insurers, regulators, and FHIR/PDEX stakeholders on formulary identifiers, scope, and data quality.
+- **S62:** The comment responds indirectly by requesting testing of NDC-RxCUI mappings and data-quality controls for machine-readable formulary data.
+- **S64:** The comment provides stakeholder input based on Checkbook's practical experience using formulary data in consumer plan-shopping tools.
+- **S82:** The comment is also a general interoperability and data-quality recommendation relevant to consumer-facing medication coverage transparency, though it does not directly address CMS's named RFIs.
+
+## 6. RECOMMENDATIONS
+
+1. Require a standardized public identifier for each distinct insurer formulary.
+2. Require formulary identifiers to appear on member IDs, SBCs, contracts, brochures, websites, and other consumer-facing materials.
+3. Require machine-readable formularies to declare explicit searchable scope.
+4. Harmonize formulary search scope across formularies.
+5. Require machine-readable formulary data to list non-covered drugs, not only covered drugs.
+6. Consider FHIR Formulary links to other formularies that may contain coverage information for out-of-scope drugs.
+7. Test RxNorm NDC-to-RxCUI mappings for reliability and exhaustiveness in formulary uses.
+8. Create mechanisms to distinguish duplicate RxCUI tier listings by NDC, coverage reason, or clinical indication.
+9. Expand FHIR Formulary and other machine-readable formats to capture full formulary policy rules, including PA and step therapy terms.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Inaccurate formulary data, ambiguous formulary identity, undefined search scope, inferred non-coverage, unreliable code conversion, and incomplete machine-readable representation of policy terms.
+- **Potential negative impacts cited:** Consumers may receive inaccurate coverage information, third-party tools may misdirect users, plan-shopping comparisons may be unreliable, and the health system may incur frustration and added costs from erroneous information.
+- **Implementation barriers mentioned:** Lack of public formulary identifiers, inconsistent SERFF and Part D/Part C identifiers, difficulty defining search universes, NDC-to-RxCUI mapping limitations, archived RxCUI handling, and incomplete FHIR resource representation of policy text.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** The commenter states that in its review nearly all ACA plans in a given state use one or occasionally two formularies, but no quantitative dataset is attached in the extracted text.
+- **Studies or research referenced:** Prior Checkbook suggestions to the FHIR Formulary workgroup, titled Proposed changes to resource definitions for DaVinci PDEX Drug Formulary 2020-07-22/2021-07-22.
+- **Examples provided:** ACA and Medicare Advantage formulary identifiers; SERFF formulary IDs such as TXF001; examples of out-of-scope specialty or physician-administered drugs; blanket exclusions for alopecia or erectile dysfunction; NDCs mapping to the same RxCUI but different tiers.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Consumers, plan shoppers, caregivers, insurers, PBMs, regulators, third-party app developers, researchers, and FHIR/PDEX implementers.
+- **Economic implications:** The commenter asserts that inaccurate formulary data creates frustration and additional costs for the health system, and improved standards could reduce error-handling costs.
+- **Technical feasibility:** The requested changes are technically feasible but require standards work, data governance, codeset testing, and payer/PBM data-process changes.
+- **Patient care impact:** More accurate formulary data could improve medication access decisions, reduce false non-coverage conclusions, and help consumers choose plans that cover needed drugs.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "Currently formulary data suffers from data quality problems" - Context: Opening rationale for regulatory attention to formulary lookup accuracy.
+2. "We suggest that ASTP require the use of a standardized public identifier" - Context: Recommendation to solve formulary identity problems.
+3. "We suggest that ASTP require formularies to create an explicit declaration of search scope" - Context: Recommendation to avoid false non-coverage results.
+4. "We suggest that ASTP and/or CMS consider requiring insurers to explicitly list non-covered drugs" - Context: Recommendation for affirmative non-coverage representation in machine-readable formulary data.
+
+## 12. THEMES
+
+- [x] **TECHNICAL-FEASIBILITY** - The comment focuses on technical data-quality issues in formulary identifiers, search scope, codeset conversion, and computable policy representation.
+- [x] **STANDARDS-MATURITY** - It identifies maturity gaps in FHIR Formulary resources, RxNorm/RxCUI use, and machine-readable formulary implementation.
+- [x] **PATIENT-ACCESS** - Accurate formularies affect whether consumers can determine medication coverage and choose appropriate plans.
+- [x] **TRANSPARENCY** - The core concern is making formulary identity, coverage, non-coverage, and policy rules transparent to consumers and applications.
+- [x] **STAKEHOLDER-COORDINATION** - The recommendations require coordination among ASTP/ONC, CMS, insurers, PBMs, regulators, standards groups, and app developers.
+- [x] **VENDOR-ECOSYSTEM** - Third-party applications and consumer plan-shopping tools depend on consistent and accurate machine-readable formulary data.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment notes that physician-administered or medical service drugs are often outside pharmacy formularies and poorly documented for consumers.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Micky Tripathi, PhD, MPP 
+National Coordinator 
+Assistant Secretary for Technology Policy 
+Office of the National Coordinator for Health Information Technology 
+U.S. Department of Health and Human Services 
+330 C Street, SW, 7th Floor 
+Washington, DC 20024 
+Re: RIN 0955-AA06 HTI-2 NPRM 
+ 
+Dear Assistant Secretary Tripathi: 
+We appreciate the opportunity to provide feedback on the Assistant Secretary for Technology Policy/Office of the National Coordinator for Health Information Technology (ASTP/ONC) proposed Health Data, Technology, and Interoperability: Patient Engagement, Information Sharing, and Public Health Interoperability (HTI-2) rule. 
+ 
+Checkbook has decades of experience helping consumer shop for health plans and drug coverage, including lookup of drug coverage offered by plans within plan shopping. We have worked extensively with machine-readable formulary data, reviewed numerous paper formularies, and have participated in the design of the FHIR Formulary resource within the FHIR PDEX workstream. We are pleased to provide the following comments for ASTP to consider within rulemaking and enforcement. We have also attached for reference prior comments and suggestions we provided to the FHIR Formulary workgroup regarding the design of the Formulary resource in the document "Proposed changes to resource definitions for DaVinci PDEX Drug Formulary 2020-07-22".
+ 
+Currently formulary data suffers from data quality problems which can result in inaccurate information for consumers, as well as frustration and additional costs for the health system in dealing with erroneous information. Data quality issues are pervasive in consumer-facing administrative datasets, and while the poor accuracy of provider directories data has been widely discussed by both the policy community and the public at large, much less scrutiny has been directed at the accuracy of formularies.

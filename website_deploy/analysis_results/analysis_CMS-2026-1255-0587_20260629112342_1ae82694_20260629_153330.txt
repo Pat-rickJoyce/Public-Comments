@@ -1,0 +1,161 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0587_20260629112342_1ae82694
+Commenter: Partnership for Innovation and Empowerment (PIE)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:33:30
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Brady J. Buckner, President, Partnership for Innovation and Empowerment (PIE)
+- **Stakeholder type:** Advocacy Group / nonprofit community organization
+- **Credentials or expertise mentioned:** PIE is a 501(c)(3) nonprofit working directly with Black and low-income communities; healthcare access is described as a persistent community issue.
+
+## 2. EXECUTIVE SUMMARY
+
+PIE strongly supports CMS-0062-P as a fairness and health equity reform that can modernize PA for drugs and reduce delays for low-income and minority patients. It asks CMS to finalize ePA for medical and pharmacy benefit drugs, require 24-hour decisions for all drugs, strengthen plain-language denial notices, expand meaningful public reporting, and address step therapy harms.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; GENERAL.
+- **Regulatory citations mentioned:** None specifically cited beyond CMS-0062-P.
+- **Standards referenced:** Electronic prior authorization; APIs generally; no named FHIR IG or NCPDP standard cited.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Current PA relies on phone calls, faxes, and paper forms, disproportionately burdening community health centers and small practices serving low-income and minority patients.
+- **Specific request:** Finalize ePA across medical and pharmacy benefits, enable real-time coverage information, electronic submission, and status tracking, and provide technical support for smaller safety-net providers.
+
+**Topic 2: Drug PA decision timelines and oversight**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** A 72-hour standard timeframe remains too long for people who cannot afford missed doses, work disruptions, health crises, or avoidable emergency care.
+- **Specific request:** Require PA decisions within 24 hours for all drugs and monitor whether faster decision rules are being used to accelerate denials.
+
+**Topic 3: Denial justifications**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify / strengthen
+- **Rationale:** Vague denials leave families and providers without actionable information for appeals or corrections.
+- **Specific request:** Require detailed, plain-language justifications for every denial, including initial denials, delivered simultaneously to provider and patient.
+
+**Topic 4: Payer reporting and public transparency**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** API usage alone does not show whether patients receive medications; aggregate reporting can hide disparities.
+- **Specific request:** Pair API usage data with patient/provider experience metrics, denial rates, appeal overturn rates, and time from PA request to treatment; publish a useful annual public report; require Medicare Part D plan-level public PA metrics broken out by market, brand/generic, therapeutic area, initial denials, and step therapy.
+
+**Topic 5: Step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Oppose harmful uses / modify
+- **Rationale:** Step therapy forces patients to fail on cheaper alternatives and compounds disparities.
+- **Specific request:** Do not permit MA plans to use step therapy; collect and release data on MA Part B drug PA use; require plans to honor completed step therapy across plan changes; require clear disclosure and navigable appeals/exceptions.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S14:** Supports ePA implementation across both benefit channels and asks CMS to support smaller safety-net providers.
+- **S16/S17:** Requests detailed, plain-language denial reasons for every denial, including initial denials, delivered to patients and providers.
+- **S20/S43:** Requests 24-hour decisions for all drug PA requests, not only urgent cases.
+- **S29/S34/S35:** Requests API usage metrics paired with patient- and provider-experience measures, denial/appeal rates, and annual public reporting.
+- **S66-S82:** Responds to step therapy RFI topics by opposing MA step therapy, supporting data transparency, portability of completed steps, disclosure, and accessible exceptions.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA requirements for medications across medical and pharmacy benefits.
+2. Provide real technical support to smaller and safety-net providers.
+3. Require PA decisions within 24 hours for all drugs.
+4. Monitor denials to ensure faster timelines do not increase unfair denial rates.
+5. Require detailed plain-language denial reasons for every denial and send them to both patient and provider.
+6. Publish annual public metrics that include denial rates, appeal overturn rates, and time from request to treatment.
+7. Require Medicare Part D plan-level public PA metrics with meaningful breakouts.
+8. Prohibit MA step therapy or, at minimum, require transparent data and patient protections.
+9. Require portability of completed step therapy across plan changes.
+10. Require clear disclosure and usable appeals/exceptions for step therapy.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed medication access, inequitable burden on Black and low-income communities, vague denial letters, inadequate reporting granularity, and step therapy delays.
+- **Potential negative impacts cited:** Missed doses, missed work, health crises, emergency visits, denied care, and hidden disparities.
+- **Implementation barriers mentioned:** Safety-net providers' limited staff and systems; outdated paper/fax/phone workflows.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No specific numeric studies cited; the comment uses community experience and placeholder source markers.
+- **Studies or research referenced:** None identified by name.
+- **Examples provided:** Community members prescribed medication and then waiting indefinitely; step therapy resets after plan changes.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Black and low-income communities, patients, community health centers, small practices, safety-net providers, Medicare Part D enrollees, MA enrollees, advocates, and policymakers.
+- **Economic implications:** Faster and fairer PA may avoid missed work and emergency room costs; reporting may expose disparities.
+- **Technical feasibility:** Supports ePA and real-time information but requests technical support for smaller providers.
+- **Patient care impact:** Strongly positive if it reduces waiting, improves transparency, prevents step therapy resets, and enables access to prescribed medications.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with requests for stronger patient protections
+- **Tone:** Advocacy-focused, direct, equity-centered
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Giving providers real-time access to coverage information... is not just a technology upgrade. It is a fairness issue." - Context: Support for ePA.
+2. "A three-day wait can mean a missed work shift, a health crisis, or an emergency room visit..." - Context: Request for 24-hour drug PA decisions.
+3. "Aggregated data lets disparities hide. We need the details." - Context: Reporting metrics.
+4. "That reset serves no legitimate clinical purpose." - Context: Requiring patients to repeat step therapy after plan changes.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests 24-hour decisions for all drugs and real rollout support.
+- [x] **COST-RESOURCES** - Notes limited staff and systems among safety-net providers and economic consequences for patients.
+- [x] **PROVIDER-BURDEN** - Focuses on phone/fax/paper burden for small practices and CHCs.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Central theme involving Black and low-income communities.
+- [x] **TECHNICAL-FEASIBILITY** - Supports ePA but asks for technical support.
+- [ ] **STANDARDS-MATURITY** - Not addressed in standards detail.
+- [x] **PATIENT-ACCESS** - Main concern is timely medication access.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **STAKEHOLDER-COORDINATION** - Limited to provider support and CMS oversight.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Supports ePA across both benefit pathways.
+- [x] **TRANSPARENCY** - Strong focus on denials, public reporting, and step therapy disclosure.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Critiques phone, fax, paper, and opaque step therapy processes.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Partnership for Innovation and Empowerment | 1310 Eastern Avenue NE, Washington, DC  20019 | pieus.org  
+ 
+June 15, 2026 
+ 
+Centers for Medicare and Medicaid Services 
+Department of Health and Human Services 
+Submitted via Regulations.gov | Docket No. CMS-0062-P 
+ 
+Re: Comments in Support of the 2026 CMS Interoperability Standards and Prior 
+Authorization for Drugs Proposed Rule (CMS-0062-P) 
+Dear Administrator Oz and Members of the CMS Team: 
+My name is Brady J. Buckner, and I am President of the Partnership for Innovation and 
+Empowerment (PIE), a 501c3 Nonprofit. PIE works directly with Black and low-income 
+communities, and healthcare access is one of the most persistent issues we hear about from 
+the people we serve. We have sat in rooms with community members who described the same 
+experience over and over: their doctor prescribed a medication, and then they waited. And 
+waited. And sometimes they just never got it. (source) 
+That is why we are writing today to express our strong support for this proposed rule and to offer 
+several recommendations for strengthening it. 
+I. Electronic Prior Authorization: We Are Fully Behind It 
+PIE supports CMS's proposal to require electronic prior authorization (ePA) for medications 
+across both the medical and pharmacy benefit. (source) Right now, prior authorization for many 
+drugs still runs on phone calls, faxes, and paper forms. That is a problem for any provider, but it 
+is a much bigger problem for the community health centers and small practices serving low-
+income and minority patients, who simply do not have the staff or systems to fight a slow, 
+outdated bureaucracy. 
+Giving providers real-time access to coverage information, letting them submit PAs 
+electronically, and allowing them to track request status is not just a technology upgrade. It is a 
+fairness issue. We urge CMS to finalize this requirement and to provide real technical support 
+for smaller, safety-net providers during the rollout. 
+II. Timelines a...

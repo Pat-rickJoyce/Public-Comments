@@ -1,0 +1,149 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0528_20260629112014_ccf5e468
+Commenter: National Society of Genetic Counselors (NSGC)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:26:17
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Society of Genetic Counselors (NSGC); signed by Carrie Haverty, MS, CGC, NSGC President.
+- **Stakeholder type:** Professional Association; Healthcare Provider representative.
+- **Credentials or expertise mentioned:** NSGC represents genetic counselors and describes genetic counselors as clinicians with graduate-level training in medical genetics and counseling, certified by the American Board of Genetic Counseling or the American Board of Medical Genetics and Genomics.
+
+## 2. EXECUTIVE SUMMARY
+
+NSGC argues that prior authorization requirements for genetic laboratory testing can cause measurable patient harm, impose unreimbursed burden on genetic counselors, and fail when reviewers lack genetics expertise. It recommends using genetic counselor involvement in test-order review and payer policy development as a better utilization-management strategy, while supporting Medicare recognition of genetic counselors and pilots on pre-test counseling effects.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; GENERAL/RFIs on laboratory tests; indirectly relevant to electronic PA technology but not tied to a specific proposed FHIR/NCPDP provision.
+- **Regulatory citations mentioned:** None specifically cited.
+- **Standards referenced:** CPT code 96041; electronic prior authorization APIs; FHIR-based interoperability standards; NCCN guidelines; CPIC guidelines.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Patient harm from genetic test prior authorization**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** NSGC cites studies showing denials reduce testing completion and may block tests with high diagnostic yield, leading to missed diagnoses and delayed treatment changes.
+- **Specific request:** CMS should recognize the clinical harm from unjustified genetic testing PA and consider alternatives that do not delay clinically indicated testing.
+
+**Topic 2: Administrative burden and Medicare reimbursement gap**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Genetic counselors spend time on documentation, appeals, and payer communications but lack Medicare provider status and cannot bill CMS for this work. CPT code 96041 reflects this administrative work in other payer contexts but is not covered by CMS.
+- **Specific request:** CMS should support the Access to Genetic Counselor Services Act to establish Medicare recognition and reimbursement for genetic counselors.
+
+**Topic 3: Laboratory Benefit Managers and coverage coordination**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** NSGC states LBMs can impose mandatory PA for all genetic tests, require ordering clinicians to submit documentation, create conflicts of interest, and cause coverage gaps when genetic counseling services are omitted from replacement policies.
+- **Specific request:** CMS should consider LBM transparency, denial patterns, conflicts of interest, and coordination failures affecting services such as CPT code 96041.
+
+**Topic 4: Genetic counselor involvement as process improvement**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** NSGC cites evidence that genetic counselor involvement reduces inappropriate ordering, improves diagnostic rates, creates economic efficiencies, improves provider ordering practices, and keeps payer policies aligned with current clinical guidelines.
+- **Specific request:** CMS should promote genetic counselor test-order review, embedded genetic counselor roles in payer policy teams, and pilot programs evaluating pre-test counseling effects on utilization and cost.
+
+**Topic 5: Limits of technology-only prior authorization solutions**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** NSGC welcomes technology that streamlines PA submission but argues that APIs or FHIR-based standards cannot solve reviewer knowledge gaps or the lack of Medicare reimbursement for qualified genetic counselors.
+- **Specific request:** CMS should pair technology solutions with workforce and reimbursement reforms that enable genetic counselors to evaluate test appropriateness at the point of care.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** NSGC responds to the general RFI questions on laboratory tests, including patient-care impact, provider burden, LBMs, process improvements, technology gaps, and workforce effects. The response emphasizes genetic testing and genetic counselor involvement rather than the drug PA API provisions.
+
+## 6. RECOMMENDATIONS
+
+1. Treat unjustified prior authorization for genetic tests as a source of measurable patient harm.
+2. Support the Access to Genetic Counselor Services Act to recognize genetic counselors as Medicare providers.
+3. Consider pilot programs examining pre-test genetic counseling effects on downstream utilization and cost.
+4. Promote genetic counselor involvement in genetic test-order review as an evidence-based utilization-management alternative.
+5. Encourage payer policy teams to include genetic counselors so genetic testing policies remain aligned with current evidence and guidelines.
+6. Improve transparency and oversight of LBMs, including denial rates, ownership incentives, and effects on related genetic counseling coverage.
+7. Ensure technology solutions do not substitute for subject-matter expertise in genetic testing review.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Denial or delay of clinically indicated genetic testing; payer reviewer lack of genetics expertise; unreimbursed genetic counselor administrative work; LBM denial and coordination problems; Medicare nonrecognition of genetic counselors.
+- **Potential negative impacts cited:** Missed diagnoses, delayed changes in medical management, reduced test completion, inappropriate denial of high-yield testing, administrative dissatisfaction, and weakened access to genomic healthcare.
+- **Implementation barriers mentioned:** Lack of Medicare provider status, no CMS coverage for CPT code 96041, inadequate payer genetics expertise, opaque LBM incentives, fragmented policies, and technology solutions that do not address workforce or reviewer knowledge gaps.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Nearly 200,000 genetic tests on the clinical global market; 10 new tests introduced daily; in a Texas pediatric Medicaid study, test completion was 37.8% after denial versus 74.2% after approval, and diagnostic yield was 26.7% after denial versus 18.7% after favorable outcomes; among 801 pediatric patients denied testing, 54% later had diagnostic or candidate findings and 50% of confirmed findings led to immediate management changes; approximately 7,000 certified genetic counselors in the United States; one LBM reportedly denied nearly 20% of PA requests compared with about 7% for MA plans generally.
+- **Studies or research referenced:** Streff et al.; Zion et al.; AMA RUC materials for CPT 96041; Lin et al.; Lockhart et al.; Phillips and Deverka; ProPublica/Capitol Forum reporting; Cook et al.; Riley et al.; Erali et al.; Baxter et al.
+- **Examples provided:** Cleveland Clinic genetic counselor-gated ordering saved $1,531,913 over two years; patients who met with a genetic counselor had 31-fold greater odds of receiving eligibility-appropriate testing; payer policy genetic counselors initiated 115 of 138 policy actions across 50 genetic testing policies.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Genetic counselors, patients needing genetic testing, pediatric Medicaid patients, Medicare beneficiaries, ordering clinicians, payers, LBMs, health plans, CMS, and genetic testing laboratories.
+- **Economic implications:** Prior authorization creates unreimbursed administrative labor for genetic counselors and may not deliver cost-containment benefits. Genetic counselor-led review can reduce inappropriate testing and generate savings.
+- **Technical feasibility:** Electronic PA APIs and FHIR-based standards may improve submission speed, but NSGC argues technology alone cannot resolve clinical appropriateness review or reimbursement gaps.
+- **Patient care impact:** The comment presents prior authorization as a cause of missed or delayed diagnoses and delayed management changes, especially where genetic testing is clinically indicated.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional, evidence-based, and critical of current PA approaches
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "unjustified prior authorization requirements have been found to cause measurable patient harm" - Context: Frames NSGC’s central objection to genetic test PA.
+2. "coverage criteria were filtering out the very tests most likely to produce diagnoses" - Context: Summarizes the pediatric Medicaid evidence cited by NSGC.
+3. "prior authorization technology alone" - Context: Introduces NSGC’s argument that APIs cannot solve the underlying workforce and expertise problems.
+4. "excluded from the Medicare reimbursement pathway" - Context: Describes the Medicare recognition gap for genetic counselors.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - NSGC discusses unreimbursed genetic counselor labor, CPT code 96041, administrative costs, and documented savings from genetic counselor-led test review.
+- [x] **PROVIDER-BURDEN** - The comment focuses on documentation, appeals, payer communications, and Medicaid navigation burdens placed on genetic counselors.
+- [x] **HEALTH-EQUITY** - The comment links PA barriers to reduced access to genomic healthcare and cites Medicaid patient evidence.
+- [x] **TECHNICAL-FEASIBILITY** - NSGC discusses electronic APIs and FHIR-based standards while explaining what technology cannot solve.
+- [x] **PATIENT-ACCESS** - The central patient impact is reduced or delayed access to clinically indicated genetic tests.
+- [x] **STAKEHOLDER-COORDINATION** - The comment recommends genetic counselor involvement in payer policy teams and coordinated recognition of counseling services.
+- [x] **TRANSPARENCY** - NSGC raises transparency concerns about LBM denial rates, incentives, and policy replacement effects.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses test-order review, policy development, documentation, appeals, and payer communications.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+200 Independence Avenue, SW  
+Washington, DC 20201 
+ 
+Submitted electronically via www.regulations.gov  
+ 
+Re: Request for Information on Prior Authorization Requirements for Laboratory 
+Tests and DMEPOS Items [CMS-0062-P] 
+ 
+Dear Dr. Oz:  
+On behalf of the National Society of Genetic Counselors (NSGC), thank you for the 
+opportunity to respond to the Request for Information on prior authorization for 
+laboratory tests contained in the proposed rule on Interoperability Standards and Prior 
+Authorization for Drugs (CMS-0062-P). NSGC is the leading voice of genetic 
+counselors, advocating for their various roles, advancing the practice of genetic 
+counseling, and fostering collaboration, education, and research to ensure equitable 
+access to genomic healthcare. With nearly 200,000 genetic tests on the clinical global 
+market and 10 new tests introduced every day, genetic counselors are uniquely 
+positioned to provide CMS with subject matter expertise on the clinical value of 
+appropriate, medically necessary genetic tests and the impact that prior authorization 
+requirements have on patient access to those tests. 
+Our responses to select questions from the request for information are below.  
+1. How do prior authorization requirements for laboratory tests currently 
+impact patient care and health care provider burden? 
+With respect to genetic testing, unjustified prior authorization requirements have been 
+found to cause measurable patient harm by reducing or delaying access to clinically 
+indicated tests that would otherwise yield actionable diagnoses. In a study of over 3,300 
+genetic test prior authorization requests for pediatric Medicaid patients in Texas, 
+unfavorable prior authorization outcomes reduced the likelihood that testing was 
+completed (37.8% completion after denial versus 74.2% after approval), andâ€”
+counterintuitivelyâ€”...

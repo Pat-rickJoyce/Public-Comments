@@ -1,0 +1,172 @@
+{
+  "comment_id": "CMS-2026-1255-0607_20260629112510_cfb874c1",
+  "analysis_date": "2026-06-29",
+  "commenter_information": {
+    "author_organization_name": "CVS Health; signed by Melissa Schulman, Senior Vice President, Government & Public Affairs",
+    "stakeholder_type": "Payer; PBM/Pharmacy/Provider organization; Health care company",
+    "credentials_or_expertise_mentioned": "CVS Health serves millions through local and digital channels and employs nearly 300,000 colleagues, including more than 40,000 physicians, pharmacists, nurses, and nurse practitioners."
+  },
+  "executive_summary": "CVS Health supports CMS's interoperability goals but argues the proposed October 1, 2027 compliance date is not feasible and should be no earlier than January 1, 2028, with at least six months after final technical specifications. It asks CMS to align the PA pathway for medical-benefit drugs with the eventual billing pathway, promote provider adoption, keep FHIR requirements clear and stable, create a version transition framework, preserve state/timeframe flexibility, and prioritize percentage-based reporting with contextual narrative. CVS also provides cybersecurity/resiliency recommendations focused on identity, data minimization, privileged access, governance, and HIPAA/NIST modernization.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "PA-DRUG-MEDICAL",
+      "PA-DRUG-PHARMACY",
+      "FHIR-IG-REQUIRED",
+      "PA-TIMEFRAMES-DRUGS",
+      "API-USAGE-METRICS",
+      "MEDICAL-VS-PHARMACY-BENEFIT",
+      "ONC-STANDARDS-UPDATE",
+      "GENERAL"
+    ],
+    "regulatory_citations_mentioned": [
+      "91 FR 19890",
+      "HIPAA"
+    ],
+    "standards_referenced": [
+      "FHIR Release 4 (R4)",
+      "FHIR APIs",
+      "Prior Authorization API",
+      "NCPDP SCRIPT",
+      "NCPDP Formulary and Benefit (F&B) Standard Version 60",
+      "NCPDP Real-Time Prescription Benefits Standard Version 13",
+      "Real-Time Benefit (RTB)",
+      "EHR systems",
+      "Payer-to-Payer consent management",
+      "NIST digital identity guidelines"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "Compliance timeline",
+      "provision_id": "IMPLEMENTATION-TIMELINE",
+      "position": "Modify",
+      "rationale": "Final build, scale implementation, end-to-end testing, and technical-specification finalization cannot be completed by October 1, 2027.",
+      "specific_request": "Set compliance no earlier than January 1, 2028, include at least six months after final technical specifications before enforcement, and align dates across federal interoperability and electronic transaction initiatives."
+    },
+    {
+      "topic": "Medical versus pharmacy benefit pathway",
+      "provision_id": "MEDICAL-VS-PHARMACY-BENEFIT; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY",
+      "position": "Clarify/Modify",
+      "rationale": "Medical-benefit drug workflows are less mature than pharmacy workflows, differ by code set and site of care, and may create duplication across PBMs and plans or ambiguous Part B/Part D routing.",
+      "specific_request": "Align the PA pathway for drugs under a medical benefit with the method used for eventual billing and clarify key definitions, including administrative documentation."
+    },
+    {
+      "topic": "Provider adoption of ePA APIs",
+      "provision_id": "FHIR-IG-REQUIRED; PA-DRUG-MEDICAL",
+      "position": "Modify",
+      "rationale": "Payer investment will not yield efficiency unless providers and EHR vendors adopt and integrate the ePA API at scale.",
+      "specific_request": "Use 2027 to validate non-drug ePA API implementation, encourage provider adoption, align payer and vendor compliance dates, and support vendor accountability for workflow integration."
+    },
+    {
+      "topic": "FHIR standards stability and versioning",
+      "provision_id": "FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE",
+      "position": "Modify",
+      "rationale": "A version-neutral requirement could be difficult to manage operationally, and future versions may introduce functional changes that strain compliance.",
+      "specific_request": "Retain a single named base FHIR standard in regulation, currently R4; specify capabilities of required IGs by API; reassess the January 1, 2028 expiration date based on functional changes; and provide clear transition periods."
+    },
+    {
+      "topic": "NCPDP version transition framework",
+      "provision_id": "PA-DRUG-PHARMACY; ONC-STANDARDS-UPDATE",
+      "position": "Clarify/Modify",
+      "rationale": "Stakeholders need predictable current, previous, and preview version rules and notice of breaking changes.",
+      "specific_request": "Identify active versions such as NCPDP F&B V60 and RTPB V13, use a major/minor/patch methodology, set SCRIPT compliance to 2028, and accompany future IG updates with testing, FAQs, guidance, and transition periods."
+    },
+    {
+      "topic": "24-hour turnaround time and clock pauses",
+      "provision_id": "PA-TIMEFRAMES-DRUGS",
+      "position": "Oppose/Modify",
+      "rationale": "State Medicaid timeframes vary, medical-benefit drug workflows may need additional clinical data, and compressed timelines could increase administrative denials and appeals.",
+      "specific_request": "Do not expand the 24-hour TAT beyond current scope; if CMS expands it, delay compliance to no earlier than January 1, 2028; start the clock only after a complete request and confirmed coverage pathway; allow clock pauses when clinically necessary information has been requested but not received."
+    },
+    {
+      "topic": "Prior authorization reporting metrics",
+      "provision_id": "API-USAGE-METRICS; TRANSPARENCY",
+      "position": "Modify",
+      "rationale": "Raw counts lack context, enable misleading comparisons across plans of different sizes, and average/median review time may add burden without meaningful value.",
+      "specific_request": "Prioritize percentage-based reporting, allow contextual narrative including top denial reasons, remove average and median standard drug PA review time reporting, and address differing definitions across states before expanding reporting."
+    },
+    {
+      "topic": "Healthcare resiliency and cybersecurity RFI",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "Health care faces increasing cyber threats and fragmented regulatory requirements while sharing large volumes of data for claims and care support.",
+      "specific_request": "Reduce reliance on static identifiers such as SSN/date of birth; support changeable assignable identifiers; govern data sharing connections and minimize data exchange; require privileged access management; require technology governance such as asset inventory, change management, and recovery testing; support digital consumer identity and HIPAA/NIST modernization; create a payer-to-payer consent safe harbor for authenticated online workflows."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "S1",
+      "summary": "Supports clear required FHIR standards but asks CMS to retain stable named standards and avoid operationally difficult version neutrality."
+    },
+    {
+      "solicitation": "S2",
+      "summary": "Recommends naming active standard versions, including FHIR R4 and NCPDP F&B V60/RTPB V13."
+    },
+    {
+      "solicitation": "S3",
+      "summary": "Requests a clear lifecycle transition framework for current, previous, and preview versions, including major/minor/patch signaling and transition periods."
+    },
+    {
+      "solicitation": "S12",
+      "summary": "Describes significant operational and technical challenges of expanding the Prior Authorization API to medical-benefit drugs."
+    },
+    {
+      "solicitation": "S15",
+      "summary": "Requests aligning the PA pathway with the eventual billing method because medical and pharmacy benefit distinctions are immature and variable."
+    },
+    {
+      "solicitation": "S18",
+      "summary": "Warns mandatory FHIR IG implementation can impose undue burden unless standards are stable, scoped to necessary capabilities, and transition rules are clear."
+    },
+    {
+      "solicitation": "S20",
+      "summary": "Opposes expanding the 24-hour turnaround requirement and urges preservation of state pend periods and flexibility when information is incomplete."
+    },
+    {
+      "solicitation": "S21",
+      "summary": "States October 1, 2027 is infeasible and recommends compliance no earlier than January 1, 2028 with six months after technical specifications."
+    },
+    {
+      "solicitation": "S22",
+      "summary": "Requests SCRIPT compliance in 2028 to allow adequate implementation time and alignment with other NCPDP updates."
+    },
+    {
+      "solicitation": "S29",
+      "summary": "Recommends percentage-based reporting over raw counts and contextual narrative to reduce misinterpretation."
+    },
+    {
+      "solicitation": "S34",
+      "summary": "Raises reporting timing and definitional concerns tied to state variability and Medicare API reporting experience."
+    },
+    {
+      "solicitation": "S35",
+      "summary": "Supports contextual reporting and warns against misleading cross-payer comparisons."
+    },
+    {
+      "solicitation": "S60-S65",
+      "summary": "Addresses standards update/versioning process by requesting active versions, transition guidance, testing, FAQs, and reassessment of expiration dates."
+    },
+    {
+      "solicitation": "S66-S82",
+      "summary": "Responds to the healthcare resiliency RFI with identity, data minimization, privileged access, governance, and HIPAA/NIST modernization recommendations."
+    }
+  ],
+  "themes": [
+    "IMPLEMENTATION-TIMELINE",
+    "TECHNICAL-FEASIBILITY",
+    "STANDARDS-MATURITY",
+    "MEDICAL-VS-PHARMACY-BENEFIT",
+    "EXISTING-WORKFLOWS",
+    "API-USAGE-METRICS",
+    "PRIVACY-SECURITY",
+    "STAKEHOLDER-COORDINATION"
+  ],
+  "overall_position": "Support with substantial modifications and timeline delay.",
+  "priority_level": "High",
+  "notes": "Major payer/PBM/provider-organization perspective emphasizing operational feasibility, provider adoption, version stability, and Medicaid/state variability.",
+  "commenter": "CVS Health",
+  "organization": "CVS Health",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

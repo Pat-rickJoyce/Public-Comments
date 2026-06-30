@@ -1,0 +1,158 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0527_20260629112407_a440f7ad
+Commenter: American Association of Bioanalysts (AAB) and National Independent Laboratory Association (NILA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:26:17
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Association of Bioanalysts (AAB) and National Independent Laboratory Association (NILA); signed by Mark S. Birenbaum, Ph.D., Executive Director.
+- **Stakeholder type:** Professional Association; Healthcare Provider/Laboratory representative.
+- **Credentials or expertise mentioned:** AAB represents clinical laboratory directors, owners, managers, supervisors, medical technologists, medical laboratory technicians, and physician office laboratory technicians. NILA represents community, regional, and specialty clinical laboratories serving physician practices, hospitals, outpatient settings, skilled nursing facilities, and homebound patients.
+
+## 2. EXECUTIVE SUMMARY
+
+AAB and NILA urge CMS to reduce prior authorization barriers for clinical laboratory testing, emphasizing that delays can harm diagnosis, treatment, infectious disease management, and patient access. They recommend standardized payer requirements, interoperable electronic authorization workflows, recognition of enhanced test requisition forms as documentation, retrospective authorization after specimen collection, and better oversight of laboratory benefit managers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; GENERAL/RFIs concerning laboratory tests and prior authorization; indirectly TRANSPARENCY, PROVIDER-BURDEN, PATIENT-ACCESS themes.
+- **Regulatory citations mentioned:** None specifically cited.
+- **Standards referenced:** EHRs, laboratory information systems, electronic authorization systems, AI-driven platforms; no FHIR IG, NCPDP, HL7, or CFR standard is specifically referenced.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization burden and patient access for laboratory testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter states that laboratory prior authorization delays diagnosis and treatment, creates anxiety and repeat visits, may affect infectious disease treatment and antibiotic resistance, and imposes payer-specific administrative burdens on laboratories and providers.
+- **Specific request:** CMS should pursue policies that standardize prior authorization requirements, shorten and make turnaround times predictable, and prevent medically necessary laboratory testing from being delayed by administrative barriers.
+
+**Topic 2: Test requisition forms as supporting medical documentation**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** TRFs trigger laboratory testing but often lack sufficient medical necessity information unless enhanced with clinical indication, diagnosis codes, prior test history, comorbidities, medications, provider attestations, treatment intent, and patient-specific risk factors.
+- **Specific request:** CMS should explore pathways for MACs, MA plans, and other payers to recognize properly updated TRFs as sufficient documentation in appropriate circumstances and issue guidance on required TRF elements.
+
+**Topic 3: Retrospective authorization after specimen collection**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Laboratories often receive specimens after the ordering encounter and must test before specimen viability expires, making pre-collection authorization impractical. Denials based on collection date as date of service can force laboratories to test without payment assurance or risk losing the specimen.
+- **Specific request:** CMS should allow prior authorization requests to be submitted after specimen collection and should not tie authorization timing strictly to specimen collection date.
+
+**Topic 4: Laboratory Benefit Managers**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** LBMs may standardize some payer processes but are reported to increase administrative burden, medical necessity denials, and delays without improving payment processes or reducing complexity.
+- **Specific request:** CMS should improve oversight and transparency of LBMs and ensure utilization management remains patient-centered.
+
+**Topic 5: Automation and interoperability**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** EHR and laboratory-system integration could identify PA requirements at ordering, auto-populate payer forms, submit requests electronically, and track status. The commenter also notes that AI-driven tools may improve consistency, but fragmentation and manual appeals remain barriers.
+- **Specific request:** CMS should promote automated, interoperable prior authorization systems connecting payer systems, EHRs, and laboratory information systems.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** The comment responds to the general RFI topic concerning laboratory tests and prior authorization. It provides input on documentation, post-specimen collection authorization denials, LBMs, automation, workforce burden, and process improvements for laboratory testing.
+
+## 6. RECOMMENDATIONS
+
+1. Standardize prior authorization criteria and documentation requirements across payers.
+2. Promote automated and interoperable electronic authorization systems across payer systems, EHRs, and laboratory information systems.
+3. Recognize appropriately completed TRFs as valid supporting documentation where appropriate.
+4. Issue guidance identifying required TRF elements that can support medical necessity.
+5. Allow reasonable retrospective authorization processes after specimen collection.
+6. Permit laboratories to initiate or assist with prior authorization requests.
+7. Improve oversight and transparency of LBMs.
+8. Establish predictable and shorter authorization turnaround times.
+9. Use denial data and feedback loops to improve workflows and reduce unnecessary burden.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed diagnosis and treatment; administrative burden on laboratories and providers; inconsistent payer requirements; denials tied to specimen collection timing; LBM-related denials and complexity.
+- **Potential negative impacts cited:** Postponed procedures, repeat visits, treatment delays, anxiety, empiric antibiotic use without diagnostic testing, antibiotic resistance, workforce burnout, and denial of medically necessary testing based on payer-specific rules.
+- **Implementation barriers mentioned:** Fragmented payer rules, incomplete TRFs, lack of laboratory involvement in initial ordering encounters, specimen viability constraints, payer refusal to let laboratories initiate PA, manual appeals, peer-to-peer review, and post-service documentation requests.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Laboratory testing informs approximately 70 percent of clinical decision-making; Medicare Part B laboratory spending is less than one percent of total Medicare expenditures; 30-50 percent of many NILA members' testing services are provided to Medicare beneficiaries.
+- **Studies or research referenced:** No specific studies cited.
+- **Examples provided:** Diagnostic delays for genetically related disorders and serious conditions; infectious disease testing delays that may encourage empiric antibiotic treatment; TRF enhancements such as ICD codes, clinical indication fields, prior test history, provider attestations, and risk-factor documentation; denials where PA was not obtained before specimen collection.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clinical laboratories, ordering providers, patients, Medicare beneficiaries, MACs, MA plans, other payers, LBMs, EHR vendors, laboratory information system vendors, and public health stakeholders.
+- **Economic implications:** Laboratories may perform medically necessary tests without payment assurance, face increased administrative costs, and divert staff from patient care. Standardization and automation could reduce duplicative record requests and administrative expense.
+- **Technical feasibility:** The commenter views automation as feasible and beneficial if integrated with EHRs and laboratory systems, but notes unresolved fragmentation across payers and manual appeals processes.
+- **Patient care impact:** Delays may postpone diagnosis and treatment, disrupt infectious disease management, and create unequal access depending on payer rules.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional, collaborative, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Laboratory testing informs approximately 70 percent of clinical decision-making" - Context: Used to explain the central role of labs despite their small share of Medicare spending.
+2. "prior authorization for laboratory testing can delay diagnosis and treatment" - Context: Supports the commenter’s concern about patient care impacts.
+3. "the TRF alone often does not have enough information on it to determine medical necessity" - Context: Explains why enhanced TRFs and CMS guidance are needed.
+4. "date of service should not be tied to specimen collection" - Context: Supports the request for retrospective authorization after specimen collection.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - The comment describes uncompensated testing risk, administrative expense, and staff time diverted from patient care.
+- [x] **PROVIDER-BURDEN** - Laboratories and providers face payer-specific requirements, documentation requests, appeals, and post-service record demands.
+- [x] **HEALTH-EQUITY** - The commenter notes that access to medically necessary testing can vary solely by plan or payer requirements.
+- [x] **TECHNICAL-FEASIBILITY** - The comment discusses EHR/laboratory system automation, payer fragmentation, and manual appeal limitations.
+- [x] **PATIENT-ACCESS** - The central concern is that prior authorization delays laboratory testing, diagnosis, and treatment.
+- [x] **STAKEHOLDER-COORDINATION** - The recommendations require coordination among CMS, MACs, MA plans, other payers, laboratories, providers, LBMs, and vendors.
+- [x] **TRANSPARENCY** - The comment requests clear, standardized medical necessity policies, TRF documentation expectations, and LBM oversight.
+- [x] **EXISTING-WORKFLOWS** - The commenter emphasizes practical workflow issues around ordering, specimen collection, TRFs, laboratory receipt of specimens, and post-service documentation.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+National Independent Laboratory Association 
+906 Olive Street, Suite 1200, St. Louis, MO 63101-1448 
+Phone: 314-241-1445 | Email: nila@nila-usa.org | Website: www.nila-usa.org  
+ 
+National Independent Laboratory Association 
+906 Olive Street, Suite 1200, St. Louis, MO 63101-1448 
+Phone: 314-241-1445 | Email: nila@nila-usa.org | Website: www.nila-usa.org  
+ 
+June 15, 2026 
+ 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Re: Request for Information: Laboratory Tests and Durable Medical Equipment, 
+Prosthetics, Orthotics, and Supplies Items (CMS-0062-P) 
+ 
+Dear Administrator Oz: 
+ 
+On behalf of the American Association of Bioanalysts (AAB) and the National 
+Independent Laboratory Association (NILA), which represent regional and community 
+clinical laboratories across the United States, we appreciate the opportunity to respond 
+to the Centers for Medicare & Medicaid Servicesâ€™ (CMS) Request for Information 
+regarding prior authorization requirements and barriers impacting patient access to 
+essential clinical laboratory services. 
+ 
+AAB, founded in 1956, is a professional association representing bioanalysts (clinical 
+laboratory directors, owners, managers, and supervisors), medical technologists, 
+medical laboratory technicians, and physician office laboratory technicians. 
+ 
+NILA, a special interest group of AAB, represents community, regional, and specialty 
+clinical laboratories that work with physician practices, hospitals, outpatient care 
+settings, skilled nursing facilities, and homebound patients. NILA members are 
+community-based businesses that range in size from small to large multi-state regional 
+laboratories. For most NILA members, 30-50 percent of their testing services are 
+provided to Medicare beneficiaries. NILA laboratories are CLIA certified and, where 
+appropriate, state licensed and provide a full range of traditional testing servic...

@@ -1,0 +1,192 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0500
+Commenter: Crohn's & Colitis Foundation
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:34:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Crohn's & Colitis Foundation, signed by Laura D. Wingate, Chief Education, Support, & Advocacy Officer
+- **Stakeholder type:** Advocacy Group (patient advocacy, disease-specific nonprofit)
+- **Credentials or expertise mentioned:** Represents hundreds of thousands of patients with IBD (Crohn's disease and ulcerative colitis); cites survey data from 1,255 IBD patients, providers, and caregivers; extensive literature citations on step therapy and IBD outcomes.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The Crohn's & Colitis Foundation strongly supports the proposed rule's ePA framework but urges CMS to go further on step therapy reform—establishing federal guardrails requiring standardized exception processes, mandatory automatic approvals for deadline failures, continuity-of-care protections, specialist review of denials, and cross-plan/cross-year step therapy completion recognition. The Foundation documents that step therapy for IBD causes irreversible disease progression, contradicts clinical guidelines, and increases overall health system costs, citing extensive peer-reviewed literature and patient survey data.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, MEDICAL-VS-PHARMACY-BENEFIT, GENERAL (step therapy RFI)
+- **Regulatory citations mentioned:** 42 CFR § 423.578 (Part D step therapy exception process)
+- **Standards referenced:** HL7 FHIR (general support); NCPDP standards (general support for pharmacy benefit ePA)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for Drugs (General Support)**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** The current PA system causes serious harm to IBD patients; in Medicare Part D, IBD therapies subject to PA rose from 35% (2007) to 67% (2019); 97% of PA denials for adult IBD medications were eventually approved, but appeals took up to 127 days.
+- **Specific request:** Finalize the proposal to extend ePA to both medical and pharmacy benefit drugs; promote implementation that reduces duplicative documentation requests and minimizes manual workarounds.
+
+**Topic 2: Automatic Approval for Deadline Failures**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify (strengthen)
+- **Rationale:** Without a consequence for deadline failures, payers have little incentive to meet review timeframes; IBD patients suffer irreversible harm from delays.
+- **Specific request:** Require automatic approval when payers fail to meet applicable PA review deadlines.
+
+**Topic 3: Continuity-of-Care Protections**
+- **Provision ID:** GENERAL, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Modify (add requirement)
+- **Rationale:** Patients are forced to repeat step therapy when switching plans, when plans change formularies at plan year renewal, or when medical benefit drugs transition to pharmacy benefit (e.g., IV induction to subcutaneous maintenance). Biologic interruptions risk immunogenicity and loss of therapeutic response.
+- **Specific request:** Require continuity-of-care protections maintaining access during pending appeals and plan transitions; mandate new payers accept prior payer's step therapy completion determination; require cross-benefit and cross-plan-year recognition of step therapy completion.
+
+**Topic 4: Specialist Review of PA Denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify (strengthen)
+- **Rationale:** PA denials for IBD medications are frequently made by reviewers without gastroenterology expertise, contradicting clinical guidelines.
+- **Specific request:** Require PA denials to be reviewed by appropriately qualified specialists with relevant expertise in the condition for which treatment is requested.
+
+**Topic 5: Denial Communication Requirements**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify (strengthen)
+- **Rationale:** Current denial communications lack specificity to support efficient resubmission or appeal.
+- **Specific request:** Require denial communications to be sufficiently specific, timely, and operationally useful; include patient-specific clinical rationale (citing national medical society guidelines or peer-reviewed literature), alternative covered treatments, and description of appeal rights.
+
+**Topic 6: Public Reporting and Metrics**
+- **Provision ID:** API-USAGE-METRICS, GENERAL
+- **Position:** Support with additions
+- **Rationale:** Meaningful, interpretable PA data is needed for patients, advocates, providers, plans, and regulators to evaluate whether the rule is working.
+- **Specific request:** Strengthen public reporting to include step therapy-specific data: total exception requests, medications subject to step therapy, health indication, exception results (approvals/denials), reasons for denials, and denials overturned on appeal.
+
+**Topic 7: Step Therapy Reform (RFI Response)**
+- **Provision ID:** GENERAL
+- **Position:** Modify (comprehensive reform)
+- **Rationale:** Technological improvements alone are insufficient; step therapy causes irreversible disease progression, contradicts IBD clinical guidelines (AGA), compounded system costs (ER visits, hospitalizations, surgeries), and unsustainable physician administrative burden. 85% of IBD patients subjected to step therapy reported negative health outcomes. Biologics interrupted by step therapy can become permanently ineffective due to anti-drug antibody formation.
+- **Specific request:** Establish standardized federal exception process with 72-hour standard/24-hour emergency response requirements; define mandatory exemption criteria (prior failure, imminent irreversible harm, ADR risk, ADL impact, disease stability); develop CMS technology platform for standardized electronic step therapy submission across all payers; standardize step therapy information available to patients and providers in plain language; require cross-payer and cross-plan-year step therapy completion recognition.
+
+**Topic 8: Medical vs. Pharmacy Benefit Interoperability for IBD Therapies**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT, PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Clarify (specific concern)
+- **Rationale:** IBD biologics often cross benefit categories (IV induction under medical benefit → subcutaneous maintenance under pharmacy benefit; site-of-care mandates shift infusion drugs between settings). Non-interoperable benefit data causes payers to treat continuation of established therapy as if it were new therapy.
+- **Specific request:** Require pharmacy and medical benefit data to be interoperable so that therapy continuity is recognized across benefit categories.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The Foundation notes technical complexity of medical benefit drug PA but focuses on clinical quality concerns—specialist review requirements and continuity-of-care protections that the technical framework alone does not address.
+- **S15:** Addresses medical vs. pharmacy benefit distinction specifically in context of IBD biologics that cross benefit categories; urges interoperability of benefit data to prevent payers from treating therapy continuation as new.
+- **S16:** Calls for specific, patient-centered denial reasons citing national medical society guidelines and peer-reviewed literature; denial should identify the alternative covered treatment and describe appeal rights.
+- **S17:** Supports structured denial codes/reasons but notes specificity requirements must be clinically meaningful, not just procedurally compliant.
+- **S20:** Supports timeframes but requests automatic approval when deadlines are missed; calls for 72-hour standard and 24-hour emergency step therapy exception response requirements to align with PA timeframes.
+- **S29/S35:** Recommends step therapy-specific public reporting metrics (exception requests, results, denial reasons, appeals overturned).
+- **S66 (step therapy RFI):** Comprehensive response; calls for federal guardrails, standardized exception process, technology platform for electronic submission, cross-payer step therapy completion recognition, and continuity-of-care mandates.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA extension to both medical and pharmacy benefit drugs.
+2. Promote implementation reducing duplicative documentation and minimizing manual workarounds.
+3. Require automatic approval when payers fail to meet PA review deadlines.
+4. Require continuity-of-care protection maintaining access to existing therapy during pending appeals and plan transitions.
+5. Require PA denials reviewed by appropriately qualified specialists with relevant disease expertise.
+6. Require denial communications that are specific, timely, and operationally useful (citing guidelines, alternatives, and appeal rights).
+7. Strengthen public reporting to include step therapy-specific metrics.
+8. Expand vision to inform reduction of PA burden in Medicare fee-for-service.
+9. Establish standardized federal step therapy exception process with 72-hour (standard) / 24-hour (emergency) response requirements.
+10. Define mandatory step therapy exemption criteria (prior failure, imminent irreversible harm, ADR risk, ADL impact, disease stability).
+11. Develop CMS technology platform for standardized electronic step therapy submission across all payers.
+12. Require standardized plain-language step therapy information available to patients and providers across all payers.
+13. Mandate new payers accept prior payer's step therapy completion determination (automatic continuity).
+14. Require cross-benefit and cross-plan-year recognition of step therapy completion.
+15. Require pharmacy and medical benefit data interoperability to recognize therapy continuity across benefit categories.
+16. Extend the standardized step therapy exception process of 42 CFR § 423.578 to Medicaid, CHIP, and ACA exchange plans.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Step therapy causes irreversible disease progression in IBD patients; technology improvements alone are insufficient; biologic interruptions risk immunogenicity; plans require patients to repeat step therapy each plan year and across plan transitions; medical and pharmacy benefit data non-interoperability causes continuity failures.
+- **Potential negative impacts cited:** Irreversible intestinal damage (strictures, fistulas, perforations, surgery); anti-drug antibody formation making biologics permanently ineffective; increased ER visits, hospitalizations, and costs; unsustainable physician administrative burden; 85% of IBD step therapy patients reported negative health outcomes.
+- **Implementation barriers mentioned:** No standardized exception process across Medicaid, CHIP, ACA exchanges; proprietary payer forms and varied documentation requirements; non-interoperable medical and pharmacy benefit data.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** IBD therapies subject to PA in Medicare Part D rose from 35% (2007) to 67% (2019); 97% of PA denials for adult IBD medications eventually approved but appeals took up to 127 days; 85% of IBD patients subjected to step therapy reported negative health outcomes (Crohn's & Colitis Foundation national survey); AMA estimate of 12 hours/week per physician practice on step therapy/PA administrative burden; 1,255 IBD patients/providers/caregivers' sentiments attached.
+- **Studies or research referenced:** Choi et al. (2023) Inflammatory Bowel Diseases; Shah et al. (2022) Am J Gastroenterol; Kahn & Bousvaros (2022) J Pediatr Gastroenterol Nutr; Baidoun & Cares (2025) IBD; AMA 2025 PA survey; AGA Crohn's Disease guidelines; multiple step therapy cost studies (Mark et al. 2009; Farley et al. 2008; Panzer et al. 2005; Murawski & Abdelgawad 2005); Jordan et al. (2025) IBD (Crohn's & Colitis Foundation survey); immunogenicity studies (Thomas et al. 2015; Vaisman-Mentesh et al. 2020; Brun et al. 2022; Hanauer et al.); St-Pierre et al. (2024) on biologic drug holidays; Florenzo et al. (2024) on dupilumab step therapy; Joy et al. (2020) ACP position paper.
+- **Examples provided:** IV induction approved but subcutaneous maintenance denied for same biologic; patient forced to restart step therapy at plan year renewal despite stability; plans requiring repeat step therapy after formulary changes.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** IBD patients (especially pediatric and those on biologics), gastroenterologists, health plans/Medicaid/CHIP/ACA exchanges, pharmacies
+- **Economic implications:** Step therapy increases total health system costs despite short-term premium savings intent; increased ER visits, hospitalizations, and surgeries from therapy disruptions; documented cost increases even within same plan year from delays
+- **Technical feasibility:** Foundation supports FHIR-based ePA but emphasizes that technical infrastructure cannot substitute for substantive policy protections; calls for CMS-developed technology platform for step therapy standardization
+- **Patient care impact:** Very high — delays of up to 127 days for IBD PA appeals; irreversible disease progression; anti-drug antibody formation permanently reducing biologic efficacy; 25% increase in pediatric IBD prevalence over 15 years
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (of rule's ePA framework) with strong advocacy for additional protections
+- **Tone:** Professional, evidence-based, patient-advocacy-focused, urgent
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "A recent study revealed that more than 97% of the PA denials for adult IBD medications were eventually approved, but the appeals process took as long as 127 days." - Context: Documenting the systemic harm of the current PA process for IBD patients.
+2. "Technological improvements alone will be insufficient to reform this practice to the extent needed to ensure patients avoid negative consequences." - Context: Responding to the step therapy RFI; arguing that policy guardrails are necessary beyond digital workflows.
+3. "Removing a patient from a biologic medication overlooks the fact that many of these advanced therapies are highly immunogenic... the medication that once worked for a patient will no longer provide relief once the therapy is stopped, which only leads to unnecessary suffering for the patient and additional costs to the system." - Context: Scientific rationale for continuity-of-care mandates for biologics.
+4. "Medical decisions should remain in the hands of healthcare providers and their patients, not in the hands of insurance companies." - Context: Concluding statement articulating the Foundation's overarching position.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports finalization of ePA; requests continuity-of-care protections during transition periods and plan changes.
+- [x] **PATIENT-ACCESS** - Central theme: PA and step therapy delays cause irreversible IBD progression; 127-day appeal processes; automatic approval for deadline failures; continuity-of-care protections needed.
+- [x] **PROVIDER-BURDEN** - AMA-cited 12 hours/week per physician practice on step therapy/PA administrative burden; appeal burden redirects clinical staff from patient care.
+- [x] **TRANSPARENCY** - Calls for stronger public reporting on step therapy metrics; specific and clinically meaningful denial communications citing guidelines and alternatives.
+- [x] **HEALTH-EQUITY** - Highlights that Medicaid and CHIP populations are most vulnerable and often lack the standardized exception processes available under Part D (42 CFR § 423.578).
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Detailed concern about IBD biologics crossing benefit categories; IV-to-subcutaneous transitions; site-of-care mandates; interoperability needed between medical and pharmacy benefit data.
+- [x] **EXISTING-WORKFLOWS** - Documents fragmentation of step therapy exception processes across payers; proprietary forms; varied documentation requirements; phone/fax-based submissions.
+- [x] **STANDARDS-MATURITY** - Implicitly supports FHIR/NCPDP but emphasizes that standards alone are insufficient without substantive policy protections for patients.
+- [x] **REGULATORY-AUTHORITY** - Notes that Medicaid, CHIP, and ACA exchange plans often lack the standardized exception process of 42 CFR § 423.578; urges CMS to standardize across all programs.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Dr. Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, MD 21244
+
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and
+Issuers of Qualified Health Plans on the Federally Facilitated Exchanges [CMS-0062-P]
+
+The Crohn's & Colitis Foundation appreciates the opportunity to provide comments on the
+use of prior authorization (PA) and step therapy in coverage decisions for treatments of
+inflammatory bowel disease. The Crohn's & Colitis Foundation is a nonprofit organization
+dedicated to finding cures for Crohn's disease and ulcerative colitis and improving the
+quality of life for children and adults affected by these diseases...

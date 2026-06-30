@@ -1,0 +1,173 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0677_20260629112335_325fac0d
+Commenter: Ron Urwongse / Defacto Health
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:50:42
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Ron Urwongse; Defacto Health.
+- **Stakeholder type:** Technology Vendor / Other (health data and interoperability policy organization)
+- **Credentials or expertise mentioned:** The article credits reviewers from Arcadia, Leavitt Partners, Consumers' Checkbook, Serif Health, HTD, and Healthgrades. The author discusses payer and provider APIs, price transparency, provider directories, FHIR, patient access APIs, and policy implementation.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter argues that federal interoperability and transparency policies have created useful infrastructure but have not yet delivered an effective consumer healthcare experience because data are incomplete, inaccurate, hard to discover, and poorly standardized. The comment recommends stronger enforcement, performance standards, better join keys such as provider/network/plan identifiers, broader API coverage, public testing, commercial plan directory requirements, appointment APIs, digital insurance cards, and standards for Good Faith Estimates and Advanced Explanation of Benefits.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; ONC-STANDARDS-UPDATE; FF-SHOP-REQUIREMENTS; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations. The comment references the Affordable Care Act, 21st Century Cures Act, CMS-1717-F, CMS-9915-F, CMS-9115-F, the ONC Cures Act Final Rule, CMS-0057-F, CMS-1786-FC, the No Surprises Act, and TEFCA.
+- **Standards referenced:** FHIR APIs, USCDI, US Core, TEFCA, Patient Access API, Provider Directory API, machine-readable files, schema.org, SMART/digital insurance cards, Inferno testing, Individual Access Services, Argonaut scheduling implementation guides, Good Faith Estimate and Advanced EOB standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: APIs and Transparency Data Must Be Fit for Patient Use Cases**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** The commenter says current requirements focus on format compliance but do not ensure data quality, completeness, performance, discoverability, or practical support for patient use cases such as plan selection, provider selection, appointment booking, cost estimation, check-in, and personal data access.
+- **Specific request:** CMS should define performance standards tied to whether required APIs and data actually let patients accomplish these use cases.
+
+**Topic 2: Public Endpoint Discovery and Developer Access**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** The comment identifies poor endpoint discoverability, non-standard developer registration, unclear error codes, and limited commercial-line API availability as barriers to patient and third-party use.
+- **Specific request:** CMS should improve endpoint discovery, standardize developer access expectations, expand public reporting, and use testing tools to assess API readiness.
+
+**Topic 3: Data Quality Monitoring and Usage Accountability**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** The commenter argues that weak demand and weak enforcement have led payers and providers to implement minimum functionality. Metrics and accountability should focus on completeness, accuracy, and usability, not merely technical availability.
+- **Specific request:** CMS should monitor compliance, publicly test data for completeness and accuracy, create issue-reporting mechanisms, and publish directory accuracy and other usability measures.
+
+**Topic 4: Provider Directory and Network Identity Improvements**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The comment states that provider directories are inaccurate and that plan/network identity is ambiguous, limiting in-network provider search and plan comparison.
+- **Specific request:** Require commercial plans to publish Provider Directory APIs, support bulk FHIR provider directory publication, establish a universal network ID, include NPIs for all practitioners and organizations, and streamline provider directory submissions through a National Directory.
+
+**Topic 5: Price Transparency, GFE, and Advanced EOB Data Exchange**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter says negotiated-rate files and related transparency data suffer from missing identifiers, conflicting rates, zombie rates, missing facility fees, lack of network identifiers, and insufficient consumer-friendly service bundles.
+- **Specific request:** Increase enforcement, require explanations for conflicting rates, add usage files to filter out zombie rates, use network identifiers as join keys, standardize care bundles, pilot GFE/Advanced EOB exchange, and create an API for consumer-initiated GFE requests.
+
+**Topic 6: Broader Patient Access API Coverage**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support / Modify
+- **Rationale:** The comment notes that more than half of Americans are in plans not required to provide a Patient Access API and that gaps across lines of business limit consumer-facing tools.
+- **Specific request:** Expand API expectations across more insurance lines of business, including commercial coverage, and improve identity, login, refresh-token, and data aggregation workflows.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** The comment indirectly supports required implementation expectations where standards are needed to make APIs and machine-readable files usable for patient-facing applications.
+- **S2:** The comment highlights that conformity with current standards is not enough and that data quality, completeness, and use-case performance must also be addressed.
+- **S23:** The comment directly supports improved endpoint discoverability and describes lack of a national directory of endpoints as a barrier.
+- **S24:** The comment recommends reporting or exposing practical endpoint details needed by developers, including registration processes, error behavior, conformance, and availability by line of business.
+- **S29:** The comment suggests metrics should measure whether APIs and data support patient jobs-to-be-done, such as finding in-network providers, estimating costs, booking appointments, and accessing data.
+- **S30:** The comment discusses patient authorization and trusted app access but does not provide detailed privacy safeguards beyond identity and access improvements.
+- **S33:** The comment implies CMS should publicly publish endpoint and conformance information to improve discoverability and accountability.
+- **S34:** The comment does not specify a reporting frequency but supports ongoing monitoring, testing, and enforcement.
+- **S35:** The comment supports public reporting of data quality and accuracy measures, particularly for provider directories.
+- **S40:** The comment supports extending interoperability and directory expectations to commercial markets, relevant to FF-SHOP expansion and broader commercial coverage.
+- **S60:** The comment recommends ONC/CMS focus on use-case performance standards in addition to content and exchange format standards.
+- **S61:** The comment calls for public-private partnership and industry governance to align regulators, implementers, developers, payers, and providers.
+- **S62:** The comment recommends public testing tools such as Inferno and scalable conformance assessment.
+- **S66-S82:** The comment functions as a broad RFI response about the next phase of interoperability, including appointment scheduling, digital insurance cards, price transparency, patient access, and consumer healthcare shopping.
+
+## 6. RECOMMENDATIONS
+
+1. Define performance standards that measure whether APIs and data support specific patient use cases.
+2. Increase compliance monitoring and enforcement for payer/provider APIs and transparency files.
+3. Improve public API endpoint discoverability and standardize developer registration.
+4. Require commercial plans to publish Provider Directory APIs and support bulk FHIR directory access.
+5. Establish universal network and plan identifiers as join keys across TiC, Provider Directory, Patient Access, and related datasets.
+6. Require NPIs for every practitioner and organization in APIs where applicable.
+7. Establish provider directory accuracy standards, publish accuracy measures, and use incentives or penalties.
+8. Require providers to publish machine-readable directory data in schema.org format on their websites.
+9. Advance a National Directory and easier provider directory submission workflows.
+10. Require standards-based appointment search and booking APIs.
+11. Improve price transparency data through enforcement, issue tracking, explanations for conflicting rates, usage files, episode bundles, and GFE/Advanced EOB exchange pilots.
+12. Expand patient access and digital insurance card adoption, simplify identity/login flows, and support patient-controlled data aggregation.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Current APIs and files are hard to use, incomplete, inaccurate, poorly discovered, inconsistently enforced, and not aligned with patient decision workflows.
+- **Potential negative impacts cited:** Patients cannot confidently choose plans, find in-network providers, book timely care, estimate costs, avoid surprises, or reuse their own data; developers cannot reliably build consumer-facing tools; market competition remains limited.
+- **Implementation barriers mentioned:** Weak economic incentives, weak enforcement, data quality problems, non-standard developer registration, lack of endpoint directories, limited commercial coverage, provider directory inaccuracies, missing join keys, and immature GFE/Advanced EOB exchange standards.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Approximately 40% of insured individuals are in high-deductible plans; a 2022 survey found 64% of Americans had not shopped for healthcare by price and 58% would if information were disclosed ahead of time; a November 2024 Flexpa report and July 2024 Defacto Health report found a long tail of payer API compliance gaps; a November 2024 HHS OIG finding stated 37% of hospitals did not comply with price transparency requirements.
+- **Studies or research referenced:** George Akerlof's 1970 paper "The Market for Lemons"; Flexpa State of Patient Access API report; Defacto Health State of Provider Directory API report; HHS OIG hospital price transparency compliance review.
+- **Examples provided:** Expedia/Kayak/Zillow analogies; ghost networks; ambiguous plan and network names; zombie rates; provider appointment availability; high-deductible plan shopping; digital clipboard/check-in; use of identity providers such as CLEAR and ID.me.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, caregivers, app developers, payers, providers, employers, regulators, EHR vendors, QHINs, identity providers, hospitals, and health plans across public and commercial lines.
+- **Economic implications:** Better data could lower shopping friction, support high-value care selection, improve employer steering, reduce duplicate administrative work, and create a more competitive healthcare ecosystem. Implementation would require investment in data quality, APIs, endpoint publication, conformance testing, and enforcement.
+- **Technical feasibility:** The commenter views existing infrastructure as a foundation but says it needs improved standards, bulk access, discoverability, conformance testing, identity workflows, and join keys.
+- **Patient care impact:** Better APIs and data could improve plan choice, provider selection, appointment booking, cost predictability, check-in efficiency, access to personal health data, and confidence in care decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Supportive of interoperability goals but concerned about current execution.
+- **Tone:** Professional, policy-oriented, and technical.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "A gap persists between expectations and the reality of the consumer healthcare experience." - Context: Summary of why existing interoperability policy has not yet achieved its consumer goals.
+2. "The quality and availability of the data exposed by these machine-readable files and FHIR APIs needs to improve." - Context: Argument that data must be fit for use by patient-facing applications.
+3. "This will necessitate the existence and prevalence of join keys across data sets." - Context: Recommendation for provider, network, and plan identifiers.
+4. "Both government and industry need to look at the patient experience in its totality." - Context: Final call for policy and industry governance around patient jobs-to-be-done.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment discusses the next phase of interoperability and the need to build on existing policies, though it does not focus on the proposed October 1, 2027 compliance date.
+- [x] **COST-RESOURCES** - It discusses high-deductible consumers, costs of care, industry investment, and economic incentives for payers, providers, employers, and developers.
+- [x] **PRIVACY-SECURITY** - It addresses patient authorization, identity providers, portal/API login friction, and Individual Access Services, though privacy is not the main focus.
+- [x] **HEALTH-EQUITY** - The comment's consumer-access framing implicates access for patients who lack usable tools, though it does not specifically analyze underserved populations.
+- [x] **TECHNICAL-FEASIBILITY** - The comment identifies concrete API, performance, conformance, endpoint, bulk access, and data quality barriers.
+- [x] **STANDARDS-MATURITY** - It asks CMS/ONC to move beyond format standards toward performance standards, join keys, appointment APIs, and GFE/Advanced EOB exchange.
+- [x] **PATIENT-ACCESS** - Patient access to data and patient use of data for care decisions are central to the comment.
+- [x] **STAKEHOLDER-COORDINATION** - The comment calls for public-private partnership and coordination across regulators, developers, payers, providers, and industry associations.
+- [x] **TRANSPARENCY** - Price transparency, provider directories, plan shopping, and network transparency are major themes.
+- [x] **EXISTING-WORKFLOWS** - The comment evaluates current plan selection, provider selection, appointment booking, check-in, cost estimation, and data access workflows.
+- [x] **VENDOR-ECOSYSTEM** - Third-party app developers, API testers, EHR vendors, QHINs, identity providers, and data platforms are key affected stakeholders.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Empowering Patient Choice with Payer and
+Provider Data
+BY RON URWONGSE
+JANUARY 28, 2025
+POLICY AND REGULATION
+Special thanks to Aneesh Chopra, Chief Strategy Officer at Arcadia; Ryan Howells, Principal at
+Leavitt Partners; Eric Ellsworth, Director of Health Data Strategy at Consumersâ€™ Checkbook;
+Matthew Robben, Chief Technology Officer at Serif Health; Brendan Keeler, Interoperability and
+Data Liquidity Practice Lead at HTD; and Chris Schwartz, Senior Product Manager at
+Healthgrades for reviews and input.
+Closing the Consumer Experience Gap
+As the Trump administration begins its second week, the transition period presents an
+opportunity to reflect on our nationâ€™s progress in healthcare interoperability, to revisit the
+foundational principles behind key policies, and consider the path forward. Many of these
+initiatives were designed with the goal of improving the patient experience, and there has
+historically been bipartisan support for this objective. Significant strides have been made in
+the past two decades â€”EHR adoption goals have been achieved, payers and providers are
+implementing government-required APIs and machine-readable files, payers, and providers
+are expanding data exchange use cases, and TEFCA is establishing a common trust
+framework for data exchange. More stakeholders are embracing standards and operating on
+the same shared rails for healthcare interoperability.
+However, despite this progress, a gap persists between expectations and the reality of the
+consumer healthcare experience. Challenges remain, including misalignment between
+industry stakeholders and issues with data openness, completeness, and accuracy. In this
+post, we will explore four critical areasâ€”plan selection, provider selection, patient data
+access, and price transparencyâ€”and propose strategies to build on the advancements
+achieved thus far. In the following table, we review the key policies that addressed these use
+cases, alongside timely quotes ...

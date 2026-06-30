@@ -1,0 +1,210 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0519
+Commenter: National Council for Prescription Drug Programs (NCPDP)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:25:21
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Council for Prescription Drug Programs (NCPDP); signed by Lee Ann C. Stember, President and CEO; contact Paul Wilson, Technical Analyst, Standards Development.
+- **Stakeholder type:** Professional Association / Standards Development Organization.
+- **Credentials or expertise mentioned:** ANSI-accredited standards developer with more than 1,300 members across pharmacy, payer, PBM, vendor, government, manufacturer, and standards communities; developer of the SCRIPT, Formulary and Benefit, Real-Time Prescription Benefit, and Telecommunication standards.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+NCPDP supports CMS adoption of NCPDP SCRIPT, Formulary and Benefit (F&B), and Real-Time Prescription Benefit (RTPB) standards for pharmacy benefit drug prior authorization, but urges CMS to preserve the intended pharmacy-benefit scope of those standards. NCPDP asks CMS to remove the proposed payer requirement for SCRIPT PANotification, avoid naming newer NCPDP versions than the proposed versions, and extend pharmacy benefit compliance to at least 24 months after the final rule effective date, with consideration of a longer runway and extension process.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, MEDICAL-VS-PHARMACY-BENEFIT, FHIR-IG-REQUIRED (by contrast with NCPDP pharmacy standards), PA-DRUG-MEDICAL, PA-TIMEFRAMES-DRUGS, ONC-STANDARDS-UPDATE, GENERAL.
+- **Regulatory citations mentioned:** 45 CFR 170.205(b), 45 CFR 170.205(c), 45 CFR 170.205(u), 42 CFR 423.160; references CMS-0062-P, CMS-4189-P, CMS-0056-IFR.
+- **Standards referenced:** NCPDP SCRIPT Standard Version 2023011, SCRIPT ePA transactions, PANotification, NCPDP Formulary and Benefit Standard Version 60, NCPDP Real-Time Prescription Benefit Standard Version 13, NCPDP Telecommunication Standard Version F6, X12 270/271, CAQH CORE guidance, Direct Secure Messaging, ADT notifications.
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Use NCPDP Standards Only for Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY / MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Support / Clarify
+- **Rationale:** SCRIPT, F&B, and RTPB were purpose-built for pharmacy benefit products and related supplies, not medical services or benefit information outside the pharmacy benefit context.
+- **Specific request:** CMS should maintain a clear distinction between pharmacy benefit drugs and medical benefit drugs and avoid requiring NCPDP standards for medical-benefit workflows.
+
+**Topic 2: SCRIPT ePA for Pharmacy Benefit Drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** SCRIPT already governs Medicare Part D ePA and includes a comprehensive set of transactions for pharmacy benefit PA lifecycle functions. Aligning Medicaid, CHIP, and QHPs with an unexpired SCRIPT version would reduce burden across programs.
+- **Specific request:** Finalize use of an unexpired SCRIPT version for pharmacy benefit ePA, but with the scope and transaction set corrected as described for PANotification.
+
+**Topic 3: Remove Payer Support Requirement for PANotification**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** PANotification is a prescriber-to-pharmacy transaction intended to reduce duplicate PA submissions; payers neither send nor receive it and have no role in that workflow.
+- **Specific request:** Remove any requirement for impacted payers to support the SCRIPT PANotification transaction.
+
+**Topic 4: Preserve F&B and RTPB as Complementary Standards**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support / Clarify
+- **Rationale:** F&B provides formulary and utilization management information earlier in drug selection, while RTPB provides patient-specific benefit confirmation when drug, pharmacy, quantity, and days supply are known.
+- **Specific request:** Require both F&B and RTPB where applicable because each adds distinct provider value and RTPB does not eliminate the need for F&B.
+
+**Topic 5: RTPB Complexity for Medicaid, CHIP, and QHPs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify / Modify
+- **Rationale:** Some state Medicaid/CHIP programs and QHP issuers may not directly maintain claims adjudication infrastructure, NDC-level pricing logic, or real-time benefit calculation capabilities, often delegating those functions to PBMs or other administrators.
+- **Specific request:** CMS should account for delegated pharmacy benefit infrastructure and implementation complexity when setting requirements and timelines.
+
+**Topic 6: Do Not Advance Beyond Proposed NCPDP Versions**
+- **Provision ID:** ONC-STANDARDS-UPDATE
+- **Position:** Modify
+- **Rationale:** Industry is already mid-implementation of the proposed versions finalized for Medicare Part D, and naming newer versions would make current work obsolete and add costs.
+- **Specific request:** Do not finalize versions newer than SCRIPT 2023011, F&B Version 60, and RTPB Version 13.
+
+**Topic 7: Extend Implementation Timeline**
+- **Provision ID:** PA-DRUG-PHARMACY / IMPLEMENTATION-TIMELINE
+- **Position:** Modify
+- **Rationale:** A 24-month minimum was previously recommended for version transitions; CMS-0062-P creates net-new functionality for many Medicaid, CHIP, and QHP entities, which is more difficult than a version update.
+- **Specific request:** Extend the October 1, 2027 pharmacy benefit compliance date to no earlier than 24 months after the final rule effective date, and consider a longer runway and extension process.
+
+**Topic 8: Event Notifications and Step Therapy RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Support / Clarify
+- **Rationale:** Pharmacies are important participants in ADT notification workflows but often do not receive them today. F&B and RTPB already support several step therapy communication functions, while payer-to-payer exchange of step therapy requirements is not yet widely standardized.
+- **Specific request:** CMS should consider pharmacy inclusion in ADT workflows and collaborate with NCPDP if unmet step therapy exchange needs require new standards development.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** NCPDP supports applying NCPDP pharmacy benefit standards beyond Part D, including Medicaid, CHIP, and QHPs, to promote a consistent standard across programs.
+- **S15:** NCPDP stresses that there is no single source for communicating whether a drug is covered under medical or pharmacy benefit because benefit administration is bifurcated; medical and pharmacy benefit administrators each identify coverage and PA requirements for their domains.
+- **S19:** NCPDP indicates that Medicaid and CHIP RTPB implementation may be more complex because many programs do not maintain the adjudication and pricing infrastructure directly.
+- **S21/S22:** NCPDP requests at least 24 months after the final rule effective date for pharmacy benefit requirements, with consideration of a longer timeline because implementation is net-new for many impacted entities.
+- **S25:** NCPDP supports RTPB as part of the framework but notes it complements, rather than replaces, F&B because RTPB requires patient- and prescription-specific data.
+- **S28:** NCPDP recommends alignment with Medicare Part D versions and timelines and warns that requiring newer versions would disrupt active Part D implementation.
+- **S31:** NCPDP notes QHP issuers may face RTPB complexity when pharmacy benefit functions are delegated to PBMs or third-party administrators.
+- **S60/S61:** NCPDP supports the proposed versions and asks CMS not to name versions newer than SCRIPT 2023011, F&B v60, and RTPB v13.
+- **S66/S67:** NCPDP encourages CMS to include pharmacies in ADT event notification workflows and review NCPDP and Sequoia Project pharmacy interoperability materials.
+- **S72/S73:** NCPDP explains that F&B and RTPB can communicate step therapy information, but no widely adopted standard currently exchanges step therapy requirements and patient-specific documentation between payers.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize use of NCPDP SCRIPT, F&B, and RTPB for drugs covered under the pharmacy benefit.
+2. Preserve the pharmacy-benefit-only scope of NCPDP standards and avoid using them for medical services or medical benefit authorization workflows.
+3. Remove the requirement for impacted payers to support SCRIPT PANotification.
+4. Require both F&B and RTPB because they serve complementary functions.
+5. Recognize the implementation complexity faced by Medicaid, CHIP, and QHP issuers that delegate pharmacy benefit operations.
+6. Do not finalize NCPDP versions newer than SCRIPT 2023011, F&B v60, and RTPB v13.
+7. Extend the pharmacy benefit compliance date to no earlier than 24 months after the final rule effective date and consider a longer runway and extension process.
+8. Align the compliance schedule with other HHS/CMS transaction mandates, including Telecommunication Standard F6 and SCRIPT 2023011 transitions.
+9. Consider including pharmacies in ADT notification workflows.
+10. Collaborate with NCPDP if CMS identifies unmet step therapy exchange needs.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Misapplication of pharmacy standards outside pharmacy benefit workflows; inappropriate payer support requirement for PANotification; premature version advancement; insufficient implementation time for net-new impacted entities.
+- **Potential negative impacts cited:** Confusion about trading partner roles, unnecessary payer implementation burden, obsolete implementation investments, added development/testing/deployment costs, and delayed coordinated adoption across fragmented vendor ecosystems.
+- **Implementation barriers mentioned:** Delegated PBM/third-party administrator functions, lack of real-time benefit infrastructure in some Medicaid/CHIP/QHP environments, NDC-level pricing and adjudication needs, trading partner onboarding, testing, certification, staff training, and operational procedure development.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NCPDP has more than 1,300 members; F&B has been in use for more than 25 years; F&B files are often updated monthly and may be updated weekly; Part D dates include January 1, 2027 for F&B v60/RTPB v13 and January 1, 2028 for SCRIPT 2023011.
+- **Studies or research referenced:** NCPDP 2019 comments on CMS-4189-P recommending 24 months for SCRIPT ePA; NCPDP 2023 letter requesting adoption of F&B v60 with a 24-month phased timeline; CAQH CORE 2025 guidance on X12 270/271 for medical benefit drugs; NCPDP and Sequoia Project materials on pharmacy ADT notifications.
+- **Examples provided:** PANotification as prescriber-to-pharmacy, not payer workflow; F&B for early formulary/PA awareness and RTPB for patient-specific confirmation; delegated Medicaid/CHIP/QHP pharmacy benefit infrastructure.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers, Medicaid and CHIP agencies, QHP issuers, PBMs, pharmacies, prescribers, EHR vendors, intermediaries, pharmacy system vendors, and patients needing pharmacy benefit medications.
+- **Economic implications:** Avoiding newer versions prevents waste of current implementation spending; an extended timeline reduces duplicative transition costs and supports coordinated testing and deployment.
+- **Technical feasibility:** NCPDP standards are mature and widely used, but newly impacted entities may lack infrastructure and need more than the proposed runway.
+- **Patient care impact:** Correct use of F&B/RTPB can help prescribers identify PA needs and alternatives earlier, supporting medication access; pharmacy access to ADT notifications could improve medication reconciliation and continuity of care.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted modifications.
+- **Tone:** Professional, Technical, Collaborative.
+- **Priority level:** High.
+
+---
+
+## 11. KEY QUOTES
+
+1. "Maintaining this distinction is critical to ensuring consistent implementation and avoiding improper use of these standards." - Context: NCPDP explaining why pharmacy and medical benefit standards should not be conflated.
+2. "Payers are not a party to this transaction and have no role in its workflow." - Context: Objection to requiring payer support for SCRIPT PANotification.
+3. "The industry is actively transitioning to the currently proposed versions and is not prepared for a subsequent version mandate." - Context: Request not to name newer NCPDP versions in the final rule.
+4. "NCPDP urges CMS to extend the proposed October 1, 2027, compliance date for the pharmacy benefit requirements to no earlier than 24 months from the effective date of the final rule." - Context: Implementation timeline recommendation.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - NCPDP asks for at least 24 months after the final rule effective date, and possibly longer, due to net-new implementation burdens.
+- [x] **COST-RESOURCES** - Newer versions and inadequate timelines would create added development, testing, deployment, and obsolete implementation costs.
+- [x] **PROVIDER-BURDEN** - NCPDP argues alignment across programs and correct use of F&B/RTPB can reduce prescriber burden and avoid unnecessary PA work.
+- [ ] **PRIVACY-SECURITY** - Not a focus.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - Comment emphasizes real-time adjudication infrastructure, NDC-level data, PBM delegation, testing, and trading partner implementation requirements.
+- [x] **STANDARDS-MATURITY** - NCPDP describes SCRIPT, F&B, and RTPB as mature pharmacy benefit standards while warning against premature newer-version mandates.
+- [x] **PATIENT-ACCESS** - F&B/RTPB can help identify PA needs and alternatives earlier, supporting medication access.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Implementation requires coordination among payers, PBMs, vendors, intermediaries, prescribers, and pharmacies.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central theme; NCPDP stresses that pharmacy standards should remain scoped to pharmacy benefits.
+- [x] **TRANSPARENCY** - F&B and RTPB provide visibility into formulary, benefit, PA, step therapy, and patient-specific coverage information.
+- [x] **SMALL-PAYER-IMPACT** - QHPs and smaller or newly impacted entities may lack infrastructure and depend on PBMs/administrators.
+- [x] **EXISTING-WORKFLOWS** - Comment explains how SCRIPT, F&B, RTPB, X12 270/271, claims, and ADT workflows currently function.
+- [x] **VENDOR-ECOSYSTEM** - NCPDP emphasizes EHR, payer, PBM, pharmacy system, software developer, and intermediary implementation needs.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+National Council for Prescription Drug Programs, Inc.
+ 
+9240 E Raintree Dr, Scottsdale, AZ 85260
+ 
+480 -477-1000 | www.ncpdp.org  
+June 15 , 202 6 
+ 
+Centers for Medicare & Medicaid Services, 
+ 
+Department of Health and Human Services, 
+ 
+Submitted electronically via regulations.gov  
+ 
+Re: CMS -0062 -P  
+ 
+To Whom It May Concern:  
+ 
+The National Council for Prescription Drug Programs (NCPDP) is a not
+-for-profit American National Standards 
+Institute (ANSI) Accredited Standards Developer (ASD) consisting of more than 1,
+300 members representing 
+entities including, but not limited to, claims processors, data management and analysis vendors, federal and state 
+government agencies, insurers, intermediaries, pharmaceutical manufacturers, pharmacies, pharmacy benefit 
+managers, p rofessional services organizations, software and system vendors and
+ other parties interested in 
+electronic standardization within the pharmacy services sector of the healthcare industry. NCPDP provides a forum 
+wherein our diverse membership can develop business solutions, including ANSI
+-accredited standards and 
+guidance f or promoting information exchanges related to medications, supplies and services within the healthcare 
+system.  
+ 
+NCPDP appreciates the opportunity to provide comments on the proposed rule regarding the adoption of 
+standards to support electronic prior authorization (ePA), formulary and benefit (F&B) information exchange and 
+real-time prescription benefit (RTPB) trans
+actions for drugs covered under the pharmacy benefit....

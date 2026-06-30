@@ -1,0 +1,181 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0561_20260629112137_174c7f4d
+Commenter: National Community Pharmacists Association (NCPA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:25:26
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Community Pharmacists Association (NCPA); signed by Steve Postal, JD, Senior Director, Policy & Regulatory Affairs.
+- **Stakeholder type:** Professional Association; PBMs & Pharmacies; small business/community pharmacy representative.
+- **Credentials or expertise mentioned:** Represents 18,900 independent community pharmacies, including many long-term care pharmacies; members employ 235,000 individuals and provide pharmacy and clinical services.
+
+## 2. EXECUTIVE SUMMARY
+
+NCPA supports CMS's proposal to require NCPDP Formulary & Benefit v60, RTPB v13, and SCRIPT 2023011 for pharmacy-benefit drug prior authorization, but urges CMS not to mandate newer NCPDP versions in the final rule. NCPA asks CMS to extend the pharmacy-benefit compliance date to no earlier than 24 months after the final rule effective date, clarify the medical-vs-pharmacy benefit pathway, define actionable workflow responses and PA clock rules, and ensure pharmacists can participate in and initiate prior authorization workflows where appropriate.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; MEDICAL-VS-PHARMACY-BENEFIT; FHIR-IG-REQUIRED; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; GENERAL/RFIs; ONC-STANDARDS-UPDATE.
+- **Regulatory citations mentioned:** 45 CFR 170.205(b), 45 CFR 170.205(c), 45 CFR 170.205(u); references to CMS-0057-F and CMS-0056-F.
+- **Standards referenced:** NCPDP SCRIPT Standard Version 2023011; NCPDP Formulary & Benefit Standard Version 60; NCPDP Real-Time Prescription Benefit Standard Version 13; FHIR-based APIs; Da Vinci implementation guides; payer-to-payer APIs; ADT/event notifications.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: NCPDP standards and version adoption**
+- **Provision ID:** PA-DRUG-PHARMACY; ONC-STANDARDS-UPDATE
+- **Position:** Support / Modify
+- **Rationale:** NCPA supports adoption of the proposed NCPDP standards but says the industry is already transitioning to the named versions for Part D and is not prepared for a subsequent version mandate.
+- **Specific request:** Finalize no NCPDP versions newer than SCRIPT 2023011, F&B v60, and RTPB v13.
+
+**Topic 2: Pharmacy benefit implementation timeline**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** For non-Part D Medicaid, CHIP, and QHP payers, NCPDP SCRIPT ePA is net-new functionality requiring integrations, trading partner onboarding, testing, training, and operational changes.
+- **Specific request:** Extend the October 1, 2027 pharmacy-benefit compliance date to no earlier than 24 months after the final rule effective date.
+
+**Topic 3: Medical vs pharmacy benefit pathway clarity**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** CMS proposes two separate pathways, but pharmacists and other stakeholders need to know which pathway applies and receive actionable next steps to avoid misrouting, duplicate submissions, delays, and administrative burden.
+- **Specific request:** Clarify payer expectations for identifying the correct authorization pathway, producing actionable responses, and orchestrating workflows across FHIR and NCPDP processes.
+
+**Topic 4: Real-time benefit information and workflow integration**
+- **Provision ID:** PA-DRUG-PHARMACY; API-USAGE-METRICS
+- **Position:** Clarify
+- **Rationale:** Plan-level formulary files and real-time benefit responses are not operationally interchangeable; real-time responses should reflect adjudication processes that produce the same patient cost-sharing or utilization management determination as pharmacy claims.
+- **Specific request:** Clarify expectations for actionable, patient-specific benefit information in workflows and ensure modernization produces workflow outcomes rather than merely endpoints.
+
+**Topic 5: PA timeframes and the operational clock**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify
+- **Rationale:** Without clear rules for when a request is received, complete, stopped, corrected, or rerouted, public reporting may misstate operational performance and shift accountability to pharmacists who do not control documentation completeness.
+- **Specific request:** Define when the PA clock starts and stops, how incomplete requests are handled, and how iterative workflows, appeals, and peer-to-peer reviews should be treated.
+
+**Topic 6: Pharmacist role and patient participation**
+- **Provision ID:** GENERAL
+- **Position:** Modify / Clarify
+- **Rationale:** Pharmacists may be downstream dispensers who depend on prescriber documentation, but also may be clinical service providers responsible for documentation and submission.
+- **Specific request:** Recognize pharmacists' dual role, include pharmacists as participants in real-time benefit and PA workflows, and do not prevent pharmacists from initiating or submitting PA when they are enrolled providers and have the required information.
+
+**Topic 7: RFIs on event notifications, cybersecurity, API testing, step therapy, and lab/DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify
+- **Rationale:** NCPA supports broader interoperability improvements but warns that small community pharmacies have different infrastructure than large systems and that step therapy and lab/DMEPOS workflows can create fragmentation.
+- **Specific request:** Include pharmacists in event-notification policy, account for small pharmacy cybersecurity capacity, strengthen API usability/testing, support step-therapy history portability, and apply PA modernization lessons to lab/DMEPOS.
+
+## 5. SOLICITATION RESPONSES
+
+- **S2/S60-S65:** Supports the proposed standards versions and advises CMS not to name newer NCPDP versions because the industry is already transitioning to the proposed versions.
+- **S14/S19/S22:** Supports NCPDP standards for non-Part D impacted payers but states implementation is net-new and costly for Medicaid, CHIP, and QHP payers.
+- **S21/S25/S31:** Requests a longer timeline for pharmacy benefit requirements and emphasizes RTPB/F&B operational differences.
+- **S15:** Requests clarity on routing between medical-benefit FHIR workflows and pharmacy-benefit NCPDP workflows.
+- **S20/S43:** Requests specificity on when PA timing clocks start, stop, and pause for incomplete, corrected, or rerouted requests.
+- **S29/S30/S34/S35:** Encourages CMS to make API and PA workflow measures meaningful and not merely endpoint-availability measures.
+- **S66-S82:** Responds to RFIs on event notifications, resiliency/cybersecurity, API testing and certification, step therapy, and lab/DMEPOS, with emphasis on pharmacist-enabled coordination and small-pharmacy feasibility.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize NCPDP SCRIPT 2023011, F&B v60, and RTPB v13, but do not mandate newer versions in this final rule.
+2. Extend the pharmacy-benefit drug PA compliance date to at least 24 months after the final rule effective date.
+3. Clarify how payers identify and communicate the correct medical-benefit vs pharmacy-benefit pathway.
+4. Define what constitutes an actionable PA or benefit response.
+5. Clarify the PA clock, including receipt, completeness, additional-information requests, corrected submissions, and rerouting.
+6. Recognize pharmacists' dual dispenser/provider roles in PA workflows.
+7. Ensure real-time benefit information is patient-specific and consistent with pharmacy claims adjudication.
+8. Support patient visibility and appropriate patient participation in PA workflows without adding administrative burden.
+9. Allow pharmacists to initiate or submit PA when they are enrolled providers and have necessary information.
+10. Use RFIs to incorporate pharmacists in ADT/event notifications, step therapy portability, and future lab/DMEPOS PA modernization.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Premature version mandates; insufficient implementation time; disconnected FHIR and NCPDP workflows; unclear PA clock rules; lack of pharmacist-specific workflow recognition.
+- **Potential negative impacts cited:** Administrative burden, misrouted requests, duplicative submissions, delayed access to medications, inaccurate reporting, and downstream accountability placed on pharmacists.
+- **Implementation barriers mentioned:** New integrations, trading partner onboarding, testing protocols, staff training, fragmented multi-vendor ecosystem, small pharmacy infrastructure limitations, and overlapping CMS/HHS transaction mandates.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NCPA represents 18,900 independent community pharmacies; nearly half provide long-term care services; members employ 235,000 individuals.
+- **Studies or research referenced:** Cites Federal Register rule publication and CMS electronic prior authorization pledge/use case materials.
+- **Examples provided:** Part D standards transition dates; need to avoid implementing SCRIPT 2017071 when 2023011 becomes required; pharmacist roles as both downstream dispenser and provider of clinical services.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Community and LTC pharmacies, pharmacists, Medicaid/CHIP and QHP payers, providers, patients, PBMs, vendors, and care teams.
+- **Economic implications:** New version or rushed implementation mandates would impose administrative burden and cost on pharmacies and other stakeholders.
+- **Technical feasibility:** Feasible if CMS preserves proposed versions, extends timeline, and clarifies interoperable workflow routing and actionable responses.
+- **Patient care impact:** Properly implemented real-time benefit and ePA workflows could reduce delays and improve medication access; poor routing or non-actionable responses could worsen delays.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant requested modifications.
+- **Tone:** Professional, technical, collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "NCPA supports this proposal." - Context: Support for NCPDP F&B v60 and RTPB v13 requirements.
+2. "The industry is in active transition to the currently proposed versions and is not prepared for a subsequent version mandate." - Context: Version adoption recommendation.
+3. "There is no existing infrastructure to update; it must be built." - Context: Implementation burden for non-Part D impacted payers.
+4. "Absent additional clarity, there is risk that organizations implement parallel and uncoordinated workflows across FHIR and NCPDP standards." - Context: Need for medical/pharmacy pathway orchestration.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests at least 24 months after final rule effective date for pharmacy-benefit requirements.
+- [x] **COST-RESOURCES** - Warns newer version mandates and net-new builds would create significant administrative burden and cost.
+- [x] **PROVIDER-BURDEN** - Focuses on pharmacy and provider workflow burden from misrouting and non-actionable responses.
+- [x] **PRIVACY-SECURITY** - Addresses cybersecurity/resiliency RFI and small pharmacy infrastructure limits.
+- [x] **TECHNICAL-FEASIBILITY** - Discusses integrations, testing, onboarding, and workflow orchestration feasibility.
+- [x] **STANDARDS-MATURITY** - Supports named NCPDP versions but opposes premature newer version mandates.
+- [x] **PATIENT-ACCESS** - Emphasizes immediate medication access and reducing PA delays.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for coordination across pharmacists, providers, payers, vendors, CMS, ONC, and NCPDP.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central theme; requests clarity on routing between FHIR and NCPDP pathways.
+- [x] **TRANSPARENCY** - Requests clear PA clock rules and actionable responses.
+- [x] **SMALL-PAYER-IMPACT** - Addresses small community pharmacies rather than small payers, but the resource concern is analogous for smaller actors.
+- [x] **EXISTING-WORKFLOWS** - Emphasizes pharmacy claims adjudication, RTPB/F&B workflows, and pharmacist roles.
+- [x] **VENDOR-ECOSYSTEM** - Notes fragmented multi-vendor ecosystem and trading partner onboarding.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Submitted electronically to: www.regulations.gov 
+ 
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS–0062–P, Mail Stop C4–26–05 
+7500 Security Boulevard 
+Baltimore, MD 21244–1850 
+  
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children’s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges [CMS–0062–P] 
+  
+Administrator Oz, 
+  
+The National Community Pharmacists Association (NCPA) appreciates the opportunity to provide 
+comments to CMS on its proposed rule: Medicare and Medicaid Programs; Patient Protection 
+and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children’s Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and 
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges. 
+ 
+NCPA represents America’s community pharmacists, including 18,900 independent community 
+pharmacies. Almost half of all community pharmacies provide long-term care services and play a 
+critical role in ensuring patients have immediate access to medications in both community and 
+long-term care (LTC) settings. Together, our members employ 235,000 individuals, and provide 
+an expanding set of healthcare services to millions of patients every day. Our members are small 
+business owners who are among America’s most accessible healthcare providers. NCPA submits 
+these comments on behalf of both community and LTC independent pharmacies. 
+ 
+CMS is proposing to require state Medicaid and CHIP FFS programs, Medicaid managed care 
+plans, CHIP managed car...

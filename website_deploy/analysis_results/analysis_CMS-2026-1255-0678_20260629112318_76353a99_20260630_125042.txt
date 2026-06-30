@@ -1,0 +1,204 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0678_20260629112318_76353a99
+Commenter: Cystic Fibrosis Foundation
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:50:42
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Cystic Fibrosis Foundation; signed by Mary B. Dwight, Senior Vice President and Chief Policy and Advocacy Officer.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** The organization represents people with cystic fibrosis and cites CF Foundation Compass case management data, WEDI survey results, and clinical literature on cystic fibrosis therapies.
+
+## 2. EXECUTIVE SUMMARY
+
+The Cystic Fibrosis Foundation strongly supports extending electronic prior authorization requirements to prescription drugs across medical and pharmacy benefits, emphasizing that delays and repeated reauthorizations can seriously harm people with lifelong chronic diseases. It recommends more actionable denial explanations, shorter and enforceable drug PA timelines, API usability and equity safeguards, public API usage reporting, protections against alternative funding programs, reduced repeat prior authorizations for chronic therapies, and use of payer-to-payer APIs to preserve prior authorization and step therapy history.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; PATIENT ACCESS API / PAYER-TO-PAYER API under GENERAL; GENERAL RFIs on step therapy and lab/DME.
+- **Regulatory citations mentioned:** No CFR citations. The comment references CMS-0062-P and CMS interoperability/prior authorization requirements generally.
+- **Standards referenced:** APIs; Patient Access API; Payer-to-Payer APIs; electronic prior authorization tools; no named FHIR IGs or NCPDP standards discussed in detail.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Patient Access API and Payer-to-Payer Continuity**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** The Foundation states that standardized digital access to prior authorization decisions, previously approved prior authorizations, and real-time drug cost/coverage information can reduce care disruptions when patients change insurance.
+- **Specific request:** CMS should ensure prior authorization status, previous approvals, and drug cost/coverage information are accessible through patient and payer-to-payer APIs in ways that support continuity of care.
+
+**Topic 2: Usability and Equity in Patient-Facing Interfaces**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Digital tools may not benefit all patients unless they are accessible to people with disabilities, limited English proficiency, and limited broadband or digital access.
+- **Specific request:** CMS should establish plain-language, multilingual, disability-accessible, and non-digital assistance standards, including translated disclaimers, interpreter access, and accommodation for people without reliable digital access.
+
+**Topic 3: Provider Adoption and API Usage Metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Provider readiness remains uneven due to cost, technical complexity, and coordination challenges with vendors and health plans.
+- **Specific request:** CMS should offer technical assistance, pilots, incentives, and public reporting of API usage metrics by provider type, plan, and geographic region.
+
+**Topic 4: Drug Prior Authorization Inclusion**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Extending electronic PA to drugs across both benefits can reduce administrative burden and treatment delays, which are especially harmful for CF patients who require intensive lifelong therapies.
+- **Specific request:** CMS should finalize drug inclusion and pair it with substantive reforms that ensure continuity of care and reduce unnecessary PA barriers.
+
+**Topic 5: Detailed Denial Explanations**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Generic denial language does not give patients or providers enough information to correct missing documentation, resubmit, or appeal.
+- **Specific request:** Denial notices should include specific clinical criteria or coverage policy, identify missing documentation, and provide clear next steps for resubmission or appeal; vague phrases such as failure to establish medical necessity should not suffice.
+
+**Topic 6: Drug PA Timelines and Extensions**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** Delays of even a few days can increase CF patients' risk of exacerbations, hospitalization, and irreversible lung damage.
+- **Specific request:** CMS should require 72-hour standard and 24-hour expedited drug PA decisions, further shorten timelines where feasible including considering 24 hours for all drug PA decisions, limit extensions, and require timely notice and clear justification for any extension.
+
+**Topic 7: Alternative Funding Programs**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Clarify / Modify
+- **Rationale:** AFPs can place patients in a prior authorization standstill by refusing clear coverage determinations unless patients enroll in third-party programs, undermining appeal rights and procedural protections.
+- **Specific request:** CMS should clarify that AFPs and similar utilization management or coverage-related requirements must comply with prior authorization standards, denial explanation requirements, appeal instructions, and enforceable timelines.
+
+**Topic 8: Chronic Condition Reauthorization Protections**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** People with CF have stable lifelong diagnoses and often remain on the same indicated therapies indefinitely; repeated reauthorization adds burden with little clinical value.
+- **Specific request:** CMS should adopt extended approval periods, approvals valid for the duration of treatment or clinically appropriate periods, and gold carding for providers with strong approval histories.
+
+**Topic 9: Step Therapy and DME RFIs**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy and DME PA can create clinically inappropriate delays or force patients to retry ineffective/intolerable therapies or lose access to needed supplemental oxygen.
+- **Specific request:** CMS should ensure plans honor prior step therapy history, use payer-to-payer APIs for continuity, and reduce unnecessary PA for DME such as liquid oxygen.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The Foundation supports extending PA API requirements to drugs and emphasizes that technical implementation must translate into reduced delays for patients with complex medication needs.
+- **S14:** The comment supports drug PA requirements across pharmacy benefits and stresses formulary/coverage transparency for prescription drugs.
+- **S16:** The comment directly supports specific PA denial reasons but asks CMS to require detailed, actionable explanations with criteria, missing documentation, and appeal/resubmission steps.
+- **S17:** The comment does not expressly request structured codes, but supports specificity sufficient for action and accountability.
+- **S20:** The Foundation supports 24-hour expedited drug PA decisions and urges CMS to consider a 24-hour standard for all drug PA decisions where feasible.
+- **S21:** The comment supports drug PA timelines but highlights adoption challenges and the need for technical assistance, pilots, and incentives.
+- **S29:** The comment asks CMS to collect and publicly report API usage metrics including utilization rates by provider type, plan, and region.
+- **S30:** The comment asks CMS to ensure accessible patient-facing interfaces and support for people with limited English proficiency, disabilities, or limited digital access.
+- **S34:** The comment supports regular public reporting but does not specify exact frequency.
+- **S35:** The comment supports public reporting of PA activity and outcomes, disaggregated by condition, service type, geography, and demographics.
+- **S43:** The comment supports strong and aligned PA timelines and urges shorter timelines where feasible.
+- **S66-S82:** The comment responds to RFIs on step therapy and lab/DME, urging CMS to protect continuity of care, honor prior step therapy history, and reduce unnecessary PA for items such as liquid oxygen.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic prior authorization requirements for prescription drugs across medical and pharmacy benefits.
+2. Make previously approved prior authorizations available through payer-to-payer APIs when patients switch payers.
+3. Provide real-time prescription drug cost, coverage, and PA status information through the Patient Access API.
+4. Establish usability and equity standards for patient-facing digital interfaces, language access, interpreter support, and non-digital access.
+5. Provide technical assistance, pilots, and incentives for provider API and ePA adoption.
+6. Publicly report API usage metrics by provider type, plan, and geographic region.
+7. Require detailed actionable denial explanations that identify criteria, missing documentation, and resubmission/appeal steps.
+8. Maintain 72-hour standard and 24-hour expedited drug PA timelines and consider 24-hour decisions for all drug PA requests.
+9. Limit PA timeframe extensions and require timely notice and justification.
+10. Clarify that alternative funding programs and similar arrangements must comply with PA determinations, denial notices, appeal rights, and timelines.
+11. Reduce repeat prior authorizations for chronic conditions through extended approvals and gold carding.
+12. Require public reporting of PA requests, approvals, denials, appeals, and extensions, disaggregated by condition, service type, geography, and demographics.
+13. Require plans to honor prior step therapy history and use interoperability tools to prevent treatment disruptions.
+14. Explore ways to reduce unnecessary DME prior authorizations, including for liquid oxygen.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, repeated reauthorizations, vague denials, alternative funding program standstills, uneven provider API adoption, inequitable access to digital tools, and lack of public PA/API accountability.
+- **Potential negative impacts cited:** CF patients may face delayed treatment, infections, lung exacerbations, costly hospitalizations, irreversible lung damage, loss of appeal rights, and reduced ability to work or participate in daily life when DME is delayed.
+- **Implementation barriers mentioned:** Provider readiness gaps, cost, technical complexity, vendor and plan coordination, limited digital/broadband access, language barriers, timeframe extensions, and payer practices that avoid formal determinations.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Nearly 19% of prior authorization-related cases reported to the Foundation over the last 5 years involved patients being unaware PA had not been submitted; in 2023, 56% of Compass callers with PA or formulary issues experienced a delay in care; a WEDI survey found one third of providers had not begun API implementation and nearly two-thirds were unsure of progress.
+- **Studies or research referenced:** CF Foundation Compass Case Management Data; WEDI Interoperability and Prior Authorization Survey Results (February 2026); Pasley et al., Pediatric Pulmonology 2025 on mental health of pediatric CF patients after elexacaftor-tezacaftor-ivacaftor therapy.
+- **Examples provided:** CF patients needing lifelong therapies, patients changing insurance and needing new PA, tolerability issues with Trikafta, step therapy forcing retries of intolerable treatments, and access barriers for liquid oxygen.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** People with cystic fibrosis, chronic disease patients, caregivers, providers, plans, API vendors, policymakers, researchers, and patient assistance/case management programs.
+- **Economic implications:** Reduced repeat PA and delays could lower administrative burden, avoid costly hospitalizations, and allow clinical teams to focus resources on care rather than paperwork. Implementation may require investment in APIs, reporting, technical assistance, and accessible interfaces.
+- **Technical feasibility:** The Foundation supports API-based approaches but notes readiness gaps and recommends assistance, pilots, and metrics to ensure adoption.
+- **Patient care impact:** The comment identifies high potential patient benefit from faster decisions, continuity of care, fewer reauthorizations, clearer denial information, and reduced step therapy/DME delays.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with strong requests for additional patient protections.
+- **Tone:** Professional, patient-centered, and urgent.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Prior authorization is a time-consuming process that can burden providers, divert valuable resources away from direct patient care, and cause delays in patient access to needed treatment." - Context: Framing the burden of PA for CF patients.
+2. "We strongly support CMS's proposal to extend electronic prior authorization requirements to prescription drugs across both medical and pharmacy benefits." - Context: Core position on the proposed drug PA expansion.
+3. "Explanations that rely on broad or non-specific language... do not provide sufficient information." - Context: Request for actionable denial explanations.
+4. "Because CF is a progressive disease, patients who delay or forgo treatment - even for as little as a few days - face increased risk." - Context: Rationale for shorter and enforceable PA timelines.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment supports faster PA deadlines, limits on extensions, and 24-hour expedited decisions.
+- [x] **COST-RESOURCES** - It discusses provider administrative burden, technical assistance needs, and costly hospitalizations from delayed care.
+- [x] **PROVIDER-BURDEN** - Repeated reauthorizations and PA paperwork are described as diverting provider resources from care.
+- [x] **HEALTH-EQUITY** - The Foundation asks CMS to address language access, disability access, interpreter support, and limited broadband/digital access.
+- [x] **TECHNICAL-FEASIBILITY** - The comment cites provider readiness gaps and recommends assistance, pilots, incentives, and usage metrics.
+- [x] **PATIENT-ACCESS** - Timely access to CF therapies, PA status, cost/coverage information, and DME is the core concern.
+- [x] **TRANSPARENCY** - The comment seeks clear PA status, cost/coverage information, detailed denial notices, and public PA reporting.
+- [x] **STAKEHOLDER-COORDINATION** - It calls for coordination among CMS, providers, vendors, health plans, and patients to ensure API adoption and continuity.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses real-world PA, reauthorization, step therapy, appeal, payer transition, and DME workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+Bethesda Office 
+4550 Montgomery Avenue, Suite 1100N, Bethesda, Maryland 20814 
+ 
+301.951.4422     800.FIGHT.CF     Fax: 301.951.6378 
+www.cff.org     email: info@cff.org 
+   
+ 
+June 15, 2026 
+ 
+The Honorable Robert Kennedy, Jr. 
+Secretary 
+U.S. Department of Health and Human Services 
+200 Independence Ave SW 
+Washington, DC 20201 
+ 
+The Honorable Mehmet Oz, M.D. 
+Administrator 
+Centers for Medicare and Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+RE: Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P) 
+ 
+Dear Secretary Oz: 
+ 
+The Cystic Fibrosis Foundation thanks the Centers for Medicare and Medicaid Services (CMS) for the 
+opportunity to respond to the Interoperability Standards and Prior Authorization for Drugs proposed 
+rule and Requests for Information (RFIs).  
+ 
+Cystic fibrosis is a life-threatening genetic disease that causes the body to produce thick, sticky mucus 
+that clogs the lungs and digestive system which can lead to life-threatening infections. As a complex, 
+multi-system condition, CF requires targeted, specialized treatment and medications. Through careful, 
+aggressive, and continuously improving disease management, the average life expectancy for people 
+with cystic fibrosis has risen steadily over the last few decades. This milestone reflects over 50 years of 
+hard work to improve CF treatments, develop evidence-based standards of care, and encourage 
+adherence to a lifetime of chronic care. However, this system of care and the improvements in length 
+and quality of life can only be realized if people with CF have access to essential therapies.  
+ 
+Prior authorization is a time-consuming process that can burden providers, divert valuable resources 
+away from direct patient care, and cause delays in patient access to needed treatment. This process is 
+particularly burdensome for the CF community as people with CF must adhere to intensive, ongo...

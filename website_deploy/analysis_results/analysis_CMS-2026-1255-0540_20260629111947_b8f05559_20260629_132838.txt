@@ -1,0 +1,165 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0540_20260629111947_b8f05559
+Commenter: American Association of Psychiatric Pharmacists (AAPP)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:28:38
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Association of Psychiatric Pharmacists (AAPP); signed by Brenda K. Schimenti, Executive Director
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** AAPP represents nearly 3,000 psychiatric pharmacists, many residency trained and board certified in psychiatric pharmacy (BCPP), with expertise in psychiatry, substance use disorders, psychopharmacology, and medication management.
+
+## 2. EXECUTIVE SUMMARY
+
+AAPP supports CMS efforts to streamline electronic prior authorization, standardize workflows, improve transparency, and reduce administrative burden, especially for psychiatric medications and treatments for substance use disorders. AAPP is concerned that Medicare Part D beneficiaries are not equally protected and urges CMS to address repeat PA, denial transparency, public reporting, AI oversight, and step therapy exceptions for stable behavioral health patients.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; TRANSPARENCY/GENERAL; GENERAL
+- **Regulatory citations mentioned:** Not addressed.
+- **Standards referenced:** Electronic prior authorization, interoperability requirements, electronic health systems; no specific FHIR or NCPDP standard cited.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Timely access to psychiatric medications**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** AAPP states delays in psychiatric and SUD medication access can cause relapse, hospitalization, overdose risk, and reduced adherence.
+- **Specific request:** Finalize electronic PA reforms that improve medication access and reduce delays for behavioral health treatments.
+
+**Topic 2: Standardized electronic PA workflows**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Psychiatric pharmacists navigate inconsistent payer requirements, duplicative documentation, and repeated manual submissions.
+- **Specific request:** Use standardized electronic PA processes to allow providers to identify requirements and submit requests electronically.
+
+**Topic 3: Part D beneficiaries left behind**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** AAPP argues similar protections for Medicare Part D sponsors are absent or weakened, perpetuating access barriers for Part D enrollees.
+- **Specific request:** Extend comparable transparency and access protections to Part D beneficiaries.
+
+**Topic 4: Denial transparency and AI oversight**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications
+- **Rationale:** Providers need clear denial explanations to submit documentation, appeal, or adjust treatment without delay; AI decisions require clinical oversight.
+- **Specific request:** Require clear, timely denial communications, transparent criteria, and human clinical review of automated PA decision processes.
+
+**Topic 5: Step therapy protections for behavioral health**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Rigid step therapy can destabilize patients who are stable on psychiatric regimens and may require repetitive proof of failed alternatives.
+- **Specific request:** Improve transparency, exception processes, carryover of prior approvals and medication histories, and protections against unnecessary interruptions.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** AAPP supports clear and timely communication of denial reasons so providers can respond, appeal, or consider alternatives.
+- **S17:** AAPP does not address structured denial codes directly, but supports transparent criteria and clinically meaningful explanations.
+- **S20:** AAPP supports faster PA determinations for drugs because psychiatric treatment interruptions can have serious consequences.
+- **S29:** AAPP supports public reporting of PA metrics to help patients, providers, and policymakers understand plan behavior.
+- **S35:** AAPP's support for public PA metrics aligns with publication of aggregate usage or performance data, although it does not specify CMS publication format.
+- **S66-S82:** AAPP responds to the step therapy RFI by encouraging technology that identifies step therapy requirements, documents prior trials/failures and prior approvals, and reduces duplicative utilization management during plan transitions.
+
+## 6. RECOMMENDATIONS
+
+1. Streamline electronic PA for prescription drugs, especially psychiatric and SUD medications.
+2. Standardize electronic PA workflows across payers.
+3. Reduce repeated PA requirements for long-term medications already approved and effective.
+4. Extend meaningful protections and transparency requirements to Medicare Part D beneficiaries.
+5. Require clear denial communications and transparent PA criteria, including for AI-supported decisions.
+6. Require clinical oversight and human review of automated PA processes.
+7. Improve step therapy transparency and exception processes.
+8. Use electronic systems to document prior trials, failures, prior approvals, and treatment histories during plan transitions.
+9. Avoid unnecessary treatment interruptions for clinically stable patients.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Medication access delays, repeated PA requests, inconsistent payer requirements, administrative burden, weakened Part D protections, insufficient transparency, and rigid step therapy.
+- **Potential negative impacts cited:** Symptom relapse, psychiatric hospitalization, overdose risk, medication nonadherence, provider burnout, confusion, delays, and patient harm.
+- **Implementation barriers mentioned:** Variation across payer requirements, duplicative documentation requests, lack of carryover when patients change plans, and automated processes without adequate clinical oversight.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AAPP states PA can cost an estimated $2,140 to $3,430 annually per full-time physician; it references over 35 million Medicare Advantage PA requests in 2021.
+- **Studies or research referenced:** Kaiser Family Foundation analysis of MA PA requests; CMS CMS-0057-P fact sheet; Morley et al. study on PA burden in primary care offices; Avalere report on protected class utilization management in Part D.
+- **Examples provided:** Antidepressants and antipsychotics as protected classes under Part D still subject to PA and step therapy for new starts; psychiatric and SUD medication continuity risks.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Psychiatric pharmacists, patients with mental illness and SUDs, physicians, Medicare Part D beneficiaries, MA/Medicaid/CHIP/Marketplace enrollees, payers, and policymakers.
+- **Economic implications:** PA creates administrative costs for clinicians and may increase overall costs through relapse, hospitalization, overdose, and inefficient repeated reviews.
+- **Technical feasibility:** AAPP supports electronic PA and health-system documentation tools but does not assess FHIR/NCPDP implementation details.
+- **Patient care impact:** High; the comment emphasizes continuity of psychiatric medications and the risks of destabilization from PA or step therapy delays.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with concerns and requested modifications.
+- **Tone:** Professional, collaborative, evidence-based, and patient-focused.
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "AAPP is supportive of any policy changes that streamline prior authorization" - Context: Overall support for CMS reforms.
+2. "Medicare Part D beneficiaries have been left behind" - Context: AAPP's central concern about uneven protections.
+3. "Clear and timely communication regarding denials is critical" - Context: Support for denial transparency.
+4. "Patients should not be required to repeatedly fail medications" - Context: AAPP's step therapy recommendation for stable patients.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - AAPP emphasizes inconsistent payer requirements, repeated documentation, provider burnout, and administrative costs.
+- [x] **PATIENT-ACCESS** - The comment centers on access to psychiatric and SUD medications and avoidance of treatment disruption.
+- [x] **HEALTH-EQUITY** - The comment highlights people with mental illness and SUDs, populations facing significant access barriers.
+- [x] **TRANSPARENCY** - AAPP supports clear denial reasons, public metrics, transparent criteria, and AI transparency.
+- [x] **TECHNICAL-FEASIBILITY** - AAPP supports electronic systems to identify requirements and document prior trials, though it does not address specific standards.
+- [x] **EXISTING-WORKFLOWS** - The comment seeks to reduce repeated PA and step therapy requirements embedded in current payer workflows.
+- [x] **STAKEHOLDER-COORDINATION** - The recommendations depend on coordination among pharmacists, providers, payers, and plans during transitions.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+8055 O Street, Ste S113 â–  Lincoln, NE 68510 
+www.aapp.org â–  info@aapp.org 
+402-476-1677 (phone) 
+ 
+ 
+ 
+June 15, 2026 
+ 
+Administrator Oz 
+Centers for Medicare and Medicaid Services  
+Department of Health and Human Services  
+7500 Security Boulevard  
+Baltimore, MD 21244 
+ 
+Submitted via regulations.gov 
+ 
+Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards 
+and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, 
+State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Oz: 
+ 
+On behalf of the American Association of Psychiatric Pharmacists (AAPP), we appreciate the opportunity to 
+respond to the â€œInteroperability Standards and Prior Authorization for Drugsâ€ proposed rule. We appreciate 
+your commitment to improving the prior authorization process.   
+ 
+About AAPP 
+ 
+AAPP is a professional association of nearly 3,000 members who envision a world where all individuals 
+living with mental illness, including those with substance use disorders (SUDs), receive safe, appropriate, 
+and effective treatment. Pharmacist members specialize in psychiatry, substance use disorders (SUD), and 
+psychopharmacology, and most are residency trained and board certified in psychiatric pharmacy holding 
+the BCPP credential (Board Certified Psychiatric Pharmacist). With a significant shortage of mental health 
+care professionals, psychiatric pharmacists offer another resource to improve outcomes for patients with 
+psychiatric disorders and SUDs. 
+ 
+Role of Psychiatric Pharmacists 
+ 
+Pharmacists graduate with a Doctor of Pharmacy degree, requiring six to eight years of higher education to 
+complete, and have more training specific to medication use than any other health care professional....

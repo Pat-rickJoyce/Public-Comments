@@ -1,0 +1,208 @@
+{
+  "comment_id": "CMS-2026-1255-0608_20260629112500_21a3db2f",
+  "analysis_date": "2026-06-29",
+  "commenter_information": {
+    "author_organization_name": "Oracle Health and Life Sciences; signed by Alex Mugge, Sr. Director, Global Health Policy & Regulatory Intelligence",
+    "stakeholder_type": "Technology Vendor",
+    "credentials_or_expertise_mentioned": "Leading supplier of EHR, clinical and revenue cycle information systems, population health, clinical research, and interoperability solutions; actively developing HL7 FHIR Da Vinci ePA functionality for EHR customers."
+  },
+  "executive_summary": "Oracle Health strongly supports NCPDP standards for pharmacy-benefit drug ePA and supports adopting Da Vinci CRD, DTR, and PAS version 2.2 for medical services and medical-benefit drugs. It recommends eliminating the January 1, 2027 non-version-specific FHIR ePA milestone and instead requiring Da Vinci 2.2 by July 1, 2027, with ONC certification alignment and 2027 treated as a transition/bonus year. Oracle urges CMS not to require CDex, FAST Security, or Tiered OAuth yet, supports FHIR-based HIPAA PA modernization with a broad referral-related definition, and recommends using production adoption thresholds, SVAP, and flexible early implementation rules to manage standards maturity.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "PA-DRUG-PHARMACY",
+      "PA-DRUG-MEDICAL",
+      "FHIR-IG-REQUIRED",
+      "HIPAA-PA-STANDARDS",
+      "API-ENDPOINT-REPORTING",
+      "ONC-STANDARDS-UPDATE",
+      "VENDOR-ECOSYSTEM",
+      "GENERAL"
+    ],
+    "regulatory_citations_mentioned": [
+      "45 CFR 162.1301(a)",
+      "45 CFR 162.1301(b)",
+      "45 CFR 162.1301(c)",
+      "45 CFR 162.1302(f)",
+      "45 CFR 170.215(j)",
+      "45 CFR 170.215(k)",
+      "45 CFR 170.215(m)",
+      "45 CFR 170.215(n)",
+      "45 CFR 170.299",
+      "45 CFR 170.315(g)(31)",
+      "45 CFR 162.923(b)"
+    ],
+    "standards_referenced": [
+      "NCPDP SCRIPT",
+      "NCPDP Formulary & Benefit",
+      "NCPDP RTPB v13",
+      "HL7 FHIR Release 4.0.1",
+      "US Core STU 6.1.0",
+      "SMART App Launch 2.0.0",
+      "Da Vinci CRD v2.2.1",
+      "Da Vinci DTR v2.2.0",
+      "Da Vinci PAS v2.2.1",
+      "Da Vinci CDex v2.1.0",
+      "FAST Security IG / SSRAA",
+      "Tiered OAuth",
+      "Da Vinci ATR",
+      "FHIR Maturity Model",
+      "ONC ISA",
+      "ONC SVAP",
+      "X12N transactions",
+      "Direct data entry exception",
+      "Promoting Interoperability ePA measure"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "NCPDP standards for pharmacy-benefit drugs",
+      "provision_id": "PA-DRUG-PHARMACY",
+      "position": "Support",
+      "rationale": "NCPDP standards are widely implemented, proven in production, adopted under Medicare Part D, and understood by providers, pharmacies, PBMs, and plans.",
+      "specific_request": "Finalize NCPDP standards as the primary mechanism for pharmacy-benefit drug prior authorization and avoid competing frameworks."
+    },
+    {
+      "topic": "Da Vinci v2.2 for medical services and medical-benefit drugs",
+      "provision_id": "FHIR-IG-REQUIRED; PA-DRUG-MEDICAL",
+      "position": "Support/Modify",
+      "rationale": "Da Vinci 2.2 reflects lessons learned and improves consistency over versions 2.0 and 2.1, but still needs refinement from deployment experience.",
+      "specific_request": "Adopt CRD v2.2.1, DTR v2.2.0, and PAS v2.2.1 as the common baseline; eliminate the January 1, 2027 non-version-specific deadline; require v2.2 by July 1, 2027; use SVAP and future rulemaking to raise the floor later."
+    },
+    {
+      "topic": "ONC certification alignment",
+      "provision_id": "ONC-STANDARDS-UPDATE",
+      "position": "Support/Modify",
+      "rationale": "Payers, providers, and HIT developers need to work from the same IG versions to reduce implementation variation and burden.",
+      "specific_request": "Adopt Da Vinci 2.2 into ONC certification, expire version 2.0 on the final rule effective date, approve v2.2 via SVAP as soon as possible, and let 2027 operate as a transition/bonus year."
+    },
+    {
+      "topic": "Medical versus pharmacy benefit distinction",
+      "provision_id": "MEDICAL-VS-PHARMACY-BENEFIT",
+      "position": "Clarify/Modify",
+      "rationale": "Most cases can be inferred from order type, but edge cases require better automation and may be complicated by payer-specific benefits and formularies.",
+      "specific_request": "Do not delay drug ePA standards over edge cases; use order type for current workflow; collaborate with Da Vinci, NCPDP, and stakeholders to enhance CRD CoverageInformation for long-term automated workflow determination; do not require CRD for all medication requests yet."
+    },
+    {
+      "topic": "CDex and supplemental information",
+      "provision_id": "FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS",
+      "position": "Recommend, not require",
+      "rationale": "CDex is useful for additional information exchange but has limited or no production use in PA and is not critical while PAS can carry initial supporting information.",
+      "specific_request": "Do not require the capability to request/share additional information after initial PA; recommend CDex only for voluntary implementers following PAS guidance; do not put CDex in the critical path for initial ePA scaling."
+    },
+    {
+      "topic": "FAST Security IG and Tiered OAuth",
+      "provision_id": "FHIR-IG-REQUIRED; PRIVACY-SECURITY",
+      "position": "Oppose requirement/Defer",
+      "rationale": "FAST SSRAA and Tiered OAuth are immature and not widely adopted, especially outside network environments.",
+      "specific_request": "Encourage exploration of FAST Security and SMART App Launch compatibility, but do not require FAST Security or Tiered OAuth until substantial testing and adoption occur."
+    },
+    {
+      "topic": "Standards maturity thresholds",
+      "provision_id": "STANDARDS-MATURITY",
+      "position": "Modify",
+      "rationale": "FHIR Maturity Model and ONC ISA do not sufficiently measure production implementation readiness.",
+      "specific_request": "Use real-world adoption thresholds, generally at least 10,000 providers across settings and 100 health plans for IG regulatory adoption; for FAST Security testing, Oracle also references a lower guideline of at least 1,000 providers and 100 health plans."
+    },
+    {
+      "topic": "FHIR-based HIPAA PA standards",
+      "provision_id": "HIPAA-PA-STANDARDS",
+      "position": "Support/Modify",
+      "rationale": "FHIR-based approaches can integrate more deeply into provider workflows than existing X12 transactions; temporary dual-standard burden is justified by long-term benefits.",
+      "specific_request": "Adopt FHIR standards for prior authorization and support the alternative to cover full 45 CFR 162.1301 referral certification/authorization transactions; include 162.1301(b) referral-related authorization; adopt CRD/DTR/PAS, US Core, SMART App Launch, and FHIR R4; manage future versions through SVAP."
+    },
+    {
+      "topic": "Direct data entry exception",
+      "provision_id": "HIPAA-PA-STANDARDS; EXISTING-WORKFLOWS",
+      "position": "Defer",
+      "rationale": "Removing portal/direct data entry too early could increase burden and create inability to handle some real-world cases, though future removal may drive API adoption.",
+      "specific_request": "State intent to revisit the exception later; do not remove it now; when removed, apply the change only to prior authorization transactions, potentially around 2029."
+    },
+    {
+      "topic": "Payer API oversight and certification RFI",
+      "provision_id": "GENERAL",
+      "position": "Modify/Explore",
+      "rationale": "Interactive PA workflows need conformance and predictability, but certification could differ from EHR certification and should minimize burden.",
+      "specific_request": "Develop automated testing/attestation or validation approaches, prioritize Prior Authorization API validation on both payer and provider HIT sides, and explicitly allow reasonable implementation variations during early real-world adoption."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "S1",
+      "summary": "Strongly supports requiring Da Vinci CRD, DTR, and PAS v2.2 as the common ePA foundation."
+    },
+    {
+      "solicitation": "S2",
+      "summary": "Supports adoption of CRD v2.2.1, DTR v2.2.0, and PAS v2.2.1 and ONC certification alignment."
+    },
+    {
+      "solicitation": "S3",
+      "summary": "Recommends using ONC SVAP and rulemaking to manage future post-2.2 versions while maintaining v2.2 as the regulatory floor."
+    },
+    {
+      "solicitation": "S12",
+      "summary": "Supports requiring impacted payers to incorporate coverage and documentation requirements into the Prior Authorization API for medical-benefit drugs."
+    },
+    {
+      "solicitation": "S14",
+      "summary": "Strongly supports NCPDP standards for pharmacy-benefit drug ePA."
+    },
+    {
+      "solicitation": "S15",
+      "summary": "Says the medical/pharmacy distinction needs work but should not delay finalization; recommends order type as current-state approach and future CRD enhancements."
+    },
+    {
+      "solicitation": "S18",
+      "summary": "Supports requiring v2.2 ePA IGs but urges implementation flexibility because v2.2 still needs refinement."
+    },
+    {
+      "solicitation": "S21",
+      "summary": "Recommends eliminating January 1, 2027 and requiring v2.2 by July 1, 2027 rather than October 1, 2027."
+    },
+    {
+      "solicitation": "S25",
+      "summary": "States RTPB is prevalent in clinical workflow but not commonly used for PA; F&B is more commonly used to indicate whether PA is required."
+    },
+    {
+      "solicitation": "S32",
+      "summary": "Says CRD CoverageInformation can theoretically indicate benefit path but needs vocabulary enhancements and should not be required for all medication requests yet."
+    },
+    {
+      "solicitation": "S37",
+      "summary": "Discusses workflow integration challenges, especially DTR integration into clinician workflow and PAS shift from back-end batch to real-time review."
+    },
+    {
+      "solicitation": "S44-S56",
+      "summary": "Supports FHIR as HIPAA PA standard, supports including referral-related authorization, recognizes dual X12/FHIR transition burden, and recommends SVAP-based version management."
+    },
+    {
+      "solicitation": "S54",
+      "summary": "Supports robust testing/validation and explores payer API certification or automated attestation, especially for Prior Authorization API interactions."
+    },
+    {
+      "solicitation": "S60-S65",
+      "summary": "Supports replacing earlier CRD/DTR/PAS versions with v2.2, expiring v2.0 on the final rule effective date, and using SVAP for future updates."
+    },
+    {
+      "solicitation": "S66-S82",
+      "summary": "Responds to API technology oversight/certification RFIs and direct data entry exception questions."
+    }
+  ],
+  "themes": [
+    "STANDARDS-MATURITY",
+    "TECHNICAL-FEASIBILITY",
+    "VENDOR-ECOSYSTEM",
+    "IMPLEMENTATION-TIMELINE",
+    "FHIR-IG-REQUIRED",
+    "HIPAA-PA-STANDARDS",
+    "EXISTING-WORKFLOWS",
+    "STAKEHOLDER-COORDINATION"
+  ],
+  "overall_position": "Strong support with targeted technical modifications and maturity safeguards.",
+  "priority_level": "High",
+  "notes": "Major HIT vendor comment emphasizing rapid alignment on Da Vinci 2.2, ONC certification coordination, and avoiding premature requirements for CDex/FAST/Tiered OAuth.",
+  "commenter": "Oracle Health",
+  "organization": "Oracle Health",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

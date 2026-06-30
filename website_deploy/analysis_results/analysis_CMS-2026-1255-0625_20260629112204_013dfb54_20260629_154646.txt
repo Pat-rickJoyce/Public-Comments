@@ -1,0 +1,141 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0625
+Commenter: SS&C Health
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:46:46
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Mark Cone, Vice President and Chief Compliance Officer, SS&C Health; contact Richard Popper.
+- **Stakeholder type:** Technology Vendor / outsourced claims processing vendor.
+- **Credentials or expertise mentioned:** SS&C Health provides healthcare/pharmacy claims software, analytics, outsourced claims processing, and FHIR interoperability solutions for health plans covering about 52 million lives, including 24 million lives in programs affected by the rule; many clients are mid-sized and small plans.
+
+## 2. EXECUTIVE SUMMARY
+
+SS&C Health focuses on the proposed October 1, 2027 implementation date for adding prescription drug PA data to Patient Access, Provider Access, and Payer-to-Payer APIs and requiring PDex for clinical data. The commenter argues the timeline conflicts with implementation of existing 2024 API mandates and recommends delaying these requirements until July 2028.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE; API-USAGE-METRICS/related API data reporting; GENERAL timeline implementation.
+- **Regulatory citations mentioned:** 42 CFR 422.119(b)(1)(v), 42 CFR 422.119(c)(2), Parts 431, 457, and 45 CFR Part 156.
+- **Standards referenced:** HL7 FHIR PDex Implementation Guide, FHIR APIs, X12 837, NCPDP.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Conflict with existing 2027 API implementation**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify.
+- **Rationale:** Impacted payers will already be standing up major CMS-0057 API capabilities in 2027. SS&C expects providers and other payer partners to test and connect gradually, potentially into and beyond 2027.
+- **Specific request:** Delay the requirement to add prescription drug prior authorization data to Patient Access, Provider Access, and Payer-to-Payer APIs until July 2028.
+
+**Topic 2: PDex clinical data conversion burden**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Modify.
+- **Rationale:** Clinical data is difficult to convert to FHIR because it lacks the transaction standardization of claims data and appears in text, PDFs, images, charts, and attachments. Requiring PDex by October 2027 would force extensive remapping soon after initial January 2027 API builds.
+- **Specific request:** Delay required support for HL7 FHIR PDex for clinical data made available via the FHIR APIs until July 2028.
+
+**Topic 3: Small and mid-sized plan readiness**
+- **Provision ID:** SMALL-PAYER-IMPACT; TECHNICAL-FEASIBILITY
+- **Position:** Modify.
+- **Rationale:** SS&C serves many mid-sized and small plans that depend on vendor implementation capacity and trading partner readiness. The proposed timing may be particularly difficult for plans with limited resources.
+- **Specific request:** Provide additional time to reduce risk to both CMS-0057 and CMS-0062 implementation success.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2/S3/S37:** Addresses mandatory IG/version implementation by objecting to the October 2027 PDex timing and requesting a July 2028 delay.
+- **S21:** Argues the October 1, 2027 timeline for drug PA API data is not achievable alongside existing 2027 API mandates.
+- **S47/S50/S53/S54:** By implication, recommends a phased/delayed schedule, citing testing, conformance, and readiness concerns.
+- **S60-S65:** Addresses standards adoption/versioning through concern that PDex clinical-data conformance is too difficult to require in October 2027.
+
+## 6. RECOMMENDATIONS
+
+1. Delay adding prescription drug PA request and decision information to the Patient Access API, Provider Access API, and Payer-to-Payer API until July 2028.
+2. Delay required support for the HL7 FHIR PDex IG for clinical data in these APIs until July 2028.
+3. Avoid layering new drug PA data categories and standards during the same period when plans, providers, and other payers are still testing and correcting CMS-0057 API implementations.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** October 1, 2027 implementation date, overlapping CMS-0057 implementation, provider/trading partner unreadiness, clinical data conversion burden.
+- **Potential negative impacts cited:** Undermined implementation of both CMS-0057 and CMS-0062, compliance challenges, disruptions in API rollout, provider ingestion problems.
+- **Implementation barriers mentioned:** Trading partner testing delays, lack of standards for payer clinical data, heterogeneous attachment formats, data mapping complexity, small/mid-sized plan resource constraints.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** SS&C states it serves clients covering about 52 million lives, including 24 million in affected government/Exchange plans; many clients have 32,000 to 500,000 enrollees.
+- **Studies or research referenced:** No formal studies cited.
+- **Examples provided:** Experience with Patient Access API adoption after July 2021, where third-party app engagement occurred gradually over months or years; current clients' provider and payer partners have not initiated/scheduled API testing.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health plans, third-party administrators, providers, other payers, technology vendors, small and mid-sized plans.
+- **Economic implications:** Additional build and remapping costs; potential wasted effort if implementation changes occur before initial API adoption stabilizes.
+- **Technical feasibility:** Feasible with additional time; risky under October 2027 timing due to clinical data conversion and partner readiness.
+- **Patient care impact:** Not directly discussed, but delayed or unstable interoperability implementation could reduce effectiveness of prior authorization reform.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned / narrowly opposed to timeline.
+- **Tone:** Technical, concise, professional.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The proposed date for adding data from prescription drug prior authorization requests...is aggressive considering other new FHIR API initiatives impacted plans will be implementing for 2027." - Context: Main timeline objection.
+2. "Clinical data is the most difficult of all data types subject to the various FHIR API requirements to convert to FHIR." - Context: PDex conversion burden.
+3. "SS&C Health recommends CMS delay...until July 2028." - Context: Specific requested compliance date.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment is primarily a request to delay from October 2027 to July 2028.
+- [x] **COST-RESOURCES** - Discusses implementation strain and conversion burden for plans and vendors.
+- [x] **TECHNICAL-FEASIBILITY** - Highlights clinical data mapping and partner connectivity challenges.
+- [x] **STANDARDS-MATURITY** - Focuses on PDex and FHIR implementation readiness.
+- [x] **SMALL-PAYER-IMPACT** - Notes many SS&C clients are small and mid-sized plans.
+- [x] **STAKEHOLDER-COORDINATION** - Provider and payer partner testing/readiness are central barriers.
+- [x] **VENDOR-ECOSYSTEM** - The commenter is a vendor describing client and vendor implementation realities.
+- [x] **EXISTING-WORKFLOWS** - Addresses transition from existing clinical data formats and claims standards to FHIR/PDex.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+ 
+June 15, 2026 
+ 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services  
+Attention: CMS–0062–P 
+ (Submitted electronically to www.regulations.gov) 
+ 
+Re: 
+CMS-0062-P – Interoperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage, Medicaid Managed Care, CHIP and QHPs on Federally-Facilitated 
+Exchanges 
+ 
+On behalf of SS&C Health, the following represents our comments to the April 14, 2026 referenced 
+Notice of Proposed Rulemaking (NPRM) Interoperability Standards and Prior Authorization for Drugs, 
+issued by the Centers for Medicare and Medicaid Services. 
+ 
+SS&C Health provides healthcare and pharmacy solution claims software, analytics and outsourced 
+claims processing services to health plans across the U.S.  Our clients include health plans or third party 
+administrators; utilizing SS&C claims platforms and/or staff to provide coverage to approximately 52 
+million lives, including 24 million individuals in Medicare Advantage, Medicaid or Federal Exchange 
+health plans covered by the NPRM. Although we provide technology and service solutions to some large 
+plans, the bulk of our client base are mid-sized and small plans, with 32,000 to 500,000 enrollees.  
+Included in our health technology and outsourcing services is a FHIR based Interoperability solution to 
+meet the Patient Access API under the 2020 CMS Interoperability and Patient Access rule, and a 
+developing solution to meet the Provider Access and Payer-to-Payer APIs in 2027.    
+ 
+Comments Regarding Proposed Rule’s October 1, 2027 Implementation Dates for Specific Components 
+of CMS-0062  
+ 
+Section 42 CFR 422.119(b)(1)(v) of the proposed regulation, covering Medicare Advantage plans, along 
+with identical language in Parts 431 and for Medicaid, 457 for CHIP and 45 CFR Part 156 for Federal 
+Exchange, would require impacted payers to add information about prior authorization for prescription 
+drugs to their Patient Access. Provider Access and Payer...

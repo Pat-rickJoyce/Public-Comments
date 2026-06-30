@@ -1,0 +1,185 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0675_20260629112107_cbaefe0c
+Commenter: Joint digestive disease organizations
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:49:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Joint digestive disease organizations: American Association for the Study of Liver Diseases; American College of Gastroenterology; AGA Institute/American Gastroenterological Association; American Society for Gastrointestinal Endoscopy; Crohn's & Colitis Foundation; Digestive Health Physicians Association; North American Society for Pediatric Gastroenterology, Hepatology and Nutrition
+- **Stakeholder type:** Professional Association; Advocacy Group
+- **Credentials or expertise mentioned:** National organizations representing digestive disease patients and physicians, including gastroenterology, hepatology, endoscopy, pediatric GI, IBD, liver disease, and digestive health practice leadership.
+
+## 2. EXECUTIVE SUMMARY
+
+The joint commenters strongly support expanding electronic prior authorization to all drugs under both medical and pharmacy benefits, using HL7 FHIR PA APIs and NCPDP standards, but ask CMS to close operational gaps that affect gastroenterology patients. They recommend stronger interoperability across benefit categories, no duplicative portal documentation, faster and enforceable timeframes, specific clinical denial explanations, granular public PA metrics including AI use, and robust federal step therapy protections, especially for biologics, transplant patients, pediatric GI patients, and patients stable on therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** CMS-0062-P; April 14, 2026 Federal Register proposed rule; 2024 CMS Interoperability and Prior Authorization final rule; Medicare Advantage step therapy/formulary adequacy concepts.
+- **Standards referenced:** HL7 FHIR standards; Prior Authorization API; NCPDP standards for Part D drugs; payer-to-payer and provider-payer data exchange; medical-benefit and pharmacy-benefit standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic PA for All Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support with modifications
+- **Rationale:** GI drug PA is highly burdensome and often depends on fragmented fax, phone, and portal workflows. Patients with IBD, eosinophilic esophagitis, liver diseases, and related conditions face serious clinical risk from delayed biologics or specialty therapies.
+- **Specific request:** Finalize drug ePA requirements and clarify that all utilization management aspects, including site-of-care and dose escalation requests, must be supported through the PA API and transparency requirements.
+
+**Topic 2: Interoperability Across Medical and Pharmacy Benefits**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify/Modify
+- **Rationale:** Many GI therapies cross benefit categories, such as IV induction under the medical benefit followed by subcutaneous maintenance under the pharmacy benefit. Lack of interoperability can make payers treat continuation therapy as new therapy and create inappropriate denials.
+- **Specific request:** Require interoperability between medical- and pharmacy-benefit standards and prevent payers from requiring duplicative proprietary portal documentation when equivalent information has been sent through the standardized API.
+
+**Topic 3: Drug PA Decision Timeframes and Enforcement**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modifications
+- **Rationale:** Delays can cause disease worsening, hospitalization, surgery, immunogenicity, graft dysfunction, rejection, and other serious complications. Transplant patients and active GI disease patients need rapid access.
+- **Specific request:** Finalize expedited review timelines, adopt the shortest feasible timelines across payer categories, require 24-hour expedited review for liver transplant candidates and recipients, strengthen enforcement, require automatic approval when deadlines are missed, and maintain therapy during appeals or plan transitions.
+
+**Topic 4: Specific Denial Reasons and Specialist Review**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications
+- **Rationale:** Generic denial language such as failure to meet medical necessity criteria does not identify missing documentation, policy criteria, step requirements, or appeal paths, increasing burden and delaying treatment.
+- **Specific request:** Require denial notices to include the specific clinical criterion or policy provision not satisfied, missing documentation, precise payer policy/guideline, step therapy requirement, reviewer qualifications, appeal and peer-to-peer instructions, and review by appropriately qualified specialists.
+
+**Topic 5: Granular PA Transparency and AI Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** Aggregated PA metrics may hide delays or service-specific problems, including high approval rates that mask clinically harmful delays.
+- **Specific request:** Require counts and percentages, standardize reporting across plans, report by item/service, geographic region, medical vs pharmacy benefit, therapeutic category, drug class, indication, repeated PA for stable patients, response times, and requests denied or appealed using AI or similar technology.
+
+**Topic 6: Step Therapy and Continuity Protections**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can force GI patients to fail less appropriate therapies, contradict clinical guidelines, increase downstream costs, and worsen outcomes. Repeating step therapy after plan changes or formulary changes is especially harmful for patients stable on biologics.
+- **Specific request:** Establish federal safeguards, standardize step therapy exceptions, require transferability across payers and benefit categories, prohibit non-medical switching without clinician approval, require continuity of coverage, and require public step therapy reporting.
+
+**Topic 7: Waiver of Step Therapy for Underwater Biologics**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Some physician-administered biosimilars are reimbursed below acquisition cost, making it financially unsustainable for practices to administer them when MA plans require them as fail-first therapies.
+- **Specific request:** Establish an MA formulary adequacy standard requiring that any biosimilar in a fail-first position be reasonably available to network providers, or require plans to permit timely access to an alternative biosimilar or reference biologic without additional utilization management.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The commenters support medical-benefit drug ePA through the PA API and identify technical and workflow challenges involving site-of-care, dose escalation, and biologic documentation.
+- **S14:** The commenters support pharmacy-benefit drug ePA using NCPDP standards, while stressing the need for interoperability with medical-benefit data.
+- **S15:** The comment directly addresses the medical vs pharmacy distinction and warns that therapies crossing benefit categories must not be treated as new therapy because of benefit or route changes.
+- **S16:** The commenters support specific denial reasons and request detailed denial elements including clinical criteria, missing documentation, payer policy citation, step therapy protocols, reviewer qualifications, and appeal instructions.
+- **S17:** The request for precise policy criteria, reviewer qualifications, and standardized denial detail implies support for more structured denial communication.
+- **S20:** The commenters support CMS's proposed timeframes, urge shortest feasible timelines, and recommend 24-hour expedited review for liver transplant candidates and recipients.
+- **S21:** They support implementing ePA for drugs but ask CMS to strengthen enforcement, require automatic approval when deadlines are missed, and maintain continuity during appeals or transitions.
+- **S29:** The commenters support PA metrics for drugs and ask for plan-specific, drug-level, service-level, geographic, benefit-level, therapeutic category, class, and indication-level reporting.
+- **S30:** They request reporting of PA requests denied and appealed using AI or similar technology.
+- **S34:** They support numeric counts in addition to percentages and standardized reporting across health plans.
+- **S35:** They support public reporting that lets regulators, clinicians, researchers, and patients identify payer outlier behavior.
+- **S66-S82:** The comment responds extensively to the step therapy RFI, requesting standardized exceptions, transferable step therapy determinations, payer-to-payer/provider-payer exchange of treatment history, public step therapy metrics, and continuity protections.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize expansion of electronic PA to drugs under both medical and pharmacy benefits.
+2. Include site-of-care and dose-escalation requests in PA API and transparency requirements.
+3. Prohibit duplicative documentation through proprietary portals when equivalent data has been sent through standardized APIs.
+4. Require interoperability between medical-benefit and pharmacy-benefit standards.
+5. Finalize proposed PA timeframes and adopt the shortest feasible timelines across payer categories.
+6. Require 24-hour expedited review for liver transplant candidates and recipients.
+7. Strengthen enforcement and require automatic approval when payers miss PA review deadlines.
+8. Require continuity of existing therapy during appeals and plan transitions.
+9. Require detailed, clinically specific denial notices and qualified specialist review of adverse determinations.
+10. Require granular public PA metrics, including counts, percentages, service categories, geography, benefit type, therapeutic category, drug class, indication, response times, repeated PA for stable patients, and AI-related denials/appeals.
+11. Establish rigorous federal step therapy safeguards and a standardized exception process.
+12. Require step therapy determinations to transfer across payers, plan years, benefit categories, route of administration changes, and site-of-care changes.
+13. Prohibit non-medical switching without explicit treating clinician approval.
+14. Establish an MA formulary adequacy standard for fail-first biosimilars that are not reasonably available to network providers.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays for biologics and specialty drugs, inadequate medical/pharmacy benefit interoperability, duplicate documentation, vague denial notices, weak enforcement, opaque PA metrics, AI-related denials, step therapy harms, non-medical switching, and underwater biosimilars.
+- **Potential negative impacts cited:** Increased disease activity, emergency department visits, hospitalizations, surgery, bowel damage, corticosteroid dependence, malnutrition, disease progression, graft dysfunction, organ rejection, immunogenicity, loss of response to biologics, missed school, patient suffering, and higher health system costs.
+- **Implementation barriers mentioned:** Fragmented fax/phone/portal workflows, benefit-category splits, payer data silos, inconsistent step therapy documentation processes, lack of standardized exception forms, annual plan/formulary changes, and financially unavailable fail-first biosimilars.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA estimate that physician practices spend an average of 12 hours per week managing step therapy and PA burden; IBD patient survey result that 85% subjected to step therapy reported negative health outcomes; clinical examples of pediatric Crohn's disease and a 7-year-old with chronic functional constipation forced toward inappropriate alternatives.
+- **Studies or research referenced:** National survey on PA burden in gastroenterology; pediatric IBD medication denial article; AMA PA survey; IBD utilization barrier survey; GI clinical guidelines; studies on step therapy costs and harms; research on biologic immunogenicity and anti-drug antibodies; ACP position paper on step therapy and nonmedical switching.
+- **Examples provided:** IBD biologics, EoE, liver diseases, IV induction to subcutaneous maintenance transitions, transplant immunosuppressives, anti-infectives, Crohn's disease in children, stable infliximab, vedolizumab, ustekinumab, risankizumab, adalimumab, and the Linzess pediatric constipation example.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Digestive disease patients, pediatric patients, transplant candidates and recipients, gastroenterologists, hepatologists, GI practices, payers, PBMs, MA plans, specialty pharmacies, infusion providers, and regulators.
+- **Economic implications:** Step therapy and PA delays may increase downstream costs through hospitalizations, emergency care, surgeries, and avoidable complications; underwater biosimilar requirements can impose direct financial losses on physician practices.
+- **Technical feasibility:** The commenters support FHIR/NCPDP-based ePA but stress that cross-benefit interoperability, standardized submission, and payer-to-payer/provider-payer data exchange must capture prior therapy and step therapy history.
+- **Patient care impact:** Very high; the comment frames timely drug access and continuity as necessary to avoid serious GI disease progression, transplant complications, and loss of response to effective biologic therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with strong modification requests
+- **Tone:** Professional, clinical, urgent, and evidence-based
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Our societies strongly support CMS' proposal" - Context: Support for expanding PA requirements to drugs under both medical and pharmacy benefits.
+2. "Generic denial language is insufficient" - Context: Request for detailed denial notices.
+3. "technological improvements alone will be insufficient" - Context: Step therapy RFI response requesting substantive safeguards.
+4. "The clinical question should not reset because of the insurance plan, benefit type, site of care, or route of administration changes" - Context: Continuity and transferability of step therapy determinations.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports expedited timelines and asks for enforcement and automatic approval when deadlines are missed.
+- [x] **COST-RESOURCES** - Discusses administrative burden, downstream utilization costs, and underwater biosimilar reimbursement losses.
+- [x] **PROVIDER-BURDEN** - Focuses on gastroenterology practice burden from PA, step therapy documentation, portals, peer-to-peer review, and appeals.
+- [x] **HEALTH-EQUITY** - Highlights pediatric patients, transplant patients, chronic digestive disease patients, and patients with complex specialty-drug needs.
+- [x] **TECHNICAL-FEASIBILITY** - Supports ePA but identifies cross-benefit interoperability and standardized step therapy data exchange needs.
+- [x] **PATIENT-ACCESS** - Central concern is timely access to biologics, specialty medications, transplant drugs, and stable maintenance therapy.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for coordination across payers, PBMs, providers, benefit categories, and payer-to-payer/provider-payer exchange.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Major focus, especially for therapies moving between IV medical benefit and subcutaneous pharmacy benefit.
+- [x] **TRANSPARENCY** - Requests granular PA metrics, AI-related reporting, and detailed denial notices.
+- [x] **EXISTING-WORKFLOWS** - Addresses fax, phone, portal workflows, duplicate documentation, formulary changes, and plan transitions.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Standards are referenced but maturity is not the central concern.
+- [ ] **REGULATORY-AUTHORITY** - Mentions CMS authority for MA formulary adequacy but does not raise legal objections.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+Dr. Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard  
+Baltimore, MD 21244 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of 
+Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P] 
+Submitted electronically via regulations.gov 
+Dear Dr. Oz: 
+The undersigned national organizations, representing digestive disease patients and physicians 
+appreciate the opportunity to respond to several elements of the Centers for Medicare & 
+Medicaid Services (CMS) proposed rule, as published in the Federal Register on April 14, 2026, 
+to improve the electronic exchange of health care data and streamline processes related to prior 
+authorization (PA) by increasing the interoperability of systems used across the health care 
+industry.  
+The use of PA is resulting in denials and delays for medically necessary care and treatments, and 
+the administrative burden associated with PA on gastroenterologists and other physicians, as well 
+as the impact of PA on clinical recommendations, are well documented. , ,   We acknowledge the 
+1 2 3
+steps that have been taken by CMS to help relieve the burden of PA on clinicians and to make the 
+PA process more transparent. The truth is, however, that the PA data required to be made public 
+by health plans are often difficult to find on health plan websites, reported in inconsistent 
+formats, and aggregated at a level too high to show what is happening to specific services, such 
+as diagnostic endoscopy or advanced therapeutic procedures. High approval rates on paper may 
+also mask delays that effectively function as ...

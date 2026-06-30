@@ -1,0 +1,219 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0523_20260629112016_db323f8d
+Commenter: Federation of American Hospitals (FAH)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:25:52
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Federation of American Hospitals (FAH); signed by Charlene K. MacDonald, President and CEO
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** National representative of more than 1,000 tax-paying hospitals and health systems throughout the United States.
+
+## 2. EXECUTIVE SUMMARY
+
+FAH supports CMS's goals to reduce prior authorization burden, improve drug access, require interoperable electronic PA, and increase transparency, but asks CMS to phase in FHIR-based requirements and protect provider workflow flexibility. The comment recommends machine-readable routing between medical and pharmacy benefit drug pathways, stronger denial explanations, faster and more standardized PA timeframes, granular reporting and enforcement, a national API endpoint registry, retention of formulary information in Provider Access APIs where feasible, careful HIPAA FHIR implementation, national patient matching guidance, and risk-based cybersecurity policy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** 45 CFR Part 170; HIPAA referral certification and authorization and eligibility transaction standards; references to the 2024 CMS Interoperability and Prior Authorization final rule; Federal Register 91 FR 19899; CMS-0062-P.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, and PAS IGs; NCPDP SCRIPT, Formulary and Benefit, and Real-Time Prescription Benefit standards; X12N 278; certified health IT/CEHRT; SAFER Guides; HIPAA; NIST and HHS Cybersecurity Performance Goals.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Medical vs. pharmacy benefit routing**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Drugs may fall under either benefit depending on route, site of care, plan design, payer policy, and product. Providers may submit through the wrong pathway and delay patient care if payer routing is unclear.
+- **Specific request:** Require payers to publish machine-readable routing logic with benefit classification, plan/product information, endpoint, effective dates, and version information; establish a provider safe harbor when providers reasonably rely on payer-published routing information.
+
+**Topic 2: Phased implementation of FHIR prior authorization APIs**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** FHIR-based ePA can reduce manual work, but readiness varies across payers, EHR vendors, intermediaries, and providers. Nominal API compliance will not reduce burden if payer rules, testing, authentication, or EHR workflows are incomplete.
+- **Specific request:** At the initial compliance date, require publication of coverage requirements, documentation expectations, endpoint metadata, authentication requirements, version information, and testing environments; delay full CRD/DTR/PAS transactional enforcement until after a validation period; coordinate timing and scope with ONC certification requirements.
+
+**Topic 3: Provider technology flexibility**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL
+- **Position:** Clarify
+- **Rationale:** Hospital ePA workflows often involve EHRs, e-prescribing vendors, clearinghouses, intermediaries, enterprise services, and payer connectivity platforms. A CEHRT-only approach would increase cost and operational complexity.
+- **Specific request:** State clearly that payer obligations do not create a provider-side CEHRT usage mandate and that providers may use certified modules, e-prescribing vendors, intermediaries, or enterprise-level solutions if standards, data integrity, privacy, security, and auditability are maintained.
+
+**Topic 4: Denial reason specificity**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modification
+- **Rationale:** Providers need actionable denial information to resolve deficiencies, appeal, or change course quickly; narrative-only denials would perpetuate manual review and payer-specific interpretation.
+- **Specific request:** Require structured denial codes plus plain-language explanations, missing documentation or unmet criteria, applicable coverage policies, appeal/resubmission paths, alternative therapies or services where applicable, and all denial reasons at once rather than piecemeal.
+
+**Topic 5: Prior authorization timeframes and consequences**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modification
+- **Rationale:** Shorter and more consistent timeframes improve access, especially for acute care transitions, discharge medications, outpatient infusions, and specialty drug administration. Different patient and provider notice timelines cause confusion.
+- **Specific request:** Align patient and provider notifications, use same-business-day decisions where possible and no later than 24 hours after a determination, standardize across payers to the extent statutory authority permits, and treat missed deadlines as deemed authorizations not subject to later medical necessity denial or audit.
+
+**Topic 6: Reporting and enforcement of PA measures**
+- **Provision ID:** API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; TRANSPARENCY-related GENERAL
+- **Position:** Support with modification
+- **Rationale:** Aggregate reporting can obscure inappropriate delays or denials for specific services, drugs, or plan types. Appeals are insufficient to detect systemic abuse.
+- **Specific request:** Require PA metrics by plan and by item/service category, include counts and percentages, require direct reporting to CMS, conduct routine audits, impose sanctions for inappropriate PA practices, and incorporate timeliness and overturned-denial measures into quality rating programs.
+
+**Topic 7: API endpoint registry**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support with modification
+- **Rationale:** Reliable endpoint discovery is necessary for scalable interoperability and avoids payer-by-payer searches for URLs, registration steps, capability statements, and contacts.
+- **Specific request:** Establish or designate a standardized FHIR-enabled national registry containing endpoint URLs, capability statements, authentication and authorization requirements, version metadata, effective dates, test environments, maintenance information, and technical support contacts, with an initial stabilization period before enforcement.
+
+**Topic 8: Drug formulary information in APIs**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Providers help patients navigate formularies, documentation requirements, and cost-sharing; centralized formulary access can reduce burden and improve clinical decision-making.
+- **Specific request:** If technologically feasible, require Provider Access APIs to include complete drug formulary information rather than removing it.
+
+**Topic 9: HIPAA prior authorization standards**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** FHIR has promise but remains unevenly tested in operational PA workflows, and many covered entities still operate legacy systems that do not support FHIR.
+- **Specific request:** Continue developing FHIR but ensure wide-scale testing, adoption, flexibility, and oversight before requiring use as a HIPAA standard across all covered entities.
+
+**Topic 10: RFIs on patient matching and cybersecurity**
+- **Provision ID:** GENERAL; ONC-STANDARDS-UPDATE
+- **Position:** Clarify/Modify
+- **Rationale:** Accurate patient matching underpins PA, patient access, payer-provider exchange, public health reporting, and care coordination. Cybersecurity requirements must account for resource constraints and shared accountability across the technology ecosystem.
+- **Specific request:** Develop national patient matching guidance with ONC and other federal partners; adopt risk-based cybersecurity expectations aligned with HIPAA, HHS CPGs, NIST, ONC policy, and existing frameworks; avoid duplicative attestations and make SAFER Guides optional beginning CY 2027 or recognize alternatives.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports requiring use of FHIR-based IGs in concept but asks for phased enforcement and validation before full CRD/DTR/PAS transactional requirements.
+- **S2:** Requests publication of version information and coordination with ONC so payer obligations and certified health IT capabilities align.
+- **S3:** Seeks transition flexibility and testing before enforcement when FHIR IGs or related capabilities change.
+- **S12:** Identifies technical and operational challenges in expanding the PA API to medical benefit drugs, including authentication, testing, incomplete payer rules, EHR workflow readiness, and legacy systems.
+- **S15:** Responds directly by asking CMS to address ambiguity between medical and pharmacy benefit drug pathways through machine-readable routing logic and a provider safe harbor.
+- **S16:** Supports requiring specific drug PA denial reasons and defines specificity as actionable information including all reasons, missing documentation, unmet criteria, coverage policy, next steps, and alternative options.
+- **S17:** Supports structured denial codes combined with narrative explanations to enable scalable provider workflows.
+- **S18:** Notes that mandatory IGs may indirectly burden providers and should not create CEHRT-only workflow requirements.
+- **S20:** Supports the 24-hour drug PA timeframe for Medicaid/CHIP and asks CMS to move toward same-business-day or no-later-than-24-hour notifications more broadly.
+- **S21:** States that the timeline can work only with phased implementation, testing environments, validation, and ONC coordination.
+- **S23:** Supports endpoint reporting but asks for authentication, authorization, and security details in a centralized registry and a stabilization period.
+- **S24:** Recommends endpoint reporting include URLs, capability statements, authentication requirements, version metadata, effective dates, test environments, maintenance information, and support contacts.
+- **S26/S27:** Supports standardized reporting through a national registry and accurate ongoing maintenance, though the comment does not specify a detailed format or update cadence beyond registry data quality.
+- **S29/S34/S35:** Supports expanded PA reporting metrics, including numeric counts and percentages, but asks for reporting by plan and item/service category and for CMS oversight use.
+- **S32/S37:** Addresses CRD/DTR/PAS implementation challenges and recommends testing and validation before full transactional enforcement.
+- **S43:** Urges alignment of drug and non-drug PA timeframes and concurrent patient/provider notice.
+- **S44:** Supports continued FHIR development for HIPAA PA standards but warns that the framework needs more broad operational testing.
+- **S46:** Notes that FHIR would replace X12N 278 for PA and emphasizes the need to manage legacy systems and operational readiness.
+- **S47/S53:** Recommends flexible timing and phased implementation for HIPAA FHIR requirements, especially because the proposal affects all covered entities.
+- **S48/S50/S51:** Raises cost, maturity, and non-CMS covered entity readiness concerns due to legacy systems and limited operational experience.
+- **S66-S82:** Responds to RFIs by supporting national patient matching standards and risk-based cybersecurity and resiliency policies.
+
+## 6. RECOMMENDATIONS
+
+1. Require payers to publish machine-readable routing logic for drugs that may be covered under either medical or pharmacy benefits.
+2. Create a provider safe harbor when providers rely on payer-published endpoint, formulary, RTPB, or API metadata.
+3. Use a phased implementation for FHIR PA APIs, beginning with publication of coverage requirements, documentation expectations, endpoint metadata, authentication requirements, versions, and test environments.
+4. Delay full transactional CRD, DTR, and PAS enforcement until after a validation period.
+5. Preserve provider flexibility to use EHRs, certified modules, e-prescribing vendors, intermediaries, enterprise services, and other compliant technology partners.
+6. Require denial responses to include structured codes, plain-language explanations, all denial reasons, missing documentation, coverage criteria, appeal/resubmission pathways, and alternatives.
+7. Align patient and provider notification timing and standardize PA timeframes across impacted payers where permitted.
+8. Treat missed PA decision deadlines as deemed authorizations not subject to later medical necessity denial or audit.
+9. Require granular PA reporting by plan and category of item/service or drug, including counts and percentages.
+10. Increase CMS audits, sanctions, and quality-rating accountability for PA practices.
+11. Establish a centralized FHIR-enabled national registry for payer API endpoints.
+12. Retain complete drug formulary information in the Provider Access API if technically feasible.
+13. Ensure FHIR HIPAA PA standards are widely tested, flexible, and feasible for legacy systems before mandatory implementation.
+14. Develop national patient matching guidance with ONC and federal partners.
+15. Adopt aligned, risk-based cybersecurity expectations and avoid duplicative SAFER Guides attestations.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Ambiguity between medical and pharmacy benefit pathways; premature or rigid FHIR enforcement; indirect provider burden; CEHRT-only interpretations; insufficient denial specificity; inconsistent PA timeframes; overly aggregated reporting; inadequate enforcement; HIPAA-wide FHIR readiness; patient matching variation; duplicative cybersecurity requirements.
+- **Potential negative impacts cited:** Delayed or abandoned care, delayed discharge or post-acute transitions, provider administrative burden, duplicated connections and testing, patient confusion, inappropriate denials, increased costs, privacy/security risks from patient mismatches, and diversion of resources from patient care.
+- **Implementation barriers mentioned:** Legacy systems, EHR vendor dependency, testing environment availability, authentication clarity, incomplete payer rules, standards maturity, varied payer routing, cybersecurity resource constraints, and lack of centralized endpoint discovery.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** FAH represents more than 1,000 tax-paying hospitals and health systems.
+- **Studies or research referenced:** HHS OIG April 2022 report, "Some Medicare Advantage Organization Denials of Prior Authorization Requests Raise Concerns About Beneficiary Access to Medically Necessary Care"; Federal Register statement that PA is a major source of provider and payer burden and may create health risks.
+- **Examples provided:** Drugs that can be covered under either benefit; acute care transitions such as discharge medications, post-acute services, outpatient infusion scheduling, ED follow-up, and specialty drug administration; patient notices arriving after denials have been overturned; cyber risks including ransomware, vendor compromise, credential theft, phishing, legacy-system exploitation, supply-chain vulnerability, AI governance, and impersonation schemes.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals and health systems, healthcare providers, patients, impacted payers, EHR vendors, e-prescribing vendors, clearinghouses, intermediaries, CMS, ONC, health IT developers, small and rural providers, HIPAA covered entities, and technology partners.
+- **Economic implications:** Implementation could require EHR upgrades, vendor support, testing, cybersecurity review, enterprise integration, and operational redesign. Granular reporting and enforcement may impose payer obligations but could reduce inappropriate denials and administrative waste.
+- **Technical feasibility:** Feasible if phased with testing, validation, version clarity, endpoint registry infrastructure, flexible provider technology options, and mature FHIR/NCPDP workflows; risky if enforced before production readiness.
+- **Patient care impact:** FAH expects improved access, fewer delays, more transparent denials, and safer transitions if CMS strengthens timeframes, routing, denial content, reporting, and enforcement.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed/Supportive with substantial modifications
+- **Tone:** Professional, collaborative, technical, and policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Prior authorization continues to be one of the most significant administrative challenges facing patients, hospitals, physicians, and health plans." - Context: Opening summary of why CMS action is important.
+2. "We recommend CMS require impacted payers to publish machine-readable routing logic" - Context: Request to resolve medical vs. pharmacy benefit ambiguity.
+3. "Full transactional enforcement of CRD, DTR, and PAS workflows should occur only after a defined validation period." - Context: Recommendation for phased FHIR PA API implementation.
+4. "Responsibility for cybersecurity should not rest solely with providers" - Context: RFI response arguing for shared accountability across connected technology participants.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - FAH asks for phased enforcement, validation periods, and alignment with ONC timing.
+- [x] **COST-RESOURCES** - The comment cites EHR costs, vendor support needs, cyber investment, and resource diversion from patient care.
+- [x] **PROVIDER-BURDEN** - Reducing hospital and provider PA burden is a central theme, including CEHRT flexibility and denial clarity.
+- [x] **PRIVACY-SECURITY** - Patient matching, API security, cyber resiliency, HIPAA alignment, authentication, and shared accountability are addressed in detail.
+- [x] **HEALTH-EQUITY** - The comment indirectly addresses access risks for patients needing timely care, though equity-specific populations are not a major focus.
+- [x] **TECHNICAL-FEASIBILITY** - FAH emphasizes readiness variation, legacy systems, testing environments, endpoint discovery, and operational validation.
+- [x] **STANDARDS-MATURITY** - The comment supports FHIR and NCPDP standards but warns that FHIR PA standards require more testing and flexible version handling.
+- [x] **PATIENT-ACCESS** - The comment repeatedly connects PA delays, denials, and unclear routing to delayed or abandoned care.
+- [x] **REGULATORY-AUTHORITY** - The HIPAA section notes the broader effect on all covered entities and urges careful oversight, though it does not mount a direct legal challenge.
+- [x] **STAKEHOLDER-COORDINATION** - FAH asks CMS to coordinate with ONC, vendors, payers, providers, Congress, and federal cybersecurity frameworks.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment directly addresses ambiguity between drug benefit pathways and proposes routing logic.
+- [x] **TRANSPARENCY** - Denial reasons, PA metrics, endpoint reporting, formulary information, and payer accountability are major topics.
+- [x] **SMALL-PAYER-IMPACT** - Small and rural provider cybersecurity constraints are discussed; small payer impact is not a central point.
+- [x] **EXISTING-WORKFLOWS** - FAH asks CMS to preserve existing multi-system provider workflows rather than forcing CEHRT-only approaches.
+- [x] **VENDOR-ECOSYSTEM** - The comment addresses EHR developers, e-prescribing vendors, clearinghouses, intermediaries, and third-party technology partners.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Charlene K. MacDonald
+President and CEO
+ 
+June 15, 2026 
+ 
+Via electronic submission at http://www.regulations.gov 
+ 
+The Honorable Mehmet Oz, M.D., M.B.A. 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+Hubert H. Humphrey Building 
+200 Independence Avenue SW 
+Washington, DC 20201 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;  
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage  
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health  
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of  
+Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Oz: 
+ 
+As the national representative of more than 1,000 leading tax-paying hospitals and health systems throughout 
+the United States, the Federation of American Hospitals (FAH) appreciates the opportunity to provide the 
+Department of Health and Human Servicesâ€™ (the Department) Office of the National Coordinator for Health 
+Information Technology (ONC) and the Centers for Medicare & Medicaid Services (CMS) with our comments 
+in response to the above-referenced Interoperability Standards and Prior Authorization Proposed Rule (CMS-
+0062-P; Proposed Rule).1  
+FAH continues to believe that advances in health information technology (health IT) improve the quality and 
+efficiency of care provided to patients, reduce provider burden, and advance population health management 
+and breakthroughs in health care research. We appreciate CMSâ€™ commitment to improving interoperability 
+and patient access to medically necessary drugs and believe many of the policies contained in the Proposed 
+Rule would advance those goals. We also applaud CMSâ€™ heightened scrutiny of health plansâ€™ prior 
+authorization (PA) policies for non-drug items and services, as well ...

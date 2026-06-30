@@ -1,0 +1,167 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0531_20260629112156_c874fd6a
+Commenter: Association of Cancer Care Centers (ACCC)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:26:17
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Association of Cancer Care Centers (ACCC); signed by Meagan O'Neill, MS, Executive Director.
+- **Stakeholder type:** Professional Association; Healthcare Provider/Advocacy Group.
+- **Credentials or expertise mentioned:** ACCC describes itself as a cancer care education and advocacy organization with 50+ years of history, over 45,000 cancer care professionals, more than 1,700 member organizations, and representation of approximately two-thirds of U.S. oncology programs and practices.
+
+## 2. EXECUTIVE SUMMARY
+
+ACCC supports extending prior authorization reforms to drugs, including required decision timeframes, denial reasons, reporting, and electronic PA interoperability, because these changes can improve cancer patient access and reduce provider burden. It asks CMS to shorten and align drug PA timelines where possible, reject QHP extensions of PA timeframes, and use technology to improve step therapy transparency and continuity across payer transitions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; FHIR-IG-REQUIRED/electronic PA API generally; FF-SHOP-REQUIREMENTS/QHP requirements; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** Federal Register citation 91 Fed. Reg. 19890; no CFR sections cited by number.
+- **Standards referenced:** Electronic PA API; interoperability standards; information technology systems; no specific FHIR IG or NCPDP standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Drug prior authorization decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support/Modify
+- **Rationale:** ACCC supports extending required PA timeframes to drugs and states that timely decisions are particularly important for patients with serious, chronic, or complex conditions such as cancer.
+- **Specific request:** Finalize proposed timeframes and shorten QHP FFE drug PA timelines to 24 hours for both standard and expedited requests if CMS chooses to align them with Medicaid/CHIP standards.
+
+**Topic 2: Public reporting on drug PA processes**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY/GENERAL
+- **Position:** Support
+- **Rationale:** ACCC says reporting on denials, appeals, and related PA metrics will add transparency to plan offerings and may strengthen oversight.
+- **Specific request:** Finalize the new drug PA reporting requirements.
+
+**Topic 3: Specific reasons for drug PA denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Specific denial reasons improve communication between plans and providers and give providers insight into plan decisions.
+- **Specific request:** Require specified plans to provide providers a specific reason when denying drug PA requests.
+
+**Topic 4: Electronic PA interoperability for drug decisions**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** ACCC believes electronic PA APIs and interoperability for drug decisions can reduce administrative burden.
+- **Specific request:** Finalize interoperability requirements supporting electronic PA decisions for drugs.
+
+**Topic 5: QHP FFE PA timelines and extension requests**
+- **Provision ID:** FF-SHOP-REQUIREMENTS; PA-TIMEFRAMES-DRUGS
+- **Position:** Support proposed timelines; Oppose extensions
+- **Rationale:** ACCC supports QHP FFE decision timelines for non-drug services and drugs but says 14-day extensions could undermine timely access and add administrative burden.
+- **Specific request:** Implement proposed QHP FFE PA timelines, consider shorter aligned timeframes in future rulemaking, and do not allow QHP issuers to extend PA decision timeframes by up to 14 calendar days.
+
+**Topic 6: Step therapy and technology**
+- **Provision ID:** GENERAL
+- **Position:** Support/Clarify
+- **Rationale:** ACCC supports technology and data sharing that can improve transparency, continuity, and transition of care, including access to historical drug therapy information when patients change payers.
+- **Specific request:** Continue exploring ways technology can streamline step therapy and related utilization review and avoid therapy disruptions during coverage transitions.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16-S17:** Supports requiring specific reasons for drug PA denials because it improves plan-provider communication and provider understanding of decisions.
+- **S20/S43:** Supports proposed drug PA timeframes and favors shortening QHP FFE drug decisions to 24 hours for both standard and expedited requests to align with Medicaid/CHIP programs.
+- **S21:** Supports applying required timeframes to drugs, especially for serious and complex conditions such as cancer, while requesting stronger alignment and shorter timelines.
+- **S29-S30/S34-S35:** Supports reporting requirements for drug PA denials, appeals, and other metrics to improve transparency and oversight.
+- **S40-S42:** Supports QHP FFE PA requirements for non-drug services and drugs, but opposes allowing QHPs to request 14-day extensions of PA timeframes.
+- **S66-S82:** Responds to the RFI on step therapy by supporting technology, interoperability, and data sharing to improve transparency, continuity, and transitions of care.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize required PA decision timeframes for drugs across affected plans.
+2. Shorten QHP FFE drug PA decision timelines to 24 hours for both standard and expedited requests.
+3. Align PA standards and timelines for drug and non-drug services as much as possible, including in future rulemaking where needed.
+4. Finalize public reporting requirements for drug PA denials, appeals, and related process metrics.
+5. Require specific denial reasons for drug PA requests.
+6. Finalize electronic PA interoperability requirements for drug decisions.
+7. Do not allow QHP issuers to extend PA decision timeframes by up to 14 days.
+8. Use technology and data sharing to improve step therapy transparency and continuity during payer transitions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays and administrative burden for patients and providers in cancer care; insufficient transparency; QHP extension requests that could delay care; step therapy disruption during coverage transitions.
+- **Potential negative impacts cited:** Negative clinical outcomes for patients with serious, chronic, or complex conditions; undermined timely access to care; additional provider administrative burdens; disruptions in therapy when patients change payers.
+- **Implementation barriers mentioned:** Variation in timelines across programs, lack of transparency in denials and appeals, potential QHP delays, and incomplete access to historical therapy information for step therapy decisions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ACCC has over 45,000 cancer care professional members, more than 1,700 member organizations, and represents approximately two-thirds of U.S. oncology programs and practices.
+- **Studies or research referenced:** National Health Council report on prior authorization burden for patients with chronic disease; 2025 AMA Prior Authorization Physician Survey; Health Affairs Forefront article by Kyle and Sachs on CMS's proposed rule.
+- **Examples provided:** Cancer care as a serious, chronic, and complex care context where delayed or opaque PA can affect clinical outcomes; step therapy disruptions when patients change payers.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Cancer patients, oncology providers and care teams, QHP issuers on FFEs, Medicaid and CHIP programs, MA plans, payers, CMS, and providers handling PA and appeals.
+- **Economic implications:** The comment does not quantify financial costs but links PA burden to provider administrative workload and implies that transparency and electronic PA can reduce administrative burden.
+- **Technical feasibility:** ACCC supports electronic PA APIs and interoperability as feasible tools to streamline drug PA and step therapy if implemented with timely and transparent processes.
+- **Patient care impact:** Faster, transparent PA decisions are important to prevent delays and negative outcomes for cancer patients and others with serious or complex conditions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted objections
+- **Tone:** Professional, collaborative, and patient-access focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "ACCC welcomes the proposed rule's extension of PA reforms to drugs" - Context: Overall support for applying reforms to drug PA.
+2. "ACCC strongly supports this new requirement" - Context: Support for specific denial reasons.
+3. "ACCC does not support this proposal" - Context: Opposition to allowing QHP issuers to extend PA timeframes.
+4. "avoid disruptions in therapy due to coverage transitions" - Context: Step therapy and technology RFI response.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ACCC focuses heavily on PA decision timeframes, shorter deadlines, and opposition to extensions.
+- [x] **PROVIDER-BURDEN** - The comment emphasizes administrative burden on oncology providers and care teams.
+- [x] **TECHNICAL-FEASIBILITY** - ACCC supports electronic PA APIs, interoperability, and technology-enabled step therapy improvements.
+- [x] **PATIENT-ACCESS** - The comment centers on timely access for cancer patients and others with serious or complex conditions.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations involve CMS, QHPs, Medicaid/CHIP programs, MA plans, oncology providers, and payers sharing historical therapy data.
+- [x] **TRANSPARENCY** - ACCC supports reporting requirements and specific denial reasons to improve visibility into PA processes.
+- [x] **FF-SHOP-REQUIREMENTS** - The comment supports QHP FFE PA requirements for non-drug and drug services and opposes extension allowances.
+- [x] **EXISTING-WORKFLOWS** - It addresses PA communications, appeals, step therapy processes, and continuity during payer transitions.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+ACCC BUSINESS OFFICE: 
+     1801 Research Boulevard â€¢ Suite 400 â€¢ Rockville, MD 20850 
+     Phone: 301-984-9496 â€¢ Fax: 301-770-1949 
+     www.accc-cancer.org 
+June 15, 2026 
+ 
+Dr. Mehmet Oz  
+Administrator    
+Centers for Medicare & Medicaid Services     
+U.S. Department of Health and Human Services    
+200 Independence Avenue, SW     
+Washington, DC 20201    
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges [CMS-0062-P]  
+ 
+Submitted electronically at https://www.regulations.gov/    
+  
+Dear Administrator Oz: 
+ 
+The Association of Cancer Care Centers (ACCC) appreciates the opportunity to 
+offer comments on the Centers for Medicare and Medicaid Servicesâ€™ (CMS) 
+proposed rule, Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs 
+for Medicare Advantage Organizations, Medicaid Managed Care Plans, State 
+Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally 
+Facilitated Exchanges (hereinafter referred to as â€œthe proposed ruleâ€), published 
+in the Federal Register (91 Fed. Reg.19890) on April 14, 2026.  
+ 
+By way of background, ACCC is a leading education and advocacy organization 
+dedicated to serving the cancer care community. ACCC is viewed as a well-
+established and highly respected organization within the oncology industry at 
+large, built from our 50+ year history of serving cancer care teams and the 
+patients they support. ACCC is differentiated by our unique multidisciplinary f...

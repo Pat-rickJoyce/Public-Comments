@@ -1,0 +1,158 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0485_20260629112141_540d0dd9
+Commenter: American Academy of Dermatology / Association
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:31:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Academy of Dermatology / Association (Academy); signed by Murad Alam, MD, MSCI, MBA, FAAD, President.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** Represents more than 18,000 dermatologists nationwide focused on medical and surgical treatment of skin disease, dermatology, dermatopathology, clinical practice, education, research, and patient outcomes.
+
+## 2. EXECUTIVE SUMMARY
+
+The Academy supports CMS's efforts to improve prior authorization interoperability and reduce burden, but asks CMS to strengthen timing, denial, appeal, metrics, and technology requirements. It also responds to RFIs on laboratory tests and step therapy, urging streamlined documentation, avoidance of laboratory benefit managers, elimination of PA for routine low-cost tests, and protections for patients stable on therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; ONC-STANDARDS-UPDATE; GENERAL/RFI topics for laboratory tests, DME/POS, and step therapy.
+- **Regulatory citations mentioned:** No CFR citations. References existing Medicare Advantage Part B drug timing requirements and AMA Prior Authorization and Utilization Management Reform Principles.
+- **Standards referenced:** Electronic prior authorization systems; real-time prescription benefits; health information technology standards; EHR interoperability. No named FHIR IGs or NCPDP standards are cited directly.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior Authorization Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Standardized faster timelines would reduce delays and align with physician community reform principles.
+- **Specific request:** Set expedited drug and non-drug PA decisions at no later than 24 hours and standard drug and non-drug PA decisions at no later than 48 hours across all payers.
+
+**Topic 2: Denial Reasons and Appeals**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Providers need actionable denial information and a clinically appropriate appeal path.
+- **Specific request:** Require denial notices to include specific reasons, relevant payer policies, URLs, and an appeal process allowing peer-to-peer escalation with a payer medical director physician trained in the requesting physician's specialty.
+
+**Topic 3: Prior Authorization Metrics**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Public PA metrics can improve transparency but should also drive payer review and reduction of unnecessary PA requirements.
+- **Specific request:** Require public website or hyperlink reporting and require payers to annually review PA processes and report to provider networks the full list of PA items, services, medications, requirements, rationale, and current clinical criteria.
+
+**Topic 4: Technology and Standards**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; ONC-STANDARDS-UPDATE
+- **Position:** Support
+- **Rationale:** Interoperability, electronic PA, RTPB, and updated health IT standards can remove access barriers, especially for physicians in smaller practices.
+- **Specific request:** Improve interoperability of electronic PA, RTPB, and related systems and require payer updates to health IT standards.
+
+**Topic 5: Laboratory Test Prior Authorization**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify/Oppose
+- **Rationale:** PA for nuanced, patient-dependent tests creates cost, burden, burnout, and delays in tests that inform many care decisions.
+- **Specific request:** Accept simplified test requisition forms, review LCDs with MACs, avoid promoting LBMs, apply short timeframes and denial protections to lab tests, and eliminate PA for routine low-cost tests such as immunohistochemistry.
+
+**Topic 6: Step Therapy**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** Fail-first policies ignore patient-specific disease history and can destabilize effective therapy.
+- **Specific request:** Require payers to let stable new patients continue current therapy and honor documented prior step therapy completion without time restrictions, supported by EHR interoperability.
+
+## 5. SOLICITATION RESPONSES
+
+- **S17:** The Academy supports specific denial reasons and asks CMS to require payer policy citations, URLs, and clear appeal escalation processes.
+- **S20:** The Academy recommends expedited drug PA requests be decided within 24 hours.
+- **S29:** The Academy supports public metrics across items, services, and medications and wants metrics to drive payer review of PA lists and clinical rationales.
+- **S34:** The Academy supports annual public PA metrics reporting on payer websites or through accessible hyperlinks.
+- **S37:** The Academy supports updated health IT standards and attention to access barriers for physicians, especially those in smaller practices.
+- **S43:** The Academy urges standardization of expedited drug and non-drug requests at 24 hours and standard requests at 48 hours.
+- **S60-S65:** The Academy broadly supports requiring payers to update health information technology standards to improve electronic PA.
+- **S66-S82:** The Academy responds to RFIs on lab tests/DME and step therapy, recommending streamlined TRFs, avoiding LBMs, eliminating PA for routine low-cost tests, and protecting stable patients from repeat step therapy.
+
+## 6. RECOMMENDATIONS
+
+1. Standardize expedited drug and non-drug PA decision timeframes at no later than 24 hours.
+2. Standardize standard drug and non-drug PA decision timeframes at no later than 48 hours.
+3. Require denial notices to cite payer policies and include URLs.
+4. Require appeal paths with specialty-matched physician medical director peer-to-peer review.
+5. Require public annual PA metrics for items, services, and medications.
+6. Require payers to annually review PA metrics and report PA lists, requirements, rationale, and clinical criteria to provider networks.
+7. Improve electronic PA, RTPB, and related interoperability systems.
+8. Require health IT standard updates that reduce physician access barriers, especially in smaller practices.
+9. Accept simplified TRFs as valid documentation for lab testing and review LCDs with MACs to reduce burden.
+10. Do not promote laboratory benefit managers as PA facilitators.
+11. Eliminate PA for routine, low-cost tests such as immunohistochemistry.
+12. Protect stable patients from step therapy disruptions and honor prior step therapy completion without time limits.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Excessive PA delays, step therapy disruption, inadequate denial explanations, administrative burden, laboratory testing delays, third-party decision-making, and barriers for smaller practices.
+- **Potential negative impacts cited:** Patient care interruptions, physician burnout, reduced access, delayed diagnostic testing, conservative diagnoses, inadequate care, disease flares, immunogenicity, adverse effects, secondary nonresponse, and medication loss of effectiveness.
+- **Implementation barriers mentioned:** Burdensome documentation, LCD requirements, payer denial processes, LBMs steering lab choices, lack of EHR interoperability, and smaller practice technology constraints.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Six in ten dermatologists report PA greatly impacts patient care; dermatologists estimate they could see five to eight more patients per day without PA; lab tests inform approximately 70% of health care decisions.
+- **Studies or research referenced:** AMA PA reform principles; Academy policy statements on patient access and physician choice of consultant; ACLA prior authorization reform recommendations; dermatology PA and MIPS compliance materials.
+- **Examples provided:** Immunohistochemistry as a routine low-cost test; step therapy risks for stable patients; LBMs steering business to particular laboratories.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Dermatologists, dermatopathologists, patients with skin disease, smaller physician practices, payers, laboratories, MACs, CMS, and patients subject to step therapy.
+- **Economic implications:** PA creates staffing and operational costs, burnout, reduced appointment availability, and potentially steered laboratory business.
+- **Technical feasibility:** Supports electronic PA, RTPB, standards updates, and EHR interoperability; flags smaller practice access concerns.
+- **Patient care impact:** Faster PA and fewer unnecessary lab/step therapy barriers would improve timely diagnosis and treatment continuity.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modification requests.
+- **Tone:** Professional, concise, clinically focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The Academy applauds CMS for recognizing the significant burdens" - Context: Overall support for PA reform.
+2. "standardize the prior authorization time frame for expedited... requests... no later than 24 hours" - Context: Timing recommendation.
+3. "require payers to outline the denial appeal process" - Context: Denial and appeal reform.
+4. "The Academy urges CMS to eliminate prior authorization requirements for routine and low-cost tests" - Context: Laboratory testing RFI.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests specific 24-hour expedited and 48-hour standard PA decision deadlines.
+- [x] **COST-RESOURCES** - Highlights staffing, operational costs, burnout, and lost patient capacity.
+- [x] **PROVIDER-BURDEN** - Central concern across PA, lab testing, and appeals.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not directly addressed.
+- [x] **TECHNICAL-FEASIBILITY** - Supports interoperability and standards updates while noting smaller practice barriers.
+- [x] **STANDARDS-MATURITY** - Broadly supports health IT standards updates.
+- [x] **PATIENT-ACCESS** - Focuses on timely access to medications, tests, and stable therapy.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Discusses payer-provider appeals, MAC/LCD coordination, and EHR verification.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Does not focus on the distinction.
+- [x] **TRANSPARENCY** - Requests denial policy links, appeal process transparency, and PA metrics.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Discusses PA disruptions, lab documentation, and step therapy history documentation.
+- [x] **VENDOR-ECOSYSTEM** - Mentions health IT standards, EHR interoperability, RTPB, and electronic PA systems.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+The Honorable Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0062-P
+P.O. Box 8013
+Baltimore, MD 21244-8013
+
+Submitted electronically via https://www.regulations.gov
+
+Dear Administrator Oz,
+
+The American Academy of Dermatology / Association (Academy) appreciates the opportunity to provide comments to the Centers for Medicare & Medicaid Services (CMS) in response to the 2026 Interoperability Standards and Prior Authorization for Drugs proposed rule. The Academy represents more than 18,000 dermatologists nationwide who are committed to excellence in the medical and surgical treatment of skin disease; advocating for high standards in clinical practice, education, and research in dermatology and dermatopathology; and driving continuous improvement in patient care and outcomes while reducing the burden of disease.
+
+The Academy applauds CMS for recognizing the significant burdens placed on physicians and their patients due to onerous prior authorization and step therapy policies...

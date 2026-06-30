@@ -1,0 +1,173 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0571_20260629112007_b0908f09
+Commenter: Amgen, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:27:31
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Amgen, Inc.; signed by Greg Portner, Senior Vice President, Global Government Affairs & Policy
+- **Stakeholder type:** Other / Manufacturer (pharmaceutical manufacturer)
+- **Credentials or expertise mentioned:** Amgen describes expertise in science, innovation, innovative drugs, biologics, and biosimilars; cites experience and policy interest in access to therapies and utilization management.
+
+## 2. EXECUTIVE SUMMARY
+
+Amgen supports CMS efforts to extend electronic prior authorization to drugs under both medical and pharmacy benefits, but focuses primarily on the Step Therapy RFI. The commenter urges CMS to eliminate Medicare Advantage step therapy for Part B drugs, or at minimum require strong patient protections, continuity safeguards, clinically appropriate lookback periods, P&T review, fast appeals, and a prohibition on mid-year step therapy additions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PATIENT-ACCESS / GENERAL RFI on step therapy; Payer-to-Payer API implications under API requirements; GENERAL
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19,890; 91 Fed. Reg. 20,013-20,014; 88 Fed. Reg. 22,120, 22,186; 42 C.F.R. § 422.136(a)(1); 42 C.F.R. § 422.136(b)
+- **Standards referenced:** Payer-to-Payer API; interoperability IT systems; no specific FHIR IG or NCPDP standard is substantively analyzed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend electronic prior authorization to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Amgen states that electronic prior authorization can make the process more efficient and less burdensome for physicians and patients, notwithstanding broader concerns about payer utilization management.
+- **Specific request:** Finalize policies extending electronic prior authorization to drugs covered under medical and pharmacy benefits.
+
+**Topic 2: Step therapy for Medicare Advantage Part B drugs**
+- **Provision ID:** GENERAL / RFI Step Therapy
+- **Position:** Oppose
+- **Rationale:** Amgen argues step therapy delays timely and appropriate care, can override physician judgment, and can be based on protocols more stringent than clinical guidelines.
+- **Specific request:** Eliminate CMS policy allowing Medicare Advantage plans to use step therapy for Part B drugs.
+
+**Topic 3: Patient protections if step therapy continues**
+- **Provision ID:** GENERAL / RFI Step Therapy; PATIENT-ACCESS
+- **Position:** Modify
+- **Rationale:** If step therapy is imposed, safeguards are needed to prevent disruption of medically necessary therapy and to avoid unintended consequences from new interoperability tools.
+- **Specific request:** Exempt stable patients and patients at risk of harm, recognize prior therapy experience across payers, accept patient/physician-submitted information, establish at least a 365-day lookback, require P&T review, accelerate adjudication and appeals, and prohibit mid-year step therapy additions.
+
+**Topic 4: Use of Payer-to-Payer API for continuity**
+- **Provision ID:** FHIR-IG-REQUIRED / GENERAL API requirements
+- **Position:** Support with safeguards
+- **Rationale:** Payer-to-Payer exchange could help a new payer know that a patient is stable on a therapy or has already tried and failed another therapy, but API information may be incomplete.
+- **Specific request:** Use Payer-to-Payer API to support step therapy continuity while requiring payers to accept information from patients and physicians when API data are incomplete.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 / Step Therapy RFI:** Amgen responds directly to CMS's request for information on step therapy and technology. It supports transparency and interoperability but asks CMS to eliminate MA Part B step therapy or require strong patient protections.
+- **S53 / phasing and transition-related implications:** The comment implicitly supports phased, protective use of interoperability tools in step therapy, emphasizing that technology must not weaken patient protections.
+- **S47 / timeframe-like considerations:** The comment asks CMS to assess whether adjudication timeframes for step therapy exceptions and appeals can be accelerated as new technologies are adopted.
+
+## 6. RECOMMENDATIONS
+
+1. Extend electronic prior authorization policies to drugs covered under medical and pharmacy benefits.
+2. Eliminate Medicare Advantage step therapy for Part B drugs.
+3. Exempt patients already stable on a therapy from step therapy, including after payer changes.
+4. Establish additional exemptions for urgent, complex, rare disease, contraindication, or rapidly progressive conditions.
+5. Require lookback periods of at least 365 days, and longer where clinically appropriate.
+6. Maintain P&T Committee review of step therapy and require documentation of safeguards.
+7. Treat embedded or prerequisite therapy requirements as step therapy for program rule purposes.
+8. Ensure fast adjudication, robust appeals, and oversight to avoid increased denials.
+9. Prohibit mid-year additions of step therapy restrictions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Step therapy delays access to medically necessary therapies and may override physician judgment.
+- **Potential negative impacts cited:** Disease progression, preventable complications, treatment delays, exacerbated health conditions, treatment disruption for stable patients, and higher denial burden.
+- **Implementation barriers mentioned:** Payer-to-Payer APIs may not contain comprehensive information; payer protocols may be inconsistent or not guideline-based; accelerated timeframes may require oversight to avoid increased denials.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 95% of providers reported PA delays; 79% reported PA can lead to treatment abandonment; 84% reported rising step therapy in Medicare Advantage; 94% said step therapy limits access to preferred Part B treatments; 60% said patients often wait weeks; 70% believed Part B step protocols were not consistently guideline-based; 73% of appealed Part D denials were overturned.
+- **Studies or research referenced:** AMA 2025 prior authorization physician survey; Avalere Health 2025 provider survey; Health Affairs analysis of commercial step therapy protocols; IQVIA analysis; HHS OIG report on Part D access barriers.
+- **Examples provided:** Stable patients changing plans; patients with rare or rapidly progressive conditions; embedded step therapy disguised as prior authorization.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing drugs and biologics, physicians, Medicare Advantage enrollees, payers, PBMs, and manufacturers.
+- **Economic implications:** The comment emphasizes administrative burden and delayed access rather than quantified costs; it implies inefficient utilization management creates avoidable system friction.
+- **Technical feasibility:** Supports interoperability and Payer-to-Payer API use, but warns that API data may be incomplete and must be supplemented by patient and physician documentation.
+- **Patient care impact:** High. The comment frames step therapy as a direct threat to timely access, continuity, and disease management for serious illnesses.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Concerned
+- **Tone:** Professional, policy-focused, critical of step therapy
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Amgen remains concerned about the growing use of utilization management policies, including prior authorization and step therapy, and the negative impact that such policies can have on patient care, such as delays in treatment." - Context: Opening statement establishing the comment's main concern.
+2. "We urge CMS to consider the negative implications of step therapy for patient access to care and again ask CMS to eliminate its policy allowing Medicare Advantage plans to use step therapy for Part B drugs." - Context: Core policy request.
+3. "As a general matter, step therapy should not be permitted where a patient is stabilized on a medication." - Context: Continuity-of-care safeguard.
+4. "Any embedded or prerequisite therapy requirement should be treated as step therapy for purposes of program rules." - Context: Request to prevent evasion of step therapy safeguards.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests accelerated adjudication and appeals and prohibits mid-year additions of restrictions.
+- [x] **COST-RESOURCES** - Discusses administrative burden, paperwork, appeals, and inefficiencies associated with utilization management.
+- [x] **PROVIDER-BURDEN** - Emphasizes physician burden, paperwork, and payer requirements overriding physician judgment.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Notes CMS recognition that inappropriate utilization management can cause disparities in care.
+- [x] **TECHNICAL-FEASIBILITY** - Supports Payer-to-Payer API use but cautions that API data may not be comprehensive.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - Central theme; step therapy and PA can delay medically necessary therapies.
+- [ ] **REGULATORY-AUTHORITY** - Not directly addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Payer-to-Payer API, patient/physician-supplied information, and P&T review require coordination.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Acknowledges both benefits but does not focus on distinction issues.
+- [x] **TRANSPARENCY** - Supports making utilization management policies more transparent.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Concerned with step therapy exception, appeal, and documentation workflows.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Greg Portner 
+Senior Vice President 
+ 
+ 
+ 
+ 
+ 
+Global Government Affairs & Policy 
+601 Thirteenth Street, NW 
+Suite 1100 North 
+Washington, DC 20005 
+Phone:  202.585.9649 
+Email:   gportner@amgen.com 
+www.amgen.com 
+ 
+ 
+June 15, 2026 
+SUBMITTED ELECTRONICALLY  
+The Hon. Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS–0062–P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children’s 
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers 
+of Qualified Health Plans on the Federally-Facilitated Exchanges 
+ 
+Dear Administrator Oz: 
+ 
+Amgen, Inc. (Amgen) appreciates the opportunity to submit comments on the Centers for Medicare 
+& Medicaid Services’ (CMS’s) Proposed Rule entitled “Medicare and Medicaid Programs; Patient 
+Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children’s Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and 
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges,” published in the Federal 
+Register on April 14, 2026 (Proposed Rule).1 
+ 
+Amgen is committed to using science and innovation to dramatically improve people’s lives; 
+improving access to innovative drugs and biologics, as well as biosimilars (collectively, “drugs,” 
+consistent with CMS’s convention); and promoting high-quality care for patients.  In light of this 
+commitment, Amgen offers the comments below on the Proposed Rule. 
+ 
+Amgen remains concerned about the growing use of utilization management policies, including prior 
+authorization and step therapy, and the nega...

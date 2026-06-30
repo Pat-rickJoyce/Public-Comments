@@ -1,0 +1,163 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0532_20260629112445_12bd5441
+Commenter: Association for Molecular Pathology
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:26:43
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Association for Molecular Pathology (AMP); signed by Aaron Bossler, MD PhD, President
+- **Stakeholder type:** Professional Association
+- **Credentials or expertise mentioned:** International medical and professional association representing approximately 3,100 physicians, doctoral scientists, medical technologists, academic medicine, hospital, private clinical laboratory, government, and in-vitro diagnostics professionals involved in molecular, genetic, and genomic testing.
+
+## 2. EXECUTIVE SUMMARY
+
+AMP supports CMS efforts to modernize prior authorization and supports extending prior authorization response-time requirements to QHP issuers on FFEs. The comment focuses on laboratory and molecular diagnostic testing, urging CMS to strengthen prior authorization protections through shorter timelines, acceptance of test requisition forms, clearer denial reasons, LBM transparency, post-specimen-collection authorization flexibility, and limits on retrospective payment denials after authorization.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FF-SHOP-REQUIREMENTS; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; PA-DRUG-MEDICAL; FHIR-IG-REQUIRED; GENERAL
+- **Regulatory citations mentioned:** 45 C.F.R. § 156.223(i)(1)(i); 42 C.F.R. § 414.510; 42 C.F.R. § 422.566(c)(1)
+- **Standards referenced:** Prior Authorization APIs generally; electronic prior authorization; interoperability tools. The comment does not specifically discuss Da Vinci CRD, DTR, PAS, NCPDP SCRIPT, F&B, or RTPB.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extending PA response-time requirements to QHP issuers**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** AMP believes broader response-time requirements will improve patient care and outcomes by reducing delays in prior authorization.
+- **Specific request:** Maintain and strengthen the proposed extension of CMS-0057-F-style response-time requirements to QHP issuers on FFEs.
+
+**Topic 2: Laboratory testing burden and urgent molecular diagnostics**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Prior authorization delays molecular testing used for advanced cancers, infectious diseases, transplant-related conditions, and other serious illnesses; specimens may lose viability while authorization is pending.
+- **Specific request:** Tailor prior authorization policy to recognize urgent laboratory workflows and prevent authorization requirements from delaying clinically necessary molecular testing.
+
+**Topic 3: Test requisition forms as medical documentation**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** TRFs often contain the information needed for medical necessity review, while duplicative documentation requests delay testing and create administrative work.
+- **Specific request:** Clarify and enforce that TRFs may constitute sufficient medical documentation across MACs, MAOs, LBMs, and other payers.
+
+**Topic 4: Prior authorization after specimen collection**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Molecular testing decisions may arise after specimen collection because of pathology findings, biomarker results, reflex testing protocols, or new clinical information. Denying requests solely because collection preceded authorization is not clinically feasible.
+- **Specific request:** Allow laboratories to submit and obtain prior authorization after specimen collection when clinically appropriate, and prohibit automatic denial based on collection occurring before authorization.
+
+**Topic 5: Laboratory benefit manager transparency and denial specificity**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** AMP reports that LBM criteria may be unavailable, inconsistent, outdated, or poorly explained, limiting appeals and creating avoidable denials.
+- **Specific request:** Require LBMs to provide clear denial explanations and transparent, timely processes for stakeholder feedback and coverage policy updates.
+
+**Topic 6: Laboratory authority to initiate prior authorization**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Laboratories are providers that furnish or intend to furnish services, yet some MAOs reportedly prohibit them from initiating prior authorization requests.
+- **Specific request:** Enforce CMS's clarification that laboratories may initiate prior authorization or organization determination requests.
+
+**Topic 7: Shorter turnaround times**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Existing 72-hour expedited and seven-day standard timelines may still be too slow for molecular diagnostic testing, especially where results drive urgent treatment decisions.
+- **Specific request:** Require decisions within 24 hours for urgent requests and 48 to 72 hours for non-urgent requests when laboratory tests are clearly covered under an NCD or LCD.
+
+**Topic 8: Automation benefits and limits**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Automation can reduce manual entry, duplicative submissions, and delays, but cannot alone fix inappropriate denials, specimen viability problems, retrospective denials, or poor clinical expertise.
+- **Specific request:** Maintain and strengthen MAO Prior Authorization API requirements while pairing technology with substantive policy protections.
+
+**Topic 9: Retrospective payment denials after authorization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Denying payment after authorization undermines reliance on the authorization process and creates operational and financial risk for laboratories.
+- **Specific request:** Generally prohibit retrospective denial or recoupment for preauthorized services except when materially false or fraudulent information was provided.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** AMP responds indirectly by asking CMS to require greater transparency and specificity in prior authorization denials, including enough detail to support appeals and identify coding or documentation issues.
+- **S17:** AMP supports more structured and specific denial information but does not propose a specific code set.
+- **S20:** AMP addresses authorization timeframes by supporting 24-hour decisions for urgent laboratory requests and 48 to 72 hours for non-urgent laboratory requests, arguing that molecular diagnostics often cannot wait for longer timeframes.
+- **S40:** AMP supports extending response-time protections to QHP issuers on FFEs and views the extension as a patient-care improvement.
+- **S41:** AMP does not object to the proposed timeline, but urges CMS to strengthen the timelines further for urgent molecular diagnostic testing.
+- **S66-S82:** The comment responds to general RFI issues on laboratory prior authorization, automation, documentation, LBMs, and workflow problems not fully solved by technology.
+
+## 6. RECOMMENDATIONS
+
+1. Clarify that TRFs are valid medical documentation sufficient to support medical necessity for laboratory testing.
+2. Require MACs, MAOs, LBMs, and other payers to accept TRFs where they contain sufficient information.
+3. Allow prior authorization submission and approval after specimen collection when clinically appropriate.
+4. Prevent automatic denial solely because specimen collection occurred before authorization approval.
+5. Require LBMs to provide clear denial explanations and transparent policy update processes.
+6. Enforce laboratories' ability to initiate prior authorization requests under 42 C.F.R. § 422.566(c)(1).
+7. Shorten laboratory PA turnaround times to 24 hours for urgent requests and 48 to 72 hours for non-urgent requests.
+8. Require greater consistency in PA requirements, documentation standards, and coverage criteria.
+9. Prohibit retrospective payment denial or recoupment for preauthorized services except in cases involving materially false or fraudulent information.
+10. Maintain and strengthen Prior Authorization API requirements while recognizing technology alone will not resolve inappropriate denials.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delays in molecular diagnostic testing, duplicative documentation requests, LBM opacity, vague denials, MAO restrictions on laboratory-submitted requests, and retrospective claim denials after authorization.
+- **Potential negative impacts cited:** Delayed cancer, infectious disease, transplant, and other serious-illness decisions; specimen degradation; abandoned care; financial risk for laboratories; weakened appeals.
+- **Implementation barriers mentioned:** Inconsistent payer criteria, outdated LBM policies, lack of transparent medical necessity standards, poor denial explanations, and electronic systems that do not address substantive coverage problems.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** KFF reported nearly 50 million MA prior authorization requests in 2023; OIG found MAOs overturned 82 percent of appealed PA denials; OIG found 13 percent of denied PA requests likely would have been approved under Traditional Medicare; AMA survey reported physicians and staff spend 13 hours per week on PA, 93 percent report delays in necessary care, and 82 percent report PA can lead patients to abandon treatment or services.
+- **Studies or research referenced:** KFF issue brief; HHS OIG reports OEI-09-16-00410 and OEI-09-18-00260; 2024 AMA Prior Authorization Physician Survey; CMS MolDX response-to-comments article.
+- **Examples provided:** Specimens losing viability while authorization is pending; reflex molecular testing decisions after collection; LBMs requiring use of a national reference laboratory despite in-house academic medical center capability; claims denied after prior authorization approval.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Molecular pathology laboratories, ordering clinicians, patients needing urgent diagnostic testing, MAOs, QHP issuers, MACs, LBMs, and payers.
+- **Economic implications:** Laboratories face unreimbursed testing and retrospective payment denials, while providers and laboratories absorb administrative costs from duplicative documentation and appeals.
+- **Technical feasibility:** Automation and APIs are feasible and valuable but require standardized documentation expectations, transparent criteria, and substantive policy guardrails.
+- **Patient care impact:** Faster and clearer prior authorization could reduce treatment delays, preserve specimen viability, support urgent molecular diagnostic decisions, and reduce abandonment of recommended services.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, collaborative, and evidence-based
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Prior authorization requirements for laboratory testing continue to create substantial barriers to timely patient care and place significant administrative burdens on providers and laboratories." - Context: AMP's summary of current laboratory PA impact.
+2. "AMP strongly supports CMS clarifying that test requisition forms (TRFs) are valid medical documentation sufficient to demonstrate medical necessity for laboratory testing." - Context: Recommendation on documentation standardization.
+3. "CMS should require greater transparency and specificity in prior authorization denials." - Context: Requested process improvement for denials and appeals.
+4. "Technology alone will not resolve several significant challenges associated with prior authorization for laboratory testing." - Context: AMP's response on limits of automation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - AMP asks CMS to shorten urgent and non-urgent laboratory PA decision timeframes beyond current requirements.
+- [x] **COST-RESOURCES** - The comment emphasizes financial risk to laboratories when testing proceeds before authorization or payment is later denied.
+- [x] **PROVIDER-BURDEN** - AMP repeatedly describes administrative burden from PA submissions, documentation requests, appeals, and LBM processes.
+- [x] **TECHNICAL-FEASIBILITY** - AMP supports automation and Prior Authorization APIs but cautions that technology must be paired with policy fixes.
+- [x] **PATIENT-ACCESS** - The comment links PA delays to delayed molecular diagnostic results and treatment decisions.
+- [x] **TRANSPARENCY** - AMP asks for clearer denial reasons, publicly understandable coverage criteria, and LBM accountability.
+- [x] **STAKEHOLDER-COORDINATION** - The comment calls for better payer, LBM, clinician, and laboratory alignment on documentation and coverage criteria.
+- [x] **EXISTING-WORKFLOWS** - AMP highlights specimen collection, reflex testing, and laboratory workflows that do not fit pre-collection authorization models.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+6/15/2026
+The Honorable Mehmet Oz, M.D.
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+Attention: CMS-0068-P
+P.O. Box 8016
+Baltimore, MD 21244-8016
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards for Prior Authorization (CMS-0068-P)
+Dear Administrator Oz:
+The Association for Molecular Pathology (AMP) appreciates the opportunity to provide comments on the Request for Information (RFI) included in the proposed rule, "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards for Prior Authorization" (CMS-0068-P). AMP is an international medical and professional association representing approximately 3,100 physicians, doctoral scientists, and medical technologists who perform or are involved with laboratory testing based on knowledge derived from molecular biology, genetics, and genomics. Our membership includes professionals from academic medicine, hospital-based and private clinical laboratories, government, and the in-vitro diagnostics industry.
+AMP appreciates CMS's continued efforts to modernize and improve the prior authorization process through interoperability standards and electronic prior authorization initiatives. In particular, AMP is appreciative of the proposed rule's change to 45 C.F.R. § 156.223(i)(1)(i) to extend prior authorization response time requirements like those established in CMS-0057-F to Qualified Health Plan (QHP) issuers on the Federally Facilitated Exchanges (FFEs). Acknowledging the policy improvements made to date, AMP continues to believe there are significant opportunities to further streamline prior authorization processes to improve patient care and outcomes, particularly for laboratory testing and molecular diagnostics used in urgent clinical situations.
+...

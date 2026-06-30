@@ -1,0 +1,168 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0512
+Commenter: Valer
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:36:55
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Valer (represented by Steve Kim, MD, Chief Medical Officer, Co-Founder)
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** 13+ years mapping PA submission and verification workflows; bi-directional EHR integration; workflow automation across 70+ payer web portals and 800+ payer fax forms; serves hospitals, health systems, ambulatory practices, DME suppliers.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Valer, a health IT vendor specializing in prior authorization workflow automation, supports CMS's proposed expansion of PA to prescription drugs but urges CMS to address two foundational barriers—data misalignment/data fidelity and payer authorization routing complexity—that will undermine FHIR API adoption if left unresolved. The company recommends establishing the National Provider Directory as the authoritative identity source, creating a national payer endpoint directory that identifies responsible authorizing parties, and enhancing PA reporting with greater frequency, granularity, and centralization.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, FHIR-IG-REQUIRED, API-ENDPOINT-REPORTING, API-USAGE-METRICS
+- **Regulatory citations mentioned:** CMS-0057-F (prior authorization reporting rule, first annual deadline March 31, 2026)
+- **Standards referenced:** Da Vinci FHIR APIs, CRD (Coverage Requirements Discovery) FHIR API, FHIR APIs generally, NPI (NPPES/PECOS), HCPCS codes
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Data Fidelity / National Provider Directory**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Roughly 30% of PA submission failures in Valer's payer web portal automation are attributable to misalignment in provider identity, facility identity, place of service, and practice location data. Without resolving this, FHIR API transactions will suffer the same errors. Issues include inconsistent NPI use by payers, Type 1 vs. Type 2 NPI confusion, facility TIN vs. NPI discrepancies, and incomplete practice location data in EHR workflows.
+- **Specific request:** Establish the National Provider Directory (NPD) as the single source of truth for provider and facility identity, require payers and delegated entities to update their systems from the NPD, require EHR vendors to surface accurate provider information in FHIR API workflows, and harmonize enrollment across Medicare (PECOS), State Medicaid, and commercial plans within the NPD framework.
+
+**Topic 2: Payer Authorization Routing / Endpoint Directory**
+- **Provision ID:** API-ENDPOINT-REPORTING, FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Payers frequently fail to identify clearly where PA submissions must be directed, a problem that multiplies with delegated entities (TPAs, benefit managers, IPAs). Delegation can be service-line-specific or capitation-based, and the variation across business lines, product offerings, and ERISA plan designs means providers often submit to the wrong entity. Split/multiple authorizations for a single encounter (e.g., infusion therapy administration vs. drug costs submitted to different payers) create further burden.
+- **Specific request:** Create a national payer endpoint directory that enumerates the responsible authorizing party (including delegated entities) for each service line/service code; require this information to surface in the CRD workflow; require bundling of all service codes for a single encounter into one authorization request; establish a feedback mechanism for providers to report erroneous routing information.
+
+**Topic 3: PA Metrics Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify (strengthen)
+- **Rationale:** Current annual reporting under CMS-0057-F is insufficient in frequency and granularity, data is hard to locate on individual payer websites, and the lack of service-line specificity limits accountability and benchmarking utility.
+- **Specific request:** Create a centralized CMS repository for payer-reported PA metrics; increase reporting frequency to quarterly or semi-annual; require service-line/service code-specific breakdowns of approval, denial, appeal, and overturn rates and turnaround times; consider adding provider-specific data over time to support gold-carding initiatives and create accountability feedback loops.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S23 (API endpoint security/reporting):** Valer supports creating a national payer endpoint directory and urges CMS to surface delegated entity endpoint information within the CRD workflow; security concerns are noted implicitly through routing accuracy.
+- **S24 (What to report for endpoints):** Recommends the endpoint directory enumerate responsible authorizing party by health plan, business line, product line, ERISA group identifier, and service line/code.
+- **S29 (Which metrics to collect):** Supports absolute transaction numbers in addition to percentages; recommends service-line/service code-specific breakdowns of approvals, denials, appeals, and overturns.
+- **S34 (Reporting frequency):** Recommends quarterly or semi-annual reporting instead of annual.
+- **S35 (Publish aggregate metrics):** Strongly recommends CMS create a centralized public repository for comparative benchmarking and trend tracking.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Establish the National Provider Directory as the authoritative single source of truth for provider and facility identity across all payer and EHR systems.
+2. Require payers and delegated entities to update their systems using NPD data; require EHR vendors to surface accurate provider information in FHIR API workflows.
+3. Harmonize enrollment processes across Medicare (PECOS), State Medicaid, and commercial plans within the NPD framework.
+4. Create a national payer endpoint directory that transparently identifies the responsible authorizing party (including delegated entities) for each service line/service code.
+5. Link the endpoint directory to the CRD workflow so it surfaces which entity is making the authorization determination.
+6. Require all service codes associated with a single encounter to be bundled into one authorization request.
+7. Establish a provider feedback mechanism for reporting erroneous routing information.
+8. Create a centralized CMS repository for payer-reported PA metrics.
+9. Increase PA reporting frequency from annual to quarterly or semi-annual.
+10. Require service-line or service code-specific granular data in PA metrics reporting.
+11. Consider including provider-specific data in PA metrics to support gold-carding and accountability feedback loops.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Data misalignment (30% of PA submission failures in current workflows), opaque payer routing/delegation structures, insufficient frequency and granularity of PA metrics.
+- **Potential negative impacts cited:** Without addressing data fidelity, FHIR APIs will replicate existing transaction failures; without routing clarity, providers will face increased complexity as FHIR APIs are adopted; annual-only metrics fail to capture seasonal/cyclical payer behavior.
+- **Implementation barriers mentioned:** NPI inconsistency across payer systems; EHR workflows that lack practice location or TIN data; multi-entity delegation that spans service lines, product lines, and ERISA plans; EHRs not configured for split authorizations on a single encounter.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ~30% of authorization submission failures attributable to provider/facility identity misalignment; support across 70+ payer web portals and 800+ payer fax forms; 13+ years of PA workflow mapping experience.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Academic medical practice using group NPI instead of individual NPI; infusion therapy split authorizations (administration vs. drug submitted to different payers); facility redirect issue where authorization is "approved" but silently rerouted to an alternate facility, causing claim denial.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Healthcare providers (hospitals, health systems, ambulatory practices, DME suppliers), health IT vendors, payers and delegated entities, patients.
+- **Economic implications:** Data fidelity failures drive administrative burden, duplicate work, and claim denials; routing errors cause improper denials and billing complexity.
+- **Technical feasibility:** Valer sees FHIR adoption as technically feasible but warns the translation layer between varied stakeholder workflows is a prerequisite not addressed by standards alone.
+- **Patient care impact:** Submission failures and routing errors lead to clinically unnecessary delays and denials that harm patient access regardless of the standards adopted.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (Supportive of rule goals; Concerned about foundational implementation gaps)
+- **Tone:** Professional, Technical, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "The biggest challenge with prior authorization is not merely the absence of adopted standards. It is the need to untangle deeply embedded workflow complexity between providers and payers." — Context: Framing the core argument that FHIR standards alone are insufficient.
+
+2. "Roughly 30% of authorization submission failures in our payer web portal automation work are attributable to issues caused by misalignment with provider identity, facility identity, place of service, and practice location data." — Context: Providing quantitative evidence for the data fidelity problem.
+
+3. "Without a reliable source of truth for provider and facility identity, clinically unnecessary delays and denials will persist regardless of the standards adopted — ultimately harming patient access to care." — Context: Summarizing the stakes of the NPD recommendation.
+
+4. "Delegated entities will soon need to have their own DaVinci FHIR APIs. Without a clear way to identify what delegated entity is relevant or a central place to locate their API endpoints, providers will only continue to face additional complexity with proper routing." — Context: Explaining why a national payer endpoint directory is critical.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Implicit; current data fidelity issues must be resolved before or alongside compliance dates or adoption will fail.
+- [x] **PROVIDER-BURDEN** — Routing complexity, split authorizations, and submission failures all create significant provider workflow burden.
+- [x] **TECHNICAL-FEASIBILITY** — Core argument: technical standards alone are insufficient; a translation layer and authoritative data sources are required for FHIR APIs to succeed.
+- [x] **STANDARDS-MATURITY** — Notes that DaVinci CRD must be extended to surface delegated entity routing information, reflecting a gap in current IG scope.
+- [x] **PATIENT-ACCESS** — Data misalignment and routing errors cause clinically unnecessary delays and denials that harm patient access.
+- [x] **STAKEHOLDER-COORDINATION** — Coordination needed among CMS, payers, delegated entities, EHR vendors, and providers to resolve identity and routing issues.
+- [x] **TRANSPARENCY** — Recommends centralized PA metrics repository and public endpoint directory for accountability and benchmarking.
+- [x] **EXISTING-WORKFLOWS** — Detailed description of how current workflow complexity (delegation structures, split authorizations, EHR data gaps) will undermine FHIR adoption.
+- [x] **VENDOR-ECOSYSTEM** — Valer's perspective as a PA workflow automation vendor highlights EHR and payer system integration challenges.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Mehmet Oz, M.D.
+Administrator, Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+
+Thomas Keane, M.D.
+National Coordinator, Office of the National Coordinator for Health Information Technology (ONC)
+U.S. Department of Health and Human Services
+
+Submitted electronically via www.regulations.gov
+
+RE: Interoperability Standards and Prior Authorization for Drugs Proposed Rule [CMS-0062-P]
+
+Dear Administrator Dr. Oz and National Coordinator Dr. Keane:
+Valer appreciates the opportunity to respond to the Request for Information: Improving Implementation of
+Payer Application Programming Interface Technology included in the Interoperability Standards and Prior
+Authorization for Drugs proposed rule (CMS-0062-P).  We applaud CMS for its efforts to modernize today's
+prior authorization workflows and support the proposed expansion to prescription drugs.
+
+For over 13 years, Valer has mapped prior authorization submission and verification workflows between
+providers and payers, working to standardize, streamline, and automate today's manual workflows and
+improve patient access to care. We provide both bi-directional integration with most of the major provider
+EHRs and supports workflow automation across 70+ payer prior authorization web portals and over 800
+payer fax forms. Our customers include hospitals and health systems, large ambulatory practices, and
+national durable medical equipment (DME) suppliers and we support a broad range of prior authorization use
+cases, as well as automation for referrals workflow.
+
+The biggest challenge with prior authorization is not merely the absence of adopted standards. It is the need
+to untangle deeply embedded workflow complexity between providers and payers...

@@ -1,0 +1,153 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0644_20260629112049_88100379
+Commenter: Maryland Department of Health (MDH), Maryland Medicaid Administration
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:49:00
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Maryland Department of Health (MDH), Maryland Medicaid Administration
+- **Stakeholder type:** Government; State Medicaid/CHIP FFS; Medicaid/CHIP Managed Care
+- **Credentials or expertise mentioned:** State Medicaid agency responsible for Medicaid administration, PBM/MCO contracting, procurement, and implementation of federal interoperability and prior authorization requirements.
+
+## 2. EXECUTIVE SUMMARY
+
+MDH supports CMS' goals of interoperability, prior authorization streamlining, and better information exchange, but objects to several proposed requirements as technically undefined, operationally burdensome, and infeasible on the October 1, 2027 timeline. MDH asks CMS to withdraw or reassess machine-readable clinical criteria and internal audit requirements, delay drug PA metrics/public reporting until CY2028 data with publication in 2029, and extend or revise Track 2 pharmacy benefit drug requirements tied to NCPDP, RTPB, PDL mapping, ePA workflows, and API reporting.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; STATE-EXTENSION-PROCESS; FHIR-IG-REQUIRED; TRANSPARENCY-related general requirements.
+- **Regulatory citations mentioned:** Docket CMS-2026-1255-0001 / CMS-0062-P; no specific CFR citations in the comment text.
+- **Standards referenced:** NCPDP SCRIPT, NCPDP Formulary & Benefit (F&B), NCPDP Real-Time Prescription Benefit (RTPB), FHIR, API endpoint reporting, API usage metrics, PDL mapping, ePA workflows.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Machine-readable PA clinical criteria**
+- **Provision ID:** PA-DRUG-PHARMACY; PA-DENIAL-REASONS; TRANSPARENCY
+- **Position:** Oppose
+- **Rationale:** MDH states clinical criteria are maintained in narrative policies, vendor systems, proprietary rule sets, decision trees, PDFs, and free text, not standardized computable artifacts. Criteria change frequently, may be vendor-owned/licensed, may include subjective judgment, and CMS has not defined a required model, vocabulary, logic representation, or handling of exceptions and clinical judgment.
+- **Specific request:** Withdraw the machine-readable clinical criteria requirement until a national standard for computable clinical criteria exists.
+
+**Topic 2: Internal audit framework, monitoring, and 10-year retention**
+- **Provision ID:** API-USAGE-METRICS; PA-TIMEFRAMES-DRUGS; FHIR-IG-REQUIRED; GENERAL
+- **Position:** Oppose
+- **Rationale:** MDH argues the proposed daily/weekly monitoring, exception reporting, vendor oversight, FHIR conformance tracking, rapid remediation, and 10-year log retention require new enterprise data platforms, real-time pipelines, dashboards, archival infrastructure, staffing, and contractual authority that do not exist today.
+- **Specific request:** Withdraw the internal audit framework requirements as written.
+
+**Topic 3: Drug PA metrics, public posting, and API usage reporting timeline**
+- **Provision ID:** API-USAGE-METRICS; API-ENDPOINT-REPORTING; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** MDH does not currently capture the required drug PA data; relevant information sits in PBM systems and requires custom data files, contract modifications, validation, and reconciliation. Contract modifications require 12-18 months and cannot produce reliable CY2027 data.
+- **Specific request:** Use CY2028 as the base year for drug PA metrics and publish CY2028 data by March 31, 2029.
+
+**Topic 4: Track 2 pharmacy benefit drug operational and technical requirements**
+- **Provision ID:** PA-DRUG-PHARMACY; API-ENDPOINT-REPORTING; API-USAGE-METRICS
+- **Position:** Modify/Oppose in part
+- **Rationale:** MDH states NCPDP ePA, F&B, RTPB, PDL mapping, prescriber-EHR/pharmacy/PA adjudication integration, and carved-out pharmacy benefit responsibilities require PBM and MCO contract modifications and system builds that cannot be completed by October 1, 2027.
+- **Specific request:** Reassess the 10/1/2027 compliance timeline and remove RTPB therapeutic alternatives as a requirement.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** MDH addresses non-Part D pharmacy benefit applicability by explaining that state pharmacy benefit implementation depends on PBM systems, PDL mapping, NCPDP workflows, and carved-out pharmacy arrangements.
+- **S19:** MDH directly raises state readiness concerns, including procurement, budget, PBM/MCO contracting, and system build timelines.
+- **S22:** MDH identifies significant NCPDP-related costs and implementation work for SCRIPT ePA, F&B, RTPB, and PDL mapping.
+- **S25:** MDH questions RTPB functionality by requesting removal of the therapeutic-alternatives RTPB requirement.
+- **S29/S34:** MDH responds to API/drug PA metric collection and reporting frequency by explaining the necessary data are not currently captured and requesting a later baseline year.
+- **S36/S38:** MDH's state implementation concerns are relevant to extension criteria and duration, particularly for state FFS programs needing more time.
+- **S37:** MDH describes implementation challenges across FHIR conformance, audit, reporting, vendor oversight, and staffing.
+- **S43:** MDH discusses PA timeframe monitoring and exception reporting, objecting to the operational infrastructure required.
+
+## 6. RECOMMENDATIONS
+
+1. Withdraw the requirement to publish machine-readable PA clinical criteria until a national computable clinical criteria standard exists.
+2. Define any future machine-readable criteria requirement with a clear data model, vocabulary, logic representation, and approach to narrative or subjective clinical judgment.
+3. Withdraw the internal audit framework requirements as written.
+4. Extend implementation timelines to account for state procurement, legislative approval, PBM/MCO contract amendments, and vendor build cycles.
+5. Make CY2028 the base year for drug PA metrics and require publication by March 31, 2029.
+6. Remove the RTPB requirement to return therapeutic alternatives in real time.
+7. Recognize vendor-controlled systems and state limits over PBM, UM vendor, and MCO data and logs.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Undefined technical requirements, infeasible timeline, lack of computable criteria standards, vendor ownership/licensing limits, insufficient state staffing, lack of monitoring infrastructure, long procurement/contract cycles.
+- **Potential negative impacts cited:** Misleading or outdated clinical criteria, recipient/provider confusion, increased state costs, inaccurate public metrics, inability to meet audit expectations, vendor failures imputed to states.
+- **Implementation barriers mentioned:** PBM/MCO contract modifications, 12-18 month procurement lifecycle, new EDP/data pipelines, dashboards, archival storage, FHIR expertise, vendor log access, legislative/budget approval.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Contract modifications take 12-18 months; procurement cycles can take 18-36 months; requested CY2028 baseline and March 31, 2029 publication.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Narrative medical policies, PBM/UM vendor rule sets, proprietary decision trees, embedded vendor logic, free-text reviewer criteria, and PDF PA forms as examples of non-computable criteria sources.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** State Medicaid agencies, Medicaid beneficiaries/recipients, providers, PBMs, MCOs, UM vendors, IT contractors, data warehouse vendors.
+- **Economic implications:** Multi-million-dollar state implementation and ongoing infrastructure costs; additional staffing, licensing, governance, QA, storage, and contract costs.
+- **Technical feasibility:** MDH views several requirements as not feasible without standards, data pipelines, new platforms, and extensive vendor changes.
+- **Patient care impact:** MDH frames risks primarily around recipient confusion and inaccurate/outdated criteria, rather than direct clinical outcome data.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned/Opposed to several requirements as written; supportive of CMS goals.
+- **Tone:** Professional, technical, operationally focused, critical.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "MDH shares CMS' goals of improving interoperability, streamlining prior authorization processes, and promoting informed decision-making" - Context: Opening statement of support for rule goals.
+2. "CMS has not defined what 'machine-readable clinical criteria' means" - Context: Core objection to the clinical criteria transparency requirement.
+3. "This is a multi-year, multi-million-dollar effort requiring specialized data engineering, analytics, and compliance staff." - Context: Internal audit framework infrastructure concerns.
+4. "MDH suggests that CY2028 be the base year for PA drug authorization metrics data gathering and formal publishing on 3/31/2029" - Context: Requested timeline modification for metrics.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - MDH repeatedly argues October 1, 2027 and CY2027 reporting are infeasible given procurement, contract, and vendor timelines.
+- [x] **COST-RESOURCES** - The comment emphasizes multi-million-dollar implementation, staffing, storage, data platform, and governance costs.
+- [x] **TECHNICAL-FEASIBILITY** - MDH identifies absent standards, data models, pipelines, dashboards, and FHIR conformance infrastructure.
+- [x] **STANDARDS-MATURITY** - The machine-readable clinical criteria objection centers on the absence of national computable criteria standards.
+- [x] **TRANSPARENCY** - MDH responds to clinical criteria transparency, metrics, public reporting, and endpoint/usage reporting.
+- [x] **STAKEHOLDER-COORDINATION** - The comment stresses PBM, MCO, UM vendor, contractor, and state coordination challenges.
+- [x] **EXISTING-WORKFLOWS** - MDH explains that existing clinical criteria and PA workflows are narrative, vendor-managed, and not computable.
+- [x] **VENDOR-ECOSYSTEM** - Vendor-controlled systems, logs, contracts, and licensing are central to MDH's objections.
+- [x] **PRIVACY-SECURITY** - Long-term audit log retention and secure archival infrastructure are noted, though not as the main focus.
+- [x] **PATIENT-ACCESS** - MDH links timing and reporting feasibility to PA operations and cautions that confusing criteria may harm recipients.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [ ] **PROVIDER-BURDEN** - Mentioned indirectly through criteria and PA workflows but not a central argument.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Addressed only indirectly through Track 2 pharmacy benefit requirements.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+Dr. Mehmet Oz 
+Administrator 
+The Centers for Medicare and Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+RE: 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule (Docket ID: 
+CMS-2026-1255-0001)
+Dear Administrator Oz, 
+The Maryland Department of Health (“MDH”), Maryland Medicaid Administration, is pleased to offer 
+comments on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule 
+(Docket ID: CMS-2026-1255-0001 or “CMS-0062-P”). This proposed rule builds on prior rulemaking 
+around interoperability, access, and prior authorization to expand many of those requirements to cover 
+prior authorization for drugs. 
+MDH shares CMS’ goals of improving interoperability, streamlining prior authorization processes, and 
+promoting informed decision-making through the exchange and use of health information. However, 
+MDH has concerns about the feasibility of implementing these provisions on the proposed timeline 
+while simultaneously undertaking major systems and policy transformations related to H.R. 1, otherwise 
+known as the Working Families Tax Cut Legislation or One Big Beautiful Bill Act (“OBBBA”); navigating 
+budget constraints; managing procurement processes; negotiating and monitoring compliance of 
+managed care organization (“MCO”) and the MCOs’ pharmacy benefits managers’ (“PBMs”) contracts; 
+and implementing requirements from prior interoperability rulemaking. MDH respectfully requests that 
+CMS provide clarification on the technical requirements in the proposed rule, and that CMS consider 
+amending the proposed rule from how it is currently written based on any such clarifications and 
+amendments based on the recommendations and concerns outlined in MDH’s public comments below.
+MDH appreciates the opportunity to provide public comments on CMS-0062-P and would welcome any 
+follow-up from CMS staff on the technical specifics of MDH’s detailed objections and supporting rea...

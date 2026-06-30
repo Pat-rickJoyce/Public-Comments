@@ -1,0 +1,139 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0583_20260629112356_f9d6e115
+Commenter: Joint Commission
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:32:56
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Joint Commission; signed by Kathryn E. Spates, Executive Vice President, Public Policy & Government Relations.
+- **Stakeholder type:** Professional Association / Accreditation and certification organization.
+- **Credentials or expertise mentioned:** Independent not-for-profit organization founded in 1951; accredits and certifies health care organizations and programs across the continuum of care, including most U.S. hospitals; recognized by CMS and other regulators for Medicare and licensure purposes.
+
+## 2. EXECUTIVE SUMMARY
+
+Joint Commission responds to CMS RFIs on electronic event notifications and health care resiliency. It reports generally consistent compliance with event notification requirements but recommends additional guidance on admission notifications, and it emphasizes cyber resiliency as a patient safety issue requiring operational continuity, preparedness, and clinical workflow planning.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI — electronic event notifications for value-based care and care coordination; GENERAL/RFI — increasing health care resiliency.
+- **Regulatory citations mentioned:** None specific beyond the proposed rule and docket reference.
+- **Standards referenced:** None. The comment references event notification requirements and cyber readiness but does not cite FHIR, NCPDP, X12, or implementation guides.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Additional support for hospital event notifications**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Joint Commission surveyors generally find consistent compliance with event notification requirements, but when gaps occur they are most often related to admission notifications rather than discharge or transfer notifications.
+- **Specific request:** CMS should consider additional guidance or technical assistance focused on admission notifications.
+
+**Topic 2: Cyber resiliency as patient safety and care continuity**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Sudden loss of access to electronic systems and patient information can threaten patient safety and disrupt care. Cyber resilience should include clinical continuity, operational response, leadership coordination, and staff preparedness, not only IT security and recovery.
+- **Specific request:** CMS should consider practices that help health care organizations maintain clinical continuity during cyberattacks and should view recovery capability as equally important to preventive security measures.
+
+**Topic 3: Joint Commission resources for cyber readiness**
+- **Provision ID:** GENERAL
+- **Position:** Support / Clarify
+- **Rationale:** Joint Commission has launched a voluntary self-assessment tool and plans Cyber Resilience Readiness certification to evaluate organizational readiness for cyber-related technology outages.
+- **Specific request:** CMS should consider Joint Commission's CRR framework and related expertise as it evaluates policies to improve cyber resiliency.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 / Electronic Event Notifications RFI:** Joint Commission says surveyors generally see consistent compliance, but CMS could provide additional support focused on admission notifications.
+- **S66-S82 / Health Care Resiliency RFI:** Joint Commission recommends emphasizing clinical continuity during cyber events, including operational readiness, leadership coordination, staff preparedness, and community coordination.
+
+## 6. RECOMMENDATIONS
+
+1. Provide additional guidance, technical assistance, or support on admission notifications.
+2. Recognize cyber-related technology outages as patient safety risks that require continuity-of-care planning.
+3. Promote practices that help HCOs sustain clinical operations during cyberattacks.
+4. Consider operational readiness, leadership coordination, staff preparedness, and clinical workflow impacts in cyber resilience policy.
+5. Consider Joint Commission's voluntary cyber self-assessment and forthcoming Cyber Resilience Readiness certification as resources or models.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Admission notification compliance gaps; patient safety threats caused by cyberattacks and digital outages; rural HCO vulnerability due to constrained resources.
+- **Potential negative impacts cited:** Disruption to patient care, increased patient mortality, longer length of stay, increased procedural complications, and loss of access to electronic systems/patient information.
+- **Implementation barriers mentioned:** Resource constraints, especially for rural HCOs; need for organization-wide operational readiness and staff preparedness.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 93% of organizations reported at least one cyberattack in the past year; 72% reported disruption to patient care; health systems experiencing cyberattacks reported an average 29% increase in patient mortality; 53% reported longer length of stay; 54% reported increased complications from medical procedures.
+- **Studies or research referenced:** ECRI blog on digital outage preparedness; Ponemon Institute 2025 report on cyber insecurity in health care.
+- **Examples provided:** Joint Commission surveyor findings on admission notification improvement areas; Joint Commission cyber self-assessment and planned CRR certification.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals and other health care organizations, rural HCOs, patients, CMS, accrediting bodies, clinical staff, and leadership teams.
+- **Economic implications:** Not quantified, but cyber disruptions can require organizational resources and affect operational continuity.
+- **Technical feasibility:** The comment supports readiness tools and certification rather than prescribing a specific technical standard; feasibility depends on organizational preparation and resources.
+- **Patient care impact:** High. Joint Commission frames cyber readiness and event notification compliance as direct patient safety and continuity-of-care issues.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive / Neutral
+- **Tone:** Professional, informational, collaborative
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "Joint Commission surveyors find consistent compliance with event notification requirements." - Context: Response to CMS request about event notification compliance.
+2. "Digital darkness... has been shown to be a threat to patient safety." - Context: Framing cyber outages as patient safety events.
+3. "Joint Commission supports practices that help HCOs maintain clinical continuity during a cyberattack." - Context: Core resiliency recommendation.
+4. "The ability to sustain care delivery and recover effectively is as critical as preventive security measures." - Context: Policy message to CMS on resiliency priorities.
+
+## 12. THEMES
+
+- [x] **PRIVACY-SECURITY** - The comment centers on cyberattacks, technology outages, and clinical continuity.
+- [x] **TECHNICAL-FEASIBILITY** - Joint Commission discusses practical readiness tools and certification for cyber resilience.
+- [x] **PATIENT-ACCESS** - Maintaining clinical continuity during cyber disruptions protects access to safe care.
+- [x] **STAKEHOLDER-COORDINATION** - CRR principles include leadership coordination and engagement with other HCOs in the community.
+- [x] **EXISTING-WORKFLOWS** - The comment emphasizes clinical workflows and operational response during technology outages.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026  
+ 
+Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare and Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+[Docket: CMS-2026-1255. Submitted electronically via regulations.gov] 
+ 
+Dear Administrator Oz:  
+ 
+Joint Commission appreciates the opportunity to comment on the Centers for Medicare and 
+Medicaid Services’ (CMS) proposed rule, Medicare and Medicaid Programs; Patient Protection 
+and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and 
+Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges. 
+ 
+Founded in 1951, Joint Commission’s mission is to enable and affirm the highest standards of 
+healthcare quality and patient safety for all. An independent, not-for-profit organization with a 
+global presence, Joint Commission has programs that accredit or certify healthcare organizations 
+(HCOs) and programs in the United States across the continuum of care, including most of the 
+nation’s hospitals. A variety of federal and state government regulatory bodies, including CMS, 
+recognize and rely upon Joint Commission’s findings for Medicare or licensure purposes. 
+ 
+Joint Commission offers the following comments in response to CMS’s Requests for 
+Information within the proposed rule: 
+ 
+III. Requests for Information 
+A. Electronic Event Notifications for Value-Based Care and Care Coordination 
+2. Request for Information 
+What additional guidance, technical assistance, or other supports could CMS provide to 
+help hospitals improve compliance and effective use of patient event notifications?  
+ 
+In the field, Joint Commission surveyors find consistent compliance with event notification 
+requirements. However, when surveyors have seen areas for improvement, they have typically 
+been focused on the admission noti...

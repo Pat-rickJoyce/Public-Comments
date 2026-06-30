@@ -1,0 +1,187 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0650_20260629112423_d3e1b4a9
+Commenter: Availity, L.L.C.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:25:05
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Availity, L.L.C.; signed by Scott Herbst, Chief Legal Officer.
+- **Stakeholder type:** Technology Vendor; Healthcare Clearinghouse; Interoperability Infrastructure Provider.
+- **Credentials or expertise mentioned:** Availity describes itself as the largest dual-sided, real-time healthcare network in the United States, connecting 3.5 million providers, more than 95% of health plans, and more than 17,000 technology partners. It supports secure, real-time exchange across payers, providers, clearinghouses, and technology partners.
+
+## 2. EXECUTIVE SUMMARY
+
+Availity supports CMS's modernization objectives, including FHIR APIs, Da Vinci implementation guides, real-time exchange, and drug prior authorization expansion. It asks CMS to recognize healthcare clearinghouses and qualified intermediaries as essential infrastructure, preserve hybrid and intermediated exchange models, clarify coordination across FHIR, X12, and NCPDP, strengthen endpoint and trust infrastructure, design operationally meaningful metrics, and treat resiliency as a core implementation requirement.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; HIPAA-PA-STANDARDS; GENERAL.
+- **Regulatory citations mentioned:** No CFR sections cited. The comment cites CMS-0062-P, RIN 0938-AV44, 91 Fed. Reg. 19890, and FR Doc. 2026-07205.
+- **Standards referenced:** FHIR; Da Vinci CRD, DTR, and PAS implementation guides; X12 270/271; X12N 278; NCPDP standards; APIs; attachments; DDE; portals; endpoint publication; trust frameworks.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Clearinghouses as Interoperability Infrastructure**
+- **Provision ID:** GENERAL; FHIR-IG-REQUIRED
+- **Position:** Clarify/Modify.
+- **Rationale:** Availity argues that API-enabled exchange still requires routing, normalization, testing, monitoring, identity, credentialing, security, and multi-version support.
+- **Specific request:** CMS should explicitly recognize healthcare clearinghouses and other qualified intermediaries as interoperability infrastructure providers.
+
+**Topic 2: Drug Prior Authorization Standards Coordination**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Support with modification.
+- **Rationale:** Medical benefit and pharmacy benefit drugs may appropriately use different pathways, but providers and intermediaries need clear routing logic across FHIR, NCPDP, X12, portal, and transitional workflows.
+- **Specific request:** CMS should require payer- and PBM-published routing indicators and implementation guidance.
+
+**Topic 3: X12 and FHIR Coexistence**
+- **Provision ID:** HIPAA-PA-STANDARDS; EXISTING-WORKFLOWS
+- **Position:** Modify/Clarify.
+- **Rationale:** X12 270/271 and X12N 278 workflows are widely implemented in EHR, practice management, clearinghouse, and revenue cycle environments.
+- **Specific request:** CMS should allow X12 270/271 as an alternative to API eligibility transactions and clarify how FHIR-based prior authorization standards will coexist with X12N 278 during transition.
+
+**Topic 4: DDE and Transitional Workflows**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Many rural providers, critical access hospitals, community health centers, safety-net providers, behavioral health providers, and small practices still rely on DDE, portals, and intermediary-supported workflows.
+- **Specific request:** CMS should preserve DDE, portal-supported, hybrid, and intermediated workflows until readiness-based criteria support migration.
+
+**Topic 5: Endpoint Publication and Trust Infrastructure**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support with modification.
+- **Rationale:** Endpoint publication improves discovery but does not by itself solve routing, endpoint quality, aggregation, identity proofing, credentialing, monitoring, and security.
+- **Specific request:** CMS should accommodate delegated endpoint management, multiple APIs/URLs, plan-level variation, automated validation, endpoint quality controls, and mechanisms to isolate compromised endpoints.
+
+**Topic 6: Metrics and Operational Reporting**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modification.
+- **Rationale:** Simple counts of calls or transactions may misrepresent real exchange, especially where intermediaries aggregate or route requests.
+- **Specific request:** Metrics should account for delegated exchange, avoid double counting, distinguish test and production traffic, and measure uptime, response time, error rates, completed exchanges, denial reason availability, attachment completion, routing failures, and time to resolution.
+
+**Topic 7: Resiliency and Security**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Interoperability expansion can improve resilience only if it includes redundancy, failover, contingency routing, endpoint governance, scalable authentication, and incident response.
+- **Specific request:** CMS should adopt a risk-based resiliency framework for critical interoperability infrastructure participants aligned with recognized security and recovery practices.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Availity supports continued adoption of FHIR-based standards and Da Vinci IGs, but emphasizes operational infrastructure and coordination beyond standards adoption alone.
+- **S3:** The comment highlights the need to support multiple versions of transactions, APIs, implementation guides, and trading partner specifications during transition periods.
+- **S12:** Availity identifies operational challenges for medical benefit drug PA, including connectivity, benefit classification, delegated entities, vendor relationships, security, provider readiness, and workflow design.
+- **S14:** For pharmacy benefit drugs, Availity supports NCPDP pathways where appropriate but asks CMS to provide routing clarity across NCPDP, FHIR, X12, and transitional workflows.
+- **S15:** Availity directly addresses medical vs. pharmacy benefit distinctions and asks for payer/PBM routing indicators so participants can determine which pathway applies.
+- **S18:** Availity supports FHIR/Da Vinci modernization but cautions that implementation must preserve intermediated and hybrid models to reduce operational burden.
+- **S21:** The comment does not reject the timeline but asks for phased implementation, transitional pathways, and readiness-based criteria.
+- **S23:** Availity supports endpoint publication but argues that security and trust infrastructure are needed for endpoint identity, credential hygiene, validation, and suspension of compromised endpoints.
+- **S24:** Availity recommends endpoint reporting accommodate multiple APIs, URLs, plan-level variations, delegated maintenance, local discoverability, and automated validation.
+- **S26/S27:** Availity does not provide a specific format or frequency, but its delegated management and validation recommendations imply CMS should support structured, maintainable, operational endpoint data.
+- **S29:** Availity recommends metrics such as uptime, response time, error rates, successful completion, denial reason availability, attachment completion, routing failures, and time to resolution.
+- **S30:** Availity asks metrics to account for intermediated/delegated exchange, avoid double counting, and distinguish test from production traffic.
+- **S44-S47:** Availity supports FHIR modernization but asks CMS to clarify coexistence with existing X12 eligibility and prior authorization transactions, including X12 270/271 and X12N 278.
+- **S50/S51:** Availity emphasizes operational readiness, infrastructure, intermediary roles, multi-version support, and implementation complexity across non-CMS and delegated exchange environments.
+- **S66-S82:** Availity responds to resiliency RFI topics by recommending governed endpoints, redundancy, failover, risk-based resiliency frameworks, scalable authentication, incident response, and continuity planning.
+
+## 6. RECOMMENDATIONS
+
+1. Recognize healthcare clearinghouses and qualified intermediaries as interoperability infrastructure providers.
+2. Preserve intermediated exchange models across X12, FHIR, NCPDP, portal, and hybrid environments.
+3. Clarify interaction among X12 270/271 eligibility, FHIR prior authorization discovery, NCPDP pharmacy standards, PBM routing, and X12N 278.
+4. Preserve DDE, portal-supported, and hybrid workflows during transition for providers with limited technical resources.
+5. Require payer and PBM routing indicators for drug prior authorization pathways.
+6. Pair endpoint reporting with endpoint quality, trust, identity, credentialing, validation, monitoring, and delegated management.
+7. Design metrics that reflect real operational exchange and avoid double counting.
+8. Include uptime, response time, error rates, completion, denial reason, attachment, routing failure, and time-to-resolution measures.
+9. Promote resiliency through redundancy, portability, contingency routing, failover, and coordinated incident response.
+10. Develop a risk-based resiliency framework for critical interoperability infrastructure participants.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Under-recognition of clearinghouse infrastructure, unmanaged endpoint sprawl, unclear standards coordination, abrupt migration away from DDE/portals, double-counted metrics, insufficient resiliency planning, and unclear FHIR/X12/NCPDP coexistence.
+- **Potential negative impacts cited:** Increased provider burden, return to fax/phone workflows, higher security attack surface, operational complexity, reduced continuity during outages, and disruption for resource-limited providers.
+- **Implementation barriers mentioned:** Heterogeneous provider readiness, delegated UM arrangements, PBM routing, multi-version standards support, endpoint management, identity/credentialing, and cross-standard orchestration.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Availity reports connecting 3.5 million providers, more than 95% of health plans, and more than 17,000 technology partners.
+- **Studies or research referenced:** No external studies cited. Availity references its operational experience and Rapid Recovery model.
+- **Examples provided:** X12 270/271 eligibility workflows, X12N 278 PA workflows, DDE and portals used by small and safety-net providers, delegated PBM/utilization management arrangements, endpoint aggregation, and intermediary-routed exchange.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers, providers, clearinghouses, EHR vendors, PBMs, technology partners, delegated entities, rural providers, critical access hospitals, community health centers, safety-net providers, behavioral health providers, and small practices.
+- **Economic implications:** Availity argues shared infrastructure reduces the cost of recreating routing, testing, credentialing, security, and monitoring independently; abrupt migration could increase burden and expense.
+- **Technical feasibility:** Availity views FHIR modernization as feasible if paired with infrastructure, hybrid support, routing clarity, endpoint management, and resiliency controls.
+- **Patient care impact:** Better interoperability can reduce delays and improve administrative continuity, while failures in routing, endpoint trust, or resilience could disrupt access and care operations.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant implementation modifications.
+- **Tone:** Technical, operational, and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Availity supports CMS's continued adoption of FHIR-based standards, APIs, Da Vinci implementation guides and real-time exchange." - Context: Overall support for the rule's modernization direction.
+2. "Successful implementation will require more than standards adoption or endpoint publication alone" - Context: Argument for operational infrastructure and governance.
+3. "CMS should preserve transitional flexibility" - Context: Request to maintain DDE, portal, and hybrid workflows during migration.
+4. "Endpoint publication improves discoverability, but it is not a substitute for operational routing" - Context: Endpoint reporting and trust infrastructure recommendations.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Availity asks for phased implementation, transitional support, and readiness-based migration from DDE/portal workflows.
+- [x] **COST-RESOURCES** - The comment emphasizes shared infrastructure to reduce duplication and high expense across stakeholders.
+- [x] **PROVIDER-BURDEN** - Availity warns that abrupt workflow changes could increase provider burden, particularly for smaller or under-resourced providers.
+- [x] **PRIVACY-SECURITY** - Endpoint trust, credentialing, identity management, isolation of compromised endpoints, and cybersecurity resiliency are major concerns.
+- [x] **TECHNICAL-FEASIBILITY** - The comment focuses on routing, orchestration, endpoint management, testing, monitoring, and multi-version technical operations.
+- [x] **STANDARDS-MATURITY** - Availity highlights FHIR, X12, and NCPDP coexistence and transition needs.
+- [x] **STAKEHOLDER-COORDINATION** - The comment stresses coordination among payers, providers, PBMs, clearinghouses, vendors, and CMS.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Drug benefit classification and routing are central to Availity's recommendations.
+- [x] **TRANSPARENCY** - Availity supports actionable coverage criteria, denial reasons, endpoint publication, and meaningful metrics.
+- [x] **EXISTING-WORKFLOWS** - Preservation of X12, DDE, portals, clearinghouse workflows, and hybrid models is a major theme.
+- [x] **VENDOR-ECOSYSTEM** - The comment centers the role of clearinghouses, EHR vendors, PBMs, and technology partners in implementation.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+5555 Gate Parkway, Ste 110 
+Jacksonville, FL 32256 
+1.800.282.4548 
+  Availity.com 
+ 
+SUBMITTED ELECTRONICALLY VIA REGULATIONS.GOV 
+ 
+June 15, 2026  
+ 
+Centers for Medicare & Medicaid Services (CMS)  
+Department of Health and Human Services  
+Mail Stop C4-26-05  
+7500 Security Boulevard  
+Baltimore, MD 21244-1850 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, CHIP Agencies 
+and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the 
+Federally-Facilitated Exchanges; Proposed Rule, 91 Fed. Reg. 19890 (Apr. 14, 2026), 
+CMS-0062-P, FR Doc. 2026-07205 (â€œCMS-0062-Pâ€). 
+ 
+To Whom It May Concern: 
+ 
+Availity, L.L.C. (â€œAvailityâ€) is the largest dual-sided, real-time healthcare network in the United 
+States, directly connecting 3.5M+ providers, 95%+ of health plans, and 17K+ technology partners. 
+Availity is a healthcare clearinghouse and interoperability infrastructure provider that supports 
+secure, real-time exchange across payers, providers, and technology partners. 
+ 
+We appreciate the opportunity to comment on CMS-0062-P. Although the proposed rule focuses 
+in significant part on expanding electronic prior authorization requirements to drugs, it also raises 
+broader implementation issues that are central to successful interoperability: standards 
+coordination, endpoint publication, API readiness, metrics, security, transitional workflows, and 
+resiliency. Availityâ€™s position across payers, providers, and technology partners gives it a practical 
+perspective on how the proposed rule can advance interoperability while preserving the operational 
+infrastructure needed for secure, reliable, and scalable implementation. 
+ 
+Availity supports CMSâ€™s continued adoption of FHIR-based standards, APIs, Da Vinci 
+implementation ...

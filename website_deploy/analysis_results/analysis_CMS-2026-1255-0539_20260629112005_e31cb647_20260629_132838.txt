@@ -1,0 +1,136 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0539_20260629112005_e31cb647
+Commenter: John Czwartacki / Survivors for Solutions / Access for All
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:28:38
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** John Czwartacki, Founder & Chairman, Survivors for Solutions / Access for All
+- **Stakeholder type:** Advocacy Group; Individual patient advocate
+- **Credentials or expertise mentioned:** Patient advocate, public policy veteran, person living with multiple sclerosis for more than 30 years.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter supports CMS efforts to reduce prior authorization delays and improve transparency, emphasizing that PA and step therapy can delay medically necessary treatment for patients with progressive neurological diseases. He urges CMS to require detailed, clinically grounded denial reasons and to prohibit step therapy where no validated failure or intolerance criteria exist.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL
+- **Regulatory citations mentioned:** Not addressed.
+- **Standards referenced:** Not addressed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization delays and denial transparency**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** The commenter states PA often delays care already recommended by physicians and that most requests are eventually approved, making delays harmful and inefficient.
+- **Specific request:** Require detailed, clinically grounded denial justifications for every rejection, not boilerplate denial language.
+
+**Topic 2: Upfront drug PA transparency**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** The commenter supports interoperability proposals that would show physicians upfront whether a drug requires prior authorization, reducing downstream burden and improving access.
+- **Specific request:** Finalize transparency measures that make PA requirements visible before prescribing or dispensing decisions are made.
+
+**Topic 3: Step therapy limits for progressive neurological disease**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter argues step therapy is dangerous where disease progression is rapid or irreversible and where no validated sequencing or failure criteria exist.
+- **Specific request:** Clarify that step therapy is inappropriate for serious progressive neurological conditions without validated failure or intolerance definitions.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** The commenter responds directly by urging detailed, clinically grounded denial justifications for every PA rejection.
+- **S17:** The comment does not request structured codes specifically, but supports more actionable denial explanations that physicians and patients can use.
+- **S20:** The commenter supports shorter PA timeframes and argues delays are especially harmful for progressive diseases.
+- **S66-S82:** The comment addresses broader step therapy and patient access issues, including the need for clinically validated failure criteria before sequencing requirements are imposed.
+
+## 6. RECOMMENDATIONS
+
+1. Reduce prior authorization timeframes further.
+2. Require detailed, clinically grounded denial justifications for every PA rejection.
+3. Preserve upfront transparency about whether a drug requires prior authorization.
+4. Require commercial plans to define failure or intolerance criteria before applying step therapy.
+5. Prohibit step therapy in therapeutic areas where no validated failure criteria exist, especially serious progressive neurological conditions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, boilerplate denials, payer judgment overriding physician judgment, and step therapy without clinical guardrails.
+- **Potential negative impacts cited:** Delayed treatment, worsening progressive disease, permanent harm, administrative burden, and patients being left without a clear path forward.
+- **Implementation barriers mentioned:** Inconsistent payer step therapy protocols and lack of clinically validated failure definitions.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** The commenter states approximately 95 percent of PA requests are eventually approved and that delays have increased over the past four years.
+- **Studies or research referenced:** No formal studies are cited.
+- **Examples provided:** MS treatment delays; commercial payer step therapy inconsistencies for early symptomatic Alzheimer's disease involving Leqembi and Kisunla; examples naming Florida Blue, Blue Cross Blue Shield of Arizona, and Blue Cross Blue Shield of Rhode Island.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with MS, Alzheimer's disease, and other progressive neurological conditions; physicians; commercial plans; drug manufacturers; patient advocacy organizations.
+- **Economic implications:** The commenter frames PA and step therapy as cost-containment tools that can impose clinical and administrative costs on patients and providers.
+- **Technical feasibility:** Not addressed beyond supporting interoperability tools that disclose PA requirements upfront.
+- **Patient care impact:** High; the comment emphasizes delayed access, disease progression, and irreversible harm.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned; supportive of transparency and timeframe reductions but critical of PA and step therapy barriers.
+- **Tone:** Personal, advocacy-oriented, critical, and policy-focused.
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "prior authorization has become a barrier between patients and the care their physicians have already determined they need" - Context: The commenter frames the patient access problem.
+2. "approximately 95 percent of requests are eventually approved" - Context: The commenter argues PA frequently delays rather than meaningfully filters care.
+3. "requiring detailed, clinically grounded denial justifications" - Context: The commenter identifies a specific CMS action.
+4. "no validated definition of failure" - Context: The commenter criticizes step therapy protocols for Alzheimer's disease.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment says upfront transparency would reduce downstream administrative burden for physicians.
+- [x] **PATIENT-ACCESS** - The central concern is delayed access to drugs and therapies for serious progressive disease.
+- [x] **HEALTH-EQUITY** - The comment advocates for patients facing systemic access barriers, though it does not provide demographic equity analysis.
+- [x] **TRANSPARENCY** - The commenter seeks clear PA requirements and detailed denial justifications.
+- [x] **EXISTING-WORKFLOWS** - The comment critiques payer-designed PA and step therapy pathways that interfere with physician-directed care.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Centers for Medicare and Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Dear Administrator Oz, 
+ 
+Thank you for the opportunity to provide feedback on the proposed rules governing prior 
+authorization and step therapy. I appreciate your leadership on the issue as the Administration 
+works to improve Americaâ€™s healthcare system.  
+ 
+My name is John Czwartacki. I am a patient advocate, public policy veteran, and I have been 
+living with multiple sclerosis for more than 30 years. Throughout the time Iâ€™ve been living with 
+my disease, I have relied on access to breakthrough treatments to mitigate symptoms and treat 
+my illness. I founded my organization, Survivors for Solutions, to advocate for other patients 
+waiting for medical advancements by fighting to protect Americaâ€™s pipeline of future 
+developments in the face of threats to innovation. Our newest project, Access for All, works to 
+address systemic barriers preventing patients from accessing lifesaving treatments and 
+therapies. Patients need an innovation ecosystem that is not diminished by government 
+interference through inefficient procedures and policies. 
+ 
+Coverage providers use prior authorization to require advance approval before covering a 
+prescribed drug or procedure. In practice, prior authorization has become a barrier between 
+patients and the care their physicians have already determined they need. 
+ 
+Prior authorization, as currently structured, replaces physician judgment with payer judgment. 
+The data show that this comes at a real cost to patients. Delays have increased significantly over 
+the past four years. Moreover, approximately 95 percent of requests are eventually approved â€” 
+meaning this tool serves no real purpose other than making patients wait. As an MS patient, I 
+know what those delays mean in practice. Every day a treatment is held up is a day a 
+progressive disease continues to worsen and makes life ha...

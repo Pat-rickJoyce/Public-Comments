@@ -1,0 +1,171 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0486_20260629112004_fc7f8ec2
+Commenter: Texas Medical Association (TMA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:31:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Texas Medical Association (TMA); signed by Bradford W. Holland, MD, President.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** Represents more than 60,000 physician and medical student members; largest state medical society in the nation; founded in 1853; focuses on medical care, disease prevention/cure, public health, and improving Texans' health.
+
+## 2. EXECUTIVE SUMMARY
+
+TMA supports CMS's proposed prior authorization modernization and drug interoperability requirements, but argues CMS must also reduce the overall volume of prior authorizations rather than merely digitizing excessive utilization management. It urges 24-hour-or-less decisions for all PA, standardized documentation, centralized metrics, patient-friendly denial explanations, careful HIPAA standards transition, broad stakeholder testing, and a CMS gold-carding program modeled on Texas law.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING/related public reporting; FF-SHOP-REQUIREMENTS; HIPAA-PA-STANDARDS; GENERAL.
+- **Regulatory citations mentioned:** No specific CFR citations. References Oct. 1, 2027, Jan. 1, 2028, HIPAA transaction standards, X12N 270/271, and existing MA Part B and QHP timing concepts.
+- **Standards referenced:** HL7 FHIR; Da Vinci PDex; PDex US Drug Formulary IG; PDex Plan Net IG; FHIR Bulk Data Access IG; Da Vinci CRD, DTR, and PAS IGs; CARIN Alliance; NCPDP SCRIPT; ASC X12N 278; X12N 270/271; EHR and practice management systems.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Interoperability Standards for APIs**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support/Modify
+- **Rationale:** Technical standards are needed for electronic PA regardless of medical or pharmacy benefit coverage, and should reduce forced fax workflows.
+- **Specific request:** Apply standardized processes across all payer business lines, and have CMS work with payers, EHR vendors, pharmacies, PBMs, and others to test ePA end-to-end before implementation.
+
+**Topic 2: Electronic PA for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support/Modify
+- **Rationale:** A single standardized process and standardized documentation would reduce physician burden, but excessive PA volume remains the root problem.
+- **Specific request:** Require one standardized process for prescription medication authorizations regardless of benefit category and pursue policies reducing the overall number of PA requirements.
+
+**Topic 3: Denial Reasons, AI Oversight, and Timeframes**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS
+- **Position:** Support/Modify
+- **Rationale:** Clear denial information is necessary, AI adverse determinations need human oversight, and proposed timelines are still too long for suffering patients.
+- **Specific request:** Require clear denial reasons and resubmission/appeal steps; do not allow AI adverse determinations without human review; finalize a 24-hour-or-less timeframe for all PA, standard or expedited, for all QHPs.
+
+**Topic 4: Public Metrics and Centralized Reporting**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Metrics can expose excessive PA burdens and downstream patient safety and system effects.
+- **Specific request:** Add lists of all PA items/services and average/median determination times; publish metrics in standardized format on a centralized CMS website.
+
+**Topic 5: Patient, Provider, and Payer-to-Payer APIs**
+- **Provision ID:** FF-SHOP-REQUIREMENTS; FHIR-IG-REQUIRED; GENERAL
+- **Position:** Support/Modify
+- **Rationale:** Access to timely PA status, denial information, claims, and encounter data supports patient engagement, point-of-care decisions, and continuity when changing plans.
+- **Specific request:** Maintain one-business-day access/update requirements, keep information available at least one year after status change, make denial explanations readable at a sixth-grade level, and allow patients to report incorrect PA information.
+
+**Topic 6: HIPAA Prior Authorization Standards**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** TMA recognizes interoperability benefits but warns health care needs time to pivot to new standards.
+- **Specific request:** Allow adequate time for physician practices, EHR vendors, and practice management vendors to adopt new standards without disrupting operations or patient care.
+
+**Topic 7: Gold-Carding and PA Reduction**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Digitizing PA does not solve overuse of PA; high-performing physicians should receive exemptions.
+- **Specific request:** Adopt a CMS gold-carding program modeled on Texas law, granting exemptions where at least 90% of requests for a service were approved during an evaluation period.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** TMA supports required technical standards for APIs and electronic PA but wants broad adoption across payer business lines.
+- **S2/S3:** TMA recognizes multiple FHIR IGs and asks CMS to allow time and stakeholder testing for transition and adoption.
+- **S12:** TMA supports adding medical benefit drugs to the Prior Authorization API and standardizing documentation.
+- **S14:** TMA supports NCPDP SCRIPT for pharmacy benefit drug ePA and notes PBMs still force fax submission.
+- **S15:** TMA asks for one standardized prescription medication authorization process regardless of medical or pharmacy benefit classification.
+- **S16/S17:** TMA supports clear denial reasons and says responses should explain what actions are needed to resubmit or appeal; patient denial explanations should be sixth-grade readable.
+- **S20:** TMA says proposed 72-hour or 24-hour expedited timelines are still too long and recommends 24 hours or less for all PA.
+- **S21:** TMA supports Oct. 1, 2027 but calls for testing to avoid disruption to workflow and patient access.
+- **S23/S24/S26/S27/S33:** TMA supports public reporting and centralized standardized CMS publication of PA metrics.
+- **S29/S34/S35:** TMA supports expanded PA metrics and asks for additional measures including PA lists and average/median determination times.
+- **S40-S42:** TMA supports including small-group market QHPs in Patient, Provider, and Payer-to-Payer API expansions effective Jan. 1, 2028.
+- **S44-S47/S50/S53:** TMA supports the value of HIPAA PA standards but asks CMS to provide enough transition time for physician practices and vendors.
+- **S66-S82:** TMA urges CMS to address broader PA burden, hospital throughput, discharge delays, and adopt gold-carding.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize technical standards for electronic PA of medications under medical and pharmacy benefits.
+2. Encourage adoption across all payer business lines, not just regulated lines.
+3. Test ePA end-to-end with payers, EHR vendors, pharmacies, PBMs, and other stakeholders before implementation.
+4. Standardize prescription medication authorization and documentation regardless of benefit category.
+5. Reduce the overall volume of PA requirements.
+6. Require clear denial reasons and appeal/resubmission steps.
+7. Require human oversight before AI adverse determinations are communicated.
+8. Set all PA decision timeframes, standard and expedited, at 24 hours or less.
+9. Add PA item/service lists and average/median determination times to public metrics.
+10. Publish metrics centrally on a standardized CMS website.
+11. Make patient denial explanations sixth-grade readable and allow patients to report incorrect PA data.
+12. Allow adequate transition time for HIPAA FHIR PA standards.
+13. Adopt a CMS gold-card program using a 90% approval threshold.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Excessive PA volume, manual legacy workflows, PBM fax requirements, unclear denials, AI without human oversight, insufficiently fast timelines, fragmented metrics, HIPAA transition disruption, and lack of gold-carding.
+- **Potential negative impacts cited:** Care delays, treatment abandonment, serious adverse events, disease progression, death, prolonged hospitalizations, discharge delays, ED boarding, transfer delays, ICU throughput limits, rural strain, access problems, and disparities.
+- **Implementation barriers mentioned:** Fax/phone/portal workflows, lack of tracking for faxed documentation, EHR and practice management vendor adoption, payer/PBM behavior, practice workflow disruption, and capacity strain.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 2025 AMA survey: 95% of physicians cited PA-linked care delays, 79% said PA sometimes causes treatment abandonment, and over one in four witnessed serious adverse events; 2022 oncology survey: nearly all participants reported patient harm from PA delays, including disease progression (80%) and loss of life (36%).
+- **Studies or research referenced:** 2025 AMA Prior Authorization Physician Survey; 2022 Association for Clinical Oncology Prior Authorization Survey Summary; Texas gold-card law from 2021.
+- **Examples provided:** PBMs forcing fax submissions; discharge delays for skilled nursing, rehabilitation, home oxygen, home infusion, specialty medications, dialysis coordination, transportation; ED boarding and ICU transfer delays.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Physicians, patients, hospitals, EDs, rural practices, medically complex and elderly patients, underserved populations, payers, PBMs, EHR vendors, pharmacies, QHPs, CMS.
+- **Economic implications:** PA imposes administrative staffing costs and may increase overall costs through delayed care, prolonged hospitalization, and system inefficiency.
+- **Technical feasibility:** Feasible with standards, but requires vendor transition time, end-to-end testing, and careful workflow integration.
+- **Patient care impact:** High; TMA links PA delays to harm, hospitalization disruption, treatment abandonment, adverse events, disease progression, and death.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive but critical of insufficient scope.
+- **Tone:** Professional, urgent, evidence-based, and policy-oriented.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The regulatory changes set forth in the proposal are a needed and critical step forward" - Context: Overall support.
+2. "digitizing a system that arbitrarily and unnecessarily requires prior authorization... only speeds up an inefficient process" - Context: Need to reduce PA volume.
+3. "CMS should finalize a timeframe of 24 hours or less for all prior authorization" - Context: Timing request.
+4. "CMS should allow time for physician practices to work with their EHR and practice management vendors" - Context: HIPAA standards transition.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports key dates but asks for adequate transition and 24-hour-or-less determinations.
+- [x] **COST-RESOURCES** - Highlights uncompensated staff/resource burden and hospital system costs.
+- [x] **PROVIDER-BURDEN** - Core theme across all sections.
+- [ ] **PRIVACY-SECURITY** - Not materially addressed.
+- [x] **HEALTH-EQUITY** - Says PA disproportionately affects medically complex, elderly, rural, underserved, and socioeconomically vulnerable patients.
+- [x] **TECHNICAL-FEASIBILITY** - Supports standards but requires testing and vendor transition time.
+- [x] **STANDARDS-MATURITY** - Discusses many FHIR IGs, NCPDP SCRIPT, X12, and transition concerns.
+- [x] **PATIENT-ACCESS** - Strong focus on delays, abandonment, adverse events, and medication access.
+- [ ] **REGULATORY-AUTHORITY** - Does not challenge authority.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS to work with payers, EHR vendors, pharmacies, PBMs, and others.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Requests one standardized process regardless of benefit category.
+- [x] **TRANSPARENCY** - Supports denial clarity and centralized public metrics.
+- [x] **SMALL-PAYER-IMPACT** - Focuses on smaller/resource-limited practices rather than small payers.
+- [x] **EXISTING-WORKFLOWS** - Critiques faxes, phone calls, portals, hospital discharge workflow, and practice workflows.
+- [x] **VENDOR-ECOSYSTEM** - EHR, practice management, PBM, pharmacy, and payer vendor coordination is central.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+P.O. Box 8013
+Baltimore, MD 21244-803
+
+Submitted via Federal Register
+
+RE: Comments on Interoperability Standards and Prior Authorization for Drugs
+
+Dear Dr. Oz,
+
+On behalf of the Texas Medical Association (TMA) representing more than 60,000 physician and medical student members, we thank you for the opportunity to comment on the proposed rule, Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges.
+
+TMA is a private, voluntary, non-profit association and the largest state medical society in the nation...

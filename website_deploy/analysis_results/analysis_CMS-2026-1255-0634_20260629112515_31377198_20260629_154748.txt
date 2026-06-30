@@ -1,0 +1,100 @@
+# Comment Analysis: CMS-2026-1255-0634_20260629112515_31377198
+
+## 1. COMMENTER INFORMATION
+- **Author/Organization name:** The Sequoia Project
+- **Stakeholder type:** Technology Vendor / Health IT Convener / Other
+- **Credentials or expertise mentioned:** Non-profit public-private collaborative advancing interoperability; supports RSNA Image Share Validation Program and Interoperability Matters Cooperative; ONC-selected Recognized Coordinating Entity for TEFCA; experience with nationwide health information exchange and federated directory governance.
+
+## 2. EXECUTIVE SUMMARY
+The Sequoia Project generally supports CMS efforts to align API requirements with ONC-adopted unexpired standards, improve payer endpoint discovery, and move toward FHIR-based prior authorization. It recommends a practical transition that accounts for version management, implementation maturity, directory governance, endpoint validation, and trusted exchange infrastructure, while urging CMS to leverage TEFCA for event notifications and resiliency.
+
+## 3. REGULATORY CONTEXT
+- **Specific provisions addressed:** FHIR-IG-REQUIRED, API-ENDPOINT-REPORTING, HIPAA-PA-STANDARDS, ONC-STANDARDS-UPDATE, GENERAL
+- **Regulatory citations mentioned:** 45 CFR 170.215
+- **Standards referenced:** FHIR, FHIR Endpoint Resource, FAST National Directory of Healthcare Providers & Services (NDH) Endpoint Profile, TEFCA, Da Vinci Clinical Data Exchange (CDex) IG, ONC-adopted standards, FHIR-based prior authorization standards
+
+## 4. DETAILED POSITIONS
+**Topic 1: Alignment with ONC-adopted unexpired standards**
+- **Provision ID:** FHIR-IG-REQUIRED / ONC-STANDARDS-UPDATE
+- **Position:** Support
+- **Rationale:** Alignment reduces implementation variation and promotes consistency across federal interoperability initiatives.
+- **Specific request:** Finalize alignment with ONC-adopted unexpired standards and continue coordination across federal interoperability programs.
+
+**Topic 2: Payer API endpoint reporting and directory strategy**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support with modifications
+- **Rationale:** Endpoint discovery is necessary for scalable interoperability, but directories require governance, validation, lifecycle management, and trust processes over time.
+- **Specific request:** Align endpoint reporting with existing directory standards, including NDH, National Provider Directory efforts, and structured reporting mechanisms; provide implementation guidance, verification methods, and adequate time if requirements differ from existing approaches.
+
+**Topic 3: FHIR-based prior authorization as HIPAA standard**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support with modifications
+- **Rationale:** FHIR prior authorization can improve automation, but the standards may not yet convey all information needed for all prior authorization scenarios and require directory/trust infrastructure.
+- **Specific request:** Use a phased, practical transition; assess CDex and other FHIR approaches in real-world use before broad mandates; ensure FHIR can support the full range of clinical information needed.
+
+**Topic 4: TEFCA for electronic event notifications**
+- **Provision ID:** GENERAL
+- **Position:** Support / Clarify
+- **Rationale:** TEFCA provides national governance, directory, and connectivity infrastructure that could improve delivery to authorized recipients, although event notifications are not an initial TEFCA Exchange use case.
+- **Specific request:** Encourage and incentivize regulated providers and payers to participate in TEFCA and evaluate event notifications as a future TEFCA exchange scenario.
+
+**Topic 5: TEFCA and healthcare resiliency**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** A network-of-networks approach can reduce reliance on a single pathway and support continuity of information sharing during disruptions.
+- **Specific request:** Use TEFCA governance and trusted nationwide exchange infrastructure as part of resiliency strategy.
+
+## 5. SOLICITATION RESPONSES
+- **S1/S2/S3/S60-S65:** Supports requiring alignment with unexpired ONC-adopted standards and coordinated version management.
+- **S23-S24/S26-S27/S33:** Supports payer endpoint reporting but urges structured formats, alignment with NDH and national directory efforts, validation, governance, and lifecycle guidance.
+- **S44-S56:** Supports long-term FHIR-based prior authorization but urges phased implementation, evaluation of CDex maturity, directory/trust infrastructure, and confirmation that FHIR can carry needed clinical information.
+- **S66-S82:** Responds to RFIs on event notifications and resiliency by recommending TEFCA participation, future TEFCA event-notification use cases, and network-of-networks resiliency planning.
+
+## 6. RECOMMENDATIONS
+1. Finalize alignment with ONC-adopted unexpired standards.
+2. Align endpoint reporting with existing directory standards and reporting mechanisms.
+3. Consider NDH Endpoint Profile and National Provider Directory initiatives for endpoint discovery.
+4. Provide guidance on endpoint verification, automated validation, evidence, third-party validation, governance, and lifecycle management.
+5. Adopt a phased and practical transition to FHIR-based prior authorization and evaluate CDex maturity before broad requirements.
+6. Encourage payer and provider participation in TEFCA and evaluate event notifications as a future TEFCA exchange scenario.
+7. Use trusted nationwide exchange and federated directories to support healthcare resiliency.
+
+## 7. CONCERNS & OBJECTIONS
+- **Primary concerns:** Endpoint directories can become stale without governance and maintenance.; A 60-day implementation window may be insufficient if CMS changes reporting approaches.; FHIR prior authorization standards may not yet support all clinical information needed.; FHIR implementation maturity and version management need attention.
+- **Potential negative impacts cited:** Implementation burden, duplicative directory efforts, unreliable endpoint information, incomplete prior authorization information exchange.
+- **Implementation barriers mentioned:** Directory validation, endpoint lifecycle management, trust infrastructure, standards maturity, version management, industry readiness.
+
+## 8. SUPPORTING EVIDENCE
+- **Data or statistics cited:** No quantitative statistics identified.
+- **Studies or research referenced:** No studies cited; relies on Sequoia experience operating TEFCA-related federated directory and nationwide exchange infrastructure.
+- **Examples provided:** TEFCA federated directory model for QHINs, Participants, and Subparticipants.; FAST NDH Endpoint Profile as a possible reporting format.
+
+## 9. IMPACT ASSESSMENT
+- **Affected stakeholders:** Impacted payers, Providers, Health IT vendors, CMS, ONC, TEFCA participants, QHINs, Patients
+- **Economic implications:** Potential burden reduction through directory alignment and reduced duplicative implementation; possible added implementation cost if reporting requirements diverge or are rushed.
+- **Technical feasibility:** Feasible with sufficient guidance, version management, endpoint validation, and trusted directory infrastructure.
+- **Patient care impact:** Improved endpoint discovery and trusted exchange could support more reliable prior authorization, event notification, and care coordination.
+
+## 10. SENTIMENT ANALYSIS
+- **Overall position:** Supportive with implementation concerns
+- **Tone:** Professional, technical, collaborative
+- **Priority level:** High
+
+## 11. KEY QUOTES
+1. "CMS should prioritize a phased and practical transition that balances innovation with implementation readiness."
+2. "Endpoint directories are not static compliance registries."
+3. "The success of FHIR-based prior authorization will depend not only on the standards themselves, but also on the directory, discovery, and trust infrastructure that enables reliable exchange."
+4. "Greater participation in TEFCA will strengthen the network effects necessary to support scalable care coordination and notification use cases."
+
+## 12. THEMES
+- [x] **IMPLEMENTATION-TIMELINE**
+- [x] **TECHNICAL-FEASIBILITY**
+- [x] **STANDARDS-MATURITY**
+- [x] **STAKEHOLDER-COORDINATION**
+- [x] **TRANSPARENCY**
+- [x] **EXISTING-WORKFLOWS**
+- [x] **VENDOR-ECOSYSTEM**
+- [x] **PRIVACY-SECURITY**
+
+## Analysis Status
+Complete

@@ -1,0 +1,176 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0511_20260629112440_2d2b07bb
+Commenter: Legal Action Center
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:24:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Legal Action Center (LAC); signed by Deborah Steinberg, Senior Health Policy Attorney.
+- **Stakeholder type:** Advocacy Group; legal and policy organization.
+- **Credentials or expertise mentioned:** LAC describes itself as a nonprofit law and policy organization focused on discrimination, health equity, substance use disorders (SUD), arrest and conviction records, and HIV/AIDS.
+
+## 2. EXECUTIVE SUMMARY
+
+LAC supports extending interoperability and prior authorization standards to prescription drugs because faster access is especially important for medications for opioid use disorder and other SUD treatments. It asks CMS to strengthen the rule through 24-hour drug PA timeframes across payers, deemed approvals for missed deadlines or inadequate denials, more specific denial notices, equity-focused reporting, privacy protections for sensitive SUD information, and continuity-of-care protections for step therapy and prior authorizations.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; PRIVACY-SECURITY-related API issues under GENERAL; HIPAA-PA-STANDARDS; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; 42 CFR 431.80(a)(1), (2); 42 CFR 438.210(c)(2), (3); 42 CFR 457.732(a)(1), (2); 45 CFR 156.223(a)(1), (2); 42 CFR Part 2; 42 CFR 2.11 and 2.12.
+- **Standards referenced:** FHIR; NCPDP standards; APIs; Payer-to-Payer API; data segmentation concepts; electronic prior authorization standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prescription drug electronic prior authorization and decision timeframes**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS
+- **Position:** Support with modifications.
+- **Rationale:** LAC believes electronic PA can speed access to needed medications, but for SUD medications any delay can be clinically dangerous or life threatening.
+- **Specific request:** Apply a 24-hour timeframe to all drug PA requests for QHP issuers and Medicare Advantage organizations, not just expedited requests; apply requirements to MA supplemental benefits, traditional Medicare, and bundled services that include drugs such as Medicare OTP bundles; treat missed timeframes as deemed approvals or at minimum deemed denials that trigger appeal rights.
+
+**Topic 2: Limits on prior authorization for MOUD and SUD medications**
+- **Provision ID:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; GENERAL
+- **Position:** Modify.
+- **Rationale:** LAC argues that even fast electronic PA remains a barrier for medications for substance use disorder. It cites Medicare Part D buprenorphine policies where limiting prior authorization was associated with increased medication use and reduced SUD-related inpatient and emergency department utilization.
+- **Specific request:** Limit or remove PA for medications for opioid use disorder across impacted payers, modeled on prior CMS policy limiting buprenorphine PA to no more than once per plan year and carrying approvals into the next plan year.
+
+**Topic 3: Specific denial reasons and appeal protections**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications.
+- **Rationale:** LAC supports requiring specific reasons for drug PA denials but says generic statements such as medical necessity denials do not allow patients and providers to understand or appeal the decision.
+- **Specific request:** Amend the regulatory language to require denial notices to identify the criterion not met and all information needed for a full explanation; require plain language, standardized appeal instructions, simultaneous notice to patients and providers, language access, accessibility, and deemed approval for insufficiently specific denials.
+
+**Topic 4: Prior authorization metrics and transparency**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support with modifications.
+- **Rationale:** LAC supports expanded PA metrics but says contract-level and aggregate reporting can mask disparities and does not sufficiently inform consumers about likely access barriers.
+- **Specific request:** Require MA plan-level reporting and disaggregation by service type, provider type, diagnosis, geography, income, disability, gender, race and ethnicity, age, and protected classes; include SUD medication-specific reporting, overturn rates, repeat requests, expedited outcomes, plan-transition outcomes, time from request to treatment, and step-therapy delays and outcomes; standardize report location, file type, layout, and terminology.
+
+**Topic 5: Privacy and confidentiality in API-enabled workflows**
+- **Provision ID:** HIPAA-PA-STANDARDS; API-USAGE-METRICS; GENERAL
+- **Position:** Modify/Clarify.
+- **Rationale:** LAC warns that richer clinical data exchange through FHIR APIs, NCPDP standards, and patient-authorized apps can expose sensitive SUD information and may fall outside HIPAA or Part 2 protections.
+- **Specific request:** Strengthen confidentiality requirements for APIs and third-party apps, prohibit sale or redisclosure for secondary purposes, evaluate data segmentation standards, clarify retention limits, permitted uses, audit requirements, minimum necessary standards for Payer-to-Payer API data, limit clinical documentation requested and transmitted, and clarify third-party app governance.
+
+**Topic 6: Continuity of care and step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** LAC emphasizes that continuity on MOUD is a nationally recognized quality measure and that requiring patients to restart step therapy or PA after plan changes can interrupt successful treatment.
+- **Specific request:** Require new payers to honor prior authorizations and step therapy determinations for the full duration of the prior authorization or 180 days, whichever is greater, and define step therapy broadly to include equivalent requirements embedded in coverage criteria.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Directly responds to what constitutes a specific denial reason. LAC recommends requiring the specific criterion not met and all information needed for a full explanation, regardless of communication method.
+- **S17:** Supports standardized denial notice templates and structured, plain-language instructions that explain appeal rights, deadlines, next steps, and covered alternatives.
+- **S20/S43:** Supports 24-hour drug PA response timeframes and asks CMS to apply them consistently across all impacted payers, MA, traditional Medicare, MA supplemental benefits, and bundled drug services.
+- **S29/S34/S35:** Supports expanded PA metric reporting but seeks more patient-centered measures, plan-level MA reporting, standardized publication formats, and measures such as overturn rates, repeat PA requests, expedited outcomes, plan-transition outcomes, and time to treatment.
+- **S30:** Responds extensively on privacy protections, urging data minimization, confidentiality, transparency, limits on downstream uses, Part 2 protections, retention limits, audit requirements, and app governance.
+- **S44/S45/S46/S50:** Raises concerns that replacing existing standards infrastructure with FHIR and NCPDP standards could expand exchange of richer clinical data without adequate confidentiality safeguards.
+- **S66-S82:** Responds to RFIs on resiliency and step therapy, emphasizing privacy risks in digital infrastructure and continuity-of-care rules for step therapy and prior authorizations.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize extension of electronic prior authorization standards to prescription drugs.
+2. Apply a 24-hour timeframe to all drug PA requests across QHP issuers, Medicare Advantage, traditional Medicare, and bundled services that include drugs.
+3. Clarify that MA supplemental benefits are subject to PA rules for medications and other items/services.
+4. Treat failure to respond within required timeframes as deemed approval, or at minimum a deemed denial with immediate appeal rights.
+5. Monitor AI and automated tools used in PA determinations, including denial and overturn rates.
+6. Limit or remove PA for MOUD across impacted payers and carry approvals forward when appropriate.
+7. Require denial notices to specify the exact criterion not met and all information needed to understand and appeal the denial.
+8. Treat insufficiently specific denial notices as deemed approvals.
+9. Require plain-language, accessible, language-appropriate denial notices with standardized appeal instructions and simultaneous notice to patients and providers.
+10. Require plan-level MA reporting and disaggregate PA metrics by service, provider, diagnosis, geography, income, disability, gender, race/ethnicity, age, and protected class.
+11. Add metrics for SUD medications, overturns, repeat PA requests, expedited decisions, plan transitions, time to treatment, and step therapy outcomes.
+12. Standardize the location, file type, layout, and terminology for payer PA reporting.
+13. Strengthen data minimization, confidentiality, Part 2, app governance, retention, audit, permitted-use, and minimum necessary protections for API data.
+14. Require new payers to honor prior approvals and step therapy determinations for the prior authorization duration or 180 days, whichever is greater.
+15. Clarify that step therapy policies cover equivalent requirements even if payers use different terminology.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Treatment delays for SUD medications, inadequate denial notices, weak appeal protections, insufficient metric specificity, privacy risks from sensitive data exchange, AI-driven inappropriate denials, and treatment disruption during plan changes.
+- **Potential negative impacts cited:** Life-threatening delays for MOUD, untreated withdrawal or addiction, higher overdose risk, loss of appeal rights, discrimination or stigma from disclosed SUD information, and interrupted continuity of pharmacotherapy.
+- **Implementation barriers mentioned:** Payer variation, bundled service structures, vague denial language, inconsistent reporting formats, HIPAA/Part 2 gaps for downstream app use, lack of segmentation standards, and different terminology for step therapy-like requirements.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Approximately 87 percent of MA enrollees are in plans that may require PA for OTP services; about two-thirds of Medicaid FFS and managed care plans have PA requirements for OTP-based MOUD; denials cause delays in care for 41 percent, exacerbated health conditions for 28 percent, and worry/anxiety for more than 60 percent; NSDUH privacy concerns include 43.2 percent worried what people would think, 34.4 percent worried bad things would happen if treatment were known, and 33 percent worried information would not be private; only 17 percent of MA enrollees with OUD receiving MOUD were still receiving it six months later, compared with 57.6 percent of Medicaid beneficiaries receiving MOUD.
+- **Studies or research referenced:** HHS OIG report on MOUD access; 2026 National Drug Control Strategy; GAO report on MA behavioral health PA oversight; Health Affairs Scholar article on MOUD payment policy; CMS CY 2019 MA/Part D Call Letter; JAMA and JAMA Network Open studies on buprenorphine PA policies; Commonwealth Fund coverage denial survey; KFF prior authorization reporting analysis; SAMHSA NSDUH; LAC discrimination case materials; CMS quality measure #468; Health Affairs and JAMA Network Open OUD treatment continuity studies.
+- **Examples provided:** Buprenorphine PA removal in Medicare Part D; generic denials stating only that treatment is not medically necessary; buprenorphine PA revealing OUD diagnosis even without diagnosis data; patients switching plans and being required to restart failed therapies.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with SUD, OUD, alcohol use disorder, tobacco use disorder, HIV/AIDS, or other sensitive conditions; providers; OTPs; MA plans; QHP issuers; Medicaid/CHIP entities; traditional Medicare beneficiaries; app developers; APIs and third-party application participants; regulators and advocates.
+- **Economic implications:** LAC cites evidence that reduced buprenorphine PA was associated with lower SUD-related inpatient and emergency department use, suggesting access improvements can reduce avoidable utilization and costs.
+- **Technical feasibility:** LAC supports electronic PA and FHIR/NCPDP modernization but emphasizes that implementation must include privacy-by-design, data minimization, app governance, segmentation, and standardized reporting infrastructure.
+- **Patient care impact:** High. Faster and less burdensome PA can improve access to life-saving MOUD and other SUD medications; weak protections can cause treatment delays, relapse risk, overdose risk, discrimination, and care interruptions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modifications.
+- **Tone:** Professional, patient-centered, legal/policy-focused, and equity-oriented.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "any delay in treatment can be life threatening" - Context: LAC describes SUD medication access.
+2. "specific criterion not met" - Context: LAC's proposed denial-notice specificity standard.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - LAC focuses on 24-hour PA timeframes, deemed approvals, and continuity across plan transitions.
+- [x] **COST-RESOURCES** - The comment cites utilization and expenditure reductions associated with reduced buprenorphine PA.
+- [x] **PROVIDER-BURDEN** - It addresses provider appeal burden, repeat PA requests, denial notice specificity, and plan-transition disruptions.
+- [x] **PRIVACY-SECURITY** - Privacy, Part 2, HIPAA gaps, third-party apps, data minimization, redisclosure, retention, and audit requirements are major concerns.
+- [x] **HEALTH-EQUITY** - LAC requests disaggregation by protected classes and focuses on people with SUD, HIV/AIDS, disability, race/ethnicity, and other equity-relevant categories.
+- [x] **TECHNICAL-FEASIBILITY** - It supports electronic PA but asks CMS to add safeguards around automated tools, APIs, apps, and reporting infrastructure.
+- [x] **STANDARDS-MATURITY** - LAC raises concerns about FHIR/NCPDP data exchange expanding clinical documentation without adequate confidentiality standards.
+- [x] **PATIENT-ACCESS** - The primary theme is timely access to MOUD and other medications needed for recovery and health.
+- [ ] **REGULATORY-AUTHORITY** - Not directly challenged; LAC seeks stronger use of CMS authority.
+- [x] **STAKEHOLDER-COORDINATION** - Recommendations involve CMS, payers, providers, patients, app developers, and advocates.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not a major focus beyond drug and bundled-service scope.
+- [x] **TRANSPARENCY** - The comment seeks specific denial reasons, standardized notices, disaggregated metrics, and standardized reporting locations/formats.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - It addresses existing PA, appeals, step therapy, bundled OTP services, plan transitions, and downstream app workflows.
+- [x] **VENDOR-ECOSYSTEM** - Third-party apps and API participants are important to the confidentiality analysis.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Robert Kennedy, Jr.  
+Secretary Department of Health and Human Services  
+200 Independence Avenue SW  
+Washington, DC 20201  
+ 
+The Honorable Dr. Mehmet Oz 
+Administrator Centers for Medicare and Medicaid Services  
+U.S. Department of Health and Human Services  
+200 Independence Avenue SW  
+Washington, DC 20201 
+ 
+Re: Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P) 
+ 
+Dear Secretary Kennedy and Administrator Oz: 
+ 
+Thank you for the opportunity to submit comments on the proposed rule on Interoperability Standards 
+and Prior Authorization for Drugs in Medicare Advantage Organizations, Medicaid Managed Care 
+Plans, State Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges 
+(CMS-0062-P). The Legal Action Center is a non-profit law and policy organization that fights 
+discrimination, builds health equity, and restores opportunity for people with substance use disorders 
+(SUD), arrest and conviction records, and HIV/AIDS. 
+ 
+LAC supports CMSâ€™s proposal to extend interoperability and prior authorization standards to 
+prescription drugs under these plans. Medications for opioid use disorder (MOUD) are the gold standard 
+of treatment for this condition, which the U.S. Department of Health & Human Services (HHS) has 
+recognized as â€œessential to address the high rates of opioid use disorder and overdose mortality.â€1 
+Similarly, medications for alcohol use disorder and tobacco use disorder are critical for helping 
+individuals reduce their alcohol use or facilitate smoking cessation, consistent with this Administrationâ€™s 
+goals to promote greater health and wellbeing.  
+ 
+In the midst of the ongoing overdose public health emergency,2 we commend this Administration for 
+highlighting that â€œthese medications should be readily available to prevent withd...

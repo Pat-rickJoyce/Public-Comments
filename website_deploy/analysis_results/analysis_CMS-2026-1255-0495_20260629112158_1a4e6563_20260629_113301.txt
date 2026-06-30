@@ -1,0 +1,213 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0495
+Commenter: National Association of Chain Drug Stores (NACDS)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:33:01
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Association of Chain Drug Stores (NACDS), signed by President and CEO Steven C. Anderson, FASAE, CAE, IOM
+- **Stakeholder type:** Professional Association (representing chain pharmacies/PBMs)
+- **Credentials or expertise mentioned:** Represents traditional drug stores, supermarkets, and mass merchants with pharmacies; members operate 40,000+ pharmacies employing 155,000 pharmacists filling 3+ billion prescriptions yearly; 900+ supplier partners; 70+ international members in 21 countries
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+NACDS supports the overall goals of CMS-0062-P but argues the proposed rule is too payer/prescriber-centric and fails to fully integrate pharmacy dispensing workflows. Key recommendations include making pharmacy a first-class participant in interoperability infrastructure, retaining both NCPDP F&B and RTPB standards, removing the misapplied PANotification requirement for payers, ensuring denial reasons are actionable at the point of dispensing, requiring a minimum 24-month implementation timeline, and supporting a carefully phased transition to FHIR-based standards that preserves existing NCPDP pharmacy standards.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL, PA-DENIAL-REASONS, PA-TIMEFRAMES-DRUGS, FHIR-IG-REQUIRED, API-ENDPOINT-REPORTING, GENERAL
+- **Regulatory citations mentioned:** Not specifically cited
+- **Standards referenced:** NCPDP SCRIPT (versions 2017071 and 2023011), NCPDP Formulary & Benefit (F&B), NCPDP Real-Time Prescription Benefit (RTPB), NCPDP PANotification transaction, FHIR-based APIs, Payer-to-Payer API, Da Vinci CRD/DTR/PAS IGs (implicit)
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Pharmacy Must Be Core to Interoperability Policy**
+- **Provision ID:** PA-DRUG-PHARMACY, FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** The rule is primarily architected around payers and prescribers; pharmacists operate in a dual role as both dispensers and rendering providers, and pharmacies were excluded from prior federal EHR incentive programs, leaving them with less system support than other care settings.
+- **Specific request:** Require that interoperability infrastructure be usable within pharmacy dispensing and clinical documentation systems; support pharmacists in both roles.
+
+**Topic 2: Maintain NCPDP SCRIPT as Foundation for Pharmacy Benefit PA**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support (with modification)
+- **Rationale:** NCPDP SCRIPT is built for medications and pharmacy benefit transactions; it is the correct standard for this domain and ensures consistency.
+- **Specific request:** Maintain NCPDP SCRIPT as the foundational standard for electronic PA across pharmacy benefit programs.
+
+**Topic 3: Remove PANotification Requirement for Payers**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Oppose (specific sub-proposal)
+- **Rationale:** The PANotification transaction is designed for prescriber-to-pharmacist communication, not payer involvement. Requiring payers to support it introduces unnecessary complexity, creates confusion over transaction roles, and could increase duplicate PA activity.
+- **Specific request:** CMS should retract the proposal requiring impacted payers to support the PANotification transaction.
+
+**Topic 4: Maintain Both F&B and RTPB Standards**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support (retain both)
+- **Rationale:** F&B provides plan-level formulary information early in the workflow; RTPB provides patient-specific, real-time coverage determination at point of dispensing. They are complementary, not duplicative. Eliminating either shifts burden downstream to pharmacies.
+- **Specific request:** Maintain requirements for both NCPDP F&B and RTPB; clarify their complementary roles.
+
+**Topic 5: Prior Authorization Must Be Actionable at Point of Dispensing**
+- **Provision ID:** PA-DRUG-PHARMACY, PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Current PA information often indicates requirements without supporting next steps; pharmacists must rely on phone calls, resubmissions, and prescriber coordination.
+- **Specific request:** Ensure PA and real-time benefit responses clearly indicate whether PA is required, the appropriate submission pathway, required documentation, and support for efficient PA initiation; enable pharmacist participation; support bidirectional data exchange.
+
+**Topic 6: Address Medical/Pharmacy Benefit Fragmentation**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify
+- **Rationale:** Pharmacists and providers often lack a reliable method to determine coverage pathways; bifurcation creates real-world confusion.
+- **Specific request:** Preserve distinct standards while advancing policies that reduce fragmentation through clear routing and consistent benefit category signaling.
+
+**Topic 7: Denial Reasons Must Be Actionable**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Denial information is often inconsistent and unstructured; at point of dispensing, clear and usable denial information is essential for immediate workflow decisions.
+- **Specific request:** Require denial reasons to be standardized, structured, and actionable with clear next steps embedded; integrate denial data into real-time benefit tools.
+
+**Topic 8: Implementation Timeline — Minimum 24 Months**
+- **Provision ID:** PA-DRUG-PHARMACY, FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Industry experience shows standard version transitions require at least 24 months; this rule introduces new functionality for many entities. Proposed timeline also creates NCPDP version conflict (2017071 vs. 2023011, January 2028).
+- **Specific request:** Minimum 24-month implementation timeline from effective date of the final rule.
+
+**Topic 9: Clarify PA Timeframe Triggers**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify
+- **Rationale:** Without clear definitions of receipt, completeness, and iterative submissions, accountability may shift to downstream actors lacking control over documentation completeness.
+- **Specific request:** Define PA clock triggers clearly.
+
+**Topic 10: Phased, Flexible FHIR Transition**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support (with conditions)
+- **Rationale:** Pharmacy systems designed around high-volume transaction processing differ from EHR-centric FHIR models; uncoordinated adoption creates parallel systems increasing complexity.
+- **Specific request:** Phased implementation timelines; flexibility for limited-infrastructure entities; alignment between FHIR and NCPDP standards.
+
+**Topic 11: Include Pharmacies in Electronic Event Notifications**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Pharmacies uniquely positioned to support care transitions and medication reconciliation but cannot function without timely patient event information.
+- **Specific request:** Include community pharmacies as eligible participants in electronic event notification frameworks.
+
+**Topic 12-15: API Resiliency, Payer API Consistency, Step Therapy Portability, Lab/DMEPOS PA**
+- **Provision IDs:** GENERAL, API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** Payer API variability burdens pharmacies; system disruptions block medication access; step therapy forces unnecessary retreatment; lab/DMEPOS PA delays harm patients.
+- **Specific requests:** API redundancy and fallback mechanisms; consistent standards-based API implementation with centralized endpoint discovery and audit; Payer-to-Payer API for step therapy history portability; standardized PA for lab/DMEPOS.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S14 (non-Part D pharmacy PA applicability):** NACDS supports NCPDP SCRIPT as foundation; urges removal of PANotification payer requirement; recommends maintaining both F&B and RTPB.
+- **S15 (medical vs pharmacy benefit distinction):** Urges preserving distinct standards while reducing fragmentation through clear benefit category routing.
+- **S19 (state readiness for pharmacy standards):** Acknowledges uneven infrastructure maturity; urges phased, flexible implementation.
+- **S21 (is timeline achievable):** Strongly recommends minimum 24-month timeline; references NCPDP version transition conflict.
+- **S22 (NCPDP costs):** Notes pharmacy exclusion from prior federal IT incentives; urges realistic timeline.
+- **S25 (RTPB maturity):** Strongly recommends retaining both F&B and RTPB, articulating distinct and complementary functions.
+- **S16 (what is a specific denial reason):** Recommends structured, actionable denial reasons with next steps for point-of-dispensing workflows.
+- **S20 (PA timeframe achievability):** Urges clarification of PA clock triggers.
+- **S37 (implementation challenges):** Extensive discussion of pharmacy-specific workflow and infrastructure variability challenges.
+- **S60 (versioning approach):** Flags NCPDP SCRIPT version transition conflict between 2017071 and 2023011.
+- **S66 (electronic event notifications):** Recommends including pharmacies as eligible participants.
+- **S67 (resiliency):** Recommends API reliability/redundancy and pharmacy fallback mechanisms.
+- **S68 (step therapy):** Recommends Payer-to-Payer API for step therapy history portability.
+- **S71 (lab/DMEPOS PA):** Recommends standardizing PA across lab and DMEPOS; extend electronic PA consistently.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Require interoperability infrastructure to be usable within pharmacy dispensing and clinical documentation systems.
+2. Maintain NCPDP SCRIPT as foundational standard for electronic PA across pharmacy benefit programs.
+3. Retract the proposal requiring impacted payers to support the PANotification transaction.
+4. Maintain requirements for both NCPDP F&B and RTPB standards; clarify their complementary roles.
+5. Require PA and real-time benefit responses to be actionable at point of dispensing (clear next steps, submission pathway, required documentation).
+6. Enable pharmacist participation in PA workflows; support bidirectional data exchange.
+7. Preserve distinct pharmacy and medical benefit standards while reducing fragmentation through clear routing.
+8. Require standardized, structured, actionable denial reasons within real-time pharmacy workflows.
+9. Integrate denial reason data into real-time benefit tools and PA workflows.
+10. Establish a minimum 24-month implementation timeline from effective date.
+11. Clarify PA clock triggers: receipt, completeness, and iterative submission handling.
+12. Support phased, flexible FHIR transition aligned with existing NCPDP standards.
+13. Include community pharmacies as eligible participants in electronic event notification frameworks.
+14. Require API reliability and redundancy; establish fallback mechanisms for pharmacy continuity.
+15. Require consistent, standards-based payer API implementation; establish centralized endpoint discovery and audit mechanisms.
+16. Support data exchange for step therapy history portability via Payer-to-Payer APIs.
+17. Standardize PA requirements across lab and DMEPOS; extend electronic PA consistently.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Rule architecture too payer/prescriber-centric; pharmacy dispensing workflows not operationalized; misapplied PANotification requirement; risk of increased complexity without burden reduction; insufficient implementation timeline; NCPDP version transition conflict.
+- **Potential negative impacts cited:** Rejected claims at point of dispensing if F&B or RTPB eliminated; increased duplicate PA activity from PANotification payer requirement; therapy abandonment; FHIR/NCPDP parallel systems if transition uncoordinated.
+- **Implementation barriers mentioned:** Pharmacies excluded from prior federal EHR incentives; delegated pharmacy benefit functions across PBMs/TPAs/vendors; high-volume transaction architecture differs from EHR-centric FHIR models; NCPDP version transition conflict.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** NACDS member companies operate 40,000+ pharmacies; 155,000 pharmacists; 3+ billion prescriptions annually; 900+ supplier partners.
+- **Studies or research referenced:** None specifically cited; references "industry experience" for 24-month timeline claim.
+- **Examples provided:** Pharmacists first to identify coverage barriers; prescriptions held pending PA clarification; staff phone call reliance; parallel FHIR/NCPDP systems causing duplicative processes.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Chain pharmacies (40,000+) and their pharmacists (155,000); patients accessing medications at pharmacies; PBMs; third-party administrators; payers; vendors
+- **Economic implications:** Compliance costs from insufficient timelines; wasted investment in minimal viable implementations; potential impact on 3+ billion annual prescription transactions
+- **Technical feasibility:** Major concern — pharmacy systems built for high-volume transaction processing are architecturally different from EHR-based FHIR environments; delegated PBM model adds coordination complexity; NCPDP version conflict creates implementation window problem
+- **Patient care impact:** Delays in therapy initiation from non-actionable PA responses; treatment abandonment; medication access risk during system disruptions
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (supports rule direction; significant concern about pharmacy workflow operationalization)
+- **Tone:** Professional, technical, constructive
+- **Priority level:** High (represents 40,000+ pharmacies and 3+ billion prescriptions annually; raises specific standards conflicts)
+
+---
+
+## 11. KEY QUOTES
+
+1. "The proposed rule continues to reflect a system architecture that is primarily oriented around payers and prescribers, without fully operationalizing the role of pharmacies." — Context: Central critique of the rule's architecture.
+
+2. "Requiring payer participation would introduce unnecessary complexity into a pharmacy-centered workflow, creating confusion regarding transaction roles and potentially disrupting real-time coordination between prescribers and pharmacies." — Context: Opposing the PANotification payer requirement.
+
+3. "Denial transparency should support workflow resolution, not simply provide retrospective explanation." — Context: Recommending actionable denial reasons.
+
+4. "NACDS strongly recommends a minimum 24-month implementation timeline from the effective date of the final rule. Industry experience shows that even standard version transitions require at least this amount of time, and the proposals in this rule introduce new functionality for many entities." — Context: Justifying extended compliance timeline.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** — Strongly recommends 24-month minimum timeline; warns of NCPDP SCRIPT version transition conflict (2017071 vs. 2023011, January 2028).
+- [x] **TECHNICAL-FEASIBILITY** — Extensive discussion of pharmacy-specific architecture differences, delegated PBM model complexity, health IT infrastructure gaps from prior federal exclusion.
+- [x] **STANDARDS-MATURITY** — Defends complementary roles of NCPDP F&B and RTPB; flags PANotification misapplication; raises NCPDP/FHIR coordination challenge; addresses version transition conflict.
+- [x] **EXISTING-WORKFLOWS** — Core concern: rule fails to operationalize pharmacy dispensing workflows; current PA/coverage information not actionable at point of dispensing.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** — Urges preserving distinct standards for pharmacy vs. medical benefit; calls for clear benefit category routing.
+- [x] **PROVIDER-BURDEN** — Pharmacists burdened by non-actionable PA responses; reliance on phone calls, resubmissions; workflow disruption at point of dispensing.
+- [x] **PATIENT-ACCESS** — Therapy delays and abandonment from PA workflow gaps; medication access risk during system disruptions.
+- [x] **TRANSPARENCY** — Supports denial reason requirements but urges actionability and workflow integration.
+- [x] **VENDOR-ECOSYSTEM** — Addresses PBM/TPA delegation model; advocates consistent payer API implementation; centralized endpoint discovery.
+- [x] **STAKEHOLDER-COORDINATION** — Advocates including pharmacies in event notifications; FHIR/NCPDP coordination; testing with pharmacy dispensing systems.
+- [x] **PRIVACY-SECURITY** — Healthcare resiliency section addresses cybersecurity threats; calls for API redundancy and pharmacy fallback mechanisms.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+The National Association of Chain Drug Stores (NACDS) appreciates the opportunity to comment on the Centers for Medicare & Medicaid Services (CMS) proposed rule on interoperability standards and prior authorization for drugs (CMS-0062-P). NACDS supports CMS' overall goal to expand electronic prior authorization, advance application programming interface (API)-enabled data exchange, and reduce administrative burden. However, to achieve meaningful improvements in patient access and provider efficiency, the final rule must ensure that interoperability requirements are operationalized in the context of real-world workflows, including within pharmacy systems and dispensing environments where coverage and prior authorization barriers are most acutely encountered.
+
+The policies finalized through this rulemaking will shape how coverage information, prior authorization requirements, and clinical documentation are exchanged across payers, providers, and pharmacies. Accordingly, CMS should prioritize implementation approaches that deliver actionable, real-time information; and ensure consistent, enforceable execution across payers. Absent these refinements, there is a risk that expanded data exchange will increase system complexity without reducing burden or improving patient access...
+==================================================

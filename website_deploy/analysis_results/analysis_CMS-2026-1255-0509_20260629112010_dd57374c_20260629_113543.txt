@@ -1,0 +1,182 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0509
+Commenter: OCHIN
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:35:43
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** OCHIN (Jennifer Stoll, Chief External Affairs Officer)
+- **Stakeholder type:** Technology Vendor / Advocacy Group (nonprofit health IT and services organization)
+- **Credentials or expertise mentioned:** Supports more than 300 independent provider organizations across 44 states, including FQHCs and CAHs; network supports nearly 44,000 providers serving rural, Tribal, and other underserved communities; provides direct view into how federal policy translates into real-world implementation in the least resourced environments.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+OCHIN supports CMS's goals for electronic prior authorization and interoperability but urges CMS to account for the limited capacity of rural and low-resourced providers—particularly FQHCs, CAHs, and RHCs—in setting implementation timelines, standards readiness requirements, and transition pathways. Key concerns include the operational complexity of dual FHIR/NCPDP pathways and their potential to disrupt 340B pharmacy operations, the insufficient time allowed under proposed timelines for full downstream adoption, and the need for real-world IG testing in diverse provider environments before enforcement. OCHIN requests technical assistance, funding support, and a workable X12 transition pathway during the FHIR migration.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, HIPAA-PA-STANDARDS, MEDICAL-VS-PHARMACY-BENEFIT
+- **Regulatory citations mentioned:** October 1, 2027 compliance date; proposed 24-month HIPAA compliance period
+- **Standards referenced:** FHIR Prior Authorization API (Da Vinci IGs implied); NCPDP SCRIPT/workflows; X12 278; EHR/pharmacy management systems; 340B program
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Pathway Clarity — Medical vs. Pharmacy Benefit for Drug PA**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Support (goals) / Modify (implementation)
+- **Rationale:** The FHIR/NCPDP dual pathway distinction adds significant operational complexity, especially for safety-net providers whose drug PA workflows are tightly interconnected with pharmacy operations, 340B eligibility, prescribing, dispensing, and claims. Even small gaps in pathway clarity or data flow can disrupt 340B operations, missed opportunities, and delayed patient access—which are foundational to FQHC and CAH financial sustainability.
+- **Specific request:** Provide clear, payer-specific guidance on which PA pathway applies (medical vs. pharmacy benefit) including when a drug may be covered under both; clarify whether one PA approval applies across both pathways or whether separate requests are needed; explicitly protect 340B eligibility, claims, and dispensing integrity through the transition.
+
+**Topic 2: Implementation Guide Maturity Before Enforcement**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** An IG that has not been tested across diverse provider types, payers, EHR platforms, and operational environments creates risk rather than reducing burden. Large health systems and national payers are not representative of real-world implementation at FQHCs, CAHs, and RHCs.
+- **Specific request:** Establish a clear roadmap for real-world testing, reporting, and readiness assessment before enforcement; define criteria for when standards and IGs are mature enough for broad-scale compliance; include FQHCs, RHCs, CAHs, and other limited-IT-capacity providers in pilot testing.
+
+**Topic 3: FHIR Transition Pathway Preservation**
+- **Provision ID:** HIPAA-PA-STANDARDS, PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Providers should not be forced to abandon functioning X12 278 transaction pathways before FHIR-based workflows are fully tested, operationalized, and proven reliable. Premature cutover risks disrupting care, increasing manual workarounds, and undermining confidence in the broader interoperability strategy.
+- **Specific request:** Maintain a clear and legally permissible transition pathway for continued use of X12 278 until FHIR-based workflows have been fully tested and proven reliable across provider types and payer environments.
+
+**Topic 4: Implementation Timelines**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** The October 1, 2027 compliance date and proposed 24-month HIPAA compliance period are insufficient. After a final rule publishes, EHR vendor development alone takes 6–12 months; providers then need time to configure, test, train staff, coordinate with payers, update policies, conduct end-to-end testing, and stabilize operations. Rural and low-resourced providers manage this alongside overlapping federal requirements, workforce shortages, cybersecurity mandates, and quality reporting obligations.
+- **Specific request:** Set timelines that reflect the full implementation cycle for rural and low-resourced providers; coordinate with ONC to avoid requiring parallel workflows for each new policy; allow sufficient time from when final standards and IGs are confirmed through to provider stabilization.
+
+**Topic 5: Cybersecurity and Infrastructure Costs**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify
+- **Rationale:** Expanded API use and new payer connections require rural/low-resourced providers to manage authentication, access controls, monitoring, vendor risk, and incident response—areas where many FQHCs, CAHs, and RHCs lack dedicated cybersecurity teams and rely on vendors or shared services.
+- **Specific request:** Account for cybersecurity and infrastructure costs when setting compliance timelines; pair final requirements with technical assistance, implementation guidance, and funding support.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S15 (PA-DRUG-MEDICAL - medical vs. pharmacy distinction):** Flags significant operational complexity from the dual FHIR/NCPDP pathway distinction, particularly for providers with integrated pharmacy and 340B operations; requests payer-specific guidance on which pathway applies and how dual-eligible drugs are handled.
+- **S12 (PA-DRUG-MEDICAL - technical challenges):** Identifies EHR vendor development cycles (6–12 months post-rule), provider workflow redesign, staff training, payer coordination, and end-to-end testing as sequential steps that collectively exceed proposed timelines.
+- **S18 (FHIR-IG-REQUIRED - mandatory IG burden):** Urges IG maturity testing in rural and low-resourced settings before broad-scale compliance is required; emphasizes that an untested IG creates risk rather than reducing burden.
+- **S21 (PA-DRUG-MEDICAL - timeline achievable):** States that the October 1, 2027 compliance date is insufficient for the full downstream adoption cycle needed in rural/low-resourced settings.
+- **S37 (FHIR-IG-REQUIRED - implementation challenges):** Details the multi-stage implementation cycle rural providers must complete and competition with overlapping federal requirements.
+- **S47 (HIPAA-PA-STANDARDS - timeline):** Asserts the proposed 24-month HIPAA compliance period does not account for the full implementation cycle; advocates for preserving X12 278 as a transition pathway.
+- **S51 (HIPAA-PA-STANDARDS - non-CMS challenges):** Notes rural providers are simultaneously managing overlapping federal/state requirements, cybersecurity mandates, quality reporting, and AI tool rollouts, all competing for the same limited resources.
+- **S23 (API-ENDPOINT-REPORTING - security concerns):** Notes cybersecurity infrastructure costs of expanded API connections and new payer connections, which rural providers lack capacity to manage without dedicated support and funding.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Provide clear, payer-specific guidance on which PA pathway (medical benefit/FHIR or pharmacy benefit/NCPDP) applies to each drug, including when coverage under both benefits is possible.
+2. Clarify whether a single PA approval applies across both benefit pathways or separate requests are required, and how this interacts with 340B eligibility and claims.
+3. Explicitly protect 340B eligibility determinations, claims processes, and inventory management from disruption caused by new PA pathway requirements.
+4. Establish a roadmap for real-world IG testing—including in FQHCs, CAHs, and RHCs—and define maturity criteria before broad-scale enforcement.
+5. Test pilot workflows in real care settings (not just large health systems and national payers) before enforcement.
+6. Maintain a legally permissible transition pathway for continued use of X12 278 until FHIR-based workflows are fully tested and proven reliable at scale.
+7. Set compliance timelines that reflect the full implementation cycle: vendor development, provider configuration, workflow redesign, staff training, payer coordination, end-to-end testing, and stabilization.
+8. Coordinate with ONC to use a consistent implementation approach across related requirements so providers are not building separate workflows for each policy.
+9. Account for cybersecurity and infrastructure costs in compliance timelines; pair requirements with technical assistance, implementation guidance, and funding support for rural and low-resourced providers.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Implementation timelines insufficient for rural/low-resourced providers; dual FHIR/NCPDP pathway distinction risks disrupting 340B pharmacy operations; IGs not mature enough for broad-scale enforcement without prior real-world testing in diverse provider settings.
+- **Potential negative impacts cited:** Disruption to 340B eligibility, claims, and dispensing; missed 340B opportunities; delays in patient access to medications; increased administrative burden; premature abandonment of functioning X12 workflows; widening gap between well-resourced health systems and safety-net providers.
+- **Implementation barriers mentioned:** EHR vendor development cycles (6–12 months post-rule); overlapping competing federal requirements; limited IT staff and no dedicated cybersecurity teams; workforce shortages; financial pressures from 340B uncertainty; lack of reserve capital for rapid implementation cycles.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 300+ independent provider organizations across 44 states; 44,000 providers serving rural, Tribal, and underserved communities; EHR vendor development cycles of 6–12 months or more.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** 340B program as foundational to FQHC/CAH medication access and financial sustainability; savings reinvested to expand pharmacy services and offset uncompensated care in rural communities; dual-benefit drug coverage scenario requiring PA in both FHIR and NCPDP pathways.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** FQHCs, CAHs, RHCs, and other rural/low-resourced safety-net providers; their patients (rural, Tribal, underserved communities); EHR vendors serving these organizations; 340B-participating entities.
+- **Economic implications:** New requirements create cybersecurity infrastructure costs, workflow redesign costs, staff training costs, and vendor upgrade costs that rural organizations cannot absorb on tight timelines; 340B program disruption directly threatens financial sustainability of safety-net providers.
+- **Technical feasibility:** Insufficient without adequate IG maturity testing in real-world rural/safety-net settings; EHR vendor development cycles alone consume much of the proposed compliance window; dual pathway distinction requires reliable payer-specific guidance to be operationally feasible.
+- **Patient care impact:** Disruption to 340B and PA workflows risks delaying needed medications for patients in rural and underserved communities; delays in drug PA worsen management of chronic conditions; premature FHIR cutover could disrupt care.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (with significant modifications and conditions)
+- **Tone:** Professional, Collaborative, Advocacy-focused
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Implementation is the part of this equation that is often least understood, yet it will determine whether the proposed rule reduces burden or creates new operational steps for providers already managing limited staff capacity, payer variation, and complex drug prior authorization requirements." - Context: Framing OCHIN's core concern that policy goals will not be achieved without realistic implementation support.
+
+2. "The 340B program is not supplemental. It is foundational to how FQHCs and CAHs maintain access to medications and sustain operations." - Context: Explaining why disruption to 340B pharmacy operations from PA pathway changes is a critical—not incidental—concern.
+
+3. "A standard without a mature, thoroughly vetted IG is a concept, not a solution." - Context: Arguing that CMS must require real-world IG testing before mandating adoption in rural/low-resourced settings.
+
+4. "This is not a flip-the-switch event. It is a phased, resource-intensive change management process." - Context: Explaining why proposed timelines underestimate the full downstream implementation cycle for rural providers.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Central theme: October 1, 2027 and 24-month HIPAA timelines are insufficient for rural/low-resourced providers; advocates for timelines that account for full downstream adoption cycle including vendor development, training, testing, and stabilization.
+- [x] **COST-RESOURCES** - Extensive: rural providers lack reserve capital, IT staff, and cybersecurity teams; requests technical assistance, implementation guidance, and funding support alongside requirements.
+- [x] **PROVIDER-BURDEN** - Central: dual FHIR/NCPDP pathways add operational complexity; multiple overlapping federal requirements compete for the same limited resources; requests CMS-ONC coordination.
+- [x] **PRIVACY-SECURITY** - Addresses cybersecurity costs of expanded API use; rural providers lack dedicated cybersecurity teams; requests funding and technical support for security compliance.
+- [x] **HEALTH-EQUITY** - Central: OCHIN represents FQHCs, CAHs, RHCs, and Tribal providers serving rural and underserved communities; warns that inadequate support widens the gap between well-resourced and safety-net providers.
+- [x] **TECHNICAL-FEASIBILITY** - Challenges feasibility of proposed timelines given EHR vendor development cycles; argues IGs must be tested in rural/safety-net settings before enforcement.
+- [x] **STANDARDS-MATURITY** - Urges CMS to establish maturity criteria and require real-world IG testing in diverse settings before requiring broad-scale compliance.
+- [x] **PATIENT-ACCESS** - Warns that PA pathway disruption and 340B impacts delay needed medications for rural and underserved community patients.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Recommends CMS-ONC coordination to use a consistent implementation approach across related requirements; notes EHR vendors managing multiple concurrent federal requirements.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Prominent concern: FHIR/NCPDP dual pathway distinction creates operational complexity and risks disrupting 340B operations; requests clear guidance including for dual-eligible drugs.
+- [ ] **TRANSPARENCY** - Not a primary focus.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed (focuses on provider-side impact).
+- [x] **EXISTING-WORKFLOWS** - Requests preservation of X12 278 transition pathway until FHIR is proven reliable; warns against premature abandonment of functioning workflows; addresses 340B integration with existing PA workflows.
+- [x] **VENDOR-ECOSYSTEM** - Notes EHR vendor development cycles of 6–12 months; highlights that vendors serving FQHCs/CAHs have different release schedules and resources than those serving large health systems.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Submitted via Federal Register
+
+June 15, 2026
+
+Honorable Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services (CMS)
+7500 Security Boulevard
+Baltimore, MD 21244
+
+Re: CMS-0062-P, Medicare and Medicaid Programs; Patient Protection and Affordable Care Act;
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid
+Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges
+
+Dear Administrator Oz,
+
+On behalf of OCHIN, thank you for the opportunity to comment on CMS' Interoperability Standards and Prior
+Authorization for Drugs proposed rule. We appreciate CMS' leadership in advancing policies to reduce
+administrative burden, improve transparency, and make prior authorization more efficient and less disruptive
+for providers and patients. However, because payer-facing interoperability requirements will significantly
+change how providers manage drug prior authorization in day-to-day workflows, we urge CMS to ensure that
+implementation timelines, standards readiness, and expectations account for the limited time, constrained
+resources, and sustained change management required in low-resourced settings, including Federally Qualified
+Health Centers (FQHCs), Critical Access Hospitals (CAHs), Rural Health Clinics (RHCs), and other rural providers...

@@ -1,0 +1,169 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0581_20260629112140_ce0ed4af
+Commenter: Lundbeck Pharmaceuticals LLC
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:32:56
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Lundbeck Pharmaceuticals LLC; signed by Devin Zatorski, Director, Federal and State Policy, Reimbursement and Strategy, Government Affairs.
+- **Stakeholder type:** Other — biopharmaceutical manufacturer.
+- **Credentials or expertise mentioned:** Global biopharmaceutical company focused on brain health, with more than 70 years in neuroscience; U.S. headquarters and facilities; 172 active U.S. clinical trial sites; R&D investment of 20-25% of global revenue.
+
+## 2. EXECUTIVE SUMMARY
+
+Lundbeck strongly supports CMS efforts to extend electronic prior authorization reforms to drugs and emphasizes that the rule should maximize patient access, timeliness, and accountability. It asks CMS to adopt a uniform 24-hour drug prior authorization decision deadline across impacted payers, impose meaningful consequences for missed deadlines, standardize denial reasons, use PA metrics for oversight, and pursue near-term step therapy reforms.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; HIPAA-PA-STANDARDS indirectly through electronic PA infrastructure; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890, 19933-19936, 19941, 19948-19949, 20013, 20039-20040; 42 CFR 422.568(b)(3), 422.568(f), 422.572(a)(2), 422.572(f); ACA section 1311(e)(1); Social Security Act sections 1852 and 1857.
+- **Standards referenced:** Prior Authorization API, NCPDP standards, payer APIs, Payer-to-Payer API; no detailed discussion of specific FHIR IG versions.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Uniform 24-hour deadline for drug prior authorization**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Different deadlines across payer types create confusion and delay. Lundbeck argues that electronic PA functionality and payer access to requirements and documentation make a 24-hour deadline feasible and more aligned with patient access needs.
+- **Specific request:** Require all impacted payers to respond to drug prior authorization requests within 24 hours.
+
+**Topic 2: Accountability for missed PA deadlines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Deadlines without consequences may not change payer behavior and may still jeopardize timely access to medication.
+- **Specific request:** Treat missed PA decision deadlines as automatic approvals; if CMS does not adopt that approach, treat missed deadlines as immediately appealable adverse determinations.
+
+**Topic 3: Specific and actionable denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with modifications
+- **Rationale:** Specific denial reasons help providers appeal, correct, resubmit, or choose alternatives; generic or unclear denials delay care.
+- **Specific request:** Require standardized denial reason choices plus free-text fields for missing information, next steps, and actionable explanation; consider a standard denial reason form.
+
+**Topic 4: Use PA metrics as an oversight tool**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** Granular metrics can help CMS detect unintended effects of shorter timelines, including increased denials, extensions, appeals, or overturned denials.
+- **Specific request:** Monitor trends and outliers, require more granular reporting by drug group or therapeutic area, and publish synthesis reports for policymakers, researchers, patients, and other stakeholders.
+
+**Topic 5: Step therapy reforms using payer data exchange**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Payer-to-payer data exchange can prevent patients from repeating step therapy after changing coverage and can identify contraindications or prior failures.
+- **Specific request:** Require payers to use electronic tools and payer APIs to evaluate prior therapies; require step therapy approvals/exceptions to last at least one year and not lapse due to dosage changes.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Lundbeck supports requiring specific denial reasons and asks CMS to define specificity as actionable detail, using standardized reason categories and free text for next steps.
+- **S17:** The comment supports structured standardized denial reasons, supplemented by narrative information where needed.
+- **S20:** Lundbeck supports a 24-hour drug PA timeframe and urges CMS to apply it uniformly across all impacted payers.
+- **S21:** The commenter states that a 24-hour timeframe is feasible because the proposed electronic PA tools and NCPDP standards support faster communication and decision-making.
+- **S29:** Lundbeck supports metrics and requests more granular reporting, including drug groups, therapeutic areas, and brand/generic categories.
+- **S34:** Lundbeck supports public reporting over time and recommends CMS use the data to publish synthesized reports and inform future rulemaking.
+- **S35:** The comment supports public reporting and aggregate analysis but emphasizes that data should be granular enough to identify access problems.
+- **S66-S82 / Step therapy RFI:** Lundbeck recommends requiring payers to use payer APIs and clinical history from other payers to evaluate step therapy and preserve continuity; it also recommends one-year stability for approvals and no new PA solely for dosage changes.
+
+## 6. RECOMMENDATIONS
+
+1. Require all impacted payers to respond to drug prior authorization requests within 24 hours.
+2. Treat missed PA decision deadlines as deemed approvals, or at minimum immediately appealable denials.
+3. Require standardized denial reasons with free-text fields for additional actionable details.
+4. Use publicly reported PA metrics for CMS oversight of denials, extensions, appeals, and overturned decisions.
+5. Require more granular PA metrics by drug group, therapeutic area, and generic/brand status.
+6. Publish CMS synthesis reports based on PA metric trends and use findings in future rulemaking.
+7. Require payers to use payer-to-payer data and APIs to determine whether step therapy requirements have already been satisfied.
+8. Require step therapy approvals/exceptions to remain valid for at least one year and not lapse due to dosage changes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Inconsistent payer deadlines; lack of accountability for missed deadlines; unclear denial explanations; insufficiently granular PA metrics; step therapy disruptions after payer changes or dosage changes.
+- **Potential negative impacts cited:** Treatment delays, treatment abandonment, higher emergency department and inpatient use, missed doses, increased seizures, hospitalization, disrupted psychiatric medication regimens, reduced adherence, and increased provider burden.
+- **Implementation barriers mentioned:** Need for payer education, provider outreach, full use of electronic PA tools, and CMS oversight to avoid unintended increases in denials or extension requests.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Lundbeck cites migraine research finding one in five commercially insured patients experienced at least two payer denials due to PA/utilization management; pediatric epilepsy research reporting 38.4% encountered PA barriers, fewer than half received the originally prescribed medicine within seven days, with documented missed doses, increased seizures, and hospitalization; antipsychotic regimen disruption associated with nearly 12% higher likelihood of discontinuing all antipsychotic treatment.
+- **Studies or research referenced:** Buse et al., Headache, January 2026; Wirell et al., Pediatric Neurology, June 2018; Fung et al., Medical Care, 2013; AMA/AJMC survey discussion; CMS Multi-Payer Alignment materials.
+- **Examples provided:** Denials sometimes omit basic missing information such as an unsigned form or missing patient date of birth.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing medication, especially neurological, psychiatric, migraine, epilepsy, and serious mental illness populations; providers and staff; impacted payers; CMS and researchers.
+- **Economic implications:** Potential reduction in health care utilization from faster medication access; lower provider administrative burden; need for payer investment in meeting deadlines and reporting.
+- **Technical feasibility:** Commenter argues feasibility is improved by electronic PA tools, Prior Authorization API functions, NCPDP standards, and payer-to-payer data exchange.
+- **Patient care impact:** Strongly positive if adopted; faster access, clearer next steps after denials, fewer treatment disruptions, and greater continuity during payer or dosage changes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, collaborative, patient-access focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "CMS should require all impacted payers addressed in the proposed rule to respond to prior authorization requests for drugs within 24 hours." - Context: Summary of Lundbeck's main recommended modification.
+2. "If a payer fails to meet a prior authorization response deadline, that failure should be treated as an approval of the prior authorization request." - Context: Recommendation for accountability tied to deadlines.
+3. "Requiring payers to provide a specific, actionable reason for denying a prior authorization request is a crucial reform." - Context: Support for denial reason requirements.
+4. "Once a patient satisfies or obtains an exception to a step therapy protocol... the coverage should last for at least a year and should not lapse due to a change in dosage." - Context: Step therapy continuity recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Lundbeck seeks a uniform 24-hour drug PA deadline and consequences for missed deadlines.
+- [x] **PROVIDER-BURDEN** - The comment repeatedly frames standardized timelines and clearer denials as ways to reduce provider administrative burden.
+- [x] **HEALTH-EQUITY** - The comment notes disproportionate burdens on vulnerable patients, particularly those with serious mental illness.
+- [x] **TECHNICAL-FEASIBILITY** - Lundbeck argues electronic PA, payer APIs, and NCPDP tools make 24-hour decisions feasible.
+- [x] **PATIENT-ACCESS** - The central concern is avoiding medication delays, abandonment, and treatment disruption.
+- [x] **REGULATORY-AUTHORITY** - Lundbeck argues CMS has authority under ACA QHP certification provisions and SSA Medicare Advantage authorities.
+- [x] **TRANSPARENCY** - The comment supports denial reason standards and granular public PA metrics.
+- [x] **EXISTING-WORKFLOWS** - The comment focuses on using payer-to-payer data exchange and electronic PA workflows to avoid repeated step therapy and documentation burdens.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 15, 2026 
+ 
+VIA ELECTRONIC FILING TO: 
+www.regulations.gov  
+ 
+The Honorable Mehmet Oz, MD 
+Administrator 
+Centers for Medicare and Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+ 
+Re: Comment on Medicare and Medicaid Programs; Patient Protection and Affordable 
+Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Children’s Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges 
+Proposed Rule [CMS-0062-P] 
+ 
+Dear Administrator Oz: 
+ 
+Lundbeck Pharmaceuticals LLC (Lundbeck) is writing to comment on the proposed rule 
+concerning Interoperability Standards and Prior Authorization for Drugs, issued by the 
+Centers for Medicare and Medicaid Services (CMS) on April 14, 2026.1 
+Lundbeck is a global biopharmaceutical company focusing exclusively on brain health.  With 
+more than 70 years of experience in neuroscience, we are committed to improving the lives 
+of people with neurological and psychiatric diseases.  As a focused innovator, we strive for 
+our research and development programs to tackle some of the most complex neurological 
+challenges.  We develop transformative medicines targeting diseases for which there are 
+few or no treatments available, expanding into neuro-specialty and neuro-rare diseases 
+from our strong legacy within psychiatry and neurology.  Lundbeck reinvests 20 to 25% of 
+ 
+1 91 Fed. Reg. 19890 (Apr. 14, 2026). 
+2 
+ 
+global revenue in R&D and has 172 active clinical trial sites in the United States.  With US 
+headquarters in Deerfield, Illinois, we employ over 1,000 people in the US and operate a US 
+Drug Discovery Hub in La Jolla, California and biologics manufacturing facility in Bothell, 
+Washington. 
+Lundbeck appreciates the opportunity to comment on t...

@@ -1,0 +1,97 @@
+# Comment Analysis: CMS-2026-1255-0623
+
+## 1. COMMENTER INFORMATION
+- **Author/Organization name:** National Multiple Sclerosis Society
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** National MS patient advocacy organization founded in 1946; funds research, advocacy, programs, and services; reports research investments exceeding $1.2 billion.
+
+## 2. EXECUTIVE SUMMARY
+The National Multiple Sclerosis Society supports CMS's interoperability and drug prior authorization modernization because MS therapies are highly sensitive to delays and disruptions. The Society asks CMS to protect stable patients from repeated reauthorization, require expedited and clear PA communications, extend comparable protections to Medicare Part D, improve API and metrics transparency, preserve accountability when PBMs/vendors are delegated functions, and pursue patient-centered implementation across coverage types including Medicare FFS.
+
+## 3. REGULATORY CONTEXT
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; HIPAA-PA-STANDARDS; FF-SHOP-REQUIREMENTS; GENERAL.
+- **Regulatory citations mentioned:** Section II.C.7; Medicare Part D; Medicare Fee-for-Service.
+- **Standards referenced:** FHIR-based APIs; Payer-to-Payer API; Patient Access API; Provider Access API; Prior Authorization API.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend drug ePA and make it patient-centered**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Medication PA is especially consequential for chronic diseases like MS, where delays in starting, continuing, or switching therapy can cause relapse, disease progression, and carepartner burden.
+- **Specific request:** Finalize drug ePA requirements while clarifying that the objective is not mere digitization but a timely, predictable, navigable process.
+
+**Topic 2: Continuity of care for stable patients**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Patients stable on MS therapy should not have to reconstruct the same medical necessity record after plan, processor, or site-of-care changes.
+- **Specific request:** Require plans to honor prior approvals and treatment history whenever possible, including through use of Payer-to-Payer API information.
+
+**Topic 3: Medicare Part D parity for ePA, denial reasons, and timeframes**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Beneficiaries waiting for drugs or biologics face the same clinical urgency regardless of coverage pathway, and vague Part D denials can lead to prescription abandonment or unsafe delays.
+- **Specific request:** Extend the electronic PA system, PA history use, notification timeframes, and specific denial reason requirements to Medicare Part D drugs and sponsors.
+
+**Topic 4: Clear actionable denial communications**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Fast but unclear determinations still delay care when providers and beneficiaries cannot identify missing documentation, clinical thresholds, step therapy requirements, or appeal/resubmission steps.
+- **Specific request:** Require specific clinical and/or administrative denial reasons in plain language, with clear instructions for resubmission or appeal and beneficiary/carepartner-accessible communications.
+
+**Topic 5: Timely access and expedited MS-related PA**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** MS therapies often require prompt initiation or continuation and delays can have permanent clinical consequences.
+- **Specific request:** Adopt expedited timelines for all MS-related PA requests; if CMS does not finalize a 24-hour standard for all drug requests, preserve health-condition-based expeditious decision-making and monitor actual access outcomes.
+
+**Topic 6: API access to PA request and drug decision information**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support
+- **Rationale:** Current PA status, submitted documentation, and prior determinations can reduce duplication and support continuity across prescribing, dispensing, administration, refill, reauthorization, exceptions, and appeals.
+- **Specific request:** Make PA and drug decision information available through Patient Access, Provider Access, and Payer-to-Payer APIs and evaluate APIs by patient-centered outcomes.
+
+**Topic 7: Endpoint and PA metrics reporting, including Part D**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Discoverable endpoints and public PA metrics can improve operational use and oversight, but excluding Part D obscures barriers for critical therapies.
+- **Specific request:** Finalize endpoint reporting and strengthened PA metrics, include Part D plans and covered Part D drugs, and avoid high-level aggregate-only reporting that masks therapy-specific denial patterns or non-medical switching.
+
+**Topic 8: HIPAA standards modernization**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support
+- **Rationale:** Standards transition should be judged by whether it makes PA more coherent, less burdensome, and better able to support timely access.
+- **Specific request:** Treat HIPAA standards changes as part of the patient-centered modernization agenda and continue stakeholder engagement during implementation.
+
+**Topic 9: FF-SHOP requirements**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** Enrollees should not face avoidable differences in PA transparency and interoperability simply because similar products are in adjacent market segments.
+- **Specific request:** Extend comparable expectations to small group market QHP issuers while monitoring future market entrants and considering targeted flexibility if operational differences warrant it.
+
+**Topic 10: PBM/vendor accountability and Medicare FFS modernization**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Beneficiaries should not be forced to determine which delegated entity is responsible for errors, delays, or unclear requirements.
+- **Specific request:** Clarify that impacted payers remain accountable when PBMs or vendors perform PA functions; continue adapting successful interoperability and PA reforms for Medicare FFS where appropriate.
+
+## 5. SOLICITATION RESPONSES
+- **S12, S15, S21, S28:** Supports extending ePA to drugs, emphasizing clear benefit pathways, continuity of care, and application to Part D.
+- **S16-S17:** Supports specific denial reasons and plain-language communications that identify missing information, step therapy issues, contraindication documentation, or other actionable next steps.
+- **S20, S43:** Supports shorter drug PA timeframes and expedited MS-related PA; asks CMS to monitor actual access.
+- **S23-S24, S26-S27, S33:** Supports API endpoint reporting because infrastructure must be discoverable and usable.
+- **S29-S30, S34-S35:** Supports expanded API usage metrics but asks CMS to evaluate patient-centered outcomes and continuity, not only utilization.
+- **S44-S56:** Supports HIPAA standards modernization as part of a patient-centered effort.
+- **S40-S42:** Supports comparable interoperability and PA expectations for FF-SHOP small group QHPs, with targeted flexibility only if operational differences justify it.
+
+## 6. THEME TAXONOMY
+PATIENT-ACCESS; HEALTH-EQUITY; TRANSPARENCY; PROVIDER-BURDEN; MEDICAL-VS-PHARMACY-BENEFIT; API-USAGE-METRICS; STAKEHOLDER-COORDINATION; EXISTING-WORKFLOWS.
+
+## 7. STAKEHOLDER IMPACT
+The recommendations affect people with MS and their carepartners, neurologists, infusion centers, specialty pharmacies, PBMs, health plans, providers, Medicare Part D sponsors, and Medicare FFS beneficiaries.
+
+## 8. KEY REQUESTS
+Finalize patient-centered drug PA interoperability reforms, extend comparable protections to Part D, require actionable plain-language denials and timely decisions, support continuity of stable therapies, include Part D in public reporting, and hold payers accountable for PBM/vendor performance.
+
+## 9. OVERALL POSITION
+Support with patient-centered expansions and clarifications.

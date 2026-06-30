@@ -1,0 +1,179 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0651_20260629112134_ac12d389
+Commenter: Pharmacy Health Information Technology Collaborative (PHIT)
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:25:05
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Pharmacy Health Information Technology Collaborative (PHIT); signed by Jeff Rochon, Pharm.D., and leaders from NASPA, ASCP, NCPA, ASHP, APhA, NACDS, and ACCP.
+- **Stakeholder type:** Professional Association; Pharmacy/Healthcare Provider; Health IT standards stakeholder.
+- **Credentials or expertise mentioned:** PHIT has worked with HHS, ONC, CMS, HL7, and NCPDP since 2010 on national health IT frameworks. It represents major national pharmacy associations and states that the Collaborative comprises associations representing 250,000 members.
+
+## 2. EXECUTIVE SUMMARY
+
+PHIT supports CMS's proposed interoperability standards for drug prior authorization under both medical and pharmacy benefits, including FHIR APIs for medical benefit drugs and NCPDP SCRIPT, Formulary and Benefit, and RTPB standards for pharmacy benefit drugs. PHIT asks CMS to explicitly include pharmacists and pharmacies as authorized participants in Provider Access APIs, Payer-to-Payer exchange, prior authorization transactions, provider directories, credentialing workflows, and direct API connectivity, while avoiding unfunded technical burdens and giving reasonable time for standard version updates.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DENIAL-REASONS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** No specific CFR sections cited. The comment references CMS-0062-P, RIN 0938-AV44, CMS-0057-F, and page references in the proposed rule.
+- **Standards referenced:** HL7 FHIR; FHIR Implementation Guides; NCPDP SCRIPT; NCPDP Formulary and Benefit Standard Implementation Guide; NCPDP Real-Time Prescription Benefit Implementation Guide; APIs; Provider Access API; Patient Access API; Provider Directory API; Payer-to-Payer exchange; EHR/EMR; CEHRT; e-prescribing.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Drug Prior Authorization Standards**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support.
+- **Rationale:** PHIT believes a unified ePA architecture across programs will streamline and modernize prior authorization and reduce manual faxes, phone calls, and paperwork.
+- **Specific request:** Finalize requirements for impacted payers to support FHIR APIs for medical benefit drugs and NCPDP SCRIPT, F&B, and RTPB standards for pharmacy benefit drugs.
+
+**Topic 2: Pharmacy Benefit ePA and RTPB**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support.
+- **Rationale:** NCPDP SCRIPT and F&B standards can reduce pharmacy claim rejections and provide more consistent prior authorization requirements. RTPB can push patient-specific cost and coverage information to pharmacies and providers.
+- **Specific request:** Require impacted payers to adopt NCPDP SCRIPT, F&B, and RTPB standards for pharmacy benefit drug prior authorization on the proposed schedule.
+
+**Topic 3: PA Information in Patient and Provider APIs**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Support with modification.
+- **Rationale:** PHIT supports making PA status, approval/denial dates, end dates, approved drugs and dosage, denial reasons, and structured documentation available through Patient Access and Provider Access APIs.
+- **Specific request:** CMS should include pharmacists and pharmacies as authorized participants in Provider Access APIs and Payer-to-Payer exchange workflows.
+
+**Topic 4: Pharmacist Inclusion and Bidirectional Exchange**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Pharmacists provide patient-centered care and need access to interoperable data for medication management, clinical services, lab results, care plans, and pharmacist-led interventions.
+- **Specific request:** CMS should explicitly recognize pharmacists as eligible to submit, receive, and manage PA transactions and require pharmacy inclusion in API workflows and direct API connectivity.
+
+**Topic 5: Authentication, Provider Directories, and Credentialing**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify.
+- **Rationale:** The proposal addresses authentication and trust but does not clearly explain provider identity verification and credentialing processes needed for secure, scalable API participation.
+- **Specific request:** CMS should clarify how providers, including pharmacists and pharmacies, will be authenticated, authorized, and represented in provider directories; CMS should recognize existing credential verification infrastructure and avoid duplicative payer-specific onboarding.
+
+**Topic 6: Standards Version Updates and Implementation Time**
+- **Provision ID:** HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE
+- **Position:** Support with modification.
+- **Rationale:** Updated standards may include consensus-based improvements from standards setting organizations, but significant changes require system updates.
+- **Specific request:** CMS may adopt newer standard versions available by final rulemaking, but should provide reasonable implementation time if changes are significant.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** PHIT supports requiring FHIR APIs and implementation guides for medical benefit drug prior authorization as part of a unified ePA architecture.
+- **S2/S3:** PHIT supports use of updated standards when available by final rulemaking, but asks CMS to provide reasonable time for pharmacies and others to update systems if version changes are significant.
+- **S12:** PHIT supports HL7 FHIR API adoption for drugs covered under medical benefits and says it will reduce administrative burden and delays.
+- **S14:** PHIT supports applying NCPDP SCRIPT, F&B, and RTPB standards to non-Part D drug prior authorization for impacted payers.
+- **S15:** PHIT accepts the distinction between medical benefit and pharmacy benefit drug pathways and supports separate FHIR and NCPDP standards for those contexts.
+- **S16:** PHIT supports including a specific reason for PA denial in Patient Access and Provider Access APIs.
+- **S19:** PHIT supports applying pharmacy benefit ePA standards to state Medicaid agencies, CHIP agencies, CHIP managed care entities, and Medicaid managed care plans.
+- **S21:** PHIT supports implementation of these requirements, while later noting reasonable update time should be provided when standards change materially.
+- **S22:** PHIT does not provide cost figures, but asks CMS to avoid unfunded technical requirements and duplicative onboarding or reporting burdens on pharmacy workflows.
+- **S25:** PHIT supports requiring NCPDP RTPB adoption two years from rule implementation for the listed impacted payers.
+- **S28:** PHIT notes the proposal builds from prior rules and supports alignment across insurance types, though it does not provide a detailed Part D comparison.
+- **S31:** PHIT supports applying NCPDP standards to QHP issuers on Federally-Facilitated Exchanges.
+- **S60/S61:** PHIT supports adopting newer consensus-based standard versions when available and emphasizes coordination with standards setting organizations such as HL7 and NCPDP.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize FHIR-based ePA requirements for medical benefit drugs.
+2. Finalize NCPDP SCRIPT, F&B, and RTPB requirements for pharmacy benefit drugs.
+3. Make PA status, approval/denial dates, PA end date/circumstance, approved drugs and dosage, denial reasons, and structured documentation available through Patient Access and Provider Access APIs.
+4. Include pharmacists and pharmacies as authorized Provider Access API and Payer-to-Payer exchange participants.
+5. Explicitly recognize pharmacists as eligible to submit, receive, and manage prior authorization transactions.
+6. Expand bidirectional exchange to pharmacist-generated clinical services data, medication management documentation, lab results, and care plans.
+7. Advance exchange of medication history, real-time benefit information, and pharmacist-led clinical interventions.
+8. Clarify authentication, authorization, credentialing, and provider directory representation for pharmacists and pharmacies.
+9. Allow pharmacies to connect directly to interoperability APIs rather than relying solely on prescribers or health systems.
+10. Avoid unfunded technical requirements, new liability expectations, and duplicative payer-specific reporting or onboarding.
+11. Provide reasonable implementation time for significant standard version updates.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Exclusion or inconsistent inclusion of pharmacists in API workflows, unclear provider identity verification, duplicative payer-specific onboarding, lack of direct pharmacy API connectivity, and unfunded technical or liability burdens.
+- **Potential negative impacts cited:** Continued manual workarounds, claim rejections, delayed dispensing, pharmacists acting as intermediaries between prescribers and PBMs, and inequitable participation in electronic workflows.
+- **Implementation barriers mentioned:** Authentication, authorization, provider directory accuracy, credentialing, pharmacy system integration, payer-specific onboarding, and standards version changes.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** PHIT states its member associations represent 250,000 members.
+- **Studies or research referenced:** No studies cited.
+- **Examples provided:** Pharmacy workflows involving claim rejections, faxes, phone calls, paperwork, EHR and pharmacy system integration, immunization reporting, medication lists, allergies, SDOH, CMM, and prior authorizations.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Pharmacists, pharmacies, patients, prescribers, PBMs, impacted payers, EHR/EMR vendors, pharmacy system vendors, standards organizations, and provider directory/credentialing entities.
+- **Economic implications:** PHIT expects reduced administrative burden and fewer manual workarounds, but warns against unfunded technical requirements and duplicative onboarding/reporting burdens.
+- **Technical feasibility:** PHIT views FHIR and NCPDP implementation as feasible and beneficial if pharmacist identity, authorization, credentialing, and direct API participation are addressed.
+- **Patient care impact:** Faster ePA, RTPB, and pharmacist access to clinical information could reduce dispensing delays, support medication safety, and improve person-centered care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive.
+- **Tone:** Professional, collaborative, and pharmacy-focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "PHIT supports the proposed requirements for the interoperability standards for drugs covered in medical benefits and pharmacy benefits" - Context: Overall endorsement of CMS's ePA standards proposal.
+2. "Creating this single, regulatory framework for ePA with a unified architecture across all programs will streamline and modernize the prior authorization process." - Context: PHIT's rationale for supporting the proposal.
+3. "CMS should include pharmacists and pharmacies as authorized participants in Provider Access APIs" - Context: Request to include pharmacy professionals in API exchange.
+4. "CMS should ensure pharmacies can connect directly to interoperability APIs" - Context: Recommendation for equitable and efficient pharmacy participation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - PHIT supports implementation but asks for reasonable time when standards are significantly updated.
+- [x] **COST-RESOURCES** - PHIT asks CMS to avoid unfunded technical requirements and duplicative compliance burdens.
+- [x] **PROVIDER-BURDEN** - Reducing pharmacy and pharmacist burden from faxes, calls, paperwork, and PBM intermediary work is central.
+- [x] **TECHNICAL-FEASIBILITY** - The comment addresses API access, authentication, provider directories, credentialing, EHR/pharmacy system integration, and direct connectivity.
+- [x] **STANDARDS-MATURITY** - PHIT discusses FHIR, NCPDP standards, and updated consensus standard versions.
+- [x] **PATIENT-ACCESS** - PHIT links ePA and RTPB adoption to faster medication access and fewer dispensing delays.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes coordination among CMS, ONC, HL7, NCPDP, payers, pharmacies, PBMs, and vendors.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - PHIT directly supports separate FHIR and NCPDP pathways for medical and pharmacy benefit drugs.
+- [x] **TRANSPARENCY** - PHIT supports API availability of PA status, dates, approved drug/dosage, denial reasons, and documentation.
+- [x] **EXISTING-WORKFLOWS** - The comment discusses EHR, pharmacy system, eRx, and PA workflows and seeks integration rather than added burden.
+- [x] **VENDOR-ECOSYSTEM** - PHIT's membership and recommendations implicate pharmacy system vendors, transaction networks, health information networks, and standards developers.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Via Electronic Submission to:  www.regulations.gov 
+  
+June 15, 2026 
+ 
+Mehmet Oz, M.D., administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+CMS-0062-P (RIN 0938-AV44): Medicare Program; Patient Protection and Affordable 
+Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, 
+Childrenâ€™s Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, 
+and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges 
+ 
+  
+Dear Dr. Oz:  
+ 
+On behalf of its membership, the Pharmacy Health Information Technology 
+Collaborative (PHIT) is pleased to submit comments for CMS-0062-P: Medicare Program, et al. 
+ 
+  PHIT has been involved with the federal agencies, including the Department of Health 
+and Human Services (HHS) Office of the National Coordinator (ONC) and the Centers for 
+Medicare & Medicaid Services (CMS), in developing the national health information technology 
+(HIT) framework for implementing secure access of electronic health information to improve 
+health outcomes since 2010. PHIT also has been involved with the technology standard 
+developing organizations Health Level 7 (HL7) and the National Council of Prescription Drug 
+Programs (NCPDP). 
+ 
+Pharmacists provide essential, patient-centered care services to their patients, 
+including Medicare and Medicaid beneficiaries.  Pharmacists use health IT, provider directories, 
+telehealth, e-prescribing (eRx), electronic medical record (EMR)/electronic health record (EHR) 
+systems, and certified EHR technology (CEHRT) to help manage patientsâ€™ health needs. PHIT 
+supports the use of these systems, which are important to pharmacists in working with other 
+health care providers to provide longitudinal person-centered care planning, needed 
+...

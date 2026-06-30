@@ -1,0 +1,152 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0630
+Commenter: Partnership to Fight Chronic Disease (PFCD)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:47:19
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Partnership to Fight Chronic Disease (PFCD); signed by Candace DeMatteis, JD MPH, Vice President, Policy.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** Internationally recognized organization of patients, providers, community organizations, business and labor groups, and health policy experts focused on reducing the burden of chronic disease.
+
+## 2. EXECUTIVE SUMMARY
+
+PFCD supports the core proposals to expand electronic prior authorization for drugs, provide faster timelines, improve denial transparency, and increase patient/provider access to PA data. It recommends stronger patient protections, including a universal 24-hour drug PA decision standard, detailed denial notices to both providers and patients, stronger API and PA metrics, Part D reporting, and limits on non-clinical step therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; PATIENT-ACCESS/API-related GENERAL; GENERAL/RFI step therapy.
+- **Regulatory citations mentioned:** CMS-2026-1255; no CFR sections cited.
+- **Standards referenced:** Electronic prior authorization; Patient Access API. No specific FHIR IG, NCPDP, or HL7 standard named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for medications**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** PFCD states that ePA can help providers access current drug coverage information, complete PAs more seamlessly, and track status in real time.
+- **Specific request:** Implement ePA across medical and pharmacy benefit drugs and continue broader PA reforms so PAs do not block prescribed treatment.
+
+**Topic 2: Universal 24-hour drug PA decision standard**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Patients with chronic disease face dangerous delays, and the commenter cites evidence that delayed PA can lead patients to abandon treatment.
+- **Specific request:** Require all health plans to issue determinations for all drug PA requests within 24 hours of receipt, regardless of standard or expedited status.
+
+**Topic 3: Denial notices to patients and providers**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** PFCD argues that patients need plain-language denial explanations to participate in appeals, especially given low appeal rates and high reversal rates.
+- **Specific request:** Require detailed denial justifications for all denials, including initial denials, to be sent to both providers and patients in lay terms.
+
+**Topic 4: API and PA reporting metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Raw API usage metrics do not show whether patients experience delays, confusion, or care disruptions.
+- **Specific request:** Pair API metrics with patient/provider experience data, denial rates, appeal rates, care delay outcomes, and an annual CMS-published report.
+
+**Topic 5: Medicare Part D reporting**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PFCD argues that excluding Part D from public reporting allows plans to block access without sufficient accountability.
+- **Specific request:** Require Part D plans to publicly report PA metrics, including initial denials, resolutions, and step therapy requirements for brand and generic drugs.
+
+**Topic 6: Step therapy protections**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** PFCD contends step therapy should not override provider judgment or patient needs for cost-cutting reasons.
+- **Specific request:** Prohibit non-clinical step therapy in Medicare Advantage, require evidence-based clinical guidelines, honor prior step therapy across plans, and require disclosure of step therapy requirements and exceptions/appeals processes.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14/S22/S25:** PFCD supports ePA for drugs across medical and pharmacy benefits but does not provide technical NCPDP-specific feedback.
+- **S16:** PFCD requests detailed denial justifications for all denials, including initial denials, and wants notices written in lay terms for patients.
+- **S20/S43:** PFCD urges CMS to go beyond the proposal and require all drug PA determinations within 24 hours.
+- **S29/S30/S34/S35:** PFCD recommends pairing API metrics with patient/provider experience measures and annual CMS publication.
+- **S66-S82:** PFCD responds to step therapy RFI issues by calling for limits on non-clinical step therapy, honoring prior steps across plans, disclosure, and transparent appeals/exception processes.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic prior authorization for medications across medical and pharmacy benefits.
+2. Require all drug PA determinations within 24 hours of receipt.
+3. Strengthen oversight so faster review timelines do not produce inappropriate denials.
+4. Require detailed denial explanations to both providers and patients, written in lay terms for patients.
+5. Pair API metrics with patient/provider experience data and publish an annual CMS report.
+6. Require Medicare Part D public reporting of PA metrics, including denials, resolutions, and step therapy requirements.
+7. Prohibit non-clinical step therapy in Medicare Advantage.
+8. Require step therapy to be based on current evidence-based clinical guidelines.
+9. Require plans to honor previous step therapy across plan transitions.
+10. Require clear disclosure of step therapy and transparent exceptions and appeals processes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays for chronic disease medications; inadequate denial transparency; insufficient metrics; lack of Part D reporting; misuse of step therapy.
+- **Potential negative impacts cited:** Treatment abandonment, disease progression, complications, preventable hospitalizations, ineffective initial treatments, and poor adherence.
+- **Implementation barriers mentioned:** Need for oversight, meaningful metrics, and accountability; lack of patient-facing denial information.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 170 million Americans live with at least one chronic condition; more than 70 million manage multiple chronic diseases; 39% of insured adults with a chronic condition identify PA as the biggest burden; 58% requested PA in the past year; 41% requested it two or more times; 27% waited over a week for an insurance decision; 32% waited over a week for prescribed care; 78% of patients facing significant delays may abandon treatment; only 1 in 10 denied MA PA requests in 2022 were appealed; 83.2% of appeals were partially or fully overturned; 40% of surveyed patients abandoned a step-through plan due to lack of symptom relief; nearly seven in ten medical professionals believe PA led to ineffective initial treatment due to step therapy.
+- **Studies or research referenced:** KFF 2026 survey; AMA 2024 PA survey; KFF 2024 Medicare Advantage denial analysis; Rubin et al. 2017 JMCP; AMA step therapy/prior authorization survey.
+- **Examples provided:** Chronic disease patients needing life-sustaining drugs; step therapy in psoriasis, rheumatoid arthritis, ulcerative colitis, and Crohn's disease.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with chronic disease, providers, payers, Medicare Part D plans, Medicare Advantage enrollees, CMS.
+- **Economic implications:** Avoidable complications, hospitalizations, and utilization may increase when PA delays block chronic disease treatment; public reporting could discourage access barriers and costs.
+- **Technical feasibility:** Supports ePA and API reporting, but focuses less on technical implementation than accountability.
+- **Patient care impact:** Strong focus on preventing treatment delays, abandonment, non-adherence, and harm from non-clinical step therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Advocacy-focused, patient-centered, policy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "PFCD strongly supports CMS’s efforts to implement electronic prior authorization (ePA) for medications across the medical and pharmacy benefit." - Context: Direct support for drug ePA expansion.
+2. "We urge CMS to implement even more streamlined prior authorization timelines across all markets." - Context: Request for a universal 24-hour drug PA standard.
+3. "Raw usage numbers alone do not provide insight on whether patients experienced delays, confusion, or care disruptions." - Context: Critique of API usage metrics alone.
+4. "CMS should not permit Medicare Advantage plans to require step therapy for non-clinical reasons." - Context: Step therapy recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests 24-hour decisions for all drug PA requests.
+- [x] **PROVIDER-BURDEN** - Supports ePA to streamline provider workflows and reduce barriers.
+- [x] **PATIENT-ACCESS** - Central theme is timely medication access for chronic disease patients.
+- [x] **TRANSPARENCY** - Requests detailed denial notices, Part D reporting, and annual CMS reports.
+- [x] **API-USAGE-METRICS** - Calls for API metrics plus real-world patient/provider outcome measures.
+- [x] **HEALTH-EQUITY** - Chronic disease burden and access concerns implicate vulnerable patients, though equity is not framed by demographic category.
+- [x] **EXISTING-WORKFLOWS** - Seeks stronger PA and step therapy protections within current payer workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, MD 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Hubert H. Humphrey Building, 
+200 Independence Avenue, S.W.  
+Washington, DC 20201 
+ 
+ 
+Re: Medicare and Medicaid Programs: Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs (CMS-2026-1255) 
+ 
+ 
+Submitted via regulations.gov 
+ 
+ 
+Dear Dr. Oz: 
+ 
+The Partnership to Fight Chronic Disease (PFCD) respectfully submits these comments in 
+response to the proposed Medicare and Medicaid regulation on interoperability standards and 
+prior authorization for drugs, CMS-2026-1255...

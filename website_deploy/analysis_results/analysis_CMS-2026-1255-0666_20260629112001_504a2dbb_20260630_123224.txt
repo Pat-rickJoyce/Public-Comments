@@ -1,0 +1,171 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0666_20260629112001_504a2dbb
+Commenter: College of American Pathologists
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:32:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** College of American Pathologists (CAP); signed by Qihui "Jim" Zhai, MD, FCAP, President.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** CAP describes itself as the world's largest organization of board-certified pathologists and a leading laboratory accreditation and proficiency testing organization.
+
+## 2. EXECUTIVE SUMMARY
+
+CAP supports CMS efforts to reduce prior authorization burden and responds primarily to the general RFI on laboratory tests and DMEPOS. It urges CMS to align prior authorization requirements with laboratory workflows, accept test requisition forms as medical-necessity documentation, allow post-specimen-collection authorization pathways, increase transparency, oversee laboratory benefit managers, and ensure automation does not become a tool for opaque or inappropriate denials.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; PA-DRUG-MEDICAL (indirectly, through electronic PA/API process); HIPAA-PA-STANDARDS (indirectly, through support for unified API-based electronic PA).
+- **Regulatory citations mentioned:** 42 CFR 422.138(b).
+- **Standards referenced:** Unified API-based electronic prior authorization; EHR, LIS, and laboratory ordering system integration. No specific FHIR IG, NCPDP, or HL7 implementation guide is named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Laboratory prior authorization burden and patient harm**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Prior authorization delays time-sensitive diagnostic testing, disrupts care coordination, causes abandoned care, and adds substantial physician/laboratory staff burden.
+- **Specific request:** Reform laboratory prior authorization so it is targeted, standardized, and aligned with clinical laboratory workflows.
+
+**Topic 2: Test requisition forms as valid documentation**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** TRFs are the standard ordering mechanism and often contain the available medical-necessity information, while laboratories may not have the full medical record.
+- **Specific request:** Require broader acceptance of complete TRFs as documentation of reasonable and necessary laboratory testing, with a correction/amendment period for incomplete requisitions.
+
+**Topic 3: Denials based on specimen collection or date-of-service timing**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Timing denials are procedural barriers unrelated to medical necessity and are especially harmful where specimens are limited, time-sensitive, or irreplaceable.
+- **Specific request:** Expressly require MA plans and other payers to accept PA requests submitted after specimen collection or date of service and publicly report timing/DOS denial reasons.
+
+**Topic 4: Laboratory benefit manager oversight**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** LBMs add proprietary portals, duplicative questionnaires, restrictive ordering pathways, and payment gatekeeping that may interfere with clinical judgment and create financial conflicts.
+- **Specific request:** Add transparency, evidence, conflict-of-interest, utilization-management, reviewer-qualification, interoperability, and public-reporting safeguards for LBMs.
+
+**Topic 5: Process improvement, transparency, and timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING; PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Payers should provide clear criteria, denial reasons, status information, and metrics so CMS can identify inappropriate PA practices and enforce deadlines.
+- **Specific request:** Shorten expedited decisions to 24 hours and standard decisions to 48 hours across payers; require public reporting of denial reasons, turnaround times, approvals, denials, and appeals outcomes.
+
+**Topic 6: Automation safeguards**
+- **Provision ID:** GENERAL; PA-DRUG-MEDICAL; HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** Automation can reduce burden only if implemented consistently and transparently; algorithmic tools could also accelerate inappropriate denials or substitute for individualized clinical review.
+- **Specific request:** Pair electronic PA automation with policy safeguards, EHR/LIS integration, disclosure of automated decision use, qualified clinical review, and override flexibility.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** CAP addresses the need for specific denial reasons by asking CMS to distinguish medical-necessity denials from procedural, timing, documentation, and DOS-based denials.
+- **S17:** CAP supports structured denial transparency in substance, requesting public reporting of denial categories and clear denial notices identifying criteria, insufficient documentation, reviewer credentials, and automated decision support involvement.
+- **S20:** CAP urges faster PA timeframes, specifically 24 hours for expedited decisions and 48 hours for standard decisions across payers.
+- **S23:** CAP raises system-disruption and portal concerns, asking CMS to establish mechanisms for reporting, tracking, and resolving payer portal failures and interoperability issues.
+- **S29:** CAP recommends detailed PA metrics, including denial rates, turnaround times, approval/denial rates, appeals outcomes, LBM-related metrics, and procedural denial categories.
+- **S30:** CAP does not address privacy protections for metrics directly, but its reporting recommendations focus on operational and accountability metrics rather than patient-identifiable data.
+- **S34:** CAP supports public reporting and accountability but does not specify a reporting frequency.
+- **S35:** CAP supports public reporting of aggregate denial reasons, turnaround times, appeals outcomes, and LBM-related performance.
+- **S66-S82:** CAP responds to the general RFI on laboratory tests and related prior authorization issues, including laboratory workflow, documentation, automation, workforce, and technology gaps.
+
+## 6. RECOMMENDATIONS
+
+1. Accept TRFs as valid medical-necessity documentation when they contain necessary clinical information.
+2. Create a defined correction or amendment period for incomplete TRFs.
+3. Protect laboratories from retrospective denial or recoupment when they relied in good faith on a TRF, absent fraud, material misrepresentation, or materially different billing.
+4. Require MA plans and other payers to accept PA requests submitted after specimen collection or date of service for laboratory tests.
+5. Require public reporting of PA denial reasons, including timing/DOS and procedural denials.
+6. Increase oversight of LBMs, including transparency into criteria, evidence, financial relationships, denial rates, turnaround times, appeals, and conflicts.
+7. Limit laboratory PA to narrowly defined high-cost or esoteric testing where additional oversight is justified.
+8. Prohibit denials based solely on technical or procedural deficiencies unrelated to medical necessity.
+9. Do not subject services covered by NCDs or LCDs to duplicative PA requirements.
+10. Support gold-carding or exemption programs for high-approval clinicians and services.
+11. Shorten PA decision timeframes to 24 hours expedited and 48 hours standard across payers.
+12. Require transparent disclosure and safeguards for automation and algorithmic decision-making.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Laboratory PA delays diagnostic care, payer/LBM processes are inconsistent and burdensome, and procedural denials can punish laboratories for documentation gaps outside their control.
+- **Potential negative impacts cited:** Delayed diagnosis, delayed treatment initiation, disrupted care coordination, patient abandonment of recommended care, serious adverse events, provider burnout, workforce retention problems, and inappropriate payment denials.
+- **Implementation barriers mentioned:** Proprietary portals, payer-specific documentation requirements, incomplete ordering-provider information, lack of laboratory access to full medical records, LBM conflicts, automation opacity, and poor interoperability with EHRs, LISs, and ordering systems.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** April 2022 HHS OIG findings that 13 percent of denied MA PA requests would have been approved under traditional Medicare and 18 percent of denied payment requests met Medicare coverage and billing rules; AMA survey reporting 40 percent of physicians have staff working exclusively on PA and physicians/staff spend 13 hours weekly completing PAs; projected national physician shortage up to 86,000 by 2036; HRSA projected shortage of 3,540 pathologists by 2036 and national adequacy level of 83 percent, with some states as low as 20 percent.
+- **Studies or research referenced:** HHS OIG report; AMA prior authorization survey; Consensus Statement on Improving the Prior Authorization Process; AMA policy on augmented intelligence; ProPublica reporting on EviCore; CMS Medicare Coverage Database article; CAP report on private payer interference.
+- **Examples provided:** BeaconLBS/UnitedHealthcare workflow requiring a separate portal, additional questions, separate requisition, and reportedly up to 22 steps to order a lab test; EviCore incentives and denial-rate manipulation; LBM affiliation concerns where one laboratory-affiliated entity controls services across multiple in-network laboratories.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, pathologists, laboratories, ordering providers, MA plans, non-Medicare payers, MACs, LBMs, EHR/LIS vendors, and clinical laboratory staff.
+- **Economic implications:** CAP argues current PA processes increase administrative costs, require dedicated staff time, risk nonpayment/recoupment, and divert resources from patient care; targeted reforms could reduce unnecessary denials and administrative expense.
+- **Technical feasibility:** Automation and standardized API-based ePA are feasible and beneficial if integrated into EHRs, LISs, and laboratory ordering systems and paired with consistent standards and safeguards.
+- **Patient care impact:** Reforms could improve timely access to diagnostic information, reduce abandoned care and adverse events, and prevent PA from delaying diagnoses and treatment decisions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional, collaborative, and critical of current payer/LBM practices
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Prior authorization requirements for laboratory tests frequently delay or disrupt access to medically necessary diagnostic services" - Context: CAP's response on patient care and provider burden.
+2. "Broad acceptance of TRFs as valid medical documentation" - Context: CAP's recommendation to reduce denials and documentation chasing.
+3. "CMS should expressly require MA plans and other payers to accept prior authorization requests submitted after specimen collection" - Context: CAP's response to timing-based denials.
+4. "Automation should not be used to accelerate inappropriate denials" - Context: CAP's warning about algorithmic or automated PA decision-making.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - CAP asks CMS to shorten decision timeframes to 24 hours expedited and 48 hours standard and enforce compliance.
+- [x] **COST-RESOURCES** - The comment emphasizes administrative costs, dedicated PA staffing, nonpayment risk, and resource diversion from patient care.
+- [x] **PROVIDER-BURDEN** - Provider, pathology, laboratory, and staff burden is a central theme throughout the comment.
+- [x] **PRIVACY-SECURITY** - Not a major focus; CAP discusses automation transparency but not PHI privacy or authentication in depth.
+- [x] **TECHNICAL-FEASIBILITY** - CAP supports automation and API-based ePA if integrated into EHRs, LISs, and ordering systems.
+- [x] **PATIENT-ACCESS** - The comment repeatedly links PA delays to delayed diagnosis, treatment delays, and possible adverse events.
+- [x] **STAKEHOLDER-COORDINATION** - CAP highlights communication gaps among laboratories, ordering providers, payers, LBMs, and vendors.
+- [x] **TRANSPARENCY** - CAP requests clear criteria, detailed denial notices, public reporting, LBM transparency, and automation disclosure.
+- [x] **EXISTING-WORKFLOWS** - The comment argues PA rules must align with laboratory ordering, specimen collection, TRFs, and existing clinical workflows.
+- [x] **VENDOR-ECOSYSTEM** - CAP discusses LBM platforms, proprietary portals, EHRs, LISs, ordering systems, and trading partners/vendors.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 10, 2026 
+ 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+Submitted electronically to: http://www.regulations.gov 
+ 
+Re: Request for Information (RFI) on Laboratory Tests and Durable Medical Equipment, Prosthetics, 
+Orthotics, and Supplies Items 
+ 
+Dear Administrator Oz: 
+ 
+The College of American Pathologists (CAP) appreciates the opportunity to comment on the RFI related 
+to Laboratory Tests and Durable Medical Equipment, Prosthetics, Orthotics, and Supplies Items. As the 
+world's largest organization of board-certified pathologists and leading provider of laboratory accreditation 
+and proficiency testing programs, the CAP serves patients, pathologists, and the public by fostering and 
+advocating excellence in the practice of pathology and laboratory medicine worldwide. 
+ 
+Pathologists are acutely aware that the right test at the right time can make all the difference in a patientâ€™s 
+diagnosis, treatment, and outcome. Laboratory testing is foundational to modern medicine, informing a 
+substantial majority of health care decisions and guiding everything from cancer treatment selection and 
+infectious disease management to prenatal screening and chronic disease monitoring. Timely access to 
+diagnostic testing is therefore critical to ensuring appropriate clinical decision-making, care coordination, 
+and patient safety. Yet, as CMS recognizes, prior authorization requirements for laboratory services have 
+increasingly become a barrier to medically necessary testing, impacting both patients and health care 
+providers. Delays in obtaining test results can postpone diagnoses, interfere with treatment initiation, 
+disrupt care coordination, and ultimately worsen health outcomes. These requirements also impose 
+significant administrative burdens on physicians, laboratories, and health care staff, ...

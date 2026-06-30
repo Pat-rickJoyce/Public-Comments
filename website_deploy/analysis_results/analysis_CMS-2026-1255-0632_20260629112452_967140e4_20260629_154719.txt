@@ -1,0 +1,165 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0632
+Commenter: National Home Infusion Association (NHIA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:47:19
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Home Infusion Association (NHIA); signed by Connie Sullivan, B.S. Pharm, President and Chief Executive Officer.
+- **Stakeholder type:** Professional Association / Provider Association.
+- **Credentials or expertise mentioned:** Trade association representing providers of home and alternate-site infusion therapies, manufacturers, and suppliers of infusion and specialty pharmacy products; leading voice for the home and alternate-site infusion community.
+
+## 2. EXECUTIVE SUMMARY
+
+NHIA supports extending electronic prior authorization to drugs across medical and pharmacy benefits, standardized APIs, denial reasons, and improved timeframes. It urges CMS to adapt the rule to home infusion workflows by clarifying medical-vs-pharmacy benefit pathways, requiring payers to forward misrouted requests, supporting pharmacy-initiated PA, requiring timely NCPDP F&B updates, expanding RTPB decision-support, and ensuring APIs support physician-to-pharmacy-to-payer workflows.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; MEDICAL-VS-PHARMACY-BENEFIT; FHIR-IG-REQUIRED; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; 91 Fed. Reg. 19890 (April 14, 2026); 89 Fed. Reg. 8758 (Feb. 8, 2024).
+- **Standards referenced:** Standardized APIs; Prior Authorization API; NCPDP Formulary and Benefit (F&B) standard; NCPDP Real-Time Prescription Benefit (RTPB) standard; NCPDP standards consistent with Medicare Part D.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend ePA to prescription drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Standardized electronic transactions among prescribers, pharmacies, and payers should reduce variation, administrative burden, and delays.
+- **Specific request:** Finalize extension of ePA requirements to prescription medicines under medical and pharmacy benefits across impacted payers.
+
+**Topic 2: Medical vs pharmacy benefit ambiguity in home infusion**
+- **Provision ID:** MEDICAL-VS-PHARMACY-BENEFIT; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify / Clarify
+- **Rationale:** Home infusion drugs may fall across Medicare Part B DMEPOS and Part D, creating ambiguity in billing rules, PA requirements, and cost sharing. Misrouting can cause denials and delays.
+- **Specific request:** Require detailed, well-defined PA processes for medical- and pharmacy-benefit drugs and require payers to forward requests submitted through the wrong pathway rather than deny or decline them.
+
+**Topic 3: NCPDP Formulary and Benefit file timeliness**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Outdated F&B files cause inaccurate patient cost estimates, under/overpayment, PA problems, inappropriate denials, and unnecessary live-claim verification.
+- **Specific request:** Require all impacted payers, including PBMs, to update F&B flat files at least daily and immediately after formulary, benefit, or PA changes.
+
+**Topic 4: Pharmacy-initiated prior authorization**
+- **Provision ID:** PA-DRUG-PHARMACY; EXISTING-WORKFLOWS
+- **Position:** Modify
+- **Rationale:** In home infusion, requiring a request to be routed back to the prescriber for an additional signature delays care without adding clinical value.
+- **Specific request:** Recognize pharmacy-initiated PA as standard home infusion practice and require payers to accept PA submissions from dispensing pharmacies when a valid prescription exists.
+
+**Topic 5: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Specific denial reasons help providers understand missing information and take corrective action for patients.
+- **Specific request:** Finalize the requirement to include specific denial reasons for all drug PA denials.
+
+**Topic 6: Prior authorization decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** Home infusion patients often transition from hospitals and need immediate therapy; pending PA can delay lifesaving medications.
+- **Specific request:** Improve PA processes and consider protections to prevent therapy delays while PA is pending.
+
+**Topic 7: NCPDP RTPB decision-support**
+- **Provision ID:** PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Modify
+- **Rationale:** RTPB tools may not determine the best pathway for infusion drugs that could be medical or pharmacy benefit depending on site of care, payer policy, and diagnosis.
+- **Specific request:** Require RTPB systems to provide pathway-specific timelines, PA requirements, site-of-care implications, and patient-specific cost-sharing amounts.
+
+**Topic 8: End-to-end home infusion workflow support**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL
+- **Position:** Modify
+- **Rationale:** CMS proposals assume direct physician-to-payer workflows, but home infusion often uses physician-to-home-infusion-pharmacy-to-payer processes.
+- **Specific request:** Explicitly support physician-to-pharmacy-to-payer interoperability, electronic delegation, and end-to-end workflows across all involved parties.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** NHIA identifies technical and operational challenges for home infusion, especially multi-provider workflows and benefit-pathway ambiguity.
+- **S14:** NHIA supports NCPDP pharmacy-benefit ePA standards but requests timely F&B updates and better RTPB decision-support.
+- **S15:** NHIA directly addresses medical vs pharmacy benefit ambiguity and asks for clearer pathways and forwarding of misrouted requests.
+- **S16:** NHIA supports requiring specific denial reasons for all drug PA denials.
+- **S19/S22:** NHIA discusses operational burden and costs caused by inaccurate F&B data, live claim verification, and inconsistent payer updates.
+- **S20/S21:** NHIA supports improved timeframes but warns home infusion patients need immediate access and additional protections during pending PA.
+- **S25:** NHIA supports RTPB generally but says it must include pathway, site-of-care, PA, timeline, and cost-sharing decision-support.
+- **S28:** NHIA raises Part D/Part B DMEPOS alignment concerns using IVIG as an example.
+- **S37:** NHIA identifies workflow integration challenges across physicians, pharmacies, and payers.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize ePA requirements for prescription medicines under both medical and pharmacy benefits.
+2. Consider unique home infusion operational realities in the drug coverage framework.
+3. Require detailed, well-defined PA processes for drugs under medical and pharmacy benefits.
+4. Require payers to forward wrong-pathway PA submissions to the correct pathway rather than deny or decline them.
+5. Require payers and PBMs to update NCPDP F&B files daily and immediately upon any relevant change.
+6. Recognize pharmacy-initiated PA as standard practice for home infusion.
+7. Require payers to accept PA submissions from dispensing pharmacies when a valid prescription exists.
+8. Finalize specific denial reason requirements for drug PA denials.
+9. Improve PA decision timeframes and prevent delays for patients needing immediate home infusion therapy.
+10. Require RTPB systems to include pathway-specific PA requirements, timelines, site-of-care implications, and patient cost-sharing.
+11. Support physician-to-pharmacy-to-payer electronic delegation and data exchange.
+12. Ensure APIs and standards support end-to-end workflows, not only direct provider-to-payer interactions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Home infusion benefit ambiguity, misrouted PA denials, outdated F&B data, lack of pharmacy-initiated PA recognition, insufficient RTPB decision-support, and failure to account for multi-provider workflows.
+- **Potential negative impacts cited:** Delayed access to lifesaving medications, compromised outcomes, increased costs, inappropriate denials, inaccurate cost sharing, redundant communication loops, and slower PA approvals.
+- **Implementation barriers mentioned:** Separate medical/pharmacy PA pathways; retail-oriented F&B resources; lack of medical benefit integration and site-of-care specificity; incomplete electronic integration among physicians, home infusion pharmacies, and payers.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics beyond Federal Register references.
+- **Studies or research referenced:** CMS 2024 final rule and 2026 proposed rule Federal Register notices.
+- **Examples provided:** IVIG coverage under Medicare Part B DMEPOS for PIDD and under Part D for other disorders; home infusion workflow of physician to home infusion pharmacy to payer.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Home infusion patients, home infusion pharmacies, prescribers, payers, PBMs, state Medicaid/CHIP programs, QHP issuers, MA organizations.
+- **Economic implications:** Inaccurate F&B data may cause under/overpayment, incorrect patient out-of-pocket estimates, claim denials, and higher costs from delays.
+- **Technical feasibility:** Supports APIs and standards but asks for expanded functionality for multi-party workflows, F&B currency, and RTPB pathway decision-support.
+- **Patient care impact:** High impact for acutely ill patients transitioning from hospitals who need immediate home infusion therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant workflow-specific modifications
+- **Tone:** Professional, practical, provider-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "NHIA supports CMS’ proposal to extend electronic prior authorization to prescription medicines under the medical and pharmacy benefits across impacted payer categories." - Context: Overall support for drug ePA expansion.
+2. "Medicare’s benefit structure does not align cleanly with the two categories CMS proposes." - Context: Medical vs pharmacy benefit ambiguity for home infusion.
+3. "A patient should not be delayed in accessing a needed medication due to the complexity of separate pathways." - Context: Request to forward wrong-pathway PA requests.
+4. "CMS should explicitly address and support physician-to-pharmacy-to-payer interoperability within PA workflows." - Context: End-to-end home infusion workflow recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports faster decisions and highlights immediate post-discharge needs.
+- [x] **PROVIDER-BURDEN** - Focuses on home infusion provider administrative burden and redundant workflows.
+- [x] **PATIENT-ACCESS** - Central concern is avoiding delays in lifesaving home infusion therapy.
+- [x] **TECHNICAL-FEASIBILITY** - Addresses APIs, F&B files, RTPB, and workflow integration requirements.
+- [x] **STANDARDS-MATURITY** - Seeks stronger functional requirements for NCPDP F&B and RTPB in home infusion contexts.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Major theme; highlights Part B/Part D ambiguity and misrouting.
+- [x] **TRANSPARENCY** - Supports specific denial reasons and better benefit/pathway information.
+- [x] **EXISTING-WORKFLOWS** - Emphasizes physician-to-pharmacy-to-payer workflow rather than direct provider-to-payer only.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for coordination among prescribers, pharmacies, payers, and PBMs.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1600 Duke Street  •  Suite 410  •  Alexandria, VA 22314  •  P: 703.549.3740  •  F: 888.206.1532   
+ 
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, MD 
+Administrator  
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+Mail Stop C4-26-05 
+7500 Security Boulevard 
+Baltimore, MD  21244-1850 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs...

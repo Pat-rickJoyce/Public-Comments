@@ -1,0 +1,165 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0669_20260629112352_398663f6
+Commenter: CCS Medical, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:32:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** CCS Medical, Inc.; signed by Linda Langiotti, SVP, Strategic Channels.
+- **Stakeholder type:** Healthcare Provider/Supplier; Other DMEPOS supplier.
+- **Credentials or expertise mentioned:** CCS states it is the largest distributor of insulin pumps and associated supplies and one of the largest providers of CGMs and supplies for Medicare FFS beneficiaries, serving more than 170,000 Medicare beneficiaries through FFS and MA plans.
+
+## 2. EXECUTIVE SUMMARY
+
+CCS comments on the RFI for DMEPOS prior authorization, emphasizing that PA can be useful when it reliably secures payment and prevents later denials, audits, and recoupments. It recommends standardized payer criteria and appeal timelines, automation with human oversight, elimination or simplification of repeated PA for chronic-condition supplies, and greater alignment between medical and pharmacy benefit treatment of the same DME items.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; MEDICAL-VS-PHARMACY-BENEFIT-related GENERAL; PA-DRUG-MEDICAL indirectly through benefit adjudication and medical benefit PA workflows.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890 (April 14, 2026).
+- **Standards referenced:** Electronic orders; artificial intelligence automation. No FHIR IG, NCPDP, HL7, or X12 standard is specifically named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: PA should secure payment and reduce denials**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA creates unnecessary burden if suppliers complete detailed processes but still face claim denials, post-pay audits, recoupments, and appeals after initial approval.
+- **Specific request:** Ensure successful prior authorization provides meaningful payment assurance and reduces post-payment denials and recoupments.
+
+**Topic 2: Standardized criteria and appeal timelines**
+- **Provision ID:** GENERAL; PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Different payer PA criteria and procedures create administrative burden, reduce transparency, and slow consistent decision-making.
+- **Specific request:** Promote uniform PA criteria, standardized processes, and harmonized appeal timelines across federal and managed care payers.
+
+**Topic 3: Automation for chronic-condition DME supplies**
+- **Provision ID:** GENERAL; PA-TIMEFRAMES-DRUGS
+- **Position:** Support with safeguards
+- **Rationale:** AI and existing technologies can accelerate decisions and reduce back-and-forth, but repeated PA for monthly supplies after base equipment approval is inefficient for chronic conditions such as insulin-dependent diabetes.
+- **Specific request:** Use automation with straightforward parameters and human oversight; shorten automated decision timeframes; eliminate or simplify ongoing PA for supplies tied to already-approved base equipment.
+
+**Topic 4: Electronic orders**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Electronic orders across payers can reduce provider burden, shorten processing timeframes, and encourage uniform documentation requirements.
+- **Specific request:** Encourage or require broader use of electronic orders across payers.
+
+**Topic 5: Medical versus pharmacy benefit inconsistency for DME**
+- **Provision ID:** GENERAL; PA-DRUG-MEDICAL (analogous benefit issue)
+- **Position:** Modify
+- **Rationale:** The same DME item may face different PA requirements, automation levels, coverage rules, and copays depending on whether it is adjudicated under the medical or pharmacy benefit.
+- **Specific request:** Standardize PA treatment for the same items across benefits and use automation, such as insulin utilization verification, consistently across medical and pharmacy benefit workflows.
+
+**Topic 6: Program integrity model**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Improved PA can support fraud, waste, and abuse prevention by shifting from post-payment recovery to front-end accuracy.
+- **Specific request:** Reform PA to support a "stop and catch" model while reducing burden and prioritizing patient well-being.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** CCS addresses denial transparency indirectly by objecting to denials, audits, and recoupments after PA approval and asking for processes that reduce inappropriate payment reversals.
+- **S17:** CCS does not request structured denial codes specifically, but its standardization recommendations support more consistent denial and appeal handling.
+- **S20/S43:** CCS recommends shorter decision timeframes when automated PA technologies are used and harmonized appeal timelines across payers.
+- **S29:** CCS does not identify specific API metrics, but it highlights process outcomes that could be tracked, including decision speed, denials after approval, audits, recoupments, and appeal timelines.
+- **S66-S82:** CCS responds directly to the general RFI on DMEPOS prior authorization, including patient care, provider burden, automation, electronic orders, chronic-condition supplies, and medical/pharmacy benefit inconsistencies.
+
+## 6. RECOMMENDATIONS
+
+1. Ensure prior authorization approval meaningfully reduces later denials, post-pay audits, recoupments, and appeals.
+2. Standardize PA criteria and submission procedures across federal and managed care payers.
+3. Harmonize appeal timelines across payers.
+4. Use AI/automation where it improves speed and accuracy.
+5. Shorten PA decision timeframes when automated review is used.
+6. Maintain human oversight to identify irregular automated decisions.
+7. Eliminate or simplify repeated PA for monthly supplies after approval of base equipment for chronic conditions such as insulin-dependent diabetes.
+8. Use electronic orders across payers to reduce burden and standardize documentation.
+9. Align PA requirements for the same item across medical and pharmacy benefits.
+10. Automate verification of insulin utilization for CGM authorization across benefit categories.
+11. Reform PA to support front-end program integrity while protecting patient access.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Post-approval denials and recoupments, inconsistent payer criteria, repeated PA for chronic supplies, medical/pharmacy benefit inconsistency, and burdensome manual medical-benefit PA processes.
+- **Potential negative impacts cited:** Financial hardship for providers, suppliers, and patients; lengthy appeals; delayed access to supplies needed for chronic-condition management; and administrative burden.
+- **Implementation barriers mentioned:** Varying coverage requirements and copays, differing payer procedures, lack of automation under the medical benefit, repeated documentation requirements, and inconsistent use of electronic orders.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** CCS states it serves more than 170,000 Medicare beneficiaries and is three times larger than the next supplier in FFS claims for insulin pumps.
+- **Studies or research referenced:** Kimberly Brandt, CMS Deputy Administrator and COO, March 2026 testimony to House Energy & Commerce Subcommittee regarding moving from "pay and chase" to "stop and catch."
+- **Examples provided:** CGM PA under pharmacy benefit may involve an insulin-usage claims check, while CGM PA under the medical benefit may require complete medical records; monthly supplies for insulin pumps and CGMs are routinely needed after base equipment approval.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** DMEPOS suppliers, Medicare FFS beneficiaries, MA beneficiaries, patients with diabetes, providers, payers, and insurers.
+- **Economic implications:** CCS argues current PA can cause financial hardship and administrative cost when approvals do not protect against denials, audits, recoupments, or appeals.
+- **Technical feasibility:** CCS believes existing technologies and AI can support automation if implemented with straightforward parameters, electronic orders, and human oversight.
+- **Patient care impact:** Simplified and automated PA could improve continuity of access to insulin pumps, CGMs, and supplies needed for chronic disease management.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Professional and pragmatic
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "Prior authorization can be advantageous when it secures payment and decreases denials" - Context: CCS's framing of when PA provides value.
+2. "Prior authorization criteria and timelines should be streamlined across payors" - Context: CCS's recommendation for standardization.
+3. "providers should not be required to undergo repeated prior authorization for monthly supplies" - Context: CCS's chronic-condition DME recommendation.
+4. "Prior authorization processes for the same items should not differ this much" - Context: CCS's comparison of CGM medical versus pharmacy benefit workflows.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - CCS asks for shortened automated decision timeframes and harmonized appeal timelines.
+- [x] **COST-RESOURCES** - The comment emphasizes financial hardship, recoupments, denials, appeals, and provider/supplier burden.
+- [x] **PROVIDER-BURDEN** - Reducing burden on suppliers and providers is a central focus.
+- [x] **TECHNICAL-FEASIBILITY** - CCS supports AI automation, electronic orders, and straightforward parameters with human oversight.
+- [x] **PATIENT-ACCESS** - The comment focuses on continuity of DME supplies for Medicare beneficiaries with chronic conditions.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - CCS highlights inconsistent PA, coverage, copays, and automation across benefit categories for the same items.
+- [x] **TRANSPARENCY** - CCS requests uniform criteria and processes that would make PA expectations clearer across payers.
+- [x] **EXISTING-WORKFLOWS** - The comment compares existing pharmacy benefit claims checks, medical benefit medical-record submission, and electronic order workflows.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+160 Fountain Pkwy. N., Suite 200, St. Petersburg, FL 33716-1205 â€¢ 972.628.2100 â€¢ ccsmed.com 
+June 15, 2026 
+ 
+The Honorable Dr. Mehmet Oz                                    
+Administrator 
+Centers for Medicare and Medicaid Services 
+U.S. Department of Health and Human Services 
+200 Independence Ave. SW 
+Washington, DC 20201 
+ 
+Submitted electronically via https://www.regulations.gov/.  
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of 
+Qualified Health Plans on the Federally-Facilitated Exchanges; Proposed Rule [CMS-0062-
+P] 
+ 
+Dear Dr. Oz: 
+ 
+CCS Medical, Inc. (CCS) is submitting this letter in response to the Centers for Medicare & 
+Medicaid Servicesâ€™ (CMS) Medicare and Medicaid Programs; Patient Protection and Affordable 
+Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges; Proposed Rule, (the Proposed Rule).1 
+CCSâ€™s comments are specific to the Request for Information (RFI) related to Laboratory Tests 
+and Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) Items included 
+in this proposed rule and focus on prior authorization as related to DMEPOS items.  
+ 
+CCS is the largest distributor of insulin pumps and associated supplies, as well as one of the 
+largest providers of continuous glucose monitors (CGMs) and supplies, for Medicare 
+fee-for-service (FFS) beneficiaries in the United States. CCS is the leader in fee-for-service 
+claims for insulin ...

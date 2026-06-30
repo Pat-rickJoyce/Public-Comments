@@ -1,0 +1,186 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0660_20260629112216_772f6806
+Commenter: Not identified
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:26:41
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Not identified in extracted text.
+- **Stakeholder type:** Technology Vendor / Other technical stakeholder.
+- **Credentials or expertise mentioned:** Demonstrates technical knowledge of FHIR APIs, FHIR IGs, terminology services, SNOMED CT, value set query languages, delegated entities, value-added resellers, and payer implementation structures.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenter argues that drug prior authorization interoperability will fail at scale unless delegated and downstream entities, FDRs, DDEs, value-added resellers, and small practices are included in execution-layer governance and standards adoption. They recommend moving away from CSV, PDF, fax, image, and spreadsheet exchanges toward computable FHIR APIs, current FHIR IGs, and FHIR terminology services with queryable value sets.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; API-USAGE-METRICS; API-ENDPOINT-REPORTING; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations. References CMS-0057-F and CMS-0062-P.
+- **Standards referenced:** FHIR APIs; latest FHIR IGs; CRD; DTR; PAS; FHIR Application Feature Framework IG; Value Set Packages FHIR IG; FHIR terminology services APIs; SNOMED CT; Value Set Compose Language (VCL); SNOMED CT Expression Constraint Language (ECL); ONC EHI export; CSV; PDF.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Include Delegated and Downstream Entities in Drug ePA**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** The commenter states that beneficiaries and physician IPAs can lack real-time FHIR API visibility when corporate payers adopt FHIR but delegated UM entities, FDRs, DDEs, IPAs, MSOs, and downstream vendors do not. This creates fragmented communication for oncology injections, rare disease therapies, biosimilars, and other medical-benefit drugs.
+- **Specific request:** Require or otherwise ensure delegated and downstream entities use FHIR APIs and current CRD, DTR, and PAS IGs at scale for drug ePA visibility.
+
+**Topic 2: Execution-Layer Governance and VAR Participation**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL
+- **Position:** Clarify; Modify
+- **Rationale:** Small entities and small practices often rely on value-added resellers and third-party technical staff rather than primary vendors. The commenter argues these participants are critical implementation partners.
+- **Specific request:** Consider VARs and delegated execution-layer actors in governance, implementation planning, and standards rollout.
+
+**Topic 3: Transition Away from Manual and Flat-File Exchange**
+- **Provision ID:** ONC-STANDARDS-UPDATE; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Manual processing of electronic PDFs, faxes, image files, CSVs, and spreadsheets keeps clinical and administrative burden in place even when payer groups use FHIR elsewhere.
+- **Specific request:** CMS should disallow manual reporting or exchange through PDFs, CSVs, spreadsheets, JPEGs, TIFFs, and similar files when a standards-based API alternative exists; ONC should recommend moving EHI export away from CSV/PDF toward computable structured APIs, including FHIR.
+
+**Topic 4: Terminology Services and Drug Value Sets**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; ONC-STANDARDS-UPDATE
+- **Position:** Modify; Clarify
+- **Rationale:** Drug PA requires semantically consistent and computable representation of medication classes and products, especially for specialty and rare disease medications. Query languages could support KPIs for approval, denial, documentation, and clinical-review statuses.
+- **Specific request:** Use FHIR terminology services, VCL, ECL, SNOMED CT identifiers, and Value Set Packages to support drug value sets and analytics.
+
+**Topic 5: API Metrics and KPIs for Drug PA**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** The commenter proposes using computable terminology to measure drug PA status outcomes for rare disease and other medication classes.
+- **Specific request:** Enable KPIs such as percentages of medications approved, denied, needing additional documentation, or pending delegated clinical review.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports making FHIR IGs central to implementation and emphasizes that delegated entities also need to use them.
+- **S2:** Recommends use of the latest FHIR IGs, including CRD, DTR, PAS, FHIR Application Feature Framework, and Value Set Packages.
+- **S3:** Implies that version transition and adoption at scale need governance at the execution layer, including vendors, VARs, delegated entities, and downstream entities.
+- **S12:** Identifies technical challenges for medical-benefit drug ePA, especially injectable oncology, rare disease, rheumatology, and biosimilar therapies handled by delegated UM entities.
+- **S18:** Addresses implementation burden by arguing that manual PDF/fax/image workflows continue burden and should be replaced with standards-based APIs when available.
+- **S29:** Suggests computable KPIs for drug PA status, including approvals, denials, additional documentation, and pending clinical review.
+- **S37:** Directly discusses implementation challenges related to FDRs, DDEs, delegated UM vendors, IPAs, MSOs, VARs, and small practices.
+- **S49:** Indirectly addresses small-practice impact by noting reliance on VARs and third-party technical staff.
+- **S50:** Addresses standards maturity by recommending newer FHIR IGs and terminology-service capabilities for value sets.
+- **S60-S65:** Responds broadly to ONC standards update issues by recommending structured API exchange, FHIR terminology services, and transition away from CSV/PDF EHI export patterns.
+
+## 6. RECOMMENDATIONS
+
+1. Treat VARs as implementation partners for small entities and small practices.
+2. Build execution-layer governance that includes payer technology vendors, FDRs, DDEs, delegated UM entities, IPAs, MSOs, and downstream entities.
+3. Require delegated and downstream entities to use FHIR APIs and the latest CRD, DTR, and PAS IGs for drug ePA visibility.
+4. Move terminology and value set exchange from CSV files to FHIR terminology services APIs.
+5. Consider the FHIR Application Feature Framework IG and Value Set Packages FHIR IG to support broader adoption.
+6. Disallow manual PDF, CSV, spreadsheet, JPEG, TIFF, fax, and image-file reporting or exchange when standards-based APIs are available.
+7. Move ONC EHI export toward computable structured APIs, including FHIR.
+8. Use SNOMED CT drug class and product identifiers in FHIR value sets for drug PA.
+9. Use VCL and ECL to query medication classes and support KPIs, especially for rare disease drugs.
+10. Measure PA outcomes by drug class/product, including approved, denied, additional documentation needed, and pending clinical review.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmented implementation between payers and delegated/downstream entities; continued manual exchange; lack of real-time visibility for delegated beneficiaries and physician IPAs; inconsistent semantic representation of drug classes and products.
+- **Potential negative impacts cited:** Continued phone calls, delegated UM portal use, manual PDF/fax/image processing, lack of visibility into why injections or therapies are not approved, and unresolved administrative and clinical burden.
+- **Implementation barriers mentioned:** VAR dependence among small practices, FDR/DDE/delegated entity gaps, CSV/PDF legacy exchange, lack of training on standards-based alternatives, and incomplete adoption of current FHIR IGs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** FDA rare disease drug approvals webpage is cited as a source of branded rare disease drug examples.
+- **Examples provided:** Medicare Advantage HMO beneficiary requesting outpatient in-office oncology injection; delegated UM through IPA, MSO, or UM vendor; oncology visits visible through APIs while oncology injections are not; rare disease therapy injections; rheumatologist unable to administer a biosimilar in-office; rare disease drug examples including arimoclomol, concizumab, iptacopan, leniolisib, navepegritide, olezarsen, palovarotene, and sutimlimab.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Beneficiaries in delegated plans, physician IPAs, small practices, VARs, payer technology vendors, FDRs, DDEs, delegated UM vendors, IPAs/MSOs, managed Medicaid, MA HMOs/PPOs, ERISA/TPA arrangements, exchange plans, ACOs, administrative staff, clinical staff, and terminology-service vendors.
+- **Economic implications:** No quantitative cost analysis, but the comment implies burden and inefficiency from manual processing and repeated portal/phone workflows.
+- **Technical feasibility:** The commenter views FHIR APIs, current IGs, terminology services, VCL, ECL, and SNOMED CT as feasible technical mechanisms, but only if adopted beyond primary payer systems.
+- **Patient care impact:** Improved implementation could give consumers and providers real-time visibility into approvals and denials for injections, rare disease therapies, biosimilars, and other drugs; failure could preserve access delays and confusion.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of FHIR-based drug PA with significant implementation modifications.
+- **Tone:** Technical, implementation-focused, and critical of legacy exchange.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Value added resellers (VARs) need to be considered as implementation partners." - Context: Small practices often rely on VARs rather than primary vendors.
+2. "transition away from CSV exchange" - Context: Recommendation for terminology and value set exchange.
+3. "There is still fragmentation" - Context: Concern when payers use FHIR but delegated entities do not.
+4. "disallow manual based reporting" - Context: Request to replace PDFs, CSVs, spreadsheets, and image files when API alternatives exist.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment focuses on adoption at scale and remaining states/territories but does not request a specific date change.
+- [x] **COST-RESOURCES** - It identifies administrative and clinical burden from manual workflows, though without cost estimates.
+- [x] **PROVIDER-BURDEN** - Physician IPAs, administrative staff, and clinical staff face burdens when delegated PA workflows are not API-enabled.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed directly.
+- [x] **TECHNICAL-FEASIBILITY** - The comment is primarily about technical feasibility at execution-layer scale.
+- [x] **STANDARDS-MATURITY** - It recommends current FHIR IGs, terminology services, and value set package approaches.
+- [x] **PATIENT-ACCESS** - Lack of real-time visibility may affect access to oncology injections, rare disease therapies, and biosimilars.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Strong focus on coordination among payers, vendors, delegated entities, VARs, FDRs, DDEs, and ONC/CMS.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Examples focus on medical-benefit injections and therapies, and terminology spans drug products broadly.
+- [x] **TRANSPARENCY** - Real-time API visibility into approvals, denials, documentation needs, and clinical review status is a central request.
+- [x] **SMALL-PAYER-IMPACT** - The comment discusses small practices and small entities that rely on VARs.
+- [x] **EXISTING-WORKFLOWS** - It criticizes portals, calls, PDFs, faxes, images, CSVs, and spreadsheets as persistent legacy workflows.
+- [x] **VENDOR-ECOSYSTEM** - VARs, payer technology vendors, FDRs, DDEs, delegated UM vendors, and terminology vendors are central to the analysis.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Small entities and small practices historically relied on value added resellers (VARs) 
+(interacting with third party technical staff) in place of the primary vendors.
+Interoperability at scale will depend on the future of governance at the execution layer.
+ Value added resellers (VARs) need to be considered as implementation partners.
+In relation to the electronic prior authorizations for drugs, the industry will need to 
+transition away from CSV exchange for terminology exchange and value sets towards 
+FHIR terminology services using FHIR terminology services APIs.
+When the payer tech vendors, FDR, DDEs are using the latest FHIR IGs at scale, this 
+will help remove the communication issues of why the injection therapies are still not 
+covered.
+The delegated and downstream entities need to use the latest FHIR IG, including CRD, 
+DTR, and PAS, to show visibility into the electronic prior authorization for drugs.
+This is why the newer FHIR IGs of the 
+FHIR Application Feature Framework FHIR IG
+https://build.fhir.org/ig/HL7/capstmt/index.html
+and the Value Set Packages FHIR IG
+https://build.fhir.org/ig/cqframework/vsp-ig/
+will be helpful for more even adoption of FHIR and value sets using FHIR.
+An example is a Medicare Advantage HMO beneficiary requesting an outpatient in 
+office oncology injection.
+The plan delegates out to the FDRs for delegated UM, such as an IPA, MSO, delegated 
+UM vendor, or another downstream entity.
+Itâ€™s like saying the oncology visit is viewable using APIs but not the oncology injection. 
+The above scenario would apply for example, for non-delegated:
+â€¢
+Medicare Advantage PPO 
+â€¢
+PPO
+â€¢
+Exchange
+â€¢
+managed Medicaid 
+patients.
+Since FDRs/delegated and downstream entities were not on the CMS 0057-F rule, the 
+delegated beneficiaries were left out, including delegated:
+â€¢
+Medicare Advantage HMO
+â€¢
+Medicare Advantage PPO
+â€¢
+ERISA 
+â€¢
+TPAs
+â€¢
+Exchange Plans
+â€¢
+Managed Medicaid 
+â€¢
+Commerc...

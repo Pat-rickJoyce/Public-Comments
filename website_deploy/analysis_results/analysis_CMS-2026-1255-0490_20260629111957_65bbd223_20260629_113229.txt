@@ -1,0 +1,135 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0490_20260629111957_65bbd223
+Commenter: Alzheimer's Association and Alzheimer's Impact Movement (AIM)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:32:29
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Alzheimer's Association and Alzheimer's Impact Movement (AIM); signed by Robert Egge, Chief Public Policy Officer, Alzheimer's Association, and President, AIM.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** The Alzheimer's Association identifies itself as the leading voluntary health organization in Alzheimer's care, support, and research. AIM is described as the Association's nonpartisan nonprofit advocacy arm.
+
+## 2. EXECUTIVE SUMMARY
+
+The commenters support the proposed rule's prior authorization protections, especially the requirement to provide specific reasons for drug PA denials. They ask CMS to go further by barring Medicare Advantage plans from imposing prior authorization on NCD-covered drugs, specifically amyloid-targeting Alzheimer's therapies, and by protecting access to diagnostic laboratory and biomarker testing needed to qualify patients for treatment.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DENIAL-REASONS; PA-DRUG-MEDICAL; PA-TIMEFRAMES-DRUGS; GENERAL.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890, 19934, 20014; 42 C.F.R. § 422.101(b)(1); Medicare NCD 200.3, Monoclonal Antibodies Directed Against Amyloid for the Treatment of Alzheimer's Disease.
+- **Standards referenced:** No FHIR, NCPDP, or API standards are substantively addressed. The comment focuses on prior authorization policy and Medicare coverage rules.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Support for specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Specific denial reasons help providers understand why a drug PA request was denied and what must be done to resubmit or appeal.
+- **Specific request:** Finalize the requirement that denials communicate a specific reason, including coverage criteria, documentation deficiencies, or medical-necessity rationale.
+
+**Topic 2: Prior authorization for NCD-covered Alzheimer's drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; GENERAL
+- **Position:** Modify
+- **Rationale:** The commenters argue that when CMS has established NCD coverage criteria, MA plans should not add prior authorization barriers for drugs covered at parity with Original Medicare. They emphasize that amyloid therapies are already subject to NCD 200.3 coverage criteria.
+- **Specific request:** Add a final-rule provision making clear that Medicare Advantage organizations may not impose prior authorization on drugs covered under an NCD, including FDA-approved amyloid therapies for Alzheimer's disease.
+
+**Topic 3: Access burden for Alzheimer's patients and caregivers**
+- **Provision ID:** PA-DRUG-MEDICAL; GENERAL
+- **Position:** Support / Modify
+- **Rationale:** Patients with cognitive impairment may struggle with complex administrative tasks, and paperwork or approval delays can be especially harmful for them and their caregivers.
+- **Specific request:** Use the final rule to reduce PA barriers that delay access to Medicare-covered Alzheimer's treatments.
+
+**Topic 4: Prior authorization for laboratory tests and diagnostics**
+- **Provision ID:** GENERAL
+- **Position:** Modify / Clarify
+- **Rationale:** Diagnostic confirmation of amyloid pathology is required for NCD-covered amyloid therapies, and PA barriers for PET, CSF, or blood-based biomarker testing can block treatment access.
+- **Specific request:** Establish clear guidance preventing MA organizations from using prior authorization policies to undermine coverage of Medicare-covered diagnostic tests and services.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Supports CMS's interpretation that a specific denial reason should explain why the request was denied and what the provider must do to resubmit or appeal.
+- **S17:** The comment supports specificity in denial reasons but does not provide a detailed position on structured codes.
+- **S66-S82:** Responds to the RFI on laboratory tests and DMEPOS by focusing on lab and diagnostic tests for Alzheimer's disease, including amyloid PET, CSF testing, and blood-based biomarkers.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize the proposed requirement to provide a specific reason for drug prior authorization denials.
+2. Add a final-rule provision prohibiting Medicare Advantage prior authorization for drugs covered under a CMS National Coverage Determination.
+3. Clarify that MA organizations must cover NCD-covered items and services at parity with Original Medicare and may not use PA to add barriers.
+4. Issue guidance to prevent MA prior authorization policies from blocking access to amyloid PET, CSF testing, and blood-based biomarker testing.
+5. Protect timely diagnostic access for patients who need confirmation of amyloid pathology to qualify for Alzheimer's therapies.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA paperwork and delays for patients with cognitive impairment; MA plan use of PA for NCD-covered drugs; diagnostic-test PA barriers that block access to Alzheimer's therapies.
+- **Potential negative impacts cited:** Treatment delays, inability to access disease-modifying therapies, caregiver burden, inequitable access for rural patients, and inappropriate denial or delay of Medicare-covered services.
+- **Implementation barriers mentioned:** Access limitations for PET centers and lumbar puncture sites, administrative burden, plan practices that may exclude lab-submitted PA requests or ignore test requisition information.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** More than 7 million Americans live with clinical Alzheimer's dementia; projected 13.8 million age 65 and older with Alzheimer's by 2060 absent breakthroughs.
+- **Studies or research referenced:** NCD 200.3; FDA May 16, 2025 clearance of the first blood test to aid Alzheimer's diagnosis; HHS June 23, 2025 announcement on industry pledge to fix prior authorization.
+- **Examples provided:** FDA-approved amyloid therapies; amyloid PET scans, cerebrospinal fluid tests, and blood-based biomarker tests as diagnostic pathways for confirming amyloid pathology.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** People living with Alzheimer's disease or MCI, caregivers, clinicians, Medicare Advantage organizations, diagnostic laboratories, PET centers, and CMS.
+- **Economic implications:** The comment does not quantify costs, but suggests PA barriers create administrative burden and may limit use of covered therapies and diagnostics.
+- **Technical feasibility:** Not focused on technical API feasibility; implementation would require coverage and PA policy clarification for MA plans.
+- **Patient care impact:** High. The commenters link PA barriers directly to delayed diagnosis, delayed treatment, and inequitable access to disease-modifying therapies.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with targeted requested expansion.
+- **Tone:** Professional, patient-centered, advocacy-oriented.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The Alzheimer's Association and AIM write in support of the Proposed Rule." - Context: Overall position.
+2. "there is no basis for Medicare Advantage organizations to impose prior authorization requirements on drugs that are covered under an NCD" - Context: Request to restrict PA for NCD-covered drugs.
+3. "patients with cognitive impairment are uniquely vulnerable to these barriers" - Context: Patient and caregiver burden from PA processes.
+4. "beneficiary access to these tests as critical" - Context: Diagnostic access for Alzheimer's therapies.
+
+## 12. THEMES
+
+- [ ] **IMPLEMENTATION-TIMELINE** - No implementation timeline recommendation is made.
+- [ ] **COST-RESOURCES** - Cost is not a major theme.
+- [x] **PROVIDER-BURDEN** - The comment states PA documentation diverts clinicians from patient care.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - The comment highlights rural access problems and vulnerability of cognitively impaired patients.
+- [ ] **TECHNICAL-FEASIBILITY** - Not addressed in API or standards terms.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - The central theme is avoiding PA and diagnostic barriers to Alzheimer's treatment access.
+- [ ] **REGULATORY-AUTHORITY** - The comment relies on MA obligations to comply with NCDs but does not challenge CMS authority.
+- [ ] **STAKEHOLDER-COORDINATION** - Not a major theme.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [x] **TRANSPARENCY** - Supports specific denial reasons so providers understand next steps.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The comment objects to MA PA practices layered onto NCD-covered services.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+The Honorable Mehmet Oz, MD, MBA
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+7500 Security Boulevard
+Baltimore, Maryland 21244
+
+June 15, 2026
+
+Re: Interoperability Standards and Prior Authorization for Drugs (CMS-0062-P)
+
+Dear Administrator Dr. Oz:
+The Alzheimer's Association and the Alzheimer's Impact Movement (AIM) appreciate the opportunity to comment on the CMS's Proposed Rule to bolster prior authorization protections for drugs in Medicare Advantage, Medicaid, CHIP, and Qualified Health Plans. The Alzheimer's Association and AIM write in support of the Proposed Rule. In keeping with the Trump Administration's efforts to ensure that prior authorization is used appropriately and not to restrict access to Medicare-covered services, we encourage CMS to include a provision in the Final Rule to restrict prior authorization for NCD-covered drugs like FDA-approved amyloid therapies for Alzheimer's.
+
+The Alzheimer's Association is the leading voluntary health organization in Alzheimer's care, support, and research. The Alzheimer's Impact Movement (AIM), the advocacy arm of the Alzheimer's Association, is a nonpartisan, nonprofit organization and works in strategic partnership with the Alzheimer's Association to make Alzheimer's a national priority.
+...

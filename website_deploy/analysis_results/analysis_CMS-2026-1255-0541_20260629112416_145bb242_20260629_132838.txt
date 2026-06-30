@@ -1,0 +1,164 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0541_20260629112416_145bb242
+Commenter: Association for Behavioral Health and Wellness (ABHW)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:28:38
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Association for Behavioral Health and Wellness (ABHW); signed by Debbie Witchey, MHA, President and CEO
+- **Stakeholder type:** Professional Association; Payer association
+- **Credentials or expertise mentioned:** ABHW represents payers managing behavioral health insurance benefits for 200 million people in public and private sectors; focuses on mental health, substance use disorders, integration, prevention, and evidence-based treatment.
+
+## 2. EXECUTIVE SUMMARY
+
+ABHW supports CMS's goals of improving medication access, streamlining PA, and expanding electronic prior authorization, but requests modifications to account for pharmacy PA complexity, bundled behavioral health/SUD services, payer-to-payer privacy risks, and plan-specific step therapy criteria. The comment recommends a stop-the-clock policy for incomplete requests, an exemption for bundled MAT services from 24-hour drug PA timeframes, tighter limits and authorization requirements for payer-to-payer data exchange, and targeted use of historical claims data for step therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-TIMEFRAMES-DRUGS; PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL
+- **Regulatory citations mentioned:** 42 CFR Part 2.
+- **Standards referenced:** Prior Authorization API, Patient Access API, Provider Access API, Payer-to-Payer API, NCPDP standards, historical claims data, automated adjudication tools.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Drug PA turnaround times and stop-the-clock policy**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** ABHW argues pharmacy PAs often involve dosage limits, quantity limits, step therapy, site-of-care issues, diagnosis-specific criteria, and documentation needs that cannot always be resolved within shortened deadlines.
+- **Specific request:** Allow plans to pause turnaround-time requirements when clinically necessary information has been requested but not yet received.
+
+**Topic 2: Bundled behavioral health and SUD services**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Clarify / Modify
+- **Rationale:** Some behavioral health Medicaid MCOs cover MAT through bundled case rates that include medication plus counseling, labs, assessments, and other services, making classification as a drug PA operationally difficult.
+- **Specific request:** Exempt bundled BH/SUD treatment services that include medications from the 24-hour drug PA timeframe and process them under non-drug PA API requirements and non-drug timeframes.
+
+**Topic 3: NCPDP versus Prior Authorization API classification**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Clarify
+- **Rationale:** ABHW states bundled MAT services are broader than pharmacy benefit transactions and may require credentialing and service review.
+- **Specific request:** Clarify that bundled services are processed through the Prior Authorization API for non-drug items and services, not NCPDP pharmacy-benefit standards.
+
+**Topic 4: Payer-to-payer privacy limits**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** ABHW is concerned broad payer-to-payer exchange of structured and unstructured clinical documentation could disclose unnecessary sensitive behavioral health information, including Part 2-protected information.
+- **Specific request:** Limit payer-to-payer exchange to active plan transitions, require explicit member authorization, and restrict data to the minimum necessary.
+
+**Topic 5: Step therapy data sharing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Historical claims can reduce duplicative therapy requirements for new members, but payer criteria differ based on clinical policies, formularies, and benefit designs.
+- **Specific request:** Support targeted historical claims use while preserving payer flexibility and avoiding automatic acceptance of other payers' step therapy determinations.
+
+## 5. SOLICITATION RESPONSES
+
+- **S14:** ABHW requests clarification of when NCPDP pharmacy standards apply, specifically asking that bundled BH/SUD services be handled through the non-drug Prior Authorization API rather than NCPDP standards.
+- **S20:** ABHW argues 24-hour drug PA timeframes may be operationally unrealistic for complex pharmacy reviews and asks for a stop-the-clock mechanism.
+- **S43:** ABHW addresses alignment of drug and non-drug timeframes by requesting non-drug PA timeframes for bundled services that include medications but also broader clinical services.
+- **S30:** ABHW raises privacy concerns about broad payer-to-payer exchange, especially for behavioral health and 42 CFR Part 2 information, and requests explicit member authorization and minimum necessary limits.
+- **S66-S82:** ABHW responds to the step therapy RFI by supporting targeted historical claims data use for new members while opposing mandatory acceptance of other payers' determinations.
+
+## 6. RECOMMENDATIONS
+
+1. Allow plans to stop the PA turnaround clock when additional clinically necessary information has been requested but not received.
+2. Exempt bundled behavioral health and SUD treatment services that include medications from 24-hour drug PA timeframes.
+3. Apply non-drug PA timeframes of 7 calendar days standard and 72 hours expedited to bundled BH/SUD services.
+4. Clarify bundled BH/SUD services should use the non-drug Prior Authorization API rather than NCPDP pharmacy-benefit standards.
+5. Limit payer-to-payer data exchange to active transitions where data are needed for continuity of care.
+6. Require explicit member authorization before payer-to-payer exchange of sensitive information.
+7. Apply minimum necessary limits and avoid transmission of full clinical documentation when targeted data will suffice.
+8. Support targeted historical claims use for step therapy, especially for new members.
+9. Preserve payer flexibility to apply plan-specific clinical criteria and avoid automatic acceptance of another payer's step therapy decision.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Unrealistic timeframes for complex pharmacy PAs, increased denials from incomplete requests, operational burden for bundled BH/SUD services, sensitive behavioral health data disclosure, and loss of payer flexibility in step therapy.
+- **Potential negative impacts cited:** More denials, appeals, administrative burden, delayed patient access, compliance challenges, privacy breaches, and undermined program integrity safeguards.
+- **Implementation barriers mentioned:** System changes, workflow redesign, technology investments, pharmacy benefit complexity, credentialing needs, bundled payment measurement issues, and Part 2 confidentiality requirements.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ABHW states its member companies cover 200 million people.
+- **Studies or research referenced:** Not addressed.
+- **Examples provided:** Louisiana Medicaid opioid treatment program bundled payment for HCPCS code H0020, including methadone dosing/dispensing, counseling, urine drug testing, physician exams, evaluation and management visits, care coordination, and labs.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Behavioral health payers, Medicaid managed care organizations, PBMs, providers, opioid treatment programs, patients receiving MAT or behavioral health services, state Medicaid programs, and members transitioning between plans.
+- **Economic implications:** ABHW anticipates significant system, workflow, and technology investments, plus costs from denials, appeals, and administrative rework if timeframes are too rigid.
+- **Technical feasibility:** ABHW supports electronic PA and historical claims data use but warns implementation must reflect complex pharmacy and bundled-service workflows.
+- **Patient care impact:** Mixed; faster PA can improve access, but rigid deadlines or broad data sharing could increase denials, delay care, or compromise privacy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed; supportive of goals but concerned about operational feasibility and privacy.
+- **Tone:** Professional, technical, and pragmatic.
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "The proposed turnaround times do not adequately account for the clinical and operational complexity" - Context: ABHW's objection to shortened pharmacy PA deadlines.
+2. "allow health plans to pause applicable turnaround time requirements" - Context: Specific stop-the-clock recommendation.
+3. "bundled behavioral health and SUD treatment services that include medications be exempt" - Context: Request for bundled service treatment under non-drug rules.
+4. "require explicit member authorization before information is shared" - Context: Privacy recommendation for payer-to-payer exchange.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - ABHW objects to short PA turnaround deadlines without stop-the-clock flexibility.
+- [x] **COST-RESOURCES** - The comment cites system changes, workflow redesign, technology investments, denials, appeals, and administrative burden.
+- [x] **PROVIDER-BURDEN** - It warns incomplete requests and bundled service complexity could increase burden for providers and plans.
+- [x] **PRIVACY-SECURITY** - The comment raises behavioral health and 42 CFR Part 2 confidentiality concerns in payer-to-payer exchange.
+- [x] **HEALTH-EQUITY** - The comment focuses on mental health, SUD, MAT, and whole-person behavioral health access.
+- [x] **TECHNICAL-FEASIBILITY** - ABHW supports electronic PA but asks CMS to account for operational complexity and historical claims data capabilities.
+- [x] **PATIENT-ACCESS** - Recommendations are framed around avoiding denials, appeals, delays, and privacy harms while preserving continuity of care.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The bundled MAT discussion directly concerns whether services should be treated as drug/pharmacy or non-drug medical PA.
+- [x] **EXISTING-WORKFLOWS** - ABHW asks CMS to preserve payer-specific criteria, transition-of-care mechanisms, grandfathering, and override processes.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Centers for Medicare & Medicaid Services 
+United States Department of Health and Human Services  
+Attention: CMS-9898-NC 
+P.O. Box 8016, Baltimore, MD 21244-8016 
+ 
+Assistant Secretary Thomas Keane, M.D. 
+Office of the National Coordinator for Health Information Technology (ONC) 
+U.S. Department of Health and Human Services 
+330 C Street, SW, Floor 7 
+Washington, DC 20201 
+ 
+Re: Interoperability Standards & Prior Authorization (PA) for Drugs (0062-P) 
+ 
+Dear Dr. Oz and Assistant Secretary Keane: 
+ 
+The Association for Behavioral Health and Wellness (ABHW) appreciates the opportunity to 
+submit comments to the Centers for Medicare & Medicaid Services (CMS) and the Office of the 
+National Coordinator for Health Information Technology (ONC) on Interoperability Standards 
+and Prior Authorization for Drugs Proposed Rule.  
+ 
+ABHW is the national voice for payers managing behavioral health insurance benefits. Our 
+member companies provide coverage to 200 million people in both the public and private 
+sectors to treat mental health (MH), substance use disorders (SUDs), and other behaviors that 
+impact health and wellness. Our organization aims to increase access, drive integration, 
+support prevention, raise awareness, reduce stigma, and advance evidence-based treatment 
+and quality outcomes. Furthermore, our policy work aims to ensure that physical and 
+behavioral health care is integrated and coordinated. ABHW is committed to ensuring better 
+outcomes for whole-person care for all individuals and communities. We believe access to 
+comprehensive, evidence-based MH and SUD services is critical to enhancing patientsâ€™ health 
+and overall well-being. 
+ 
+ABHW supports CMS's goal of improving timely access to medications and streamlining the 
+prior authorization process and making electronic prior authorization more available.  
+1. Improving Communications and Decision Timeframes for Prior Authorizatio...

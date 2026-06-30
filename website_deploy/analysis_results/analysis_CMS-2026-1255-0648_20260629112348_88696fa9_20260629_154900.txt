@@ -1,0 +1,172 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0648_20260629112348_88696fa9
+Commenter: Accountable for Health (A4H)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:49:00
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Accountable for Health (A4H)
+- **Stakeholder type:** Advocacy Group; Professional/Policy Association; Accountable Care Organization stakeholder
+- **Credentials or expertise mentioned:** National advocacy and policy organization accelerating adoption of accountable care; represents members operating in accountable care arrangements that rely on ADT notifications.
+
+## 2. EXECUTIVE SUMMARY
+
+A4H responds to the RFI on electronic event notifications for value-based care and care coordination. It argues that current ADT notification requirements have not reliably delivered timely, complete notifications to ACOs and recommends CMS strengthen requirements through standardized roster submission, enforceable minimum ADT data elements, hospital participation expectations, and extension of notification visibility across post-acute and other care transition settings.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI electronic event notifications; API/health information exchange context; HEALTH-EQUITY indirectly through coverage gaps; STAKEHOLDER-COORDINATION; EXISTING-WORKFLOWS.
+- **Regulatory citations mentioned:** 42 CFR 482.24(d) hospital CoP ADT notification requirement.
+- **Standards referenced:** ADT notifications, HL7v2 ADT integrations, HIEs, Carequality, BAR file structures, USCDI Core elements, Blue Button, roster-based matching.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: ACO receipt of ADT notifications**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify/Strengthen
+- **Rationale:** A4H says ACOs often do not receive ADT feeds for their entire aligned populations because the CoP does not explicitly require notifications to ACOs, roster ingestion is not standardized, state consent models reduce visibility, and the ecosystem is fragmented.
+- **Specific request:** Require hospitals to exchange alerts with ACOs and other entities to which a patient is attributed or assigned.
+
+**Topic 2: Minimum data set and completeness**
+- **Provision ID:** GENERAL/RFI; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Current minimum required data are insufficient for care coordination, and many ADT alerts miss key fields. A4H estimates approximately 60% of ADT messages received by members are missing one or more critical fields.
+- **Specific request:** Require patient demographics, ADT type, admitting diagnosis, attending physician, discharge disposition, and payer information in ACO-directed ADT notifications, with enforcement for completeness.
+
+**Topic 3: Standardized roster ingestion and patient matching**
+- **Provision ID:** GENERAL/RFI; STAKEHOLDER-COORDINATION
+- **Position:** Modify
+- **Rationale:** Without standardized roster submission, every hospital connection is a custom build. A4H says only about 40% of hospitals accommodate roster-based matching and formats/transmission methods vary widely.
+- **Specific request:** Define a national standard roster file format, building on BAR file structures, and require Medicare-participating hospitals to accept/process ACO rosters for ADT alerting.
+
+**Topic 4: Timeliness and utility of ADT feeds**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** ADT alerts arriving 48-72 hours after discharge miss the window for effective transition intervention, and incomplete/duplicative alerts require cleaning and deduplication.
+- **Specific request:** Strengthen timeliness and completeness expectations so ACOs can intervene within hours rather than days.
+
+**Topic 5: Data extractability and EHR silos**
+- **Provision ID:** GENERAL/RFI; FHIR-IG-REQUIRED by analogy
+- **Position:** Clarify/Modify
+- **Rationale:** A4H warns that ADT data surfaced only inside closed EHR point-of-care views cannot support population analytics, data warehouses, KPI dashboards, or central care management workflows.
+- **Specific request:** Avoid standardization approaches that make data technically present but operationally inaccessible; ensure extractability and population-level use.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 (Electronic event notifications RFI):** A4H responds directly to questions on additional ADT data elements, standardization challenges, how ACOs receive/use notifications, hospital CoP changes, attribution/patient matching, and technical approaches.
+- **S23/S30 by analogy:** The comment discusses consent and data sharing barriers, but not API endpoint security in the PA sense.
+- **S60-S65 by analogy:** The comment addresses standardization and USCDI Core evolution, but outside ONC standards-update specifics.
+
+## 6. RECOMMENDATIONS
+
+1. Require ACO-directed ADT notifications for attributed/aligned patients, not just established providers.
+2. Establish a standardized roster submission format, building on BAR file structures.
+3. Require Medicare-participating hospitals to accept and process ACO patient rosters for ADT alerting.
+4. Define and enforce a minimum ADT data set including demographics, ADT type, diagnosis, attending physician, discharge disposition, and payer information.
+5. Strengthen HIE infrastructure by making HIEs more open, stable, and capable.
+6. Require hospital participation in HIEs and national aggregator networks.
+7. Extend ADT notification expectations to post-acute facilities such as SNFs and home health agencies.
+8. Incorporate scheduling and appointment data into USCDI Core elements.
+9. Consider requiring data sharing as a participation condition or holding ACOs harmless for opted-out beneficiaries.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Incomplete population coverage, delayed feeds, missing fields, custom roster builds, state consent barriers, EHR silos, fragmented HIE/vendor ecosystem, post-acute blind spots.
+- **Potential negative impacts cited:** Missed care transition windows, inability to perform timely follow-up, reduced quality scores, avoidable readmissions, high engineering/care coordination burden.
+- **Implementation barriers mentioned:** Lack of explicit ACO mandate, lack of standard roster ingestion, state opt-in HIE consent, HIE/aggregator fragmentation, cost, duplicate/incomplete alerts, EHR configuration variation.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ACOs may receive ADT feeds for only 60-70% of aligned populations, leaving 30-40% gaps; HIE authorization rate among Medicare patients around 55% in opt-in states; approximately 60% of ADT messages missing one or more critical fields; third-party vendors can approach 80% national coverage but add up to 72-hour latency; market coverage varies from 30-40% to near 90%; only about 40% of hospitals accommodate roster-based matching.
+- **Studies or research referenced:** Not formal studies; relies on member operational experience.
+- **Examples provided:** HIE, Carequality, regional exchange networks, third-party aggregators, direct point-to-point HL7v2 ADT integrations, ED-to-imaging-to-surgery alert noise.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** ACOs, accountable care providers, hospitals, patients, PCPs, post-acute providers, HIEs, aggregators, independent/family practices.
+- **Economic implications:** Significant cost for ACOs to aggregate, clean, deduplicate, and manage ADT data; independent/solo practices may be unable to afford infrastructure.
+- **Technical feasibility:** Feasible with national roster standards, minimum data requirements, HIE strengthening, and extractable data workflows; current custom builds are not scalable.
+- **Patient care impact:** Timely ADT data supports discharge planning, PCP follow-up, medication reconciliation, readmission prevention, and quality performance.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of electronic event notifications but concerned current implementation is inadequate.
+- **Tone:** Professional, operational, data-driven, policy-focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Data is foundational to success in accountable care arrangements" - Context: Rationale for ADT access.
+2. "Our members report that their ACOs do not receive ADT feeds for their entire aligned populations" - Context: Coverage gap.
+3. "A national standard eliminates the current patchwork" - Context: Standard roster recommendation.
+4. "When notifications arrive 48-72 hours after discharge, the window for effective transitional care has often closed." - Context: Timeliness concern.
+
+## 12. THEMES
+
+- [x] **STAKEHOLDER-COORDINATION** - Central concern is exchange among hospitals, ACOs, HIEs, aggregators, post-acute providers, and payers.
+- [x] **EXISTING-WORKFLOWS** - Describes current ADT/HIE/HL7v2 workflows, roster matching, and care management operations.
+- [x] **TECHNICAL-FEASIBILITY** - Recommends national roster standards, minimum data elements, extractability, and HIE strengthening.
+- [x] **PROVIDER-BURDEN** - ACOs and practices bear costs of aggregation, cleaning, deduplication, and custom builds.
+- [x] **PATIENT-ACCESS** - ADT timeliness affects transitional care, follow-up, medication reconciliation, and readmission prevention.
+- [x] **TRANSPARENCY** - Minimum data fields and completeness enforcement support actionable notifications.
+- [x] **COST-RESOURCES** - Fragmented ADT infrastructure imposes engineering and operational costs, especially for smaller practices.
+- [x] **HEALTH-EQUITY** - Consent and infrastructure gaps in certain states/markets create uneven visibility; not framed primarily as equity but relevant.
+- [ ] **IMPLEMENTATION-TIMELINE** - Timeliness of notifications is addressed, but not rule compliance timeline.
+- [ ] **PRIVACY-SECURITY** - Consent barriers are discussed, but privacy/security is not the central theme.
+- [ ] **STANDARDS-MATURITY** - Standardization issues are discussed but not FHIR/NCPDP maturity.
+- [ ] **REGULATORY-AUTHORITY** - CoP updates are discussed but not challenged.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - HIEs/aggregators/vendors are important, but not the health IT vendor ecosystem under PA APIs.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+June 15, 2026 
+ 
+Submitted via regulations.gov  
+ 
+The Honorable Administrator Mehmet Oz, M.D.  
+Centers for Medicare & Medicaid Services  
+7500 Security Boulevard  
+Baltimore, MD 21244  
+ 
+Dr. Thomas Keane  
+National Coordinator for Health Information Technology  
+Department of Health and Human Services  
+330 C Street, S.W., Mail Stop: 7033A  
+Washington, DC 20201 
+ 
+Re:  
+Interoperability Standards and Prior Authorization for Drugs Proposed Rule 
+(CMS-0062-P; RIN: 0938-AV44) 
+ 
+Dear Administrator Oz and Dr. Keane: 
+ 
+Thank you for the opportunity to provide comments in response to the Request for 
+Information (RFI) on Electronic Event Notifications for Value-Based Care and Care 
+Coordination included in the Interoperability Standards and Prior Authorization for Drugs 
+Proposed Rule.  
+Accountable for Health is a non-partisan, national advocacy and policy organization 
+accelerating the adoption of effective accountable care. We aim to support policymakers 
+to advance the movement in the health care system toward accountable care that 
+achieves better outcomes, improved care experiences, increased access, and lower 
+costs. 
+Data is foundational to success in accountable care arrangements, and few data sources 
+are more important than timely access to admission, discharge, and transfer (ADT) 
+notifications. Accountable care providers cannot effectively manage quality and total cost 
+of care if they do not know when an aligned beneficiary has been hospitalized, 
+discharged, or treated in the emergency department. Real-time ADT notifications allow 
+providers to serve as the "quarterback" of a patient's care by initiating timely follow-up, 
+reconciling medications, coordinating with specialists and post-acute providers, and 
+addressing issues before they result in another emergency department visit or 
+readmission.  
+Since May 2021, CMS has required hospitals to electronically notify a patient's 
+established providers of admission, discharge, and transfer events (4...

@@ -1,0 +1,128 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0500
+Commenter: Crohn's & Colitis Foundation – Mass Patient Comment Campaign (1,255 individuals)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:34:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Crohn's & Colitis Foundation mass comment campaign — 1,255 individual IBD patients, providers, and caregivers across multiple U.S. states (referenced as Attachment A to the Foundation's formal comment, CMS-2026-1255-0500/dbb96e83)
+- **Stakeholder type:** Individual (mass form letter campaign organized by Advocacy Group)
+- **Credentials or expertise mentioned:** Submitters self-identify as IBD patients, caregivers, and healthcare providers; several include personal disease histories (e.g., 30-year Crohn's patient, parent of child diagnosed at age 10).
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+This file contains 1,255 substantially identical form letters submitted via the Crohn's & Colitis Foundation's advocacy campaign, urging CMS to finalize the proposed PA rule and strengthen step therapy protections for IBD patients. All letters express support for streamlining and standardizing ePA and for implementing stronger exemptions from insurance-mandated step therapy protocols.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, GENERAL (step therapy RFI)
+- **Regulatory citations mentioned:** None
+- **Standards referenced:** None
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Support for ePA Rule Finalization**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** The proposed rule streamlines and standardizes PA for IBD medications; the current process causes dangerous delays for a chronic, degenerative disease.
+- **Specific request:** Finalize the rule on prior authorization for prescription medications.
+
+**Topic 2: Step Therapy Exemptions**
+- **Provision ID:** GENERAL
+- **Position:** Modify (strengthen)
+- **Rationale:** Insurance-mandated step therapy overrides physician treatment decisions; more than 80% of Medicare Advantage PA denials are overturned on appeal; medication delays cause more than two-thirds of IBD patients to experience negative health outcomes; nearly 50% cannot participate normally in work, school, or daily activities.
+- **Specific request:** Implement and strengthen common-sense exemptions from insurance-mandated step therapy protocols.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S66 (step therapy RFI):** All 1,255 commenters urge stronger federal exemptions from insurance-mandated step therapy; cite IBD-specific harms including disease progression and loss of function.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Finalize the proposed rule on prior authorization for prescription medications.
+2. Implement and strengthen common-sense exemptions from insurance-mandated step therapy protocols.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Insurance companies overriding physician treatment decisions through PA and step therapy; delays causing irreversible harm to IBD patients.
+- **Potential negative impacts cited:** More than 80% of Medicare Advantage PA denials overturned on appeal (implying wrongful denials); medication delays cause negative health outcomes in over two-thirds of IBD patients; nearly 50% of delayed patients cannot participate in work, school, or daily activities.
+- **Implementation barriers mentioned:** Not addressed (form letter focus is on policy, not implementation).
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** >80% of Medicare Advantage PA denials overturned on appeal; medication delays cause >2/3 of IBD patients to experience negative health outcomes; ~50% of affected patients cannot participate normally in daily activities.
+- **Studies or research referenced:** Not specified in form letters (statistics referenced without citation).
+- **Examples provided:** Several individual submitters add personal context: one is a 30-year Crohn's patient; one is a parent whose daughter was diagnosed with Crohn's at age 10.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** IBD patients (and by extension patients with other chronic diseases subject to PA/step therapy), caregivers, healthcare providers
+- **Economic implications:** Not addressed
+- **Technical feasibility:** Not addressed
+- **Patient care impact:** Central concern — PA and step therapy delays cause disease progression, hospitalizations, surgeries, and functional impairment in IBD patients
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (of rule and stronger protections)
+- **Tone:** Advocacy-oriented, urgent, personal
+- **Priority level:** Medium (mass form letters; consistent message but low individual substantive content)
+
+---
+
+## 11. KEY QUOTES
+
+1. "I am tired of insurance companies second-guessing and overruling the treatment decisions made by patients and the health care professionals who treat them." - Context: Standard form letter language expressing core patient frustration with PA and step therapy.
+2. "More than 80% of Medicare Advantage prior authorization denials are overturned on appeal, demonstrating that insurance companies are more likely to be wrong than not when they deny care." - Context: Statistical claim used across all form letters to argue PA denials are systematically unjustified.
+3. "As a patient living with Crohn's disease for 30 years, I am writing to express my support..." - Context: One of several individualized additions to the form letter showing personal IBD patient experience.
+
+---
+
+## 12. THEMES
+
+- [x] **PATIENT-ACCESS** - Central theme: PA and step therapy delays harm IBD patients; rule finalization and step therapy exemptions needed to ensure timely access to prescribed medications.
+- [x] **PROVIDER-BURDEN** - Implicit: insurance companies overriding physician-prescribed treatment decisions is a core complaint across all 1,255 letters.
+- [x] **TRANSPARENCY** - Implicit support for PA streamlining and standardization as a transparency and efficiency measure.
+- [x] **HEALTH-EQUITY** - Submitters span diverse states and demographics; disease burden falls on chronically ill patients who are often already medically vulnerable.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Date Submitted: 6/5/2026
+Supporter Name: Mackenzie Mccall
+Supporter State: NC
+Message Subject: Please strengthen protections for patients!
+Message Text:
+I am writing to express my support for your proposed rule addressing prior authorization and
+step therapy for prescription medications. This proposed regulation would benefit patients by
+streamlining and standardizing prior authorization for the medications patients need to
+manage their inflammatory bowel disease (IBD). I also encourage you to implement and
+strengthen common-sense exemptions from insurance-mandated step therapy protocols. I am
+tired of insurance companies second-guessing and overruling the treatment decisions made
+by patients and the health care professionals who treat them. All too often, prior authorization
+and step therapy are used by insurance companies for no reason other than to delay and
+deny access to the care that IBD patients desperately need to lead healthy lives. In fact, more
+than 80% of Medicare Advantage prior authorization denials are overturned on appeal,
+demonstrating that insurance companies are more likely to be wrong than not when they deny
+care...
+[1,255 substantially identical form letters follow]

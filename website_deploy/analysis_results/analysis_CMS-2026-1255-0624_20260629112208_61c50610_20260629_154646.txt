@@ -1,0 +1,188 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0624
+Commenter: Cigna / The Cigna Group
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:46:46
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Courtney Lawrence, Senior Vice President, Head of Government Affairs and Global Public Policy, The Cigna Group.
+- **Stakeholder type:** Payer / PBM / integrated health services organization.
+- **Credentials or expertise mentioned:** Cigna describes national commercial medical coverage, Evernorth pharmacy and specialty pharmacy services, PBM capabilities, participation in the CMS Health Technology Ecosystem, and co-leadership of the Payer Workgroup.
+
+## 2. EXECUTIVE SUMMARY
+
+Cigna supports CMS's goals to modernize prior authorization, expand electronic data exchange, improve transparency, and reduce administrative burden, but urges CMS to add flexibility and a longer implementation runway. The comment's central requests are a minimum 24-month implementation period after final guidance, provider adoption requirements for ePA, flexible routing across medical/pharmacy benefit boundaries, streamlined reporting, and narrowly scoped API endpoint reporting with cybersecurity protections.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL/RFIs.
+- **Regulatory citations mentioned:** CMS-0062-P generally; no detailed CFR citations beyond references to Sections II.B, II.C.2, II.C.3, II.C.6-II.C.7, II.E, and RFI sections.
+- **Standards referenced:** FHIR, Da Vinci prior authorization approaches, NCPDP, HL7 Da Vinci Member Attribution List IG, Da Vinci Unsolicited Notifications IG, TEFCA, NIST, API endpoint metadata, OAuth-like authorization concepts, EHR/ePA integration.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Implementation timeline**
+- **Provision ID:** IMPLEMENTATION-TIMELINE / PA-DRUG-MEDICAL / PA-DRUG-PHARMACY / FHIR-IG-REQUIRED
+- **Position:** Modify.
+- **Rationale:** Drug PA API implementation requires multi-system build, integration, testing, and coordination with other interoperability obligations. A rushed timeline could create instability and disruption for patients and providers.
+- **Specific request:** Establish at least 24 months after publication of the final rule and associated guidance, and use phased implementation that prioritizes mature capabilities.
+
+**Topic 2: Dual standards and integrated benefit workflows**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Support with modifications.
+- **Rationale:** Cigna supports FHIR for medical benefit drugs and NCPDP for pharmacy benefit drugs, but says providers often cannot determine benefit classification and complex regimens may span both benefits.
+- **Specific request:** Allow a provider-friendly single entry point with internal routing, and create exceptions for integrated regimen- or protocol-based PA requests that span medical and pharmacy benefit drugs.
+
+**Topic 3: Provider adoption of ePA**
+- **Provision ID:** GENERAL; FHIR-IG-REQUIRED
+- **Position:** Modify.
+- **Rationale:** Payer API investments will not deliver efficiency if providers are not required to use or integrate ePA and continue fax/phone/portal workflows.
+- **Specific request:** Move beyond attestation-based measures and incorporate ePA utilization into quality programs or Conditions of Participation.
+
+**Topic 4: Drug PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify / clarify.
+- **Rationale:** Incomplete submissions can require additional clinical information; compressed clocks may increase denials and resubmissions if the timeline runs before a complete request is available.
+- **Specific request:** Start decision clocks only when minimum necessary clinical information is received; allow clock-stops/tolling while awaiting additional information; clarify interaction with state-specific Medicaid and CHIP timelines.
+
+**Topic 5: Denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support with flexibility.
+- **Rationale:** Specific denial reasons are important, but payers must comply with varied state notice requirements and clinical nuance.
+- **Specific request:** Preserve flexibility in format and presentation and provide audit guidance.
+
+**Topic 6: Reporting and endpoint transparency**
+- **Provision ID:** API-USAGE-METRICS; API-ENDPOINT-REPORTING; TRANSPARENCY
+- **Position:** Modify.
+- **Rationale:** Overlapping federal and state metrics can be duplicative; overly broad endpoint reporting may expose system architecture or proprietary information.
+- **Specific request:** Standardize metrics and denominators, consider phased reporting, preempt duplicative state reporting where appropriate, limit endpoint reporting to base URLs, capability statements, and supported standards, and protect sensitive information.
+
+**Topic 7: RFIs on event notifications, resiliency, payer APIs, step therapy, lab tests, and DMEPOS**
+- **Provision ID:** GENERAL/RFIs; ONC-STANDARDS-UPDATE
+- **Position:** Mixed / modify.
+- **Rationale:** Cigna supports standardization, FHIR-aligned notify-and-query models, TEFCA improvements, NIST-aligned cybersecurity, testing over certification for payer APIs, and pragmatic automation of step therapy, labs, and DMEPOS.
+- **Specific request:** Use phased guidance, avoid payer API certification, enable standards-based testing, support lab coding solutions, and balance DMEPOS access with program integrity.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S15/S21/S28:** Supports dual medical/pharmacy standards but requests provider-friendly routing and exceptions for integrated regimen-level PA; requests at least 24 months after final guidance.
+- **S16/S17:** Supports specific denial reasons but requests flexibility for clinical nuance and state-law variation.
+- **S20/S43:** Requests decision timeframes begin only once a complete request is received and allow tolling when more information is needed.
+- **S23/S24/S26/S27/S33:** Supports endpoint visibility but recommends limiting reporting to essential technical metadata and safeguarding proprietary/cybersecurity-sensitive information.
+- **S29/S30/S34/S35:** Requests streamlined metrics, standardized definitions, and phased reporting to reduce duplication and improve comparability.
+- **S44-S56:** Addresses HIPAA implications indirectly through concern about FHIR requirements, workflow transformation, and the need for practical timelines and flexibility.
+- **S60-S65:** Supports updated standards with phased adoption, guidance, and testing; warns against fragmented or premature mandates.
+- **S66-S82:** Responds to RFIs on event notifications, resiliency, payer API implementation, certification, step therapy, labs, and DMEPOS with recommendations for standardized, phased, and outcomes-based approaches.
+
+## 6. RECOMMENDATIONS
+
+1. Provide at least 24 months after final rule and guidance before compliance.
+2. Permit a single provider entry point for drug PA with payer/PBM/EHR routing to the correct benefit pathway.
+3. Create exceptions allowing integrated regimen/protocol PA across medical and pharmacy benefits.
+4. Require stronger provider-side ePA adoption through performance-based requirements or quality programs.
+5. Begin PA decision clocks only after complete clinical information is submitted and allow tolling.
+6. Preserve flexibility in denial-reason formats and issue clear audit guidance.
+7. Streamline and standardize reporting metrics, reducing duplicative state and federal obligations.
+8. Limit endpoint reporting to essential metadata and protect cybersecurity/proprietary information.
+9. Use conformance/interoperability testing rather than payer API certification.
+10. Support FHIR-aligned event notification, TEFCA payer use cases, lab coding improvements, and DMEPOS program integrity.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Implementation timeline, provider non-adoption of ePA, rigid dual-standard boundaries, fragmented reporting, endpoint security, certification burden.
+- **Potential negative impacts cited:** Misrouted drug PA requests, duplicate submissions, delayed therapy, incomplete clinical review, increased administrative burden, rushed deployments, cybersecurity exposure.
+- **Implementation barriers mentioned:** Multi-system integration, EHR adoption, provider workflow integration, state-law variation, PBM/payer/vendor coordination, standards variability, lab coding gaps.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Cigna reports reducing overall medical PA volume by about 15% since June 2025 and expects standardization for more than 70% of PA volume by the end of 2026; it cites CMS fraud figures for DMEPOS in the RFI appendix.
+- **Studies or research referenced:** Federal cybersecurity/resiliency analyses and CMS healthcare fraud takedown are referenced; details are mostly summarized rather than deeply analyzed.
+- **Examples provided:** Oncology regimens involving injectable and oral therapies across benefit structures; acute myeloid leukemia, endometrial cancer, tumor-agnostic therapies, lab test coding, and DMEPOS fraud examples.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers, PBMs, EHR vendors, providers, Medicaid/CHIP programs, QHPs, patients, pharmacies, labs, DME suppliers, clearinghouses, app/API developers.
+- **Economic implications:** Significant implementation and reporting costs; potential savings from automation and reduced duplicate submissions; potential increased costs from certification or fragmented workflows.
+- **Technical feasibility:** Feasible if phased, tested, and flexible; risky if mandates are compressed or rigid.
+- **Patient care impact:** Cigna argues integrated and automated workflows can reduce delays, while rigid benefit-split processes can delay specialty and oncology treatment.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / concerned supportive.
+- **Tone:** Professional, technical, collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Interoperability and PA policy should prioritize integrated, end-to-end workflows that reflect real-world care delivery across medical and pharmacy benefits" - Context: Core recommendation on avoiding fragmented dual-standard workflows.
+2. "Establish a realistic implementation timeline of at least 24 months following publication of the final rule and associated guidance." - Context: Key recommendation on compliance timing.
+3. "CMS should explicitly enable appropriate exceptions to the dual-standards approach to permit integrated, regimen, or protocol-based submission models." - Context: Recommendation for complex therapies spanning benefits.
+4. "Limit endpoint reporting requirements to essential technical metadata necessary to facilitate connectivity" - Context: API endpoint reporting and security recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests at least 24 months and phased adoption.
+- [x] **COST-RESOURCES** - Raises implementation, reporting, certification, and cybersecurity costs.
+- [x] **PROVIDER-BURDEN** - Emphasizes burden from incomplete provider adoption and fragmented workflows.
+- [x] **PRIVACY-SECURITY** - Warns about endpoint reporting and API/cybersecurity risk.
+- [x] **TECHNICAL-FEASIBILITY** - Argues requirements are feasible only with phased, tested implementation.
+- [x] **STANDARDS-MATURITY** - Supports standards but asks for maturity, testing, and version flexibility.
+- [x] **PATIENT-ACCESS** - Highlights delays and access risks for specialty/oncology therapies.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for payer, provider, PBM, EHR, TEFCA, and federal coordination.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central focus on benefit classification and integrated regimen PA.
+- [x] **TRANSPARENCY** - Supports denial reasons, metrics, and endpoint visibility with limits.
+- [x] **EXISTING-WORKFLOWS** - Requests alignment with existing PA, pharmacy, PBM, and lab workflows.
+- [x] **VENDOR-ECOSYSTEM** - Discusses EHRs, payer API vendors, certification, PBMs, clearinghouses, and lab/DME vendors.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Courtney Lawrence
+Senior Vice President
+Head of Government Affairs and Global Public Policy
+The Cigna Group
+701 Pennsylvania Avenue, NW
+Suite 720
+Washington, DC 20004
+Telephone (202) 719-6761
+Courtney.Lawrence@TheCignaGroup.com
+June 15, 2026 
+ 
+VIA ELECTRONIC SUBMISSION TO www.regulations.gov  
+ 
+The Honorable Dr. Mehmet Oz 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-8013 
+ 
+Re: Interoperability Standards and Prior Authorization for Drugs Proposed Rule  
+(CMS-0062-P) 
+ 
+To Whom It May Concern: 
+ 
+The Cigna Group (Cigna) welcomes the opportunity to comment on the Centers for Medicare & Medicaid 
+Services’ (CMS’s) Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P) 
+(Proposed Rule). 
+ 
+The Cigna Group is a global health company committed to improving health and vitality. Our Cigna Healthcare 
+and Evernorth Health Services divisions offer medical, pharmacy, dental, behavioral health, and related products 
+and services, with over 186 million customer and patient relationships in the more than thirty countries and 
+jurisdictions in which we operate. In the United States, Cigna Healthcare provides medical coverage to 
+approximately sixteen million Americans in the commercial group health plan market, predominantly in the self-
+insured segment.  
+ 
+Our health services business, Evernorth Health Services, includes a broad range of coordinated and point solution 
+health services and capabilities in pharmacy benefits, home delivery pharmacy, specialty pharmacy, distribution, 
+and care delivery and management solutions, which are provided to health plans, employers, government 
+organizations, and healthcare providers. Across all segments we serve, The Cigna Group is focused on working to 
+deliver healthcare that is affordable, predictable, and simple so people can live healthier, more vibrant lives. 
+ 
+With that context in mind, The Cigna Group ...

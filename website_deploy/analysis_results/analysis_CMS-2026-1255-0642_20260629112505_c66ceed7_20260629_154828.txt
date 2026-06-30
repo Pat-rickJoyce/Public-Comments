@@ -1,0 +1,173 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0642
+Commenter: EveryLife Foundation for Rare Diseases
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:48:28
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** EveryLife Foundation for Rare Diseases; signed by Annie Kennedy and Jamie Sullivan, MPH.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** Nonprofit, nonpartisan organization representing and working with the rare disease community through evidence-based policy, research, and stakeholder coalition engagement.
+
+## 2. EXECUTIVE SUMMARY
+
+EveryLife supports CMS's efforts to improve prior authorization for drugs but urges stronger patient protections for rare disease patients, for whom delays can cause irreversible progression. The organization recommends faster timeframes, a clearer definition of urgent requests, limits on repeat reauthorizations, disclosure of reviewer credentials and AI use, stronger enforcement, better use of transparency data, and ongoing patient stakeholder engagement.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL step therapy/AI/reviewer transparency.
+- **Regulatory citations mentioned:** None specific.
+- **Standards referenced:** API reporting capabilities generally; prior authorization interoperability; no specific IGs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Faster response timelines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify.
+- **Rationale:** Rare diseases are often progressive and time-sensitive; diagnosis may already take years, and PA delays can further postpone effective treatment.
+- **Specific request:** Adopt faster timeframes, including 24 hours for concurrent review, 48 hours for urgent service/prescription requests, 72 hours for non-urgent requests, 1-2 days for additional information on urgent requests, 7-12 days for non-urgent additional information, 48 hours for expedited appeals, and 7 days for non-expedited appeals.
+
+**Topic 2: Define urgent requests for rare disease therapies**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Clarify.
+- **Rationale:** Rare disease therapies may have no alternatives and may treat life-threatening conditions.
+- **Specific request:** Define urgent requests to include FDA Breakthrough Designation treatments and treatments for diseases with no other FDA-approved alternative medication or intervention.
+
+**Topic 3: Prevent unnecessary repeat authorizations and preserve continuity**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY / PATIENT-ACCESS
+- **Position:** Modify.
+- **Rationale:** Many rare diseases are genetic and stable long-term therapies should not require frequent reauthorization; interruptions can cause irreversible progression.
+- **Specific request:** Prohibit reauthorization for stable long-term therapy, require approvals to remain valid for duration of treatment, prevent mid-course PA changes without continuity protections, and honor prior authorizations when patients switch insurers.
+
+**Topic 4: Reviewer expertise and AI transparency**
+- **Provision ID:** TRANSPARENCY / API-USAGE-METRICS
+- **Position:** Modify.
+- **Rationale:** Rare disease PA reviews require specialized expertise, and AI cannot substitute for a human specialist decision-maker.
+- **Specific request:** Require disclosure of clinical reviewer credentials; require notice to patients/providers when AI or automation is used in adverse determinations; require AI use to be reported; require a licensed practitioner in the relevant specialty as final decision-maker.
+
+**Topic 5: Accountability for noncompliance**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS / TRANSPARENCY
+- **Position:** Modify.
+- **Rationale:** Patients have limited recourse when timelines are missed, especially urgent rare disease requests.
+- **Specific request:** Consider automatic approval for urgent PA requests when required timelines are not met.
+
+**Topic 6: Reporting data should drive process changes**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Clarify / Modify.
+- **Rationale:** Public reporting is useful only if CMS explains how data will inform policy changes and accountability.
+- **Specific request:** Identify how new metrics on approvals, denials, median time to decision, and standard versus expedited processing will be used to improve PA processes.
+
+**Topic 7: Ongoing stakeholder engagement**
+- **Provision ID:** GENERAL
+- **Position:** Support / Modify.
+- **Rationale:** Rare disease and disability communities can identify unintended barriers and help improve implementation.
+- **Specific request:** Maintain stakeholder engagement, public awareness of time rules and appeal rights, and feedback loops during implementation.
+
+## 5. SOLICITATION RESPONSES
+
+- **S20/S43:** EveryLife responds extensively on drug PA timeframes, urging faster review and appeal timelines and automatic approval when urgent deadlines are missed.
+- **S16/S17:** The comment indirectly addresses adverse determinations by requesting AI disclosure and reviewer credential disclosure.
+- **S29/S30/S34/S35:** Supports public reporting and asks CMS to clarify how metrics will drive process changes.
+- **S66-S82:** Responds to broader RFIs on step therapy, AI/automation, and stakeholder engagement, especially for rare disease patients.
+
+## 6. RECOMMENDATIONS
+
+1. Strengthen response timelines for urgent, non-urgent, concurrent, additional-information, and appeal reviews.
+2. Define urgent requests to include FDA Breakthrough Designation therapies and diseases with no alternative FDA-approved treatment.
+3. Prohibit repeated reauthorizations for stable long-term therapies and require authorization validity for treatment duration.
+4. Prevent rescission or reversal of approved authorizations without strong continuity protections.
+5. Honor prior authorizations when patients switch insurers.
+6. Require disclosure of clinical reviewer credentials.
+7. Require notice and reporting when AI or automation is used, and require human specialist final review.
+8. Consider automatic approval for urgent requests when timelines are missed.
+9. Explain how reporting data will be used to improve policy and enforcement.
+10. Continue engagement with rare disease, chronic disease, disability, and patient stakeholders.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delays for rare disease therapies, inadequate urgency definitions, repeated reauthorizations, lack of rare-disease specialist review, AI decision-making, weak enforcement, and unclear use of reporting data.
+- **Potential negative impacts cited:** Irreversible disease progression, catastrophic costs, emergency care, serious adverse events, hospitalization, permanent impairment, death, stress, and treatment interruptions.
+- **Implementation barriers mentioned:** Payer reviewer expertise limitations, lack of enforcement mechanisms, lack of clarity on how transparency will produce change.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Over 30 million Americans have rare diseases; 95% have no approved treatment; rare disease burden exceeded $966 billion in 2019; Medicare and Medicaid excess direct medical costs cited; 99% of MA plans require PA for some services; 92.3% of PA requests approved in 2024; 4.1 million denied/partially denied; 11.5% appealed; 80.7% of appeals partially or fully overturned.
+- **Studies or research referenced:** NCATS rare disease fact sheet; National Economic Burden of Rare Disease Study; KFF Medicare Advantage prior authorization data; AMA PA survey; KFF prior authorization poll.
+- **Examples provided:** FDA Breakthrough Designation therapies; stable long-term rare disease therapies; AI/automation in adverse determinations.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Rare disease patients and families, Medicare/Medicaid enrollees, providers, specialty reviewers, payers, CMS, patient advocacy organizations.
+- **Economic implications:** Rare disease imposes high direct and indirect costs; PA delays may worsen catastrophic costs.
+- **Technical feasibility:** Comment does not critique FHIR details but asks for API/reporting capabilities to support continuity and oversight.
+- **Patient care impact:** Stronger rules could prevent irreversible progression and maintain timely access to scarce or breakthrough therapies.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications.
+- **Tone:** Professional, urgent, patient-centered.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "In rare diseases, time is a precious commodity." - Context: Opening explanation of why PA delays are especially harmful.
+2. "Artificial intelligence cannot be the sole decision-maker at any point throughout the prior authorization process." - Context: AI and reviewer expertise recommendation.
+3. "We urge CMS to consider requiring automatic approval for urgent prior authorization requests when required timelines are not met." - Context: Enforcement and accountability proposal.
+4. "The rule falls short of specifying how the data will be used to guide whether and what changes in policy are needed." - Context: Transparency metrics should drive process improvements.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests faster review and appeal timelines.
+- [x] **PROVIDER-BURDEN** - Notes administrative burden and reauthorization burden.
+- [x] **PATIENT-ACCESS** - Central focus is timely rare disease treatment access.
+- [x] **TRANSPARENCY** - Requests reviewer credentials, AI disclosure, and meaningful reporting.
+- [x] **TECHNICAL-FEASIBILITY** - Addresses AI/automation and reporting capabilities, though not detailed IG readiness.
+- [x] **HEALTH-EQUITY** - Addresses rare disease and disability populations.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for ongoing engagement and feedback loops.
+- [x] **EXISTING-WORKFLOWS** - Focuses on reauthorization and continuity processes.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Centers for Medicare and Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+Attn: CMS-0062-P Medicare and Medicaid Programs; Patient Protection 
+and Aﬀordable Care Act; Interoperability Standards and Prior Authorization 
+for Drugs for Medicare Advantage Organizations, Medicaid Managed Care 
+Plans, State Medicaid Agencies, Children's Health Insurance Program 
+(CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualiﬁed 
+Health Plans on the Federally-Facilitated Exchanges 
+ 
+Dear Administrator Oz, 
+On behalf of the EveryLife Foundation for Rare Diseases, we are pleased to 
+provide comments on the proposed rule regarding interoperability 
+standards and prior authorization for prescription drugs   
+The EveryLife Foundation for Rare Diseases is a 501 (c)(3) nonproﬁt, 
+nonpartisan organization powered by the rare disease community to 
+improve health outcomes by driving change through evidence-based 
+policy, leading science-driven policy and regulatory research, activating the 
+community to advocate for their rights and needs, and strengthening the 
+rare disease community. Our comments reﬂect the insights and 
+experiences of our diverse coalition, comprised of patient organizations, 
+industry leaders, and other relevant stakeholders who together inform our 
+policy eﬀorts. 
+Over 30 million Americans live with one or more rare diseases, 95% of 
+which have no approved treatment1. Rare disease patients and families 
+navigate expenses from multiple inpatient and outpatient encounters, 
+prescription therapies and medical devices, and the support services 
+critical to their health and well-being. The National Economic Burden of 
+Rare Disease Study in the United States estimated that the overall annual 
+economic impact of rare disease exceeded $966 billion in 20192. The 8.4 
+million Medicare enrollees with a rare disease accounted for 53% of the 
+total direct costs identiﬁed in the study.3 Medicar...

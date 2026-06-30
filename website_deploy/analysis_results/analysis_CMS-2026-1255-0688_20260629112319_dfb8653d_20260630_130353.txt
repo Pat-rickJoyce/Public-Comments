@@ -1,0 +1,221 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0688_20260629112319_dfb8653d
+Commenter: Humana Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 13:03:53
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Humana Inc.; signed by Michael Hoak, Vice President, Public Policy.
+- **Stakeholder type:** Payer
+- **Credentials or expertise mentioned:** Humana states it serves approximately 7.1 million Medicare Advantage beneficiaries, 3.8 million Medicare Part D PDP beneficiaries, and Medicaid beneficiaries in seven states.
+
+## 2. EXECUTIVE SUMMARY
+
+Humana supports many of CMS's interoperability and drug prior authorization proposals, including use of FHIR and NCPDP standards, denial-reason transparency, public PA metrics, API endpoint reporting, and drug PA data in access APIs. Its primary modification request is to delay the October 1, 2027 compliance date to October 1, 2028 because of cumulative implementation demands on payers and vendors; it also asks CMS to preserve payer flexibility for complex drug review and step therapy while simplifying API implementation guidance.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; FF-SHOP-REQUIREMENTS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** 45 CFR 170.215; 45 CFR 170.205(b), (c), and (u); 42 CFR 438.210; 42 CFR 457.1230(d); section 1927(k)(3) of the Act; section 1905(a)(12) of the Act; 42 CFR 438.242(b)(5)(ii)(B).
+- **Standards referenced:** HL7 FHIR; US Core IG; SMART App Launch; OpenID Connect Core; HL7 Da Vinci Member Attribution (ATR) List IG; HL7 Da Vinci Clinical Data Exchange (CDex) IG; FAST Security IG Tiered OAuth; NCPDP SCRIPT; NCPDP Formulary & Benefit (F&B); NCPDP Real-Time Prescription Benefit (RTPB); Endpoint Resource.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: FHIR and NCPDP standards for drug PA**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support / Modify
+- **Rationale:** Humana supports standardization across programs and payers but says the proposals are substantial and overlap with 2027 implementation of CMS-0057 medical-services APIs and Part D NCPDP standards.
+- **Specific request:** Adopt the standards but delay compliance for the Prior Authorization API and NCPDP drug standards until October 1, 2028, including medical benefit drugs, SCRIPT, F&B, RTPB, and drug PA data in access APIs.
+
+**Topic 2: API standards, IGs, and provider directory approach**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Support / Clarify
+- **Rationale:** Humana supports API conformance to 45 CFR 170.215, ATR for Provider Access, CDex for PA attachments, and FAST Security Tiered OAuth for future authentication. It also agrees the Provider Directory API should use FHIR and US Core without SMART App Launch or OpenID Connect.
+- **Specific request:** Continue using applicable unexpired standards and recommended IGs, and apply FAST Security to Provider Access and Payer-to-Payer APIs in future rulemaking.
+
+**Topic 3: Pharmacy benefit standards and F&B cadence**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** Humana supports SCRIPT, F&B, and RTPB requirements but cites resource burden and vendor impact. It reports that its F&B files are published monthly and that monthly updates are appropriate based on current utilization.
+- **Specific request:** Delay compliance to October 1, 2028 and maintain the current monthly F&B update cadence.
+
+**Topic 4: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Clarify
+- **Rationale:** Humana already provides specific denial reasons for drugs in Medicaid managed care under many state requirements and supports transparency.
+- **Specific request:** Finalize the requirement but provide consistent rules around reason submissions where appropriate.
+
+**Topic 5: Drug PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Clarify
+- **Rationale:** Humana supports aligning timeframes for drugs not meeting the covered outpatient drug framework with the service they are part of, citing complex therapies such as gene therapies that require clinical review and administration planning.
+- **Specific request:** Use 7 calendar days for standard and 72 hours for expedited requests for those complex drugs; do not require all MA drug PA requests to be completed within 24 hours, though 24-hour expedited review is appropriate.
+
+**Topic 6: Public PA metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY / GENERAL
+- **Position:** Support / Modify
+- **Rationale:** Humana supports public reporting of PA metrics for non-drug items/services and drugs, but notes it generally does not separately authorize Part A drugs provided as part of inpatient services.
+- **Specific request:** Finalize metrics updates, post Medicaid managed care/CHIP metrics within 90 days after the rating period, and do not add separate Part A drug metrics where the drug and services are under one authorization.
+
+**Topic 7: API endpoint reporting**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support / Modify
+- **Rationale:** Humana agrees a payer endpoint directory would improve use of interoperability APIs and supports the proposed 60-day pre-coverage and 1-week update timelines.
+- **Specific request:** CMS should support a trustable national payer directory with appropriate URLs to reduce payer reporting burden.
+
+**Topic 8: Drug PA data in Patient, Provider, and Payer-to-Payer APIs**
+- **Provision ID:** API-USAGE-METRICS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support / Modify
+- **Rationale:** Humana supports including drug PA status, dates, duration, dosage, denial reason, and documentation in access APIs, but repeats concerns about cumulative implementation demands.
+- **Specific request:** Delay compliance for these data elements until October 1, 2028.
+
+**Topic 9: API usage metrics**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Support / Modify
+- **Rationale:** Humana supports Provider Access, Payer-to-Payer, Prior Authorization, and Patient Access API metrics as useful for future policymaking and cost-benefit analysis, but questions Medicaid program-level reporting because enrollees move between programs.
+- **Specific request:** Medicaid managed care and CHIP plans should report to states, but CMS should reconsider program-level API utilization reporting and prioritize plan-level usefulness.
+
+**Topic 10: Formulary data in access APIs**
+- **Provision ID:** GENERAL
+- **Position:** Support
+- **Rationale:** Humana agrees formulary data in Provider Access and Payer-to-Payer APIs is redundant because payers provide formulary information through other channels.
+- **Specific request:** Remove formulary information as a required data element and allow optional submission where payers see value.
+
+**Topic 11: RFIs on event notifications, API roadmap, and step therapy**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Humana supports ADT/event notifications for value-based care, wants simpler API implementation resources, and supports interoperability for step therapy while preserving payer flexibility for biosimilars, generics, and reassessment of maintenance therapy.
+- **Specific request:** Consider a national event notification system; create API checklists, certification, authentication testing, and common testing data repositories; apply Payer-to-Payer API lessons to drugs; and allow step therapy flexibility including maintenance therapy where clinically appropriate.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3:** Supports API conformance to adopted standards in 45 CFR 170.215 and progressive standards adoption, while requesting clearer versioning guidance.
+- **S12:** Supports adding medical benefit drugs to the Prior Authorization API but asks CMS to delay compliance to October 1, 2028.
+- **S14:** Supports NCPDP SCRIPT for pharmacy benefit drug PA for impacted payers, with a requested delay to October 1, 2028.
+- **S19:** Raises state and plan implementation burden for Medicaid/CHIP and QHP pharmacy benefit drug standards.
+- **S20:** Supports 7-day standard and 72-hour expedited timeframes for complex non-covered-outpatient drugs tied to broader services, and says a universal 24-hour MA drug timeframe is not necessary or practical.
+- **S21:** Says the October 1, 2027 timeline is too ambitious and recommends October 1, 2028 for medical benefit drug PA API compliance.
+- **S22:** Notes significant resource and vendor burden for implementing NCPDP SCRIPT, F&B, and RTPB across impacted payers.
+- **S23-S24:** Supports endpoint reporting using FHIR Endpoint Resource and suggests a trusted national payer directory to reduce burden.
+- **S25:** Supports RTPB standards but asks for delayed compliance because impacted payers are still implementing Part D requirements.
+- **S26-S27:** Supports reporting new payer API information 60 days before coverage begins and updates within 1 week of changes.
+- **S29-S30:** Supports API utilization metrics, including metrics for Provider Access, Payer-to-Payer, and Prior Authorization APIs, as useful for future policy analysis.
+- **S34-S35:** Supports annual public PA metrics and API metric reporting, while questioning Medicaid program-level breakouts.
+- **S40-S42:** Supports applying requirements to QHP issuers on FFEs but includes them in the broader request for additional implementation time.
+- **S60-S65:** Requests API capability checklists, clearer IG version schedules, certification, identity/authentication testing, and common testing data repositories.
+- **S66-S82:** Responds to RFIs on event notifications, API roadmap, and step therapy, supporting interoperability while preserving payer utilization-management flexibility.
+
+## 6. RECOMMENDATIONS
+
+1. Delay initial compliance for drug Prior Authorization API and NCPDP standards from October 1, 2027 to October 1, 2028.
+2. Account for payer delegation arrangements with providers and vendors in implementation timelines.
+3. Maintain monthly NCPDP F&B file updates.
+4. Finalize support for FHIR/US Core provider directory without SMART App Launch or OpenID Connect requirements.
+5. Support ATR, CDex, and future FAST Security Tiered OAuth guidance.
+6. Finalize specific denial-reason requirements with consistent submission rules.
+7. Keep complex drug PA timeframes at 7 calendar days standard and 72 hours expedited where clinical review and administration planning are needed.
+8. Encourage providers to use electronic PA rather than phone or fax.
+9. Finalize PA metrics for drugs and non-drugs but avoid unnecessary separate Part A drug metrics.
+10. Create or support a trusted national payer endpoint directory.
+11. Delay required drug PA data in Patient Access, Provider Access, and Payer-to-Payer APIs until October 1, 2028.
+12. Reconsider Medicaid managed care program-level API usage reporting.
+13. Remove formulary data as a required Provider Access and Payer-to-Payer API element.
+14. Consider national event notification infrastructure and penalties for persistent data-exchange barriers.
+15. Provide API checklists, certification, identity/authentication testing, and common testing data.
+16. Preserve payer flexibility for step therapy, including biosimilars, generics, and maintenance therapy reassessment.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Compressed October 1, 2027 implementation timeline, cumulative burden from overlapping CMS-0057 and Part D work, vendor capacity, program-level reporting usefulness, identity/authentication readiness, and limits on payer step therapy flexibility.
+- **Potential negative impacts cited:** Unmanageable implementation burden, less informative Medicaid metrics, delayed appeals if provider submissions lack necessary data, and reduced ability to promote lower-cost biosimilars or generics.
+- **Implementation barriers mentioned:** Vendor dependencies, claims-processing delegation, IG versioning, authentication and authorization, limited practical experience with Payer-to-Payer API for non-drug services, provider phone/fax submissions, and fragmented HIE/event notification infrastructure.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Humana serves approximately 7.1 million MA beneficiaries and 3.8 million PDP beneficiaries; Medicaid beneficiaries in seven states.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** Monthly F&B files to eRx intermediaries; gene therapies requiring detailed review; Part A inpatient drugs typically under one authorization; CenterWell ACO use of ADT notifications; AI-generated appeals letters exceeding 10 pages that may lack needed approval data.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** MA organizations, PDPs, Medicaid/CHIP managed care plans, state Medicaid/CHIP programs, QHP issuers, contracted vendors, providers, patients, developers, ACOs, and CMS.
+- **Economic implications:** Delayed compliance may reduce implementation strain and vendor costs; preserving step therapy can support lower-cost biosimilars and generics; API metrics can support future cost-benefit analysis.
+- **Technical feasibility:** Humana supports the technical direction but says versioning, authentication, certification, testing, endpoint discovery, and overlapping deployments need more time and structure.
+- **Patient care impact:** Better APIs, endpoint directories, metrics, event notifications, and drug PA data can improve transparency and coordination; overly compressed or overly restrictive requirements could compromise review quality or plan flexibility.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed
+- **Tone:** Professional, technical, and implementation-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "we strongly recommend that CMS delay the proposed compliance date for the Prior Authorization API and NCPDP standards for drugs until October 1, 2028." - Context: Humana's primary recommendation.
+2. "Humana is supportive of CMS' proposal to require use of the FHIR standards or the NCPDP standards" - Context: Support for the core standards approach.
+3. "Humana supports the CMS proposal... to provide a specific reason to providers when denying a prior authorization request for drugs" - Context: Support for denial-reason transparency.
+4. "a certification framework would be a helpful resource for impacted payers" - Context: API roadmap recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Humana repeatedly requests delaying the October 1, 2027 compliance date to October 1, 2028.
+- [x] **COST-RESOURCES** - The comment emphasizes significant resources, vendor burden, and cumulative implementation costs.
+- [x] **PROVIDER-BURDEN** - Humana supports electronic PA adoption and notes provider phone/fax submissions and lengthy appeals letters can slow processing.
+- [x] **PRIVACY-SECURITY** - It prioritizes identification and authentication testing and supports FAST Security Tiered OAuth.
+- [x] **TECHNICAL-FEASIBILITY** - Technical feasibility concerns include versioning, testing, certification, endpoint directories, and API readiness.
+- [x] **STANDARDS-MATURITY** - Humana discusses unexpired standards, 45 CFR 170.215, IG update schedules, and certification needs.
+- [x] **PATIENT-ACCESS** - Supports transparency and access APIs but argues complex drug reviews require sufficient time for safety and appropriateness.
+- [x] **STAKEHOLDER-COORDINATION** - The comment highlights payer, provider, vendor, HIE, ACO, and CMS coordination needs.
+- [x] **TRANSPARENCY** - Supports denial reasons, public PA metrics, endpoint directories, and drug PA data in APIs.
+- [x] **EXISTING-WORKFLOWS** - Requests alignment with delegated arrangements, existing F&B monthly processes, provider submission patterns, and care coordination workflows.
+- [x] **VENDOR-ECOSYSTEM** - Humana repeatedly cites contracted vendors and the need for certification/testing support.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+ Humana Inc. 
+ 500 W. Main St. 
+ Louisville, KY 40202-2946 
+ www.humana.com 
+      
+ 
+ 
+June 15, 2026 
+ 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013, Baltimore, MD 21244-8013 
+ 
+Submitted electronically via regulations.gov 
+ 
+RE: Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) 
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges (CMS-0062-P) 
+  
+ 
+Dear Dr. Oz: 
+ 
+This letter is in response to the â€œInteroperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's 
+Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchangesâ€ issued by the Centers for Medicare & Medicaid 
+Services (CMS), the Office of the National Coordinator for Health Information Technology (ONC), and 
+the Department of Health and Human Services (HHS) on April 14, 2026.  
+ 
+Humana Inc., headquartered in Louisville, Kentucky, is a leading health care company that offers a wide  
+range of insurance products and health and wellness services that incorporate an integrated approach 
+to lifelong well-being. Humana currently serves approximately 7.1 million beneficiaries enrolled in our 
+Medicare Advantage (MA) plans and 3.8 million beneficiaries enrolled in our Medicare Part D  
+Prescription Drug Plans (PDPs). As one of the nationâ€™s top contractors for MA, we are distinguished by 
+our long-standing, comprehensive commitment to Medicare beneficiaries across the United States.  
+These beneficiaries â€“ a large proportion of whom depend upon the MA program ...

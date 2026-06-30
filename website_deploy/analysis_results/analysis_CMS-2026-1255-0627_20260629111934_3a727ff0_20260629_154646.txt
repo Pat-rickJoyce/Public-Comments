@@ -1,0 +1,158 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0627
+Commenter: Louisiana Hospital Association
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:46:46
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Paul A. Salles, President & CEO, Louisiana Hospital Association (LHA).
+- **Stakeholder type:** Professional Association / Healthcare Provider association.
+- **Credentials or expertise mentioned:** LHA represents more than 150 hospitals and health systems in Louisiana.
+
+## 2. EXECUTIVE SUMMARY
+
+LHA supports extending CMS prior authorization interoperability requirements to drugs and to small-group FF-SHOP QHP issuers, emphasizing the burden of payer-specific workflows and the need for standardization. LHA also supports shorter decision timeframes, public PA metrics, and endpoint/usage transparency, but urges CMS to conduct demonstrations and delay implementation until standards are fully tested.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FF-SHOP-REQUIREMENTS; PA-TIMEFRAMES-DRUGS; FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; API-ENDPOINT-REPORTING; API-USAGE-METRICS; TRANSPARENCY.
+- **Regulatory citations mentioned:** HIPAA administrative simplification authority; no detailed CFR citations beyond the proposed rule reference.
+- **Standards referenced:** FHIR, Coverage Requirements Discovery (CRD) IG, Prior Authorization Support (PAS) IG, MedicationRequest resource, HCPCS J-codes, APIs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extension of ePA standards to drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support.
+- **Rationale:** Variation in PA submission processes creates multiple workflows, administrative costs, reprocessing, appeals, and burnout. Existing CRD/PAS functionality can support medical benefit drugs.
+- **Specific request:** Finalize requirements to extend standardized electronic PA and electronic data exchange reforms to drugs.
+
+**Topic 2: Expansion of impacted payers, including FF-SHOP**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support.
+- **Rationale:** Including additional payer types increases standardization across plans and encourages provider adoption.
+- **Specific request:** Finalize expansion to MA, Medicaid/CHIP FFS and managed care, QHPs, and FF-SHOP small-group QHPs.
+
+**Topic 3: Shorter PA decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support with stronger standards.
+- **Rationale:** PA directly affects patient care and should be expedited when FHIR transactions provide required information electronically.
+- **Specific request:** Apply 72-hour standard and 24-hour urgent timeframes across all medical services when FHIR technology is used, not just drugs.
+
+**Topic 4: Updated interoperability standards and testing**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE
+- **Position:** Support with modification.
+- **Rationale:** Updated standards can support federal alignment, but implementation must be fully developed and tested with provider participation.
+- **Specific request:** Conduct demonstrations and delay the implementation date until viability and readiness are validated.
+
+**Topic 5: Public reporting and accountability**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Support.
+- **Rationale:** PA metrics promote transparency and can guide oversight; plan-by-plan posting alone is not useful if buried on individual websites.
+- **Specific request:** CMS should collect and publicly post PA metrics and use the data for oversight and enforcement.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S18/S37:** Supports mandatory electronic PA standards for drugs but urges demonstrations and delayed implementation after testing.
+- **S12/S15/S21:** Supports extending medical benefit drug PA into the FHIR framework and believes existing CRD/PAS resources support this, but asks for testing before rollout.
+- **S20/S43:** Supports shorter PA timeframes and asks CMS to apply 72-hour/24-hour timeframes more broadly across medical services when FHIR is used.
+- **S29/S34/S35:** Strongly supports PA metrics reporting, CMS collection, public availability, and oversight use.
+- **S40-S42:** Supports adding small-group QHP issuers on FF-SHOP to the requirements.
+- **S44-S56/S60-S65:** Supports updated interoperability standards and HIPAA alignment but requests demonstrations and a delayed implementation date.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize extension of electronic PA standards to drugs.
+2. Finalize expansion of impacted payers to include FF-SHOP small-group QHPs.
+3. Require 72-hour standard and 24-hour urgent responses for all medical services when FHIR transactions are used.
+4. Conduct demonstrations and delay implementation until standards are fully tested with provider participation.
+5. Require CMS-centralized collection and publication of PA metrics.
+6. Use public PA metrics to guide oversight and enforcement.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Payer-specific workflow variation, provider burnout, patient delays, insufficient testing before implementation, metrics buried on plan websites.
+- **Potential negative impacts cited:** Dangerous treatment delays, clinician burnout, waste, denials from inadvertent errors, administrative cost.
+- **Implementation barriers mentioned:** Multiple payer processes, differing medical vs drug PA workflows, provider testing/readiness, lack of centralized reporting.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** LHA represents more than 150 hospitals and health systems; no formal statistics beyond describing proposed decision timeframes.
+- **Studies or research referenced:** None cited.
+- **Examples provided:** PA variation across plans causing errors and appeals; medical benefit drugs using MedicationRequest and J-codes within CRD/PAS capability.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Hospitals, clinicians, staff, patients, payers, utilization review entities, QHP issuers, small group employers/enrollees.
+- **Economic implications:** Standardization may reduce provider administrative costs and health system waste; testing/delay may prevent costly failed implementation.
+- **Technical feasibility:** LHA views the technology as promising but requiring demonstrations and provider testing before broad mandatory use.
+- **Patient care impact:** Faster PA decisions and standardized electronic workflows can reduce delays and interruptions in drug therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with implementation/testing modifications.
+- **Tone:** Professional, provider-centered, supportive.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The expansion of standardized electronic PA transactions for drugs has the potential to save patients, providers, and utilization review entities considerable time and resources" - Context: Support for extending ePA to drugs.
+2. "The proposed timeframes remain too lenient." - Context: Request for faster decision standards.
+3. "We strongly urge CMS to conduct demonstrations and delay the implementation date." - Context: Testing and readiness recommendation.
+4. "Plan PA metrics buried on individual plan sites add little to no benefit to patients." - Context: Support for centralized reporting and oversight.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports delay for demonstrations/testing.
+- [x] **PROVIDER-BURDEN** - Major focus on provider workflows, burnout, and administrative burden.
+- [x] **TECHNICAL-FEASIBILITY** - Calls for demonstrations and provider testing.
+- [x] **STANDARDS-MATURITY** - Discusses CRD/PAS readiness and updated standards.
+- [x] **PATIENT-ACCESS** - Emphasizes delays and treatment interruptions.
+- [x] **TRANSPARENCY** - Strong support for public metrics and CMS oversight.
+- [x] **FF-SHOP-REQUIREMENTS** - Explicitly supports including small-group FF-SHOP issuers.
+- [x] **EXISTING-WORKFLOWS** - Highlights variation across payer PA protocols and drug/medical workflows.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+ 
+The Honorable Mehmet Oz, M.D.  
+Administrator  
+Centers for Medicare & Medicaid Services 
+Hubert H. Humphrey Building 
+200 Independence Avenue, S.W. 
+Room 445-G 
+Washington, DC 20201 
+ 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability 
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid 
+Managed Care Plans, State Medicaid Agencies, Children’s Health Insurance Program (CHIP) 
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges (CMS-0062-P) 
+ 
+Dear Administrator Oz, 
+ 
+On behalf of our more than 150 member hospitals and health systems, the Louisiana Hospital Association 
+(LHA) appreciates the opportunity to comment on the Centers for Medicare & Medicaid Services’ (CMS) 
+proposal to extend its prior authorization (PA) interoperability framework to cover drugs. The LHA 
+commends CMS for taking action to remove inappropriate barriers to patient care by streamlining the drug 
+PA processes for the affected health plans and providers. The LHA supports extending many of the 
+current interoperability requirements to drugs and adding small group market insurers participating in the 
+Affordable Care Act small business exchange as organizations subject to the interoperability 
+requirements. Providers benefit from standardization of processes across various payers. Currently, 
+differing protocols depending on a patient’s insurance plan require multiple workflows to complete the 
+same process thereby increasing administrative costs and contributing to provider burnout. 
+ 
+While PA can be a tool to help ensure patients receive coverage for their care, the practice too often is 
+used in a manner that leads to dangerous delays in treatment, clinician burnout, and waste in the 
+healthcare system. The LHA supports efforts to reform PA processes across impacted payers and to 
+reduce the significant administrative b...

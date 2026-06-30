@@ -1,0 +1,212 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0521
+Commenter: HIV+Hepatitis Policy Institute
+Source: PDF Attachment
+Analysis Date: 2026-06-29 13:25:21
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** HIV+Hepatitis Policy Institute; signed by Carl E. Schmid II, Executive Director.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** National organization promoting quality and affordable health care for people living with or at risk of HIV, hepatitis, and other serious chronic conditions; cites clinical guidelines, peer-reviewed studies, and PA policy data.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+The HIV+Hepatitis Policy Institute supports CMS extending interoperability and prior authorization protections to drugs, but argues CMS should go beyond process standardization to reduce or prohibit PA for high-risk therapies. Its central recommendations are to prohibit PA and step therapy for antiretrovirals, require real-time patient-specific coverage data for medical-benefit drugs, strengthen decision timeframes and transparency, expand protections to more markets, and add enforcement mechanisms such as automatic approval or emergency supplies when deadlines are missed.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, PA-TIMEFRAMES-DRUGS, PA-DENIAL-REASONS, API-USAGE-METRICS (by analogy to public reporting/metrics), FF-SHOP-REQUIREMENTS (and future SBE extension), GENERAL.
+- **Regulatory citations mentioned:** Sec. II.A, Sec. II.B, Sec. II.B.3, Sec. II.C.2, Sec. II.C.3, Sec. II.C.3.b, Sec. II.C.3.c, Sec. II.C.5-7, Sec. II.D, Sec. III.D, Sec. III.E; references CMS FAQ Part 68.
+- **Standards referenced:** FHIR-based APIs, PA APIs, pharmacy-benefit PA APIs, plan APIs; no specific FHIR IG version or NCPDP version is analyzed.
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Real-Time Coverage Checks for Medical-Benefit Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** HIV long-acting injectable treatment and prevention products may be billed through medical-benefit pathways, where coverage complexity can allow plans to circumvent PA protections and delay therapy.
+- **Specific request:** Require PA APIs for medical-benefit drugs to return real-time, patient-specific coverage checks analogous to pharmacy-benefit PA APIs.
+
+**Topic 2: API Recognition of State PA Protections**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Modify / Clarify
+- **Rationale:** Some states prohibit PA or step therapy for PrEP, PEP, or HIV treatments or require shorter decision timeframes than federal rules.
+- **Specific request:** Require plan APIs to flag state-law PA prohibitions and shorter state timeframes, including dynamic return of a No Prior Authorization Required status where state law applies; clarify federal timeframes are a floor, not a ceiling.
+
+**Topic 3: Scope Expansion to SBEs and Employer Plans**
+- **Provision ID:** FF-SHOP-REQUIREMENTS / GENERAL
+- **Position:** Support / Modify
+- **Rationale:** SBE and employer-sponsored plan enrollees face the same PA barriers as FFE enrollees; excluding them creates inequitable patient protections.
+- **Specific request:** Pursue future rulemaking applying requirements to QHP issuers on state-based exchanges and coordinated interagency rulemaking for employer-sponsored ERISA plans.
+
+**Topic 4: Drug PA Timeframes and Antiretroviral PA Prohibition**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Modify
+- **Rationale:** HIV, hepatitis, PrEP, and PEP therapies cannot safely tolerate multi-day delays; PEP must begin no later than 72 hours after exposure, and interruptions risk resistance, viral rebound, liver damage, or acquisition.
+- **Specific request:** Prohibit PA for antiretrovirals across CMS-overseen programs; alternatively require 24-hour maximum decisions for all QHP drug PA requests and expedited-by-default treatment for high-priority therapeutic areas.
+
+**Topic 5: Medicare Advantage Drug PA Timeframes**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** MA organizations are not subject to new drug PA timeframes in this rule, despite many Medicare beneficiaries living with HIV.
+- **Specific request:** Pursue future rulemaking requiring MA organizations to respond to all drug PA requests within 24 hours.
+
+**Topic 6: Upfront Transparency and Denial Justifications**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Modify
+- **Rationale:** Specific denial reasons help, but patients and providers need requirements, criteria, and documentation before submission, especially for individualized HIV and hepatitis regimens.
+- **Specific request:** Require advance disclosure of covered-drug PA requirements, clinical criteria, documentation needs, appeal rights, and appeal decision deadlines aligned to the urgency of the underlying request.
+
+**Topic 7: Granular PA Metrics Reporting**
+- **Provision ID:** API-USAGE-METRICS / GENERAL
+- **Position:** Modify
+- **Rationale:** Aggregate reporting can hide high denial rates for HIV antiretrovirals or hepatitis C drugs and prevent patients from comparing plans based on PA performance.
+- **Specific request:** Require standardized, plan-specific, searchable, publicly available PA metrics disaggregated by therapeutic area, denial reason, brand/generic status, utilization management type, delay length, abandonment, and whether patients received the initially prescribed therapy.
+
+**Topic 8: Step Therapy and Continuity Protections**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy and PA restart requirements can force non-medical switching or treatment interruption for HIV and hepatitis patients.
+- **Specific request:** Prohibit step therapy for HIV antiretrovirals, require clear step therapy disclosure and exceptions processes, and require plans to honor active PA approvals for at least 30 to 60 days after coverage transitions.
+
+**Topic 9: Laboratory Test PA Interoperability**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** HIV, hepatitis, and PrEP care depends on repeated lab testing; PA barriers for labs can delay treatment decisions and access just as drug PA barriers do.
+- **Specific request:** Extend PA interoperability and transparency requirements to laboratory tests in future rulemaking.
+
+**Topic 10: Enforcement and Compliance**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Timelines and reporting without penalties or corrective actions may create transparency without accountability.
+- **Specific request:** Monitor CMS FAQ Part 68 compliance, enforce Medicaid FFS/MCO utilization-management parity, automatically approve or provide emergency supplies when deadlines are missed, and require corrective action plans for outlier denial rates or missed deadlines.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Recommends medical-benefit drug PA APIs provide real-time, patient-specific coverage checks, especially for long-acting injectable HIV treatment and prevention products.
+- **S20:** Supports 24-hour drug PA decisions, particularly for HIV, hepatitis, PrEP, and PEP, and recommends expedited-by-default handling if CMS does not prohibit PA for these therapies.
+- **S40/S41:** Supports expanding requirements beyond FFE QHPs to state-based exchange QHPs because patients face identical barriers regardless of exchange type.
+- **S43:** Recommends aligning drug PA timeframes to a 24-hour maximum across impacted markets and pursuing future MA rulemaking for the same standard.
+- **S16/S17:** Supports specific denial reasons and asks CMS to add prospective disclosure of PA criteria, documentation requirements, appeal rights, and appeal timelines.
+- **S29/S35 (by analogy to metrics transparency):** Recommends granular, public, plan-level PA metrics rather than aggregate reporting, with data usable in plan comparison tools.
+- **S66-S82:** Responds to RFIs on step therapy, lab tests, excluded markets, and enforcement by recommending step therapy prohibitions for antiretrovirals, PA continuity during plan transitions, future lab-test PA API requirements, and stronger compliance mechanisms.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Require medical-benefit drug PA APIs to provide real-time, patient-specific coverage checks.
+2. Require plan APIs to flag state PA prohibitions and shorter state decision timeframes.
+3. Hold firm to proposed compliance dates because the drug requirements build on existing FHIR API infrastructure.
+4. Extend requirements to SBE QHPs and pursue coordinated rulemaking for employer-sponsored plans.
+5. Prohibit PA for antiretrovirals used for HIV treatment and prevention across CMS-overseen programs.
+6. Require 24-hour maximum drug PA decisions for all QHP requests and future SBE/MA rulemaking.
+7. Treat HIV treatment, hepatitis B/C treatment, PrEP, and PEP as expedited by default if PA is not prohibited.
+8. Require prospective disclosure of drug PA criteria, required documentation, appeal rights, and appeal timelines.
+9. Require granular public PA metrics, including therapeutic area, denial reason, UM type, delay length, abandonment, and final therapy received.
+10. Make comparable Part D PA metrics public for PDPs and MA-PD plans.
+11. Prohibit step therapy for HIV antiretrovirals and require step therapy transparency and exceptions processes.
+12. Require plans to honor active PA approvals for 30 to 60 days after coverage transitions and prohibit retroactive denials for transition-period drugs.
+13. Extend PA interoperability and transparency requirements to laboratory tests in future rulemaking.
+14. Enforce CMS FAQ Part 68, Medicaid FFS/MCO UM parity, deadline-triggered automatic approval or emergency supply, and mandatory corrective action plans for outlier plans.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA overuse, inappropriate utilization management for HIV/hepatitis therapies, delayed access, weak transparency, excluded markets, lack of enforcement, step therapy and PA restarts, and lack of lab-test PA protections.
+- **Potential negative impacts cited:** Treatment gaps, drug resistance, viral rebound, HIV acquisition risk, irreversible liver damage, serious adverse events, treatment abandonment, delayed PrEP/PEP initiation, and inequitable protections by coverage market or state.
+- **Implementation barriers mentioned:** Complex medical-benefit billing, lack of patient-specific coverage information, plan-by-plan expedited review determinations, aggregate metrics that hide therapeutic-area problems, and payer failure to comply without clear enforcement triggers.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** AMA 2024 survey: 93% of physicians report PA causes care delays, 82% say PA can lead to treatment abandonment, 29% report serious adverse events; IQVIA 2025: about 27% of written prescriptions go unfilled due to insurance rejection, cost, and PA; provider study: 72% of clinicians found UMTs and restrictive formularies impede optimal HIV treatment/PrEP prescribing; long-acting injectable PrEP median time from prescription to first injection 27 days, with PA responsible for 11.6 days; employer coverage includes 154 million people under age 65; 2026 JAMA Health Forum study found 65% of initially PA-rejected branded prescriptions had multi-day delays with median six-day processing and Medicaid 8% lower approval rates; more than 111,000 Medicare beneficiaries are living with HIV; patient survey found over half needed extra steps and one-third reported worse outcomes; at least 10 states passed PA reform in 2024 and at least 18 took action in 2025; PrEP delays up to a week associated with 29% higher odds of HIV-1 acquisition.
+- **Studies or research referenced:** AMA PA survey; IQVIA Institute report; Prajapati et al.; Hazra et al.; KFF employer coverage data; Wang et al. in JAMA Health Forum; Hyle et al.; DrFirst patient survey; Georgetown CHIR; IAS-USA/JAMA HIV guidelines; Ward et al.; Vanderpoel and Ford systematic review; AMA/Georgetown state legislation tracker; CDC PrEP guideline; Yang et al. in JAMA Network Open.
+- **Examples provided:** Long-acting injectable PrEP access delays; state PA/step therapy prohibitions for PrEP, PEP, or HIV treatment; Nebraska, Arkansas, and North Dakota public PA policy posting laws; Medicaid MCOs imposing more restrictive UM than state FFS programs.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** People living with or at risk of HIV, hepatitis patients, PrEP/PEP users, clinicians, caregivers, Medicaid/CHIP enrollees, QHP enrollees, SBE enrollees, Medicare beneficiaries, employer-plan enrollees, payers, and states.
+- **Economic implications:** The comment emphasizes avoidable utilization and administrative burdens; it cites higher costs after non-medical HIV regimen switching and large employer coverage populations but does not provide a full rule cost model.
+- **Technical feasibility:** The commenter views the requirements as feasible because they build on existing FHIR-based API infrastructure and asks for additional API data elements rather than delaying compliance.
+- **Patient care impact:** Very high; uninterrupted and timely access to antiretrovirals, hepatitis treatment, PrEP/PEP, and monitoring labs is described as essential to prevent resistance, acquisition, liver damage, and other irreversible consequences.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive of CMS's direction but critical that the rule is not strong enough.
+- **Tone:** Technical, urgent, patient-centered, policy-focused.
+- **Priority level:** High.
+
+---
+
+## 11. KEY QUOTES
+
+1. "We urge CMS to use this rulemaking not simply to standardize the PA process, but to meaningfully reduce its use and overall burden." - Context: Overall framing of the comment's policy objective.
+2. "Prior authorization should not be permitted for these critical therapies." - Context: Recommendation to prohibit PA for antiretrovirals.
+3. "Surfacing this information directly in the API response... would reduce errors, prevent unnecessary PA submissions, and protect patients in states that have enacted stronger PA protections." - Context: API handling of state PA protections.
+4. "Transparency without a mandatory enforcement trigger converts public reporting into an accountability exercise in name only." - Context: Enforcement and corrective action recommendation.
+
+---
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports holding proposed compliance dates and recommends 24-hour drug PA decisions and expedited-by-default handling for high-risk therapies.
+- [x] **COST-RESOURCES** - Discusses administrative burden, non-medical switching costs, employer-plan scale, and provider/patient resource costs.
+- [x] **PROVIDER-BURDEN** - Highlights physician burden, documentation, appeals, and inability to prescribe optimal HIV treatment/PrEP due to UMTs.
+- [ ] **PRIVACY-SECURITY** - Not a focus.
+- [x] **HEALTH-EQUITY** - Emphasizes inequitable protections across FFE, SBE, employer, Medicaid, MA, and state markets.
+- [x] **TECHNICAL-FEASIBILITY** - Argues FHIR-based additions build on existing infrastructure and asks for API functionality supporting real-time patient-specific and state-law information.
+- [ ] **STANDARDS-MATURITY** - Does not assess specific IG maturity.
+- [x] **PATIENT-ACCESS** - Central theme; PA and step therapy delays threaten access to lifesaving HIV and hepatitis therapies.
+- [ ] **REGULATORY-AUTHORITY** - Does not challenge authority; asks for future interagency rulemaking.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS, DOL, HHS, Treasury, states, MA, Medicaid, QHPs, and employer plans to coordinate protections.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Addresses long-acting injectable HIV products and coverage complexity across benefit types.
+- [x] **TRANSPARENCY** - Strong focus on prospective PA criteria, appeal rights, denial reasons, and public plan-level metrics.
+- [ ] **SMALL-PAYER-IMPACT** - Not a focus.
+- [x] **EXISTING-WORKFLOWS** - Critiques current PA, appeals, step therapy, plan transitions, and lab authorization workflows.
+- [ ] **VENDOR-ECOSYSTEM** - Not a focus.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+HIV+HEPATITIS POLICY INSTITUTE 
+1602B Belmont Street NW | Washington DC 20009 | 202-462-3042 | 202-365-7725 (cell) 
+HIVHep.org | X: @HIVHep | Facebook: HIVHep 
+June 15, 2026 
+Submitted electronically via Regulations.gov 
+Docket No. CMS-2026-1255-0001 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+U.S. Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, Maryland 21244 
+Re: CMS-0062-P, Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs 
+Dear Administrator Oz: 
+The HIV+Hepatitis Policy Institute is a national organization promoting quality and affordable 
+healthcare for people living with or at risk of HIV, hepatitis, and other serious and chronic 
+health conditions. We submit these comments on the Centers for Medicare & Medicaid 
+Services' proposed rule on Interoperability Standards and Prior Authorization for Drugs (CMS-
+0062-P). 
+We believe that prior authorizations (PAs) are overused, frequently inappropriate, and impose 
+serious burdens on patients, caregivers, and providers. A 2024 survey by the American Medical 
+Association found that 93% of physicians report that PAs cause patient care delays, 82% say 
+they can lead to treatment abandonment, and 29% reported that PA caused a serious adverse 
+event in a patient's care....

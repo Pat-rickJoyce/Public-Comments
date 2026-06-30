@@ -1,0 +1,139 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0690_20260629112103_4663cfbe
+Commenter: Personalized Medicine Coalition (PMC)
+Source: PDF Attachment
+Analysis Date: 2026-06-30 13:05:15
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Personalized Medicine Coalition (PMC); signed by Cynthia A. Bens, Senior Vice President, Public Policy.
+- **Stakeholder type:** Professional Association / Other multi-stakeholder coalition.
+- **Credentials or expertise mentioned:** PMC describes itself as a coalition of more than 160 institutions across health care that promotes personalized medicine concepts, services, and products. It lists leadership and member representatives from diagnostics, biopharmaceutical companies, academia, patient organizations, and health care organizations.
+
+## 2. EXECUTIVE SUMMARY
+
+PMC's comment is focused on CMS's RFI concerning prior authorization for laboratory services, not the core drug PA API provisions. PMC argues that PA practices for biomarker and other laboratory testing can delay access to personalized medicine and asks CMS to collect denial data, tailor electronic PA fields to lab workflows, clarify Medicare Advantage policy, and strengthen oversight against administrative denials that block medically necessary testing.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; API-USAGE-METRICS; PA-DENIAL-REASONS by analogy to denial rationale and appeals; FHIR-IG-REQUIRED only indirectly where electronic PA tool design is discussed.
+- **Regulatory citations mentioned:** 42 CFR 422.566(c)(1) concerning who may request an organization determination/prior authorization in Medicare Advantage; Medicare laboratory date-of-service regulations; NCDs and LCDs; CMS-0062-P.
+- **Standards referenced:** Electronic prior authorization tools generally; no specific FHIR IG, NCPDP standard, or X12 transaction is discussed in detail.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Collect Laboratory Prior Authorization Denial Data**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Biomarker and laboratory tests can drive early diagnosis and targeted therapy selection, and PA denials may delay care or prevent access to evidence-based personalized medicine.
+- **Specific request:** CMS should collect information on prior authorization denial rates for biomarker and other laboratory testing supporting personalized medicine.
+
+**Topic 2: Design Electronic PA Tools for Laboratory Workflows**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Laboratory PA requires data fields that differ from drug or service PA workflows, and poorly matched fields could preserve denial patterns.
+- **Specific request:** Required data fields should include laboratory-specific information such as exact test ordered, specimen type, diagnosis and procedure codes, and coverage parameters.
+
+**Topic 3: Date-of-Service Policy Misuse by Medicare Advantage Plans**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** PMC says some MA plans inconsistently apply clinical laboratory date-of-service policy, creating beneficiary disparities and burdens for laboratories.
+- **Specific request:** CMS should state in the final rule that inappropriate application of date-of-service policy to deny PA is not compliant with MA rules, plans must recognize regulatory exceptions, and PA requests should be accepted any time before claim submission.
+
+**Topic 4: Appeals and Review of Administrative Denials**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Clarify
+- **Rationale:** Administrative or procedural PA denials can lead to claim denials even when services are medically necessary, and plans may treat those claims as ineligible for appeal or external review.
+- **Specific request:** CMS should clarify that laboratory service claims remain eligible for appeal on medical necessity grounds regardless of PA outcome and that upheld denials should be forwarded for external review.
+
+**Topic 5: Laboratory Provider Standing to Request PA**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Some MA organizations or delegated entities do not permit laboratories to file PA requests, creating a pathway to deny covered and medically necessary testing.
+- **Specific request:** CMS should ensure plans cannot restrict PA requests to ordering providers or primary care providers and must allow enrollees, representatives, and any provider, including laboratories, to request PA.
+
+**Topic 6: Test Requisition Forms as Valid Documentation**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Laboratories may already provide complete medical necessity information in test requisition forms, and redundant medical record requests delay or deny payment.
+- **Specific request:** CMS should clarify that TRFs are valid medical documentation and additional documents should not be requested when complete medical necessity information is already included.
+
+**Topic 7: Limit PA for Covered Laboratory Services and Strengthen Oversight**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** PA for tests already covered under NCDs or LCDs can create burdens without program integrity benefits, especially where Traditional Medicare generally does not require PA for lab services.
+- **Specific request:** CMS should evaluate whether PA is appropriate for covered lab services and establish a mechanism for laboratories and providers to report systemic prior authorization and coverage-determination violations.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** PMC responds to the general RFI topic concerning prior authorization for laboratory services. It recommends data collection, workflow-specific electronic PA fields, corrected MA policy implementation, documentation clarification, and systemic oversight mechanisms.
+- **S29/S34/S35:** PMC implicitly supports collecting and using PA metrics by asking CMS to collect denial rates for biomarker and laboratory testing to evaluate whether safeguards, enforcement, exemptions, or reforms are warranted.
+- **S16/S17:** PMC does not directly address drug denial reason coding, but it asks CMS to address administrative denial practices and preserve medical-necessity appeals for laboratory services.
+
+## 6. RECOMMENDATIONS
+
+1. Collect denial-rate data for biomarker and laboratory tests that support personalized medicine.
+2. Include laboratory-specific data fields in electronic prior authorization tools.
+3. Clarify that inappropriate use of date-of-service policy to deny PA is noncompliant in Medicare Advantage.
+4. Require MA plans to recognize date-of-service exceptions already established in regulation.
+5. Clarify that PA requests may be accepted any time before claim submission.
+6. Preserve medical-necessity appeal rights for laboratory claims regardless of PA outcome.
+7. Require upheld denials to be forwarded for external review.
+8. Ensure laboratories can initiate prior authorization requests as providers furnishing or intending to furnish services.
+9. Recognize test requisition forms as valid medical documentation when complete medical necessity information is included.
+10. Evaluate whether PA is appropriate for laboratory services already covered by NCDs or LCDs.
+11. Create a clear mechanism to report and resolve systemic PA and coverage-determination violations.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays for biomarker and laboratory testing; MA misuse of date-of-service policy; administrative denials; inability of laboratories to initiate PA; redundant documentation demands; PA for services already covered under NCDs/LCDs.
+- **Potential negative impacts cited:** Delayed diagnosis, delayed life-saving treatment, lower patient satisfaction and outcomes, clinician burnout, inconsistent beneficiary access, laboratory burden, and reduced access to personalized medicine.
+- **Implementation barriers mentioned:** Lab workflows require different data fields; laboratories may lack access to medical records held by ordering providers; current complaint processes may not identify systemic noncompliance.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** PMC cites a KFF report that over 53 million PA requests were submitted to Medicare Advantage plans in 2024 and reports that PMC laboratory members see significantly higher MA denial rates for services covered under NCDs/LCDs compared with Medicare fee-for-service.
+- **Studies or research referenced:** JAMA Neurology article on streamlining PA; AMA 2025 PA physician survey; KFF PA determinations report; HHS OIG report on MA denials; PMC report on genomic testing utilization and coverage; prior PMC letters on lab date-of-service policy.
+- **Examples provided:** Oncology biomarker testing for targeted therapies and immunotherapies; hereditary cancer panels; pharmacogenomics; multianalyte assays with algorithmic assays; companion diagnostics; MA date-of-service denials; refusal to accept TRFs.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare beneficiaries, especially patients needing personalized medicine; laboratories; ordering providers; Medicare Advantage organizations and delegated entities; CMS oversight staff.
+- **Economic implications:** PMC emphasizes unnecessary administrative burden, delayed access to targeted care, and potential unnecessary treatment costs, but does not quantify implementation costs.
+- **Technical feasibility:** Electronic PA is feasible only if laboratory workflow data elements are explicitly supported.
+- **Patient care impact:** Timely laboratory testing is characterized as essential to early detection, treatment selection, and access to evidence-based personalized medicine.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / concerned.
+- **Tone:** Professional, technical, policy-focused.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Delays in obtaining test results can directly delay the initiation of life-saving treatment." - Context: Rationale for reforming PA for biomarker and laboratory tests.
+2. "CMS should collect information on prior authorization denial rates for biomarker and other laboratory testing" - Context: Recommendation for evidence gathering and oversight.
+3. "Plans that do not allow laboratory professionals to participate in the prior authorization process create an unnecessary roadblock" - Context: Argument for laboratory standing to request PA.
+4. "TRFs are a valid form of medical documentation" - Context: Request to reduce redundant documentation demands.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - PMC describes administrative burden, clinician burnout, and costs from delayed or inappropriate utilization management.
+- [x] **PROVIDER-BURDEN** - Laboratories and ordering providers face redundant documentation, restricted PA initiation rights, and administrative claim denials.
+- [x] **TECHNICAL-FEASIBILITY** - Electronic PA tools need lab-specific fields to work for laboratory services.
+- [x] **PATIENT-ACCESS** - The comment centers on timely access to diagnostic testing and personalized treatment.
+- [x] **TRANSPARENCY** - PMC requests denial data collection, appeal rights, and reporting mechanisms for systemic violations.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses date-of-service rules, TRFs, claims submission, and lab PA workflows.
+- [x] **STAKEHOLDER-COORDINATION** - PMC calls for alignment among CMS, MA plans, laboratories, ordering providers, and delegated entities.
+- [x] **REGULATORY-AUTHORITY** - PMC asks CMS to clarify and enforce MA compliance with existing Medicare coverage and organization-determination rules.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+The Personalized Medicine Coalition (PMC), a multi-stakeholder group established 20 years ago and comprising more than 160 institutions from across the health care spectrum to promote the understanding and adoption of personalized medicine concepts, services, and products for the benefit of patients and the health care system, thanks the Centers for Medicare & Medicaid Services (CMS) for the opportunity to submit comments on the Medicare and Medicaid Interoperability Standards and Prior Authorization for Drugs Proposed Rule. PMC applauds CMS for recognizing the need for reforms to prior authorization and we encourage the agency to focus on inappropriate practices that unnecessarily limit access to care and increase provider burden. While PMC recognizes that there are numerous important policy issues addressed in the proposed rule, our comments are limited to CMS' request for information on prior authorization for laboratory services and highlight how prior authorization impacts Medicare beneficiaries by often delaying access to personalized medicine.

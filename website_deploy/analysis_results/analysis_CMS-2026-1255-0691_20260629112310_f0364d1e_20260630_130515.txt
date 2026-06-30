@@ -1,0 +1,175 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0691_20260629112310_f0364d1e
+Commenter: AbbVie Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-30 13:05:15
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** AbbVie Inc.; signed by Hayden Kennedy, Vice President, Global Policy & U.S. Access Strategies, Government Affairs.
+- **Stakeholder type:** Other / Pharmaceutical manufacturer.
+- **Credentials or expertise mentioned:** AbbVie describes itself as the third largest biopharmaceutical company in the world, with therapeutic focus areas including immunology, oncology, and neuroscience and experience with innovative medicines and patient access barriers.
+
+## 2. EXECUTIVE SUMMARY
+
+AbbVie strongly supports CMS's proposal to extend electronic prior authorization and interoperability standards to prescription drugs and urges CMS to keep the October 1, 2027 compliance date. It recommends significantly strengthening transparency, denial content, metrics, payer-to-payer continuity, step therapy protections, PBM accountability, pharmacy and authorized third-party access, and oversight of AI and extensions so electronic standards translate into meaningful patient access improvements.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING indirectly through access/intermediary recommendations; GENERAL/RFIs on step therapy, AI, Part D, and Payer-to-Payer API alignment.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890, 19900, 19901, 19903, 19909, 19921, 19942, 20026; 89 Fed. Reg. 8758; 42 U.S.C. 1320d et seq.; 42 U.S.C. 300jj-14; 42 U.S.C. 1395w-26; 42 U.S.C. 1396a; 42 U.S.C. 1396u-2; 42 U.S.C. 1397aa(a); 42 U.S.C. 18031(c); 42 U.S.C. 18041(a).
+- **Standards referenced:** HL7 FHIR Da Vinci DTR IG; CRD IG and CoverageInformation extension; Prior Authorization API; Patient Access API; Provider Access API; Payer-to-Payer API; NCPDP SCRIPT; NCPDP RTPB; FHIR; NCPDP formats; TEFCA and QHINs.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Finalize Drug Electronic PA and Keep 2027 Deadline**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Drug PA is a major driver of provider burden, delays, abandonment, and adverse outcomes.
+- **Specific request:** Finalize electronic PA for all drugs and maintain the October 1, 2027 compliance date without delay.
+
+**Topic 2: Meaningful Point-of-Prescribing Information**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Technical transactions alone do not ensure providers understand medical policy, documentation, step therapy, lab criteria, cost-sharing, or active approvals.
+- **Specific request:** Require APIs and real-time benefit tools to surface plain-language prior authorization requirements, questions, medical policy, coverage restrictions, cost sharing, and active approval status in the provider workflow.
+
+**Topic 3: Transaction Facilitator and Portal Elimination**
+- **Provision ID:** API-ENDPOINT-REPORTING; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Fragmented proprietary portals and concentrated commercial switches could undermine interoperability and perpetuate administrative burden.
+- **Specific request:** CMS should designate a neutral, CMS-overseen transaction facilitator and prohibit required use of proprietary portals where standardized electronic pathways are available.
+
+**Topic 4: Medical Benefit and Pharmacy Benefit Coordination**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT
+- **Position:** Clarify/Modify
+- **Rationale:** Coverage and PA requirements differ across benefits, and PBMs may lack visibility into medical-benefit claims that satisfy step criteria.
+- **Specific request:** Use CRD CoverageInformation to provide functionally equivalent real-time medical-benefit drug information to NCPDP RTPB pharmacy-benefit information.
+
+**Topic 5: Third Parties, Pharmacies, and PBMs**
+- **Provision ID:** GENERAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Patient apps, patient support programs, hub service providers, pharmacies, and PBMs are operationally important in medication access and PA workflows.
+- **Specific request:** Permit authorized third-party and pharmacy API access as appropriate, and require impacted payers to flow compliance obligations to PBM contractors through contracts, audit rights, and complaint processes.
+
+**Topic 6: Automatic Renewals and Continuity of Care**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Payers often already possess claims and treatment history needed to approve renewals or verify step criteria.
+- **Specific request:** Require payers to use claims and treatment history to auto-approve renewals, waive already-satisfied step therapy, and transmit relevant data through Payer-to-Payer APIs.
+
+**Topic 7: Denial Reason Content**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** A generic specific-reason requirement is insufficient for providers and patients to understand, correct, or appeal denials.
+- **Specific request:** Require standardized denial codes, plain-language explanations, missing-information identification, appeal instructions, and reviewer specialty transparency.
+
+**Topic 8: Extensions and Timeliness**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Broad 14-day extension grounds could become routine delay mechanisms.
+- **Specific request:** Define extension criteria narrowly, require extension-utilization reporting, and oversee use of extensions.
+
+**Topic 9: Metrics Reporting Granularity**
+- **Provision ID:** API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Aggregate plan-level metrics mask drug-class disparities and make it hard to detect delayed or inappropriate PA practices.
+- **Specific request:** Report PA metrics by therapeutic class or drug category and add processing times, step therapy exception rates, abandonment rates, and extension use.
+
+**Topic 10: Step Therapy Reform and AI Oversight**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can delay clinically necessary treatment and may be increasingly administered with AI tools that require transparency and human oversight.
+- **Specific request:** Extend transparency requirements to step therapy, allow urgent clinical overrides, transmit step history through Payer-to-Payer APIs, honor prior determinations for at least one year with renewals for stable patients, and regulate AI use through guidance and future rulemaking.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2/S3/S18/S32/S37:** AbbVie supports requiring standardized FHIR-based electronic PA and related IGs, but says CMS must ensure the standards provide actionable, plain-language information in clinical workflows and preserve the October 1, 2027 implementation date.
+- **S12/S15/S21/S28:** AbbVie supports medical-benefit drug PA via FHIR and asks CMS to use CRD CoverageInformation to provide equivalent visibility to NCPDP RTPB, including benefit category, UM criteria, cost sharing, and active approvals.
+- **S14/S22/S25/S31:** AbbVie supports pharmacy-benefit drug electronic PA and NCPDP tools, while urging CMS to account for PBMs, pharmacies, and Part D/MA-PD alignment.
+- **S16/S17:** AbbVie asks CMS to define denial content more granularly through standardized denial codes, plain-language explanations, missing-documentation identification, appeal instructions, and reviewer specialty disclosure.
+- **S20/S43:** AbbVie supports shorter timeframes but asks CMS to constrain 14-day extensions so they do not become routine delays.
+- **S29/S30/S34/S35:** AbbVie seeks stronger metrics reporting at therapeutic class or drug category level, including processing times, step therapy exceptions, abandonment, and extension utilization.
+- **S46/S51/S53:** AbbVie does not focus on the HIPAA PA standards proposal directly, but it urges alignment with ERISA plans and other commercial systems so payer-to-payer exchange works across transitions.
+- **S66-S82:** AbbVie responds extensively to step therapy and AI RFIs, recommending transparency, Payer-to-Payer transfer of step history, at least one-year recognition of prior determinations, clinical overrides, and AI oversight.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize drug electronic PA and interoperability requirements.
+2. Keep the October 1, 2027 compliance date.
+3. Require point-of-prescribing access to medical policy, PA questions, documentation criteria, step requirements, lab criteria, cost-sharing, and active approvals.
+4. Require plain-language PA requirement and denial communications.
+5. Designate a CMS-overseen transaction facilitator rather than relying solely on commercial switches or QHINs.
+6. Prohibit required proprietary payer portals where standardized electronic PA pathways exist.
+7. Use CRD CoverageInformation for medical-benefit drug coverage information equivalent to NCPDP RTPB.
+8. Allow appropriately authorized third parties and pharmacies to access relevant APIs and assist PA workflows.
+9. Require payer contracts to bind PBMs to electronic PA and API compliance.
+10. Require automatic PA renewals and step waivers where payer-held claims or treatment data already satisfies criteria.
+11. Require granular denial codes and denial explanations with appeal instructions and reviewer specialty disclosure.
+12. Narrow, report, and oversee PA extensions.
+13. Report PA metrics by therapeutic class or drug category and add abandonment, step exception, processing-time, and extension metrics.
+14. Align Payer-to-Payer APIs with ERISA plan systems in collaboration with the Department of Labor.
+15. Require transfer and recognition of step therapy history and prior determinations through the Payer-to-Payer API.
+16. Permit rapid clinician overrides of step therapy for serious or time-sensitive conditions.
+17. Issue AI guidance and consider rulemaking requiring transparency, audit, validation, and human oversight for AI in PA.
+18. Extend relevant interoperability and electronic PA principles to Part D and MPPP information where feasible.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Drug PA burden; opaque requirements; proprietary portals; fragmented pharmacy/medical benefit data; PBM accountability gaps; weak denial content; extension overuse; aggregate metrics; step therapy repetition; AI denials; lack of ERISA alignment.
+- **Potential negative impacts cited:** Delayed medication initiation, treatment abandonment, serious adverse events, higher long-term medical spending, reduced patient safety, and provider time diverted from care.
+- **Implementation barriers mentioned:** Multiple payer portals, incomplete EHR integration, lack of neutral connectivity infrastructure, payer/PBM operational splits, benefit category fragmentation, and insufficiently detailed API content.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Providers spend more than 13 hours weekly on PA; 82% of physicians reported PA can lead to treatment abandonment; 75% of patients report PA confusion; 61% of medical groups use seven or more payer portals weekly; only 8% of providers report PA integrated into EMRs; one-quarter of physicians reported PA caused a serious adverse event; Georgia Medicaid schizophrenia step protocol saved $20 PMPM in drug costs but increased outpatient costs by $32 PMPM; rheumatoid arthritis cost-driven switches increased yearly medical payments from $6,254 to $14,127.
+- **Studies or research referenced:** AMA PA surveys; systematic review on adverse effects of PA; PLOS One physician perceptions study; Careviso price transparency material; MGMA payer portal survey; Cohere Health provider survey; OIG Part D report; ACP step therapy paper; studies in rheumatoid/psoriatic arthritis and inflammatory bowel disease; STAT reporting and litigation on AI denials.
+- **Examples provided:** PBM denial due to lack of medical-claim visibility for prior steps; dual medical/pharmacy benefit products; proprietary payer portals; step therapy for schizophrenia, Crohn's disease, rheumatoid arthritis; AI denial allegations.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing prescription drugs, providers, pharmacies, PBMs, payers, EHR vendors, patient portals, third-party support programs, hub service providers, ERISA plans, CMS, and Part D/MA-PD plans.
+- **Economic implications:** AbbVie argues that delayed PA and step therapy can shift costs to other health care services and that automation, data reuse, and portal elimination could reduce provider administrative costs.
+- **Technical feasibility:** AbbVie views FHIR, NCPDP, and API infrastructure as feasible but insufficient unless CMS governs connectivity, data content, intermediary access, and PBM/payer compliance.
+- **Patient care impact:** The recommendations aim to reduce treatment delay, abandonment, repeated step therapy, and inappropriate denials while improving continuity across payer transitions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modifications.
+- **Tone:** Technical, assertive, policy-heavy.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The proposed October 1, 2027 compliance date is appropriate and should not be delayed." - Context: Support for timely implementation.
+2. "Standing alone, technical standards do not ensure comprehension." - Context: Request for plain-language PA requirements and denial communications.
+3. "CMS should designate a transaction facilitator" - Context: Recommendation for CMS-overseen connectivity and interoperability infrastructure.
+4. "Requiring patients to re-initiate step therapy when this data is technologically accessible and transferable serves no clinical purpose" - Context: Payer-to-Payer API and step therapy continuity.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - AbbVie strongly opposes delaying the October 1, 2027 compliance date and seeks limits on extensions.
+- [x] **COST-RESOURCES** - The comment quantifies provider time and administrative cost burdens and argues delays can increase downstream costs.
+- [x] **PROVIDER-BURDEN** - Reducing provider PA effort is a central focus across portals, renewals, denials, and metrics.
+- [x] **PRIVACY-SECURITY** - Transaction facilitator access, authorized third parties, audit controls, and patient data access safeguards are discussed.
+- [x] **TECHNICAL-FEASIBILITY** - AbbVie details technical requirements for APIs, CRD CoverageInformation, NCPDP RTPB, EHR workflows, and AI oversight.
+- [x] **STANDARDS-MATURITY** - The comment supports standards but argues they require more content and governance to be effective.
+- [x] **PATIENT-ACCESS** - Timely access to medication is the central policy goal.
+- [x] **STAKEHOLDER-COORDINATION** - AbbVie emphasizes coordination among payers, PBMs, pharmacies, providers, EHRs, transaction facilitators, ERISA plans, CMS, and DOL.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment repeatedly addresses information gaps between medical and pharmacy benefits.
+- [x] **TRANSPARENCY** - AbbVie seeks stronger disclosure of PA requirements, denial reasons, reviewer specialty, step therapy criteria, and metrics.
+- [x] **EXISTING-WORKFLOWS** - It targets portals, EHR integration, prescribing workflows, PA renewals, appeals, and step therapy transitions.
+- [x] **VENDOR-ECOSYSTEM** - The recommendation for a transaction facilitator and discussion of switches, EHRs, patient apps, hubs, and AI tools directly implicates vendors.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+AbbVie Inc. appreciates this opportunity to comment on the Centers for Medicare & Medicaid Services proposed rule entitled "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs..." AbbVie is the third largest biopharmaceutical company in the world, committed to discovering and delivering innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow.
+
+Prior authorization, as currently administered, can impose substantial administrative burdens on providers and can create clinically unjustifiable barriers to patient access to innovative treatments. Healthcare providers spend more than 13 hours per week completing prior authorizations, time diverted directly from patient care. AbbVie applauds CMS for this Proposed Rule and urges CMS to adopt recommendations to strengthen the final rule.

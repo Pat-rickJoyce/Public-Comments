@@ -1,0 +1,176 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0567_20260629112250_3fda2587
+Commenter: Texas Health Services Authority
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:26:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Texas Health Services Authority (THSA), signed by Katherine Lusk, MHSM, RHIA, FAHIMA, Vice President Strategic Partnerships.
+- **Stakeholder type:** Other / Health Information Exchange organization / Government-chartered nonprofit.
+- **Credentials or expertise mentioned:** Created under Texas Health and Safety Code Chapter 182 to promote secure electronic health information exchange; convenes multidisciplinary, vendor-agnostic workgroups across the continuum of care; operates EDEN statewide encounter notification system and SecureTexas cybersecurity program.
+
+## 2. EXECUTIVE SUMMARY
+
+THSA supports CMS's burden-reduction and interoperability goals but recommends a two-year moratorium before adding medications to prior authorization workflows so non-payer organizations can validate CMS-0057 implementation with real-world data. THSA supports NCPDP standards, requests broader payer participation, asks Da Vinci to support all service lines including dental and vision, and provides RFI recommendations on Direct Secure Messaging for event notifications, SecureTexas cybersecurity resiliency, and national laboratory data usability work.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** IMPLEMENTATION-TIMELINE under PA-DRUG-MEDICAL/PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; PA-DRUG-PHARMACY; GENERAL.
+- **Regulatory citations mentioned:** Texas Health and Safety Code Chapter 182; CMS-0057 referenced; Condition of Participation notifications referenced generally.
+- **Standards referenced:** HL7 FHIR Da Vinci CDex; NCPDP SCRIPT; NCPDP Formulary & Benefit; NCPDP RTPB; Direct Secure Messaging; ADT notifications; HHS 405(d) Health Industry Cybersecurity Practices; ASTP laboratory ordering/reporting standards; Sequoia Project Data Usability Taking Root.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: October 1, 2027 compliance date**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY / FHIR-IG-REQUIRED
+- **Position:** Modify.
+- **Rationale:** Non-payer organizations are still implementing CMS-0057 and need time to validate efficacy and optimize prior authorization workflows using real-world data before medications are included.
+- **Specific request:** Adopt a two-year moratorium before including medications in the PA interoperability requirements.
+
+**Topic 2: Da Vinci CDex and service-line coverage**
+- **Provision ID:** FHIR-IG-REQUIRED / HIPAA-PA-STANDARDS
+- **Position:** Modify/clarify.
+- **Rationale:** Stakeholders support automating prior authorization across service lines, but THSA understands dental and vision specifications are not supported by current Da Vinci implementation guides.
+- **Specific request:** Da Vinci should develop implementation guidance that includes all service lines, including dental and vision.
+
+**Topic 3: NCPDP standards for pharmacy benefit drug PA**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support with expansion.
+- **Rationale:** Standardized pharmacy benefit PA exchange reduces clinical information exchange barriers, but different payer rules create added administrative burden for organizations and vendors.
+- **Specific request:** Require the NCPDP SCRIPT, Formulary & Benefit, and RTPB standards and expand payer participation to include all government-affiliated programs.
+
+**Topic 4: Electronic event notifications using Direct Secure Messaging**
+- **Provision ID:** GENERAL
+- **Position:** Support/expand.
+- **Rationale:** Direct Secure Messaging is already deployed nationally, embedded in certified EHRs, cost-effective, lightweight, payload-flexible, and used in ADT CoP notifications. THSA's EDEN data suggests fewer preventable readmissions and ED visits and significant Medicaid savings.
+- **Specific request:** Use Direct Secure Messaging for electronic event notifications with expanded scope beyond ADT notifications under a transport-neutral, payload-flexible approach.
+
+**Topic 5: Healthcare cybersecurity resiliency**
+- **Provision ID:** GENERAL / PRIVACY-SECURITY
+- **Position:** Support/expand.
+- **Rationale:** Ransomware attacks and workforce shortages disproportionately affect small and rural healthcare facilities; HHS 405(d) guidance exists but is not universally known or affordable to implement.
+- **Specific request:** CMS should investigate the SecureTexas Program for national adoption to build healthcare cyber risk management capacity and student-supported cybersecurity assessments aligned with HHS 405(d) HICP.
+
+**Topic 6: Laboratory test prior authorization and data usability**
+- **Provision ID:** GENERAL
+- **Position:** Modify/clarify.
+- **Rationale:** Lab results interoperability is highly variable because of inconsistent standards adoption by laboratories and facilities, limiting the ability to streamline lab PA.
+- **Specific request:** CMS should champion the December 19, 2024 ASTP Report to Congress recommendations on electronic lab ordering/reporting standards and support a national effort led by the Sequoia Project Data Usability Taking Root Movement with AHIMA.
+
+## 5. SOLICITATION RESPONSES
+
+- **S18/S37:** THSA responds to implementation challenges by requesting a two-year moratorium while non-payer organizations validate CMS-0057 workflows.
+- **S22/S25:** Supports required NCPDP SCRIPT, Formulary & Benefit, and RTPB standards for pharmacy benefit drug PA.
+- **S14/S19:** Requests payer participation be expanded to all government-affiliated programs to avoid differing rules of engagement by plan.
+- **S50/S54:** Raises standards/testing concerns by noting that Da Vinci guidance does not appear to cover dental and vision service lines and should be expanded.
+- **S66-S82:** Provides RFI responses on electronic event notifications, cybersecurity resiliency, and lab test prior authorization/data usability.
+
+## 6. RECOMMENDATIONS
+
+1. Delay inclusion of medications in prior authorization workflows for two years while CMS-0057 implementation is validated by non-payer organizations.
+2. Ask Da Vinci to develop implementation guidelines covering all service lines, including dental and vision.
+3. Finalize NCPDP SCRIPT, Formulary & Benefit, and RTPB standards for pharmacy benefit drug PA.
+4. Expand payer participation to include all government-affiliated programs.
+5. Support electronic event notifications using Direct Secure Messaging with expanded scope beyond ADT.
+6. Investigate SecureTexas for national adoption as a healthcare cybersecurity resiliency model.
+7. Champion ASTP laboratory ordering/reporting recommendations from the December 19, 2024 Report to Congress.
+8. Support a Sequoia Project/AHIMA-led national effort to improve laboratory data usability.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Timeline readiness; inconsistent payer rules; incomplete service-line coverage in Da Vinci IGs; cybersecurity vulnerability; lab results interoperability gaps.
+- **Potential negative impacts cited:** Added administrative burden for organizations and vendors, under-optimized PA workflows, inability to streamline lab PA, cybersecurity risks to patient safety and PHI, and missed opportunities for event notification benefits.
+- **Implementation barriers mentioned:** Ongoing CMS-0057 implementation, absence of dental/vision Da Vinci specifications, differing payer rules of engagement, DSM address availability gaps, lack of cybersecurity expertise, cost barriers, workforce shortages, and variable laboratory standards adoption.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** EDEN participants had Medicaid savings of approximately $8,679,116 in 2024 and $5,275,477 in 2023 relative to non-participants; DSM addresses for PCPs increased from 79,851 in 2023 to 86,442 in 2024 and 88,167 in 2025; messages increased from 950,227 in 2023 to 1,046,337 in 2024 and 1,061,823 in 2025; ransomware attacks increased by over 100%; global cybersecurity workforce shortage estimated at 3.5 million positions.
+- **Studies or research referenced:** NCPDP November 10, 2024 white paper on ADT notifications for pharmacy; December 19, 2024 ASTP Report to Congress on Standards for Electronic Ordering and Reporting of Laboratory Test Results; Texas Healthcare Learning Collaborative Medicaid analysis; HHS 405(d) HICP.
+- **Examples provided:** EDEN statewide encounter notification system, Direct Secure Messaging adoption monitoring, SecureTexas cybersecurity program, and Sequoia/AHIMA data usability initiative.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** HIEs, Texas healthcare organizations, clinicians, payers, vendors, government-affiliated programs, pharmacies, labs, small and rural healthcare facilities, PCPs, patients, academic institutions, DirectTrust, Sequoia Project, and AHIMA.
+- **Economic implications:** THSA cites substantial Medicaid savings associated with EDEN participation and suggests cybersecurity capacity building could reduce risk; it warns inconsistent rules create administrative burden for organizations and vendors.
+- **Technical feasibility:** Supports existing lightweight infrastructure such as Direct Secure Messaging, but requests more time and broader standards coverage before medication PA inclusion.
+- **Patient care impact:** Event notifications can reduce preventable hospital readmissions and ED visits; cybersecurity protects patient safety and PHI; lab interoperability can improve PA streamlining and access to testing.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed/supportive with timeline and scope modifications.
+- **Tone:** Technical, collaborative, implementation-focused.
+- **Priority level:** Medium-high.
+
+## 11. KEY QUOTES
+
+1. "Stakeholders are working diligently to implement CMS 0057 and recommend a 2-year moratorium." - Context: Request to delay medication inclusion until workflows are validated.
+2. "Direct Secure Messaging is the nationally deployed transport for ADT-based event notifications today and is producing measurable outcomes." - Context: Event notification RFI.
+3. "Cyber safety is patient safety!" - Context: Cybersecurity resiliency recommendations.
+4. "The current state of laboratory results interoperability across the health care community is highly variable." - Context: Lab test prior authorization RFI.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - THSA requests a two-year moratorium before medication inclusion.
+- [x] **COST-RESOURCES** - The comment references Medicaid savings, cost-effective DSM, cost barriers to cybersecurity, and administrative burden.
+- [x] **PROVIDER-BURDEN** - Differing payer rules and incomplete workflows create burdens for providers and vendors.
+- [x] **PRIVACY-SECURITY** - Cybersecurity resiliency and PHI protection are major RFI topics.
+- [ ] **HEALTH-EQUITY** - Small and rural vulnerability is discussed, but health equity is not a central framing.
+- [x] **TECHNICAL-FEASIBILITY** - The comment focuses on real-world workflow validation, standards gaps, DSM infrastructure, and lab interoperability.
+- [x] **STANDARDS-MATURITY** - THSA raises Da Vinci service-line gaps and variable lab standards adoption.
+- [x] **PATIENT-ACCESS** - Event notifications, lab PA, and cybersecurity are tied to care delivery and patient safety.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - THSA emphasizes multidisciplinary collaboration, Sequoia/AHIMA convening, and government-affiliated payer alignment.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not directly addressed.
+- [x] **TRANSPARENCY** - DSM monitoring and data usability relate to operational transparency, though not payer reporting transparency.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - THSA emphasizes Direct Secure Messaging, ADT notifications, CMS-0057 implementation, and lab workflows.
+- [x] **VENDOR-ECOSYSTEM** - Payer rules and service-line specification gaps affect vendors supporting implementation.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+901 S Mopac Expressway   Building 1, Suite 300   Austin, TX 78746 
+www.THSA.org 
+(512) 797-6503 
+June 15, 2026 
+ 
+ 
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, MD 21244-1850 
+ 
+Submitted electronically via Regulations.gov 
+Subject: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P) 
+ 
+Background 
+ 
+The Texas Health Services Authority (THSA) was formed in 2007 under Texas Health and 
+Safety Code Chapter 182 for the purpose of promoting, implementing, and facilitating the 
+secure electronic exchange of health information in the State of Texas. THSA is a nonprofit, 
+independent, trusted advocate for health information exchange in Texas serving the public 
+and private sector by facilitating secure electronic exchange of health information 
+regardless of data origin or vendor platform.  
+As part of its charge under Texas Health and Safety Code Chapter 182, THSA convenes a 
+multidisciplinary, vendor agnostic collaborative including the complete continuum of care 
+that serves the State with improved care delivery, streamlining administrative processes, 
+and cost control realized through trusted cooperation.  
+Texas Health Services Authority commends CMS on initiatives reducing burden and 
+encouraging innovation and support this vision. The comments are a compilation of the 
+varied workgroups to ensure that there are no unintended consequences by sharing 
+information garnered from front-line clinicians. 
+Comments  
+Compliance date of October 1, 2027. 
+• Stakeholders are working diligently to implement CMS 0057 and recommend a 2-
+year moratorium to allow (non-payor) organizations to validate efficacy and optimize 
+prior authorization workflows with real-world data flow prior to inclusion of 
+medications.  
+ 
+901 S Mopac Expressway   Building 1, Su...

@@ -1,0 +1,188 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0506_20260629112017_aaeb1e39
+Commenter: Medical Group Management Association (MGMA)
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:24:07
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Medical Group Management Association (MGMA); signed by Anders Gilberg, Senior Vice President, Government Affairs.
+- **Stakeholder type:** Professional Association; Healthcare Provider representative.
+- **Credentials or expertise mentioned:** Represents more than 60,000 medical practice administrators, executives, and leaders; more than 15,000 medical groups; and more than 350,000 physicians across practice sizes and specialties.
+
+## 2. EXECUTIVE SUMMARY
+
+MGMA strongly supports CMS's movement toward standards-based electronic prior authorization for drugs, but asks CMS to ensure real-world readiness, provider workflow integration, stronger payer accountability, and reduced burden for medical groups. The comment urges shorter final-decision timeframes, more granular and centralized PA transparency reporting, careful FHIR/HIPAA implementation with enforcement discretion, and safeguards against Medicare FFS prior authorization expansion, step therapy misuse, and cybersecurity/resiliency burdens.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F; CMS-9115-F; CMS-4180-F; HIPAA Administrative Simplification; Medicare FFS references; ONC HTI-5; HIPAA Security Rule.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, PAS; CDeX; NCPDP standards; X12; Direct Secure Messaging; APIs; EHR and practice management system integration.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Standards-based electronic prior authorization for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Support with modifications.
+- **Rationale:** MGMA expects electronic PA for drugs to improve patient access and reduce provider administrative burden only if workflows are integrated into EHRs and practice systems, tested in real-world settings, and supported by vendors and payers.
+- **Specific request:** CMS should provide phased implementation, technical assistance, readiness testing, fallback processes, and protections so practices are not penalized for payer, vendor, clearinghouse, or API immaturity.
+
+**Topic 2: Prior authorization decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS
+- **Position:** Modify.
+- **Rationale:** MGMA supports alignment across Medicaid, CHIP, QHPs, and MA but says proposed deadlines remain too long and could be undermined by interim responses or information requests.
+- **Specific request:** Require final decisions within 24 hours for urgent requests and 48 hours for standard requests for all impacted payers, extend drug PA standards to MA, define missed deadlines as automatic approvals, and narrowly constrain extensions.
+
+**Topic 3: Public prior authorization reporting**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Support with modifications.
+- **Rationale:** Numeric counts, appeal outcomes, and denial-after-extension metrics improve transparency, but aggregate contract-level reporting is too broad to identify where denials and delays occur.
+- **Specific request:** Require plan- and service-level reporting for drugs and non-drug items, including counts and percentages for approvals, denials, appeal outcomes, and decision times, and publish centralized CMS-hosted data.
+
+**Topic 4: API endpoints and usage metrics**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS
+- **Position:** Support with clarifications.
+- **Rationale:** Centralized endpoint data can reduce implementation work for EHRs, vendors, clearinghouses, and practices, while usage metrics can measure whether APIs reduce manual work.
+- **Specific request:** CMS should reconcile inaccurate endpoints, use a machine-readable format such as a FHIR-enabled registry, and include metrics showing whether CRD and other APIs reduce avoidable PA activity and provider burden.
+
+**Topic 5: HIPAA Administrative Simplification FHIR proposal**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify.
+- **Rationale:** MGMA directionally supports FHIR-based PA transactions but warns that the administrative ecosystem still depends on X12, clearinghouses, EHRs, practice management systems, and revenue cycle vendors.
+- **Specific request:** CMS should use robust testing, further stakeholder input, longer-term enforcement discretion, and a measured transition strategy that maintains operational continuity and avoids duplicate workflows.
+
+**Topic 6: Medicare FFS prior authorization and WISeR**
+- **Provision ID:** HIPAA-PA-STANDARDS; GENERAL
+- **Position:** Oppose expansion; clarify.
+- **Rationale:** MGMA is concerned that CMS's stated goal for Medicare FFS to lead electronic PA could expand prior authorization in a program valued for relatively fewer burdens. It cites WISeR implementation problems, including missed response times, frequent denials, AI review issues, and delays.
+- **Specific request:** Pause WISeR and other Medicare FFS PA expansion efforts and focus on implementing CMS-0057-F and CMS-0062-P requirements for other federal payers.
+
+**Topic 7: RFIs on event notifications, cybersecurity, step therapy, labs, and DMEPOS**
+- **Provision ID:** GENERAL
+- **Position:** Support with guardrails and modifications.
+- **Rationale:** MGMA supports useful event notifications and resiliency but wants workflow integration, financial support for small practices, retained ONC security certification baselines, step therapy restrictions, and lab PA processes suited to same-day workflows.
+- **Specific request:** Maintain Direct Secure Messaging, invest in small/rural practice resiliency, rescind the proposed HIPAA Security Rule changes, reinstate MA Part B step therapy prohibition, add step therapy metrics, and allow flexible ordering/rendering provider PA submissions for labs and DMEPOS.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Supports requiring standards-based APIs/IGs in concept, but only with readiness testing, phased implementation, and provider workflow integration.
+- **S2/S3:** Requests a clear IG upgrade and version management roadmap with predictable timelines, backward compatibility where feasible, and sufficient notice before changes.
+- **S12:** Identifies technical challenges for medical-benefit drug FHIR PA, including vendor readiness, payer variation, clearinghouse/EHR immaturity, failed API performance, and duplicate workflows.
+- **S14:** Supports NCPDP-aligned pharmacy benefit drug PA standards, but asks CMS to test and coordinate pharmacy and medical drug workflows so practices do not face fragmented processes.
+- **S15:** Emphasizes the need to align medical-benefit and pharmacy-benefit drug workflows and avoid payer-specific complexity.
+- **S16/S17:** Asks CMS to ensure denial explanations and documentation requirements are specific, actionable, and not used to create repeated information requests or hidden delays.
+- **S20/S43:** Urges shorter PA timeframes than proposed: 24 hours for urgent and 48 hours for standard requests, with final decisions required and automatic approval for missed deadlines.
+- **S21/S28:** Supports drug PA modernization but says timelines must be phased and tested; also urges applying aligned timeframe standards to Medicare Advantage.
+- **S23/S24/S26/S27/S33:** Supports endpoint reporting if endpoints are accurate, machine-readable, centrally available, current, secure, and subject to oversight.
+- **S29/S30/S34/S35:** Supports usage metrics that assess whether APIs reduce manual work, improve access, and replace portal-based workflows rather than merely proving API existence.
+- **S44-S55:** Directionally supports FHIR for HIPAA PA transactions but asks CMS to account for X12 coexistence, readiness gaps, costs, small practice burden, testing, enforcement discretion, and phased implementation.
+- **S60-S65:** Requests ONC/CMS coordination on health IT standards updates, real-world testing, version transitions, and certification/security baselines.
+- **S66-S82:** Responds to RFIs on event notifications, resiliency/cybersecurity, step therapy, labs, and DMEPOS with recommendations for workflow integration, support for small practices, and stronger PA guardrails.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA policies only with real-world testing involving medical groups, transparent readiness updates, technical assistance, fallback processes, and phased implementation.
+2. Protect practices from payer, vendor, clearinghouse, EHR, and API readiness failures outside their control.
+3. Require PA decisions to be final decisions, not interim responses, and establish automatic approval when deadlines are missed.
+4. Shorten PA decision timeframes to 24 hours urgent and 48 hours standard across impacted payers, including Medicare Advantage.
+5. Require granular plan- and service-level PA reporting for drugs and non-drug services, including counts, percentages, appeal outcomes, and decision-time metrics.
+6. Publish payer PA reporting centrally on CMS's website in comparable formats.
+7. Require machine-readable, accurate, current API endpoint reporting with CMS oversight and correction processes.
+8. Measure whether API and CRD implementation reduces manual work, payer portal dependence, and avoidable PA submissions.
+9. Use a measured HIPAA FHIR transition with robust testing, stakeholder input, X12 coexistence planning, and enforcement discretion.
+10. Pause WISeR and other Medicare FFS PA expansion efforts.
+11. Support actionable event notifications without creating disconnected alerts or new manual reporting obligations.
+12. Provide resiliency and cybersecurity support for small and rural practices and retain relevant ONC security certification requirements.
+13. Reinstate the Medicare Advantage Part B step therapy prohibition or add strong guardrails, exception timelines, continuity protections, and metrics.
+14. Adapt lab and DMEPOS PA policies to same-day, high-volume workflows and allow flexible ordering/rendering provider submissions.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Implementation readiness; provider workflow disruption; payer accountability; insufficient PA transparency; overly rapid FHIR/HIPAA transition; Medicare FFS PA expansion; step therapy misuse; cybersecurity costs.
+- **Potential negative impacts cited:** Delayed medication and service access, abandoned care, duplicate documentation, increased staffing burden, higher costs for practices, inconsistent payer requirements, and destabilized operations.
+- **Implementation barriers mentioned:** EHR and vendor readiness, payer-by-payer variation, clearinghouse immaturity, API reliability, X12 dependency, small-practice resource limits, HIE participation costs, inconsistent patient matching, and incomplete provider directories.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** MGMA says 95 percent of practices report PA as a significant burden; 85 percent report PA burden increased in the last 12 months; nearly 40 percent employ three or more full-time administrative staff per physician for PA, denials, and regulatory requirements; 90 percent report shifts toward MA; nearly three-quarters increased cybersecurity spending in 2024.
+- **Studies or research referenced:** MGMA 2026 Regulatory Burden Report; AMA 2025 prior authorization survey; KFF Medicare Advantage PA analysis; Senate Homeland Security Committee report; Senator Cantwell WISeR snapshot; AHIP prior authorization pledge; prior MGMA CMS-0057-F comments.
+- **Examples provided:** WISeR delays and denials in six states; one practice with about 30 percent of 175 monthly PA requests denied; AI review tools failing to locate documentation; lab specimen waste and repeat testing; duplicative PA when shifting drug formulations.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medical group practices, physicians, patients, EHR vendors, clearinghouses, payers, QHP issuers, Medicaid/CHIP entities, Medicare Advantage plans, Medicare FFS beneficiaries, small and rural practices, laboratories, DMEPOS suppliers, and health IT vendors.
+- **Economic implications:** MGMA frames PA and cybersecurity as uncompensated cost centers for practices, with staffing, vendor, HIE, implementation, compliance, and operational continuity costs especially difficult for smaller practices.
+- **Technical feasibility:** Feasible if phased, tested, vendor-supported, backward-compatible where possible, and accompanied by enforcement discretion and fallback processes; risky if CMS assumes universal FHIR readiness.
+- **Patient care impact:** Proper implementation could speed drug access and reduce care delays, while poor implementation, step therapy, lab PA delays, WISeR-style processes, or missed PA deadlines could delay treatment, worsen conditions, and increase abandoned care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed/Concerned.
+- **Tone:** Professional, technical, and collaborative, with critical concerns about implementation and Medicare FFS expansion.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Voluntary commitments alone are insufficient" - Context: MGMA argues enforceable CMS regulation is needed for PA reform.
+2. "Future implementation must not add digital complexity or cost." - Context: MGMA supports ePA only if it reduces provider burden.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - MGMA requests phased timelines, testing, enforcement discretion, and shorter PA decision deadlines.
+- [x] **COST-RESOURCES** - The comment emphasizes uncompensated provider workload, cybersecurity spending, vendor costs, and small-practice resource limits.
+- [x] **PROVIDER-BURDEN** - Reducing medical group administrative burden is the central theme across PA, APIs, reporting, step therapy, labs, and cybersecurity.
+- [x] **PRIVACY-SECURITY** - Cybersecurity, HIPAA Security Rule concerns, vendor security accountability, and operational resiliency are addressed.
+- [x] **HEALTH-EQUITY** - MGMA asks CMS to account for small, rural, underserved, and less-resourced practices so benefits are equitable.
+- [x] **TECHNICAL-FEASIBILITY** - The comment repeatedly flags API reliability, EHR/vendor readiness, HIE connectivity, and FHIR operational readiness.
+- [x] **STANDARDS-MATURITY** - MGMA asks for IG version management, backward compatibility, testing, and FHIR/X12 transition planning.
+- [x] **PATIENT-ACCESS** - The comment links PA delays, denials, step therapy, lab workflows, and drug authorization delays to patient access and outcomes.
+- [x] **REGULATORY-AUTHORITY** - MGMA discusses HIPAA Administrative Simplification and CMS authority-related implementation choices, though it focuses more on feasibility than legal objections.
+- [x] **STAKEHOLDER-COORDINATION** - It calls for coordinated testing among providers, vendors, payers, CMS, ONC, clearinghouses, and HIEs.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - It asks CMS to prevent complexity between FHIR medical-benefit drug workflows and NCPDP pharmacy-benefit workflows.
+- [x] **TRANSPARENCY** - It seeks more granular reporting, centralized CMS publication, endpoint transparency, step therapy metrics, and clearer denial/exceptions processes.
+- [x] **SMALL-PAYER-IMPACT** - Not a primary payer-focused argument, but the comment addresses smaller practices and resource-limited entities that depend on payer/vendor readiness.
+- [x] **EXISTING-WORKFLOWS** - MGMA stresses that reforms must integrate into existing EHR, practice management, claims, appeals, lab, and care coordination workflows.
+- [x] **VENDOR-ECOSYSTEM** - EHRs, clearinghouses, revenue cycle vendors, HIEs, cybersecurity vendors, and payer vendors are central to the implementation concerns.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+The Honorable Mehmet Oz, M.D. 
+Administrator  
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+P.O. Box 8013 
+Baltimore MD 21244-8013 
+ 
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health 
+Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of 
+Qualified Health Plans on the Federally-Facilitated Exchanges [CMS-0062-P] 
+ 
+Dear Administrator Oz,  
+ 
+On behalf of our member medical group practices, the Medical Group Management Association 
+(MGMA) appreciates the opportunity to provide comments to the Centers for Medicare & Medicaid 
+Services (CMS) on the Notice of Proposed Rulemaking (proposed rule) for the 2026 Interoperability 
+Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P). The proposed rule was 
+published on the Federal Register on April 14, 2026, and builds on the 2024 CMS Interoperability and 
+Prior Authorization Final Rule (CMS-0057-F) and CMS Interoperability and Patient Access Final Rule 
+(CMS-9115-F).  
+ 
+MGMA strongly supports CMSâ€™s outlined proposals to advance interoperability and improve prior 
+authorization for prescription drugs, which, if implemented correctly, would help support patient 
+care and improve medical group operations. Our comments provide further recommendations and 
+clarifications to help CMS successfully achieve these objectives, including:  
+ 
+â€¢ 
+Ensuring successful health information technology implementation and readiness of 
+standards through real-world testing and by making investments, where needed, so that medical 
+groups benefit from these policies without experiencing added burden, complexity, duplicative 
+workflows, cost, or unnecessary delays. 
+â€¢ 
+Strengthening prior authorization timelin...

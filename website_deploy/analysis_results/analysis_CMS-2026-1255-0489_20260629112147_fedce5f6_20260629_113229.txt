@@ -1,0 +1,165 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0489_20260629112147_fedce5f6
+Commenter: Jefferson Health Plans
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:32:29
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Jefferson Health Plans (JHP); signed by Krista Hoglund, EVP, President Jefferson Health Plans.
+- **Stakeholder type:** Payer.
+- **Credentials or expertise mentioned:** JHP is owned by Thomas Jefferson University and affiliated with Jefferson Health, a 32-hospital integrated delivery and finance system. It offers MA-PD, D-SNP, individual/family QHP, Medicaid, and CHIP plans and cites NCQA accreditation for health equity and quality standards.
+
+## 2. EXECUTIVE SUMMARY
+
+JHP supports CMS's interoperability and prior authorization objectives but argues several requirements are not yet operationally feasible. It asks CMS to clarify PBM-delegated compliance, phase or delay RTPB routing and drug ePA implementation, define compliant IG version transitions, make endpoint reporting workable, and preserve program-specific prior authorization timeframes.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; PA-TIMEFRAMES-DRUGS; ONC-STANDARDS-UPDATE; GENERAL.
+- **Regulatory citations mentioned:** No CFR citations. The comment references Section II.A.4, Section II.B, Section II.E, Section II.J of the proposed rule and CMS-0057-F.
+- **Standards referenced:** NCPDP SCRIPT, NCPDP Formulary & Benefit (F&B), Real-Time Prescription Benefit (RTPB), FHIR, CRD v2.1.0/v2.2.1, DTR v2.1.0/v2.2.0, PAS v2.1.0/v2.2.1, NDH IG, ONC SVAP.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: PBM delegated compliance and audit responsibility**
+- **Provision ID:** PA-DRUG-PHARMACY; API-USAGE-METRICS; GENERAL
+- **Position:** Clarify
+- **Rationale:** JHP accepts that impacted payers remain responsible for compliance, but PBMs often hold the data, logs, denial reasons, and operational systems needed for NCPDP and reporting compliance.
+- **Specific request:** CMS should define how plans can demonstrate delegated compliance through contracts, what PBM-plan data-sharing timelines are reasonable, and how audits will treat data held by PBMs or third-party vendors.
+
+**Topic 2: NCPDP F&B and RTPB readiness**
+- **Provision ID:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL
+- **Position:** Modify / Clarify
+- **Rationale:** F&B flat files are updated weekly or biweekly and can lag policy changes, while RTPB is designed for pharmacy-benefit cost and coverage information rather than medical-versus-pharmacy routing.
+- **Specific request:** CMS should set minimum F&B update guidance, clarify whether RTPB must support benefit routing by October 1, 2027, allow alternatives, and phase RTPB-based routing.
+
+**Topic 3: IG versioning transition**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Clarify
+- **Rationale:** Plans are building toward CMS-0057-F for January 1, 2027, and need assurance that CRD/DTR/PAS v2.1.0 will be compliant before proposed 2028 expiration of current versions.
+- **Specific request:** Confirm v2.1.0 IGs are compliant from January 1, 2027 through December 31, 2027; publish a version compliance matrix; and align ONC SVAP with CMS rulemaking timelines.
+
+**Topic 4: API endpoint reporting feasibility**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** JHP supports centralized endpoint discovery but says a 60-day initial deadline and 7-day update rule do not account for multiple CRD/DTR/PAS endpoints, multiple plan types, authentication metadata, or NDH IG limitations.
+- **Specific request:** Publish a standardized template, extend initial reporting to at least 120 days, allow local FHIR endpoint directories, and clarify what changes trigger the 7-day update rule.
+
+**Topic 5: October 1, 2027 implementation timeline**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; API-ENDPOINT-REPORTING
+- **Position:** Modify
+- **Rationale:** JHP says the date is overly aggressive given FHIR API development, NCPDP alignment, delegated vendors, provider EMR integration, and new reporting workflows.
+- **Specific request:** Extend the timeline for phased or staggered compliance and allow incremental adoption where external vendor or provider integration is required.
+
+**Topic 6: Prior authorization decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Oppose / Modify
+- **Rationale:** JHP says aligning Medicare Advantage timeframes with Medicaid managed care and CHIP ignores program differences and may increase inappropriate denials, appeals, grievances, and administrative burden.
+- **Specific request:** Maintain distinct timeframes for MA, Medicaid, and CHIP or allow flexibility based on program-specific utilization management and clinical workflows.
+
+## 5. SOLICITATION RESPONSES
+
+- **S2/S3:** Requests a clearly defined IG version bridge, including confirmation that CRD/DTR/PAS v2.1.0 are compliant during 2027 and a version matrix for transition to 2028 versions.
+- **S12:** Notes significant implementation and testing work for FHIR-based drug PA APIs and provider EMR integration.
+- **S14:** Explains that QHP pharmacy-benefit infrastructure often resides with PBMs and requires contractual data exchange.
+- **S15:** States RTPB does not currently support medical versus pharmacy benefit routing and asks whether alternative solutions are acceptable.
+- **S19/S22:** Provides payer operational perspective that NCPDP F&B and RTPB use is not sufficiently standardized for the proposed requirements.
+- **S21:** Says the October 1, 2027 implementation date is too aggressive and recommends phased or staggered compliance.
+- **S24/S26/S27:** Requests a standardized endpoint reporting template, longer initial reporting period, and clarification of the 7-day update trigger.
+- **S33:** Supports centralized endpoint discovery but asks CMS to account for multi-URL, multi-plan-type, multi-API reporting.
+- **S40/S41:** Notes QHP issuer complexity and asks for timeline flexibility for individual and small group plan configurations.
+- **S43:** Opposes uniform alignment of MA, Medicaid, and CHIP PA timeframes and requests program-specific flexibility.
+- **S60/S61/S63/S64:** Requests alignment between CMS rulemaking and ONC SVAP/version expiration processes.
+- **S65:** Argues industry adoption and vendor build plans around IG v2.1.0 should be considered in transition policy.
+
+## 6. RECOMMENDATIONS
+
+1. Provide explicit guidance on how payers can satisfy compliance through PBM contracts.
+2. Define reasonable PBM-to-plan data-sharing timelines for reporting and audits.
+3. Clarify whether PBM-held data and PBM failures will be attributed to the plan during audits.
+4. Convene technical assistance with plans and PBMs before finalization.
+5. Set guidance for minimum F&B update frequency and acknowledge stale-data risks.
+6. Clarify whether RTPB must route medical versus pharmacy benefit requests by October 1, 2027.
+7. Permit alternative routing solutions and phased RTPB compliance.
+8. Confirm CRD/DTR/PAS v2.1.0 compliance for 2027 and publish a version compliance matrix.
+9. Align ONC SVAP with CMS compliance dates.
+10. Publish a standardized endpoint reporting template before the final rule effective date.
+11. Extend endpoint reporting from 60 days to at least 120 days and clarify the 7-day update rule.
+12. Allow local FHIR endpoint directories as an alternative or complement to CMS reporting.
+13. Extend or phase the October 1, 2027 compliance date.
+14. Preserve separate PA timeframes for MA, Medicaid, and CHIP or allow program-specific flexibility.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delegated PBM operational control, stale F&B data, RTPB limitations, IG version ambiguity, infeasible endpoint reporting timelines, aggressive implementation schedule, and inappropriate cross-program PA timeframe alignment.
+- **Potential negative impacts cited:** Compliance exposure outside plan control, inaccurate provider signals, delayed or misrouted PA requests, disrupted vendor roadmaps, inappropriate denials, more appeals/grievances, and operational burden.
+- **Implementation barriers mentioned:** PBM data ownership, Surescripts/PBM network dependencies, vendor contracts, multiple API endpoints, NDH IG limitations, external provider EMR integration, and tight compliance timelines.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No numeric industry data; JHP describes its product lines and Jefferson Health affiliation.
+- **Studies or research referenced:** None.
+- **Examples provided:** F&B flat file update lag of several days to two weeks; RTPB queries handled through Surescripts and PBM systems; CRD/DTR/PAS version build timing; multiple plan types with potentially different endpoint configurations.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** QHP issuers, MA plans, Medicaid/CHIP plans, PBMs, third-party administrators, providers, EMR vendors, beneficiaries, and CMS auditors.
+- **Economic implications:** Compliance costs arise from vendor contracts, system integration, endpoint reporting operations, and roadmap disruption from uncertain IG versions.
+- **Technical feasibility:** JHP views feasibility as conditional on phased timelines, version clarity, reporting templates, and PBM/vendor coordination.
+- **Patient care impact:** CMS goals could improve access, but compressed review timeframes or inaccurate routing could increase denials, appeals, and disruption.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned / Mixed.
+- **Tone:** Professional, operational, technical.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "ultimate responsibility for regulatory compliance would be on impacted payers themselves" - Context: JHP frames its concern about PBM-delegated operations.
+2. "current F&B flat file update cadences may create accuracy gaps" - Context: F&B files can lag prior authorization policy changes.
+3. "the proposed rule creates a significant compliance gap" - Context: IG version transition uncertainty.
+4. "proposed requirements as written do not account for the practical complexity" - Context: Endpoint reporting for multi-API, multi-plan infrastructure.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - JHP requests phased or staggered compliance and longer endpoint reporting timelines.
+- [x] **COST-RESOURCES** - The comment ties uncertainty to vendor contracts, IT roadmaps, and budget planning.
+- [x] **PROVIDER-BURDEN** - JHP warns routing errors and compressed reviews may burden providers.
+- [ ] **PRIVACY-SECURITY** - Not a major theme beyond authentication metadata in endpoint reporting.
+- [ ] **HEALTH-EQUITY** - JHP mentions health equity accreditation but does not analyze equity impacts.
+- [x] **TECHNICAL-FEASIBILITY** - The comment focuses on technical readiness of RTPB, endpoint reporting, and IG transitions.
+- [x] **STANDARDS-MATURITY** - JHP emphasizes NCPDP operational maturity and CRD/DTR/PAS version management.
+- [x] **PATIENT-ACCESS** - It warns of member experience and access risks from inappropriate denials and workflow disruption.
+- [ ] **REGULATORY-AUTHORITY** - No legal authority objection is raised.
+- [x] **STAKEHOLDER-COORDINATION** - The comment asks for coordination among CMS, plans, PBMs, vendors, ONC, and providers.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - RTPB routing between medical and pharmacy benefit is a central concern.
+- [x] **TRANSPARENCY** - JHP supports endpoint discovery and transparent operational reporting if feasible.
+- [x] **SMALL-PAYER-IMPACT** - JHP's QHP and plan-type concerns imply issuer-specific operational burden, including small group configurations.
+- [x] **EXISTING-WORKFLOWS** - Current F&B, RTPB, PBM, and PA timeframe workflows drive the commenter's requests.
+- [x] **VENDOR-ECOSYSTEM** - PBMs, Surescripts, EMR vendors, and API vendors are central to implementation feasibility.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1101 Market Street, Suite 3000
+Philadelphia, PA 19107
+JeffersonHealthPlans.com
+June 15, 2026
+
+Re: CMS-0062-P - Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+
+Dear Secretary Kennedy and Administrator Oz,
+Jefferson Health Plans (JHP) appreciates the opportunity to provide feedback on the 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule (CMS-0062-P).
+JHP is solely owned by Thomas Jefferson University, and affiliated with Jefferson Health, a 32-hospital integrated delivery and finance system with campuses in Eastern Pennsylvania and New Jersey.
+
+JHP strongly supports CMS's goals of advancing electronic prior authorization, improving transparency, and reducing administrative burden on providers and patients. We are respectfully providing the following comments and requests for clarification:
+
+Comment 1: PBM Coordination Gap - Compliance Responsibility vs. Operational Reality
+CMS acknowledges in the preamble that many impacted payers use pharmacy benefit managers (PBMs) to manage prescription drug benefits, including prior authorization, on their behalf. CMS further states that the ultimate responsibility for regulatory compliance would be on impacted payers themselves.
+...

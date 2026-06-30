@@ -1,0 +1,180 @@
+    REGULATORY COMMENT ANALYSIS
+    ===========================
+    Comment ID: CMS-2026-1255-0579_20260629112349_c1fd9e8b
+    Commenter: American Pharmacists Association
+    Source: PDF Attachment
+    Analysis Date: 2026-06-29 15:32:23
+    ==================================================
+
+    # Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** American Pharmacists Association (APhA); signed by Michael Baxter, Vice President, Government Affairs.
+- **Stakeholder type:** Professional Association / Healthcare Provider association.
+- **Credentials or expertise mentioned:** Represents pharmacists, student pharmacists, and pharmacy technicians across community pharmacies, hospitals, long-term care, specialty pharmacies, community health centers, physician offices, ambulatory clinics, managed care, hospice, and government settings.
+
+## 2. EXECUTIVE SUMMARY
+
+APhA supports CMS proposals to streamline drug prior authorization through NCPDP standards for pharmacy benefit drugs, FHIR APIs for medical benefit drugs, denial transparency, shorter/standardized decision timeframes, and public PA metrics. APhA urges CMS to ensure reforms reduce pharmacy burden, provide real-time patient-specific benefit/formulary information, protect continuity of care, expand pharmacists' access to interoperability data, and use pharmacy input in step therapy workflows.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-PHARMACY; PA-DRUG-MEDICAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL/RFI Step Therapy; Provider Access API and Payer-to-Payer API related interoperability.
+- **Regulatory citations mentioned:** Federal Register page references including FR 19901, 19923, 19932, 19951, and 20013; no CFR citations emphasized.
+- **Standards referenced:** NCPDP SCRIPT; NCPDP Formulary & Benefit; NCPDP Real-Time Prescription Benefit; HL7 FHIR; Da Vinci CRD, DTR, and PAS; Provider Access API; Payer-to-Payer API.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: NCPDP standards for pharmacy benefit drugs**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NCPDP SCRIPT, F&B, and RTPB can reduce fax/phone/portal workflows, provide real-time patient-specific information, and reduce rejected claims at the pharmacy counter.
+- **Specific request:** Finalize NCPDP standards for pharmacy benefit ePA and ensure point-of-prescribing and point-of-dispensing access to formulary, benefit, PA, step therapy, and cost-sharing information.
+
+**Topic 2: FHIR PA API for medical benefit drugs**
+- **Provision ID:** PA-DRUG-MEDICAL / FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Adding medical benefit drugs to the existing PA API requires no changes to existing standards and can streamline provider workflow and reduce barriers.
+- **Specific request:** Finalize incorporation of medical benefit drugs into the Prior Authorization API.
+
+**Topic 3: Denial reasons and communication**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Clarify
+- **Rationale:** Specific denial reasons help pharmacists and other providers respond more efficiently, reduce resubmissions, and coordinate care.
+- **Specific request:** Denial explanations should include clinical rationale, missing information, and covered alternatives.
+
+**Topic 4: Decision timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Shorter timelines reduce prescription abandonment and therapy interruption.
+- **Specific request:** Keep timelines as short and standardized as possible, including 72-hour standard and 24-hour expedited QHP timeframes.
+
+**Topic 5: PA metrics and accountability**
+- **Provision ID:** API-USAGE-METRICS / TRANSPARENCY
+- **Position:** Support
+- **Rationale:** Public reporting improves transparency and helps stakeholders assess prior authorization impacts.
+- **Specific request:** Finalize annual PA metrics reporting and consider broader burden-reduction policies such as gold carding.
+
+**Topic 6: Pharmacist access to interoperability data**
+- **Provision ID:** GENERAL / Provider Access API
+- **Position:** Modify
+- **Rationale:** Pharmacists need data to coordinate care and resolve PA issues at dispensing.
+- **Specific request:** Provide pharmacists with appropriate Provider Access API data access, establish a timeline for pharmacy interoperability, and use Pharmacy Profiles as a provider directory source.
+
+**Topic 7: Step therapy**
+- **Provision ID:** GENERAL/RFI S66-S82
+- **Position:** Modify
+- **Rationale:** Pharmacists often know when a medication failed or caused adverse effects and can supply real-time information to streamline exceptions.
+- **Specific request:** Expand interoperability with pharmacies for real-time pharmacist input and ensure efficient exceptions/overrides for clinically appropriate cases.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports incorporating medical benefit drugs into the PA API.
+- **S14:** Supports NCPDP standards for pharmacy benefit drug PA.
+- **S16:** Supports specific denial reasons for all drug prior authorization denials.
+- **S17:** Recommends denial explanations include clinical rationale, missing information, and covered alternatives; implies support for structured/actionable denial detail.
+- **S20/S43:** Supports shorter, standardized decision timeframes across payers.
+- **S22:** Supports NCPDP standards as burden-reducing for pharmacists and pharmacy technicians.
+- **S25:** Supports RTPB use because it provides patient-specific eligibility, coverage restrictions, alternatives, and estimated cost sharing.
+- **S29/S35:** Supports public reporting of PA metrics to promote accountability and transparency.
+- **S66-S82:** Responds to step therapy RFI by recommending pharmacy interoperability, pharmacist input on prior therapy failures/adverse effects, and efficient exceptions.
+
+## 6. RECOMMENDATIONS
+
+1. Reference and align final policies with the 21 Prior Authorization and Utilization Management Reform Principles.
+2. Finalize NCPDP SCRIPT, F&B, and RTPB standards for pharmacy benefit drug PA.
+3. Ensure real-time, patient-specific formulary, benefit, PA, step therapy, and cost-sharing information at prescribing and dispensing.
+4. Finalize expansion of the FHIR Prior Authorization API to medical benefit drugs.
+5. Require specific denial explanations with clinical rationale, missing information, and covered alternatives.
+6. Standardize and shorten PA decision timelines.
+7. Publicly report PA metrics for transparency and accountability.
+8. Consider limiting PA volume through outlier-based policies and gold carding.
+9. Provide pharmacists with appropriate access to Provider Access API data and establish a pharmacy interoperability timeline.
+10. Use Pharmacy Profiles as a provider directory data source for pharmacy professionals.
+11. Use interoperability to streamline step therapy attestations, exceptions, and overrides.
+12. Incorporate continuity-of-care protections so stable patients are not interrupted by new PA or step therapy requirements.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Pharmacy burden, treatment delays, confusing coverage rules, fax/manual processes, prescription abandonment, lack of pharmacist access to data, step therapy delays.
+- **Potential negative impacts cited:** Patients forgo medications, frustration at pharmacy counter, therapy interruptions, disease progression, unnecessary repetition of step therapy.
+- **Implementation barriers mentioned:** Variation across payers, limited pharmacist access to interoperability infrastructure, need for credential verification and provider directory inclusion.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No original quantitative data; quotes Federal Register descriptions of NCPDP and FHIR standards and workflows.
+- **Studies or research referenced:** 21 Prior Authorization and Utilization Management Reform Principles workgroup report.
+- **Examples provided:** Pharmacy counter claim rejections; fax-based PA responses; pharmacist knowledge of treatment failure/adverse effects; Pharmacy Profiles credential verification.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Pharmacists, pharmacy technicians, patients, prescribers, payers/PBMs, pharmacies, managed care organizations.
+- **Economic implications:** Reduced manual PA burden could save staff time; real-time benefit information may reduce claim rejections and prescription abandonment.
+- **Technical feasibility:** Supports using established NCPDP standards for pharmacy benefit and FHIR/Da Vinci for medical benefit; calls for pharmacy interoperability expansion.
+- **Patient care impact:** Positive if reforms reduce delays, preserve continuity of therapy, improve PA transparency, and streamline step therapy exceptions.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with additional recommendations
+- **Tone:** Professional, technical, provider-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "APhA supports the use of these standards to streamline the prior authorization process, reducing barriers to patient care and saving pharmacists and pharmacy technicians time." - Context: NCPDP pharmacy benefit standards.
+2. "Providing this level of information at the point of prescribing should help to reduce the number of prior authorizations." - Context: NCPDP F&B support.
+3. "Denial explanations should include a clear clinical rationale, identification of missing information, and any covered alternatives." - Context: Recommended denial explanation content.
+4. "APhA encourages CMS to expand interoperability with pharmacies to allow pharmacists to provide input on drug therapies the patient may have tried." - Context: Step therapy RFI response.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Focuses on pharmacist and pharmacy technician time spent on PA.
+- [x] **PATIENT-ACCESS** - Emphasizes medication delays, abandonment, and timely access.
+- [x] **TECHNICAL-FEASIBILITY** - Addresses NCPDP, FHIR, API access, and interoperability implementation.
+- [x] **STANDARDS-MATURITY** - Supports established NCPDP and FHIR/Da Vinci standards.
+- [x] **TRANSPARENCY** - Supports denial reasons and public PA metrics.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for pharmacist inclusion in interoperability and directory workflows.
+- [x] **EXISTING-WORKFLOWS** - Seeks to replace fax/phone/portal processes with standardized electronic transactions.
+- [x] **VENDOR-ECOSYSTEM** - Discusses health IT systems, EHRs, Pharmacy Profiles, and APIs.
+
+
+    ==================================================
+    ORIGINAL COMMENT EXCERPT
+    ------------------------
+    June 15, 2026  
+
+[Submitted electronically to http://www.regulations.gov]  
+
+The Honorable Robert F. Kennedy, Jr.  
+Secretary  
+Department of Health and Human Services (HHS)  
+200 Independence Ave SW 
+Washington, DC 20201 
+
+RE: [Docket No. CMS-0062-P] Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for 
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Children’s Health Insurance Program (CHIP) Agencies and CHIP Managed Care 
+Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges, 
+Proposed Rule  
+
+Dear Secretary Kennedy,  
+
+The American Pharmacists Association (APhA) appreciates the opportunity to provide HHS 
+and the Centers for Medicare & Medicaid Services (CMS) comments on the “Medicare and 
+Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and 
+Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care 
+Plans, State Medicaid Agencies, Children’s Health Insurance Program (CHIP) Agencies and 
+CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated 
+Exchanges,” proposed rule.  
+
+APhA represents pharmacists, student pharmacists, and pharmacy technicians in all practice 
+settings, including but not limited to community pharmacies, hospitals, long-term care facilities, 
+specialty pharmacies, community health centers, physician offices, ambulatory clinics, managed 
+care organizations, hospice settings, and government facilities. Our members strive to improve 
+medication use, advance patient care, and enhance public health.  
+
+In January 2017, APhA joined a workgroup of 17 state and specialty medical societies, national 
+provider associations, and patient representatives to develop best practices for prior 
+authorization and other utilization management requirements by identifying the most common...

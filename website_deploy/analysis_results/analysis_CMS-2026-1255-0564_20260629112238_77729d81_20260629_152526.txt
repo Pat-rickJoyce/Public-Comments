@@ -1,0 +1,247 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0564_20260629112238_77729d81
+Commenter: Blue Cross Blue Shield Association (BCBSA)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:25:26
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Blue Cross Blue Shield Association (BCBSA); signed by Amanda Lincoln, Vice President, Policy & Advocacy.
+- **Stakeholder type:** Payer; national health insurance association.
+- **Credentials or expertise mentioned:** Federation of independent Blue Cross and Blue Shield companies covering one in three Americans; BCBS Plans contract with 97% of hospitals and 83% of doctors; BCBSA participates in HL7 FHIR API, Da Vinci, Gravity Project, Sequoia Project, WEDI, and FHIR at Scale Taskforce efforts.
+
+## 2. EXECUTIVE SUMMARY
+
+BCBSA supports the rule's goals and many core proposals, including separate FHIR and NCPDP drug PA pathways, denial reasons, QHP timeframe alignment, endpoint reporting, API usage metrics, and FHIR-based HIPAA PA standards. It urges CMS to extend new prescription drug API implementation by two years, set FHIR versioning guardrails, clarify delegated entity/PBM compliance, drive provider and EHR adoption, avoid raw-count PA metrics, standardize reporting definitions, and clarify preemption of conflicting state requirements.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL/RFIs.
+- **Regulatory citations mentioned:** 91 FR 19890; 42 CFR 440.230(e); 42 CFR 457.495(d); 45 CFR 170.215; section 1927(k)(3) and 1905(a)(12) of the Social Security Act; 45 CFR 162-related HIPAA standards discussed generally.
+- **Standards referenced:** HL7 FHIR; HL7 Da Vinci CRD, DTR, PAS, CDex; NCPDP SCRIPT, F&B, RTPB; X12 278 and 270/271; FHIR US Core, SMART App Launch; SVAP; TEFCA; NDH IG endpoint profile.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prescription drug ePA implementation timeline**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Prescription drug PA introduces variable benefit classification, cross-system coordination, routing edge cases, and limited end-to-end testing, while relying on the same staff and technical resources implementing medical ePA.
+- **Specific request:** Extend implementation dates for prescription drug ePA APIs by two years after finalization.
+
+**Topic 2: Scope and delegated entities**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Clarify / Modify
+- **Rationale:** Drug PA workflows are often split among health plans, PBMs, specialty pharmacies, vendors, and utilization-management contractors.
+- **Specific request:** Clearly define applicability across medical- and pharmacy-benefit drug workflows and explicitly allow compliance through PBMs and other delegated entities.
+
+**Topic 3: Provider adoption of ePA APIs**
+- **Provision ID:** GENERAL; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Payer API investments will not reduce burden unless providers and EHR vendors enable and use the APIs in workflows.
+- **Specific request:** Amend Medicare Conditions of Participation to require hospitals/clinicians to enable FHIR APIs and strengthen Promoting Interoperability measures beyond one transaction.
+
+**Topic 4: NCPDP SCRIPT as pharmacy-benefit drug PA standard**
+- **Provision ID:** PA-DRUG-PHARMACY; HIPAA-PA-STANDARDS
+- **Position:** Support / Modify
+- **Rationale:** SCRIPT is a mature pharmacy-specific standard and a single standard reduces fragmentation.
+- **Specific request:** Require NCPDP SCRIPT as the single HIPAA standard transaction for electronic PA for retail pharmacy drugs.
+
+**Topic 5: Dual medical vs pharmacy pathways**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Separate pathways reflect current FHIR API capabilities and differences in medical and pharmacy claims infrastructure.
+- **Specific request:** Finalize separate FHIR-based medical-benefit and NCPDP pharmacy-benefit drug PA pathways.
+
+**Topic 6: Denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support / Clarify
+- **Rationale:** Providers need denial reasons regardless of submission channel, but requirements should not reinforce phone/fax or require duplicative parallel notices.
+- **Specific request:** Clarify payers may communicate specific denial reasons through the primary channel used for PA decisions.
+
+**Topic 7: QHP and Medicaid/CHIP PA timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Support
+- **Rationale:** Aligning QHP provider notification timeframes reduces variability; extension flexibility prevents erroneous denials when records are incomplete or cases are complex.
+- **Specific request:** Finalize 7-day/72-hour QHP non-drug timeframes, 72-hour/24-hour QHP drug timeframes, 14-day extensions under defined circumstances, and non-drug timeframes for non-covered outpatient drugs; clarify Medicaid/CHIP FFS maximum timeframes.
+
+**Topic 8: PA metrics and reporting**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify / Oppose in part
+- **Rationale:** Percentages are normalized and comparable, while raw counts may mislead consumers and impose incremental burden. New drug metrics need sufficient lead time and standardized definitions.
+- **Specific request:** Do not require raw numerators/denominators; delay new non-drug metrics for the immediately following reporting period; first require drug PA metrics for 2028 data by March 31, 2029; provide clear definitions and reporting methods.
+
+**Topic 9: FHIR versioning and formulary information**
+- **Provision ID:** FHIR-IG-REQUIRED; ONC-STANDARDS-UPDATE
+- **Position:** Modify / Support
+- **Rationale:** A version-neutral framework can fragment the ecosystem if stakeholders adopt incompatible versions; NCPDP F&B is more appropriate for formulary information.
+- **Specific request:** Set an initial floor version plus one updated version above the floor, use SVAP for future updates, account for backward compatibility, and remove drug formulary information from Provider Access and Payer-to-Payer APIs.
+
+**Topic 10: HIPAA PA standards and X12 replacement**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support
+- **Rationale:** X12 278 has limited adoption for PA and FHIR supports richer clinical context, better integration, and consistency with PA APIs.
+- **Specific request:** Adopt FHIR-based HIPAA standards to replace X12 278 and 270/271 for PA-related authorization and coverage requirement transactions.
+
+**Topic 11: State law and market constraints**
+- **Provision ID:** GENERAL; HIPAA-PA-STANDARDS
+- **Position:** Clarify
+- **Rationale:** State laws may prescribe different PA mechanisms or forms, creating conflicting obligations and parallel workflows.
+- **Specific request:** Confirm whether federal ePA requirements preempt conflicting state requirements.
+
+**Topic 12: API usage metrics and endpoints**
+- **Provision ID:** API-USAGE-METRICS; API-ENDPOINT-REPORTING
+- **Position:** Support / Clarify
+- **Rationale:** Usage metrics can show adoption, but definitions must be consistent; endpoint directories are needed for discovery and onboarding.
+- **Specific request:** Define API usage metrics, successful/unsuccessful calls, PA versus step therapy/formulary exceptions/quantity limits; establish a centralized endpoint directory, standardized documentation, ownership validation, and line-of-business identification.
+
+**Topic 13: CDex, RFIs, cybersecurity, step therapy, labs/DMEPOS, event notifications**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL/RFIs
+- **Position:** Modify / Clarify
+- **Rationale:** CDex and broader RFI topics require scope limits, realistic oversight, privacy/security harmonization, and attention to provider/vendor adoption.
+- **Specific request:** Use CDex for attachments in a targeted manner; avoid certification that focuses only on payer-side compliance; align cybersecurity/interoperability rules; support resiliency, clearinghouse contingency, TEFCA use, and balanced point-to-point exchange.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S15/S21/S28:** Supports extending ePA to drugs but requests a two-year implementation extension, clear scope, delegated-entity recognition, and benefit-routing clarity.
+- **S14/S19/S22/S25/S31:** Supports NCPDP SCRIPT for pharmacy-benefit drug PA and recommends it as the single HIPAA standard for retail pharmacy drugs.
+- **S16/S17:** Supports denial reasons and asks CMS to clarify use of the primary response channel to avoid duplicative manual processes.
+- **S20/S43:** Supports proposed QHP and Medicaid/CHIP timeframe clarifications and extension provisions, including different timeframes for drugs outside covered outpatient drug definitions.
+- **S29/S30/S34/S35:** Supports API usage metrics but requests clear definitions and specifications.
+- **S23/S24/S26/S27/S33:** Supports centralized endpoint reporting, standardized documentation, endpoint ownership validation, and line-of-business/program identifiers.
+- **S1-S3/S18/S37/S60-S65:** Requests FHIR version guardrails, SVAP as update mechanism, backward compatibility expectations, and alignment with ONC-supported versions.
+- **S44-S56:** Supports adopting FHIR-based HIPAA PA standards to replace X12 for PA-related transactions and requests alignment and sequencing.
+- **S66-S82:** Responds extensively to RFIs on step therapy, labs/DMEPOS, ADT/event notifications, cybersecurity, clearinghouses, TEFCA, and payer API implementation.
+
+## 6. RECOMMENDATIONS
+
+1. Extend prescription drug ePA API implementation by two years after rule finalization.
+2. Define the scope of ePA for medical- and pharmacy-benefit drugs.
+3. Allow plans to satisfy requirements through PBMs and delegated vendors.
+4. Drive provider and EHR adoption through Conditions of Participation and stronger Promoting Interoperability measures.
+5. Require NCPDP SCRIPT as the single HIPAA standard for retail pharmacy drug ePA.
+6. Finalize separate FHIR and NCPDP pathways for medical- and pharmacy-benefit drugs.
+7. Clarify denial reasons may be communicated through the primary response channel.
+8. Finalize proposed QHP drug and non-drug timeframes and extension flexibilities.
+9. Avoid reporting raw numerator/denominator counts for PA metrics.
+10. Delay first drug PA metric reporting to 2028 data reported by March 31, 2029.
+11. Standardize drug PA metric definitions and reporting methods.
+12. Set FHIR version guardrails with an initial floor plus one updated version and SVAP updates.
+13. Remove drug formulary information from Provider Access and Payer-to-Payer APIs.
+14. Adopt FHIR as HIPAA standard for PA-related authorization and coverage-requirement transactions.
+15. Align new requirements with existing and forthcoming CMS/ONC rulemaking.
+16. Clarify federal preemption of conflicting state PA requirements.
+17. Define API usage metrics and successful/unsuccessful calls.
+18. Establish and maintain a centralized payer API endpoint directory with standardized documentation and validation.
+19. Address cybersecurity and resilience through harmonized, risk-based approaches.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Compressed timelines; benefit classification complexity; lack of end-to-end testing; provider adoption gaps; conflicting state laws; raw count metrics; version fragmentation; uncertainty around delegated entities.
+- **Potential negative impacts cited:** Misrouted requests, resubmissions, conflicting determinations, patient coverage delays, strain on implementation resources, misleading public comparisons, duplicative workflows, and disruption from inconsistent standards.
+- **Implementation barriers mentioned:** Limited pilots, lack of scalable end-to-end testing, shared technical staff capacity, PBM/vendor delegation structures, EHR/provider adoption, state legal constraints, reporting systems buildout, and version incompatibility.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** BCBS companies cover one in three Americans; contract with 97% of hospitals and 83% of doctors; Blue Plans commit to near-real-time responses for at least 80% of complete electronic PA requests for medical services in 2027.
+- **Studies or research referenced:** Relies mainly on BCBSA/Blue Plan operational experience, HL7/Da Vinci participation, and CMS-0057 commitments.
+- **Examples provided:** Part B drugs dispensed through pharmacies; specialty drugs covered under pharmacy vs medical benefit; Nebraska state PA form conflict; delegated PBM workflows; raw count metric comparison issues.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health plans, PBMs, delegated vendors, providers, EHR vendors, patients, pharmacies, QHP issuers, Medicaid/CHIP programs, clearinghouses, regulators, and state markets.
+- **Economic implications:** Rushed or duplicative requirements would increase implementation, reporting, and operational costs; clearer standards and delegated compliance reduce unnecessary burden.
+- **Technical feasibility:** Feasible with additional time, testing, provider adoption, version guardrails, endpoint validation, and clear definitions.
+- **Patient care impact:** Supports modernization but warns rushed implementation could create coverage disruptions, delays, or misrouted PA requests.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed-supportive; supportive of goals and several proposals with significant implementation modifications.
+- **Tone:** Technical, collaborative, detailed.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "This rule is an important next step in advancing more efficient, standardized, and transparent prior authorization processes." - Context: Overall support.
+2. "A rushed implementation of prescription drug ePA APIs risks system failures, misrouted requests, and coverage delays." - Context: Implementation timeline concern.
+3. "BCBSA supports CMS’ proposal to handle medical versus pharmacy drugs through separate pathways." - Context: Dual pathway support.
+4. "Establishing clear versioning guardrails is necessary to balance standards evolution with operational stability." - Context: FHIR versioning recommendation.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Central recommendation to extend drug ePA implementation by two years and delay certain metrics.
+- [x] **COST-RESOURCES** - Highlights technical resource strain and reporting burden.
+- [x] **PROVIDER-BURDEN** - Supports provider adoption and workflows but warns against duplicative notices and manual processes.
+- [x] **PRIVACY-SECURITY** - Extensive cybersecurity and resilience RFI responses.
+- [x] **TECHNICAL-FEASIBILITY** - Focus on testing, scalability, benefit routing, API adoption, and endpoint validation.
+- [x] **STANDARDS-MATURITY** - Versioning guardrails, SVAP, backward compatibility, CDex, and FHIR/NCPDP maturity are core issues.
+- [x] **PATIENT-ACCESS** - Supports reliable PA implementation to avoid coverage disruptions and delays.
+- [x] **REGULATORY-AUTHORITY** - Raises preemption of conflicting state requirements and HIPAA standard adoption.
+- [x] **STAKEHOLDER-COORDINATION** - Emphasizes providers, vendors, payers, PBMs, CMS, ONC, and states.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Central concern about benefit classification and separate pathways.
+- [x] **TRANSPARENCY** - Supports endpoint directory and usage metrics while opposing misleading raw PA counts.
+- [x] **SMALL-PAYER-IMPACT** - Addresses market-specific and resource variation, though not primarily small payer burden.
+- [x] **EXISTING-WORKFLOWS** - Emphasizes delegated PBM workflows, state forms, X12, clearinghouses, and PA channels.
+- [x] **VENDOR-ECOSYSTEM** - Strong focus on vendors, EHRs, PBMs, clearinghouses, and API implementation.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+June 15, 2026 
+ 
+ 
+The Honorable Mehmet Oz, M.D. 
+Administrator 
+Centers for Medicare & Medicaid Services 
+7500 Security Boulevard Baltimore, MD 21244 
+ 
+Thomas Keane, M.D., M.B.A.  
+National Coordinator for Health Information Technology  
+U.S. Department of Health and Human Services  
+330 C Street, SW 
+Washington, DC 20024 
+ 
+ 
+Submitted via the Federal Rulemaking Web Portal: http://www.regulations.gov  
+RE: 2026 Interoperability Standards and Prior Authorization for Drugs Proposed Rule 
+(CMS-0062-P) 
+Dear Dr. Oz and Dr. Keane, 
+The Blue Cross Blue Shield Association (BCBSA) appreciates the opportunity to provide 
+comments on the Proposed Rule on “Interoperability Standards and Prior Authorization for 
+Drugs,” as published in the Federal Register on April 14, 2026 (91 FR 19890). 
+BCBSA is a national federation of independent, community-based and locally operated Blue 
+Cross and Blue Shield companies (Plans) that collectively provide healthcare coverage for one 
+in three Americans. BCBS Plans contract with 97% of hospitals and 83% of doctors across the 
+country and serve those who are covered through Medicare, Medicaid, an employer, or 
+purchase coverage on their own. 
+BCBS Plans have a deep commitment to modernizing healthcare, including improving the 
+interoperability and transparency of healthcare information. The secure and seamless flow of 
+health data among patients, doctors, hospitals, and health insurance providers is essential to 
+ensuring affordability and driving positive health outcomes. BCBSA and Blue Plans have been 
+leaders on these issues, engaging in key initiatives to advance the access, exchange, and use 
+of health data.  
+BCBSA is a founding member in the Health Level 7 (HL7) Fast Healthcare Interoperability 
+Resources (FHIR) Application Programming Interface (API) standards development efforts, 
+750 9th Street, NW 
+Washington, DC 20001 
+www.bcbs.com 
+2 
+ 
+ 
+ 
+including the HL7® Da Vinci Project, as well as the Gravity Pr...

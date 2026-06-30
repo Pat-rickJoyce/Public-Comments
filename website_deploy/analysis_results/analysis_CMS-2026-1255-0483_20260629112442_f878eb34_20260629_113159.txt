@@ -1,0 +1,150 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0483_20260629112442_f878eb34
+Commenter: Association for Clinical Oncology (ASCO)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:31:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Association for Clinical Oncology (ASCO); signed by Robin Zon, MD, FASCO, Chair of the Board.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** National oncology organization representing more than 50,000 physicians and other cancer care professionals; expertise in cancer treatment, diagnosis, prevention, research, and evidence-based oncology care.
+
+## 2. EXECUTIVE SUMMARY
+
+ASCO strongly supports CMS's effort to extend electronic prior authorization to drugs under both medical and pharmacy benefits, especially because cancer care is highly time-sensitive and prior authorization delays can disrupt entire treatment regimens. ASCO recommends more specific denial communications, faster movement toward real-time decisions, stronger payer accountability, more granular prior authorization transparency reporting, direct reporting to CMS, and recognition of multi-EHR operational barriers in oncology settings.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; TRANSPARENCY-related reporting under GENERAL; FHIR-IG-REQUIRED as part of Prior Authorization API implementation.
+- **Regulatory citations mentioned:** No specific CFR sections cited; references the 2024 final rule and proposed QHP, Medicaid, CHIP, and MA prior authorization timing policies.
+- **Standards referenced:** Prior Authorization API; EHR interoperability; electronic prior authorization generally. No named FHIR IGs, NCPDP standards, or HL7 standards are discussed directly.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Oncology drug prior authorization is burdensome and delays access to life-saving therapies. Current electronic initiation often falls back to fax and phone workflows.
+- **Specific request:** Finalize the requirement for impacted payers to include medical and pharmacy benefit drugs in electronic prior authorization by October 1, 2027.
+
+**Topic 2: Specific Denial Reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** Vague denials and status messages increase provider burden and delay resubmission or appeal.
+- **Specific request:** Require denial reasons to clearly explain why the request was denied and what the provider must do to resubmit or appeal; include meaningful explanation for pending or delayed requests.
+
+**Topic 3: Drug Prior Authorization Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Multi-modal oncology regimens require synchronized chemotherapy, radiation, surgery, and infusion scheduling; multi-day delays can compromise outcomes.
+- **Specific request:** Move toward real-time decisions, require MA organizations in future rulemaking to respond to all drug PA requests within 24 hours, and treat missed deadlines as approvals with guaranteed reimbursement.
+
+**Topic 4: Transparency and Metrics**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Aggregated prior authorization reporting may hide specialty-specific problems and payer outliers.
+- **Specific request:** Require granular, searchable metrics by drug, service, specialty, approval, denial, and appeal outcomes; require payers to report data directly to CMS in standardized, machine-readable form.
+
+**Topic 5: Multi-EHR Operational Barriers**
+- **Provision ID:** PA-DRUG-MEDICAL; FHIR-IG-REQUIRED
+- **Position:** Clarify
+- **Rationale:** Cancer care often occurs across multiple sites and EHR systems, making it unclear who can retrieve documentation and who is responsible for securing PA.
+- **Specific request:** CMS should account for cross-facility data sharing barriers and clarify responsibility before penalizing clinicians under MIPS electronic PA measures.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** ASCO supports electronic PA for medical benefit drugs but warns that multi-EHR oncology workflows may prevent servicing providers from immediately retrieving documentation.
+- **S14:** ASCO supports inclusion of pharmacy benefit drugs in electronic prior authorization for impacted payers, though it does not discuss NCPDP implementation specifics.
+- **S16:** ASCO supports requiring specific denial reasons and says they must help providers understand the denial and resubmission or appeal steps.
+- **S20:** ASCO supports 24-hour drug PA timeframes for Medicaid/CHIP drugs and urges faster movement toward real-time decisions.
+- **S21:** ASCO supports the October 1, 2027 electronic PA drug implementation but identifies operational barriers in oncology care coordination.
+- **S29:** ASCO recommends granular metrics beyond broad percentages and counts, including specialty-specific and treatment-specific data.
+- **S30:** Not directly addressed.
+- **S34:** ASCO supports annual reporting but wants immediate searchable access to granular information.
+- **S35:** ASCO supports transparency and recommends direct reporting to CMS to enable benchmarking, outlier detection, and centralized public comparison.
+- **S43:** ASCO supports aligning and shortening QHP non-drug PA timeframes and asks CMS to align MA drug PA timeframes with Medicaid/CHIP in future rulemaking.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize electronic PA requirements for drugs under both medical and pharmacy benefits.
+2. Require specific, actionable denial explanations and meaningful status information for delayed requests.
+3. Move drug PA toward real-time decision-making.
+4. Require MA plans to respond to all drug PA requests within 24 hours in future rulemaking.
+5. Make missed PA deadlines default approvals with guaranteed reimbursement.
+6. Require granular, searchable prior authorization metrics by specialty, service, drug, denial, approval, and appeal outcome.
+7. Require direct, standardized, machine-readable reporting of PA metrics to CMS.
+8. Clarify responsibility for PA in multi-site care where ordering and performing providers use different EHRs.
+9. Account for multi-EHR barriers before penalizing clinicians under MIPS electronic PA measures.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delays in cancer care, vague denials, insufficient payer accountability, overly aggregated reporting, and multi-EHR workflow barriers.
+- **Potential negative impacts cited:** Delayed treatment, disrupted chemotherapy/radiation/surgery sequencing, worse patient outcomes, increased administrative burden, resource bottlenecks, disparities, and suboptimal clinical outcomes.
+- **Implementation barriers mentioned:** Payer portal/fax/phone fallback workflows, lack of interoperable EHRs across care sites, unclear responsibility for PA, and limited transparency in payer-reported metrics.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ASCO represents more than 50,000 oncology professionals.
+- **Studies or research referenced:** ASCO's prior authorization position statement and AI in prior authorization position statement.
+- **Examples provided:** Neoadjuvant chemotherapy or radiation must occur within strict windows; community oncologist and hospital infusion center may use different EHRs.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Oncology patients, oncologists, oncology clinics, infusion centers, payers, QHP issuers, Medicaid/CHIP programs, MA organizations, and CMS.
+- **Economic implications:** Administrative staffing costs for PA work, inefficient use of surgical and radiation resources, and potential payer accountability implications if missed deadlines become approvals.
+- **Technical feasibility:** Generally feasible if APIs and reporting are implemented, but multi-EHR documentation exchange remains a practical barrier.
+- **Patient care impact:** Strong positive impact if delays are reduced; ASCO stresses that cancer treatment timing directly affects outcomes.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modification requests.
+- **Tone:** Professional, clinical, and collaborative.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "ASCO strongly supports CMS's proposal to require impacted payers to incorporate coverage and documentation requirements into the Prior Authorization API" - Context: Support for electronic PA for drugs under medical and pharmacy benefits.
+2. "we urge CMS to expedite the transition toward true, real-time decision-making" - Context: Drug PA timing and oncology workflow urgency.
+3. "If the physician does not receive a decision within the set timeframe, the default response should be an approval" - Context: Payer accountability for missed decision deadlines.
+4. "CMS must account for systemic, multi-EHR data sharing barriers" - Context: Operational barriers in multi-site cancer care.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports October 1, 2027 implementation but urges faster real-time decisions and future MA 24-hour requirements.
+- [x] **COST-RESOURCES** - Notes staff and operational resources consumed by manual PA follow-up and delays.
+- [x] **PROVIDER-BURDEN** - Central concern; vague denials and manual workflows burden physicians and staff.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - Warns poor transparency can obscure treatment disparities.
+- [x] **TECHNICAL-FEASIBILITY** - Supports electronic PA but highlights multi-EHR barriers.
+- [ ] **STANDARDS-MATURITY** - Not addressed in detail.
+- [x] **PATIENT-ACCESS** - Strong focus on timely access to cancer drugs and care.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Discusses ordering and performing provider coordination across care sites.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Supports both benefit types but does not analyze distinction.
+- [x] **TRANSPARENCY** - Requests granular, centralized, searchable PA metrics and specific denial reasons.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Describes current portal, fax, phone, and EHR fragmentation.
+- [x] **VENDOR-ECOSYSTEM** - EHR interoperability limitations affect implementation.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+Dr. Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+Department of Health and Human Services
+200 Independence Ave SW
+Washington, DC 20001
+
+Submitted electronically at www.regulations.gov
+Re: Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-Facilitated Exchanges (CMS-0062-P) [RIN 0938-AV44]
+
+Dear Administrator Oz,
+
+I am pleased to submit these comments on behalf of the Association for Clinical Oncology (ASCO) in response to 2026 CMS Interoperability Standards and Prior Authorization for Drugs proposed rule that was published in the Federal Register on April 14, 2026. ASCO is a national organization representing more than 50,000 physicians and other health care professionals specializing in cancer treatment, diagnosis, and prevention. We are also dedicated to conducting research that leads to improved patient outcomes, and we are committed to ensuring that evidence-based practices for the prevention, diagnosis, and treatment of cancer are available to all Americans. ASCO commends the agency for taking steps to improve the prior authorization process for drugs and believes the changes and recommendations discussed below will improve beneficiary access to necessary and life-saving services while easing the administrative burden on physicians and payers.
+
+Although tools like prior authorization can play a role in managing cost when implemented appropriately and transparently, we urge the agency to avoid policies that restrict or delay access to cancer care...

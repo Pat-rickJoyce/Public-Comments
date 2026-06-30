@@ -1,0 +1,222 @@
+{
+  "comment_id": "CMS-2026-1255-0606_20260629112459_72e417fa",
+  "analysis_date": "2026-06-29",
+  "commenter_information": {
+    "author_organization_name": "Epic Systems Corporation; signed by Jim McDermott, R&D",
+    "stakeholder_type": "Technology Vendor",
+    "credentials_or_expertise_mentioned": "Developer of e-prescribing, medication management, electronic prior authorization, clinical workflow, and health plan administration software used by providers and payers."
+  },
+  "executive_summary": "Epic supports NCPDP standards for pharmacy-benefit drug prior authorization and supports expanding the FHIR Prior Authorization API to medical-benefit drugs, but asks CMS to adjust timelines and remove or defer requirements that are not workflow-appropriate or mature. It recommends removing NCPDP PANotification from payer requirements, extending pharmacy-benefit compliance to at least 24 months after the final rule, requiring CRD/PAS v2.2.1 by January 1, 2028, recommending rather than requiring DTR for now, and using January 1, 2029 if all three IGs are mandated. Epic also supports endpoint reporting, public PA metrics, CDex for HIPAA attachments, and several RFI concepts while opposing payer API certification.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "PA-DRUG-PHARMACY",
+      "PA-DRUG-MEDICAL",
+      "FHIR-IG-REQUIRED",
+      "API-ENDPOINT-REPORTING",
+      "API-USAGE-METRICS",
+      "HIPAA-PA-STANDARDS",
+      "ONC-STANDARDS-UPDATE",
+      "GENERAL"
+    ],
+    "regulatory_citations_mentioned": [
+      "45 CFR 170.205(b)",
+      "45 CFR 170.205(u)",
+      "45 CFR 170.205(c)",
+      "42 CFR 423.160",
+      "45 CFR 162.103"
+    ],
+    "standards_referenced": [
+      "NCPDP SCRIPT",
+      "NCPDP Formulary & Benefit (F&B)",
+      "NCPDP Real-Time Prescription Benefit (RTPB)",
+      "NCPDP Telecommunication Standard",
+      "FHIR",
+      "Da Vinci CRD v2.2.1",
+      "Da Vinci DTR v2.2.0",
+      "Da Vinci PAS v2.2.1",
+      "CQL",
+      "X12 270/271",
+      "Bulk Publish",
+      "Incremental Updates",
+      "SMART User Access Brands",
+      "NDH Endpoint Profile",
+      "Da Vinci ATR IG",
+      "FAST Security IG",
+      "Tiered OAuth",
+      "CARIN Blue Button v2.2.0",
+      "Da Vinci CDex v2.1.0",
+      "Da Vinci PDex Plan Net",
+      "Da Vinci Unsolicited Notifications IG",
+      "XDR/XDM",
+      "DirectTrust",
+      "TEFCA",
+      "Payer-to-Payer API"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "NCPDP standards for pharmacy benefit drugs",
+      "provision_id": "PA-DRUG-PHARMACY",
+      "position": "Support/Modify",
+      "rationale": "SCRIPT, F&B, and RTPB are complementary, purpose-built standards already used in prescribing workflows and Part D, but PANotification is not a payer transaction.",
+      "specific_request": "Finalize NCPDP standards for pharmacy-benefit drugs, treat F&B and RTPB as complementary, rely solely on NCPDP RTPB instead of a parallel HL7 RTPBC workflow, and remove PANotification from required payer SCRIPT transactions."
+    },
+    {
+      "topic": "Pharmacy-benefit compliance timeline",
+      "provision_id": "IMPLEMENTATION-TIMELINE",
+      "position": "Modify",
+      "rationale": "Newly impacted payers need to build SCRIPT ePA integrations, trading partner onboarding, testing, and staff training while also sequencing overlapping standards work.",
+      "specific_request": "Set pharmacy-benefit drug PA compliance no earlier than 24 months after the final rule effective date."
+    },
+    {
+      "topic": "FHIR Prior Authorization API for medical benefit drugs",
+      "provision_id": "PA-DRUG-MEDICAL; FHIR-IG-REQUIRED",
+      "position": "Support/Modify",
+      "rationale": "FHIR-based expansion is directionally correct, but version migration across payers and EHRs can disrupt existing CMS-0057-F implementations if timelines are not coordinated.",
+      "specific_request": "Require CRD v2.2.1 and PAS v2.2.1 by January 1, 2028; recommend rather than require DTR now due to CQL and implementation complexity. If all three IGs are required, set compliance at least 18 months after the final rule and no earlier than January 1, 2029."
+    },
+    {
+      "topic": "HIPAA administrative simplification scope",
+      "provision_id": "HIPAA-PA-STANDARDS",
+      "position": "Clarify",
+      "rationale": "Referral certification and authorization includes broader workflows, and CRD is not a replacement for the full X12 270/271 eligibility transaction.",
+      "specific_request": "Confirm FHIR standards apply only to prior authorization as defined at 45 CFR 162.103 and only replace the narrow 270/271 use for determining whether PA is required; use separate rulemaking for broader referral certification use cases."
+    },
+    {
+      "topic": "API endpoint registry",
+      "provision_id": "API-ENDPOINT-REPORTING",
+      "position": "Support/Modify",
+      "rationale": "Centralized endpoint discovery is useful, but payers should be able to maintain manifests that update automatically rather than manually notifying CMS of each endpoint change.",
+      "specific_request": "Use Bulk Publish for payer-to-CMS submission and CMS publication, require Incremental Updates, require notification only when manifest URL changes, use SMART User Access Brands for Patient Access endpoints, and NDH Endpoint Profile with access control, environment type, and use case extensions for other endpoints."
+    },
+    {
+      "topic": "Prior authorization metrics",
+      "provision_id": "API-USAGE-METRICS; TRANSPARENCY",
+      "position": "Support/Clarify",
+      "rationale": "Public metrics are valuable, but definitions and effective dates must support comparability and feasibility.",
+      "specific_request": "Define expedited requests clearly and give payers at least one full reporting period of advance notice before new non-drug metrics take effect."
+    },
+    {
+      "topic": "Additional implementation guides",
+      "provision_id": "ONC-STANDARDS-UPDATE; FHIR-IG-REQUIRED",
+      "position": "Mixed",
+      "rationale": "Some IGs are useful but not all are sufficiently mature or appropriate for requirements.",
+      "specific_request": "Recommend ATR but do not require yet; do not recommend/require Tiered OAuth; do not finalize CARIN Blue Button v2.2.0 or PDex Plan Net until implementation issues are resolved; support CDex v2.1.0 as HIPAA attachment standard."
+    },
+    {
+      "topic": "Electronic event notifications RFI",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "FHIR subscription-based notifications are promising but not implemented at scale; existing mechanisms can deliver value faster.",
+      "specific_request": "Prioritize TEFCA/shared network participation, federated record locator services, recipient-side filtering/AI triage, and existing XDR/XDM and DirectTrust mechanisms rather than mandating new notifications or data elements."
+    },
+    {
+      "topic": "Healthcare resiliency RFI",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "Cybersecurity disruptions can destabilize providers and reveal single points of failure in claims processing.",
+      "specific_request": "Provide average daily bridge payments during major cyber disruptions, encourage or require multiple claims intake methods, and reduce Medicare clearinghouse enrollment burdens."
+    },
+    {
+      "topic": "Payer API certification RFI",
+      "provision_id": "GENERAL",
+      "position": "Oppose",
+      "rationale": "Mandatory certification would impose costs without clearly improving conformance.",
+      "specific_request": "Do not require payer API certification; instead provide high-quality testing tools at least 18 months before deadlines and have CMS implement standards in its own prior authorization workflows early."
+    },
+    {
+      "topic": "Step therapy RFI",
+      "provision_id": "GENERAL",
+      "position": "Explore",
+      "rationale": "Payer-to-Payer API infrastructure could transmit prior drug PA and medication history relevant to step therapy, but the API is still new.",
+      "specific_request": "Explore use of the Payer-to-Payer API to support step therapy determinations while allowing time for implementations to mature."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "S1",
+      "summary": "Supports requiring CRD and PAS v2.2.1, but recommends DTR rather than requiring it at this time."
+    },
+    {
+      "solicitation": "S2",
+      "summary": "Supports named v2.2.1 versions for CRD and PAS and discusses DTR v2.2.0 readiness concerns."
+    },
+    {
+      "solicitation": "S3",
+      "summary": "Raises version transition risks when payers and EHRs migrate on different timelines and recommends coordinated dates."
+    },
+    {
+      "solicitation": "S12",
+      "summary": "Supports expanding CRD/DTR/PAS-based Prior Authorization API to medical-benefit drugs."
+    },
+    {
+      "solicitation": "S14",
+      "summary": "Supports NCPDP SCRIPT, F&B, and RTPB for pharmacy-benefit drugs across impacted payers."
+    },
+    {
+      "solicitation": "S18",
+      "summary": "Warns requiring DTR makes CQL implementation mandatory for payers and EHRs and needs a longer onramp."
+    },
+    {
+      "solicitation": "S21",
+      "summary": "Requests changes to the compliance timeline: January 1, 2028 for CRD/PAS; January 1, 2029 if DTR is also required."
+    },
+    {
+      "solicitation": "S22",
+      "summary": "States newly impacted payers need a 24-month runway to build pharmacy-benefit NCPDP ePA infrastructure."
+    },
+    {
+      "solicitation": "S23",
+      "summary": "Addresses endpoint registry design and authentication information needed for reliable API connections."
+    },
+    {
+      "solicitation": "S24",
+      "summary": "Recommends specific endpoint content standards, including SMART User Access Brands and NDH Endpoint Profile extensions."
+    },
+    {
+      "solicitation": "S26",
+      "summary": "Recommends Bulk Publish and Incremental Updates for endpoint submission and publication."
+    },
+    {
+      "solicitation": "S27",
+      "summary": "Recommends automatic propagation of endpoint changes through manifests and payer notice only when manifest URLs change."
+    },
+    {
+      "solicitation": "S29",
+      "summary": "Supports public prior authorization metrics for drug and non-drug services."
+    },
+    {
+      "solicitation": "S34",
+      "summary": "Requests at least one full reporting period of advance notice before new metric requirements take effect."
+    },
+    {
+      "solicitation": "S44-S56",
+      "summary": "For HIPAA prior authorization standards, asks CMS to limit scope to PA and not replace broad eligibility or referral certification functions without separate rulemaking."
+    },
+    {
+      "solicitation": "S60-S65",
+      "summary": "Comments on IG readiness: support CDex v2.1.0 for attachments, recommend ATR only, exclude Tiered OAuth, delay CARIN Blue Button and PDex Plan Net requirements."
+    },
+    {
+      "solicitation": "S66-S82",
+      "summary": "Responds to RFIs on event notifications, resiliency, payer API certification, and step therapy."
+    }
+  ],
+  "themes": [
+    "TECHNICAL-FEASIBILITY",
+    "STANDARDS-MATURITY",
+    "IMPLEMENTATION-TIMELINE",
+    "VENDOR-ECOSYSTEM",
+    "EXISTING-WORKFLOWS",
+    "API-ENDPOINT-REPORTING",
+    "STAKEHOLDER-COORDINATION"
+  ],
+  "overall_position": "Support with significant technical and timeline modifications.",
+  "priority_level": "High",
+  "notes": "Important EHR/vendor perspective with detailed implementation-specific recommendations on NCPDP, FHIR IGs, endpoint publication, metrics, and certification.",
+  "commenter": "Epic Systems Corporation",
+  "organization": "Epic Systems Corporation",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

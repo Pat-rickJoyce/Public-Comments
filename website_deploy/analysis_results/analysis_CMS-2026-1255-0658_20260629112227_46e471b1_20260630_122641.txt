@@ -1,0 +1,189 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0658_20260629112227_46e471b1
+Commenter: Alliance of Specialty Medicine
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:26:41
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Alliance of Specialty Medicine, signed by 13 specialty physician societies.
+- **Stakeholder type:** Professional Association; Healthcare Provider.
+- **Credentials or expertise mentioned:** Represents more than 100,000 specialty physicians across 15 specialty and subspecialty societies.
+
+## 2. EXECUTIVE SUMMARY
+
+The Alliance strongly supports extending electronic prior authorization, transparency, denial-reason, API, and decision-timeframe requirements to drugs because specialty physicians and patients face substantial care delays and administrative burden. It recommends a more integrated medical/pharmacy benefit interoperability framework, shorter and enforceable PA decision timelines, retention of formulary data in APIs, granular PA metrics, and guardrails around automation and step therapy.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; API-ENDPOINT-REPORTING/TRANSPARENCY by implication through public metrics; FHIR-IG-REQUIRED by implication through FHIR APIs; MEDICAL-VS-PHARMACY-BENEFIT-related issues under PA-DRUG-MEDICAL and PA-DRUG-PHARMACY; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** No CFR citations are cited directly. The comment references the 2024 CMS Interoperability and Prior Authorization final rule, CMS-0062-P, and program-specific payer requirements.
+- **Standards referenced:** FHIR standards; Prior Authorization API; NCPDP SCRIPT; NCPDP standards for formulary, benefit, real-time prescription benefit, and electronic prior authorization; Patient Access API; Provider Access API; Payer-to-Payer API.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support; Modify
+- **Rationale:** The Alliance believes drug inclusion will streamline patient and provider experience, support real-time data exchange, and accelerate payer decisions. It is concerned that using separate medical-benefit FHIR and pharmacy-benefit NCPDP pathways reinforces a fragmented benefit divide that affects specialty therapies.
+- **Specific request:** Finalize drug ePA requirements, but work toward a unified view of coverage, utilization management requirements, step therapy protocols, and cost-sharing across medical and pharmacy benefits regardless of how a therapy is classified.
+
+**Topic 2: Specific Denial Reasons and Clinical Decision Transparency**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support; Modify
+- **Rationale:** Specific denial reasons help providers understand why a request failed and what is needed for resubmission or appeal. The Alliance argues transparent PA decisions also require clinically appropriate review.
+- **Specific request:** Require denial responses that explain actionable next steps, and adopt requirements aligning with peer-to-peer review by physicians in the same specialty or subspecialty using current evidence-based guidelines.
+
+**Topic 3: Prior Authorization Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Faster timelines are needed for specialty conditions where delay can cause irreversible harm. The Alliance believes automated ePA should enable shorter timelines and real-time approvals for routine requests.
+- **Specific request:** Require responses within 48 hours for standard non-drug requests, 24 hours for expedited non-drug requests, and 24 hours for all drug requests; encourage real-time approvals and determinations in less than 24 hours for more complex requests where feasible.
+
+**Topic 4: Enforcement of Timelines**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; GENERAL
+- **Position:** Modify
+- **Rationale:** Without penalties or automatic consequences, shortened timeframes may not change payer behavior and may shift follow-up burden back to providers.
+- **Specific request:** Establish enforcement mechanisms, such as penalties for non-compliance or automatic approval when payers miss required decision timeframes.
+
+**Topic 5: Public Prior Authorization Metrics**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY/GENERAL
+- **Position:** Support; Modify
+- **Rationale:** Expanded metrics can help hold payers accountable, reveal payer practices, and identify ongoing PA barriers.
+- **Specific request:** Require more detailed reporting for therapeutic categories frequently subject to intensive utilization management, including specialty and chronic disease therapies subject to PA, step therapy, or other restrictions.
+
+**Topic 6: Drug PA Information in APIs and Formulary Data**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support; Modify
+- **Rationale:** Making drug PA status, approval/denial, expiration, dosage, denial reasons, and related documentation available through Patient Access, Provider Access, and Payer-to-Payer APIs supports transparency and care coordination. Removing formulary information from Provider Access and Payer-to-Payer APIs could weaken future integrated coverage and utilization-management workflows.
+- **Specific request:** Finalize drug PA API data requirements and retain formulary information in Provider Access and Payer-to-Payer APIs while improving its consistency, usability, and interoperability.
+
+**Topic 7: Step Therapy RFI**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Oppose; Modify
+- **Rationale:** The Alliance opposes restrictive step therapy because it delays optimal treatment, can worsen outcomes, and may shift rather than reduce costs. It acknowledges interoperability can reduce burden and support continuity if coverage and treatment history data are integrated.
+- **Specific request:** Withdraw or limit MA step therapy authority where possible, improve data sharing for coverage and utilization management across benefit structures, evaluate whether preferred therapies are meaningfully accessible, and maintain guardrails so automation does not displace individualized clinical judgment.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports extending the FHIR-based Prior Authorization API to medical-benefit drugs, while identifying integration challenges when specialty therapies may shift between medical and pharmacy benefit coverage.
+- **S14:** Supports NCPDP-based ePA requirements for pharmacy-benefit drugs outside Part D and views alignment with Part D as beneficial.
+- **S15:** Responds directly to the medical-versus-pharmacy benefit distinction, warning that the current split creates fragmentation and requesting a more integrated framework.
+- **S16:** Supports specific denial reasons that explain why a drug PA request was denied and what a provider must do to resubmit or appeal.
+- **S17:** Does not focus on structured denial codes, but supports actionable denial content and clinical transparency.
+- **S20:** Supports faster drug PA timeframes but urges CMS to require 24-hour decisions for all drug requests and pursue real-time or sub-24-hour responses where feasible.
+- **S21:** Treats the October 1, 2027 drug ePA implementation date as acceptable by supporting the proposal, while emphasizing the need for stronger integration and faster responses.
+- **S28:** Supports alignment with existing Medicare Part D NCPDP requirements for pharmacy-benefit ePA.
+- **S29:** Supports expanded API usage metrics for Patient Access, Provider Access, Payer-to-Payer, and Prior Authorization APIs to assess deployment, use, and timeliness.
+- **S34:** Supports annual reporting beginning with 2027 data submitted in 2028.
+- **S66-S82:** Responds to the RFI area on step therapy by opposing restrictive protocols and recommending interoperability improvements, access checks for preferred therapies, and guardrails on automation.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize requirements extending electronic prior authorization to all drugs covered by impacted payers.
+2. Develop a more integrated interoperability framework spanning medical and pharmacy benefit systems.
+3. Provide clinicians and patients a consolidated, real-time view of coverage policies, utilization management requirements, step therapy protocols, and cost-sharing obligations.
+4. Finalize specific denial-reason requirements and require actionable denial explanations.
+5. Require same-specialty or same-subspecialty physician review and evidence-based clinical criteria for PA decisions.
+6. Shorten PA timeframes to 48 hours for standard non-drug requests, 24 hours for urgent non-drug requests, and 24 hours for all drug requests.
+7. Encourage or require real-time approvals for routinely approved or straightforward PA requests.
+8. Add enforcement mechanisms for missed PA timelines, including penalties or automatic approvals.
+9. Expand public PA metrics and make them more granular for specialty and chronic disease therapies.
+10. Retain formulary information in Provider Access and Payer-to-Payer APIs.
+11. Collect and use API usage metrics to monitor payer compliance and effectiveness.
+12. Improve step therapy interoperability while maintaining clinical guardrails and assessing whether preferred therapies are realistically accessible.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Fragmentation between medical and pharmacy benefits; delayed patient access; weak enforcement of decision timelines; removal of formulary information from APIs; restrictive step therapy; payer practices that ignore physician expertise.
+- **Potential negative impacts cited:** Treatment delays, discontinuity of care, patient confusion about coverage and financial obligations, physician burnout, irreversible harm in specialty conditions, higher utilization, and potential adverse events.
+- **Implementation barriers mentioned:** Separate benefit structures and systems; inconsistent payer policies; inaccurate or unavailable PA requirement data in EHR/e-prescribing systems; lack of enforcement mechanisms; difficulty accessing coverage, formulary, and utilization management information across payers.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 2025 AMA survey: 98% of physicians reported care delays from PA; 88% reported interference with continuity of care; 63% found prescription PA requirements difficult to determine; 94% reported increased burnout; practices average 40 PAs per physician per week and 13 hours weekly; 35% said criteria are rarely or never evidence-based; more than one in four reported serious adverse events.
+- **Studies or research referenced:** 2022 HHS OIG report on MA denials raising concerns about access to medically necessary care; 2018 Food and Drug Law Journal article on step therapy; 2021 Health Economics, Policy and Law article on step therapy legislation and cost shifting.
+- **Examples provided:** Retinal disease where treatment delay can increase vision-loss risk; systemic vasculitis and autoimmune/inflammatory diseases where delay can cause organ damage or disability; specialty therapies that vary by formulation, site of care, payer policy, or distribution arrangements.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Specialty physicians, patients with chronic/complex/specialty conditions, impacted payers, EHR/e-prescribing vendors, pharmacies/PBMs, and future payers receiving patient information.
+- **Economic implications:** The Alliance argues PA and step therapy impose practice staffing and time costs, may increase overall utilization, and may shift or increase long-term costs through complications and ineffective therapy.
+- **Technical feasibility:** Supportive of ePA and API implementation, but stresses the need for cross-benefit integration, reliable formulary/coverage data, usage monitoring, and real-time data exchange.
+- **Patient care impact:** Faster, more transparent PA and better interoperability could reduce delays, improve continuity, avoid repeat visits, and improve outcomes; weak enforcement or fragmented benefit data could undermine these gains.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modification requests.
+- **Tone:** Professional, collaborative, and policy-focused, with critical objections to step therapy and unenforced timelines.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "The Alliance strongly supports expanding these requirements to drugs." - Context: Overall position on extending electronic PA requirements to drugs.
+2. "The ultimate goal should be for payers to respond as often as possible in real-time." - Context: Request for shorter PA decision timeframes and automation for routine approvals.
+3. "Without an enforcement mechanism... these shortened timeframes will be ineffectual" - Context: Concern that timelines without penalties or automatic approval will not change payer behavior.
+4. "The Alliance strongly opposes restrictive step therapy protocols" - Context: Response to CMS/ONC RFI on step therapy.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - The comment supports the proposed implementation direction but urges shorter decision timeframes and real-time responses.
+- [x] **COST-RESOURCES** - It cites practice time, staff burden, burnout, and long-term costs from delays or step therapy.
+- [x] **PROVIDER-BURDEN** - Provider administrative burden is a central theme, especially specialty physician PA workload and follow-up burden.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed directly.
+- [x] **TECHNICAL-FEASIBILITY** - The comment supports API and ePA feasibility but identifies cross-benefit integration challenges.
+- [x] **STANDARDS-MATURITY** - It references FHIR and NCPDP standards and suggests new standards development may be needed for cross-benefit interoperability.
+- [x] **PATIENT-ACCESS** - Patient access delays, adverse outcomes, and continuity of care are central concerns.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - The Alliance asks CMS and ONC to work with stakeholders on integrated formulary and utilization-management data.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - The comment directly criticizes fragmentation between the two benefit structures.
+- [x] **TRANSPARENCY** - It supports denial reasons, public metrics, API data availability, and more granular reporting.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - It discusses EHR/e-prescribing accuracy, current PA processes, peer review, and step therapy workflows.
+- [x] **VENDOR-ECOSYSTEM** - EHR/e-prescribing systems and API implementation are implicated, though not the main focus.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Mehmet Oz, MD, MBA  
+Administrator  
+Centers for Medicare and Medicaid Services  
+Department of Health and Human Services  
+200 Independence Avenue SW   
+Washington, DC 20201  
+ 
+Thomas Keane, MD, MBA 
+National Coordinator for Health IT  
+Office of the National Coordinator for Health IT 
+Department of Health and Human Services 
+330 C St SW, Floor 7 
+Washington, DC 20201 
+ 
+Submitted electronically via www.regulations.gov  
+  
+RE: Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage 
+Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health Insurance 
+Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the 
+Federally-Facilitated Exchanges (CMS-0062-P) 
+ 
+Dear Administrator Oz and National Coordinator Keane,  
+ 
+The Alliance of Specialty Medicine (the â€œAllianceâ€) represents more than 100,000 specialty physicians 
+across 15 specialty and subspecialty societies who are committed to improving access to specialty 
+medical care by advancing sound health policy. On behalf of the undersigned members, we appreciate 
+the opportunity to comment on the aforementioned proposed rule to improve the electronic exchange 
+of health care data and streamline prior authorization processes through enhanced interoperability.  
+ 
+The Alliance greatly appreciates that this rule builds on previous finalized regulations that we generally 
+supported, including the 2024 CMS Interoperability and Prior Authorization final rule (â€œ2024 final ruleâ€), 
+which aimed to improve the electronic exchange of health care data and streamline prior authorization 
+by requiring impacted payers to automate prior authorization processes, accelerate decision timelines, 
+improve data exchange through the adoption of standards, and enhance transparency by requiring 
+payers to provide specific denial reasons and publicly report prior authorization metric...

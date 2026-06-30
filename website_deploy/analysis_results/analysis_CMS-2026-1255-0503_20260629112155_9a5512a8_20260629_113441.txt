@@ -1,0 +1,190 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0503
+Commenter: 1upHealth (Donald W. Rucker, MD, Chief Strategy Officer)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:34:41
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** 1upHealth; signed by Donald W. Rucker, MD, Chief Strategy Officer
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Scalable serverless cloud FHIR data platform combining claims and clinical data for analytics and APIs; Dr. Rucker is a physician and former ONC National Coordinator for Health Information Technology.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+1upHealth strongly supports the proposed rule's extension of FHIR-based APIs to drug prior authorization, views the compliance dates as achievable, and endorses Da Vinci PA guides, CARIN protocols, SVAP advancement, and API endpoint reporting. The comment goes beyond the rule's scope to extensively criticize TEFCA as fundamentally insecure (lacking zero-trust security), anticompetitive, and privacy-violating, and calls on CMS/HHS to enforce information blocking against EHR vendors and use payment incentives to drive genuine API-based interoperability over private payer-provider platforms.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY, FHIR-IG-REQUIRED, API-ENDPOINT-REPORTING, API-USAGE-METRICS, ONC-STANDARDS-UPDATE, HIPAA-PA-STANDARDS (implicit support), PRIVACY-SECURITY (TEFCA), GENERAL
+- **Regulatory citations mentioned:** CMS-0062-P, CMS-0057-F, Cures Act (information blocking provisions), HIPAA, CPT system
+- **Standards referenced:** HL7 FHIR, Da Vinci PA IGs (CRD, DTR, PAS), CDex, FHIR Member Attribution IG, FAST security IG, CARIN Alliance protocols (RTPB), NCPDP SCRIPT, SVAP, FHIR Endpoint Resources, TEFCA/IHE protocols, X12, JSON/RESTful APIs, zero-trust security, public key cryptography
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Support for Proposed Rule and PA Extension to Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL, PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Extending FHIR-based interoperability to drug PA gives patients, providers, and payers access to information for more efficient care. The dual FHIR/NCPDP approach for medical/pharmacy benefit drugs is sound. Compliance dates are achievable.
+- **Specific request:** Continue and strengthen FHIR-based PA requirements; use Da Vinci PA guides as mandatory foundation.
+
+**Topic 2: API Endpoint Reporting and Provider Directory**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Discoverability of APIs via FHIR Endpoint Resources is essential. CMS should place API information in a nationwide public provider directory, searchable by NPI, affiliated practices, TINs, and DBA names. Tying directory accuracy to CMS program participation provides strong incentives.
+- **Specific request:** Require FHIR Endpoint Resources for authorization/authentication/implementation details; create CMS-maintained FHIR-based public provider directory using existing NPPES, UPIN, and MAC data; tie to payment participation.
+
+**Topic 3: FHIR IGs and Zero-Trust Security**
+- **Provision ID:** FHIR-IG-REQUIRED, ONC-STANDARDS-UPDATE
+- **Position:** Support
+- **Rationale:** Supports FHIR Member Attribution IG, CDex for ePA, and FAST security IG. All APIs should require zero-trust security with public key cryptography, not attestation-based protocols.
+- **Specific request:** All CMS rules should mandate zero-trust security principles; require public key cryptography for API authentication/authorization.
+
+**Topic 4: EHR Information Blocking**
+- **Provision ID:** GENERAL
+- **Position:** Clarify / Modify (broader regulatory action needed)
+- **Rationale:** Almost every EHR vendor API has elements of information blocking (cumbersome onboarding, proprietary logins, stale tokens, throttling, incomplete data). Private payer-provider platforms are anticompetitive and undermine PA transparency.
+- **Specific request:** HHS should enforce information blocking laws requiring EHR-vendor apps to use the same public APIs available to competitor apps; CMS should test APIs for blocking behaviors; prohibit PA transactions through private payer-provider platforms for MA plans; reset payment rates to reward genuine API-based interoperability.
+
+**Topic 5: TEFCA Criticism (Privacy and Security)**
+- **Provision ID:** PRIVACY-SECURITY (GENERAL)
+- **Position:** Oppose (TEFCA as approach)
+- **Rationale:** TEFCA is characterized as fundamentally insecure (attestation-based, no zero-trust), privacy-violating (query metadata reveals sensitive care relationships), and anticompetitive. TEFCA brokers have had multiple data breaches. TEFCA's IHE protocols limit exchange; document payloads limit use—amounting to information blocking under the Cures Act definition.
+- **Specific request:** Require TEFCA brokers to obtain patient consent before any data enters TEFCA; CMS rules should not rely on TEFCA; HHS should investigate TEFCA under information blocking and antitrust laws.
+
+**Topic 6: Event Notifications and Resiliency RFIs**
+- **Provision ID:** GENERAL (S66-S82 RFIs)
+- **Position:** Support (FHIR-based approach)
+- **Rationale:** Event notifications should be part of a broader RESTful API world using individual data fields, not TEFCA/IHE document-based approaches. Healthcare resilience is best achieved through RESTful APIs with zero-trust security, not TEFCA.
+- **Specific request:** FHIR Subscriptions/pub-sub models should be the foundation for event notifications; reject IHE/document-based approaches.
+
+**Topic 7: Payment Incentives for Interoperability**
+- **Provision ID:** GENERAL
+- **Position:** Modify (broader regulatory action)
+- **Rationale:** Financial incentives currently reward consolidation and data blocking. Services with truly interoperable data should be paid more; quality measurement data should only count when accessed through public APIs.
+- **Specific request:** Reset payment rates to reward API-based data sharing; star ratings data should be tagged with the URL used to access it; MA quality data obtained through non-public platforms should be scored at zero.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2:** Supports requiring Da Vinci PA guides, CDex, FHIR Member Attribution IG, and FAST security IG; all should require zero-trust security.
+- **S6:** Supports CARIN Alliance protocols for Real-Time Pharmacy Benefit checks.
+- **S21:** Views required compliance dates as achievable; 1upHealth already provides many of the described APIs.
+- **S23/S24/S26:** Supports requiring FHIR Endpoint Resources with authorization/authentication details; recommends CMS-maintained FHIR provider directory built on NPPES/MAC data, tied to program participation.
+- **S25:** Supports RTPB via CARIN Alliance protocols for pharmacy benefit.
+- **S44:** Implicitly supports FHIR as HIPAA standard for PA (rule advances modern API standards).
+- **S45/S46:** FHIR and RESTful APIs are the correct approach; TEFCA/IHE approaches should not be used for PA transactions.
+- **S54:** Supports API test beds (Aegis, Drummond); federal rules should target API test compliance rather than adding functional requirements; supports ONC transition from functional to API testing.
+- **S60/S65:** Supports SVAP for advancing modern API standards.
+- **S66 (Event Notifications RFI):** Event notifications should use FHIR Subscriptions/pub-sub models as part of a RESTful API ecosystem, not IHE document-based protocols.
+- **S67 (Resiliency RFI):** Maximum resilience comes from RESTful APIs with zero-trust security (JSON/public key cryptography); TEFCA is the biggest digital threat to healthcare resilience due to fundamental insecurity.
+- **S68/S69 (API Implementation RFI):** Biggest barrier is low consumer empowerment and EHR information blocking; HHS should require EHR-vendor apps to use the same public APIs as competitor apps; prohibit private payer-provider platforms for PA and quality reporting.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Continue and strengthen FHIR-based PA requirements; use Da Vinci PA guides, CDex, and FHIR Member Attribution IG as mandatory foundations.
+2. Require all API endpoints to publish FHIR Endpoint Resources with authorization/authentication details.
+3. Create a CMS nationwide FHIR-based public provider directory using existing NPPES, UPIN, and MAC data, tied to CMS program participation.
+4. Mandate zero-trust security with public key cryptography for all CMS-regulated APIs; reject attestation-based security (TEFCA).
+5. Enforce information blocking rules against EHR vendors, requiring their apps to use the same public APIs available to competitor apps.
+6. Prohibit PA transactions through private payer-provider platforms for MA plans.
+7. Require TEFCA brokers to obtain patient consent before data enters TEFCA.
+8. Reset CMS payment rates to reward services with truly interoperable (API-accessible) data; score MA star ratings data at zero when obtained through non-public platforms.
+9. CMS should test provider and payer APIs for information blocking behaviors (onboarding friction, token staleness, throttling, data incompleteness).
+10. Use FHIR Subscriptions/pub-sub as foundation for event notifications RFI response.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** EHR information blocking undermines PA and broader interoperability goals; TEFCA is fundamentally insecure and anticompetitive; private payer-provider platforms circumvent true interoperability.
+- **Potential negative impacts cited:** TEFCA data breaches (multiple already occurred); TEFCA query metadata exposes sensitive care relationships (behavioral health, reproductive health providers); private platforms prevent competition and innovation in healthcare.
+- **Implementation barriers mentioned:** EHR vendor blocking tactics (cumbersome onboarding, proprietary logins, stale tokens, throttling, incomplete data) affect every app vendor; payment incentives currently reward data consolidation over interoperability.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** TEFCA parties have already had multiple major data breaches; multiple lawsuits underway against TEFCA parties.
+- **Studies or research referenced:** None formally cited; draws on Cures Act information blocking definition.
+- **Examples provided:** EHR vendor blocking tactics enumerated from direct experience as an app vendor; CPT/Star ratings system as mechanism for rewarding genuine API use; historical comparison to original ARPANET design principles for resilience.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients (data privacy, care access), app developers/vendors (EHR blocking), MA plans (payment reform), EHR vendors (information blocking enforcement), TEFCA QHINs, all HIPAA covered entities.
+- **Economic implications:** Payment incentive reform would be transformative; private payer-provider platform prohibition would disrupt existing MA relationships; information blocking enforcement could restructure the EHR market.
+- **Technical feasibility:** 1upHealth views proposed compliance dates as achievable; company already provides many of the described APIs. Zero-trust and FHIR-based architecture is the correct technical path.
+- **Patient care impact:** Genuine interoperability enables patient access to a digital healthcare economy; TEFCA's insecurity puts patient privacy at risk, particularly for sensitive care settings.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive (of the rule); Opposed (to TEFCA and EHR information blocking)
+- **Tone:** Technical, Critical (toward TEFCA and EHR vendors), Collaborative (toward CMS)
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "RESTful APIs for true interoperability are at the core of digital progress. It is critical to understand that payment incentives strongly incent the consolidated delivery systems to block interoperability so rule making is a necessity for the public." - Context: Opening framing establishing why regulatory action is essential despite industry resistance.
+
+2. "TEFCA does each of these things to block a modern digital health economy. TEFCA's brokers limit access, TEFCA's IHE protocols limit exchange and TEFCA's document payloads limit use." - Context: Argument that TEFCA constitutes information blocking under the Cures Act definition.
+
+3. "All APIs should be anchored by public key cryptography with clear authorization and authentication protocols. This is in contrast to attestation based protocols most notably TEFCA which has no fundamental security or privacy protections. All CMS rules should require zero trust security principles." - Context: Core security recommendation contrasting FHIR/zero-trust with TEFCA.
+
+4. "Star ratings based on data gotten through nonpublic platforms should be scored at zero. Star ratings data should be tagged with the URL used to access the data so enforcement of public API use should be straightforward. Such a rule alone would likely open the entire US healthcare system to a digital economy!" - Context: Bold proposal to use MA payment policy to force genuine API-based interoperability.
+
+---
+
+## 12. THEMES
+
+- [x] **PRIVACY-SECURITY** - Extensive criticism of TEFCA's security model (no zero-trust, attestation-based), multiple data breaches, privacy violations through query metadata; advocates for public key cryptography and zero-trust for all CMS APIs.
+- [x] **TECHNICAL-FEASIBILITY** - Views proposed compliance dates as doable; 1upHealth already provides many APIs; FHIR/RESTful architecture is technically proven. TEFCA/IHE approaches are technically inferior.
+- [x] **STANDARDS-MATURITY** - Supports FHIR maturity and Da Vinci IGs as ready; rejects IHE/document-based alternatives as inadequate for modern interoperability needs.
+- [x] **VENDOR-ECOSYSTEM** - Detailed critique of EHR vendor information blocking tactics; calls for enforcement; contrasts private payer-provider platforms with public APIs.
+- [x] **EXISTING-WORKFLOWS** - Private payer-provider platforms and TEFCA disrupt genuine interoperability; PA through private platforms should be prohibited.
+- [x] **TRANSPARENCY** - Supports API endpoint reporting, provider directories, and tagging quality data with source URLs to enforce public API use.
+- [x] **REGULATORY-AUTHORITY** - Urges aggressive use of information blocking enforcement and antitrust laws; payment reform to incentivize interoperability; TEFCA patient consent requirements.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for CMS to coordinate provider directory with NPPES/MAC data; tie API verification to program participation.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+280 Summer St, Floor 7, Boston MA 02210 | 508-245-8558 | 1up.health
+June 15, 2026
+Administrator Mehmet Oz, MD
+Centers for Medicare & Medicaid Services Attn: CMS-0062P
+7500 Security Boulevard, Mail Stop: C4-26-05
+Baltimore, MD 21244-1850
+Re: CMS-0062P ...Interoperability Standards and Prior Authorization for Drugs...
+Docket CMS-2026-1255
+
+Dear Administrator Dr. Oz,
+This comment is by 1upHealth, a scalable serverless cloud data provider leveraging the power of
+the FHIR data standard to combine claims and clinical data for analytics and APIs to change
+behavior.
+
+1upHealth applauds this proposed rule increasing interoperability to bring patients into a modern
+digital app-based healthcare economy. RESTful APIs for true interoperability are at the core of
+digital progress. It is critical to understand that payment incentives strongly incent the consolidated
+delivery systems to block interoperability so rule making is a necessity for the public.
+
+Rules such as 0062 provide a counterpoint to CMS payment incentives for consolidation and
+anticompetitive behavior to let providers lock in higher margin procedures. Large provider systems
+and their EHR vendors have a long history of preventing external interoperability though they
+support internal interoperability at vast scale...

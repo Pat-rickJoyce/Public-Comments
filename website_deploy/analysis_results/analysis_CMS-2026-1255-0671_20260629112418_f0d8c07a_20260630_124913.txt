@@ -1,0 +1,174 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0671_20260629112418_f0d8c07a
+Commenter: Sanofi
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:49:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Sanofi; signed by Michael Penn, Head of U.S. Reimbursement and Public Policy, U.S. Corporate Affairs
+- **Stakeholder type:** Other - biopharmaceutical manufacturer
+- **Credentials or expertise mentioned:** Research and development-driven healthcare biopharmaceutical company with therapeutic areas including vaccines, diabetes, chronic disease, multiple sclerosis, cardiovascular disease, oncology, rare diseases, immunology, and hemophilia.
+
+## 2. EXECUTIVE SUMMARY
+
+Sanofi supports CMS's proposal to modernize drug prior authorization through electronic processes for both medical-benefit and pharmacy-benefit drugs, including the October 1, 2027 compliance date, specific denial reasons, and public prior authorization metrics. The commenter urges CMS to strengthen patient protections by requiring 24-hour decision timeframes across impacted payers, adding transparency and human-oversight guardrails for AI-enabled prior authorization, honoring existing authorizations during plan transitions, reducing repeat prior authorizations for stable patients, and setting minimum standards for step therapy exceptions.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; FHIR-IG-REQUIRED; GENERAL/RFI on step therapy; Payer-to-Payer API implications.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890; 42 CFR 422.112(b)(8); 42 CFR 423.120; CMS-4201-F Medicare Advantage utilization management guidance.
+- **Standards referenced:** Electronic prior authorization; Payer-to-Payer API infrastructure; Medicare Part D requirements; no detailed FHIR IG or NCPDP version comments.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic Prior Authorization for Prescription Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Sanofi says the existing prior authorization process is fragmented, delays therapy, interrupts treatment, and burdens patients and providers. It supports different technical pathways for drugs covered under medical versus pharmacy benefits.
+- **Specific request:** Finalize the October 1, 2027 compliance date and ensure implementation expectations are clear, consistent, and aligned across impacted payers.
+
+**Topic 2: Faster Drug PA Decision Timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** The commenter cites evidence that prior authorization delays can worsen outcomes and states that electronic workflows make shorter timelines operationally feasible.
+- **Specific request:** Require response times within 24 hours across impacted payers and make clear that AI-supported or automated PA processes must reduce, not extend, time to decision.
+
+**Topic 3: Specific Denial Reasons and Transparency**
+- **Provision ID:** PA-DENIAL-REASONS; API-USAGE-METRICS
+- **Position:** Support with modifications
+- **Rationale:** Specific denial reasons help providers understand why a request was denied and how to resubmit or appeal. Public metrics would improve accountability and reveal payer behavior across approvals, denials, appeals, and decision times.
+- **Specific request:** Require denial notices to state when AI or algorithmic tools contributed; require uniform public reporting of PA metrics across all drugs, including AI-related data on approvals, denials, appeals, and source data.
+
+**Topic 4: AI Guardrails in Prior Authorization**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Sanofi argues that automated tools should support, not replace, individualized clinical judgment and should not create inappropriate barriers to medically necessary care.
+- **Specific request:** Establish guardrails requiring transparency, meaningful human oversight, nondiscrimination, and prohibition on sole AI-based denial, delay, or modification of care.
+
+**Topic 5: Continuity and Patient-Focused PA Safeguards**
+- **Provision ID:** GENERAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Repeat prior authorization for stable patients and patients with rare, chronic, relapsing, or autoimmune conditions can interrupt effective treatment and worsen outcomes.
+- **Specific request:** Require evidence-based PA criteria, limit repeat PA for stable patients, reduce PA for rare and autoimmune conditions, honor existing PAs when patients change plans for a transition period, and consider broader formulary-change guardrails.
+
+**Topic 6: Step Therapy RFI**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can be harmful when patients must retry failed drugs or restart protocols after changing plans, especially for specialty medications and chronic conditions.
+- **Specific request:** Use Payer-to-Payer API infrastructure to transfer step therapy history at plan transition; limit step therapy when prior protocols were completed or clinically detrimental; establish minimum federal exception criteria.
+
+## 5. SOLICITATION RESPONSES
+
+- **S15:** Sanofi supports CMS's recognition that medical-benefit and pharmacy-benefit drugs may require different technical pathways, implicitly agreeing that the distinction should be maintained while implementation is aligned.
+- **S20:** The commenter urges 24-hour decision timeframes across impacted payers and argues that electronic PA and payer public commitments make this feasible.
+- **S21:** Sanofi supports the October 1, 2027 compliance date if expectations are clear, consistent, and aligned across impacted payers.
+- **S16:** Sanofi supports specific denial reasons that explain why a request was denied and what actions are available to resubmit or appeal.
+- **S29:** The commenter supports public reporting of PA metrics, including approval and denial rates, appeal outcomes, average and median decision times, and underlying numerators and denominators.
+- **S30:** Sanofi asks CMS to require reporting on AI-enabled tools used in PA determinations, including data used, denials, approvals, and appeals, to support transparency and accountability.
+- **S66-S82:** In response to the step therapy RFI, Sanofi supports using Payer-to-Payer API infrastructure to transfer step therapy history and asks CMS to create protections against repeated or clinically inappropriate step therapy.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize requirements for electronic prior authorization for all drugs by impacted payers.
+2. Retain the October 1, 2027 compliance date with clear and consistent implementation expectations.
+3. Require 24-hour PA response times across impacted payers.
+4. Require specific denial reasons for all drug PA denials and include resubmission or appeal information.
+5. Require denial notices and PA metrics to disclose use of AI or algorithmic tools.
+6. Establish AI guardrails requiring transparency, clinically appropriate use, human oversight, and nondiscrimination.
+7. Require uniform public reporting of PA metrics across impacted payers.
+8. Limit repeated PA requirements for stable patients and patients with rare, chronic, progressive, relapsing, or autoimmune conditions.
+9. Require payers to honor existing drug PAs during plan transitions for a reasonable period.
+10. Use Payer-to-Payer APIs to transfer step therapy history and establish minimum step therapy exception standards.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization delays, fragmented workflows, lack of AI transparency, repeat PA for stable patients, inadequate continuity protections, and harmful step therapy restarts.
+- **Potential negative impacts cited:** Treatment delays, interrupted therapy, disease progression, avoidable emergency or hospital services, inappropriate denials, administrative burden, and reduced access for rare disease and autoimmune patients.
+- **Implementation barriers mentioned:** Need for consistent payer implementation, monitoring of decision timeframes and denial patterns, AI oversight, state-federal alignment, and reliable transfer of prior treatment history.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Survey finding that PA is the biggest burden to accessing health care; IQVIA findings that Medicare patients faced two to three rejections on average and 8-17% faced five or more rejections; multiple sclerosis patients waited an average of 21 days; 18-42% unable to gain approval within one year, with 68-80% going without treatment; median six-day delay after initial denial in another study.
+- **Studies or research referenced:** KFF tracking poll; IQVIA white paper; JAMA Health Forum study; systematic review in American Journal of Medicine; ASCO cancer care article; KFF AI regulation analysis; NAIC prior authorization white paper; step therapy studies by Kozma et al. and Tharp/Rothblatt.
+- **Examples provided:** Stable patients, rare disease patients, autoimmune disease patients, specialty medication users, and patients changing plans who are forced to restart step therapy.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, healthcare providers, impacted payers, biopharmaceutical manufacturers, states, and federal program administrators.
+- **Economic implications:** The comment does not quantify implementation costs, but frames efficient ePA, continuity protections, and reduced inappropriate PA as ways to reduce administrative burden and avoid downstream emergency or hospital utilization.
+- **Technical feasibility:** Sanofi views electronic PA and 24-hour decisions as feasible, citing payer commitments and the potential to use Payer-to-Payer API infrastructure for step therapy history.
+- **Patient care impact:** Strongly emphasizes faster treatment initiation, fewer interruptions, improved continuity, and reduced risk of disease progression or irreversible harm.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications
+- **Tone:** Professional, patient-focused, and policy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "we support CMS's efforts to modernize the prior authorization process for prescription drugs" - Context: Opening statement of support for the rule's core modernization goals.
+2. "we encourage CMS to consider response times within 24 hours across impacted payers" - Context: Recommendation on PA decision timeframes.
+3. "AI-enabled tools should support clinically appropriate and patient-centered determinations" - Context: AI guardrails and human oversight discussion.
+4. "Sanofi strongly endorses leveraging Payer-to-Payer API infrastructure to automate the transfer of step therapy history" - Context: Response to the step therapy RFI.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Supports the October 1, 2027 compliance date and seeks 24-hour decision timeframes.
+- [x] **PROVIDER-BURDEN** - Emphasizes that fragmented PA processes impose substantial burdens on healthcare providers.
+- [x] **HEALTH-EQUITY** - Highlights patients with rare diseases, autoimmune conditions, chronic conditions, and specialty medication needs as vulnerable to access disruptions.
+- [x] **TECHNICAL-FEASIBILITY** - Argues electronic PA and API-supported history transfer can make faster decisions and continuity protections feasible.
+- [x] **PATIENT-ACCESS** - Central theme; focuses on delays, denials, continuity, step therapy, and timely medication access.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for alignment across impacted payers and federal/state policy frameworks.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Supports CMS's recognition of different technical pathways for medical and pharmacy benefit drugs.
+- [x] **TRANSPARENCY** - Supports denial reasons, public PA metrics, and AI-use disclosure.
+- [x] **EXISTING-WORKFLOWS** - Discusses fragmented current PA and step therapy workflows, plan transitions, and continuity protections.
+- [ ] **COST-RESOURCES** - Not a major focus beyond administrative burden and downstream care use.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed in detail.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+Page 1 of 7 
+ 
+ 
+June 15, 2026 
+VIA ELECTRONIC FILING Â­â€“ http://www.regulations.gov 
+â€¢ 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+Attention: CMS-0062-P 
+P.O. Box 8013 
+Baltimore, Maryland 21244-8013 
+â€¢ 
+Re: CMS-0062-P â€” Medicare and Medicaid Programs; Patient Protection and 
+Affordable Care Act; Interoperability Standards and Prior Authorization for 
+Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, 
+State Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) Agencies 
+and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the 
+Federally-Facilitated Exchanges 
+On behalf of Sanofi, thank you for the opportunity to provide comments to the Centers for 
+Medicare and Medicaid Services (CMS) Proposed Rule on Interoperability Standards and 
+Prior Authorization for Drugs for various federal programs and health plans sold on 
+Federally Facilitated Exchanges (FFEs) (referred hereafter as â€œimpacted payersâ€).  
+Sanofi is a research and development-driven, AI-powered healthcare biopharmaceutical 
+company committed to improving patient lives through innovative medicines and vaccines. 
+Sanofi brings together world-class research and development in the pursuit of leading 
+health care solutions that serve major therapeutic areas including vaccines, diabetes, 
+chronic disease, multiple sclerosis, cardiovascular disease, oncology, rare diseases, 
+immunology, and hemophilia. We are committed to taking the lead on breakthrough 
+science and striving to go further and faster for patients with innovative and effective 
+treatments that change peopleâ€™s lives.  
+With a patient focus at the forefront of our mission, we support CMSâ€™s efforts to modernize 
+the prior authorization process for prescription drugs that can improve patient access and 
+reduce unnecessary administrative burden. In addition, as CMS modernizes the prior 
+authorization process, we e...

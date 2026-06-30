@@ -1,0 +1,203 @@
+{
+  "comment_id": "CMS-2026-1255-0620",
+  "source_file": "CMS-2026-1255-0620_20260629112210_bfeb2778.txt",
+  "analysis_timestamp": "20260629_154605",
+  "commenter_information": {
+    "author_organization_name": "AHIP",
+    "stakeholder_type": "Payer / Professional Association",
+    "credentials_or_expertise_mentioned": "National association representing health insurance plans covering over 205 million Americans across Medicare, Medicaid, employer-sponsored coverage, and the individual market."
+  },
+  "executive_summary": "AHIP supports extending electronic prior authorization requirements to drugs but argues that CMS must provide more implementation time, regulatory stability, and stronger provider adoption incentives. AHIP requests a 24-month post-final-rule compliance timeline, deferral of endpoint reporting, greater IG/version control, narrower and contextualized metrics, and alignment across payers, providers, vendors, CMS, ONC, and SDOs.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "PA-DRUG-MEDICAL",
+      "PA-DRUG-PHARMACY",
+      "FHIR-IG-REQUIRED",
+      "API-ENDPOINT-REPORTING",
+      "API-USAGE-METRICS",
+      "PA-DENIAL-REASONS",
+      "PA-TIMEFRAMES-DRUGS",
+      "HIPAA-PA-STANDARDS",
+      "ONC-STANDARDS-UPDATE",
+      "FF-SHOP-REQUIREMENTS",
+      "GENERAL"
+    ],
+    "regulatory_citations_mentioned": [
+      "45 CFR 170.215",
+      "5 U.S.C. 706(2)(c)",
+      "Paperwork Reduction Act",
+      "HIPAA Privacy Rule",
+      "HIPAA Security Rule",
+      "ONC Health IT Certification Program",
+      "MIPS",
+      "Promoting Interoperability Program",
+      "Medicare Conditions of Participation"
+    ],
+    "standards_referenced": [
+      "FHIR R4",
+      "HL7 Da Vinci CRD",
+      "HL7 Da Vinci DTR",
+      "HL7 Da Vinci PAS",
+      "US Core",
+      "CARIN IG for Blue Button",
+      "CARIN RTPBC IG",
+      "NCPDP standards",
+      "X12 278",
+      "X12 270/271",
+      "CAQH operating rules",
+      "FAST Security IG",
+      "NDH IG Endpoint Profile",
+      "Inferno",
+      "SVAP",
+      "CDex",
+      "TEFCA"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "Drug prior authorization implementation timeline",
+      "provision_id": "PA-DRUG-MEDICAL",
+      "position": "Modify",
+      "rationale": "Plans are still implementing non-drug ePA APIs for 2027 and need time to validate those workflows before adding drug-specific complexities, including medical/pharmacy benefit routing, PBM coordination, and delegated vendors.",
+      "specific_request": "Set compliance at 24 months after the final rule effective date rather than October 1, 2027."
+    },
+    {
+      "topic": "Medical versus pharmacy benefit distinction and unified authorizations",
+      "provision_id": "MEDICAL-VS-PHARMACY-BENEFIT",
+      "position": "Clarify",
+      "rationale": "Providers may not know the correct benefit pathway at ordering, and rigid separation could fragment oncology and other regimen-level care.",
+      "specific_request": "Clarify benefit routing and permit unified prior authorizations for integrated regimens, protocols, and episodes of care."
+    },
+    {
+      "topic": "Mandatory FHIR IGs and version management",
+      "provision_id": "FHIR-IG-REQUIRED",
+      "position": "Modify",
+      "rationale": "Specific versions, especially Da Vinci CRD/DTR/PAS 2.0, may be outdated or immature; IGs may impose policy beyond rulemaking and create version mismatch among payers, EHRs, and test tools.",
+      "specific_request": "Do not require specific CRD/DTR/PAS versions now; retain a named base FHIR standard; specify applicable IG capabilities by API; provide a stable transition framework and at least one additional year if specific versions are mandated."
+    },
+    {
+      "topic": "Provider adoption of ePA",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "Payer investments will not reduce burden unless providers and EHR vendors adopt and use the API in production.",
+      "specific_request": "Move from attestation to performance-based measures, eventually consider a Medicare CoP, and align EHR certification and incentives with payer API requirements."
+    },
+    {
+      "topic": "Specific denial reasons",
+      "provision_id": "PA-DENIAL-REASONS",
+      "position": "Modify",
+      "rationale": "There is no single national taxonomy across X12, CAQH, CMS, and proprietary codes; vendors need reconfiguration and testing time.",
+      "specific_request": "Set October 1, 2028 compliance, create an SDO-maintained denial reason taxonomy, issue detailed guidance, align with NCQA, and phase implementation where vendor constraints exist."
+    },
+    {
+      "topic": "Drug prior authorization timeframes",
+      "provision_id": "PA-TIMEFRAMES-DRUGS",
+      "position": "Modify",
+      "rationale": "Compressed timeframes without complete electronic submissions may increase denials, appeals, and patient safety risks.",
+      "specific_request": "Apply 24-hour response only for complete ePA submissions; measure timeframes from complete request receipt; allow clock pauses for missing information; make October 1, 2028 the earliest compliance date."
+    },
+    {
+      "topic": "Prior authorization and API metrics",
+      "provision_id": "API-USAGE-METRICS",
+      "position": "Modify",
+      "rationale": "Detailed metrics before APIs stabilize may be inconsistent and burdensome; raw counts can mislead because plan size differs.",
+      "specific_request": "Use narrow initial metrics, maintain percentages rather than raw counts, permit contextual narrative, and delay drug reporting changes until at least 2029 reporting using 2028 data."
+    },
+    {
+      "topic": "Payer endpoint reporting",
+      "provision_id": "API-ENDPOINT-REPORTING",
+      "position": "Oppose",
+      "rationale": "CMS has not fully explained legal authority, data scope, governance, PRA implications, publication format, validation, security risks, or how complex payer hierarchies will be represented.",
+      "specific_request": "Do not finalize mandatory endpoint reporting in this rule; issue a comprehensive proposed rule. If proceeding, use NDH Endpoint resources and clarify treatment of brands, affiliates, lines of business, delegates, and state-specific models."
+    },
+    {
+      "topic": "HIPAA prior authorization standards",
+      "provision_id": "HIPAA-PA-STANDARDS",
+      "position": "Modify",
+      "rationale": "FHIR can modernize transactions, but broad HIPAA-covered entity adoption requires clear authority, phased implementation, coexistence rules, and alignment with X12/NCPDP workflows.",
+      "specific_request": "Finalize a carefully phased FHIR transition for prior authorization, avoid overbroad scope, and provide testing, guidance, and implementation flexibility."
+    },
+    {
+      "topic": "ONC certification and payer API testing",
+      "provision_id": "ONC-STANDARDS-UPDATE",
+      "position": "Modify",
+      "rationale": "ONC can support testing, but formal payer certification may exceed statutory authority and create inappropriate information-blocking implications.",
+      "specific_request": "Support robust voluntary testing outside the statutory certification program, including test tools for all unexpired IG versions, technical assistance, and payer-focused forums."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "S1-S3, S18, S32, S37",
+      "summary": "Supports standardization but opposes premature mandatory versions and requests clearer version control, API-specific capability scoping, and coordinated CMS/ONC transitions."
+    },
+    {
+      "solicitation": "S12, S15, S21, S28",
+      "summary": "Drug ePA raises medical/pharmacy benefit routing, PBM coordination, and workflow issues; AHIP requests more time and flexibility for unified episode-level authorizations."
+    },
+    {
+      "solicitation": "S14, S19, S22, S25, S31",
+      "summary": "Requests alignment with NCPDP/PBM infrastructure, EHR vendor readiness, and continued exclusion of FFE stand-alone dental plans."
+    },
+    {
+      "solicitation": "S16-S17",
+      "summary": "Supports clear denial reasons but requests a later date, national taxonomy, NCQA alignment, and guidance."
+    },
+    {
+      "solicitation": "S20, S43",
+      "summary": "Opposes broad 24-hour decision timelines absent complete electronic submissions and requests clock pauses, complete-request definitions, and a later compliance date."
+    },
+    {
+      "solicitation": "S23-S24, S26-S27, S33",
+      "summary": "Requests deferral of endpoint reporting until CMS provides legal authority, governance, data scope, privacy/security protections, and PRA process."
+    },
+    {
+      "solicitation": "S29-S30, S34-S35",
+      "summary": "Requests narrow, phased API usage metrics with privacy protections and enough implementation experience before detailed reporting."
+    },
+    {
+      "solicitation": "S44-S56",
+      "summary": "Supports modernization but urges careful phasing, scope limits, testing, authority analysis, and coexistence/transition planning for FHIR-based HIPAA PA standards."
+    },
+    {
+      "solicitation": "S60-S65",
+      "summary": "Requests predictable ONC standards updates, coordinated version transitions, and voluntary testing support rather than payer certification mandates."
+    }
+  ],
+  "theme_taxonomy": [
+    "IMPLEMENTATION-TIMELINE",
+    "COST-RESOURCES",
+    "PROVIDER-BURDEN",
+    "TECHNICAL-FEASIBILITY",
+    "STANDARDS-MATURITY",
+    "REGULATORY-AUTHORITY",
+    "STAKEHOLDER-COORDINATION",
+    "EXISTING-WORKFLOWS",
+    "VENDOR-ECOSYSTEM",
+    "TRANSPARENCY",
+    "MEDICAL-VS-PHARMACY-BENEFIT"
+  ],
+  "stakeholder_map": [
+    "MA Organizations",
+    "Medicaid/CHIP Managed Care",
+    "QHP Issuers",
+    "PBMs & Pharmacies",
+    "Healthcare Providers",
+    "Health IT Vendors",
+    "All Other HIPAA Covered Entities",
+    "SDOs (HL7, NCPDP)",
+    "Consumer App Developers"
+  ],
+  "key_quotes": [
+    "Establish a compliance timeline of 24 months after the effective date of the final rule rather than a fixed calendar date.",
+    "Do not finalize payer endpoint reporting proposals at this time.",
+    "The full benefits of ePA will only be realized through widespread adoption by providers."
+  ],
+  "agency_action_requested": "Finalize drug ePA in modified form with longer timelines, clearer version governance, stronger provider adoption incentives, deferred endpoint reporting, narrower metrics, and phased HIPAA/FHIR transition policies.",
+  "overall_position": "Support with significant modifications",
+  "substantive_content": true,
+  "commenter": "AHIP",
+  "organization": "AHIP",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

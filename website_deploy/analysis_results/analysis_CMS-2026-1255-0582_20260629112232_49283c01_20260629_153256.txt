@@ -1,0 +1,135 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0582_20260629112232_49283c01
+Commenter: Aegis Sciences Corporation
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:32:56
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Aegis Sciences Corporation; signed by Joel T. Galanter, Chief Legal & Government Affairs Officer.
+- **Stakeholder type:** Other — clinical laboratory / laboratory sciences company.
+- **Credentials or expertise mentioned:** National laboratory sciences company based in Nashville, Tennessee, founded in 1990 through a Vanderbilt University partnership; provides health care services related to treatment and management for patients navigating the opioid epidemic; member of the American Clinical Laboratory Association.
+
+## 2. EXECUTIVE SUMMARY
+
+Aegis responds to the laboratory testing RFI and argues that prior authorization is increasingly being applied to routine, high-volume, low-cost laboratory testing. It asks CMS to prohibit prior authorization for a targeted category of high-volume, low-cost lab tests because the administrative cost of obtaining PA can exceed reimbursement and can threaten access to medically necessary testing.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI — laboratory tests; potentially PA-DRUG-MEDICAL only indirectly because the comment is within the broader PA rule but focuses on lab testing rather than drug PA provisions.
+- **Regulatory citations mentioned:** 91 Fed. Reg. 19890, 20014 (Apr. 14, 2026).
+- **Standards referenced:** None. The comment does not discuss FHIR, NCPDP, HL7, X12, or API implementation standards.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization for high-volume, low-cost laboratory testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Aegis states that PA has expanded beyond narrow utilization review into routine laboratory testing, and that the administrative cost of pursuing authorization can exceed the expected reimbursement. This can make PA function as a payment avoidance mechanism rather than an appropriate utilization management tool.
+- **Specific request:** Prohibit prior authorization for high-volume, low-cost laboratory services.
+
+**Topic 2: Definition of protected lab tests**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Aegis proposes a workable and targeted boundary that CMS could operationalize without eliminating all utilization management for laboratory services.
+- **Specific request:** Define protected tests as those that both appear on the annual OIG Office of Evaluation and Inspections Top 25 Lab Tests list and are reimbursed by the applicable Medicare Advantage plan at or below $100.
+
+**Topic 3: Fraud, waste, and abuse safeguards without PA**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Aegis argues Medicare Advantage plans would still have tools to manage improper billing and utilization without imposing broad pre-access barriers.
+- **Specific request:** Rely on post-payment review and statistical sampling as more economically reasonable alternatives to prior authorization for routine lab testing.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82 / Laboratory Tests RFI:** Aegis responds that PA burdens routine laboratory testing, including high-volume, low-cost tests, and recommends a CMS guardrail prohibiting PA for certain common, low-cost tests.
+
+## 6. RECOMMENDATIONS
+
+1. Prohibit prior authorization for high-volume, low-cost laboratory services.
+2. Define the protected category using a two-part test: annual OIG Top 25 Lab Tests and Medicare Advantage plan reimbursement at or below $100.
+3. Preserve payer program integrity tools such as post-payment review and statistical sampling rather than using broad PA requirements.
+4. Ensure beneficiaries retain access to routine laboratory tests needed for diagnosis, treatment, and ongoing care.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization expansion into routine laboratory testing; administrative costs exceeding reimbursement; payer use of PA to avoid payment.
+- **Potential negative impacts cited:** Reduced access to routine but medically necessary lab tests; payment risk for laboratories that must perform testing promptly; delays in patient treatment decisions.
+- **Implementation barriers mentioned:** Economic mismatch between PA administrative cost and low test reimbursement; prompt lab workflow needs that do not align with pre-authorization delays.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** ACLA reported that surveyed member laboratories with 50 or fewer tests on their menus had an average of 40 percent of total test volume subject to prior authorization.
+- **Studies or research referenced:** ACLA response letter dated June 12, 2026; OIG Office of Evaluation and Inspections Top 25 Lab Tests list proposed as a reference.
+- **Examples provided:** High-volume, low-cost tests where the cost of obtaining PA exceeds reimbursement.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Clinical laboratories, Medicare Advantage plans, clinicians ordering lab tests, and beneficiaries needing routine diagnostic or monitoring tests.
+- **Economic implications:** PA can impose costs on labs that exceed reimbursement; alternative program integrity tools may be more economically rational.
+- **Technical feasibility:** No technical standards concerns are raised; the proposed guardrail could be implemented using existing OIG and MA reimbursement information.
+- **Patient care impact:** Positive if adopted because fewer routine tests would be delayed or placed at payment risk.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional, targeted, practical
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "At a minimum, CMS should prohibit prior authorization for high-volume, low-cost laboratory services." - Context: Central recommendation.
+2. "The administrative cost of obtaining or chasing prior authorization often exceeds the expected reimbursement for the test itself." - Context: Economic rationale.
+3. "This creates a serious access problem because laboratories must often perform testing promptly to support patient treatment decisions." - Context: Patient access concern.
+4. "Medicare Advantage plans would still retain multiple tools to address fraud, waste, and abuse." - Context: Response to program integrity concerns.
+
+## 12. THEMES
+
+- [x] **COST-RESOURCES** - Aegis emphasizes that PA administrative costs can exceed lab test reimbursement.
+- [x] **PROVIDER-BURDEN** - Laboratories and ordering providers face administrative burdens when PA applies to routine testing.
+- [x] **PATIENT-ACCESS** - The comment argues PA can delay or threaten access to routine medically necessary lab tests.
+- [x] **EXISTING-WORKFLOWS** - Laboratory testing often must occur promptly, and PA requirements conflict with real-world lab workflows.
+- [x] **TRANSPARENCY** - The proposed OIG/reimbursement threshold would create a clearer boundary for when PA may not be used.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Via Electronic Comment – regulations.gov  
+Dr. Mehmet Oz, Administrator 
+Centers for Medicare & Medicaid Services 
+7500 Security Boulevard 
+Baltimore, Maryland 21244 
+ 
+Re:  
+Request for Information: Laboratory Tests and Durable Medical Equipment, 
+Prosthetics, Orthotics, and Supplies Background 
+File Code No. CMS-0062-P 
+ 
+Dear Dr. Oz, 
+ 
+Aegis Sciences Corporation (“Aegis”) appreciates the opportunity to provide comments 
+in response to the Request for Information (“RFI”) on how prior authorization affects the 
+clinical laboratory testing process.1 Founded in 1990 out of a partnership with Vanderbilt 
+University, Aegis is a national laboratory sciences company based in Nashville, TN. Aegis 
+provides critical healthcare services that help doctors treat and manage patients navigating the 
+opioid epidemic. We appreciate the agency’s recognition of the importance of this topic and the 
+insightful questions on which it has asked for stakeholder input. 
+  
+Aegis is a member of the American Clinical Laboratory Association and supports 
+ACLA’s recommendations to CMS in its response letter dated June 12, 2026. As ACLA 
+explains, prior authorization has expanded beyond narrower utilization review and increasingly 
+applies to high-volume, low-cost laboratory testing. ACLA reports that, for surveyed member 
+laboratories with 50 or fewer tests on their menus, an average of 40 percent of total test volume 
+was subject to prior authorization, and that prior authorization is increasingly required for high-
+volume, low-cost tests.2 
+ 
+For those routine tests, the economics are straightforward: the administrative cost of 
+obtaining or chasing prior authorization often exceeds the expected reimbursement for the test 
+itself. In practice, this means prior authorization becomes less a tool to evaluate unusual, 
+high-cost utilization and more a mechanism by which payers can avoid payment for a 
+broad category of routine, but critical, medically necessary laboratory ser...

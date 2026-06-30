@@ -1,0 +1,201 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0598_20260629112245_bb85e3ff
+Commenter: Innovaccer, Inc.
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:34:57
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Innovaccer, Inc.; signed by Abhinav Shashank, Dave Cassel, Todd Sega, and Lisa Bari.
+- **Stakeholder type:** Technology Vendor
+- **Credentials or expertise mentioned:** Enterprise AI and data platform serving health systems, providers, ACOs, payers, health plans, and public sector agencies. Innovaccer references its Gravity platform, Flow prior authorization automation platform, LRx360 specialty pharmacy platform, and Pharmacy Quality Solutions/EQUIPP platform serving community pharmacies.
+
+## 2. EXECUTIVE SUMMARY
+
+Innovaccer strongly supports CMS' direction, especially moving Da Vinci FHIR IGs from recommended to required and adopting FHIR PAS as a HIPAA prior authorization standard. It asks CMS to align pharmacy- and medical-benefit tracks, require structured denial reasons, make compliance verifiable through endpoint reporting/usage metrics/conformance testing/sandboxes, manage version transitions realistically, and broaden ADT/event notification recipients without mandating a new FHIR notification transport.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-ENDPOINT-REPORTING; API-USAGE-METRICS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; FF-SHOP-REQUIREMENTS; GENERAL/RFI event notifications.
+- **Regulatory citations mentioned:** 45 CFR 170.215; CMS-0062-P; RIN 0938-AV44.
+- **Standards referenced:** HL7 FHIR, Da Vinci CRD, DTR, PAS, NCPDP SCRIPT, NCPDP RTPB, NCPDP Formulary & Benefit, X12 278, ADT event notifications.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Required FHIR implementation guides**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Optional standards allow payer and vendor variation, leading to portals, fax, one-off integrations, and provider/platform burden.
+- **Specific request:** Require HL7 FHIR Da Vinci CRD, DTR, and PAS implementation guides for interoperability APIs and adopt updated versions in 45 CFR 170.215.
+
+**Topic 2: Version stability and sunset windows**
+- **Provision ID:** ONC-STANDARDS-UPDATE / FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Unexpired-version flexibility supports implementation but may allow payers to remain indefinitely on older versions, undermining consistency.
+- **Specific request:** Require versions only after they are balloted and stable, provide sufficient lead time, and establish sunset windows for superseded versions.
+
+**Topic 3: Coherent medical- and pharmacy-benefit drug PA tracks**
+- **Provision ID:** PA-DRUG-MEDICAL / PA-DRUG-PHARMACY
+- **Position:** Support with modification
+- **Rationale:** A single drug can move between pharmacy and medical benefits, and provider organizations often handle both. Separate pipelines would recreate fragmentation and duplicate work.
+- **Specific request:** Align shared data elements and decision semantics between NCPDP and FHIR PAS tracks so information can move without re-entry.
+
+**Topic 4: Pharmacy access to RTPB/F&B/status information**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** Pharmacists are often the first to encounter coverage or PA problems when a patient arrives to pick up a drug, yet real-time benefit/formulary/status data is often surfaced to prescribers or members but not pharmacies.
+- **Specific request:** Ensure pharmacies, especially community pharmacies, can access real-time benefit, formulary, and PA status information.
+
+**Topic 5: QHP pharmacy-benefit exception**
+- **Provision ID:** FF-SHOP-REQUIREMENTS / PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** A broad or permanent QHP issuer opt-out would reintroduce variability.
+- **Specific request:** Keep any QHP issuer exception from pharmacy-benefit requirements narrow and time-limited.
+
+**Topic 6: Decision timeframes and structured denial reasons**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS / PA-DENIAL-REASONS
+- **Position:** Support with modification
+- **Rationale:** Shorter clocks increase the need for automated standards-based workflows. Free-text denial reasons preserve manual work and are harder to act on.
+- **Specific request:** Shorten and align drug PA timeframes, require payers to provide specific denial reasons as structured coded fields in FHIR PAS responses, and ensure denial patterns can be analyzed.
+
+**Topic 7: Verifiable compliance**
+- **Provision ID:** API-ENDPOINT-REPORTING / API-USAGE-METRICS
+- **Position:** Support with modification
+- **Rationale:** A published API may still be unusable in production. Metrics and endpoint directories help determine whether APIs are discoverable and actually usable.
+- **Specific request:** Require a CMS-published machine-readable directory of payer FHIR endpoints, usage metrics, third-party connection success/error rates, numeric counts in PA metrics, conformance testing, and a public test sandbox.
+
+**Topic 8: HIPAA FHIR PAS standard**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support
+- **Rationale:** HIPAA-level FHIR PAS adoption would make ePA portable across all covered entities, not just CMS-impacted payers, and would reduce reliance on proprietary pathways.
+- **Specific request:** Adopt HL7 FHIR Da Vinci PAS as a HIPAA standard for referral certification and authorization and associated eligibility transactions, with a deliberate transition from X12 278.
+
+**Topic 9: X12 278 coexistence and intermediary conformance**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Modify
+- **Rationale:** The industry cannot move to a new standard all at once, and dual pipelines should not persist indefinitely.
+- **Specific request:** Define a clear, short transition path where FHIR PAS and X12 278 coexist; apply conformance expectations to clearinghouses and intermediaries.
+
+**Topic 10: Event notification RFI**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** The immediate gain is expanding recipients of existing notifications, while mandating new FHIR-based notification technology could slow implementation because FHIR messaging is not yet widely adopted for this use.
+- **Specific request:** Extend ADT notifications to ACOs and pharmacies, including community pharmacies, using existing ADT exchange infrastructure rather than mandating new FHIR transport.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** Strongly supports requiring rather than recommending Da Vinci CRD, DTR, and PAS IGs.
+- **S2/S3:** Supports unexpired version flexibility only with stable, balloted versions, enough lead time, and sunset windows for older versions.
+- **S12:** Supports medical-benefit drug PA via FHIR and highlights need to avoid fragmented pipelines.
+- **S14:** Supports pharmacy-benefit ePA using NCPDP standards, including SCRIPT, RTPB, and F&B.
+- **S15:** Responds by asking CMS to align the pharmacy- and medical-benefit tracks because drugs and provider workflows can cross benefit categories.
+- **S16/S17:** Strongly supports specific denial reasons and requests structured, coded denial reasons in the FHIR PAS response.
+- **S20/S43:** Supports shorter and aligned drug PA decision timeframes, but states they depend on required FHIR APIs.
+- **S23/S24/S26/S27/S33:** Supports endpoint reporting and asks for a CMS-published machine-readable endpoint directory kept current.
+- **S29/S30/S34/S35:** Supports usage metrics and public posting; recommends adding connection success/error rates and numeric counts.
+- **S31:** Requests any QHP issuer exception from pharmacy-benefit requirements be narrow and time-limited.
+- **S44/S45/S46/S47/S53/S54/S55:** Supports FHIR PAS as a HIPAA standard across covered entities, with defined coexistence with X12 278, clear timelines, conformance expectations, and testing.
+- **S60/S63:** Addresses versioning through stable-version requirements and sunset windows.
+- **S66-S82:** Responds to event notification RFI by supporting expanded ADT recipients while cautioning against mandating new FHIR notification technology.
+
+## 6. RECOMMENDATIONS
+
+1. Require HL7 FHIR Da Vinci CRD, DTR, and PAS IGs instead of leaving them recommended.
+2. Adopt updated versions in 45 CFR 170.215 only after ballot stability and adequate lead time.
+3. Establish sunset windows for superseded versions.
+4. Require NCPDP standards for pharmacy-benefit drug ePA and FHIR Prior Authorization API for medical-benefit drugs.
+5. Align data elements and decision semantics across NCPDP and FHIR PAS workflows.
+6. Make real-time benefit, formulary, and PA status information available to pharmacies.
+7. Require PA status exchange through open standards rather than proprietary networks alone.
+8. Keep any QHP pharmacy-benefit exception narrow and time-limited.
+9. Require structured, coded denial reasons in FHIR PAS responses.
+10. Require endpoint reporting, usage metrics, conformance testing, and a public test sandbox.
+11. Include third-party connection success/error rates and numeric PA counts in reported metrics.
+12. Adopt FHIR PAS as a HIPAA PA standard and define a clear transition from X12 278.
+13. Apply conformance expectations to clearinghouses and intermediaries.
+14. Expand ADT recipients to ACOs and pharmacies without mandating new FHIR notification technology.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Optional standards, disconnected medical/pharmacy benefit pipelines, opaque proprietary PA status channels, free-text denial reasons, nominal API compliance, indefinite dual FHIR/X12 pipelines, and over-prescriptive FHIR event notification requirements.
+- **Potential negative impacts cited:** Continued fax/portal workflows, duplicate provider/platform work, delayed time to therapy, pharmacies unable to help patients at pickup, unusable APIs, and prolonged maintenance of two transaction pipelines.
+- **Implementation barriers mentioned:** Fragmented clinical records/payer policy/transactions, optional IG implementation, lack of pharmacy visibility into PA status, proprietary networks, and limited adoption of FHIR-based messaging for ADT.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Innovaccer states Gravity integrates with more than 100 EHR and operational systems and that PQS reaches the large majority of community pharmacies.
+- **Studies or research referenced:** No external studies cited.
+- **Examples provided:** Provider portals, fax, one-off integrations, pharmacies encountering coverage issues at pickup, published APIs that are not usable in production, and existing ADT exchange infrastructure.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Providers, health systems, payers, health plans, ACOs, pharmacies, community pharmacies, patients, technology vendors, clearinghouses, and intermediaries.
+- **Economic implications:** Standardization would reduce duplicate implementation and manual work; conformance testing and endpoint directories could lower onboarding cost.
+- **Technical feasibility:** Strong support for required standards, but with stable versions, transition planning, and testing/sandbox infrastructure.
+- **Patient care impact:** Positive if standards reduce delays, give pharmacies actionable information, and accelerate time to therapy.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Strongly supportive with targeted modifications
+- **Tone:** Technical, assertive, implementation-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Required beats recommended." - Context: Summary of why Da Vinci FHIR IGs should become mandatory.
+2. "A standard that is published but not usable does not move data." - Context: Argument for endpoint reporting, usage metrics, conformance testing, and a sandbox.
+3. "A coded denial reason can be acted on automatically." - Context: Request for structured denial reasons in FHIR PAS responses.
+4. "A HIPAA-level FHIR standard is what makes prior-authorization automation portable across every payer and provider." - Context: Support for FHIR PAS as a HIPAA standard.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests deliberate sequencing, transition planning, and stable versions before requirements.
+- [x] **PROVIDER-BURDEN** - Focuses on replacing portals, fax, duplicate work, and free-text denial interpretation.
+- [x] **TECHNICAL-FEASIBILITY** - Emphasizes conformance testing, public sandbox, endpoint discovery, and standards version stability.
+- [x] **STANDARDS-MATURITY** - Requests stable balloted versions and sunset windows; warns FHIR event notification transport is not yet broadly adopted.
+- [x] **PATIENT-ACCESS** - Frames real-time benefit/formulary visibility and automated PA as foundations for faster time to therapy.
+- [x] **REGULATORY-AUTHORITY** - Strongly supports HIPAA-level adoption of FHIR PAS across all covered entities.
+- [x] **STAKEHOLDER-COORDINATION** - Addresses providers, pharmacies, ACOs, payers, clearinghouses, and intermediaries.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Strong focus on aligning pharmacy and medical benefit PA tracks.
+- [x] **TRANSPARENCY** - Supports public endpoint directories, metrics, numeric counts, and open PA status channels.
+- [x] **EXISTING-WORKFLOWS** - Recommends defined coexistence with X12 278 and using existing ADT exchange rather than mandating new FHIR notification transport.
+- [x] **VENDOR-ECOSYSTEM** - Addresses dominant vendors, proprietary networks, and platform implementation realities.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1 
+Innovaccer, Inc. 
+201 Mission Street, Ste. 2900 
+San Francisco, CA 94105 
+June 15, 2026 
+The Honorable Mehmet Oz, MD 
+Administrator, Centers for Medicare & Medicaid Services 
+7500 Security Boulevard 
+Baltimore, MD 21244-1850 
+Submitted electronically via Regulations.gov 
+Re: CMS-0062-P, RIN 0938-AV44 - Medicare and Medicaid Programs; Patient Protection 
+and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs 
+Dear Administrator Oz, 
+Innovaccer, Inc. (Innovaccer) submits these comments on the Interoperability Standards and 
+Prior Authorization for Drugs proposed rule. Innovaccer is an enterprise AI and data platform 
+that acts as the healthcare context layer for health systems, providers, accountable care 
+organizations, payers, health plans, and public sector agencies. Gravity, the autonomous 
+healthcare platform, integrates with more than 100 electronic health record and operational 
+systems and turns the fragmented information those systems hold into high-quality, 
+standardized data that powers agentic automation across population health, care management, 
+quality, revenue cycle, prior authorization, and patient access. 
+That work gives us a direct view of where prior authorization breaks and what fixes it. Our Flow 
+platform automates prior authorization, referrals, coding, and denials for providers. Our LRx360 
+specialty pharmacy platform, co-developed with Longitude Rx, verifies benefits and starts prior 
+authorization before the drug reaches the pharmacy. Pharmacy Quality Solutions by Innovaccer 
+operates the EQUIPP platform to enable value based contracting efforts between healthcare 
+payers and the majority of community pharmacies in the United States. Across these, the same 
+lesson holds: prior authorization stalls because the clinical record sits in one system, payer 
+policy in another, and the transaction in a third, and because the standards meant to connect 
+them are recommended rather than required. This rule addresses ...

@@ -1,0 +1,138 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0693_20260629112056_8e102a6c
+Commenter: Sheer Health
+Source: PDF Attachment
+Analysis Date: 2026-06-30 13:05:15
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Sheer Health.
+- **Stakeholder type:** Technology Vendor.
+- **Credentials or expertise mentioned:** Sheer Health describes itself as a New York City healthcare technology company that helps patients understand and use health insurance benefits, resolve billing errors, manage claims, maximize benefits, and use plan coverage, claims history, and PA data.
+
+## 2. EXECUTIVE SUMMARY
+
+Sheer Health strongly supports the proposed interoperability changes, especially patient access API improvements and access to prescription drug prior authorization data. It recommends adding RTPBC IG support for Patient Access APIs, expanding the payer scope to state-based exchange issuers where possible, and strengthening payer API testing, access, downtime/error reporting, and certification.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-PHARMACY; API-USAGE-METRICS; FF-SHOP-REQUIREMENTS; GENERAL/RFI on improving payer API implementation.
+- **Regulatory citations mentioned:** 91 FR 19890; Section II.A Interoperability Standards for APIs; Section II.D.3 FF-SHOP Patient Access APIs; Section I.C Specific Terms; RFI III.C Improving Implementation of Payer API Technology.
+- **Standards referenced:** Patient Access API; CARIN IG for Blue Button; PDex IG; PDex US Drug Formulary IG; RTPBC IG; payer API certification; sandbox and production API environments.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Patient Access API Interoperability Standards**
+- **Provision ID:** FHIR-IG-REQUIRED; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Prescription drug PA data will improve transparency and help patients and advocates understand coverage.
+- **Specific request:** Finalize patient access API standards and access to prescription drug PA data.
+
+**Topic 2: Required Use of Unexpired IG Versions**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** Inconsistent patient access APIs make it harder for patients and third parties to create unified cross-payer experiences.
+- **Specific request:** Require conformance to unexpired versions of CARIN IG for Blue Button, PDex IG, and PDex US Drug Formulary IG, with automatic incorporation of updated versions.
+
+**Topic 3: RTPBC IG for Patient Access APIs**
+- **Provision ID:** FHIR-IG-REQUIRED; GENERAL
+- **Position:** Modify
+- **Rationale:** Third-party apps need medication cost and coverage data to help patients afford and understand medications.
+- **Specific request:** CMS should recommend RTPBC IG for the Patient Access API.
+
+**Topic 4: Expand Impacted Payer Scope**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Modify
+- **Rationale:** Many plans do not expose APIs, excluding patients from interoperability benefits and increasing developer burden.
+- **Specific request:** Expand requirements beyond FF-SHOP small group QHP issuers by reconsidering exclusion of SBE issuers, assessing overlap with FFE issuers, and incentivizing SBEs where CMS cannot mandate APIs.
+
+**Topic 5: API Testing and Environment Consistency**
+- **Provision ID:** GENERAL; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** Differences between sandbox and production behavior, and inconsistencies among a payer's plans, make implementation difficult.
+- **Specific request:** Require payer API testing for consistency across multiple plans and across sandbox and production environments.
+
+**Topic 6: Developer Access, Reliability Metrics, and Certification**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** Production API access can take weeks, developer portals and APIs can fail or go down, and third parties need a clear way to identify compliant APIs.
+- **Specific request:** Standardize API access processes and timelines, require downtime and error-rate reporting, test frequently across functions, and require certification if ONC establishes payer API criteria, with optional higher levels of certification.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1/S2/S3/S6/S37:** Sheer Health supports requiring unexpired versions of CARIN Blue Button, PDex, and PDex US Drug Formulary IGs and supports version updating to reduce inconsistent API behavior.
+- **S8/S25:** The recommendation to support RTPBC IG for Patient Access APIs relates to real-time prescription benefit and medication cost/coverage transparency.
+- **S40/S41/S42:** Sheer supports expanding API requirements to FF-SHOP small group QHP issuers and asks CMS to go further by considering SBE issuers and incentives for non-mandated payers.
+- **S29/S30/S34/S35:** Sheer recommends collecting API downtime and error rates in addition to usage metrics, with frequent testing that detects sporadic breakages.
+- **S62/S65:** Sheer supports payer API certification and testing criteria, recommending required certification if ONC establishes criteria and optional higher certification levels to encourage robust APIs.
+- **S66-S82:** Sheer responds to RFI III.C on improving payer API implementation through sandbox/production consistency testing, standardized developer onboarding, reliability reporting, and certification.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize patient access API interoperability standards and access to prescription drug PA data.
+2. Require conformance to unexpired versions of CARIN IG for Blue Button, PDex IG, and PDex US Drug Formulary IG.
+3. Preserve automatic incorporation of updated versions into standards.
+4. Recommend RTPBC IG for the Patient Access API.
+5. Expand required Patient Access APIs to additional payers wherever CMS has authority.
+6. Reconsider continued exclusion of SBE issuers and evaluate whether FFE participation can support broader issuer portfolio requirements.
+7. Incentivize SBEs to implement APIs where mandates are unavailable.
+8. Require API testing for consistency across plans and between sandbox and production environments.
+9. Standardize and streamline third-party production API access processes and timelines.
+10. Require payers to report API downtime and error rates.
+11. Use testing mechanisms with broad functional coverage and frequent runs.
+12. Require payer API certification if ONC establishes criteria, while allowing voluntary higher certification tiers.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Inconsistent API behavior, limited payer scope, lack of medication cost/coverage data, slow and variable developer access processes, API downtime/errors, and lack of clear certification signals.
+- **Potential negative impacts cited:** Patients may be unable to use third-party applications, third-party developers face higher workload, and patients lack clear access to coverage and medication affordability information.
+- **Implementation barriers mentioned:** Differences among payer APIs, sandbox/production mismatch, multi-week production access processes, unreliable developer portals, and absence of consistent certification.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics are cited.
+- **Studies or research referenced:** None.
+- **Examples provided:** Sheer Health's prescription drug cost and coverage analysis service; third-party developer onboarding; sandbox and production API discrepancies; developer portal downtime and unexpected API errors.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, third-party application developers, patient advocacy technology companies, QHP issuers, SBE issuers, FF-SHOP issuers, payers, and CMS/ONC.
+- **Economic implications:** The comment does not quantify costs, but argues standardization will reduce development workload and help patients understand medication affordability and coverage.
+- **Technical feasibility:** Sheer views API expansion and certification as technically achievable but dependent on consistent standards, testing, onboarding, reliability reporting, and certification criteria.
+- **Patient care impact:** Better APIs would help patients access, understand, and act on coverage information, including prescription drug PA and cost/coverage data.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with modifications.
+- **Tone:** Technical, constructive, developer-focused.
+- **Priority level:** Medium.
+
+## 11. KEY QUOTES
+
+1. "Sheer Health voices strong support of this proposed rule" - Context: Overall position on CMS-0062-P.
+2. "Providing access to prior authorization data for prescription drugs is a huge improvement in transparency" - Context: Support for patient access API expansion.
+3. "CMS should recommend the RTPBC IG for the Patient Access API." - Context: Recommendation for medication cost and coverage data.
+4. "Certification of payer API technology would provide an easy way for third-party developers" - Context: Support for payer API certification.
+
+## 12. THEMES
+
+- [x] **TECHNICAL-FEASIBILITY** - The comment focuses on API behavior, testing, sandbox/production consistency, and certification.
+- [x] **STANDARDS-MATURITY** - Sheer supports unexpired IG versions, automatic updates, and RTPBC IG recommendation.
+- [x] **PATIENT-ACCESS** - Improved APIs would help patients access and understand plan, claims, PA, and drug coverage information.
+- [x] **TRANSPARENCY** - The comment emphasizes prior authorization, medication cost, coverage, and certification transparency.
+- [x] **SMALL-PAYER-IMPACT** - Sheer supports FF-SHOP expansion and urges consideration of SBE issuers and broader payer scope.
+- [x] **VENDOR-ECOSYSTEM** - Third-party app developers are central to the comment, including access processes and integration burden.
+- [x] **STAKEHOLDER-COORDINATION** - The comment requires coordination among CMS, ONC, payers, third-party developers, FFEs, and SBEs.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+I. Introduction
+
+Sheer Health is a healthcare technology company based in New York City dedicated to helping patients understand how to use their health insurance benefits with ease. Our technology allows us to advocate for members in resolving billing errors, managing claims, and maximizing their benefits. Sheer Health's primary mission revolves around ensuring that accessing healthcare is simple, transparent, and easy to understand. Data such as plan coverage information, claims history, and prior authorizations are critical to our operations.
+
+Sheer Health voices strong support of this proposed rule and the changes it would make to interoperability standards, with some additional recommendations and observations.

@@ -1,0 +1,210 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0614_20260629112220_1c39ae91
+Commenter: Partnership to Protect Coverage patient and consumer organizations
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:41:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Partnership to Protect Coverage patient and consumer organizations, including Cystic Fibrosis Foundation contact and listed national disease/patient advocacy organizations
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** Coalition represents millions of patients and consumers with serious, acute, and chronic conditions, including individuals relying on ACA patient protections. Member organizations include disease-specific and consumer advocacy groups.
+
+## 2. EXECUTIVE SUMMARY
+
+The coalition strongly supports extending electronic prior authorization standards to prescription drugs and FF-SHOP plans but urges CMS to add stronger patient protections, faster timeframes, continuity-of-care rules, detailed denial explanations, and meaningful public reporting. The comment emphasizes that electronic modernization must not simply accelerate existing utilization management practices; it must reduce delays, prevent inappropriate denials, protect stable patients from repeated PA/step therapy, and make PA data usable to patients, providers, researchers, and policymakers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FF-SHOP-REQUIREMENTS; PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS; API-USAGE-METRICS; TRANSPARENCY; GENERAL/RFI laboratory tests, DMEPOS, step therapy, provider API adoption.
+- **Regulatory citations mentioned:** No CFR citations.
+- **Standards referenced:** APIs; Provider Access API; prior authorization APIs; electronic PA; e-prescribing and EHR adoption as implementation analogies.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Extend electronic PA to prescription drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support/Modify
+- **Rationale:** Prescription drugs are essential for chronic conditions, and excluding them from ePA standards forces patients and providers to manage multiple systems.
+- **Specific request:** Finalize drug ePA extension; require real-time benefit pathway identification and consistency in terminology, documentation, and workflows across medical-benefit and pharmacy-benefit drugs.
+
+**Topic 2: Automation safeguards and clinical review**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Modify
+- **Rationale:** Automation should improve timeliness and appropriateness, not simply speed inappropriate denials or replace clinical review.
+- **Specific request:** Require qualified clinician review for complex denials and monitor denial/overturn rates.
+
+**Topic 3: Continuity of care and repeat PA**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; GENERAL/step therapy
+- **Position:** Modify
+- **Rationale:** Stable patients on long-term medications face recurring or surprise PA requirements that can cause refill gaps and avoidable emergency care.
+- **Specific request:** Prohibit unnecessary reauthorization for stable long-term therapies; require approvals to last for duration of treatment; prevent mid-course PA without continuity protections; honor existing approvals and step therapy exceptions during plan transitions.
+
+**Topic 4: FF-SHOP extension**
+- **Provision ID:** FF-SHOP-REQUIREMENTS
+- **Position:** Support
+- **Rationale:** FF-SHOP insurers already offer individual market QHPs on the FFM, so burden is minimal and patient benefit is substantial.
+- **Specific request:** Finalize extension to FF-SHOP and continue promoting consistent PA protections across coverage markets.
+
+**Topic 5: Faster QHP timeframes**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** Patients with chronic illness are harmed by delays, and automation should permit faster processing.
+- **Specific request:** Require QHP standard requests to be resolved within 72 hours and expedited requests within 24 hours for non-drug items/services; require 24-hour responses for all QHP prescription drug PA requests; limit extensions to 168 hours/7 days and require notice and basis for extension.
+
+**Topic 6: Public API and PA reporting**
+- **Provision ID:** API-USAGE-METRICS; TRANSPARENCY
+- **Position:** Modify
+- **Rationale:** Disaggregated and public data are necessary to identify disparities and evaluate patient impacts.
+- **Specific request:** Publicly post API usage data at least annually; disaggregate by provider type, plan, size, geography, service type, diagnosis, income, disability, gender, race/ethnicity, and age; standardize posting location, file type, layout, terminology, and consider a centralized dashboard.
+
+**Topic 7: Denial explanations**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Generic denial reasons do not allow patients or providers to correct, appeal, or identify covered alternatives.
+- **Specific request:** Require detailed, plain-language denial notices identifying missing documents, coverage policy/clinical criteria, covered alternatives, appeal steps, timelines, and accessibility/language access.
+
+**Topic 8: Laboratory tests, DMEPOS, and provider API adoption**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Modify
+- **Rationale:** PA delays for lab testing can delay diagnosis/treatment; DMEPOS denials can undermine independence; provider API adoption remains limited.
+- **Specific request:** Ensure timely updates to providers and labs regardless of network status; require clear medical-necessity standards and appeals for DMEPOS; educate and support small/medium providers through pilots and guidance.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S14/S15:** Supports extending ePA standards to drugs under both medical and pharmacy benefits and requests real-time benefit pathway identification.
+- **S16/S17:** Requests more specific denial determinations, plain-language notices, missing-document detail, clinical criteria, alternatives, and appeal instructions.
+- **S20/S43:** Urges 24-hour responses for all QHP prescription drug PA requests and shorter non-drug timeframes of 72 hours standard/24 hours expedited.
+- **S29/S34/S35:** Supports API usage metric collection but urges public annual posting and disaggregation to identify access disparities.
+- **S40/S41/S42:** Strongly supports applying ePA standards to FF-SHOP insurers and states burden should be minimal.
+- **S66-S82:** Responds to RFIs on laboratory tests, DMEPOS, step therapy, provider adoption, and patient-centered reporting.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize extension of electronic PA standards to drugs under medical and pharmacy benefits.
+2. Require real-time benefit pathway identification and consistent terminology/documentation across benefit types.
+3. Require qualified clinical review for complex denials and monitor denial/overturn rates.
+4. Prohibit unnecessary repeat PA for stable long-term therapies and require approvals for the duration of treatment.
+5. Honor existing approvals and prior step-therapy exceptions during plan transitions.
+6. Finalize FF-SHOP extension.
+7. Shorten QHP non-drug PA timeframes to 72 hours standard and 24 hours expedited.
+8. Require QHP prescription drug PA responses within 24 hours in all cases.
+9. Treat missed decision deadlines as deemed denials triggering appeal rights.
+10. Publicly post API usage data annually and disaggregate PA and API data across patient, provider, plan, geography, and service categories.
+11. Standardize reporting location, format, layout, terminology, and consider a centralized public dashboard.
+12. Strengthen denial notices with specific clinical criteria, missing documents, alternatives, appeal steps, and accessibility/language access.
+13. Improve PA protections for laboratory tests and DMEPOS and support provider API adoption through pilots, education, and guidance.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, improper denials, repeat PA for stable patients, surprise PA at refill, insufficient QHP timeframes, opaque reporting, vague denial reasons, and low provider API adoption.
+- **Potential negative impacts cited:** Treatment abandonment, gaps in care, exacerbation of symptoms, emergency department visits, delayed lab diagnoses, DMEPOS access barriers, and unequal patient access.
+- **Implementation barriers mentioned:** Inconsistent website posting, nonstandard data formats, insufficient provider funding/expertise, vendor/payer coordination challenges, and limited adoption of Provider Access APIs.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Cites KFF polling that prior authorizations rank as the public's biggest burden; cites WEDI survey showing 90% of medical plans started API implementation by January 1, 2027, while only 33% of providers indicated likely Provider Access API implementation; cites literature on e-prescribing and EHR adoption.
+- **Studies or research referenced:** KFF prior authorization polling; KFF analysis of insurer PA data; WEDI interoperability and PA survey; Health Affairs e-prescribing adoption study; JMIR EHR adoption review; CMS announcement on ePA early adopters.
+- **Examples provided:** Stable patients facing yearly/surprise PA at refill; patients switching plans and restarting PA/step therapy; DMEPOS denials for medical necessity; lab test delays affecting diagnosis and treatment planning.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with chronic, serious, acute, rare, and disabling conditions; clinicians; providers; laboratories; QHP issuers; FF-SHOP enrollees; plans; researchers; policymakers; small and medium practices.
+- **Economic implications:** Repeat PA and treatment gaps waste resources; provider API adoption may require funding, education, and vendor support.
+- **Technical feasibility:** Supportive, but adoption depends on provider readiness, standardization, and meaningful implementation assistance.
+- **Patient care impact:** High; the comment emphasizes that PA delays can cause treatment gaps, emergency visits, delayed diagnosis, and disrupted chronic disease management.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with strong modifications
+- **Tone:** Patient-centered; policy-focused; constructive
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Electronic modernization should improve the timeliness and appropriateness of coverage decisions, not simply accelerate existing utilization-management practices." - Context: Core guardrail for automation.
+2. "Patients and providers should not experience delays because a request was routed incorrectly or because responsibility for the authorization is unclear." - Context: Benefit pathway and workflow consistency.
+3. "Individuals with stable diagnoses and long-term treatment needs should not have to renew prior authorization on, for example, a monthly basis." - Context: Continuity-of-care and repeat PA concern.
+4. "A significant barrier to accessing prior authorization reporting is the lack of consistency in website location, publication format, and terminology." - Context: Reporting transparency problem.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Requests faster QHP timelines and limits on extensions; also references 2027 API implementation.
+- [x] **PROVIDER-BURDEN** - Emphasizes provider burden from multiple systems, repeat PA, and unclear denial documentation.
+- [x] **HEALTH-EQUITY** - Requests disaggregated reporting by race/ethnicity, disability, geography, income, age, and other factors.
+- [x] **TECHNICAL-FEASIBILITY** - Discusses Provider Access API adoption gaps and need for support.
+- [x] **PATIENT-ACCESS** - Central theme: preventing treatment delays, gaps, and denials.
+- [x] **STAKEHOLDER-COORDINATION** - Calls for coordination across payers, providers, labs, patients, and plans during transitions.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Requests real-time benefit pathway identification and consistent workflows.
+- [x] **TRANSPARENCY** - Strong focus on public reporting, denial explanations, and dashboard standardization.
+- [x] **SMALL-PAYER-IMPACT** - Addresses FF-SHOP and small employer market implications.
+- [x] **EXISTING-WORKFLOWS** - Notes refill workflow surprises, plan transitions, appeals, and step therapy rework.
+
+**Duplicate-file note:** This analysis is substantively identical to the other CMS-2026-1255-0614 attachment in this batch because the uploaded extracted text appears to contain the same coalition comment.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+June 15, 2026  
+ 
+The Honorable Robert Kennedy, Jr.  
+Secretary Department of Health and Human Services  
+200 Independence Avenue SW  
+Washington, DC 20201  
+ 
+The Honorable Dr. Mehmet Oz 
+Administrator Centers for Medicare and Medicaid Services  
+U.S. Department of Health and Human Services  
+200 Independence Avenue SW  
+Washington, DC 20201 
+ 
+Re: 2026 CMS Interoperability Standards and Prior Authorization for Drugs proposed rule (CMS-0062-
+P). 
+ 
+Dear Secretary Kennedy and Administrator Oz: 
+ 
+Thank you for the opportunity to submit comments on Interoperability Standards and Prior 
+Authorization for Drugs Proposed Rule. We greatly appreciate the Centers for Medicare and Medicaid 
+Services’ (CMS) ongoing efforts to improve patient access to essential services and treatments.  
+ 
+The undersigned organizations represent millions of patients and consumers facing serious, acute and 
+chronic health conditions across the country, including individuals who rely on the patient protections 
+provided under the Affordable Care Act (ACA). Our organizations have a unique perspective on what 
+patients need to prevent disease, cure illness and manage chronic health conditions. Our breadth 
+ 
+2
+enables us to draw upon a wealth of knowledge and expertise that can be an invaluable resource in this 
+discussion.  
+ 
+In March of 2017, our organizations came together to form the Partnership to Protect Coverage. 
+Together, we agreed upon three overarching principles1 to guide any work to reform and improve the 
+nation’s healthcare system. These principles state that: (1) healthcare should be accessible, meaning 
+that coverage should be easy to understand and not pose a barrier to care; (2) healthcare should be 
+affordable, enabling patients to access the treatments they need to live healthy and productive lives; 
+and (3) healthcare must be adequate, meaning healthcare coverage should cover treatments patients 
+need, including all the service...

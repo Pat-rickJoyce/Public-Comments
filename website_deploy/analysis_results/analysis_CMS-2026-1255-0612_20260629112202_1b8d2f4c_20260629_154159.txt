@@ -1,0 +1,150 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0612_20260629112202_1b8d2f4c
+Commenter: Access to Comprehensive Genomic Profiling (ACGP) Coalition
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:41:59
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Access to Comprehensive Genomic Profiling (ACGP) Coalition
+- **Stakeholder type:** Advocacy Group / Industry Coalition
+- **Credentials or expertise mentioned:** Coalition of molecular diagnostics and biopharmaceutical companies focused on expanding patient access to comprehensive genomic profiling, biomarker testing, companion diagnostics, hereditary cancer panels, pharmacogenomics, and related advanced tests.
+
+## 2. EXECUTIVE SUMMARY
+
+ACGP responds to the RFI on prior authorization for laboratory tests and supports evidence-based utilization management only when it does not delay or deny medically necessary genomic and biomarker testing. The coalition asks CMS to prohibit date-of-service/specimen-collection denials, require payers to accept laboratory-submitted PA requests and appeals, accept test requisition forms as documentation, improve payer/LBM transparency, and create a non-compliance reporting mechanism.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL/RFI laboratory testing; PA-DENIAL-REASONS; TRANSPARENCY; PA-TIMEFRAMES-DRUGS by analogy; API-USAGE-METRICS by analogy.
+- **Regulatory citations mentioned:** 42 C.F.R. § 422.138(b); 42 C.F.R. § 422.566(c)(1)(ii).
+- **Standards referenced:** LOINC; CPT; PLA coding; LCD/NCD criteria; electronic prior authorization tools; laboratory benefit managers.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prohibit specimen-collection/date-of-service denials**
+- **Provision ID:** GENERAL/RFI laboratory testing
+- **Position:** Modify
+- **Rationale:** Biomarker and genomic testing may be ordered after diagnosis and performed on tissue already collected; denying PA because authorization occurred after the collection date is a timing technicality unrelated to medical necessity.
+- **Specific request:** Prohibit impacted payers from denying coverage solely because PA was sought or obtained after the date of service or specimen collection.
+
+**Topic 2: Laboratory ability to submit PA and appeals**
+- **Provision ID:** GENERAL/RFI laboratory testing
+- **Position:** Modify/Clarify
+- **Rationale:** Laboratories frequently furnish the service and hold relevant documentation, yet payer rules can prevent them from submitting or managing PA and appeals.
+- **Specific request:** Require payers to accept PA requests, status checks, and appeals from laboratories as recognized providers, regardless of network status.
+
+**Topic 3: Test requisition forms as documentation**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL/RFI laboratory testing
+- **Position:** Modify
+- **Rationale:** TRFs often contain the clinical information needed to determine medical necessity; refusing them creates duplicative records-chasing.
+- **Specific request:** Require acceptance of complete TRFs as part of the medical record and sufficient documentation when they establish applicable coverage criteria.
+
+**Topic 4: LBM and payer transparency**
+- **Provision ID:** TRANSPARENCY; API-USAGE-METRICS
+- **Position:** Modify
+- **Rationale:** LBM policies can be opaque, proprietary, lag clinical guidelines, impose test identifiers, or create unclear accountability between payer and LBM.
+- **Specific request:** Require disclosure of coverage criteria, documentation requirements, denial rationales, responsible entities, appeal pathways, and reporting by provider type/denial reason/claim disposition.
+
+**Topic 5: Automation must fit laboratory workflows**
+- **Provision ID:** GENERAL; TECHNICAL-FEASIBILITY
+- **Position:** Clarify/Modify
+- **Rationale:** ePA tools designed for imaging, procedures, and DME may not map cleanly to lab workflows involving test, code, specimen type, diagnosis, policy, and reflex logic.
+- **Specific request:** Build automation around laboratory-specific data fields and coverage rules; do not simply automate flawed policies.
+
+## 5. SOLICITATION RESPONSES
+
+- **S66-S82:** Directly responds to the RFI on laboratory tests, especially impacts on patient care, TRFs, post-collection denials, LBMs, process improvement, automation, technology gaps, and workforce impact.
+- **S16/S17:** Recommends granular denial rationales, documentation requirements, and accountable entities.
+- **S29/S35:** Recommends reporting broken down by requesting-provider type, denial reason, and claim disposition rather than only organization-level metrics.
+- **S20/S21:** By analogy, emphasizes that timing rules must not delay time-sensitive oncology testing.
+
+## 6. RECOMMENDATIONS
+
+1. Prohibit denials based on date of service or specimen-collection date.
+2. Require impacted payers to accept PA requests, status checks, and appeals from laboratories.
+3. Require acceptance of complete TRFs as part of medical necessity documentation.
+4. Require transparency into payer and LBM coverage criteria, documentation requirements, denial rationales, responsible entities, and appeal pathways.
+5. Create a non-compliance reporting mechanism for clinicians, patients, and laboratories.
+6. Ensure automation is built for laboratory workflows, including LOINC, CPT, PLA, specimen type, diagnosis codes, LCD/NCD criteria, and reflex logic.
+7. Address post-payment recoupment, retroactive denials, standing/reflex testing, reference-lab arrangements, and situations where medical necessity depends on preliminary results.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Administrative timing denials, inability of labs to participate fully in PA, rejection of TRFs, opaque LBM policies, and automation of flawed processes.
+- **Potential negative impacts cited:** Delayed oncology treatment decisions, denial of medically necessary testing, provider/lab burden, appeals, financial exposure, and reduced access to clinical trials or targeted therapies.
+- **Implementation barriers mentioned:** Laboratory-specific coding and coverage complexity, third-party LBM policies, network-status issues, payer opacity, and non-lab-oriented ePA tools.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No numerical data; cites members' collective experience that post-collection denials are common among payers using collection-date policies.
+- **Studies or research referenced:** References Medicare MolDX, LCDs, NCDs, and clinical guidelines generally.
+- **Examples provided:** Oncology biomarker testing, companion diagnostics, minimal residual disease assays, tissue already collected before test order, LBM test-registration and identifier requirements.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients needing oncology testing, ordering clinicians, laboratories, genetic counselors, payers, LBMs, and biopharmaceutical/molecular diagnostics companies.
+- **Economic implications:** Labs may absorb denials for good-faith testing; administrative work requires dedicated staff and vendors.
+- **Technical feasibility:** Automation is feasible only if designed for lab-specific fields and workflows.
+- **Patient care impact:** High, because genomic/biomarker results often determine targeted therapy, immunotherapy, or clinical trial eligibility.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed / Concerned
+- **Tone:** Detailed; technical; policy-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "Automating a sound process helps; automating a flawed one simply produces faster denials." - Context: Warning about technology without policy reform.
+2. "Post-collection denials are a recurring problem and, for genomic testing, a structural one." - Context: Explains the date-of-service concern.
+3. "A biomarker result frequently determines whether a patient is eligible for a targeted therapy or immunotherapy or even a clinical trial." - Context: Patient-access rationale.
+4. "Refusing to accept [a TRF] or refusing to accept physician attestation erects a barrier unrelated to medical necessity." - Context: Support for TRF acceptance.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - PA requires clinicians and labs to chase records, manage denials, and pursue appeals.
+- [x] **PATIENT-ACCESS** - Delays can affect oncology treatment selection and trial access.
+- [x] **TECHNICAL-FEASIBILITY** - Lab workflows require specific data elements not always supported by generic ePA tools.
+- [x] **TRANSPARENCY** - Strong emphasis on payer/LBM criteria, denial rationales, appeal pathways, and metrics.
+- [x] **EXISTING-WORKFLOWS** - Laboratory testing often involves specimens, reflex logic, and multi-party arrangements not compatible with pre-service PA.
+- [x] **VENDOR-ECOSYSTEM** - Discusses LBMs and third-party administrators of coverage policies.
+- [x] **STAKEHOLDER-COORDINATION** - Requires coordination among labs, clinicians, patients, payers, and LBMs.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+1001 Pennsylvania Ave NW | Suite 1300N | Washington DC 20004 | accesstoCGP.com 
+ 
+June 15, 2026 
+VIA REGULATIONS.GOV 
+The Honorable Mehmet Oz, M.D., MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+Re: 
+Request for Information: Laboratory Tests and Durable Medical Equipment, Prosthetics, 
+Orthotics, and Supplies Items (CMS-0062-P) 
+Dear Administrator Oz: 
+The Access to Comprehensive Genomic Profiling (ACGP) Coalition appreciates the opportunity 
+to respond to the Centers for Medicare & Medicaid Services’ (CMS) Request for Information 
+(RFI) on prior authorization for laboratory tests, set out in Section III.E of the proposed rule 
+referenced above. We commend CMS for recognizing that prior authorization, as applied to 
+laboratory testing, can operate as a barrier to medically necessary care, and we welcome the 
+specific questions on which the agency has invited stakeholder input. 
+ACGP is a coalition of leading molecular diagnostics and biopharmaceutical companies 
+committed to expanding patient access to comprehensive genomic profiling (CGP) and other 
+advanced biomarker testing. Biomarker testing is now foundational to precision oncology: it 
+guides treatment selection, identifies patients who may benefit from FDA-approved targeted 
+therapies and immunotherapies, and informs clinical decision-making at the points in a patient’s 
+care where timing matters most. Delays in testing can directly affect treatment decisions, and, in 
+some cases, patient outcomes. Our members’ tests are routinely subject to prior authorization, 
+and our comments draw on that collective experience. 
+ACGP supports evidence-based utilization management and recognizes that prior authorization 
+can play a role in confirming that a service meets established coverage criteria. Our concern is 
+not with coverage review. It is with administrative requirements that delay or deny medically 
+necessary t...

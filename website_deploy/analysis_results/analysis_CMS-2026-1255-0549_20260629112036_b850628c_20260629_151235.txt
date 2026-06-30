@@ -1,0 +1,223 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0549
+Commenter: Workgroup for Electronic Data Interchange (WEDI)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:12:35
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Workgroup for Electronic Data Interchange (WEDI)
+- **Stakeholder type:** Professional Association / Multi-stakeholder health IT standards advisor
+- **Credentials or expertise mentioned:** Named in HIPAA as an advisor to the HHS Secretary; leading multi-stakeholder authority on health IT, electronic administrative transactions, privacy, security, and health information exchange. WEDI convened a May 19, 2026 Member Position Advisory event with over 140 representatives from health plans, providers, clearinghouses, vendors, SDOs, and intermediaries.
+
+## 2. EXECUTIVE SUMMARY
+
+WEDI broadly supports CMS’s direction to expand electronic prior authorization for drugs and to move the industry toward mature, standards-based, automated workflows. Its recommendations focus on standards version governance, implementation cadence, realistic compliance timing, education, endpoint and usage reporting, clarification of HIPAA scope, and preserving practical fallback pathways while avoiding premature replacement of X12 eligibility/referral workflows.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; FF-SHOP-REQUIREMENTS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE; GENERAL/RFIs
+- **Regulatory citations mentioned:** CMS-0062-P; CMS-0057-F; 45 CFR 170.215; HIPAA Administrative Simplification; references to proposed pages 19901, 19906, 19923, 19933, 19934, 19940, 19949, 19957, 19969, 19974, 19975, 19986, 19995, 19999, and RFI pages 20006, 20008, 20013, 20014.
+- **Standards referenced:** HL7 FHIR; US Core IG; SMART App Launch; CARIN Blue Button IG; PDex, PDex Plan Net, PDex U.S. Drug Formulary; CRD; DTR; PAS; CDex; HL7 Da Vinci; NCPDP SCRIPT; NCPDP RTPB; NCPDP Formulary & Benefit; NDH IG; X12 278; X12 270/271; X12 999; TA1; HL7 v2 ADT; C-CDA; FHIR Subscriptions R5 Backport; Da Vinci Unsolicited Notifications; Da Vinci ATR; TEFCA.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Standards versioning and regulatory cadence**
+- **Provision ID:** FHIR-IG-REQUIRED / ONC-STANDARDS-UPDATE
+- **Position:** Modify / Clarify
+- **Rationale:** Naming specific IG versions can lock the industry into outdated standards or require too many concurrent versions. WEDI stresses a manageable floor, backward compatibility, clear upgrade cadence, and clarification of “expired” and “unexpired.”
+- **Specific request:** CMS/ONC should establish an initial floor version, limit concurrent version support, consider naming the most current finalized versions, define expired/unexpired terms, and publish a consolidated roadmap for standards upgrades and overlapping timelines.
+
+**Topic 2: Compliance timing and education**
+- **Provision ID:** IMPLEMENTATION-TIMELINE / GENERAL
+- **Position:** Modify
+- **Rationale:** Fixed calendar dates may become unreasonable depending on final-rule publication timing and may overlap with high-risk operational periods.
+- **Specific request:** Replace fixed dates with intervals after the final rule effective date, avoid January 1 or other high-risk operational dates, coordinate mandates with ONC, and provide CMS-led education and stakeholder-specific implementation guidance.
+
+**Topic 3: Pharmacy-benefit drug ePA**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** NCPDP standards can reduce manual PA processes, improve medication access, align with Medicare Part D requirements, and support prescriber/pharmacist workflows.
+- **Specific request:** Finalize use of unexpired NCPDP SCRIPT, RTPB, and Formulary & Benefit standards; retain both RTPB and F&B because they are complementary; educate prescribers and patients about RTPB benefits.
+
+**Topic 4: Medical-benefit drug ePA**
+- **Provision ID:** PA-DRUG-MEDICAL / FHIR-IG-REQUIRED
+- **Position:** Support with modifications
+- **Rationale:** Medical-benefit drugs include serious, expensive therapies where delays harm patients. WEDI believes updated CRD, DTR, and PAS versions are more mature after Da Vinci testing and piloting.
+- **Specific request:** Finalize ePA for medical-benefit drugs using CRD/DTR/PAS; continue working with HL7 and stakeholders on versions; convene a multi-stakeholder initiative on nationally consistent routing guardrails; increase education for smaller and mid-size plans and state Medicaid programs.
+
+**Topic 5: Denial reasons and decision timeframes**
+- **Provision ID:** PA-DENIAL-REASONS / PA-TIMEFRAMES-DRUGS
+- **Position:** Support / Clarify
+- **Rationale:** Specific denial reasons help prescribers and patients appeal or select alternative treatment. WEDI did not object to timeframes but highlights discharge-related real-time needs.
+- **Specific request:** Encourage payers to provide denial reasons as soon as possible; engage stakeholders on implementation time; explore ePA support for acute discharge situations where medication authorization is needed for discharge.
+
+**Topic 6: PA and API metrics**
+- **Provision ID:** API-USAGE-METRICS / TRANSPARENCY
+- **Position:** Support with modifications
+- **Rationale:** Metrics can help patients and CMS understand payer performance and whether APIs are reducing manual burden.
+- **Specific request:** Add more detailed service/category-level metrics, CRD/DTR/PAS funnel metrics, counts of API versus portal/fax/phone submissions, clarification of unique provider definitions, and public reporting in a patient-usable format.
+
+**Topic 7: Endpoint reporting and directory infrastructure**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support with modifications
+- **Rationale:** Centralized endpoint publication improves discovery, but failed endpoints and administrative burden must be addressed.
+- **Specific request:** Continue developing a national endpoint directory with impacted payers and payer associations; reduce reporting burden; include failure reconciliation processes and potentially endpoint reporting metrics.
+
+**Topic 8: Impacted payers, formularies, and open APIs**
+- **Provision ID:** FF-SHOP-REQUIREMENTS / GENERAL
+- **Position:** Support / Clarify
+- **Rationale:** Expanding impacted payers increases benefits, but partial market adoption creates fragmentation contrary to HIPAA’s simplification goals.
+- **Specific request:** Encourage non-impacted payers to adopt CMS-0057-F and CMS-0062-P requirements; remove formulary information from Provider Access and Payer-to-Payer APIs; make Drug Formulary and Provider Directory APIs open APIs.
+
+**Topic 9: HIPAA PA standards and X12 replacement**
+- **Provision ID:** HIPAA-PA-STANDARDS
+- **Position:** Support with clarification
+- **Rationale:** WEDI supports adopting FHIR, US Core, SMART App Launch, CRD, DTR, and PAS for ePA transactions, but requests clarity on the scope for all HIPAA covered entities and alignment with X12 008060 rulemaking.
+- **Specific request:** Clarify whether all HIPAA covered entities must support FHIR APIs and whether the medical-benefit drug ePA requirement applies to all covered entities once the HIPAA compliance date is reached.
+
+**Topic 10: Referral certification and eligibility alternatives**
+- **Provision ID:** HIPAA-PA-STANDARDS / EXISTING-WORKFLOWS
+- **Position:** Oppose finalizing now
+- **Rationale:** Members saw mixed value and risk in replacing X12 278 for referrals and X12 270/271 for eligibility; the eligibility proposal raises confusion about when to use CRD versus X12 and could burden smaller organizations.
+- **Specific request:** Do not finalize the referral-certification or eligibility replacement proposals now; conduct further outreach on functional differences, benefits, costs, workflow guidance, and education.
+
+**Topic 11: CDex attachments and direct data entry**
+- **Provision ID:** HIPAA-PA-STANDARDS / EXISTING-WORKFLOWS
+- **Position:** Support CDex; preserve DDE
+- **Rationale:** CDex can support PA attachments when DTR is insufficient, but should not substitute for DTR. DDE remains important for cyber incidents, outages, rural/small providers, low-volume workflows, and operational redundancy.
+- **Specific request:** Provide guidance distinguishing DTR from CDex, consider attachment metrics, and maintain the DDE exception while encouraging migration through incentives and better standards.
+
+**Topic 12: RFIs on event notifications, resiliency, step therapy, and lab/DMEPOS PA**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Modify / Clarify
+- **Rationale:** WEDI supports phased, practical event-notification expansion; stronger cyber resiliency policy; technology-enabled but patient-protective step therapy workflows; and more efficient lab/DMEPOS PA policies.
+- **Specific request:** Build event notifications as patient-safety and care-coordination infrastructure; preserve HL7 v2 while piloting FHIR notifications/subscriptions; strengthen cybersecurity governance and incident flexibility; continue DDE for emergency fallback; streamline step therapy with prior-step recognition and standards; reduce duplicative information requests in lab/DMEPOS PA.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3:** Supports requiring mature IGs but asks CMS to manage floor versions, current-version adoption, transition periods, and version-update cadence.
+- **S6:** No specific comments on CARIN, PDex, Plan Net, U.S. Drug Formulary, CRD, DTR, and PAS generally, but recommends considering PDex STU 2.2.0 if finalized before the final rule.
+- **S12/S21:** Supports medical-benefit drug ePA through CRD/DTR/PAS; asks CMS to ensure appropriate versions, routing guardrails, small-plan education, and realistic implementation support.
+- **S14/S19/S22/S25:** Supports pharmacy-benefit drug ePA using NCPDP SCRIPT, RTPB, and F&B; stresses RTPB and F&B are complementary and should both be retained.
+- **S16/S17:** Supports specific denial reasons for all drug PA requests and notes NCPDP denial reason codes can accommodate structured reporting.
+- **S20/S43:** Offers no objection to proposed timeframes but requests CMS explore real-time PA needs for hospital discharge medication scenarios.
+- **S23-S27/S33:** Supports centralized API endpoint reporting and recommends endpoint failure reconciliation, burden reduction, and stakeholder engagement.
+- **S29/S30/S34/S35:** Supports API usage metrics, asks CMS to clarify definitions and parse line-item approvals/denials, and recommends public reporting in a patient-usable manner.
+- **S40-S42:** Has no objection to FF-SHOP expansion but warns partial adoption creates fragmentation and asks CMS to encourage non-impacted payer adoption.
+- **S44-S56:** Supports replacing X12 278 with FHIR-based PA standards for ePA, requests scope clarification for all HIPAA covered entities, and asks CMS not to finalize referral/eligibility replacements without more outreach.
+- **S60-S65:** Responds extensively on versioning, expired/unexpired terminology, stakeholder input, and predictable upgrade cycles.
+- **S66-S82:** Responds to RFIs on event notifications, cyber resiliency, step therapy, direct data entry, and lab/DMEPOS PA with phased, standards-based, and operationally realistic recommendations.
+
+## 6. RECOMMENDATIONS
+
+1. Establish a standards “floor” and manageable IG transition process.
+2. Define “expired” and “unexpired” standards and clarify whether those terms are regulatory or SDO-based.
+3. Publish a consolidated implementation roadmap across CMS, ONC, and HIPAA timelines.
+4. Replace fixed compliance dates with intervals after the final rule effective date and avoid high-risk operational dates.
+5. Expand CMS education and outreach through webpages, newsletters, open-door forums, and industry events.
+6. Finalize ePA for pharmacy-benefit drugs using NCPDP SCRIPT, RTPB, and F&B.
+7. Finalize ePA for medical-benefit drugs using CRD, DTR, and PAS and support smaller plans/states with education.
+8. Encourage early reporting of specific drug PA denial reasons.
+9. Explore real-time ePA support for hospital discharge medication scenarios.
+10. Add more granular PA and API metrics, including CRD/DTR/PAS workflow metrics.
+11. Develop a national API endpoint directory with failure reporting/reconciliation.
+12. Encourage non-impacted payer adoption to reduce fragmentation.
+13. Clarify HIPAA covered-entity scope of the FHIR ePA standards.
+14. Do not finalize referral certification or eligibility replacement alternatives until further outreach.
+15. Adopt CDex for attachments but clarify it is not a substitute for DTR.
+16. Maintain the direct data entry exception.
+17. Use phased event-notification modernization and preserve HL7 v2 ADT near term.
+18. Strengthen health care cybersecurity preparedness, incident response, and emergency administrative flexibilities.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Standards version churn; overlapping mandates; unrealistic fixed dates; partial payer adoption; lack of clarity in HIPAA scope; premature replacement of X12 referral/eligibility workflows; small and less-resourced organization readiness.
+- **Potential negative impacts cited:** Fragmentation, provider confusion, excessive costs, workflow disruption, inability to realize ROI, manual fallback, delayed patient care, cybersecurity vulnerability, and alert fatigue.
+- **Implementation barriers mentioned:** Multiple concurrent IGs, technology upgrades, vendor/clearinghouse readiness, payer/provider workflow integration, endpoint quality, education gaps, SDO version cycles, and rural/small provider capabilities.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** WEDI MPA convened over 140 individuals. TEFCA public information cited as more than 21,000 organizations live, more than 81,000 unique connections, and more than 889 million documents shared since go-live. WEDI references market experience that organizations can typically support two IG versions during transition and at most three briefly.
+- **Studies or research referenced:** ONC HIO standards adoption data brief; JAMA Network Open 2025 study on ACO-supported ED response event notifications; CMS event notification FAQs/guidance; Da Vinci IG documentation and pilots; AHIP June 2025 voluntary prior authorization commitment.
+- **Examples provided:** Hospital discharge medication PA needs; pharmacist-initiated ePA; line-item PAS approvals/denials; DDE as cyber outage fallback; rural/low-volume providers; eligibility inquiries that blur PA requirement discovery and general coverage checks.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Payers, providers, patients, health IT developers, clearinghouses, vendors, pharmacies, PBMs, SDOs, state Medicaid agencies, QHP issuers, small/rural providers, ACOs, HIEs, and care coordination partners.
+- **Economic implications:** WEDI highlights substantial investments in systems, operations, workforce readiness, and standards upgrades; it emphasizes the need for demonstrated ROI and avoiding costs without realized benefits.
+- **Technical feasibility:** Feasible if standards are mature, tested, versioned predictably, and implemented with realistic timelines and education; risky if multiple versions, overlapping mandates, or immature replacement workflows are forced too quickly.
+- **Patient care impact:** Strong potential to reduce medication delays, improve patient access, and support care coordination if implemented well; poor implementation could create confusion, delays, and manual workarounds.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with substantial modifications and clarifications
+- **Tone:** Technical, collaborative, policy-oriented
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "WEDI broadly supports the direction and purpose of this proposed rule." - Context: Overall position.
+2. "WEDI strongly recommends that CMS remove specific compliance dates in the final rule and instead identify compliance dates as a number of days or months after the effective date of the final rule." - Context: Implementation timing.
+3. "WEDI supports the proposal to require impacted payers conduct ePAs for drugs covered under pharmacy benefits using the unexpired NCPDP SCRIPT, NCPDP RTPB, and NCPDP F&B standards." - Context: Pharmacy-benefit drug ePA.
+4. "Given these varying points, WEDI recommends that CMS not finalize this alternative proposal at this time." - Context: Referral standards alternative.
+
+## 12. THEMES
+
+- **IMPLEMENTATION-TIMELINE:** WEDI repeatedly asks for realistic timing, final-rule-relative deadlines, and coordinated roadmaps.
+- **COST-RESOURCES:** The comment emphasizes ROI, resource strain, and costs for providers, payers, vendors, and clearinghouses.
+- **PROVIDER-BURDEN:** WEDI focuses on workflow integration, manual processes, DDE, referrals, eligibility, and discharge scenarios.
+- **PRIVACY-SECURITY:** WEDI emphasizes privacy safeguards in event notifications and extensive cybersecurity resiliency recommendations.
+- **HEALTH-EQUITY:** DDE and phased implementation protect rural, small, and low-volume providers and their patients.
+- **TECHNICAL-FEASIBILITY:** The comment analyzes versioning, endpoint discovery, metrics, API performance, and interoperability readiness.
+- **STANDARDS-MATURITY:** WEDI’s central theme is adoption of mature, tested, consensus-based standards.
+- **PATIENT-ACCESS:** The comment supports ePA for drugs to reduce medication delays and improve access.
+- **REGULATORY-AUTHORITY:** WEDI asks CMS to clarify HIPAA covered-entity scope and directory authority implications.
+- **STAKEHOLDER-COORDINATION:** WEDI recommends CMS/ONC/SDO/stakeholder collaboration and multi-stakeholder initiatives.
+- **MEDICAL-VS-PHARMACY-BENEFIT:** WEDI discusses both drug benefit categories and routing guardrails.
+- **TRANSPARENCY:** The comment supports endpoint reporting, public metrics, denial reasons, and patient-usable data.
+- **SMALL-PAYER-IMPACT:** WEDI requests education for smaller and mid-size plans and state Medicaid programs.
+- **EXISTING-WORKFLOWS:** The comment is highly concerned with X12 278, X12 270/271, DDE, portals, and current referral/eligibility workflows.
+- **VENDOR-ECOSYSTEM:** Vendors, clearinghouses, EHRs, and intermediaries are central to WEDI’s implementation concerns.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, M.D.  
+Administrator  
+Centers for Medicare & Medicaid Services  
+Department of Health and Human Services  
+200 Independence Avenue, SW  
+Washington, DC 20201  
+ 
+Re: RIN 0938-AV44 
+Submitted electronically via http://www.regulations.gov 
+ 
+Dear Administrator Oz:  
+ 
+The Workgroup for Electronic Data Interchange (WEDI) writes today in response to the 
+“Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability 
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid 
+Managed Care Plans, State Medicaid Agencies, Children’s Health Insurance Program (CHIP) 
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the 
+Federally-Facilitated Exchanges” (CMS-0062-P) proposed rule published in the April 14, 2026, 
+edition of the Federal Register. 
+ 
+WEDI was formed in 1991 by then Department of Health and Human Services (HHS) 
+Secretary Dr. Louis Sullivan to identify opportunities to improve the efficiency of health data 
+exchange. Named in the Health Insurance Portability and Accountability Act (HIPAA) 
+legislation as an advisor to the Secretary of HHS, WEDI is the leading multi-stakeholder 
+authority on the use of health information technology (IT) to efficiently improve health 
+information exchange, enhance care quality, and reduce costs. With a focus on advancing 
+standards for electronic administrative transactions, and promoting data privacy and security, 
+WEDI is recognized and trusted as a formal advisor to the Secretary. Our diverse 
+membership includes health plans, providers, standards development organizations (SDOs), 
+vendors, federal and state government agencies, and patient advocacy organizations. 
+ 
+WEDI supports and shares CMS’s goals of leveraging health IT's advanced capabilities and 
+functions to decrease burden and streamline processes to improve the quality of care while 
+minimizing administrative costs. We applaud C...

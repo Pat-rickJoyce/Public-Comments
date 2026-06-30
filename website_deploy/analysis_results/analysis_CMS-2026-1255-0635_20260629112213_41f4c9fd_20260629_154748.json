@@ -1,0 +1,168 @@
+{
+  "commenter_information": {
+    "author_organization_name": "Bamboo Health",
+    "stakeholder_type": "Technology Vendor",
+    "credentials_or_expertise_mentioned": "Event notification and care coordination technology vendor that routes alerts to authorized recipients using hospital event messages, attribution/roster matching, and workflow-triggered notification delivery."
+  },
+  "executive_summary": "Bamboo Health supports expanding electronic event notifications but urges CMS to preserve HL7 v2 ADT as the current production-ready real-time push standard while piloting FHIR approaches. It recommends a tiered data model, stronger patient matching and attribution, provider directory modernization, permissible sharing guidance for behavioral health data, and TEFCA evolution toward operational real-time push workflows.",
+  "regulatory_context": {
+    "specific_provisions_addressed": [
+      "GENERAL",
+      "API-ENDPOINT-REPORTING",
+      "FHIR-IG-REQUIRED"
+    ],
+    "regulatory_citations_mentioned": [
+      "42 CFR Part 2",
+      "2020 CMS Interoperability and Patient Access final rule event notification requirements"
+    ],
+    "standards_referenced": [
+      "HL7 v2 ADT",
+      "HL7 2.5.1",
+      "FHIR Subscriptions",
+      "HL7 Da Vinci Unsolicited Notifications IG",
+      "HL7 Da Vinci Member Attribution List IG",
+      "TEFCA",
+      "MLLP over VPN",
+      "HTTPS web services"
+    ]
+  },
+  "detailed_positions": [
+    {
+      "topic": "Preserve HL7 v2 ADT while modernizing",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "HL7 v2 ADT is widely deployed, real-time, push-based, and production-ready; FHIR push notifications are not yet mature or uniformly deployed.",
+      "specific_request": "Maintain HL7 v2 ADT as the operational backbone while piloting FHIR Subscriptions and Da Vinci Unsolicited Notifications in targeted use cases."
+    },
+    {
+      "topic": "Additional event notification data elements",
+      "provision_id": "GENERAL",
+      "position": "Modify",
+      "rationale": "Additional data can improve routing and actionability but overloading notifications could degrade real-time performance and burden hospitals.",
+      "specific_request": "Use a tiered model with limited minimum fields and enhanced profiles for care management, transitions, behavioral health follow-up, and value-based workflows where available and lawful."
+    },
+    {
+      "topic": "TEFCA for event notifications",
+      "provision_id": "GENERAL",
+      "position": "Clarify / Modify",
+      "rationale": "TEFCA may expand reach and reduce duplicative agreements but is currently primarily query-based and lacks standardized real-time push infrastructure.",
+      "specific_request": "Develop a TEFCA use case for real-time push-based event notifications covering routing, authorization, endpoint discovery, patient matching, delivery confirmation, and technical routing entities."
+    },
+    {
+      "topic": "Privacy, behavioral health, and Part 2",
+      "provision_id": "PRIVACY-SECURITY / GENERAL",
+      "position": "Clarify",
+      "rationale": "State law and 42 CFR Part 2 fragmentation leads to over-redaction or suppression of behavioral health event data.",
+      "specific_request": "Provide federal guidance on permissible encounter-level sharing and adopt tiered data segmentation to allow basic event notifications while protecting sensitive details."
+    },
+    {
+      "topic": "Directories, attribution, and patient matching",
+      "provision_id": "API-ENDPOINT-REPORTING / GENERAL",
+      "position": "Support with modifications",
+      "rationale": "Notification value depends on routing to the right authorized recipient; stale rosters and directories reduce match and delivery accuracy.",
+      "specific_request": "Establish minimum practices for recipient directory maintenance, attribution files, roster updates, endpoint maintenance, delivery confirmation, and standardized roster/attribution exchange."
+    },
+    {
+      "topic": "Measurement and incentives",
+      "provision_id": "GENERAL",
+      "position": "Support with modifications",
+      "rationale": "Send rate alone does not show whether notifications reached authorized recipients or were timely/actionable.",
+      "specific_request": "Adopt objective measures for send rate, confirmed delivery rate, timeliness, recipient breadth, and closed-loop acknowledgment, with graduated enforcement and technical assistance."
+    }
+  ],
+  "solicitation_responses": [
+    {
+      "solicitation": "S66-S82",
+      "summary": "Provides extensive responses to the electronic event notification RFI, including data elements, standards, TEFCA, CoPs, directories, patient matching, attribution, measurement, and incentives."
+    },
+    {
+      "solicitation": "S8/S9/S24/S33",
+      "summary": "Discusses FHIR Subscriptions, Da Vinci Unsolicited Notifications, endpoint/directory modernization, and automated discovery as future-state mechanisms but cautions against premature mandates."
+    }
+  ],
+  "recommendations": [
+    "Recognize real-time event notifications as foundational care coordination services.",
+    "Preserve HL7 v2 ADT as the current production-ready real-time push standard.",
+    "Advance FHIR through phased pilots rather than broad premature mandates.",
+    "Ensure TEFCA evolves to support real-time push-based workflows.",
+    "Improve patient matching, attribution data, provider directories, roster standards, and endpoint maintenance.",
+    "Clarify permissible behavioral health and encounter-level sharing, including 42 CFR Part 2 issues.",
+    "Adopt tiered notification data profiles and avoid overburdening hospitals.",
+    "Create qualified notification arrangements and recognize technical routing vendors.",
+    "Measure send rate, confirmed delivery, timeliness, recipient breadth, and closed-loop acknowledgment.",
+    "Use outcome-based CoP requirements rather than prescribing a single technology before market readiness."
+  ],
+  "concerns_objections": {
+    "primary_concerns": [
+      "Premature disruption of HL7 v2 ADT infrastructure.",
+      "TEFCA does not yet provide standardized real-time push event infrastructure.",
+      "No universally required production-ready FHIR ADT push specification exists today.",
+      "Patient matching, attribution, directories, and Part 2 uncertainty impede routing."
+    ],
+    "potential_negative_impacts_cited": [
+      "Forced migration could impose cost, strain resource-limited hospitals, disrupt stable ADT feeds, and degrade real-time performance.",
+      "Suppression of behavioral health event data could delay interventions and increase readmission or adverse events."
+    ],
+    "implementation_barriers_mentioned": [
+      "Fragmented HIE/vendor/network participation, variable standards implementation, custom onboarding, limited rural/CAH resources, EHR vendor readiness, legal/consent fragmentation, stale rosters."
+    ]
+  },
+  "supporting_evidence": {
+    "data_or_statistics_cited": "No formal statistics cited; provides operational observations about hospital supplemental fields and HL7 v2 ADT deployment.",
+    "studies_or_research_referenced": "Recommends a national fill-rate study; no study results cited.",
+    "examples_provided": [
+      "ADT event types A01, A03, A04, A08.",
+      "MLLP over VPN and HTTPS web services as common connectivity models.",
+      "Bamboo Health matching against customer rosters and delivering workflow-triggered notifications."
+    ]
+  },
+  "impact_assessment": {
+    "affected_stakeholders": [
+      "Hospitals",
+      "Critical access hospitals",
+      "Rural emergency hospitals",
+      "ACOs",
+      "Payers",
+      "PAC providers",
+      "Behavioral health providers",
+      "EMS",
+      "Pharmacies",
+      "Social service providers",
+      "HIEs",
+      "Event notification vendors",
+      "Patients"
+    ],
+    "economic_implications": "Avoiding premature migration protects existing investment and prevents unnecessary re-engineering; better routing and automation may reduce downstream care coordination costs.",
+    "technical_feasibility": "Current HL7 v2 ADT workflows are feasible and mature; FHIR push models require pilots, conformance tools, and broader deployment before mandates.",
+    "patient_care_impact": "Timely notifications support transitions, outreach, post-discharge care, behavioral health follow-up, and value-based care performance."
+  },
+  "sentiment_analysis": {
+    "overall_position": "Supportive with strong technical cautions",
+    "tone": "Technical, practical, collaborative",
+    "priority_level": "High"
+  },
+  "key_quotes": [
+    "HL7 v2 ADT remains the only universally deployed, production-ready, push-based event standard nationwide.",
+    "FHIR does not yet provide a standardized, production-ready push model equivalent to HL7 v2 ADT.",
+    "TEFCA should complement, not displace, existing real-time notification capabilities.",
+    "The most effective strategies do more than deliver an alert; they route it to the right team and support timely action."
+  ],
+  "themes": [
+    "TECHNICAL-FEASIBILITY",
+    "STANDARDS-MATURITY",
+    "EXISTING-WORKFLOWS",
+    "STAKEHOLDER-COORDINATION",
+    "PRIVACY-SECURITY",
+    "PROVIDER-BURDEN",
+    "VENDOR-ECOSYSTEM",
+    "HEALTH-EQUITY",
+    "PATIENT-ACCESS",
+    "TRANSPARENCY"
+  ],
+  "analysis_status": "Complete",
+  "commenter": "Bamboo Health, Inc.",
+  "organization": "Bamboo Health, Inc.",
+  "state": "",
+  "posted_date": "2026-06-29",
+  "country": ""
+}

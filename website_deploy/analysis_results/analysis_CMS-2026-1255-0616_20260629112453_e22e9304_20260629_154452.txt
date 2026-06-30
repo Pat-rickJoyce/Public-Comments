@@ -1,0 +1,175 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0616_20260629112453_e22e9304
+Commenter: SCAN Health Plan
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:44:52
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** SCAN Health Plan
+- **Stakeholder type:** Payer / Medicare Advantage health plan
+- **Credentials or expertise mentioned:** SCAN identifies itself through its federal government affairs submission and references operational experience with pharmacy benefit real-time prescribing and Medicare Part C interoperability/electronic PA implementation.
+
+## 2. EXECUTIVE SUMMARY
+
+SCAN supports CMS's goals to modernize prior authorization, expand electronic data exchange, increase transparency, and reduce administrative burden. It asks CMS to refine the proposal by extending the implementation timeline, encouraging provider adoption of electronic prescribing, adopting a complete-request standard for decision clocks, requiring supporting records where appropriate, and improving provider API communication.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; STAKEHOLDER-COORDINATION.
+- **Regulatory citations mentioned:** No specific CFR sections cited.
+- **Standards referenced:** Electronic prescribing; electronic PA tools; APIs; Medicare Part C interoperability and electronic prior authorization implementation. Specific FHIR IGs and NCPDP standards are not named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Implementation timeline**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** SCAN says the October 1, 2027 compliance date is insufficient given operational, technical, and workflow changes across medical and pharmacy benefits. It notes that Medicare Part D has distinct workflows, systems, and pharmacy networks.
+- **Specific request:** Provide a minimum of 24 months after publication of the final rule for implementation, testing, provider alignment, and education.
+
+**Topic 2: Provider adoption of electronic prescribing and ePA tools**
+- **Provision ID:** PA-DRUG-PHARMACY; PROVIDER-BURDEN
+- **Position:** Modify
+- **Rationale:** SCAN currently supports real-time prescribing through electronic prescribing channels but reports variable provider adoption, limiting tool effectiveness.
+- **Specific request:** CMS should consider incentives to encourage broader provider adoption of electronic prescribing and electronic PA tools.
+
+**Topic 3: Specific denial reasons**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Clear and actionable denial information improves transparency and helps providers submit more complete appeals.
+- **Specific request:** Finalize the requirement to provide specific denial reasons as proposed.
+
+**Topic 4: Complete request standard**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS
+- **Position:** Modify
+- **Rationale:** SCAN argues that many denials occur because submissions are incomplete and that review clocks tied to incomplete requests could increase avoidable denials.
+- **Specific request:** Adopt a complete-request standard so decision timeframes begin only after receipt of sufficient clinical information and pause when additional information is requested.
+
+**Topic 5: Supporting documentation and medical records**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; EXISTING-WORKFLOWS
+- **Position:** Modify
+- **Rationale:** Upfront clinical documentation could facilitate faster approvals and reduce administrative back-and-forth.
+- **Specific request:** Consider requiring submission of supporting medical records at the time of PA request where appropriate.
+
+**Topic 6: Provider API communication**
+- **Provision ID:** API-ENDPOINT-REPORTING; STAKEHOLDER-COORDINATION
+- **Position:** Clarify / Modify
+- **Rationale:** SCAN reports difficulty obtaining APIs from providers during Part C implementation and states that electronic medical records work only if providers and plans can communicate through APIs.
+- **Specific request:** CMS should work with HHS to ensure providers understand the importance of communicating their APIs to Medicare Advantage and Part D plans.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12/S21:** SCAN responds to implementation and technical challenges for drug PA by recommending at least 24 months after final rule publication.
+- **S16:** SCAN supports the requirement to provide specific denial reasons.
+- **S20:** SCAN proposes a complete-request standard for PA timeframes so clocks begin when sufficient clinical information is received.
+- **S23/S24/S26/S33:** SCAN indirectly addresses API endpoint/reporting issues by emphasizing the need for providers to communicate their APIs to plans.
+- **S37:** SCAN highlights implementation challenges arising from provider API availability and adoption variability.
+
+## 6. RECOMMENDATIONS
+
+1. Provide at least 24 months after publication of the final rule before compliance.
+2. Align implementation time with thoughtful testing, provider alignment, and Part D education.
+3. Consider incentives to increase provider adoption of electronic prescribing.
+4. Finalize the specific denial reason requirement.
+5. Adopt a complete-request standard for PA decision timeframes.
+6. Pause decision clocks when additional information is requested.
+7. Require supporting medical records at the time of PA request where appropriate.
+8. Work with HHS to improve provider communication of API information to MA and Part D plans.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Operational complexity, insufficient implementation time, provider adoption gaps, incomplete PA submissions, and lack of provider API communication.
+- **Potential negative impacts cited:** Disruption to clinical workflows, higher costs and friction for providers/patients not using electronic tools, unnecessary denials from incomplete submissions.
+- **Implementation barriers mentioned:** Distinct Part D workflows and networks, variable provider adoption, inadequate API communication, documentation gaps.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative data cited.
+- **Studies or research referenced:** None.
+- **Examples provided:** SCAN's experience with variable provider adoption of real-time prescribing and difficulty obtaining provider APIs during Part C implementation.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare Advantage plans, Part D plans, providers, beneficiaries, pharmacy networks, health IT/EMR systems.
+- **Economic implications:** SCAN warns that inadequate provider uptake may create higher costs and friction; extended implementation may reduce costly disruption.
+- **Technical feasibility:** Feasible with additional time, provider adoption incentives, adequate API communication, and complete-request standards.
+- **Patient care impact:** Better implementation and clearer denial reasons could reduce disruption and improve timely determinations; rushed implementation could disrupt care.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed/supportive with implementation modifications
+- **Tone:** Professional, operational, collaborative
+- **Priority level:** Medium
+
+## 11. KEY QUOTES
+
+1. "We support CMS’s goal to modernize PA, expand electronic data exchange, increase transparency, and reduce administrative burden." - Context: Opening position.
+2. "The proposed compliance date of October 1, 2027, is not sufficient given the scope of change." - Context: Timeline recommendation.
+3. "SCAN recommends CMS adopt a 'complete request' standard for PA timeframes." - Context: Decision clock recommendation.
+4. "Clear, actionable denial information improves transparency" - Context: Support for specific denial reasons.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - Central concern; asks for at least 24 months after final rule publication.
+- [x] **COST-RESOURCES** - Discusses operational complexity and potential higher costs/friction from uneven tool adoption.
+- [x] **PROVIDER-BURDEN** - Focuses on provider adoption, incomplete submissions, and clinical workflow disruption.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [ ] **HEALTH-EQUITY** - Not addressed.
+- [x] **TECHNICAL-FEASIBILITY** - Highlights APIs, EMRs, e-prescribing, and implementation feasibility.
+- [ ] **STANDARDS-MATURITY** - Not substantively addressed.
+- [x] **PATIENT-ACCESS** - Concerned with minimizing disruption to patient care and reducing unnecessary denials.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [x] **STAKEHOLDER-COORDINATION** - Requests CMS/HHS work with providers and plans on API communication.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - Notes changes across both medical and pharmacy benefits and distinct Part D workflows.
+- [x] **TRANSPARENCY** - Supports specific denial reasons.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - Emphasizes clinical workflow and Part D system differences.
+- [x] **VENDOR-ECOSYSTEM** - Mentions EMR/API dependencies, though not in detail.
+
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+The Honorable Mehmet Oz, MD 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+ 
+RE: SCAN Health Plan Comments on Interoperability Standards and Prior Authorization 
+for Drugs Proposed Rule [CMS-0062-P] 
+Dear Administrator Oz: 
+SCAN Health Plan (SCAN) appreciates the opportunity to comment on CMS’s proposed rule 
+addressing interoperability standards and prior authorization (PA) for drugs. We support CMS’s 
+goal to modernize PA, expand electronic data exchange, increase transparency, and reduce 
+administrative burden. However, several elements of the proposal would benefit from refinement 
+to avoid operational complexity and disruption to clinical workflows. 
+ 
+Implementation Timeline 
+ 
+Implementing the proposed interoperability and PA requirements will require significant 
+operational, technical, and workflow changes across both medical and pharmacy benefits. The 
+proposed compliance date of October 1, 2027, is not sufficient given the scope of change. SCAN 
+recommends CMS provide a minimum of 24 months following publication of the final rule to 
+allow for thoughtful implementation, testing, and provider alignment, thereby minimizing 
+disruption to patient care. Notably, the final interoperability and electronic prior authorization 
+rule for Medicare Part C provided Medicare Advantage organizations with three years to 
+implement the new requirements. Because Medicare Part D operates under distinct workflows, 
+systems, and pharmacy networks, implementation presents unique challenges that warrant a 
+comparable transition period. Providing at least 24 months from publication of the final rule for 
+Part D will allow adequate time for the process implementation and education. 
+ 
+ 
+Electronic Prescribing Adoption 
+ 
+SCAN currently supports real-time prescribing through electronic prescribing channels for our 
+pharmacy benefit. Our experience reflects variable...

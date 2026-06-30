@@ -1,0 +1,176 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0667_20260629111950_9f013704
+Commenter: Smart Health Network
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:32:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Smart Health Network (SHN), Public Benefit Corporation.
+- **Stakeholder type:** Technology Vendor; Other neutral health data exchange infrastructure.
+- **Credentials or expertise mentioned:** SHN states it is building mission-locked, neutral common rails for health data exchange and implementing FHIR-based prior authorization infrastructure in an initial Delaware deployment.
+
+## 2. EXECUTIVE SUMMARY
+
+SHN strongly supports CMS-0062-P as a continuation of CMS-0057-F and endorses mandatory FHIR-based prior authorization standards, inclusion of medical benefit drugs, and creation of a national API endpoint directory. It asks CMS to require CRD, DTR, and PAS; use unexpired IG versions with a Q1 2028 convergence date; adopt FAST NDH for endpoint reporting; and treat FAST Security as an outcomes-based framework rather than a mandate for one centralized trust topology.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** FHIR-IG-REQUIRED; PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; API-ENDPOINT-REPORTING; PRIVACY-SECURITY-related implementation within GENERAL; PATIENT-ACCESS/API expansion; HIPAA-PA-STANDARDS indirectly through national FHIR PA infrastructure.
+- **Regulatory citations mentioned:** No CFR citations are cited directly; the comment references CMS-0062-P, CMS-0057-F, Section II.A.4, Section II.B.3, Section II.A.2, Section II.F.1.b, Section II.E, and Section II.A.5.
+- **Standards referenced:** HL7 FHIR; Da Vinci CRD, DTR, PAS, and CDex IGs; NCPDP SCRIPT; NCPDP RTPB; NCPDP Formulary & Benefit; FAST National Directory (NDH) IG; FAST Security IG v2.0.0; OAuth 2.0; Tiered OAuth; X.509 certificates; Dynamic Client Registration; FHIR CapabilityStatement; decentralized identity; verifiable credentials.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Mandatory prior authorization IGs**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Support
+- **Rationale:** SHN is actively building on CRD, DTR, and PAS and argues that PAS completes the end-to-end prior authorization workflow.
+- **Specific request:** Require CRD, DTR, and PAS for the Prior Authorization API, not only CRD and DTR.
+
+**Topic 2: Versioning and compliance date**
+- **Provision ID:** FHIR-IG-REQUIRED
+- **Position:** Modify
+- **Rationale:** Pinning to specific versions could freeze implementers on outdated specifications, while the October 1, 2027 deadline overlaps payer year-end operational cycles.
+- **Specific request:** Require conformance with unexpired IG versions, allow pre-2028 flexibility, use January 1, 2028 as a convergence point, and consider end of Q1 2028 as the compliance date.
+
+**Topic 3: Medical benefit drugs in the Prior Authorization API**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Medical benefit drugs, including infused therapies, biologics, and oncology agents, require similar documentation to other complex services and should not remain on fax, portal, or phone workflows.
+- **Specific request:** Finalize inclusion of medical benefit drugs in the Prior Authorization API and issue sub-regulatory guidance on common categories and edge cases.
+
+**Topic 4: Pharmacy benefit direction and RTPB**
+- **Provision ID:** PA-DRUG-PHARMACY
+- **Position:** Modify
+- **Rationale:** NCPDP standards are mature for current pharmacy workflows, but patients would benefit from eventual convergence toward a single FHIR interoperability substrate.
+- **Specific request:** Maintain NCPDP standards for now, signal future FHIR convergence, monitor FHIR pharmacy PA readiness, and consider RTPB as superior to group-level formulary files for identifying PA needs at prescribing.
+
+**Topic 5: API endpoint directory**
+- **Provision ID:** API-ENDPOINT-REPORTING
+- **Position:** Support
+- **Rationale:** Lack of a centralized, authoritative, machine-readable endpoint directory creates manual, duplicative, error-prone connection work and perpetuates N-by-N fragmentation.
+- **Specific request:** Finalize comprehensive endpoint reporting, require FAST NDH IG, publish the registry as a queryable FHIR API, and include technical/security metadata.
+
+**Topic 6: FAST Security and trust architecture**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** SHN supports the security outcomes FAST Security is designed to achieve but argues exclusive adoption of a centralized trust topology could block functionally equivalent decentralized approaches.
+- **Specific request:** Recommend FAST Security IG v2.0.0 as a reference implementation, publish measurable outcomes for identity, authorization, and revocation, and permit alternative implementations that interoperate and meet those outcomes.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1:** SHN supports requiring implementation guides for the Prior Authorization API and specifically asks CMS to require CRD, DTR, and PAS.
+- **S2:** SHN supports requiring unexpired versions rather than pinning fixed version numbers.
+- **S3:** SHN recommends version transition flexibility before January 1, 2028 and a convergence point to the most current unexpired versions.
+- **S12:** SHN supports medical benefit drug PA through FHIR APIs and states that CRD, DTR, PAS, and CDex can support the workflow electronically.
+- **S15:** SHN supports using the claims-processing system as the primary distinction between medical and pharmacy benefit drugs and asks CMS for sub-regulatory guidance on common categories.
+- **S21:** SHN supports the policy but recommends shifting the compliance date to the end of Q1 2028 because October 1, 2027 falls during a high-burden payer operational period.
+- **S25:** SHN views RTPB as superior to group-level formulary files for determining whether PA is required at prescribing, while recognizing NCPDP standards remain mature and appropriate near term.
+- **S26:** SHN recommends publishing the endpoint registry as a queryable FHIR API instead of only a flat machine-readable file.
+- **S27:** SHN supports reporting within 60 days of the final rule effective date, updates within one week of material changes, and registration by new payers at least 60 days before coverage begins.
+- **S23/S24:** SHN recommends endpoint reporting include capability statement URLs, OAuth server metadata, certificates, Dynamic Client Registration endpoints, supported IG versions, trust framework attestations, and technical contacts.
+- **S33:** SHN supports public publication of the endpoint registry and recommends a health check API or validated endpoint testing tool so the directory is operationally validated.
+- **S44-S50:** SHN indirectly addresses FHIR suitability, coexistence with other standards, timeline, cost-benefit, and standards maturity by supporting FHIR for medical benefit PA and longer-term pharmacy convergence while preserving mature NCPDP workflows now.
+- **S66-S82:** SHN provides broader infrastructure recommendations on security, trust, endpoint routing, and network architecture.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize CRD, DTR, and PAS as required Prior Authorization API implementation guides.
+2. Require conformance with unexpired IG versions and avoid fixed version pinning.
+3. Clarify pre-2028 implementation flexibility and consider end of Q1 2028 as the compliance date.
+4. Include medical benefit drugs in the Prior Authorization API by the final compliance date.
+5. Provide sub-regulatory guidance on medical versus pharmacy benefit categorization edge cases.
+6. Maintain NCPDP pharmacy standards near term while signaling longer-term FHIR convergence.
+7. Consider RTPB the preferred standard for formulary discovery in ePA workflows.
+8. Require payer API endpoint reporting and publish a national endpoint directory.
+9. Adopt FAST NDH IG as the endpoint reporting standard.
+10. Publish the endpoint registry as a queryable FHIR API with operational health validation.
+11. Include security metadata in endpoint directory reporting.
+12. Recommend FAST Security IG v2.0.0 as a reference implementation, but define conformance around measurable security outcomes.
+13. Permit decentralized identity, verifiable credential, or alternative trust approaches if they satisfy identity, authorization, revocation, and interoperability criteria.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Incomplete PA IG requirements, endpoint discovery fragmentation, ambiguity in drug benefit categorization, premature topology-specific security mandates, and bifurcated FHIR/NCPDP infrastructure.
+- **Potential negative impacts cited:** Continued fax/portal/phone workflows, duplicative endpoint maintenance, fragmentation, slower PA decisions, barriers to scalable network infrastructure, and foreclosed innovation in trust models.
+- **Implementation barriers mentioned:** Payer year-end operational burden, manual endpoint discovery, lack of authoritative directory metadata, version-transition complexity, pharmacy/medical benefit categorization ambiguity, and centralized trust single points of failure.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** No quantitative statistics are cited.
+- **Studies or research referenced:** HL7 International recommendations are referenced, but no external studies are cited.
+- **Examples provided:** SHN describes its Delaware deployment model, N-by-1 network architecture, and endpoint directory/routing layer as examples of common infrastructure; it also gives examples of decentralized credential and key-directory trust models used in other sectors.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Impacted payers, EHR vendors, third-party application developers, network operators, providers, patients, state Medicaid programs, smaller payers, and security/trust framework participants.
+- **Economic implications:** SHN argues endpoint directory infrastructure and common rails would reduce duplicative manual connection work and administrative waste; it characterizes payer reporting burden as minimal relative to ecosystem benefits.
+- **Technical feasibility:** SHN views FHIR PA implementation, FAST NDH endpoint directories, and FAST Security outcomes as feasible, while recommending flexibility for decentralized architectures.
+- **Patient care impact:** Faster electronic PA, real-time status visibility, and complete drug/non-drug PA data across patient/provider/payer APIs could reduce delays and improve patient-centered control over information.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive
+- **Tone:** Technical, collaborative, and infrastructure-focused
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "We therefore strongly support CMS's proposal" - Context: SHN's position on requiring CRD and DTR, with PAS added.
+2. "There is no principled reason to process this request through fax, portal, or phone" - Context: SHN's support for medical benefit drug PA through FHIR APIs.
+3. "The absence of a centralized, authoritative, machine-readable directory of payer API endpoints" - Context: SHN's rationale for API endpoint reporting.
+4. "The Case for Technology-Neutral, Outcomes-Based Adoption" - Context: SHN's recommendation on FAST Security and alternative trust architectures.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - SHN recommends shifting the compliance date to end of Q1 2028 and clarifying January 1, 2028 version convergence.
+- [x] **COST-RESOURCES** - The comment argues common endpoint infrastructure reduces duplicative implementation work and administrative waste.
+- [x] **PRIVACY-SECURITY** - SHN devotes a major section to organizational identity, authorization, revocation, OAuth, certificates, and alternative trust models.
+- [x] **TECHNICAL-FEASIBILITY** - SHN provides detailed implementation views on FHIR APIs, endpoint metadata, security topology, and directory operation.
+- [x] **STANDARDS-MATURITY** - SHN discusses maturity of CRD, DTR, PAS, NCPDP SCRIPT, RTPB, FAST NDH, and FAST Security.
+- [x] **PATIENT-ACCESS** - SHN links electronic PA to faster decisions, patient status visibility, and patient-centered data control.
+- [x] **STAKEHOLDER-COORDINATION** - The comment emphasizes common rails connecting payers, providers, EHR vendors, apps, and network operators.
+- [x] **MEDICAL-VS-PHARMACY-BENEFIT** - SHN supports claims-processing system categorization and asks for guidance on edge cases.
+- [x] **TRANSPARENCY** - SHN supports public endpoint publication, metadata, health checks, and real-time PA status visibility.
+- [x] **EXISTING-WORKFLOWS** - The comment addresses replacing fax, portal, phone, and bilateral endpoint discovery workflows.
+- [x] **VENDOR-ECOSYSTEM** - SHN focuses on EHR vendors, app developers, network operators, directories, and implementation guide conformance.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+Mehmet Oz, MD
+Administrator
+Centers for Medicare & Medicaid Services (CMS)
+Department of Health and Human Services
+Attention: CMS-0062-P
+Mail Stop C4-26-05
+7500 Security Boulevard
+Baltimore, MD 21244-1850
+Submitted electronically via: https://www.regulations.gov/
+Re: CMS-0062-P â€“ 2026 CMS Interoperability Standards and Prior Authorization for Drugs 
+Proposed Rule
+Dear Administrator Oz:
+Smart Health Network (SHN) respectfully submits these comments in response to the Centers 
+for Medicare & Medicaid Servicesâ€™ (CMS) 2026 Interoperability Standards and Prior 
+Authorization for Drugs Proposed Rule (CMS-0062-P), published in the Federal Register on 
+April 14, 2026. The public comment period closes today, June 15, 2026.
+Smart Health Network is a mission-locked, neutral infrastructure initiative designed to serve as 
+common rails for health data exchangeâ€”operated in the public interest, governed by a Public 
+Benefit Corporation, and built expressly to address the architecture and institutional 
+fragmentation that prevents American healthcare from functioning efficiently. Our network is 
+designed as an NÃ—1 substrate: every participant connects once and reaches the entire network, 
+while patient data stays where it lives, and the patient remains at the architectural center with 
+meaningful control over their own information.
+SHN applauds CMS for the bold and necessary direction reflected in CMS-0062-P. We view this 
+rulemaking as a critical extension of the foundation established in CMS-0057-F and offer 
+substantive comments on four priority areas where we believe our operational experience and 
+mission perspective can meaningfully contribute to the record.
+I. SHN Is Actively Implementing CMS-0057-F FHIR Standards for Prior 
+Authorization
+Smart Health Network was designed from its inception to operate on the FHIR-based 
+interoperability standards that CMS has mandated through its prior rulemakings, including the 
+Prior Aut...

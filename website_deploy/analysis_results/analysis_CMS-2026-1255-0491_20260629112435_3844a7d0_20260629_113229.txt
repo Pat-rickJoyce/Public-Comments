@@ -1,0 +1,141 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0491_20260629112435_3844a7d0
+Commenter: Derma Care Access Network (DCAN)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:32:29
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Derma Care Access Network (DCAN); signed by Gabrielle Draper, Director of Advocacy and Policy.
+- **Stakeholder type:** Advocacy Group / Coalition.
+- **Credentials or expertise mentioned:** DCAN represents more than two dozen advocacy organizations representing patients, health care providers, and skin health stakeholders. It sponsors education and advocacy on access to approved therapies and appropriate clinical care.
+
+## 2. EXECUTIVE SUMMARY
+
+DCAN supports CMS's proposals to modernize electronic prior authorization for drugs and improve transparency and timeliness in PA decisions. It emphasizes the burden of PA and step therapy in dermatology, supports finalizing drug ePA and denial/timeframe protections, and urges CMS to add strong step therapy guardrails rooted in clinical evidence, exceptions, and timely appeals.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; GENERAL/RFI on step therapy.
+- **Regulatory citations mentioned:** No CFR citations. The comment references CMS-0062-P and the rule's RFI on step therapy.
+- **Standards referenced:** Electronic prior authorization generally; no specific FHIR IG, NCPDP, or API standards named.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Electronic prior authorization for drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Prior authorization is common in dermatology and current processes lack transparency and timeliness, delaying access to prescription therapies.
+- **Specific request:** Finalize requirements for impacted payers to incorporate electronic prior authorization for drugs under both medical and pharmacy benefits.
+
+**Topic 2: Prior authorization timeframes and transparency**
+- **Provision ID:** PA-TIMEFRAMES-DRUGS; PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** Undefined response deadlines and opaque denials delay care and increase administrative burden. DCAN cites evidence that dermatology PA denials often lack denier identification and fail to address prescriber arguments.
+- **Specific request:** Finalize provisions that clarify response timeframes and improve transparency for prescription drug prior authorization decisions and denials.
+
+**Topic 3: Provider administrative burden in dermatology**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support
+- **Rationale:** Dermatologists and staff spend substantial time on PA, including interruptions during patient visits, reducing time available for patient-centered care.
+- **Specific request:** Use ePA to streamline PA workflows and reduce avoidable provider administrative burden.
+
+**Topic 4: Step therapy guardrails**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** Step therapy can delay clinically preferred treatment, force ineffective or harmful trial-and-error therapy, and conflict with clinical guidelines.
+- **Specific request:** Require evidence-based step therapy, exempt patients from repeating failed treatments, and clarify exception and appeal processes and timelines.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Supports electronic PA for medical-benefit drugs and frames it as reducing dermatology access delays.
+- **S14:** Supports electronic PA for pharmacy-benefit drugs as part of improving prescription drug access.
+- **S16:** Supports denial transparency and cites evidence that denial letters lack accountability and sufficient explanation.
+- **S17:** The comment supports transparency but does not specifically propose structured denial codes.
+- **S20/S43:** Supports clarified PA response timeframes to reduce delays in prescription drug access.
+- **S66-S82:** Responds to the RFI on step therapy by recommending evidence-based protocols, exceptions for previously failed therapies, and clear/timely exemption and appeal processes.
+
+## 6. RECOMMENDATIONS
+
+1. Finalize the proposal requiring ePA for drugs covered under medical and pharmacy benefits.
+2. Finalize provisions improving prior authorization transparency and response-time clarity.
+3. Ensure PA denials provide information sufficient for providers to make informed responses.
+4. Strengthen step therapy guardrails across plans.
+5. Require step therapy protocols to be rooted in clinical evidence.
+6. Exempt patients from repeating therapies they already tried and failed, including after plan changes.
+7. Require clear and timely processes for step therapy exception requests and appeals.
+8. Prioritize physician clinical judgment and patient access to effective, innovative treatments.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** PA delays, opaque denial letters, provider administrative burden, step therapy misalignment with clinical guidelines, and treatment disruption for chronic skin disease.
+- **Potential negative impacts cited:** Decreased adherence, increased clinic visits, higher patient costs, adverse reactions, symptom management disruption, disease progression, and financial burden.
+- **Implementation barriers mentioned:** Inefficient PA workflows, lack of denier accountability in denial letters, long decision times, and inconsistent plan step therapy protocols.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Skin conditions affect up to one in three Americans; dermatologists and clinic staff spend an average of 3.3 hours per day on PA; 60 percent of dermatologists interrupt patient visits for PA; roughly three-fourths of PA denial letters lacked a denier identifier and only 7 percent listed full names; only 31 percent of appeal denial responses addressed specific prescriber arguments; average time from PA submission to final decision was 11.3 days; less than 15 percent of dermatologists believe formularies align with preferred treatment at least three-fourths of the time; patients faced a median 75-day wait before a second referral for specialty medication after failing step therapy requirements.
+- **Studies or research referenced:** NIH skin conditions overview; American Academy of Dermatology survey; Journal of the American Academy of Dermatology denial letter analysis; Journal of Investigative Dermatology PA assessment; Dermatology and Therapy psoriasis biologic survey; Journal of Managed Care & Specialty Pharmacy studies on dermatology specialty treatment, physician perceptions of step therapy, and formulary restrictions.
+- **Examples provided:** Dermatology conditions such as acne, contact dermatitis, tumors, cancers, eczema, and psoriasis; step therapy requiring alternative drugs before clinically preferred treatments.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients with skin diseases, caregivers, dermatologists, clinic staff, plans, PBMs, and other skin health stakeholders.
+- **Economic implications:** DCAN links PA and step therapy delays to increased clinic visits, costs for patients, and administrative burden for providers.
+- **Technical feasibility:** The comment supports ePA generally but does not analyze technical implementation details.
+- **Patient care impact:** High. DCAN argues timely prescription access is critical for chronic skin disease, quality of life, adherence, and avoidance of disease progression.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive.
+- **Tone:** Professional, patient-centered, evidence-based.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "DCAN supports CMS' proposal to require impacted payers to incorporate electronic prior authorization" - Context: Overall support for drug ePA.
+2. "dermatologists and clinic staff reported spending an average of 3.3 hours per day on prior authorizations" - Context: Provider burden evidence.
+3. "DCAN supports CMS' proposed changes to prior authorization timeframes and transparency protocols" - Context: Support for PA timeframe and transparency provisions.
+4. "DCAN urges CMS to strengthen guardrails around step therapy" - Context: RFI response.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - DCAN supports defined response deadlines and timely PA/appeal processes, though not overall compliance-date changes.
+- [x] **COST-RESOURCES** - The comment cites provider time burden, patient costs, and increased clinic visits.
+- [x] **PROVIDER-BURDEN** - A central theme is dermatology provider and staff time spent on PA.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - The comment focuses broadly on patient access and quality of life, but equity-specific discussion is limited.
+- [ ] **TECHNICAL-FEASIBILITY** - No technical API feasibility analysis is provided.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - The core concern is timely access to dermatology medications and therapies.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **STAKEHOLDER-COORDINATION** - Not a major theme beyond plan/provider dynamics.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - DCAN supports both benefit categories but does not analyze distinctions.
+- [x] **TRANSPARENCY** - The comment strongly supports denial transparency and clear PA/step therapy processes.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - DCAN criticizes current PA and step therapy workflows as inefficient and opaque.
+- [ ] **VENDOR-ECOSYSTEM** - PBMs are mentioned in step therapy development, but vendor issues are not central.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+The Honorable Mehmet Oz
+Administrator
+Centers for Medicare & Medicaid Services
+7500 Security Boulevard
+Baltimore, MD, 21244
+
+RE: Medicare and Medicaid Programs: Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally Facilitated Exchanges [CMS-0062-P]
+
+Dear Administrator Oz:
+
+On behalf of the Derma Care Access Network (DCAN), thank you for the opportunity to provide the following comments in response to the Centers for Medicare & Medicaid Services' above-captioned rule, as well as the included request for information on step therapy. DCAN is aligned with CMS' goals to increase transparency and efficiency in the prior authorization and step therapy process to ensure patients receive timely access to medically necessary medications, therapies, and treatments.
+
+DCAN is a coalition representing more than two dozen advocacy organizations representing patients, health care providers, and other skin health stakeholders working to raise awareness and inform policies impacting patient-centered care.
+...

@@ -1,0 +1,185 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0513
+Commenter: Avalon Healthcare Solutions
+Source: PDF Attachment
+Analysis Date: 2026-06-29 11:36:55
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Avalon Healthcare Solutions (represented by William L. Kerr, MD, Chief Executive Officer)
+- **Stakeholder type:** Technology Vendor / Payer (Laboratory Benefit Manager)
+- **Credentials or expertise mentioned:** Diagnostic intelligence company managing laboratory benefits across 90+ million lives; 2025 analysis of ~37 million members; maintains ~65 routine and ~65 genetic outpatient lab policies covering 100% of genetic tests.
+
+---
+
+## 2. EXECUTIVE SUMMARY
+
+Avalon Healthcare Solutions, a laboratory benefit manager (LBM), supports CMS's interoperability goals for prior authorization but responds specifically to the RFI questions on laboratory tests, urging CMS to recognize laboratory testing as a specialized benefit category requiring distinct infrastructure. Avalon identifies critical gaps in current PA workflows for lab tests—including inadequate CPT coding specificity, lack of real-time PA determination at order entry, insufficient TRF content standards, and site-of-service cost transparency—and recommends policies that promote prospective provider engagement, specific test identification coding (e.g., DEX Z-Codes), data clearinghouse completeness requirements, and consumer education on lab cost variation.
+
+---
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL (analogous lab benefit PA workflows), FHIR-IG-REQUIRED, GENERAL (RFI on laboratory tests)
+- **Regulatory citations mentioned:** None specific CFR sections cited
+- **Standards referenced:** FHIR APIs, FHIR-based Prior Authorization APIs, CPT codes (including code 81479), MolDX program DEX Z-Code system
+
+---
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Lab Test Coding Specificity (CPT Code Inadequacy)**
+- **Provision ID:** GENERAL (RFI on lab tests)
+- **Position:** Modify
+- **Rationale:** More than 40,000 genetic tests are associated with a single CPT code (81479), making meaningful PA or payment integrity review impossible. Retrospective review of a single 81479 claim requires up to 90 minutes vs. fewer than 5 minutes for claims with specific molecular CPT codes.
+- **Specific request:** Require a process like the MolDX program's DEX Z-Code system for all Medicare Advantage plans.
+
+**Topic 2: Test Requisition Form (TRF) Standards**
+- **Provision ID:** GENERAL (RFI on lab tests)
+- **Position:** Modify
+- **Rationale:** Broadly accepting TRFs without minimum content standards risks enabling panel stuffing and prevents meaningful medical necessity review for complex genetic tests.
+- **Specific request:** Require minimum TRF content standards including specific test identification (DEX Z-Code or equivalent), diagnosis codes, and a clinical indication field.
+
+**Topic 3: Data Clearinghouse Completeness**
+- **Provision ID:** GENERAL (RFI on lab tests)
+- **Position:** Modify
+- **Rationale:** Z-Codes are captured in the CPT comment/narrative field and are frequently stripped by claims adjudication systems during transmission.
+- **Specific request:** Require data clearinghouses to transmit all data fields submitted by laboratories.
+
+**Topic 4: Prospective Provider Engagement / FHIR-Based PA at Order Entry**
+- **Provision ID:** FHIR-IG-REQUIRED, PA-DRUG-MEDICAL
+- **Position:** Support
+- **Rationale:** Post-collection PA submissions occur frequently due to provider unawareness, speed-to-result lab workflows, and urgent clinical situations. Avalon's experience shows 40% of PAs are auto-approved with appropriate documentation.
+- **Specific request:** Promote FHIR APIs enabling real-time PA determination at order entry and provider-facing PA requirement lookup tools integrated into EHR and LIS workflows.
+
+**Topic 5: Clinical Utility Requirements for Panel Tests**
+- **Provision ID:** GENERAL (RFI on lab tests)
+- **Position:** Modify
+- **Rationale:** Panel stuffing adds clinically unnecessary tests; ~$2 PMPM in lab spending attributable to tests with limited/no clinical utility; ~30% of $82 billion in annual U.S. lab spending is wasteful.
+- **Specific request:** Require PA processes to address panel composition and alignment with professional/societal standards.
+
+**Topic 6: Site-of-Service Cost Transparency**
+- **Provision ID:** GENERAL (RFI on lab tests)
+- **Position:** Modify
+- **Rationale:** HOPD lab tests reimbursed at 300–400% of Medicare's independent diagnostic fee schedule (up to 5.7x for common tests) with no improved clinical quality.
+- **Specific request:** Implement site-neutral payment policies; require payer member education on lower-cost options; prohibit contractual terms forbidding such education.
+
+**Topic 7: Lab Result Data Integration**
+- **Provision ID:** GENERAL (RFI on lab tests)
+- **Position:** Modify
+- **Rationale:** Neither PA systems nor claims adjudication systems receive lab result data, creating upcoding risk. Non-diabetic low-cardiovascular-risk patients 14x more likely to receive GLP-1 treatment than high-risk patients, suggesting lab data not informing prescribing.
+- **Specific request:** Enforce clearinghouse data field transmission requirements; integrate lab result data into PA review and risk adjustment workflows.
+
+---
+
+## 5. SOLICITATION RESPONSES
+
+This comment responds primarily to the RFI on laboratory tests (S66–S82 range):
+
+- **S66–S82 (General RFI / Lab tests and DMEPOS):** Responds to all CMS RFI questions on laboratory tests: how PA requirements impact care and provider burden; impacts of TRF acceptance; frequency of post-collection submission denials; LBM impacts on PA processes; PA improvement opportunities; how automation could improve lab PA; and technology gaps for lab PA.
+
+---
+
+## 6. RECOMMENDATIONS
+
+1. Encourage payers to leverage LBMs with specialized laboratory benefit management capabilities.
+2. Require minimum content standards for TRFs (specific test identification, diagnosis codes, clinical indication).
+3. Promote FHIR APIs enabling real-time PA determination at point of order entry.
+4. Require clinical utility standards for laboratory tests.
+5. Implement site-neutral payment policies for lab tests.
+6. Educate consumers on lower-cost lab testing options.
+7. Require DEX Z-Code system (or equivalent) for all Medicare Advantage plans.
+8. Require data clearinghouses to transmit all claim data fields submitted by laboratories.
+9. Require PA processes to address panel composition and clinical utility for large panel tests.
+10. Implement transparent benefit design tying out-of-pocket costs to site-of-service pricing.
+11. Prohibit contractual terms forbidding member education on lower-cost lab options.
+12. Integrate lab result data into PA review workflows and risk adjustment processes.
+
+---
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** CPT coding inadequacy for genetic/molecular tests (40,000+ tests under CPT 81479); TRF acceptance without content standards enabling panel stuffing; post-collection PA submissions due to structural workflow issues; site-of-service price variation unaddressed by PA processes.
+- **Potential negative impacts cited:** Without coding specificity, retrospective review requires up to 90 minutes per 81479 claim; automated PA matching and FWA detection impossible; Z-Codes stripped by clearinghouses during transmission.
+- **Implementation barriers mentioned:** Current CPT framework insufficient for meaningful lab PA; EHR workflows prioritize speed over PA compliance; clearinghouse systems do not preserve all claim data fields.
+
+---
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** 14 billion annual U.S. lab tests; $82 billion in spending (~30% wasteful); 40,000+ genetic tests under CPT 81479; 90+ million members managed by Avalon; 35% increase in genetic testing spend, 22% increase in utilization (2025 analysis of ~37M members); 40% of PAs auto-approved with appropriate documentation; 75% call volume reduction; 15% reduction in incomplete PA rejections; 39% averted cost savings in 6M-member genetic test population; 9.3% averted savings in 9M-member routine test population; ~$2 PMPM from tests with limited/no clinical utility; HOPD rates 300-400% (up to 5.7x) of independent diagnostic fee schedule; non-diabetic low-CV-risk patients 14x more likely to receive GLP-1 treatment.
+- **Studies or research referenced:** Avalon Healthcare Solutions 2025 Lab Trend Report (5th Annual); Lab economics 17(11); Avalon internal analysis 2025.
+- **Examples provided:** CPT code 81479 aggregating 40,000+ genetic tests; GLP-1 prescribing misalignment with lab risk data.
+
+---
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Health plans, laboratory benefit managers, ordering providers, patients, data clearinghouses, EHR vendors, CMS.
+- **Economic implications:** ~30% of $82 billion annual lab spending is wasteful; ~$2 PMPM in clinically unnecessary tests; HOPD rates 300-400% of independent diagnostic rates; LBM programs demonstrate significant averted costs.
+- **Technical feasibility:** FHIR-based real-time PA at order entry is feasible but requires Z-Code infrastructure and clearinghouse data completeness as prerequisites.
+- **Patient care impact:** Real-time PA determination eliminates post-collection timing problems; site-neutral policies reduce out-of-pocket costs; prospective engagement improves time to diagnosis and treatment.
+
+---
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Mixed (Supportive of interoperability goals; focused on lab-specific gaps and improvements)
+- **Tone:** Professional, Technical, Collaborative
+- **Priority level:** High
+
+---
+
+## 11. KEY QUOTES
+
+1. "Laboratory testing is a rapidly evolving benefit category that requires specialized clinical, operational, and technology infrastructure." — Context: Framing why lab tests need distinct policy treatment.
+
+2. "With more than 40,000 genetic tests aggregated under a single CPT code (code 81479) health plan claims processing systems cannot differentiate between authorized and unauthorized tests, and post-payment fraud, waste, and abuse (FWA) review is severely hampered." — Context: Explaining why coding specificity is a prerequisite for effective lab PA.
+
+3. "Our data has shown that 40% of PA are auto-approved when the appropriate documentation is provided, improving both patient and provider satisfaction and allowing for faster time to genetic testing and therefore results/treatment decisions." — Context: Demonstrating the value of prospective provider engagement.
+
+4. "Lab tests performed at hospital outpatient departments (HOPDs) are reimbursed at rates 300–400% of Medicare's independent diagnostic fee schedule — and up to 5.7x higher for the most common routine tests — with no evidence of improved clinical quality." — Context: Making the case for site-neutral payment policies.
+
+---
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** — Provider burden arises from inadequate information exchange at point of submission; Avalon demonstrates 75% call volume reduction and 15% fewer rejections through better process design.
+- [x] **TECHNICAL-FEASIBILITY** — FHIR-based real-time PA at order entry is feasible but requires coding specificity (Z-Codes) and clearinghouse data completeness as infrastructure prerequisites.
+- [x] **STANDARDS-MATURITY** — Current CPT coding framework is fundamentally inadequate for meaningful lab PA; requires DEX Z-Code or equivalent system to enable automation.
+- [x] **PATIENT-ACCESS** — Real-time PA at order entry eliminates post-collection timing problems; site-neutral policies reduce patient out-of-pocket costs.
+- [x] **TRANSPARENCY** — Recommends provider-facing PA requirement lookup tools, consumer education on cost variation, and transparent benefit design tying out-of-pocket costs to site-of-service pricing.
+- [x] **COST-RESOURCES** — Approximately 30% of $82 billion in annual lab spending is wasteful; HOPD rates 300-400% of independent diagnostic rates; LBM programs demonstrate significant averted costs.
+- [x] **STAKEHOLDER-COORDINATION** — Coordination required among payers, LBMs, EHR vendors, clearinghouses, laboratories, and CMS for coding specificity and data completeness requirements.
+- [x] **EXISTING-WORKFLOWS** — Structural factors driving post-collection PA submissions: lab ordering workflows prioritizing speed, provider unawareness, urgent clinical situations.
+- [x] **VENDOR-ECOSYSTEM** — Avalon's LBM role illustrates specialized vendor ecosystem needed for lab benefit management; FHIR API integration with EHR and LIS systems required.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026
+
+Submitted electronically via www.regulations.gov
+
+Mehmet Oz, MD, Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+200 Independence Avenue SW
+Washington, DC 20201
+RE: CMS-0062-P: Medicare and Medicaid Programs; Patient Protection and Affordable
+Care Act; Interoperability Standards and Prior Authorization for Drugs for
+Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid
+Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges
+
+Dear Administrator Oz,
+Avalon Healthcare Solutions ("Avalon") appreciates the opportunity to respond to the Request
+for Information about Laboratory Tests embedded in the proposed rule on interoperability
+standards and prior authorization for drugs.
+
+Avalon is a diagnostic intelligence company that manages laboratory benefits across more than
+90 million lives for health plans nationwide, delivering 10–20% outpatient lab benefit savings
+and reducing member out-of-pocket costs by 25%...

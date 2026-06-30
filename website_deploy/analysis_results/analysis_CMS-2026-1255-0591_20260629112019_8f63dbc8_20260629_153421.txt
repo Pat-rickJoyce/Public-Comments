@@ -1,0 +1,171 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0591
+Commenter: National Health Council (NHC)
+Source: PDF Attachment
+Analysis Date: 2026-06-29 15:34:21
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Health Council (NHC); signed by Randall L. Rutta, Chief Executive Officer.
+- **Stakeholder type:** Advocacy Group / patient organization coalition.
+- **Credentials or expertise mentioned:** NHC states it was created by and for patient organizations more than 100 years ago, has nearly 200 national health-related member organizations and businesses, and represents leading patient organizations as well as provider, caregiver, research, nonprofit, biopharmaceutical, device, diagnostic, generic, and payer stakeholders.
+
+## 2. EXECUTIVE SUMMARY
+
+NHC supports finalizing the proposed rule with modifications to ensure the drug prior authorization framework is technically interoperable, operationally usable, clinically appropriate, and accountable in practice. It emphasizes patient-centered implementation: reducing delays, improving denial specificity, strengthening API and public reporting metrics, preserving continuity of care, clarifying PBM accountability, and ensuring standards changes translate into real workflow improvements rather than mere digitization.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; FHIR-IG-REQUIRED; API-ENDPOINT-REPORTING; API-USAGE-METRICS; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; HIPAA-PA-STANDARDS; STATE-EXTENSION-PROCESS; FF-SHOP-REQUIREMENTS; ONC-STANDARDS-UPDATE; GENERAL/RFI topics including step therapy, laboratory/DMEPOS, direct data entry, event notifications, resilience, and stakeholder engagement. NHC expressly does not comment on OPEN-PAYMENTS-CMP.
+- **Regulatory citations mentioned:** The comment refers broadly to CMS-0062-P, HIPAA Administrative Simplification standards, and the proposed use of FHIR for referral certification, authorization, and eligibility transactions; it does not focus on specific CFR citations in its own recommendations.
+- **Standards referenced:** HL7 FHIR, Da Vinci CRD, DTR, PAS, related FHIR implementation guides, NCPDP standards, Patient Access API, Provider Access API, Payer-to-Payer API, Prior Authorization API, ONC health IT standards, and API endpoint/usage metric reporting.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Finalize electronic prior authorization for drugs with patient-centered implementation**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Support with modifications.
+- **Rationale:** Medication-related prior authorization can determine whether patients with chronic, rare, cancer, disability, or serious conditions can start, continue, switch, dispense, or administer needed therapy without avoidable delay. NHC cautions that digitization alone will not help patients if repetitive documentation, fragmented plan/PBM/vendor communication, or unclear coverage criteria persist.
+- **Specific request:** Finalize the expansion to drugs under both medical and pharmacy benefits, clarify that the objective is not simply electronic transmission but more timely and navigable access, and monitor whether implementation reduces burden and delays in practice.
+
+**Topic 2: Clarify medical-benefit versus pharmacy-benefit pathways**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; MEDICAL-VS-PHARMACY-BENEFIT theme
+- **Position:** Clarify.
+- **Rationale:** CMS acknowledges that there is no single statutory or regulatory definition distinguishing pharmacy benefit from medical benefit drugs across all affected programs. Patients and clinicians may face confusion when similar therapies route differently based on site of care, benefit design, dispensing channel, or payer structure.
+- **Specific request:** Provide operational clarity on how payers should communicate the applicable pathway, make the pathway identifiable early in the treatment process, and support coordination across prescribing, dispensing, administration, and follow-up care.
+
+**Topic 3: Strengthen denial communications and decision timeframes**
+- **Provision ID:** PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS
+- **Position:** Support with stronger safeguards.
+- **Rationale:** Quick but vague denials still delay treatment because patients and providers cannot determine whether to correct documentation, resubmit, request an exception, seek peer-to-peer review, or appeal. NHC supports shorter provider-facing timelines but stresses that the practical effect depends on when a request is considered complete, how often extensions are used, and whether communications are actionable.
+- **Specific request:** Require denial reasons that identify the clinical or administrative basis, missing documentation, relevant criteria, benefit-design limitation, coding/submission defect, or other reason for nonapproval; make patient-facing notices understandable to patients and caregivers; and monitor extension and resubmission patterns.
+
+**Topic 4: Use APIs to improve usability, continuity, and caregiver support**
+- **Provision ID:** FHIR-IG-REQUIRED; API-USAGE-METRICS; API-ENDPOINT-REPORTING
+- **Position:** Support with implementation refinements.
+- **Rationale:** NHC supports making PA information available through Patient Access, Provider Access, and Payer-to-Payer APIs, but stresses that availability is not the same as usability. Prior authorization status, denial rationale, approval dates, expiration information, and supporting documentation are valuable only if current, interpretable, and available at the right point in the workflow.
+- **Specific request:** Evaluate APIs based on whether they reduce duplicate submissions, manual interventions, treatment disruption, and confusion; tailor information for providers versus patients/caregivers; and support authorized caregiver access.
+
+**Topic 5: Improve public reporting and payer API endpoint discoverability**
+- **Provision ID:** API-ENDPOINT-REPORTING; API-USAGE-METRICS; TRANSPARENCY theme
+- **Position:** Support with greater interpretability.
+- **Rationale:** Centralized endpoint reporting can reduce fragmented technical discovery, and richer PA metrics can help patient organizations, regulators, providers, and researchers identify excessive delays, reversals, high denial rates, outliers, or variation across products and therapeutic areas.
+- **Specific request:** Make endpoint information discoverable and reliable; publish metrics in formats that distinguish raw volume from percentages and operationally meaningful patterns; consider stratification by line of business, drug category, expedited/standard determinations, repeat authorization, plan transitions, denials, appeals, extensions, and approvals.
+
+**Topic 6: Implement standards and HIPAA changes carefully**
+- **Provision ID:** FHIR-IG-REQUIRED; HIPAA-PA-STANDARDS; ONC-STANDARDS-UPDATE
+- **Position:** Support modernization with transition safeguards.
+- **Rationale:** FHIR-based and NCPDP standards may support more coherent electronic workflows, but standards transitions can create complexity for providers, plans, vendors, clearinghouses, and smaller entities. Technical interoperability must be paired with workflow interoperability.
+- **Specific request:** Provide clear CMS/ONC implementation guidance, transition support, version-management clarity, and oversight to ensure standards updates reduce manual work and do not create avoidable disruption.
+
+**Topic 7: Extension and exception pathways should be narrow and transparent**
+- **Provision ID:** STATE-EXTENSION-PROCESS; FF-SHOP-REQUIREMENTS
+- **Position:** Modify / clarify.
+- **Rationale:** Flexibility may be needed, but extensions or exceptions could delay patient access to electronic PA processes, especially for Medicaid beneficiaries and others already facing access barriers.
+- **Specific request:** Ensure extensions/exceptions are temporary, tied to concrete implementation barriers, paired with credible compliance paths, and transparent.
+
+**Topic 8: Future RFIs and broader PA reform**
+- **Provision ID:** GENERAL/RFIs
+- **Position:** Support continued policy development.
+- **Rationale:** NHC addresses step therapy, lab/DMEPOS PA, direct data entry, electronic event notifications, resilience, and AI-related accountability through a patient-centered lens.
+- **Specific request:** Use RFIs to inform future reforms that reduce delay, improve continuity, preserve patient protections, and engage patients, caregivers, providers, pharmacists, plans, PBMs, and technology entities.
+
+## 5. SOLICITATION RESPONSES
+
+- **S1-S3, S6, S8-S9, S18, S32, S37 (FHIR IG requirements):** NHC generally supports standards-based FHIR APIs and required implementation guidance, but urges CMS/ONC to focus on workflow usability, version transition support, and real-world conformance rather than technical compliance alone.
+- **S12, S15, S21, S28 (medical-benefit drugs):** NHC supports including medical benefit drugs and asks CMS to address technical and operational challenges, especially benefit-pathway ambiguity and timely access for complex therapies.
+- **S14, S19, S22, S25, S31 (pharmacy-benefit drugs):** NHC supports NCPDP-based pharmacy benefit workflows and urges attention to PBMs, pharmacies, specialty pharmacies, and community pharmacy visibility into status and next steps.
+- **S16-S17 (denial reasons):** NHC strongly supports specific, actionable denial rationales and suggests explanations should identify missing documentation, unmet criteria, coding/submission defects, benefit limitations, and available next steps.
+- **S20, S43 (drug PA timeframes):** NHC supports shorter and clearer decision timeframes and encourages CMS to consider 24-hour standards or preserve strong expeditious decision expectations tied to clinical urgency.
+- **S23-S24, S26-S27, S33 (endpoint reporting):** NHC supports centralized reporting and publication of payer API endpoints and encourages reliable, current, usable publication.
+- **S29-S30, S34-S35 (API usage metrics):** NHC supports expanded metrics but recommends interpreting usage data alongside patient-centered outcomes, duplicate submissions, manual workarounds, continuity, denials, appeals, and delays.
+- **S36, S38-S39 (state extension process):** NHC urges any extension process to be narrow, transparent, temporary, and tied to concrete implementation barriers and compliance plans.
+- **S40-S42 (FF-SHOP requirements):** NHC supports patient protections but asks CMS to implement exceptions carefully so they do not delay access.
+- **S44-S56 (HIPAA PA standards):** NHC recognizes the potential value of FHIR-based HIPAA transaction standards but urges clear transition guidance, oversight, and attention to smaller entities and patients during implementation.
+- **S57-S59 (Open Payments CMP):** Not addressed.
+- **S60-S65 (ONC standards update):** NHC supports updated standards and expiration policies if transitions are coordinated, well-communicated, and do not disrupt care.
+- **S66-S82 (General/RFIs):** NHC responds broadly to RFIs by urging future reforms for step therapy, laboratory/DMEPOS prior authorization, event notifications, resilience, direct data entry, stakeholder engagement, and accountable technology use.
+
+## 6. THEMES
+
+- IMPLEMENTATION-TIMELINE
+- PROVIDER-BURDEN
+- PATIENT-ACCESS
+- HEALTH-EQUITY
+- TECHNICAL-FEASIBILITY
+- STANDARDS-MATURITY
+- TRANSPARENCY
+- EXISTING-WORKFLOWS
+- STAKEHOLDER-COORDINATION
+- MEDICAL-VS-PHARMACY-BENEFIT
+- API-USAGE-METRICS
+- PRIVACY-SECURITY
+- VENDOR-ECOSYSTEM
+
+## 7. POTENTIAL CMS ACTION ITEMS
+
+1. Finalize ePA for drugs while explicitly tying compliance to patient access, usability, and burden reduction.
+2. Issue operational guidance on distinguishing and coordinating medical-benefit and pharmacy-benefit drug pathways.
+3. Strengthen denial-reason standards so denials are specific, actionable, and usable for resubmission, exception, peer review, or appeal.
+4. Design PA metrics and API usage metrics to capture patient-centered outcomes and operational friction, not only API calls or aggregate volumes.
+5. Publish payer API endpoint information in a reliable, centralized, current, and usable manner.
+6. Coordinate CMS/ONC standards version transitions and HIPAA standard adoption with clear guidance and sufficient implementation support.
+7. Monitor PBM/delegated entity accountability and ensure delegation does not weaken patient protections.
+8. Continue formal engagement with patients, caregivers, providers, pharmacists, plans, PBMs, vendors, and SDOs during implementation.
+
+## 8. NOTABLE QUOTES / EVIDENCE
+
+- NHC states that electronic prior authorization reform should be evaluated based on whether it improves timely access to medically necessary care in practice, not merely whether administrative transactions move faster.
+- The comment emphasizes that denial explanations should be operationally useful and should identify what requirement was not satisfied, what documentation may be needed, and what path remains available.
+- NHC stresses that data availability is different from data usability, especially for patients and caregivers.
+
+## 9. OVERALL ASSESSMENT
+
+NHC is broadly supportive of CMS-0062-P and offers a patient-centered implementation agenda rather than a categorical objection. Its comment is highly relevant to CMS’s patient-access, transparency, API, standards, denial-reason, and public-reporting provisions, and it should be coded as support with modifications across most major provisions except Open Payments CMP, which is not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Dr. Mehmet Oz, MD, MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard  
+Baltimore, MD 21244 
+ 
+RE: Medicare and Medicaid Programs; Patient Protection and Affordable Care 
+Act; Interoperability Standards and Prior Authorization for Drugs for Medicare 
+Advantage Organizations, Medicaid Managed Care Plans, State Medicaid 
+Agencies, Children’s Health Insurance Program (CHIP) Agencies and CHIP 
+Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges [CMS-0062-P] 
+ 
+Submitted electronically via regulations.gov 
+ 
+Dear Administrator Oz: 
+ 
+The National Health Council (NHC) appreciates the opportunity to comment on the 
+Centers for Medicare & Medicaid Services’ (CMS) proposed rule, Medicare and 
+Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability 
+Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, State Medicaid Agencies, Children’s Health Insurance 
+Program (CHIP) Agencies and CHIP Managed Care Entities, and Issuers of Qualified 
+Health Plans on the Federally-Facilitated Exchanges. 
+ 
+Created by and for patient organizations more than 100 years ago, the NHC convenes 
+organizations from across the health ecosystem to forge consensus and drive patient-
+centered health policy. We promote increased access to affordable, high-value, 
+comprehensive, accessible, and sustainable health care. Made up of nearly 200 
+national health-related organizations and businesses, the NHC’s core membership 
+includes the nation’s leading patient organizations. Other members include health-
+related associations and nonprofit organizations including the provider, research, and 
+family caregiver communities; and businesses and organizations representing 
+biopharmaceuticals, devices, diagnostics, generics, and payers. 
+ 
+The NHC recognizes CMS’ continued focus on interoperabil...

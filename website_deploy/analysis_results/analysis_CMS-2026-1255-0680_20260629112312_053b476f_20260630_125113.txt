@@ -1,0 +1,183 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0680_20260629112312_053b476f
+Commenter: Medicare Rights Center
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:51:13
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Medicare Rights Center; signed by Lindsey Copeland, Federal Policy Director.
+- **Stakeholder type:** Advocacy Group
+- **Credentials or expertise mentioned:** National nonprofit serving people with Medicare, family caregivers, and professionals; comments informed by decades helping Medicare beneficiaries access prescription drugs and navigate appeals.
+
+## 2. EXECUTIVE SUMMARY
+
+Medicare Rights Center supports CMS efforts to reduce prior authorization burden, improve transparency, and extend protections for drug-related prior authorization, but urges CMS to broaden the rule to include Part D and supplemental benefits. The commenter emphasizes specific denial notices, stronger public reporting, privacy protections for apps, oversight and enforcement, and limits on step therapy and other access barriers.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DENIAL-REASONS; API-USAGE-METRICS; PATIENT-ACCESS-related GENERAL/RFI issues; TRANSPARENCY-related GENERAL issues.
+- **Regulatory citations mentioned:** RIN 0938-AV44; CMS-0062-P; 89 Fed. Reg. 8758, including page 8897. No CFR sections are cited directly.
+- **Standards referenced:** Electronic API access is referenced generally; no specific FHIR IG, NCPDP, HL7, or HIPAA standard is discussed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Broad applicability of prior authorization protections**
+- **Provision ID:** PA-DRUG-MEDICAL
+- **Position:** Modify
+- **Rationale:** Medicare Rights argues that prior authorization safeguards should apply wherever prior authorization or overlapping payer responsibility can delay care, including Original Medicare contexts and MA supplemental benefits.
+- **Specific request:** Clarify that PA rules and protections apply broadly to supplemental benefits, including medications and non-medication services/items, with electronic API access, notice and appeal rights, and timeframes.
+
+**Topic 2: Specific denial reasons and standardized notices**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Support/Modify
+- **Rationale:** The commenter supports requiring specific denial reasons but states generic medical-necessity explanations are inadequate and prevent enrollees and providers from correcting requests or appealing effectively.
+- **Specific request:** Establish standardized denial notice templates for all payers, including MA and Part D sponsors, covering drug and non-drug denials; require clinical, coverage, and procedural information, including criteria relied on, alternatives, next steps, and deadlines.
+
+**Topic 3: Oversight and consequences for noncompliant denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Medicare Rights cites OIG findings that many MA denial letters contained incomplete or incorrect information and states similar problems continue.
+- **Specific request:** Conduct regular audits of plan communication requirements and apply meaningful penalties, including invalidating noncompliant denials.
+
+**Topic 4: Public reporting of prior authorization metrics**
+- **Provision ID:** API-USAGE-METRICS / GENERAL
+- **Position:** Support/Modify
+- **Rationale:** The commenter supports public reporting but argues existing contract-level reporting is too difficult to find and too aggregated to help enrollees, advocates, researchers, or oversight bodies identify problematic utilization management patterns.
+- **Specific request:** Require MA and Part D plans to report at plan level, include disability and demographic data, disaggregate by treatment, service, or drug class, and link results prominently on plan websites.
+
+**Topic 5: Include Part D in transparency requirements**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** The commenter objects that Part D is excluded from public reporting even though prescription drug access is central to the rule's patient-access goals.
+- **Specific request:** Include Part D in public prior authorization reporting requirements.
+
+**Topic 6: Patient privacy and app data use**
+- **Provision ID:** GENERAL
+- **Position:** Clarify/Modify
+- **Rationale:** Increased app use may expose sensitive health information to secondary commercial use.
+- **Specific request:** Prevent companies from packaging or selling sensitive medical data without express user permission.
+
+**Topic 7: Step therapy for stable patients**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Oppose/Modify
+- **Rationale:** Requiring patients stable on a medication to repeat step therapy interferes with patient-provider decisions, delays care, discourages treatment, and may increase long-term costs.
+- **Specific request:** Discourage step therapy generally and, at minimum, curtail step therapy when a patient is stable on a treatment plan.
+
+**Topic 8: Laboratory tests and DMEPOS prior authorization**
+- **Provision ID:** GENERAL/RFI
+- **Position:** Clarify/Modify
+- **Rationale:** Prior authorization for DMEPOS and other services can impose substantial administrative burden on beneficiaries and families, especially when multiple providers or Medicare/Medicaid coordination are involved.
+- **Specific request:** Consider patient and family burden, improve coordination for dually eligible individuals, and ensure prior approval processes reduce rather than add delays.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** The comment indirectly responds by urging broad application of electronic prior authorization protections for medical-benefit and supplemental-benefit items, including API access, notices, appeals, and timeframes.
+- **S15:** The comment addresses boundary issues by asking CMS to clarify that protections apply where overlapping coverage or supplemental benefits make payer responsibility confusing.
+- **S16:** The commenter supports specific denial reasons and asks CMS to define required denial content in a way that identifies the basis for denial, the policy or criterion used, alternatives, next steps, and deadlines.
+- **S17:** The commenter supports more structured denial content, including specific information tied to step therapy or insufficient documentation, though it does not expressly discuss structured codes.
+- **S29:** The commenter recommends more complete public reporting, including plan-level data, demographic data, and treatment/service/drug-class detail, although its focus is prior authorization metrics rather than API operational metrics.
+- **S30:** The commenter raises privacy concerns about app-mediated access and asks CMS to prevent secondary sale or packaging of sensitive medical data without express permission.
+- **S34:** The comment does not propose a specific frequency but urges CMS to strengthen public reporting so data are timely, usable, and visible on plan websites.
+- **S35:** The commenter supports public availability but argues aggregated reporting is insufficient; it asks for plan-level and disaggregated reporting.
+- **S66-S82:** The comment responds to general RFI topics on step therapy, laboratory tests, and DMEPOS by emphasizing patient access, beneficiary burden, and care coordination.
+
+## 6. RECOMMENDATIONS
+
+1. Include Part D in public prior authorization reporting requirements.
+2. Require plan-level reporting for MA and Part D plans rather than only contract-level reporting.
+3. Require demographic data, including disability status, and disaggregation by treatment, service, or drug class.
+4. Require public reporting links to be prominent and clear on plan websites.
+5. Standardize denial notice templates for drug and non-drug denials across payers, including MA and Part D sponsors.
+6. Require denial notices to identify the denial basis, applicable policy or criterion, approvable alternatives, corrective actions, and deadlines.
+7. Audit plan compliance with communication requirements and impose penalties, including invalidating noncompliant denials.
+8. Clarify that supplemental benefits are subject to PA protections, including electronic API access, notices, appeals, and timeframes.
+9. Protect app users from unauthorized commercial use or sale of sensitive medical data.
+10. Discourage step therapy generally and curtail it when a patient is stable on treatment.
+11. Account for patient and family administrative burden in lab and DMEPOS prior authorization policies.
+12. Improve DME access coordination for dually eligible individuals.
+13. End the WISeR model because the commenter views it as inconsistent with CMS access goals.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Part D exclusion from reporting; vague denial notices; insufficiently disaggregated PA metrics; inadequate oversight; app privacy risks; step therapy disruptions; DMEPOS and dual-eligible coordination barriers; WISeR model access barriers.
+- **Potential negative impacts cited:** Delayed care, inability to appeal effectively, discriminatory or unfair utilization management, treatment disruption, patient/family stress, higher long-term costs, and unauthorized use of sensitive medical data.
+- **Implementation barriers mentioned:** Confusing supplemental benefit appeals, buried plan reporting, contract-level aggregation, overlapping MA/Medicaid responsibility, incomplete denial communication, and coordination burdens among providers, suppliers, plans, and beneficiaries.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** OIG finding that 45% of MA plans sent denial letters with incomplete or incorrect information in 2015.
+- **Studies or research referenced:** OIG report on MA denials; KFF analysis of insurer prior authorization data; Medicare Rights prior comments and Medicare Watch analysis; Health Affairs article on MA supplemental benefits; studies on step therapy and access restrictions; Washington Post reporting on WISeR; Medicare Interactive DME advocacy guide.
+- **Examples provided:** Step therapy for stable patients; power wheelchairs for dually eligible individuals where Medicare and Medicaid coverage standards differ; generic denial messages stating lack of medical necessity; public reports buried on plan websites.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Medicare beneficiaries, dually eligible individuals, MA and Part D enrollees, family caregivers, providers, DMEPOS suppliers, MA organizations, Part D sponsors, advocates, researchers, and app users.
+- **Economic implications:** The commenter argues step therapy and poor coordination may create long-term individual, plan, and program costs despite short-term plan savings; enhanced reporting and notices may impose payer compliance obligations but improve oversight and decision-making.
+- **Technical feasibility:** The comment does not challenge technical feasibility of APIs; it focuses on policy design, data completeness, usability, privacy, and oversight.
+- **Patient care impact:** Strong patient-access focus; the commenter argues clearer notices, broader protections, reporting, and limits on step therapy would reduce delays and improve access to medications, services, and DME.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Supportive with significant modifications
+- **Tone:** Professional, advocacy-oriented, and critical where access barriers remain
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "reduce these encumbrances" - Context: Supporting CMS efforts to reduce utilization management burdens.
+2. "generic messages about a lack of medical necessity" - Context: Describing inadequate denial notices.
+3. "Part D coverage is again carved out" - Context: Objecting to exclusion of Part D from reporting.
+4. "curtail step therapy" - Context: Recommending limits when patients are stable on treatment.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - The comment notes providers need clear denial information to correct requests, appeal, or identify alternatives.
+- [x] **PRIVACY-SECURITY** - Medicare Rights asks CMS to protect app users from unauthorized sale or packaging of sensitive medical data.
+- [x] **HEALTH-EQUITY** - The commenter stresses oversight for discrimination based on demographics, disability status, diagnoses, or other characteristics.
+- [x] **PATIENT-ACCESS** - The comment centers on reducing delays in access to drugs, supplemental benefits, DMEPOS, and other needed services.
+- [x] **TRANSPARENCY** - Major recommendations concern denial specificity and public reporting that is detailed, disaggregated, and findable.
+- [x] **EXISTING-WORKFLOWS** - The comment discusses appeals, provider correction of requests, dual-eligible coordination, and DMEPOS workflows.
+- [x] **STAKEHOLDER-COORDINATION** - The DMEPOS and dual-eligible examples emphasize payer, provider, supplier, and Medicaid/Medicare coordination.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+266 West 37th Street, 3rd Floor 
+New York, NY 10018 
+212.869.3850/Fax: 212.869.3532 
+ 
+ 
+                                            
+www.medicarerights.org    www.medicareinteractive.org 
+ 
+ 
+June 15, 2026 
+VIA ELECTRONIC SUBMISSION 
+Dr. Mehmet Oz 
+Centers for Medicare & Medicaid Services 
+Baltimore, MD 21244 
+Re: RIN 0938-AV44; Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; 
+Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, 
+Medicaid Managed Care Plans, State Medicaid Agencies, Childrenâ€™s Health Insurance Program (CHIP) 
+Agencies and CHIP Managed Care Entities, and Issuers of Qualified Health Plans on the Federally-
+Facilitated Exchanges [CMS-0062-P] 
+The Medicare Rights Center (Medicare Rights) appreciates this opportunity to comment on the 
+Interoperability Standards and Prior Authorization for Drugs proposed rule. Medicare Rights is a 
+national, nonprofit organization that works to ensure access to affordable health care for older adults 
+and people with disabilities through counseling and advocacy, educational programs, and public policy 
+initiatives. Each year, Medicare Rights provides services and resources to over three million people with 
+Medicare, family caregivers, and professionals.  
+Our comments are informed by decades helping people with Medicare access prescription drugs and 
+navigate complex appeals processes. 
+General Comments 
+Utilization management is a system-wide burden that can disrupt peopleâ€™s access to care, including 
+provider services and medications. We support efforts to reduce these encumbrances, enhance 
+transparency and accountability, and streamline access to care. 
+This proposed rule is a welcome expansion on the 2024 Centers for Medicare & Medicaid Services (CMS) 
+Interoperability and Prior Authorization final rule that created public reporting requirements for 
+Medicare Advantage (MA), Medicaid, CHIP, and federally ...

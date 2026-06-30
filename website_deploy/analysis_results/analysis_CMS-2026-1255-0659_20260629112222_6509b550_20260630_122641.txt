@@ -1,0 +1,137 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0659_20260629112222_6509b550
+Commenter: National Minority Quality Forum
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:26:41
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** National Minority Quality Forum (NMQF); signed by Gary A. Puckrein, PhD, President and CEO.
+- **Stakeholder type:** Advocacy Group; Research Organization.
+- **Credentials or expertise mentioned:** 501(c)(3) research and advocacy organization focused on reducing patient risk and improving quality of care.
+
+## 2. EXECUTIVE SUMMARY
+
+NMQF opposes prior authorization as a policy tool, including the proposed drug prior authorization framework in CMS-0062-P. Rather than recommending specific technical changes to FHIR, NCPDP, APIs, or timelines, NMQF argues that health care financing and access should be redesigned so prior authorization is not part of the access algorithm.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY; GENERAL. The comment also references non-drug PA rules generally.
+- **Regulatory citations mentioned:** CMS-0062-P; no CFR sections cited.
+- **Standards referenced:** Not addressed.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior Authorization for Drugs**
+- **Provision ID:** PA-DRUG-MEDICAL; PA-DRUG-PHARMACY
+- **Position:** Oppose
+- **Rationale:** NMQF states that prior authorization is based on budgetary and expenditure concerns rather than patient needs and outcomes. It argues PA delays care, increases health and financial risk, distorts quality metrics, and creates or perpetuates bias.
+- **Specific request:** CMS and stakeholders should move away from prior authorization rather than focus on making it more efficient.
+
+**Topic 2: Health Care Financing and Access Design**
+- **Provision ID:** GENERAL
+- **Position:** Modify
+- **Rationale:** NMQF frames drug PA as part of a broader administrative problem in U.S. health care and argues that access systems should prioritize patient outcomes over utilization control.
+- **Specific request:** Design a financing and access system that does not include prior authorization in the decision algorithm.
+
+## 5. SOLICITATION RESPONSES
+
+- **S12:** Responds indirectly by rejecting the premise of implementing electronic PA for drugs, including medical-benefit drugs.
+- **S14:** Responds indirectly by rejecting prior authorization for drugs generally, including pharmacy-benefit drugs.
+- **S66-S82:** Provides a general policy response that prior authorization should not be optimized but eliminated from the access system.
+
+## 6. RECOMMENDATIONS
+
+1. Stop treating prior authorization as an acceptable tactic for managing care access.
+2. Redesign financing and access systems so prior authorization is not part of care approval algorithms.
+3. Prioritize patient needs, outcomes, quality of life, and risk reduction over expenditure-control processes.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Prior authorization delays care, centers budgetary concerns over patient needs, distorts quality measurement, and embeds bias or preference.
+- **Potential negative impacts cited:** Avoidable health risk, financial risk for patients and families, delayed access to care, and inequitable access effects.
+- **Implementation barriers mentioned:** Not addressed in technical terms; NMQF objects to the policy premise rather than the implementation details.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** None.
+- **Studies or research referenced:** None beyond the proposed rule itself.
+- **Examples provided:** Broad reference to delayed access to care and patient/family/community risk; no specific clinical examples.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients, families, communities, clinicians, and health care financing entities.
+- **Economic implications:** NMQF argues prior authorization is driven by expenditure management but imposes unacceptable patient and community risk; no quantitative economic analysis is provided.
+- **Technical feasibility:** Not addressed.
+- **Patient care impact:** NMQF asserts PA delays access, increases amenable morbidity and mortality risk, and undermines quality of life.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Opposed.
+- **Tone:** Critical and values-driven.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "prior authorization is a tactic that can no longer be sanctioned" - Context: NMQF's central objection to PA.
+2. "It is centered on budgetary and expenditure concerns" - Context: Rationale for opposing PA.
+3. "Dollars are fungible. Lives are not." - Context: Closing statement emphasizing patient impact over cost management.
+
+## 12. THEMES
+
+- [ ] **IMPLEMENTATION-TIMELINE** - Not addressed.
+- [ ] **COST-RESOURCES** - Not addressed as implementation cost, though the comment criticizes expenditure-driven PA.
+- [x] **PROVIDER-BURDEN** - The comment references utilization controls on clinicians, but provider burden is secondary to patient risk.
+- [ ] **PRIVACY-SECURITY** - Not addressed.
+- [x] **HEALTH-EQUITY** - NMQF's mission and argument focus on reducing patient risk for all populations and avoiding bias in care access.
+- [ ] **TECHNICAL-FEASIBILITY** - Not addressed.
+- [ ] **STANDARDS-MATURITY** - Not addressed.
+- [x] **PATIENT-ACCESS** - The principal concern is delayed access to timely and effective care.
+- [ ] **REGULATORY-AUTHORITY** - Not addressed.
+- [ ] **STAKEHOLDER-COORDINATION** - Not addressed except a general willingness to partner with stakeholders.
+- [ ] **MEDICAL-VS-PHARMACY-BENEFIT** - Not addressed.
+- [ ] **TRANSPARENCY** - Not addressed.
+- [ ] **SMALL-PAYER-IMPACT** - Not addressed.
+- [x] **EXISTING-WORKFLOWS** - The comment critiques existing administrative and utilization-management workflows in broad terms.
+- [ ] **VENDOR-ECOSYSTEM** - Not addressed.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+Dr. Mehmet Oz 
+Administrator 
+Centers for Medicare & Medicaid Services, DHHS 
+7500 Security Boulevard 
+Baltimore, MD 21244 
+ 
+RE: Comment on CMS's proposed rule CMS-0062-P.1   
+ 
+Dear Administrator Oz,  
+ 
+The National Minority Quality Forum (NMQF) is a 501(c)(3) not-for-profit research and advocacy 
+organization. The mission of NMQF is to reduce patient risk by assuring optimal care for all. Our vision 
+is an American health services research, delivery and financing system whose operating principle is to 
+reduce patient risk for amenable morbidity and mortality while improving quality of life.  
+ 
+NMQF is committed to assuring access to high quality, timely and effective care for all populations in 
+the United States. As we enter the second quarter of the 21st Century, NMQF has become increasingly 
+concerned that the American health services delivery and financing system is mired in processes and 
+values of prior centuries that were designed to manage expenditures and constrain the utilization 
+behavior of physicians and other clinicians in a manner that delayed access to care, thus introducing an 
+avoidable and unacceptable level of health and financial risk for patients, their families, and their 
+communities. 
+ 
+NMQFâ€™s specific concern in this public comment is the proposals for the prior authorization of drug that 
+are included in CMS-0062-P, as well as those for non-drug items and services addressed in other rules.  
+ 
+Our contention is this: prior authorization is a tactic that can no longer be sanctioned. It is centered on 
+budgetary and expenditure concerns â€“ not patient needs and outcomes of care. It skews the denominators 
+and the numerators of quality metrics. It creates, perpetuates and infuses bias and preference. The 
+question, in NMQFâ€™s view, is not how to implement prior authorization more effectively or more 
+efficiently. The answer, in NMQFâ€™s view, is how to design a system of financing and ...

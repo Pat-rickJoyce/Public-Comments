@@ -1,0 +1,146 @@
+REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0664_20260629111936_8327353c
+Commenter: FORCE: Facing Our Risk of Cancer Empowered
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:27:07
+==================================================
+
+# Comment Analysis Template: CMS-2026-1255-0001
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** FORCE: Facing Our Risk of Cancer Empowered; signed by Lisa Schlager, Vice President, Public Policy.
+- **Stakeholder type:** Advocacy Group.
+- **Credentials or expertise mentioned:** National nonprofit founded in 1999 representing individuals and families affected by hereditary cancers, including people with pathogenic variants in BRCA1, BRCA2, ATM, CHEK2, PALB2, Lynch syndrome genes, and other cancer-risk genes.
+
+## 2. EXECUTIVE SUMMARY
+
+FORCE responds to CMS's RFI on laboratory tests by arguing that prior authorization frequently delays or denies medically necessary hereditary cancer genetic and biomarker testing. It recommends stronger transparency, standardized coverage criteria based on expert clinical guidelines, acceptance of test requisition forms as documentation, limits on technical denials based on date of service, and mechanisms for patients, providers, and laboratories to report payer or subcontractor noncompliance.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DENIAL-REASONS; API-USAGE-METRICS by implication for transparency and reporting.
+- **Regulatory citations mentioned:** None.
+- **Standards referenced:** NCCN Clinical Practice Guidelines in Oncology; Medicare MolDX documentation approach; references to laboratory benefit managers Carelon and EviCore.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: Prior authorization burden for laboratory testing**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Varying payer eligibility criteria and PA protocols require provider, laboratory, and third-party staffing and create disparities for smaller community practices.
+- **Specific request:** Improve laboratory PA processes, especially for genetic and genomic testing.
+
+**Topic 2: Patient harm and access delays**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Holding samples while PA is pending can delay information needed for surgery or treatment, and denials can cause patients to forgo medically appropriate testing.
+- **Specific request:** Prevent PA practices that delay clinically important laboratory results or deny tests on technical grounds.
+
+**Topic 3: Test requisition forms as medical documentation**
+- **Provision ID:** GENERAL
+- **Position:** Support.
+- **Rationale:** TRFs often include demographics, diagnoses, tests ordered, clinical indications, and physician attestation sufficient to assess medical necessity.
+- **Specific request:** Instruct payers to accept TRFs as documentation of medical necessity when they demonstrate that coverage criteria are met.
+
+**Topic 4: Retroactive date-of-service denials**
+- **Provision ID:** PA-DENIAL-REASONS; GENERAL
+- **Position:** Oppose current practice and modify.
+- **Rationale:** Biomarker testing may use a previously collected specimen, making the date of service earlier than the order date; denial based on that timing is unrelated to clinical appropriateness.
+- **Specific request:** Ban denials for laboratory tests based on PA being sought or obtained after the date of service.
+
+**Topic 5: Laboratory benefit manager transparency and criteria**
+- **Provision ID:** GENERAL; PA-DENIAL-REASONS
+- **Position:** Modify.
+- **Rationale:** FORCE says LBMs such as EviCore and Carelon may use unclear or overly stringent criteria, fail to clarify documentation requirements, and obscure who controls coverage policy.
+- **Specific request:** Require payers to disclose utilization management policies, LBM involvement, LBM contact information, denials, claim outcomes, and related PA data.
+
+**Topic 6: Clinical guideline alignment**
+- **Provision ID:** GENERAL
+- **Position:** Modify.
+- **Rationale:** Different payer criteria create confusion, and FORCE argues that expert clinical practice guidelines better reflect appropriate hereditary cancer testing.
+- **Specific request:** Require payers to adopt expert clinical practice guidelines such as NCCN for genetic and genomic testing coverage eligibility.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** Supports clearer denial reasons by asking for transparency on PA requirements, denials, claim outcomes, and payer/LBM policies.
+- **S17:** Implies support for structured and reportable denial data so stakeholders can understand whether denials are clinical or administrative.
+- **S29:** Recommends additional data collection on denials, claim outcomes when PA was sought, and related prior authorization measures.
+- **S66-S82:** Provides detailed RFI responses on laboratory testing, including patient care impacts, provider burden, TRF documentation, retroactive denials, LBMs, workforce burden, and improvement opportunities.
+
+## 6. RECOMMENDATIONS
+
+1. Require payers to adopt expert clinical practice guidelines, such as NCCN, for genetic and genomic testing coverage eligibility.
+2. Increase payer and LBM transparency regarding PA requirements, denials, claim outcomes, and related data.
+3. Require payers to disclose coverage and utilization management policies and identify any LBM or third party managing them.
+4. Require contact information for any LBM or third-party utilization manager.
+5. Explore requiring payers to accept PA requests from clinical laboratories in certain circumstances.
+6. Ban denials based solely on PA being sought or obtained after the laboratory test date of service.
+7. Instruct payers to accept TRFs as medical necessity documentation when sufficient.
+8. Establish standard criteria for clinical laboratory tests subject to PA.
+9. Create and promote a public mechanism for reporting payer or subcontractor noncompliance with PA procedures.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Delayed or denied hereditary cancer genetic and biomarker testing, opaque LBM criteria, inconsistent payer policies, inability of laboratories to submit or appeal PA requests, and administrative burden.
+- **Potential negative impacts cited:** Delayed surgery or treatment decisions, missed personalized medicine opportunities, disparities for rural and smaller practices, unresolved denials, worse outcomes, workforce burnout.
+- **Implementation barriers mentioned:** Lack of staff in small practices, payer refusal to accept laboratory PA submissions, retroactive date-of-service rules, incomplete transparency around LBM roles.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** Inherited gene mutations account for approximately 10% of all cancers; a 2025 AMA survey found nearly 90% of physicians reported PA significantly increases burnout, with nearly 40 PA requests per week consuming roughly 13 hours.
+- **Studies or research referenced:** Pederson and Narod 2024; Delacroix et al. 2025; Szmyd et al. 2026; Wilke et al. 2024; OIG reports on MA denials; NCCN hereditary cancer guidelines; MolDX billing article.
+- **Examples provided:** EviCore denials based on documentation of the most informative family member; Carelon criteria that are allegedly more stringent than clinical practice guidelines; refusal by some Carelon-associated payers to accept PA after date of service.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Patients at hereditary cancer risk, cancer patients needing biomarker testing, genetic counselors, ordering clinicians, clinical laboratories, smaller community practices, rural communities, payers, LBMs, and CMS.
+- **Economic implications:** Providers and laboratories must dedicate staff or vendors to PA; unresolved denials shift costs to patients, laboratories, or self-pay arrangements; delayed prevention may increase downstream costs.
+- **Technical feasibility:** The comment focuses more on policy and documentation than technical API feasibility; TRF acceptance and standardized criteria appear administratively feasible if adopted by payers.
+- **Patient care impact:** Delayed or denied testing can delay surgery or treatment selection, impede cascade testing and prevention, and worsen inequities in access to precision medicine.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned.
+- **Tone:** Professional, evidence-based, and critical of current payer/LBM practices.
+- **Priority level:** High.
+
+## 11. KEY QUOTES
+
+1. "Genetic testing is a foundational component of personalized and precision medicine." - Context: Explaining why laboratory testing access matters.
+2. "This can cause patients to forgo medically appropriate testing" - Context: Impact of PA denials and appeals burden.
+3. "There is little transparency." - Context: LBM involvement and payer policy disclosure.
+4. "Ban payers from denying coverage for laboratory tests based on prior authorization being sought or obtained after the date of service." - Context: Specific recommendation.
+
+## 12. THEMES
+
+- [x] **PROVIDER-BURDEN** - Describes significant staffing and workflow burden for clinicians, genetic counselors, and laboratories.
+- [x] **COST-RESOURCES** - Notes multiple full-time staff, vendor costs, unresolved denials, and self-pay workarounds.
+- [x] **HEALTH-EQUITY** - Identifies disparities for smaller community and rural practices and for patients who cannot navigate or afford alternatives.
+- [x] **PATIENT-ACCESS** - Focuses on access to hereditary cancer genetic and biomarker testing.
+- [x] **TRANSPARENCY** - Calls for payer/LBM disclosure of policies, denials, claim outcomes, and contact information.
+- [x] **TECHNICAL-FEASIBILITY** - Discusses operational feasibility of accepting TRFs and laboratory-submitted PA requests.
+- [x] **EXISTING-WORKFLOWS** - Explains that laboratory test timing and specimen dates do not always fit conventional prior authorization workflows.
+- [x] **STAKEHOLDER-COORDINATION** - Involves patients, physicians, genetic counselors, laboratories, payers, LBMs, MACs, and CMS.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+16057 Tampa Palms Blvd. W. #373 | Tampa, FL 33647 | FacingOurRisk.org
+
+June 15, 2026
+
+Dr. Mehmet Oz, Administrator
+Centers for Medicare & Medicaid Services
+U.S. Department of Health and Human Services
+200 Independence Avenue, SW
+Washington, DC 20001
+
+Re: Request for Information: Laboratory Tests and Durable Medical Equipment, Prosthetics, Orthotics, and Supplies Background (CMS-0062-P)
+
+Dear Dr. Oz,
+
+FORCE: Facing Our Risk of Cancer Empowered appreciates the opportunity to provide comments in response to the Request for Information (RFI) on how prior authorization affects laboratory testing in patients with or at risk of hereditary cancers.
+
+Founded in 1999, FORCE is a leading national nonprofit organization representing individuals and families affected by hereditary cancers. We provide up-to-date, expert-reviewed information and resources that help people make informed medical decisions...

@@ -1,0 +1,172 @@
+﻿REGULATORY COMMENT ANALYSIS
+===========================
+Comment ID: CMS-2026-1255-0670_20260629111952_288fe32e
+Commenter: Coalition for 21st Century Medicine
+Source: PDF Attachment
+Analysis Date: 2026-06-30 12:32:24
+==================================================
+
+## 1. COMMENTER INFORMATION
+
+- **Author/Organization name:** Coalition for 21st Century Medicine (C21); signed by Dan Todd, Acting Executive Director, Coalition for 21st Century Medicine and Principal, Todd Strategy Group.
+- **Stakeholder type:** Professional Association; Healthcare Provider/Laboratory coalition.
+- **Credentials or expertise mentioned:** C21 represents advanced diagnostic laboratories that develop and perform molecular, biomarker, cancer, transplant, rare disease, and other personalized medicine tests. C21 also conducted a CY2025 member survey on prior authorization experience.
+
+## 2. EXECUTIVE SUMMARY
+
+C21 urges CMS to move beyond information gathering and adopt enforceable reforms for laboratory prior authorization, especially in Medicare Advantage. It asks CMS to prohibit MA PA for tests already covered by NCDs/LCDs, require acceptance of clinician-executed TRFs, bar DOS/timing and procedural denials for medically necessary tests, preserve medical-necessity appeals, allow laboratories to initiate PA and appeals, codify existing exceptions, and strengthen oversight of MA plans and LBMs.
+
+## 3. REGULATORY CONTEXT
+
+- **Specific provisions addressed:** GENERAL; PA-DENIAL-REASONS; PA-TIMEFRAMES-DRUGS; API-USAGE-METRICS; STATE-EXTENSION-PROCESS indirectly through Medicaid FFS concerns; TRANSPARENCY-related API/reporting concepts; PA-DRUG-MEDICAL indirectly through laboratory testing PA workflows.
+- **Regulatory citations mentioned:** 42 CFR 493.1241; 42 CFR 422.113(a); 91 Fed. Reg. 19890; NCD 210.3; NCD 90.2; MolDX article A59792.
+- **Standards referenced:** Test Requisition Forms (TRFs); electronic prior authorization; no specific FHIR IG, NCPDP, HL7, or X12 standard is named in the analyzed text.
+
+## 4. DETAILED POSITIONS
+
+**Topic 1: MA PA for NCD/LCD-covered laboratory tests**
+- **Provision ID:** GENERAL
+- **Position:** Oppose
+- **Rationale:** Tests already covered under NCDs or LCDs have established coverage criteria, and additional PA is duplicative and often used to deny medically necessary Medicare-covered services.
+- **Specific request:** Prohibit MA plans from imposing PA on laboratory tests covered by applicable NCDs or LCDs.
+
+**Topic 2: TRFs as sufficient documentation**
+- **Provision ID:** GENERAL; PA-DENIAL-REASONS
+- **Position:** Support
+- **Rationale:** TRFs are part of the medical record under laboratory workflows and often contain all information needed to establish medical necessity, while laboratories lack direct access to full clinical records.
+- **Specific request:** Require MA plans to accept clinician-completed TRFs as sufficient stand-alone documentation when they contain required medical-necessity information and prohibit duplicative record requests.
+
+**Topic 3: DOS and timing denials**
+- **Provision ID:** PA-DENIAL-REASONS
+- **Position:** Oppose
+- **Rationale:** For blood, saliva, and tissue testing, the specimen collection date often precedes laboratory receipt or even clinical knowledge that additional testing is needed, making pre-DOS authorization impossible.
+- **Specific request:** Prohibit PA and claim denials based on DOS timing or other administrative requirements when laboratory testing is medically necessary.
+
+**Topic 4: Appeal rights and laboratory initiation of PA/appeals**
+- **Provision ID:** GENERAL; PA-DENIAL-REASONS
+- **Position:** Modify
+- **Rationale:** Procedural denials and payer restrictions can prevent any meaningful review of medical necessity, leaving laboratories without a reimbursement path after performing urgent testing.
+- **Specific request:** Ensure denials can always be appealed on medical-necessity grounds, forward upheld denials to external review, and permit laboratories to initiate PA requests and appeals for services they perform.
+
+**Topic 5: MA and LBM oversight/enforcement**
+- **Provision ID:** API-USAGE-METRICS; GENERAL
+- **Position:** Modify
+- **Rationale:** C21 says clarifications have not stopped systemic noncompliance, especially where MA plans or delegated LBMs apply inconsistent criteria, inappropriate denials, or recoupments.
+- **Specific request:** Establish a systemic complaint/escalation mechanism, conduct audits, require public reporting of denials and appeals, consider penalties or MA Star Ratings impacts, and impose corrective action for repeated noncompliance.
+
+**Topic 6: Automation limits**
+- **Provision ID:** GENERAL
+- **Position:** Clarify
+- **Rationale:** Automation can reduce manual entry and improve status transparency but may also scale inappropriate coverage criteria, duplicative documentation demands, and refusal of retroactive authorization.
+- **Specific request:** Ensure automation accepts sufficient TRFs, does not add coverage criteria beyond FFS Medicare/NCD/LCD requirements, and supports oversight through standardized reporting.
+
+## 5. SOLICITATION RESPONSES
+
+- **S16:** C21 directly addresses denial reasons, urging CMS to prohibit DOS/timing and procedural denials for medically necessary laboratory services and require medical necessity to govern coverage and payment.
+- **S17:** C21 supports clearer denial categorization through reporting that distinguishes prior authorization denials from documentation, medical necessity, procedural, and other denial reasons.
+- **S20/S43:** C21 describes laboratory PA timing as often impossible before specimen collection or date of service and asks CMS to allow retrospective review and prohibit timing-based denials.
+- **S29:** C21 recommends reporting on PA and claim denial rates, appeal outcomes, overturn rates, utilization management metrics, and denial reasons broader than authorization-specific categories.
+- **S30:** C21 does not focus on privacy protections for metrics, but its recommended metrics are plan- and process-level oversight data.
+- **S34/S35:** C21 supports public reporting and transparency of PA outcomes, denial patterns, appeals, and plan compliance metrics, though it does not specify a reporting frequency.
+- **S36/S38/S39:** C21 references Medicaid FFS barriers, including Texas not permitting laboratories to submit PA requests, and urges CMS to use its authority across programs; it does not address the state extension process directly.
+- **S66-S82:** C21 responds extensively to the RFI on laboratory tests, covering patient care, burden, TRFs, DOS timing, LBMs, automation, technology gaps, workforce impacts, and enforcement.
+
+## 6. RECOMMENDATIONS
+
+1. Prohibit MA plans from requiring PA for laboratory tests covered by applicable NCDs or LCDs.
+2. Require MA plans to accept clinician-executed TRFs as sufficient medical-necessity documentation when complete.
+3. Bar MA plans from denying PA or claims for medically necessary lab services based on DOS timing or other administrative requirements.
+4. Clarify that medical necessity, not date of service, governs laboratory coverage and payment.
+5. Ensure denied claims can always be appealed on medical-necessity grounds, even after procedural or PA denials.
+6. Require upheld denials to proceed to external review.
+7. Permit laboratories to initiate PA requests and appeals for services they perform.
+8. Codify existing PA exceptions, including out-of-network MA PPO services and other services identified in CMS guidance.
+9. Establish systemic complaint, escalation, audit, and enforcement mechanisms for MA PA noncompliance.
+10. Hold MA plans accountable for delegated LBM conduct.
+11. Require public reporting of denial rates, appeal outcomes, overturn rates, and utilization management metrics.
+12. Use technology and automation only after correcting underlying policy issues such as TRF acceptance, NCD/LCD consistency, and laboratory participation rights.
+
+## 7. CONCERNS & OBJECTIONS
+
+- **Primary concerns:** Misuse of PA by MA plans, refusal to accept TRFs, DOS/timing denials, duplicative documentation, inability of laboratories to initiate PA or appeals, PA for NCD/LCD-covered tests, LBM accountability gaps, and weak CMS enforcement pathways.
+- **Potential negative impacts cited:** Delayed or denied reimbursement, repeat procedures or specimens, disrupted care coordination, reduced access to advanced diagnostics, uncompensated testing, reduced innovation investment, provider and billing staff burnout, and persistent inappropriate denials.
+- **Implementation barriers mentioned:** Laboratory lack of access to full medical records, specimens collected by third parties, specimen shipping delays, tissue diagnosis timing, payer-specific requirements, short claim submission windows, restrictions on laboratory appeals, electronic workflows that still demand records, and ineffective escalation channels.
+
+## 8. SUPPORTING EVIDENCE
+
+- **Data or statistics cited:** C21 survey reported a median of about 45 percent of all claims subject to PA, with one laboratory reporting up to 98 percent; a median of roughly 12 percent of MA claims denied for PA-related issues, with some as high as 64 percent; a median of about 28 percent of denials citing insufficient documentation despite TRF submission; some laboratories reported more than half to nearly three-quarters of such denials despite complete TRFs; a median of about 40 percent of NCD/LCD-covered test claims requiring PA; appealed denials overturned at 29-71 percent; a median of roughly 11 percent of denials categorically ineligible for appeal; a median of about 15 percent of appealed denials upheld without clear explanation; AMA 2025 survey finding 94 percent of physicians report PA increases burnout and physicians/staff spend 13 hours weekly on PA.
+- **Studies or research referenced:** C21 member survey based on CY2025 experiences; 2022 HHS OIG report on MA PA denials; GAO oversight findings; MolDX A59792; AMA 2025 Prior Authorization Physician Survey; CMS blog on moving PA into the 21st century.
+- **Examples provided:** Texas Medicaid FFS prohibiting laboratories from submitting PA requests; blood/saliva specimens arriving 48+ hours after collection; tissue testing where malignancy is not known until pathology after collection; MA plans requesting records for blood-based colorectal cancer screening under NCD 210.3 despite TRF demographics/ICD-10; Humana Liquid Biopsy MA policy allegedly adding criteria beyond NCD 90.2; payers blocking new authorization requests after prior denials; recoupment after successful appeals.
+
+## 9. IMPACT ASSESSMENT
+
+- **Affected stakeholders:** Advanced diagnostic laboratories, patients with cancer/rare/chronic conditions, ordering clinicians, MA organizations, Medicaid FFS and managed care programs, QHPs, LBMs, billing staff, CMS oversight teams, and commercial payers.
+- **Economic implications:** C21 describes multi-million-dollar annual administrative infrastructure, uncompensated testing, recoupments, third-party vendor costs, and diversion of resources from diagnostics innovation.
+- **Technical feasibility:** Technology can help with standardized submissions, transparency, denial tracking, and reporting, but C21 argues policy and enforcement changes are prerequisites because many problems are payer-behavior issues rather than technical limitations.
+- **Patient care impact:** Reform could improve timely access to advanced diagnostics, reduce repeat specimens/procedures, support appropriate therapy selection, and sustain laboratory ability to offer innovative testing.
+
+## 10. SENTIMENT ANALYSIS
+
+- **Overall position:** Concerned
+- **Tone:** Professional, data-driven, urgent, and critical of MA/LBM practices
+- **Priority level:** High
+
+## 11. KEY QUOTES
+
+1. "the time for CMS to act on prior authorization reform is now" - Context: C21 urging CMS to move beyond RFIs and adopt reforms.
+2. "Prohibit MA plans from imposing prior authorization requirements on laboratory tests covered under an applicable NCD or LCD" - Context: C21's first key recommendation.
+3. "Require MA plans to accept clinician-executed TRFs as sufficient" - Context: C21's recommendation on medical-necessity documentation.
+4. "Automation alone cannot address the core challenges" - Context: C21's response on electronic/automated PA limits.
+
+## 12. THEMES
+
+- [x] **IMPLEMENTATION-TIMELINE** - C21 stresses the need for immediate CMS action and describes timing impossibility around specimen collection and date of service.
+- [x] **COST-RESOURCES** - The comment cites multi-million-dollar PA infrastructure, uncompensated testing, appeal costs, and resources diverted from innovation.
+- [x] **PROVIDER-BURDEN** - Laboratory and ordering-provider administrative burden is central throughout the comment.
+- [x] **TECHNICAL-FEASIBILITY** - C21 distinguishes useful technology from policy problems that automation cannot solve.
+- [x] **PATIENT-ACCESS** - The comment links PA misuse to reduced access to advanced diagnostics and possible repeat specimens/procedures.
+- [x] **REGULATORY-AUTHORITY** - C21 asks CMS to use its authority across MA, Medicaid, QHPs, and other programs and to codify existing agency positions.
+- [x] **STAKEHOLDER-COORDINATION** - The comment addresses laboratories, ordering clinicians, payers, MA plans, Medicaid, QHPs, LBMs, and CMS oversight.
+- [x] **TRANSPARENCY** - C21 requests detailed reporting, denial pattern tracking, public metrics, clear rationales, and complaint escalation.
+- [x] **EXISTING-WORKFLOWS** - The comment is grounded in laboratory specimen collection, TRFs, ordering-provider documentation, retrospective authorization, appeals, and claims workflows.
+- [x] **VENDOR-ECOSYSTEM** - C21 discusses third-party submission vendors and LBMs as delegated payer entities affecting PA and claims processing.
+
+==================================================
+ORIGINAL COMMENT EXCERPT
+------------------------
+June 15, 2026 
+ 
+VIA Regulations.gov  
+ 
+The Honorable Mehmet Oz, M.D., MBA 
+Administrator 
+Centers for Medicare & Medicaid Services 
+Department of Health and Human Services 
+7500 Security Boulevard 
+Baltimore, MD 21244â€“1850 
+ 
+Re: Request for Information: â€œLaboratory Tests and Durable Medical Equipment, 
+Prosthetics, Orthotics, and Supplies Itemsâ€ in [CMS-0062-P]  
+ 
+Dear Administrator Oz: 
+ 
+The Coalition for 21st Century Medicine (C21) appreciates the opportunity to respond to the 
+Centers for Medicare & Medicaid Servicesâ€™ (CMS) Request for Information (RFI) regarding 
+prior authorization for laboratory tests. To inform this response and to help CMS understand the 
+real-world impact of current prior authorization policies on laboratories and the patients they 
+serve, C21 conducted a survey of its member laboratories based on experiences in CY2025. The 
+results, referenced throughout these comments, document the frequency of prior authorization 
+denials for medically necessary testing, the administrative burden these requirements impose, 
+and the downstream consequences for patient access to care. 
+ 
+C21 represents many of the worldâ€™s most innovative advanced diagnostic laboratories. Our 
+mission is to improve the quality of healthcare by encouraging research, development, and 
+commercialization of innovative diagnostic technologies that personalize patient care, improve 
+health outcomes, and reduce healthcare costs. C21 member laboratories develop and perform 
+advanced diagnostic tests that address critical clinical decision points â€” from cancer therapy 
+selection and optimization of mental health medications to detecting transplant rejection and 
+assessing disease activity for treatment guidance.  
+ 
+These complex molecular diagnostic tests analyze DNA, RNA, and protein biomarkers, 
+providing clinicians with the information needed to provide precise treatment decisions for the 
+patients they serve. The use of inform...
